@@ -1,2 +1,166 @@
-# claude-shared
-shared assets for team to use in LLMs
+# DonorDock Claude Shared
+
+Shared files, skills, templates, and assets used by Claude across the DonorDock team. Any team member's Claude can pull from this repo during conversations and skill execution.
+
+## How It Works
+
+- **Skills and plugins** fetch files from this repo via raw GitHub URLs during execution
+- **Public repo** — no auth needed for reads, any Claude session can access files instantly
+- **Team members** can edit files directly in GitHub's web UI (click the pencil icon on any file)
+- **Version history** is automatic — every change is tracked and reversible
+
+### Base URL for Raw Files
+
+```
+https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/
+```
+
+Example — fetching the website sitemap from a skill:
+
+```bash
+curl -s "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/sitemaps/website-sitemap.json"
+```
+
+---
+
+## Repo Structure
+
+```
+├── sitemaps/               ← JSON sitemaps for DonorDock properties
+│   ├── website-sitemap.json
+│   └── helpcenter-sitemap.json  ← Auto-updated weekly by scheduled task
+│
+├── scripts/                ← Reusable standalone scripts
+│   └── scrape-stonly-helpcenter.py  ← Generic Stonly help center scraper
+│
+├── skills/                 ← Skill files (SKILL.md + references)
+│   ├── donordock-helpcenter/  ← Answers product questions from help center
+│   │   └── SKILL.md
+│   ├── ff-article-pipeline/
+│   │   ├── SKILL.md
+│   │   └── references/
+│   │       └── cms-schema.md
+│   └── frontend-design/
+│       └── SKILL.md
+│
+├── assets/                 ← Brand assets (logos, icons, images)
+│   ├── logos/
+│   │   ├── donordock-logo-full.svg
+│   │   ├── donordock-logo-mark.svg
+│   │   └── donordock-logo-white.svg
+│   ├── icons/
+│   │   └── donordock-icon.svg
+│   └── images/
+│       └── .gitkeep
+│
+├── plugins/               ← Distributable plugin packages (.plugin files)
+│   └── donordock-helpcenter.plugin
+│
+├── templates/              ← Reusable templates for content generation
+│   ├── emails/
+│   └── webflow/
+│
+├── reference/              ← Shared reference data (brand, ICP, etc.)
+│
+└── config/                 ← Shared configuration for skills/plugins
+    └── skill-settings.json
+```
+
+---
+
+## File Index
+
+| Path | Description | Owner | Last Updated |
+|------|-------------|-------|--------------|
+| `sitemaps/website-sitemap.json` | Full DonorDock.com sitemap with page titles and URLs | Rob | — |
+| `sitemaps/helpcenter-sitemap.json` | Help center article index (134+ articles with full content), auto-updated weekly | Rob | 2026-03-14 |
+| `scripts/scrape-stonly-helpcenter.py` | Reusable Stonly help center scraper — works for any Stonly-hosted site | Rob | 2026-03-14 |
+| `skills/donordock-helpcenter/SKILL.md` | Answers DonorDock product questions using help center sitemap | Rob | 2026-03-14 |
+| `skills/ff-article-pipeline/SKILL.md` | Focused Fundraiser article generation pipeline | Rob | — |
+| `skills/ff-article-pipeline/references/cms-schema.md` | Webflow CMS collection schemas, IDs, and tags | Rob | — |
+| `skills/frontend-design/SKILL.md` | Frontend design guidelines for distinctive UI work | Rob | — |
+| `assets/logos/` | DonorDock logo SVGs (full, mark, white variants) | Rob | — |
+| `assets/icons/` | DonorDock icon SVGs | Rob | — |
+| `plugins/donordock-helpcenter.plugin` | Packaged help center plugin (skill + scraper + references) | Rob | 2026-03-14 |
+| `config/skill-settings.json` | Shared settings referenced by skills at runtime | Rob | — |
+
+---
+
+## For Team Members
+
+### Reading files (everyone)
+
+No setup needed. When you're chatting with Claude and a skill runs, it automatically fetches what it needs from this repo.
+
+### Editing files
+
+1. Navigate to the file in GitHub
+2. Click the **pencil icon** (edit) in the top right
+3. Make your changes
+4. Add a short description of what you changed in the "Commit changes" box
+5. Click **Commit changes**
+
+That's it — the next time any Claude session fetches that file, it gets the updated version.
+
+### Adding new files
+
+1. Navigate to the folder where the file should live
+2. Click **Add file** → **Create new file**
+3. Name it and add content
+4. Commit
+
+### Updating the index
+
+When you add or significantly change a file, update the **File Index** table in this README so the team knows what's available.
+
+---
+
+## For Skill Developers
+
+### Fetching files in a skill
+
+```bash
+# Simple fetch
+SITEMAP=$(curl -s "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/sitemaps/website-sitemap.json")
+
+# Fetch and save locally for processing
+curl -s "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/sitemaps/helpcenter-sitemap.json" \
+  -o /home/claude/helpcenter-sitemap.json
+
+# Fetch an SVG asset
+curl -s "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/logos/donordock-logo-full.svg" \
+  -o /home/claude/logo.svg
+```
+
+### Writing back to the repo (requires token)
+
+For skills that need to update files (e.g., refreshing a sitemap):
+
+```bash
+# Base64 encode the content
+CONTENT=$(base64 -w 0 updated-sitemap.json)
+
+# Get the current file's SHA (required for updates)
+SHA=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+  "https://api.github.com/repos/DonorDock-team/claude-shared/contents/sitemaps/website-sitemap.json" \
+  | jq -r '.sha')
+
+# Update the file
+curl -X PUT \
+  -H "Authorization: token $GITHUB_TOKEN" \
+  -H "Content-Type: application/json" \
+  "https://api.github.com/repos/DonorDock-team/claude-shared/contents/sitemaps/website-sitemap.json" \
+  -d "{\"message\":\"Auto-update website sitemap\",\"content\":\"$CONTENT\",\"sha\":\"$SHA\"}"
+```
+
+Store the token in `config/skill-settings.json` or pass it as a skill parameter.
+
+---
+
+## Conventions
+
+- **Filenames**: lowercase, kebab-case (`website-sitemap.json`, not `Website Sitemap.json`)
+- **Format**: Markdown (`.md`) for docs, JSON for structured data, SVG for vector graphics
+- **One topic per file**: Easier to find, fetch, and update
+- **Summary at top**: Every `.md` file should start with a 1-2 sentence description of what it contains
+- **No secrets**: This is a public repo. Never commit API keys, tokens, or passwords. Use `config/skill-settings.json` with placeholder values and inject real values at runtime.
