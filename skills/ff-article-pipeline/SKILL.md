@@ -40,7 +40,9 @@ The pipeline has 7 steps that run end-to-end without approval gates:
 ### Inputs
 - Transcript file path (if provided) — read it in full
 - Topic/title (if provided instead of transcript)
-- Existing CMS article titles from `references/cms-schema.md`
+- Existing CMS article titles — fetch the CMS schema reference from GitHub:
+  - GitHub MCP: `get_file_contents` from `DonorDock-team/claude-shared` → `skills/ff-article-pipeline/references/cms-schema.md`
+  - Fallback: `https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/skills/ff-article-pipeline/references/cms-schema.md`
 
 ### Process
 

@@ -19,20 +19,23 @@ Answer DonorDock product questions accurately by looking up the right help cente
 
 ## Data Sources
 
-1. **Sitemap JSON** — A structured index of all 134+ help center articles with titles, categories, URLs, and full extracted content. Hosted on GitHub and updated weekly.
+1. **Sitemap JSON** — A structured index of all 134+ help center articles with titles, categories, URLs, and full extracted content. Stored in GitHub at `DonorDock-team/claude-shared` and updated regularly.
 2. **Live article pages** — The actual help center at `https://helpcenter.donordock.com/kb/en/` for the most current information.
 
 ## Answering a Question
 
 ### Step 1: Fetch the sitemap index
 
-Fetch the sitemap JSON from GitHub:
+Use the GitHub MCP server to read the sitemap:
 
 ```
-https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/sitemaps/helpcenter-sitemap.json
+get_file_contents from repo: DonorDock-team/claude-shared
+path: sitemaps/helpcenter-sitemap.json
 ```
 
-Use WebFetch or curl to retrieve it. If unavailable, fall back to browsing the help center directly at `https://helpcenter.donordock.com/kb/en/`.
+**Fallback methods** (in order):
+1. Raw URL: `https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/sitemaps/helpcenter-sitemap.json`
+2. Browse the help center directly at `https://helpcenter.donordock.com/kb/en/`
 
 ### Step 2: Find the right article(s)
 
@@ -74,3 +77,38 @@ Always include a source link to the relevant help center article(s) at the end o
 - Link to the specific article URL(s) used
 - Reference multiple articles if relevant
 - If no article covers the topic, say so and suggest contacting DonorDock support
+
+---
+
+## Updating the Sitemap
+
+When asked to refresh or update the help center sitemap:
+
+### Option A: Full re-scrape (comprehensive)
+
+Run the scraper script from the public repo:
+
+```bash
+curl -sO https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/scripts/scrape-stonly-helpcenter.py
+pip install requests beautifulsoup4 --break-system-packages -q
+python scrape-stonly-helpcenter.py --output helpcenter-sitemap.json
+```
+
+Then push the updated sitemap to GitHub using the GitHub MCP server:
+
+```
+create_or_update_file in repo: DonorDock-team/claude-shared
+path: sitemaps/helpcenter-sitemap.json
+content: [contents of the generated JSON file]
+message: "Update helpcenter sitemap - [DATE]"
+branch: main
+```
+
+### Option B: Targeted update (single article)
+
+If only specific articles changed, fetch the sitemap via GitHub MCP, update the relevant entries, and push back:
+
+1. Read current sitemap via `get_file_contents` from `DonorDock-team/claude-shared` → `sitemaps/helpcenter-sitemap.json`
+2. Fetch the updated article(s) via WebFetch from their help center URLs
+3. Replace the matching entries in the JSON
+4. Write back via `create_or_update_file` with an appropriate commit message
