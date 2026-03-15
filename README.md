@@ -4,7 +4,6 @@ Shared files, skills, templates, and assets used by Claude across the DonorDock 
 
 ## How It Works
 
-- **Skills and plugins** fetch files from this repo via raw GitHub URLs during execution
 - **Public repo** — no auth needed for reads, any Claude session can access files instantly
 - **Team members** can edit files directly in GitHub's web UI (click the pencil icon on any file)
 - **Version history** is automatic — every change is tracked and reversible
