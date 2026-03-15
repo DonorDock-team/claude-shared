@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "description": "Shared configuration for DonorDock Claude skills and plugins. Skills fetch this at runtime for IDs, settings, and references.",
+    "instructions": "Never commit real API keys or tokens here. Use placeholder values and inject secrets at runtime."
+  },
+  "webflow": {
+    "site_id": "63ce9d04b1ff6e36cf514274",
+    "collections": {
+      "articles": "6532889f2379aa018d3520b7",
+      "tags": "6532889f2379aa018d35206b",
+      "categories": "6532889f2379aa018d352166",
+      "people": "6532889f2379aa018d3520ff"
+    },
+    "default_author": {
+      "name": "Rob Burke",
+      "id": "6532889f2379aa018d352707"
+    }
+  },
+  "github": {
+    "repo": "DonorDock-team/claude-shared",
+    "raw_base_url": "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main",
+    "token_placeholder": "INJECT_AT_RUNTIME"
+  },
+  "brand": {
+    "primary_color": "#2563eb",
+    "company_name": "DonorDock",
+    "website": "https://www.donordock.com",
+    "help_center": "https://help.donordock.com",
+    "blog_url": "https://www.donordock.com/blog"
+  }
+}

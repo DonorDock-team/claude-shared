@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "description": "DonorDock.com website sitemap. Used by skills to find valid internal links and page references.",
+    "last_updated": "",
+    "instructions": "Keep this updated when pages are added, removed, or renamed. Skills use this to validate internal links and find relevant pages to reference."
+  },
+  "pages": [
+    {
+      "url": "https://www.donordock.com/",
+      "title": "DonorDock — Nonprofit CRM",
+      "section": "home",
+      "description": "Homepage"
+    },
+    {
+      "url": "https://www.donordock.com/features",
+      "title": "Features",
+      "section": "product",
+      "description": "Full feature overview"
+    }
+  ]
+}
