@@ -1,0 +1,12 @@
+{
+  "_description": "Shared log tracking which transcripts have been processed by each scheduled task. Each task adds its own key to the entry when it finishes processing a transcript. Tasks should check this log before processing and update it after completing their work.",
+  "_schema": {
+    "filename": "The transcript filename (e.g., 'episode-42.txt')",
+    "folder": "Which folder the transcript came from ('Transcripts' or 'Shorts Transcripts')",
+    "ff-article-pipeline": "ISO timestamp when this task processed the transcript, or null if not yet processed",
+    "podcast-metadata-creator": "ISO timestamp when this task processed the transcript, or null if not yet processed",
+    "weekly-ff-email": "ISO timestamp when this task processed the transcript, or null if not yet processed",
+    "ff-social-posts": "ISO timestamp when this task processed the transcript, or null if not yet processed"
+  },
+  "transcripts": []
+}
