@@ -15,9 +15,33 @@ This skill runs a complete pipeline that takes a transcript (or topic) and produ
 
 ## Required Context
 
-- Apply the `donordock-brand-icp` skill if available for voice, ICP, and positioning guidance
+- Apply the `donordock-brand-identity` skill if available for voice, ICP, visual, and positioning guidance
 - Treat each post as a standalone article even when source material is a shared transcript
 - All articles target experienced but stretched nonprofit operators, not beginner fundraisers
+
+## Shared Resources (GitHub)
+
+The CMS schema and website sitemap live in the `DonorDock-team/claude-shared` GitHub repo under the `sitemaps/` folder. These are the single source of truth and should always be fetched fresh at the start of every pipeline run so you're working with the latest data (tags, categories, URLs, etc.) rather than stale bundled copies.
+
+At the beginning of Step 1, use the GitHub `get_file_contents` tool to fetch both files:
+
+| File | Repo Path | What it contains |
+|------|-----------|------------------|
+| CMS Schema | `sitemaps/cms-schema.md` | Collection IDs, field schema, tag/category IDs, author IDs, CMS item creation template |
+| Website Sitemap | `sitemaps/website-sitemap.json` | donordock.com pages with URLs, titles, sections — use for internal linking |
+
+```
+Owner: DonorDock-team
+Repo: claude-shared
+Paths:
+  - sitemaps/cms-schema.md
+  - sitemaps/website-sitemap.json
+```
+
+These files provide:
+- **Tag and category IDs** for CMS publishing (from cms-schema.md)
+- **Valid internal link targets** for articles (from the website sitemap)
+- **Content audit data** to avoid duplicating existing topics (cross-reference with CMS article list)
 
 ---
 
@@ -40,25 +64,27 @@ The pipeline has 7 steps that run end-to-end without approval gates:
 ### Inputs
 - Transcript file path (if provided) — read it in full
 - Topic/title (if provided instead of transcript)
-- Existing CMS article titles — fetch the CMS schema reference from GitHub:
-  - GitHub MCP: `get_file_contents` from `DonorDock-team/claude-shared` → `skills/ff-article-pipeline/references/cms-schema.md`
-  - Fallback: `https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/skills/ff-article-pipeline/references/cms-schema.md`
 
 ### Process
 
-1. **Read the transcript or topic** thoroughly. Extract every distinct theme, insight, quote, and actionable takeaway.
+1. **Fetch shared resources from GitHub** — Before anything else, use the GitHub `get_file_contents` tool (owner: `DonorDock-team`, repo: `claude-shared`) to fetch both sitemaps files in parallel:
+   - `sitemaps/cms-schema.md` — for CMS field schema, tag/category IDs, author IDs, and the item creation template
+   - `sitemaps/website-sitemap.json` — for valid donordock.com page URLs to use as internal links
 
-2. **Audit existing DonorDock articles** for content gaps:
+2. **Read the transcript or topic** thoroughly. Extract every distinct theme, insight, quote, and actionable takeaway.
+
+3. **Audit existing DonorDock articles** for content gaps:
    - Use the Webflow `data_cms_tool` to list recent articles in collection `6532889f2379aa018d3520b7` (fetch 30-50 items with `sortBy: lastPublished, sortOrder: desc`)
    - Compare themes from the transcript against existing article titles and previews
+   - Cross-reference against the website sitemap to understand what content already exists across DonorDock properties
    - Identify 2 angles that fill genuine gaps — topics the blog hasn't covered or hasn't covered recently
 
-3. **Web research** to gather 3-5 supporting data points per angle from trusted nonprofit sources:
-   - Acceptable: FEP, Giving USA, AFP, Nonprofit Quarterly, Chronicle of Philanthropy, NTEN, BoardSource, National Council of Nonprofits
-   - Never use competitor CRM sources (Bloomerang, Little Green Light, Neon, Kindful, etc.) as citation sources
+4. **Web research** to gather 3-5 supporting data points per angle from trusted nonprofit sources:
+   - Acceptable: FEP, Giving USA, AFP, Nonprofit Quarterly, Chronicle of Philanthropy, NTEN, BoardSource, National Council of Nonprofits, and others like them
+   - Never use competitor CRM sources (Bloomerang, Little Green Light, Neon, Kindful, Networkforgood, donor perfect, etc.) as citation sources
    - Never fabricate URLs or statistics
 
-4. **Output**: Present both article angles with:
+5. **Output**: Present both article angles with:
    - Working title
    - Target search query (what someone would Google to find this)
    - 2-3 sentence summary of the angle
@@ -72,7 +98,7 @@ Then proceed directly to writing.
 
 ### Article Requirements
 
-- **Length**: 1,600–2,400 words
+- **Length**: 1,600-2,400 words
 - **Structure**: H1 title → H2 sections → H3 subsections where needed
 - **Voice**: Second person ("you/your") throughout. Warm, practical, direct. No jargon walls. Write like a smart colleague who respects the reader's time.
 - **Format constraints**:
@@ -93,7 +119,8 @@ Then proceed directly to writing.
 ### Internal Linking
 
 - Include 2-4 validated internal links to existing DonorDock pages
-- Only link to URLs you have confirmed exist on donordock.com (from the CMS audit or from `references/cms-schema.md`)
+- Only link to URLs confirmed to exist in the website sitemap (`sitemaps/website-sitemap.json`) or the CMS article list fetched via Webflow
+- Website sitemap links work well for linking to product pages, pricing, or feature overview pages
 - Never fabricate or guess a DonorDock URL
 - Use descriptive anchor text, not "click here" or "learn more"
 
@@ -106,13 +133,40 @@ Then proceed directly to writing.
 
 ### Output Format
 
-Write the article body in clean HTML suitable for Webflow rich text:
-- Use `<h2>`, `<h3>` for headings (no `<h1>` — that's the CMS title field)
-- Use `<p>` for paragraphs
-- Use `<ul><li>` or `<ol><li>` for lists
-- Use `<a href="...">` for links
-- Use `<strong>` for bold emphasis
+Write the article body in clean HTML suitable for Webflow rich text.
+
+**CRITICAL — Webflow Rich Text API Formatting Rules:**
+
+Webflow's CMS API will **silently strip HTML elements** (especially lists) that contain whitespace or newlines between tags. The entire article HTML must be submitted as a **single continuous string with zero newlines or extra whitespace between tags**. This is the #1 cause of lists and other elements disappearing after publish.
+
+**Required format (all inline, no `\n` between tags):**
+```
+<p>Here is a list:</p><ul><li>First item</li><li>Second item</li><li>Third item</li></ul><p>Next paragraph.</p>
+```
+
+**Broken format (newlines between tags — Webflow WILL strip the list):**
+```
+<ul>
+<li>First item</li>
+<li>Second item</li>
+</ul>
+```
+
+**Allowed tags:**
+- `<h2>`, `<h3>` for headings (no `<h1>` — that's the CMS title field)
+- `<p>` for paragraphs
+- `<ul><li>` or `<ol><li>` for lists — must be inline with no newlines between tags
+- `<a href="...">` for links
+- `<strong>` for bold emphasis (use sparingly inside `<li>` tags)
+- `<blockquote>` for pull quotes
+
+**Forbidden:**
 - No inline styles, no classes, no divs
+- No newlines (`\n`) or extra whitespace between any HTML tags in the final output string
+- No `<br>` tags (use separate `<p>` tags instead)
+- No `<table>` elements (Webflow rich text renders them poorly)
+
+**Implementation note:** When passing the HTML string to the `blog-post-summary` field in the Webflow CMS API call, the entire HTML body must be a single unbroken string value. Do NOT use multiline strings, template literals, or any format that introduces `\n` characters between HTML tags. Build the string as one continuous line of HTML. This applies to both `create_collection_items` and `update_collection_items` calls.
 
 ---
 
@@ -127,8 +181,8 @@ Generate these fields from the completed article:
 | **Slug** | Kebab-case, concise, keyword-rich (e.g., `nonprofit-crm-migration-checklist`) |
 | **Reading Time** | Calculate at ~250 WPM, output just the number (e.g., `7`) |
 | **Blog Post Preview** | 1-2 sentence excerpt for the article card (under 200 chars) |
-| **Tags** | 2-4 tag IDs from the known tags list in `references/cms-schema.md` |
-| **Categories** | 1-2 category IDs from the known categories list in `references/cms-schema.md` |
+| **Tags** | 2-4 tag IDs from the tags list in the CMS schema (fetched from GitHub in Step 1) |
+| **Categories** | 1-2 category IDs from the categories list in the CMS schema (fetched from GitHub in Step 1) |
 | **Author** | `6532889f2379aa018d352707` (Rob Burke) unless specified otherwise |
 
 ---
@@ -141,7 +195,7 @@ Create a Nano Banana prompt for a 1920x1080 blog hero graphic that:
 - Visually represents the article's core theme
 - Has high click intent — would make someone want to read the article in a social feed or search result
 - Uses a clean, modern, professional aesthetic suitable for a nonprofit SaaS brand
-- Avoids stock photo clichés (no handshakes, no generic "diverse team smiling at laptop")
+- Avoids stock photo cliches (no handshakes, no generic "diverse team smiling at laptop")
 - Works well with text overlay (leave visual breathing room, avoid busy center compositions)
 - Uses warm, approachable colors that complement DonorDock's brand palette (blues, greens, warm neutrals)
 
@@ -160,7 +214,7 @@ Call the `nanobanana_generate_image` MCP tool:
 - **model**: `nanobanana2`
 - **aspect_ratio**: `16:9`
 - **image_size**: `2K` (will be compressed down)
-- **output_dir**: `/sessions/wizardly-loving-einstein/` (working directory)
+- **output_dir**: Use the current session's working directory (e.g., `/sessions/<session-name>/`)
 
 ### Compress to WebP
 
@@ -171,13 +225,28 @@ After generation, compress the PNG to WebP format:
 which cwebp || (apt-get update -qq && apt-get install -y -qq webp)
 
 # Compress to WebP, quality 80, targeting under 200KB
-cwebp -q 80 -resize 1920 1080 "[INPUT_PATH]" -o "/sessions/wizardly-loving-einstein/article-1-hero.webp"
+cwebp -q 80 -resize 1920 1080 "[INPUT_PATH]" -o "[WORKING_DIR]/article-1-hero.webp"
 
 # Check file size — if over 200KB, re-compress at lower quality
-FILE_SIZE=$(stat -f%z "/sessions/wizardly-loving-einstein/article-1-hero.webp" 2>/dev/null || stat -c%s "/sessions/wizardly-loving-einstein/article-1-hero.webp")
+FILE_SIZE=$(stat -f%z "[WORKING_DIR]/article-1-hero.webp" 2>/dev/null || stat -c%s "[WORKING_DIR]/article-1-hero.webp")
 if [ "$FILE_SIZE" -gt 204800 ]; then
-  cwebp -q 65 -resize 1920 1080 "[INPUT_PATH]" -o "/sessions/wizardly-loving-einstein/article-1-hero.webp"
+  cwebp -q 65 -resize 1920 1080 "[INPUT_PATH]" -o "[WORKING_DIR]/article-1-hero.webp"
 fi
+```
+
+If cwebp is not available, use Python Pillow as a fallback:
+```bash
+pip install Pillow --break-system-packages -q
+python3 -c "
+from PIL import Image
+import os
+img = Image.open('[INPUT_PATH]')
+img = img.resize((1920, 1080), Image.LANCZOS)
+img.save('[WORKING_DIR]/article-1-hero.webp', 'WEBP', quality=80)
+size = os.path.getsize('[WORKING_DIR]/article-1-hero.webp')
+if size > 204800:
+    img.save('[WORKING_DIR]/article-1-hero.webp', 'WEBP', quality=65)
+"
 ```
 
 Save the final WebP path for use in the Webflow publish step.
@@ -219,6 +288,8 @@ Note: If the asset_tool doesn't support direct file upload, the image will need 
 
 For each article, create a draft item using `data_cms_tool` → `create_collection_items`:
 
+**IMPORTANT: The `blog-post-summary` value MUST be a single continuous HTML string with NO newlines between tags. See Output Format in Step 2.**
+
 ```
 Collection ID: 6532889f2379aa018d3520b7
 
@@ -229,7 +300,7 @@ Request structure:
       "name": "[SEO Title]",
       "slug": "[kebab-case-slug]",
       "blog-post-preview": "[1-2 sentence excerpt]",
-      "blog-post-summary": "[Full article HTML body]",
+      "blog-post-summary": "[Full article HTML body as ONE continuous string — no newlines between tags]",
       "reading-time": "[number only, e.g. 7]",
       "authors-2": "6532889f2379aa018d352707",
       "featured": false,
@@ -244,9 +315,11 @@ Request structure:
 ```
 
 **Formatting verification after publish:**
-- Confirm that headings (h2, h3) survived the write
-- Confirm that lists (ul/ol) are intact
+- Fetch the created item back using `list_collection_items` with the item's slug
+- Confirm that `<ul>` and `<ol>` list blocks survived (they will be missing if newlines were present)
+- Confirm that headings (h2, h3) are intact
 - Confirm that links have proper href attributes
+- If lists were stripped, re-submit the HTML as a single-line string using `update_collection_items`
 
 ### Final Output
 
