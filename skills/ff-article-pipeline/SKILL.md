@@ -19,6 +19,54 @@ This skill runs a complete pipeline that takes a transcript (or topic) and produ
 - Treat each post as a standalone article even when source material is a shared transcript
 - All articles target experienced but stretched nonprofit operators, not beginner fundraisers
 
+## Transcript Processing Log
+
+A shared JSON log at `config/transcript-processing-log.json` in the `DonorDock-team/claude-shared` GitHub repo tracks which transcripts have been processed by each scheduled task. This prevents any transcript from being used twice by the same task.
+
+**When running as a scheduled task (not manual invocation):**
+1. At the start of the pipeline, fetch the log via GitHub `get_file_contents` (owner: `DonorDock-team`, repo: `claude-shared`, path: `config/transcript-processing-log.json`)
+2. Skip any transcript that already has a non-null `ff-article-pipeline` value in the log
+3. After successfully publishing both article drafts, update the log by adding or updating the transcript's entry with the `ff-article-pipeline` key set to the current ISO timestamp
+4. Push the updated log back to GitHub using `create_or_update_file` (include the file's current SHA for the update)
+
+**When running manually:** The log check is optional. If the user explicitly provides a transcript, process it regardless of log status. Still update the log afterward so other tasks know it was used.
+
+**Log entry format:**
+```json
+{
+  "filename": "episode-42.txt",
+  "folder": "Transcripts",
+  "ff-article-pipeline": "2026-03-17T12:00:00Z",
+  "podcast-metadata-creator": null,
+  "weekly-ff-email": null,
+  "ff-social-posts": null
+}
+```
+
+## Article Differentiation Strategy (CRITICAL)
+
+The two articles produced from each transcript MUST be substantially different from each other. They should feel like they were written by different authors for different sections of a magazine. A reader who sees both should never think "these are basically the same article."
+
+**The two articles must differ across ALL of these dimensions:**
+
+| Dimension | Article 1 | Article 2 |
+|-----------|-----------|-----------|
+| **Content type** | Strategic/analytical (frameworks, models, trend analysis, research-backed arguments) | Tactical/actionable (step-by-step guides, templates, checklists, how-to walkthroughs) |
+| **Reader mindset** | "I need to understand this better" (educate, persuade, reframe) | "I need to do this now" (enable, equip, accelerate) |
+| **Primary keyword family** | Broader, higher-volume keyword (e.g., "donor retention strategies") | Specific, long-tail keyword (e.g., "how to write a lapsed donor re-engagement email") |
+| **Structure** | Essay-style with research, data, expert perspective, and narrative flow | Numbered steps, actionable sections, examples, templates, or before/after comparisons |
+| **CTA angle** | Thought leadership (subscribe, share, explore DonorDock's approach) | Utility (try this template, use this checklist, start with DonorDock) |
+| **Tone** | Reflective, analytical, "here's what the data says" | Direct, practical, "here's exactly how to do it" |
+
+**What counts as "too similar" (avoid ALL of these):**
+- Same primary keyword or search intent
+- Same H2 structure or section topics
+- Overlapping advice (if Article 1 says "segment your donors by giving level," Article 2 should NOT repeat that same advice)
+- Same examples or case study scenarios
+- Same DonorDock features highlighted
+
+**Differentiation checkpoint:** Before writing Article 2, explicitly list 3-5 ways it differs from Article 1 across the dimensions above. If you can't identify clear differences, rethink the angle.
+
 ## Shared Resources (GitHub)
 
 The CMS schema and website sitemap live in the `DonorDock-team/claude-shared` GitHub repo under the `sitemaps/` folder. These are the single source of truth and should always be fetched fresh at the start of every pipeline run so you're working with the latest data (tags, categories, URLs, etc.) rather than stale bundled copies.
@@ -28,7 +76,7 @@ At the beginning of Step 1, use the GitHub `get_file_contents` tool to fetch bot
 | File | Repo Path | What it contains |
 |------|-----------|------------------|
 | CMS Schema | `sitemaps/cms-schema.md` | Collection IDs, field schema, tag/category IDs, author IDs, CMS item creation template |
-| Website Sitemap | `sitemaps/website-sitemap.json` | donordock.com pages with URLs, titles, sections — use for internal linking |
+| Website Sitemap | `sitemaps/website-sitemap.json` | donordock.com pages with URLs, titles, sections -- use for internal linking |
 
 ```
 Owner: DonorDock-team
@@ -49,27 +97,28 @@ These files provide:
 
 The pipeline has 7 steps that run end-to-end without approval gates:
 
-1. **Research & Angle Discovery** — Analyze input, audit existing CMS content for gaps, propose angles
-2. **Write Article 1** — Draft a full SEO/AEO article
-3. **Generate Metadata 1** — SEO title, meta description, slug, read time, tags
-4. **Image Creation 1** — Generate hero image via Nano Banana, compress to WebP
-5. **Write Article 2** — Draft a second distinct article from same source
-6. **Generate Metadata 2** — Same metadata process for article 2
-7. **Image Creation 2 + Publish Both** — Generate second hero image, then create both Webflow drafts
+1. **Research & Angle Discovery** -- Analyze input, audit existing CMS content for gaps, propose two deliberately different angles
+2. **Write Article 1** -- Draft a strategic/analytical SEO/AEO article
+3. **Generate Metadata 1** -- SEO title, meta description, slug, read time, tags
+4. **Image Creation 1** -- Generate hero image via Nano Banana, compress to WebP
+5. **Write Article 2** -- Draft a tactical/actionable article (verify differentiation first)
+6. **Generate Metadata 2** -- Same metadata process for article 2
+7. **Image Creation 2 + Publish Both** -- Generate second hero image, create both Webflow drafts, update transcript log
 
 ---
 
 ## Step 1: Research & Angle Discovery
 
 ### Inputs
-- Transcript file path (if provided) — read it in full
+- Transcript file path (if provided) -- read it in full
 - Topic/title (if provided instead of transcript)
 
 ### Process
 
-1. **Fetch shared resources from GitHub** — Before anything else, use the GitHub `get_file_contents` tool (owner: `DonorDock-team`, repo: `claude-shared`) to fetch both sitemaps files in parallel:
-   - `sitemaps/cms-schema.md` — for CMS field schema, tag/category IDs, author IDs, and the item creation template
-   - `sitemaps/website-sitemap.json` — for valid donordock.com page URLs to use as internal links
+1. **Fetch shared resources from GitHub** -- Before anything else, use the GitHub `get_file_contents` tool (owner: `DonorDock-team`, repo: `claude-shared`) to fetch these files in parallel:
+   - `sitemaps/cms-schema.md` -- for CMS field schema, tag/category IDs, author IDs, and the item creation template
+   - `sitemaps/website-sitemap.json` -- for valid donordock.com page URLs to use as internal links
+   - `config/transcript-processing-log.json` -- to check which transcripts have already been processed (scheduled task runs only)
 
 2. **Read the transcript or topic** thoroughly. Extract every distinct theme, insight, quote, and actionable takeaway.
 
@@ -77,33 +126,42 @@ The pipeline has 7 steps that run end-to-end without approval gates:
    - Use the Webflow `data_cms_tool` to list recent articles in collection `6532889f2379aa018d3520b7` (fetch 30-50 items with `sortBy: lastPublished, sortOrder: desc`)
    - Compare themes from the transcript against existing article titles and previews
    - Cross-reference against the website sitemap to understand what content already exists across DonorDock properties
-   - Identify 2 angles that fill genuine gaps — topics the blog hasn't covered or hasn't covered recently
+   - Identify 2 angles that fill genuine gaps -- topics the blog hasn't covered or hasn't covered recently
 
-4. **Web research** to gather 3-5 supporting data points per angle from trusted nonprofit sources:
+4. **Apply the Differentiation Strategy** -- The two angles MUST map to the Article Differentiation Strategy table above:
+   - **Angle 1 (Strategic):** A broader, analytical take. Think "why this matters" or "what the research says." Target a higher-volume keyword.
+   - **Angle 2 (Tactical):** A specific, actionable take. Think "how to do this" or "step-by-step guide." Target a long-tail keyword.
+   - Verify the two angles target different search intents and would attract different click-throughs in search results
+   - If both angles feel similar, discard one and find a genuinely different angle from the transcript
+
+5. **Web research** to gather 3-5 supporting data points per angle from trusted nonprofit sources:
    - Acceptable: FEP, Giving USA, AFP, Nonprofit Quarterly, Chronicle of Philanthropy, NTEN, BoardSource, National Council of Nonprofits, and others like them
    - Never use competitor CRM sources (Bloomerang, Little Green Light, Neon, Kindful, Networkforgood, donor perfect, etc.) as citation sources
    - Never fabricate URLs or statistics
 
-5. **Output**: Present both article angles with:
+6. **Output**: Present both article angles with:
    - Working title
+   - Content type label (Strategic/Analytical or Tactical/Actionable)
    - Target search query (what someone would Google to find this)
    - 2-3 sentence summary of the angle
    - Key supporting data points with sources
+   - How this angle differs from the other one (1 sentence)
 
 Then proceed directly to writing.
 
 ---
 
-## Step 2: Write Article 1
+## Step 2: Write Article 1 (Strategic/Analytical)
 
 ### Article Requirements
 
 - **Length**: 1,600-2,400 words
-- **Structure**: H1 title → H2 sections → H3 subsections where needed
+- **Content type**: Strategic, analytical, research-backed. This article should make the reader think differently about a topic.
+- **Structure**: H1 title -> H2 sections -> H3 subsections where needed. Use essay-style flow with data, expert perspective, and narrative.
 - **Voice**: Second person ("you/your") throughout. Warm, practical, direct. No jargon walls. Write like a smart colleague who respects the reader's time.
 - **Format constraints**:
   - No tables (Webflow rich text handles them poorly)
-  - No em dashes — use commas, periods, or parentheses instead
+  - No em dashes -- use commas, periods, or parentheses instead
   - Short paragraphs (2-4 sentences max)
   - Use scannable lists where they genuinely help
   - Bold key phrases sparingly for scannability
@@ -113,7 +171,7 @@ Then proceed directly to writing.
 - H1 should contain the primary keyword naturally
 - Include the target query verbatim once in the first 150 words
 - Use H2s that could serve as featured snippet answers (question-format H2s work well)
-- Include a "quick answer" paragraph near the top (2-3 sentences that directly answer the target query) — this is your AEO play
+- Include a "quick answer" paragraph near the top (2-3 sentences that directly answer the target query) -- this is your AEO play
 - Naturally weave in 2-3 related long-tail keywords
 
 ### Internal Linking
@@ -128,14 +186,14 @@ Then proceed directly to writing.
 
 - Mention DonorDock 2-4 times naturally within the article
 - On first mention, reference a specific feature by name (e.g., "DonorDock's built-in task management", "DonorDock's donor timeline")
-- Keep mentions organic — the article should be valuable even without DonorDock references
+- Keep mentions organic -- the article should be valuable even without DonorDock references
 - Never make the article feel like a product pitch
 
 ### Output Format
 
 Write the article body in clean HTML suitable for Webflow rich text.
 
-**CRITICAL — Webflow Rich Text API Formatting Rules:**
+**CRITICAL -- Webflow Rich Text API Formatting Rules:**
 
 Webflow's CMS API will **silently strip HTML elements** (especially lists) that contain whitespace or newlines between tags. The entire article HTML must be submitted as a **single continuous string with zero newlines or extra whitespace between tags**. This is the #1 cause of lists and other elements disappearing after publish.
 
@@ -144,7 +202,7 @@ Webflow's CMS API will **silently strip HTML elements** (especially lists) that 
 <p>Here is a list:</p><ul><li>First item</li><li>Second item</li><li>Third item</li></ul><p>Next paragraph.</p>
 ```
 
-**Broken format (newlines between tags — Webflow WILL strip the list):**
+**Broken format (newlines between tags -- Webflow WILL strip the list):**
 ```
 <ul>
 <li>First item</li>
@@ -153,9 +211,9 @@ Webflow's CMS API will **silently strip HTML elements** (especially lists) that 
 ```
 
 **Allowed tags:**
-- `<h2>`, `<h3>` for headings (no `<h1>` — that's the CMS title field)
+- `<h2>`, `<h3>` for headings (no `<h1>` -- that's the CMS title field)
 - `<p>` for paragraphs
-- `<ul><li>` or `<ol><li>` for lists — must be inline with no newlines between tags
+- `<ul><li>` or `<ol><li>` for lists -- must be inline with no newlines between tags
 - `<a href="...">` for links
 - `<strong>` for bold emphasis (use sparingly inside `<li>` tags)
 - `<blockquote>` for pull quotes
@@ -193,7 +251,7 @@ Generate these fields from the completed article:
 
 Create a Nano Banana prompt for a 1920x1080 blog hero graphic that:
 - Visually represents the article's core theme
-- Has high click intent — would make someone want to read the article in a social feed or search result
+- Has high click intent -- would make someone want to read the article in a social feed or search result
 - Uses a clean, modern, professional aesthetic suitable for a nonprofit SaaS brand
 - Avoids stock photo cliches (no handshakes, no generic "diverse team smiling at laptop")
 - Works well with text overlay (leave visual breathing room, avoid busy center compositions)
@@ -227,7 +285,7 @@ which cwebp || (apt-get update -qq && apt-get install -y -qq webp)
 # Compress to WebP, quality 80, targeting under 200KB
 cwebp -q 80 -resize 1920 1080 "[INPUT_PATH]" -o "[WORKING_DIR]/article-1-hero.webp"
 
-# Check file size — if over 200KB, re-compress at lower quality
+# Check file size -- if over 200KB, re-compress at lower quality
 FILE_SIZE=$(stat -f%z "[WORKING_DIR]/article-1-hero.webp" 2>/dev/null || stat -c%s "[WORKING_DIR]/article-1-hero.webp")
 if [ "$FILE_SIZE" -gt 204800 ]; then
   cwebp -q 65 -resize 1920 1080 "[INPUT_PATH]" -o "[WORKING_DIR]/article-1-hero.webp"
@@ -253,20 +311,37 @@ Save the final WebP path for use in the Webflow publish step.
 
 ---
 
-## Step 5: Write Article 2
+## Step 5: Write Article 2 (Tactical/Actionable)
 
-Repeat Step 2 with the second angle from Step 1. The second article must be:
-- **Distinct** from Article 1 in topic, angle, and target query
+### Pre-Writing Differentiation Check
+
+Before writing, explicitly state:
+1. Article 1's content type, primary keyword, and structure approach
+2. Article 2's content type, primary keyword, and structure approach
+3. 3-5 specific ways Article 2 will differ from Article 1
+
+If you cannot clearly articulate these differences, STOP and rethink the angle before proceeding.
+
+### Article Requirements
+
+- **Length**: 1,600-2,400 words
+- **Content type**: Tactical, actionable, implementation-focused. This article should help the reader DO something concrete.
+- **Structure**: Step-by-step sections, numbered processes, actionable checklists, templates, examples, or before/after comparisons. NOT essay-style.
+- **Voice**: Same warm, practical tone as Article 1, but more "roll up your sleeves" energy.
+- **Unique content**: Do NOT reuse advice, examples, data points, or DonorDock feature mentions from Article 1. Find fresh angles even when drawing from the same transcript.
+
+The second article must be:
+- **Distinct** from Article 1 in content type, keyword family, structure, and advice given
 - Equally well-researched with its own supporting data
 - Cross-linkable to Article 1 where natural (include a link to Article 1's slug if relevant)
 
-Use the same writing requirements, SEO/AEO structure, and output format as Step 2.
+Use the same SEO/AEO structure, internal linking rules, DonorDock mention guidelines, and HTML output format as Step 2.
 
 ---
 
 ## Step 6: Generate Metadata (Article 2)
 
-Repeat Step 3 for the second article. Ensure the slug, title, and tags are distinct from Article 1.
+Repeat Step 3 for the second article. Ensure the slug, title, tags, and target keyword are distinct from Article 1.
 
 ---
 
@@ -286,7 +361,7 @@ Note: If the asset_tool doesn't support direct file upload, the image will need 
 
 ### Create Webflow CMS Drafts
 
-For each article, create a draft item using `data_cms_tool` → `create_collection_items`:
+For each article, create a draft item using `data_cms_tool` -> `create_collection_items`:
 
 **IMPORTANT: The `blog-post-summary` value MUST be a single continuous HTML string with NO newlines between tags. See Output Format in Step 2.**
 
@@ -300,7 +375,7 @@ Request structure:
       "name": "[SEO Title]",
       "slug": "[kebab-case-slug]",
       "blog-post-preview": "[1-2 sentence excerpt]",
-      "blog-post-summary": "[Full article HTML body as ONE continuous string — no newlines between tags]",
+      "blog-post-summary": "[Full article HTML body as ONE continuous string -- no newlines between tags]",
       "reading-time": "[number only, e.g. 7]",
       "authors-2": "6532889f2379aa018d352707",
       "featured": false,
@@ -321,13 +396,23 @@ Request structure:
 - Confirm that links have proper href attributes
 - If lists were stripped, re-submit the HTML as a single-line string using `update_collection_items`
 
+### Update Transcript Processing Log
+
+After both articles are successfully created as drafts:
+1. Fetch the current `config/transcript-processing-log.json` from GitHub (get the latest SHA)
+2. Find or create the entry for this transcript's filename
+3. Set the `ff-article-pipeline` field to the current ISO timestamp
+4. Push the updated file back using `create_or_update_file` with the current SHA
+
 ### Final Output
 
 After both drafts are created, report to the user:
-- Article 1: title, slug, Webflow item ID, word count
-- Article 2: title, slug, Webflow item ID, word count
+- Article 1: title, slug, Webflow item ID, word count, content type (Strategic)
+- Article 2: title, slug, Webflow item ID, word count, content type (Tactical)
+- Differentiation summary (1-2 sentences on how the articles differ)
 - Image status for each (uploaded or needs manual upload)
 - Any tags/categories that were created vs. mapped to existing ones
+- Transcript log status (updated or skipped)
 
 ---
 
@@ -352,6 +437,7 @@ These IDs are fixed. Never run discovery calls for them.
 - Assume experienced but stretched nonprofit operators, not beginner fundraisers
 - Never fabricate URLs, statistics, or data points
 - Never link to competitor CRM sites as sources
-- Never publish live — always `isDraft: true`
+- Never publish live -- always `isDraft: true`
+- The two articles MUST be substantially different (see Article Differentiation Strategy). If they feel similar during writing, stop and rethink.
 - If a user request conflicts with voice/ICP norms, follow the request and note the tradeoff briefly
 - If image generation fails, continue the pipeline and note the failure for manual resolution
