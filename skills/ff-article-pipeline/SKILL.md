@@ -91,6 +91,18 @@ These files provide:
 - **Valid internal link targets** for articles (from the website sitemap)
 - **Content audit data** to avoid duplicating existing topics (cross-reference with CMS article list)
 
+## Logo and Font Assets (GitHub)
+
+Hero images include a DonorDock logo overlay and article title text. These assets live in the `DonorDock-team/claude-shared` repo:
+
+| Asset | Repo Path | Usage |
+|-------|-----------|-------|
+| White logo (primary) | `assets/logos-DonorDock/DonorDock-Logo-ALLWHITE.png` | Bottom-right corner overlay on hero images |
+| Dark logo (fallback) | `assets/logos-DonorDock/DonorDock-Logo-Dark.png` | Use only if the hero image has a very light background |
+| Light logo | `assets/logos-DonorDock/DonorDock-Logo-Light.png` | Alternative if white doesn't contrast well |
+
+The white logo is the default for most hero images since nanobanana generates images with rich colors/backgrounds.
+
 ---
 
 ## Pipeline Overview
@@ -98,15 +110,15 @@ These files provide:
 The pipeline has 7 steps that run end-to-end without approval gates:
 
 **Dependency pre-check (run once at pipeline start):**
-Before any image work, ensure Python Pillow is available for image compression:
+Before any image work, ensure Python Pillow is available for image compositing and compression:
 ```bash
-python3 -c "from PIL import Image" 2>/dev/null || pip3 install Pillow -q
+python3 -c "from PIL import Image, ImageDraw, ImageFont" 2>/dev/null || pip3 install Pillow -q
 ```
 
 1. **Research & Angle Discovery** -- Analyze input, audit existing CMS content for gaps, propose two deliberately different angles
 2. **Write Article 1** -- Draft a strategic/analytical SEO/AEO article
 3. **Generate Metadata 1** -- SEO title, meta description, slug, read time, tags
-4. **Image Creation 1** -- Generate hero image via Nano Banana, compress to WebP under 200KB
+4. **Image Creation 1** -- Generate hero image via Nano Banana, overlay logo + title, compress to WebP under 200KB
 5. **Write Article 2** -- Draft a tactical/actionable article (verify differentiation first)
 6. **Generate Metadata 2** -- Same metadata process for article 2
 7. **Image Creation 2 + Publish Both** -- Generate second hero image, create both Webflow drafts, update transcript log
@@ -260,7 +272,7 @@ Create a Nano Banana prompt for a 1920x1080 blog hero graphic that:
 - Has high click intent -- would make someone want to read the article in a social feed or search result
 - Uses a clean, modern, professional aesthetic suitable for a nonprofit SaaS brand
 - Avoids stock photo cliches (no handshakes, no generic "diverse team smiling at laptop")
-- Works well with text overlay (leave visual breathing room, avoid busy center compositions)
+- **Leaves the bottom 20% of the image relatively clean/simple** -- this area will have a gradient overlay with the article title and DonorDock logo composited on top
 - Uses warm, approachable colors that complement DonorDock's brand palette (blues, greens, warm neutrals)
 
 Prompt template pattern:
@@ -269,7 +281,8 @@ Professional blog hero image for a nonprofit fundraising article about [TOPIC].
 [SPECIFIC VISUAL CONCEPT that metaphorically represents the theme].
 Clean modern design, warm color palette with soft blues and greens,
 professional but approachable feel. High-quality editorial style photograph/illustration.
-Designed for a 1920x1080 blog header with space for text overlay.
+Designed for a 1920x1080 blog header. Keep the bottom 20% of the image
+simple and uncluttered as text will be overlaid there.
 ```
 
 ### Generate the Image
@@ -282,23 +295,112 @@ Call the `nanobanana_generate_image` MCP tool:
 
 **IMPORTANT:** Always use this exact absolute path for `output_dir`. This is a known, accessible directory on the local filesystem that both Claude Code and scheduled tasks can read/write. Do NOT use relative paths, session directories, temp directories, or any other location.
 
-### Compress to WebP (Under 200KB)
+### Composite Logo + Title Text, Then Compress to WebP (Under 200KB)
 
-After generation, compress the PNG to WebP using Python Pillow. This is the primary and preferred method (cross-platform, no external system dependencies).
+After nanobanana generates the base image, use Pillow to:
+1. Add a semi-transparent dark gradient bar across the bottom ~18% of the image
+2. Overlay the DonorDock white logo in the bottom-right corner
+3. Add the article's SEO title as text in the bottom-left area
+4. Compress to WebP under 200KB
 
-**Compression script:**
+**Logo source:** Download from the GitHub repo at runtime using urllib (no extra dependency needed):
+```
+https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/logos-DonorDock/DonorDock-Logo-ALLWHITE.png
+```
+
+**Full compositing + compression script:**
 ```bash
 python3 << 'PYEOF'
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
+import urllib.request
 import os
+import tempfile
 
-input_path = "[INPUT_PATH]"  # Replace with actual nanobanana output path
+# --- CONFIGURATION (replace these values) ---
+input_path = "[INPUT_PATH]"  # nanobanana output PNG path
+article_title = "[ARTICLE TITLE]"  # The SEO title for this article
 output_path = "/Users/rob/Documents/DonorDock/Claude Projects/Deliverables/article-1-hero.webp"
 
-img = Image.open(input_path)
+# --- DOWNLOAD LOGO ---
+logo_url = "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/logos-DonorDock/DonorDock-Logo-ALLWHITE.png"
+logo_tmp = os.path.join(tempfile.gettempdir(), "dd-logo-white.png")
+urllib.request.urlretrieve(logo_url, logo_tmp)
+
+# --- OPEN AND RESIZE BASE IMAGE ---
+img = Image.open(input_path).convert("RGBA")
 img = img.resize((1920, 1080), Image.LANCZOS)
 
-# Start at quality 80, step down until under 200KB
+# --- ADD GRADIENT OVERLAY AT BOTTOM ---
+# Semi-transparent black gradient covering bottom 18% for text readability
+overlay = Image.new("RGBA", img.size, (0, 0, 0, 0))
+draw_overlay = ImageDraw.Draw(overlay)
+gradient_start_y = int(1080 * 0.82)  # Start gradient at 82% from top
+for y in range(gradient_start_y, 1080):
+    progress = (y - gradient_start_y) / (1080 - gradient_start_y)
+    alpha = int(180 * progress)  # Fade from 0 to 180 opacity
+    draw_overlay.line([(0, y), (1920, y)], fill=(0, 0, 0, alpha))
+img = Image.alpha_composite(img, overlay)
+
+# --- OVERLAY DONORDOCK LOGO (bottom-right) ---
+logo = Image.open(logo_tmp).convert("RGBA")
+# Resize logo proportionally to ~180px wide
+logo_width = 180
+logo_ratio = logo_width / logo.width
+logo_height = int(logo.height * logo_ratio)
+logo = logo.resize((logo_width, logo_height), Image.LANCZOS)
+# Position: bottom-right with 30px padding
+logo_x = 1920 - logo_width - 30
+logo_y = 1080 - logo_height - 25
+img.paste(logo, (logo_x, logo_y), logo)
+
+# --- ADD ARTICLE TITLE TEXT (bottom-left) ---
+draw = ImageDraw.Draw(img)
+# Font fallback chain for macOS
+font = None
+font_size = 38
+font_paths = [
+    "/System/Library/Fonts/SFCompact.ttf",
+    "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+    "/System/Library/Fonts/Helvetica.ttc",
+    "/Library/Fonts/Arial Bold.ttf",
+]
+for fp in font_paths:
+    try:
+        font = ImageFont.truetype(fp, font_size)
+        break
+    except (IOError, OSError):
+        continue
+if font is None:
+    font = ImageFont.load_default()
+
+# Word-wrap the title to fit within ~65% of image width (leaving room for logo)
+max_text_width = int(1920 * 0.65)
+words = article_title.split()
+lines = []
+current_line = ""
+for word in words:
+    test_line = f"{current_line} {word}".strip()
+    bbox = draw.textbbox((0, 0), test_line, font=font)
+    if bbox[2] - bbox[0] <= max_text_width:
+        current_line = test_line
+    else:
+        if current_line:
+            lines.append(current_line)
+        current_line = word
+if current_line:
+    lines.append(current_line)
+
+# Draw text lines from the bottom up, 30px left padding
+line_height = font_size + 8
+text_y = 1080 - 30 - (len(lines) * line_height)
+for line in lines:
+    # Draw subtle shadow for extra readability
+    draw.text((32, text_y + 2), line, font=font, fill=(0, 0, 0, 160))
+    draw.text((30, text_y), line, font=font, fill=(255, 255, 255, 240))
+    text_y += line_height
+
+# --- COMPRESS TO WEBP UNDER 200KB ---
+img = img.convert("RGB")  # WebP doesn't need alpha
 for quality in [80, 70, 60, 50, 40]:
     img.save(output_path, "WEBP", quality=quality)
     size_kb = os.path.getsize(output_path) / 1024
@@ -309,17 +411,18 @@ else:
     print(f"Warning: Could not get under 200KB. Final size: {size_kb:.0f}KB")
 
 print(f"Output: {output_path}")
+
+# Clean up temp logo
+os.remove(logo_tmp)
 PYEOF
 ```
 
-If Pillow is not available and cannot be installed, use `cwebp` as a fallback (check with `which cwebp`):
-```bash
-cwebp -q 80 -resize 1920 1080 "[INPUT_PATH]" -o "/Users/rob/Documents/DonorDock/Claude Projects/Deliverables/article-1-hero.webp"
-FILE_SIZE=$(stat -f%z "/Users/rob/Documents/DonorDock/Claude Projects/Deliverables/article-1-hero.webp" 2>/dev/null || stat -c%s "/Users/rob/Documents/DonorDock/Claude Projects/Deliverables/article-1-hero.webp")
-if [ "$FILE_SIZE" -gt 204800 ]; then
-  cwebp -q 65 -resize 1920 1080 "[INPUT_PATH]" -o "/Users/rob/Documents/DonorDock/Claude Projects/Deliverables/article-1-hero.webp"
-fi
-```
+**Notes:**
+- The gradient overlay ensures both the white logo and white title text are readable over any background
+- If the base image has a very light/white bottom area, the gradient handles contrast automatically
+- Logo is sized at 180px wide (proportional height) -- large enough to be recognizable, small enough not to dominate
+- Title text wraps to ~65% of image width so it doesn't collide with the logo on the right
+- The script uses only stdlib (`urllib`, `os`, `tempfile`) plus Pillow -- no extra pip dependencies
 
 Save the final WebP path for use in the Webflow publish step.
 
@@ -364,9 +467,9 @@ Repeat Step 3 for the second article. Ensure the slug, title, tags, and target k
 ### Generate Article 2's Hero Image
 
 Repeat Step 4 for Article 2, with these differences:
-- **output_dir**: Same path: `/Users/rob/Documents/DonorDock/Claude Projects/Deliverables`
 - **output filename**: `article-2-hero.webp` (instead of `article-1-hero.webp`)
-- Use the same Pillow compression script from Step 4, adjusted for the article-2 filename
+- **article_title**: Use Article 2's SEO title
+- Everything else (output_dir, logo, gradient, compression) stays the same
 
 ### Upload Images to Webflow
 
