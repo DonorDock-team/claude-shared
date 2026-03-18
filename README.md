@@ -62,7 +62,8 @@ curl -s "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/sit
 ├── reference/              ← Shared reference data (brand, ICP, etc.)
 │
 └── config/                 ← Shared configuration for skills/plugins
-    └── skill-settings.json
+    ├── skill-settings.json
+    └── transcript-processing-log.json  ← Tracks which transcripts each task has processed
 ```
 
 ---
@@ -75,13 +76,14 @@ curl -s "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/sit
 | `sitemaps/helpcenter-sitemap.json` | Help center article index (134+ articles with full content), auto-updated weekly | Rob | 2026-03-14 |
 | `scripts/scrape-stonly-helpcenter.py` | Reusable Stonly help center scraper — works for any Stonly-hosted site | Rob | 2026-03-14 |
 | `skills/donordock-helpcenter/SKILL.md` | Answers DonorDock product questions using help center sitemap | Rob | 2026-03-14 |
-| `skills/ff-article-pipeline/SKILL.md` | Focused Fundraiser article generation pipeline | Rob | — |
+| `skills/ff-article-pipeline/SKILL.md` | Focused Fundraiser article generation pipeline | Rob | 2026-03-17 |
 | `skills/ff-article-pipeline/references/cms-schema.md` | Webflow CMS collection schemas, IDs, and tags | Rob | — |
 | `skills/frontend-design/SKILL.md` | Frontend design guidelines for distinctive UI work | Rob | — |
 | `assets/logos/` | DonorDock logo SVGs (full, mark, white variants) | Rob | — |
 | `assets/icons/` | DonorDock icon SVGs | Rob | — |
 | `plugins/donordock-helpcenter.plugin` | Packaged help center plugin (skill + scraper + references) | Rob | 2026-03-14 |
 | `config/skill-settings.json` | Shared settings referenced by skills at runtime | Rob | — |
+| `config/transcript-processing-log.json` | Shared log preventing duplicate transcript processing across scheduled tasks | Rob | 2026-03-17 |
 
 ---
 
