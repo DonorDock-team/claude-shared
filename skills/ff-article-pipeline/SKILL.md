@@ -97,10 +97,16 @@ These files provide:
 
 The pipeline has 7 steps that run end-to-end without approval gates:
 
+**Dependency pre-check (run once at pipeline start):**
+Before any image work, ensure Python Pillow is available for image compression:
+```bash
+python3 -c "from PIL import Image" 2>/dev/null || pip3 install Pillow -q
+```
+
 1. **Research & Angle Discovery** -- Analyze input, audit existing CMS content for gaps, propose two deliberately different angles
 2. **Write Article 1** -- Draft a strategic/analytical SEO/AEO article
 3. **Generate Metadata 1** -- SEO title, meta description, slug, read time, tags
-4. **Image Creation 1** -- Generate hero image via Nano Banana, compress to WebP
+4. **Image Creation 1** -- Generate hero image via Nano Banana, compress to WebP under 200KB
 5. **Write Article 2** -- Draft a tactical/actionable article (verify differentiation first)
 6. **Generate Metadata 2** -- Same metadata process for article 2
 7. **Image Creation 2 + Publish Both** -- Generate second hero image, create both Webflow drafts, update transcript log
@@ -272,39 +278,47 @@ Call the `nanobanana_generate_image` MCP tool:
 - **model**: `nanobanana2`
 - **aspect_ratio**: `16:9`
 - **image_size**: `2K` (will be compressed down)
-- **output_dir**: Use the current session's working directory (e.g., `/sessions/<session-name>/`)
+- **output_dir**: `/Users/rob/Documents/DonorDock/Claude Projects/Deliverables`
 
-### Compress to WebP
+**IMPORTANT:** Always use this exact absolute path for `output_dir`. This is a known, accessible directory on the local filesystem that both Claude Code and scheduled tasks can read/write. Do NOT use relative paths, session directories, temp directories, or any other location.
 
-After generation, compress the PNG to WebP format:
+### Compress to WebP (Under 200KB)
 
+After generation, compress the PNG to WebP using Python Pillow. This is the primary and preferred method (cross-platform, no external system dependencies).
+
+**Compression script:**
 ```bash
-# Install cwebp if needed
-which cwebp || (apt-get update -qq && apt-get install -y -qq webp)
-
-# Compress to WebP, quality 80, targeting under 200KB
-cwebp -q 80 -resize 1920 1080 "[INPUT_PATH]" -o "[WORKING_DIR]/article-1-hero.webp"
-
-# Check file size -- if over 200KB, re-compress at lower quality
-FILE_SIZE=$(stat -f%z "[WORKING_DIR]/article-1-hero.webp" 2>/dev/null || stat -c%s "[WORKING_DIR]/article-1-hero.webp")
-if [ "$FILE_SIZE" -gt 204800 ]; then
-  cwebp -q 65 -resize 1920 1080 "[INPUT_PATH]" -o "[WORKING_DIR]/article-1-hero.webp"
-fi
-```
-
-If cwebp is not available, use Python Pillow as a fallback:
-```bash
-pip install Pillow --break-system-packages -q
-python3 -c "
+python3 << 'PYEOF'
 from PIL import Image
 import os
-img = Image.open('[INPUT_PATH]')
+
+input_path = "[INPUT_PATH]"  # Replace with actual nanobanana output path
+output_path = "/Users/rob/Documents/DonorDock/Claude Projects/Deliverables/article-1-hero.webp"
+
+img = Image.open(input_path)
 img = img.resize((1920, 1080), Image.LANCZOS)
-img.save('[WORKING_DIR]/article-1-hero.webp', 'WEBP', quality=80)
-size = os.path.getsize('[WORKING_DIR]/article-1-hero.webp')
-if size > 204800:
-    img.save('[WORKING_DIR]/article-1-hero.webp', 'WEBP', quality=65)
-"
+
+# Start at quality 80, step down until under 200KB
+for quality in [80, 70, 60, 50, 40]:
+    img.save(output_path, "WEBP", quality=quality)
+    size_kb = os.path.getsize(output_path) / 1024
+    if size_kb <= 200:
+        print(f"Saved at quality {quality}: {size_kb:.0f}KB")
+        break
+else:
+    print(f"Warning: Could not get under 200KB. Final size: {size_kb:.0f}KB")
+
+print(f"Output: {output_path}")
+PYEOF
+```
+
+If Pillow is not available and cannot be installed, use `cwebp` as a fallback (check with `which cwebp`):
+```bash
+cwebp -q 80 -resize 1920 1080 "[INPUT_PATH]" -o "/Users/rob/Documents/DonorDock/Claude Projects/Deliverables/article-1-hero.webp"
+FILE_SIZE=$(stat -f%z "/Users/rob/Documents/DonorDock/Claude Projects/Deliverables/article-1-hero.webp" 2>/dev/null || stat -c%s "/Users/rob/Documents/DonorDock/Claude Projects/Deliverables/article-1-hero.webp")
+if [ "$FILE_SIZE" -gt 204800 ]; then
+  cwebp -q 65 -resize 1920 1080 "[INPUT_PATH]" -o "/Users/rob/Documents/DonorDock/Claude Projects/Deliverables/article-1-hero.webp"
+fi
 ```
 
 Save the final WebP path for use in the Webflow publish step.
@@ -349,7 +363,10 @@ Repeat Step 3 for the second article. Ensure the slug, title, tags, and target k
 
 ### Generate Article 2's Hero Image
 
-Repeat Step 4 for Article 2, saving as `article-2-hero.webp`.
+Repeat Step 4 for Article 2, with these differences:
+- **output_dir**: Same path: `/Users/rob/Documents/DonorDock/Claude Projects/Deliverables`
+- **output filename**: `article-2-hero.webp` (instead of `article-1-hero.webp`)
+- Use the same Pillow compression script from Step 4, adjusted for the article-2 filename
 
 ### Upload Images to Webflow
 
