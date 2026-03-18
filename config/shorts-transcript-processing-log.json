@@ -1,0 +1,9 @@
+{
+  "_description": "Shared log tracking which Shorts Transcripts have been processed by each scheduled task. Separate from the main transcript log because Shorts Transcripts live in a different folder and are used by different tasks.",
+  "_schema": {
+    "filename": "The transcript filename (e.g., 'short-donor-retention-tips.txt')",
+    "folder": "Always 'Shorts Transcripts' for entries in this log",
+    "ff-social-posts": "ISO timestamp when this task processed the transcript, or null if not yet processed"
+  },
+  "transcripts": []
+}
