@@ -42,6 +42,14 @@ curl -s "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/sit
 │   └── frontend-design/
 │       └── SKILL.md
 │
+├── sales-enablement/       ← Sales team enablement docs (battlecards, objections, product KB)
+│   ├── README.md               ← Setup instructions for the Claude Project
+│   ├── system-prompt.md        ← System prompt for the Sales Brain Claude Project
+│   ├── competitor-battlecards.md  ← Side-by-side positioning vs. 5 competitors
+│   ├── objection-handling-playbook.md  ← Common objections with response frameworks
+│   ├── product-knowledge-base.md  ← Feature/benefit reference by product area
+│   └── maintenance-guide.md    ← How to keep docs current
+│
 ├── assets/                 ← Brand assets (logos, icons, images)
 │   ├── logos/
 │   │   ├── donordock-logo-full.svg
@@ -79,6 +87,12 @@ curl -s "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/sit
 | `skills/ff-article-pipeline/SKILL.md` | Focused Fundraiser article generation pipeline | Rob | 2026-03-17 |
 | `skills/ff-article-pipeline/references/cms-schema.md` | Webflow CMS collection schemas, IDs, and tags | Rob | — |
 | `skills/frontend-design/SKILL.md` | Frontend design guidelines for distinctive UI work | Rob | — |
+| `sales-enablement/README.md` | Setup instructions for the Sales Brain Claude Project | Rob | 2026-03-19 |
+| `sales-enablement/system-prompt.md` | System prompt — paste into Claude Project Instructions | Rob | 2026-03-19 |
+| `sales-enablement/competitor-battlecards.md` | Side-by-side positioning vs. Bloomerang, NfG, DonorPerfect, Givebutter, Neon CRM | Rob | 2026-03-19 |
+| `sales-enablement/objection-handling-playbook.md` | Top objections with suggested response frameworks | Rob | 2026-03-19 |
+| `sales-enablement/product-knowledge-base.md` | Feature/benefit quick-reference organized by product area | Rob | 2026-03-19 |
+| `sales-enablement/maintenance-guide.md` | How to keep the enablement docs current (triggers, quarterly checklist, feedback loop) | Rob | 2026-03-19 |
 | `assets/logos/` | DonorDock logo SVGs (full, mark, white variants) | Rob | — |
 | `assets/icons/` | DonorDock icon SVGs | Rob | — |
 | `plugins/donordock-helpcenter.plugin` | Packaged help center plugin (skill + scraper + references) | Rob | 2026-03-14 |
