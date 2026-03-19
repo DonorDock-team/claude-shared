@@ -1,33 +1,36 @@
 #!/usr/bin/env python3
 """
-Reusable Stonly Help Center Scraper
-====================================
-Crawls a Stonly-hosted help center, discovers all categories and articles,
-extracts full text content, and outputs a structured JSON sitemap.
+Stonly Help Center Scraper v2
+==============================
+Recursively crawls a Stonly-hosted help center to discover ALL articles
+at any nesting depth. Outputs a compact JSON sitemap optimized for
+LLM context windows -- title, URL, category breadcrumb, and a short
+summary (first ~200 chars of content) per article.
+
+Full article content is NOT included by default to keep the sitemap small.
+Use --full-content to include it (warning: much larger output).
+
+Changes from v1:
+- Recursive category crawling (any depth, vs. 2 levels)
+- Filters out global sidebar nav to avoid false recursion
+- Tracks full breadcrumb path for each article
+- Compact output format by default (~30-50KB vs ~300KB)
+- Deduplication by URL path
+- Skips release notes by default (--include-release-notes to keep them)
+- Progress reporting with article count
 
 Usage:
     python scrape-stonly-helpcenter.py [OPTIONS]
 
 Options:
-    --base-url URL      Base URL of the help center (default: https://helpcenter.donordock.com)
-    --entry-path PATH   Entry path to start crawling (default: /kb/en/)
-    --output FILE       Output JSON file path (default: ./helpcenter-sitemap.json)
-    --delay SECONDS     Delay between requests in seconds (default: 0.3)
-    --max-content INT   Max content chars per article before truncation (default: 10000)
-    --no-content        Only extract titles/URLs/categories, skip full content
-
-This scraper is designed for Stonly-hosted help centers but can work with
-similar knowledge base platforms that use category → article URL structures.
-
-The output JSON structure:
-{
-    "help_center": { metadata },
-    "category_index": { category → [articles] },
-    "articles": [ { title, category, url, path, content, content_length } ]
-}
-
-Skills and plugins can fetch this JSON from a shared URL (e.g., GitHub raw)
-to answer product questions without having to crawl the site each time.
+    --base-url URL            Base URL (default: https://helpcenter.donordock.com)
+    --entry-path PATH         Entry path (default: /kb/en/)
+    --output FILE             Output file (default: ./helpcenter-sitemap.json)
+    --delay SECONDS           Delay between requests (default: 0.3)
+    --full-content            Include full article content (larger output)
+    --max-content INT         Max chars per article (default: 10000, with --full-content)
+    --summary-length INT      Summary snippet length (default: 200)
+    --include-release-notes   Include release notes articles
 """
 
 import argparse
@@ -48,202 +51,233 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 }
 
+# Patterns
+CATEGORY_PATTERN = re.compile(r"^/kb/en/[\w-]+-\d+$")
+ARTICLE_PATTERN = re.compile(r"^/kb/guide/en/[\w-]+/Steps/\d+$")
 
-def discover_categories(base_url, entry_path):
-    """Crawl the main page and discover all category URLs."""
-    url = base_url + entry_path
-    print(f"Discovering categories from {url}")
+
+def fetch_page(url):
+    """Fetch a page and return BeautifulSoup object."""
     resp = requests.get(url, headers=HEADERS, timeout=15)
     resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
+    return BeautifulSoup(resp.text, "html.parser")
 
+
+def extract_links(soup):
+    """Extract all category and article links from a page."""
     categories = {}
-    for link in soup.find_all("a", href=True):
-        href = link["href"]
-        text = link.get_text(strip=True)
-        # Category pages: /kb/en/category-name-123456
-        if re.match(r"^/kb/en/[\w-]+-\d+$", href) and text:
-            categories[text] = href
-        # Standalone guide pages in nav
-        elif re.match(r"^/kb/guide/en/", href) and text:
-            categories.setdefault("__standalone__", [])
-            categories["__standalone__"].append({"title": text, "path": href})
-
-    print(f"  Found {len(categories)} categories")
-    return categories
-
-
-def discover_articles_in_category(base_url, category_name, category_path):
-    """Crawl a category page and find all article links."""
-    url = base_url + category_path
-    print(f"  Crawling category: {category_name}")
-    resp = requests.get(url, headers=HEADERS, timeout=15)
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
-
     articles = []
-    seen = set()
+
     for link in soup.find_all("a", href=True):
         href = link["href"]
         text = link.get_text(strip=True)
-        # Article pages: /kb/guide/en/article-slug-ID/Steps/STEPID
-        if re.match(r"^/kb/guide/en/[\w-]+/Steps/\d+$", href) and text and href not in seen:
-            seen.add(href)
+        if not text:
+            continue
+
+        if CATEGORY_PATTERN.match(href):
+            # Extract clean category name from the URL slug
+            # e.g. /kb/en/integration-builder-apps-473961 -> "Integration Builder Apps"
+            slug = href.split("/")[-1]              # integration-builder-apps-473961
+            slug = re.sub(r"-\d+$", "", slug)       # integration-builder-apps
+            clean_name = slug.replace("-", " ").title()  # Integration Builder Apps
+            categories[href] = clean_name
+        elif ARTICLE_PATTERN.match(href):
             articles.append({"title": text, "path": href})
 
-    # Also check for subcategory links and crawl them
-    for link in soup.find_all("a", href=True):
-        href = link["href"]
-        text = link.get_text(strip=True)
-        if re.match(r"^/kb/en/[\w-]+-\d+$", href) and text and href != category_path:
-            sub_url = base_url + href
-            try:
-                sub_resp = requests.get(sub_url, headers=HEADERS, timeout=15)
-                sub_soup = BeautifulSoup(sub_resp.text, "html.parser")
-                for sub_link in sub_soup.find_all("a", href=True):
-                    sub_href = sub_link["href"]
-                    sub_text = sub_link.get_text(strip=True)
-                    if re.match(r"^/kb/guide/en/[\w-]+/Steps/\d+$", sub_href) and sub_text and sub_href not in seen:
-                        seen.add(sub_href)
-                        articles.append({"title": sub_text, "path": sub_href})
-                time.sleep(0.2)
-            except Exception:
-                pass
-
-    print(f"    Found {len(articles)} articles")
-    return articles
+    return categories, articles
 
 
-def extract_content(base_url, path, max_content=10000):
-    """Fetch an article page and extract the main text content."""
-    url = base_url + path
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=15)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
+def extract_content(soup):
+    """Extract text content from an article page."""
+    for tag in soup(["script", "style", "nav", "footer", "header"]):
+        tag.decompose()
 
-        # Remove non-content elements
-        for tag in soup(["script", "style", "nav", "footer", "header"]):
-            tag.decompose()
+    content_area = None
+    for selector in [
+        ".guide-content", ".step-content", ".article-content",
+        ".stn-guide-content", "article", ".content", "main",
+        "[class*='content']", "[class*='guide']", "[class*='step']"
+    ]:
+        found = soup.select(selector)
+        if found:
+            content_area = found[0]
+            break
 
-        # Try to find the main content area
-        content_area = None
-        for selector in [
-            ".guide-content", ".step-content", ".article-content",
-            ".stn-guide-content", "article", ".content", "main",
-            "[class*='content']", "[class*='guide']", "[class*='step']"
-        ]:
-            found = soup.select(selector)
-            if found:
-                content_area = found[0]
-                break
+    if not content_area:
+        content_area = soup.body if soup.body else soup
 
-        if not content_area:
-            content_area = soup.body if soup.body else soup
-
-        # Get text, clean up
-        text = content_area.get_text(separator="\n", strip=True)
-        lines = [line.strip() for line in text.split("\n") if line.strip()]
-        text = "\n".join(lines)
-
-        if len(text) > max_content:
-            text = text[:max_content] + "... [content truncated]"
-
-        return text
-    except Exception as e:
-        return f"[Error fetching content: {str(e)}]"
+    text = content_area.get_text(separator="\n", strip=True)
+    lines = [line.strip() for line in text.split("\n") if line.strip()]
+    return "\n".join(lines)
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Scrape a Stonly help center into a JSON sitemap")
-    parser.add_argument("--base-url", default="https://helpcenter.donordock.com",
-                        help="Base URL of the help center")
-    parser.add_argument("--entry-path", default="/kb/en/",
-                        help="Entry path to start crawling")
-    parser.add_argument("--output", default="./helpcenter-sitemap.json",
-                        help="Output JSON file path")
-    parser.add_argument("--delay", type=float, default=0.3,
-                        help="Delay between requests in seconds")
-    parser.add_argument("--max-content", type=int, default=10000,
-                        help="Max content chars per article before truncation")
-    parser.add_argument("--no-content", action="store_true",
-                        help="Only extract titles/URLs/categories, skip full content")
+    parser = argparse.ArgumentParser(description="Scrape a Stonly help center into a JSON sitemap (v2)")
+    parser.add_argument("--base-url", default="https://helpcenter.donordock.com")
+    parser.add_argument("--entry-path", default="/kb/en/")
+    parser.add_argument("--output", default="./helpcenter-sitemap.json")
+    parser.add_argument("--delay", type=float, default=0.3)
+    parser.add_argument("--full-content", action="store_true")
+    parser.add_argument("--max-content", type=int, default=10000)
+    parser.add_argument("--summary-length", type=int, default=200)
+    parser.add_argument("--include-release-notes", action="store_true")
     args = parser.parse_args()
 
     base_url = args.base_url.rstrip("/")
 
-    # Phase 1: Discover categories
-    categories = discover_categories(base_url, args.entry_path)
+    # ----------------------------------------------------------------
+    # Phase 1: Discover the global nav categories from the entry page.
+    # These appear in the sidebar on EVERY page, so we need to know
+    # them upfront to avoid treating them as subcategories later.
+    # ----------------------------------------------------------------
+    print(f"Phase 1: Discovering global nav from {base_url}{args.entry_path}")
+    entry_soup = fetch_page(base_url + args.entry_path)
+    global_categories, standalone_articles = extract_links(entry_soup)
+    global_nav_paths = set(global_categories.keys())
+    print(f"  Found {len(global_categories)} global nav categories, {len(standalone_articles)} standalone articles")
 
-    # Phase 2: Discover articles in each category
+    # ----------------------------------------------------------------
+    # Phase 2: BFS crawl. For each category page, collect articles and
+    # find subcategory links that are NOT part of the global sidebar.
+    # This correctly handles arbitrary nesting depth without the
+    # runaway recursion problem.
+    # ----------------------------------------------------------------
+    print(f"\nPhase 2: Crawling all categories (BFS)...")
+
     all_articles = []
-    seen_paths = set()
+    seen_article_paths = set()
+    seen_category_paths = set()
 
-    for cat_name, cat_path in categories.items():
-        if cat_name == "__standalone__":
-            # These are direct guide links from the main page
-            for article in cat_path:
-                if article["path"] not in seen_paths:
-                    seen_paths.add(article["path"])
-                    all_articles.append({
-                        "category": "General",
-                        "title": article["title"],
-                        "path": article["path"],
-                    })
+    # Add standalone articles from entry page
+    for article in standalone_articles:
+        if article["path"] not in seen_article_paths:
+            seen_article_paths.add(article["path"])
+            all_articles.append({
+                "title": article["title"],
+                "path": article["path"],
+                "breadcrumb": ["Home"],
+            })
+
+    # BFS queue: (category_path, category_name, breadcrumb_list)
+    queue = []
+    for cat_path, cat_name in global_categories.items():
+        queue.append((cat_path, cat_name, []))
+        seen_category_paths.add(cat_path)
+
+    while queue:
+        cat_path, cat_name, parent_breadcrumb = queue.pop(0)
+        current_breadcrumb = parent_breadcrumb + [cat_name]
+        indent = "  " * len(parent_breadcrumb)
+
+        print(f"{indent}Crawling: {cat_name}")
+
+        try:
+            soup = fetch_page(base_url + cat_path)
+        except Exception as e:
+            print(f"{indent}  Error: {e}")
             continue
 
-        articles = discover_articles_in_category(base_url, cat_name, cat_path)
-        for article in articles:
-            if article["path"] not in seen_paths:
-                seen_paths.add(article["path"])
+        page_categories, page_articles = extract_links(soup)
+
+        # Collect articles
+        new_articles = 0
+        for article in page_articles:
+            if article["path"] not in seen_article_paths:
+                seen_article_paths.add(article["path"])
                 all_articles.append({
-                    "category": cat_name,
                     "title": article["title"],
                     "path": article["path"],
+                    "breadcrumb": current_breadcrumb,
                 })
+                new_articles += 1
+
+        # Find TRUE subcategories: category links on this page that are
+        # NOT part of the global sidebar nav and haven't been seen yet.
+        new_subcats = 0
+        for sub_path, sub_name in page_categories.items():
+            if (sub_path not in global_nav_paths
+                    and sub_path not in seen_category_paths
+                    and sub_path != cat_path):
+                seen_category_paths.add(sub_path)
+                queue.append((sub_path, sub_name, current_breadcrumb))
+                new_subcats += 1
+
+        print(f"{indent}  {new_articles} new articles, {new_subcats} subcategories")
         time.sleep(args.delay)
 
     print(f"\nTotal unique articles discovered: {len(all_articles)}")
 
-    # Phase 3: Extract content from each article
+    # ----------------------------------------------------------------
+    # Phase 3: Optionally filter out release notes
+    # ----------------------------------------------------------------
+    if not args.include_release_notes:
+        before = len(all_articles)
+        all_articles = [a for a in all_articles
+                        if not a["title"].lower().startswith("release notes")
+                        and "announcement" not in a["title"].lower()]
+        filtered = before - len(all_articles)
+        if filtered:
+            print(f"Filtered out {filtered} release notes/announcements ({len(all_articles)} remaining)")
+
+    # ----------------------------------------------------------------
+    # Phase 3: Fetch summaries (or full content) for each article
+    # ----------------------------------------------------------------
+    print(f"\nPhase 3: Fetching article {'content' if args.full_content else 'summaries'}...")
     results = []
     for i, article in enumerate(all_articles):
-        if args.no_content:
+        print(f"  [{i+1}/{len(all_articles)}] {article['title']}")
+
+        try:
+            soup = fetch_page(base_url + article["path"])
+            content = extract_content(soup)
+        except Exception as e:
             content = ""
-            content_length = 0
-        else:
-            print(f"[{i+1}/{len(all_articles)}] Scraping: {article['title']}")
-            content = extract_content(base_url, article["path"], args.max_content)
-            content_length = len(content)
-            time.sleep(args.delay)
+            print(f"    Error: {e}")
 
-        results.append({
+        entry = {
             "title": article["title"],
-            "category": article["category"],
             "url": base_url + article["path"],
-            "path": article["path"],
-            "content": content,
-            "content_length": content_length,
-        })
+            "category": " > ".join(article["breadcrumb"]) if article["breadcrumb"] else "Uncategorized",
+        }
 
-    # Phase 4: Build the sitemap JSON
+        if args.full_content:
+            if len(content) > args.max_content:
+                content = content[:args.max_content] + "... [truncated]"
+            entry["content"] = content
+        else:
+            summary = content[:args.summary_length].strip()
+            if len(content) > args.summary_length:
+                last_period = summary.rfind(".")
+                last_space = summary.rfind(" ")
+                if last_period > args.summary_length * 0.6:
+                    summary = summary[:last_period + 1]
+                elif last_space > 0:
+                    summary = summary[:last_space] + "..."
+                else:
+                    summary += "..."
+            entry["summary"] = summary
+
+        results.append(entry)
+        time.sleep(args.delay)
+
+    # ----------------------------------------------------------------
+    # Phase 4: Build category index and output
+    # ----------------------------------------------------------------
     category_index = {}
     for article in results:
         cat = article["category"]
         if cat not in category_index:
             category_index[cat] = []
-        category_index[cat].append({
-            "title": article["title"],
-            "url": article["url"],
-        })
+        category_index[cat].append(article["title"])
 
     sitemap = {
         "help_center": {
-            "name": f"{base_url} Help Center",
+            "name": "DonorDock Help Center",
             "base_url": base_url,
             "scraped_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
             "total_articles": len(results),
-            "categories": list(category_index.keys()),
+            "total_categories": len(category_index),
+            "format": "full" if args.full_content else "compact",
         },
         "category_index": category_index,
         "articles": results,
@@ -252,11 +286,14 @@ def main():
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(sitemap, f, indent=2, ensure_ascii=False)
 
+    file_size = len(json.dumps(sitemap, ensure_ascii=False))
     print(f"\nSitemap saved to: {args.output}")
     print(f"Total articles: {len(results)}")
-    print(f"Categories: {len(category_index)}")
-    for cat, arts in category_index.items():
-        print(f"  {cat}: {len(arts)} articles")
+    print(f"Total categories: {len(category_index)}")
+    print(f"File size: {file_size:,} bytes ({file_size/1024:.1f} KB)")
+    print(f"\nCategory breakdown:")
+    for cat, titles in sorted(category_index.items()):
+        print(f"  {cat}: {len(titles)} articles")
 
 
 if __name__ == "__main__":
