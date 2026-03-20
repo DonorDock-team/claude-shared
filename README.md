@@ -50,13 +50,21 @@ curl -s "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/sit
 │   ├── product-knowledge-base.md  ← Feature/benefit reference by product area
 │   └── maintenance-guide.md    ← How to keep docs current
 │
-├── assets/                 ← Brand assets (logos, icons, images)
+├── assets/                 ← Brand assets (logos, icons, images, fonts)
 │   ├── logos/
 │   │   ├── donordock-logo-full.svg
 │   │   ├── donordock-logo-mark.svg
 │   │   └── donordock-logo-white.svg
 │   ├── icons/
 │   │   └── donordock-icon.svg
+│   ├── fonts/
+│   │   ├── Silka-Black.otf
+│   │   ├── Silka-Bold.otf
+│   │   ├── Silka-Medium.otf
+│   │   ├── Silka-Regular.otf
+│   │   ├── Silka-RegularItalic.otf
+│   │   ├── Silka-SemiBold.otf
+│   │   └── Silka-SemiBoldItalic.otf
 │   └── images/
 │       └── .gitkeep
 │
@@ -95,6 +103,7 @@ curl -s "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/sit
 | `sales-enablement/maintenance-guide.md` | How to keep the enablement docs current (triggers, quarterly checklist, feedback loop) | Rob | 2026-03-19 |
 | `assets/logos/` | DonorDock logo SVGs (full, mark, white variants) | Rob | — |
 | `assets/icons/` | DonorDock icon SVGs | Rob | — |
+| `assets/fonts/` | Silka font family — Black, Bold, Medium, Regular, RegularItalic, SemiBold, SemiBoldItalic (.otf) | Rob | 2026-03-20 |
 | `plugins/donordock-helpcenter.plugin` | Packaged help center plugin (skill + scraper + references) | Rob | 2026-03-14 |
 | `config/skill-settings.json` | Shared settings referenced by skills at runtime | Rob | — |
 | `config/transcript-processing-log.json` | Shared log preventing duplicate transcript processing across scheduled tasks | Rob | 2026-03-17 |
@@ -145,6 +154,10 @@ curl -s "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/sit
 # Fetch an SVG asset
 curl -s "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/logos/donordock-logo-full.svg" \
   -o /home/claude/logo.svg
+
+# Fetch a font file
+curl -s "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Bold.otf" \
+  -o /home/claude/Silka-Bold.otf
 ```
 
 ### Writing back to the repo (requires token)
