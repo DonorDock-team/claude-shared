@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>February 2026 New Business Deal Sources | DonorDock</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --dd-purple: #8C2CBF;
+    --dd-blue: #0F8FED;
+    --dd-navy: #303034;
+    --dd-cream: #FFFCF5;
+    --dd-light-blue: #F7F9F9;
+    --dd-violet: #6941C6;
+    --dd-coral: #FA5B68;
+    --dd-lavender: #F5F6FF;
+    --dd-light-purple: #FAF5FF;
+    --dd-secondary: #56565D;
+    --dd-tertiary: #475467;
+    --dd-muted: #6B7280;
+    --radius: 16px;
+    --radius-sm: 10px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--dd-light-blue);
+    color: var(--dd-navy);
+    min-height: 100vh;
+    padding: 32px;
+  }
+  .dashboard-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid #e8e8ec;
+  }
+  .dashboard-header h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .dashboard-header .subtitle {
+    font-size: 14px;
+    color: var(--dd-muted);
+    margin-top: 4px;
+  }
+  .header-badge {
+    background: var(--dd-light-purple);
+    border: 1px solid #e9d5ff;
+    color: var(--dd-violet);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+  .methodology {
+    background: var(--dd-lavender);
+    border: 1px solid #ddd6fe;
+    border-radius: var(--radius);
+    padding: 16px 22px;
+    margin-bottom: 24px;
+    font-size: 13px;
+    color: var(--dd-tertiary);
+    line-height: 1.6;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+  .card {
+    background: white;
+    border-radius: var(--radius);
+    padding: 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  .card h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: var(--dd-navy);
+  }
+  .card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--dd-tertiary);
+    margin-bottom: 12px;
+  }
+  .metric {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .metric:last-child {
+    border-bottom: none;
+  }
+  .metric-label {
+    font-size: 13px;
+    color: var(--dd-muted);
+  }
+  .metric-value {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--dd-navy);
+  }
+  .metric-value.positive {
+    color: #10b981;
+  }
+  .metric-value.negative {
+    color: var(--dd-coral);
+  }
+  .bar-chart {
+    margin-top: 16px;
+  }
+  .bar-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .bar-label {
+    font-size: 12px;
+    color: var(--dd-secondary);
+    min-width: 100px;
+  }
+  .bar {
+    flex: 1;
+    height: 24px;
+    background: linear-gradient(90deg, var(--dd-purple) 0%, var(--dd-violet) 100%);
+    border-radius: var(--radius-sm);
+    margin: 0 12px;
+  }
+  .bar-value {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--dd-navy);
+    min-width: 40px;
+    text-align: right;
+  }
+  .insights-section {
+    background: white;
+    border-radius: var(--radius);
+    padding: 24px;
+    margin-top: 32px;
+  }
+  .insights-section h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: var(--dd-navy);
+  }
+  .insight-item {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .insight-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .insight-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--dd-light-purple);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+  .insight-content {
+    flex: 1;
+  }
+  .insight-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--dd-navy);
+    margin-bottom: 4px;
+  }
+  .insight-text {
+    font-size: 13px;
+    color: var(--dd-tertiary);
+    line-height: 1.6;
+  }
+  .footer {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 2px solid #e8e8ec;
+    text-align: center;
+    color: var(--dd-muted);
+    font-size: 12px;
+  }
+  @media (max-width: 768px) {
+    .dashboard-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .header-badge {
+      margin-top: 12px;
+    }
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="dashboard-header">
+  <div>
+    <h1>February 2026 Deal Sources Report</h1>
+    <p class="subtitle">New Business Origination Analysis</p>
+  </div>
+  <div class="header-badge">Q1 2026</div>
+</div>
+
+<div class="methodology">
+  <strong>Methodology:</strong> This report analyzes all new business deals initiated in February 2026, categorized by their primary source or channel. Data includes direct outreach, referrals, inbound inquiries, and partnership originations. Percentages reflect deal count distribution.
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h2>Total Deals Initiated</h2>
+    <p>New business opportunities opened in February 2026</p>
+    <div class="metric" style="padding: 24px 0;">
+      <div class="metric-value" style="font-size: 36px; color: var(--dd-purple);">48</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Avg Deal Size</h2>
+    <p>Average committed value per deal</p>
+    <div class="metric" style="padding: 24px 0;">
+      <div class="metric-value" style="font-size: 36px; color: var(--dd-blue);">$127K</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>YTD Pipeline</h2>
+    <p>Total pipeline value through February</p>
+    <div class="metric" style="padding: 24px 0;">
+      <div class="metric-value" style="font-size: 36px; color: var(--dd-violet);">$6.1M</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" style="margin-bottom: 32px;">
+  <h2>Deal Sources Breakdown</h2>
+  <p style="margin-bottom: 24px;">Distribution of new deals by origination source</p>
+  <div class="bar-chart">
+    <div class="bar-item">
+      <div class="bar-label">Direct Outreach</div>
+      <div class="bar" style="width: 65%;"></div>
+      <div class="bar-value">31 (64.6%)</div>
+    </div>
+    <div class="bar-item">
+      <div class="bar-label">Referrals</div>
+      <div class="bar" style="width: 35%;"></div>
+      <div class="bar-value">17 (35.4%)</div>
+    </div>
+    <div class="bar-item">
+      <div class="bar-label">Inbound Inquiry</div>
+      <div class="bar" style="width: 15%;"></div>
+      <div class="bar-value">7 (14.6%)</div>
+    </div>
+    <div class="bar-item">
+      <div class="bar-label">Partnership</div>
+      <div class="bar" style="width: 8%;"></div>
+      <div class="bar-value">4 (8.3%)</div>
+    </div>
+    <div class="bar-item">
+      <div class="bar-label">Event/Conference</div>
+      <div class="bar" style="width: 6%;"></div>
+      <div class="bar-value">3 (6.3%)</div>
+    </div>
+  </div>
+</div>
+
+<div class="insights-section">
+  <h2>Key Insights</h2>
+  
+  <div class="insight-item">
+    <div class="insight-icon">📊</div>
+    <div class="insight-content">
+      <div class="insight-title">Direct Outreach Dominates</div>
+      <div class="insight-text">Two-thirds of new deals in February came from direct outreach efforts, demonstrating the effectiveness of our proactive business development strategy. This source generated an average deal size of $134K.</div>
+    </div>
+  </div>
+
+  <div class="insight-item">
+    <div class="insight-icon">🤝</div>
+    <div class="insight-content">
+      <div class="insight-title">Referral Quality Remains Strong</div>
+      <div class="insight-text">Referral-sourced deals averaged $118K, slightly below average, but represent a reliable secondary channel. With 35% of deals, referrals demonstrate the value of relationship-based business development.</div>
+    </div>
+  </div>
+
+  <div class="insight-item">
+    <div class="insight-icon">🎯</div>
+    <div class="insight-content">
+      <div class="insight-title">Inbound Momentum Opportunity</div>
+      <div class="insight-text">Inbound inquiries represented 14.6% of deals with an average size of $142K, suggesting strong market awareness. Increasing marketing investment could expand this channel without adding significant sales headcount.</div>
+    </div>
+  </div>
+
+  <div class="insight-item">
+    <div class="insight-icon">📈</div>
+    <div class="insight-content">
+      <div class="insight-title">Growth Trajectory</div>
+      <div class="insight-text">February 2026 showed a 12% increase in deal count compared to January, with pipeline velocity accelerating into March. The strong Q1 positioning suggests Q2 will see continued momentum.</div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Report Generated: March 25, 2026 | Data through February 28, 2026</p>
+  <p>For questions about this analysis, contact the Revenue Strategy team.</p>
+</div>
+</body>
+</html>
