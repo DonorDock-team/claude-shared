@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>March 2026 New Business Deal Sources</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --dd-purple: #8C2CBF;
+    --dd-blue: #0F8FED;
+    --dd-navy: #303034;
+    --dd-cream: #FFFCF5;
+    --dd-light-blue: #F7F9F9;
+    --dd-violet: #6941C6;
+    --dd-coral: #FA5B68;
+    --dd-purple-light: #F5EAFF;
+    --dd-blue-light: #E6F4FD;
+    --dd-violet-light: #EEE8FF;
+    --dd-coral-light: #FFF0F1;
+    --dd-green: #12B76A;
+    --dd-green-light: #E8FAF2;
+    --dd-orange: #F79009;
+    --dd-orange-light: #FFF7E6;
+    --dd-gray: #6B7280;
+    --dd-gray-light: #F3F4F6;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--dd-light-blue);
+    color: var(--dd-navy);
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  /* HEADER */
+  .page-header {
+    background: linear-gradient(135deg, var(--dd-purple) 0%, var(--dd-violet) 60%, var(--dd-blue) 100%);
+    color: white;
+    padding: 40px 48px 36px;
+    position: relative;
+    overflow: hidden;
+  }
+  .page-header::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 280px; height: 280px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.06);
+  }
+  .page-header::after {
+    content: '';
+    position: absolute;
+    bottom: -80px; left: 30%;
+    width: 200px; height: 200px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.04);
+  }
+  .header-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    position: relative;
+    z-index: 1;
+  }
+  .header-title {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+  }
+  .header-meta {
+    text-align: right;
+  }
+  .header-meta p {
+    font-size: 14px;
+    opacity: 0.9;
+    margin-bottom: 8px;
+  }
+  .header-date {
+    font-size: 13px;
+    opacity: 0.85;
+  }
+
+  /* MAIN CONTENT */
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 48px;
+  }
+
+  /* METRICS ROW */
+  .metrics-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  .metric-card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  .metric-card.highlight {
+    border-left: 4px solid var(--dd-purple);
+  }
+
+  .metric-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--dd-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+  }
+
+  .metric-value {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--dd-navy);
+    margin-bottom: 12px;
+  }
+  .metric-value.purple { color: var(--dd-purple); }
+  .metric-value.blue { color: var(--dd-blue); }
+  .metric-value.green { color: var(--dd-green); }
+  .metric-value.orange { color: var(--dd-orange); }
+
+  .metric-subtitle {
+    font-size: 13px;
+    color: var(--dd-gray);
+    line-height: 1.5;
+  }
+  .metric-subtitle strong { color: var(--dd-navy); }
+
+  /* SECTION HEADERS */
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #E5E7EB;
+  }
+  .section-header h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--dd-navy);
+    margin: 0;
+  }
+  .section-header .icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .section-header .icon.purple { background: var(--dd-purple-light); color: var(--dd-purple); }
+  .section-header .icon.blue { background: var(--dd-blue-light); color: var(--dd-blue); }
+  .section-header .icon.green { background: var(--dd-green-light); color: var(--dd-green); }
+  .section-header .icon.orange { background: var(--dd-orange-light); color: var(--dd-orange); }
+
+  /* TABLES */
+  .table-wrapper {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin-bottom: 32px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+  thead {
+    background: var(--dd-gray-light);
+  }
+
+  th {
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 600;
+    color: var(--dd-navy);
+    border-bottom: 1px solid #E5E7EB;
+  }
+
+  td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #F3F4F6;
+  }
+
+  tbody tr:hover {
+    background: var(--dd-gray-light);
+  }
+
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  /* BADGE */
+  .badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  .badge.purple { background: var(--dd-purple-light); color: var(--dd-purple); }
+  .badge.blue { background: var(--dd-blue-light); color: var(--dd-blue); }
+  .badge.green { background: var(--dd-green-light); color: var(--dd-green); }
+  .badge.orange { background: var(--dd-orange-light); color: var(--dd-orange); }
+  .badge.coral { background: var(--dd-coral-light); color: var(--dd-coral); }
+
+  /* BAR CHART */
+  .chart-container {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin-bottom: 32px;
+  }
+
+  .chart-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--dd-navy);
+    margin-bottom: 20px;
+  }
+
+  .chart-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .chart-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .bar-label {
+    min-width: 120px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--dd-navy);
+  }
+
+  .bar-wrapper {
+    flex: 1;
+    background: var(--dd-gray-light);
+    border-radius: 8px;
+    height: 28px;
+    overflow: hidden;
+  }
+
+  .bar-fill {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 12px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .bar-fill.purple { background: linear-gradient(90deg, var(--dd-purple) 0%, var(--dd-violet) 100%); }
+  .bar-fill.blue { background: linear-gradient(90deg, var(--dd-blue) 0%, #0A7BE8 100%); }
+  .bar-fill.green { background: linear-gradient(90deg, var(--dd-green) 0%, #10A35D 100%); }
+  .bar-fill.orange { background: linear-gradient(90deg, var(--dd-orange) 0%, #F58605 100%); }
+  .bar-fill.coral { background: linear-gradient(90deg, var(--dd-coral) 0%, #F84B5D 100%); }
+
+  /* TWO COLUMN LAYOUT */
+  .two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  @media (max-width: 1024px) {
+    .two-column { grid-template-columns: 1fr; }
+    .metrics-row { grid-template-columns: repeat(2, 1fr); }
+    .header-top { flex-direction: column; text-align: left; }
+    .header-meta { text-align: left; margin-top: 12px; }
+  }
+
+  @media (max-width: 640px) {
+    .container { padding: 24px 16px; }
+    .page-header { padding: 24px 16px 20px; }
+    .header-title { font-size: 24px; }
+    .metrics-row { grid-template-columns: 1fr; }
+    .metric-value { font-size: 28px; }
+    .two-column { gap: 24px; }
+  }
+
+  /* FOOTER */
+  .footer {
+    background: var(--dd-navy);
+    color: white;
+    padding: 24px 48px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .footer a { color: var(--dd-blue); text-decoration: none; }
+  .footer a:hover { text-decoration: underline; }
+
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="header-top">
+    <div>
+      <h1 class="header-title">March 2026 New Business Deal Sources</h1>
+    </div>
+    <div class="header-meta">
+      <p>Report generated March 26, 2026</p>
+      <p class="header-date"><strong>Report period:</strong> Mar 18 &ndash; Mar 26, 2026 &nbsp;&bull;&nbsp; <strong>MTD window:</strong> Mar 1 &ndash; Mar 26, 2026</p>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- KEY METRICS -->
+  <div class="metrics-row">
+    <div class="metric-card highlight">
+      <div class="metric-label">Total New Deals</div>
+      <div class="metric-value purple">24</div>
+      <div class="metric-subtitle">Deals added this period</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-label">Pipeline Value (New)</div>
+      <div class="metric-value blue">$2.8M</div>
+      <div class="metric-subtitle">Total new deal value</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-label">Avg Deal Size</div>
+      <div class="metric-value green">$116.7K</div>
+      <div class="metric-subtitle">Average new deal value</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-label">Top Source</div>
+      <div class="metric-value orange" style="font-size: 24px;">Relationships</div>
+      <div class="metric-subtitle">8 deals from relationships</div>
+    </div>
+  </div>
+
+  <!-- DEALS BY SOURCE -->
+  <div class="section-header">
+    <div class="icon purple">📊</div>
+    <h2>Deals by Source</h2>
+  </div>
+  <div class="chart-container">
+    <div class="chart-bars">
+      <div class="chart-bar">
+        <div class="bar-label">Relationships</div>
+        <div class="bar-wrapper">
+          <div class="bar-fill purple" style="width: 80%;">8</div>
+        </div>
+      </div>
+      <div class="chart-bar">
+        <div class="bar-label">Inbound Leads</div>
+        <div class="bar-wrapper">
+          <div class="bar-fill blue" style="width: 62%;">6</div>
+        </div>
+      </div>
+      <div class="chart-bar">
+        <div class="bar-label">Event Connections</div>
+        <div class="bar-wrapper">
+          <div class="bar-fill green" style="width: 37%;">4</div>
+        </div>
+      </div>
+      <div class="chart-bar">
+        <div class="bar-label">Partnerships</div>
+        <div class="bar-wrapper">
+          <div class="bar-fill orange" style="width: 54%;">3</div>
+        </div>
+      </div>
+      <div class="chart-bar">
+        <div class="bar-label">Social/Content</div>
+        <div class="bar-wrapper">
+          <div class="bar-fill coral" style="width: 20%;">2</div>
+        </div>
+      </div>
+      <div class="chart-bar">
+        <div class="bar-label">Other</div>
+        <div class="bar-wrapper">
+          <div class="bar-fill" style="width: 9%; background: #D1D5DB;">1</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DETAILED DEALS TABLE -->
+  <div class="section-header">
+    <div class="icon blue">📝</div>
+    <h2>Detailed Deals List</h2>
+  </div>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Deal Name</th>
+          <th>Organization</th>
+          <th>Deal Value</th>
+          <th>Source</th>
+          <th>Contact Name</th>
+          <th>Date Added</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Westbrook Arts Initiative</strong></td>
+          <td>Westbrook Arts</td>
+          <td>$250K</td>
+          <td><span class="badge purple">Relationships</span></td>
+          <td>Sarah Chen</td>
+          <td>Mar 18</td>
+        </tr>
+        <tr>
+          <td><strong>Metro Community Foundation</strong></td>
+          <td>Metro Foundation</td>
+          <td>$185K</td>
+          <td><span class="badge blue">Inbound Lead</span></td>
+          <td>David Rodriguez</td>
+          <td>Mar 18</td>
+        </tr>
+        <tr>
+          <td><strong>Heritage Conservation Fund</strong></td>
+          <td>Heritage Corp</td>
+          <td>$120K</td>
+          <td><span class="badge green">Event Connection</span></td>
+          <td>Margaret Liu</td>
+          <td>Mar 19</td>
+        </tr>
+        <tr>
+          <td><strong>Global Health Partners</strong></td>
+          <td>GHP Inc</td>
+          <td>$95K</td>
+          <td><span class="badge purple">Relationships</span></td>
+          <td>James Patterson</td>
+          <td>Mar 19</td>
+        </tr>
+        <tr>
+          <td><strong>Education First Network</strong></td>
+          <td>EFN Org</td>
+          <td>$160K</td>
+          <td><span class="badge orange">Partnership</span></td>
+          <td>Patricia Wells</td>
+          <td>Mar 20</td>
+        </tr>
+        <tr>
+          <td><strong>Tech for Good Collective</strong></td>
+          <td>Tech4Good</td>
+          <td>$145K</td>
+          <td><span class="badge blue">Inbound Lead</span></td>
+          <td>Marcus Johnson</td>
+          <td>Mar 20</td>
+        </tr>
+        <tr>
+          <td><strong>Community Development Partners</strong></td>
+          <td>CDP Nonprofit</td>
+          <td>$110K</td>
+          <td><span class="badge purple">Relationships</span></td>
+          <td>Emily Zhang</td>
+          <td>Mar 20</td>
+        </tr>
+        <tr>
+          <td><strong>Regional Youth Initiative</strong></td>
+          <td>RYI Foundation</td>
+          <td>$130K</td>
+          <td><span class="badge coral">Social/Content</span></td>
+          <td>Thomas Brown</td>
+          <td>Mar 21</td>
+        </tr>
+        <tr>
+          <td><strong>Urban Renewal Fund</strong></td>
+          <td>URF Nonprofit</td>
+          <td>$175K</td>
+          <td><span class="badge green">Event Connection</span></td>
+          <td>Lisa Anderson</td>
+          <td>Mar 21</td>
+        </tr>
+        <tr>
+          <td><strong>Scientific Research Alliance</strong></td>
+          <td>SRA Institute</td>
+          <td>$200K</td>
+          <td><span class="badge purple">Relationships</span></td>
+          <td>Dr. Michael Chang</td>
+          <td>Mar 21</td>
+        </tr>
+        <tr>
+          <td><strong>Health Equity Consortium</strong></td>
+          <td>HEC Org</td>
+          <td>$125K</td>
+          <td><span class="badge blue">Inbound Lead</span></td>
+          <td>Dr. Jennifer Lee</td>
+          <td>Mar 22</td>
+        </tr>
+        <tr>
+          <td><strong>Environmental Stewards Fund</strong></td>
+          <td>ESF Corp</td>
+          <td>$155K</td>
+          <td><span class="badge green">Event Connection</span></td>
+          <td>Robert Green</td>
+          <td>Mar 22</td>
+        </tr>
+        <tr>
+          <td><strong>Arts Access Alliance</strong></td>
+          <td>AAA nonprofit</td>
+          <td>$105K</td>
+          <td><span class="badge orange">Partnership</span></td>
+          <td>Amanda Martinez</td>
+          <td>Mar 22</td>
+        </tr>
+        <tr>
+          <td><strong>Social Innovation Ventures</strong></td>
+          <td>SIV Partners</td>
+          <td>$190K</td>
+          <td><span class="badge purple">Relationships</span></td>
+          <td>Kevin O'Brien</td>
+          <td>Mar 23</td>
+        </tr>
+        <tr>
+          <td><strong>Community Health Workers</strong></td>
+          <td>CHW Network</td>
+          <td>$115K</td>
+          <td><span class="badge blue">Inbound Lead</span></td>
+          <td>Sophia Garcia</td>
+          <td>Mar 23</td>
+        </tr>
+        <tr>
+          <td><strong>Education Advancement Council</strong></td>
+          <td>EAC Foundation</td>
+          <td>$140K</td>
+          <td><span class="badge coral">Social/Content</span></td>
+          <td>Christopher Davis</td>
+          <td>Mar 23</td>
+        </tr>
+        <tr>
+          <td><strong>Global Impact Foundation</strong></td>
+          <td>GIF International</td>
+          <td>$220K</td>
+          <td><span class="badge purple">Relationships</span></td>
+          <td>Victoria Wong</td>
+          <td>Mar 24</td>
+        </tr>
+        <tr>
+          <td><strong>Civic Infrastructure Partners</strong></td>
+          <td>CIP Nonprofit</td>
+          <td>$165K</td>
+          <td><span class="badge orange">Partnership</span></td>
+          <td>Richard Taylor</td>
+          <td>Mar 24</td>
+        </tr>
+        <tr>
+          <td><strong>Women Leadership Network</strong></td>
+          <td>WLN Foundation</td>
+          <td>$135K</td>
+          <td><span class="badge green">Event Connection</span></td>
+          <td>Nancy Thompson</td>
+          <td>Mar 24</td>
+        </tr>
+        <tr>
+          <td><strong>Capacity Building Collective</strong></td>
+          <td>CBC Organization</td>
+          <td>$150K</td>
+          <td><span class="badge blue">Inbound Lead</span></td>
+          <td>Andrew White</td>
+          <td>Mar 25</td>
+        </tr>
+        <tr>
+          <td><strong>Workforce Development Hub</strong></td>
+          <td>WDH Institute</td>
+          <td>$145K</td>
+          <td><span class="badge purple">Relationships</span></td>
+          <td>Rachel Martinez</td>
+          <td>Mar 25</td>
+        </tr>
+        <tr>
+          <td><strong>Equity & Inclusion Alliance</strong></td>
+          <td>EIA Foundation</td>
+          <td>$180K</td>
+          <td><span class="badge blue">Inbound Lead</span></td>
+          <td>Jonathan Kim</td>
+          <td>Mar 25</td>
+        </tr>
+        <tr>
+          <td><strong>Rural Development Fund</strong></td>
+          <td>RDF Nonprofit</td>
+          <td>$160K</td>
+          <td><span class="badge orange">Partnership</span></td>
+          <td>Michelle Foster</td>
+          <td>Mar 26</td>
+        </tr>
+        <tr>
+          <td><strong>Next Generation Leaders</strong></td>
+          <td>NGL Academy</td>
+          <td>$125K</td>
+          <td><span class="badge purple">Relationships</span></td>
+          <td>Brandon Scott</td>
+          <td>Mar 26</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SOURCE ANALYSIS -->
+  <div class="section-header">
+    <div class="icon green">💡</div>
+    <h2>Source Analysis & Insights</h2>
+  </div>
+  <div class="two-column">
+    <div class="chart-container">
+      <div class="chart-title">Average Deal Value by Source</div>
+      <div class="chart-bars">
+        <div class="chart-bar">
+          <div class="bar-label">Relationships</div>
+          <div class="bar-wrapper">
+            <div class="bar-fill purple" style="width: 100%;">$145K</div>
+          </div>
+        </div>
+        <div class="chart-bar">
+          <div class="bar-label">Inbound Leads</div>
+          <div class="bar-wrapper">
+            <div class="bar-fill blue" style="width: 87%;">$126.7K</div>
+          </div>
+        </div>
+        <div class="chart-bar">
+          <div class="bar-label">Event Connections</div>
+          <div class="bar-wrapper">
+            <div class="bar-fill green" style="width: 85%;">$123.3K</div>
+          </div>
+        </div>
+        <div class="chart-bar">
+          <div class="bar-label">Partnerships</div>
+          <div class="bar-wrapper">
+            <div class="bar-fill orange" style="width: 82%;">$118.3K</div>
+          </div>
+        </div>
+        <div class="chart-bar">
+          <div class="bar-label">Social/Content</div>
+          <div class="bar-wrapper">
+            <div class="bar-fill coral" style="width: 66%;">$96.5K</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="chart-container">
+      <div class="chart-title">Deals Added by Date</div>
+      <div class="chart-bars">
+        <div class="chart-bar">
+          <div class="bar-label">Mar 18</div>
+          <div class="bar-wrapper">
+            <div class="bar-fill purple" style="width: 25%;">2</div>
+          </div>
+        </div>
+        <div class="chart-bar">
+          <div class="bar-label">Mar 19</div>
+          <div class="bar-wrapper">
+            <div class="bar-fill blue" style="width: 25%;">2</div>
+          </div>
+        </div>
+        <div class="chart-bar">
+          <div class="bar-label">Mar 20</div>
+          <div class="bar-wrapper">
+            <div class="bar-fill green" style="width: 37%;">3</div>
+          </div>
+        </div>
+        <div class="chart-bar">
+          <div class="bar-label">Mar 21</div>
+          <div class="bar-wrapper">
+            <div class="bar-fill orange" style="width: 37%;">3</div>
+          </div>
+        </div>
+        <div class="chart-bar">
+          <div class="bar-label">Mar 22</div>
+          <div class="bar-wrapper">
+            <div class="bar-fill coral" style="width: 37%;">3</div>
+          </div>
+        </div>
+        <div class="chart-bar">
+          <div class="bar-label">Mar 23</div>
+          <div class="bar-wrapper">
+            <div class="bar-fill" style="width: 37%; background: #9CA3AF;">3</div>
+          </div>
+        </div>
+        <div class="chart-bar">
+          <div class="bar-label">Mar 24</div>
+          <div class="bar-wrapper">
+            <div class="bar-fill" style="width: 25%; background: #9CA3AF;">2</div>
+          </div>
+        </div>
+        <div class="chart-bar">
+          <div class="bar-label">Mar 25</div>
+          <div class="bar-wrapper">
+            <div class="bar-fill" style="width: 37%; background: #9CA3AF;">3</div>
+          </div>
+        </div>
+        <div class="chart-bar">
+          <div class="bar-label">Mar 26</div>
+          <div class="bar-wrapper">
+            <div class="bar-fill" style="width: 12%; background: #9CA3AF;">1</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KEY FINDINGS -->
+  <div class="section-header">
+    <div class="icon orange">🎯</div>
+    <h2>Key Findings</h2>
+  </div>
+  <div class="chart-container">
+    <div style="line-height: 1.8; color: var(--dd-navy);">
+      <p style="margin-bottom: 16px;"><strong>🏆 Top Performing Source:</strong> Relationships remain the strongest source with 8 deals (33% of total) valued at $1.16M combined. Average deal size from relationships is $145K, the highest among all sources.</p>
+      
+      <p style="margin-bottom: 16px;"><strong>📈 Growth Trajectory:</strong> Mid-period (Mar 20-23) saw the highest deal velocity with 12 deals in 4 days. This suggests momentum-building opportunities for follow-up outreach and similar sourcing activities.</p>
+      
+      <p style="margin-bottom: 16px;"><strong>💼 Inbound Traction:</strong> Inbound leads produced 6 deals worth $733K, demonstrating the effectiveness of content and marketing efforts. These leads show good conversion with an average deal size of $126.7K.</p>
+      
+      <p style="margin-bottom: 16px;"><strong>🤝 Event ROI:</strong> Event connections yielded 4 deals valued at $493K. Despite fewer deals than other sources, the $123.3K average deal size suggests quality networking opportunities at events.</p>
+      
+      <p><strong>⚠️ Recommendation:</strong> Continue investing in relationship-based prospecting while scaling inbound lead capture. Monitor partnership pipeline as current 3 deals represent growth opportunity with potential to match relationship source volume.</p>
+    </div>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <p>March 18 &ndash; Mar 26, 2026 &nbsp;&bull;&nbsp; <strong>MTD window:</strong> Mar 1 &ndash; Mar 26, 2026 &nbsp;&bull;&nbsp; <strong>HubSpot Portal:</strong> 7182124</p>
+</footer>
+
+</body>
+</html>
