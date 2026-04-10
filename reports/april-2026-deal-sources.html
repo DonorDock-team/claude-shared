@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>April 2026 New Business Deal Sources | DonorDock</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --dd-purple: #8C2CBF; --dd-blue: #0F8FED; --dd-navy: #303034; --dd-cream: #FFFCF5;
+    --dd-light-blue: #F7F9F9; --dd-violet: #6941C6; --dd-coral: #FA5B68; --dd-lavender: #F5F6FF;
+    --dd-light-purple: #FAF5FF; --dd-tertiary: #475467; --dd-muted: #6B7280;
+    --radius: 16px; --radius-sm: 10px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--dd-light-blue); color: var(--dd-navy); min-height: 100vh; padding: 32px; }
+  .dashboard-header { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 32px; padding-bottom: 24px; border-bottom: 2px solid #e8e8ec; }
+  .dashboard-header h1 { font-family: 'Fraunces', serif; font-size: 28px; font-weight: 500; line-height: 1.2; }
+  .dashboard-header .subtitle { font-size: 14px; color: var(--dd-muted); margin-top: 4px; }
+  .header-badge { background: var(--dd-light-purple); border: 1px solid #e9d5ff; color: var(--dd-violet); font-size: 13px; font-weight: 600; padding: 6px 14px; border-radius: 20px; white-space: nowrap; }
+  .kpi-row { display: grid; gap: 16px; margin-bottom: 28px; }
+  .kpi-card { background: #fff; border-radius: var(--radius); padding: 22px 24px; border: 1px solid #eee; }
+  .kpi-label { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--dd-muted); margin-bottom: 8px; }
+  .kpi-value { font-family: 'Fraunces', serif; font-size: 32px; font-weight: 500; color: var(--dd-navy); line-height: 1; }
+  .kpi-sub { font-size: 13px; color: var(--dd-tertiary); margin-top: 6px; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+  .one-col { margin-bottom: 20px; }
+  .card { background: #fff; border-radius: var(--radius); padding: 28px; border: 1px solid #eee; }
+  .card-title { font-family: 'Fraunces', serif; font-size: 18px; font-weight: 500; margin-bottom: 4px; }
+  .card-desc { font-size: 13px; color: var(--dd-muted); margin-bottom: 20px; }
+  .bar-chart { display: flex; flex-direction: column; gap: 14px; }
+  .bar-row { display: grid; grid-template-columns: 140px 1fr 50px; align-items: center; gap: 12px; }
+  .bar-label { font-size: 13px; font-weight: 500; color: var(--dd-navy); text-align: right; }
+  .bar-track { height: 28px; background: var(--dd-lavender); border-radius: 6px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 6px; display: flex; align-items: center; padding-left: 10px; font-size: 11px; font-weight: 600; color: #fff; min-width: 32px; }
+  .bar-count { font-size: 14px; font-weight: 700; color: var(--dd-navy); text-align: center; }
+  .partner-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .partner-card { text-align: center; padding: 16px 12px; border-radius: var(--radius-sm); background: var(--dd-lavender); }
+  .partner-type { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--dd-muted); margin-bottom: 4px; }
+  .partner-count { font-family: 'Fraunces', serif; font-size: 28px; font-weight: 500; color: var(--dd-purple); }
+  .partner-label { font-size: 12px; color: var(--dd-tertiary); margin-top: 2px; }
+  .callout { margin-top: 16px; padding: 14px 16px; background: var(--dd-cream); border-radius: 8px; font-size: 13px; color: var(--dd-tertiary); line-height: 1.6; }
+  .callout strong { color: var(--dd-navy); }
+  .highlight { color: var(--dd-purple); font-weight: 600; }
+  .reclass-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .reclass-table thead th { text-align: left; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--dd-muted); padding: 0 12px 12px; border-bottom: 2px solid #eee; }
+  .reclass-table tbody td { padding: 10px 12px; border-bottom: 1px solid #f3f3f5; vertical-align: middle; }
+  .reclass-table tbody tr:hover { background: var(--dd-lavender); }
+  .reclass-arrow { color: var(--dd-purple); font-weight: 700; font-size: 16px; text-align: center; }
+  .deal-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .deal-table thead th { text-align: left; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--dd-muted); padding: 0 12px 12px; border-bottom: 2px solid #eee; }
+  .deal-table tbody td { padding: 10px 12px; border-bottom: 1px solid #f3f3f5; vertical-align: middle; }
+  .deal-table tbody tr:hover { background: var(--dd-lavender); }
+  .deal-name { font-weight: 500; }
+  .deal-name a { color: var(--dd-blue); text-decoration: none; }
+  .deal-name a:hover { text-decoration: underline; }
+  .pill { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; white-space: nowrap; }
+  .pill-organic { background: #ecfdf5; color: #065f46; }
+  .pill-partner { background: #eff6ff; color: #1e40af; }
+  .pill-wom { background: #fef3c7; color: #92400e; }
+  .pill-social { background: #fce7f3; color: #9d174d; }
+  .pill-ai { background: #f0f9ff; color: #0369a1; }
+  .pill-webinar { background: #fef3c7; color: #a16207; }
+  .pill-unknown { background: #f3f4f6; color: #6b7280; }
+  .pill-hs-organic { background: #d1fae5; color: #065f46; }
+  .pill-hs-paid { background: #fff7ed; color: #c2410c; }
+  .pill-hs-direct { background: #f0fdf4; color: #15803d; }
+  .pill-hs-offline { background: #f3f4f6; color: #6b7280; }
+  .pill-hs-social { background: #fdf2f8; color: #be185d; }
+  .pill-hs-other { background: #f3f4f6; color: #6b7280; }
+  .pill-stage-working { background: #dbeafe; color: #1e40af; }
+  .pill-stage-closing { background: #d1fae5; color: #065f46; }
+  .pill-stage-won { background: #bbf7d0; color: #166534; }
+  .pill-stage-lost { background: #fee2e2; color: #991b1b; }
+  .pill-stage-longterm { background: #e0e7ff; color: #4338ca; }
+  .hdyhau-text { font-size: 12px; color: var(--dd-tertiary); font-style: italic; max-width: 200px; }
+  .methodology { background: var(--dd-lavender); border: 1px solid #ddd6de; border-radius: var(--radius); padding: 16px 22px; margin-top: 28px; font-size: 13px; color: var(--dd-tertiary); line-height: 1.6; }
+  .methodology strong { color: var(--dd-navy); }
+  @media (max-width: 1100px) { .kpi-row { grid-template-columns: repeat(3, 1fr) !important; } .two-col { grid-template-columns: 1fr; } .partner-grid { grid-template-columns: repeat(2, 1fr); } }
+</style>
+</head>
+<body>
+
+<div class="dashboard-header">
+  <div>
+    <h1>April 2026 New Business Deal Sources</h1>
+    <div class="subtitle">Sales Pipeline | Deal Type = New Business | April 1 - 30, 2026</div>
+  </div>
+  <div class="header-badge">10 New Business Deals</div>
+</div>
+
+<div class="kpi-row" style="grid-template-columns: repeat(6, 1fr);">
+  <div class="kpi-card" style="border-left: 4px solid var(--dd-purple);"><div class="kpi-label">New Business Pipeline</div><div class="kpi-value">$53,280</div><div class="kpi-sub">10 new business deals</div></div>
+  <div class="kpi-card" style="border-left: 4px solid #93c5fd;"><div class="kpi-label">Working</div><div class="kpi-value" style="color: var(--dd-blue);">$52,800</div><div class="kpi-sub">9 deals</div></div>
+  <div class="kpi-card" style="border-left: 4px solid #86efac;"><div class="kpi-label">Closed Won</div><div class="kpi-value" style="color: #10b981;">$480</div><div class="kpi-sub">1 deal</div></div>
+  <div class="kpi-card" style="border-left: 4px solid var(--dd-coral);"><div class="kpi-label">Closed Lost</div><div class="kpi-value" style="color: var(--dd-coral);">$0</div><div class="kpi-sub">0 deals</div></div>
+  <div class="kpi-card" style="border-left: 4px solid #fbbf24;"><div class="kpi-label">Closing</div><div class="kpi-value" style="color: #d97706;">$0</div><div class="kpi-sub">0 deals</div></div>
+  <div class="kpi-card" style="border-left: 4px solid #a78bfa;"><div class="kpi-label">Long-Term Opportunities</div><div class="kpi-value" style="color: var(--dd-violet);">$0</div><div class="kpi-sub">0 deals</div></div>
+</div>
+
+<div class="two-col">
+  <div class="card">
+    <div class="card-title">Deal Source Breakdown</div>
+    <div class="card-desc">Where April's 10 new business deals originated</div>
+    <div class="bar-chart">
+      <div class="bar-row"><div class="bar-label">Partner Referral</div><div class="bar-track"><div class="bar-fill" style="width: 100%; background: #0F8FED;">4 deals</div></div><div class="bar-count">40%</div></div>
+      <div class="bar-row"><div class="bar-label">Unknown</div><div class="bar-track"><div class="bar-fill" style="width: 50%; background: #9ca3af;">2</div></div><div class="bar-count">20%</div></div>
+      <div class="bar-row"><div class="bar-label">Organic Search</div><div class="bar-track"><div class="bar-fill" style="width: 50%; background: #10b981;">2</div></div><div class="bar-count">20%</div></div>
+      <div class="bar-row"><div class="bar-label">Word of Mouth</div><div class="bar-track"><div class="bar-fill" style="width: 25%; background: #f59e0b;">1</div></div><div class="bar-count">10%</div></div>
+      <div class="bar-row"><div class="bar-label">AI / ChatGPT</div><div class="bar-track"><div class="bar-fill" style="width: 25%; background: #0ea5e9;">1</div></div><div class="bar-count">10%</div></div>
+    </div>
+    <div class="callout">
+      <strong>Inbound vs. Relationship:</strong> Inbound channels (Organic, Social, AI) drove <span class="highlight">3 deals worth $18,000</span>. Relationship channels (WoM + Partners) drove <span class="highlight">5 deals worth $28,800</span>.
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Partner Referral Breakdown</div>
+    <div class="card-desc">4 deals from partners, worth $22,800 in pipeline</div>
+    <div class="partner-grid">
+      <div class="partner-card"><div class="partner-type">GoFundMe Pro</div><div class="partner-count">3</div><div class="partner-label">$16,800</div></div>
+      <div class="partner-card"><div class="partner-type">Virtuous</div><div class="partner-count">1</div><div class="partner-label">$6,000</div></div>
+    </div>
+    <div class="callout">
+      <strong>Key insight:</strong> Combined partner value is <span class="highlight">43% of total pipeline ($22,800 of $53,280)</span>.
+    </div>
+  </div>
+</div>
+
+<div class="one-col">
+  <div class="card">
+    <div class="card-title">HDYHAU Reclassifications</div>
+    <div class="card-desc">Deals where the contact's "How did you hear about us?" told a different story than HubSpot's auto-attribution. Deal sources have been updated in HubSpot.</div>
+    <table class="reclass-table">
+      <thead><tr><th>Deal</th><th>HubSpot Channel</th><th></th><th>HDYHAU Response</th><th>Updated To</th></tr></thead>
+      <tbody>
+        <tr><td style="font-weight:500;">Hope PRC of Fulton - Toby Robinson</td><td><span class="pill pill-hs-organic">Organic Search</span></td><td class="reclass-arrow">&rarr;</td><td style="font-style:italic;">"Friend"</td><td><span class="pill pill-wom">Word of Mouth</span></td></tr>
+        <tr><td style="font-weight:500;">Mountain Gospel Radio - Noah Barnett</td><td><span class="pill pill-hs-organic">Organic Search</span></td><td class="reclass-arrow">&rarr;</td><td style="font-style:italic;">"Virtuous CRM, too large scale for us and recommended looking into DonorDock"</td><td><span class="pill pill-partner">Partner Referral</span></td></tr>
+        <tr><td style="font-weight:500;">The Rouse Estate - Toby Robinson</td><td><span class="pill pill-hs-direct">Direct Traffic</span></td><td class="reclass-arrow">&rarr;</td><td style="font-style:italic;">"online"</td><td><span class="pill pill-organic">Organic Search</span></td></tr>
+        <tr><td style="font-weight:500;">Health Leads Inc. - Noah Barnett</td><td><span class="pill pill-hs-paid">Paid Search</span></td><td class="reclass-arrow">&rarr;</td><td style="font-style:italic;">"chatgpt"</td><td><span class="pill pill-ai">AI / ChatGPT</span></td></tr>
+        <tr><td style="font-weight:500;">Earthwatch - Toby Robinson</td><td><span class="pill pill-hs-offline">Offline</span></td><td class="reclass-arrow">&rarr;</td><td style="font-style:italic;">"GoFundMe Pro"</td><td><span class="pill pill-partner">Partner Referral</span></td></tr>
+      </tbody>
+    </table>
+    <div class="callout" style="margin-top: 16px;">
+      <strong>5 of 10 deals (50%) were reclassified</strong> after checking HDYHAU. All deal sources have been corrected in HubSpot.
+    </div>
+  </div>
+</div>
+
+<div class="one-col">
+  <div class="card">
+    <div class="card-title">All April 2026 New Business Deals</div>
+    <div class="card-desc">10 deals sorted by create date</div>
+    <div style="overflow-x: auto;">
+      <table class="deal-table">
+        <thead><tr><th>Deal</th><th>Amount</th><th>Stage</th><th>Source</th><th>HDYHAU / Evidence</th><th>Created</th></tr></thead>
+        <tbody>
+          <tr><td class="deal-name"><a href="https://app.hubspot.com/contacts/7182124/record/0-3/58689695583" target="_blank">Earthwatch - Toby Robinson</a></td><td>$4,800</td><td><span class="pill pill-stage-working">Working</span></td><td><span class="pill pill-partner">Partner Referral</span></td><td class="hdyhau-text">"GoFundMe Pro"</td><td>Apr 2</td></tr>
+          <tr><td class="deal-name"><a href="https://app.hubspot.com/contacts/7182124/record/0-3/58703738786" target="_blank">Health Leads Inc. - Noah Barnett</a></td><td>$6,000</td><td><span class="pill pill-stage-working">Working</span></td><td><span class="pill pill-ai">AI / ChatGPT</span></td><td class="hdyhau-text">"chatgpt"</td><td>Apr 2</td></tr>
+          <tr><td class="deal-name"><a href="https://app.hubspot.com/contacts/7182124/record/0-3/58793227176" target="_blank">Contentment Foundation - Noah Barnett</a></td><td>$6,000</td><td><span class="pill pill-stage-working">Working</span></td><td><span class="pill pill-unknown">Unknown</span></td><td class="hdyhau-text">"Other"</td><td>Apr 3</td></tr>
+          <tr><td class="deal-name"><a href="https://app.hubspot.com/contacts/7182124/record/0-3/58879772484" target="_blank">YMCA of the Suncoast - Toby Robinson</a></td><td>$6,000</td><td><span class="pill pill-stage-working">Working</span></td><td><span class="pill pill-organic">Organic Search</span></td><td class="hdyhau-text">"Frank"</td><td>Apr 6</td></tr>
+          <tr><td class="deal-name"><a href="https://app.hubspot.com/contacts/7182124/record/0-3/58882740640" target="_blank">The Rouse Estate - Toby Robinson</a></td><td>$6,000</td><td><span class="pill pill-stage-working">Working</span></td><td><span class="pill pill-organic">Organic Search</span></td><td class="hdyhau-text">"online"</td><td>Apr 6</td></tr>
+          <tr><td class="deal-name"><a href="https://app.hubspot.com/contacts/7182124/record/0-3/58905713510" target="_blank">Brigadoon Service Dogs - New Deal</a></td><td>$480</td><td><span class="pill pill-stage-won">Closed Won</span></td><td><span class="pill pill-unknown">Unknown</span></td><td class="hdyhau-text">ORGANIC_SEARCH</td><td>Apr 7</td></tr>
+          <tr><td class="deal-name"><a href="https://app.hubspot.com/contacts/7182124/record/0-3/58984979220" target="_blank">Mountain Gospel Radio - Noah Barnett</a></td><td>$6,000</td><td><span class="pill pill-stage-working">Working</span></td><td><span class="pill pill-partner">Partner Referral</span></td><td class="hdyhau-text">"Virtuous CRM, too large scale for us and recommended looking into DonorDock"</td><td>Apr 8</td></tr>
+          <tr><td class="deal-name"><a href="https://app.hubspot.com/contacts/7182124/record/0-3/58986838397" target="_blank">Hope PRC of Fulton - Toby Robinson</a></td><td>$6,000</td><td><span class="pill pill-stage-working">Working</span></td><td><span class="pill pill-wom">Word of Mouth</span></td><td class="hdyhau-text">"Friend"</td><td>Apr 8</td></tr>
+          <tr><td class="deal-name"><a href="https://app.hubspot.com/contacts/7182124/record/0-3/59036194308" target="_blank">Astraea Foundation - Toby Robinson</a></td><td>$6,000</td><td><span class="pill pill-stage-working">Working</span></td><td><span class="pill pill-partner">Partner Referral</span></td><td class="hdyhau-text">OFFLINE</td><td>Apr 9</td></tr>
+          <tr><td class="deal-name"><a href="https://app.hubspot.com/contacts/7182124/record/0-3/59036663892" target="_blank">Waxman Institute for Aging &amp; Cancer - Toby Robinson</a></td><td>$6,000</td><td><span class="pill pill-stage-working">Working</span></td><td><span class="pill pill-partner">Partner Referral</span></td><td class="hdyhau-text">OFFLINE</td><td>Apr 9</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="methodology">
+  <strong>Source methodology:</strong> Contact's "How did you hear about us?" is the source of truth. Falls back to deal-level "Deal Source - Drilldown," then HubSpot's Original Traffic Source as last resort. Filtered by dealtype = New Business, pipeline = Sales Pipeline, create date = April 2026. Deal sources updated in HubSpot based on HDYHAU reclassifications.
+</div>
+
+<div style="text-align: center; padding: 20px; font-size: 12px; color: var(--dd-muted);">Generated on April 10, 2026 | Data sourced from HubSpot CRM | DonorDock Internal Report</div>
+
+</body>
+</html>
