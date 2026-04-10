@@ -2,8 +2,8 @@
   "help_center": {
     "name": "DonorDock Help Center",
     "base_url": "https://helpcenter.donordock.com",
-    "scraped_at": "2026-04-03T18:31:49Z",
-    "total_articles": 321,
+    "scraped_at": "2026-04-10T14:13:12Z",
+    "total_articles": 325,
     "total_categories": 27,
     "format": "compact"
   },
@@ -34,6 +34,8 @@
       "Deep Dive into Segmentation and Reporting"
     ],
     "Product Updates": [
+      "Product Updates 4.9.2026",
+      "Product Updates 4.3.2026",
       "Automations Feature Release 7.08.2024"
     ],
     "Topics > Contacts": [
@@ -201,6 +203,7 @@
     ],
     "Topics > Emails": [
       "Outreach Email Details Page: Summary, Statistics, and Activities",
+      "Email Statistics Information",
       "Email Marketing Overview 💫",
       "Analyze Bulk Email Statistics over time",
       "Viewing Available Outreach Emails",
@@ -215,7 +218,8 @@
       "Authenticate Your Domain",
       "Building Emails with Images",
       "Resending a Bulk Email",
-      "Bounces and Drops and Cleaning up your Mailing Lists"
+      "Bounces and Drops and Cleaning up your Mailing Lists",
+      "Gift Conversion tracking from Sent Emails"
     ],
     "Topics > Letters": [
       "Letters Overview 💫",
@@ -498,6 +502,18 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/deep-dive-into-segmentation-and-reporting-8QkAUXuYiY/Steps/4544322",
       "category": "Video Guides",
       "summary": "This Deep Dive video explores how to segment your contacts and make the most of DonorDock’s reporting tools. It walks through how to use badges, marketing lists, custom fields, and gift tags to..."
+    },
+    {
+      "title": "Product Updates 4.9.2026",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-4-9-2026-t5CJejsaDH/Steps/5163162",
+      "category": "Product Updates",
+      "summary": "Product Updates 4.9.2026\nNew features & improvements\nAdded a setting to transaction templates that allows receipts to be automatically marked as sent when set on an Automation\nDonors can now opt out..."
+    },
+    {
+      "title": "Product Updates 4.3.2026",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-4-3-2026-jsqolSSuNV/Steps/5136817",
+      "category": "Product Updates",
+      "summary": "Product Updates 4.3.2026\nNew features & improvements\nReports — better default filters for performance\n— Report pages now load with optimized default filters, reducing unnecessary processing and..."
     },
     {
       "title": "Automations Feature Release 7.08.2024",
@@ -1358,6 +1374,12 @@
       "summary": "Email Summary Information\nAfter you send a bulk outreach email in DonorDock, the summary page is your map to see how the message performed."
     },
     {
+      "title": "Email Statistics Information",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/email-statistics-information-EQepxslGp1/Steps/1151428",
+      "category": "Topics > Emails",
+      "summary": "Email Statistics Information\nWhen you send a bulk email through DonorDock, you can track its performance with detailed statistics."
+    },
+    {
       "title": "Email Marketing Overview 💫",
       "url": "https://helpcenter.donordock.com/kb/guide/en/email-marketing-overview-B2NiLiJpeE/Steps/1361449",
       "category": "Topics > Emails",
@@ -1446,6 +1468,12 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/bounces-and-drops-and-cleaning-up-your-mailing-lists-9sE70qxx3t/Steps/4608934",
       "category": "Topics > Emails",
       "summary": "Bounces and Drops and Cleaning up your Mailing Lists\nWhen sending emails through DonorDock, you may encounter\nbounces\nthat prevent a message from reaching a recipient."
+    },
+    {
+      "title": "Gift Conversion tracking from Sent Emails",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/gift-conversion-tracking-from-sent-emails-nmuLQhvHOV/Steps/5136996",
+      "category": "Topics > Emails",
+      "summary": "Gift Conversion tracking from Sent Emails\nDonorDock automatically tracks donations from your bulk emails, giving you clear visibility into which emails drive gifts and how much revenue each email..."
     },
     {
       "title": "Letters Overview 💫",
