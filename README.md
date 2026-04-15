@@ -25,12 +25,16 @@ curl -s "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/sit
 ## Repo Structure
 
 ```
-├── sitemaps/               ← JSON sitemaps for DonorDock properties
-│   ├── website-sitemap.json
-│   └── helpcenter-sitemap.json  ← Auto-updated weekly by scheduled task
+├── sitemaps/               ← JSON sitemaps and content indexes for DonorDock properties
+│   ├── website-sitemap.json     ← 520+ pages, auto-updated weekly
+│   ├── youtube-catalog.json     ← Video index for @donordock + @FundraisingLab, auto-updated weekly
+│   ├── helpcenter-sitemap.json  ← 300+ articles with full content, auto-updated weekly
+│   ├── helpcenter-summaries-p1..p4.json  ← Paginated help center summaries
+│   └── cms-schema.md            ← Webflow CMS collection schemas and IDs
 │
 ├── scripts/                ← Reusable standalone scripts
-│   └── scrape-stonly-helpcenter.py  ← Generic Stonly help center scraper
+│   ├── scrape-stonly-helpcenter.py   ← Generic Stonly help center scraper
+│   └── scrape-website-sitemap.py    ← Website sitemap scraper (fetches sitemap.xml + page metadata)
 │
 ├── skills/                 ← Skill files (SKILL.md + references)
 │   ├── donordock-helpcenter/  ← Answers product questions from help center
@@ -88,8 +92,10 @@ curl -s "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/sit
 
 | Path | Description | Owner | Last Updated |
 |------|-------------|-------|--------------|
-| `sitemaps/website-sitemap.json` | Full DonorDock.com sitemap with page titles and URLs | Rob | — |
-| `sitemaps/helpcenter-sitemap.json` | Help center article index (134+ articles with full content), auto-updated weekly | Rob | 2026-03-14 |
+| `sitemaps/website-sitemap.json` | 520+ DonorDock.com pages with titles, descriptions, and section classification, auto-updated weekly | Rob | 2026-04-15 |
+| `sitemaps/youtube-catalog.json` | 47+ videos from @donordock and @FundraisingLab with categories (podcast, training, testimonial, etc.) and people tags, auto-updated weekly | Rob | 2026-04-15 |
+| `sitemaps/helpcenter-sitemap.json` | Help center article index (300+ articles with full content), auto-updated weekly | Rob | 2026-03-14 |
+| `scripts/scrape-website-sitemap.py` | Website sitemap scraper — fetches sitemap.xml, enriches with page title/description, classifies by section | Rob | 2026-04-15 |
 | `scripts/scrape-stonly-helpcenter.py` | Reusable Stonly help center scraper — works for any Stonly-hosted site | Rob | 2026-03-14 |
 | `skills/donordock-helpcenter/SKILL.md` | Answers DonorDock product questions using help center sitemap | Rob | 2026-03-14 |
 | `skills/ff-article-pipeline/SKILL.md` | Focused Fundraiser article generation pipeline | Rob | 2026-03-17 |
