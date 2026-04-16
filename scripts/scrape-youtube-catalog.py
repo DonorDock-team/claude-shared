@@ -23,6 +23,8 @@ Options:
     --output FILE      Output file (default: ./youtube-catalog.json)
     --handles LIST     Comma-separated channel handles (default: donordock,FundraisingLab)
     --external FILE    Optional JSON file with external appearance video IDs to include
+    --include-shorts   Include videos under 61s (shorts). Default: shorts are EXCLUDED
+                       because they are typically edits of full-length videos.
     --timeout INT      Per-request timeout in seconds (default: 15)
 """
 
@@ -229,6 +231,8 @@ def main():
     parser.add_argument("--output", default="./youtube-catalog.json")
     parser.add_argument("--handles", default="donordock,FundraisingLab")
     parser.add_argument("--external", default=None, help="Optional JSON file with list of external video IDs")
+    parser.add_argument("--include-shorts", action="store_true",
+                        help="Include videos under 61s. Default: shorts EXCLUDED (they're typically edits of full videos)")
     parser.add_argument("--timeout", type=int, default=15)
     args = parser.parse_args()
 
@@ -278,12 +282,19 @@ def main():
     details = fetch_video_details(list(all_ids), api_key, args.timeout)
 
     videos = []
+    shorts_excluded = 0
     for v in details:
         # Override channel classification for external IDs
         if v["id"] in external_ids:
             record = build_video_record(v, channel_classification="external")
         else:
             record = build_video_record(v)
+
+        # Exclude shorts by default (they are typically edits of full-length videos)
+        if record["type"] == "short" and not args.include_shorts:
+            shorts_excluded += 1
+            continue
+
         videos.append(record)
 
     # Sort newest first
@@ -322,9 +333,9 @@ def main():
                 "training",
                 "feature-highlight",
                 "testimonial",
-                "shorts",
                 "other",
             ],
+            "shorts_included": args.include_shorts,
             "people": KNOWN_PEOPLE,
         },
         "videos": videos,
@@ -340,6 +351,8 @@ def main():
     print("")
     print(f"Done. Wrote {args.output}")
     print(f"  Total: {len(videos)} videos ({long_form} long-form, {shorts} shorts)")
+    if shorts_excluded:
+        print(f"  Excluded: {shorts_excluded} shorts (pass --include-shorts to include)")
     print(f"  DonorDock: {by_channel['donordock']}")
     print(f"  Fundraising Lab: {by_channel['fundraisinglab']}")
     print(f"  External: {by_channel['external']}")
