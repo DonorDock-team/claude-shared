@@ -18,7 +18,9 @@
   .dashboard-header h1 { font-family: 'Fraunces', serif; font-size: 28px; font-weight: 500; line-height: 1.2; }
   .dashboard-header .subtitle { font-size: 14px; color: var(--dd-muted); margin-top: 4px; }
   .header-badge { background: var(--dd-light-purple); border: 1px solid #e9d5ff; color: var(--dd-violet); font-size: 13px; font-weight: 600; padding: 6px 14px; border-radius: 20px; white-space: nowrap; }
-  .kpi-row { display: grid; gap: 16px; margin-bottom: 28px; }
+  .kpi-section { margin-bottom: 24px; }
+  .kpi-section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--dd-muted); margin-bottom: 10px; }
+  .kpi-row { display: grid; gap: 16px; }
   .kpi-card { background: #fff; border-radius: var(--radius); padding: 22px 24px; border: 1px solid #eee; }
   .kpi-label { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--dd-muted); margin-bottom: 8px; }
   .kpi-value { font-family: 'Fraunces', serif; font-size: 32px; font-weight: 500; color: var(--dd-navy); line-height: 1; }
@@ -70,7 +72,8 @@
   .hdyhau-text { font-size: 12px; color: var(--dd-tertiary); font-style: italic; max-width: 220px; }
   .methodology { background: var(--dd-lavender); border: 1px solid #ddd6de; border-radius: var(--radius); padding: 16px 22px; margin-top: 28px; font-size: 13px; color: var(--dd-tertiary); line-height: 1.6; }
   .methodology strong { color: var(--dd-navy); }
-  @media (max-width: 1100px) { .kpi-row { grid-template-columns: repeat(3, 1fr) !important; } .two-col { grid-template-columns: 1fr; } .partner-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 1200px) { .kpi-row { grid-template-columns: repeat(3, 1fr) !important; } .two-col { grid-template-columns: 1fr; } .partner-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 700px) { .kpi-row { grid-template-columns: repeat(2, 1fr) !important; } }
 </style>
 </head>
 <body>
@@ -83,8 +86,17 @@
   <div class="header-badge">20 New Business Deals</div>
 </div>
 
-<div class="kpi-row" style="grid-template-columns: repeat(4, 1fr);">
-<div class="kpi-card" style="border-left: 4px solid var(--dd-purple);"><div class="kpi-label">New Business Pipeline</div><div class="kpi-value">$115,680</div><div class="kpi-sub">20 new business deals</div></div><div class="kpi-card" style="border-left: 4px solid #93c5fd;"><div class="kpi-label">Working</div><div class="kpi-value" style="color: var(--dd-blue);">$103,200</div><div class="kpi-sub">17 deals</div></div><div class="kpi-card" style="border-left: 4px solid #86efac;"><div class="kpi-label">Closed Won</div><div class="kpi-value" style="color: #10b981;">$480</div><div class="kpi-sub">1 deal</div></div><div class="kpi-card" style="border-left: 4px solid var(--dd-coral);"><div class="kpi-label">Closed Lost</div><div class="kpi-value" style="color: var(--dd-coral);">$12,000</div><div class="kpi-sub">2 deals</div></div>
+<div class="kpi-section">
+  <div class="kpi-section-label">Pipeline Health &mdash; All Open New Business</div>
+  <div class="kpi-row" style="grid-template-columns: repeat(5, 1fr);">
+<div class="kpi-card" style="border-left: 4px solid #93c5fd;"><div class="kpi-label">Working</div><div class="kpi-value" style="color: var(--dd-blue);">$261,820</div><div class="kpi-sub">49 deals open</div></div><div class="kpi-card" style="border-left: 4px solid #6ee7b7;"><div class="kpi-label">Likely to Close</div><div class="kpi-value" style="color: #065f46;">$12,000</div><div class="kpi-sub">2 deals open</div></div><div class="kpi-card" style="border-left: 4px solid #fbbf24;"><div class="kpi-label">Closing</div><div class="kpi-value" style="color: #d97706;">$6,980</div><div class="kpi-sub">2 deals open</div></div><div class="kpi-card" style="border-left: 4px solid #c4b5fd;"><div class="kpi-label">Quote Signed</div><div class="kpi-value" style="color: var(--dd-violet);">$49,784</div><div class="kpi-sub">4 deals open</div></div><div class="kpi-card" style="border-left: 4px solid #a78bfa;"><div class="kpi-label">Long-Term</div><div class="kpi-value" style="color: var(--dd-violet);">$13,820</div><div class="kpi-sub">3 deals open</div></div>
+  </div>
+</div>
+<div class="kpi-section">
+  <div class="kpi-section-label">April 2026 &mdash; This Month</div>
+  <div class="kpi-row" style="grid-template-columns: repeat(3, 1fr);">
+<div class="kpi-card" style="border-left: 4px solid var(--dd-purple);"><div class="kpi-label">New Business This Month</div><div class="kpi-value">$115,680</div><div class="kpi-sub">20 deals created in April</div></div><div class="kpi-card" style="border-left: 4px solid #86efac;"><div class="kpi-label">Won This Month</div><div class="kpi-value" style="color: #10b981;">$18,480</div><div class="kpi-sub">4 deals</div></div><div class="kpi-card" style="border-left: 4px solid var(--dd-coral);"><div class="kpi-label">Lost This Month</div><div class="kpi-value" style="color: var(--dd-coral);">$60,672</div><div class="kpi-sub">12 deals</div></div>
+  </div>
 </div>
 
 <div class="two-col">
@@ -173,10 +185,10 @@
 </div>
 
 <div class="methodology">
-  <strong>Source methodology:</strong> Contact's "How did you hear about us?" is the source of truth. All deal sources are classified by AI reasoning on HDYHAU — no keyword matching. Falls back to deal-level drilldown, then HubSpot Original Traffic Source as last resort. Filtered by dealtype = New Business, pipeline = Sales Pipeline, create date = April 2026. All source updates saved to HubSpot.
+  <strong>Source methodology:</strong> Contact's "How did you hear about us?" is the source of truth. All deal sources are classified by AI reasoning on HDYHAU &mdash; no keyword matching. Falls back to deal-level drilldown, then HubSpot Original Traffic Source as last resort. Pipeline Health KPIs show all open new business deals regardless of create date. This Month KPIs use close date for Won/Lost. Filtered by dealtype = New Business, pipeline = Sales Pipeline.
 </div>
 
-<div style="text-align: center; padding: 20px; font-size: 12px; color: var(--dd-muted);">Generated on April 16, 2026 | Data sourced from HubSpot CRM | DonorDock Internal Report</div>
+<div style="text-align: center; padding: 20px; font-size: 12px; color: var(--dd-muted);">Generated on April 17, 2026 | Data sourced from HubSpot CRM | DonorDock Internal Report</div>
 
 </body>
 </html>
