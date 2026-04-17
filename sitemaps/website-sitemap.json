@@ -3,17 +3,16 @@
     "name": "DonorDock Website",
     "base_url": "https://www.donordock.com",
     "source": "https://www.donordock.com/sitemap.xml",
-    "scraped_at": "2026-04-15T15:48:29Z",
-    "total_pages": 520,
-    "total_sections": 8
+    "scraped_at": "2026-04-17T15:41:50Z",
+    "total_pages": 524,
+    "total_sections": 7
   },
   "section_index": {
-    "articles": 277,
+    "articles": 279,
     "compare": 9,
-    "core": 53,
+    "core": 56,
     "features": 61,
     "integrations": 59,
-    "solutions": 1,
     "success-stories": 14,
     "tools": 46
   },
@@ -859,6 +858,12 @@
       "section": "articles"
     },
     {
+      "url": "https://www.donordock.com/articles/how-to-write-nonprofit-about-page-donor-hero",
+      "title": "How to Rewrite Your Nonprofit About Page to Make Donors the Hero",
+      "description": "Most nonprofit about pages are all \"we\" and no \"you.\" Here's a step-by-step guide to rewriting yours so donors see themselves in your story.",
+      "section": "articles"
+    },
+    {
       "url": "https://www.donordock.com/articles/improving-nonprofit-events-with-online-giving",
       "title": "Improving Nonprofit Events with Online Giving",
       "description": "I recently attended a nonprofit event and was very impressed by the online giving option and how it was presented at the event. I was so impressed I thought I would share the benefits of presenting simple, online giving options before and during your nonprofit’s in-person events.",
@@ -1597,6 +1602,12 @@
       "section": "articles"
     },
     {
+      "url": "https://www.donordock.com/articles/why-profitability-is-not-a-dirty-word",
+      "title": "Why Profitability Is Not a Dirty Word",
+      "description": "52% of nonprofits have three months or less in cash reserves. It is time to stop treating financial health as an afterthought and start running your mission like the business it is.",
+      "section": "articles"
+    },
+    {
       "url": "https://www.donordock.com/articles/why-we-default-to-no",
       "title": "Why We Default to No",
       "description": "While it tends to go against my personality, I continue to learn that when developing a really good software product, we must default to saying no. We operate in a societal culture where we are too quick to say yes to everything – after all, many of us are “go-getters” and “pleasers”. We WANT to say yes…it feels GOOD to say yes…but it isn’t always BEST to say yes. Building a good software product is about having a coherent view of the problem you are trying to solve, and determining the simplest approach on how to solve that problem. It isn’t about trying to code for every edge case or adding features for the sake of adding features, even when those features might seem “useful”.",
@@ -1976,50 +1987,68 @@
     },
     {
       "url": "https://www.donordock.com/solution/annual-fund",
-      "title": "DonorDock",
-      "description": null,
+      "title": "Annual Fund Management Software for Nonprofits | DonorDock",
+      "description": "Plan, track, and grow your annual fund with DonorDock. Campaign management, donor segmentation, and real-time dashboards built for small nonprofit teams.",
       "section": "core"
     },
     {
       "url": "https://www.donordock.com/solution/board-reporting",
-      "title": "DonorDock",
-      "description": null,
+      "title": "Nonprofit Board Reporting Software | DonorDock",
+      "description": "Generate board-ready fundraising reports in minutes. DonorDock provides real-time dashboards and exportable reports built for nonprofit leadership.",
       "section": "core"
     },
     {
       "url": "https://www.donordock.com/solution/donor-retention",
-      "title": "DonorDock",
-      "description": null,
+      "title": "Donor Retention Software for Nonprofits | DonorDock",
+      "description": "Reduce donor attrition with automated stewardship, smart reminders, and relationship insights. DonorDock helps growing nonprofits retain more donors with less effort.",
+      "section": "core"
+    },
+    {
+      "url": "https://www.donordock.com/solution/donor-stewardship",
+      "title": "Donor Stewardship Software for Nonprofits | DonorDock",
+      "description": "Strengthen donor relationships with personalized thank-yous, touchpoint tracking, and automated stewardship workflows. DonorDock makes stewardship sustainable for lean teams.",
       "section": "core"
     },
     {
       "url": "https://www.donordock.com/solution/major-gifts",
-      "title": "DonorDock",
-      "description": null,
+      "title": "Major Gift Management for Small Nonprofits | DonorDock",
+      "description": "Identify, cultivate, and close major gifts with DonorDock. Prospect tracking, moves management, and relationship tools built for lean nonprofit teams.",
       "section": "core"
     },
     {
       "url": "https://www.donordock.com/solution/membership-management",
-      "title": "DonorDock",
-      "description": null,
+      "title": "Nonprofit Membership Management Software | DonorDock",
+      "description": "Track member levels and automate renewals in one platform. DonorDock makes membership management simple for growing nonprofits.",
+      "section": "core"
+    },
+    {
+      "url": "https://www.donordock.com/solution/project-management",
+      "title": "Nonprofit Project Management Software | DonorDock",
+      "description": "Manage nonprofit projects, tasks, and deadlines inside your CRM. DonorDock project boards keep fundraising campaigns, events, and initiatives organized without extra tools.",
       "section": "core"
     },
     {
       "url": "https://www.donordock.com/solution/team-collaboration",
-      "title": "DonorDock",
-      "description": null,
+      "title": "Nonprofit Team Collaboration CRM | DonorDock",
+      "description": "Give your nonprofit team shared visibility into donor relationships, tasks, and communications. DonorDock keeps everyone aligned without extra meetings.",
       "section": "core"
     },
     {
       "url": "https://www.donordock.com/solution/tool-consolidation",
-      "title": "DonorDock",
-      "description": null,
+      "title": "Nonprofit CRM Tool Consolidation | DonorDock",
+      "description": "Stop juggling disconnected tools. DonorDock combines donor management, email, giving, and reporting in one simple platform built for growing nonprofits.",
       "section": "core"
     },
     {
       "url": "https://www.donordock.com/solution/volunteer-tracking",
-      "title": "DonorDock",
-      "description": null,
+      "title": "Volunteer Tracking Software for Nonprofits | DonorDock",
+      "description": "Track volunteer hours and connect volunteer engagement to donor relationships. DonorDock makes volunteer management simple.",
+      "section": "core"
+    },
+    {
+      "url": "https://www.donordock.com/solutions-overview",
+      "title": "Fundraising Solutions for Nonprofits | DonorDock",
+      "description": "Explore how DonorDock helps nonprofits tackle their biggest challenges. From donor retention and major gifts to board reporting and team collaboration, find the solution that fits your needs.",
       "section": "core"
     },
     {
@@ -2771,12 +2800,6 @@
       "title": "Zapier + DonorDock Integration",
       "description": "Zapier is a user-friendly tool that lets you easily send info between DonorDock and the other software tools you use.",
       "section": "integrations"
-    },
-    {
-      "url": "https://www.donordock.com/solutions/donor-retention",
-      "title": "Donor Retention & Stewardship | DonorDock",
-      "description": "Keep more donors year over year with DonorDock's built-in stewardship tools. ActionBoard, Smart Nudges, and automations help your team follow up at the right time, every time.",
-      "section": "solutions"
     },
     {
       "url": "https://www.donordock.com/success-stories/cancergrace",
