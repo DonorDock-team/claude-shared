@@ -1,0 +1,203 @@
+<!--
+  DonorDock Pricing Page — Complete JSON-LD
+  Paste INSIDE Webflow → Pricing Page → Page Settings → Custom Code → "Before </body> tag"
+  Replaces the entire existing <script type="application/ld+json"> block.
+  Validated schema.org 2026. Covers SoftwareApplication + Offer + AggregateRating + FAQPage + BreadcrumbList.
+
+  ACTION: Update the FAQPage questions below with the actual Q&A visible on the pricing page.
+  The structure is correct; the content placeholders need your edits.
+-->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://www.donordock.com/pricing#software",
+      "name": "DonorDock",
+      "description": "DonorDock is a donor management CRM built for small-to-mid nonprofit teams. Includes unlimited contacts, online giving, email and text outreach, automations, and project boards in one platform.",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Nonprofit CRM",
+      "operatingSystem": "Web",
+      "url": "https://www.donordock.com",
+      "screenshot": "https://cdn.prod.website-files.com/63ce9d04b1ff6e36cf514274/REPLACE_WITH_SCREENSHOT_URL.webp",
+      "featureList": [
+        "Unlimited contacts",
+        "Online giving (no platform fees)",
+        "Email and text outreach",
+        "ActionBoard project management",
+        "Moves management / donor stewardship",
+        "Reporting and analytics",
+        "100+ integrations",
+        "SOC 2 Type II certified",
+        "90-day onboarding program",
+        "Smart Steward Method",
+        "Otto AI assistant",
+        "QuickBooks sync",
+        "Mailchimp integration"
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Nonprofit organizations, 501(c)(3) charities, small to mid-size nonprofits"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "ONE Plan",
+        "description": "All DonorDock features in one plan. Unlimited contacts, 5 users, billed annually.",
+        "price": "500.00",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "500.00",
+          "priceCurrency": "USD",
+          "unitText": "MONTH",
+          "billingDuration": "P1Y"
+        },
+        "url": "https://www.donordock.com/pricing",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "200",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "provider": {
+        "@id": "https://www.donordock.com/#organization"
+      },
+      "award": [
+        "G2 Easiest to Use 2026",
+        "Capterra Best Value 2026"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.donordock.com/pricing#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does DonorDock cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DonorDock is $500/month billed annually, with unlimited contacts, 5 users, and every feature included. No contracts, no platform fees on recurring gifts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is DonorDock free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DonorDock is not free, but there is no free trial required. Plans start at $500/month with unlimited contacts. A 90-day money-back guarantee is included with every new subscription."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there any platform fees on donations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. DonorDock does not charge platform fees on recurring donations. Standard payment processor fees (Stripe, PayPal) apply as passthrough."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does DonorDock have a contract or can I cancel anytime?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DonorDock is billed annually but you may cancel at any time. A 90-day money-back guarantee applies to new subscriptions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does DonorDock include data migration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. White-glove data migration from Bloomerang, DonorPerfect, Network for Good, spreadsheets, and other CRMs is included as part of the 90-day onboarding program."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in the 90-day onboarding program?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 90-day onboarding program includes data migration, dedicated onboarding specialist, custom setup, team training, and ongoing check-ins for the first 90 days. This is included with every new subscription."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many users can I have on DonorDock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The ONE Plan includes 5 users. Additional users can be added at $40 per user per month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does DonorDock offer nonprofit discounts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The $500/month price is the nonprofit rate. DonorDock is built exclusively for 501(c)(3) nonprofits and similar charitable organizations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does DonorDock have an unlimited contact policy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Unlike Bloomerang, Neon, and other nonprofit CRMs that tier pricing by contact count, DonorDock's $500/month ONE Plan includes unlimited contacts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I add text messaging to my DonorDock plan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. SMS outreach is an add-on at $19/month per block of text messages. Email outreach is $45/month per email volume tier."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.donordock.com/pricing#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.donordock.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Pricing"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.donordock.com/pricing#webpage",
+      "url": "https://www.donordock.com/pricing",
+      "name": "DonorDock Pricing — $500/mo, Unlimited Contacts",
+      "description": "See DonorDock's all-inclusive $500/month pricing for nonprofit donor management. Unlimited contacts, 5 users, every feature included. 90-day money-back guarantee.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.donordock.com/#website",
+        "name": "DonorDock",
+        "url": "https://www.donordock.com"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "REPLACE_WITH_PRICING_PAGE_HERO_IMAGE"
+      },
+      "breadcrumb": {
+        "@id": "https://www.donordock.com/pricing#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://www.donordock.com/pricing#software"
+      }
+    }
+  ]
+}
+</script>

@@ -1,0 +1,65 @@
+<!--
+  REUSABLE FAQPage Template for /compare/* pages
+  Paste INSIDE Webflow → Page Settings → Custom Code → "Before </body> tag"
+  Update [COMPETITOR], question text, and answer text for each compare page.
+
+  Deploy to all 9 compare pages that don't have FAQPage or have invalid JSON.
+  After deploying, test each at https://search.google.com/test/rich-results
+-->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What's the difference between [COMPETITOR] and DonorDock?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Write 2-3 sentence direct comparison. Include the single biggest differentiator. Example: 'DonorDock is $500/month with unlimited contacts; [COMPETITOR] tiers pricing by contact count starting at [$X]. DonorDock includes the 90-day onboarding program; [COMPETITOR] charges [$Y] extra for onboarding.']"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does [COMPETITOR] cost compared to DonorDock?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Competitor pricing summary + DonorDock's $500/mo. Include 3-year total cost of ownership if known.]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I migrate from [COMPETITOR] to DonorDock?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. DonorDock's 90-day onboarding program includes white-glove data migration from [COMPETITOR]. The migration process is handled by a dedicated onboarding specialist who maps your data, verifies accuracy, and trains your team on the new system."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which is better for small nonprofits, [COMPETITOR] or DonorDock?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Honest assessment with the decision criteria a small nonprofit would actually use — pricing predictability, onboarding depth, ease of use, team size fit. Favor DonorDock where the product genuinely fits, acknowledge where [COMPETITOR] is the better choice for specific use cases.]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does [COMPETITOR] have [SPECIFIC FEATURE DonorDock OFFERS]?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Factual answer about competitor feature coverage. Include specifics like 'Yes but as a paid add-on' or 'No, not in the base plan.']"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do [COMPETITOR] and DonorDock integrate with [POPULAR TOOL like Mailchimp, QuickBooks]?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Factual integration comparison.]"
+      }
+    }
+  ]
+}
+</script>
