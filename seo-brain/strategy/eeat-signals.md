@@ -40,12 +40,17 @@ These people formerly worked at DonorDock and authored articles still live on th
 - **Sarah O'Brien** — departed. Articles remain live.
 - **Scott Holdman** — departed. Articles remain live.
 
-**Policy options for departed authors:**
-1. **Preserve byline + add "Former" note** (default recommendation). E-E-A-T retained; integrity preserved; reader sees "Written by Elisha Ford, former Customer Success Manager at DonorDock."
-2. **Reassign byline** to current team member who now owns that expertise area (e.g., Bridgette for stewardship content originally by Elisha).
-3. **Ghost to "DonorDock Team"** (worst for E-E-A-T — avoid).
+**Policy LOCKED 2026-04-23 (Rob confirmation):**
 
-**Recommendation:** Go with Option 1 for articles still earning meaningful traffic, Option 2 for articles under heavy revision. Never Option 3 for content on the Smart Stewardship pillar — E-E-A-T matters most there.
+1. **Default:** Add "Former" to byline. E-E-A-T retained; integrity preserved; reader sees byline like "Written by Elisha Ford, former Customer Success Manager at DonorDock."
+2. **Exception:** When an article undergoes HEAVY revision (>50% content rewrite), REASSIGN the byline to the current team member who owns that expertise area (e.g., Bridgette for stewardship content that was originally by Elisha and gets a substantial refresh).
+3. **Never:** Ghost to "DonorDock Team" — worst for E-E-A-T.
+
+**Action for implementation:**
+- Audit all articles authored by Elisha / Sami / Sarah / Scott
+- Add "Former [Title] at DonorDock" to visible byline + update Person schema with a `description` note like "Former Customer Success Manager"
+- For articles scheduled for heavy Q2/Q3 2026 refresh, reassign to Matt/Rob/Noah/Bridgette per expertise area
+- Ship this via Webflow CMS template update — one template change applies to all CMS articles
 
 **Action for Rob:** Confirm LinkedIn URLs for Matt, Andrew, Rob, Noah, Bridgette. Confirm whether Bridgette is ready to be a named author (requires bio page + Person schema even if she hasn't authored yet — she can be a `reviewedBy` or podcast-quoted expert immediately).
 
