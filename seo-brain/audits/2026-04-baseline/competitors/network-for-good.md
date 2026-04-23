@@ -33,7 +33,7 @@
 - **Hero H1:** "Built for lean nonprofit teams"
 - **Positioning line:** "The Donor Development Platform for Growing Nonprofits"
 - **ICP claim:** Small-to-mid nonprofits, 1-5 staff, "do it all" teams
-- **Flagship feature hook:** ActionBoard + Otto AI + unlimited contacts + 1% fee
+- **Flagship feature hook:** Action Board + Otto AI + unlimited contacts + 1% fee
 
 ### Overlap assessment
 | Dimension | NFG | DonorDock | Overlap |
@@ -225,7 +225,7 @@ Where NFG is weak, absent, or tonally wrong — DonorDock's opening:
 ### What DonorDock already has
 - `/compare/network-for-good-vs-donordock` — strong page, 3,500–4,000 words, includes:
   - Side-by-side pricing table ($79/mo listed vs. $300/mo — note: DonorDock homepage now says $500/mo flat, so this page needs a price update)
-  - Feature comparison (ActionBoard, P2P, custom fields, free online giving)
+  - Feature comparison (Action Board, P2P, custom fields, free online giving)
   - G2 ratings table (DonorDock 9.6 Ease of Use vs NFG 9.1)
   - Pain-point hooks ("Worried about data migration?", "Switching to DonorDock is simple")
   - 12 H2s with clear intent-mapping
@@ -272,7 +272,7 @@ Where NFG is weak, absent, or tonally wrong — DonorDock's opening:
 
 ### 4. Build a small-nonprofit-specific topical authority hub (priority: MEDIUM)
 - NFG/Bonterra covers small nonprofits in theory but with enterprise framing. DonorDock's pillar should be unmistakably 1–5 staff nonprofits.
-- Target keywords: "nonprofit CRM for 1 person," "donor software for small church," "fundraising software for ED doing everything," "CRM for new nonprofit under 10k donors."
+- Target keywords: "donor CRM for growing nonprofit," "CRM for mid-sized nonprofit," "donor management for development teams," "nonprofit CRM with unlimited contacts."
 - Publish 10–15 long-tail articles in Q2–Q3 2026 with FAQ schema, real customer examples, and bylines.
 
 ### 5. Attack the schema gap on product pages (priority: MEDIUM)
