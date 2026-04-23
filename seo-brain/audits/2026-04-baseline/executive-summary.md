@@ -158,7 +158,7 @@ DonorDock can own these without direct contestation:
 - **AI-era fundraising operations practical content** — all competitors positioning AI but content is thin
 - **"Otto vs Penny vs [Virtuous AI]" head-to-head AI-assistant comparisons**
 - **Free template and toolkit library** — Keela owns, others don't invest
-- **Annual original-data benchmark report** — Neon has Generosity Report, Virtuous has RNS benchmarks, DonorDock has 7,200 customers + $9B tracked gifts as raw material but no report yet
+- **Annual original-data benchmark report** — Neon has Generosity Report, Virtuous has RNS benchmarks, DonorDock has ~1,300 customer nonprofits (7,200+ users) + $9B tracked gifts as raw material but no report yet
 
 ---
 
@@ -200,7 +200,7 @@ Ranked by expected impact × reversibility. Items 1-7 feed directly into Phase 2
 11. **Vertical landing pages** — match LGL's 6 (animal care, human services, arts, land trusts, schools, libraries) + add churches, healthcare, advocacy, food banks
 12. **Glossary program** — 60 terms at `/glossary/{term}` with DefinedTerm + FAQPage schema
 13. **"Switch from [competitor]" migration hub** — Bloomerang, DonorPerfect, LGL, Keela, Kindful, NFG
-14. **"Nonprofit Fundraising Benchmarks 2026" annual report** — uses DonorDock's 7,200 customers + $9B tracked gifts as original-research asset
+14. **"Nonprofit Fundraising Benchmarks 2026" annual report** — uses DonorDock's ~1,300 customer nonprofits (7,200+ users) + $9B tracked gifts as original-research asset
 15. **Double down on "Smart Stewardship" as the owned category term** (competitive response to Virtuous's "Responsive Fundraising"). Already seeded via `/smart-steward-method`, Smart Steward Method, Smart Nudges, Action Board, Otto AI. Phase 2 must operationalize this into the master category narrative with a book/playbook anchor.
 16. **Interactive pricing calculator** — shows competitor TCO vs DonorDock flat rate at 500/1000/5000/10000 contacts
 17. **`/compare/virtuous-vs-donordock`** and `/compare/keela-vs-donordock` — Phase 2 must-builds before they attack
