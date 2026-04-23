@@ -11,7 +11,16 @@ Seven topical authority pillars. Each pillar owns a topic cluster, anchors to a 
 
 ## Pillar 1 — Donor Stewardship (Master pillar; flagship for Smart Stewardship category)
 
-**Pillar page:** [/solution/donor-stewardship](https://www.donordock.com/solution/donor-stewardship)
+**PILLAR URL DECISION (per Rob's 2026-04-23 review):** `/solution/donor-stewardship` is a CMS-templated page with limited customizability — not ideal as a master-pillar. Three options:
+
+1. **`/smart-steward-method` as master pillar** (Rob's leading idea) — leans hardest into Smart Stewardship brand; page already exists. Supporting pages sit under it.
+2. **New `/guides/donor-stewardship` hub** — clean slate, fully customizable, can structure around pillar-and-spoke.
+3. **Upgrade `/solution/donor-stewardship`** to non-CMS status in Webflow (if possible).
+
+**Recommendation:** Option 1 (`/smart-steward-method` as pillar). Why: (a) directly reinforces Smart Stewardship as owned category, (b) already URL-ranked, (c) Rob's instinct is usually right on brand, (d) `/solution/donor-stewardship` becomes an intent-matched landing page for "donor stewardship software" queries while `/smart-steward-method` owns "what is smart stewardship / stewardship methodology" queries. The two pages target different intents without cannibalizing.
+
+**Pillar page:** [/smart-steward-method](https://www.donordock.com/smart-steward-method) (PROPOSED CHANGE — see note below)
+**Existing /solution/donor-stewardship becomes supporting page** (CMS-template limited, less customizable)
 **Current supporting articles:** 54 articles tagged stewardship (per Phase 1 content audit)
 **Strategic role:** THIS is the Smart Stewardship flagship. Every other pillar reinforces this one.
 **ICP fit:** Growing/mid-sized nonprofits with development teams seeking systematic donor relationship management. 100% fit.
@@ -118,7 +127,9 @@ Seven topical authority pillars. Each pillar owns a topic cluster, anchors to a 
 
 ## Pillar 4 — Fundraising Strategy
 
-**Pillar page:** TO BUILD at /guides/fundraising-strategy or /solution/fundraising-strategy
+**PILLAR URL DECISION (per Rob's 2026-04-23 review):** Build at root `/fundraising-strategy` — NOT `/solution/fundraising-strategy`. Root URL carries more authority and isn't constrained by the Solution CMS template. If an existing `/solution/fundraising-strategy` page exists as a solution-template page, either (a) 301-redirect it to the new root pillar, or (b) keep it as intent-matched "fundraising strategy software" landing page while root owns the educational/strategic pillar.
+
+**Pillar page:** TO BUILD at `/fundraising-strategy`
 **Current supporting articles:** 59 articles tagged fundraising-strategy (largest tag cluster)
 **Strategic role:** Own the strategic-planning and campaign-thinking layer that sits above tactics. This is where development directors spend time planning.
 **ICP fit:** Growing/mid-sized development teams making annual plans. 100% fit.
@@ -142,7 +153,7 @@ Seven topical authority pillars. Each pillar owns a topic cluster, anchors to a 
 - DonorPerfect covers seasonal ("Giving Tuesday," "Year-end") well
 
 **Cluster gaps to fill:**
-- Build /guides/fundraising-strategy pillar page (doesn't exist)
+- Build /fundraising-strategy pillar page (doesn't exist)
 - "Annual fundraising plan template" (gated asset)
 - "Moves management playbook" (competes with Bloomerang directly)
 - "Nonprofit KPIs + metrics dashboard" (quantitative)
@@ -228,7 +239,9 @@ Seven topical authority pillars. Each pillar owns a topic cluster, anchors to a 
 
 ## Pillar 7 — Donor Retention
 
-**Pillar page:** TO BUILD at /guides/donor-retention (new pillar)
+**PILLAR URL DECISION (per Rob's 2026-04-23 review):** Build at root `/donor-retention` — NOT `/donor-retention`. Same rationale as Pillar 4: root URL carries more authority. Attack Bloomerang's legacy retention positioning from a root URL.
+
+**Pillar page:** TO BUILD at `/donor-retention`
 **Current supporting articles:** Scattered across fundraising-strategy and donor-engagement tags
 **Strategic role:** Own the retention conversation Rob already leads with narratively. Attack Bloomerang's "retention-first" positioning with Smart Stewardship as the systematic retention methodology.
 **ICP fit:** Growing/mid-sized nonprofits losing donors year-over-year. 100% fit. High-conversion-intent cluster.
@@ -251,7 +264,7 @@ Seven topical authority pillars. Each pillar owns a topic cluster, anchors to a 
 - AFP Fundraising Effectiveness Project is the authoritative external data source — cite it
 
 **Cluster gaps to fill:**
-- Build /guides/donor-retention pillar page (doesn't exist)
+- Build /donor-retention pillar page (doesn't exist)
 - Annual "Nonprofit Fundraising Benchmark Report" using DonorDock's 7,200-customer data (retention rates, second-gift rates, lapsed-donor reactivation) — this is the research-citation asset none of the competitors have for growing nonprofits specifically
 - "Donor retention strategies" (fills current 404 URL)
 - "Second gift strategy playbook"
