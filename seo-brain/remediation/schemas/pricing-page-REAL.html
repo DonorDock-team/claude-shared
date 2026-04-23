@@ -2,6 +2,9 @@
   REAL pricing page schema — all 10 FAQ Q&A extracted from live /pricing FAQ section on 2026-04-22.
   No placeholders. Paste into Webflow → Pricing Page → Page Settings → Custom Code → Before </body>.
   Includes SoftwareApplication + Offer + AggregateRating + FAQPage + BreadcrumbList + WebPage + Organization reference.
+
+  CORRECTED 2026-04-22: removed incorrect "no platform fees" claim. Per DonorDock brand, online donations
+  through DonorDock Giving pages incur a 1% platform fee plus standard payment processor fees.
 -->
 
 <script type="application/ld+json">
@@ -39,7 +42,7 @@
       "featureList": [
         "Unlimited contacts",
         "CRM and donor management",
-        "Online giving pages",
+        "Online giving pages (1% platform fee)",
         "Email marketing",
         "Text messaging (SMS)",
         "ActionBoard project management",
@@ -61,7 +64,7 @@
       "offers": {
         "@type": "Offer",
         "name": "DonorDock ONE Plan",
-        "description": "All DonorDock features in a single plan. Unlimited contacts, 5 users, no platform fees on donations.",
+        "description": "All DonorDock features in a single plan. Unlimited contacts, 5 users. Online donations through DonorDock Giving pages include a 1% platform fee plus standard payment processor fees.",
         "price": "500.00",
         "priceCurrency": "USD",
         "priceSpecification": {
@@ -185,7 +188,7 @@
       "@id": "https://www.donordock.com/pricing#webpage",
       "url": "https://www.donordock.com/pricing",
       "name": "DonorDock Pricing",
-      "description": "DonorDock is $500/month with unlimited contacts, 5 users, and every feature included. One plan, no platform fees on donations, 90-day money-back guarantee.",
+      "description": "DonorDock is $500/month with unlimited contacts, 5 users, and every feature included. Online donations through DonorDock Giving pages include a 1% platform fee plus standard processor fees. No long-term contracts, no hidden fees, 90-day money-back guarantee.",
       "isPartOf": {
         "@type": "WebSite",
         "@id": "https://www.donordock.com/#website",
