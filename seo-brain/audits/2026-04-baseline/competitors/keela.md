@@ -138,7 +138,7 @@
 4. **Transparent pricing and TCO content** — Keela's pricing is complex; DonorDock's flat $500+1% is a clear differentiator
 5. **Platform fee comparisons** — comparing processing fees across Stripe, NFG, Givebutter, Classy
 6. **Practical "day in the life" / tactical workflow content**
-7. **Church and faith-based fundraising** — underserved by Keela
+7. **Faith-based nonprofits (non-church)** - underserved by Keela. Parachurch orgs, religious social services, faith-based foundations with development programs. (Congregational churches are NOT a DonorDock target.)
 8. **Board and volunteer management integrated with donor management**
 9. **Migration content from specific competitors**
 
