@@ -172,7 +172,7 @@ Virtuous optimizes upmarket and sector-vertical. Here's what they don't serve we
 5. **Giving Tuesday / year-end tactical playbooks for tiny teams.** Virtuous has playbooks but they're team-sized. Solo-fundraiser-scaled content is open.
 6. **Board-ready content for small orgs.** "How to report to your board" for a 2-person dev shop — Virtuous covers governance abstractly; DonorDock can own the tactical version.
 7. **Accessible AI for small nonprofits.** Virtuous's AI narrative assumes scale. "AI for a nonprofit with no IT staff" is a fresh angle.
-8. **Faith-based content at small-church scale.** Virtuous targets large faith-based orgs. NOTE: faith-based/church vertical is NOT a DonorDock ICP fit — de-prioritize.
+8. **Faith-based content at mid-sized scale.** Virtuous targets large enterprise faith-based orgs. Mid-sized faith-based nonprofits (parachurch orgs, religious social services, faith-based foundations, mission-driven 501(c)(3)s) are under-served — this IS a valid DonorDock target. (Note: individual congregational churches are NOT a DonorDock ICP fit — Planning Center / Breeze own that use case.)
 9. **Volunteer-run nonprofits.** All-volunteer orgs are invisible in Virtuous's content. Real segment, real search volume.
 10. **QuickBooks + DonorDock workflows, Zapier plays, integration how-tos.** DonorDock already has early coverage here — expand into a full integration-content cluster.
 
