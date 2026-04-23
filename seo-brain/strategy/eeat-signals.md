@@ -27,17 +27,27 @@ DonorDock has named founders (Matt, Andrew) + named executives (Rob, Noah, Bridg
 
 | Person | Role | Expertise (knowsAbout) | Primary pillars | LinkedIn | Articles authored |
 |---|---|---|---|---|---|
-| Matt Bitzegaio | Co-founder, CEO | Nonprofit technology, donor management, small-to-mid nonprofit operations, founder story | All | (link to LinkedIn) | 10+ |
-| Andrew Lutgen | Co-founder | Product strategy, nonprofit software architecture | CRM, AI for Nonprofits | (LinkedIn) | fewer |
-| Rob Burke | CMO | SEO, nonprofit marketing, Smart Stewardship methodology, brand positioning | Donor Stewardship, Donor Engagement, Fundraising Strategy | (LinkedIn) | 10+ |
-| Noah Barnett | CSO | Nonprofit strategy, AI for nonprofits | Fundraising Strategy, AI for Nonprofits | (LinkedIn) | 5+ |
-| Bridgette Foust | ? | Customer success, donor stewardship methodology | Donor Stewardship, Donor Retention | (LinkedIn) | ? |
-| Elisha Ford | ? | Donor management, stewardship practice | Donor Stewardship | (LinkedIn) | 5+ |
-| Sami Bedell-Mulhern | ? | Nonprofit operations, marketing | Donor Engagement | (LinkedIn) | 5+ |
-| Sarah O'Brien | ? | Fundraising | Fundraising Strategy | (LinkedIn) | 3+ |
-| Scott Holdman | ? | ? | ? | (LinkedIn) | 3+ |
+| Matt Bitzegaio | Co-founder, CEO | Nonprofit technology, donor management, mid-sized/growing nonprofit operations, Smart Stewardship, founder story | All | (link) | 10+ |
+| Andrew Lutgen | Co-founder | Product strategy, nonprofit software architecture | CRM, AI for Nonprofits | (link) | fewer |
+| Rob Burke | CMO | SEO, nonprofit marketing, Smart Stewardship methodology, brand positioning, AEO | Donor Stewardship, Donor Engagement, Fundraising Strategy | (link) | 10+ |
+| Noah Barnett | Chief Strategy Officer | Nonprofit strategy, AI for nonprofits, Otto product narrative | Fundraising Strategy, AI for Nonprofits | (link) | 5+ |
+| Bridgette Bitzegaio | Customer Success Manager | Customer success, onboarding, donor stewardship practice, CRM operations, fundraising best practices | Donor Stewardship, Donor Retention, CRM | (link) | 0 (expert voice; ghost-write or record podcast guest spots; target authored bylines in Q3) |
 
-**Action:** Rob to fill in blanks and validate expertise areas in a Phase 2 review session.
+### Departed team members (historical authorship)
+These people formerly worked at DonorDock and authored articles still live on the site. Policy decision needed for each:
+- **Elisha Ford** — departed. Articles remain live.
+- **Sami Bedell-Mulhern** — departed. Articles remain live.
+- **Sarah O'Brien** — departed. Articles remain live.
+- **Scott Holdman** — departed. Articles remain live.
+
+**Policy options for departed authors:**
+1. **Preserve byline + add "Former" note** (default recommendation). E-E-A-T retained; integrity preserved; reader sees "Written by Elisha Ford, former Customer Success Manager at DonorDock."
+2. **Reassign byline** to current team member who now owns that expertise area (e.g., Bridgette for stewardship content originally by Elisha).
+3. **Ghost to "DonorDock Team"** (worst for E-E-A-T — avoid).
+
+**Recommendation:** Go with Option 1 for articles still earning meaningful traffic, Option 2 for articles under heavy revision. Never Option 3 for content on the Smart Stewardship pillar — E-E-A-T matters most there.
+
+**Action for Rob:** Confirm LinkedIn URLs for Matt, Andrew, Rob, Noah, Bridgette. Confirm whether Bridgette is ready to be a named author (requires bio page + Person schema even if she hasn't authored yet — she can be a `reviewedBy` or podcast-quoted expert immediately).
 
 ---
 
@@ -156,8 +166,18 @@ Every article must have:
 - SOC 2 Type II (mentioned in pricing FAQ)
 - HTTPS + HSTS (technical)
 
-**To add:**
-- Dedicated `/trust` or `/security` page with:
+**Existing trust surface (strong):**
+- **security.donordock.com** — DonorDock's dedicated security/trust subdomain (live). Covers SOC 2 Type II, data handling, privacy, security practices.
+- **Action:** Verify security.donordock.com has Organization + WebPage schema and is linked from footer/nav. Confirm it's indexable and cross-linked from /pricing FAQ around security questions.
+
+**To enhance:**
+- Cross-link security.donordock.com from every page footer (if not already)
+- Add schema on the subdomain: Organization with `hasCredential` for SOC 2
+- Surface directly in llms.txt as a trust anchor
+- Link from author pages as a reinforcing trust signal
+
+**Original plan (superseded by existing security.donordock.com):**
+~~Build dedicated `/trust` or `/security` page with:~~
   - SOC 2 Type II certificate details
   - GDPR compliance statement
   - CCPA/CPRA statement
@@ -215,7 +235,7 @@ Encourage (and surface on author pages):
 4. Update Organization schema on homepage to include founders as `founder`
 
 ### Phase 3 (Q3 2026)
-5. Build /trust page
+5. ~~Build /trust page~~ (exists at security.donordock.com — enhance with schema + footer linking instead)
 6. Build /reviews aggregation page
 7. Podcast transcripts + schema for top 10 most-viewed episodes
 8. Publish methodology statement for Nonprofit Fundraising Benchmark Report
