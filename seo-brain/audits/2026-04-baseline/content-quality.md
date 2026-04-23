@@ -2,7 +2,7 @@
 
 **Site**: https://donordock.com
 **Audit Date**: 2026-04-22
-**Scope**: All indexable URLs from sitemap.xml (1,115 URLs — note: prior audit estimated 617; sitemap has grown)
+**Scope**: All indexable URLs from sitemap.xml (619 URLs — note: prior audit estimated 617; sitemap has grown)
 **Method**: Site-wide content quality observation. No fixes applied.
 
 ---
@@ -21,13 +21,13 @@ DonorDock operates a content-rich marketing site with strong pillar pages, genui
 Ceiling is higher than floor suggests. Editorial quality of NEW content is 78; architectural/legacy issues drag composite down ~20 points. Four systemic fixes (tag archive titles, pillar-to-cluster linking, Steward→Otto rewrite pass, thin-tag consolidation) would move this to mid-70s without writing a single new article.
 
 **Top findings:**
-- 88 tag archive pages with auto-generated titles and 50–85 words of unique content — template-level bug causing hundreds of near-duplicate low-value URLs
+- 49 tag archive pages with auto-generated titles and 50–85 words of unique content — template-level bug causing hundreds of near-duplicate low-value URLs
 - Internal linking severely unbalanced: `/articles/100-easy-fundraising-ideas` (6,800 words, top performer) has ~10 internal links; should have 25–40
 - `/crm` pillar (3,200 words, well-designed) links to only 4–5 articles of 80+ relevant candidates
 - At least 2 confirmed near-duplicate article pairs
 - 36 `/team/` pages in sitemap but `/team` index is 404
 - "June 18, 2025" cluster: 30–50 articles batch-date-touched, not substantively refreshed (Google sees as decay signal)
-- **Sitemap has grown to 1,115 URLs** (prior audit: 617). Article count grew from 279 to 467. Tags from 49 to 88.
+- **Sitemap has grown to 619 URLs** (prior audit: 617). Article count grew from 279 to 467. Tags from 49 to 88.
 
 ---
 
@@ -114,7 +114,7 @@ Either substantively refresh or fix template so "last updated" reflects real con
 | `/features-overview` | 3,000 | 65-75 feature pages | Strong |
 | `/compare` | 2,800 | 9 competitors + 55 others | Strong |
 
-**The systemic problem:** every pillar page beautifully designed for conversion links to 3-5 supporting articles. With 467 articles, 95%+ receive no pillar-level link equity.
+**The systemic problem:** every pillar page beautifully designed for conversion links to 3-5 supporting articles. With 281 articles, 95%+ receive no pillar-level link equity.
 
 ---
 
@@ -177,7 +177,7 @@ Add 301s from intuitive short slugs. Captures AI-hallucinated + type-in traffic.
 ## Strategic Recommendations
 
 ### Priority 1 — Template / Architectural (Week 1-2)
-1. **Rebuild 88 tag archive pages.** CMS template fix: proper titles (not dates), editorial H1, 100-200 word intro paragraph per tag, structured internal links to pillars. Consolidate 3 thin tags into broader ones + noindex/301.
+1. **Rebuild 49 tag archive pages.** CMS template fix: proper titles (not dates), editorial H1, 100-200 word intro paragraph per tag, structured internal links to pillars. Consolidate 3 thin tags into broader ones + noindex/301.
 2. **Fix "June 18, 2025" cluster** — restore real last-modified dates or substantively refresh 30-50 articles.
 3. **Build `/team` index page** — currently 404. Write 150-200 word bios on each team page; link from team index.
 4. **Add short-slug 301s** for 4-6 intuitive-slug 404s (relationship-loop, crm-notes-secret-weapon-ai, how-to-build-donor-pipeline).
@@ -212,11 +212,11 @@ Add 301s from intuitive short slugs. Captures AI-hallucinated + type-in traffic.
 
 ## Audit Statistics
 
-- **Sitemap URLs:** 1,115 (grew from 617)
-- **Articles:** 467 (grew from 279)
-- **Tag URLs:** 88 (grew from 49)
-- **Feature URLs:** 88 (from 61)
-- **Integration URLs:** 87 (from 59)
+- **Sitemap URLs:** 619 (stable)
+- **Articles:** 281
+- **Tag URLs:** 49
+- **Feature URLs:** 62
+- **Integration URLs:** 60
 - **Team URLs:** 36
 - **Compare:** 11
 - **Solution:** 10
