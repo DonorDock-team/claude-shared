@@ -272,7 +272,7 @@ Where NFG is weak, absent, or tonally wrong — DonorDock's opening:
 
 ### 4. Build a small-nonprofit-specific topical authority hub (priority: MEDIUM)
 - NFG/Bonterra covers small nonprofits in theory but with enterprise framing. DonorDock's pillar should be unmistakably 1–5 staff nonprofits.
-- Target keywords: "donor CRM for growing nonprofit," "CRM for mid-sized nonprofit," "donor management for development teams," "nonprofit CRM with unlimited contacts."
+- Target keywords: "donor CRM for growing nonprofit," "CRM for mid-sized nonprofit," "donor management for development teams," "nonprofit CRM with unlimited contacts," "faith-based nonprofit CRM," "parachurch nonprofit CRM" (note: avoid congregational-church keywords).
 - Publish 10–15 long-tail articles in Q2–Q3 2026 with FAQ schema, real customer examples, and bylines.
 
 ### 5. Attack the schema gap on product pages (priority: MEDIUM)
