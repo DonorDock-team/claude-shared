@@ -202,7 +202,7 @@ Key question: **will an LLM cite LGL when a user asks "what's the best donor man
 
 1. **Competitor comparison pages — LGL has ONE (Kindful alternative).** DonorDock already has 10. Every query like "Bloomerang vs X," "DonorPerfect alternative," "Neon CRM alternative" is DonorDock's to lose. **Priority: defend and expand the 10 existing pages; ensure each is optimized for featured snippets with a comparison table above the fold.**
 
-2. **Modern/AI keyword cluster** — LGL does not write about AI, automation, ActionBoard-style task suggestions, AI-assisted thank-yous, or Otto-style assistants. DonorDock owns this vocabulary. Publish articles targeting "AI for nonprofit fundraising," "automate donor thank-yous," "AI donor management," "nonprofit CRM with AI."
+2. **Modern/AI keyword cluster** — LGL does not write about AI, automation, Action Board-style task suggestions, AI-assisted thank-yous, or Otto-style assistants. DonorDock owns this vocabulary. Publish articles targeting "AI for nonprofit fundraising," "automate donor thank-yous," "AI donor management," "nonprofit CRM with AI."
 
 3. **Ease-of-use / speed / modern-UX cluster** — LGL's design is visibly dated. Publish content that uses intent-matching queries: "easiest donor management software," "simplest nonprofit CRM," "fastest donor CRM setup," "modern nonprofit CRM," "intuitive donor database." These are queries LGL's own users search when they're frustrated.
 
