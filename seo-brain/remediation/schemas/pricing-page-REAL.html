@@ -1,0 +1,200 @@
+<!--
+  REAL pricing page schema — all 10 FAQ Q&A extracted from live /pricing FAQ section on 2026-04-22.
+  No placeholders. Paste into Webflow → Pricing Page → Page Settings → Custom Code → Before </body>.
+  Includes SoftwareApplication + Offer + AggregateRating + FAQPage + BreadcrumbList + WebPage + Organization reference.
+-->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.donordock.com/#organization",
+      "name": "DonorDock",
+      "url": "https://www.donordock.com",
+      "logo": "https://www.donordock.com/images/logo.svg",
+      "foundingDate": "2017",
+      "founder": [
+        {"@type": "Person", "name": "Matt Bitzegaio"},
+        {"@type": "Person", "name": "Andrew Lutgen"}
+      ],
+      "sameAs": [
+        "https://www.facebook.com/donordock",
+        "https://www.linkedin.com/company/donordock",
+        "https://www.instagram.com/donordock",
+        "https://twitter.com/donordock"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://www.donordock.com/pricing#software",
+      "name": "DonorDock",
+      "alternateName": "DonorDock Nonprofit CRM",
+      "description": "DonorDock is an all-in-one donor management CRM for small-to-mid nonprofits. Includes unlimited contacts, online giving, email and text outreach, automations, and project boards in a single platform.",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Nonprofit CRM",
+      "operatingSystem": "Web, iOS, Android",
+      "url": "https://www.donordock.com",
+      "featureList": [
+        "Unlimited contacts",
+        "CRM and donor management",
+        "Online giving pages",
+        "Email marketing",
+        "Text messaging (SMS)",
+        "ActionBoard project management",
+        "Otto AI assistant",
+        "Smart Nudges",
+        "Moves management",
+        "Recurring donations",
+        "Automations with 15 workflow actions",
+        "60+ integrations",
+        "Reporting and analytics",
+        "SOC 2 Type II certified",
+        "90-day premium onboarding",
+        "White-glove data migration"
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Nonprofit organizations, 501(c)(3) charities, small to mid-size nonprofits"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "DonorDock ONE Plan",
+        "description": "All DonorDock features in a single plan. Unlimited contacts, 5 users, no platform fees on donations.",
+        "price": "500.00",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "500.00",
+          "priceCurrency": "USD",
+          "unitText": "MONTH",
+          "billingDuration": "P1Y"
+        },
+        "url": "https://www.donordock.com/pricing",
+        "availability": "https://schema.org/InStock",
+        "eligibleCustomerType": "https://schema.org/Nonprofit"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "200",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "provider": {
+        "@id": "https://www.donordock.com/#organization"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.donordock.com/pricing#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does DonorDock help nonprofits manage fundraising and donors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DonorDock centralizes contacts, gifts, communication history, tasks, and giving forms in one organized workspace so your team can manage fundraising without switching between tools. Instead of maintaining separate systems for donor tracking, outreach, campaigns, and reporting, everything lives in one place. It's built so lean teams can do more without adding complexity to their day."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can I get set up with DonorDock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most nonprofits can start using DonorDock the same day and complete data migration within 10 days—often faster. Setup is guided by human support, data import is straightforward with built-in field mapping, and core features work out of the box without needing technical help."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I create a DonorDock account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To create a DonorDock account, start by scheduling a demo so we can help you choose the right setup for your organization. If you've already had a demo, your sales rep can send you a signup link directly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can multiple team members use the same account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Multiple team members can use the same DonorDock account with individual logins, assigned roles, and permission controls to keep data secure. Invite team members, assign roles like Administrator, Staff, or Limited Access, and control exactly what each person can view or edit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I add users and set permissions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Go to Settings, select Users, enter the person's email address, and assign a role such as Administrator, Staff, or Limited Access. Permissions control what each user can view or edit, so you can give team members, board members, or volunteers exactly the level of access they need."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I import my donor data into DonorDock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Import donor data into DonorDock by connecting third-party tools through a direct integration or uploading a CSV or Excel file using the built-in import tool. DonorDock guides you through field mapping so contacts, gifts, and interactions land in the right place. Free weekly live trainings are also available to walk you through your first import if you need extra help."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I migrate from Bloomerang, DonorPerfect, or other CRMs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Migrate from Bloomerang, DonorPerfect, or any other CRM by exporting your data and importing it into DonorDock. With premium onboarding, our support team will guide you through the migration each step of the way."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if my donor data is messy or inconsistent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can still import messy donor data into DonorDock—the platform identifies duplicate contacts, mismatched fields, and formatting errors so you can clean data as you upload it. Our team can also provide expert guidance on cleaning up your data before importing, so you start with a fresh, well-organized database from day one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does DonorDock offer onboarding for new users?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. DonorDock Premium Onboarding provides guided human support, plus optional live sessions and training resources. Whether you prefer self-guided setup or hands-on help, there's a path that fits how you work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I find tutorials and training videos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Access DonorDock training resources in the Help Center and DonorDock Academy, including video walkthroughs, written guides, and live webinars. Whether you're just getting started or diving into advanced features, there's a resource available to help you move forward quickly."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.donordock.com/pricing#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.donordock.com"},
+        {"@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://www.donordock.com/pricing"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.donordock.com/pricing#webpage",
+      "url": "https://www.donordock.com/pricing",
+      "name": "DonorDock Pricing",
+      "description": "DonorDock is $500/month with unlimited contacts, 5 users, and every feature included. One plan, no platform fees on donations, 90-day money-back guarantee.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.donordock.com/#website",
+        "name": "DonorDock",
+        "url": "https://www.donordock.com"
+      },
+      "breadcrumb": {"@id": "https://www.donordock.com/pricing#breadcrumb"},
+      "mainEntity": {"@id": "https://www.donordock.com/pricing#software"}
+    }
+  ]
+}
+</script>

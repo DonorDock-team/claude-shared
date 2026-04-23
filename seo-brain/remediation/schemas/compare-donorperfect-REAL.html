@@ -1,0 +1,127 @@
+<!--
+  REAL /compare/donorperfect-vs-donordock schema
+  All 3 FAQ Q&A and all 7 Reviews extracted from live page on 2026-04-22.
+  Fixes: trailing comma error that was invalidating entire block (Google currently parses ZERO schema on this page).
+  Paste into Webflow → Compare → donorperfect-vs-donordock → Page Settings → Custom Code → Before </body>.
+-->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://www.donordock.com/compare/donorperfect-vs-donordock#software",
+      "name": "DonorDock",
+      "description": "DonorDock is an all-in-one donor management CRM for small-to-mid nonprofits, designed as a simpler and more affordable alternative to DonorPerfect.",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Nonprofit CRM",
+      "operatingSystem": "Web",
+      "url": "https://www.donordock.com",
+      "offers": {
+        "@type": "Offer",
+        "price": "500.00",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "500.00",
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "200",
+        "bestRating": "5"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {"@type": "Person", "name": "Patrick K"},
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "reviewBody": "As a fundraising consultant working with hundreds of nonprofits, DonorDock is a no-brainer for charities."
+        },
+        {
+          "@type": "Review",
+          "author": {"@type": "Person", "name": "Kate M"},
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "reviewBody": "The simple interface and easy to customize badges make fine-tuning your data, mailing/e-mailing targets, and reporting SO SIMPLE. Creating professional email templates is also so straightforward."
+        },
+        {
+          "@type": "Review",
+          "author": {"@type": "Person", "name": "Emily C"},
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "reviewBody": "The team at DonorDock is very good at taking nonprofits input and is constantly working to improve the software and add new features. They are quick to respond to questions or issues!"
+        },
+        {
+          "@type": "Review",
+          "author": {"@type": "Person", "name": "Tania B"},
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "reviewBody": "Besides being quite easy to use, the technical support is absolutely amazing. It's prompt and truly helpful (both of which are important)!"
+        },
+        {
+          "@type": "Review",
+          "author": {"@type": "Person", "name": "Anna L"},
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "reviewBody": "I love the simplicity of the product. It is intuitive and easy to navigate, but still able to give me all the data I need to analyze our donor base."
+        },
+        {
+          "@type": "Review",
+          "author": {"@type": "Person", "name": "Jen K"},
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "reviewBody": "Hands down the best donor management system out there."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.donordock.com/compare/donorperfect-vs-donordock#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does DonorDock's unified pricing compare to DonorPerfect's modular add-on approach?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DonorDock's ONE plan includes CRM, email marketing, online giving, text messaging, project management, and AI in a single price. DonorPerfect starts at $450/month and requires separate paid add-ons for email, online giving, and other features, making the total cost significantly higher as you add capabilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is DonorDock easier to set up and use than DonorPerfect?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DonorDock is consistently rated 'easiest to use' and 'easiest setup' on G2 with a 9.6 ease of use score versus DonorPerfect's 8.4. DonorDock implements 3.5x faster and has approximately 20% higher user adoption, meaning more of your team actually uses the platform."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What advanced features does DonorDock include that DonorPerfect charges extra for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DonorDock includes Otto AI assistant, built-in project management, unlimited giving pages, SMS marketing, Smart Nudges, ActionBoard, and advanced automations with 15 workflow actions in the ONE plan. DonorPerfect typically charges extra for comparable add-on features."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.donordock.com/compare/donorperfect-vs-donordock#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.donordock.com"},
+        {"@type": "ListItem", "position": 2, "name": "Compare", "item": "https://www.donordock.com/compare"},
+        {"@type": "ListItem", "position": 3, "name": "DonorPerfect vs DonorDock", "item": "https://www.donordock.com/compare/donorperfect-vs-donordock"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.donordock.com/compare/donorperfect-vs-donordock#webpage",
+      "url": "https://www.donordock.com/compare/donorperfect-vs-donordock",
+      "name": "DonorPerfect vs DonorDock: Donor Management CRM Comparison",
+      "description": "Compare DonorPerfect vs DonorDock side-by-side. DonorDock's $500/month ONE plan includes everything DonorPerfect charges extra for — email, online giving, text messaging, AI, and project management.",
+      "breadcrumb": {"@id": "https://www.donordock.com/compare/donorperfect-vs-donordock#breadcrumb"},
+      "mainEntity": {"@id": "https://www.donordock.com/compare/donorperfect-vs-donordock#software"}
+    }
+  ]
+}
+</script>

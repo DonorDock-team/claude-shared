@@ -1,0 +1,106 @@
+<!--
+  REAL /compare/neon-crm-vs-donordock schema
+  All 2 FAQ Q&A and all 3 Reviews extracted from live page on 2026-04-22.
+  Fixes: invalid JSON that was blocking Google from parsing schema on this page.
+
+  NOTE: this schema is correct for the page, but the PAGE ITSELF still has a live H1 bug:
+  <h1>Network for Good vs DonorDock</h1> appears on /compare/neon-crm-vs-donordock.
+  Fix that separately in Webflow Designer by clicking the H1 element and changing text to "Neon CRM vs DonorDock".
+
+  Paste into Webflow → Compare → neon-crm-vs-donordock → Page Settings → Custom Code → Before </body>.
+-->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://www.donordock.com/compare/neon-crm-vs-donordock#software",
+      "name": "DonorDock",
+      "description": "DonorDock is an all-in-one donor management CRM for small-to-mid nonprofits, designed as a simpler and more affordable alternative to Neon CRM.",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Nonprofit CRM",
+      "operatingSystem": "Web",
+      "url": "https://www.donordock.com",
+      "offers": {
+        "@type": "Offer",
+        "price": "500.00",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "500.00",
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "200",
+        "bestRating": "5"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {"@type": "Person", "name": "Kelly S."},
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "reviewBody": "Everything is very intuitive to figure out. The team is super friendly too, so anytime we have questions, you're taken care of immediately."
+        },
+        {
+          "@type": "Review",
+          "author": {"@type": "Person", "name": "Joan B."},
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "reviewBody": "DonorDock is like having an extra person in Development."
+        },
+        {
+          "@type": "Review",
+          "author": {"@type": "Person", "name": "Sarah B."},
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "reviewBody": "We were with a large well known brand that is very expensive before DonorDock. The software would take away features and some of the features they had were hard to use or not useful for all shops. DonorDock has been much easier and more flexible for our needs."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.donordock.com/compare/neon-crm-vs-donordock#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a good alternative to Neon One CRM?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DonorDock is a great alternative to Neon CRM. Designed to empower small to midsized nonprofits, DonorDock focuses on simplicity and ease of use. Both DonorDock and Neon One offer a CRM, donation forms, and donor outreach. While Neon One lets you set up custom fields within their CRM and has many additional features you can add on, your nonprofit will pay heavily for the added complexity — both in time and cost. At a fraction of the price, DonorDock offers all the features a small nonprofit needs. Overall, DonorDock receives higher online ratings than Neon CRM, with customer support that nonprofits rave about. Plus, with DonorDock, you won't need to sign a contract."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it easy to migrate data from Neon One?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Migrating your data from Neon One to DonorDock is simple. With data migration, consultation, and training included in premium onboarding, you'll have confidence getting started with DonorDock. Your time is valuable, so we keep data migration as easy as 1, 2, 3. (1) Export your data to a spreadsheet. (2) Upload and map your data with help from our team. (3) Review and clean up your data."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.donordock.com/compare/neon-crm-vs-donordock#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.donordock.com"},
+        {"@type": "ListItem", "position": 2, "name": "Compare", "item": "https://www.donordock.com/compare"},
+        {"@type": "ListItem", "position": 3, "name": "Neon CRM vs DonorDock", "item": "https://www.donordock.com/compare/neon-crm-vs-donordock"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.donordock.com/compare/neon-crm-vs-donordock#webpage",
+      "url": "https://www.donordock.com/compare/neon-crm-vs-donordock",
+      "name": "Neon CRM vs DonorDock: Donor Management Comparison",
+      "description": "Compare Neon CRM vs DonorDock side-by-side. DonorDock offers simpler setup, more affordable pricing, and higher customer support ratings for small-to-mid nonprofits.",
+      "breadcrumb": {"@id": "https://www.donordock.com/compare/neon-crm-vs-donordock#breadcrumb"},
+      "mainEntity": {"@id": "https://www.donordock.com/compare/neon-crm-vs-donordock#software"}
+    }
+  ]
+}
+</script>
