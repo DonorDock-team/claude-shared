@@ -167,7 +167,7 @@ Topics/angles where Neon is weak, absent, or philosophically off-brand — and w
 6. **Real small-nonprofit case studies (sub-$500K revenue).** Neon's case studies skew to mid/upper-mid shops. DonorDock has the authentic right to the small-shop story.
 7. **AI-native nonprofit guidance.** "How to use AI for fundraising," "ChatGPT for nonprofit communications," "AI donor segmentation." Neon has some coverage but it is generic. DonorDock's Action Board is an AI-assistant story that is under-told in SEO.
 8. **Modern giving mechanics (text-to-give, tap-to-give, QR, Apple Pay, Venmo).** Low-effort / high-intent evergreen content.
-9. **Religious / faith-based nonprofit vertical.** Neon serves this segment but it is NOT a DonorDock ICP fit — de-prioritize in Phase 2.
+9. **Faith-based nonprofit vertical (non-church).** Neon serves the broad religious segment. Faith-based 501(c)(3) nonprofits with development programs (parachurch, religious social services, faith-based foundations) ARE a valid DonorDock target. Individual congregational churches are NOT a fit (Planning Center / Breeze own that use case) — be precise in content.
 10. **"First-time ED" / "first 90 days as a development director" content.** High-intent, low-competition, and a persona Neon under-serves.
 
 ---
