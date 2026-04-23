@@ -12,7 +12,7 @@ Maps DonorDock's ICP segments through buyer journey stages to the search behavio
 ## ICP segments (post-upmarket move)
 
 ### Primary: Growing Nonprofit Development Director
-- **Persona:** Development Director at a nonprofit with $1M-$5M annual revenue, 1,000-10,000 contacts, small-to-mid development team (2-5 staff)
+- **Persona:** Development Director at a nonprofit with $1M-$10M annual revenue (ICP sweet spot), 1,000-10,000 contacts, development team of 3+ FTE (primary) up to 15
 - **Typical title:** Director of Development, VP of Advancement, Chief Development Officer
 - **Operating reality:** Managing multiple fundraising programs (annual fund, major gifts, events, monthly giving), wearing some-but-not-all hats, reports to ED/CEO
 - **Pain:** Growing out of Bloomerang/DonorPerfect contact-tier pricing; or graduating from spreadsheets; needs modern AI-era tools but can't afford enterprise Virtuous/Salesforce
@@ -20,7 +20,7 @@ Maps DonorDock's ICP segments through buyer journey stages to the search behavio
 - **Success metric:** Donor retention, YoY revenue growth, staff hours saved
 
 ### Primary: Growing Nonprofit Executive Director (upper end)
-- **Persona:** ED of $2M-$8M nonprofit with 5-15 staff including a small development team
+- **Persona:** ED of $2M-$10M nonprofit with 15+ staff including a development team of 3+ FTE
 - **Typical title:** Executive Director, President & CEO
 - **Operating reality:** Sets fundraising strategy, personally cultivates major donors, oversees systems/technology decisions
 - **Pain:** Tool sprawl (CRM + email + text + website + giving platform); inconsistent donor experience; data silos
@@ -154,9 +154,9 @@ The `donordock-brand-icp` skill (at `/Users/rob/Desktop/skills/donordock-brand-i
 
 | Dimension | brand-icp skill (current) | This doc (upmarket direction) | Resolution needed |
 |---|---|---|---|
-| Revenue floor | $500K acceptable down to $200K | $1M for primary DD, $2M for ED | Raise floor to $1M? Drop $200K-$500K band? |
-| Primary persona | "Do-it-all operator" | Development Director managing a team | Conflict: "do-it-all" implies solo; we are moving away from solo ED |
-| Staff | 2-25 | Implied 5+ for development team | Align on 5+ FTE for primary? |
+| Revenue floor | ~~$500K acceptable~~ | **$1M primary DD / $2M ED** (floor $1M) | ✅ LOCKED 2026-04-23 |
+| Primary persona | ~~"Do-it-all operator" (implies solo)~~ | **Development Director managing a team** | ✅ LOCKED |
+| Staff (development team) | ~~2-25~~ | **3+ FTE** (primary) up to 15 | ✅ LOCKED |
 | Donor base | 1,000-10,000 | 1,000-10,000 (matches) | OK |
 | Best-fit verticals | Human services, **Faith-based**, Education, Community foundations, Animal welfare, Arts/culture, Health, Youth, Environmental | Same list + explicit NOT churches | **Align:** skill says "Faith-based nonprofits" — clarify congregational churches out |
 
@@ -166,11 +166,15 @@ The `donordock-brand-icp` skill (at `/Users/rob/Desktop/skills/donordock-brand-i
 **Option B:** Keep brand-icp skill as-is (for bottom-up marketing copy) and treat this Phase 2 doc as SEO/AEO targeting (upmarket content priorities).
 **Option C:** Hybrid — brand-icp defines the "acceptable customer" (full $500K-$10M range); this Phase 2 doc defines the "priority SEO/AEO targeting" (upmarket $1M-$5M primary).
 
-**Recommendation:** Option C. The brand-icp skill is correct for customer support / onboarding / email / help content — serving ALL existing customers. This Phase 2 ICP doc is specifically for SEO/AEO strategy — prioritizing where new content and keyword investment goes. They're different functions.
+**RESOLVED 2026-04-23 (Rob confirmation):** Raise ICP floor to $1M and align primary persona on 3+ FTE (not solo). The larger `donordock-brand-identity` skill has been updated (new version at `/Users/rob/Downloads/donordock-brand-identity-2026-04-23.skill`) to:
+- Raise the revenue floor from $500K to $1M (disqualifier)
+- Update the "lean team" definition from "2+ people" to "3+ FTE"
+- Add explicit "solo operators" and "2-person shops" to disqualifiers
+- Call out churches-as-congregational-churches as NOT fit (faith-based 501(c)(3)s with development programs ARE fit)
+- Add "small nonprofit," "first CRM," "solo ED," "one-person shop" to banned terminology
+- Add Smart Stewardship, Smart Steward Method, Action Board (two words), Otto, Smart Nudges to preferred terminology
 
-Rob to decide. Then either:
-- Update `/Users/rob/Desktop/skills/donordock-brand-icp/SKILL.md` + republish the skill, OR
-- Add an explicit "scope" note to both docs clarifying their division of labor
+After Rob uploads the new skill version, both docs will be aligned.
 
 ### Faith-based alignment (already aligned)
 
