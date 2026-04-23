@@ -36,7 +36,7 @@
 
 ## Data DonorDock uniquely owns
 
-From the 7,200+ customers and $9B+ in tracked gifts, DonorDock can measure (anonymized and aggregated) what NO competitor can:
+From the ~1,300 customer nonprofits (7,200+ individual users) and $9B+ in tracked gifts, DonorDock can measure (anonymized and aggregated) what NO competitor can:
 
 ### Touchpoint frequency + consistency metrics
 
@@ -86,7 +86,7 @@ From the 7,200+ customers and $9B+ in tracked gifts, DonorDock can measure (anon
 
 1. **"The State of Donor Stewardship 2026"** (concise, category-owning)
 2. "The Smart Stewardship Benchmark Report 2026" (brand-heavy)
-3. "How 7,200 Nonprofits Steward Their Donors: The 2026 Report" (scale-first, specific)
+3. "How 1,300+ Nonprofits Steward Their Donors: The 2026 Report" (scale-first, specific)
 4. "Stewardship in the Age of AI: 2026 Benchmark Report" (timely AI angle)
 
 **Recommendation:** Option 1 — "The State of Donor Stewardship 2026" — it reads like an authoritative annual, not a vendor marketing report. Subtitle can add the AI angle.
@@ -130,7 +130,7 @@ From the 7,200+ customers and $9B+ in tracked gifts, DonorDock can measure (anon
 
 To make this AI-citeable and press-worthy:
 
-1. **Named sample size** — "Based on X donor-touchpoint events across Y nonprofits from Z time period"
+1. **Named sample size** — "Based on X donor-touchpoint events across ~1,300 nonprofits from Z time period"
 2. **Normalization approach** — how did we handle skew, outliers, cohort differences
 3. **Anonymization statement** — no individual nonprofit or donor identifiable
 4. **Cross-organization aggregate only** — individual customer data never exposed
