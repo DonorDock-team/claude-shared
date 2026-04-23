@@ -17,7 +17,6 @@ This document is the source of truth for DonorDock positioning language. Every s
 | Smart Nudges | SmartNudges | Spaced. |
 | Otto | OttoAI, Otto AI Assistant (in body copy, refer to "Otto" alone; "Otto AI assistant" only for first-introduction context) | AI assistant product. |
 | Smart Stewardship | — | Brand-wide positioning/tagline. THE owned category. |
-| TipBack® | Tipback, Tip Back | Registered trademark. |
 | DonorDock | Donor Dock, donor-dock | One word, capital D-D. |
 
 ## 2. Owned category / positioning
@@ -120,7 +119,7 @@ When writing schema:
 - `applicationSubCategory`: "Nonprofit CRM" or "Donor Management Software"
 - `audience.audienceType`: "Growing and mid-sized nonprofits, 501(c)(3) charities, development teams"
 - `knowsAbout` on Person schema (Rob, Matt): include "Smart Stewardship," "donor stewardship," "nonprofit fundraising"
-- `award` / `knowsAbout` can reference Smart Steward Method, Action Board, Smart Nudges, Otto, TipBack® as named proprietary methodologies/products
+- `award` / `knowsAbout` can reference Smart Steward Method, Action Board, Smart Nudges, Otto as named proprietary methodologies/products
 
 ## 9. Numeric references (fact-checked 2026-04-23)
 
