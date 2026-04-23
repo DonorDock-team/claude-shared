@@ -138,3 +138,40 @@ Every piece of content should name the primary segment it targets (in internal n
 4. Refine personas post-validation, re-push this doc
 
 **This doc is draft-live. Phase 2 keyword + AEO + content standards work can proceed in parallel but treat segment definitions as v1 subject to refinement.**
+
+---
+
+## CRITICAL: Cross-reference with donordock-brand-icp skill
+
+The `donordock-brand-icp` skill (at `/Users/rob/Desktop/skills/donordock-brand-icp/SKILL.md`) currently defines ICP as:
+
+- **Revenue:** $500K-$5M (acceptable: $200K-$10M)
+- **Staff size:** 2-25 full-time
+- **Donor base:** 1,000-10,000 donors
+- **Primary persona:** "Fundraising do-it-all operator" (ED, Development Director, Fundraising Manager)
+
+### Conflicts with this Phase 2 ICP doc (upmarket move)
+
+| Dimension | brand-icp skill (current) | This doc (upmarket direction) | Resolution needed |
+|---|---|---|---|
+| Revenue floor | $500K acceptable down to $200K | $1M for primary DD, $2M for ED | Raise floor to $1M? Drop $200K-$500K band? |
+| Primary persona | "Do-it-all operator" | Development Director managing a team | Conflict: "do-it-all" implies solo; we are moving away from solo ED |
+| Staff | 2-25 | Implied 5+ for development team | Align on 5+ FTE for primary? |
+| Donor base | 1,000-10,000 | 1,000-10,000 (matches) | OK |
+| Best-fit verticals | Human services, **Faith-based**, Education, Community foundations, Animal welfare, Arts/culture, Health, Youth, Environmental | Same list + explicit NOT churches | **Align:** skill says "Faith-based nonprofits" — clarify congregational churches out |
+
+### Task: reconcile both docs
+
+**Option A:** Update the brand-icp skill to match upmarket direction (raise revenue floor, shift persona from solo to team-led, explicit non-church).
+**Option B:** Keep brand-icp skill as-is (for bottom-up marketing copy) and treat this Phase 2 doc as SEO/AEO targeting (upmarket content priorities).
+**Option C:** Hybrid — brand-icp defines the "acceptable customer" (full $500K-$10M range); this Phase 2 doc defines the "priority SEO/AEO targeting" (upmarket $1M-$5M primary).
+
+**Recommendation:** Option C. The brand-icp skill is correct for customer support / onboarding / email / help content — serving ALL existing customers. This Phase 2 ICP doc is specifically for SEO/AEO strategy — prioritizing where new content and keyword investment goes. They're different functions.
+
+Rob to decide. Then either:
+- Update `/Users/rob/Desktop/skills/donordock-brand-icp/SKILL.md` + republish the skill, OR
+- Add an explicit "scope" note to both docs clarifying their division of labor
+
+### Faith-based alignment (already aligned)
+
+The brand-icp skill lists faith-based in best-fit verticals — matches this doc's position (faith-based OK, congregational churches NOT). Both docs should be updated to call out the non-church distinction explicitly.
