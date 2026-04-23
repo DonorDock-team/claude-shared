@@ -165,9 +165,9 @@ Topics/angles where Neon is weak, absent, or philosophically off-brand — and w
 4. **Total cost of ownership / hidden fees.** Neon charges processing fees, add-on percentages, event module fees. "Hidden costs of [competitor]" and "TCO calculator" content is wide open.
 5. **"Switching from Neon" / migration content.** Very little migration-path content from Neon. "How to move from Neon CRM to a simpler platform" is uncontested territory for DonorDock (handle with care — brand-respectful framing only).
 6. **Real small-nonprofit case studies (sub-$500K revenue).** Neon's case studies skew to mid/upper-mid shops. DonorDock has the authentic right to the small-shop story.
-7. **AI-native nonprofit guidance.** "How to use AI for fundraising," "ChatGPT for nonprofit communications," "AI donor segmentation." Neon has some coverage but it is generic. DonorDock's ActionBoard is an AI-assistant story that is under-told in SEO.
+7. **AI-native nonprofit guidance.** "How to use AI for fundraising," "ChatGPT for nonprofit communications," "AI donor segmentation." Neon has some coverage but it is generic. DonorDock's Action Board is an AI-assistant story that is under-told in SEO.
 8. **Modern giving mechanics (text-to-give, tap-to-give, QR, Apple Pay, Venmo).** Low-effort / high-intent evergreen content.
-9. **Religious / faith-based nonprofit vertical.** Neon serves the segment but does not vertical-specific-own it. This is a core DonorDock segment and an open SEO lane.
+9. **Religious / faith-based nonprofit vertical.** Neon serves this segment but it is NOT a DonorDock ICP fit — de-prioritize in Phase 2.
 10. **"First-time ED" / "first 90 days as a development director" content.** High-intent, low-competition, and a persona Neon under-serves.
 
 ---
@@ -198,7 +198,7 @@ Topics/angles where Neon is weak, absent, or philosophically off-brand — and w
 3. **Double down on llms.txt and AI-citable content.** Where Neon is hard to crawl, DonorDock should be easy to crawl and rich with quotable stats. Short, well-structured "stat cards" inside articles (one-sentence claim + source link) get cited by AI engines. Build 20 of these into pillar content.
 
 **Priority 3 — Launch a named annual research report (90–180 days)**
-4. **Publish DonorDock's first annual research report** (e.g., "The Small Nonprofit Benchmark Report" or "The Lean Fundraiser Report"). Use anonymized, aggregated DonorDock data on retention, gift cadence, ActionBoard usage, and online giving conversion. This is the single highest-leverage SEO/AEO/PR asset we can build and is the thing Neon has that we don't. Assign an author (founder, CMO, or a named researcher) and make them the public face.
+4. **Publish DonorDock's first annual research report** (e.g., "The Nonprofit Fundraising Benchmark Report" or "The Lean Fundraiser Report"). Use anonymized, aggregated DonorDock data on retention, gift cadence, Action Board usage, and online giving conversion. This is the single highest-leverage SEO/AEO/PR asset we can build and is the thing Neon has that we don't. Assign an author (founder, CMO, or a named researcher) and make them the public face.
 
 **Priority 4 — Build the comparison program (60–120 days)**
 5. **Ship a full /compare/ hub.** Direct comparisons against Neon CRM (exists — refresh), Bloomerang, Salesforce Nonprofit Cloud, DonorPerfect, Little Green Light, Kindful-now-Bloomerang, Givebutter, Blackbaud Raiser's Edge NXT. Add a "Neon CRM alternatives" listicle. Each page gets schema, comparison table, quote, and a clear CTA.
