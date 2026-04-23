@@ -174,7 +174,7 @@ Keela publishes comparisons against: Bloomerang, DonorPerfect, Salesforce NPSP, 
 
 3. **Build free template and toolkit library.** Start with 10 highest-volume template queries. Gate half, ungate half for SEO capture.
 
-4. **Publish annual "Small Nonprofit Fundraising Benchmarks" report** using DonorDock customer data (anonymized). DonorDock's angle: "small and mid US nonprofits" specifically.
+4. **Publish annual "Nonprofit Fundraising Benchmarks" report** using DonorDock customer data (anonymized). DonorDock's angle: "small and mid US nonprofits" specifically.
 
 5. **Create "solo ED / one-person shop" content vertical.** Voice tailored to development director doing everything themselves. Authentic DonorDock positioning.
 
