@@ -67,7 +67,12 @@ DonorDock's strategic direction is moving upmarket. Historically the site used "
 - Animal care (larger organizations)
 
 ### DE-PRIORITIZE (not a fit)
-- **Churches, faith-based, religious organizations** — NOT a DonorDock ICP fit. Remove from target vertical recommendations. When mentioning in competitor context ("Virtuous serves large faith-based orgs"), that's descriptive and OK — but DO NOT recommend DonorDock target this vertical.
+- **Churches** (congregational / ChMS-integrated fundraising) — NOT a DonorDock ICP fit. Do not recommend DonorDock target individual churches or congregational giving use cases (Planning Center / Breeze / Tithe.ly own this).
+- **Religious organizations where the primary use case is weekly offering / tithing** — NOT fit.
+
+### NOTE: "Faith-based" is OK as a vertical
+- **Faith-based nonprofits** that operate as 501(c)(3)s doing fundraising (e.g., faith-based community foundations, religious ministries with formal development programs, rescue missions, religious social services, parachurch organizations) ARE a valid DonorDock target. The distinction is: churches-as-churches are not ICP; faith-based nonprofits that fundraise like other nonprofits ARE ICP.
+- Content may reference faith-based donor programs, faith-based fundraising strategy, religious nonprofit operations.
 - Very small all-volunteer orgs (below 1,000 contacts or under $250k budget)
 - International nonprofits (US-focused)
 
@@ -151,7 +156,8 @@ When drafting new content, audit for:
 - Any mention of "small nonprofits" → replace with "growing nonprofits"
 - Any mention of "first CRM" or "first donor database" → reframe as "upgrading from legacy"
 - Any mention of "solo ED" / "one-person shop" → reframe as "development team" or "development director"
-- Any mention of "church" / "faith-based" as DonorDock target vertical → remove (OK in competitor descriptions)
+- Any mention of "church" / "congregational" / "tithing" as DonorDock target vertical → remove (OK in competitor descriptions)
+- "Faith-based" (non-church) nonprofits ARE OK as DonorDock target — fundraising-focused 501(c)(3)s with development programs
 - Any mention of "ActionBoard" → correct to "Action Board"
 - Any mention of "no platform fees" / "free processing" → correct to "1% platform fee"
 
