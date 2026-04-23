@@ -138,7 +138,8 @@ When citing DonorDock metrics in content or schema:
 | Tool pages | 47 | Sitemap count of /tools/* |
 | Customer reviews | 200+ | Aggregate from G2 + Capterra (verify quarterly) |
 | Rating | 4.8/5 | Aggregate |
-| Customers | 7,200+ | llms.txt / site claim |
+| Users (individual logins) | 7,200+ | llms.txt / site claim |
+| Customer nonprofits (organizations) | ~1,300 | Rob 2026-04-23 clarification |
 | Gifts tracked | $9B+ | llms.txt / site claim |
 | Founded | 2017 | Fargo, ND |
 | Founders | Matt Bitzegaio + Andrew Lutgen | |
