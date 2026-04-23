@@ -25,8 +25,8 @@ This summary synthesizes 9 site audits, 8 competitor audits, and the remediation
 
 ### Confirmed live (Rob's publish, 2026-04-23)
 
-- BlogPosting deduplicated (467 articles, 1 script each)
-- 88 tag archive pages: `meta robots=noindex,follow` applied
+- BlogPosting deduplicated (281 articles, 1 script each)
+- 49 tag archive pages: `meta robots=noindex,follow` applied
 - /faq page: flat @graph + 114 H3 accordions + 114 Question entities + valid JSON
 - Neon compare H1 typo fixed ("Neon CRM vs DonorDock")
 - Newsletter form removed from article template DOM (no longer between H1 and body)
@@ -43,7 +43,7 @@ This summary synthesizes 9 site audits, 8 competitor audits, and the remediation
 |---|---|---|
 | robots.txt AI bot unblock | Rob (Cloudflare) | Strategic decision + Cloudflare config |
 | Re-paste corrected pricing schema with "1% platform fee" | Rob | Minor — live schema has old "no platform fees" Offer description |
-| Article CMS template featured image still `width="Auto" height="Auto"` | Rob (Webflow Designer) | 1 template fix = 467 article pages |
+| Article CMS template featured image still `width="Auto" height="Auto"` | Rob (Webflow Designer) | 1 template fix = 281 article pages |
 | FAQ schema on 7 remaining compare pages + pricing + /features/* | Rob | Content exists visually, schema missing |
 | Compare-page pricing data refresh (/compare/network-for-good-vs-donordock shows stale $79/mo, should be $500) | Rob | Content edit |
 
@@ -75,7 +75,7 @@ Flagged by: GEO audit, Citability audit, AEO audit, Bloomerang audit, DonorPerfe
 - 7 of 9 compare pages have no FAQ schema (or invalid JSON wrapping it)
 - /pricing has visible FAQ but no schema
 - 6+ feature pages have visible FAQs but no schema
-- 467 articles have no FAQ schema even where content is Q&A-structured
+- 281 articles have no FAQ schema even where content is Q&A-structured
 
 Competitor benchmark: Bloomerang's flagship article ("21 Best Nonprofit CRMs") has only 4 Questions in schema. We can easily beat this with 10-15 per page across the site.
 
@@ -99,7 +99,7 @@ DonorDock has 10 comparison pages. Competitors have:
 - LGL: ~700 URLs (502 blog + 136 pages)
 - Bonterra: ~1,600-1,800 URLs
 - Keela: 20K-35K ranking keywords (estimated)
-- DonorDock: 467 articles + 100 pages + 88 tag archives (now noindexed)
+- DonorDock: 281 articles + 41 other pages + 49 tag archives (now noindexed)
 
 DonorDock is ~3-4x smaller than content leaders but not catastrophically so. The fix is cluster strategy (pillar + supporting), not brute-force volume.
 
@@ -112,7 +112,7 @@ DonorDock is ~3-4x smaller than content leaders but not catastrophically so. The
 - **Founder-led with real author schema** — Matt Bitzegaio + Rob Burke as named experts. DonorPerfect has 648 blog posts with ZERO author bylines.
 - **SOC 2 Type II** — surfaced in schema
 - **Focused Fundraiser Podcast** (49+ episodes) — latent E-E-A-T asset if transcripts + schema added
-- **ActionBoard, Smart Steward Method, Otto** — proprietary frameworks/IP worth schema-izing
+- **Action Board, Smart Steward Method, Otto** — proprietary frameworks/IP worth schema-izing
 
 ### 2F. DonorDock's structural gaps
 - AI crawler blocking contradicts llms.txt (see 2A)
@@ -149,7 +149,7 @@ DonorDock is ~3-4x smaller than content leaders but not catastrophically so. The
 ### 3B. Content gaps the entire competitive set leaves open
 
 DonorDock can own these without direct contestation:
-- **"Small nonprofit" / "first CRM" / "solo ED" queries** — Bloomerang, Virtuous, DonorPerfect all pitch above this ICP
+- **"Growing nonprofit" / "upgrading CRM" / "development team" queries** — Bloomerang, Virtuous, DonorPerfect all pitch above this ICP
 - **Transparent-pricing + TCO content** — almost every competitor gates pricing
 - **Platform-fee comparison content** — "1% vs 3%," "true cost of tip-based donation models"
 - **Migration content** — "switch from Bloomerang/DonorPerfect/LGL/Keela/Kindful/NFG" — all uncontested
@@ -179,9 +179,9 @@ Ranked by expected impact × reversibility. Items 1-7 feed directly into Phase 2
    - Nonprofit CRM / Donor Database (28 articles; /crm pillar)
    - Online Giving (28 articles; /online-giving pillar)
    - Fundraising Strategy (59 articles; needs new /guides/fundraising-strategy pillar)
-   - Donor Engagement (65 articles; needs new hub)
+   - Donor Engagement (65 articles; /donor-outreach hub)
    - AI for Nonprofits (/otto pillar, expanding)
-   - Starting a Nonprofit (23 articles; /guides/starting-a-nonprofit)
+   - 
    - Donor Retention (new pillar; Rob's core narrative)
 7. **AEO question set** (feeds `strategy/aeo-questions.md`) — 20 seed questions from Phase 1 AEO audit (brand, competitive, category)
 8. **Keyword opportunity list** (feeds `strategy/keyword-universe.md`):
@@ -200,8 +200,8 @@ Ranked by expected impact × reversibility. Items 1-7 feed directly into Phase 2
 11. **Vertical landing pages** — match LGL's 6 (animal care, human services, arts, land trusts, schools, libraries) + add churches, healthcare, advocacy, food banks
 12. **Glossary program** — 60 terms at `/glossary/{term}` with DefinedTerm + FAQPage schema
 13. **"Switch from [competitor]" migration hub** — Bloomerang, DonorPerfect, LGL, Keela, Kindful, NFG
-14. **"Small Nonprofit Fundraising Benchmarks 2026" annual report** — uses DonorDock's 7,200 customers + $9B tracked gifts as original-research asset
-15. **Named worldview / category term** (competitive response to Virtuous's "Responsive Fundraising") — candidates: "Smart Stewardship," "Relationship Fundraising," "Lean Fundraising"
+14. **"Nonprofit Fundraising Benchmarks 2026" annual report** — uses DonorDock's 7,200 customers + $9B tracked gifts as original-research asset
+15. **Double down on "Smart Stewardship" as the owned category term** (competitive response to Virtuous's "Responsive Fundraising"). Already seeded via `/smart-steward-method`, Smart Steward Method, Smart Nudges, Action Board, Otto AI. Phase 2 must operationalize this into the master category narrative with a book/playbook anchor.
 16. **Interactive pricing calculator** — shows competitor TCO vs DonorDock flat rate at 500/1000/5000/10000 contacts
 17. **`/compare/virtuous-vs-donordock`** and `/compare/keela-vs-donordock` — Phase 2 must-builds before they attack
 18. **Podcast episode transcripts + VideoObject schema** — 49+ FF episodes = latent AEO asset
