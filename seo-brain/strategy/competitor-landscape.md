@@ -33,7 +33,7 @@ This document is the canonical competitive intelligence map. Every new compare p
 **Position:** "Responsive Fundraising" category owner. Book + playbook + annual RNS summit + 5 vertical benchmark reports + Chief AI Officer.
 **Content footprint:** 646 blog posts + 187 pages + 75 case studies + 41 gated resources (2.8–10x DonorDock by asset type).
 **ICP overlap:** Virtuous Platform tier targets up to $5M in fundraising revenue — direct overlap with DonorDock's upper ICP.
-**Pricing:** From ~$199/mo (per third-party sources).
+**Pricing:** Enterprise tier starting ~$8,000/year (~$667/mo) as of 2026 per Rob; historically was ~$199/mo entry. Upmarket shift aligns them more directly with DonorDock's mid-market segment rather than the small-nonprofit entry tier.
 **Technical posture:** WordPress + AIOSEO Pro + Elementor. Rich JSON-LD (FAQPage, Article, BreadcrumbList) on articles. Permissive AI bot posture.
 **DonorDock vs page:** NEITHER party publishes one. First-mover wins the SERP.
 **Threat:** Owns the category language. Will continue pulling mid-market fundraising vocabulary into "Responsive Fundraising" orbit. If DonorDock doesn't establish Smart Stewardship as a counter-category within 6 months, Virtuous defines the conversation.
