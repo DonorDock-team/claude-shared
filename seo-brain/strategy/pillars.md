@@ -11,13 +11,7 @@ Seven topical authority pillars. Each pillar owns a topic cluster, anchors to a 
 
 ## Pillar 1 — Donor Stewardship (Master pillar; flagship for Smart Stewardship category)
 
-**PILLAR URL DECISION (per Rob's 2026-04-23 review):** `/solution/donor-stewardship` is a CMS-templated page with limited customizability — not ideal as a master-pillar. Three options:
-
-1. **`/smart-steward-method` as master pillar** (Rob's leading idea) — leans hardest into Smart Stewardship brand; page already exists. Supporting pages sit under it.
-2. **New `/guides/donor-stewardship` hub** — clean slate, fully customizable, can structure around pillar-and-spoke.
-3. **Upgrade `/solution/donor-stewardship`** to non-CMS status in Webflow (if possible).
-
-**Recommendation:** Option 1 (`/smart-steward-method` as pillar). Why: (a) directly reinforces Smart Stewardship as owned category, (b) already URL-ranked, (c) Rob's instinct is usually right on brand, (d) `/solution/donor-stewardship` becomes an intent-matched landing page for "donor stewardship software" queries while `/smart-steward-method` owns "what is smart stewardship / stewardship methodology" queries. The two pages target different intents without cannibalizing.
+**PILLAR URL LOCKED (Rob 2026-04-23):** `/smart-steward-method` is the master pillar page. Leans hardest into Smart Stewardship brand, already URL-ranked, directly reinforces owned category. `/solution/donor-stewardship` becomes intent-match supporting page for "donor stewardship software" queries while `/smart-steward-method` owns "what is smart stewardship / stewardship methodology" queries. Two pages target different intents without cannibalizing.
 
 **Pillar page:** [/smart-steward-method](https://www.donordock.com/smart-steward-method) (PROPOSED CHANGE — see note below)
 **Existing /solution/donor-stewardship becomes supporting page** (CMS-template limited, less customizable)
@@ -127,7 +121,7 @@ Seven topical authority pillars. Each pillar owns a topic cluster, anchors to a 
 
 ## Pillar 4 — Fundraising Strategy
 
-**PILLAR URL DECISION (per Rob's 2026-04-23 review):** Build at root `/fundraising-strategy` — NOT `/solution/fundraising-strategy`. Root URL carries more authority and isn't constrained by the Solution CMS template. If an existing `/solution/fundraising-strategy` page exists as a solution-template page, either (a) 301-redirect it to the new root pillar, or (b) keep it as intent-matched "fundraising strategy software" landing page while root owns the educational/strategic pillar.
+**PILLAR URL LOCKED (Rob 2026-04-23):** Build at root `/fundraising-strategy` — NOT `/solution/fundraising-strategy`. Root URL carries more authority and isn't constrained by the Solution CMS template. If an existing `/solution/fundraising-strategy` page exists, either (a) 301-redirect it to the new root pillar, or (b) keep it as intent-matched "fundraising strategy software" landing page while root owns the educational/strategic pillar.
 
 **Pillar page:** TO BUILD at `/fundraising-strategy`
 **Current supporting articles:** 59 articles tagged fundraising-strategy (largest tag cluster)
