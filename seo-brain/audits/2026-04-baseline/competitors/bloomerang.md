@@ -28,7 +28,7 @@
 | ICP stated | Broad — "nonprofits of all sizes" (but pricing tiers target mid-market and above) | Small-to-mid nonprofits explicitly |
 | Pricing transparency | **Opaque.** /pricing/ returns 403 to bots; tiered by contact count; entry ~$99/mo scaling to $500+/mo quickly. | **Transparent.** Flat $500/mo, unlimited contacts, 5 users, 1% platform fee |
 | Primary CTA | "Get a demo" / "Start a free trial" | "Schedule a Demo" / "Get a Trial" |
-| Messaging themes | "Donor retention," "data-driven fundraising," AI ("Penny"), volunteer management add-on, "GiveCon" community | "Focus," "simplicity," "all-in-one," "unlimited contacts," podcast + ActionBoard + Otto AI |
+| Messaging themes | "Donor retention," "data-driven fundraising," AI ("Penny"), volunteer management add-on, "GiveCon" community | "Focus," "simplicity," "all-in-one," "unlimited contacts," podcast + Action Board + Otto AI |
 | Product breadth | Platform play — CRM + Giving + Volunteer + Website + Coaching + AI | Focused — one CRM + giving + outreach + AI |
 
 **ICP overlap:** Direct competitor for small-to-mid nonprofits (50-5,000 contacts). Bloomerang's contact-tier pricing penalizes growth; DonorDock's flat rate becomes the rational choice once a nonprofit crosses ~1,500 contacts. **Single clearest competitive argument.**
@@ -166,7 +166,7 @@ Topics Bloomerang ranks and DonorDock barely covers:
 
 ## 7. Content Gaps Bloomerang Leaves Open (DonorDock can own)
 
-1. **"Small nonprofit" / "first CRM" queries.** Bloomerang content speaks to established mid/large nonprofits.
+1. **"Growing nonprofit" / "upgrading CRM" queries.** Bloomerang content speaks to established mid/large nonprofits.
 2. **Transparent pricing content.** Bloomerang cannot write "How much does nonprofit CRM cost?" honestly. DonorDock can own "Nonprofit CRM pricing explained," "Bloomerang pricing calculator," "Hidden costs in nonprofit CRMs."
 3. **Migration content.** "Switching from Bloomerang to DonorDock," "Exporting data from Bloomerang."
 4. **Competitor comparison at scale.** DonorDock has 9 /compare/ pages. Bloomerang has **zero** public head-to-head comparisons.
@@ -213,7 +213,7 @@ Allow `GPTBot`, `ClaudeBot`, `PerplexityBot`, `Google-Extended` in robots.txt to
 Bloomerang publishes zero head-to-head comparisons. Own the category. Add: "Switching from Bloomerang to DonorDock," "Bloomerang pricing explained" (objective explainer — AEO loves these), "How to export your data from Bloomerang," "Bloomerang alternative for small nonprofits."
 
 ### Priority 4 — Convert features into content pillars (2-3 months)
-Top 10 features (moves management, recurring donations, online giving, text outreach, grants, volunteer management, major gifts, stewardship journeys, Otto AI, ActionBoard) each get 1,500-2,500-word pillar articles with FAQPage schema, named author with Person schema, cross-links.
+Top 10 features (moves management, recurring donations, online giving, text outreach, grants, volunteer management, major gifts, stewardship journeys, Otto AI, Action Board) each get 1,500-2,500-word pillar articles with FAQPage schema, named author with Person schema, cross-links.
 
 ### Priority 5 — Attack Bloomerang's pricing opacity as a content weapon
 - Publish "The true cost of nonprofit CRM" (transparency piece)
@@ -225,7 +225,7 @@ Top 10 features (moves management, recurring donations, online giving, text outr
 - Add VideoObject schema to Focused Fundraiser podcast episodes with transcripts
 
 ### Priority 7 — Claim the small-nonprofit niche Bloomerang cedes
-Ship "Small Nonprofit CRM" content cluster: "Best CRM for nonprofits under 500 donors," "CRM for one-person fundraising shops," "CRM for faith-based nonprofits," "CRM for rural community foundations."
+Ship "Small Nonprofit CRM" content cluster: "Best CRM for growing nonprofits," "CRM for development teams," "CRM for advocacy nonprofits," "CRM for community foundations."
 
 ---
 
