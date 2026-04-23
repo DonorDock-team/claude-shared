@@ -167,10 +167,10 @@ Only **one** JSON-LD graph detected on homepage (Yoast default), containing:
 
 ## 7. Content Gaps DonorPerfect Leaves Open for DonorDock
 
-1. **Small-shop / volunteer-run nonprofit content.** DonorPerfect's content assumes a full-time fundraising staff. Rob's ICP ("lean teams who do it all") has almost no organic competition from DonorPerfect at the <100-donor level.
+1. **Growing mid-sized nonprofit content.** DonorPerfect's content assumes a full-time fundraising staff. Rob's ICP ("lean teams who do it all") has almost no organic competition from DonorPerfect at the <100-donor level.
 2. **Transparent-pricing content.** DonorPerfect gates pricing. Queries like "DonorPerfect pricing", "DonorPerfect cost", "how much does DonorPerfect cost" are rankable for a transparent competitor — DonorDock should build a fair, factual "DonorPerfect pricing explained" article.
 3. **Named author E-E-A-T.** Zero author brand on DonorPerfect. A DonorDock program pairing Matt (CEO) and Rob (CMO) with specific authored articles + LinkedIn cross-linking leapfrogs them on Google's E-E-A-T signals and AI citations.
-4. **Migration-from-spreadsheets content.** DonorPerfect targets migration from Raiser's Edge. The long-tail of "Excel to donor CRM", "Google Sheets to donor database", "first donor CRM after Excel" is wide open.
+4. **Migration-from-spreadsheets content.** DonorPerfect targets migration from Raiser's Edge. The long-tail of "Excel to donor CRM", "Google Sheets to donor database", "upgrading from spreadsheets to a real donor CRM" is wide open.
 5. **AI-era fundraising operations content.** DonorPerfect has "Fundraising AI / Fundraiser Bot" narrative but thin supporting content. DonorDock can out-publish them on "AI for lean nonprofit teams", "how Otto helps", "AI prompt library for fundraisers".
 6. **Citation-quality original data.** Neither has a named "State of Nonprofit Fundraising" or recurring data release with methodology. First mover wins the research-citation slot in AI answers.
 7. **Glossary content built for AEO.** DonorPerfect only has 7 glossary URLs. A 60–100-term glossary at `/glossary/{term}` with FAQPage + DefinedTerm schema outranks them on informational intent within 6–9 months.
@@ -238,7 +238,7 @@ DonorPerfect doesn't publish prices. DonorDock should:
 - Mirror DonorPerfect's URL pattern by ensuring `/compare/{competitor}-vs-donordock` is populated for every competitor DonorPerfect targets (Keela, Bloomerang, Raiser's Edge, Salesforce) — DonorDock already publishes several; fill the gaps.
 
 **6. Claim the "lean-team / first-CRM / Excel-upgrade" long tail.**
-Build a 12-article pillar covering "spreadsheet to donor CRM", "first donor database for small nonprofit", "under 100 donors CRM", "volunteer-run nonprofit fundraising tools". DonorPerfect has near-zero coverage here and cannot pivot without abandoning their mid-market narrative.
+Build a 12-article pillar covering "spreadsheet to donor CRM", "donor database for growing nonprofit", "under 100 donors CRM", "volunteer-run nonprofit fundraising tools". DonorPerfect has near-zero coverage here and cannot pivot without abandoning their mid-market narrative.
 
 **7. Ship an annual original-data release.**
 "DonorDock State of the Lean Nonprofit Fundraiser — 2026 Report" with methodology, downloadable data, and quotable stats. Citation-worthy, AI-preferred. DonorPerfect has never done this with discipline. First-mover advantage in AI citations for lean-nonprofit statistics is available for the taking.
