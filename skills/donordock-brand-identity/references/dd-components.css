@@ -1,0 +1,321 @@
+/**
+ * DonorDock Component Stylesheet
+ *
+ * Drop-in CSS for HTML artifacts, dashboards, documents, and any
+ * non-Remotion visual output. Uses the same design tokens as the
+ * Remotion brand components.
+ *
+ * Usage: Link or embed this stylesheet, then apply classes like
+ * .dd-card, .dd-heading, .dd-pill--frosted, etc.
+ *
+ * Font: Silka is loaded from the DonorDock GitHub repo.
+ * Falls back to Arial if loading fails.
+ */
+
+/* ========================================
+   FONT LOADING
+   ======================================== */
+@font-face {
+  font-family: 'Silka';
+  src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Silka';
+  src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Silka';
+  src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Silka';
+  src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Silka';
+  src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Silka';
+  src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Silka';
+  src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ========================================
+   DESIGN TOKENS (CSS Custom Properties)
+   ======================================== */
+:root {
+  /* Brand Colors */
+  --dd-purple: #8C2CBF;
+  --dd-blue: #0F8FED;
+  --dd-navy: #303034;
+  --dd-cream: #FFFCF5;
+  --dd-light-blue: #F7F9F9;
+  --dd-white: #FFFFFF;
+  --dd-lavender: #F5F6FF;
+  --dd-light-purple: #FAF5FF;
+
+  /* Pillar Colors */
+  --dd-green: #4BBE71;
+  --dd-yellow: #FBBF4C;
+  --dd-orange: #DD4E07;
+
+  /* Text Hierarchy */
+  --dd-text-primary: #303034;
+  --dd-text-secondary: #56565D;
+  --dd-text-tertiary: #475467;
+  --dd-text-muted: #6B7280;
+  --dd-text-inverse: #FFFCF5;
+
+  /* Shadows */
+  --dd-shadow-level1: 0 4px 20px rgba(0,0,0,0.08);
+  --dd-shadow-level2: 0 2px 8px rgba(0,0,0,0.06);
+  --dd-shadow-screenshot: 0 8px 32px rgba(0,0,0,0.12);
+  --dd-shadow-button-hover: 0 4px 12px rgba(140,44,191,0.3);
+
+  /* Radii */
+  --dd-radius-level1: 20px;
+  --dd-radius-level2: 14px;
+  --dd-radius-button: 100px;
+  --dd-radius-screenshot: 14px;
+  --dd-radius-pill: 12px;
+
+  /* Font */
+  --dd-font: 'Silka', Arial, sans-serif;
+}
+
+/* ========================================
+   LEVEL 1: PRIMARY CARD
+   ======================================== */
+.dd-card {
+  background: var(--dd-white);
+  border-radius: var(--dd-radius-level1);
+  box-shadow: var(--dd-shadow-level1);
+  padding: 28px 32px;
+}
+
+/* ========================================
+   LEVEL 2: NESTED CARD
+   ======================================== */
+.dd-nested-card {
+  background: var(--dd-white);
+  border-radius: var(--dd-radius-level2);
+  box-shadow: var(--dd-shadow-level2);
+  padding: 16px 20px;
+  border: 1px solid rgba(0,0,0,0.04);
+}
+.dd-nested-card--tinted {
+  background: var(--dd-light-blue);
+}
+
+/* ========================================
+   FEATURE CARD (text + visual)
+   ======================================== */
+.dd-feature-card {
+  display: flex;
+  align-items: stretch;
+  overflow: visible;
+}
+.dd-feature-card__text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding-right: 16px;
+}
+.dd-feature-card__visual {
+  flex: 0 0 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.dd-feature-card__screenshot {
+  border-radius: var(--dd-radius-screenshot);
+  box-shadow: var(--dd-shadow-screenshot);
+  width: 100%;
+}
+
+/* ========================================
+   HEADINGS
+   ======================================== */
+.dd-heading {
+  font-family: var(--dd-font);
+  font-weight: 700;
+  color: var(--dd-navy);
+  line-height: 1.12;
+  letter-spacing: -1.2px;
+}
+
+/* Two-tone accent colors */
+.dd-heading .accent-blue { color: var(--dd-blue); }
+.dd-heading .accent-purple { color: var(--dd-purple); }
+.dd-heading .accent-green { color: var(--dd-green); }
+.dd-heading .accent-yellow { color: var(--dd-yellow); }
+.dd-heading .accent-orange { color: var(--dd-orange); }
+
+/* ========================================
+   HIGHLIGHT PILL
+   ======================================== */
+.dd-pill {
+  display: inline-block;
+  border-radius: var(--dd-radius-pill);
+  padding: 3px 12px;
+}
+.dd-pill--frosted {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1.5px solid rgba(0, 0, 0, 0.08);
+}
+.dd-pill--tinted {
+  background: var(--dd-light-blue);
+  border: 1.5px solid rgba(0, 0, 0, 0.07);
+}
+.dd-pill--glow {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
+}
+
+/* ========================================
+   CONTENT PILL (Informational Layer)
+   Larger pill for phrases, stats, feature
+   tags. Used inside or alongside cards.
+   ======================================== */
+.dd-content-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  padding: 10px 24px;
+  font-family: var(--dd-font);
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--dd-navy);
+  line-height: 1.3;
+}
+.dd-content-pill--frosted {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1.5px solid rgba(0, 0, 0, 0.08);
+  box-shadow: var(--dd-shadow-level2);
+}
+.dd-content-pill--tinted {
+  background: var(--dd-light-blue);
+  border: 1.5px solid rgba(0, 0, 0, 0.07);
+  box-shadow: var(--dd-shadow-level2);
+}
+.dd-content-pill--glow {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
+  color: var(--dd-text-inverse);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.dd-content-pill--accent-blue { border-color: rgba(15, 143, 237, 0.3); }
+.dd-content-pill--accent-purple { border-color: rgba(140, 44, 191, 0.3); }
+.dd-content-pill--accent-green { border-color: rgba(75, 190, 113, 0.3); }
+.dd-content-pill--sm {
+  padding: 6px 16px;
+  font-size: 12px;
+  gap: 6px;
+}
+.dd-content-pill--lg {
+  padding: 14px 32px;
+  font-size: 18px;
+  gap: 10px;
+}
+
+/* ========================================
+   BODY TEXT
+   ======================================== */
+.dd-body {
+  font-family: var(--dd-font);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--dd-text-secondary);
+  line-height: 1.5;
+}
+.dd-body--canvas {
+  color: var(--dd-text-primary);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* ========================================
+   CANVAS TEXT (Level 0)
+   ======================================== */
+.dd-canvas-text {
+  font-family: var(--dd-font);
+  font-weight: 600;
+  color: var(--dd-navy);
+  line-height: 1.2;
+}
+.dd-canvas-text--sub {
+  font-weight: 400;
+  color: var(--dd-text-secondary);
+  line-height: 1.5;
+}
+
+/* ========================================
+   BUTTONS
+   ======================================== */
+.dd-button {
+  display: inline-block;
+  background: var(--dd-purple);
+  color: #fff;
+  font-family: var(--dd-font);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px 28px;
+  border-radius: var(--dd-radius-button);
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: box-shadow 0.2s;
+}
+.dd-button:hover {
+  box-shadow: var(--dd-shadow-button-hover);
+}
+.dd-button--outline {
+  background: transparent;
+  color: var(--dd-navy);
+  border: 1.5px solid var(--dd-navy);
+}
+
+/* ========================================
+   GRID LAYOUTS
+   ======================================== */
+.dd-feature-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  max-width: 1200px;
+}
+.dd-flex-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+}
