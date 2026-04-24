@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DonorDock Visual Components Prototype</title>
+<style>
+  /* ========================================
+     FONT LOADING (Silka from GitHub)
+     ======================================== */
+  @font-face {
+    font-family: 'Silka';
+    src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Silka';
+    src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-RegularItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Silka';
+    src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Silka';
+    src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Silka';
+    src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Silka';
+    src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Silka';
+    src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  /* ========================================
+     DESIGN TOKENS (CSS Custom Properties)
+     ======================================== */
+  :root {
+    /* Brand Colors */
+    --dd-purple: #8C2CBF;
+    --dd-blue: #0F8FED;
+    --dd-navy: #303034;
+    --dd-cream: #FFFCF5;
+    --dd-light-blue: #F7F9F9;
+    --dd-white: #FFFFFF;
+    --dd-gray: #56565D;
+    --dd-lavender: #F5F6FF;
+    --dd-light-purple: #FAF5FF;
+
+    /* Pillar Colors (secondary accents) */
+    --dd-green: #4BBE71;
+    --dd-yellow: #FBBF4C;
+    --dd-orange: #DD4E07;
+
+    /* Text Hierarchy */
+    --dd-text-primary: #303034;
+    --dd-text-secondary: #56565D;
+    --dd-text-tertiary: #475467;
+    --dd-text-muted: #6B7280;
+    --dd-text-inverse: #FFFCF5;
+
+    /* Shadows */
+    --dd-shadow-level1: 0 4px 20px rgba(0,0,0,0.08);
+    --dd-shadow-level2: 0 2px 8px rgba(0,0,0,0.06);
+    --dd-shadow-screenshot: 0 8px 32px rgba(0,0,0,0.12);
+    --dd-shadow-button-hover: 0 4px 12px rgba(140,44,191,0.3);
+
+    /* Radii */
+    --dd-radius-level1: 20px;
+    --dd-radius-level2: 14px;
+    --dd-radius-button: 100px;
+    --dd-radius-screenshot: 14px;
+    --dd-radius-pill: 12px;
+
+    /* Font */
+    --dd-font: 'Silka', Arial, sans-serif;
+  }
+
+  /* ========================================
+     BASE STYLES
+     ======================================== */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: var(--dd-font);
+    background: #1a1a2e;
+    color: var(--dd-text-primary);
+    padding: 32px;
+    min-height: 100vh;
+  }
+
+  /* ========================================
+     PAGE LAYOUT
+     ======================================== */
+  .page-header {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  .page-header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+  }
+  .page-header p {
+    font-size: 14px;
+    color: #999;
+  }
+
+  .panels {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .panel {
+    flex-shrink: 0;
+  }
+
+  .panel-label {
+    text-align: center;
+    color: #888;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .panel-sublabel {
+    text-align: center;
+    color: #666;
+    font-size: 11px;
+    margin-bottom: 16px;
+    margin-top: -8px;
+  }
+
+  /* 16:9 Video Canvas - scaled to ~720px wide */
+  .video-canvas {
+    width: 768px;
+    height: 432px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* 8.5x11 Letter - scaled proportionally, ~520px wide */
+  .letter-canvas {
+    width: 520px;
+    height: 673px; /* 8.5:11 ratio */
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* ========================================
+     SECTION MARKERS
+     ======================================== */
+  .section-break {
+    width: 100%;
+    max-width: 1340px;
+    margin: 48px auto 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .section-break::before,
+  .section-break::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #333;
+  }
+  .section-break span {
+    color: #777;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  /* ========================================
+     COMPONENT: DDCard (Level 1)
+     ======================================== */
+  .dd-card {
+    background: var(--dd-white);
+    border-radius: var(--dd-radius-level1);
+    box-shadow: var(--dd-shadow-level1);
+    padding: 28px 32px;
+  }
+
+  /* ========================================
+     COMPONENT: DDNestedCard (Level 2)
+     ======================================== */
+  .dd-nested-card {
+    background: var(--dd-white);
+    border-radius: var(--dd-radius-level2);
+    box-shadow: var(--dd-shadow-level2);
+    padding: 16px 20px;
+    border: 1px solid rgba(0,0,0,0.04);
+  }
+  .dd-nested-card--tinted {
+    background: var(--dd-light-blue);
+  }
+
+  /* ========================================
+     COMPONENT: DDHeading (Two-Tone)
+     ======================================== */
+  .dd-heading {
+    font-weight: 700;
+    color: var(--dd-navy);
+    line-height: 1.12;
+    letter-spacing: -1.2px;
+  }
+  .dd-heading .accent-blue { color: var(--dd-blue); }
+  .dd-heading .accent-purple { color: var(--dd-purple); }
+  .dd-heading .accent-green { color: var(--dd-green); }
+  .dd-heading .accent-yellow { color: var(--dd-yellow); }
+  .dd-heading .accent-orange { color: var(--dd-orange); }
+
+  /* ========================================
+     COMPONENT: DDHighlightPill
+     ======================================== */
+  .dd-pill {
+    display: inline-block;
+    border-radius: var(--dd-radius-pill);
+    padding: 3px 12px;
+  }
+  /* On colored backgrounds */
+  .dd-pill--frosted {
+    background: rgba(255, 255, 255, 0.75);
+    border: 1.5px solid rgba(0, 0, 0, 0.08);
+  }
+  /* On white backgrounds */
+  .dd-pill--tinted {
+    background: var(--dd-light-blue);
+    border: 1.5px solid rgba(0, 0, 0, 0.07);
+  }
+  /* On dark backgrounds */
+  .dd-pill--glow {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1.5px solid rgba(255, 255, 255, 0.15);
+  }
+
+  /* ========================================
+     COMPONENT: DDBody
+     ======================================== */
+  .dd-body {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--dd-text-secondary);
+    line-height: 1.5;
+  }
+  .dd-body--canvas {
+    color: var(--dd-text-primary);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* ========================================
+     COMPONENT: DDCanvasText
+     ======================================== */
+  .dd-canvas-text {
+    font-weight: 600;
+    color: var(--dd-navy);
+    line-height: 1.2;
+  }
+  .dd-canvas-text--sub {
+    font-weight: 400;
+    color: var(--dd-text-secondary);
+    line-height: 1.5;
+  }
+
+  /* ========================================
+     COMPONENT: DDButton
+     ======================================== */
+  .dd-button {
+    display: inline-block;
+    background: var(--dd-purple);
+    color: #fff;
+    font-family: var(--dd-font);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 24px;
+    border-radius: var(--dd-radius-button);
+    border: none;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+  }
+  .dd-button:hover {
+    box-shadow: var(--dd-shadow-button-hover);
+  }
+  .dd-button--outline {
+    background: transparent;
+    color: var(--dd-navy);
+    border: 1.5px solid var(--dd-navy);
+  }
+
+  /* ========================================
+     COMPONENT: DDFeatureCard
+     ======================================== */
+  .dd-feature-card {
+    display: flex;
+    align-items: stretch;
+    overflow: visible;
+  }
+  .dd-feature-card__text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-right: 16px;
+  }
+  .dd-feature-card__visual {
+    flex: 0 0 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .dd-feature-card__screenshot {
+    background: var(--dd-light-blue);
+    border-radius: var(--dd-radius-screenshot);
+    box-shadow: var(--dd-shadow-screenshot);
+    width: 100%;
+    height: 80%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dd-text-muted);
+    font-size: 11px;
+    font-weight: 500;
+    /* Bleed effect */
+    margin-right: -20px;
+    margin-top: 10px;
+  }
+
+  /* ========================================
+     FAKE CONTENT HELPERS
+     ======================================== */
+  .mock-ui {
+    background: #fff;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 10px;
+    color: var(--dd-text-secondary);
+    border: 1px solid #eee;
+  }
+  .mock-bar {
+    height: 6px;
+    border-radius: 3px;
+    background: #e8e8e8;
+    margin: 4px 0;
+  }
+  .mock-bar--accent {
+    background: var(--dd-purple);
+    opacity: 0.3;
+  }
+  .color-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+
+  /* ========================================
+     SWATCHES ROW
+     ======================================== */
+  .swatch-row {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .swatch {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    border: 2px solid rgba(255,255,255,0.2);
+  }
+
+  /* ========================================
+     COMPONENT: DDContentPill
+     A larger pill used as an informational
+     layer inside cards. Holds full phrases,
+     stats, or key points -- not just single
+     highlight words like DDHighlightPill.
+     ======================================== */
+  .dd-content-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    padding: 10px 24px;
+    font-family: var(--dd-font);
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--dd-navy);
+    line-height: 1.3;
+  }
+  /* Default: on cream/colored backgrounds */
+  .dd-content-pill--frosted {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1.5px solid rgba(0, 0, 0, 0.08);
+    box-shadow: var(--dd-shadow-level2);
+  }
+  /* On white card surfaces */
+  .dd-content-pill--tinted {
+    background: var(--dd-light-blue);
+    border: 1.5px solid rgba(0, 0, 0, 0.07);
+    box-shadow: var(--dd-shadow-level2);
+  }
+  /* On dark backgrounds */
+  .dd-content-pill--glow {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1.5px solid rgba(255, 255, 255, 0.15);
+    color: var(--dd-text-inverse);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  /* Accent-bordered variant -- border picks up an accent color */
+  .dd-content-pill--accent-blue {
+    border-color: rgba(15, 143, 237, 0.3);
+  }
+  .dd-content-pill--accent-purple {
+    border-color: rgba(140, 44, 191, 0.3);
+  }
+  .dd-content-pill--accent-green {
+    border-color: rgba(75, 190, 113, 0.3);
+  }
+  /* Compact size for nested/tight layouts */
+  .dd-content-pill--sm {
+    padding: 6px 16px;
+    font-size: 12px;
+    gap: 6px;
+  }
+  /* Large size for hero/canvas usage */
+  .dd-content-pill--lg {
+    padding: 14px 32px;
+    font-size: 18px;
+    gap: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <h1>DonorDock Visual Components Prototype</h1>
+  <p>16:9 Video Canvas (left) &nbsp;|&nbsp; 8.5 x 11 Letter (right) &nbsp;|&nbsp; Font: Silka (from DonorDock-team/claude-shared)</p>
+</div>
+
+<!-- ============================================================
+     SECTION 1: 3-LEVEL DEPTH SYSTEM
+     ============================================================ -->
+<div class="section-break"><span>1. Three-Level Depth System</span></div>
+
+<div class="panels">
+  <!-- VIDEO CANVAS -->
+  <div class="panel">
+    <div class="panel-label">16:9 Video</div>
+    <div class="panel-sublabel">3840 x 2160 scaled to 768 x 432</div>
+    <div class="video-canvas" style="background: var(--dd-cream); padding: 32px; display: flex; flex-direction: column; gap: 20px;">
+
+      <!-- Level 0: Canvas Text -->
+      <div>
+        <div class="dd-canvas-text" style="font-size: 22px; margin-bottom: 6px;">Level 0: Canvas</div>
+        <div class="dd-canvas-text--sub dd-body--canvas" style="font-size: 13px; max-width: 400px;">Headings and context text live directly on the background. No card, no shadow. This grounds the scene.</div>
+      </div>
+
+      <!-- Level 1: Primary Card -->
+      <div class="dd-card" style="flex: 1; display: flex; flex-direction: column; gap: 14px;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+          <div>
+            <div style="font-size: 10px; font-weight: 600; color: var(--dd-purple); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 4px;">Level 1: Primary Card</div>
+            <div class="dd-heading" style="font-size: 20px; letter-spacing: -0.8px;">The main content container</div>
+          </div>
+          <div class="dd-button" style="font-size: 11px; padding: 8px 18px;">Get Started</div>
+        </div>
+        <div class="dd-body" style="max-width: 380px;">Feature content, data panels, and key information lives here. The shadow creates clear visual separation from the canvas.</div>
+
+        <!-- Level 2: Nested Cards -->
+        <div style="display: flex; gap: 12px;">
+          <div class="dd-nested-card" style="flex: 1;">
+            <div style="font-size: 10px; font-weight: 600; color: var(--dd-purple); letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 6px;">Level 2</div>
+            <div class="dd-heading" style="font-size: 15px; letter-spacing: -0.5px;">$42,380</div>
+            <div class="dd-body" style="font-size: 11px;">Monthly giving</div>
+          </div>
+          <div class="dd-nested-card dd-nested-card--tinted" style="flex: 1;">
+            <div style="font-size: 10px; font-weight: 600; color: var(--dd-blue); letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 6px;">Level 2 Tinted</div>
+            <div class="dd-heading" style="font-size: 15px; letter-spacing: -0.5px;">1,284</div>
+            <div class="dd-body" style="font-size: 11px;">Active donors</div>
+          </div>
+          <div class="dd-nested-card" style="flex: 1;">
+            <div style="font-size: 10px; font-weight: 600; color: var(--dd-green); letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 6px;">Level 2</div>
+            <div class="dd-heading" style="font-size: 15px; letter-spacing: -0.5px;">94%</div>
+            <div class="dd-body" style="font-size: 11px;">Retention rate</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LETTER CANVAS -->
+  <div class="panel">
+    <div class="panel-label">8.5 x 11 Letter</div>
+    <div class="panel-sublabel">612 x 792pt scaled to 520 x 673</div>
+    <div class="letter-canvas" style="background: var(--dd-cream); padding: 36px; display: flex; flex-direction: column; gap: 24px;">
+
+      <!-- Level 0: Canvas Text -->
+      <div>
+        <div class="dd-canvas-text" style="font-size: 24px; margin-bottom: 8px;">Donor Impact Report</div>
+        <div class="dd-canvas-text--sub dd-body--canvas" style="font-size: 14px; max-width: 440px;">Q1 2026 Summary. Level 0 text sits directly on the page canvas with no card container.</div>
+      </div>
+
+      <!-- Level 1: Primary Card -->
+      <div class="dd-card" style="display: flex; flex-direction: column; gap: 16px;">
+        <div>
+          <div style="font-size: 10px; font-weight: 600; color: var(--dd-purple); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px;">Giving Overview</div>
+          <div class="dd-heading" style="font-size: 22px; letter-spacing: -0.8px;">Your donors gave more this quarter</div>
+        </div>
+        <div class="dd-body" style="font-size: 13px;">Total contributions increased 18% compared to Q4 2025, driven by year-end campaigns and recurring gift growth.</div>
+
+        <!-- Level 2: Nested Cards -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+          <div class="dd-nested-card">
+            <div style="font-size: 10px; color: var(--dd-text-muted); margin-bottom: 4px;">Total Raised</div>
+            <div class="dd-heading" style="font-size: 20px; letter-spacing: -0.6px;"><span class="accent-blue" style="color: var(--dd-blue);">$127,400</span></div>
+          </div>
+          <div class="dd-nested-card">
+            <div style="font-size: 10px; color: var(--dd-text-muted); margin-bottom: 4px;">New Donors</div>
+            <div class="dd-heading" style="font-size: 20px; letter-spacing: -0.6px;"><span class="accent-green" style="color: var(--dd-green);">342</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Level 1 Card -->
+      <div class="dd-card" style="display: flex; flex-direction: column; gap: 12px;">
+        <div class="dd-heading" style="font-size: 18px; letter-spacing: -0.6px;">Campaign Performance</div>
+        <div class="dd-body" style="font-size: 13px;">Three campaigns ran this quarter. The Spring Gala outperformed targets by 32%.</div>
+        <div class="dd-nested-card dd-nested-card--tinted" style="display: flex; justify-content: space-between; align-items: center;">
+          <div>
+            <div style="font-weight: 600; font-size: 13px; color: var(--dd-navy);">Spring Gala</div>
+            <div class="dd-body" style="font-size: 11px;">Exceeded goal</div>
+          </div>
+          <div style="font-weight: 700; font-size: 16px; color: var(--dd-purple);">$68,200</div>
+        </div>
+        <div class="dd-nested-card" style="display: flex; justify-content: space-between; align-items: center;">
+          <div>
+            <div style="font-weight: 600; font-size: 13px; color: var(--dd-navy);">Monthly Drive</div>
+            <div class="dd-body" style="font-size: 11px;">On track</div>
+          </div>
+          <div style="font-weight: 700; font-size: 16px; color: var(--dd-blue);">$38,900</div>
+        </div>
+      </div>
+
+      <!-- Level 0 footer text -->
+      <div class="dd-canvas-text--sub" style="font-size: 11px; color: var(--dd-text-muted); text-align: center;">Generated by DonorDock &middot; March 2026</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     SECTION 2: TWO-TONE HEADLINES (All Accent Colors)
+     ============================================================ -->
+<div class="section-break"><span>2. Two-Tone Headlines &mdash; All Accent Colors</span></div>
+
+<div class="panels">
+  <!-- VIDEO CANVAS -->
+  <div class="panel">
+    <div class="panel-label">16:9 Video</div>
+    <div class="video-canvas" style="background: var(--dd-cream); padding: 36px; display: flex; flex-direction: column; justify-content: center; gap: 28px;">
+
+      <!-- Blue (primary) -->
+      <div>
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Primary: Blue</div>
+        <div class="dd-heading" style="font-size: 28px;"><span class="accent-blue">Unlimited</span> contacts. <span class="accent-blue">Limitless</span> impact.</div>
+      </div>
+
+      <!-- Purple (primary) -->
+      <div>
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Primary: Purple</div>
+        <div class="dd-heading" style="font-size: 28px;"><span class="accent-purple">Built-in</span> intelligence for <span class="accent-purple">growing</span> nonprofits</div>
+      </div>
+
+      <!-- Green (secondary - outreach) -->
+      <div>
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Secondary: Green (Outreach)</div>
+        <div class="dd-heading" style="font-size: 28px;">Send <span class="accent-green">personalized</span> outreach at scale</div>
+      </div>
+
+      <!-- Yellow (secondary - giving) -->
+      <div>
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Secondary: Yellow (Giving)</div>
+        <div class="dd-heading" style="font-size: 28px;"><span class="accent-yellow">Customizable</span> giving pages</div>
+      </div>
+
+      <!-- Orange (secondary - activation) -->
+      <div>
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">Secondary: Orange (Activation)</div>
+        <div class="dd-heading" style="font-size: 28px;">Your team, <span class="accent-orange">activated</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LETTER CANVAS -->
+  <div class="panel">
+    <div class="panel-label">8.5 x 11 Letter</div>
+    <div class="letter-canvas" style="background: var(--dd-white); padding: 40px; display: flex; flex-direction: column; justify-content: center; gap: 36px;">
+
+      <!-- Blue -->
+      <div>
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px;">Primary: Blue</div>
+        <div class="dd-heading" style="font-size: 32px;"><span class="accent-blue">Unlimited</span> contacts.<br><span class="accent-blue">Limitless</span> impact.</div>
+      </div>
+
+      <!-- Purple -->
+      <div>
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px;">Primary: Purple</div>
+        <div class="dd-heading" style="font-size: 32px;"><span class="accent-purple">Built-in</span> intelligence</div>
+        <div class="dd-body" style="font-size: 14px; margin-top: 8px; max-width: 380px;">Automate your donor management with journeys and insights that help you reach the right people.</div>
+      </div>
+
+      <!-- Green -->
+      <div>
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px;">Secondary: Green</div>
+        <div class="dd-heading" style="font-size: 32px;">Send <span class="accent-green">personalized</span> outreach</div>
+      </div>
+
+      <!-- Yellow -->
+      <div>
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px;">Secondary: Yellow</div>
+        <div class="dd-heading" style="font-size: 32px;"><span class="accent-yellow">Customizable</span> giving pages</div>
+      </div>
+
+      <!-- Orange -->
+      <div>
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px;">Secondary: Orange</div>
+        <div class="dd-heading" style="font-size: 32px;">Your team, <span class="accent-orange">activated</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     SECTION 3: HIGHLIGHT PILLS ON DIFFERENT BACKGROUNDS
+     ============================================================ -->
+<div class="section-break"><span>3. Highlight Pills &mdash; Adaptive Backgrounds</span></div>
+
+<div class="panels">
+  <!-- VIDEO CANVAS -->
+  <div class="panel">
+    <div class="panel-label">16:9 Video</div>
+    <div class="video-canvas" style="display: flex; flex-direction: column; overflow: hidden;">
+
+      <!-- Cream background -->
+      <div style="flex: 1; background: var(--dd-cream); padding: 20px 32px; display: flex; flex-direction: column; justify-content: center;">
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">On Cream #FFFCF5</div>
+        <div class="dd-heading" style="font-size: 24px;">
+          <span class="dd-pill dd-pill--frosted"><span class="accent-blue">Unlimited</span></span> contacts.
+          <span class="dd-pill dd-pill--frosted"><span class="accent-blue">Limitless</span></span> impact.
+        </div>
+      </div>
+
+      <!-- White background -->
+      <div style="flex: 1; background: var(--dd-white); padding: 20px 32px; display: flex; flex-direction: column; justify-content: center;">
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">On White #FFFFFF</div>
+        <div class="dd-heading" style="font-size: 24px;">
+          <span class="dd-pill dd-pill--tinted"><span class="accent-purple">Built-in</span></span> intelligence for
+          <span class="dd-pill dd-pill--tinted"><span class="accent-purple">growing</span></span> nonprofits
+        </div>
+      </div>
+
+      <!-- Lavender background -->
+      <div style="flex: 1; background: var(--dd-lavender); padding: 20px 32px; display: flex; flex-direction: column; justify-content: center;">
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">On Lavender #F5F6FF</div>
+        <div class="dd-heading" style="font-size: 24px;">
+          <span class="dd-pill dd-pill--frosted"><span class="accent-green">Personalized</span></span> outreach at scale
+        </div>
+      </div>
+
+      <!-- Dark background -->
+      <div style="flex: 1; background: #0C050E; padding: 20px 32px; display: flex; flex-direction: column; justify-content: center;">
+        <div style="font-size: 9px; font-weight: 600; color: #666; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">On Dark #0C050E</div>
+        <div class="dd-heading" style="font-size: 24px; color: var(--dd-text-inverse);">
+          Meet <span class="dd-pill dd-pill--glow"><span class="accent-purple">Otto</span></span>, your AI fundraising assistant
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LETTER CANVAS -->
+  <div class="panel">
+    <div class="panel-label">8.5 x 11 Letter</div>
+    <div class="letter-canvas" style="display: flex; flex-direction: column; overflow: hidden;">
+
+      <!-- Cream -->
+      <div style="flex: 1; background: var(--dd-cream); padding: 24px 36px; display: flex; flex-direction: column; justify-content: center;">
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px;">On Cream</div>
+        <div class="dd-heading" style="font-size: 28px;">
+          <span class="dd-pill dd-pill--frosted"><span class="accent-blue">Unlimited</span></span> contacts.<br>
+          <span class="dd-pill dd-pill--frosted"><span class="accent-blue">Limitless</span></span> impact.
+        </div>
+      </div>
+
+      <!-- White -->
+      <div style="flex: 1; background: var(--dd-white); padding: 24px 36px; display: flex; flex-direction: column; justify-content: center;">
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px;">On White</div>
+        <div class="dd-heading" style="font-size: 28px;">
+          <span class="dd-pill dd-pill--tinted"><span class="accent-purple">Built-in</span></span> intelligence
+        </div>
+        <div class="dd-body" style="font-size: 14px; margin-top: 10px;">The pill uses a light blue tint on white surfaces for subtle contrast.</div>
+      </div>
+
+      <!-- Light Blue -->
+      <div style="flex: 1; background: var(--dd-light-blue); padding: 24px 36px; display: flex; flex-direction: column; justify-content: center;">
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px;">On Light Blue #F7F9F9</div>
+        <div class="dd-heading" style="font-size: 28px;">
+          <span class="dd-pill dd-pill--frosted"><span class="accent-orange">Activate</span></span> your team
+        </div>
+      </div>
+
+      <!-- Dark -->
+      <div style="flex: 1; background: #0C050E; padding: 24px 36px; display: flex; flex-direction: column; justify-content: center;">
+        <div style="font-size: 9px; font-weight: 600; color: #666; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px;">On Dark</div>
+        <div class="dd-heading" style="font-size: 28px; color: var(--dd-text-inverse);">
+          Meet <span class="dd-pill dd-pill--glow"><span class="accent-purple">Otto</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     SECTION 4: FEATURE CARD LAYOUT
+     ============================================================ -->
+<div class="section-break"><span>4. Feature Card (Text + Screenshot Bleed)</span></div>
+
+<div class="panels">
+  <!-- VIDEO CANVAS -->
+  <div class="panel">
+    <div class="panel-label">16:9 Video</div>
+    <div class="video-canvas" style="background: var(--dd-cream); padding: 32px; display: flex; align-items: center; justify-content: center;">
+      <div class="dd-card dd-feature-card" style="width: 100%; height: 85%;">
+        <div class="dd-feature-card__text" style="padding: 24px 0 24px 28px;">
+          <div class="dd-heading" style="font-size: 22px; letter-spacing: -0.8px;"><span class="accent-blue">Built-in</span> Intelligence</div>
+          <div class="dd-body" style="font-size: 13px; max-width: 280px;">Automate your donor management with journeys and insights that help you reach the right people at the right time.</div>
+          <div style="margin-top: 6px;">
+            <span class="dd-button" style="font-size: 11px; padding: 8px 20px;">Learn More</span>
+          </div>
+        </div>
+        <div class="dd-feature-card__visual">
+          <div class="dd-feature-card__screenshot">
+            <div style="text-align: center;">
+              <div style="font-size: 11px; font-weight: 600; margin-bottom: 6px;">Product Screenshot</div>
+              <div class="mock-bar" style="width: 120px;"></div>
+              <div class="mock-bar mock-bar--accent" style="width: 90px;"></div>
+              <div class="mock-bar" style="width: 110px;"></div>
+              <div class="mock-bar" style="width: 80px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LETTER CANVAS -->
+  <div class="panel">
+    <div class="panel-label">8.5 x 11 Letter</div>
+    <div class="letter-canvas" style="background: var(--dd-cream); padding: 36px; display: flex; flex-direction: column; gap: 24px;">
+
+      <!-- Feature Card 1 -->
+      <div class="dd-card dd-feature-card" style="flex: 1;">
+        <div class="dd-feature-card__text" style="padding: 20px 0 20px 24px;">
+          <div class="dd-heading" style="font-size: 20px; letter-spacing: -0.7px;"><span class="accent-purple">Reporting</span> Made Easy</div>
+          <div class="dd-body" style="font-size: 13px; max-width: 240px;">Access clear, actionable reports that help you track giving trends and campaign performance.</div>
+        </div>
+        <div class="dd-feature-card__visual">
+          <div class="dd-feature-card__screenshot" style="min-height: 80px;">
+            <div style="text-align: center; font-size: 10px;">
+              <div style="font-weight: 600; margin-bottom: 4px;">Reports</div>
+              <div class="mock-bar" style="width: 100px;"></div>
+              <div class="mock-bar" style="width: 80px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature Card 2 -->
+      <div class="dd-card dd-feature-card" style="flex: 1;">
+        <div class="dd-feature-card__text" style="padding: 20px 0 20px 24px;">
+          <div class="dd-heading" style="font-size: 20px; letter-spacing: -0.7px;">Bulk Send <span class="accent-green">Email</span> & Text</div>
+          <div class="dd-body" style="font-size: 13px; max-width: 240px;">Segment and send personalized emails and texts to your supporters directly in DonorDock.</div>
+        </div>
+        <div class="dd-feature-card__visual">
+          <div class="dd-feature-card__screenshot" style="min-height: 80px;">
+            <div style="text-align: center; font-size: 10px;">
+              <div style="font-weight: 600; margin-bottom: 4px;">Email Builder</div>
+              <div class="mock-bar mock-bar--accent" style="width: 100px;"></div>
+              <div class="mock-bar" style="width: 70px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Level 0 CTA -->
+      <div style="text-align: center; padding: 8px 0;">
+        <div class="dd-canvas-text" style="font-size: 18px; margin-bottom: 10px;">Ready to get started?</div>
+        <span class="dd-button">Start Free Trial</span>
+        <span class="dd-button dd-button--outline" style="margin-left: 8px;">Book a Demo</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     SECTION 5: SHADOW COMPARISON
+     ============================================================ -->
+<div class="section-break"><span>5. Shadow Hierarchy Comparison</span></div>
+
+<div class="panels">
+  <div class="panel">
+    <div class="panel-label">Shadow Levels Side by Side</div>
+    <div style="width: 768px; background: var(--dd-cream); border-radius: 12px; padding: 40px; display: flex; gap: 24px; align-items: center; justify-content: center;">
+
+      <!-- No shadow -->
+      <div style="flex: 1; text-align: center;">
+        <div style="background: var(--dd-white); border-radius: 20px; padding: 32px 20px; border: 1px solid rgba(0,0,0,0.06);">
+          <div style="font-size: 11px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px;">Level 0</div>
+          <div style="font-size: 10px; color: var(--dd-text-muted);">No shadow</div>
+          <div style="font-size: 10px; color: var(--dd-text-muted); margin-top: 2px;">Canvas text only</div>
+          <div style="margin-top: 12px; padding: 8px; border-radius: 8px; border: 1px dashed #ddd; font-size: 10px; color: #bbb;">no container</div>
+        </div>
+      </div>
+
+      <!-- Level 1 -->
+      <div style="flex: 1; text-align: center;">
+        <div class="dd-card" style="padding: 32px 20px;">
+          <div style="font-size: 11px; font-weight: 600; color: var(--dd-purple); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px;">Level 1</div>
+          <div style="font-size: 10px; color: var(--dd-text-secondary);">0 4px 20px</div>
+          <div style="font-size: 10px; color: var(--dd-text-secondary);">rgba(0,0,0,0.08)</div>
+          <div style="margin-top: 12px;">
+            <div class="dd-heading" style="font-size: 18px;">$42,380</div>
+            <div class="dd-body" style="font-size: 11px;">Primary card</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Level 2 -->
+      <div style="flex: 1; text-align: center;">
+        <div class="dd-card" style="padding: 20px 16px;">
+          <div style="font-size: 9px; color: var(--dd-text-muted); margin-bottom: 8px;">Inside Level 1</div>
+          <div class="dd-nested-card" style="padding: 20px 16px;">
+            <div style="font-size: 11px; font-weight: 600; color: var(--dd-blue); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px;">Level 2</div>
+            <div style="font-size: 10px; color: var(--dd-text-secondary);">0 2px 8px</div>
+            <div style="font-size: 10px; color: var(--dd-text-secondary);">rgba(0,0,0,0.06)</div>
+            <div style="margin-top: 8px;">
+              <div class="dd-heading" style="font-size: 16px;">Detail</div>
+              <div class="dd-body" style="font-size: 10px;">Nested card</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Screenshot shadow -->
+      <div style="flex: 1; text-align: center;">
+        <div style="background: var(--dd-light-blue); border-radius: var(--dd-radius-screenshot); box-shadow: var(--dd-shadow-screenshot); padding: 32px 20px;">
+          <div style="font-size: 11px; font-weight: 600; color: var(--dd-navy); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px;">Screenshot</div>
+          <div style="font-size: 10px; color: var(--dd-text-secondary);">0 8px 32px</div>
+          <div style="font-size: 10px; color: var(--dd-text-secondary);">rgba(0,0,0,0.12)</div>
+          <div style="margin-top: 12px;">
+            <div class="mock-bar" style="width: 80%; margin: 4px auto;"></div>
+            <div class="mock-bar mock-bar--accent" style="width: 60%; margin: 4px auto;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     SECTION 6: BUTTONS + CTA PATTERNS
+     ============================================================ -->
+<div class="section-break"><span>6. Buttons</span></div>
+
+<div class="panels">
+  <div class="panel">
+    <div class="panel-label">Button Variants</div>
+    <div style="width: 768px; background: var(--dd-cream); border-radius: 12px; padding: 40px; display: flex; gap: 32px; align-items: center; justify-content: center; flex-wrap: wrap;">
+
+      <div style="text-align: center;">
+        <div style="font-size: 10px; color: var(--dd-text-muted); margin-bottom: 8px;">PRIMARY</div>
+        <span class="dd-button">Get Started Free</span>
+      </div>
+
+      <div style="text-align: center;">
+        <div style="font-size: 10px; color: var(--dd-text-muted); margin-bottom: 8px;">OUTLINE</div>
+        <span class="dd-button dd-button--outline">Book a Demo</span>
+      </div>
+
+      <div style="text-align: center;">
+        <div style="font-size: 10px; color: var(--dd-text-muted); margin-bottom: 8px;">PAIRED</div>
+        <span class="dd-button">Start Free Trial</span>
+        <span class="dd-button dd-button--outline" style="margin-left: 8px;">Watch Video</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     SECTION 7: FULL SCENE COMPOSITIONS
+     ============================================================ -->
+<div class="section-break"><span>7. Full Scene Compositions</span></div>
+
+<div class="panels">
+  <!-- VIDEO: Hero Scene -->
+  <div class="panel">
+    <div class="panel-label">Video: Hero Scene</div>
+    <div class="video-canvas" style="background: var(--dd-cream); display: flex; flex-direction: column; justify-content: center; padding: 40px 48px;">
+      <!-- Level 0: Canvas headline -->
+      <div style="margin-bottom: 20px;">
+        <div class="dd-heading" style="font-size: 36px; letter-spacing: -1.5px; line-height: 1.1;">
+          <span class="dd-pill dd-pill--frosted"><span class="accent-blue">Unlimited</span></span> contacts.<br>
+          <span class="dd-pill dd-pill--frosted"><span class="accent-blue">Limitless</span></span> impact.
+        </div>
+        <div class="dd-body--canvas" style="font-size: 15px; color: var(--dd-text-secondary); margin-top: 12px; max-width: 420px;">The donor management platform built for growing nonprofits. Simple, powerful, and backed by real humans.</div>
+        <div style="margin-top: 16px;">
+          <span class="dd-button">Start Free Trial</span>
+          <span class="dd-button dd-button--outline" style="margin-left: 8px;">Book a Demo</span>
+        </div>
+      </div>
+
+      <!-- Level 1: Trust bar -->
+      <div class="dd-card" style="padding: 14px 24px; display: flex; align-items: center; gap: 24px; justify-content: center;">
+        <div style="display: flex; align-items: center; gap: 6px;">
+          <div style="display: flex; gap: -4px;">
+            <div style="width: 24px; height: 24px; border-radius: 50%; background: #e8d5f5; border: 2px solid white;"></div>
+            <div style="width: 24px; height: 24px; border-radius: 50%; background: #d5e8f5; border: 2px solid white; margin-left: -8px;"></div>
+            <div style="width: 24px; height: 24px; border-radius: 50%; background: #d5f5e0; border: 2px solid white; margin-left: -8px;"></div>
+          </div>
+          <div style="font-size: 12px; color: var(--dd-text-secondary);">Trusted by <strong style="color: var(--dd-navy);">7,200+</strong> nonprofit professionals</div>
+        </div>
+        <div style="font-size: 12px; color: var(--dd-yellow);">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div style="font-size: 11px; color: var(--dd-text-muted);">4.8 on G2</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LETTER: One-Pager -->
+  <div class="panel">
+    <div class="panel-label">Letter: One-Pager</div>
+    <div class="letter-canvas" style="background: var(--dd-white); display: flex; flex-direction: column; padding: 36px;">
+
+      <!-- Header area (Level 0) -->
+      <div style="margin-bottom: 20px;">
+        <div style="font-size: 11px; font-weight: 700; color: var(--dd-purple); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px;">DonorDock</div>
+        <div class="dd-heading" style="font-size: 26px; letter-spacing: -1px;">
+          <span class="accent-purple">One platform</span> for your entire donor journey
+        </div>
+        <div class="dd-body--canvas" style="font-size: 13px; margin-top: 8px; color: var(--dd-text-secondary); max-width: 420px;">CRM, email, giving pages, and reporting in one place. No per-contact pricing, no complexity.</div>
+      </div>
+
+      <!-- Feature cards grid (Level 1) -->
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; flex: 1;">
+        <div class="dd-card" style="padding: 18px; display: flex; flex-direction: column; gap: 8px;">
+          <div style="width: 28px; height: 28px; border-radius: 8px; background: rgba(15,143,237,0.1); display: flex; align-items: center; justify-content: center;">
+            <div style="width: 14px; height: 14px; border-radius: 50%; background: var(--dd-blue);"></div>
+          </div>
+          <div class="dd-heading" style="font-size: 15px; letter-spacing: -0.3px;">Donor CRM</div>
+          <div class="dd-body" style="font-size: 11px; line-height: 1.4;">Track every relationship, gift, and interaction in one place.</div>
+        </div>
+
+        <div class="dd-card" style="padding: 18px; display: flex; flex-direction: column; gap: 8px;">
+          <div style="width: 28px; height: 28px; border-radius: 8px; background: rgba(75,190,113,0.1); display: flex; align-items: center; justify-content: center;">
+            <div style="width: 14px; height: 14px; border-radius: 50%; background: var(--dd-green);"></div>
+          </div>
+          <div class="dd-heading" style="font-size: 15px; letter-spacing: -0.3px;">Email & Text</div>
+          <div class="dd-body" style="font-size: 11px; line-height: 1.4;">Send personalized outreach to segmented donor lists.</div>
+        </div>
+
+        <div class="dd-card" style="padding: 18px; display: flex; flex-direction: column; gap: 8px;">
+          <div style="width: 28px; height: 28px; border-radius: 8px; background: rgba(251,191,76,0.1); display: flex; align-items: center; justify-content: center;">
+            <div style="width: 14px; height: 14px; border-radius: 50%; background: var(--dd-yellow);"></div>
+          </div>
+          <div class="dd-heading" style="font-size: 15px; letter-spacing: -0.3px;">Online Giving</div>
+          <div class="dd-body" style="font-size: 11px; line-height: 1.4;">Branded giving pages for donations, memberships, and events.</div>
+        </div>
+
+        <div class="dd-card" style="padding: 18px; display: flex; flex-direction: column; gap: 8px;">
+          <div style="width: 28px; height: 28px; border-radius: 8px; background: rgba(221,78,7,0.1); display: flex; align-items: center; justify-content: center;">
+            <div style="width: 14px; height: 14px; border-radius: 50%; background: var(--dd-orange);"></div>
+          </div>
+          <div class="dd-heading" style="font-size: 15px; letter-spacing: -0.3px;">ActionBoard</div>
+          <div class="dd-body" style="font-size: 11px; line-height: 1.4;">Manage tasks and projects across your team.</div>
+        </div>
+      </div>
+
+      <!-- CTA footer (Level 0) -->
+      <div style="text-align: center; margin-top: 20px; padding: 16px 0; border-top: 1px solid rgba(0,0,0,0.06);">
+        <div class="dd-canvas-text" style="font-size: 16px; margin-bottom: 10px;">Start building meaningful donor relationships today.</div>
+        <div style="font-size: 11px; color: var(--dd-text-muted);">No contracts. Cancel anytime. 90-day money-back guarantee.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     SECTION 8: CONTENT PILLS (Informational Layer)
+     ============================================================ -->
+<div class="section-break"><span>8. Content Pills &mdash; Informational Layer Inside Cards</span></div>
+
+<div class="panels">
+  <!-- VIDEO CANVAS -->
+  <div class="panel">
+    <div class="panel-label">16:9 Video</div>
+    <div class="video-canvas" style="background: var(--dd-cream); padding: 28px 36px; display: flex; flex-direction: column; gap: 16px;">
+
+      <!-- Hero usage: Content pill on canvas -->
+      <div>
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;">On Canvas (Level 0)</div>
+        <div class="dd-heading" style="font-size: 28px; margin-bottom: 8px;">Plan, Act, Track.</div>
+        <span class="dd-content-pill dd-content-pill--frosted dd-content-pill--lg" style="font-size: 22px;">
+          <span style="font-weight: 700; color: var(--dd-navy);">All In One Place</span>
+        </span>
+      </div>
+
+      <!-- Inside a card: tinted pills as data points -->
+      <div class="dd-card" style="padding: 20px 24px; display: flex; flex-direction: column; gap: 10px;">
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase;">Inside Card (Level 1)</div>
+        <div class="dd-heading" style="font-size: 16px;">What you get with <span class="accent-purple">DonorDock</span></div>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+          <span class="dd-content-pill dd-content-pill--tinted">Unlimited Contacts</span>
+          <span class="dd-content-pill dd-content-pill--tinted dd-content-pill--accent-blue">Built-in Email & Text</span>
+          <span class="dd-content-pill dd-content-pill--tinted dd-content-pill--accent-green">Online Giving Pages</span>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+          <span class="dd-content-pill dd-content-pill--tinted dd-content-pill--sm">Reporting</span>
+          <span class="dd-content-pill dd-content-pill--tinted dd-content-pill--sm">Automations</span>
+          <span class="dd-content-pill dd-content-pill--tinted dd-content-pill--sm">ActionBoard</span>
+          <span class="dd-content-pill dd-content-pill--tinted dd-content-pill--sm">API Access</span>
+        </div>
+      </div>
+
+      <!-- Accent-bordered variant -->
+      <div style="display: flex; gap: 12px; align-items: center;">
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; writing-mode: vertical-rl; transform: rotate(180deg);">Accent Borders</div>
+        <span class="dd-content-pill dd-content-pill--frosted dd-content-pill--accent-blue">
+          <span style="color: var(--dd-blue); font-weight: 700;">1,284</span> Active Donors
+        </span>
+        <span class="dd-content-pill dd-content-pill--frosted dd-content-pill--accent-purple">
+          <span style="color: var(--dd-purple); font-weight: 700;">$42K</span> Monthly Giving
+        </span>
+        <span class="dd-content-pill dd-content-pill--frosted dd-content-pill--accent-green">
+          <span style="color: var(--dd-green); font-weight: 700;">94%</span> Retention
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- LETTER CANVAS -->
+  <div class="panel">
+    <div class="panel-label">8.5 x 11 Letter</div>
+    <div class="letter-canvas" style="background: var(--dd-cream); padding: 36px; display: flex; flex-direction: column; gap: 20px;">
+
+      <!-- Hero usage on letter -->
+      <div style="text-align: center;">
+        <div class="dd-heading" style="font-size: 32px; margin-bottom: 10px;">Plan, Act, Track.</div>
+        <div style="display: flex; justify-content: center;">
+          <span class="dd-content-pill dd-content-pill--frosted dd-content-pill--lg" style="font-size: 24px;">
+            <span style="font-weight: 700; color: var(--dd-navy);">All In One Place</span>
+          </span>
+        </div>
+        <div class="dd-body" style="font-size: 13px; margin-top: 12px; max-width: 380px; margin-left: auto; margin-right: auto;">The donor management platform that brings your CRM, outreach, giving, and reporting together.</div>
+      </div>
+
+      <!-- Card with content pills as features -->
+      <div class="dd-card" style="padding: 24px; display: flex; flex-direction: column; gap: 12px;">
+        <div class="dd-heading" style="font-size: 18px; letter-spacing: -0.6px;">Everything your nonprofit needs</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+          <span class="dd-content-pill dd-content-pill--tinted dd-content-pill--accent-blue">Donor CRM</span>
+          <span class="dd-content-pill dd-content-pill--tinted dd-content-pill--accent-green">Email & Text</span>
+          <span class="dd-content-pill dd-content-pill--tinted dd-content-pill--accent-purple">Online Giving</span>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+          <span class="dd-content-pill dd-content-pill--tinted dd-content-pill--sm">Reporting</span>
+          <span class="dd-content-pill dd-content-pill--tinted dd-content-pill--sm">Automations</span>
+          <span class="dd-content-pill dd-content-pill--tinted dd-content-pill--sm">ActionBoard</span>
+        </div>
+      </div>
+
+      <!-- Stat pills standalone on canvas -->
+      <div>
+        <div style="font-size: 9px; font-weight: 600; color: var(--dd-text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px;">Stat Pills with Accent Borders</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+          <span class="dd-content-pill dd-content-pill--frosted dd-content-pill--accent-blue">
+            <span style="color: var(--dd-blue); font-weight: 700;">7,200+</span> Nonprofits
+          </span>
+          <span class="dd-content-pill dd-content-pill--frosted dd-content-pill--accent-purple">
+            <span style="color: var(--dd-purple); font-weight: 700;">4.8</span> on G2
+          </span>
+        </div>
+      </div>
+
+      <!-- Dark background example -->
+      <div style="background: #0C050E; border-radius: 14px; padding: 24px; text-align: center;">
+        <div class="dd-heading" style="font-size: 20px; color: var(--dd-text-inverse); margin-bottom: 12px;">On Dark Surfaces</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
+          <span class="dd-content-pill dd-content-pill--glow">Unlimited Contacts</span>
+          <span class="dd-content-pill dd-content-pill--glow">Built-in AI</span>
+          <span class="dd-content-pill dd-content-pill--glow dd-content-pill--sm">No per-contact pricing</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     SECTION 9: COLOR + TOKEN REFERENCE
+     ============================================================ -->
+<div class="section-break"><span>9. Token Reference</span></div>
+
+<div class="panels">
+  <div class="panel">
+    <div class="panel-label">Brand Colors</div>
+    <div style="width: 768px; background: #222; border-radius: 12px; padding: 32px; display: flex; flex-direction: column; gap: 20px;">
+
+      <div>
+        <div style="font-size: 10px; font-weight: 600; color: #888; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 10px;">Primary</div>
+        <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+          <div style="text-align: center;">
+            <div class="swatch" style="background: var(--dd-purple);"></div>
+            <div style="font-size: 10px; color: #aaa; margin-top: 4px;">Purple</div>
+            <div style="font-size: 9px; color: #666;">#8C2CBF</div>
+          </div>
+          <div style="text-align: center;">
+            <div class="swatch" style="background: var(--dd-blue);"></div>
+            <div style="font-size: 10px; color: #aaa; margin-top: 4px;">Blue</div>
+            <div style="font-size: 9px; color: #666;">#0F8FED</div>
+          </div>
+          <div style="text-align: center;">
+            <div class="swatch" style="background: var(--dd-navy);"></div>
+            <div style="font-size: 10px; color: #aaa; margin-top: 4px;">Navy</div>
+            <div style="font-size: 9px; color: #666;">#303034</div>
+          </div>
+          <div style="text-align: center;">
+            <div class="swatch" style="background: var(--dd-cream); border-color: #555;"></div>
+            <div style="font-size: 10px; color: #aaa; margin-top: 4px;">Cream</div>
+            <div style="font-size: 9px; color: #666;">#FFFCF5</div>
+          </div>
+          <div style="text-align: center;">
+            <div class="swatch" style="background: var(--dd-light-blue); border-color: #555;"></div>
+            <div style="font-size: 10px; color: #aaa; margin-top: 4px;">Light Blue</div>
+            <div style="font-size: 9px; color: #666;">#F7F9F9</div>
+          </div>
+          <div style="text-align: center;">
+            <div class="swatch" style="background: var(--dd-white); border-color: #555;"></div>
+            <div style="font-size: 10px; color: #aaa; margin-top: 4px;">White</div>
+            <div style="font-size: 9px; color: #666;">#FFFFFF</div>
+          </div>
+          <div style="text-align: center;">
+            <div class="swatch" style="background: var(--dd-lavender); border-color: #555;"></div>
+            <div style="font-size: 10px; color: #aaa; margin-top: 4px;">Lavender</div>
+            <div style="font-size: 9px; color: #666;">#F5F6FF</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div style="font-size: 10px; font-weight: 600; color: #888; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 10px;">Pillar Colors (Secondary Headline Accents)</div>
+        <div style="display: flex; gap: 16px;">
+          <div style="text-align: center;">
+            <div class="swatch" style="background: var(--dd-green);"></div>
+            <div style="font-size: 10px; color: #aaa; margin-top: 4px;">Outreach</div>
+            <div style="font-size: 9px; color: #666;">#4BBE71</div>
+          </div>
+          <div style="text-align: center;">
+            <div class="swatch" style="background: var(--dd-yellow);"></div>
+            <div style="font-size: 10px; color: #aaa; margin-top: 4px;">Giving</div>
+            <div style="font-size: 9px; color: #666;">#FBBF4C</div>
+          </div>
+          <div style="text-align: center;">
+            <div class="swatch" style="background: var(--dd-orange);"></div>
+            <div style="font-size: 10px; color: #aaa; margin-top: 4px;">Activation</div>
+            <div style="font-size: 9px; color: #666;">#DD4E07</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div style="font-size: 10px; font-weight: 600; color: #888; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 10px;">Text Hierarchy</div>
+        <div style="display: flex; gap: 24px; flex-wrap: wrap;">
+          <div>
+            <div style="font-size: 14px; font-weight: 700; color: var(--dd-navy); background: white; padding: 4px 12px; border-radius: 6px;">Primary #303034</div>
+          </div>
+          <div>
+            <div style="font-size: 14px; color: var(--dd-gray); background: white; padding: 4px 12px; border-radius: 6px;">Secondary #56565D</div>
+          </div>
+          <div>
+            <div style="font-size: 14px; color: var(--dd-text-muted); background: white; padding: 4px 12px; border-radius: 6px;">Muted #6B7280</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div style="font-size: 10px; font-weight: 600; color: #888; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 10px;">Shadow Values</div>
+        <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+          <div style="background: var(--dd-cream); padding: 16px; border-radius: 12px; box-shadow: var(--dd-shadow-level1); text-align: center;">
+            <div style="font-size: 10px; font-weight: 600; color: var(--dd-navy);">Level 1</div>
+            <div style="font-size: 8px; color: var(--dd-text-muted); margin-top: 2px;">0 4px 20px 0.08</div>
+          </div>
+          <div style="background: var(--dd-cream); padding: 16px; border-radius: 10px; box-shadow: var(--dd-shadow-level2); text-align: center;">
+            <div style="font-size: 10px; font-weight: 600; color: var(--dd-navy);">Level 2</div>
+            <div style="font-size: 8px; color: var(--dd-text-muted); margin-top: 2px;">0 2px 8px 0.06</div>
+          </div>
+          <div style="background: var(--dd-cream); padding: 16px; border-radius: 10px; box-shadow: var(--dd-shadow-screenshot); text-align: center;">
+            <div style="font-size: 10px; font-weight: 600; color: var(--dd-navy);">Screenshot</div>
+            <div style="font-size: 8px; color: var(--dd-text-muted); margin-top: 2px;">0 8px 32px 0.12</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="text-align: center; color: #555; font-size: 12px; margin-top: 48px; padding-bottom: 32px;">
+  DonorDock Visual Components Prototype &middot; v1.2 &middot; March 2026 &middot; Font: Silka (loaded from GitHub, Arial fallback)
+</div>
+
+</body>
+</html>
