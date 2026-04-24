@@ -29,15 +29,15 @@ This pipeline orchestrates two DonorDock skills + Webflow + GitHub MCPs.
 |---|---|---|
 | 1 (Angle discovery) | ICP language check on each candidate angle | Pillar fit + keyword opportunity from GSC + AEO question coverage from aeo-questions.md |
 | 2 (Write Article 1) | Voice + tone + vocabulary + banned-words check | Content-standards structural rules (TL;DR, question H2s, FAQ count, internal linking density) |
-| 3 (Metadata 1) | Brand-positioning.md banned terms scan | Pillar tag, keyword cluster cross-reference |
-| 4 (Image 1) | Visual style + brand palette | (no SEO input needed) |
+| 3 (Metadata 1) | Brand-positioning.md banned terms scan | Pillar tag assignment, keyword cluster cross-reference, canonical URL |
+| 4 (Image 1) | Locked visual system (cream bg, Silka type, DonorDock icon, brand palette) — see `references/visual-identity.md` | (no SEO input) |
 | 5 (Write Article 2) | Voice + differentiation check | DIFFERENT pillar/keyword/AEO from Article 1 |
 | 6 (Metadata 2) | Same as Step 3 | Same as Step 3 |
-| 7 (Publish) | brand-critic subagent (voice review) | content-validator subagent (structure/schema review) — run in parallel with brand-critic + researcher |
+| 7 (FAQ + Publish) | brand-critic subagent (voice review) | content-validator subagent (structure, CMS field completeness, FAQ coverage) + AEO-question sourcing for FAQ generation — run in parallel with brand-critic + researcher |
 
 **Subagents to spawn:**
 - `donordock-brand-identity` → `brand-critic` (voice), `researcher` (facts), `seo-aeo-strategist` (LIGHT — quick voice/SEO compliance only; defer deep SEO work to the strategist skill)
-- `donordock-seo-strategist` → `strategy-advisor` (Step 1 angle validation), `content-validator` (Step 7 pre-publish), `schema-drafter` (post-publish FAQ schema generation)
+- `donordock-seo-strategist` → `strategy-advisor` (Step 1 angle validation), `content-validator` (Step 7 pre-publish), `schema-drafter` (only if article is HowTo/Dataset type — template handles standard BlogPosting + FAQPage automatically)
 
 If neither skill is available in the environment, halt the pipeline and surface a warning. Do not silently produce articles without strategic + brand validation.
 
@@ -122,13 +122,13 @@ These files provide:
 
 The pipeline has 7 steps that run end-to-end without approval gates:
 
-1. **Research & Angle Discovery** -- Analyze input, audit existing CMS content for gaps, propose two deliberately different angles
+1. **Research & Angle Discovery** -- Analyze input, audit existing CMS content for gaps, propose two deliberately different angles (pillar + keyword + AEO assigned via `strategy-advisor`)
 2. **Write Article 1** -- Draft a strategic/analytical SEO/AEO article
-3. **Generate Metadata 1** -- SEO title, meta description, slug, read time, tags
-4. **Image Creation 1** -- Generate hero image via Nano Banana, compress to WebP
+3. **Generate Metadata 1** -- SEO title, meta description, slug, read time, tags, pillar ref, seo-keywords, canonical URL
+4. **Image Creation 1** -- Generate hero via Nano Banana using the locked DonorDock style (cream bg, Silka type, topic-tailored illustration), overlay DonorDock icon, compress to WebP
 5. **Write Article 2** -- Draft a tactical/actionable article (verify differentiation first)
-6. **Generate Metadata 2** -- Same metadata process for article 2
-7. **Image Creation 2 + Publish Both** -- Generate second hero image, create both Webflow drafts, update transcript log
+6. **Generate Metadata 2** -- Same metadata process for article 2 (different pillar or different keyword cluster)
+7. **Image Creation 2 + FAQ Generation + Publish Both** -- Generate second hero image, create/reuse 4–6 Article FAQs per article, link them via multi-reference, run parallel validator agents, create both Webflow drafts with all CMS fields populated, update transcript log
 
 ---
 
@@ -302,63 +302,135 @@ Generate these fields from the completed article:
 | **Tags** | 2-4 tag IDs from the tags list in the CMS schema (fetched from GitHub in Step 1) |
 | **Categories** | 1-2 category IDs from the categories list in the CMS schema (fetched from GitHub in Step 1) |
 | **Author** | `6532889f2379aa018d352707` (Rob Burke) unless specified otherwise |
+| **Pillar** (required) | ID of ONE of the 7 locked content pillars (from Step 1 `strategy-advisor` output). Single reference, not multi. Binds to BlogPosting `articleSection` + `isPartOf` schema properties. See "Pillar ID Reference" below. |
+| **SEO Keywords** (required) | 3–10 comma-separated keywords drawn from the pillar's keyword cluster in `seo-brain/strategy/keyword-universe.md`. Binds to BlogPosting `keywords` schema property. Example: `best nonprofit CRM, nonprofit CRM comparison, donor management software, …` |
+| **Canonical URL** (required) | Full `https://www.donordock.com/blog/[slug]` URL. Binds to BlogPosting `mainEntityOfPage.@id` and `@id` (with `#article` fragment). |
 
 ---
 
-## Step 4: Image Creation (Article 1)
+## Step 4: Hero Image Creation (Article 1)
 
-### Build the Image Prompt
+Every DonorDock blog hero uses a **locked visual system**. The goal: consistent brand look across all articles while still tailoring the scene to the article topic for high click-through. Never deviate from this spec — deviation breaks the series feel.
 
-Create a Nano Banana prompt for a 1920x1080 blog hero graphic that:
-- Visually represents the article's core theme
-- Has high click intent -- would make someone want to read the article in a social feed or search result
-- Uses a clean, modern, professional aesthetic suitable for a nonprofit SaaS brand
-- Avoids stock photo cliches (no handshakes, no generic "diverse team smiling at laptop")
-- Works well with text overlay (leave visual breathing room, avoid busy center compositions)
-- Uses warm, approachable colors that complement DonorDock's brand palette (blues, greens, warm neutrals)
+### Locked style system
 
-Prompt template pattern:
+| Element | Spec |
+|---|---|
+| Canvas | 1920×1080, 16:9, WebP output |
+| Background | DonorDock Cream `#FFFCF5` with optional very soft pastel gradient overlay (mint, butter-yellow, or dusty lavender at 10–15% opacity) — never pure white, never dark |
+| Illustration style | Modern flat vector with soft 3D shading. Rounded friendly forms. Never photorealism, never pure flat cartoon, never 3D render |
+| Palette (locked) | Illustration accent colors pulled ONLY from DonorDock brand: Navy `#1F3252`, DD Purple `#8C2CBF`, DD Blue, DD Light Blue, soft coral/warm orange accent. No neon. No pure black or pure white inside the illustration |
+| Typography (rendered in illustration) | Title in **Silka Bold** (fallback: a close geometric sans). Subtitle in **Silka Medium**, ~45% title size. Color: dark charcoal `#1a1f36`. Never pure black. |
+| Title placement | Left-aligned, within the left 40% of canvas. Vertically centered in that region. NEVER overlap the illustration focal point. |
+| Illustration placement | Right 55–60% of canvas |
+| Logo safe zone | Keep bottom-right ~200×200 region clear of illustration detail — the DonorDock icon is composited there in post-processing |
+| Characters (when used) | Diverse, casual-professional, mid-action (typing, talking, gesturing). Waist-up or mid-distance. 1–5 characters max. No close-up faces. |
+| Props | Laptops, charts/dashboards, notebooks, arrows, plants, coffee cups — always relevant to the topic |
+| Whitespace | Generous and airy — not packed edge-to-edge |
+
+Cross-reference `donordock-brand-identity/references/visual-identity.md` for the full brand visual rules and any palette hex codes.
+
+### Build the Nano Banana prompt
+
+Use this exact scaffold. Only fill in `[TITLE]`, `[SUBTITLE]`, and `[SCENE]`. Keep every other line verbatim — the locked tokens keep the series consistent.
+
 ```
-Professional blog hero image for a nonprofit fundraising article about [TOPIC].
-[SPECIFIC VISUAL CONCEPT that metaphorically represents the theme].
-Clean modern design, warm color palette with soft blues and greens,
-professional but approachable feel. High-quality editorial style photograph/illustration.
-Designed for a 1920x1080 blog header with space for text overlay.
+Wide banner hero image, 1920x1080, for a DonorDock nonprofit fundraising article.
+
+STYLE (LOCKED — do not deviate):
+- Background: soft cream color #FFFCF5, generous whitespace
+- Modern flat vector illustration with soft 3D shading, rounded friendly forms
+- Illustration accent palette: navy #1F3252, DD purple #8C2CBF, DD blue, light blue, soft coral. No neon, no pure black, no pure white inside the illustration
+- Characters (if present): diverse, casual-professional, mid-action, waist-up, friendly expressions, no close-up faces
+- Props relevant to the topic: laptops, charts, dashboards, notebooks, arrows, plants
+- Do NOT use stock-photo realism or 3D render aesthetic
+
+LAYOUT (LOCKED):
+- Left 40% of canvas: calm background area with title text rendered clean and readable
+- Title text (render exactly, crisp Silka-style bold sans-serif, dark charcoal #1a1f36, left-aligned): "[TITLE]"
+- Subtitle below title in lighter weight, ~45% title size, same charcoal color: "[SUBTITLE]"
+- Right 60% of canvas: topic illustration (below)
+- Bottom-right 200x200 area: leave clear, no illustration detail — a logo is composited there in post
+- Optional warm accent underline (soft coral or yellow) behind 1–2 key words of the title for visual punch
+
+TOPIC ILLUSTRATION (right 60%):
+[SCENE — 1–3 sentence description tailored to the article topic. Example for a CRM article: "Two diverse fundraisers collaborating at a laptop with a CRM dashboard visible on screen, growth charts floating behind them, a small office plant in the foreground."]
+
+NEGATIVE PROMPT (do not include):
+- No DonorDock logo, no watermark, no "DonorDock" text anywhere in the illustration
+- No garbled or illegible text
+- No dark backgrounds
+- No more than 5 characters
+- No close-up faces
 ```
 
-### Generate the Image
+### Generate the image
 
-Call the `nanobanana_generate_image` MCP tool:
+Call `nanobanana_generate_image`:
 - **model**: `nanobanana2`
 - **aspect_ratio**: `16:9`
-- **image_size**: `2K` (will be compressed down)
-- **output_dir**: Use the current session's working directory (e.g., `/sessions/<session-name>/`)
+- **image_size**: `2K`
+- **output_dir**: current session's working directory
+
+### Visual QA gate (required)
+
+Before moving on, verify the generated image:
+
+1. Background is clearly the cream color (not white, not grey)
+2. Title text rendered cleanly and spells correctly — no garbled characters
+3. Subtitle rendered cleanly
+4. Bottom-right corner is empty and ready for logo overlay
+5. No unwanted logos/watermarks appeared
+6. No close-up faces or more than 5 characters
+7. Illustration style feels consistent with prior DonorDock hero images
+
+If any check fails: regenerate with a slightly reworded prompt. Tightening the title in quotes and re-asserting "crisp legible sans-serif" usually fixes text issues. Maximum 2 regeneration attempts before falling back to manual handoff.
+
+### Overlay the DonorDock icon (post-processing)
+
+The DonorDock icon (not the full wordmark logo) is composited onto the bottom-right corner of the finished illustration:
+
+```bash
+# Download icon once per session
+ICON_PATH="[WORKING_DIR]/donordock-icon.png"
+curl -sSL "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/logos-DonorDock/logo-icon-forcircle.png" -o "$ICON_PATH"
+
+# Composite icon onto generated hero (bottom-right, 140x140, 60px margin)
+python3 << 'PYEOF'
+from PIL import Image
+base = Image.open("[GEN_IMAGE_PATH]").convert("RGBA")
+icon = Image.open("[ICON_PATH]").convert("RGBA")
+icon = icon.resize((140, 140), Image.LANCZOS)
+pos = (base.width - 140 - 60, base.height - 140 - 60)
+base.paste(icon, pos, icon)
+base.convert("RGB").save("[COMPOSITED_PATH]", "PNG")
+PYEOF
+```
+
+See `donordock-brand-identity/SKILL.md` lines 199–206 for all DonorDock logo/icon asset URLs. Always use the **icon** (not the horizontal wordmark) for this overlay.
 
 ### Compress to WebP
-
-After generation, compress the PNG to WebP format:
 
 ```bash
 # Install cwebp if needed
 which cwebp || (apt-get update -qq && apt-get install -y -qq webp)
 
-# Compress to WebP, quality 80, targeting under 200KB
-cwebp -q 80 -resize 1920 1080 "[INPUT_PATH]" -o "[WORKING_DIR]/article-1-hero.webp"
+# Compress to WebP, quality 80, 1920x1080, target under 200KB
+cwebp -q 80 -resize 1920 1080 "[COMPOSITED_PATH]" -o "[WORKING_DIR]/article-1-hero.webp"
 
-# Check file size -- if over 200KB, re-compress at lower quality
 FILE_SIZE=$(stat -f%z "[WORKING_DIR]/article-1-hero.webp" 2>/dev/null || stat -c%s "[WORKING_DIR]/article-1-hero.webp")
 if [ "$FILE_SIZE" -gt 204800 ]; then
-  cwebp -q 65 -resize 1920 1080 "[INPUT_PATH]" -o "[WORKING_DIR]/article-1-hero.webp"
+  cwebp -q 65 -resize 1920 1080 "[COMPOSITED_PATH]" -o "[WORKING_DIR]/article-1-hero.webp"
 fi
 ```
 
-If cwebp is not available, use Python Pillow as a fallback:
+Pillow fallback:
 ```bash
 pip install Pillow --break-system-packages -q
 python3 -c "
 from PIL import Image
 import os
-img = Image.open('[INPUT_PATH]')
+img = Image.open('[COMPOSITED_PATH]').convert('RGB')
 img = img.resize((1920, 1080), Image.LANCZOS)
 img.save('[WORKING_DIR]/article-1-hero.webp', 'WEBP', quality=80)
 size = os.path.getsize('[WORKING_DIR]/article-1-hero.webp')
@@ -367,7 +439,7 @@ if size > 204800:
 "
 ```
 
-Save the final WebP path for use in the Webflow publish step.
+Save the final WebP path for the Webflow publish step. Alt text for this image becomes the `alt-text-feature-image` CMS field in Step 7.
 
 ---
 
@@ -419,9 +491,62 @@ For each article, upload the WebP hero image as a Webflow asset using the `asset
 
 Note: If the asset_tool doesn't support direct file upload, the image will need to be uploaded manually. In that case, skip the `main-image` field and note it for the user to add in Webflow.
 
+### FAQ Generation & Linking (required — before publish)
+
+The Webflow article template emits a **FAQPage JSON-LD schema** dynamically by iterating the article's `article-faqs` multi-reference field. Every article MUST have 4–6 FAQs linked before publish.
+
+For each article:
+
+1. **Extract 4–6 questions from the article content** that a reader would realistically ask. Requirements:
+   - Full questions ending in `?` (not fragments)
+   - Directly answered by the article body
+   - Aligned with the article's AEO questions identified in Step 1 and the universe in `seo-brain/strategy/aeo-questions.md`
+   - No duplication of each other (semantic distinctness)
+
+2. **Write the answers** (40–100 words each, HTML-wrapped `<p>…</p>`):
+   - Answer the question directly in the first sentence
+   - Include specific numbers, tools, or data points where relevant
+   - Use DonorDock voice — warm, clear, never corporate
+   - Obey all brand-positioning.md rules (no "no platform fees", no "first CRM", Action Board two-words, etc.)
+
+3. **Check for reusable FAQs** before creating new items:
+   ```
+   mcp__25b1a090…__data_cms_tool → list_collection_items
+     collection_id: 69eb6dd45879eb3ff72efb52 (Article FAQs)
+     request: { limit: 100, sortBy: "name" }
+   ```
+   - Compare each candidate question against existing FAQ `name` values by keyword + semantic similarity
+   - If a substantively identical FAQ already exists, **reuse its item ID** instead of creating a duplicate
+   - FAQs can be shared across multiple articles via the multi-reference field
+
+4. **Create new FAQ items** only for questions not already covered:
+   ```
+   mcp__25b1a090…__data_cms_tool → create_collection_items
+     collection_id: 69eb6dd45879eb3ff72efb52
+     request: {
+       fieldData: [
+         {
+           "name": "[Full question ending in ?]",
+           "slug": "[kebab-case-slug]",
+           "answer-2": "<p>[40–100 word answer, HTML]</p>"
+         }
+       ]
+     }
+   ```
+   **Note:** the answer field slug is `answer-2` (legacy slug reservation). In Webflow Designer the field displays as "Answer" and the template uses display-name binding, so the slug quirk does not affect rendering. Always use `answer-2` in API calls.
+
+5. **Collect all FAQ item IDs** (reused + newly created). This array populates the `article-faqs` multi-reference in the publish payload below.
+
+6. **Publish the FAQs** (so they're live when the article publishes):
+   ```
+   mcp__25b1a090…__data_cms_tool → publish_collection_items
+     collection_id: 69eb6dd45879eb3ff72efb52
+     request: { itemIds: [...all FAQ IDs...] }
+   ```
+
 ### Create Webflow CMS Drafts
 
-For each article, create a draft item using `data_cms_tool` -> `create_collection_items`:
+For each article, create a draft item using `data_cms_tool` → `create_collection_items`:
 
 **IMPORTANT: The `blog-post-summary` value MUST be a single continuous HTML string with NO newlines between tags. See Output Format in Step 2.**
 
@@ -441,7 +566,11 @@ Request structure:
       "featured": false,
       "categories": ["[category-id-1]", "[category-id-2]"],
       "tags-3": ["[tag-id-1]", "[tag-id-2]", "[tag-id-3]"],
-      "alt-text-feature-image": "[Descriptive alt text for the hero image]"
+      "alt-text-feature-image": "[Descriptive alt text for the hero image]",
+      "canonical-url": "https://www.donordock.com/blog/[slug]",
+      "pillar": "[single pillar item ID from locked table below]",
+      "seo-keywords": "[3–10 comma-separated keywords from pillar keyword-universe]",
+      "article-faqs": ["[faq-id-1]", "[faq-id-2]", "[faq-id-3]", "[faq-id-4]"]
     }
   ],
   "isDraft": true,
@@ -449,19 +578,34 @@ Request structure:
 }
 ```
 
+**Pillar ID Reference (locked — never discover dynamically):**
+
+| Pillar | Item ID | Pillar URL |
+|---|---|---|
+| Donor Stewardship | `69eb6cb822a81ad28a27e801` | `/smart-steward-method` |
+| CRM | `69eb6cd27fa93ec8ab484322` | `/crm` |
+| Online Giving | `69eb6ce266456b7917d21f43` | `/online-giving` |
+| Fundraising Strategy | `69eb6cec3a55627ab83d8743` | `/fundraising-strategy` |
+| Donor Engagement | `69eb6cf56aa6f92a3a162f6b` | `/donor-outreach` |
+| AI for Nonprofits | `69eb6cfd66ac68d8d7702716` | `/otto` |
+| Donor Retention | `69eb6d05f4bf8b3eeaface0a` | `/donor-retention` |
+
+**Article FAQs collection ID:** `69eb6dd45879eb3ff72efb52`
+
 **Formatting verification after publish:**
 - Fetch the created item back using `list_collection_items` with the item's slug
 - Confirm that `<ul>` and `<ol>` list blocks survived (they will be missing if newlines were present)
 - Confirm that headings (h2, h3) are intact
 - Confirm that links have proper href attributes
+- Confirm `pillar`, `seo-keywords`, `canonical-url`, `article-faqs` all populated
 - If lists were stripped, re-submit the HTML as a single-line string using `update_collection_items`
 
-### Pre-Publish Validation (NEW — required)
+### Pre-Publish Validation (required)
 
 Before submitting drafts to Webflow CMS, run validation in parallel via subagents:
 
 1. **brand-identity → brand-critic** subagent — voice, vocabulary, tone-context, banned words. Returns PASS / NEEDS REVISION / MAJOR REWRITE
-2. **seo-strategist → content-validator** subagent — structural standards, pillar tag confirmation, FAQ coverage, internal linking density, prohibited language scan, schema readiness. Pass it: full article HTML + claimed pillar + target URL + primary keyword. Returns same verdict scale.
+2. **seo-strategist → content-validator** subagent — structural standards, pillar tag confirmation, FAQ coverage (4–6 items, all tied), internal linking density, prohibited language scan, CMS field completeness (pillar ref, seo-keywords, canonical-url, alt-text, article-faqs). Pass it: full article HTML + claimed pillar + target URL + primary keyword. Returns same verdict scale.
 3. **brand-identity → researcher** subagent (optional but recommended for thought-leadership pieces) — fact-check, source verification
 
 **Decision rules:**
@@ -471,15 +615,28 @@ Before submitting drafts to Webflow CMS, run validation in parallel via subagent
 
 Do not loop endlessly. One revision pass is the standard.
 
-### Schema-LD Generation (NEW — post-publish)
+### Schema (handled by the Webflow article template — no per-article schema writing)
 
-Articles in Webflow's CMS auto-receive basic Article schema via the template. To add the FAQPage schema for the article's FAQ section (high AEO value):
+The article template at `/blog/[slug]` emits **two JSON-LD schemas automatically** by reading the CMS fields you populated above. The pipeline does NOT write per-article BlogPosting or FAQPage schema code.
 
-1. After publish, spawn `donordock-seo-strategist` → `schema-drafter` subagent. Pass: published URL + content type "article" + the visible FAQ Qs from the article body + named author.
-2. Receive a copy-paste FAQPage JSON-LD block.
-3. **Surface the block to the user with paste instructions** — they (or the dev team) will manually paste into the article's Webflow Page Settings → Custom Code → Before `</body>` field. Webflow API does not currently expose per-article custom-code editing for CMS items.
+**BlogPosting** (static `<script>` in `<head>`, dynamic-bound):
+- Pulls from `name`, `blog-post-preview`, `main-image`, `alt-text-feature-image`, `authors-2.*`, `canonical-url`, `pillar.name` + `pillar.pillar-url`, `seo-keywords`
+- Includes `articleSection`, `isPartOf`, `speakable`, `inLanguage: en-US`, `publisher`, `datePublished`, `dateModified`
 
-Note for future: investigate whether the Article CMS template can carry a CMS-bound `<script type="application/ld+json">` element that pulls FAQ items from a related FAQ Collection, eliminating the manual paste step.
+**FAQPage** (runtime JS-assembled from the DOM):
+- Iterates the rendered `.uui-faq01_component` items
+- Extracts question from `.uui-faq01_question h5`, answer from `.uui-faq01_answer .w-richtext`
+- Injects a valid FAQPage JSON-LD block into `<head>` at page load
+- Googlebot executes JS during indexing and picks up the injected schema
+
+This means the pipeline's ONLY job is to populate CMS fields correctly. The schema "just works" if:
+- Every field in the publish payload is populated
+- The selected pillar exists in the Content Pillars collection and has `pillar-url` set
+- The article-faqs multi-ref contains 4–6 FAQ items that are published
+
+**When to still invoke `schema-drafter`:** If the article is specifically a HowTo (step-by-step) or references original Dataset content (e.g., the State of Stewardship report), spawn `donordock-seo-strategist → schema-drafter` to write supplementary HowTo/Dataset JSON-LD to paste into the article's Webflow Page Settings → Custom Code. Skip this agent for standard blog articles — the template covers them fully.
+
+See `seo-brain/remediation/webflow-article-template-schema.md` for the canonical template schema + FAQ JS + CMS field reference.
 
 ### Update Transcript Processing Log
 
@@ -492,11 +649,13 @@ After both articles are successfully created as drafts:
 ### Final Output
 
 After both drafts are created, report to the user:
-- Article 1: title, slug, Webflow item ID, word count, content type (Strategic), **pillar assignment**, **primary keyword + GSC baseline**, **FAQ schema** (paste-ready or noted)
-- Article 2: title, slug, Webflow item ID, word count, content type (Tactical), **pillar assignment**, **primary keyword + GSC baseline**, **FAQ schema** (paste-ready or noted)
+- Article 1: title, slug, Webflow item ID, word count, content type (Strategic), **pillar assignment**, **primary keyword + GSC baseline**, **FAQ count** (created vs reused from existing)
+- Article 2: title, slug, Webflow item ID, word count, content type (Tactical), **pillar assignment**, **primary keyword + GSC baseline**, **FAQ count** (created vs reused from existing)
 - Differentiation summary (1-2 sentences on how the articles differ)
-- Image status for each (uploaded or needs manual upload)
+- Image status for each (uploaded, needs manual upload, or regeneration needed)
 - Any tags/categories that were created vs. mapped to existing ones
+- **CMS field completeness check** — confirm `pillar`, `seo-keywords`, `canonical-url`, `alt-text-feature-image`, and `article-faqs` all populated on both articles
+- **Schema coverage** — confirm template will emit BlogPosting + FAQPage for each article based on populated fields (no custom schema needed). Flag if HowTo/Dataset supplementary schema was written by schema-drafter.
 - Transcript log status (updated or skipped)
 - **Validation verdict** from brand-critic + content-validator + researcher (PASS / NEEDS REVISION / MAJOR REWRITE per agent)
 - **Strategic surface delta** — how this run advances the 7-pillar plan (e.g., "+1 article to Pillar 5 / Donor Engagement; first AEO-question coverage for 'how do I write a donor thank-you'")
@@ -513,8 +672,18 @@ These IDs are fixed. Never run discovery calls for them.
 | Articles Collection | `6532889f2379aa018d3520b7` |
 | Tags Collection | `6532889f2379aa018d35206b` |
 | Categories Collection | `6532889f2379aa018d352166` |
+| Content Pillars Collection | `69eb6ca5f842967743d226a2` |
+| Article FAQs Collection | `69eb6dd45879eb3ff72efb52` |
 | Author: Rob Burke | `6532889f2379aa018d352707` |
 | People Collection | `6532889f2379aa018d3520ff` |
+
+**FAQ answer field slug:** `answer-2` (display name "Answer" — slug is legacy; use `answer-2` in API calls)
+
+**Brand asset URLs (from donordock-brand-identity skill):**
+| Asset | URL |
+|---|---|
+| DonorDock icon PNG (for hero overlay) | `https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/logos-DonorDock/logo-icon-forcircle.png` |
+| Silka font files | `https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-{Weight}.otf` |
 
 ---
 
