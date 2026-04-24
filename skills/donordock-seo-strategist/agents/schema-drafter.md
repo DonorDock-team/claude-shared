@@ -1,8 +1,29 @@
 # Schema Drafter Subagent
 
+## Scope boundary (read first)
+
+**The Webflow article template already emits BlogPosting + FAQPage schema automatically** for every `/blog/{slug}` URL — by reading CMS fields (`name`, `pillar`, `seo-keywords`, `canonical-url`, `article-faqs`, author ref, etc.) and JS-assembling FAQPage from the rendered `.uui-faq01_component` DOM.
+
+That means for **standard blog articles**, this subagent does **NOT** write BlogPosting or FAQPage JSON-LD. Instead it:
+1. Validates the CMS fields are populated correctly, OR
+2. Writes supplementary schema (HowTo, Dataset) ONLY when the article content requires it beyond standard BlogPosting.
+
+Full schema writing remains the job of this subagent for these content types that DON'T have template coverage yet:
+- Pillar pages (`/smart-steward-method`, `/crm`, `/online-giving`, etc.)
+- Comparison pages (`/compare/{competitor}-vs-donordock`)
+- Feature pages (`/features/{feature}`)
+- Solution pages (`/solutions/{solution}`)
+- Team bio pages (`/about/authors/{name}`)
+- Integration pages (`/integrations/{integration}`)
+- Podcast episode pages
+- Dataset / research report landing pages (e.g., State of Stewardship)
+- Homepage (`/`)
+
+See `seo-brain/remediation/webflow-article-template-schema.md` for the canonical article template schema, FAQ JS assembler, and CMS field reference.
+
 ## Purpose
 
-Generate copy-paste-ready JSON-LD schema for any URL + content type. Takes into account:
+Generate copy-paste-ready JSON-LD schema for content types that are NOT already covered by the Webflow article template's dynamic-binding system. Takes into account:
 - The pillar assignment (affects `articleSection`, breadcrumb)
 - The primary keyword + visible content (schema must match page content)
 - Any competitor/comparison context (affects Review/AggregateRating shape)
@@ -11,7 +32,8 @@ Generate copy-paste-ready JSON-LD schema for any URL + content type. Takes into 
 ## Inputs
 
 - Target URL (existing or to-build)
-- Content type (pillar / article / comparison / feature / solution / team / integration / podcast-episode / dataset / home)
+- Content type (pillar / comparison / feature / solution / team / integration / podcast-episode / dataset / home) — **NOT standard article/blog, which the template covers**
+- For supplementary article schema: content type (article-howto / article-dataset) with the step list or dataset details
 - Visible content summary (headings, body text, FAQ Qs, CTA)
 - Author name
 - Pillar claim (optional, inferred if not provided)
@@ -94,14 +116,25 @@ After deploy:
 - `mainEntity` in WebPage points to the SoftwareApplication or primary entity
 - FAQ Qs drawn from `aeo-questions.md` for that pillar, matched to visible H3/H4 Q&A on the page
 
-### Article/blog schema
-- Article or BlogPosting (prefer Article for newer content)
-- Single BlogPosting/Article script (NOT two — that was a Phase 1 bug)
-- Person (author) with `sameAs` LinkedIn + `knowsAbout`
-- Publisher = DonorDock Organization
-- `datePublished` + `dateModified` in ISO 8601 (no human-readable format)
-- If step-format → add HowTo
-- If FAQ section present → add FAQPage
+### Article/blog schema — HANDLED BY TEMPLATE, DO NOT WRITE
+
+The Webflow article template at `/blog/{slug}` auto-emits BlogPosting + FAQPage from CMS fields. Do NOT write either for standard blog articles.
+
+**Only write supplementary schema for blog articles when:**
+
+- **HowTo** — the article is a genuine step-by-step guide with discrete numbered steps that each have their own action/tool/result. Output a standalone HowTo JSON-LD block to paste in the article's Page Settings → Custom Code → Before `</body>`.
+- **Dataset** — the article references original DonorDock data that is publicly downloadable or queryable (e.g., State of Stewardship report excerpts). Output a Dataset JSON-LD block with `creator`, `license`, `distribution`.
+
+For both: surface the block to the user with paste instructions for Webflow Page Settings → Custom Code. Never inject into article HTML body (breaks rich-text).
+
+**Validation task for blog articles (instead of writing schema):**
+When asked to "validate schema" for a blog article, run this check instead of writing new schema:
+- Confirm the article's CMS fields are populated: `name`, `blog-post-preview`, `main-image`, `alt-text-feature-image`, `authors-2`, `canonical-url`, `pillar` (single ref), `seo-keywords` (3–10 comma-separated), `article-faqs` (4–6 refs)
+- Fetch the published URL and confirm:
+  - BlogPosting `<script type="application/ld+json">` exists in `<head>` with all dynamic bindings resolved
+  - `.uui-faq01_component` FAQ list has 4+ items rendered from the CMS refs
+  - Run Google Rich Results Test URL: `https://search.google.com/test/rich-results?url={encoded_url}`
+- Report PASS / NEEDS FIELD FIX / NEEDS TEMPLATE FIX
 
 ### Comparison page schema
 - SoftwareApplication + Offer + AggregateRating with `isBasedOn` (G2/Capterra URLs)
