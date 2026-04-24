@@ -63,7 +63,7 @@ Each agent has detailed instructions in the `agents/` directory. Read the releva
 |---|---|---|
 | **Brand Critic** | `agents/brand-critic.md` | Voice, vocabulary, content guardrails, tone-context match, branded terms |
 | **Visual Reviewer** | `agents/visual-reviewer.md` | Colors, typography, buttons, spacing, logo usage, design feel |
-| **SEO/AEO Strategist** | `agents/seo-aeo-strategist.md` | Keywords, on-page structure, answer-engine readiness, E-E-A-T signals |
+| **SEO/AEO Strategist (LIGHT)** | `agents/seo-aeo-strategist.md` | Quick voice + light SEO compliance on a single piece of content. **For deep SEO/pillar/keyword/schema/competitor work, invoke the `donordock-seo-strategist` skill instead** (see Cross-Skill section below). |
 | **Researcher** | `agents/researcher.md` | Fact-checking, source verification, competitor accuracy, citation quality |
 
 ### Spawning Review Agents
@@ -86,6 +86,36 @@ Example pattern for a blog article:
 ```
 
 For quick content like social posts or short emails, run the Brand Critic review inline (no need for a separate agent) -- just mentally apply the checklist from `agents/brand-critic.md` before delivering.
+
+---
+
+## Cross-Skill: donordock-seo-strategist
+
+This skill (brand-identity) is paired with `donordock-seo-strategist`. Both read the same source-of-truth from `DonorDock-team/claude-shared/seo-brain/`. **Division of labor:**
+
+| Question | Skill |
+|---|---|
+| Voice, tone, vocabulary, banned words | This skill |
+| Visual design, color, typography, logo | This skill |
+| Tone by channel (email vs social vs help) | This skill |
+| Messaging frameworks, value propositions, brand guardrails | This skill |
+| Keyword research, ranking analysis, GSC data | seo-strategist |
+| Pillar architecture, content topic strategy | seo-strategist |
+| AEO question planning, FAQPage schema | seo-strategist |
+| Schema (JSON-LD) requirements, generation, validation | seo-strategist |
+| Competitor landscape, comparison page strategy | seo-strategist |
+| Content standards (structural rules, internal linking density) | seo-strategist |
+| Monthly opportunity reports, content gap analysis | seo-strategist |
+| Pre-publish validation (combined) | BOTH — spawn brand-critic + content-validator in parallel |
+
+**Invocation rules:**
+- For any content task (article, comparison page, pillar page) → invoke BOTH skills. Brand-identity sets voice; seo-strategist sets pillar/keyword/structure/schema.
+- For pure voice/visual questions → this skill alone
+- For pure SEO/keyword/schema questions → seo-strategist alone
+- For monthly opportunity generation → seo-strategist (spawns its `opportunity-generator` subagent)
+- For content validation pre-publish → run both subagents in parallel: this skill's `brand-critic` + seo-strategist's `content-validator`
+
+**The `seo-aeo-strategist` subagent inside THIS skill is intentionally LIGHT.** It does a quick voice + structural-SEO compliance check on a single piece of content. For deep strategic questions ("should we write X?", "what pillar does this fit?", "what's our competitive angle vs Virtuous?"), invoke the full `donordock-seo-strategist` skill.
 
 ---
 
