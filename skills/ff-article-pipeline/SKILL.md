@@ -1,6 +1,6 @@
 ---
 name: ff-article-pipeline
-description: ONLY use when explicitly invoked via slash command or when the user literally says "run ff-article-pipeline" or "run the article pipeline skill". Do NOT auto-trigger on general blog, article, writing, or content requests. This skill runs an automated end-to-end pipeline that researches, writes, illustrates, and publishes two SEO/AEO articles to DonorDock's Webflow CMS from a transcript.
+description: "disable-model-invocation: true ONLY use when explicitly invoked via slash command or when the user literally says 'run ff-article-pipeline' or 'run the article pipeline skill'. Do NOT auto-trigger on general blog, article, writing, or content requests. This skill runs an automated end-to-end pipeline that researches, writes, illustrates, and publishes two SEO/AEO articles to DonorDock's Webflow CMS from a transcript."
 ---
 
 # Focused Fundraiser Article Pipeline
@@ -15,19 +15,41 @@ This skill runs a complete pipeline that takes a transcript (or topic) and produ
 
 ## Required Context
 
-- Apply the `donordock-brand-identity` skill if available for voice, ICP, visual, and positioning guidance
+- Apply the `donordock-brand-identity` skill for voice, ICP, visual, and positioning guidance
+- Apply the `donordock-seo-strategist` skill at strategic checkpoints: angle validation (Step 1), pillar/keyword/AEO assignment during writing (Step 2 & 5), pre-publish validation (Step 7)
+- Both skills read shared source-of-truth from `DonorDock-team/claude-shared/seo-brain/` — never duplicate their content here; reference and load
 - Treat each post as a standalone article even when source material is a shared transcript
-- All articles target experienced but stretched nonprofit operators, not beginner fundraisers
+- All articles target experienced but stretched nonprofit development teams (3+ FTE) at growing/mid-sized nonprofits ($1M-$10M revenue), per the locked ICP in brand-positioning.md. NOT solo operators, NOT churches, NOT first-CRM beginners.
+
+## Skill Integration Map
+
+This pipeline orchestrates two DonorDock skills + Webflow + GitHub MCPs.
+
+| Step | brand-identity provides | seo-strategist provides |
+|---|---|---|
+| 1 (Angle discovery) | ICP language check on each candidate angle | Pillar fit + keyword opportunity from GSC + AEO question coverage from aeo-questions.md |
+| 2 (Write Article 1) | Voice + tone + vocabulary + banned-words check | Content-standards structural rules (TL;DR, question H2s, FAQ count, internal linking density) |
+| 3 (Metadata 1) | Brand-positioning.md banned terms scan | Pillar tag, keyword cluster cross-reference |
+| 4 (Image 1) | Visual style + brand palette | (no SEO input needed) |
+| 5 (Write Article 2) | Voice + differentiation check | DIFFERENT pillar/keyword/AEO from Article 1 |
+| 6 (Metadata 2) | Same as Step 3 | Same as Step 3 |
+| 7 (Publish) | brand-critic subagent (voice review) | content-validator subagent (structure/schema review) — run in parallel with brand-critic + researcher |
+
+**Subagents to spawn:**
+- `donordock-brand-identity` → `brand-critic` (voice), `researcher` (facts), `seo-aeo-strategist` (LIGHT — quick voice/SEO compliance only; defer deep SEO work to the strategist skill)
+- `donordock-seo-strategist` → `strategy-advisor` (Step 1 angle validation), `content-validator` (Step 7 pre-publish), `schema-drafter` (post-publish FAQ schema generation)
+
+If neither skill is available in the environment, halt the pipeline and surface a warning. Do not silently produce articles without strategic + brand validation.
 
 ## Transcript Processing Log
 
-A shared JSON log at `config/transcript-processing-log.json` in the `DonorDock-team/claude-shared` GitHub repo tracks which transcripts have been processed by each scheduled task. This prevents any transcript from being used twice by the same task.
+A local JSON log at `/Users/rob/Documents/DonorDock/Claude/Projects/The Focused Fundraiser/transcript-processing-log.json` tracks which transcripts have been processed by each scheduled task. This prevents any transcript from being used twice by the same task.
 
 **When running as a scheduled task (not manual invocation):**
-1. At the start of the pipeline, fetch the log via GitHub `get_file_contents` (owner: `DonorDock-team`, repo: `claude-shared`, path: `config/transcript-processing-log.json`)
+1. At the start of the pipeline, read the log file using the `Read` tool at the path above
 2. Skip any transcript that already has a non-null `ff-article-pipeline` value in the log
 3. After successfully publishing both article drafts, update the log by adding or updating the transcript's entry with the `ff-article-pipeline` key set to the current ISO timestamp
-4. Push the updated log back to GitHub using `create_or_update_file` (include the file's current SHA for the update)
+4. Write the updated log back to the same file path using the `Write` tool
 
 **When running manually:** The log check is optional. If the user explicitly provides a transcript, process it regardless of log status. Still update the log afterward so other tasks know it was used.
 
@@ -71,12 +93,13 @@ The two articles produced from each transcript MUST be substantially different f
 
 The CMS schema and website sitemap live in the `DonorDock-team/claude-shared` GitHub repo under the `sitemaps/` folder. These are the single source of truth and should always be fetched fresh at the start of every pipeline run so you're working with the latest data (tags, categories, URLs, etc.) rather than stale bundled copies.
 
-At the beginning of Step 1, use the GitHub `get_file_contents` tool to fetch both files:
+At the beginning of Step 1, use the GitHub `get_file_contents` tool to fetch all three files:
 
 | File | Repo Path | What it contains |
 |------|-----------|------------------|
 | CMS Schema | `sitemaps/cms-schema.md` | Collection IDs, field schema, tag/category IDs, author IDs, CMS item creation template |
-| Website Sitemap | `sitemaps/website-sitemap.json` | donordock.com pages with URLs, titles, sections -- use for internal linking |
+| Website Sitemap | `sitemaps/website-sitemap.json` | 520+ donordock.com pages with URLs, titles, descriptions, sections -- use for internal linking |
+| YouTube Catalog | `sitemaps/youtube-catalog.json` | 120+ long-form videos from @donordock and @FundraisingLab with categories and people tags -- use for video links in articles |
 
 ```
 Owner: DonorDock-team
@@ -84,24 +107,14 @@ Repo: claude-shared
 Paths:
   - sitemaps/cms-schema.md
   - sitemaps/website-sitemap.json
+  - sitemaps/youtube-catalog.json
 ```
 
 These files provide:
 - **Tag and category IDs** for CMS publishing (from cms-schema.md)
 - **Valid internal link targets** for articles (from the website sitemap)
 - **Content audit data** to avoid duplicating existing topics (cross-reference with CMS article list)
-
-## Logo and Font Assets (GitHub)
-
-Hero images include a DonorDock logo overlay and article title text. These assets live in the `DonorDock-team/claude-shared` repo:
-
-| Asset | Repo Path | Usage |
-|-------|-----------|-------|
-| White logo (primary) | `assets/logos-DonorDock/DonorDock-Logo-ALLWHITE.png` | Bottom-right corner overlay on hero images |
-| Dark logo (fallback) | `assets/logos-DonorDock/DonorDock-Logo-Dark.png` | Use only if the hero image has a very light background |
-| Light logo | `assets/logos-DonorDock/DonorDock-Logo-Light.png` | Alternative if white doesn't contrast well |
-
-The white logo is the default for most hero images since nanobanana generates images with rich colors/backgrounds.
+- **YouTube video links** for embedding relevant videos in articles (from the YouTube catalog)
 
 ---
 
@@ -109,16 +122,10 @@ The white logo is the default for most hero images since nanobanana generates im
 
 The pipeline has 7 steps that run end-to-end without approval gates:
 
-**Dependency pre-check (run once at pipeline start):**
-Before any image work, ensure Python Pillow is available for image compositing and compression:
-```bash
-python3 -c "from PIL import Image, ImageDraw, ImageFont" 2>/dev/null || pip3 install Pillow -q
-```
-
 1. **Research & Angle Discovery** -- Analyze input, audit existing CMS content for gaps, propose two deliberately different angles
 2. **Write Article 1** -- Draft a strategic/analytical SEO/AEO article
 3. **Generate Metadata 1** -- SEO title, meta description, slug, read time, tags
-4. **Image Creation 1** -- Generate hero image via Nano Banana, overlay logo + title, compress to WebP under 200KB
+4. **Image Creation 1** -- Generate hero image via Nano Banana, compress to WebP
 5. **Write Article 2** -- Draft a tactical/actionable article (verify differentiation first)
 6. **Generate Metadata 2** -- Same metadata process for article 2
 7. **Image Creation 2 + Publish Both** -- Generate second hero image, create both Webflow drafts, update transcript log
@@ -136,7 +143,8 @@ python3 -c "from PIL import Image, ImageDraw, ImageFont" 2>/dev/null || pip3 ins
 1. **Fetch shared resources from GitHub** -- Before anything else, use the GitHub `get_file_contents` tool (owner: `DonorDock-team`, repo: `claude-shared`) to fetch these files in parallel:
    - `sitemaps/cms-schema.md` -- for CMS field schema, tag/category IDs, author IDs, and the item creation template
    - `sitemaps/website-sitemap.json` -- for valid donordock.com page URLs to use as internal links
-   - `config/transcript-processing-log.json` -- to check which transcripts have already been processed (scheduled task runs only)
+   - `sitemaps/youtube-catalog.json` -- to find relevant DonorDock or Focused Fundraiser videos to link in articles
+   - `/Users/rob/Documents/DonorDock/Claude/Projects/The Focused Fundraiser/transcript-processing-log.json` -- to check which transcripts have already been processed (scheduled task runs only; read using the `Read` tool)
 
 2. **Read the transcript or topic** thoroughly. Extract every distinct theme, insight, quote, and actionable takeaway.
 
@@ -157,13 +165,33 @@ python3 -c "from PIL import Image, ImageDraw, ImageFont" 2>/dev/null || pip3 ins
    - Never use competitor CRM sources (Bloomerang, Little Green Light, Neon, Kindful, Networkforgood, donor perfect, etc.) as citation sources
    - Never fabricate URLs or statistics
 
-6. **Output**: Present both article angles with:
+6. **Validate both angles via the seo-strategist skill's `strategy-advisor` subagent.** For each candidate angle, spawn the agent. It returns:
+   - Pillar fit (must map to one of the 7 locked pillars in `seo-brain/strategy/pillars.md`)
+   - Keyword opportunity (live GSC data check via `mcp__gsc__advanced_search_analytics`)
+   - AEO question coverage from `seo-brain/strategy/aeo-questions.md`
+   - Recommendation: WRITE / REFRESH EXISTING / SKIP / ESCALATE TO ROB
+   - Pillar URL the article should link UP to + 2-3 sibling articles for lateral linking
+   
+   **Decision rules:**
+   - Both angles return WRITE with DIFFERENT pillars → proceed (best case: maximum strategic surface)
+   - Both angles return WRITE with same pillar but different keyword clusters → proceed
+   - One returns REFRESH EXISTING → discuss with user; consider refreshing existing article instead of writing new
+   - Either returns SKIP → discard angle, find new one from transcript
+   - Either returns ESCALATE TO ROB → pause pipeline, surface to user
+   
+   **Never skip this step.** Off-pillar articles dilute strategic surface and waste publishing slots.
+
+7. **Output**: Present both article angles with:
    - Working title
    - Content type label (Strategic/Analytical or Tactical/Actionable)
    - Target search query (what someone would Google to find this)
    - 2-3 sentence summary of the angle
    - Key supporting data points with sources
    - How this angle differs from the other one (1 sentence)
+   - **Pillar assignment** (one of 7 from pillars.md) + **pillar page URL** the article links to
+   - **Primary keyword** (from keyword-universe.md) with GSC data (current position + monthly impressions)
+   - **AEO questions** from aeo-questions.md this article will answer in its FAQ section (3-5 questions)
+   - **Sibling articles** for lateral linking (2-3 from same pillar cluster)
 
 Then proceed directly to writing.
 
@@ -184,19 +212,33 @@ Then proceed directly to writing.
   - Use scannable lists where they genuinely help
   - Bold key phrases sparingly for scannability
 
-### SEO/AEO Structure
+### SEO/AEO Structure (per seo-strategist content-standards.md)
 
-- H1 should contain the primary keyword naturally
+- H1 contains the primary keyword identified in Step 1
+- **TL;DR block** immediately after H1 (40-word direct-answer paragraph in `<blockquote>` or styled `<p>`) — answer the headline question directly. Critical for AEO featured-snippet capture.
 - Include the target query verbatim once in the first 150 words
-- Use H2s that could serve as featured snippet answers (question-format H2s work well)
-- Include a "quick answer" paragraph near the top (2-3 sentences that directly answer the target query) -- this is your AEO play
-- Naturally weave in 2-3 related long-tail keywords
+- Use **question-format H2s** drawn from the AEO questions identified in Step 1 — they are designed for featured snippet + People Also Ask + AI engine extraction
+- Include a "quick answer" paragraph near the top (2-3 sentences that directly answer the target query)
+- Naturally weave in 2-3 related long-tail keywords from the pillar's keyword cluster
+- **Required FAQ section** at the bottom with 3-5 of the AEO questions identified in Step 1, each answered in 40-60 words (paragraph snippet length)
+- **Required pillar uplink** — at least one contextual body link to the pillar page assigned in Step 1
+- **Required lateral links** — at least 2-3 contextual body links to sibling articles in the same pillar cluster
+
+### Brand-positioning compliance (per seo-strategist brand-positioning.md)
+
+Before submitting metadata + body:
+- Confirm no prohibited terms: "small nonprofit," "first CRM," "solo ED," "tiny nonprofit," "one-person shop," "church" (as DonorDock target audience), "tithing," "no platform fees," "free processing"
+- Confirm "Action Board" is two words (not "ActionBoard")
+- Confirm pricing references say "1% platform fee on online donations" (never "no platform fees" or "free")
+- Confirm Smart Stewardship framing where the topic touches stewardship, retention, or donor relationships
+- Confirm upmarket language: "growing nonprofits" / "mid-sized nonprofits" / "development teams" — NEVER "small nonprofits" or "first CRM"
 
 ### Internal Linking
 
 - Include 2-4 validated internal links to existing DonorDock pages
 - Only link to URLs confirmed to exist in the website sitemap (`sitemaps/website-sitemap.json`) or the CMS article list fetched via Webflow
 - Website sitemap links work well for linking to product pages, pricing, or feature overview pages
+- When a YouTube video is directly relevant to the article topic, include it as a contextual link (e.g., "Watch our quick guide to [topic]") using the URL from `sitemaps/youtube-catalog.json`. The catalog contains long-form videos only (shorts are excluded).
 - Never fabricate or guess a DonorDock URL
 - Use descriptive anchor text, not "click here" or "learn more"
 
@@ -272,7 +314,7 @@ Create a Nano Banana prompt for a 1920x1080 blog hero graphic that:
 - Has high click intent -- would make someone want to read the article in a social feed or search result
 - Uses a clean, modern, professional aesthetic suitable for a nonprofit SaaS brand
 - Avoids stock photo cliches (no handshakes, no generic "diverse team smiling at laptop")
-- **Leaves the bottom 20% of the image relatively clean/simple** -- this area will have a gradient overlay with the article title and DonorDock logo composited on top
+- Works well with text overlay (leave visual breathing room, avoid busy center compositions)
 - Uses warm, approachable colors that complement DonorDock's brand palette (blues, greens, warm neutrals)
 
 Prompt template pattern:
@@ -281,8 +323,7 @@ Professional blog hero image for a nonprofit fundraising article about [TOPIC].
 [SPECIFIC VISUAL CONCEPT that metaphorically represents the theme].
 Clean modern design, warm color palette with soft blues and greens,
 professional but approachable feel. High-quality editorial style photograph/illustration.
-Designed for a 1920x1080 blog header. Keep the bottom 20% of the image
-simple and uncluttered as text will be overlaid there.
+Designed for a 1920x1080 blog header with space for text overlay.
 ```
 
 ### Generate the Image
@@ -291,138 +332,40 @@ Call the `nanobanana_generate_image` MCP tool:
 - **model**: `nanobanana2`
 - **aspect_ratio**: `16:9`
 - **image_size**: `2K` (will be compressed down)
-- **output_dir**: `/Users/rob/Documents/DonorDock/Claude Projects/Deliverables`
+- **output_dir**: Use the current session's working directory (e.g., `/sessions/<session-name>/`)
 
-**IMPORTANT:** Always use this exact absolute path for `output_dir`. This is a known, accessible directory on the local filesystem that both Claude Code and scheduled tasks can read/write. Do NOT use relative paths, session directories, temp directories, or any other location.
+### Compress to WebP
 
-### Composite Logo + Title Text, Then Compress to WebP (Under 200KB)
+After generation, compress the PNG to WebP format:
 
-After nanobanana generates the base image, use Pillow to:
-1. Add a semi-transparent dark gradient bar across the bottom ~18% of the image
-2. Overlay the DonorDock white logo in the bottom-right corner
-3. Add the article's SEO title as text in the bottom-left area
-4. Compress to WebP under 200KB
-
-**Logo source:** Download from the GitHub repo at runtime using urllib (no extra dependency needed):
-```
-https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/logos-DonorDock/DonorDock-Logo-ALLWHITE.png
-```
-
-**Full compositing + compression script:**
 ```bash
-python3 << 'PYEOF'
-from PIL import Image, ImageDraw, ImageFont
-import urllib.request
-import os
-import tempfile
+# Install cwebp if needed
+which cwebp || (apt-get update -qq && apt-get install -y -qq webp)
 
-# --- CONFIGURATION (replace these values) ---
-input_path = "[INPUT_PATH]"  # nanobanana output PNG path
-article_title = "[ARTICLE TITLE]"  # The SEO title for this article
-output_path = "/Users/rob/Documents/DonorDock/Claude Projects/Deliverables/article-1-hero.webp"
+# Compress to WebP, quality 80, targeting under 200KB
+cwebp -q 80 -resize 1920 1080 "[INPUT_PATH]" -o "[WORKING_DIR]/article-1-hero.webp"
 
-# --- DOWNLOAD LOGO ---
-logo_url = "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/logos-DonorDock/DonorDock-Logo-ALLWHITE.png"
-logo_tmp = os.path.join(tempfile.gettempdir(), "dd-logo-white.png")
-urllib.request.urlretrieve(logo_url, logo_tmp)
-
-# --- OPEN AND RESIZE BASE IMAGE ---
-img = Image.open(input_path).convert("RGBA")
-img = img.resize((1920, 1080), Image.LANCZOS)
-
-# --- ADD GRADIENT OVERLAY AT BOTTOM ---
-# Semi-transparent black gradient covering bottom 18% for text readability
-overlay = Image.new("RGBA", img.size, (0, 0, 0, 0))
-draw_overlay = ImageDraw.Draw(overlay)
-gradient_start_y = int(1080 * 0.82)  # Start gradient at 82% from top
-for y in range(gradient_start_y, 1080):
-    progress = (y - gradient_start_y) / (1080 - gradient_start_y)
-    alpha = int(180 * progress)  # Fade from 0 to 180 opacity
-    draw_overlay.line([(0, y), (1920, y)], fill=(0, 0, 0, alpha))
-img = Image.alpha_composite(img, overlay)
-
-# --- OVERLAY DONORDOCK LOGO (bottom-right) ---
-logo = Image.open(logo_tmp).convert("RGBA")
-# Resize logo proportionally to ~180px wide
-logo_width = 180
-logo_ratio = logo_width / logo.width
-logo_height = int(logo.height * logo_ratio)
-logo = logo.resize((logo_width, logo_height), Image.LANCZOS)
-# Position: bottom-right with 30px padding
-logo_x = 1920 - logo_width - 30
-logo_y = 1080 - logo_height - 25
-img.paste(logo, (logo_x, logo_y), logo)
-
-# --- ADD ARTICLE TITLE TEXT (bottom-left) ---
-draw = ImageDraw.Draw(img)
-# Font fallback chain for macOS
-font = None
-font_size = 38
-font_paths = [
-    "/System/Library/Fonts/SFCompact.ttf",
-    "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
-    "/System/Library/Fonts/Helvetica.ttc",
-    "/Library/Fonts/Arial Bold.ttf",
-]
-for fp in font_paths:
-    try:
-        font = ImageFont.truetype(fp, font_size)
-        break
-    except (IOError, OSError):
-        continue
-if font is None:
-    font = ImageFont.load_default()
-
-# Word-wrap the title to fit within ~65% of image width (leaving room for logo)
-max_text_width = int(1920 * 0.65)
-words = article_title.split()
-lines = []
-current_line = ""
-for word in words:
-    test_line = f"{current_line} {word}".strip()
-    bbox = draw.textbbox((0, 0), test_line, font=font)
-    if bbox[2] - bbox[0] <= max_text_width:
-        current_line = test_line
-    else:
-        if current_line:
-            lines.append(current_line)
-        current_line = word
-if current_line:
-    lines.append(current_line)
-
-# Draw text lines from the bottom up, 30px left padding
-line_height = font_size + 8
-text_y = 1080 - 30 - (len(lines) * line_height)
-for line in lines:
-    # Draw subtle shadow for extra readability
-    draw.text((32, text_y + 2), line, font=font, fill=(0, 0, 0, 160))
-    draw.text((30, text_y), line, font=font, fill=(255, 255, 255, 240))
-    text_y += line_height
-
-# --- COMPRESS TO WEBP UNDER 200KB ---
-img = img.convert("RGB")  # WebP doesn't need alpha
-for quality in [80, 70, 60, 50, 40]:
-    img.save(output_path, "WEBP", quality=quality)
-    size_kb = os.path.getsize(output_path) / 1024
-    if size_kb <= 200:
-        print(f"Saved at quality {quality}: {size_kb:.0f}KB")
-        break
-else:
-    print(f"Warning: Could not get under 200KB. Final size: {size_kb:.0f}KB")
-
-print(f"Output: {output_path}")
-
-# Clean up temp logo
-os.remove(logo_tmp)
-PYEOF
+# Check file size -- if over 200KB, re-compress at lower quality
+FILE_SIZE=$(stat -f%z "[WORKING_DIR]/article-1-hero.webp" 2>/dev/null || stat -c%s "[WORKING_DIR]/article-1-hero.webp")
+if [ "$FILE_SIZE" -gt 204800 ]; then
+  cwebp -q 65 -resize 1920 1080 "[INPUT_PATH]" -o "[WORKING_DIR]/article-1-hero.webp"
+fi
 ```
 
-**Notes:**
-- The gradient overlay ensures both the white logo and white title text are readable over any background
-- If the base image has a very light/white bottom area, the gradient handles contrast automatically
-- Logo is sized at 180px wide (proportional height) -- large enough to be recognizable, small enough not to dominate
-- Title text wraps to ~65% of image width so it doesn't collide with the logo on the right
-- The script uses only stdlib (`urllib`, `os`, `tempfile`) plus Pillow -- no extra pip dependencies
+If cwebp is not available, use Python Pillow as a fallback:
+```bash
+pip install Pillow --break-system-packages -q
+python3 -c "
+from PIL import Image
+import os
+img = Image.open('[INPUT_PATH]')
+img = img.resize((1920, 1080), Image.LANCZOS)
+img.save('[WORKING_DIR]/article-1-hero.webp', 'WEBP', quality=80)
+size = os.path.getsize('[WORKING_DIR]/article-1-hero.webp')
+if size > 204800:
+    img.save('[WORKING_DIR]/article-1-hero.webp', 'WEBP', quality=65)
+"
+```
 
 Save the final WebP path for use in the Webflow publish step.
 
@@ -466,10 +409,7 @@ Repeat Step 3 for the second article. Ensure the slug, title, tags, and target k
 
 ### Generate Article 2's Hero Image
 
-Repeat Step 4 for Article 2, with these differences:
-- **output filename**: `article-2-hero.webp` (instead of `article-1-hero.webp`)
-- **article_title**: Use Article 2's SEO title
-- Everything else (output_dir, logo, gradient, compression) stays the same
+Repeat Step 4 for Article 2, saving as `article-2-hero.webp`.
 
 ### Upload Images to Webflow
 
@@ -516,6 +456,31 @@ Request structure:
 - Confirm that links have proper href attributes
 - If lists were stripped, re-submit the HTML as a single-line string using `update_collection_items`
 
+### Pre-Publish Validation (NEW — required)
+
+Before submitting drafts to Webflow CMS, run validation in parallel via subagents:
+
+1. **brand-identity → brand-critic** subagent — voice, vocabulary, tone-context, banned words. Returns PASS / NEEDS REVISION / MAJOR REWRITE
+2. **seo-strategist → content-validator** subagent — structural standards, pillar tag confirmation, FAQ coverage, internal linking density, prohibited language scan, schema readiness. Pass it: full article HTML + claimed pillar + target URL + primary keyword. Returns same verdict scale.
+3. **brand-identity → researcher** subagent (optional but recommended for thought-leadership pieces) — fact-check, source verification
+
+**Decision rules:**
+- All three return PASS → proceed to publish
+- Any return NEEDS REVISION → apply fixes in a single revision pass, then publish (no second-loop)
+- Any return MAJOR REWRITE → halt pipeline, surface to user with the rewrite reasoning
+
+Do not loop endlessly. One revision pass is the standard.
+
+### Schema-LD Generation (NEW — post-publish)
+
+Articles in Webflow's CMS auto-receive basic Article schema via the template. To add the FAQPage schema for the article's FAQ section (high AEO value):
+
+1. After publish, spawn `donordock-seo-strategist` → `schema-drafter` subagent. Pass: published URL + content type "article" + the visible FAQ Qs from the article body + named author.
+2. Receive a copy-paste FAQPage JSON-LD block.
+3. **Surface the block to the user with paste instructions** — they (or the dev team) will manually paste into the article's Webflow Page Settings → Custom Code → Before `</body>` field. Webflow API does not currently expose per-article custom-code editing for CMS items.
+
+Note for future: investigate whether the Article CMS template can carry a CMS-bound `<script type="application/ld+json">` element that pulls FAQ items from a related FAQ Collection, eliminating the manual paste step.
+
 ### Update Transcript Processing Log
 
 After both articles are successfully created as drafts:
@@ -527,12 +492,14 @@ After both articles are successfully created as drafts:
 ### Final Output
 
 After both drafts are created, report to the user:
-- Article 1: title, slug, Webflow item ID, word count, content type (Strategic)
-- Article 2: title, slug, Webflow item ID, word count, content type (Tactical)
+- Article 1: title, slug, Webflow item ID, word count, content type (Strategic), **pillar assignment**, **primary keyword + GSC baseline**, **FAQ schema** (paste-ready or noted)
+- Article 2: title, slug, Webflow item ID, word count, content type (Tactical), **pillar assignment**, **primary keyword + GSC baseline**, **FAQ schema** (paste-ready or noted)
 - Differentiation summary (1-2 sentences on how the articles differ)
 - Image status for each (uploaded or needs manual upload)
 - Any tags/categories that were created vs. mapped to existing ones
 - Transcript log status (updated or skipped)
+- **Validation verdict** from brand-critic + content-validator + researcher (PASS / NEEDS REVISION / MAJOR REWRITE per agent)
+- **Strategic surface delta** — how this run advances the 7-pillar plan (e.g., "+1 article to Pillar 5 / Donor Engagement; first AEO-question coverage for 'how do I write a donor thank-you'")
 
 ---
 
