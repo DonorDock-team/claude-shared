@@ -1,6 +1,6 @@
 # Webflow Article Template Schema (Canonical)
 
-**Status:** LIVE as of 2026-04-24. All `/blog/{slug}` URLs emit BlogPosting + FAQPage automatically.
+**Status:** LIVE as of 2026-04-24. All `/articles/{slug}` URLs emit BlogPosting + FAQPage automatically. (`/blog/{slug}` is a legacy URL pattern that 301-redirects to `/articles/{slug}` — always use `/articles/{slug}` as canonical.)
 
 **Source of truth:** This file. If this differs from the live Webflow template, update the template, not this file.
 
@@ -220,7 +220,7 @@ After any template change:
 ## Test Reference Article
 
 First successfully verified article using this system:
-- **URL:** https://www.donordock.com/blog/best-nonprofit-crm
+- **URL:** https://www.donordock.com/articles/best-nonprofit-crm
 - **Title:** Best Nonprofit CRM Platforms in 2026: The Ultimate Buyer's Guide
 - **Pillar:** CRM
 - **FAQs:** 5 tied (all Q&A validated in Rich Results Test)

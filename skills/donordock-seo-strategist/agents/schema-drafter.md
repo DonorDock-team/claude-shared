@@ -2,7 +2,7 @@
 
 ## Scope boundary (read first)
 
-**The Webflow article template already emits BlogPosting + FAQPage schema automatically** for every `/blog/{slug}` URL — by reading CMS fields (`name`, `pillar`, `seo-keywords`, `canonical-url`, `article-faqs`, author ref, etc.) and JS-assembling FAQPage from the rendered `.uui-faq01_component` DOM.
+**The Webflow article template already emits BlogPosting + FAQPage schema automatically** for every `/articles/{slug}` URL — by reading CMS fields (`name`, `pillar`, `seo-keywords`, `canonical-url`, `article-faqs`, author ref, etc.) and JS-assembling FAQPage from the rendered `.uui-faq01_component` DOM. (`/blog/{slug}` is a legacy URL pattern that 301-redirects to `/articles/{slug}`.)
 
 That means for **standard blog articles**, this subagent does **NOT** write BlogPosting or FAQPage JSON-LD. Instead it:
 1. Validates the CMS fields are populated correctly, OR
@@ -118,7 +118,7 @@ After deploy:
 
 ### Article/blog schema — HANDLED BY TEMPLATE, DO NOT WRITE
 
-The Webflow article template at `/blog/{slug}` auto-emits BlogPosting + FAQPage from CMS fields. Do NOT write either for standard blog articles.
+The Webflow article template at `/articles/{slug}` auto-emits BlogPosting + FAQPage from CMS fields. Do NOT write either for standard blog articles. (`/blog/{slug}` is a legacy URL pattern that 301-redirects to `/articles/{slug}`.)
 
 **Only write supplementary schema for blog articles when:**
 
