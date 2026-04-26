@@ -74,7 +74,7 @@ PRICING = {
     "anthropic":  {"in": 3.00,  "out": 15.00},   # Claude Sonnet 4
     "openai":     {"in": 2.50,  "out": 10.00},   # GPT-4o
     "perplexity": {"in": 3.00,  "out": 15.00, "request_fee": 0.005},  # Sonar Pro
-    "gemini":     {"in": 0.075, "out": 0.30},    # Gemini 1.5 Flash
+    "gemini":     {"in": 0.30,  "out": 2.50},    # Gemini 2.5 Flash
 }
 
 # ---------------------------------------------------------------------------
@@ -92,31 +92,43 @@ def load_prompts() -> dict[str, Any]:
 
 
 def op_get(label: str) -> str:
-    """Fetch the credential field of a 1Password item."""
+    """Fetch the secret value of a 1Password item.
+
+    Tries common field names in order, then falls back to scanning all CONCEALED
+    fields on the item. Works with API Credential items, Login items, and
+    Secure Notes with custom credential fields.
+    """
+    # Try common field name conventions in order
+    for field in ("credential", "password", "api key", "API Key", "key", "token"):
+        try:
+            result = subprocess.run(
+                ["op", "item", "get", label, "--field", field, "--reveal"],
+                capture_output=True, text=True, check=True,
+            )
+            val = result.stdout.strip()
+            if val:
+                return val
+        except subprocess.CalledProcessError:
+            continue
+
+    # Last-resort fallback: parse JSON, return first CONCEALED field that has a value
     try:
-        # Try `credential` field first (most common for API keys)
         result = subprocess.run(
-            ["op", "item", "get", label, "--field", "credential", "--reveal"],
+            ["op", "item", "get", label, "--format=json"],
             capture_output=True, text=True, check=True,
         )
-        val = result.stdout.strip()
-        if val:
-            return val
-    except subprocess.CalledProcessError:
+        data = json.loads(result.stdout)
+        for f in data.get("fields", []):
+            if f.get("type") == "CONCEALED" and f.get("value"):
+                return f["value"].strip()
+    except (subprocess.CalledProcessError, json.JSONDecodeError):
         pass
-    # Fallback to `password` field
-    try:
-        result = subprocess.run(
-            ["op", "item", "get", label, "--field", "password", "--reveal"],
-            capture_output=True, text=True, check=True,
-        )
-        return result.stdout.strip()
-    except subprocess.CalledProcessError as e:
-        raise SystemExit(
-            f"Failed to read 1Password item '{label}'. "
-            f"Make sure `op signin` is active and the item has a 'credential' or 'password' field. "
-            f"stderr: {e.stderr}"
-        )
+
+    raise SystemExit(
+        f"Failed to read 1Password item '{label}'. "
+        f"Tried field names: credential, password, api key, key, token, plus all CONCEALED fields. "
+        f"Make sure the 1Password desktop app is unlocked and the item exists with a credential value."
+    )
 
 
 def detect_donordock(text: str) -> bool:
@@ -214,9 +226,12 @@ async def call_perplexity(client: httpx.AsyncClient, prompt: str, key: str) -> t
     }
 
 
+GEMINI_MODEL = "gemini-2.5-flash"
+
+
 async def call_gemini(client: httpx.AsyncClient, prompt: str, key: str) -> tuple[str, int, int, dict]:
     r = await client.post(
-        f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={key}",
+        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={key}",
         headers={"content-type": "application/json"},
         json={
             "contents": [{"parts": [{"text": prompt}]}],
@@ -228,11 +243,11 @@ async def call_gemini(client: httpx.AsyncClient, prompt: str, key: str) -> tuple
     data = r.json()
     candidates = data.get("candidates", [])
     if not candidates:
-        return "", 0, 0, {"warning": "no candidates in Gemini response"}
+        return "", 0, 0, {"warning": "no candidates in Gemini response", "model": GEMINI_MODEL}
     parts = candidates[0].get("content", {}).get("parts", [])
     text = "".join(p.get("text", "") for p in parts)
     usage = data.get("usageMetadata", {})
-    return text, usage.get("promptTokenCount", 0), usage.get("candidatesTokenCount", 0), {"model": "gemini-1.5-flash"}
+    return text, usage.get("promptTokenCount", 0), usage.get("candidatesTokenCount", 0), {"model": GEMINI_MODEL}
 
 
 ENGINES = {
