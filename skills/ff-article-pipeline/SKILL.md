@@ -304,7 +304,7 @@ Generate these fields from the completed article:
 | **Author** | `6532889f2379aa018d352707` (Rob Burke) unless specified otherwise |
 | **Pillar** (required) | ID of ONE of the 7 locked content pillars (from Step 1 `strategy-advisor` output). Single reference, not multi. Binds to BlogPosting `articleSection` + `isPartOf` schema properties. See "Pillar ID Reference" below. |
 | **SEO Keywords** (required) | 3–10 comma-separated keywords drawn from the pillar's keyword cluster in `seo-brain/strategy/keyword-universe.md`. Binds to BlogPosting `keywords` schema property. Example: `best nonprofit CRM, nonprofit CRM comparison, donor management software, …` |
-| **Canonical URL** (required) | Full `https://www.donordock.com/blog/[slug]` URL. Binds to BlogPosting `mainEntityOfPage.@id` and `@id` (with `#article` fragment). |
+| **Canonical URL** (required) | Full `https://www.donordock.com/articles/[slug]` URL. (Note: `/blog/[slug]` 301-redirects to `/articles/[slug]` — always use `/articles/` for canonical so it points at the final destination.) Binds to BlogPosting `mainEntityOfPage.@id` and `@id` (with `#article` fragment). |
 
 ---
 
@@ -567,7 +567,7 @@ Request structure:
       "categories": ["[category-id-1]", "[category-id-2]"],
       "tags-3": ["[tag-id-1]", "[tag-id-2]", "[tag-id-3]"],
       "alt-text-feature-image": "[Descriptive alt text for the hero image]",
-      "canonical-url": "https://www.donordock.com/blog/[slug]",
+      "canonical-url": "https://www.donordock.com/articles/[slug]",
       "pillar": "[single pillar item ID from locked table below]",
       "seo-keywords": "[3–10 comma-separated keywords from pillar keyword-universe]",
       "article-faqs": ["[faq-id-1]", "[faq-id-2]", "[faq-id-3]", "[faq-id-4]"]
@@ -617,7 +617,7 @@ Do not loop endlessly. One revision pass is the standard.
 
 ### Schema (handled by the Webflow article template — no per-article schema writing)
 
-The article template at `/blog/[slug]` emits **two JSON-LD schemas automatically** by reading the CMS fields you populated above. The pipeline does NOT write per-article BlogPosting or FAQPage schema code.
+The article template at `/articles/[slug]` emits **two JSON-LD schemas automatically** by reading the CMS fields you populated above. The pipeline does NOT write per-article BlogPosting or FAQPage schema code. (`/blog/[slug]` is a legacy URL pattern that 301-redirects to `/articles/[slug]`.)
 
 **BlogPosting** (static `<script>` in `<head>`, dynamic-bound):
 - Pulls from `name`, `blog-post-preview`, `main-image`, `alt-text-feature-image`, `authors-2.*`, `canonical-url`, `pillar.name` + `pillar.pillar-url`, `seo-keywords`

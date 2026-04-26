@@ -68,7 +68,7 @@ Run in batches of ~20 articles. Review each batch with Rob before publishing to 
        "slug": "[preserved]",
        "pillar": "[chosen-pillar-item-id]",
        "seo-keywords": "[3-10 comma-separated keywords]",
-       "canonical-url": "https://www.donordock.com/blog/[slug]",
+       "canonical-url": "https://www.donordock.com/articles/[slug]",
        "alt-text-feature-image": "[if currently null, generate from title + main-image context]",
        "article-faqs": ["[faq-id-1]", "[faq-id-2]", ...]
      }
