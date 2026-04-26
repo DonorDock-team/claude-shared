@@ -4,19 +4,33 @@ Single-page HTML dashboard for the DonorDock SEO/AEO/GEO tracking system. Reads 
 
 ## Three ways to open it
 
-1. **Local file** — clone `claude-shared`, open `seo-brain/dashboard/index.html` in any browser. Always shows latest data because it fetches from `raw.githubusercontent.com` on every refresh.
+### 1. GitHub Pages — recommended (one-time setup, then bookmarkable)
 
-2. **Bookmark the raw URL** — paste this into a browser bookmark and open with a single click:
-   ```
-   https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/seo-brain/dashboard/index.html
-   ```
-   ⚠️ GitHub serves raw HTML as `text/plain` so the page won't render. Use option 1 (local file) or option 3 (CDN proxy).
+After this PR merges, enable Pages on the repo to get a clean URL:
+1. Repo → Settings → Pages
+2. Source: **Deploy from a branch**
+3. Branch: **main**, Folder: **/docs**, Save
+4. Wait ~1 minute for the first deploy
+5. Bookmark: **https://donordock-team.github.io/claude-shared/**
 
-3. **CDN proxy** (renders the HTML correctly):
-   ```
-   https://cdn.jsdelivr.net/gh/DonorDock-team/claude-shared@main/seo-brain/dashboard/index.html
-   ```
-   Public CDN, free, refreshes on every commit to main (12hr cache).
+The dashboard at `/docs/index.html` is a copy of `seo-brain/dashboard/index.html` (kept in sync by future PRs). Pages serves it with the right `Content-Type: text/html` so it renders correctly.
+
+### 2. htmlpreview wrapper — works today, no setup
+
+Bookmark this URL — it proxies the GitHub raw file with proper HTML headers:
+```
+https://htmlpreview.github.io/?https://github.com/DonorDock-team/claude-shared/blob/main/seo-brain/dashboard/index.html
+```
+Free public service. Slightly slower than Pages (extra hop) but no repo config needed. Use this until Pages is enabled (or as a fallback).
+
+### 3. Local file — most reliable
+
+Clone `claude-shared`, double-click `seo-brain/dashboard/index.html`. Browser opens via `file://` and renders correctly. Cache-busting still works (it fetches data via raw URL on every refresh).
+
+### What NOT to use
+
+- ❌ `cdn.jsdelivr.net/gh/...` — jsDelivr serves GitHub raw files with the original `Content-Type: text/plain`, so the browser shows the source instead of rendering. (My earlier README mistake.)
+- ❌ `raw.githubusercontent.com/...` directly — same `text/plain` issue, plus no XSS protection means GitHub deliberately won't render it.
 
 ## Tabs
 
