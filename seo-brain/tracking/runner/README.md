@@ -6,26 +6,57 @@ Tracks how often DonorDock is cited by AI search engines (Claude, ChatGPT, Perpl
 
 1. Reads the prompt bank at `seo-brain/tracking/prompts.json`
 2. Filters prompts by priority (`top-50`, `full`, or `aio`)
-3. Loads API keys from 1Password via `op` CLI
+3. **Loads API keys from `~/.config/donordock/seo.env` (preferred) or 1Password (fallback)**
 4. Runs each selected prompt against each enabled engine
 5. Detects: DonorDock mention (yes/no, position in response), competitor mentions, cited URLs
 6. Saves per-prompt-per-engine JSON + a daily summary + a Markdown report
 
-## One-time setup
+## One-time setup — recommended (env file, no 1Password prompts)
+
+This is the recommended setup for scheduled runs. No biometric/desktop-app prompts ever fire because the keys are read from a local file protected by macOS file permissions.
 
 ```bash
-# Install deps
+# Install Python deps
 pip3 install -r requirements.txt
 
-# Sign in to 1Password (must do this in the same shell that runs the script)
-eval $(op signin)
+# Create the env directory + file with strict permissions
+mkdir -p ~/.config/donordock
+chmod 700 ~/.config/donordock
+touch ~/.config/donordock/seo.env
+chmod 600 ~/.config/donordock/seo.env
 
-# Verify key access (won't print the keys, just confirms readability)
+# Open the file in your editor and add your 4 keys (one per line):
+#   ANTHROPIC_API_KEY=sk-ant-...
+#   OPENAI_API_KEY=sk-...
+#   PERPLEXITY_API_KEY=pplx-...
+#   GEMINI_API_KEY=...
+#
+# Verify keys are loadable (run from the runner directory):
+python3 -c "from run import load_env_file, ENV_KEY_MAP; import os; load_env_file(); [print(f'{e}: {\"OK\" if os.environ.get(v) else \"MISSING\"}  ({v})') for e, v in ENV_KEY_MAP.items()]"
+```
+
+The runner reads this file on every invocation. No re-export needed, no shell session required.
+
+**Security model:**
+- File is at `~/.config/donordock/seo.env`, mode 600 (only your user can read it)
+- Directory is mode 700
+- Protected by macOS FileVault disk encryption + user account boundary
+- Never committed to git (file lives outside any repo)
+- Same trust level as a SSH private key
+
+## Alternative — 1Password CLI (fallback if env file is missing)
+
+If `~/.config/donordock/seo.env` doesn't exist OR a specific env var isn't set, the runner falls back to the 1Password CLI. This requires the desktop app to be unlocked and may show biometric prompts.
+
+```bash
+# Verify key access via 1Password
 op item get "Claude API Key" --field credential --reveal > /dev/null && echo "✓ Claude OK"
 op item get "OpenAI API Credentials - DonorDock" --field credential --reveal > /dev/null && echo "✓ OpenAI OK"
 op item get "Perplexity - DonorDock API Credentials" --field credential --reveal > /dev/null && echo "✓ Perplexity OK"
-op item get "Google AI API key (Yarn)" --field credential --reveal > /dev/null && echo "✓ Gemini OK"
+op item get "Google AI API key (Yarn)" --field "API Key" --reveal > /dev/null && echo "✓ Gemini OK"
 ```
+
+The env file path is the recommended setup for production. 1Password fallback exists for ad-hoc local testing where you don't want to write keys to disk.
 
 ## Usage
 

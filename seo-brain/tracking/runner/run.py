@@ -57,14 +57,69 @@ PROMPTS_PATH = TRACKING_DIR / "prompts.json"
 RESULTS_ROOT = TRACKING_DIR / "ai-citations"
 
 # ---------------------------------------------------------------------------
-# 1Password key labels (map to actual item names in user's vault)
+# Key sources (in priority order)
+#
+# 1. Environment variables (preferred for scheduled runs — no GUI prompts)
+# 2. ~/.config/donordock/seo.env file (shell-style env file, auto-loaded)
+# 3. 1Password CLI (fallback, requires desktop app unlock + may prompt)
+#
+# Set up the env file once with:
+#   mkdir -p ~/.config/donordock
+#   chmod 700 ~/.config/donordock
+#   touch ~/.config/donordock/seo.env
+#   chmod 600 ~/.config/donordock/seo.env
+#   # then add ANTHROPIC_API_KEY=... etc. (one per line)
 # ---------------------------------------------------------------------------
+ENV_KEY_MAP = {
+    "anthropic":   "ANTHROPIC_API_KEY",
+    "openai":      "OPENAI_API_KEY",
+    "perplexity":  "PERPLEXITY_API_KEY",
+    "gemini":      "GEMINI_API_KEY",
+}
+
 OP_LABELS = {
     "anthropic":   "Claude API Key",
     "openai":      "OpenAI API Credentials - DonorDock",
     "perplexity":  "Perplexity - DonorDock API Credentials",
     "gemini":      "Google AI API key (Yarn)",
 }
+
+ENV_FILE = Path.home() / ".config" / "donordock" / "seo.env"
+
+
+def load_env_file() -> None:
+    """Load KEY=value lines from ~/.config/donordock/seo.env into os.environ.
+
+    File values fill any env var that is unset OR empty. A non-empty existing
+    env var keeps priority (explicit env beats file) — this lets you do
+    `ANTHROPIC_API_KEY=foo python3 run.py` to override a single key without
+    editing the file.
+    """
+    if not ENV_FILE.exists():
+        return
+    try:
+        for raw in ENV_FILE.read_text().splitlines():
+            line = raw.strip()
+            if not line or line.startswith("#"):
+                continue
+            if "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            k = k.strip()
+            v = v.strip().strip('"').strip("'")
+            # Only fill if existing env var is unset or empty
+            if v and not os.environ.get(k):
+                os.environ[k] = v
+    except Exception as e:
+        print(f"[warn] failed to read {ENV_FILE}: {e}", file=sys.stderr)
+
+
+def get_key(engine: str) -> str:
+    """Return the API key for `engine`. Tries env vars first, then 1Password."""
+    env_var = ENV_KEY_MAP.get(engine)
+    if env_var and os.environ.get(env_var):
+        return os.environ[env_var].strip()
+    return op_get(OP_LABELS[engine])
 
 # ---------------------------------------------------------------------------
 # Pricing (per-million-tokens). Rough; update as providers change pricing.
@@ -365,12 +420,18 @@ async def main_async(args) -> int:
         print(f"[dry-run] would run {len(selected)} prompts × {len(requested_engines)} engines = {len(selected)*len(requested_engines)} API calls")
         return 0
 
-    # Load keys
+    # Load keys — env file first, then env vars, then 1Password
+    load_env_file()
     keys = {}
     for engine in requested_engines:
-        label = OP_LABELS[engine]
-        print(f"[keys] loading {engine} from 1Password '{label}'...")
-        keys[engine] = op_get(label)
+        env_var = ENV_KEY_MAP.get(engine)
+        if env_var and os.environ.get(env_var):
+            print(f"[keys] {engine}: env var {env_var}")
+            keys[engine] = os.environ[env_var].strip()
+        else:
+            label = OP_LABELS[engine]
+            print(f"[keys] {engine}: 1Password '{label}' (env var {env_var} not set)")
+            keys[engine] = op_get(label)
     print(f"[keys] all keys loaded.")
 
     # Output dir
