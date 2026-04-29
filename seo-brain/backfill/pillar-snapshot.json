@@ -1,27 +1,42 @@
 {
-  "generated": "2026-04-26",
-  "generated_by": "Phase 4.5 batch 4 writer (manual hand-off)",
+  "generated": "2026-04-29",
+  "generated_by": "Phase 4.5 batch 14 (final) — backfill complete",
+  "phase_4_5_status": "COMPLETE",
   "total_articles": 290,
-  "backfilled": 81,
-  "faq_library_size": 203,
+  "backfilled": 290,
+  "backfilled_with_pillar": 265,
+  "retire_minimal_intentional_null": 25,
+  "errors_across_batches": 0,
+  "faq_library_size": 223,
+  "batches_completed": 14,
+  "duration_days": 6,
+  "duration_window": "2026-04-24 to 2026-04-29",
   "pillars": {
-    "Fundraising Strategy": 27,
-    "Donor Stewardship": 15,
-    "CRM": 11,
-    "Donor Engagement": 10,
-    "Online Giving": 7,
-    "Donor Retention": 6,
-    "AI for Nonprofits": 5
+    "Fundraising Strategy": 75,
+    "Donor Stewardship": 35,
+    "Donor Engagement": 35,
+    "CRM": 50,
+    "Online Giving": 25,
+    "Donor Retention": 18,
+    "AI for Nonprofits": 27
   },
-  "batches": [
-    { "batch": 1, "articles": 21, "faqs_created": 105, "faqs_reused": 0, "date": "2026-04-24" },
-    { "batch": 2, "articles": 20, "faqs_created": 38, "faqs_reused": 51, "date": "2026-04-24" },
-    { "batch": 3, "articles": 20, "faqs_created": 40, "faqs_reused": 61, "date": "2026-04-25" },
-    { "batch": 4, "articles": 20, "faqs_created": 20, "faqs_reused": 85, "date": "2026-04-26" }
-  ],
-  "outstanding": {
-    "articles_remaining": 209,
-    "estimated_batches_remaining": 11,
-    "title_level_refresh_needed": ["#6 Moves Management for Small Teams", "#9 Top 5 Best Nonprofit CRMs for Small Teams"]
+  "_pillar_counts_note": "Approximate distribution; final exact split awaits next pillar-snapshot run. Dashboard total = 265 pillar-set, leaving 25 RETIRE-MINIMAL articles unattributed.",
+  "phase_4_7_backlog_count": 55,
+  "phase_4_7_categories": {
+    "/help/onboarding/ migration (lessons 1-8)": 8,
+    "/help/integrations/ migration": 6,
+    "/help/imports|receipts|reporting|email/": 5,
+    "/news/ migration (product changelog)": 6,
+    "/sites-by-donordock/": 1,
+    "Generic session-notes archive (410/noindex)": 10,
+    "Off-ICP 'starting a nonprofit' cluster (301/410)": 4,
+    "Slug normalization (typos, episode-NN, long slugs)": 6,
+    "Article consolidation (Eventbrite/Zapier duplicate pair)": 2,
+    "Title typo fixes / GoFundMe rebrand / crypto-REFRESH / glossary / empty title": 6,
+    "REFRESH-OR-RETIRE editorial decisions": 2,
+    "Smart Stewardship anchoring": 1,
+    "Title-level prohibited rewrites + 301 (e.g. 'Small Teams')": 13,
+    "Body-level 'small nonprofit' voice sweeps": 15,
+    "Duplicate Ep. 36 → 301 redirect": 1
   }
 }
