@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P101",
+  "prompt_text": "DonorPerfect total cost of ownership",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869329+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Calculating the Total Cost of Ownership (TCO) for DonorPerfect involves more than just the monthly subscription fee. It requires considering all direct and indirect costs over the lifespan of your usage, typically 3-5 years.\n\nHere's a breakdown of the key components that contribute to DonorPerfect's TCO:\n\n---\n\n### I. Direct Subscription & Usage Costs (Paid Directly to DonorPerfect)\n\n1.  **Base Subscription Fee:**\n    *   **Tiered Pricing:** DonorPerfect pricing is usually based on the number of active constituents/donors in your database and the number of users (logins). Larger databases or more users will result in higher monthly/annual fees.\n    *   **Feature Tiers:** Different packages might offer varying levels of features (e.g., basic CRM vs. full fundraising suite with online forms, peer-to-peer, etc.). Ensure the chosen tier meets your current and future needs.\n    *   **Contract Length:** Annual contracts are often discounted compared to month-to-month.\n\n2.  **Add-on Modules & Integrations (from DonorPerfect):**\n    *   **Payment Processing:** While DonorPerfect integrates with several processors, if you use their preferred partner (DP Payment Services), there are transaction fees (percentage + per-transaction fee). Even if using another processor, those fees exist.\n    *   **Email Marketing:** DonorPerfect offers integrated email tools, which might be included in higher tiers or an additional cost.\n    *   **Online Forms & Donation Pages:** Essential for fundraising; check if advanced features are included or extra.\n    *   **Text-to-Give:** Additional service charge.\n    *   **Peer-to-Peer Fundraising:** Often a separate module or higher tier.\n    *   **DonorPerfect Go! (Mobile App):** Typically included, but check your package.\n    *   **Additional User Licenses:** If you need more staff to access the system beyond your initial package.\n\n3.  **Support & Training Packages:**\n    *   **Standard Support:** Basic phone and email support, along with online resources (knowledge base, webinars), is usually included.\n    *   **Premium Support/Training:** Some organizations might opt for dedicated account managers, more in-depth training, or specialized consulting, which comes at an extra cost.\n\n---\n\n### II. Implementation & Setup Costs (One-Time/Initial)\n\n1.  **Data Migration:**\n    *   **Self-Service:** If you migrate data yourself, this is primarily staff time for cleaning, mapping, and importing your existing donor data from spreadsheets or old systems. This can be a significant time sink.\n    *   **Professional Services (from DonorPerfect or Consultants):** DonorPerfect offers services to help with data migration, which can save time and reduce errors but comes at a cost.\n    *   **Data Cleanup:** Even with professional services, you'll need to invest internal staff time in reviewing, de-duplicating, and cleaning your data before migration.\n\n2.  **Initial Training:**\n    *   **Staff Time:** All staff who will use DonorPerfect will need training. This is a crucial internal cost in terms of lost productivity during training sessions.\n    *   **Professional Training (from DonorPerfect or Consultants):** While DP offers webinars, personalized training for your specific setup might be beneficial and carries a cost.\n\n3.  **Customization & Configuration:**\n    *   Setting up custom fields, reports, dashboards, donation pages, acknowledgment letters, and system preferences to match your organization's specific workflows. This is primarily an internal staff time cost.\n\n---\n\n### III. Ongoing Operational",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 766,
+  "estimated_cost_usd": 0.001917,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

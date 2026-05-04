@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P038",
+  "prompt_text": "Best fundraising software for nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869848+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Fundraising Software for Nonprofits\n\nHere are the top options based on organization size and needs:\n\n## **Best Overall**\n- **Bloomerang** - Excellent donor management with retention focus\n- **Donorbox** - User-friendly, affordable, great for online donations\n\n## **Best for Small Nonprofits**\n- **Givebutter** - Free tier available, modern interface, peer-to-peer fundraising\n- **Donorbox** - Low fees, easy setup, no monthly costs\n- **Little Green Light** - Affordable CRM with solid features\n\n## **Best for Mid-Sized Organizations**\n- **Bloomerang** - Strong donor retention tools and communications\n- **Keela** - AI-powered insights, good reporting\n- **Kindful** - Comprehensive features, Constant Contact integration\n\n## **Best for Large Nonprofits**\n- **Blackbaud Raiser's Edge NXT** - Enterprise-level, comprehensive\n- **Salesforce Nonprofit Cloud** - Highly customizable, powerful\n- **Classy** - Excellent for campaign fundraising and events\n\n## **Best for Specific Needs**\n- **Events**: Givebutter, Classy, OneCause\n- **Peer-to-Peer**: Classy, Mightycause, Funraise\n- **Monthly Giving**: Bloomerang, Donorbox\n- **All-in-One**: Kindful, NeonCRM, Little Green Light\n\n## **Key Factors to Consider**\n- Budget and pricing structure\n- Donation processing fees\n- Integration with existing tools\n- Ease of use\n- Reporting capabilities\n- Customer support\n\nWhat's your organization's size and primary fundraising focus?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "Givebutter",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 401,
+  "estimated_cost_usd": 0.00606,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

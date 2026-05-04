@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P011",
+  "prompt_text": "DonorDock vs Salesforce Nonprofit Cloud",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869298+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**DonorDock is a user-friendly, purpose-built CRM for small to midsize nonprofits, offering simpler setup and lower costs compared to Salesforce Nonprofit Cloud, which suits larger enterprises with complex needs but requires significant customization.** DonorDock starts at $98/month (plus card fees) with all-in-one features like donor management, online giving, email, text messaging, automations, and unlimited contacts, making it ready-to-use without extensive training.[1][2][3] Salesforce Nonprofit Cloud (formerly including NPSP) costs around $60/user/month plus integrations and setup expenses, providing robust enterprise customization, AI-powered tools, unified data models, and advanced fundraising like gift commitments\u2014but demands IT resources and configuration.[1][2][5][8]\n\n### Key Comparison\n| Aspect              | DonorDock                                                                 | Salesforce Nonprofit Cloud                                                                 |\n|---------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|\n| **Target Size**    | Small to midsize nonprofits[2][3][4]                                     | Large enterprises with IT support[3][5]                                                    |\n| **Pricing**        | $98/month + transaction fees; unlimited plan at $300/month[1][2]         | $60/user/month + integrations/custom dev; free NPSP edition needs heavy setup[1][2][5]    |\n| **Ease of Use**    | Intuitive, no training needed; \"fully furnished home\"[2][4]               | Complex, requires config/expertise; \"empty warehouse\"[2][4]                                |\n| **Core Features**  | Donor tracking, giving forms, email/text, automations, tasks (ActionBoard)[2][3][4] | Advanced AI donor mgmt, unified data model, gift structures, program tracking[5][8]       |\n| **Integrations**   | All-in-one (no extras needed)[1][2]                                       | Highly customizable but needs add-ons[1][2][5]                                             |\n| **User Feedback**  | Higher business fit; switched from Salesforce for simplicity/growth[4][6]| Powerful for scale but overwhelming[2][4][6]                                               |\n\nDonorDock excels for budget-conscious groups seeking quick deployment and donor relationship focus, as seen in cases like SWWC, which ditched Salesforce to avoid silos and caps while adding features like donor-versary reminders.[4] Salesforce shines for multi-department workflows with dedicated teams, offering unmatched scalability via native architecture over NPSP's add-on model.[5] Reviews on G2 favor DonorDock for overall needs met.[6] Choose based on org size: DonorDock for efficiency under $300/month, Salesforce for enterprise depth despite higher total costs.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 554,
+  "estimated_cost_usd": 0.013337,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.zeffy.com/compare/donordock-vs-salesforce",
+      "https://www.donordock.com/comparison/salesforce-npsp",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://www.donordock.com/success-stories/swwc",
+      "https://provisiopartners.com/content-hub-posts/salesforce-nonprofit-cloud-vs-nonprofit-success-pack-a-comparison-guide",
+      "https://www.g2.com/compare/agentforce-nonprofit-formerly-salesforce-nonprofit-cloud-vs-donordock",
+      "https://fundraisingwell.com/resources/f/how-the-top-crm-solutions-compare-for-nonprofit-success",
+      "https://cube84.com/blog/hubspot-vs-salesforce-npsp-vs-nonprofit-cloud-choosing-the-right-crm-for-donor-management"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P024",
+  "prompt_text": "How much does nonprofit donor CRM cost",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.868368+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Nonprofit donor CRM costs typically range from **$45 to $500+ per month**, depending on the platform, organization size, constituent count, and features, with annual budgets often falling between **$540 and $3,600** for most small to mid-sized nonprofits.[1][2][4]\n\n### Pricing Comparison of Top Options (2026 Data)\n| Platform              | Starting Monthly Price | Typical Annual Cost     | Pricing Model          | Notes[1][3][4][7] |\n|-----------------------|------------------------|-------------------------|------------------------|-------------------|\n| **Little Green Light** | $45                   | $540\u2013$1,260            | Per constituent count | Most affordable; 10% off for annual prepay; best for small/budget-conscious orgs. |\n| **Bloomerang**        | $125                  | $1,500\u2013$3,600          | Per constituent count | Unlimited users; strong donor retention tools. |\n| **Neon CRM**          | $99                   | $1,188\u2013$3,600          | Per org revenue       | Unlimited records; good for growing orgs. |\n| **DonorPerfect**      | $99                   | $1,188\u2013$3,000+         | Per constituent count | Mid-range flexibility; tiered options up to $649/mo. |\n| **Salesforce Nonprofit Cloud** | $60/user     | $10,000\u2013$30,000+       | Per user              | 10 free licenses; high customization but implementation costs extra. |\n| **DonorDock**         | $500                  | N/A                    | Flat fee              | Unlimited contacts; all-in-one for growing orgs. |\n\n### Additional Cost Factors\n- **Scaling and add-ons**: Prices increase with more contacts/records (e.g., Little Green Light to $135/mo for 50,000 constituents) or extras like fundraising ($40+/mo) or volunteer tools ($119+/mo).[1][3][4]\n- **Hidden fees**: Expect 2.2\u20133% + $0.30 per donation transaction, onboarding/setup, data migration, training (2\u20134 weeks staff time), and premium support.[1][2][5][6]\n- **Free tiers**: Rare and limited; often shift processing fees to donors or require upgrades for full CRM (e.g., Donorbox basic at $0/mo but 3% fee).[1][6]\n- **Budget recommendation**: Small orgs should allocate $540\u2013$1,500/year; avoid Salesforce unless you have technical staff.[1][2] Always factor in 3\u20135 year growth to prevent unexpected scaling costs.[5]",
+  "donordock_mentioned": true,
+  "donordock_position": 1363,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 558,
+  "estimated_cost_usd": 0.013394,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://scottshipsolutions.com/blog/best-crms-for-nonprofits/",
+      "https://blog.charityengine.net/nonprofit-crm-cost",
+      "https://bloomerang.com/pricing/",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://blog.mightycause.com/best-fundraising-platforms-for-nonprofits-2026/",
+      "https://www.donorperfect.com/fundraising-software/pricing-guide/"
+    ]
+  }
+}

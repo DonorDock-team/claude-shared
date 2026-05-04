@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P017",
+  "prompt_text": "Alternative to Neon CRM",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869714+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Neon CRM is a comprehensive CRM solution specifically designed for non-profits, offering features like donor management, fundraising, membership, events, and more. When looking for alternatives, it's helpful to consider why you're seeking a change (e.g., cost, specific feature gaps, ease of use, integrations, support).\n\nHere's a breakdown of alternatives, categorized by their approach and target audience:\n\n## Key Considerations When Choosing an Alternative:\n\nBefore diving into options, ask yourself:\n\n*   **Budget:** What's your monthly/annual budget for a CRM?\n*   **Key Features:** What are your absolute must-have features (donor management, fundraising, membership, events, grants, volunteers, marketing automation, accounting integration)?\n*   **Organization Size:** Are you a small, medium, or large non-profit?\n*   **Ease of Use:** How steep of a learning curve are you willing to tolerate?\n*   **Integrations:** What other tools do you need your CRM to connect with (email marketing, accounting, payment processors)?\n*   **Support:** What level of customer support do you expect?\n*   **Reporting & Analytics:** How robust do your reporting capabilities need to be?\n\n---\n\n## Top Alternatives to Neon CRM:\n\n### 1. Dedicated Non-Profit CRMs (Most Direct Alternatives)\n\nThese are built from the ground up for non-profits and offer similar all-in-one functionality.\n\n*   **Salesforce NPSP (Nonprofit Success Pack):**\n    *   **Pros:** Highly customizable, incredibly powerful, vast ecosystem of apps, robust reporting, free for up to 10 users for qualifying non-profits.\n    *   **Cons:** Steep learning curve, requires significant setup/customization, can become expensive with additional apps and larger user counts.\n    *   **Best for:** Medium to large non-profits with complex needs, who have technical staff or budget for implementation partners.\n\n*   **Bloomerang:**\n    *   **Pros:** Very user-friendly, strong focus on donor retention and engagement, intuitive interface, good reporting, includes email marketing.\n    *   **Cons:** Can be less customizable than Salesforce, some advanced features might require add-ons.\n    *   **Best for:** Small to medium-sized non-profits prioritizing ease of use, donor engagement, and retention.\n\n*   **DonorPerfect:**\n    *   **Pros:** Long-standing in the market, comprehensive features (donor, fundraising, events, volunteers), good for organizations with various programs.\n    *   **Cons:** Interface can feel a bit dated, some users find it less intuitive than newer options.\n    *   **Best for:** Established small to medium-sized non-profits needing a robust, proven system with a wide range of features.\n\n*   **Blackbaud (Raiser's Edge NXT, eTapestry, Luminate CRM):**\n    *   **Pros:** Industry giant, offers a suite of products for different needs (eTapestry for smaller orgs, RE NXT for larger), very robust for large-scale fundraising.\n    *   **Cons:** Can be expensive, often criticized for customer support, complexity for some products.\n    *   **Best for:** Large non-profits, universities,",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce NPSP",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 691,
+  "estimated_cost_usd": 0.001729,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

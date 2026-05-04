@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P132",
+  "prompt_text": "Network for Good problems",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.868382+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Network for Good, a fundraising platform for nonprofits, faces several reported issues including clunky user interfaces, hidden fees, delayed donor communication, and limited functionality.** [1][2]\n\n### Common Problems from User Feedback and Reports\nNonprofits have highlighted these key challenges:\n\n- **Clunky and unintuitive interface**: Users describe parts of the system as difficult to navigate, lacking expected features like social media integration for emails despite demo promises.[2]\n- **Hidden fees and high costs**: Transaction fees apply (e.g., $1 per ticket after 50 sold for events), with custom pricing that's not fully transparent and additional charges for advanced features.[2]\n- **Donor communication delays**: Donations process monthly, leading to late thank-yous (e.g., gifts on Dec 9 arrive Jan 15), even though real-time reports are available; nonprofits must manually act on daily data to thank donors promptly.[1]\n- **Limited functionality and integrations**: Lacks some desired tools, requires external CRM for full donor management, and has a steeper learning curve due to its scope.[2]\n- **Post-donation handling**: Automated receipts go out immediately, but genuine follow-ups (e.g., newsletters, repeat asks) are often neglected, missing opportunities to retain donors.[1]\n\n### Context and Mitigation\nThese issues stem from Network for Good's role as an intermediary (processing via partners like GuideStar or Facebook Causes), distributing millions in donations but requiring nonprofits to update profiles and monitor reports actively.[1] Recent reviews (up to 2026) from over 1,300 nonprofits note high usability satisfaction but lower marks on pricing and support.[2] The platform now includes AI guidance and coaching for small nonprofits, though core complaints persist.[3]\n\nFor support, contact via email (success@networkforgood.com), in-app chat (weekdays 8 AM-7 PM EST), or their help center/FAQs.[4][5][6] Alternatives like Zeffy emphasize 100% free processing but note their own tipping model quirks.[2]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 421,
+  "estimated_cost_usd": 0.01133,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.nonprofitmarketingguide.com/why-you-must-work-with-network-for-good-and-how-to-follow-up-with-donors/",
+      "https://www.zeffy.com/blog/network-for-good-reviews",
+      "https://www.bonterratech.com/product/network-for-good",
+      "https://www.networkforgood.org/npo/about/contact.aspx",
+      "https://intercom.help/networkforgood/en/articles/403987-getting-help-and-contacting-support",
+      "https://www.networkforgood.org/about/contact.aspx"
+    ]
+  }
+}

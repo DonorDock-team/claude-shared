@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P145",
+  "prompt_text": "Best donor CRM for capital campaigns",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869802+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Capital Campaigns\n\n## Top Recommendations\n\n### **1. Blackbaud Raiser's Edge NXT**\n- **Best for:** Large organizations with complex capital campaigns\n- **Key features:**\n  - Sophisticated pledge tracking and multi-year gift management\n  - Campaign hierarchies and goal tracking\n  - Wealth screening and major donor analytics\n  - Comprehensive reporting dashboards\n- **Drawback:** Expensive; steep learning curve\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Organizations wanting customization and scalability\n- **Key features:**\n  - Highly customizable campaign structures\n  - Robust pipeline management for major gifts\n  - Integration with wealth screening tools\n  - Advanced automation capabilities\n- **Drawback:** Requires implementation expertise; can be costly\n\n### **3. Bloomerang**\n- **Best for:** Mid-sized nonprofits balancing features and usability\n- **Key features:**\n  - Intuitive campaign tracking\n  - Strong donor retention focus\n  - Good pledge management\n  - Excellent customer support\n- **Drawback:** Less robust than enterprise solutions\n\n### **4. DonorPerfect**\n- **Best for:** Organizations needing reliable, straightforward campaign management\n- **Key features:**\n  - Solid pledge tracking and reminders\n  - Campaign reporting and analytics\n  - Reasonable pricing\n  - Good integration options\n\n### **5. Giveffect**\n- **Best for:** Smaller organizations or first capital campaigns\n- **Key features:**\n  - All-in-one platform including campaigns\n  - More affordable pricing\n  - User-friendly interface\n\n## Key Features to Prioritize\n- Multi-year pledge tracking\n- Campaign hierarchies (phases, naming opportunities)\n- Major donor pipeline management\n- Robust reporting and dashboards\n- Wealth screening integration\n\n**What's your organization's size and budget?** That will help narrow the choice.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 440,
+  "estimated_cost_usd": 0.006642,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

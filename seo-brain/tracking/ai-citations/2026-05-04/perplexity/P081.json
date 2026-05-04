@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P081",
+  "prompt_text": "Best donor CRM for community colleges",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.868639+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**No single donor CRM is universally the \"best\" for community colleges, as choices depend on factors like budget, scale, integration needs, and user-friendliness, but **Salesforce Nonprofit Cloud**, **Bloomerang**, and **CiviCRM** stand out as top recommendations based on 2026 nonprofit CRM rankings for their donor management, fundraising tools, and nonprofit tailoring.[1][3][5][6][7]** \n\nCommunity colleges, often operating as public nonprofits with modest fundraising teams, benefit from affordable, scalable CRMs that handle donor tracking, event management, and reporting without steep learning curves.[5]\n\n### Top Recommended CRMs for Community Colleges\nThese are frequently cited across sources for strong donor relationship management, affordability, and nonprofit-specific features:\n\n| CRM | Key Strengths for Community Colleges | Pricing Notes | Citations |\n|-----|-------------------------------------|---------------|-----------|\n| **Salesforce Nonprofit Cloud** | Comprehensive for donor/volunteer management, grants, programs; highly scalable with integrations; used by large educational nonprofits. | Free tier for small orgs; scales up (custom pricing). | [6][7] |\n| **Bloomerang** | User-friendly donor database, engagement tracking, fundraising reports; ideal for smaller teams. | Starts ~$99/month. | [3] |\n| **CiviCRM** | Open-source, free, customizable for contacts/donations/events; no licensing fees, great for budget-conscious colleges. | Free (hosting costs apply). | [5] |\n| **Kindful** (by Bloomerang) | Donor analytics, fundraising tools, easy reporting. | Subscription-based. | [8] |\n\n### Selection Considerations\n- **Budget**: Opt for free/open-source like **CiviCRM** if funds are limited; Salesforce offers nonprofit discounts.[5][6]\n- **Scale**: Larger colleges may prefer Salesforce's enterprise features; smaller ones suit Bloomerang's simplicity.[3][7]\n- **Features**: Prioritize donor tracking, automation, and integrations (e.g., with email tools).[1][2][4]\n- Sources note no education-specific rankings, but these CRMs serve similar nonprofits effectively; test demos for fit.[1][3][8]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 462,
+  "estimated_cost_usd": 0.011951,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.streak.com/post/best-crm-for-nonprofits",
+      "https://onlinedegrees.sandiego.edu/donor-management-software/",
+      "https://www.salesforce.com/nonprofit/",
+      "https://www.goodera.com/blog/best-crms-for-nonprofits-the-complete-guide-for-nonprofit-organizations",
+      "https://www.bonterratech.com/blog/donor-management-software"
+    ]
+  }
+}

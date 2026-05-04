@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P136",
+  "prompt_text": "Salesforce Nonprofit Cloud problems",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.868678+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Salesforce Nonprofit Cloud Problems\n\n## 1. **Technical/System Issues**\n\n### Data Management\n- **Duplicate records** - Multiple contact/account entries for same donors\n- **Data quality issues** - Incomplete or inaccurate information\n- **Migration challenges** - Moving data from legacy systems\n- **Complex data model** - NPSP's household account model can be confusing\n\n### Performance\n- **Slow load times** - Especially with large datasets\n- **Report timeout errors** - Complex reports hitting limits\n- **Storage limitations** - File and data storage caps\n\n## 2. **User Adoption Challenges**\n\n- **Steep learning curve** - Complex for non-technical staff\n- **Insufficient training** - Staff not properly onboarded\n- **Change resistance** - Users prefer old systems/processes\n- **Under-utilization** - Not using available features\n\n## 3. **Configuration Issues**\n\n- **Over-customization** - Too many custom fields/objects\n- **Poor initial setup** - NPSP not configured correctly from start\n- **Integration problems** - Connecting with other tools (email, accounting, etc.)\n- **Automation errors** - Workflows/flows not working as expected\n\n## 4. **Fundraising-Specific Problems**\n\n- **Recurring donation tracking** - Issues with installments and schedules\n- **Gift acknowledgment delays** - Slow receipt generation\n- **Campaign ROI tracking** - Difficulty measuring effectiveness\n- **Grant management gaps** - Limited native grant tracking\n\n## 5. **Cost Concerns**\n\n- **Hidden expenses** - Add-ons, integrations, consultants\n- **License management** - Paying for unused licenses\n- **Maintenance costs** - Ongoing admin/developer needs\n\n## 6. **Reporting & Analytics**\n\n- **Report complexity** - Difficult to build custom reports\n- **Dashboard limitations** - Not showing needed metrics\n- **Real-time data access** - Delays in information updates\n\n---\n\n**What specific problem are you experiencing?** I can provide more targeted solutions if you share details about your situation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 470,
+  "estimated_cost_usd": 0.007092,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

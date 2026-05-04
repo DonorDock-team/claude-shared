@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.868925+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for hospitals is a complex decision, as it heavily depends on the hospital's size, specific fundraising goals, existing technology stack, budget, and desired level of integration.\n\nHowever, hospitals have unique requirements, primarily centered around **HIPAA compliance**, **grateful patient programs**, and often a strong focus on **major gifts** for capital campaigns, research, and endowments.\n\nHere are the top contenders and key considerations:\n\n---\n\n### Key Considerations for Hospitals When Choosing a Donor CRM:\n\n1.  **HIPAA Compliance & Data Security:** This is non-negotiable. Any CRM handling donor data that *might* be linked to patient information (even indirectly, for grateful patient programs) MUST be HIPAA compliant and offer robust data security, access controls, and Business Associate Agreements (BAAs).\n2.  **Grateful Patient Program Support:** The ability to manage and track referrals from physicians, identify grateful patients, and cultivate those relationships securely and ethically is paramount.\n3.  **Integration Capabilities:**\n    *   **EMR/EHR Systems (Epic, Cerner, etc.):** Secure, one-way integration for grateful patient identification (e.g., flagging patients who have expressed gratitude or high-net-worth individuals, without pulling clinical data into the CRM directly).\n    *   **Accounting/ERP Systems:** For gift processing, reconciliation, and financial reporting.\n    *   **Wealth Screening Tools:** For major gift identification.\n    *   **Marketing Automation/Email Platforms:** For targeted communications.\n    *   **Website/Online Donation Platforms:** Seamless data flow.\n4.  **Major Gift & Capital Campaign Management:** Robust tools for pipeline management, moves management, portfolio assignment, and tracking complex pledges and multi-year campaigns.\n5.  **Reporting & Analytics:** Powerful, customizable reporting to track fundraising performance, donor segmentation, ROI, and campaign effectiveness.\n6.  **Scalability:** The system should be able to grow with the hospital's fundraising needs, from small foundations to large academic medical centers.\n7.  **Customization:** Hospitals often have unique workflows and data fields they need to track.\n8.  **User-Friendliness & Training:** Ease of use for diverse teams (fundraisers, data",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 471,
+  "estimated_cost_usd": 0.001179,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

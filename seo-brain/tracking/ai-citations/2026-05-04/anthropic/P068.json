@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P068",
+  "prompt_text": "How to consolidate fundraising tools",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869489+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Consolidate Fundraising Tools\n\nConsolidating your fundraising tools can streamline operations, reduce costs, and improve data management. Here's a step-by-step approach:\n\n## 1. **Audit Your Current Tools**\n- List all platforms you're using (CRM, email, donation processing, event management, social media, etc.)\n- Document what each tool does and costs\n- Identify overlapping features\n- Note pain points and integration issues\n\n## 2. **Define Your Requirements**\n- Essential features you can't lose\n- Team size and technical capabilities\n- Budget constraints\n- Integration needs (accounting, email, social media)\n- Reporting requirements\n\n## 3. **Research Integrated Solutions**\nLook for all-in-one platforms or core systems with strong integrations:\n- **Donor management systems** (Salesforce Nonprofit Cloud, Bloomerang, DonorPerfect)\n- **Fundraising CRMs** (Kindful, NeonCRM, Little Green Light)\n- **Comprehensive platforms** (Givebutter, Classy, Funraise)\n\n## 4. **Create a Migration Plan**\n- Prioritize which tools to consolidate first\n- Plan data migration strategy\n- Set a realistic timeline\n- Assign responsibilities to team members\n- Build in training time\n\n## 5. **Clean Your Data First**\n- Remove duplicates\n- Standardize formats\n- Update outdated information\n- Archive what you don't need\n\n## 6. **Test Before Full Implementation**\n- Run parallel systems initially\n- Test critical workflows\n- Verify data accuracy\n- Get user feedback\n\n## 7. **Train Your Team**\n- Provide comprehensive training\n- Create documentation\n- Designate power users\n- Schedule follow-up sessions\n\n**Result:** Reduced costs, better data insights, and more time for actual fundraising!\n\nWhat specific tools are you currently using?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 433,
+  "estimated_cost_usd": 0.006537,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P088",
+  "prompt_text": "Best donor CRM for food security organizations",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.869629+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the best donor CRM (Customer Relationship Management) system for food security organizations depends on several factors, including budget, specific features needed, ease of use, integration capabilities, and scalability. Here are a few CRM systems that are often recommended for non-profits, including those focused on food security:\n\n1. **Salesforce Nonprofit Success Pack (NPSP):**\n   - **Pros:** Highly customizable and scalable, strong community support, robust reporting features.\n   - **Cons:** Can be complex to set up and manage without technical expertise, costs can increase with more extensive customization.\n\n2. **Bloomerang:**\n   - **Pros:** User-friendly interface, strong focus on donor retention, excellent customer support.\n   - **Cons:** May have limitations with more complex donor management needs, can be pricey for smaller organizations.\n\n3. **DonorPerfect:**\n   - **Pros:** Comprehensive donor management tools, good integration options, flexible reporting.\n   - **Cons:** Some users report a steeper learning curve, can be costly for advanced features and modules.\n\n4. **Neon CRM:**\n   - **Pros:** Integrates well with other software, strong support and training, suitable for small to mid-sized organizations.\n   - **Cons:** Interface can be challenging for new users, some features may feel less polished.\n\n5. **Kindful:**\n   - **Pros:** Strong integration capabilities, modern and intuitive interface, designed specifically for non-profits.\n   - **Cons:** Can lack some advanced features that larger organizations may require, pricing may increase with additional contacts or features.\n\n6. **Little Green Light:**\n   - **Pros:** Affordable, easy to use, great for small to medium-sized organizations.\n   - **Cons:** May not have the scalability or advanced features needed for larger organizations.\n\nWhen evaluating these CRMs, consider the following aspects:\n- **Budget:** Determine what you can afford both in terms of initial setup costs and ongoing expenses.\n- **Features:** Make a list of essential features your organization needs, such as donor tracking, reporting, communication tools, and integration with existing systems.\n- **Scalability:** Ensure the CRM can grow with your organization, handling an increasing number of donors and campaigns.\n- **Support and Training:** Consider the quality and availability of customer support and whether training resources are included.\n\nUltimately, it is advisable to take advantage of free trials or demos offered by these CRM providers to assess which system fits best with your organization's needs and workflow.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 502,
+  "estimated_cost_usd": 0.005055,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

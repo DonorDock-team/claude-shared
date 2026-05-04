@@ -1,0 +1,38 @@
+{
+  "prompt_id": "P020",
+  "prompt_text": "Cheaper alternative to Blackbaud",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869877+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Several cheaper alternatives to Blackbaud exist for nonprofits, particularly for donor management and fundraising, with entry-level pricing starting as low as $19\u2013$45 per month.** These options often provide core CRM features like donor tracking, email campaigns, and reporting at a fraction of Blackbaud's cost, which typically starts higher (e.g., eTapestry at $100\u2013$150/month).[1][3]\n\n### Top Cheapest Alternatives by Starting Price\n| Alternative | Starting Price | Best For | Key Features | Citation |\n|-------------|----------------|----------|--------------|----------|\n| **Donately** | $19/month (Starter) | Small organizations | Fundraising platform with low fees (3.5%), scalable plans | [1] |\n| **Copper** | $19/month (standard) | G Suite users, small teams | CRM with Google integration, custom fields, pipelines; 14-day free trial | [1] |\n| **Insightly** | $29/month | General nonprofits | CRM testing with free trials for Plus/Professional plans | [1] |\n| **Sumac** | $35/month (paid); free plan available | Nonprofits needing basics | Donor management; upgrade for advanced features | [1] |\n| **Little Green Light** | $39\u2013$45/month | Small nonprofits, eTapestry users | Essential donor tools, peer support; fraction of Blackbaud cost | [1][3][7] |\n| **DonorSnap** | $39/month (up to 1,000 contacts) | Small orgs | All features included, scales to $199 for 30,000 contacts | [1] |\n| **Kindful** | From $33/month | Integrated fundraising | Cost reduction from eTapestry; donor management | [3][7] |\n| **NeonCRM** | $49\u2013$99/month | Mid-sized orgs | Robust donor CRM, built-in email | [1][3] |\n| **Bloomerang** | $40\u2013$125/month (varies by records) | Donor retention, small shops | User-friendly, engagement scoring; free trial/demo | [1][3][4][7] |\n| **DonorPerfect** | $89\u2013$99/month | Mid-size teams | Constituent management, online fundraising; unlimited users | [1][3][4] |\n\n### Key Considerations\n- **For smallest budgets**: Opt for free/open-source like **CiviCRM** (free) or Sumac's free plan, or low-entry like Copper/Donately under $20/month.[1][3]\n- **Scalability**: Most scale by contacts/records (e.g., Bloomerang at $99 for 1,000 records), avoiding Blackbaud's enterprise complexity.[1][4]\n- **Specialized needs**: Churches may prefer Tithe.ly ($72/month) or ACS; grant management users consider Optimy or Submittable (mid-range pricing).[5][6][7]\n- Limitations: Cheaper options may lack Blackbaud's advanced enterprise features (e.g., for large museums via Altru), so evaluate based on organization size and needs. Many offer free trials/demos.[1][3][7]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 674,
+  "estimated_cost_usd": 0.015134,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donately.com/blog/blackbaud-raisers-edge-competitors",
+      "https://www.knack.com/blog/blackbaud-alternatives/",
+      "https://www.teachfloor.com/blog/best-blackbaud-etapestry-alternatives",
+      "https://stratuslive.com/guides/blackbaud-alternatives/",
+      "https://www.submittable.com/blackbaud-alternatives",
+      "https://www.optimy.com/blog-optimy/best-blackbaud-alternatives",
+      "https://theleadpastor.com/tools/best-blackbaud-competitors/",
+      "https://virtuous.org/compare/blackbaud/",
+      "https://www.liveimpact.org/blackbaud"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P006",
+  "prompt_text": "DonorDock vs DonorPerfect",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.861625+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs DonorPerfect Comparison\n\n## **DonorDock**\n\n### Best For\n- Small nonprofits and startups\n- Organizations with limited budgets\n- Simple fundraising needs\n\n### Key Features\n- Contact management\n- Online donation forms\n- Email communications\n- Basic reporting\n- Task management\n- Mobile app\n\n### Pricing\n- **Free plan available** (up to 500 contacts)\n- Paid plans: ~$39-99/month\n- Very affordable for smaller organizations\n\n### Pros\n- Intuitive, modern interface\n- Easy to learn and use\n- Excellent value for small nonprofits\n- Good customer support\n- No long-term contracts\n\n### Cons\n- Limited advanced features\n- Less robust reporting\n- Fewer integrations\n- May outgrow it as organization scales\n\n---\n\n## **DonorPerfect**\n\n### Best For\n- Medium to large nonprofits\n- Organizations needing comprehensive features\n- Those requiring extensive customization\n\n### Key Features\n- Comprehensive donor management\n- Advanced reporting and analytics\n- Peer-to-peer fundraising\n- Event management\n- Wealth screening\n- Auction management\n- Extensive integrations\n- Pledge tracking\n\n### Pricing\n- Starts at ~$89/month (minimum)\n- Typically $149-500+/month depending on features\n- Setup fees may apply\n\n### Pros\n- Feature-rich platform\n- Highly customizable\n- Strong reporting capabilities\n- Established reputation (30+ years)\n- Scalable for growth\n- Many third-party integrations\n\n### Cons\n- Steeper learning curve\n- More expensive\n- Interface feels dated to some users\n- Can be overly complex for small orgs\n\n---\n\n## **Quick Decision Guide**\n\n**Choose DonorDock if you:**\n- Have <1,000 donors\n- Need something simple and affordable\n- Want to get started quickly\n- Have a small team/limited tech experience\n\n**Choose DonorPerfect if you:**\n- Have complex fundraising needs\n- Require detailed reporting/analytics\n- Need advanced features (wealth screening, etc.)\n- Have budget for a more robust system\n- Plan significant organizational growth\n\nBoth are solid choices\u2014it really depends on your organization's size, budget, and complexity of needs.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 526,
+  "estimated_cost_usd": 0.007947,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

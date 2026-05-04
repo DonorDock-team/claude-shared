@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P143",
+  "prompt_text": "Donor CRM that does pledges and recurring",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869727+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "You're looking for a critical feature set in any modern Donor CRM! Pledges (a promise to give a specific amount over time) and Recurring Donations (automated, regular gifts) are fundamental for sustainable fundraising.\n\nHere's a breakdown of top Donor CRMs that excel in managing pledges and recurring donations, along with their general strengths and ideal use cases:\n\n---\n\n## Top Donor CRMs for Pledges & Recurring Donations\n\n### 1. Salesforce Nonprofit Success Pack (NPSP) / Nonprofit Cloud\n\n*   **Pledges & Recurring:** Absolutely robust. NPSP uses \"Opportunities\" for pledges and tracks \"Payment Schedules\" for both pledges and recurring donations, allowing for highly detailed management, installment tracking, and automated payment processing (with integrations).\n*   **Strengths:**\n    *   **Unrivaled Customization & Scalability:** Can grow with you from small to enterprise-level.\n    *   **Powerful Reporting & Dashboards:** Deep insights into donor behavior, fundraising trends, and pipeline.\n    *   **Vast Ecosystem & Integrations:** Connects with virtually any other tool (marketing automation, accounting, payment processors, etc.).\n    *   **Generous Non-Profit Program:** Often offers 10 free licenses and significant discounts for additional ones.\n*   **Considerations:**\n    *   **Steep Learning Curve:** Requires dedicated admin time or external consultants for setup and ongoing management.\n    *   **Complexity:** Can be overkill for very small, simple organizations.\n*   **Best For:** Mid-sized to large non-profits, organizations with complex fundraising needs, those with existing tech resources or a budget for implementation partners.\n\n### 2. Bloomerang\n\n*   **Pledges & Recurring:** Excellent and user-friendly. Bloomerang makes it very easy to set up, track, and manage both pledges and recurring donations, with clear dashboards for their status.\n*   **Strengths:**\n    *   **User-Friendly Interface:** Generally praised for its intuitive design and ease of use.\n    *   **Focus on Donor Retention:** Built-in tools for donor engagement, communication, and wealth screening.\n    *   **Good Reporting:** Provides actionable insights into donor giving and engagement.\n    *   **Strong Support:** Known for responsive customer service.\n*   **Considerations:**\n    *   **Less Customizable:** While good out-of-the-box, it won't offer the deep customization of Salesforce.\n    *   **Scalability Limits:** May eventually be outgrown by very large, complex organizations.\n",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 538,
+  "estimated_cost_usd": 0.001347,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

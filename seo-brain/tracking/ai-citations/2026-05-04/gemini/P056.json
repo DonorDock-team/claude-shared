@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P056",
+  "prompt_text": "Best donor CRM to consolidate multiple fundraising tools",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869895+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Consolidating multiple fundraising tools into a single donor CRM is a fantastic goal, as it streamlines operations, improves data accuracy, and gives you a 360-degree view of your donors. The \"best\" CRM really depends on your organization's size, budget, complexity, and specific needs, but here are the top contenders known for their ability to consolidate:\n\n## Top Donor CRMs for Consolidating Multiple Fundraising Tools\n\nThese platforms either offer a broad suite of native tools or have robust integration capabilities to bring everything under one roof.\n\n### 1. Salesforce NPSP (Nonprofit Success Pack)\n\n*   **Best For:** Large organizations, those with complex needs, anyone requiring extreme customization and scalability.\n*   **Why it Consolidates:**\n    *   **Ecosystem:** Salesforce has the largest ecosystem of integrated apps (AppExchange) for virtually any fundraising need (online giving, events, peer-to-peer, grants, marketing automation, volunteer management, etc.).\n    *   **Customization:** You can tailor Salesforce to precisely fit your unique processes and data model, consolidating data from various sources into a single, unified view.\n    *   **Power:** It's incredibly powerful and can handle massive amounts of data and sophisticated reporting.\n*   **Considerations:**\n    *   **Complexity:** Can have a steep learning curve and often requires a dedicated admin or consulting partner for setup and ongoing maintenance.\n    *   **Cost:** While Salesforce offers significant discounts for nonprofits, the cost of additional apps and implementation can add up.\n    *   **Not Out-of-the-Box:**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 336,
+  "estimated_cost_usd": 0.000842,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P095",
+  "prompt_text": "Hidden costs of DonorPerfect",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.870068+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**DonorPerfect's hidden costs primarily include high payment processing fees (2.89%\u20133.39% + $0.30 per credit card transaction), data migration ($500\u2013$2,000 one-time), implementation/customization ($500\u2013$10,000), and training ($500\u2013$2,000), which scale with donation volume and organization size beyond the base subscription of ~$89\u2013$119/month.** These expenses often surprise nonprofits, as pricing requires custom quotes based on donor database size and features, without fixed public rates.[1][2][3]\n\n### Key Hidden Cost Components\n- **Payment Processing Fees**: DonorPerfect's integrated processor (DP Payments) charges 2.89% + $0.30 per credit card transaction (or 0.75% + $0.35 for ACH), higher than alternatives like Stripe (2.2% + $0.30) or Bloomerang (2.0% + $0.30). On $500,000 in annual donations, this totals ~$14,450\u2013$16,950, potentially $3,450\u2013$5,950 more than competitors.[1][3][4]\n- **Implementation and Setup**: One-time data migration costs $500\u2013$2,000; full implementation/customization can reach $500\u2013$5,000 or $1,000\u2013$10,000 for complex needs.[1][2]\n- **Training**: Beyond free webinars, customized sessions average $500\u2013$2,000.[1][2]\n- **Other Variable Fees**: Potential PCI compliance, platform/gateway charges, or add-ons for third-party processors (e.g., Stripe integration may limit native features).[1][4]\n\n### Estimated Total First-Year Costs\nCosts vary by tier (Core/Plus/Pro), donor count, and fundraising volume. Third-party estimates for a mid-sized nonprofit:\n\n| Annual Donations | Base Subscription (est.) | Processing Fees (est.) | Other (Migration/Training) | Total Year 1 (est.) |\n|------------------|---------------------------|-------------------------|-----------------------------|---------------------|\n| $100,000        | $1,188\u2013$1,428            | ~$2,920                | $1,000\u2013$4,000              | $5,108\u2013$8,348[1][3] |\n| $500,000        | $1,428\u2013$2,400            | ~$14,600\u2013$16,950       | $1,000\u2013$4,000              | $17,028\u2013$23,350[1]  |\n\nSmall nonprofits (<$100,000 raised) face disproportionate impacts from flat $0.30 fees on low-value gifts, complicating budgeting and reducing net revenue.[3][4] Official sources emphasize custom quotes and bundled features but do not list these fees transparently.[5][6]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 602,
+  "estimated_cost_usd": 0.014051,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://checkthat.ai/brands/donorperfect/pricing",
+      "https://pricingnow.com/question/donorperfect-cost/",
+      "https://www.zeffy.com/blog/donorperfect-reviews",
+      "https://www.donorperfect.com/nonprofit-technology-blog/fundraising-software/donation-and-credit-card-processing-for-nonprofits/",
+      "https://www.donorperfect.com/video/donorperfects-new-pricing/",
+      "https://www.donorperfect.com/fundraising-software/pricing-guide/",
+      "https://www.capterra.com/p/2698/DonorPerfect-Fundraising-Software/",
+      "https://www.pixelconsulting.io/post/donorperfect-vs-salesforce",
+      "https://www.donorperfect.com/factsheets/insta-charge-and-donorperfect/"
+    ]
+  }
+}

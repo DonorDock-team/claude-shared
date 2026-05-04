@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P095",
+  "prompt_text": "Hidden costs of DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.870082+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorPerfect, like many comprehensive software-as-a-service (SaaS) platforms, has a base subscription cost, but organizations often encounter additional, less obvious \"hidden\" costs as they use and expand their operations with the system. These can be monetary, time-related, or resource-related.\n\nHere's a breakdown of common hidden costs associated with DonorPerfect:\n\n1.  **Tiered Pricing & Overage Fees:**\n    *   **Contact/Record Limits:** Your base subscription is likely tied to a certain number of constituent records. As your database grows, you'll need to upgrade to a higher tier, incurring significantly higher monthly fees. This can be an unpredictable cost if your organization experiences rapid growth.\n    *   **Email Sending Limits:** DonorPerfect includes email marketing capabilities, but there are often limits on the number of emails you can send per month. Exceeding these limits can lead to per-email overage charges or require an upgrade to a higher tier.\n    *   **Text Messaging (SMS):** While some basic SMS might be included, mass texting campaigns or high volumes will almost certainly incur additional per-message costs or require a specific add-on package.\n\n2.  **Implementation & Setup Costs:**\n    *   **Data Migration:** While DonorPerfect provides tools and sometimes assisted migration, complex data from multiple sources (spreadsheets, old CRMs, various platforms) often requires significant staff time for cleaning, formatting, and mapping. If you hire professional services for this, it's a substantial cost.\n    *   **Customization & Configuration:** Setting up custom fields, reports, dashboards, donation forms, and workflows to match your specific needs can be very time-consuming. If you need advanced help, you might pay for professional services or consulting.\n    *   **Integrations:** Connecting DonorPerfect to your website, accounting software (like QuickBooks), email marketing platforms (if you use a third-party), or other tools often requires development work, specific connectors (which can be a recurring fee), or an API subscription.\n\n3.  **Add-on Modules & Premium Features:**\n    *   **DonorPerfect Payment Services (DPPS) Fees:** While tightly integrated, DPPS has its own transaction fees (percentage + per-transaction fee) which are separate from your subscription. These add up significantly with higher donation volumes.\n    *   **Advanced Reporting/Analytics:** While standard reporting is robust",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 504,
+  "estimated_cost_usd": 0.001262,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

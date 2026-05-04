@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P119",
+  "prompt_text": "AI to draft donor thank you letters",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.869292+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Certainly! When drafting a donor thank you letter, you'll want to express genuine appreciation, reflect on the impact of their contribution, and foster an ongoing relationship. Here\u2019s a general template you can customize for your needs:\n\n---\n\n[Your Organization's Letterhead or Logo]\n\n[Date]\n\n[Donor's Name]  \n[Donor's Address]  \n[City, State, ZIP Code]\n\nDear [Donor's Name],\n\nI hope this message finds you well. On behalf of [Your Organization's Name], I want to extend my heartfelt gratitude for your generous donation of [exact amount or description of the donation, e.g., $500, 100 books, etc.] on [date of donation]. Your support plays a crucial role in helping us achieve our mission to [briefly state mission, e.g., provide shelter to homeless families, educate underprivileged children, etc.].\n\nThanks to your generosity, we have been able to [mention a specific achievement or project made possible by the donation, e.g., feed over 100 families last month, offer scholarships to deserving students, etc.]. Your commitment to our cause is both encouraging and inspiring, and it empowers us to continue our work with renewed energy and dedication.\n\nIt is because of kind-hearted donors like you that we can [mention future goals, e.g., expand our reach to more communities, launch new programs, etc.]. We are thrilled to have you as part of our community, and we look forward to updating you on the positive changes that your contribution is helping to bring about.\n\nOnce again, thank you for your support and belief in what we do. If you have any questions or would like to learn more about our upcoming initiatives, please do not hesitate to reach out to me directly at [contact information].\n\nWarmest regards,\n\n[Your Full Name]  \n[Your Position]  \n[Your Organization's Name]  \n[Contact Information]  \n[Website URL]\n\nP.S. We\u2019d love for you to stay connected with us through our newsletter, which you can sign up for at [link], or by visiting us on [social media platforms, e.g., Facebook, Instagram, etc.].\n\n---\n\nFeel free to adjust the content to better fit the tone and style of your organization, and to personalize it with specific details about the donor and their contributions.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 468,
+  "estimated_cost_usd": 0.004715,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

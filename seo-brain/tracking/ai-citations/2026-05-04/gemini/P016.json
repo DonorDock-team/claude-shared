@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P016",
+  "prompt_text": "Alternative to DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869653+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorPerfect is a popular choice for non-profit CRM and fundraising, but it's certainly not the only option. The \"best\" alternative depends heavily on your organization's specific needs, budget, size, and desired features.\n\nHere's a breakdown of excellent alternatives, categorized by their typical strengths:\n\n---\n\n### Comprehensive All-in-One CRMs (Similar to DonorPerfect's Target Audience)\n\nThese platforms aim to provide a full suite of donor management, fundraising, event management, and reporting tools.\n\n1.  **Bloomerang:**\n    *   **Strengths:** Very user-friendly interface, strong focus on donor retention and engagement (with built-in tools like wealth screening and donor advised fund identification), excellent support.\n    *   **Best for:** Small to mid-sized non-profits prioritizing ease of use, donor relationship building, and modern analytics. Often seen as a direct competitor to DonorPerfect with a more modern UI.\n\n2.  **Neon CRM (part of NeonOne):**\n    *   **Strengths:** Highly comprehensive suite covering CRM, fundraising, events, memberships, volunteers, and even websites. Very scalable and customizable.\n    *   **Best for:** Mid-sized to large non-profits with diverse needs, especially those with strong membership programs, complex event structures, or extensive volunteer management.\n\n3.  **Little Green Light (LGL):**\n    *   **Strengths:** Very affordable, straightforward, and powerful for its price point. Excellent for managing donor data, gifts, and basic campaigns. Good integration options.\n    *   **Best for:** Small non-profits or startups with limited budgets that need a robust, no-frills donor management system without sacrificing core functionality.\n\n4.  **Network for Good:**\n    *   **Strengths:** All-in-one solution that includes CRM, online fundraising, event management, and email marketing. They also offer coaching and support for non-profits.\n    *   **Best for:** Small to mid-sized non-profits looking for a single vendor solution with strong support and guidance, particularly for those new to digital fundraising.\n\n5.  **Kindful (now part of NeonOne):**\n    *   **Strengths:** Modern interface, strong integrations with other popular tools (",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 479,
+  "estimated_cost_usd": 0.001199,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P116",
+  "prompt_text": "Best AI tool for nonprofit donor outreach",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.868523+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best AI Tools for Nonprofit Donor Outreach\n\nHere are the top AI-powered tools specifically useful for nonprofit donor outreach:\n\n## **Best Overall Options**\n\n**1. Givebutter**\n- AI-powered donor insights and segmentation\n- Automated personalized email campaigns\n- Free for nonprofits (optional tips-based model)\n\n**2. Bloomerang**\n- AI-driven donor retention predictions\n- Automated engagement recommendations\n- Specifically designed for nonprofits\n\n**3. DonorSearch AI**\n- Predictive analytics for identifying major donors\n- Wealth screening and propensity scoring\n- Integration with existing databases\n\n## **For Email Campaigns**\n\n**4. Mailchimp (Nonprofit Discount)**\n- AI content generation for appeals\n- Send time optimization\n- Audience segmentation\n\n**5. ChatGPT/Claude**\n- Draft personalized donor letters\n- Create campaign messaging\n- Generate social media content\n- Free or low-cost options available\n\n## **For CRM & Management**\n\n**6. Salesforce Nonprofit Cloud (Einstein AI)**\n- Predictive donor scoring\n- Automated task recommendations\n- Robust but requires setup\n\n## **Budget-Friendly Recommendations**\n\n- **Start with:** ChatGPT (free) for content creation + Mailchimp free tier\n- **Mid-level:** Givebutter or Bloomerang\n- **Enterprise:** Salesforce with Einstein AI\n\nWhat's your nonprofit's primary need - writing content, identifying prospects, or managing relationships?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Givebutter",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 348,
+  "estimated_cost_usd": 0.005265,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

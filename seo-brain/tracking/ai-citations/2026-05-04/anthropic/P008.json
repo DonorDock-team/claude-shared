@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P008",
+  "prompt_text": "DonorDock vs Neon CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.868465+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Neon CRM Comparison\n\nBoth are popular nonprofit CRM solutions, but they serve different organizational needs:\n\n## **DonorDock**\n\n### Best For\n- Small to medium nonprofits\n- Organizations wanting simplicity and ease of use\n- Teams needing quick setup and adoption\n\n### Strengths\n- **Simple, intuitive interface** - minimal learning curve\n- **Affordable pricing** - typically lower cost\n- **Strong donor management** basics\n- **Good customer support** with personalized service\n- **Quick implementation** - can be up and running fast\n- Task management and donor communication tools\n\n### Limitations\n- Fewer advanced features\n- Limited customization options\n- Smaller integration ecosystem\n- Less robust reporting capabilities\n\n---\n\n## **Neon CRM**\n\n### Best For\n- Small to large nonprofits\n- Organizations needing comprehensive features\n- Groups wanting all-in-one functionality\n\n### Strengths\n- **Comprehensive feature set** - CRM, fundraising, events, membership, email marketing\n- **Strong reporting and analytics**\n- **Extensive integrations** (QuickBooks, Mailchimp, etc.)\n- **Customizable** forms, fields, and workflows\n- **Event management** built-in\n- **Membership management** capabilities\n- Larger user community\n\n### Limitations\n- Steeper learning curve\n- Can feel complex for very small organizations\n- Higher price point\n- Setup takes more time\n\n---\n\n## **Key Decision Factors**\n\n| Factor | DonorDock | Neon CRM |\n|--------|-----------|----------|\n| **Pricing** | Generally lower | Higher, but more features |\n| **Ease of Use** | \u2b50\u2b50\u2b50\u2b50\u2b50 | \u2b50\u2b50\u2b50 |\n| **Features** | Core essentials | Comprehensive |\n| **Scalability** | Good for small-medium | Scales to large orgs |\n| **Setup Time** | Days | Weeks |\n\n## **Bottom Line**\n\n- **Choose DonorDock** if you want simplicity, quick implementation, and affordable pricing for basic donor management\n- **Choose Neon CRM** if you need a full-featured platform with events, memberships, robust reporting, and room to grow\n\nWould you like specific pricing information or details about a particular feature?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 543,
+  "estimated_cost_usd": 0.008199,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

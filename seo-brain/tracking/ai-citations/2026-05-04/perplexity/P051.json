@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P051",
+  "prompt_text": "Best donor CRM for lean fundraising teams",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869582+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For lean fundraising teams, **Bloomerang** and **DonorDock** are top recommendations that prioritize simplicity and efficiency.[6][5]\n\n**Bloomerang** is specifically designed for nonprofits that don't need extensive complexity. It's **simple and easy to use**, with a focus built around donor retention rather than overwhelming feature sets.[6] This makes it ideal for smaller teams managing multiple responsibilities without dedicated staff for each function.\n\n**DonorDock** positions itself as an **all-in-one CRM built specifically for lean nonprofit teams who do it all.**[5] It integrates giving, email, and stewardship capabilities into a single, streamlined system, eliminating the need to manage multiple platforms\u2014a significant advantage when team capacity is limited.\n\nOther notable options for resource-constrained teams include **Keela, Zeffy, Aplos, and DonorPerfect**, which are all designed with donor management as a core function.[8] If your organization requires more extensive customization and integration capabilities and has some technical support available, **Salesforce NPSP** offers powerful, tailored features for nonprofits, though it typically requires more setup and expertise than the simpler platforms.[4]\n\nThe key distinction is whether your team prioritizes ease of use and quick implementation (Bloomerang, DonorDock) or needs flexibility to scale features as your organization grows (Salesforce NPSP).",
+  "donordock_mentioned": true,
+  "donordock_position": 49,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 277,
+  "estimated_cost_usd": 0.009179,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://onlinedegrees.sandiego.edu/donor-management-software/",
+      "https://www.donordock.com/compare",
+      "https://stratuslive.com/blog/nonprofit-crm-systems-comparison/",
+      "https://www.donorperfect.com",
+      "https://www.authencio.com/blog/best-donor-management-software-for-nonprofits-guide"
+    ]
+  }
+}

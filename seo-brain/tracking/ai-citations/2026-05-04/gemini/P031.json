@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P031",
+  "prompt_text": "Alternative to Little Green Light",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869464+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Little Green Light (LGL) is a robust donor management and fundraising CRM often used by non-profits and political campaigns. The best alternative for you will depend heavily on your organization's specific needs, budget, size, and desired features.\n\nHere's a breakdown of alternatives, categorized by their primary strengths:\n\n---\n\n### Comprehensive Non-Profit CRMs (Direct LGL Competitors)\n\nThese platforms offer a similar all-in-one approach to donor management, fundraising, communications, and reporting.\n\n1.  **Bloomerang:**\n    *   **Strengths:** Highly regarded for its user-friendly interface, donor retention focus (predictive analytics), excellent reporting, and integration capabilities. Very popular with small to medium-sized non-profits. Includes features for email, online giving, events, and volunteer management.\n    *   **Good for:** Organizations looking for a modern, intuitive, and data-driven CRM.\n\n2.  **DonorPerfect:**\n    *   **Strengths:** A long-standing and very comprehensive solution with a wide array of features including donor management, online fundraising forms, event management, grant tracking, and robust reporting. Can be highly customized.\n    *   **Good for:** Mid-sized to larger non-profits needing a highly customizable and scalable solution with a deep feature set.\n\n3.  **Salesforce Nonprofit Success Pack (NPSP):**\n    *   **Strengths:** Extremely powerful, flexible, and scalable. Built on the world's leading CRM platform, it offers extensive customization, integrations, and automation possibilities. Many apps and add-ons are available on the AppExchange. Salesforce offers free licenses for non-profits.\n    *   **Good for:** Organizations with complex needs, larger budgets (for implementation and ongoing management), or those that need to integrate deeply with other business systems. Requires technical expertise for full utilization.\n\n4.  **Neon One (NeonCRM):**\n    *   **Strengths:** Offers a full suite of tools including CRM, fundraising, membership management, event management, and even website integration. Known for being quite comprehensive and modular, allowing organizations to pick and choose features.\n    *   **Good for:** Non-profits that manage memberships, events, and fundraising all under one roof, looking for an integrated solution.\n\n5.  **Blackbaud (eTapestry, Raiser's Edge NXT, Blackbaud CRM):**\n    *   **Strengths:** Blackbaud is the largest provider of non-profit software. eTapestry is a cloud-based solution for small-to-mid-sized non-profits, while Raiser's Edge NXT and Blackbaud CRM are enterprise-level solutions for larger organizations. They offer extensive fundraising, accounting, and grant management features.\n    *   **Good for:** Organizations already familiar with Blackbaud products, or larger non-profits with significant resources looking for market-leading solutions.\n\n---\n\n### Political Campaign & Advocacy Specific\n\nIf your primary use for LGL was political campaigns or advocacy groups, these might be better fits.\n\n1.  **NationBuilder:**\n    *   **Strengths:** Combines CRM, fundraising, website management, email, and social media tools, specifically designed for political campaigns, advocacy groups, and non-profits centered around community organizing. Focuses on organizing, communicating, and fundraising in an integrated way.\n    *   **Good for:** Political campaigns, activists, and advocacy organizations needing a platform to manage supporters, communications, and field operations.\n\n2.  **EveryAction (formerly NGP VAN):**\n    *   **",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "LGL",
+    "Little Green Light",
+    "Neon One",
+    "Raiser's Edge",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 749,
+  "estimated_cost_usd": 0.001874,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

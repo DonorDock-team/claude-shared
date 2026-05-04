@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P135",
+  "prompt_text": "Why nonprofits leave DonorPerfect",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.868644+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Nonprofits leave DonorPerfect primarily because the platform is too expensive, too complex, and too maintenance-intensive for their organizational size.[1] The software is designed for larger nonprofits and reflects its feature set in pricing, leaving small organizations paying for capabilities they don't use.[1]\n\n## Key Reasons for Departure\n\n**Cost sensitivity** is the most consistent complaint. Small nonprofits struggling with the platform's monthly costs and per-transaction fees often find cheaper alternatives better suited to their budget.[1]\n\n**Complexity and usability friction** compound over time. Users report workflow limitations such as inability to open multiple windows to compare donors and batch entry screens hard-coded to display only 10 rows despite larger screen space.[1] These small inefficiencies particularly burden small teams doing repetitive data entry.\n\n**Poor organizational fit** accounts for many departures. DonorPerfect users who leave typically fall into specific categories: volunteer-run organizations, nonprofits under $250K in annual revenue, teams without dedicated CRM management, or those running basic campaigns and membership programs.[1] For these organizations, the platform's extensive feature set becomes a liability rather than an asset.\n\n**Support variability** also contributes to churn. While some users praise support quality, public-facing reviews on Trustpilot reflect frustrated users experiencing problems with billing, cancellations, or complex support cases.[1] Support experience appears to vary significantly by plan tier and issue type.\n\nThe review data indicates that organizations departing DonorPerfect aren't experiencing a bad product\u2014they're using a tool built for a different organizational scale.[1] For smaller nonprofits, a different category of tool entirely may be more appropriate than a cheaper version of the same platform.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 334,
+  "estimated_cost_usd": 0.010031,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.zeffy.com/blog/donorperfect-reviews",
+      "https://www.donorperfect.com/nonprofit-technology-blog/fundraising-software/announces-acquisition-of-givecloud/",
+      "https://www.donorperfect.com/factsheets/client-resources/",
+      "https://www.donorperfect.com/company/social-good/",
+      "https://www.donorperfect.com/nonprofit-technology-blog/featured/find-the-silver-linings/",
+      "https://www.donorperfect.com/nonprofit-technology-blog/featured/fixing-donor-attrition/",
+      "https://www.donorperfect.com/video/donor-retention-and-upgrade-journey-in-donorperfect/",
+      "https://www.donorperfect.com/nonprofit-technology-blog/fundraising-software/dpcc-t-clay-buck-2025/"
+    ]
+  }
+}

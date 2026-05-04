@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P005",
+  "prompt_text": "DonorDock vs Bloomerang",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869514+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Overview\n**DonorDock** and **Bloomerang** are both nonprofit CRMs focused on donor management, but DonorDock emphasizes an all-in-one platform with AI tools and unlimited contacts at a flat price, while Bloomerang prioritizes retention analytics and offers modular add-ons with pricing that scales by contacts.[1][2][4]\n\n### Key Feature Comparison\n| Category              | Bloomerang                                                                 | DonorDock                                                                 |\n|-----------------------|----------------------------------------------------------------------------|---------------------------------------------------------------------------|\n| **Core Focus**       | Retention scores, engagement metrics, donor analytics[1][4]                | Action Board for daily tasks, Smart Nudges, AI assistant (Otto) for personalized comms and insights[1] |\n| **Included Tools**   | CRM base; extra fees for email ($125+/mo), fundraising ($40+/mo), volunteers ($119+/mo)[1] | CRM, email/text marketing, online giving, project mgmt, AI\u2014all in one plan[1][2] |\n| **Contacts/Users**   | Pricing scales with contact volume; unlimited users[1][2]                  | Unlimited contacts and users on every plan[1][2]                          |\n| **AI/Integrations**  | Penny AI for analytics[1]                                                  | Otto AI deeply integrated with workflows; custom fields, integrations[1]  |\n| **Other**            | Wealth screening, nightly address verification, volunteer mgmt add-on[2][6]| Task mgmt (Action/Ask Boards), custom reporting, SOC 2 Type II[1]         |\n\nDonorDock bundles features without add-ons, making it more predictable for growing nonprofits, while Bloomerang requires piecing together modules.[1][2]\n\n### Pricing\n- **DonorDock**: Single \"ONE\" plan at ~$98/month (plus transaction fees); no contracts, unlimited everything, no setup fee.[1][2][3]\n- **Bloomerang**: Starts at $125/month for CRM; scales with contacts; add-ons extra (e.g., $40+/month fundraising); 1%+ platform fees.[1][2][3]\nDonorDock keeps costs flat as donor base grows, unlike Bloomerang's volume-based scaling.[1]\n\n### User Reviews and Ratings\n- **TrustRadius (2026)**: DonorDock scores higher in Fundraising/Events (9.1 vs. 7.0); both 9.5/10 for small businesses. DonorDock praised as \"powerful tool\" for budget-challenged orgs.[2]\n- **G2**: Bloomerang has higher overall satisfaction; users like its data analysis and ease. DonorDock lauded as \"one-stop shop\" for donations/email/memberships, but some note reporting limits.[4]\n- **Capterra**: Mixed; Bloomerang users love integrations (e.g., DonorSearch) and value; one calls DonorDock \"amazing product for reasonable price.\" Complaints on Bloomerang include billing and UI.[5]\nReviewers note DonorDock's ease for small/medium nonprofits, while Bloomerang excels in analytics depth.[4][5]\n\n### Strengths and Limitations\n- **Choose DonorDock** if you want affordable, actionable AI/tools without scaling costs or add-ons\u2014ideal for small teams needing daily workflows.[1][2]\n- **Choose Bloomerang** for strong retention analytics, volunteer mgmt, and proven donor engagement scoring, despite higher/modular pricing.[1][4][8]\nThird-party sites (e.g., Zeffy) highlight both have fees unlike free alternatives, but DonorDock appears more cost-effective for basics.[3] Data from DonorDock's site is promotional, so cross-check reviews for balance.[1][4]",
+  "donordock_mentioned": true,
+  "donordock_position": 15,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 785,
+  "estimated_cost_usd": 0.016799,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/compare/bloomerang-vs-donordock",
+      "https://www.trustradius.com/compare-products/bloomerang-vs-donordock",
+      "https://www.zeffy.com/compare/bloomerang-vs-donordock",
+      "https://www.g2.com/compare/bloomerang-crm-vs-donordock",
+      "https://www.capterra.com/compare/131207-184187/Bloomerang-vs-DonorDock",
+      "https://donorbox.org/nonprofit-blog/donorbox-vs-bloomerang",
+      "https://www.softwareadvice.com/nonprofit/bloomerang-profile/vs/donordock/",
+      "https://www.donordock.com/articles/small-nonprofits-crm"
+    ]
+  }
+}

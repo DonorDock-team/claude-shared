@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P059",
+  "prompt_text": "Nonprofit CRM with donation forms",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.870046+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When selecting a CRM (Customer Relationship Management) system for a nonprofit organization, integrating donation forms is often a critical requirement. Here are some popular CRM systems tailored for nonprofits that offer donation form capabilities:\n\n1. **Salesforce.org Nonprofit Cloud**\n   - Salesforce offers a robust CRM platform with a Nonprofit Success Pack (NPSP) that includes features specifically designed for nonprofits.\n   - It supports donor management, fundraising, and provides customizable donation forms.\n   - The platform also integrates well with various third-party applications to enhance functionality.\n\n2. **Bloomerang**\n   - Bloomerang is designed to help nonprofits with donor management and retention.\n   - It includes features for creating personalized donation forms that can be embedded on your website.\n   - Offers insights and analytics to understand donor behavior and improve engagement.\n\n3. **Blackbaud eTapestry**\n   - Blackbaud offers a range of products for nonprofits, including eTapestry, which is suitable for small to mid-sized organizations.\n   - It provides integrated online donation forms and tools for managing donor information.\n   - The platform focuses on ease of use and constituent relationship building.\n\n4. **NeonCRM**\n   - NeonCRM offers a comprehensive set of tools for managing donations, events, memberships, and more.\n   - It includes customizable online donation forms that can be branded to match your organization\u2019s website.\n   - The system offers automation tools to streamline processes and improve efficiency.\n\n5. **DonorPerfect**\n   - This platform provides a wealth of features for managing donor relationships and fundraising efforts.\n   - DonorPerfect's integrated online forms offer secure donation processing and customization options.\n   - It also offers tools for reporting, analytics, and communication with donors.\n\n6. **Wild Apricot**\n   - Wild Apricot is an all-in-one membership management software that also caters to nonprofit needs.\n   - It provides online donation forms and a member database, alongside event registration and website building capabilities.\n   - Designed for small to mid-sized organizations, its ease of use is a noted advantage.\n\n7. **Kindful**\n   - Kindful, now part of the Bloomerang family, is known for its intuitive interface and robust integrations with third-party tools.\n   - It offers donation forms that can be embedded or shared via links, simplifying the donation process.\n   - The platform focuses on helping nonprofits understand and engage their donor base effectively.\n\nWhen choosing a CRM for your nonprofit, consider factors such as the size of your organization, specific feature needs, budget constraints, and integration capabilities with other tools you're using. Additionally, most of these platforms offer a free trial or demo, which can be beneficial for assessing the system's suitability for your organization.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 544,
+  "estimated_cost_usd": 0.005472,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

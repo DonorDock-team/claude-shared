@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.870008+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Tracking soft credits in donor CRMs involves recording them on separate objects or fields linked to gift transactions, distinguishing them from hard credits (actual payments), and using rollups, reports, or dashboards for aggregation and visibility.**[1][2][4]\n\n### Key Concepts Across CRMs\nSoft credits recognize individuals or entities (e.g., fundraisers, introducers, or household members) who influenced a donation without making the payment, while hard credits go to the payer.[1][4][7] This enables accurate reporting for recognition, fundraising totals, and donor stewardship.[1][2]\n\n### CRM-Specific Methods\n- **Salesforce Nonprofit Success Pack (NPSP) / Fundraising**:\n  - Use the **Gift Soft Credit** object to track soft credits, created individually or via the Gift Entry tool alongside gift transactions.[1]\n  - **Gift Default Soft Credit** automates soft credits for future transactions in a commitment.[1]\n  - Data rolls up automatically to the **Donor Gift Summary** object, showing counts, totals, first/highest/latest amounts for soft/hard credits combined; view on donor accounts or use for segmentation.[1]\n  - For donor-advised funds (DAFs), create **Affiliation** records linking the DAF to the influencing contact, leveraging hard credit rollups over soft credits for clarity.[5]\n\n- **Beacon CRM**:\n  - Record the payer as hard credit; add the fundraiser/influencer as **Fundraiser** (soft credit) on the payment record.[2]\n  - Track via **metric cards** on People records or dashboards: Use \"Payer\" for hard credits, \"Fundraiser\" for soft credits (filter by \"Type is Donation\"); sum amounts for totals.[2]\n\n- **Site Stacker**:\n  - Log the institution (e.g., foundation) as donor (hard credit); specify the advisor/individual as **Soft Credit** during batch entry or split designations.[3]\n  - View full history in the donor's contributions campaign view or dashboard, including DAF relationships via record types like \"donor-advised fund donor.\"[3]\n\n- **Blackbaud CRM**:\n  - Apply **recognition credits** (their soft credit equivalent) to additional constituents beyond the hard credit donor; the donor also receives recognition credit.[4]\n  - Use parallel systems: Hard credits for financial reports, hard + soft for honor rolls; sum on records for total recognition.[4][7]\n\n- **Access Charity CRM**:\n  - From the contact's record, go to **Soft Creditors** tab, click **Plus** to add soft credit payments.[8]\n\n### Best Practices\n- For DAFs, debate exists: Some give hard credit to the sponsor and soft to the individual; others use affiliations or soft credits only to avoid muddling totals.[5][6]\n- Always ensure soft credits support reporting needs, like filtering fundraisers or segmenting donors.[1][2]\n- Test in a sandbox (e.g., Salesforce Developer org) for accuracy.[1]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 632,
+  "estimated_cost_usd": 0.014507,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://trailhead.salesforce.com/content/learn/modules/soft-credits-and-tributes-in-fundraising/credit-everyone-involved-in-a-donation",
+      "https://guide.beaconcrm.org/en/articles/6817580-recording-soft-credits",
+      "https://training.sitestacker.com/support/solutions/articles/151000179915-how-to-log-and-track-soft-credits-in-site-stacker",
+      "https://www.brightvinesolutions.com/post/2015/10/07/blackbaud-crm-recognition-credits-part-1-the-basics",
+      "https://www.soliantconsulting.com/blog/salesforce-blog/donor-advised-funds-salesforce-npsp/",
+      "https://bloomerang.com/blog/ask-an-expert-how-to-credit-recognize-daf-gifts-in-a-crm/",
+      "https://kb.blackbaud.com/knowledgebase/articles/Article/37510",
+      "https://accessgroup.my.site.com/Support/s/article/Access-Charity-CRM-How-are-soft-credit-payments-created?language=en_US"
+    ]
+  }
+}

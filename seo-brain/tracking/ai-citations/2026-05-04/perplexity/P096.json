@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P096",
+  "prompt_text": "Hidden costs of Neon CRM",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.868379+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Neon CRM's hidden costs primarily stem from its modular pricing structure, where core donor management is included in the base subscription but common features like events, memberships, and advanced reporting require separate add-ons, alongside unlisted pricing, implementation expenses, and data hygiene issues.**\n\n### Modular Add-Ons and Unpredictable Pricing\nNeon CRM does not publish fixed prices; all tiers (Base Platform, Events Add-On, Memberships Add-On, Enterprise/Advanced) require a demo and custom quote based on organizational needs.[2][4] The base covers donor management, online fundraising, email marketing, and standard reporting, but events (registration, ticketing), memberships (renewals, portals), and advanced analytics incur extra line-item costs.[2] Mid-sized nonprofits needing events and memberships often face significantly higher totals than the base.[2]\n\n### Implementation and Ongoing Overhead\nFirst-year costs extend beyond subscriptions to include migration, data cleanup, training, and onboarding services, which are not detailed upfront.[2] Process overhead persists post-launch, such as manual exports, spreadsheet reconciliations, and report reformatting for gaps like grant compliance (restricted fund tracking, expenditure reporting).[2] Pricing scales with revenue, not contacts, but lacks transparency on these extras.[4]\n\n### Data Quality and Operational Waste\nNeglecting NCOA (National Change of Address), deceased suppression, and data enhancement leads to wasted postage, returned mail, and outreach to invalid contacts, analyzable as average hidden expenses.[1] Address standardization (CASS & DPV) helps mitigate this, but it's not automatic without prioritization.[1]\n\n### Grant and Compliance Gaps\nBase features omit comprehensive grant lifecycle management, requiring custom configurations or third-party tools for restricted funds, compliance reporting, and audits.[2] This creates dependencies in the NeonOne suite, complicating migrations.[2]\n\nFor accurate budgeting, nonprofits should request itemized quotes covering all needed modules, plus year-one implementation and overhead estimates.[2] Alternatives like GrantPipe highlight these gaps by bundling grant tools at fixed monthly rates ($199\u2013$399).[2]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 433,
+  "estimated_cost_usd": 0.011513,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://truegivers.com/neoncrm-pricing/",
+      "https://grantpipe.com/compare/pricing/neon-crm/",
+      "https://givebutter.com/alternatives/neon-one",
+      "https://www.softwareadvice.com/nonprofit/neoncrm-profile/"
+    ]
+  }
+}

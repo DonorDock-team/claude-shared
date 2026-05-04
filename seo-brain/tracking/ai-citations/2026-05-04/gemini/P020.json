@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P020",
+  "prompt_text": "Cheaper alternative to Blackbaud",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869892+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Blackbaud offers a wide range of solutions, from CRM and fundraising to accounting and education management. When looking for a \"cheaper alternative,\" it's important to specify *which* Blackbaud product you're replacing, as their offerings vary significantly (e.g., Raiser's Edge, Financial Edge, CRM, K-12 Solutions, Luminate Online).\n\nHowever, generally speaking, most organizations are looking for a more affordable and often more user-friendly alternative for **Nonprofit CRM and Fundraising Management**.\n\nHere's a list of popular and generally more affordable alternatives to Blackbaud's CRM and fundraising suites:\n\n## Top Cheaper Alternatives for Nonprofit CRM & Fundraising:\n\n1.  **Salesforce Nonprofit Cloud (with Nonprofit Success Pack - NPSP):**\n    *   **Why it's an alternative:** Extremely powerful, highly customizable, and *free for the first 10 user licenses* for qualified nonprofits (after that, licenses are deeply discounted). It's a robust platform that can handle CRM, fundraising, program management, and more.\n    *   **Considerations:** While the core licenses can be free/cheap, implementation, customization, and ongoing administration can require significant internal resources or paid consultants. It's a comprehensive ecosystem, not just a simple tool.\n\n2.  **Bloomerang:**\n    *   **Why it's an alternative:** Known for its user-friendly interface and strong focus on donor retention. It offers CRM, email marketing, online giving forms, donor prospecting, and reporting. Often praised for ease of use compared to older Blackbaud systems.\n    *   **Considerations:** Pricing is based on the number of constituents, making it scalable for various sizes. Generally considered very competitive on price and features for small to mid-sized organizations.\n\n3.  **Kindful (now part of Bonterra Tech / EveryAction):**\n    *   **Why it's an alternative:** All-in-one platform for donor management, fundraising pages, email marketing, peer-to-peer, and event management. It integrates well with many other tools (QuickBooks, Mailchimp, etc.).\n    *   **Considerations:** Offers a good balance of features and affordability, especially for organizations looking for a modern, integrated solution.\n\n4.  **Neon CRM (now part of Bonterra Tech / EveryAction):**\n    *   **Why it's an alternative:** Comprehensive nonprofit CRM that includes donor management, membership management, event registration, fundraising, and website integration. Strong for organizations with diverse needs, including membership-based models.\n    *   **Considerations:** Scales well and offers a robust feature set for its price point.\n\n5.  **Little Green Light (LGL):**\n    *   **Why it's an alternative:** Very popular for smaller nonprofits due to its affordability and comprehensive features, including donor management, gift processing, communications, and reporting.\n    *   **Considerations:** Excellent value for money. It might not have the enterprise-level depth of some other solutions, but it's often more than enough for many small to mid-sized organizations.\n\n6.  **DonorPerfect:**\n    *   **Why it's an alternative:** A long-standing player in the nonprofit software space, offering robust donor management, fundraising tools, event management, and reporting. It's a comprehensive solution often seen as a direct competitor to Blackbaud products.\n    *",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 718,
+  "estimated_cost_usd": 0.001797,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

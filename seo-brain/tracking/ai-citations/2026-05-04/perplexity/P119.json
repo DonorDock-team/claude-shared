@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P119",
+  "prompt_text": "AI to draft donor thank you letters",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869313+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "AI tools like ChatGPT, Google's Gemini, and specialized platforms (e.g., Fundwriter.ai, Taskade, Poe bots) can draft personalized donor thank-you letters by using tailored prompts that incorporate your organization's mission, donor details, and gift impact.[1][2][3][4][5]\n\n### Ready-to-Use Prompts\nCopy these into a free AI chatbot (e.g., ChatGPT) and replace brackets with specifics like donor name, gift use, and organization details.\n\n1. **Basic Educational Nonprofit Prompt** (from AI for Education):  \n   \"You are an experienced fundraising and development professional with a background in raising philanthropy for educational non-profits globally. Your task is to draft a thank you letter to a recent donor. Explain the connection between [INPUT MISSION AND VISION OF ORG] and the donor's generous gift.\"[1]\n\n2. **Gail Perry Group Template** (warm, upbeat style with strict guidelines):  \n   \"As an experienced nonprofit fundraising expert, write a short thank you letter to [donor\u2019s name] which will begin with an innovative or creative sentence that charms the donor and conveys gratitude using a tone that is warm, positive and upbeat. Include how the gift will be used [xxx], the name of your organization [xxx] and sign it by a high-ranking person [name/role] including their phone number [xxx]. **Requirements:** Use the first person: \u201cI\u201d and \u201cwe.\u201d Use the second person: \u201cyou,\u201d \u201cyou\u201d and \u201cyou\u201d again. Say things like \u201cI can\u2019t begin to thank you enough for\u2026\u201d We are absolutely thrilled to have your support again this year.\u201d or \u201cBecause of your gift, a family will . . .\u201d Use contractions such as \u201cWe\u2019ll\u201d rather than \u201cWe will.\u201d Use exclamation marks if appropriate, but don\u2019t use too many of them. Show some emotion. Talk about the impact of the gift: what is the donor achieving by giving? Be concise. Don\u2019t be formal or lofty. Don\u2019t start out with \u201con behalf of.\u201d Don\u2019t use thank you letter jargon such as \u201cwe are deeply grateful for your continued support.\u201d Don\u2019t start out with \u201cDear Friend.\u201d Don\u2019t ask anything else from your donor.\"[3]\n\n### Specialized AI Tools\n| Tool | Key Features | Access |\n|------|--------------|--------|\n| **Poe Fundraiser-Thank-You** | Free; generates 6 opening lines, full letter with P.S.; customizes by donor contribution, mission, amount.[2] | poe.com/Fundraiser-Thank-You |\n| **Taskade Generator** | Personalized letters for donor retention; streamlines workflow.[4] | taskade.com/generate/nonprofit/donor-thank-you-letter |\n| **Fundwriter.ai** | Drafts personalized thank-yous, appeals, emails; handles multiple donor segments.[5] | fundwriter.ai |\n| **Willy FreeWill** | AI writing buddy; inputs donor name, nonprofit details for quick notes.[8] | willy.freewill.com/ty-notes |\n| **DonorPerfect AI** | Personalizes outreach with donor appreciation focus.[6] | donorperfect.com/fundraising-ai-writer-bot |\n\n### Best Practices\n- **Personalize deeply**: Include specific gift impact (e.g., \"Your $500 helps 10 students access mentors\") to boost retention.[2][3][9]\n- **Upload examples**: Attach past letters (redact sensitive info) for style matching.[1]\n- **Edit always**: Review for accuracy, add emotion, avoid jargon like \"deeply grateful.\"[3]\n- **Timing**: Send within 48 hours for events; use for loyalty-building.[9]\n\nThese approaches save time while creating heartfelt letters that encourage repeat giving.[2][3][4]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 794,
+  "estimated_cost_usd": 0.016934,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.aiforeducation.io/prompts/write-a-donor-thank-you-letter",
+      "https://www.youtube.com/watch?v=q0pBLiWiV60",
+      "https://gailperrygroup.com/use-ai-to-write-donor-thank-you-letters/",
+      "https://www.taskade.com/generate/nonprofit/donor-thank-you-letter",
+      "https://www.fundwriter.ai",
+      "https://www.donorperfect.com/fundraising-ai-writer-bot/",
+      "https://bit.ai/ai-prompts/donor-thank-you-letter",
+      "https://willy.freewill.com/ty-notes",
+      "https://www.nonprofitfixer.com/nonprofit-fixer-blog/how-to-write-thank-you-email-after-successful-event"
+    ]
+  }
+}

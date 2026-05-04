@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869385+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Free alternatives to Salesforce Nonprofit Cloud for nonprofits include Zeffy, HubSpot CRM, CiviCRM, Donorbox, Givebutter, Zoho CRM Free, and Bitrix24 Free.** These options provide donor management, fundraising, and CRM features tailored or adaptable for nonprofits, often with limitations on users, features, or requiring setup.[1][2][3]\n\n### Key Free Options and Features\n- **Zeffy**: 100% free donor management and fundraising platform for small to mid-sized nonprofits, covering transaction fees with no costs ever.[1]\n- **HubSpot CRM**: Free general CRM with unlimited users, donor tracking, forms, email automation, reporting, and integrations; strong for marketing-driven nonprofits.[1][2][3]\n- **CiviCRM**: Open-source, nonprofit-specific CRM for donor management; free but needs technical setup for self-hosting.[1]\n- **Donorbox**: Free starting tier for fundraising with donation forms in multiple languages and currencies.[2]\n- **Givebutter**: Free plan for nonprofit fundraising, loved for ease and low costs.[2]\n- **Zoho CRM Free**: Supports up to 3 users with pipelines, web forms, workflows, and mobile app; balanced for small teams.[3]\n- **Bitrix24 Free**: Unlimited users with CRM, project management, chat, forms, and collaboration tools.[2][3]\n\n| Tool | Best For | Limitations | Sources |\n|------|----------|-------------|---------|\n| Zeffy | Fundraising & donors | Small/mid-sized orgs | [1] |\n| HubSpot CRM | Marketing & tracking | General CRM, not nonprofit-only | [1][2][3] |\n| CiviCRM | Nonprofit-specific | Technical setup required | [1] |\n| Donorbox | Donations | Free tier only | [2] |\n| Givebutter | Fundraising | Free plan details vary | [2] |\n| Zoho CRM Free | Small teams | 3 users max | [3] |\n| Bitrix24 Free | Collaboration | Add-ons may cost | [2][3] |\n\n**Note on Salesforce itself**: Nonprofits get 10 free licenses via the Power of Us program with apps like NPSP, but additional users cost money\u2014not fully free for scaling orgs.[4][5] Other listed tools like Bloomerang have paid plans despite free tiers mentioned elsewhere.[1][2] Evaluate based on your org size, technical needs, and features like integrations.[1][2][3]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "DonorBox",
+    "Givebutter",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 522,
+  "estimated_cost_usd": 0.012854,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.zeffy.com/blog/salesforce-for-nonprofits",
+      "https://www.krowdbase.com/alternatives/salesforce.org-nonprofit-cloud",
+      "https://www.fastslowmotion.com/salesforce-free-crm-alternatives/",
+      "https://www.salesforceben.com/4-free-salesforce-apps-for-nonprofits/",
+      "https://cube84.com/blog/bloomerang-vs-salesforce-nonprofit-cloud-vs-npsp-which-crm-is-best-for-your-nonprofit",
+      "https://www.capterra.com/p/265078/Salesforceorg-Nonprofit-Cloud/alternatives/",
+      "https://www.softwareadvice.com/nonprofit/salesforce-org-profile/alternatives/",
+      "https://www.liveimpact.org/salesforce"
+    ]
+  }
+}

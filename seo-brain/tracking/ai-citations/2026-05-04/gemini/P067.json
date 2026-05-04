@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869469+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor relationships effectively across a team is crucial for successful fundraising, personalized engagement, and preventing duplicated or conflicting efforts. The key is to establish a **centralized system** combined with clear **processes and communication protocols**.\n\nHere's a comprehensive guide:\n\n## 1. The Foundation: A Centralized CRM System\n\nThis is non-negotiable. A Constituent Relationship Management (CRM) system designed for nonprofits is the backbone of tracking donor relationships.\n\n**Key Features Your CRM Must Have:**\n\n*   **Comprehensive Donor Profiles:**\n    *   Contact information (multiple contacts per household/organization)\n    *   Demographics (age, profession, interests, marital status, etc.)\n    *   Communication preferences (email, mail, phone, opt-outs)\n    *   Customizable fields for unique donor attributes.\n*   **Interaction Tracking:**\n    *   Log every touchpoint: calls, emails, meetings, social media interactions, events attended.\n    *   Include date, type of interaction, key notes/outcomes, and the team member responsible.\n*   **Donation History:**\n    *   Dates, amounts, designation/fund, payment method, campaigns.\n    *   Pledge management.\n*   **Relationship Manager Assignment:**\n    *   Clearly designate a primary \"owner\" for each donor relationship. This prevents multiple team members from contacting the same donor without coordination.\n*   **Task Management & Reminders:**\n    *   Assign follow-up tasks (e.g., \"send thank you,\" \"schedule call,\" \"research interests\") to specific team members with due dates.\n    *   Automated reminders for tasks.\n*   **Segmentation & Grouping:**\n    *   Ability to categorize donors based on giving level, interests, event attendance, potential, etc.\n*   **Reporting & Analytics:**\n    *   Track fundraising performance, donor retention, campaign effectiveness, and team activity.\n*   **Communication Tools (Integrations):**\n    *   Integration with email platforms (Mailchimp, Constant Contact) for mass communications.\n    *   Ability to send personalized emails directly from the CRM.\n*   **Document Storage:**\n    *   Store relevant documents like meeting notes, proposals, or research.\n*   **Activity Feed/Timeline:**\n    *   A chronological view of all interactions and changes for a donor.\n\n**Popular Non-Profit CRM Options:**\n\n*   **Salesforce NPSP (Nonprofit Success Pack):** Highly customizable, powerful, but can have a learning curve and require admin expertise. Often free/discounted for nonprofits.\n*   **Blackbaud Raiser's Edge NXT:** A robust, industry-standard solution for larger organizations, though it can be costly.\n*   **DonorPerfect:** User-friendly, good for small to mid-sized nonprofits.\n*   **Bloomerang:** Known for its focus on donor retention and engagement analytics.\n*   **Little Green Light:** Affordable, good for smaller organizations.\n*   **NeonOne:** Offers a suite of tools including CRM, event management, and peer-to-peer fundraising.\n*   **Kindful (now part of Bloomerang):** Simple, modern interface, good for integration.\n\n## 2. Essential Processes & Best Practices\n\nA CRM is only as good as the data entered and the processes around it.\n\n**a. Define Clear Roles & Responsibilities:**\n\n*   **Donor Relationship Manager (DRM):** Assign a primary DRM to each major donor, prospect, or even segments of donors. This person is responsible for cultivating the",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 751,
+  "estimated_cost_usd": 0.00188,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

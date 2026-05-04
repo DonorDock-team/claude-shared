@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P097",
+  "prompt_text": "Hidden costs of Network for Good",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.868415+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Network for Good\n\nNetwork for Good is a popular fundraising platform for nonprofits, but several hidden or less obvious costs can add up:\n\n## Transaction Fees Beyond the Basics\n\n- **Standard processing fee**: 3% + $0.30 per transaction (advertised)\n- **Donor covering fees**: If donors don't opt to cover fees, your organization absorbs the full cost\n- **Failed/disputed transaction fees**: Chargebacks can incur additional costs\n\n## Platform & Subscription Costs\n\n- **Monthly platform fees**: Vary by plan level ($0-$249+/month depending on features)\n- **Annual vs. monthly pricing**: Monthly subscriptions cost more over time\n- **Feature limitations**: Lower tiers require upgrades to access essential tools\n\n## ACH/Check Disbursement Fees\n\n- **ACH transfer fees**: May apply when transferring funds to your bank\n- **Check disbursement**: Physical check delivery often incurs fees\n- **Transfer timing**: Delayed access to funds can impact cash flow\n\n## Additional Service Costs\n\n- **Donor management system**: Some features require higher-tier subscriptions\n- **Custom branding**: May require premium plans\n- **Integration costs**: Connecting to your CRM or accounting software\n- **Training and support**: Premium support may cost extra\n\n## Opportunity Costs\n\n- **Donor data access**: Limited ownership/portability of donor information\n- **Recurring gift management**: May have restrictions or additional fees\n- **Reporting limitations**: Advanced analytics often require upgrades\n\n## Best Practices\n\n1. Calculate total cost of ownership across all fee types\n2. Compare with alternatives (Donorbox, GiveWP, Kindful)\n3. Read the fine print on contract terms\n4. Factor in your donation volume and average gift size\n\nWould you like specific comparisons with alternative platforms?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Kindful",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 413,
+  "estimated_cost_usd": 0.006234,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

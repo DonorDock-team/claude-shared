@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869536+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Both **DonorDock** and **Keela** are popular choices for nonprofit CRM and fundraising software, but they cater to slightly different needs and offer distinct strengths.\n\nHere's a breakdown to help you compare them:\n\n## DonorDock\n\n**Key Strengths:**\n\n*   **Simplicity & Ease of Use:** DonorDock is often praised for its intuitive interface, modern design, and user-friendly experience. It's designed to be easy to learn and navigate, even for users who aren't tech-savvy.\n*   **Microsoft Ecosystem Integration:** A major differentiator. If your organization heavily relies on Microsoft products (Office 365, Outlook, Teams, Excel), DonorDock offers seamless integration, making data flow and daily operations very smooth.\n*   **Clean Donor Management:** Excellent for tracking donor interactions, donations, and managing contact information with a clear, concise view.\n*   **Modern UI/UX:** The platform looks and feels very current, which can enhance user adoption and overall experience.\n\n**Potential Considerations:**\n\n*   **Less \"All-in-One\":** While it covers core fundraising and donor management well, it might not have the same breadth of *specialized* features as Keela in areas like peer-to-peer fundraising or advanced AI insights.\n*   **Newer Player:** While rapidly maturing, it's a newer entrant compared to some established CRMs, meaning its feature set might be slightly less extensive in certain niche areas.\n\n## Keela\n\n**Key Strengths:**\n\n*   **Comprehensive All-in-One Platform:** Keela aims to be a true all-in-one solution, encompassing not just donor management but also robust fundraising tools (online forms, peer-to-peer, recurring donations), email marketing, project management, and basic grant management.\n*   **AI-Powered Insights & Automation:** Keela leverages AI to provide donor insights, suggest ideal ask amounts, identify at-risk donors, and automate tasks, which can be a significant time-saver and strategy enhancer.\n*   **Strong Reporting & Analytics:** Offers powerful, customizable reporting and dashboards to help you understand your data and make informed decisions.\n*   **Robust Fundraising Tools:** Excels in providing a wide range of tools for different fundraising campaigns, including integrated peer-to-peer functionality.\n\n**Potential Considerations:**\n\n*   **Learning Curve:** While generally user-friendly, its comprehensive nature means there might be a steeper learning curve to fully utilize all its features compared to DonorDock's more streamlined approach.\n*   **Can Be Feature-Rich (or Overwhelming):** For very small organizations with simple needs, Keela's extensive feature set might feel like \"too much,\" potentially leading to unused features.\n*   **Pricing Structure:** Pricing typically scales with the number of contacts and features, so it's important to understand the tiers to ensure it aligns with your budget and growth.\n\n---\n\n## Head-to-Head Comparison\n\n| Feature                 | DonorDock                               | Keela                                     |\n| :---------------------- | :-------------------------------------- | :---------------------------------------- |\n| **Target Audience**     | Small to mid-sized, Microsoft-centric.  | Small to growing mid-sized, data-driven.  |\n| **Core",
+  "donordock_mentioned": true,
+  "donordock_position": 7,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 682,
+  "estimated_cost_usd": 0.001706,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

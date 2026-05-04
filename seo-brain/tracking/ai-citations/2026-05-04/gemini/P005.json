@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P005",
+  "prompt_text": "DonorDock vs Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869534+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Bloomerang are both excellent donor management systems designed for nonprofits, but they cater to slightly different needs and organizational sizes. Choosing between them depends heavily on your specific requirements, budget, and long-term goals.\n\nHere's a comprehensive comparison to help you decide:\n\n---\n\n### Executive Summary\n\n*   **Bloomerang:** A more established, robust, and data-science-driven platform, ideal for growing to mid-sized nonprofits that value advanced analytics, donor retention insights (like the Engagement Meter), and a comprehensive suite of tools. It can scale well but might come at a higher price point.\n*   **DonorDock:** A newer, modern, and often more affordable solution, particularly appealing to small to mid-sized nonprofits that prioritize ease of use, a clean interface, integrated communication tools, and a streamlined approach to donor management.\n\n---\n\n### Key Differentiators\n\n*   **Bloomerang's Engagement Meter:** This is a standout feature. It uses data science to predict donor engagement and retention, helping nonprofits focus their efforts on donors most likely to lapse or upgrade.\n*   **DonorDock's Integrated Email:** DonorDock offers more robust built-in email marketing capabilities, often reducing the need for a separate email marketing platform for many organizations. Bloomerang's email is more basic, often requiring integration with third-party tools like Mailchimp or Constant Contact for advanced campaigns.\n*   **User Interface (UI):** DonorDock is often praised for its very modern, clean, and intuitive UI, making it feel very contemporary and easy to navigate. Bloomerang also has a good UI, but it might feel a bit more traditional in comparison.\n*   **Pricing Structure:** While both are tiered, DonorDock often positions itself as a more budget-friendly option, especially for",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 371,
+  "estimated_cost_usd": 0.000929,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

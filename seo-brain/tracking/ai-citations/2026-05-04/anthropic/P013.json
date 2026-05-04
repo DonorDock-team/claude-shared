@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P013",
+  "prompt_text": "DonorDock vs Little Green Light",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869409+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Little Green Light\n\nBoth are donor management systems designed for nonprofits, but they target different organization sizes and have distinct approaches.\n\n## **DonorDock**\n\n### Strengths\n- **Modern, intuitive interface** - Clean, user-friendly design\n- **Relationship-focused** - Emphasizes building donor connections\n- **Affordable pricing** - Generally lower cost, good for small-to-medium nonprofits\n- **Quick implementation** - Easier to get started\n- **Good customer support** - Responsive team\n\n### Limitations\n- Less comprehensive reporting compared to LGL\n- Fewer advanced features for complex organizations\n- Smaller user community\n\n## **Little Green Light (LGL)**\n\n### Strengths\n- **Robust reporting** - Extensive customizable reports and analytics\n- **Comprehensive features** - More tools for complex fundraising operations\n- **Established platform** - Longer track record (since 2000s)\n- **Batch processing** - Better for handling large data operations\n- **Email integration** - Built-in email marketing tools\n\n### Limitations\n- Steeper learning curve - Interface can feel dated\n- Higher cost - More expensive, especially as you scale\n- Can be overwhelming for smaller organizations\n\n## **Which to Choose?**\n\n**Choose DonorDock if:**\n- You're a smaller nonprofit (budget under $1M)\n- You want something easy to learn quickly\n- Modern UX/UI is important to your team\n- You need basic-to-intermediate features\n\n**Choose Little Green Light if:**\n- You have complex reporting needs\n- You're a mid-sized organization with dedicated staff\n- You need advanced fundraising tools\n- Budget allows for higher investment\n\nBoth offer free trials - I'd recommend testing each with your actual data and workflows.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 404,
+  "estimated_cost_usd": 0.006108,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

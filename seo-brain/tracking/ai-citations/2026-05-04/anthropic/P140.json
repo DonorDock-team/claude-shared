@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869496+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRMs with QuickBooks Online Integration\n\nHere are the top donor management systems that integrate with QuickBooks Online:\n\n## **Best Overall Options**\n\n### **1. Bloomerang**\n- Native QuickBooks Online integration\n- Syncs donations, donor data, and financial records\n- Strong fundraising and donor engagement tools\n- Mid-range pricing (~$125+/month)\n\n### **2. DonorPerfect**\n- Robust QuickBooks Online integration\n- Bi-directional sync available\n- Comprehensive fundraising features\n- Pricing starts ~$89/month\n\n### **3. Little Green Light**\n- Direct QuickBooks Online connection\n- Budget-friendly for small nonprofits\n- Good reporting capabilities\n- Starts at ~$49/month\n\n## **Other Strong Contenders**\n\n### **4. Kindful** (by Bloomerang)\n- Seamless QuickBooks sync\n- User-friendly interface\n- Good for growing organizations\n\n### **5. Neon CRM**\n- QuickBooks Online integration via API\n- All-in-one nonprofit solution\n- Event management included\n\n### **6. Keela**\n- QuickBooks integration available\n- AI-powered insights\n- Affordable for smaller nonprofits\n\n## **Key Considerations**\n\n- **Sync type**: One-way vs. bi-directional\n- **What syncs**: Donations only vs. full contact records\n- **Frequency**: Real-time vs. scheduled syncs\n- **Cost**: Integration may require higher-tier plans\n\n**What size organization are you, and what's your primary use case?** This will help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 381,
+  "estimated_cost_usd": 0.005772,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

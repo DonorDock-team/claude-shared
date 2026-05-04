@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P148",
+  "prompt_text": "Donor management vs CRM what's the difference",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869984+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor Management vs CRM: Key Differences\n\n## **Donor Management Systems**\n- **Purpose**: Specifically designed for nonprofits to track donations and donor relationships\n- **Core Features**:\n  - Donation tracking and receipting\n  - Pledge management\n  - Campaign tracking\n  - Grant management\n  - Nonprofit-specific reporting (IRS compliance, annual reports)\n  - Event/fundraising management\n  - Donor acknowledgment letters\n\n## **CRM (Customer Relationship Management)**\n- **Purpose**: Originally designed for businesses to manage customer relationships and sales\n- **Core Features**:\n  - Contact management\n  - Sales pipeline tracking\n  - Marketing automation\n  - Customer service tools\n  - General relationship tracking\n  - Broader business applications\n\n## **The Overlap**\nMany modern platforms blur these lines:\n- **Nonprofit CRMs** (like Salesforce Nonprofit Cloud, Bloomerang) combine both\n- They offer donor-specific features within a CRM framework\n- Both track relationships, communications, and engagement history\n\n## **Bottom Line**\n- **Pure donor management** = specialized for fundraising and donations\n- **General CRM** = broader tool that can be adapted for donor management\n- **Nonprofit CRM** = best of both worlds\n\n**Which to choose?** If you're a nonprofit, look for platforms that specifically support fundraising needs, even if they're labeled as either \"donor management\" or \"CRM.\"",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 325,
+  "estimated_cost_usd": 0.004926,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

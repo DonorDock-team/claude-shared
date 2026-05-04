@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P121",
+  "prompt_text": "AI for donor research",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869457+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top AI Tools for Donor Research in Nonprofits\n\nAI is transforming donor research by analyzing vast datasets from donor databases, philanthropic records, and the open web to predict giving potential, identify high-value prospects, and prioritize outreach. Key tools from the search results focus on predictive modeling, profile generation, and data enrichment. Below, I'll highlight the most relevant ones with their core features, benefits, and evidence from sources.\n\n#### 1. **DonorSearch Ai** (Most Advanced Predictive Modeling)\n   - **Description**: A machine learning platform built on the world's largest philanthropic database (trusted by 13,000+ nonprofits since 2007). It creates customizable models to score prospects on metrics like Most Likely to Respond (MLR), repeat donor likelihood (81% accuracy), new donor potential, retention, upgrades, and lifetime value (up to 20x higher for selected prospects).\n   - **Key Capabilities**:\n     - Enriches your donor data nightly (e.g., address updates).\n     - Processes prospect research to recommend outreach pipelines in minutes (vs. 4 hours manually).\n     - Integrates with 40+ CRMs/donor platforms for seamless data flow.\n   - **Evidence/Benefits**: Reduces portfolio prioritization time dramatically; boosts healthcare fundraising by spotting passionate prospects. Part of a suite including Enhanced CORE (entry-level visualization) and ProspectView Online 2 (AI-generated prospect reports).\n   - **Sources**: [1], [2]\n   - **Best For**: Major gift officers needing predictive scores on wealth/philanthropy data.\n\n#### 2. **DonorAtlas** (AI-Powered Web Research Profiles)\n   - **Description**: Generates verified, cited profiles from the open web, with on-demand research for any prospect in seconds.\n   - **Key Capabilities**:\n     - Reduces research time by 75% by aggregating contextual data (e.g., connections to your mission).\n     - CRM integration to pull insights into your existing systems.\n   - **Evidence/Benefits**: Users report finding mission-aligned donors faster, freeing time for strategy and engagement.\n   - **Source**: [3]\n   - **Best For**: Quick, comprehensive prospect profiling without manual web scraping.\n\n#### Complementary AI Uses in Donor Research\nWhile not full platforms, these enhance research workflows:\n| Tool/Approach | Use Case | Evidence/Source |\n|---------------|----------|-----------------|\n| **Dataro** | Ranks donors by next action using historical patterns. | Turns data into prioritized lists [8] |\n| **Fundraise Up AI** | Analyzes engagement for personalized donation suggestions (e.g., local currency, optimal amounts). | Trained on non-PII patterns for better conversions [4] |\n| **Generic AI (e.g., ChatGPT)** | Surfaces funder priorities from 990s/reports; personalizes comms based on donor history. | Segments by interests for tailored reports [5], [6], [7] |\n\n#### Getting Started Tips\n- **Data Foundation**: Start with a clean donor database\u2014AI excels with comprehensive, up-to-date info [1].\n- **Customization**: Tools like DonorSearch Ai let you tailor algorithms to your nonprofit's goals [2].\n- **Limitations**: AI enhances (not replaces) human judgment; always verify outputs ethically.\n\nFor deeper dives, visit DonorSearch.net or DonorAtlas.com. These tools prioritize accuracy and integration, making donor research scalable for nonprofits of all sizes.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 723,
+  "estimated_cost_usd": 0.01586,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donorsearch.net/resources/ai-for-nonprofits/",
+      "https://www.donorsearch.net/donorsearch-ai/",
+      "https://www.donoratlas.com",
+      "https://fundraiseup.com/blog/5-ways-to-drive-donor-engagement-with-AI-for-nonprofits/",
+      "https://www.fidelitycharitable.org/articles/ai-tools-every-nonprofit-needs.html",
+      "https://afpglobal.org/leveraging-ai-without-spending-dime",
+      "https://adagetech.com/blog/utilizing-artificial-intelligence-for-fundraising-excellence/",
+      "https://dataro.io"
+    ]
+  }
+}

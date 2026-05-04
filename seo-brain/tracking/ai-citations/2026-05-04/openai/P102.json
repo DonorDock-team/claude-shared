@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.869366+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "There are several free alternatives to Salesforce Nonprofit Cloud that nonprofit organizations can consider. While these options may not have all the features of Salesforce, they can still provide valuable tools for managing donors, volunteers, and programs. Here are some free or open-source alternatives:\n\n1. **CiviCRM**:\n   - A free, open-source CRM specifically designed for nonprofits, NGOs, and advocacy groups.\n   - It integrates with popular content management systems like WordPress, Joomla, and Drupal.\n   - Provides features like contact management, fundraising, event planning, and mass email marketing.\n\n2. **Bloomerang (Starter)**:\n   - Bloomerang offers a free version for small nonprofits managing up to 250 records.\n   - Includes basic donor management features, email marketing, and reporting tools.\n\n3. **Little Green Light**:\n   - While not completely free, it offers a free trial and is low-cost.\n   - Provides donor management, fundraising, event management, and reporting tools.\n\n4. **SuiteCRM**:\n   - A free and open-source alternative to Salesforce.\n   - Suitable for nonprofits needing customization and an array of modules for managing relationships, campaigns, and more.\n\n5. **Odoo (Community Edition)**:\n   - An open-source platform with a variety of applications, including CRM functionalities.\n   - Can be customized and extended with additional modules to suit nonprofit needs.\n\n6. **EspoCRM**:\n   - An open-source CRM that offers sales automation, marketing automation, and customer support tools.\n   - Can be tailored for nonprofit use with a capable developer.\n\n7. **Zoho CRM (Free Edition)**:\n   - While the free version has limitations, it can be suitable for small teams.\n   - Offers contact management, workflows, and basic analytics.\n\n8. **HubSpot CRM**:\n   - Provides a generous free tier that includes contact management, email marketing, and reporting capabilities.\n   - While not designed specifically for nonprofits, it can be adapted for such use with some customization.\n\nWhen selecting a CRM, it's important for nonprofits to consider not just the cost but also the features offered, ease of use, support and community resources, as well as the ability to scale as the organization grows.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 448,
+  "estimated_cost_usd": 0.004515,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

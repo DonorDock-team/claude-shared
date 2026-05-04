@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P089",
+  "prompt_text": "Best donor CRM for mental health nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869721+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a mental health nonprofit requires a balance of general nonprofit CRM features with specific considerations around data sensitivity, program tracking, and impact reporting.\n\nHere are the top recommendations, emphasizing what makes them suitable for mental health nonprofits, along with crucial factors to consider:\n\n### Top Recommendations:\n\n1.  **Salesforce Nonprofit Cloud (NPSP)**\n    *   **Why it's great for Mental Health Nonprofits:**\n        *   **Unparalleled Customization & Scalability:** If you have complex programs, specific data points you need to track related to mental health initiatives (e.g., funding for specific therapies, age groups, or research areas), Salesforce can be configured to almost anything.\n        *   **Robust Integration Ecosystem:** Salesforce's AppExchange offers thousands of integrations, including potentially with Electronic Health Records (EHRs) *if* your organization needs that (though careful data segregation is key, see below). It integrates seamlessly with marketing, accounting, and grant management tools.\n        *   **Sophisticated Grant Management:** Many mental health services are grant-funded. NPSP offers powerful tools for tracking grant applications, progress, and reporting requirements.\n        *   **Community & Support:** A massive ecosystem of users, consultants, and developers means plenty of support and resources.\n        *   **Free/Discounted Licenses:** Salesforce offers 10 free licenses to eligible nonprofits, making it highly cost-effective for the software itself, though implementation and ongoing customization can require investment.\n    *   **Considerations:** Steep learning curve, often requires a dedicated administrator or consultant for initial setup and ongoing customization.\n\n2.  **Bloomerang**\n    *   **Why it's great for Mental Health Nonprofits:**\n        *   **Donor Retention Focus:** Bloomerang is renowned for its focus on donor retention, engagement, and relationship building. For sensitive topics like mental health, building trust and maintaining strong donor relationships through thoughtful communication is paramount.\n        *   **User-Friendly Interface:** Generally considered very intuitive and easy for staff to learn and use, reducing training time.\n        *   **Strong Reporting & Insights:** Excellent dashboards",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 447,
+  "estimated_cost_usd": 0.00112,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

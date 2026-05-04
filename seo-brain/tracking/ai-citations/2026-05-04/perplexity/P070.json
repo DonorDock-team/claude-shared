@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869644+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Automating donor thank-you letters involves selecting appropriate tools, integrating your donor database, creating customizable templates, and setting up automated triggers to send personalized messages immediately after donations are received.[1]\n\n## Key Implementation Steps\n\n**Select Your Platform:** Choose an email marketing platform, CRM, or fundraising software that fits your organization's needs and budget.[1][5] Options range from donor management systems to integrated platforms like Give with Zapier, Blackbaud with Power Automate, or specialized services like DonorDock.[3][6]\n\n**Integrate Your Data:** Sync your donor database with your chosen platform to ensure accurate, personalized outputs.[1] This allows the system to pull relevant donor information automatically.\n\n**Create Templates:** Develop customizable email or letter templates that can be populated with donor-specific information such as names, donation amounts, and project details.[1][4]\n\n**Configure Triggers:** Set up automated triggers to send thank-you communications immediately after a donation is processed.[1] Some systems can run nightly searches for milestone conditions like a donor's 10th gift or 15-year giving streak.[2]\n\n**Test Before Launch:** Test your automation to ensure functionality, then continuously optimize based on engagement metrics.[1]\n\n## Personalization Techniques\n\nTo maintain a personal touch despite automation, use **merge tags** to populate donor names, donation amounts, and dates directly into your templates.[7] For example: \"*|FNAME|*, thank you for your *|DONATION_AMOUNT|* gift!\"[7] You can also reference specific projects donors supported or include impact stories about how their contribution made a difference.[1]\n\n## Physical Thank-You Options\n\nFor handwritten letters, you can automate the process using services like Handwrytten integrated with Give and Zapier.[3] This workflow triggers automatic physical letters after donations, though costs typically range from $3\u2013$5 per letter.[3] You can set filters to send physical letters only for donations above a certain threshold to manage expenses.[3]",
+  "donordock_mentioned": true,
+  "donordock_position": 574,
+  "competitors_mentioned": [
+    "Blackbaud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 404,
+  "estimated_cost_usd": 0.011084,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.simpleandengaging.com/2025/03/08/streamlining-donor-thank-you-emails-with-automation/",
+      "https://www.youtube.com/watch?v=T-ky91xawT8",
+      "https://givewp.com/how-to-automate-a-hand-written-donor-thank-you-note/",
+      "https://www.donorperfect.com/factsheets/receipting/",
+      "https://donordatabaseexperts.com/automate-donor-acknowledgment-and-stay-personal/",
+      "https://www.youtube.com/watch?v=8Je29eVPvCE",
+      "https://www.givelively.org/resources/use-merge-tags-to-personalize-automated-thank-you-emails-to-donors",
+      "https://www.donordock.com/features/automatic-thank-yous",
+      "https://www.socialimpactsolutions.com/donor-thank-you-letter/"
+    ]
+  }
+}

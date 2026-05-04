@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P087",
+  "prompt_text": "Best donor CRM for refugee services",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.869572+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When choosing a donor CRM for refugee services, it's crucial to focus on solutions that cater to the specific needs of non-profits and have features suitable for managing donors, volunteers, and beneficiaries. Here are some CRM systems that are often recommended for organizations like refugee services:\n\n1. **Salesforce Nonprofit Cloud**: Salesforce offers a powerful and flexible CRM tailored for non-profits. Its Nonprofit Success Pack (NPSP) is specifically designed to help with managing donors, tracking donations, volunteer management, and impact reporting. It's highly customizable, which can be advantageous for refugee services with specific requirements.\n\n2. **Bloomerang**: This CRM is designed for small to medium-sized non-profits and is known for its user-friendly interface and donor retention focus. It offers features like donor profiles, engagement tracking, and reporting that can help refugee service organizations maintain and grow their donor base.\n\n3. **DonorPerfect**: This is a comprehensive donor management system offering tools for fundraising, donor engagement, and event management. It can be particularly useful for refugee services looking to organize community events and track donor interactions.\n\n4. **Kindful**: Kindful offers easy integration with other platforms and is focused on donor management and fundraising. Its user-friendly interface and robust reporting tools can help refugee services efficiently track donations and manage donor relationships.\n\n5. **Blackbaud Raiser\u2019s Edge NXT**: Known for its powerful fundraising and donor management capabilities, Raiser\u2019s Edge NXT is suitable for larger non-profits. It offers tools for donor analytics, segmentation, and personalized communication, which can be beneficial for refugee services engaging with a large donor network.\n\n6. **Neon CRM**: Neon CRM is tailored for non-profits of various sizes and offers features like donor management, email marketing, and fundraising event tracking. It's a good option for refugee services that need an all-in-one platform for their operations.\n\nWhen selecting a CRM, consider factors like integration capabilities, scalability, user interface, and support services, as well as your organization's specific needs and budget. It's often helpful to request demos or trials to better understand how a CRM will meet the unique demands of managing refugee services.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 437,
+  "estimated_cost_usd": 0.004403,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

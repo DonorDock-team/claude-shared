@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P050",
+  "prompt_text": "Best donor CRM for community nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869487+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Community Nonprofits\n\nHere are the top options based on size and needs:\n\n## **Best Overall for Small-Medium Nonprofits**\n**Bloomerang** ($125+/month)\n- Excellent donor retention tools\n- User-friendly interface\n- Strong reporting and engagement tracking\n- Great for organizations focused on relationship-building\n\n## **Best Free/Low-Cost Options**\n\n**Little Green Light** ($59+/month)\n- Affordable with robust features\n- Good reporting capabilities\n- Solid customer support\n\n**Kindful** (now part of Bloomerang)\n- Simple, intuitive design\n- Good for growing nonprofits\n- Online donation integration\n\n**CiviCRM** (Free, open-source)\n- Completely free if you have technical capacity\n- Highly customizable\n- Requires WordPress, Drupal, or Joomla\n\n## **Best for Very Small Nonprofits**\n\n**DonorPerfect** ($89+/month)\n- Scalable as you grow\n- Comprehensive features\n- Good online fundraising tools\n\n**Neon CRM** ($50+/month)\n- All-in-one platform\n- Event management included\n- Membership tracking\n\n## **Key Features to Look For:**\n- Donation tracking & receipting\n- Email marketing integration\n- Reporting capabilities\n- Online donation forms\n- Volunteer management (if needed)\n- Ease of use for small teams\n\n**What's your nonprofit's annual budget and how many donors do you typically manage?** This will help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 364,
+  "estimated_cost_usd": 0.005508,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

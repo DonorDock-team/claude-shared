@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P146",
+  "prompt_text": "Best donor CRM with grant tracking",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869860+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs with Grant Tracking\n\n## Top Recommendations\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- **Grant features:** Grant tracking, deadlines, reporting requirements\n- **Strengths:** Excellent donor retention tools, user-friendly\n- **Pricing:** ~$125/month+\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with complex needs\n- **Grant features:** Comprehensive grant management module, custom workflows\n- **Strengths:** Highly customizable, robust reporting\n- **Pricing:** ~$36/user/month (requires setup investment)\n\n### **3. Kindful (by Bloomerang)**\n- **Best for:** Growing nonprofits\n- **Grant features:** Grant tracking integrated with donor management\n- **Strengths:** Clean interface, good automation\n- **Pricing:** ~$100/month+\n\n### **4. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established nonprofits with larger budgets\n- **Grant features:** Advanced grant lifecycle management\n- **Strengths:** Industry standard, comprehensive features\n- **Pricing:** Custom (typically $10K+/year)\n\n### **5. DonorPerfect**\n- **Best for:** Budget-conscious organizations\n- **Grant features:** Grant tracking add-on available\n- **Strengths:** Affordable, solid core features\n- **Pricing:** ~$89/month+\n\n## Key Features to Look For\n- Grant application tracking\n- Deadline reminders\n- Reporting requirement management\n- Integration with accounting software\n- Document storage\n- Funder relationship history\n\n**What's your organization's size and budget?** That will help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 407,
+  "estimated_cost_usd": 0.006147,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

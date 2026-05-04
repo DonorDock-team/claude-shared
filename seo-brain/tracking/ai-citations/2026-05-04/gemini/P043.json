@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P043",
+  "prompt_text": "Best donor CRM for human services nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.868454+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for human services nonprofits depends heavily on your specific needs, budget, size, and complexity. Human services organizations often have unique requirements, such as managing volunteers, tracking program participation (even if not full case management), and reporting on impact alongside traditional donor relations.\n\nHere's a breakdown of top contenders, with their strengths and weaknesses for human services:\n\n## Top Contenders for Human Services Nonprofits\n\n### 1. Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack)\n\n*   **Best For:** Medium to large human services organizations with complex needs, specific program tracking requirements, a desire for deep customization, and potentially integrating donor data with program/client data.\n*   **Strengths for Human Services:**\n    *   **Unparalleled Customization:** You can tailor it to track virtually anything \u2013 donors, volunteers, clients, programs, services rendered, grant applications, even basic case management (though dedicated case management software might be better for highly sensitive/complex client data).\n    *   **Robust Reporting:** Powerful analytics and dashboards to demonstrate impact to donors and stakeholders.\n    *   **Scalability:** Grows with your organization, no matter how complex your operations become.\n    *   **Integration Ecosystem:** Connects with thousands of apps for email marketing, accounting, payment processing, client portals, and more.\n    *   **Free for 10 Users:** The NPSP is free for up to 10 users, making the base software accessible, though customization and additional apps can add costs.\n*   **Weaknesses for Human Services:**\n    *   **Steep Learning Curve:** Requires dedicated staff or a consultant for setup, customization",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 346,
+  "estimated_cost_usd": 0.000867,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

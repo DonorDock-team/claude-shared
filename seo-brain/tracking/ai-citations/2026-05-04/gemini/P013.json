@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P013",
+  "prompt_text": "DonorDock vs Little Green Light",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869462+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Both **DonorDock** and **Little Green Light (LGL)** are donor management software solutions designed for non-profit organizations. They both aim to help charities manage their donor data, track donations, and facilitate fundraising efforts. However, they cater to slightly different needs and approaches.\n\nHere's a comparison to help you decide which might be a better fit for your organization:\n\n---\n\n## DonorDock vs. Little Green Light (LGL)\n\n| Feature                 | DonorDock                                              | Little Green Light (LGL)                                  |\n| :---------------------- | :----------------------------------------------------- | :-------------------------------------------------------- |\n| **Primary Focus**       | Modern, all-in-one, automated donor management with a focus on engagement and growth. | Streamlined, affordable, and easy-to-use core donor management. |\n| **Target Audience**     | Small to medium-sized non-profits looking for a comprehensive, modern system with automation and growth tools. | Small non-profits, those migrating from spreadsheets, or organizations prioritizing simplicity and affordability for core CRM. |\n| **User Interface**      | Modern, intuitive, clean, and often praised for ease of navigation. | Clean, straightforward, functional, but perhaps less visually modern than DonorDock. |\n| **Donor Database**      | Comprehensive donor profiles, gift tracking, pledges, relationships, communication history. | Robust for core donor data, gifts, pledges, constituent types, and custom fields. |\n| **Gift Entry & Tracking** | Efficient gift entry, batch processing, automated thank-yous, recurring gifts. | Very strong and easy-to-use gift entry, batch processing, recurring gifts, pledges. |\n| **Fundraising Tools**   | Built-in online giving forms, event management (often with ticketing), peer-to-peer options, grant tracking. | Online giving forms, basic event management, appeal management, direct mail support. |\n| **Email Marketing**     | Integrated email marketing tools, segmentation, templates, automation of communications. | Basic email functionality for direct outreach; integrates well with dedicated email services (Mailchimp, Constant Contact). |\n| **Automation**          | Strong emphasis on automation (e.g., automated thank-yous, task reminders, donor journeys based on behavior). | More manual processes, though it streamlines many core donor management tasks. |\n| **Reporting & Analytics** | Customizable dashboards, robust reporting features, insights into donor behavior and fundraising performance. |",
+  "donordock_mentioned": true,
+  "donordock_position": 7,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 514,
+  "estimated_cost_usd": 0.001287,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

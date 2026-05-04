@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.869628+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Automating donor thank you letters can be highly beneficial for maintaining donor relations efficiently. Here\u2019s a step-by-step guide on how to set up an automated system:\n\n### Step 1: Choose the Right Software\n- **CRM System**: Use a Customer Relationship Management (CRM) system that can track donations and donor information. Popular CRMs for nonprofits include Salesforce, Bloomerang, DonorPerfect, and Kindful.\n- **Email Marketing Tool**: If your CRM system isn\u2019t directly integrated with emailing capabilities, consider using tools like Mailchimp, Constant Contact, or any platform that can integrate with your CRM for automated emails.\n\n### Step 2: Develop a Template\n- **Create a Template**: Draft a generalized thank you letter template. Make sure to keep it warm and sincere, while leaving placeholders for personalization (e.g., donor\u2019s name, donation amount, date).\n- **Branding and Design**: Include your nonprofit\u2019s logo, colors, and any branding elements to make the letter look professional.\n\n### Step 3: Personalize Your Messages\n- **Set Up Merge Fields**: Use merge fields or variables in your template to automatically insert personalized data such as the donor\u2019s name, donation amount, and any other relevant details.\n- **Segment Donors**: If possible, segment your donors into categories based on their donation frequency or amount, and personalize messages accordingly.\n\n### Step 4: Automate the Workflow\n- **Integrate Systems**: Ensure that your CRM and email marketing tools are integrated so that donor information can be automatically pulled into your thank you letter template.\n- **Set Triggers**: Define triggers for sending out thank you letters. This might be right after a donation is made, at the end of the week, or monthly, depending on your needs.\n  \n### Step 5: Set up Testing \n- **Test Your Automation**: Before going live, test the automation with different donor profiles to ensure that all fields are populated correctly and the messages look as intended.\n- **Adjust Timings**: Confirm that the timing of the thank you messages aligns with your communication strategy.\n\n### Step 6: Monitor and Maintain\n- **Regular Updates**: Regularly review the content and effectiveness of the thank you letters and make adjustments as necessary.\n- **Feedback Loop**: Include an option for feedback or follow-up in the thank you letter to engage donors and possibly increase donor retention.\n- **Backup and Data Protection**: Ensure all donor information is backed up securely and that privacy regulations are adhered to.\n\n### Step 7: Evaluate and Iterate\n- **Analyze Response**: Monitor response rates and engagement levels with the automated thank you letters.\n- **Gather Feedback**: Periodically ask for donor feedback on your communication tactics to continuously improve.\n\nBy following these steps, you can effectively automate donor thank you letters, saving time, maintaining engagement, and ensuring prompt and personalized acknowledgment of your donors.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 591,
+  "estimated_cost_usd": 0.005945,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

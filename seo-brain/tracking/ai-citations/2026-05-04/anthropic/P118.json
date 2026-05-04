@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P118",
+  "prompt_text": "ChatGPT for nonprofits is it safe",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.868676+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# ChatGPT Safety for Nonprofits\n\nChatGPT can be safe for nonprofits when used properly, but there are important considerations:\n\n## \u2705 Safe Uses\n\n- **General content creation** (blog posts, social media, newsletters)\n- **Brainstorming** ideas for campaigns or programs\n- **Drafting templates** for communications\n- **Summarizing** public information\n- **Language translation** assistance\n- **Research** on general topics\n\n## \u26a0\ufe0f Key Safety Concerns\n\n### 1. **Data Privacy**\n- Don't input donor information, beneficiary details, or confidential data\n- Conversations may be reviewed by OpenAI (unless using ChatGPT Enterprise)\n- Assume anything you type could become public\n\n### 2. **Accuracy Issues**\n- ChatGPT can generate false information (\"hallucinations\")\n- Always verify facts, statistics, and citations\n- Don't rely on it for legal or compliance advice\n\n### 3. **Compliance Risks**\n- GDPR, data protection laws may restrict certain uses\n- Grant requirements may prohibit AI-generated content\n- Check your organization's policies first\n\n## \ud83d\udee1\ufe0f Best Practices\n\n- **Use ChatGPT Team or Enterprise** for better privacy controls\n- **Never paste** sensitive donor/client information\n- **Review and edit** all AI-generated content\n- **Create usage guidelines** for your staff\n- **Be transparent** when using AI publicly\n\n**Bottom line**: ChatGPT is a useful tool for nonprofits but requires responsible handling, especially regarding confidential information.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 363,
+  "estimated_cost_usd": 0.005499,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

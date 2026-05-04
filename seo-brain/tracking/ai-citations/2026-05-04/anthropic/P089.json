@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P089",
+  "prompt_text": "Best donor CRM for mental health nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869678+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Mental Health Nonprofits\n\nHere are the top options tailored for mental health organizations:\n\n## **Top Recommendations**\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized mental health nonprofits\n- **Strengths:** Excellent donor retention tools, intuitive interface, strong reporting\n- **Price:** ~$125-150/month\n- **Key feature:** Engagement metrics help track donor relationships over time\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with complex needs\n- **Strengths:** Highly customizable, integrates with everything, robust case management\n- **Price:** Discounted/free for qualifying nonprofits\n- **Bonus:** Can manage both donors AND client services in one system\n\n### **3. Donorbox**\n- **Best for:** Smaller organizations or those starting out\n- **Strengths:** Affordable, easy setup, recurring donations, peer-to-peer fundraising\n- **Price:** 1.5% platform fee (no monthly cost)\n\n### **4. NeonCRM**\n- **Best for:** Organizations wanting all-in-one functionality\n- **Strengths:** Event management, membership tracking, email marketing included\n- **Price:** ~$50-200/month depending on contacts\n\n## **Key Features to Prioritize**\n\n- \u2705 **HIPAA considerations** if tracking client interactions\n- \u2705 Recurring donation management (critical for mental health causes)\n- \u2705 Event management (walks, awareness campaigns)\n- \u2705 Email segmentation for sensitive communications\n- \u2705 Grant tracking capabilities\n\n**What's your organization's size and primary needs?** I can provide a more specific recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 401,
+  "estimated_cost_usd": 0.006066,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

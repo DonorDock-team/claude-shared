@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P005",
+  "prompt_text": "DonorDock vs Bloomerang",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869480+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Bloomerang Comparison\n\nBoth are popular donor management systems for nonprofits, but they serve different organizational needs:\n\n## **DonorDock**\n\n### Best For\n- Small to mid-sized nonprofits\n- Organizations wanting simpler, more affordable CRM\n- Teams prioritizing ease of use\n\n### Key Strengths\n- **Pricing**: Generally more affordable ($49-149/month typically)\n- **User-friendly interface**: Minimal learning curve\n- **Contact management**: Strong relationship tracking\n- **Customer support**: Known for responsive service\n- **Modern design**: Clean, intuitive interface\n\n### Limitations\n- Fewer advanced features than Bloomerang\n- Less robust reporting options\n- Smaller integration ecosystem\n\n## **Bloomerang**\n\n### Best For\n- Growing nonprofits with more complex needs\n- Organizations focused on donor retention\n- Teams wanting deeper analytics\n\n### Key Strengths\n- **Retention focus**: Built-in donor retention tools and metrics\n- **Reporting**: More comprehensive analytics and dashboards\n- **Email marketing**: More advanced built-in capabilities\n- **Wealth screening**: Available as add-on\n- **Integrations**: Broader third-party integrations\n- **Educational resources**: Extensive training materials\n\n### Limitations\n- **Price**: Higher cost ($125-300+/month typically)\n- **Complexity**: Steeper learning curve\n- **May be overkill**: For very small organizations\n\n## **Bottom Line**\n\n- **Choose DonorDock** if you want simplicity, affordability, and ease of use\n- **Choose Bloomerang** if you need advanced features, detailed reporting, and donor retention tools\n\nWould you like specific details about pricing, features, or integration capabilities?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 395,
+  "estimated_cost_usd": 0.005976,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.869809+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor pledges is an essential part of fundraising, ensuring that pledged amounts are collected and appropriately allocated. Here\u2019s a step-by-step guide on how to effectively track donor pledges:\n\n1. **Choose a System**:\n   - **Database Software**: Use donor management or customer relationship management (CRM) software like Salesforce, Blackbaud, DonorPerfect, or even simpler tools like Excel or Google Sheets for smaller operations.\n   - **Cloud-Based Tools**: Consider online platforms that enable easy collaboration and access from anywhere.\n\n2. **Set Up Donor Profiles**:\n   - Create individual profiles for each donor with contact information, donation history, and specific details about their pledge.\n\n3. **Record Pledge Details**:\n   - Document the amount pledged, pledge date, payment schedule, and any specific terms or conditions.\n   - Record how the pledge will be fulfilled (e.g., one-time payment, monthly, quarterly contributions).\n\n4. **Payment Schedule Management**:\n   - Create a schedule for each pledge based on the donor\u2019s commitment. Break it down into periods if necessary, to facilitate tracking.\n   - Use reminders or calendar alerts to notify when a pledge installment is due.\n\n5. **Track Payment Status**:\n   - Regularly update each donor\u2019s record to reflect payments received.\n   - Note any discrepancies or missed installments for follow-up.\n\n6. **Communication and Follow-Up**:\n   - Send timely reminders to donors ahead of payment due dates via emails, calls, or letters.\n   - Communicate gratitude with acknowledgment letters or emails for received payments.\n\n7. **Reports and Analytics**:\n   - Create regular reports to monitor pledge fulfillment rates, outstanding balances, and trends over time.\n   - Analyze data to assess donor patterns, which can help in future fundraising efforts.\n\n8. **Handle Adjustments**:\n   - Be prepared to handle any changes, such as pledge modifications, cancellations, or extensions.\n   - Update your records immediately to reflect any adjustments.\n\n9. **Maintain Security and Confidentiality**:\n   - Ensure that all donor information is securely stored with access restricted to authorized personnel only.\n\n10. **Regular Review and Audit**:\n    - Conduct regular audits of your pledge management system to ensure accuracy and completeness.\n    - Use this review to improve processes and address any potential issues.\n\nBy following these steps, you can effectively manage donor pledges, ensuring that promised funds are properly tracked and received, and maintain good relationships with your donors.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 497,
+  "estimated_cost_usd": 0.005003,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

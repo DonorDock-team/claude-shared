@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P085",
+  "prompt_text": "Best donor CRM for advocacy organizations",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869453+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Advocacy Organizations\n\nAdvocacy organizations often need CRMs that excel in **donor management, campaign tracking, email mobilization, volunteer coordination, and advocacy-specific tools** like petition signing, event management, and supporter segmentation for grassroots efforts. Based on 2026 analyses from sources like Double the Donation, GoodUnited, Kindsight, and Virtuous, here are the strongest recommendations tailored to advocacy needs. These prioritize user-friendly interfaces, scalability, and integrations with tools like email platforms (e.g., Mailchimp) or advocacy apps (e.g., for petitions via NationBuilder or Mobilize).\n\n#### 1. **Bloomerang** (Top Pick for Most Advocacy Groups)\n   - **Why it fits advocacy**: Excels in donor retention and relationship-building with engagement scoring, automated communications, and volunteer tracking\u2014key for mobilizing supporters around issues. Handles recurring donations and events seamlessly.\n   - **Key features**: Unlimited users, mobile app, wealth screening, reporting dashboards.\n   - **Pricing**: Starts at ~$119/month (billed annually); free trial.\n   - **Evidence**: Ranked highly in Kindsight's 14 best nonprofit CRMs and featured on their homepage for donor/volunteer management. Double the Donation lists it for growing supporter relationships.\n   - **Best for**: Small-to-mid advocacy orgs focused on retention over enterprise scale.\n\n#### 2. **Salesforce Nonprofit Cloud** (Best for Large-Scale Advocacy)\n   - **Why it fits advocacy**: Robust for complex campaigns, with AI-driven insights, program management, and integrations for advocacy workflows (e.g., with Slack or custom petitions). Powers major orgs like Amnesty International.\n   - **Key features**: Customizable dashboards, grant tracking, volunteer scheduling, marketing automation.\n   - **Pricing**: Free for basics (up to 10 users); scales to $36\u2013$180/user/month.\n   - **Evidence**: Tops Salesforce's nonprofit page and Virtuous's 2026 list (#2). GoodUnited and others highlight it for mission growth and donor management.\n   - **Best for**: High-volume advocacy with national/international reach needing deep customization.\n\n#### 3. **Virtuous CRM** (Strong for Personalized Advocacy Campaigns)\n   - **Why it fits advocacy**: AI-powered donor journeys, household giving, and multichannel engagement (email/SMS) ideal for targeted advocacy asks. Tracks \"affinity\" for issue-based segmentation.\n   - **Key features**: Automated workflows, text-to-give, reporting on advocacy metrics.\n   - **Pricing**: Custom (starts ~$300/month); nonprofit discounts.\n   - **Evidence**: #1 on their own 2026 list and cross-referenced in multiple sources for fundraising success.\n   - **Best for**: Faith-based or values-driven advocacy emphasizing personal connections.\n\n#### 4. **Neon CRM** (Great for Membership/Volunteer-Heavy Advocacy)\n   - **Why it fits advocacy**: Built for member-based groups with event registration, online forms for petitions, and volunteer management\u2014perfect for rallies or canvassing.\n   - **Key features**: Membership modules, peer-to-peer fundraising, integrated payments.\n   - **Pricing**: ~$99\u2013$500/month based on contacts.\n   - **Evidence**: Insightly's top 6 for nonprofits, especially associations/museums (adaptable to advocacy).\n   - **Best for**: Volunteer-driven orgs like political or community advocacy.\n\n#### Quick Comparison Table\n\n| CRM            | Best Advocacy Strength          | Starting Price | Free Trial? | Standout Integration |\n|----------------|---------------------------------|---------------|-------------|----------------------|\n| **Bloomerang** | Donor retention & volunteers   | $119/mo      | Yes        | QuickBooks, Classy  |\n| **Salesforce** | Scalable campaigns & AI        | Free basic   | Yes        | 7,000+ apps         |\n| **Virtuous**   | Personalized journeys          | ~$300/mo     | Yes        | Twilio, Facebook    |\n| **Neon CRM**   | Membership & events            | $99/mo       | Yes        | PayPal, Zoom        |\n\n#### How to Choose\n- **Budget under $200/mo?** Start with Bloomerang or Neon.\n- **Need enterprise power?** Salesforce.\n- **Test before buying**: All offer demos/trials. Check Double the Donation's guide [1] for buyer checklists.\n- **Other notables**: Funraise (user-friendly per [1]), Blackbaud (enterprise via [6]), or Ascend/Bonterra (Kindsight [3]).\n\nThese picks draw directly from 2026 rankings emphasizing donor growth and supporter engagement, critical for advocacy success. For specifics, visit the linked sites or demo based on your org size.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1005,
+  "estimated_cost_usd": 0.020096,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://bloomerang.com",
+      "https://www.salesforce.com/nonprofit/",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://www.goodera.com/blog/best-crms-for-nonprofits-the-complete-guide-for-nonprofit-organizations"
+    ]
+  }
+}

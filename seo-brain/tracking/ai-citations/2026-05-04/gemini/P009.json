@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.868646+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Givebutter both serve the nonprofit sector, but they approach fundraising and donor management from slightly different angles. Understanding their core strengths and pricing models is key to deciding which is a better fit for your organization.\n\nHere's a breakdown:\n\n## DonorDock vs. Givebutter: At a Glance\n\n| Feature/Aspect         | DonorDock                               | Givebutter                                         |\n| :--------------------- | :-------------------------------------- | :------------------------------------------------- |\n| **Primary Focus**      | **Donor Relationship Management (CRM)** | **All-in-one Online Fundraising Platform**         |\n| **Core Strength**      | Centralized donor database, segmentation, communication, moves management, reporting for donor retention. | Modern campaign creation (fundraising pages, events, peer-to-peer), ticketing, text-to-donate, live streaming. |\n| **Online Fundraising** | Yes, modern donation forms, basic campaign pages, giving portals. | **Highly robust:** Customizable campaign pages, event registration, peer-to-peer, auctions, text-to-donate. |\n| **Donor CRM**          | **Very Strong:** Detailed donor profiles, history, segmentation, pledge tracking, communication logs, task management. | Basic to Moderate: Tracks donors, donations, basic contact info. Less emphasis on deep relationship management. |\n| **Event Management**   | Basic event registration.                 | **Very Strong:** Comprehensive event pages, ticketing (free/paid), guest management, check-in. |\n| **Peer-to-Peer**       | Limited or via integrations.              | **Strong:** Dedicated P2P campaign tools.         |\n| **Communication**      | Email templates, mailing list segmentation, direct mail features, integrates with email marketing tools. | Built-in email & SMS for campaigns, thank-yous, updates. |\n| **Reporting**          | Robust donor reports, giving trends",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 396,
+  "estimated_cost_usd": 0.000991,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869837+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor pledges is crucial for financial forecasting, ensuring timely revenue, maintaining strong donor relationships, and reporting on your organization's fundraising progress. Here's a comprehensive guide on how to track donor pledges effectively:\n\n## What is a Donor Pledge?\n\nA donor pledge is a formal promise from a donor to contribute a specific amount of money to your organization, often over a defined period (e.g., monthly, quarterly, annually) rather than as a single lump sum.\n\n## Why is Effective Pledge Tracking Important?\n\n*   **Financial Forecasting:** Helps accurately predict future income.\n*   **Budgeting:** Allows you to allocate funds and plan programs based on anticipated revenue.\n*   **Donor Stewardship:** Ensures you acknowledge payments and remind donors respectfully.\n*   **Accountability:** Provides a clear record of promised funds and received payments.\n*   **Reporting:** Facilitates easy generation of reports for boards, funders, and audits.\n*   **Fundraising Strategy:** Identifies patterns in pledge fulfillment and potential areas for improvement.\n\n## Key Information to Track for Each Pledge\n\nFor every pledge, you need to capture detailed information. This forms the core of your tracking system:\n\n1.  **Donor Information:**\n    *   Donor Name (Individual or Organization)\n    *   Contact Information (Email, Phone, Address)\n    *   Donor ID (if applicable in your system)\n\n2.  **Pledge Details:**\n    *   **Pledge Date:** When the pledge was formally made.\n    *   **Total Pledge Amount:** The full amount promised.\n    *   **Purpose/Campaign:** Which fund, project, or campaign the pledge is designated for (e.g., Annual Fund, Building Project, Scholarship).\n    *   **Payment Schedule:**\n        *   Frequency (e.g., monthly, quarterly, annually, lump sum)\n        *   Start Date of Payments\n        *   End Date of Payments\n        *   Number of Installments\n        *   Amount per Installment\n    *   **Payment Method:** (e.g., Check, Credit Card, Bank Transfer, Stock Transfer) \u2013 often recorded for *individual payments*, but good to note if the pledge specifies it.\n    *   **Pledge Agreement Document:** Note if a signed agreement exists and where it's stored.\n    *   **Solicitor/Steward:** The staff member or volunteer responsible for securing or stewarding the pledge.\n\n3.  **Financial Status:**\n    *   **Amount Paid to Date:** Sum of all received payments.\n    *   **Balance Due:** Total Pledge Amount - Amount Paid to Date.\n    *   **Next Payment Due Date:** (Crucial for reminders).\n    *   **Status:** (e.g., Active, Completed, Overdue, Cancelled, Defaulted).\n\n4.  **Payment Records (for each individual payment):**\n    *   Date Received\n    *   Amount Received\n    *   Payment Method\n    *   Reference Number (Check #, Transaction ID)\n    *   Associated Pledge ID\n\n5.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 646,
+  "estimated_cost_usd": 0.001617,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

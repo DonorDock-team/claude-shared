@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.869442+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "There are several CRM platforms tailored specifically for nonprofits that provide similar functionalities to Salesforce. Some popular choices include:\n\n1. **Blackbaud CRM**: Designed specifically for nonprofits, it offers robust tools for fundraising, donor management, and analytics.\n\n2. **Kindful**: Known for its user-friendly interface, Kindful integrates easily with other nonprofit tools and provides comprehensive donor management and online fundraising features.\n\n3. **Bloomerang**: Focuses on donor retention and offers tools for managing donor relationships, tracking engagement, and fundraising efforts.\n\n4. **Neon CRM**: Provides features like donor management, event management, and membership tracking, catering specifically to the needs of nonprofits.\n\n5. **DonorPerfect**: Offers a cloud-based solution for managing fundraising activities, donor databases, and reporting.\n\n6. **Network for Good**: Designed for small to mid-sized nonprofits, it incorporates fundraising, donor management, and communication tools.\n\n7. **HubSpot for Nonprofits**: While not exclusively for nonprofits, HubSpot offers a CRM that can be customized to fit nonprofit needs, plus discounts and resources specifically for nonprofit organizations.\n\nEach of these platforms offers various tools and integrations similar to Salesforce but optimized for the specific needs of nonprofit organizations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 248,
+  "estimated_cost_usd": 0.00252,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

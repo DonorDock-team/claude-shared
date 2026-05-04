@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P003",
+  "prompt_text": "DonorDock reviews",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869372+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**DonorDock is a donor management CRM praised for its user-friendliness, responsive customer support, and efficiency in handling donations, contacts, and fundraising for small to mid-sized nonprofits, though it lacks some advanced features like volunteer management or event tools.[1][2][3][4]**\n\n### Key Pros from User Reviews\n- **Ease of use and intuitive interface**: Users describe it as simple to navigate, even for non-tech-savvy teams, with features like clean dashboards, action boards for reminders, and automations that streamline donor stewardship and reporting.[1][2][3][8]\n- **Excellent customer support**: Reviewers frequently highlight quick, patient, and helpful responses, calling it \"unmatched,\" \"life-changing,\" and a key reason to switch from other CRMs.[1][2][3][6]\n- **Core functionality**: Tracks donations, organizes contacts, sends email blasts, generates receipts and statements, and supports segmentation and personalized messaging via tools like Otto AI.[1][2][5]\n- **Value for small nonprofits**: Affordable starting at $89/month, no donor contact limits, and higher ratings than competitors like Neon CRM or Givebutter in setup ease.[5][6][7]\n\n### Key Cons from User Reviews\n- Missing advanced features: Lacks volunteer management, ticket sales, event auctions, robust household linking, or deep customization, requiring manual cleanup for duplicates during integrations like Stripe.[1][2][4]\n- Limited help resources: Some new users find in-app support hard to locate, though they adapt quickly.[3]\n\n### Ratings and Comparisons\nReviews across platforms are generally positive, with high marks for simplicity and support over more complex tools like Salesforce Nonprofit Cloud.[2][6][9] G2 users note it's ideal for streamlining basics but may not suit needs for \"best-in-class\" specialized tools.[2][4] Capterra scores include 8/10 for likelihood to recommend, emphasizing price and ease over pricier alternatives.[3] No recent negative trends appear in 2026 reviews.[2][7]",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Givebutter",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 428,
+  "estimated_cost_usd": 0.011435,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.g2.com/products/donordock/reviews?qs=pros-and-cons",
+      "https://www.g2.com/products/donordock/reviews",
+      "https://www.capterra.com/p/184187/DonorDock/",
+      "https://designbycosmic.com/guides/nonprofit-branding/donordock/",
+      "https://www.donordock.com/compare/givebutter-vs-donordock",
+      "https://www.donordock.com/compare/neon-crm-vs-donordock",
+      "https://www.trustradius.com/products/donordock/reviews",
+      "https://www.softwareadvice.com/nonprofit/donordock-profile/",
+      "https://www.donordock.com/comparison/salesforce-npc"
+    ]
+  }
+}

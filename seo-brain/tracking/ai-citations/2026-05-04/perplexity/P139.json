@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869458+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Bloomerang, CharityEngine, and Virtuous CRM are among the top CRMs similar to Salesforce Nonprofit Cloud but tailored for nonprofits, offering easier setup, donor management, and fundraising tools without Salesforce's complexity.** [1][2][4][6][7]\n\nThese alternatives prioritize nonprofit-specific features like donor tracking, engagement automation, and integrations, often at lower implementation costs for small to mid-sized organizations.\n\n### Key Alternatives and Comparisons\n| CRM | Best For | Key Similarities to Salesforce | Key Differences | Source |\n|-----|----------|-------------------------------|-----------------|--------|\n| **Bloomerang** | Small nonprofits with basic needs | Donor/gift tracking, engagement tools, scalability for growth | Simpler setup (weeks vs. months), limited customization, no AI overload | [2][4][7] |\n| **CharityEngine** | Nonprofits wanting unified platform | Fundraising, events, marketing automation, donor management | All-in-one without add-ons/consultants; less configuration | [4] |\n| **Virtuous CRM** | Mid-sized with automation focus | AI insights, workflows, integrations (e.g., Zapier) | Responsive fundraising journeys; easier than enterprise setup | [5][6] |\n| **StratusLIVE 365** | Enterprise with Microsoft tools | AI-powered, comprehensive fundraising/donor tools | Deep Microsoft integration; less ecosystem dependency | [5] |\n| **LiveImpact** | Growth-oriented small nonprofits with programs | Donor management + case/volunteer tools | Combines services/fundraising in one; avoids multiple systems | [3] |\n\nSalesforce Nonprofit Cloud (with NPSP) excels for large, tech-savvy nonprofits via 10 free licenses and vast customization, but alternatives like these suit simpler needs.[1][2][3] For small teams, Bloomerang or Network for Good provide coaching alongside CRM basics.[2][4] Evaluate based on team size, budget, and scalability\u2014e.g., NPSP for growing mid-sized vs. Bloomerang for modest donors.[2]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Network for Good",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 429,
+  "estimated_cost_usd": 0.011465,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://cube84.com/blog/bloomerang-vs-salesforce-nonprofit-cloud-vs-npsp-which-crm-is-best-for-your-nonprofit",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://blog.charityengine.net/salesforce-alternatives",
+      "https://stratuslive.com/blog/nonprofit-crm-systems-comparison/",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/",
+      "https://bloomerang.com/alternative/salesforce-for-nonprofits/",
+      "https://www.donorperfect.com/fundraising-software/compare-donor-management-systems/salesforce/"
+    ]
+  }
+}

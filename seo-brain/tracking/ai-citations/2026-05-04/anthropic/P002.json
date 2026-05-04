@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P002",
+  "prompt_text": "Is DonorDock good",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869250+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock Overview\n\nDonorDock is a **donor management CRM** designed primarily for small to mid-sized nonprofits. Here's a balanced assessment:\n\n## Strengths \u2713\n- **Affordable pricing** - Generally less expensive than competitors like Bloomerang or DonorPerfect\n- **User-friendly interface** - Clean, modern design that's relatively easy to learn\n- **Good core features** - Donor tracking, online donations, email communications, reporting\n- **Responsive customer support** - Users often praise their support team\n- **Built-in online giving** - Integrated donation forms and pages\n\n## Potential Drawbacks \u2717\n- **Limited advanced features** - May lack sophistication for larger organizations\n- **Fewer integrations** - Smaller ecosystem compared to established competitors\n- **Reporting limitations** - Some users want more customizable reports\n- **Relatively newer platform** - Less established than some alternatives\n\n## Best For:\n- Small nonprofits (budgets under $1M)\n- Organizations new to donor management software\n- Teams wanting simplicity over complexity\n\n## Consider Alternatives If:\n- You need extensive third-party integrations\n- You require complex wealth screening or major gift tools\n- You have advanced reporting needs\n\n**Bottom line**: DonorDock is a solid choice for smaller nonprofits prioritizing ease-of-use and affordability, but may not scale well for larger, more complex organizations.\n\nWould you like comparisons with specific alternatives?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 336,
+  "estimated_cost_usd": 0.005082,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

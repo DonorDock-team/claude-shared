@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P122",
+  "prompt_text": "Otto vs ChatGPT for nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869528+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Based on the search results provided, there isn't a direct comparison between \"Otto\" and ChatGPT as standalone AI tools for nonprofits. The search results mention Otto in two different contexts that create confusion:\n\n**Otto as CharityEngine's chatbot:** In one source, Otto is described as CharityEngine's proprietary chatbot\u2014a traditional chatbot with limited, pre-programmed responses that branches based on user selections[2]. This is fundamentally different from ChatGPT, which uses generative AI to produce original, flexible responses[2].\n\n**Otto Group's internal AI solution:** Another result mentions Otto Group (a German retail company) building an internal ChatGPT implementation using Azure OpenAI[6], but this isn't a standalone product for nonprofits to choose between.\n\n**For nonprofits specifically, ChatGPT offers:**\n- **Speed and flexibility** across writing, research, and formatting tasks[1]\n- **20% nonprofit discount** on Team and Enterprise plans[1]\n- **Free plan option** with premium upgrades[1]\n- Uses for drafting donor acknowledgments, rewriting grant proposals, brainstorming social content, and document summarization[1][2]\n\nIf you're comparing ChatGPT to other general-purpose AI tools for nonprofits, the search results also reference **Claude** (strong for long documents and summaries) and **Gemini** (integrates well with Google Workspace)[1]. However, to provide a meaningful comparison between Otto and ChatGPT specifically, I would need clearer information about which Otto product you're evaluating.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 313,
+  "estimated_cost_usd": 0.009722,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://getkweet.com/blog/chatgpt-for-nonprofits-how-claude-gemini-and-other-ai-tools-compare/",
+      "https://blog.charityengine.net/chatgpt-ai-nonprofit-crm",
+      "https://www.youtube.com/watch?v=d96XREK5Ktc",
+      "https://www.causevox.com/blog/ai-tools-for-nonprofits/",
+      "https://www.nptechforgood.com/ai-for-nonprofits/tools/",
+      "https://www.microsoft.com/en/customers/story/1741186295807491714-ottogroup-azure-openai-service-retailers-en-germany",
+      "https://sourceforge.net/software/product/Otto-Grid-AI/alternatives"
+    ]
+  }
+}

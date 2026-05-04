@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P046",
+  "prompt_text": "Best donor CRM for arts and cultural nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.868669+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Arts & Cultural Nonprofits\n\n## Top Recommendations\n\n### **1. PatronManager (by Salesforce)**\n- **Best for:** Performing arts, museums, cultural organizations\n- **Key features:** \n  - Built specifically for arts nonprofits\n  - Integrates ticketing with donor management\n  - Tracks patron engagement across events, donations, memberships\n  - Robust reporting for both development and box office\n- **Pricing:** Custom (typically $$$)\n\n### **2. Tessitura**\n- **Best for:** Large museums, performing arts centers, cultural institutions\n- **Key features:**\n  - Industry standard for major arts organizations\n  - Comprehensive ticketing + CRM + fundraising\n  - Excellent for complex membership programs\n  - Strong analytics\n- **Pricing:** Enterprise-level ($$$$)\n\n### **3. Blackbaud Altru**\n- **Best for:** Museums, zoos, aquariums, cultural attractions\n- **Key features:**\n  - Combines admissions, memberships, and fundraising\n  - Good for visitor-serving organizations\n  - Event management capabilities\n- **Pricing:** Custom ($$$-$$$$)\n\n### **4. Bloomerang**\n- **Best for:** Small to mid-size arts organizations\n- **Key features:**\n  - Strong donor retention focus\n  - User-friendly interface\n  - Good reporting at accessible price point\n  - May need separate ticketing solution\n- **Pricing:** $125-$500/month\n\n### **5. Little Green Light**\n- **Best for:** Budget-conscious small arts nonprofits\n- **Key features:**\n  - Affordable, cloud-based\n  - Solid basic CRM functionality\n  - Grant tracking\n- **Pricing:** $39-$129/month\n\n## Key Considerations\n- **Integration with ticketing** is crucial for performing arts\n- **Membership management** capabilities for museums\n- **Event tracking** for engagement measurement\n- Budget and staff capacity for implementation\n\nWhat type of arts organization are you working with?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 470,
+  "estimated_cost_usd": 0.007104,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

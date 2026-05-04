@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P132",
+  "prompt_text": "Network for Good problems",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.868042+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Network for Good - Common Problems & Solutions\n\nI can help you troubleshoot issues with Network for Good. Here are the most common problems and their solutions:\n\n## **Common Issues**\n\n### 1. **Donation Processing Problems**\n- **Payment not going through**: Check credit card info, billing address match, and available funds\n- **Duplicate charges**: Contact support immediately - don't resubmit\n- **Receipt not received**: Check spam folder; receipts typically arrive within 24 hours\n\n### 2. **Account Access Issues**\n- **Can't log in**: Use password reset feature\n- **Locked account**: Contact support after multiple failed login attempts\n- **Two-factor authentication problems**: Ensure time on device is synced correctly\n\n### 3. **Donor Management**\n- **Missing donor data**: Check filters and date ranges in reports\n- **Export issues**: Try different browsers (Chrome recommended)\n- **Duplicate donor records**: Use merge function in donor database\n\n### 4. **Reporting Problems**\n- **Reports not generating**: Clear browser cache, try different browser\n- **Missing transactions**: Check date range and filter settings\n- **Tax receipts incorrect**: Verify donation dates and amounts\n\n## **Getting Help**\n\n- **Support Phone**: 1-888-284-7978 (Mon-Fri, 9am-8pm ET)\n- **Email**: support@networkforgood.org\n- **Help Center**: help.networkforgood.com\n\n**What specific problem are you experiencing?** I can provide more targeted guidance.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 11,
+  "output_tokens": 345,
+  "estimated_cost_usd": 0.005208,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

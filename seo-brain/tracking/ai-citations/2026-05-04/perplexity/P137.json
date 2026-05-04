@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P137",
+  "prompt_text": "Little Green Light limitations",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869315+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Little Green Light (LGL), a donor management platform for nonprofits, has several user-reported and structural limitations, including bulk import constraints, unintuitive UI, integration challenges, regional restrictions, and service caps.[1][2][3]\n\n### Key User-Reported Limitations\n- **Bulk gift imports**: No automatic bulk import of gifts directly to the Quick Books queue (QKB); manual entry required during high-volume donation drives, increasing time for bookkeeping.[1]\n- **User interface**: Not intuitive or visually appealing; requires significant configuration for reporting, limiting ease of use.[1]\n- **Integrations and features**: Challenges entering gifts without custom integrations; lacks advanced features like scheduled email delivery at specific times or easy email branding/customization with graphics.[1][6]\n- **Online donations**: Minimal capabilities via LGL Forms, not designed as a full fundraising platform competitor.[8]\n\n### Account and Service Limitations\n- **Record capacity**: Maximum of 200,000 constituent records per account.[2]\n- **Geographic restrictions**: Accounts unavailable to organizations in the EU, UK, or Switzerland.[3]\n- **Support and reliability**: Technical support limited to current subscribers; service provided \"as is,\" with no guarantees of uninterrupted access, error-free operation, or specific results; may throttle high bandwidth usage.[3]\n- **Forms and transactions**: Inventory limits only on specific \"Suggested with quantity\" amount fields; ProPay transaction limits require manual approval with bank/credit card statements.[5][9]\n- **Data management**: Can delete imports only if the most recent one; no custom gift fields for open-ended currency values like processing fees (uses gross/deposited amounts instead).[4]\n\n### Other Constraints\n- Company reserves rights to modify/discontinue service (30 days' notice), change prices (30 days' notice), suspend/terminate accounts without notice, or limit features.[3]\n- Sales tax applies in select U.S. states (e.g., Washington, Arizona as of 2023).[2]\n\nThese limitations are drawn from user reviews, official pricing/terms, and help docs; larger organizations may find alternatives like Raiser's Edge more suitable despite its higher cost.[1]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 445,
+  "estimated_cost_usd": 0.01169,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.capterra.com/p/123954/Little-Green-Light/reviews/",
+      "https://www.littlegreenlight.com/pricing/",
+      "https://www.littlegreenlight.com/terms/",
+      "https://www.littlegreenlight.com/blog/ai/",
+      "https://help.littlegreenlight.com/article/441-set-limits-on-the-number-of-tickets-you-will-sell",
+      "https://www.softwareadvice.com/nonprofit/little-green-light-profile/reviews/",
+      "https://help.littlegreenlight.com/article/680-forms-event-registration-for-free-events",
+      "https://4agoodcause.com/givebutter-vs-little-green-light/",
+      "https://help.littlegreenlight.com/article/235-frequently-asked-questions-lgl-forms"
+    ]
+  }
+}

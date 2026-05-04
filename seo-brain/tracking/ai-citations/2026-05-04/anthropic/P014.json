@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869483+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Keela Comparison\n\nBoth are cloud-based donor management systems for nonprofits, but they have different strengths:\n\n## **DonorDock**\n\n**Best for:** Small to mid-sized nonprofits wanting simplicity\n\n**Strengths:**\n- Clean, intuitive interface\n- Strong relationship tracking focus\n- Simple, predictable pricing\n- Good email integration\n- Easy to learn and implement\n- Responsive customer support\n\n**Limitations:**\n- Less robust reporting\n- Fewer advanced features\n- Smaller integration ecosystem\n- Less customization options\n\n**Pricing:** Typically starts around $99/month\n\n## **Keela**\n\n**Best for:** Data-driven nonprofits wanting advanced features\n\n**Strengths:**\n- AI-powered donor insights\n- Robust reporting and analytics\n- Built-in email marketing tools\n- Peer-to-peer fundraising\n- More comprehensive feature set\n- Better for scaling organizations\n\n**Limitations:**\n- Steeper learning curve\n- Can be overwhelming for basic needs\n- Higher price point\n- May be overkill for very small orgs\n\n**Pricing:** Typically starts around $99-150/month (varies by features)\n\n## **Choose DonorDock if:**\n- You want simplicity over features\n- You're a smaller organization\n- You prioritize ease of use\n- You need quick implementation\n\n## **Choose Keela if:**\n- You need advanced analytics\n- Data insights drive your strategy\n- You want all-in-one functionality\n- You're planning significant growth\n\nBoth offer free trials\u2014I'd recommend testing each with your actual workflows.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 369,
+  "estimated_cost_usd": 0.005583,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P149",
+  "prompt_text": "How to migrate from Excel to a nonprofit CRM",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.870087+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Migrating from Excel to a nonprofit CRM is one of the best decisions your organization can make! It transforms scattered data into actionable insights, improves donor relationships, and streamlines operations.\n\nWhile it might seem daunting, breaking it down into manageable steps makes the process smooth and successful.\n\nHere's a comprehensive guide:\n\n---\n\n## The Migration Journey: Excel to Nonprofit CRM\n\n### Phase 1: Preparation & Planning (The Most Critical Phase)\n\nThis phase determines the success of your migration. Don't rush it!\n\n1.  **Define Your Goals & Requirements:**\n    *   **Why are you moving to a CRM?** (e.g., better donor tracking, automate appeals, manage volunteers, track grants, improve reporting, reduce manual errors, centralize communications).\n    *   **What problems do you want the CRM to solve?**\n    *   **What features are essential?** (e.g., donor management, fundraising, event management, volunteer management, grant tracking, email marketing integration, accounting integration, reporting, peer-to-peer fundraising).\n    *   **Who will use it and how?** (Development team, executive director, program staff, volunteers).\n\n2.  **Inventory Your Existing Data:**\n    *   **Where is all your data?** List all Excel spreadsheets (and other sources like Access databases, paper records, email lists) that contain donor, donation, volunteer, event, and program participant information.\n    *   **What data exists in each file?** (e.g., donor contact info, donation history, communication notes, volunteer hours, event attendance, grant details).\n\n3.  **Data Cleanup & Standardization (Crucial!):** This is often the most time-consuming but vital step. A clean CRM starts with clean data.\n    *   **Remove Duplicates:** Identify and merge duplicate records across all your spreadsheets.\n    *   **Standardize Formats:**\n        *   **Names:** Consistency in capitalization (e.g., \"John Doe\" vs. \"john doe\"). Separate First Name, Last Name, Salutation, Suffix.\n        *   **Addresses:** Standardize street abbreviations (e.g., \"St.\" vs. \"Street\", \"Rd.\" vs. \"Road\").\n        *   **Dates:** Consistent date format (e.g., YYYY-MM-DD).\n        *   **Currencies:** Ensure all donation amounts are numbers, not text with currency symbols.\n        *   **Categories/Tags:** Use consistent spelling for donor types, interest areas, campaign names (e.g., \"Annual Fund\" vs. \"Annual Giving\").\n        *   **Phone Numbers:** Standardize format (e.g., (XXX) XXX-XXXX).\n    *   **Fill in Missing Information:** Where possible, complete missing contact details or donation dates.\n    *   **Correct Errors:** Proofread for typos and inaccuracies.\n    *   **Identify Unique Identifiers:** If you have an existing donor ID, make sure it's unique. If not, the CRM will generate one, but it helps to have something to relate data back to your old files.\n    *   **Separate Data Fields:** Many CRMs require specific fields. For example, a \"Full Name\" column needs to be split into \"First Name,\" \"Last Name,\" \"Middle Initial,\" \"Suffix.\" \"Address\" might need to be \"Street 1,\" \"Street 2,\" \"City,\" \"State,\" \"Zip Code.\"\n\n4.  **Data Mapping:**\n    *   Create a spreadsheet with three columns:\n        *   `",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 757,
+  "estimated_cost_usd": 0.001895,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

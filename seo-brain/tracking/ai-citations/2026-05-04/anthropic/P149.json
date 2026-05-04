@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P149",
+  "prompt_text": "How to migrate from Excel to a nonprofit CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.870041+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Migrating from Excel to a Nonprofit CRM\n\n## Pre-Migration Steps\n\n### 1. **Assess Your Current Data**\n- Inventory all Excel files and spreadsheets\n- Identify what data you're tracking (donors, volunteers, programs, etc.)\n- Document your current processes and workflows\n- Clean up duplicate entries, outdated information, and formatting inconsistencies\n\n### 2. **Define Your Requirements**\n- List must-have features (donor management, reporting, email integration, etc.)\n- Determine your budget\n- Consider user count and technical skill levels\n- Identify integration needs (accounting software, email platforms, etc.)\n\n### 3. **Choose the Right CRM**\nPopular nonprofit CRMs include:\n- **Salesforce Nonprofit Cloud** (robust, scalable)\n- **Bloomerang** (donor-focused)\n- **Little Green Light** (affordable, user-friendly)\n- **DonorPerfect** (comprehensive)\n- **Neon CRM** (all-in-one solution)\n- **Kindful** (modern interface)\n\n## Migration Process\n\n### 4. **Prepare Your Data**\n- **Standardize formats**: dates, phone numbers, addresses\n- **Create consistent naming**: column headers that match CRM fields\n- **Remove duplicates**: use Excel's built-in tools\n- **Fill in gaps**: add missing required fields\n- **Export to CSV**: most CRMs accept CSV format\n\n### 5. **Map Your Fields**\nMatch Excel columns to CRM fields:\n- First Name \u2192 First Name\n- Last Name \u2192 Last Name\n- Email Address \u2192 Email\n- Donation Amount \u2192 Contribution Amount\n- etc.\n\n### 6. **Import Data**\n- Start with a **test import** using a small sample (10-20 records)\n- Verify data accuracy in the CRM\n- Import in stages: contacts first, then donations, then other data\n- Document any errors or issues\n\n### 7. **Configure Your CRM**\n- Set up custom fields for your specific needs\n- Create donation forms\n- Configure reports and dashboards\n- Set up automations and workflows\n- Establish user permissions\n\n### 8. **Train Your Team**\n- Schedule training sessions with your CRM provider\n- Create internal documentation\n- Assign \"super users\" as go-to resources\n- Start with basic functions before advanced features\n\n### 9. **Run Parallel Systems**\n- Continue using Excel alongside the CRM for 1-2 months\n- Compare data between systems\n- Identify and fix any migration issues\n- Build confidence before fully transitioning\n\n## Post-Migration\n\n### 10. **Establish Best Practices**\n- Create data entry standards\n- Schedule regular data cleanup\n- Set up backup procedures\n- Define who enters what data\n- Create a CRM usage policy\n\n## Common Pitfalls to Avoid\n\n- \u274c Migrating dirty data (clean first!)\n- \u274c Rushing without testing\n- \u274c Not training staff adequately\n- \u274c Choosing a CRM that's too complex or too simple\n- \u274c Failing to document your processes\n\n## Timeline Estimate\n\n- **Small organization** (< 1,000 contacts): 4-8 weeks\n- **Medium organization** (1,000-10,000 contacts): 2-4 months\n- **Large organization** (10,000+ contacts): 3-6 months\n\n## Budget Considerations\n\nMost nonprofit CRMs offer:\n- Discounted nonprofit pricing\n- Free trials (14-30 days)\n- Implementation support (sometimes included)\n- Training resources\n\n**Typical costs**: $50-$300/month depending on features and user count\n\n---\n\n**Pro tip**: Many CRM providers offer free migration assistance or have partner consultants who specialize in nonprofit data migration. Don't hesitate to ask for help!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 880,
+  "estimated_cost_usd": 0.013251,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

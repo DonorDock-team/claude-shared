@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P098",
+  "prompt_text": "Hidden costs of Virtuous",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.868579+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Virtuous Software, a nonprofit CRM and fundraising platform, has several hidden costs beyond its base subscription pricing (reported as $199\u2013$500/month across sources), including transaction processing fees, professional services, and potential customizations.** [1][3][9]\n\n### Subscription Pricing Variability\nBase monthly fees vary by source and likely depend on organization size or features:\n- Starts at **$199/month** plus transaction fees.[3]\n- Starts at **$500/month**, rated average for nonprofit software but higher than some competitors like Click & Pledge.[1]\nOfficial pricing details are flexible and bundled, without explicit hidden fees listed.[9][10]\n\n### Transaction Processing Fees (Powered by Stripe)\nThese are a major ongoing cost, charged per donation:\n- Standard: **2.9% + $0.30** per Visa/Mastercard/Discover transaction.[2][5]\n- Amex: **3.5% + $0.30**.[2]\n- ACH (USA only): **1% + $0.50** (no cap).[2]\n- Additional surcharges: **1% international**, **0.60% corporate card**.[2]\n- Disputes: **$15** per ACH/card dispute (Stripe-charged); **$5** ACH chargeback (Virtuous-charged).[2]\n- Other: **$0.25** per card auto-update; payout free; minimum merchant fee $0.[2]\n\n| Fee Type | Rate | Notes |\n|----------|------|-------|\n| Visa/MC/Disc | 2.9% + $0.30 | Standard[2] |\n| Amex | 3.5% + $0.30 | Higher rate[2] |\n| ACH | 1% + $0.50 | USA only[2] |\n| International Surcharge | 1% | Add-on[2] |\n\nDonors can opt to cover these via \"Donor Paid Costs,\" routing fees to a separate project (tax-deductible for them), but if not, fees reduce net gift amounts and may not sync to accounting.[4]\n\n### Other Potential Hidden Costs\n- **Implementation and TCO**: Includes training, customizations, hardware, maintenance, and support\u2014factored into total cost of ownership (TCO), where Virtuous exceeds some rivals.[1]\n- **Professional Services**: In-house expert offerings for setup/help, with separate pricing (details not specified).[7]\n- No feature gating or admin limits mentioned, but comparisons highlight these as advantages over alternatives.[10]\n\nReconciliation reports help track fees.[4] For precise quotes, contact Virtuous directly, as pricing is personalized.[9][10]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 558,
+  "estimated_cost_usd": 0.013388,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.itqlick.com/compare/click-pledge-fundraising-solutions/virtuous-software",
+      "https://support.virtuous.org/hc/en-us/articles/18224650853261-Understanding-Processing-Fees-and-Transaction-Limits-with-Payments-powered-by-Stripe",
+      "https://www.zeffy.com/compare/zeffy-vs-virtuous",
+      "https://support.virtuous.org/hc/en-us/articles/10481771864589-What-is-the-Donor-Paid-Costs-project-in-Virtuous-CRM",
+      "https://support.raisedonors.com/hc/en-us/articles/24836343234573-What-are-Processing-Fees",
+      "https://virtuousbenefits.care/faq/",
+      "https://support.virtuous.org/hc/en-us/articles/33580007334285-Virtuous-Professional-Services-Offerings-and-Pricing",
+      "https://www.capterra.com/p/159179/Virtuous/",
+      "https://virtuous.org/pricing/",
+      "https://explore.raisedonors.com/pricing/"
+    ]
+  }
+}

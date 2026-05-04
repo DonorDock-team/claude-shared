@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P033",
+  "prompt_text": "Alternative to DonorBox",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869581+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Based on your needs, several strong **Donorbox alternatives** exist, each with different strengths:\n\n**Best overall option:** **Givebutter** offers zero platform fees (relying on optional donor tips instead), making it ideal if cost is your primary concern. It provides donation forms, crowdfunding, peer-to-peer fundraising, event ticketing, and a built-in CRM\u2014comparable features to Donorbox but without the 1.5-1.75% transaction fees.[1][8]\n\n**For completely free service:** **GiveLively** is completely free for 501(c)(3) nonprofits with zero platform fees and zero subscription charges, plus functional donation forms, P2P campaigns, events, and text-to-give capabilities.[1]\n\n**For comprehensive CRM integration:** **Bloomerang** offers a more comprehensive solution with robust CRM and fundraising features designed to help nonprofits grow, including unlimited customer support and easy upgrades as you scale.[2]\n\n**For WordPress sites:** **GiveWP** provides native WordPress integration with maximum customization at lower cost than Donorbox, functioning as a full fundraising system rather than just a donation button.[4]\n\n**For enterprise needs:** **Classy** (part of GoFundMe) serves organizations running complex multi-campaign operations with enterprise-grade campaign management, analytics, and team tools for managing dozens of simultaneous campaigns.[1]\n\n**Other strong alternatives** include Zeffy, OneCause, RallyUp, and Donately, each excelling in specific areas like event features, international giving, or transparent tier-based pricing.[3][5][7]\n\nThe right choice depends on your organization's size, budget, specific features needed, and whether you use WordPress or other platforms.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 348,
+  "estimated_cost_usd": 0.010238,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.teachfloor.com/blog/best-donorbox-alternatives",
+      "https://bloomerang.com/alternative/donorbox/",
+      "https://rallyup.com/blog/donorbox-alternatives/",
+      "https://wpdiscounts.io/blog/best-donorbox-alternatives/",
+      "https://www.donately.com/compare/donorbox-vs-donately",
+      "https://donorbox.org/nonprofit-blog/fundraising-platforms",
+      "https://118group.com/research/we-reviewed-and-scored-8-online-giving-platforms-heres-how-they-compared/",
+      "https://www.g2.com/products/donorbox/competitors/alternatives",
+      "https://wholewhale.com/tips/best-donation-platforms-nonprofits/",
+      "https://www.anedot.com/compare/donorbox-alternative"
+    ]
+  }
+}

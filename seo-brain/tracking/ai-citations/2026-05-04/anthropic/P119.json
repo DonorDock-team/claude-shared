@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P119",
+  "prompt_text": "AI to draft donor thank you letters",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869273+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# AI-Powered Donor Thank You Letter Generator\n\nI'd be happy to help you create a system for drafting donor thank you letters using AI. Here are several approaches:\n\n## **Option 1: Quick Template-Based Approach**\n\nI can help you create personalized letters right now. Just provide:\n- Donor name\n- Donation amount\n- Donation purpose/campaign\n- Any special notes (first-time donor, recurring donor, etc.)\n- Your organization's name and mission\n\n## **Option 2: Customizable Letter Framework**\n\nHere's a template structure I can help you fill in:\n\n### **Standard Thank You Letter Elements:**\n\n1. **Opening** - Warm, personal greeting\n2. **Gratitude** - Specific acknowledgment of gift\n3. **Impact** - How their donation makes a difference\n4. **Connection** - Reinforce relationship with mission\n5. **Closing** - Future-focused, appreciative ending\n\n### **Sample Letter:**\n\n> Dear [Donor Name],\n>\n> Thank you for your generous gift of [amount] to [Organization Name]. Your support means the world to us and the [beneficiaries] we serve.\n>\n> Your donation will directly support [specific program/impact], allowing us to [concrete outcome]. Because of donors like you, we've been able to [recent achievement or milestone].\n>\n> We're deeply grateful for your commitment to [mission]. Your partnership makes our work possible.\n>\n> With sincere appreciation,\n>\n> [Your Name & Title]\n\n## **Option 3: AI Automation Tools**\n\nFor larger-scale operations, consider:\n- **ChatGPT/Claude API** - Integrate with your donor database\n- **Donor management software** with AI features (Bloomerang, DonorPerfect)\n- **Custom solutions** using merge fields + AI personalization\n\n---\n\n**What would be most helpful for your needs?** I can draft specific letters or help you set up a systematic approach.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 447,
+  "estimated_cost_usd": 0.006747,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

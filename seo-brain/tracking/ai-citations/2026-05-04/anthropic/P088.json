@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P088",
+  "prompt_text": "Best donor CRM for food security organizations",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869615+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Food Security Organizations\n\nHere are the top CRM options tailored for food security and hunger relief organizations:\n\n## **1. Bloomerang**\n- **Best for:** Small to mid-sized food banks\n- **Key features:** \n  - Donor retention focus with engagement scores\n  - Easy-to-use interface for volunteer coordinators\n  - Built-in email marketing\n- **Pricing:** ~$125-$500/month\n- **Why for food security:** Simple enough for organizations with limited staff\n\n## **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger food security networks\n- **Key features:**\n  - Highly customizable for complex operations\n  - Tracks donors, volunteers, and beneficiaries in one system\n  - Robust reporting for grant applications\n- **Pricing:** 10 free licenses via Nonprofit Success Pack, then discounted rates\n- **Why for food security:** Can manage both fundraising and program delivery\n\n## **3. Little Green Light**\n- **Best for:** Budget-conscious organizations\n- **Key features:**\n  - Affordable flat-rate pricing\n  - Grant tracking capabilities\n  - Good donor management basics\n- **Pricing:** ~$59-$180/month\n- **Why for food security:** Excellent value for smaller budgets\n\n## **4. DonorPerfect**\n- **Best for:** Mid-sized organizations scaling up\n- **Key features:**\n  - Strong online fundraising integration\n  - Volunteer management add-ons\n  - Customizable dashboards\n- **Pricing:** ~$89-$500+/month\n\n## **Key Considerations:**\n- **Volunteer tracking:** Essential for food banks relying on volunteers\n- **In-kind donation tracking:** For food donations\n- **Integration with distribution software:** If you track food distribution separately\n- **Grant management:** Many food security orgs rely heavily on grants\n\n**Recommendation:** Start with **Bloomerang** if you're under 1,000 donors, or explore **Salesforce** if you need comprehensive program + donor management.\n\nWould you like specific recommendations based on your organization's size?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 486,
+  "estimated_cost_usd": 0.007335,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

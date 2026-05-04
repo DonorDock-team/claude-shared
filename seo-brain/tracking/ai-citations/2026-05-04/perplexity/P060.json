@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.868373+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A **donor CRM with recurring giving** is a software platform that combines donor relationship management with automated recurring donation processing, enabling nonprofits to streamline both donor engagement and predictable revenue generation.\n\n## Key Functionality\n\n**Automation and tracking**: These platforms automatically process recurring payments at donor-preferred frequencies (daily, weekly, monthly, quarterly, or annually) and track all recurring donations in a centralized system[1][5]. You can monitor donor giving patterns, identify your most loyal supporters, and see contributions over time[1].\n\n**Donor self-management**: Donors can independently update, upgrade, or cancel their recurring gifts through a donor portal or account center, reducing administrative burden on your team[2][4]. Staff can also manage recurring donations from the admin side when needed[2].\n\n**Payment management**: The systems automatically update expired or canceled payment methods to prevent lapsed donations[2], and many include credit card updater features that sync new payment information[5]. Some platforms allow you to initiate new gifts using stored payment methods without requiring donors to re-enter information[2].\n\n**Enhanced donor relationships**: Automated thank-you emails, receipts, and personalized communications build stronger connections with recurring donors[1][3]. Features like birthday and anniversary emails help celebrate milestones automatically[6].\n\n**Data and insights**: Advanced segmentation and analytics let you analyze donors by gift amount, donation interval, and other factors to send targeted communications[3]. Real-time reporting tracks donor behavior and conversion rates[2].\n\n## Notable Platforms\n\nPopular donor CRM solutions with recurring giving capabilities include DonorPerfect (starting at $99/month), DonorBox (free plans available), GivingFuel, Donorbox, Virtuous CRM+, Givingtech, Bloomerang, and Funraise[5][7][9].\n\nOrganizations using these systems report strong retention rates\u2014DonorPerfect users typically retain 90% of their recurring donors[5].",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 383,
+  "estimated_cost_usd": 0.010766,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/articles/recurring-donations",
+      "https://www.givingfuel.com/features/donormanagement-overview",
+      "https://donorbox.org/explore/recurring-donations/",
+      "https://support.virtuous.org/hc/en-us/articles/33040097310605-How-Can-I-Manage-Recurring-Gifts",
+      "https://www.donorperfect.com/factsheets/automatic-monthly-giving/",
+      "https://givingtech.org/crm",
+      "https://positiveequation.com/top-tools-to-grow-your-nonprofits-monthly-giving-program/",
+      "https://www.funraise.org/features/recurring-giving",
+      "https://bloomerang.com",
+      "https://www.streak.com/post/best-crm-for-nonprofits"
+    ]
+  }
+}
