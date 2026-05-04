@@ -1,0 +1,186 @@
+{
+  "date": "2026-05-04",
+  "engine": "google-aio",
+  "method": "chrome-mcp",
+  "total_queries_attempted": 86,
+  "aio_present_count": 84,
+  "aio_render_rate_pct": 97.7,
+  "donordock_cited_count": 40,
+  "donordock_citation_rate_pct": 47.6,
+  "competitor_breakdown": {
+    "Bloomerang": 46,
+    "DonorPerfect": 41,
+    "Givebutter": 37,
+    "Little Green Light": 25,
+    "Neon CRM": 21,
+    "Virtuous": 21,
+    "Blackbaud": 18,
+    "Raiser's Edge": 16,
+    "Salesforce Nonprofit Cloud": 13,
+    "Bonterra": 13,
+    "DonorBox": 12,
+    "Neon One": 11,
+    "Kindful": 10,
+    "Network for Good": 8,
+    "Keela": 5,
+    "LGL": 2,
+    "CiviCRM": 2,
+    "Salesforce NPSP": 1
+  },
+  "top_gap_prompts": [
+    {
+      "id": "P021",
+      "prompt": "Best Bloomerang alternatives",
+      "competitors_count": 10,
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Neon CRM",
+        "Neon One",
+        "Givebutter",
+        "Little Green Light",
+        "Virtuous",
+        "Blackbaud",
+        "Raiser's Edge",
+        "DonorBox"
+      ]
+    },
+    {
+      "id": "P019",
+      "prompt": "Alternative to Blackbaud Raisers Edge",
+      "competitors_count": 9,
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Network for Good",
+        "Little Green Light",
+        "Keela",
+        "Virtuous",
+        "Salesforce Nonprofit Cloud",
+        "Blackbaud",
+        "Raiser's Edge"
+      ]
+    },
+    {
+      "id": "P020",
+      "prompt": "Cheaper alternative to Blackbaud",
+      "competitors_count": 9,
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Neon CRM",
+        "Givebutter",
+        "Little Green Light",
+        "Virtuous",
+        "Blackbaud",
+        "Raiser's Edge",
+        "Kindful"
+      ]
+    },
+    {
+      "id": "P052",
+      "prompt": "Best CRM for a new development director",
+      "competitors_count": 9,
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Neon CRM",
+        "Givebutter",
+        "Little Green Light",
+        "Virtuous",
+        "Blackbaud",
+        "Raiser's Edge",
+        "CiviCRM"
+      ]
+    },
+    {
+      "id": "P016",
+      "prompt": "Alternative to DonorPerfect",
+      "competitors_count": 8,
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Givebutter",
+        "Little Green Light",
+        "Virtuous",
+        "Blackbaud",
+        "Raiser's Edge",
+        "CiviCRM"
+      ]
+    },
+    {
+      "id": "P023",
+      "prompt": "What is replacing Kindful",
+      "competitors_count": 8,
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Network for Good",
+        "Bonterra",
+        "Givebutter",
+        "Little Green Light",
+        "Kindful",
+        "DonorBox"
+      ]
+    },
+    {
+      "id": "P032",
+      "prompt": "Alternative to Givebutter for donor management",
+      "competitors_count": 8,
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Neon CRM",
+        "Network for Good",
+        "Bonterra",
+        "Givebutter",
+        "Little Green Light",
+        "DonorBox"
+      ]
+    },
+    {
+      "id": "P029",
+      "prompt": "Best nonprofit CRM with fast implementation",
+      "competitors_count": 7,
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Givebutter",
+        "Little Green Light",
+        "Virtuous",
+        "Salesforce Nonprofit Cloud",
+        "Kindful"
+      ]
+    },
+    {
+      "id": "P036",
+      "prompt": "Best donor management software for nonprofits",
+      "competitors_count": 7,
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Givebutter",
+        "Little Green Light",
+        "Keela",
+        "Raiser's Edge",
+        "Kindful"
+      ]
+    },
+    {
+      "id": "P056",
+      "prompt": "Best donor CRM to consolidate multiple fundraising tools",
+      "competitors_count": 7,
+      "competitors": [
+        "DonorPerfect",
+        "Neon CRM",
+        "Bonterra",
+        "Givebutter",
+        "Blackbaud",
+        "Raiser's Edge",
+        "DonorBox"
+      ]
+    }
+  ],
+  "captcha_issues": false,
+  "notes": "Files reconstructed from extraction data after /tmp cleanup mid-run wiped early files. AIO content was successfully extracted; per-prompt text body abbreviated due to JS tool response truncation."
+}
