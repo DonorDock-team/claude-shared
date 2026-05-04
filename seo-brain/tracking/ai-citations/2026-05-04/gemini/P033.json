@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P033",
+  "prompt_text": "Alternative to DonorBox",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869595+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorBox is a fantastic tool for online fundraising, known for its user-friendly forms, recurring donation options, and overall affordability. However, depending on your organization's specific needs, budget, and growth trajectory, several alternatives might be a better fit.\n\nHere's a breakdown of DonorBox alternatives, categorized by their strengths and target audience:\n\n---\n\n### Key Factors to Consider When Choosing an Alternative:\n\nBefore diving into specific platforms, think about what's most important to your organization:\n\n1.  **Cost & Pricing Model:**\n    *   **Percentage Fees:** A percentage of each transaction.\n    *   **Monthly/Annual Subscription:** Flat fee, regardless of donation volume.\n    *   **Donor-Covered Fees:** Some platforms encourage donors to cover fees, potentially making the platform \"free\" for the nonprofit.\n    *   **Payment Processor Fees:** Remember that Stripe, PayPal, etc., will *always* charge their own transaction fees, regardless of the fundraising platform.\n2.  **Features:**\n    *   Online donation forms (one-time, recurring)\n    *   Peer-to-peer (P2P) fundraising\n    *   Event ticketing and management\n    *   Text-to-give\n    *   CRM (Donor Relationship Management) capabilities\n    *   Email marketing and communication tools\n    *   Campaign management\n    *   Reporting and analytics\n    *   Membership management\n3.  **Ease of Use & Setup:** How technical do you need to be? Is there good support?\n4.  **Integrations:** Does it integrate with your existing CRM (Salesforce, HubSpot, etc.), email marketing",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorBox"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 347,
+  "estimated_cost_usd": 0.000869,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

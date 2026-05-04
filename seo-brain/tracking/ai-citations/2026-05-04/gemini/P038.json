@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P038",
+  "prompt_text": "Best fundraising software for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869893+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" fundraising software for your nonprofit depends heavily on your organization's size, budget, specific needs, and technical capabilities. There's no one-size-fits-all answer, but here's a breakdown of top contenders, categorized by their strengths, to help you make an informed decision:\n\n## Top Fundraising Software for Nonprofits\n\n### **1. Best Overall & For Growing Nonprofits (Balanced Features & Scalability)**\n\n*   **Bloomerang:**\n    *   **Strengths:** Highly intuitive and user-friendly interface, strong focus on donor retention and engagement (donor \"health\" scores), excellent customer support, modern design. Includes donor management (CRM), online fundraising forms, email marketing, reporting, and volunteer management.\n    *   **Weaknesses:** Event management is good but not as robust as dedicated platforms, pricing can scale up with more contacts.\n    *   **Best For:** Small to mid-sized nonprofits looking for an all-in-one solution that prioritizes donor relationships and ease of use.\n\n*   **DonorPerfect:**\n    *   **Strengths:** A long-standing, comprehensive solution with robust donor management, online fundraising, event management, peer-to-peer, auctions, and strong reporting. Highly customizable. Good integrations with third-party tools.\n    *   **Weaknesses:** Can have a steeper learning curve than Bloomerang, interface feels a bit older for some users.\n    *   **Best For:** Mid-sized to larger nonprofits that need a powerful, feature-rich system and are willing to invest time in setup and training.\n\n*   **Neon One (Neon CRM):**\n    *   **Strengths:** A complete suite including CRM, fundraising, event management, membership management, grant management, and peer-to-peer. Highly customizable and scalable. Good for organizations with diverse operational needs.\n    *   **Weaknesses:** Can be complex to set up and manage, pricing can be higher, and some users report the interface can be clunky.\n    *   **Best For:** Growing nonprofits with complex needs (e.g., membership, grants, events, volunteers) looking for an integrated solution.\n\n### **2. Best for Enterprise & Highly Customizable Solutions**\n\n*   **Salesforce for Nonprofits (NPSP - Nonprofit Success Pack):**\n    *   **Strengths:** Incredibly powerful, flexible, and scalable CRM that can be customized to almost any need. The NPSP is a free package built on Salesforce that adapts it for nonprofits, and Salesforce offers 10 free licenses to eligible nonprofits. Extensive ecosystem of apps and integrations.\n    *   **Weaknesses:** Steep learning curve, requires significant administrative time and potentially a dedicated admin or consultant to set up and maintain. Not truly \"out-of-the-box\" ready.\n    *   **Best For:** Large, complex nonprofits with dedicated IT staff or budget for consultants, who need extreme customization and integration capabilities.\n\n*   **Blackbaud (Raiser's Edge NXT, CRM, etc.):**\n    *   **Strengths:** The industry giant with a wide array of products covering every aspect of fundraising, donor management, financial management, and more. Unparalleled analytics and reporting capabilities.\n    *   **Weaknesses:** Very expensive, complex, and can have a steep learning curve. Often requires extensive training and professional services.\n    *   **Best For:** Large, enterprise-level nonprofits with substantial budgets and complex fundraising operations.\n\n### **3. Best for Small Nonprofits & Budget-Friendly Options**\n\n*   **Little Green Light (LGL):**\n    *   **Strengths:** Very affordable, comprehensive donor management, simple online forms, excellent reporting, and great customer service. Designed specifically for smaller organizations.\n    *   **Weaknesses:** Lacks advanced features like robust event management or peer-to-peer fundraising. Interface is functional but not as modern as some others.\n    *   **Best For:** Small nonprofits with limited budgets that need solid donor management and basic fundraising tools.\n\n*   **Givebutter:**\n    *   **Strengths:** Offers a \"free forever\" core platform (they make money via optional donor tips and processing fees). Excellent for modern online fundraising, including online forms, peer-to-peer, events, auctions, and text-to-give. Very user-",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 909,
+  "estimated_cost_usd": 0.002274,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P118",
+  "prompt_text": "ChatGPT for nonprofits is it safe",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.868912+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**ChatGPT can be used safely by nonprofits with careful implementation, but it carries significant risks including data privacy breaches, inaccurate outputs, biases, and potential harm if misused.** Key concerns stem from its newness and limitations, such as generating hallucinations (fabricated facts), biases from training data, and inability to handle real-time or sensitive personal information[1][2][3][5].\n\n### Primary Risks\n- **Data Privacy and Security**: Avoid inputting personal, financial, or beneficiary data (e.g., reports, HR info, salaries), as ChatGPT's default settings may share prompts with OpenAI for training unless disabled. Nonprofits face compliance risks under data privacy laws[1][5][7].\n- **Inaccuracy and Hallucinations**: Outputs can include false information, as seen in examples like a nonprofit chatbot (Tessa by NEDA) giving harmful eating disorder advice or Vanderbilt's empathy-lacking statement. Always verify facts and check for plagiarism before use[1][2][6].\n- **Bias and Ethical Issues**: Pre-trained models may perpetuate biases or generate offensive content unsuitable for nonprofit audiences, especially in sensitive areas like mental health or legal advice[2][3].\n- **Other Limitations**: No real-time data access, potential overload on complex queries, and resource costs for advanced use. OpenAI has faced criticism for astroturfing via fake nonprofit fronts[3][4][5].\n\n### Mitigation Strategies\nTo minimize risks:\n- **Adopt a \"Do No Harm\" Approach**: Prioritize human oversight (\"co-botting\")\u2014use AI for rote tasks while humans handle empathy, decisions, and verification. Test rigorously for accuracy, bias, and edge cases[2].\n- **Build AI Literacy and Policies**: Train staff, especially leadership, on capabilities/limits. Develop guidelines banning sensitive data input and requiring output reviews[1][2][5].\n- **Practical Steps**:\n  - Turn off data sharing in settings.\n  - Use for ideation, drafting, or brainstorming without PII.\n  - Fact-check all outputs before publishing[1].\n- **Enterprise Options**: Consider paid versions (with nonprofit discounts via OpenAI or Microsoft) for better privacy controls[5].\n\nExamples of misuse, like chatbots failing in mental health or legal contexts, underscore the need for strategic planning over hasty adoption[2][6]. Responsible use enhances efficiency (e.g., saving time on ideas/comms) without eroding donor trust[1][3][6].",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 517,
+  "estimated_cost_usd": 0.012782,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://blog.techsoup.org/posts/mitigating-risks-when-using-chatgpt",
+      "https://candid.org/blogs/why-the-first-step-for-nonprofits-using-ai-technology-chatgpt-is-to-no-harm/",
+      "https://lightful.com/blog/digital/chatgpt-for-nonprofits-potential-and-pitfalls",
+      "https://futurism.com/artificial-intelligence/openai-nonprofit-child-safety",
+      "https://www.charityexcellence.co.uk/chatgpt-for-non-profits/",
+      "https://www.nonprofitpro.com/article/risks-rewards-using-artificial-intelligence-your-nonprofit/",
+      "https://riskalts.com/what-chatgpt-ai-says-about-common-nonprofit-it-risks/"
+    ]
+  }
+}

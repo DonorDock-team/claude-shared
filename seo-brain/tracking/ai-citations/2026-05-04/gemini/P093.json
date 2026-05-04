@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P093",
+  "prompt_text": "Cheapest nonprofit CRM with online giving",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869964+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding the \"cheapest\" nonprofit CRM with online giving often means looking at free or very low-cost options, keeping in mind that \"free\" usually still means you'll pay payment processing fees (e.g., Stripe, PayPal fees).\n\nHere are the top contenders, starting with the truly free options, which are ideal for organizations prioritizing cost savings:\n\n---\n\n### Truly Free Options (0% Platform Fees)\n\nThese options rely on donor tips or have slightly different business models to offer their core services for free, *plus* standard payment processing fees (typically 2.2% - 2.9% + $0.30 per transaction).\n\n1.  **Zeffy**\n    *   **Pros:** Absolutely *zero platform fees* for almost everything (online forms, events, peer-to-peer, ticketing, donor management). They rely entirely on optional donor contributions (tips) at checkout. Comprehensive suite of fundraising tools integrated with basic CRM.\n    *   **Cons:** Newer player, so community support might be smaller than established CRMs. The CRM features are good for donor tracking and communication but might not be as deep as a dedicated, paid CRM in terms of advanced segmentation or reporting.\n    *   **Ideal for:** Any size nonprofit wanting to maximize funds, especially smaller ones who need an all-in-one solution for fundraising and basic donor management without monthly costs.\n\n2.  **Givebutter**\n    *   **Pros:** Free platform (relies on donor tips or optional add-ons), incredibly user-friendly, excellent suite of online fundraising tools (forms, campaigns, events, peer-to-peer, text-to-donate). Includes a basic CRM-lite for donor profiles and tracking.\n    *   **Cons:** While it has donor management, its CRM capabilities are more focused on fundraising transaction tracking and basic contact management rather than in-",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 392,
+  "estimated_cost_usd": 0.000982,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

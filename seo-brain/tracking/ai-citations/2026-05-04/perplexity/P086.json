@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P086",
+  "prompt_text": "Best donor CRM for homeless services",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869525+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For homeless services, **CaseWorthy** is specifically designed as an all-in-one case management tool for human services organizations, excelling at client data integration, outcomes tracking, and shelter workflows[4].\n\nBeyond CaseWorthy, several general nonprofit CRMs can be adapted for homeless services depending on your specific needs:\n\n- **Salesforce NPSP** - A powerful, highly customizable CRM solution tailored for nonprofits that offers extensive features for donor management, fundraising, and program management[5]\n- **Raiser's Edge NXT (Blackbaud)** - A comprehensive donor management platform suitable for nonprofit organizations[6]\n- **Neon One** - A nonprofit CRM option for managing donors and operations[6]\n- **EveryAction (Bonterra)** - Another established nonprofit CRM platform[6]\n- **DonorPerfect** - A donor management CRM for nonprofits[6]\n\nThe key difference is that CaseWorthy is purpose-built for case management and client tracking specific to human services, making it ideal if your primary need is managing client relationships and outcomes. The other platforms are stronger if your focus is donor relationship management and fundraising alongside client services. Your choice should depend on whether you prioritize client case management, donor engagement, or need a balanced solution for both[4][6].",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bonterra",
+    "DonorPerfect",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 255,
+  "estimated_cost_usd": 0.008846,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://bloomerang.com/blog/donor-management-software/",
+      "https://johnnybaskin.com/the-best-crm-for-homeless-shelters/",
+      "https://onlinedegrees.sandiego.edu/donor-management-software/",
+      "https://www.ellipsispartners.com/donation-crms-for-nonprofits/",
+      "https://aamnationcare.org/best-crm-for-non-profits/"
+    ]
+  }
+}

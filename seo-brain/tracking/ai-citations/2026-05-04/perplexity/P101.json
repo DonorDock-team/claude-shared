@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P101",
+  "prompt_text": "DonorPerfect total cost of ownership",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869311+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorPerfect's **total cost of ownership (TCO)** includes monthly software subscriptions starting at **$89 for Essentials, $159 for Growth, and $299 for Enterprise** (with custom pricing for larger needs), plus one-time implementation fees of **$500\u2013$5,000**, customization costs of **$1,000\u2013$10,000**, training at **$500\u2013$2,000**, and setup/data migration fees of **$500\u2013$2,000**[1].\n\nOfficial pricing requires contacting a representative for a personalized quote, as no public plans are listed on their site or third-party reviewers like TrustRadius[5][6]. All plans bundle core features like customizable donor management, integrated payment processing, reporting, email marketing (Constant Contact/Mailchimp), donation forms, and mobile app access[6]. No hardware or server costs are required[1].\n\nTCO varies by organization size, complexity, and add-ons; for example, DonorPerfect positions itself as cost-effective, with fundraising fees from alternatives potentially covering a full year's subscription[1][4]. A third-party analysis rates its pricing affordability at 85/100 compared to competitors[1].",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 240,
+  "estimated_cost_usd": 0.008624,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://pricingnow.com/question/donorperfect-cost/",
+      "https://growjo.com/company/DonorPerfect_Fundraising_Growth_Platform",
+      "https://www.donorperfect.com/factsheets/donor-covers-cost-dcc/",
+      "https://www.donorperfect.com/fundraising-software/compare-donor-management-systems/givebutter/",
+      "https://www.trustradius.com/products/donorperfect/pricing",
+      "https://www.donorperfect.com/fundraising-software/pricing-guide/",
+      "https://www.donorperfect.com/company/employee-owned/",
+      "https://www.donorperfect.com/video/donorperfects-new-pricing/",
+      "https://www.donorperfect.com/factsheets/crowdfunding-online-forms-plus/"
+    ]
+  }
+}

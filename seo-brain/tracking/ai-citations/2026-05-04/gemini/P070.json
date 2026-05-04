@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869660+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Automating donor thank you letters can significantly streamline your fundraising efforts, ensure prompt acknowledgment, and maintain a consistent voice. However, it's crucial to strike a balance between automation and personalization to ensure your donors still feel genuinely appreciated.\n\nHere's a step-by-step guide to automating donor thank you letters:\n\n### 1. Choose Your Core System: A Donor Management System (DMS) or CRM\n\nThis is the foundation of your automation. Your DMS/CRM should be able to:\n*   Track donor information (name, address, email, phone).\n*   Record donation details (amount, date, campaign/fund, designation).\n*   Store communication preferences.\n*   Ideally, have built-in email or letter generation capabilities, or integrate with tools that do.\n\n**Popular DMS/CRM options:**\n*   Bloomerang\n*   DonorPerfect\n*   Salesforce for Nonprofits\n*   Little Green Light\n*   Virtuous\n*   NeonCRM\n*   Kindful\n\n### 2. Standardize Your Data Entry\n\n\"Garbage in, garbage out\" applies here. Consistent and accurate data is essential for effective automation and personalization.\n*   **Donor Name:** Ensure consistent formatting (e.g., \"Mr. John Smith\" vs. \"John Smith\"). Include preferred names if applicable.\n*   **Address:** Keep addresses clean and standardized.\n*   **Email:** Essential for email thank yous.\n*   **Donation Amount:** Accurate numerical value.\n*   **Donation Date:** Crucial for timing.\n*   **Campaign/Fund:** Helps in segmenting donors and customizing messages.\n*   **Tribute Information:** If the donation is in honor or memory of someone.\n*   **Acknowledgment Preferences:** E.g., if a donor wants to remain anonymous or prefers physical mail.\n\n### 3. Create Thank You Letter Templates\n\nYou'll need various",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 402,
+  "estimated_cost_usd": 0.001007,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

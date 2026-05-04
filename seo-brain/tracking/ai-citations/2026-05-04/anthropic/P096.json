@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P096",
+  "prompt_text": "Hidden costs of Neon CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.867676+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Neon CRM\n\nWhile Neon CRM advertises transparent pricing, organizations often encounter unexpected expenses. Here are the key hidden costs to consider:\n\n## 1. **Payment Processing Fees**\n- **3% + $0.30 per transaction** for Neon Pay (their integrated payment processor)\n- These fees apply to all donations, event registrations, and membership payments\n- Can add up significantly for high-volume fundraising\n\n## 2. **Implementation & Setup**\n- **Onboarding services** often recommended ($1,500-$5,000+)\n- **Data migration** from previous systems (can be complex and costly)\n- **Custom configuration** to match your workflows\n\n## 3. **Staff Training**\n- Initial training may be limited in base package\n- **Additional training sessions** for new staff or advanced features\n- Time investment for learning curve (hidden productivity cost)\n\n## 4. **Integration Costs**\n- Many **third-party integrations** require separate subscriptions\n- Custom API development for specialized integrations\n- Middleware tools (like Zapier) for connecting other platforms\n\n## 5. **Add-On Features**\n- **Advanced reporting** capabilities may require upgrades\n- **Custom fields** and database modifications might have limits\n- **Email sending volume** - higher tiers needed for large lists\n- **Text messaging** features typically cost extra\n\n## 6. **Support Limitations**\n- Basic plans may have **limited customer support**\n- **Premium support** packages available at additional cost\n- Phone support vs. email-only on lower tiers\n\n## 7. **User Limits**\n- Some plans restrict **number of user accounts**\n- Additional users = additional fees\n\n## 8. **Data Storage**\n- Potential charges for exceeding storage limits\n- **File attachment** storage restrictions\n\n## 9. **Annual Price Increases**\n- Regular price adjustments (typically annual)\n- Feature changes that may push you to higher tiers\n\n## Tips to Minimize Hidden Costs:\n- **Negotiate** payment processing rates if processing high volumes\n- Do your own **data cleanup** before migration\n- Utilize **free training resources** and webinars\n- Carefully assess which integrations you actually need\n- Start with a lower tier and scale up as needed\n\n**Bottom line**: Budget 20-40% above the base subscription cost for a realistic first-year total cost of ownership.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 543,
+  "estimated_cost_usd": 0.00819,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

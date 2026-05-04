@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P080",
+  "prompt_text": "Best donor CRM for private K-12 schools",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.868577+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**No single donor CRM is universally the \"best\" for private K-12 schools, as it depends on factors like school size, budget, technical expertise, and specific needs such as enrollment integration or fundraising focus.** Commonly recommended options from recent comparisons include **Virtuous**, **Bloomerang**, **Salesforce Education Cloud**, and **Blackbaud**, which cater to education and nonprofit fundraising.[2][3][1][6]\n\n### Top Recommendations for Private K-12 Schools\nThese stand out in sources targeting K-12 education or private schools, with strengths in donor management, online giving, and engagement:\n\n- **Virtuous**: Excels in seamless online giving and donor engagement for K-12 fundraising; positioned as a solid, effective player.[2][3]\n- **Salesforce Education Cloud**: Secure, integrated platform for K-12 schools to connect data, support enrollment, student services, and family engagement.[1]\n- **Bloomerang**: User-friendly for non-technical teams, with strong donor retention features; ideal for simpler nonprofit needs like school fundraisers.[3][4][8]\n- **Blackbaud Enrollment Management System (EMS)**: Tailored for individual or multi-campus private K-12 schools, combining CRM with enrollment tools.[6]\n\n| CRM | Best For | Key Strengths | Potential Drawbacks (from comparisons) |\n|-----|----------|---------------|---------------------------------------|\n| **Virtuous** | K-12 fundraising | Online giving, donor maximization[2][3] | Not specified in education contexts |\n| **Salesforce** | Comprehensive K-12 ops | Data integration, enrollment support[1] | Higher complexity/cost for small schools[4] |\n| **Bloomerang** | Small/non-technical schools | Ease of use, donor retention[3][8] | Lacks advanced features for larger ops[3] |\n| **Blackbaud EMS** | Private/multi-campus | Enrollment + donor management[6] | Phone-based support noted; pricing unclear |\n\n### Additional Context\n- Other options like **Bonterra** (industry leader with donor tools) and **Qgiv** appear in broader school fundraising lists but less emphasized for private K-12 donor CRM.[3][5][7]\n- For small nonprofits (common for private schools), comparisons highlight affordable choices like Bloomerang or LiveImpact over enterprise tools like Salesforce.[4][7][8]\n- Evaluate based on your priorities: Prioritize ease and retention for smaller schools (Bloomerang/Virtuous) or scalability/integration for larger ones (Salesforce/Blackbaud).[3][6] Sources from 2025-2026 provide current insights, but test demos for fit.[4][7]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 564,
+  "estimated_cost_usd": 0.01349,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.salesforce.com/education/k-12-software/",
+      "https://virtuous.org/education-k-12/",
+      "https://blog.charityengine.net/fundraising-software-k-12-schools",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://www.qgiv.com/blog/fundraising-software-for-education/",
+      "https://ibisstudio.com/top-crm-and-enrollment-management-systems-for-private-schools-2025-2026/",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://stratuslive.com/blog/nonprofit-crm-systems-comparison/"
+    ]
+  }
+}

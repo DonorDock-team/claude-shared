@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P054",
+  "prompt_text": "Best donor CRM for animal rescue and shelters",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869775+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the best donor CRM for an animal rescue or shelter requires a system that not only manages donations effectively but also understands the unique needs of animal welfare organizations, such as tracking volunteers, foster parents, and even the animals themselves (often through integrations).\n\nHere's a breakdown of the best options, considering various organizational sizes and needs:\n\n## Top Donor CRMs for Animal Rescues & Shelters\n\n### 1. Bloomerang\n*   **Best For:** Small to medium-sized organizations looking for an intuitive, donor-centric platform with strong reporting and communication tools.\n*   **Pros:**\n    *   **Extremely User-Friendly:** Known for its clean interface and ease of use, even for non-technical staff and volunteers.\n    *   **Donor Retention Focus:** Built-in engagement meters and prospect research tools help identify and nurture relationships.\n    *   **Robust Reporting:** Excellent dashboards and customizable reports to track fundraising performance and donor trends.\n    *   **Integrated Communications:** Email marketing, acknowledgment letters, and social media integration.\n    *   **Good Integrations:** Connects well with payment processors, email marketing tools, and some animal management software (via Zapier or direct integrations).\n*   **Cons:** While good for donors, volunteer management might be less robust than a dedicated volunteer platform or some other all-in-one solutions.\n\n### 2. Neon One (NeonCRM)\n*   **Best For:** Growing organizations that need a comprehensive, all-in-one solution that goes beyond just donor management to include events, membership, and volunteer tracking.\n*   **Pros:**\n    *   **All-in-One Non-Profit Suite:** Offers robust modules for donor management, event registration, membership management, peer-to-peer fundraising, and volunteer management.\n    *   **Highly Customizable:** Allows organizations to tailor fields and workflows to their specific needs.\n    *   **Strong Integrations:** Integrates with many third-party apps, including payment processors and website platforms.\n    *   **Scalable:** Can grow with your organization as your needs become more complex.\n*   **Cons:** Can have a steeper learning curve due to its extensive features. Pricing can be higher than more basic options.\n\n### 3. Salesforce Nonprofit Cloud\n*   **Best For:** Larger, complex organizations or those with specific, highly customized needs and the resources (either in-house or consulting) to manage a powerful platform.\n*   **Pros:**\n    *   **Incredibly Powerful & Customizable:** As a leading CRM, Salesforce can be configured to manage virtually anything, from donors and volunteers to animal tracking (though this would require significant customization).\n    *   **Nonprofit Success Pack (NPSP):** A free, pre-configured package for non-profits that provides a strong foundation for donor and constituent management.\n    *   **Extensive AppExchange:** Thousands of apps (some free, some paid) extend functionality, including specialized volunteer management, marketing automation, and more.\n    *   **10 Free Licenses:** Salesforce offers 10 free enterprise licenses to qualifying non-profits, making it very cost-effective for larger teams.\n*   **Cons:** Requires significant",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Neon One",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 668,
+  "estimated_cost_usd": 0.001672,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P048",
+  "prompt_text": "Donor CRM for nonprofits outgrowing their current tools",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869378+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**For nonprofits outgrowing their current donor CRM tools, top recommendations include DonorDock, Virtuous CRM, DonorPerfect, Salesforce Nonprofit Cloud, and Raiser\u2019s Edge NXT, which offer scalability, advanced analytics, automation, and integrations to unify donor data and support growth.**[2][5][7]\n\nThese platforms address common pain points like scattered data, limited features, and poor scalability noted in growing organizations.[5][6][10] Key options are summarized below, prioritized for mid-sized nonprofits based on ease of use, all-in-one capabilities, and growth suitability:\n\n| CRM | Best For | Key Strengths | Pricing | Caveats |\n|-----|----------|---------------|---------|---------|\n| **DonorDock** | Growing nonprofits needing an all-in-one platform | Bundles donor management, online giving, email/text marketing, automations, project management, AI tools; unlimited contacts; #1 on G2 for setup/support | $500/month (transparent, flat rate) | None major noted[7] |\n| **Virtuous CRM** | Teams prioritizing polished UX and donor intelligence | Advanced analytics, AI-driven insights, forecasting, built-in marketing, seamless integrations | Premium (\ud83d\udcb0\ud83d\udcb0\ud83d\udcb0) | May exceed needs for smaller teams[1][2] |\n| **DonorPerfect** | Budget-friendly all-around use with grant tracking | Native Constant Contact integration, practical fundraising tools | Affordable (\ud83d\udcb0) | Dated UI; may not scale for larger orgs[2] |\n| **Salesforce Nonprofit Cloud** | Scalable operations across fundraising/programs | Powerful automations, integrations, donor engagement; highly flexible | High (\ud83d\udcb0\ud83d\udcb0\ud83d\udcb0\ud83d\udcb0); needs implementation partner | Complex for small orgs; no built-in donation forms[2] |\n| **Raiser\u2019s Edge NXT (Blackbaud)** | Complex donor/grant operations in larger orgs | AI prospecting, forecasting, full grant tracking | Expensive (\ud83d\udcb0\ud83d\udcb0\ud83d\udcb0) | Steep learning curve, usability issues[2] |\n\n### Essential Features for Outgrowing Nonprofits\nLook for these to replace spreadsheets or basic tools:\n- **Rich donor profiles** with 360-degree views, giving history, engagement timelines, and household linking.[1][5][7]\n- **Automation & personalization**: AI insights, workflows, segmented outreach, auto thank-yous.[1][3][7]\n- **Integrations & online giving**: Email, payments, events; low-fee forms and recurring donations.[2][5][7]\n- **Analytics & reporting**: Donor patterns, retention scores, forecasting for major gifts.[1][2][5]\n- **Scalability**: Unlimited contacts, no added costs as you grow; avoids data silos.[4][6][7]\n\nSwitching is advised if data is scattered, features lack (e.g., no robust segmentation or wealth screening), or staff rely on side tools like spreadsheets.[4][5][6][10] Modern CRMs like these centralize everything into a \"single source of truth,\" boosting retention and fundraising.[2][7] Evaluate based on your size, budget, and needs\u2014e.g., DonorDock for simplicity, Virtuous for AI depth.[2][7]",
+  "donordock_mentioned": true,
+  "donordock_position": 87,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 680,
+  "estimated_cost_usd": 0.015236,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://virtuous.org/blog/why-nonprofits-should-change-crms-now/",
+      "https://www.ellipsispartners.com/donation-crms-for-nonprofits/",
+      "https://whillconsulting.com/crm-donor-retention-strategies/",
+      "https://www.liveimpact.org/blog/reassess-nonprofit-crm-strategy-ai-tools",
+      "https://byrnepelofsky.com/4-signs-its-time-to-switch-to-a-new-nonprofit-crm-2/",
+      "https://lakeone.io/blog/outgrowing-little-green-light-signs-to-switch-crms",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.donorperfect.com/nonprofit-technology-blog/featured/choosing-a-nonprofit-crm/",
+      "https://www.giveffect.com/nonprofit-resource-center/signs-your-nonprofit-has-outgrown-its-systems-and-what-to-do-before-year-end/"
+    ]
+  }
+}

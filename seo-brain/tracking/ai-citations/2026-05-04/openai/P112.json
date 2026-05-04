@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.869995+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking soft credits in a donor CRM (Customer Relationship Management) system involves recording and managing instances where individuals or entities are indirectly credited for donations. This typically happens when someone influences or facilitates a donation without giving the money themselves. Here\u2019s how you can effectively track soft credits in a donor CRM:\n\n1. **Understand Soft Credits:**\n   - A soft credit is a way to recognize individuals who played a role in facilitating a gift but did not directly donate. This could be board members, volunteers, or businesses involved in donor matching programs.\n\n2. **Choose a CRM with Soft Credit Functionality:**\n   - Ensure your CRM has features for managing soft credits. Popular donor CRMs like Salesforce Nonprofit Cloud, Bloomerang, and DonorPerfect have built-in options for tracking soft credits.\n\n3. **Define Soft Credit Policies:**\n   - Establish specific guidelines on what qualifies as a soft credit within your organization. Decide how these contributions will be reported internally and externally.\n\n4. **Create Soft Credit Records:**\n   - When entering a new donation in your CRM, look for an option to add a soft credit. Typically, after inputting the donation details, there will be a section where you can add the person or entity to be soft-credited.\n\n5. **Link Contacts and Donations:**\n   - Link the soft credit contact with their associated donation. This ensures whenever the donation record is reviewed, the contribution of others is also acknowledged.\n\n6. **Customize Soft Credit Fields:**\n   - If your CRM allows, customize fields to capture all relevant information such as relationship type (e.g., employer match, influencer) and soft credit amount.\n\n7. **Run Soft Credit Reports:**\n   - Use your CRM\u2019s reporting tools to generate reports that include soft credits. This is useful for recognizing the efforts of those facilitating donations in newsletters, thank-you notes, or during donor recognition events.\n\n8. **Regularly Update Records:**\n   - Ensure all soft credit information is up-to-date. Regular reviews can prevent discrepancies and maintain accurate recognition for all involved parties.\n\n9. **Training and Documentation:**\n   - Train your team on the importance of tracking soft credits and how to properly enter them into your CRM. Provide detailed documentation or guides for reference.\n\n10. **Acknowledge and Thank:**\n    - Develop a strategy to acknowledge and express gratitude to those who receive soft credits. Recognition doesn\u2019t need to be at the same level as direct donors but ensuring they feel appreciated is important.\n\nBy following these steps, you can establish a reliable system for tracking soft credits, ensuring all contributors\u2019 efforts are recognized and valued.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 528,
+  "estimated_cost_usd": 0.005318,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

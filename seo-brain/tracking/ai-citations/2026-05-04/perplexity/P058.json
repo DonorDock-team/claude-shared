@@ -1,0 +1,39 @@
+{
+  "prompt_id": "P058",
+  "prompt_text": "Donor CRM with online giving forms",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.870005+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**DonorPerfect** is a leading Donor CRM with integrated online giving forms that automatically sync donations to donor records, support recurring gifts and tributes, and boost completion rates up to 3x the nonprofit average.[1][2]\n\n### Key Features of DonorPerfect Online Forms\n- **Customizable design**: Use a drag-and-drop builder to add fields, branding, checkboxes, dropdowns, and text inputs that map directly to your CRM.[2]\n- **Seamless integration**: Gifts sync automatically to DonorPerfect for real-time acknowledgments, reporting, and personalized thank-yous; staff get email notifications.[1][2][6]\n- **Enhanced giving options**: Include monthly upgrades, suggested amounts based on donor history, digital wallets, DAFpay, and donor-covered transaction fees.[2][6]\n- **Embedding and accessibility**: Easily embed on websites or emails; supports international donors with fast, secure checkout.[2]\n\n### Other Donor CRMs with Online Giving Forms\nSeveral alternatives offer similar functionality, often with matching gift integrations via Double the Donation:\n\n| CRM | Online Giving Forms Highlights | Source |\n|-----|-------------------------------|--------|\n| **Virtuous** | Customizable forms/pages with data intelligence to optimize gift amounts and donor experiences.[4] | [4] |\n| **Donorbox** | AI-powered CRM with free online donation buttons and comprehensive fundraising tools.[5] | [5] |\n| **Givecloud** | Forms with smart suggested amounts, social proof, and modern payments to convert one-time givers.[7] | [7] |\n| **DonorDock** | Fully embeddable forms for seamless website integration and easy donating.[10] | [10] |\n| **Funraise** | High-performing forms integrated with matching gifts; automates follow-ups at donation time.[3] | [3] |\n| **Givebutter** | Collects employment data during donations for automated matching gift emails.[3] | [3] |\n\n**Giveffect**, **Bloomerang**, **Keela**, **Neon CRM**, and others like DonorDirect also provide donor management with online forms and matching gift tools, but details emphasize integrations over form customization.[3][8][9]\n\nFor setup, DonorPerfect offers video guides covering payment gateways, code options, and automatic gift downloads.[6] Choose based on needs like AI features (Donorbox, Virtuous) or embedding ease (DonorDock).[1-10]",
+  "donordock_mentioned": true,
+  "donordock_position": 1538,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Givebutter",
+    "Keela",
+    "Neon CRM",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 512,
+  "estimated_cost_usd": 0.012704,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donorperfect.com",
+      "https://www.donorperfect.com/fundraising-software/integrated-online-forms/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://virtuous.org",
+      "https://donorbox.org",
+      "https://www.donorperfect.com/video/how-to-set-up-your-online-donation-forms/",
+      "https://givecloud.com",
+      "https://www.giveffect.com",
+      "https://bloomerang.com",
+      "https://www.donordock.com/features/fully-embeddable"
+    ]
+  }
+}

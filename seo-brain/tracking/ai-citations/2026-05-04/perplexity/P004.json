@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P004",
+  "prompt_text": "DonorDock pricing",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869444+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**DonorDock offers a single pricing plan called DonorDock ONE at a flat rate of $500 per month.** This includes unlimited contacts, no contracts, no hidden fees, and features like unlimited donor records, gift tracking, custom donation pages, reporting, integrations (e.g., QuickBooks, Eventbrite), volunteer/event tracking, and a 1% flat platform fee on online donations.[1][2][3][4]\n\nKey details:\n- **Subscription structure**: Annual subscription with transparent pricing; premium onboarding ($3,800 value) currently included as a limited-time offer.[1][2]\n- **Free trial**: Available to test the platform before committing.[2][3][4]\n- **Online giving fees**: 5% + $0.30 per transaction platform fee (donor-funded by default; organization pays only Stripe processing fees ~2.9% + $0.30 if donor declines).[5][6]\n- **No usage limits**: Unlimited across contacts, gifts, pages, and team communications.[2][7]\n- **Comparisons**: Cheaper than alternatives like Network for Good ($300+/month + 3% fee, contact limits, contracts).[7]\n\nPricing data is from official and review sites, last updated March 2026; contact DonorDock for custom quotes or current negotiations.[2][4]",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 277,
+  "estimated_cost_usd": 0.00917,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/pricing",
+      "https://www.g2.com/products/donordock/pricing",
+      "https://www.getapp.com/nonprofit-software/a/donordock/",
+      "https://www.capterra.com/p/184187/DonorDock/",
+      "https://helpcenter.donordock.com/kb/guide/en/donordock-and-online-giving-fees-FF6iCEKSlh/Steps/1935110",
+      "https://helpcenter.donordock.com/kb/guide/en/donors-covering-processing-fees-n6LwYO7xqb/Steps/2705524",
+      "https://www.donordock.com/compare/network-for-good-vs-donordock",
+      "https://www.softwareadvice.com/nonprofit/donordock-profile/",
+      "https://www.donordock.com/lp/donation-management",
+      "https://www.donordock.com"
+    ]
+  }
+}

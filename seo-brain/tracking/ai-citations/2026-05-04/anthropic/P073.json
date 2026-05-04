@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869793+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Track Donor Pledges\n\n## 1. **Choose a Tracking System**\n\n### Spreadsheet (Simple/Small Organizations)\n- **Excel or Google Sheets** with columns for:\n  - Donor name and contact info\n  - Pledge amount\n  - Pledge date\n  - Payment schedule\n  - Amount received\n  - Balance remaining\n  - Notes/restrictions\n\n### Donor Management Software (Recommended)\n- **Bloomerang**\n- **DonorPerfect**\n- **Little Green Light**\n- **Salesforce Nonprofit Cloud**\n- **Kindful**\n- **Raiser's Edge** (larger organizations)\n\n## 2. **Essential Information to Record**\n\n- Donor's full name and contact details\n- Pledge amount and date\n- Payment terms (one-time, monthly, quarterly, etc.)\n- Expected completion date\n- Purpose/designation of funds\n- Written pledge confirmation\n- Payment method preferences\n- Recognition preferences\n\n## 3. **Best Practices**\n\n### Documentation\n- Get pledges in writing (email counts)\n- Send immediate acknowledgment letters\n- Create pledge agreements for large amounts\n\n### Regular Follow-up\n- Send payment reminders before due dates\n- Monthly reconciliation of pledges vs. payments\n- Quarterly reports to donors showing their progress\n\n### Communication Schedule\n- Thank donors immediately upon pledge\n- Send reminders 2 weeks before payment due\n- Acknowledge each payment received\n- Update donors on impact of their giving\n\n## 4. **Reporting**\n\nTrack these key metrics:\n- Total pledges outstanding\n- Pledge fulfillment rate\n- Aged pledge reports (30/60/90 days overdue)\n- Expected vs. actual revenue\n\nWould you like specific recommendations based on your organization's size or budget?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 406,
+  "estimated_cost_usd": 0.006129,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869854+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for International NGOs\n\nHere are the top CRM solutions suited for international NGOs, considering global operations, multi-currency support, and compliance needs:\n\n## **Top Recommendations**\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large international NGOs with complex needs\n- **Strengths:** \n  - Highly customizable and scalable\n  - Strong multi-currency and multi-language support\n  - Robust reporting and analytics\n  - Extensive third-party integrations\n- **Considerations:** Requires technical expertise; higher cost\n\n### **2. Microsoft Dynamics 365 for Nonprofits**\n- **Best for:** Organizations already using Microsoft ecosystem\n- **Strengths:**\n  - Excellent international capabilities\n  - Strong compliance features (GDPR, etc.)\n  - Integration with Office 365\n  - Good for complex organizational structures\n- **Considerations:** Steep learning curve\n\n### **3. Raiser's Edge NXT (Blackbaud)**\n- **Best for:** Established NGOs focused on fundraising\n- **Strengths:**\n  - Industry-standard for major donor management\n  - Cloud-based with global accessibility\n  - Strong reporting capabilities\n  - Good international payment processing\n- **Considerations:** Premium pricing\n\n### **4. CiviCRM**\n- **Best for:** Budget-conscious NGOs with technical capacity\n- **Strengths:**\n  - Open-source (free/low-cost)\n  - Highly customizable\n  - Built specifically for nonprofits\n  - Active global community\n- **Considerations:** Requires technical setup and maintenance\n\n### **5. Bloomerang**\n- **Best for:** Small to mid-sized NGOs\n- **Strengths:**\n  - User-friendly interface\n  - Strong donor retention focus\n  - Good value for money\n  - Growing international features\n- **Considerations:** Less robust for very large organizations\n\n## **Key Features to Prioritize**\n\n- \u2705 Multi-currency support\n- \u2705 Multi-language capabilities\n- \u2705 GDPR and international compliance tools\n- \u2705 Grant management\n- \u2705 Global payment gateway integrations\n- \u2705 Cloud-based accessibility\n- \u2705 Reporting across multiple regions\n\n## **Decision Factors**\n\nConsider your:\n- **Budget** (licenses, implementation, training)\n- **Organization size** and growth plans\n- **Technical capacity** of your team\n- **Specific regions** of operation\n- **Integration needs** (accounting, email marketing, etc.)\n\nWould you like specific recommendations based on your NGO's size, budget, or geographic focus?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 609,
+  "estimated_cost_usd": 0.00918,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

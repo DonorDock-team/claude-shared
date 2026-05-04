@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P148",
+  "prompt_text": "Donor management vs CRM what's the difference",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.870012+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Donor management software focuses narrowly on tracking donors, their donations, and fundraising-specific tasks like gift processing, acknowledgments, and retention metrics, while CRM (Customer/Constituent Relationship Management) systems offer broader functionality for managing all relationships with supporters, volunteers, beneficiaries, events, marketing, and programs.** [1][2][5]\n\n### Key Differences\n| Aspect                  | Donor Management Software                                                                 | CRM Systems                                                                                  |\n|-------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|\n| **Scope**              | Narrow focus on donors and financial interactions (e.g., donation tracking, campaign reporting, donor demographics).[1][2] | Broader management of all constituents (donors, volunteers, staff, beneficiaries) and activities (events, membership, advocacy).[1][2][5] |\n| **Features**           | Specialized for fundraising workflows, tax receipts, thank-you messages, and donor-specific communications.[1][2] | Comprehensive tools like email marketing, event management, social integration, peer-to-peer fundraising, and stakeholder segmentation.[1][2][3] |\n| **Data & Reporting**   | Emphasizes donor metrics (e.g., retention, giving patterns, trends).[1]                   | Extensive analytics across activities, including engagement, volunteers, and programs.[1][4] |\n| **Customization & Cost**| Often simpler, cheaper, and pre-tailored for nonprofits (\"assembled car\").[4][6]         | More flexible but costlier and requires setup for charity use (\"car in parts\").[4][6]       |\n| **Integration**        | Limited to donor tools; may integrate with CRMs.[3]                                       | Central hub integrating donations, events, and other platforms.[3][5]                        |\n\nSome sources note overlap: Donor management tools are sometimes called \"donor CRMs\" or viewed as nonprofit-tailored CRMs, but traditional CRMs are general-purpose and less specialized for donations without customization.[3][5][6] Nonprofits often use both for optimal efficiency.[3] Choose based on needs\u2014donor software for small, donation-focused ops; CRM for complex, multi-stakeholder engagement.[1][6][7]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 450,
+  "estimated_cost_usd": 0.01178,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://supporterhub.com/charity-crm-and-donor-management-software/",
+      "https://momentivesoftware.com/faq/whats-the-difference-between-donor-management-software-and-a-crm/",
+      "https://www.funraise.org/features/donor-crm",
+      "https://www.tigernix.com/blog/crm-or-donor-management-system-for-charity",
+      "https://doublethedonation.com/nonprofit-crm-buyers-guide/",
+      "https://charitydigital.org.uk/topics/crm-or-donor-management-system-which-one-is-right-for-you-5050",
+      "https://www.culturehive.co.uk/wp-content/uploads/2020/10/Do-I-need-a-CRM-or-a-Donor-Database-2.pdf"
+    ]
+  }
+}

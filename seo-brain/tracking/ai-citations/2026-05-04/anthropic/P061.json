@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P061",
+  "prompt_text": "Best donor CRM for monthly giving programs",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.868411+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Monthly Giving Programs\n\nHere are the top CRM platforms specifically strong for managing recurring donations:\n\n## **Top Tier Options**\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits focused on retention\n- Strong recurring gift tracking and retention metrics\n- Automated engagement timelines for sustainers\n- Built-in retention scoring\n- **Pricing:** ~$125-$500/month\n\n### **2. Virtuous**\n- **Best for:** Growing nonprofits wanting sophisticated automation\n- Excellent recurring gift management\n- Responsive fundraising automation for monthly donors\n- Strong segmentation capabilities\n- **Pricing:** Custom (typically $3,000+/year)\n\n### **3. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with technical resources\n- Highly customizable recurring donation tracking\n- Powerful reporting and analytics\n- Extensive integration options\n- **Pricing:** $36-$300+/user/month\n\n## **Budget-Friendly Options**\n\n### **4. Little Green Light**\n- Simple recurring gift management\n- Good for smaller programs\n- **Pricing:** ~$59-$195/month\n\n### **5. Donorbox + Airtable/Google Sheets**\n- For very small organizations\n- Donorbox handles recurring payments well\n- Export to spreadsheet for management\n\n## **Key Features to Look For**\n- Automated payment processing\n- Failed payment recovery workflows\n- Segmentation for monthly donors\n- Retention reporting\n- Upgrade/downgrade management\n- Customizable communication cadences\n\n**What size is your organization and current monthly donor base?** That will help narrow the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 388,
+  "estimated_cost_usd": 0.005865,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

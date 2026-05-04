@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P001",
+  "prompt_text": "What is DonorDock",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.868915+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**DonorDock** is a comprehensive **donor management and fundraising CRM (Customer Relationship Management) solution** specifically designed for **nonprofit organizations**.\n\nIts core purpose is to help nonprofits efficiently manage their donor relationships, track fundraising efforts, and streamline their operations, ultimately enabling them to raise more funds and achieve their mission.\n\nA key differentiator for DonorDock is that it is **built on the Microsoft Dynamics 365 platform**. This means it leverages the robust, scalable, and secure infrastructure of Microsoft's enterprise business applications, and integrates seamlessly with other Microsoft products like Office 365 (Outlook, Excel, Word, Teams).\n\nHere's a breakdown of what DonorDock typically offers:\n\n1.  **Donor Database Management:**\n    *   Centralized profiles for donors, prospects, volunteers, and organizations.\n    *   Tracking of contact information, communication preferences, relationships, and history.\n    *   Segmentation capabilities to group donors based on various criteria (giving level, interests, engagement).\n\n2.  **Fundraising & Donation Tracking:**\n    *   Recording and tracking all types of donations (one-time, recurring, pledges, in-kind).\n    *   Campaign and appeal management to monitor the performance of different fundraising initiatives.\n    *   Online giving forms that integrate directly with the system.\n    *   Automatic generation of donation receipts and thank-you letters.\n\n3.  **Relationship & Engagement Tools:**\n    *   Logging interactions (calls, emails, meetings) with donors.\n    *   Task management and reminders for donor outreach.\n    *   Tools for managing memberships and recurring giving programs.\n\n4.  **Reporting & Analytics:**\n    *   Dashboards and customizable reports to visualize fundraising performance, donor trends, and campaign effectiveness.\n    *   Insights into donor behavior, retention rates, and potential major gift prospects.\n\n5.  **Integration with Microsoft Ecosystem:**\n    *   Seamless connectivity with Outlook for email tracking and scheduling.\n    *   Exporting data to Excel for further analysis.\n    *   Utilizing Word for mail merges and personalized communications.\n    *   Leveraging the security and compliance features of the Microsoft platform.\n\n6.  **Event Management (often light or integrated):**\n    *   Tracking attendees and registrations for fundraising events.\n\nIn essence, DonorDock aims to be an all-in-one solution that provides nonprofits with the tools they need to build stronger relationships with their supporters, manage their fundraising effectively, and gain valuable insights into their operations, all within a familiar and powerful Microsoft environment.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 532,
+  "estimated_cost_usd": 0.001331,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

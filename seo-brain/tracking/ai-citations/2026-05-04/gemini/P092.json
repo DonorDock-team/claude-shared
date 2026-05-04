@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869899+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for an international NGO (INGO) is complex because needs vary significantly based on size, geographic reach, fundraising methods, and existing tech stack. However, there are strong contenders that excel in the unique demands of international operations.\n\n**The Top Recommendation (with a strong caveat): Salesforce Nonprofit Cloud**\n\nSalesforce Nonprofit Cloud, built on the robust Salesforce platform, is often considered the leading choice for INGOs due to its:\n\n1.  **Unparalleled Customization & Scalability:**\n    *   **Flexibility:** Can be tailored to virtually any fundraising model, program management, or donor engagement strategy, no matter how complex or unique to a specific region.\n    *   **Scalability:** Grows with your organization, from small country offices to global headquarters managing millions of donors and transactions.\n    *   **AppExchange:** A vast ecosystem of third-party apps and integrations (e.g., payment processors, marketing automation, reporting tools) that extend functionality.\n\n2.  **Robust International Capabilities:**\n    *   **Multi-currency Support:** Handles donations and transactions in multiple currencies with built-in conversion capabilities.\n    *   **Multi-language Support:** The platform itself can be displayed in multiple languages, and data entry can support various scripts (Unicode). Requires configuration and potentially translation of custom fields.\n    *   **Global Compliance:** While not out-of-the-box, its flexibility allows for configuration to meet data privacy regulations like GDPR, CCPA, and others specific to different regions.\n    *   **Time Zones:** Manages data across different time zones effectively.\n\n3.  **Comprehensive Fundraising & Engagement:**\n    *   **Donor Management:** Tracks donors, prospects, grants, and major gifts comprehensively.\n    *   **Campaign Management:** Plan, execute, and track global campaigns across various channels (email, direct mail, digital).\n    *   **Grant Management:** Strong capabilities for tracking grant applications, awards, and reporting.\n    *   **Program Management:** Can be extended to manage program delivery and impact reporting, linking donations directly to outcomes.\n\n4.  **Powerful Reporting & Analytics:**\n    *   Generate complex reports and dashboards to monitor fundraising performance, donor segments, and program effectiveness globally.\n\n**Caveats for Salesforce Nonprofit Cloud:**\n\n",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 478,
+  "estimated_cost_usd": 0.001197,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

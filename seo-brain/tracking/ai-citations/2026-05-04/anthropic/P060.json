@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.867200+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM with Recurring Giving\n\nI'll help you understand donor CRMs with recurring giving capabilities. Here's a comprehensive overview:\n\n## **What is Recurring Giving?**\n\nRecurring giving allows donors to set up automatic, regular donations (monthly, quarterly, annually) rather than one-time gifts. This provides:\n- **Predictable revenue** for nonprofits\n- **Convenient giving** for donors\n- **Higher lifetime value** per donor\n- **Better donor retention**\n\n## **Top Donor CRMs with Recurring Giving**\n\n### **1. Bloomerang**\n- Strong recurring gift management\n- Automated payment processing\n- Donor retention focus\n- Best for: Small to mid-size nonprofits\n\n### **2. Salesforce Nonprofit Cloud**\n- Highly customizable\n- Robust recurring donation automation\n- Integrates with multiple payment processors\n- Best for: Medium to large organizations\n\n### **3. DonorPerfect**\n- Built-in recurring gift tracking\n- Automated acknowledgments\n- Payment failure notifications\n- Best for: Growing nonprofits\n\n### **4. Kindful (by Bloomerang)**\n- Simple recurring gift setup\n- Integrated with popular payment gateways\n- Good reporting\n- Best for: Small nonprofits\n\n### **5. NeonCRM**\n- Flexible recurring gift options\n- Customizable donor portal\n- Strong automation features\n- Best for: All sizes\n\n## **Key Features to Look For**\n\n### **Payment Processing**\n- \u2705 Multiple payment methods (credit card, ACH/bank transfer)\n- \u2705 PCI compliance\n- \u2705 Integration with payment gateways (Stripe, PayPal, etc.)\n- \u2705 Support for different currencies (if international)\n\n### **Automation**\n- \u2705 Automatic charge processing\n- \u2705 Failed payment retry logic\n- \u2705 Automated receipts and acknowledgments\n- \u2705 Email notifications for donors and staff\n\n### **Donor Management**\n- \u2705 Easy upgrades/downgrades of gift amounts\n- \u2705 Pause or cancel options for donors\n- \u2705 Self-service donor portal\n- \u2705 Gift frequency flexibility\n\n### **Reporting & Analytics**\n- \u2705 Monthly recurring revenue (MRR) tracking\n- \u2705 Churn rate monitoring\n- \u2705 Donor retention metrics\n- \u2705 Forecasting tools\n\n### **Communication Tools**\n- \u2705 Automated thank-you messages\n- \u2705 Impact reporting for sustainers\n- \u2705 Special recognition programs\n- \u2705 Re-engagement campaigns\n\n## **Best Practices for Recurring Giving Programs**\n\n1. **Make It Easy to Sign Up**\n   - Prominent option on donation forms\n   - Suggest monthly amounts\n   - Show impact over time\n\n2. **Manage Failed Payments**\n   - Automatic retry attempts\n   - Email notifications to donors\n   - Update payment info process\n\n3. **Steward Recurring Donors**\n   - Special recognition\n   - Regular impact updates\n   - Anniversary acknowledgments\n   - Exclusive content or benefits\n\n4. **Monitor & Optimize**\n   - Track retention rates\n   - Analyze why donors cancel\n   - Test different messaging\n   - Optimize payment timing\n\n## **Pricing Considerations**\n\nMost donor CRMs charge:\n- **Monthly/annual subscription** ($50-$500+/month)\n- **Transaction fees** (2-5% of donations)\n- **Setup/onboarding fees** (sometimes)\n\n## **Questions to Ask Before Choosing**\n\n1. What payment processors does it integrate with?\n2. Can donors manage their own recurring gifts?\n3. How does it handle failed payments?\n4. What reporting is available for recurring revenue?\n5. Is there a donor portal?\n6. What are the total costs (subscription + transaction fees)?\n7. How easy is data migration?\n\n---\n\n**Would you like me to:**\n- Compare specific CRM options in detail?\n- Provide guidance on launching a recurring giving program?\n- Discuss integration with your existing tools?\n- Share strategies for converting one-time donors to recurring?\n\nLet me know what would be most helpful!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 980,
+  "estimated_cost_usd": 0.014742,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

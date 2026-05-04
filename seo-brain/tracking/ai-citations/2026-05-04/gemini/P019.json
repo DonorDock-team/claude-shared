@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P019",
+  "prompt_text": "Alternative to Blackbaud Raisers Edge",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869832+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Blackbaud Raiser's Edge (RE) is a powerful, long-standing CRM for nonprofits, but many organizations look for alternatives due to factors like cost, complexity, user interface, integration challenges, or a desire for more modern, cloud-native features.\n\nHere's a breakdown of excellent alternatives, categorized by their strengths and target audiences:\n\n---\n\n## Key Considerations Before Choosing an Alternative:\n\nBefore diving into specific platforms, clearly define what your organization needs:\n\n1.  **Budget:** What's your monthly/annual budget for software, implementation, and training?\n2.  **Organization Size & Complexity:** Are you a small startup, a mid-sized growing organization, or a large enterprise with complex needs?\n3.  **Key Features Needed:**\n    *   Donor Management (contact info, giving history, relationships)\n    *   Fundraising Campaigns (tracking appeals, pledges, recurring gifts)\n    *   Grant Management\n    *   Event Management\n    *   Volunteer Management\n    *   Membership Management\n    *   Marketing & Communications (email, segmentation)\n    *   Reporting & Analytics\n    *   Integrations (with accounting, email marketing, website, payment processors)\n    *   Prospect Research\n    *   Advocacy Tools\n4.  **Ease of Use & User Interface:** How tech-savvy is your team? Do you prefer a modern, intuitive UI?\n5.  **Scalability:** Can the system grow with your organization?\n6.  **Support & Community:** What level of customer support do you expect? Is there an active user community?\n7.  **Data Migration:** How complex is your existing Raiser's Edge database? This will be a significant factor in switching.\n\n---\n\n## Top Alternatives to Blackbaud Raiser's Edge:\n\n### 1. Salesforce for Nonprofits (with Nonprofit Success Pack - NPSP)\n\n*   **Overview:** Salesforce is the world's leading CRM, and its Nonprofit Cloud (powered by the Nonprofit Success Pack) is a highly customizable and robust solution for nonprofits. It provides a 360-degree view of constituents, tracks donations, manages programs, and supports marketing efforts.\n*   **Strengths:**\n    *   **Highly Customizable & Scalable:** Can be tailored to almost any nonprofit's needs, from small to large enterprise.\n    *   **Vast Ecosystem:** Access to thousands of apps on the AppExchange for specific functionalities (grant management, event registration, marketing automation, etc.).\n    *   **Reporting & Analytics:** Powerful and flexible reporting tools.\n    *   **Integration:** Excellent integration capabilities with",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 552,
+  "estimated_cost_usd": 0.001382,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

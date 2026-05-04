@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P136",
+  "prompt_text": "Salesforce Nonprofit Cloud problems",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.868914+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Salesforce Nonprofit Cloud faces challenges including known technical issues in case and volunteer management, high costs, administrative complexity, and data-related problems that hinder AI effectiveness in fundraising.**\n\n### Known Technical Issues\nSalesforce officially tracks issues in Nonprofit Cloud, particularly in **Case Management**, where users can report impacts and receive email updates.[1] Community reports highlight problems like volunteers not populating in the **Volunteer Management** search component.[4] Some NPSP (Nonprofit Success Pack) known issues have been resolved recently, suggesting ongoing fixes.[5]\n\n### Cost and Administration Concerns\nCommon criticisms include the **high cost** of Nonprofit Cloud, **difficulty in administration**, and the need for additional extensions, which can complicate implementation for nonprofits.[3]\n\n### AI and Data Challenges in Fundraising\nAI tools struggle due to incomplete donor context from fragmented sources (e.g., emails, events, spreadsheets), inconsistent definitions across teams (e.g., \"engaged donor\"), lack of feedback loops for outcomes, and compliance issues like channel preferences.[2] These lead to generic recommendations and low trust, though Nonprofit Cloud with Data Cloud and Einstein Copilot aims to unify data and integrate AI into workflows.[2]\n\nSearch results focus on these user-reported and expert-analyzed problems as of available data; comprehensive official outage logs or recent 2026 updates are not detailed here. For real-time status, check Salesforce's Known Issues page.[1]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 292,
+  "estimated_cost_usd": 0.009401,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://help.salesforce.com/s/issue?language=en_US&id=a028c00000yG9HpAAK",
+      "https://www.salesforceben.com/how-salesforce-nonprofit-cloud-can-fix-ai-failures-in-fundraising/",
+      "https://teamheller.com/resources/blog/shedding-light-on-three-concerns-about-the-salesforce-nonprofit-cloud",
+      "https://trailhead.salesforce.com/trailblazer-community/topics/nonprofitcloud",
+      "https://trailhead.salesforce.com/trailblazer-community/feed/0D54V00007X70ViSAJ"
+    ]
+  }
+}

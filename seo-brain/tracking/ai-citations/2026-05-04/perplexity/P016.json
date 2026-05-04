@@ -1,0 +1,37 @@
+{
+  "prompt_id": "P016",
+  "prompt_text": "Alternative to DonorPerfect",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869637+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Several strong alternatives to DonorPerfect are available, each with distinct strengths depending on your nonprofit's needs.\n\n**Givebutter** is rated the best overall alternative[2] and stands out as a **free, all-in-one fundraising and CRM platform**[4]. Unlike DonorPerfect's monthly fees starting at $99, Givebutter offers fresh, flexible donation forms and real-time fundraising progress tracking without cost[4].\n\n**Bloomerang** is another top choice[2][3], offering a unified platform that consolidates fundraising, CRM, and volunteer management into one system[3]. It features modern communication options like text and peer-to-peer fundraising, along with drag-and-drop reporting that eliminates the need for manual spreadsheet management[3].\n\n**CharityEngine** excels for organizations seeking native integration of all features\u2014payment processing, recurring giving, automation, and peer-to-peer fundraising\u2014without requiring multiple add-ons[1]. Its built-in AI tools streamline reporting and donor segmentation[1].\n\nFor smaller nonprofits with simpler needs, **Little Green Light** provides a budget-friendly, streamlined alternative[5]. It covers core donor management, gift tracking, and basic reporting without the complexity or cost of DonorPerfect[5].\n\nOther notable alternatives include **Neon CRM** (a modular, CRM-first platform)[4], **Bonterra/EveryAction** (ideal for complex campaigns with omnichannel engagement)[1], and **Salesforce Nonprofit Cloud** (for enterprise organizations needing full customization, though it requires dedicated admin support)[1].\n\nThe best choice depends on whether your nonprofit prioritizes cost savings (Givebutter), unified data management (Bloomerang, CharityEngine), or simplicity (Little Green Light).",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Givebutter",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 347,
+  "estimated_cost_usd": 0.010223,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://blog.charityengine.net/donorperfect-alternatives",
+      "https://www.g2.com/products/donorperfect/competitors/alternatives",
+      "https://bloomerang.com/alternative/donorperfect/",
+      "https://givebutter.com/blog/donorperfect-alternatives",
+      "https://www.teachfloor.com/blog/best-donorperfect-alternatives",
+      "https://www.capterra.com/p/2698/DonorPerfect-Fundraising-Software/alternatives/",
+      "https://www.nonprofitfixer.com/nonprofit-fixer-blog/best-fundraising-software",
+      "https://www.goharness.com/blog-posts/bloomerang-vs-donorperfect"
+    ]
+  }
+}

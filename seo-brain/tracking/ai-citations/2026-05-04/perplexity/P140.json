@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869530+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Several donor CRMs integrate with QuickBooks Online, including Donorbox, CharityEngine, DonorDock, DonorPerfect, and Bloomerang.** These tools automate syncing donations, transactions, and donor data to eliminate manual entry and ensure accurate financial records.[1][2][3][5][9]\n\n### Key Options and Features\n| CRM | Integration Highlights | Sync Details | Cost/Notes |\n|-----|------------------------|--------------|------------|\n| **Donorbox** | Native integration syncs one-time/recurring donations, ticket sales as Sales Receipts or Invoices + Payments.[1] | Automatic after setup wizard; maps to existing QB accounts/products; requires QB Plus+ for Classes/Locations; $50/month add-on. | Best for nonprofits of all sizes; dashboard for sync status.[1] |\n| **CharityEngine** | Dual sync options: Detailed (donor records) for small orgs; Batch for large orgs with gross deposit reconciliation.[2] | Effortless, no uploads; handles fees, automatic returns sync. | Superior for scaling nonprofits; supports QB Online/Enterprise.[2] |\n| **DonorDock** | Auto-syncs donations/transactions as sales receipts; links gift numbers for navigation.[3] | Focuses on accounting side; no manual entry needed. | Streamlines data without handling payments directly.[3] |\n| **DonorPerfect** | Syncs gifts/expenses; posts as individual/daily/monthly summaries; maps donors to QB customers.[5][7] | Real-time data; multiple bank accounts/classes; journal entries; works with QB Online/Desktop. | Cloud-based; purchase QB through them; trusted Solution Provider.[4][5][7][8] |\n| **Bloomerang** | Granular data mapping to specific QB accounts; supports Online/Desktop.[9] | Seamless sync of donations/finances; reduces errors. | Custom alignment for donor funds and records.[9] |\n\nNeon CRM also integrates for donor tracking and financial reporting, per 2026 evaluations emphasizing ease and accuracy.[6] Choose based on org size\u2014e.g., Donorbox/CharityEngine for automation depth, DonorPerfect for comprehensive nonprofit CRM features. All prioritize real-time or automated syncing to QuickBooks Online.[1][2][5][6]",
+  "donordock_mentioned": true,
+  "donordock_position": 90,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 472,
+  "estimated_cost_usd": 0.01211,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://donorbox.org/explore/quickbooks-integration/",
+      "https://blog.charityengine.net/quickbooks-integration",
+      "https://www.donordock.com/integrations/quickbooks-online",
+      "https://www.donorperfect.com/video/donorperfect-and-quickbooks/",
+      "https://www.donorperfect.com/factsheets/quickbooks-online/",
+      "https://theleadpastor.com/tools/best-donor-management-software-that-works-with-quickbooks/",
+      "https://www.donorperfect.com/integrations/financial-accounting/quickbooks/",
+      "https://www.donorperfect.com/video/donorperfect-integration-quickbooks-accounting-software/",
+      "https://bloomerang.com/integrations/quickbooks/"
+    ]
+  }
+}

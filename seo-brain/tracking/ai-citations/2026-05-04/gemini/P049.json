@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P049",
+  "prompt_text": "Best donor CRM with unlimited contacts",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869466+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for the \"best donor CRM with unlimited contacts,\" it's important to clarify what \"unlimited contacts\" truly means. Some CRMs charge based on user seats, regardless of contact volume, while others have tiers where the highest tier is so generous it effectively *feels* unlimited for most organizations. True infinite contacts without any price increase based on volume is rare, but platforms that bill per user or have extremely high caps are your best bet.\n\nHere are the top contenders, categorized by their approach to contact volume:\n\n---\n\n### Top Recommendations:\n\n---\n\n### 1. Salesforce Nonprofit Success Pack (NPSP)\n\n*   **Approach to \"Unlimited Contacts\":** Salesforce NPSP is priced per user license, not per contact. This means you can have millions of contacts in your database without incurring additional costs based on that volume.\n*   **Pros:**\n    *   **Truly Scalable:** Handles organizations of any size, from small to enterprise.\n    *   **Highly Customizable:** Almost infinitely configurable to your unique workflows, reports, and data needs.\n    *   **Vast Ecosystem:** Thousands of apps and integrations available on the AppExchange.\n    *   **10 Free Licenses:** Nonprofits qualify for 10 free Salesforce Enterprise Edition licenses, including NPSP. Additional licenses are significantly discounted.\n    *   **Powerful Reporting & Analytics:** Robust capabilities for data analysis and donor insights.\n*   **Cons:**\n    *   **Steep Learning Curve:** Can be complex to set up and manage, often requiring a dedicated administrator or consultant.\n    *   **Cost Beyond Free Licenses:** While the core 10 licenses are free, additional users, advanced features, and extensive customization can become expensive.\n    *   **Implementation Time:** Can take significant time and resources to implement effectively.\n*   **Best For:** Mid-to-large organizations, those with complex data or unique fundraising models, organizations with dedicated IT or administrative staff, or those willing to invest in professional setup.\n\n---\n\n### 2. Bloomerang\n\n*   **Approach to \"Unlimited Contacts\":** While Bloomerang does have pricing tiers, their higher tiers offer extremely generous contact limits that are effectively \"unlimited\" for most small to mid-sized organizations, and their pricing model is generally very competitive for the features offered. Their focus is on value and retention.\n*   **Pros:**\n    *   **Extremely User-Friendly:** Known for its intuitive interface and ease of use, making it accessible even for non-technical staff.\n    *   **Strong Focus on Donor Retention:** Built-in tools for donor engagement, communication, and analyzing donor loyalty.\n    *   **Excellent Reporting & Analytics:** Easy-to-understand dashboards and reports focused on donor engagement metrics.\n    *   **Integrated Email Marketing & Online Giving:** Robust tools for communicating with donors and processing donations directly within the platform.\n    *   **Great Customer Support:** Highly rated for its responsive and helpful support team.\n*   **Cons:**\n    *   **Less Customizable than Salesforce:** While flexible, it won't offer the same level of deep customization as Salesforce.\n    *",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 657,
+  "estimated_cost_usd": 0.001644,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

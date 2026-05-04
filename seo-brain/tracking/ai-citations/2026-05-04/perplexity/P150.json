@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P150",
+  "prompt_text": "What's the best donor management system for a small church",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.868386+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**No single donor management system is universally \"best\" for a small church, as it depends on needs like simplicity, pricing under $100/month, integration with church management, and features such as recurring giving or reporting.** [1][2][6] For small churches prioritizing **ease of use, affordability, and church-specific tools**, top recommendations from 2025-2026 reviews include **ChMeetings**, **GiveCentral**, **Givebutter**, and **DonorPerfect**. [1][2][8]\n\n### Key Recommendations\nThese stand out for small churches (under 200 members) based on features, pricing, and suitability:\n\n| System | Best For | Key Features | Pricing Notes | Sources |\n|--------|----------|--------------|---------------|---------|\n| **ChMeetings** | Integrated church + donor management | Full donor tracking, giving, members, reporting in one simple system; designed for real churches. | Affordable for small churches; simplicity first. | [1] |\n| **GiveCentral** | AI-driven flexibility for religious groups | CRM with donor management, expert guidance; built for churches/schools. | Under $100; flexible options for small nonprofits. | [2] |\n| **Givebutter** | Free entry-level powerhouse | Donor tools, fundraising; \"free\" with low fees. | Free tier available; scales for small use. | [2] |\n| **DonorPerfect** | Reliable mid-sized church fundraising | Automates donor relations, recurring giving, reporting; nonprofit CRM. | Suited for small to mid-sized; integrates email. | [4][8] |\n| **Donorbox** | Easy digital giving + forms | Unlimited forms, recurring/text-to-give, peer campaigns; trusted by churches. | Affordable; low fees for small churches. | [3][6] |\n\n### Selection Factors for Small Churches\n- **Simplicity and Cost**: Small churches favor tools like ChMeetings or Givebutter to avoid complexity.[1][2]\n- **Church Fit**: Look for giving-tithe integration (e.g., Donorbox, Txt2Give add-ons).[3][6]\n- **Limitations**: Reviews note free tools like Givebutter may lack advanced reporting; test free trials.[2][5] Recent 2026 sources emphasize AI enhancements in GiveCentral for versatility.[2] Compare via demos, as needs vary (e.g., volunteer tools in Bloomerang/Neon CRM).[5]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Givebutter",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 508,
+  "estimated_cost_usd": 0.012656,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.chmeetings.com/blog/best-donor-management-software-for-churches/",
+      "https://blog.givecentral.org/best-donor-management-software-for-small-nonprofits-in-2026/",
+      "https://doublethedonation.com/church-giving-tools/",
+      "https://www.donorperfect.com/nonprofits/religious-fundraising-software/",
+      "https://kindful.com/nonprofit-glossary/donor-management-software/",
+      "https://txt2give.co/blog/affordable-donation-platforms-for-small-churches/",
+      "https://www.getapp.com/nonprofit-software/donation-management/f/small-group-management/",
+      "https://shareservices.co/blog/best-donor-platforms-faith-based-nonprofits"
+    ]
+  }
+}

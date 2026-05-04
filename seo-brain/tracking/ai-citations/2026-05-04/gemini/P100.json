@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P100",
+  "prompt_text": "What does Bloomerang really cost",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.868927+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang's cost isn't a single fixed number; it varies significantly based on several factors, primarily the size of your database and the features you need.\n\nHere's a breakdown of what Bloomerang \"really costs,\" including the direct and indirect expenses:\n\n### I. Direct Costs (What You Pay Bloomerang)\n\n1.  **Subscription Tier (Primary Cost Driver):**\n    *   **Based On:** The number of **constituent records** in your database is the primary factor. \"Constituent\" usually means any individual or organization you track (donors, volunteers, prospects, board members, etc.).\n    *   **Plans:** Bloomerang typically offers different plans (e.g., Starter, Standard, Professional, Enterprise, or similar names) that dictate features and record limits. As your record count grows, you'll move to a higher tier with a higher monthly/annual fee.\n    *   **Pricing:**\n        *   **Small Nonprofits (e.g., under 1,000-2,500 records):** Can start roughly in the range of **$100 - $200+ per month** for the most basic tier.\n        *   **Medium Nonprofits (e.g., 5,000 - 25,000 records):** Costs can range from **$300 - $1,000+ per month**.\n        *   **Larger Nonprofits (e.g., 25,000+ records):** Costs can easily be **$1,000 - $3,000+ per month**, potentially much higher for very large databases with enterprise-level features.\n    *   **Billing Cycle:** You typically get a discount (often 10-20%) if you pay annually instead of monthly.\n\n2.  **Onboarding & Implementation Fee:**\n    *   **One-Time Cost:** This is a mandatory, one-time fee that covers setting up your account, initial data migration, and training.\n    *   **Range:** It typically ranges from **$500 to $2,500+**, depending on the complexity of your data, the number of users, and the subscription tier you select. Higher tiers often come with more intensive onboarding and a higher fee.\n\n3.  **Add-ons & Premium Features (Optional):**\n    *   **Advanced Reporting:** An additional module for more in-depth data analysis and custom reports.\n    *   **Advancement Services/Wealth Screening:** Integrations or features for identifying major gift prospects and their giving capacity.\n    *   **Other Integrations:** While Bloomerang integrates with many tools, some niche integrations might have their own costs or require additional setup.\n\n### II. Indirect & \"Hidden\" Costs (What You Pay Others, or in Time/Resources)\n\n1.  **Payment Processing Fees:**\n    *   **Crucial but Often Overlooked:** When donors give online through Bloomerang's forms, you'll incur transaction fees from the payment processor.\n    *   **Bloomerang Payments:** Bloomerang offers its own integrated payment solution (powered by Stripe) which often has competitive rates (e.g., 2.2% - 2.9% + $0.30 per transaction for credit cards, lower for ACH).\n    *   **Other Processors:** If you use Stripe directly, PayPal, Authorize.Net, or other gateways, they will charge their own rates.\n    *   **Impact:** These fees can add up significantly, especially if you process",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 761,
+  "estimated_cost_usd": 0.001904,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

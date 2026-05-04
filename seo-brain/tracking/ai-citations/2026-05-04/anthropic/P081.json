@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P081",
+  "prompt_text": "Best donor CRM for community colleges",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.868607+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Community Colleges\n\nHere are the top CRM options well-suited for community college fundraising:\n\n## **Top Recommendations**\n\n### **1. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established programs with larger budgets\n- Industry standard in education fundraising\n- Robust reporting and analytics\n- Higher cost (~$10K+ annually)\n\n### **2. Salesforce Nonprofit Success Pack (NPSP)**\n- **Best for:** Colleges wanting customization and scalability\n- Highly customizable\n- Strong integration ecosystem\n- Requires technical expertise or consultant\n- Cost: $3,600-$7,200/year (10 users)\n\n### **3. Bloomerang**\n- **Best for:** Small to mid-size advancement offices\n- User-friendly interface\n- Strong donor retention focus\n- Excellent customer support\n- Cost: ~$1,500-$3,000/year\n\n### **4. DonorPerfect**\n- **Best for:** Budget-conscious colleges\n- Affordable and intuitive\n- Good reporting capabilities\n- Cost: ~$1,500+/year\n\n### **5. Ellucian Advance (formerly Benefactor)**\n- **Best for:** Colleges already using Ellucian products\n- Built specifically for higher education\n- Integrates with student information systems\n- Higher cost, but seamless data integration\n\n## **Key Selection Factors**\n- Current advancement office size\n- Budget constraints\n- Integration with existing systems (especially SIS)\n- Reporting requirements\n- Staff technical expertise\n\nWhat's your approximate budget and team size? That would help narrow the recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 381,
+  "estimated_cost_usd": 0.005757,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

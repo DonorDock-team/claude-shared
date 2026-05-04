@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P093",
+  "prompt_text": "Cheapest nonprofit CRM with online giving",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869946+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Givebutter** stands out as the cheapest nonprofit CRM with online giving, offering its core CRM and donation features completely free for unlimited contacts, with revenue from optional donor tips (ensuring nonprofits keep 100% of funds raised when enabled).[1][3]\n\n### Key Free Options with Online Giving\nThese platforms provide CRM functionality (donor management, contacts) alongside built-in online donation tools at no base cost:\n\n- **Givebutter**: All-in-one platform with free CRM, unlimited donor imports, personalized emails, donation forms, events, and peer-to-peer fundraising. No platform fees if donor tips are enabled (otherwise 3% + processing fees).[1][3]\n- **CiviCRM**: Free open-source CRM handling contacts, fundraising, events, and mass mailings with online giving integration. Requires technical setup and maintenance.[2]\n- **Springly**: Free cloud-based CRM promoted as top choice for nonprofits, including donor management and online donation capabilities.[7]\n- **Tithe.ly (Giving module)**: Free for unlimited donations with CRM-like donor tracking; nonprofits pay only 2.9% + $0.30 processing fees per gift. Best for churches but usable by nonprofits.[9]\n\n### Affordable Paid Alternatives\nFor enhanced features without free tiers:\n| Platform          | Starting Price                  | Key Features with Online Giving                  |\n|-------------------|---------------------------------|-------------------------------------------------|\n| **Little Green Light** | Record-based (very low entry) | Donor management, fundraising, reporting; unlimited users.[2][3][8] |\n| **Flowlu**        | Free for 2 users; $9/user/mo after | CRM, donor pipelines, automation; nonprofit discounts.[1] |\n| **Bloomerang**    | ~$125/mo (custom bundles)      | Donor retention, online forms, emails.[3][4]    |\n\nGivebutter ranks highest across sources for small nonprofits needing zero upfront costs and full online giving integration, though options like CiviCRM suit tech-savvy teams.[1][2][3] Evaluate based on your team size, technical needs, and growth\u2014most offer free trials.[1][3]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "Givebutter",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 445,
+  "estimated_cost_usd": 0.011699,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://givebutter.com/blog/best-free-crm-for-nonprofits",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://bloomerang.com/blog/free-nonprofit-software/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.instrumentl.com/blog/best-donation-platforms-for-nonprofits",
+      "https://www.springly.org/en-us/free-crm-nonprofit/",
+      "https://www.getapp.com/nonprofit-software/nonprofit-crm/f/online-giving/",
+      "https://txt2give.co/blog/affordable-donation-platforms-for-small-churches/"
+    ]
+  }
+}

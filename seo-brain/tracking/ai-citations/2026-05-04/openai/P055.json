@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P055",
+  "prompt_text": "Best CRM for a 2 person fundraising team",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.869807+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For a small fundraising team of two, you'll want a CRM that is cost-effective, easy to use, and tailored to the needs of nonprofit organizations. Several CRM options are well-suited for small teams and fundraising activities:\n\n1. **Bloomerang**:\n   - **Pros**: Specifically designed for nonprofits, user-friendly interface, focuses on donor retention and engagement, provides detailed donor profiles and insights.\n   - **Cons**: May have limitations in customization for very specific needs.\n\n2. **Little Green Light**:\n   - **Pros**: Affordable, designed for fundraising and donor management, comprehensive features for tracking donations, managing events, and communications. \n   - **Cons**: Limited integrations compared to larger CRMs.\n\n3. **Kindful**:\n   - **Pros**: Intuitive interface, strong integrations with other fundraising tools (like Mailchimp and QuickBooks), focuses on donor lifecycle management.\n   - **Cons**: Might be slightly more expensive for very small teams.\n\n4. **DonorPerfect**:\n   - **Pros**: Offers various pricing tiers, scalable as your needs grow, good reporting and analysis tools, built specifically for nonprofits.\n   - **Cons**: Some users find the interface a bit dated.\n\n5. **NeonCRM**:\n   - **Pros**: Comprehensive features for nonprofits, good for managing events, donations, and memberships, lots of integrations.\n   - **Cons**: Some features may be complex for new users.\n\n6. **Salesforce Nonprofit Success Pack (NPSP)**:\n   - **Pros**: Extremely customizable, robust functionality, vast integration options, widely used and supported.\n   - **Cons**: Can be overwhelming for very small teams without dedicated administrative support.\n\n7. **HubSpot CRM**:\n   - **Pros**: Free for basic features, easy to use, good for managing relationships and communication, free integrations with a lot of tools.\n   - **Cons**: The free version may lack some advanced fundraising features.\n\nUltimately, the best choice will depend on your specific needs, such as the complexity of your fundraising activities, budget, and any particular features you require. It's often beneficial to take advantage of free trials or demos offered by these CRM providers to see which one best fits your workflow.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 462,
+  "estimated_cost_usd": 0.00466,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

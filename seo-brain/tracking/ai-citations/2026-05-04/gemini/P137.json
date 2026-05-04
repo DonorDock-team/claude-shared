@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P137",
+  "prompt_text": "Little Green Light limitations",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869333+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Little Green Light (LGL) is a powerful and very popular donor management system, especially for small to mid-sized nonprofits, known for its affordability and robust core features. However, like any software, it has limitations, particularly when compared to higher-end, more expensive enterprise solutions or when an organization has very specialized needs.\n\nHere are some common limitations of Little Green Light:\n\n1.  **Scale and Complexity for Very Large Organizations:**\n    *   While LGL can handle a significant number of constituents and gifts, organizations with millions of records or extremely complex, multi-chapter structures might find it less performant or harder to manage than systems designed for very large enterprises.\n    *   Reporting on extremely massive datasets can sometimes be slower.\n\n2.  **Advanced Customization and Development:**\n    *   LGL allows for significant customization through custom fields and flexible data entry, but it's not a platform that allows for deep, code-level customization, custom modules, or complex workflow automation (like Salesforce's Flow or Apex).\n    *   Organizations needing to build highly specific applications *within* their CRM or integrate very unusual systems might find its API powerful but requiring more external development.\n\n3.  **Sophisticated Integrations:**\n    *   LGL offers integrations with many popular tools (Mailchimp, QuickBooks Online, Stripe, Zapier, etc.), which is excellent. However, some integrations might be one-way, scheduled, or less deeply featured than what's available in systems designed to be central hubs for an entire tech stack.\n    *   Real-time, bidirectional syncs for every possible external system might require workarounds or Zapier.\n\n4.  **Advanced Analytics and Business Intelligence:**\n    *   LGL's reporting module is robust and highly flexible, allowing users to build almost any report imaginable. However, it lacks built-in advanced analytics features like predictive modeling, AI-driven insights, or sophisticated data visualization dashboards commonly found in dedicated BI tools or enterprise CRMs. Users would typically export data for such analysis.\n\n5.  **Marketing Automation and Communication Beyond Basic Email:**\n    *   LGL handles basic email acknowledgments and merges data for external email platforms (like Mailchimp). However, it's not a full-fledged marketing automation platform. It doesn't offer complex drip campaigns, A/B testing, landing page creation, or advanced segmentation/personalization directly within LGL beyond what integrated tools provide.\n\n6.  **User Interface (UI) and Modernity:**\n    *   LGL's interface is functional and efficient, but some users might find",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 543,
+  "estimated_cost_usd": 0.001359,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.869513+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for a donor CRM that integrates with QuickBooks Online, it's important to find one that not only fits your organization's specific needs but also offers seamless integration with QuickBooks for efficient financial management. Here are a few CRM options that are known for their integration capabilities with QuickBooks Online:\n\n1. **Kindful**: Kindful is a popular donor management platform that offers strong integration with QuickBooks Online. It provides tools for tracking donations, managing donor relationships, and generating detailed reports, while seamlessly syncing financial data with QuickBooks.\n\n2. **Neon CRM**: Neon CRM offers comprehensive donor management features and integrates well with QuickBooks Online. It allows nonprofits to manage donor information, track fundraising efforts, and ensure financial data is consistently updated in QuickBooks.\n\n3. **Bloomerang**: Bloomerang is designed specifically for nonprofit organizations, providing donor management, email marketing, and reporting tools. Its integration with QuickBooks Online helps streamline financial management by keeping donation records and accounting data in sync.\n\n4. **DonorPerfect**: DonorPerfect is a versatile CRM solution that includes features for fundraising, donor management, and reporting. The platform integrates with QuickBooks Online, allowing for easy transfer of data between the systems and better financial oversight.\n\n5. **Salesforce Nonprofit Success Pack (NPSP)**: While Salesforce requires more customization, the Nonprofit Success Pack offers powerful donor management and fundraising capabilities. With the right connectors or middleware, it can be integrated with QuickBooks Online to ensure accurate financial tracking.\n\n6. **Little Green Light**: Little Green Light provides donor management features and supports integration with QuickBooks Online, facilitating smooth data transfer for financial reporting and accounting purposes.\n\nEach of these platforms has its own strengths and unique features, so it's important to evaluate them based on your organization's specific needs, budget, and workflow. Furthermore, when setting up integrations, ensure you have the necessary technical support to properly configure the systems and maintain data accuracy.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 394,
+  "estimated_cost_usd": 0.00398,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

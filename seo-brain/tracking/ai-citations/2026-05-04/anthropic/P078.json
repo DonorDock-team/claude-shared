@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P078",
+  "prompt_text": "Best donor CRM for Jewish nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.867483+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Jewish Nonprofits\n\nHere are the top CRM options specifically suited for Jewish organizations:\n\n## **1. Bloomerang**\n- **Why it's good**: Strong donor retention focus, user-friendly\n- **Jewish-specific features**: Can track Hebrew dates, yahrzeit dates, and Jewish holidays\n- **Best for**: Small to mid-sized organizations\n- **Pricing**: Starts around $125/month\n\n## **2. DonorPerfect**\n- **Why it's good**: Widely used in Jewish sector, robust reporting\n- **Jewish-specific features**: Hebrew calendar integration, custom fields for lifecycle events (bar/bat mitzvah, yahrzeit)\n- **Best for**: Organizations of all sizes\n- **Pricing**: Starts around $89/month\n\n## **3. Salesforce Nonprofit Cloud**\n- **Why it's good**: Highly customizable, scalable\n- **Jewish-specific features**: Can be customized extensively; some consultants specialize in Jewish nonprofits\n- **Best for**: Larger organizations with technical capacity\n- **Pricing**: Starting around $36/user/month (plus implementation costs)\n\n## **4. ShulCloud/ShulSuite**\n- **Why it's good**: Built specifically for synagogues and Jewish organizations\n- **Jewish-specific features**: Hebrew names, yahrzeit tracking, aliyah scheduling, membership management\n- **Best for**: Synagogues specifically\n- **Pricing**: Custom pricing\n\n## **Key Considerations:**\n- Hebrew calendar integration\n- Yahrzeit and lifecycle event tracking\n- Kosher event management features\n- Integration with Jewish giving days (like J-Giving Tuesday)\n\nWhat type and size of Jewish organization are you working with?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 396,
+  "estimated_cost_usd": 0.005988,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

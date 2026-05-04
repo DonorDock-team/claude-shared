@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P010",
+  "prompt_text": "Does DonorDock have online giving",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.868917+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Yes, **DonorDock does have online giving capabilities.**\n\nIt's a core feature designed to help nonprofits accept donations directly through their website and integrate that data seamlessly into their donor management system.\n\nHere's what that generally includes:\n\n*   **Customizable Donation Pages/Forms:** You can create branded, mobile-responsive donation forms that match your website's look and feel.\n*   **One-Time and Recurring Donations:** Donors can choose to make a single donation or set up recurring gifts (monthly, quarterly, annually).\n*   **Integration with Donor Records:** When a donation is made online, DonorDock automatically creates or updates the donor's record, associating the gift with their profile.\n*   **Payment Processing:** DonorDock integrates with common payment processors (like Stripe, for example) to handle the actual financial transactions securely.\n*   **Reporting:** You can track online giving performance, analyze trends, and generate reports within DonorDock.\n\nThis integrated approach streamlines the fundraising process, making it easier for donors to give and for your organization to manage those gifts and donor relationships.",
+  "donordock_mentioned": true,
+  "donordock_position": 7,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 226,
+  "estimated_cost_usd": 0.000567,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P133",
+  "prompt_text": "Givebutter limitations",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.868449+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Givebutter, a fundraising platform for organizations, imposes key limitations on user eligibility, campaign content, pricing, and features to ensure compliance, safety, and sustainability.[1][3][4]**\n\n### User and Account Eligibility\n- **No individual fundraising**: Individuals cannot create accounts or campaigns; only nonprofits or organizations may do so. Personal fundraisers for unaffiliated causes or medical efforts without organization involvement will be disabled or result in account removal.[1][3][5]\n- Accounts violating terms (e.g., supporting US-sanctioned entities or individuals posing as organizations) face permanent closure with no appeal.[1]\n\n### Content and Campaign Restrictions\n- Prohibits hate speech (e.g., transphobic, homophobic, antisemitic), fundraisers for OFAC-sanctioned countries, or support for armed groups on US sanctions lists.[1]\n- Bans gun raffles or firearm auctions; gun advocacy organizations may use the platform for other events but not firearm giveaways.[1]\n- Monitors and removes reported violating campaigns; decisions are final.[1]\n\n### Pricing and Fees\n| Fee Type | With Tips Enabled | Tips Disabled |\n|----------|-------------------|---------------|\n| **Platform Fee** | 0% (covered by 92-95%+ of donors) | 3% flat[4][5] |\n| **Processing Fee** | 0% (Givebutter Guarantee covers if donors decline; standard rates: 2.9% + 30\u00a2 for cards/wallets, 1.9% + 30\u00a2 ACH for verified nonprofits) | Standard processor rates apply[4][5][6] |\n\n- Tools are free via optional donor tips; disabling tips triggers fees. Average effective fee is ~0.5-1% due to high donor coverage.[4][5][6]\n- Givebutter Plus maintains identical fee structure; cancellable anytime at billing period end.[4]\n\n### Feature and Usability Limitations\n- Free communication tools (e.g., email/SMS) have sending limits per period.[7]\n- Silent auction checkout can feel clunky for large inventories, lacking easy views of unfulfilled vs. unbidded items, potentially leading to errors like premature refunds.[2]\n- Liability capped at $100 aggregate for all claims.[7]\n\nFor full details, review Givebutter's terms, content guidelines, and pricing pages, as policies (e.g., individual bans updated Dec 2022) evolve.[1][3][4][5][7]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 516,
+  "estimated_cost_usd": 0.012755,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://help.givebutter.com/en/articles/9462388-content-guidelines-for-givebutter-campaigns",
+      "https://www.g2.com/products/givebutter/reviews?qs=pros-and-cons",
+      "https://help.givebutter.com/en/articles/1726576-who-can-use-givebutter-and-what-can-i-raise-money-for",
+      "https://givebutter.com/pricing",
+      "https://morongocsd.specialdistrict.org/files/6113ba32d/Give+Butter.pdf",
+      "https://mediacopilot.ai/givebutter-newsroom-fundraising-guide/",
+      "https://givebutter.com/terms",
+      "https://givebutter.com/blog/501c3-requirements"
+    ]
+  }
+}

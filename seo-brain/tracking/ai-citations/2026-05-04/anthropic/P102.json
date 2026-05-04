@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869348+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Free Alternatives to Salesforce Nonprofit Cloud\n\nHere are the best free CRM and management platforms for nonprofits:\n\n## **Fully Free Options**\n\n### **1. Bitrix24**\n- Free for unlimited users\n- Includes CRM, project management, and communication tools\n- Up to 5GB storage on free plan\n- Good for small to medium nonprofits\n\n### **2. HubSpot CRM**\n- Completely free core CRM\n- Contact management, email tracking, and pipeline management\n- Integration with Gmail and Outlook\n- Limited to basic features (advanced tools are paid)\n\n### **3. Zoho CRM (Free Edition)**\n- Free for up to 3 users\n- Contact management, leads, and deals tracking\n- Mobile app included\n- Good starter option for very small teams\n\n## **Nonprofit-Specific Discounts (Free/Nearly Free)**\n\n### **4. Microsoft Cloud for Nonprofits**\n- Dynamics 365 donated or heavily discounted for eligible nonprofits\n- Requires nonprofit verification\n- Enterprise-level features\n\n### **5. CiviCRM**\n- Open-source, designed specifically for nonprofits\n- Completely free (self-hosted)\n- Includes donor management, event registration, email marketing\n- Requires technical knowledge to set up\n\n### **6. SuiteCRM**\n- Open-source Salesforce alternative\n- Free to download and use\n- Requires self-hosting and technical setup\n\n## **Honorable Mentions**\n\n- **Airtable** (free tier) - Flexible database good for small nonprofits\n- **Google Workspace for Nonprofits** - Free collaboration tools with basic CRM capabilities via extensions\n\n**Best for most nonprofits**: Start with **HubSpot CRM** or **CiviCRM** depending on technical capacity.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 422,
+  "estimated_cost_usd": 0.006378,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

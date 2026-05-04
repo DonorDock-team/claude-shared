@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P149",
+  "prompt_text": "How to migrate from Excel to a nonprofit CRM",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.870056+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Migrating from Excel to a nonprofit CRM can significantly improve your organization\u2019s efficiency, data management, and donor relationship management. Here\u2019s a step-by-step guide to help you through the process:\n\n### 1. **Assess Your Needs**\n- Determine the specific needs of your nonprofit. Consider the features most important to you, such as donor tracking, event management, email marketing, volunteer management, and reporting.\n- Identify pain points with your current Excel setup and what you aim to improve through a CRM.\n\n### 2. **Select the Right CRM**\n- Research nonprofit-specific CRM solutions. Options like Salesforce for Nonprofits, Bloomerang, NeonCRM, or Little Green Light are popular choices.\n- Consider features, pricing, scalability, support, and user reviews.\n- Request demos or trials to better understand the user interface and capabilities.\n\n### 3. **Prepare Your Data**\n- Clean your data in Excel. Remove duplicates, correct errors, and ensure consistency in data formats (e.g., email addresses, phone numbers).\n- Organize data logically, matching them with CRM fields (e.g., donor names, contact information, donation history).\n\n### 4. **Plan Your Migration Strategy**\n- Decide on a migration method: manual entry, import tools provided by the CRM, or hiring a consultant.\n- Determine the scope: will you migrate all historical data or only current year\u2019s data?\n\n### 5. **Configure the CRM**\n- Set up the CRM to match your data structure. Customize fields and modules to fit your organization\u2019s processes.\n- Establish user roles and permissions for team members.\n\n### 6. **Import Data**\n- Follow the CRM\u2019s data import guidelines. Many CRMs offer templates or wizards to assist in data import.\n- Conduct a test import with a small dataset to ensure accuracy.\n\n### 7. **Verify Data Integrity**\n- After import, verify data integrity by checking records against your original Excel files.\n- Check for missing information, misalignments, or errors.\n\n### 8. **Train Your Team**\n- Provide comprehensive training for all users. Utilize vendor-provided training resources or set up tutorials and workshops specific to your organization\u2019s needs.\n- Encourage your staff to explore and familiarize themselves with the CRM\u2019s features.\n\n### 9. **Go Live and Monitor**\n- Launch the CRM for regular use.\n- Monitor its usage and performance. Gather feedback from users to identify any issues or additional training needs.\n\n### 10. **Continuous Improvement**\n- Regularly update data and CRM configurations as your nonprofit evolves.\n- Take advantage of CRM updates and new features.\n- Solicit ongoing feedback from your team to continually refine CRM practices.\n\n### Additional Tips\n- **Backup your Excel data:** Before migrating, keep backups of your original Excel files.\n- **Communication:** Keep all stakeholders updated throughout the process to ensure everyone is aligned.\n- **Set Realistic Expectations:** Recognize that there will be a learning curve and that not all issues will be resolved immediately.\n\nBy following these steps, your nonprofit can successfully transition from Excel to a CRM system, leading to improved data management and more meaningful interactions with your donors and constituents.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 633,
+  "estimated_cost_usd": 0.00637,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

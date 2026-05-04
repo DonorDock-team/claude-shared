@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P143",
+  "prompt_text": "Donor CRM that does pledges and recurring",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.869698+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for a donor CRM (Customer Relationship Management) system that supports pledges and recurring donations, you need a solution that not only manages donor information but also effectively handles these specific donation types. Here are some CRM systems that are popular among nonprofits and can handle pledges and recurring donations:\n\n1. **Bloomerang**: Known for its intuitive design and robust donor management features, Bloomerang supports both pledge management and recurring donations.\n\n2. **DonorPerfect**: Offers comprehensive features for managing donor relationships, including tools for handling pledges, recurring gifts, and detailed reporting.\n\n3. **Salesforce Nonprofit Cloud**: A highly customizable solution that can be tailored to manage pledges and recurring donations. While powerful, it may require more setup and customization.\n\n4. **Neon One**: Provides a suite of tools for nonprofits, including Neon CRM, which handles pledges, recurring donations, and integrates with various fundraising platforms.\n\n5. **Kindful**: Part of the Bloomerang ecosystem, Kindful offers a user-friendly interface with features for managing recurring donations and pledges.\n\n6. **EveryAction**: Delivers sophisticated donor management tools, including strong pledge and recurring donation capabilities, alongside comprehensive fundraising features.\n\n7. **Little Green Light**: Offers budget-friendly donor management, including tools for tracking pledges and setting up recurring gifts.\n\n8. **Keela**: Provides a range of nonprofit management features, including the ability to manage pledges and automate recurring donations easily.\n\nWhen selecting a CRM, consider the following:\n- **Ease of Use**: Ensure the CRM is user-friendly for your team.\n- **Integration**: Check if it integrates with your existing tools and platforms.\n- **Cost**: Consider your budget and the CRM\u2019s pricing structure, including any costs for additional features or scaling.\n- **Support and Training**: Evaluate the available customer support and training resources.\n- **Reporting and Analytics**: Look for robust reporting features to track and analyze donor engagement and financials.\n\nIt\u2019s recommended to take advantage of free trials or demos to see which system best fits your organization's needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 428,
+  "estimated_cost_usd": 0.00432,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

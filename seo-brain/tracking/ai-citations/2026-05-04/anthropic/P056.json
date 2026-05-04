@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P056",
+  "prompt_text": "Best donor CRM to consolidate multiple fundraising tools",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869850+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Consolidating Fundraising Tools\n\n## Top All-in-One Solutions\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits seeking simplicity\n- **Key consolidation features:**\n  - Donor management + email marketing\n  - Online giving forms\n  - Wealth screening built-in\n  - Reporting and analytics\n- **Price:** ~$125-$400/month\n- **Limitation:** Less customizable than enterprise options\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations needing extensive customization\n- **Key consolidation features:**\n  - Comprehensive donor database\n  - Integrates with 1,000+ apps via AppExchange\n  - Program management, grants, volunteers\n  - Custom workflows and automation\n- **Price:** $36-$300+/user/month (10 free licenses for nonprofits)\n- **Limitation:** Steeper learning curve, may require consultant\n\n### **3. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established nonprofits with complex needs\n- **Key consolidation features:**\n  - Robust donor management\n  - Event management\n  - Peer-to-peer fundraising\n  - Wealth analytics\n- **Price:** Custom pricing (typically $10K+ annually)\n- **Limitation:** Expensive, can feel enterprise-heavy\n\n### **4. NeonCRM**\n- **Best for:** Budget-conscious organizations wanting modern features\n- **Key consolidation features:**\n  - Donor management + online giving\n  - Email marketing + event registration\n  - Membership management\n  - Grant tracking\n- **Price:** ~$50-$200/month\n- **Limitation:** Reporting could be more robust\n\n### **5. Kindful (by Bloomerang)**\n- **Best for:** Tech-savvy small nonprofits\n- **Key consolidation features:**\n  - Clean interface with strong integrations\n  - Payment processing built-in\n  - Email tools\n  - Donor engagement scoring\n- **Price:** ~$100-$300/month\n\n## Key Questions to Ask:\n\n1. **What tools are you currently using?** (Check integration compatibility)\n2. **Organization size?** (Staff + donor database)\n3. **Budget?** (Implementation + monthly costs)\n4. **Technical capacity?** (DIY vs. needing support)\n\n**Most Popular Choice:** Bloomerang for ease-of-use, Salesforce for scalability.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 584,
+  "estimated_cost_usd": 0.008814,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

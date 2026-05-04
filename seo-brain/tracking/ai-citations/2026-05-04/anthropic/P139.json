@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869425+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Salesforce Nonprofit Solutions\n\nIronically, **Salesforce itself** is the most popular CRM for nonprofits! They offer:\n\n- **Nonprofit Cloud** (formerly NPSP - Nonprofit Success Pack)\n- **Free or heavily discounted** (10 free licenses, 100+ at steep discounts through Power of Us program)\n- Purpose-built for donations, grants, programs, and volunteer management\n\n## Alternatives Similar to Salesforce\n\nIf you're looking for non-Salesforce options:\n\n### **Bloomerang**\n- Donor-focused, excellent retention tools\n- Much simpler than Salesforce\n- $125+/month\n\n### **Neon CRM**\n- All-in-one: fundraising, events, memberships\n- User-friendly interface\n- $50+/month\n\n### **Kindful** (now Bloomerang)\n- Strong donor management\n- Good reporting features\n\n### **EveryAction/Bonterra**\n- Popular with advocacy organizations\n- Combines CRM with email/organizing tools\n- Higher price point\n\n### **Little Green Light**\n- Simple, affordable\n- Good for smaller nonprofits\n- $39+/month\n\n**What's your main priority?** (donor management, grant tracking, volunteer coordination, ease of use, budget?) That would help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 21,
+  "output_tokens": 309,
+  "estimated_cost_usd": 0.004698,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869402+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding truly *free* alternatives that match the comprehensive power and flexibility of Salesforce Nonprofit Cloud (NPSP) can be challenging, as NPSP itself is a very robust platform. However, there are excellent free or low-cost options, especially for smaller to medium-sized nonprofits, often leveraging open-source solutions, freemium models, or specific nonprofit programs.\n\nHere's a breakdown of free alternatives, categorized by their approach:\n\n## 1. Still Salesforce! (Nonprofit Success Pack - NPSP)\n\nIt's crucial to start here because many organizations don't realize that **Salesforce NPSP itself offers 10 free user licenses** for eligible nonprofits.\n\n*   **What it is:** The standard Salesforce platform pre-configured with the Nonprofit Success Pack data model and features tailored for nonprofits (donor management, household management, grants, campaigns, program management, etc.).\n*   **Why it's \"free\":** Up to 10 user licenses are free. You pay for additional users or premium apps from the AppExchange.\n*   **Pros:** Industry-leading, highly customizable, vast ecosystem, extensive documentation and community support, scalable.\n*   **Cons:** Can have a steep learning curve, customization often requires technical expertise or paid consultants.\n*   **Best for:** Nonprofits that need a robust, scalable solution and are willing to invest time in learning and configuration, or may grow into needing more than 10 users eventually.\n\n## 2. Open-Source & Self-Hosted Solutions\n\nThese offer ultimate control and no licensing fees, but require technical expertise for setup, hosting, and maintenance.\n\n### a. CiviCRM\n\n*   **What it is:** A web-based, open-source Constituent Relationship Management (CRM) system designed specifically for nonprofits, NGOs, and advocacy organizations. It's often integrated with popular CMS platforms like WordPress, Drupal, and Joomla.\n*   **Key Features:** Contact management, fundraising (donations, pledges, recurring), event management, membership management, peer-to-peer fundraising, advocacy campaigns, case management, mass email and SMS.\n*   **Why it's \"free\":** It's open-source, meaning the software itself is free to download and use.\n*   **Pros:** Feature-rich, highly customizable, strong community support, no license fees.\n*   **Cons:** Requires technical knowledge for installation, hosting, and ongoing maintenance. You might need to pay for a hosting provider or a consultant. Not as intuitive out-of-the-box as some SaaS solutions.\n*   **Best for:** Organizations with some technical skills or budget for a developer/hosting, who want maximum control over their data and a comprehensive feature set without ongoing license costs.\n\n### b. SuiteCRM\n\n*   **What it is:** A powerful, open-source fork of SugarCRM Community Edition. While not specifically built for nonprofits, its flexibility allows it to be adapted.\n*   **Key Features:** Sales automation, marketing campaigns, customer service, project management, and reporting. Can be customized for donor management.\n*   **Why it's \"free\":** Open-source software.\n*   **Pros:** Very flexible, extensive features, large community, no license fees.\n*   **Cons:** Not purpose-built for nonprofits, so requires significant customization to track nonprofit-specific data (donations, grants, volunteers). Requires technical expertise for setup and maintenance.\n*   **Best for:** Nonprofits with strong technical capabilities or access to developers who can customize it to their specific needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce NPSP",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 746,
+  "estimated_cost_usd": 0.001867,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

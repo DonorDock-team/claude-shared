@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P064",
+  "prompt_text": "Donor CRM with email marketing built in",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.868891+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**DonorDock, Donorbox CRM, Givingtech, and Keela** are donor CRMs with fully built-in email marketing features, allowing nonprofits to send personalized campaigns, newsletters, and automations directly from the CRM without separate tools.[1][3][4][5]\n\n### Key Options and Features\nThese platforms integrate email marketing natively with donor data for segmentation, personalization (e.g., using giving history, tags, or custom fields), bulk sending, templates, analytics, and automations.\n\n| Platform | Core Email Features | Key Advantages |\n|----------|---------------------|---------------|\n| **DonorDock** | Drag-and-drop builder, AI content tools, drip campaigns, text messaging, merge tags for personalization, list segmentation.[1] | Replaces MailChimp/Constant Contact; sends individual emails, newsletters, appeals directly in CRM. |\n| **Donorbox CRM** (Email Marketing in Beta) | Targeted campaigns, custom templates, segmentation by engagement, branded mass communications.[4][7] | Seamlessly integrates with CRM for donor management and fundraising tracking. |\n| **Givingtech** | Personalized campaigns from CRM groups, real-time donation syncing.[3] | Free for nonprofits; handles donors, leads, lists in one platform with marketing tools. |\n| **Keela** | Automated workflows, powerful personalization, engagement tracking in contact records.[5] | Eliminates data syncing needs; pulls directly from donor database. |\n\n### Other Notable Mentions\n- **DonorPerfect** integrates deeply with Constant Contact (not fully built-in), offering auto-sync for lists, templates (e.g., Giving Tuesday), personalization, and real-time analytics.[2]\n- **Virtuous** provides an all-in-one holistic platform with CRM-integrated email, pre-built automations, and donor journey tracking based on giving behavior.[6]\n\nStandalone email tools require CRM integrations for donor data access, but built-in options like those above enable superior personalization and efficiency.[1][5][6] Evaluate based on nonprofit size, budget, and specific needs like AI tools or free tiers.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "DonorBox",
+    "DonorPerfect",
+    "Keela",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 433,
+  "estimated_cost_usd": 0.011522,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/donor-outreach",
+      "https://www.donorperfect.com/factsheets/constant-contact/",
+      "https://givingtech.org/crm",
+      "https://donorbox.org/nonprofit-blog/email-marketing",
+      "https://www.keela.co/solutions/email-marketing-for-nonprofits",
+      "https://virtuous.org/blog/best-email-marketing-platforms-for-nonprofits/",
+      "https://donorbox.zendesk.com/hc/en-us/articles/32926570790548-How-to-Use-Donorbox-Email-Marketing",
+      "https://www.streak.com/post/best-crm-for-nonprofits"
+    ]
+  }
+}

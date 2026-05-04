@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.868623+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Implementing a donor CRM (Customer Relationship Management) system with text messaging capabilities can be a powerful way to engage and communicate with your supporters effectively. Here\u2019s a guide on how to set up and utilize such a system:\n\n### Key Features\n\n1. **Database Management**\n   - **Donor Profiles:** Store contact information, donation history, communication preferences, and personal notes.\n   - **Segmentation:** Group donors by categories such as giving level, location, or engagement history.\n\n2. **Text Messaging**\n   - **Integration:** Choose a CRM that either includes built-in SMS capabilities or integrates with third-party SMS platforms.\n   - **Automation:** Set up automated texts for confirmations, reminders, and thank-yous.\n   - **Personalization:** Use merge fields to personalize messages with names, donation amounts, or past engagements.\n\n3. **Communication Tools**\n   - **Bulk Messaging:** Send mass texts for campaigns, events, or updates.\n   - **Two-Way Messaging:** Allow recipients to reply and engage in conversation.\n   - **Tracking and Analysis:** Monitor open rates, response rates, and the effectiveness of messages.\n\n4. **Donation Management**\n   - **Online Giving:** Facilitate mobile-friendly donation processes directly from text messages.\n   - **Recurring Donations:** Text reminders for set-up or successful processing notifications.\n   - **Acknowledge and Receipts:** Automatically send confirmation and tax receipt via text.\n\n5. **Campaign Management**\n   - **Event Invitations:** Send invites and manage RSVPs through text.\n   - **Fundraising Campaigns:** Update donors on campaign progress and milestones.\n  \n6. **Reporting and Analytics**\n   - **Real-Time Insights:** Track donor engagement and communication metrics.\n   - **Custom Reports:** Generate reports on SMS performance, donor retention, and fundraising efforts.\n\n### Implementation Steps\n\n1. **Select a CRM**\n   - Evaluate different CRMs based on their features, ease of use, integration capabilities, and costs. Popular choices include Salesforce Nonprofit Cloud, Bloomerang, and Kindful.\n\n2. **Choose an SMS Platform**\n   - Platforms like Twilio, EZ Texting, or ClickSend integrate well with CRM systems. Confirm compatibility with your chosen CRM.\n\n3. **Integrate SMS with CRM**\n   - Set up integration ensuring seamless data flow between the systems for donor information and messaging.\n\n4. **Data Import and Cleanup**\n   - Import existing donor data into the new CRM. Clean and validate data to ensure accuracy.\n\n5. **Compliance**\n   - Ensure all messaging complies with local regulations such as the TCPA in the US, and double opt-in is encouraged for SMS communications.\n\n6. **Training**\n   - Train team members on how to use the CRM effectively, focusing on campaign setup, data entry, and message personalization.\n\n7. **Pilot Testing**\n   - Test the entire workflow with a small segment to spot any issues before full rollout.\n\n8. **Launch and Monitor**\n   - Begin with live campaigns, monitor metrics, gather feedback, and adjust strategies as necessary.\n\n### Best Practices\n\n- **Opt-In and Opt-Out:** Allow donors to easily opt-in and opt-out of text messaging.\n- **Frequency:** Be mindful of texting frequency to avoid overwhelming or annoying donors.\n- **Content:** Keep messages concise and engaging, focusing on value for the donor.\n- **Follow-up:** Respond promptly to replies, fostering a personal connection.\n\nBy integrating CRM with text messaging, organizations can enhance their donor engagements, streamline communications, and ultimately drive more successful fundraising efforts.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 710,
+  "estimated_cost_usd": 0.007132,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

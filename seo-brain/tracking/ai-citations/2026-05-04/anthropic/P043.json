@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P043",
+  "prompt_text": "Best donor CRM for human services nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.868409+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Human Services Nonprofits\n\nHere are top options tailored for human services organizations:\n\n## **Top Recommendations**\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized human services nonprofits\n- **Strengths:** Donor retention focus, intuitive interface, excellent reporting\n- **Price:** ~$125-$500/month\n- **Why it works:** Easy to use, strong engagement tools, good for organizations transitioning from spreadsheets\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations needing case management + fundraising\n- **Strengths:** Highly customizable, integrates program services with donor management\n- **Price:** 10 free licenses, then ~$36/user/month\n- **Why it works:** Can track both clients AND donors in one system; scales well\n\n### **3. Little Green Light**\n- **Best for:** Budget-conscious small nonprofits\n- **Price:** ~$59-$129/month (flat fee, unlimited users)\n- **Why it works:** Affordable, solid core features, responsive support\n\n### **4. Kindful (by Bloomerang)**\n- **Best for:** Mid-sized organizations wanting automation\n- **Strengths:** Marketing automation, online giving integration\n- **Price:** ~$100-$400/month\n\n## **Key Considerations for Human Services**\n\n- **Dual tracking needs:** Many need to track both clients AND donors (sometimes different, sometimes overlap)\n- **Grant management:** Essential for most human services funding\n- **Reporting requirements:** Government contracts often require specific data\n- **Budget constraints:** Often tighter than other nonprofit sectors\n\n**What's your organization's size and primary need?** (donor tracking, grant management, or integrated client services?)",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 409,
+  "estimated_cost_usd": 0.006186,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

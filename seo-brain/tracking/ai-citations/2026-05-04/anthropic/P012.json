@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P012",
+  "prompt_text": "DonorDock vs Virtuous",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869337+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Virtuous Comparison\n\nBoth are cloud-based donor management systems, but they serve different market segments and have distinct approaches.\n\n## **DonorDock**\n\n### Strengths:\n- **Affordability** - Significantly lower cost, especially for smaller organizations\n- **Simplicity** - Easier learning curve, intuitive interface\n- **Task management** - Built-in CRM-style task tracking for follow-ups\n- **Responsive support** - Known for accessible, helpful customer service\n- **Flat pricing** - Predictable costs regardless of contact growth\n\n### Best for:\n- Small to mid-size nonprofits (budgets under $2M)\n- Organizations new to donor databases\n- Teams wanting straightforward functionality without complexity\n\n### Limitations:\n- Fewer advanced features and integrations\n- Less sophisticated reporting capabilities\n- Smaller development roadmap\n\n---\n\n## **Virtuous**\n\n### Strengths:\n- **Responsive fundraising** - Advanced automation and personalization tools\n- **Sophisticated marketing** - Built-in email marketing, segmentation, multi-channel campaigns\n- **Comprehensive reporting** - Robust analytics and dashboards\n- **Scalability** - Handles complex organizational needs\n- **Modern technology** - Regularly updated with new features\n\n### Best for:\n- Growing nonprofits (budgets $1M+)\n- Organizations prioritizing marketing automation\n- Teams wanting an all-in-one solution\n- Data-driven fundraising operations\n\n### Limitations:\n- **Higher cost** - Premium pricing structure\n- **Steeper learning curve** - More complex to implement and master\n- Implementation requires more time investment\n\n---\n\n## **Quick Decision Guide**\n\nChoose **DonorDock** if: Budget is tight, team is small, you need basic CRM functionality\n\nChoose **Virtuous** if: You need marketing automation, have complex reporting needs, budget allows for premium investment\n\nWould you like specific pricing details or information about particular features?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 446,
+  "estimated_cost_usd": 0.006738,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P076",
+  "prompt_text": "How to improve donor retention",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.870000+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Understanding Donor Retention\nDonor retention refers to the percentage of donors who give again in a subsequent period (e.g., year-over-year). A healthy rate is typically 40% or higher for nonprofits, as retaining existing donors is 5-10x cheaper than acquiring new ones. Improving it involves stewardship, engagement, and data-driven personalization. Below are proven strategies synthesized from expert sources like OneCause, Double the Donation, Sopact, and Bonterra.\n\n### Key Strategies to Improve Donor Retention\n\n#### 1. **Create a Comprehensive Donor Retention Plan**\n   - Map out a stewardship timeline with touchpoints like thank-yous, impact reports, and events (Bonterra, OneCause).\n   - Assign a dedicated team to track retention KPIs (e.g., churn rate) monthly or bimonthly.\n   - **Actionable tip**: Segment donors by giving history, engagement, or cohorts (e.g., spring event participants) using AI tools or donor management software for targeted outreach.\n\n#### 2. **Personalize Gratitude and Thank-Yous**\n   - Send immediate, personalized acknowledgments: calls, videos (15-30 seconds), or letters within 72 hours (Double the Donation, 4aGoodCause).\n   - Call at-risk donors (identified via churn predictions) to reinforce relationships.\n   - **Pro tip**: Record batch thank-you videos for recurring donors; use scripts for volunteer calls to high-value supporters.\n\n#### 3. **Promote Recurring Giving**\n   - Offer easy opt-ins on donation forms with suggested low monthly amounts (e.g., $25 vs. $300 one-time) and perks like event discounts or VIP status (Double the Donation, Donorly).\n   - Automate credit card updates and self-service portals to reduce involuntary churn from failed payments (4aGoodCause).\n   - **Evidence**: Recurring donors have higher lifetime value and retention.\n\n#### 4. **Share Impact Stories and Updates**\n   - Send dedicated email streams with one participant's story per update, not generic reports (Sopact, OneCause).\n   - Use newsletters, annual reports, and milestone cards (birthdays, anniversaries).\n   - **Multichannel approach**: Consistent messaging via email, phone, social, and events maximizes reach.\n\n#### 5. **Boost Engagement Beyond Donations**\n   | Engagement Type | Examples | Why It Works |\n   |-----------------|----------|--------------|\n   | **Volunteering** | Park cleanups, event help, shelter shifts (AFP Global, Bonterra) | Turns passive support into action. |\n   | **Events & Communities** | Donor appreciation galas, VIP briefings, giving societies (DonorPerfect, OneCause) | Builds belonging and loyalty. |\n   | **Advocacy** | Social media shares, petitions, legislator calls (AFP Global) | Deepens mission alignment. |\n   | **Feedback & Surveys** | Post-event polls, preference collection (4aGoodCause, Bonterra) | Makes donors feel valued. |\n\n   - Track participation to refine segments (e.g., volunteers get more hands-on invites).\n\n#### 6. **Leverage Technology and Data**\n   - Use unified donor management systems to store preferences, segment audiences, and predict churn (Bonterra, Sopact).\n   - Offer multiple giving methods: credit/debit, ACH, PayPal, Apple Pay (Double the Donation).\n   - Test playbooks with 10-15% holdout groups to measure lift (Sopact).\n\n#### 7. **Acquire and Convert New Donors Thoughtfully**\n   - Add 10 new contacts monthly via sign-ups, board networks, or events, then nurture with retention tactics from day one (Bonterra).\n   - Segment new vs. lapsed donors for tailored re-engagement.\n\n### Measuring Success\n- **Formula**: (Repeat donors from last year / Total donors from last year) \u00d7 100.\n- Track churn triggers (e.g., skipped installments) and adjust quarterly. Aim for incremental gains: AI insights can boost rates significantly (OneCause).\n\nImplement 2-3 strategies first, monitor for 3-6 months, then scale. Focus on relationships over transactions for sustainable loyalty. For tools, explore platforms like DonorPerfect or Bonterra.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bonterra",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 890,
+  "estimated_cost_usd": 0.018368,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.onecause.com/blog/donor-retention/",
+      "https://doublethedonation.com/donor-retention/",
+      "https://www.sopact.com/use-case/donor-retention",
+      "https://www.bonterratech.com/blog/donor-retention",
+      "https://4agoodcause.com/10-simple-ways-to-retain-monthly-donors-and-reduce-churn/",
+      "https://donorly.com/thedonorlyblog/donor-retention",
+      "https://www.donorperfect.com/nonprofit-technology-blog/fundraising-software/major-donor-retention-tools-how-to-build-relationships-that-last-a-lifetime/",
+      "https://afpglobal.org/donor-retention-how-sustain-relationships-year-after-year",
+      "https://www.ccsfundraising.com/insights/donor-acquisition-and-retention-strategies/",
+      "https://www.blackbaud.com/industry-insights/glossary/donor-retention"
+    ]
+  }
+}

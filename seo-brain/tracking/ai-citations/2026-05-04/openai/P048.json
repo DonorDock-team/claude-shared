@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P048",
+  "prompt_text": "Donor CRM for nonprofits outgrowing their current tools",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.869361+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "As nonprofits grow, they often find that their initial donor management tools no longer meet their needs. Transitioning to a more robust Donor CRM (Customer Relationship Management) system can help manage this growth more effectively. Here are some popular options for nonprofits that are outgrowing their current tools:\n\n1. **Salesforce.org Nonprofit Success Pack (NPSP):**\n   - **Benefits:** Highly customizable, scalable, and can integrate with numerous third-party applications. It provides a comprehensive view of your donors and constituents.\n   - **Considerations:** May require technical expertise to configure and maintain.\n\n2. **Blackbaud Raiser\u2019s Edge NXT:**\n   - **Benefits:** Designed specifically for nonprofits, it offers advanced fundraising and donor management capabilities. Cloud-based with strong reporting and analytics tools.\n   - **Considerations:** Potentially higher cost; contracts can be complex.\n\n3. **Bloomerang:**\n   - **Benefits:** User-friendly with a focus on donor retention and engagement. Provides insightful reports and integrates well with other tools.\n   - **Considerations:** Less customizable than some other options.\n\n4. **NeonCRM:**\n   - **Benefits:** Offers a wide range of features including event management, membership management, and volunteer management. Good automation and reporting tools.\n   - **Considerations:** Can become costly with add-ons and additional features.\n\n5. **Kindful:**\n   - **Benefits:** Intuitive interface with strong integration capabilities (e.g., with Mailchimp, QuickBooks). Focuses on donor insights and personalization.\n   - **Considerations:** Less robust than some larger systems for very large nonprofits.\n\n6. **DonorPerfect:**\n   - **Benefits:** Flexible and scalable, offering features for fundraising, donor management, and reporting. Provides strong technical support.\n   - **Considerations:** Some users find the interface less modern compared to other CRMs.\n\n7. **Little Green Light:**\n   - **Benefits:** Affordable and user-friendly, particularly suitable for small to medium-sized nonprofits. Offers good training and support.\n   - **Considerations:** May lack advanced features some larger organizations need.\n\n8. **DonorLynk:**\n   - **Benefits:** Comprehensive suite offering donor management, online giving, and event management features.\n   - **Considerations:** Newer in the market; may have fewer integrations than established solutions.\n\n9. **Funraise:**\n   - **Benefits:** Focus on modern design and user experience with strong online fundraising tools. Provides customizable dashboards and analytics.\n   - **Considerations:** Primarily focused on fundraising aspects.\n\nWhen selecting a CRM, consider factors such as budget, the size of your organization, specific feature requirements, level of customization needed, integration capabilities with existing tools, and the level of support offered. It's also beneficial to involve key stakeholders in the decision-making process and, if possible, test the software through demos or trials.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 587,
+  "estimated_cost_usd": 0.005915,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

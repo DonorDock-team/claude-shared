@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P071",
+  "prompt_text": "Donor retention benchmarks for nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869705+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor Retention Benchmarks for Nonprofits\n\nBased on the latest 2026 data, here are the key donor retention benchmarks for nonprofits:\n\n## Overall Retention Rates\n\n| Metric | Rate |\n|--------|------|\n| **Overall Average** | 54.73% (2026 Virtuous data) |\n| **Top Quartile Performance** | 69.64% |\n| **Industry Range** | 31.9% - 54.73% (varies by source and methodology) |\n\n*Note: Different sources report varying averages (ranging from 31.9% to 54.73%) depending on their data collection methodology and nonprofit sample sizes.*\n\n## Key Benchmarks by Donor Type\n\n- **First-to-Second Gift Conversion**: 25.84% overall; 37.86% top quartile\n- **Repeat Donor Retention**: 69.2% average\n- **New Donor Retention**: 14-19.63% average\n- **Recurring Monthly Givers**: Up to 90% retention\n\n## Retention Rate Performance Tiers\n\n| Retention Rate | Performance Level |\n|---|---|\n| Below 40% | Needs serious attention |\n| 40\u201355% | Average (majority of organizations) |\n| 55\u201365% | Above average |\n| 69.64%+ | Top quartile excellence |\n\n## Small Nonprofit Goals\nFor organizations with fewer than 1,000 donors, realistic targets are **35\u201345%**.\n\n## Cost Efficiency\nRetaining existing donors costs only **$0.20 per dollar raised**, making retention highly cost-effective compared to donor acquisition.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 345,
+  "estimated_cost_usd": 0.010196,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://virtuous.org/blog/understanding-donor-retention/",
+      "https://4agoodcause.com/the-importance-of-donor-retention-how-to-calculate-and-track/",
+      "https://www.donorsearch.net/resources/donor-retention/",
+      "https://bloomerang.com/blog/donor-retention/",
+      "https://www.nptechforgood.com/101-best-practices/online-fundraising-statistics-for-nonprofits/",
+      "https://benchmarks.nextafter.com",
+      "https://afpglobal.org/news/fundraising-effectiveness-project-data-q1-2025-shows-increases-dollars-raised-declining",
+      "https://fundraisingreportcard.com/benchmarks/",
+      "https://www.ccsfundraising.com/insights/donor-acquisition-and-retention-strategies/"
+    ]
+  }
+}

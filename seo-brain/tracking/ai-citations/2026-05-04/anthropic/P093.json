@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P093",
+  "prompt_text": "Cheapest nonprofit CRM with online giving",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869914+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Cheapest Nonprofit CRM with Online Giving\n\nHere are the most affordable options:\n\n## **Free Options**\n\n1. **Bitrix24**\n   - **Cost**: Free for unlimited users\n   - Includes basic CRM, online donation forms, and payment processing\n   - Good for small nonprofits just starting out\n\n2. **Zoho CRM** (with Zoho for Nonprofits)\n   - **Cost**: Free for up to 3 users, then $14/user/month\n   - 10% nonprofit discount available\n   - Add Zoho Forms for donation pages\n\n## **Best Budget Options ($0-30/month)**\n\n3. **Little Green Light**\n   - **Cost**: $39/month (unlimited users)\n   - Built specifically for small nonprofits\n   - Includes donor management and online giving\n   - Often considered the best value\n\n4. **Donorbox** (Donations) + Free CRM\n   - **Cost**: Free platform (pay processing fees only: 1.75%)\n   - Pair with a free CRM like HubSpot or Bitrix24\n   - Simple, effective for donation-focused orgs\n\n5. **Kindful** (by Bloomerang)\n   - **Cost**: Starts at $100/month\n   - Full-featured donor CRM with online giving built-in\n\n## **My Recommendation**\n\nFor most small nonprofits: **Little Green Light** offers the best balance of features and affordability at $39/month with unlimited users.\n\nWhat's your nonprofit's size and primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 362,
+  "estimated_cost_usd": 0.005478,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

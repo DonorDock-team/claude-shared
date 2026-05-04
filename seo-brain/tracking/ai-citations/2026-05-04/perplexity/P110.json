@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P110",
+  "prompt_text": "How to segment your donor list",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869886+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Donor segmentation divides your donor list into groups based on shared characteristics like demographics, giving history, engagement levels, and affinities to enable personalized outreach, improve retention, and boost fundraising ROI.[1][2][5]**\n\n### Key Segmentation Criteria\nUse these common categories, often combined for precision (e.g., young STEM professionals or lapsed high-value donors):\n\n- **Demographics**: Group by age, gender, location, career, marital status, income, or education to understand your base and tailor messaging (e.g., social media for younger donors in specific zip codes).[1][2][3]\n- **Giving History and Patterns**:\n  - Frequency: Monthly, annual, occasional, or lapsed donors.[3][5]\n  - Amount Tiers: Small (<$100), medium ($100\u2013$499), large ($500+), or major donors.[3][4][5]\n  - Recency: Recent vs. lapsed gifts.[6]\n- **Engagement Levels**: Quantify with points for volunteering, event attendance, or interactions; create high-engagement segments.[1][2]\n- **Affinity and Interests**: Past campaign support, causes, or programs (e.g., back-to-school donors for peer-to-peer appeals).[2][3][4]\n- **RFM Model** (Recency, Frequency, Monetary value): Tier donors (e.g., 5-5-5 for best donors who gave recently, often, and highly; 1-5-5 for lapsed high-value).[6]\n\n| Segmentation Type | Examples | Use Case |\n|-------------------|----------|----------|\n| Demographics[1][2][3] | Gen Z in STEM, local retirees | Location-specific or age-targeted campaigns |\n| Giving Patterns[3][5][6] | Monthly givers, $500+ tiers | Timed appeals or tiered asks |\n| Affinity[2][4] | Disaster relief supporters | Follow-up impact reports |\n| RFM[6] | Best (5-5-5), Lapsed High-Value (1-5-5) | Prioritize stewardship or re-engagement |\n\n### Steps to Segment Your Donor List\n1. **Gather Data**: Collect demographics, giving history, engagement, and preferences from your CRM or donor software.[1][4]\n2. **Analyze and Group**: Sort into tiers (e.g., RFM) or multi-lens models; refine beyond demographics for accuracy.[1][6]\n3. **Automate Where Possible**: Use software for point-based engagement scoring, auto-moves (e.g., first-time to recurring), or major donor ID.[1][2]\n4. **Test and Refine**: Start simple, track results, and hone segments (e.g., quantify engagement).[1][7]\n5. **Build Action Plans**: Create stewardship matrices or strategies per segment (e.g., welcome emails for new donors, major gift outreach for high-capacity).[1][2][5]\n\nThis approach identifies prospects (e.g., for major giving pipelines) and matches asks to capacity, fostering loyalty without generic appeals.[4][7] For best results, integrate with donor management tools.[1][2]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 663,
+  "estimated_cost_usd": 0.014966,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.bonterratech.com/blog/donor-segmentation",
+      "https://www.evertrue.com/donor-segmentation/",
+      "https://www.goodunited.io/blog/donor-database-segmentation-examples",
+      "https://kindsight.io/resources/blog/donor-segmentation-guide/",
+      "https://www.blackbaud.com/industry-insights/glossary/donor-segmentation",
+      "https://dataro.io/blog/donor-segmentation-understanding-the-rfm-approach",
+      "https://www.doubleknot.com/blog/donor-segmentation",
+      "https://bloomerang.com/blog/donor-segmentation/"
+    ]
+  }
+}

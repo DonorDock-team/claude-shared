@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P040",
+  "prompt_text": "Donor software with QuickBooks integration",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.870003+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Several donor management software options offer native integrations with QuickBooks (Online and/or Desktop) to automate syncing of donations, transactions, and donor data, eliminating manual entry.[1][2][3][4][5][6][7]\n\n### Key Options and Features\n| Software | QuickBooks Versions Supported | Sync Details | Cost Notes |\n|----------|-------------------------------|--------------|------------|\n| **Donorbox** | QuickBooks Online | Auto-syncs one-time/recurring donations, ticket sales as Sales Receipts or Invoices + Payments; setup wizard maps campaigns to accounts.[1] | $50/month add-on to Donorbox plan.[1] |\n| **DonorSnap** | QuickBooks Online & Desktop (PC) | Batch transfers transactions; matches accounting codes/payment methods; prevents duplicates; no extra cost.[2] | Free with DonorSnap.[2] |\n| **DonorDock** | QuickBooks Online (Desktop via export/import) | Auto-syncs donations as sales receipts; links gift numbers for navigation.[4] | Not specified (native integration).[4] |\n| **Method:Donor** | All QuickBooks versions | Two-way, real-time sync of donations, donors, follow-ups, and history.[5] | Not specified.[5] |\n| **DonorPerfect** | QuickBooks Online & Desktop | Syncs gifts/pledges/expenses; customizable mapping (e.g., to customers, classes); filters for posted/unposted; audit trail.[6][7][8][9] | Not specified (cloud-based option available via DonorPerfect).[7] |\n\nThese tools focus on nonprofits, streamlining fundraising with features like donor tracking, reporting, and campaign management alongside QuickBooks for accurate financials.[3] For setup, most involve authorizing access, mapping accounts, and configuring sync rules (e.g., real-time or batch).[1][2][6] Evaluate based on your QuickBooks version, real-time needs, and scale\u2014DonorPerfect and DonorSnap support both Online/Desktop.[3][6]",
+  "donordock_mentioned": true,
+  "donordock_position": 810,
+  "competitors_mentioned": [
+    "DonorBox",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 419,
+  "estimated_cost_usd": 0.011309,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://donorbox.org/explore/quickbooks-integration/",
+      "https://donorsnap.com/quickbooks-integration/",
+      "https://theleadpastor.com/tools/best-donor-management-software-that-works-with-quickbooks/",
+      "https://www.donordock.com/integrations/quickbooks-online",
+      "https://www.method.me/blog/donor-management-software-for-quickbooks/",
+      "https://www.donorperfect.com/integrations/financial-accounting/quickbooks/",
+      "https://www.donorperfect.com/factsheets/quickbooks-online/",
+      "https://www.donorperfect.com/video/donorperfect-and-quickbooks/",
+      "https://www.donorperfect.com/video/donorperfect-integration-quickbooks-accounting-software/"
+    ]
+  }
+}

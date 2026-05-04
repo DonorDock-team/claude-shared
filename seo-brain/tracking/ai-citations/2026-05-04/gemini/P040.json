@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P040",
+  "prompt_text": "Donor software with QuickBooks integration",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.870015+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding donor management software that integrates with QuickBooks (QB) is a common and crucial need for nonprofits to streamline their financial and donor tracking. The level and method of integration can vary significantly, from direct API connections to export/import functions or third-party connectors.\n\nHere are some popular donor software options known for their QuickBooks integration capabilities:\n\n## Top Donor Software with QuickBooks Integration\n\n1.  **Bloomerang:**\n    *   **Strengths:** Known for its user-friendly interface, focus on donor retention, and robust reporting. It has excellent native integration with QuickBooks Online, allowing you to sync donations, donors, and other financial data.\n    *   **Integration:** Primarily strong with QuickBooks Online. Typically involves a direct connection where you map fields between Bloomerang and your QB chart of accounts.\n    *   **Best For:** Small to mid-sized nonprofits looking for modern, intuitive software with strong QBO integration.\n\n2.  **Kindful (now Bonterra Impact Management):**\n    *   **Strengths:** A modern, cloud-based platform that offers donor management, fundraising tools, and robust reporting. They emphasize strong integration capabilities with various platforms, including QuickBooks.\n    *   **Integration:** Strong native integration with both QuickBooks Online and QuickBooks Desktop (often via a sync tool). You can typically push donations, pledges, and donor information directly.\n    *   **Best For:** Growing nonprofits seeking an all-in-one solution with a focus on ease of use and good financial integration.\n\n3.  **NeonCRM (Neon One):**\n    *   **Strengths:** A comprehensive solution that goes beyond just donor management to include membership, events, peer-to-peer fundraising, and website integration. It's highly customizable.\n    *   **Integration:** Offers robust integration with both QuickBooks Online and QuickBooks Desktop. You can typically configure specific data points to sync, such as donations, transactions, and GL codes.\n    *   **Best For:** Mid-sized to larger nonprofits with diverse needs, including membership, events, and complex data management.\n\n4.  **DonorPerfect:**\n    *   **Strengths:** A long-standing and widely used donor management system. It's powerful, highly configurable, and offers a vast array of features including fundraising, online forms, and reporting.\n    *   **Integration:** Provides strong integration with both QuickBooks Online and QuickBooks Desktop. They have dedicated tools and processes for syncing financial data, often including the ability to map donations to specific income accounts and funds to classes.\n    *   **Best For:** Mid-sized to large nonprofits looking for a feature-rich, established platform with extensive customization options.\n\n5.  **Little Green Light (LGL):**\n    *   **Strengths:** An affordable, easy-to-use, and highly flexible donor management system, particularly popular with smaller nonprofits. It's known for its clean interface and excellent customer support.\n    *   **Integration:** Offers robust export options that are easily formatted for QuickBooks import. They also have a direct integration with QuickBooks Online that allows for syncing donations.\n    *   **Best For:** Small to mid-sized nonprofits and startups looking for a cost",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 661,
+  "estimated_cost_usd": 0.001654,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

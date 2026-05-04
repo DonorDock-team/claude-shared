@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P134",
+  "prompt_text": "Why nonprofits leave Bloomerang",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.868525+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Reasons Nonprofits Leave Bloomerang\n\nWhile Bloomerang is a popular donor management system, nonprofits do leave the platform for various reasons:\n\n## **1. Outgrowing the Platform**\n- Organizations scaling rapidly may need more advanced features\n- Enterprise-level nonprofits often require more robust reporting or customization\n- Need for more complex gift processing or multi-entity management\n\n## **2. Cost Concerns**\n- Pricing increases as database grows\n- Budget constraints, especially for smaller organizations\n- Finding more affordable alternatives with similar features\n\n## **3. Feature Limitations**\n- Limited event management capabilities\n- Accounting integration challenges\n- Inadequate grant management tools\n- Restrictions on custom fields or data structure\n- Limited email marketing functionality compared to dedicated platforms\n\n## **4. Technical Issues**\n- Reporting limitations or complexity\n- Data import/export difficulties\n- Integration problems with other tools\n- User interface not intuitive for their team\n\n## **5. Changing Organizational Needs**\n- Merger or acquisition requiring platform consolidation\n- Shift to all-in-one platforms (Salesforce, Blackbaud, etc.)\n- Need for specialized industry-specific solutions\n\n## **6. Support or Service Issues**\n- Customer service response times\n- Training or onboarding challenges\n- Difficulty getting technical problems resolved\n\n## **7. Better Alternatives**\n- Switching to platforms with stronger features in priority areas\n- Moving to open-source solutions for more control\n- Consolidating multiple tools into one comprehensive system\n\nWould you like specific information about alternatives or migration strategies?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 355,
+  "estimated_cost_usd": 0.005373,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

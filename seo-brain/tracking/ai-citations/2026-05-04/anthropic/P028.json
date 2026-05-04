@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P028",
+  "prompt_text": "Alternative to Network for Good",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.868665+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Alternatives to Network for Good\n\nHere are some popular alternatives to Network for Good for nonprofit fundraising and donor management:\n\n## **All-in-One Fundraising Platforms**\n\n1. **Donorbox**\n   - Lower fees (1.5% platform fee)\n   - Easy donation forms\n   - Peer-to-peer and recurring donations\n\n2. **Givebutter**\n   - Free platform (optional tips)\n   - Modern, user-friendly interface\n   - Great for campaigns and events\n\n3. **Classy**\n   - Enterprise-level features\n   - Strong peer-to-peer fundraising\n   - Higher cost, better for larger organizations\n\n## **Donor Management (CRM) Focused**\n\n4. **Bloomerang**\n   - Excellent donor retention tools\n   - Built-in engagement scoring\n   - Moderate pricing\n\n5. **Little Green Light**\n   - Affordable CRM option\n   - Good reporting features\n   - Better for small-to-mid size nonprofits\n\n6. **DonorPerfect**\n   - Comprehensive donor management\n   - Integrated online donations\n   - Scalable for growing organizations\n\n## **Payment Processing**\n\n7. **Stripe** (with nonprofit plugin)\n   - 2.2% + $0.30 per transaction\n   - Highly customizable\n   - Requires more technical setup\n\n8. **PayPal Giving Fund**\n   - No fees for registered nonprofits\n   - Wide recognition and trust\n   - Limited customization\n\n## **What's your organization's size and primary need?**\nThis would help me recommend the best fit for you.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Givebutter",
+    "Little Green Light",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 376,
+  "estimated_cost_usd": 0.005676,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

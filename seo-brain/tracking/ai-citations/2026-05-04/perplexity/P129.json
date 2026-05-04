@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P129",
+  "prompt_text": "Bloomerang limitations",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869951+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Key Limitations of Bloomerang\n\nBloomerang is a popular CRM for small to mid-sized nonprofits, praised for donor retention (e.g., top users achieve 64% retention, 1.5x industry average per [5]) and ease of use. However, user reviews and comparisons across G2, Capterra, Software Advice, and expert analyses ([1][2][3][4][6]) highlight consistent drawbacks. These span features, pricing, scalability, and support. Below is a categorized summary with evidence.\n\n#### 1. **Missing or Limited Features**\n   - **Volunteer Management Gaps**: Essential tools like advanced scheduling, shift management, and data sync with CRM are incomplete or frustrating ([1]).\n   - **Reporting and Filtering Constraints**: Complex queries often require Excel workarounds; custom fields, profiles, and report columns lack flexibility ([4][6]).\n   - **Customization Shortfalls**: Limited options for donation forms, letter formatting, event management, and grant tracking\u2014insufficient for complex needs like multi-stage scholarships or large events ([4]).\n   - **Not a True All-in-One**: Requires separate tools for advanced email marketing, social media, or program management; lacks depth in advocacy or multifaceted operations ([3][4]).\n\n#### 2. **Pricing and Scalability Issues**\n   - **Contact-Based Pricing**: Starts at ~$125/month but scales with database size (e.g., costly at 10,000+ constituents); add-ons like Volunteer or Fundraising increase expenses ([2][3][4]).\n   - **Locked Payment Processing**: Tied to Bloomerang's Stripe integration (2.9% + $0.30/transaction + 1% for P2P); no flexibility for third-party processors ([2]).\n   - **Best for Small/Mid-Sized Orgs**: Overwhelms large nonprofits needing enterprise customization (e.g., vs. Salesforce); membership features suit simple models but not complex dues/education ([3][4]).\n\n#### 3. **Usability and Integration Challenges**\n   - **Learning Curve**: Steep for new users despite intuitive design; interface complexity grows with \"all-in-one\" expansions ([2]).\n   - **Integration Hurdles**: Native Zapier support is limited; custom API needs tech resources; post-acquisition (e.g., Kindful, Qgiv) unification risks persist ([2][4]).\n   - **Support Tiered**: Chat is free, but phone/higher-touch requires upgrades ([2]).\n\n#### Comparison to Alternatives\n| Aspect              | Bloomerang Limitation                  | Competitor Example (e.g., Blackbaud/DonorPerfect) |\n|---------------------|---------------------------------------|--------------------------------------------------|\n| **Complexity**     | Steep curve for expansions            | Blackbaud: Even more complex/expensive ([2])     |\n| **Cost Scaling**   | Per-contact growth                    | DonorPerfect: Add-ons pricey but configurable ([4]) |\n| **Integrations**   | Limited native (needs Zapier/API)     | Blackbaud SKY API: Powerful but resource-heavy ([2]) |\n| **Events/Grants**  | Basic                                 | Specialized platforms stronger ([4])             |\n\n**Evidence Sources**: Drawn directly from 2024-2026 reviews ([1]-[8]). G2 rates it 4.5/5 but notes feature gaps ([1][4]); users echo these in Capterra/Software Advice ([2][6]).\n\nFor growing nonprofits, Bloomerang excels in core donor management but may require supplements or migration as needs expand. Test via free trial for fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 753,
+  "estimated_cost_usd": 0.016313,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.g2.com/products/bloomerang-volunteer/reviews?qs=pros-and-cons",
+      "https://4agoodcause.com/blackbaud-vs-bloomerang/",
+      "https://designbycosmic.com/guides/nonprofit-branding/bloomerang/",
+      "https://www.smartthoughts.net/post/bloomerang-software-review-for-association-executives-2025",
+      "https://bloomerang.com/experience/impact/",
+      "https://www.softwareadvice.com/nonprofit/bloomerang-profile/reviews/",
+      "https://www.youtube.com/watch?v=47mxH_ZzotI",
+      "https://bloomerang.com/faq/"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869822+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Understanding Donor Pledge Tracking\nDonor pledge tracking involves recording commitments (promised future donations), monitoring fulfillment, applying payments, sending reminders, and generating reports to forecast income and ensure accountability. This is essential for nonprofits and campaigns to convert pledges into actual funds while maintaining donor relationships. Common challenges include missed payments and manual errors, which software helps automate.\n\n### Manual Tracking Methods\nFor small organizations or startups, start with simple tools like spreadsheets:\n- **Excel/Google Sheets Setup** (from Jotform guide [5]):\n  | Column          | Description                          |\n  |-----------------|--------------------------------------|\n  | Date            | Pledge date and due dates            |\n  | Donor Name      | Full contact details                 |\n  | Pledge Amount   | Total committed                      |\n  | Fulfilled Amount| Payments received so far             |\n  | Outstanding     | Balance remaining                    |\n  | Status          | Active, Paid, Overdue, Written Off   |\n  | Notes/Reminders | Payment schedule, follow-up actions  |\n\n  - Scan receipts and store securely.\n  - Pros: Free, customizable. Cons: Scales poorly; prone to errors.\n\n- **Protocols** (DonorPerfect tip [4]):\n  - Record amount, frequency (e.g., monthly), purpose/fund.\n  - Set reminder schedules (e.g., email 7 days before due).\n  - Review weekly for overdue pledges.\n\n### Software and CRM Solutions\nDedicated tools automate tracking, reminders, and reporting. Here's a comparison of popular options from the results:\n\n| Tool          | Key Features                                                                 | Best For                  |\n|---------------|-----------------------------------------------------------------------------|---------------------------|\n| **DonorSnap** [1] | Easy pledge creation, apply donations seamlessly, forecast reports, email reminders, write-off balances. | General nonprofits       |\n| **ISPolitical** [2] | Dashboard \"Pledge Aging\" (by date ranges), export to spreadsheets, per-donor fulfilled/outstanding views. | Political campaigns      |\n| **BetterWorld** [3] | Dashboard pledges report (sort by Paid status), auto text/email reminders (12/24 hrs post-pledge), manual bulk reminders. | Paddle raise events      |\n| **DonorPerfect** [4][8] | Pledge page summary (active/overdue), payment schedules, reminders, fulfillment reports, handles modifications/cancellations. | Comprehensive CRM users  |\n| **Jotform Tables** [5] | CRM templates for pledges, auto receipts, workflows for follow-ups, integrates payments. | Form-based collection    |\n| **Keela** [6]    | Log details, track schedules, automated reminders/follow-ups.                | Mid-sized nonprofits     |\n| **DonorDock** [9]| Set schedules, track fulfillment, auto reminder sequences.                   | Event-integrated CRM     |\n\n- **Implementation Steps** (synthesized from all):\n  1. **Record Pledge**: Enter donor details, amount, schedule (e.g., $500 quarterly), start/end dates.\n  2. **Link Payments**: When a donation arrives, apply it to the specific pledge (reduces outstanding balance).\n  3. **Monitor Status**: Use dashboards for aging/overdue views (e.g., ISP's date-range totals).\n  4. **Send Reminders**: Automate emails/texts; manual options for bulk or individuals.\n  5. **Report & Analyze**: Generate forecasts (e.g., DonorSnap), fulfillment summaries, write-offs.\n  6. **Handle Edge Cases**: Mark as forgiven, adjust for changes, secure data (e.g., HIPAA for healthcare [5]).\n\n### Best Practices\n- **Automation First**: Switch from manual to CRM as pledges grow (>50 active) to avoid errors.\n- **Donor Communication**: Always confirm pledges in writing; thank fulfillments promptly.\n- **Compliance**: Track for tax receipts, board reports; protect data.\n- **Forecasting**: Use tools like DonorSnap or DonorPerfect to predict cash flow from outstanding pledges.\n\nFor campaigns, integrate with payment processors. Test free trials (e.g., DonorPerfect, Jotform) to match your needs. This system builds trust and maximizes revenue from commitments.",
+  "donordock_mentioned": true,
+  "donordock_position": 2840,
+  "competitors_mentioned": [
+    "DonorPerfect",
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 876,
+  "estimated_cost_usd": 0.018158,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://donorsnap.com/pledge-tracking/",
+      "https://ispolitical.com/how-do-i-track-pledges/",
+      "https://help.betterworld.org/en/articles/14626837-how-to-track-pledges-and-send-payment-reminders",
+      "https://www.donorperfect.com/nonprofit-technology-blog/fundraising-software/pledge-management/",
+      "https://www.jotform.com/nonprofit/how-to-track-donations/",
+      "https://www.keela.co/glossary/nonprofit-pledge-tracking",
+      "https://www.pledge.to/features/donor-data-and-management",
+      "https://www.donorperfect.com/video/managing-pledges-donorperfect/",
+      "https://www.donordock.com/features/pledge-tracking",
+      "https://donortracker.org"
+    ]
+  }
+}

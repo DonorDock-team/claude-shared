@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P044",
+  "prompt_text": "Best donor CRM for food banks",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.868469+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Food Banks\n\nHere are the top options specifically suited for food banks:\n\n## **1. Bloomerang**\n- **Best for:** Small to mid-sized food banks\n- **Key features:** Donor retention focus, engagement metrics, thank-you automation\n- **Pricing:** ~$125-$500/month\n- **Why it works:** Intuitive interface, strong reporting on donor behavior\n\n## **2. Little Green Light**\n- **Best for:** Budget-conscious organizations\n- **Key features:** Unlimited users, grant tracking, volunteer management\n- **Pricing:** $59-$179/month (flat rate)\n- **Why it works:** Affordable, designed for nonprofits, good for tracking food drives\n\n## **3. Neon CRM**\n- **Best for:** Growing food banks needing all-in-one solution\n- **Key features:** Event management, membership tracking, online donations, email marketing\n- **Pricing:** ~$149-$499/month\n- **Why it works:** Comprehensive features without multiple platforms\n\n## **4. Salesforce Nonprofit Cloud**\n- **Best for:** Larger food banks or networks\n- **Key features:** Highly customizable, volunteer tracking, case management\n- **Pricing:** 10 free licenses, then ~$36/user/month\n- **Why it works:** Scalable, can track both donors AND clients receiving services\n\n## **Key Considerations:**\n- Integration with payment processors (PayPal, Stripe)\n- Volunteer management capabilities\n- Grant tracking features\n- Ability to segment donors (corporate, individual, in-kind)\n\n**My recommendation:** Start with **Little Green Light** or **Bloomerang** for ease of use and value.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 394,
+  "estimated_cost_usd": 0.005952,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

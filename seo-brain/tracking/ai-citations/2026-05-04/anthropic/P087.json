@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P087",
+  "prompt_text": "Best donor CRM for refugee services",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869557+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best CRM Options for Refugee Services\n\n## Top Recommendations\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large organizations with complex needs\n- **Key features:**\n  - Robust case management for client services\n  - Strong donor management and fundraising tools\n  - Customizable for refugee-specific tracking (visa status, resettlement progress)\n  - Extensive integrations\n- **Considerations:** Steeper learning curve, higher cost (but offers 10 free licenses for nonprofits)\n\n### **2. Bloomerang**\n- **Best for:** Small to mid-sized organizations prioritizing donor retention\n- **Key features:**\n  - Excellent donor engagement and retention metrics\n  - User-friendly interface\n  - Strong reporting and email marketing\n  - Affordable pricing\n- **Considerations:** Less robust for case management\n\n### **3. Apricot by Social Solutions**\n- **Best for:** Organizations needing both donor and client case management\n- **Key features:**\n  - Purpose-built for social services\n  - Tracks client outcomes and services delivered\n  - Grant reporting capabilities\n  - Donor management included\n- **Considerations:** Mid-range pricing\n\n### **4. DonorPerfect**\n- **Best for:** Organizations wanting ease of use with solid features\n- **Key features:**\n  - Intuitive interface\n  - Good reporting and online fundraising\n  - Reasonable pricing\n  - Can integrate with case management tools\n- **Considerations:** May need supplementary tools for complex case management\n\n## Key Considerations for Your Decision\n\n- **Budget:** What can you afford monthly/annually?\n- **Staff capacity:** Technical expertise available?\n- **Dual needs:** How important is integrated case management vs. donor management?\n- **Size:** Number of donors and clients served?\n\nWould you like specific recommendations based on your organization's size and budget?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 424,
+  "estimated_cost_usd": 0.006402,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

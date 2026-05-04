@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.869695+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Measuring donor retention is crucial for understanding how effectively an organization is maintaining relationships with its donors. Here\u2019s a detailed approach on how to measure donor retention:\n\n1. **Define the Measurement Period:**\n   - Determine the specific period over which you want to measure retention. This is often annual, but could be quarterly or monthly, depending on the organization\u2019s needs.\n\n2. **Identify Retained Donors:**\n   - A retained donor is someone who made a donation in a previous period and continues to donate in the current period. Track donor behavior to identify these individuals.\n\n3. **Calculate Donor Retention Rate:**\n   - Use the formula:\n     \\[\n     \\text{Donor Retention Rate (\\%)} = \\left( \\frac{\\text{Number of Donors in Current Period who also Donated in Previous Period}}{\\text{Number of Donors in Previous Period}} \\right) \\times 100\n     \\]\n   - This will give you the percentage of donors who continue to support your organization from one period to the next.\n\n4. **Analyze Retention by Donor Segments:**\n   - Break down retention rates by different segments, such as donation size, frequency, method of donation, or donor demographics, to identify trends and areas for improvement.\n\n5. **Track First-Time Donor Retention:**\n   - First-time donors are crucial, as converting them into repeat donors can significantly improve overall retention. Measure how many first-time donors return to donate again within the next period.\n\n6. **Monitor Lifetime Value (LTV):**\n   - Calculate the average lifetime value of retained donors to understand the long-term impact of donor retention on your organization.\n\n7. **Evaluate Engagement Activities:**\n   - Assess how different engagement activities (newsletters, events, personal thank yous) influence retention rates. Understanding which activities boost retention helps refine strategies.\n\n8. **Conduct Surveys or Interviews:**\n   - Obtain qualitative data by surveying donors to understand their motivations and reasons for continued support or lack thereof.\n\n9. **Set Benchmarks and Goals:**\n   - Establish benchmarks based on historical data or industry standards, and set targets for improving retention rates.\n\n10. **Regular Reporting and Analysis:**\n    - Continuously monitor and report retention metrics to make data-driven decisions. Comparing current metrics with past performance helps identify trends.\n\nBy effectively tracking donor retention, organizations can improve their engagement strategies, ensuring long-term support and sustainability.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 496,
+  "estimated_cost_usd": 0.00499,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P132",
+  "prompt_text": "Network for Good problems",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.868362+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "If you're experiencing issues with Network for Good, a platform designed to help nonprofit organizations with online fundraising and donor management, here are some common problems and potential solutions:\n\n1. **Technical Issues with the Platform**:\n   - **Slowness or Downtime**: Verify if your internet connection is stable. Check Network for Good's social media accounts or website for any announcements about downtime or technical difficulties.\n   - **Browser Compatibility**: Ensure that your browser is up-to-date. Sometimes trying a different browser can resolve unexpected issues.\n\n2. **Fundraising Page Problems**:\n   - **Design or Display Issues**: Check if all media (images, videos) are properly formatted and optimized for web use. Incorrect sizing could lead to display issues.\n   - **Donation Processing Errors**: Make sure all payment settings and linked accounts (like your bank account or PayPal) are correctly configured.\n\n3. **Donor Management Challenges**:\n   - **Data Entry Errors**: Review your data entry procedures to ensure accuracy and consistency in donor profiles.\n   - **Reporting Issues**: Ensure that you are selecting the correct parameters when generating reports. Sometimes modifying filters will provide the needed information.\n\n4. **Integration with Other Systems**:\n   - **Sync Problems**: If you're having trouble integrating Network for Good with other software, check for any updates from both platforms. Sometimes software updates resolve compatibility issues.\n   - **API Issues**: Verify that your API keys are correctly entered and that permissions are set properly for data exchange between platforms.\n\n5. **User Account Problems**:\n   - **Login Issues**: Make sure you're using the correct login credentials. If you've forgotten your password, use the password recovery option.\n   - **Permission Levels**: Verify that user accounts have the correct permissions for accessing specific parts of the platform.\n\n6. **Training and Support**:\n   - **Lack of Training**: Network for Good offers training materials and customer support. Utilizing these resources can help troubleshoot issues more effectively.\n   - **Customer Support**: If issues persist, contact Network for Good's support team for assistance. Providing detailed information about the problem will help them resolve it more quickly.\n\n7. **Compliance and Security Concerns**:\n   - **Data Privacy**: Ensure that you are following all relevant data protection laws (like GDPR or CCPA) when handling donor information.\n   - **Security Measures**: Keep all software updated to prevent security vulnerabilities and consider enabling two-factor authentication for added security.\n\nThese troubleshooting steps should help address most common problems encountered on the Network for Good platform. If your issue continues, reaching out directly to their customer support is often the most effective way to find a resolution.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 11,
+  "output_tokens": 543,
+  "estimated_cost_usd": 0.005457,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

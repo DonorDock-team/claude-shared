@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P034",
+  "prompt_text": "Best nonprofit CRM for growing organizations",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869609+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Nonprofit CRM for Growing Organizations\n\nHere are the top CRM options for nonprofits experiencing growth:\n\n## **1. Salesforce Nonprofit Cloud**\n**Best for: Mid to large growing nonprofits**\n- **Pros:** Highly scalable, robust features, extensive integrations, strong donor management\n- **Cons:** Steeper learning curve, requires more setup\n- **Pricing:** 10 free licenses, then discounted pricing for nonprofits\n\n## **2. Bloomerang**\n**Best for: Donor retention focus**\n- **Pros:** Intuitive interface, excellent donor retention tools, strong reporting\n- **Cons:** Limited customization compared to Salesforce\n- **Pricing:** ~$125/month+\n\n## **3. NeonCRM**\n**Best for: All-in-one solution**\n- **Pros:** Comprehensive features (fundraising, events, membership), good value\n- **Cons:** Can feel cluttered with features\n- **Pricing:** Starts ~$50/month\n\n## **4. Kindful (by Bloomerang)**\n**Best for: Small to mid-size growth**\n- **Pros:** User-friendly, good automation, integrates well with other tools\n- **Cons:** Less robust than enterprise options\n- **Pricing:** ~$100/month+\n\n## **5. DonorPerfect**\n**Best for: Established nonprofits scaling up**\n- **Pros:** Strong fundraising features, customizable, good support\n- **Cons:** Interface feels dated\n- **Pricing:** Custom pricing\n\n## **Key Considerations:**\n- **Scalability** - Can it grow with you?\n- **Integration** - Works with email, accounting software?\n- **Budget** - Total cost including implementation\n- **Support** - Training and customer service quality\n\nWhat's your organization's current size and primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 432,
+  "estimated_cost_usd": 0.006522,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

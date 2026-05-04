@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P094",
+  "prompt_text": "Hidden costs of Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.870021+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a popular and generally well-regarded donor management platform, especially for small to mid-sized nonprofits, known for its user-friendly interface and focus on donor retention. However, like any software, there are \"hidden\" or less obvious costs that can accumulate beyond the base subscription fee.\n\nHere's a breakdown of potential hidden costs associated with Bloomerang:\n\n1.  **Tiered Pricing & Contact Limits:**\n    *   **The \"Growth\" Cost:** Bloomerang's pricing is primarily based on the number of constituents (donors, volunteers, prospects) in your database. As your organization grows and adds more contacts, your monthly subscription fee will automatically increase. While transparent on their pricing page, it's often overlooked in initial budgeting, leading to unexpected increases as you scale.\n    *   **Deactivating vs. Deleting:** To manage contact counts, you might deactivate old or irrelevant records rather than deleting them, but they still count towards your limit unless fully removed (which might not be ideal for historical data).\n\n2.  **Transaction Fees for Online Giving:**\n    *   **Bloomerang Processing Fee:** While Bloomerang offers integrated online giving forms, they typically charge a small percentage (e.g., 0.8% - 1.5%) on top of what the payment processor charges for each transaction. This is often listed on their pricing page but can be forgotten when calculating total cost.\n    *   **Payment Processor Fees:** You'll still pay standard fees to your chosen payment gateway (e.g., Stripe, Square, PayPal) for credit card processing, typically around 2.2% - 2.9% + $0.30 per transaction. This isn't a Bloomerang-specific fee but is a necessary cost for online giving that needs to be factored in.\n    *   **Donor Cover Option:** While Bloomerang offers donors the option to cover fees, not all donors will, meaning the organization still bears these costs.\n\n3.  **Data Migration & Implementation:**\n    *   **Time & Labor:** Even with Bloomerang's user-friendly interface, migrating existing donor data from spreadsheets or an old CRM takes significant staff time. This includes cleaning data, mapping fields, importing, and verifying accuracy. This \"sweat equity\" is a real, albeit indirect, cost.\n    *   **Consulting Fees:** If your data is complex or messy, you might need to hire a consultant to assist with the migration and initial setup, which can add thousands of dollars to the upfront cost.\n    *   **Customization Setup:** Setting up custom fields, reports, email templates, and giving forms to perfectly match your organization's needs also requires significant staff time.\n\n4.  **Integration Costs (External Software):**\n    *   **Third-Party Add-ons:** While Bloomerang integrates with many popular tools (like QuickBooks Online), if you need to connect with niche",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 609,
+  "estimated_cost_usd": 0.001524,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

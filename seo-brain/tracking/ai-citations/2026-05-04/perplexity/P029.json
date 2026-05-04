@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P029",
+  "prompt_text": "Best nonprofit CRM with fast implementation",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869300+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Insightly stands out as a top nonprofit CRM for fast implementation, with setup taking weeks rather than months and no need for consultants.**[1]\n\nOther strong options emphasizing quick setup include:\n- **Double the Donation**, which prides itself on a quick and easy setup process with seamless integrations for supporter management.[2]\n- **OnePageCRM**, a free CRM designed for nonprofits with simple donor tracking, volunteer management, and automation without complexity.[8]\n- **DonorPerfect**, noted for its comprehensive, integration-friendly features that enable rapid deployment.[2]\n\nSalesforce Nonprofit Cloud is the enterprise leader for customization and AI tools but typically requires more time for implementation compared to these faster alternatives.[1][3][5][6] For small nonprofits, options like Bloomerang or LiveImpact also offer straightforward onboarding, though specifics on speed vary.[5] Choose based on your organization's size, budget, and needs, as no single CRM fits all.[6]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 197,
+  "estimated_cost_usd": 0.007976,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.salesforce.com/nonprofit/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/",
+      "https://bloomerang.com/blog/nonprofit-crm/",
+      "https://www.youtube.com/watch?v=0GS7psLMl9Q",
+      "https://www.zendesk.com/sell/crm/nonprofit/"
+    ]
+  }
+}

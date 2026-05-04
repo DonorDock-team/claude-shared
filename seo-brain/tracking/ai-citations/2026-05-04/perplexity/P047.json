@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P047",
+  "prompt_text": "Best donor CRM for community foundations",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869302+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Best Donor CRMs for Community Foundations\n\nCommunity foundations manage complex donor-advised funds (DAFs), grants, endowments, and multi-level relationships (donors, advisors, grantees), requiring CRMs with strong fund accounting, compliance tracking, reporting, and customization. While general nonprofit CRMs like Salesforce Nonprofit Cloud dominate broader lists, specialized tools excel for community foundations. Based on 2026 search results from top sources (e.g., GoodUnited, Kindsight, Double the Donation, Bloomerang), here's a curated breakdown.\n\n#### Top Recommendations\n1. **Salesforce Nonprofit Cloud** (Most Recommended Overall)\n   - **Why best for community foundations**: Enterprise-grade with unlimited customization, AI-driven insights (e.g., Einstein AI for donor predictions), grant management, and fund tracking. Handles DAFs, complex workflows, and integrations with accounting tools like QuickBooks or Blackbaud. Scales for large foundations.\n   - **Key features**: Donor/advisor portals, compliance reporting (e.g., IRS 990), volunteer management, marketing automation.\n   - **Pricing**: Starts at ~$36/user/month (Nonprofit Success Pack free for eligible orgs); custom for enterprises.\n   - **Evidence**: Ranked #1 in Insightly's 2026 top 6 [5], Salesforce's own nonprofit page [4], and multiple lists (e.g., Bloomerang [8]). Proven for foundations via case studies on scalability.\n\n2. **Blackbaud Financial Edge NXT or CRM** (Specialized for Foundations)\n   - **Why best**: Tailored fund accounting for endowments/DAFs, real-time reporting, and grant lifecycle management. Superior for financial compliance and multi-entity tracking.\n   - **Key features**: Investment tracking, donor-advised fund portals, automated 990-PF filings.\n   - **Pricing**: Custom (often $10K+ annually for mid-size).\n   - **Evidence**: Frequently cited in foundation contexts (implied in Double the Donation [3] and Peak Grantmaking [9]); standard for community foundations per industry benchmarks.\n\n3. **Foundant GLM (Grant Lifecycle Manager) or CommunitySuite**\n   - **Why best**: Purpose-built for grantmaking and DAFs in community foundations, with CRM-like donor tools.\n   - **Key features**: Applicant portals, fund tracking, impact reporting.\n   - **Pricing**: Custom, ~$5K\u2013$20K/year.\n   - **Evidence**: Highlighted in Peak Grantmaking's selection guide [9] for foundations evaluating software.\n\n#### Strong General Alternatives for Smaller Foundations\n| CRM | Best For | Key Strengths for Foundations | Pricing (2026 Est.) | Sources |\n|-----|----------|-------------------------------|---------------------|---------|\n| **Bloomerang** | Donor retention | Engagement scoring, DAF tracking, simple reporting | $119/month (unlimited users) | [2], [6], [8] |\n| **DonorPerfect** | Fundraising + funds | Built-in fund accounting, mobile app | $89/month | [7], [3] |\n| **Funraise** | Growing orgs | User-friendly donor portals, adaptive scaling | $149/month | [3] |\n| **Keela** | Engagement | Stakeholder mapping, automated workflows | $199/month | [8] |\n| **LiveImpact** | Small budgets | All-in-one value, grant tracking | $99/month | [6] |\n\n#### How to Choose (From Expert Guides)\n- **Assess needs**: Prioritize DAF/fund accounting (Peak Grantmaking [9]), donor segmentation, and integrations (DonorPerfect [7]).\n- **Avoid pitfalls**: Don't buy without demos; check scalability (GoodUnited [1], LiveImpact [6]).\n- **Trends in 2026**: AI for personalization (Salesforce [5]) and mobile-first donor portals rising.\n- **Next steps**: Demo Salesforce or Blackbaud first; use free trials from Bloomerang/DonorPerfect. For foundations, consult Peak Grantmaking [9] for tailored eval frameworks.\n\nSalesforce leads for most due to its ecosystem, but Blackbaud/Foundant win for heavy grantmaking. Match to your size/budget\u2014e.g., Bloomerang for under $1M AUM.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 893,
+  "estimated_cost_usd": 0.018416,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.salesforce.com/nonprofit/",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://www.donorperfect.com/nonprofit-technology-blog/featured/choosing-a-nonprofit-crm/",
+      "https://bloomerang.com/blog/nonprofit-crm/",
+      "https://www.peakgrantmaking.org/insights/how-to-select-the-right-software-for-your-community-foundation/"
+    ]
+  }
+}

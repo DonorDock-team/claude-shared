@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869709+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Donor retention is measured by calculating the percentage of donors from one period who donate again in the next period.**[1][2]\n\n## Basic Calculation\n\nThe standard formula is:[2]\n\n**Retention Rate = (Number of Donors Retained \u00f7 Number of Donors Who Gave Last Year) \u00d7 100**\n\nFor example, if your organization had 1,200 unique donors in 2023 and 720 of them donated again in 2024, your retention rate would be (720 \u00f7 1,200) \u00d7 100 = **60%**.[5]\n\n## Key Measurement Principles\n\nTo ensure accuracy, follow these rules:[6]\n\n- Count **unique people**, not transactions\n- Track the same donor identity across both time periods consistently\n- Include all gifts from each donor during the measurement period, not just single transactions\n\n## Segmented Retention Rates\n\nRather than relying on one blended rate, measure retention by donor category:[6]\n\n- **First-time donor retention:** Of new donors in year one, how many gave again in year two (target above 30%)\n- **Repeat donor retention:** Of donors who gave multiple times in year one, how many gave again in year two (target above 65%)\n- **Major donor retention:** Of high-value donors ($1,000+), how many returned\n\nThis segmentation reveals which donor groups need attention, as blended rates can mask problems in specific segments.[6]\n\n## Implementation\n\nMost donor databases include built-in retention or repeat donor reports that automatically calculate these metrics.[5] Investing in donor management software eliminates manual calculations and allows you to track retention trends over time.[1]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 336,
+  "estimated_cost_usd": 0.010058,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://bloomerang.com/blog/donor-retention/",
+      "https://virtuous.org/blog/understanding-donor-retention/",
+      "https://kindsight.io/resources/blog/a-guide-to-donor-retention-for-nonprofits/",
+      "https://www.boardeffect.com/blog/donor-retention-rate/",
+      "https://rallyup.com/blog/donor-retention-rate/",
+      "https://www.sopact.com/use-case/donor-retention",
+      "https://kb.blackbaud.com/articles/Article/58594",
+      "https://4agoodcause.com/the-importance-of-donor-retention-how-to-calculate-and-track/"
+    ]
+  }
+}

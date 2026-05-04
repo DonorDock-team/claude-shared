@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.868352+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A Donor CRM (Constituent Relationship Management) system designed to handle recurring giving needs to have specific features and functionalities to effectively manage and nurture donor relationships. Here are some key components and considerations for a Donor CRM with recurring giving features:\n\n1. **Recurring Donation Management:**\n   - **Automated Billing:** Ability to set up automated recurring donations on a monthly, quarterly, or annual basis.\n   - **Flexible Scheduling:** Options for donors to choose their giving schedule based on their preferences.\n   - **Multiple Payment Methods:** Support for credit cards, bank transfers, PayPal, and other payment gateways.\n   - **Failed Payment Handling:** Automatic retries and notifications for failed transactions.\n\n2. **Donor Profiles:**\n   - **Comprehensive Records:** Maintain detailed records of donor information, including contact details, donation history, and communication preferences.\n   - **Interaction Tracking:** Track all interactions with donors, including emails, calls, and meeting notes.\n   - **Segmentation:** Group donors based on certain criteria for targeted communication and campaigns.\n\n3. **Communication Tools:**\n   - **Email Integration:** Send personalized emails, thank-you notes, and updates about the nonprofit\u2019s work.\n   - **Automated Thank You Messages:** Immediate acknowledgment of donations with customizable messages.\n   - **Campaign Management:** Tools for creating and managing fundraising campaigns, appeals, and events.\n\n4. **Reporting and Analytics:**\n   - **Donation Insights:** Generate reports on recurring giving patterns, donor retention, and revenue forecasts.\n   - **Impact Reporting:** Share the impact of donor contributions to strengthen donor relationships.\n\n5. **Donor Engagement:**\n   - **Loyalty Programs:** Develop recognition or loyalty programs to appreciate recurring donors.\n   - **Event Management:** Integration or features to manage donor events and track participation.\n\n6. **Integration Capabilities:**\n   - **Third-party Tools:** Compatibility with accounting software, email marketing platforms, and other organizational tools.\n   - **API Access:** For custom development and integration with existing systems.\n\n7. **Security and Compliance:**\n   - **Data Privacy:** Ensure compliance with data protection regulations like GDPR or CCPA.\n   - **Secure Transactions:** Encrypted payment processing to protect donor information.\n\n8. **User-friendly Interface:**\n   - **Ease of Use:** Simple, intuitive interface for both the organization and the donors.\n   - **Mobile Access:** Accessible on mobile devices for donor management on-the-go.\n\nImplementing a Donor CRM with effective recurring giving management can significantly enhance a nonprofit's ability to sustain its operations and projects through consistent donor support. Consider solutions from providers like Salesforce Nonprofit Success Pack, Bloomerang, DonorPerfect, or Kindful, among others, which offer these features tailored for nonprofit organizations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 556,
+  "estimated_cost_usd": 0.005593,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

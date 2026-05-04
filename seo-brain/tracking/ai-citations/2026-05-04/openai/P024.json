@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P024",
+  "prompt_text": "How much does nonprofit donor CRM cost",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.868344+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The cost of nonprofit donor CRM systems can vary widely depending on several factors, including the features and capabilities you require, the size of your organization, the number of users, and whether the software is cloud-based or hosted on-premises. Here\u2019s a general overview of potential costs:\n\n1. **Cloud-Based Solutions:**\n   - **Small to Medium Organizations:** Costs can range from $50 to $150 per month for basic packages. More comprehensive plans with additional features may range from $200 to $500 per month.\n   - **Larger Organizations:** For larger nonprofits, costs can start at $500 per month and go up to $2,000 or more, depending on the complexity and number of users.\n\n2. **On-Premises Solutions:**\n   - These usually involve a higher initial outlay for software licenses and potentially hardware, ranging from a few thousand to tens of thousands of dollars. There are also ongoing costs for maintenance, updates, and support.\n\n3. **Additional Costs:**\n   - **Implementation and Training:** Initial setup, data migration, and training can incur additional costs ranging from a few hundred to several thousand dollars.\n   - **Customization:** Customizing the CRM to fit specific needs can also add to the cost.\n   - **Support and Maintenance:** Some CRMs charge for ongoing support and maintenance, either as part of the package or as an additional subscription.\n\n4. **Examples of Popular CRMs:**\n   - **Bloomerang, DonorPerfect, Kindful:** These are often priced to attract small to medium-sized nonprofits with scalable pricing based on the number of contacts or records.\n   - **Salesforce for Nonprofits:** Offers a free version for up to 10 users with the Nonprofit Success Pack, but additional features and users will cost more.\n   - **NeonCRM, Network for Good:** Typically offer a range of tiered pricing plans based on the size and needs of the organization.\n\nIt's important for nonprofits to carefully assess their own needs and budget constraints and compare several options before committing to a particular CRM. Many vendors offer free trials or demos, which can be useful in evaluating the software's suitability.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 435,
+  "estimated_cost_usd": 0.004385,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

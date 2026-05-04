@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P017",
+  "prompt_text": "Alternative to Neon CRM",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869700+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Top alternatives to Neon CRM, a cloud-based nonprofit CRM for donor management, memberships, events, and fundraising, include CiviCRM, Bloomerang, DonorPerfect, Raklet, DonorSnap, Charity Engine, DonorDock, Virtuous CRM, eTapestry, Little Green Light, Salsa CRM, and Funraisin.**[2][3][4][5]\n\nThese options vary by focus, pricing, and strengths, often addressing Neon CRM's limitations like reporting depth, setup costs ($900 including website), or integration flexibility.[1][4] Here's a comparison of key alternatives based on features, pricing insights, and best use cases:\n\n| Alternative | Key Strengths | Pricing Notes | Best For |\n|-------------|---------------|---------------|----------|\n| **CiviCRM** | Open-source, zero licensing fees, full data ownership, strong for memberships/events.[2][4] | Free (self-hosted; requires technical setup).[4] | Tech-savvy nonprofits seeking cost savings as databases grow.[2][4] |\n| **Bloomerang** | Unified CRM + online giving + email + events; integrates with Mailchimp, QuickBooks; less manual cleanup.[3] | Affordable (specifics not detailed; positioned as superior value).[3] | Fundraising teams needing streamlined supporter management.[3] |\n| **DonorPerfect** | Unlimited custom fields, advanced reporting (cross-tabulated), moves management; enterprise-grade without complexity.[4] | Mid-market pricing (not specified).[4] | Orgs needing deep data customization and reporting over Neon CRM's limits.[4] |\n| **Raklet** | All-in-one for memberships; customizable; Zapier-like integrations; Professional plan $99/mo (2000 contacts).[1] | $99/mo Professional; $224/mo Premium (5000 contacts, custom domain).[1] | Membership-based orgs/startups avoiding Neon's setup fees.[1] |\n| **Virtuous CRM** | Behavior-driven automation; high user sentiment.[2][4] | Higher-end pricing.[4] | Responsive fundraising with automation.[2][4] |\n| **eTapestry** | Donor management, online giving, email, reporting; Blackbaud ecosystem for future upgrades.[4] | Not specified; comparable to Neon CRM core.[4] | Orgs in Blackbaud family planning scalability.[4] |\n| **DonorSnap, Charity Engine, DonorDock** | Strong competitors in nonprofit CRM space per crowdsourced data (400+ capabilities).[2] | Varies; high user sentiment for some (e.g., DonorSnap).[2] | General nonprofit CRM needs; evaluate via reviews.[2][5] |\n| **Little Green Light** | Core donor management at low cost.[4] | Lowest monthly among paid options.[4] | Budget-constrained orgs.[4] |\n| **Salsa CRM** | Fundraising + advocacy campaigns.[4] | Not specified.[4] | Combined advocacy/fundraising.[4] |\n| **Funraisin** | Specialized peer-to-peer fundraising (use alongside CRM).[4] | Not specified.[4] | P2P growth channels, not full replacement.[4] |\n\nSelectHub ranks CiviCRM highest by user sentiment (88/100 vs. Neon's 86/100 based on reviews).[2] For detailed 2026 comparisons, TeachingFloor reviews 12 options emphasizing DonorPerfect for reporting.[4] Software Advice lists 15 based on features/user reviews.[5] Choose based on your nonprofit's size, technical needs, and priorities like cost or automation.[1][2][4]",
+  "donordock_mentioned": true,
+  "donordock_position": 198,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Little Green Light",
+    "Neon CRM",
+    "Virtuous",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 755,
+  "estimated_cost_usd": 0.01634,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.raklet.com/alternatives/neoncrm-vs-raklet/",
+      "https://www.selecthub.com/non-profit-crm-software/neoncrm/alternatives/",
+      "https://bloomerang.com/alternative/neoncrm/",
+      "https://www.teachfloor.com/blog/best-neon-crm-alternatives",
+      "https://www.softwareadvice.com/nonprofit/neoncrm-profile/alternatives/"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869981+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Tracking Soft Credits in Donor CRM\n\n## What Are Soft Credits?\n\nSoft credits recognize individuals who influenced a donation without being the legal donor (e.g., spouse of donor, volunteer who solicited the gift, board member who made the introduction).\n\n## Best Practices for Tracking\n\n### 1. **Establish Clear Policies**\n- Define what qualifies for soft credit\n- Common scenarios:\n  - Spouse/partner credits\n  - Solicitor/fundraiser credits\n  - Organizational credits (workplace giving)\n  - Honorary credits (memorial gifts)\n\n### 2. **Use Your CRM's Built-in Features**\n\nMost donor CRMs include soft credit functionality:\n\n**Salesforce/NPSP:**\n- Use Opportunity Contact Roles\n- Assign role types (Solicitor, Household Member, Honoree)\n- Create soft credit reports using OCR relationships\n\n**Bloomerang:**\n- Add soft credits in transaction details\n- Assign credit type and percentage\n- Track via household and relationship features\n\n**Raiser's Edge:**\n- Use the Soft Credit field on gifts\n- Link to constituent records\n- Create soft credit queries and reports\n\n**DonorPerfect:**\n- Add soft credit records to gifts\n- Use relationship codes\n- Generate soft credit reports\n\n### 3. **Key Fields to Track**\n- Soft credit recipient name\n- Credit type/reason\n- Credit amount or percentage\n- Relationship to hard credit donor\n- Campaign/appeal attribution\n\n### 4. **Reporting Considerations**\n- Don't double-count in revenue totals\n- Separate hard vs. soft credit reports\n- Track solicitor performance\n- Monitor household giving patterns\n\n**Would you like specific guidance for your particular CRM system?**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 399,
+  "estimated_cost_usd": 0.006033,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

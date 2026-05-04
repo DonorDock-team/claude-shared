@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P086",
+  "prompt_text": "Best donor CRM for homeless services",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869541+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for homeless services depends heavily on your organization's specific needs, size, budget, and existing systems (especially your Homeless Management Information System - HMIS).\n\nHowever, given the unique demands of homeless services \u2013 often involving complex client data, in-kind donations, volunteer management, and grant reporting \u2013 here are some top recommendations along with key considerations:\n\n### Key Considerations for Homeless Services CRMs:\n\n1.  **HMIS Integration/Compatibility:** This is paramount. Your donor CRM *should not* be your HMIS. However, you need a strategy for how client success stories (anonymized), outcomes, and impact data from your HMIS can inform your donor communications without compromising privacy. Look for CRMs with strong APIs or Zapier integrations.\n2.  **In-Kind Donation Tracking:** Homeless services often receive significant in-kind donations (food, clothing, hygiene products). The CRM needs robust fields to track these, assign estimated values, and generate appropriate thank-you letters/tax receipts.\n3.  **Volunteer Management:** Volunteers are critical. Does the CRM offer integrated volunteer sign-up, hour tracking, communication, and reporting, or integrate well with a dedicated volunteer platform?\n4.  **Grant Tracking & Reporting:** Many homeless service providers rely heavily on grants. The CRM should help manage grant lifecycles, deadlines, reporting requirements, and restricted funds.\n5.  **Data Security & Privacy:** Given the sensitive nature of the work, ensure the CRM adheres to high data security standards.\n6.  **Segmentation & Communication:** The ability to segment donors based on giving history, interests (e.g., housing, food, youth), and communication preferences is vital.\n7.  **Impact Reporting:** Can the CRM help you tell your story effectively by showing the impact of donations (e.g., \"X meals provided,\" \"Y individuals housed,\" \"Z hours of case management\")?\n8.  **Ease of Use & Training",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 410,
+  "estimated_cost_usd": 0.001027,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

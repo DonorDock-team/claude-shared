@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.868394+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A Donor CRM with robust recurring giving functionality is crucial for building predictable revenue and strong donor relationships. Recurring giving programs are the lifeblood of many nonprofits, so the right CRM needs to make it easy for both your organization to manage and for donors to participate.\n\nHere's a breakdown of what to look for and some top recommendations:\n\n## Key Features for Recurring Giving in a Donor CRM\n\nWhen evaluating CRMs, specifically look for these capabilities related to recurring giving:\n\n1.  **Easy Online Setup for Donors:**\n    *   **Customizable Donation Forms:** Seamlessly integrated forms on your website that allow donors to select recurring options (monthly, quarterly, annually).\n    *   **Clear Payment Options:** Support for credit cards, ACH/bank transfers, PayPal, Apple Pay, Google Pay.\n    *   **Donor Portal/Self-Service:** Allows donors to update payment information, change giving amounts, view giving history, and manage their recurring gifts directly. This significantly reduces administrative burden.\n\n2.  **Automated Payment Processing & Management:**\n    *   **Secure Payment Gateway Integration:** Connects with popular payment processors (Stripe, Authorize.net, PayPal, etc.) for secure transactions.\n    *   **Automatic Retries for Failed Payments:** Intelligent systems that automatically re-attempt failed recurring transactions (e.g., due to expired cards).\n    *   **Email Notifications for Expiring/Failed Payments:** Automated emails to donors when their card is about to expire or a payment fails, prompting them to update their information.\n\n3.  **CRM-Integrated Recurring Gift Tracking:**\n    *   **Dedicated Recurring Gift Records:** Clear tracking of each recurring gift, its frequency, amount, start date, end date (if any), and payment status.\n    *   **Associated with Donor Profiles:** All recurring gift data linked to the individual donor's comprehensive profile, alongside one-time gifts, interactions, and communication history.\n    *   **Pledge Management:** For recurring gifts paid via invoice or check, the ability to track pledges and send automated reminders.\n\n4.  **Reporting & Analytics:**\n    *   **Recurring Revenue Reports:** Track monthly recurring revenue (MRR), average recurring gift size, and year-over",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 464,
+  "estimated_cost_usd": 0.001161,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

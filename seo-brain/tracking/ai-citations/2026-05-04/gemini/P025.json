@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.868452+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding a donor CRM with true flat-rate pricing and no per-user fees can be a bit tricky, as many CRMs use a tiered model based on the *number of contacts* or *total donations processed*, but *within those tiers*, they often offer unlimited users/admins. This usually fits the spirit of what you're looking for, as your cost won't go up just because you hire more staff.\n\nHere are some excellent options that generally fit your criteria:\n\n1.  **Little Green Light (LGL)**\n    *   **Pricing Model:** Primarily based on the number of constituent records (donors, volunteers, members).\n    *   **No Per-User Fees:** Explicitly states \"unlimited users\" for all plans.\n    *   **Why it fits:** LGL is very popular with small to mid-sized nonprofits for its straightforward pricing and comprehensive features (donor management, gift processing, acknowledgments, basic reporting, email). It's designed to be intuitive and cost-effective.\n\n2.  **Bloomerang**\n    *   **Pricing Model:** Tiered based on the number of constituents/records in your database.\n    *   **No Per-User Fees:** Offers \"unlimited users\" across all their plans.\n    *   **Why it fits:** Bloomerang is highly regarded for its focus on donor retention and engagement. It offers robust features for communication, reporting, email marketing, and even includes an engagement meter for each donor. The pricing is very predictable once you know your database size.\n\n3.  **Keela**\n    *   **Pricing Model:** Tiered based on the number of contacts in your database.\n    *   **No Per-User Fees:** Offers \"unlimited users\" across all plans.\n    *   **Why it fits:** Keela is an all-in-one solution that covers CRM, fundraising, email marketing, project management, and even some AI-powered insights. It's designed to streamline operations for nonprofits and offers a clean interface.\n\n4.  **WildApricot** (Especially good if you have members)\n    *   **Pricing Model:** Tiered based on the number of contacts in your database.\n    *   **No Per-User Fees:** Includes \"unlimited administrators\" on all plans.\n    *   **Why it fits:** While often categorized as a membership",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Keela",
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 497,
+  "estimated_cost_usd": 0.001246,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

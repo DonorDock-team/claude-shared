@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.868600+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Givebutter Comparison\n\nBoth are modern donor management platforms, but they serve different needs. Here's a breakdown:\n\n## **Givebutter**\n\n### Best For\n- Small to medium nonprofits\n- Organizations prioritizing fundraising campaigns\n- Groups needing event ticketing and peer-to-peer fundraising\n\n### Strengths\n- **Free tier** (platform fee on donations instead)\n- Beautiful, modern campaign pages\n- Built-in peer-to-peer fundraising\n- Event management and ticketing\n- Text-to-donate\n- Auction/raffle tools\n- Very user-friendly interface\n\n### Limitations\n- Less robust CRM features\n- Limited customization on free plan\n- Fees can add up on donations (though donors can cover them)\n\n### Pricing\n- Free plan available\n- Platform fee model: donors can cover the ~3% fee\n- Paid plans for premium features\n\n---\n\n## **DonorDock**\n\n### Best For\n- Small to medium nonprofits needing full CRM\n- Organizations wanting deeper donor relationships\n- Groups prioritizing data management\n\n### Strengths\n- Comprehensive donor CRM\n- Strong contact management and segmentation\n- Task management and workflows\n- Donor communication tracking\n- Good reporting capabilities\n- Flat monthly pricing (no transaction fees beyond payment processing)\n\n### Limitations\n- Less flashy fundraising campaign tools\n- Fewer built-in campaign features than Givebutter\n- Smaller feature set for events\n\n### Pricing\n- Starts around $99/month\n- No platform fees on donations\n- Just standard payment processing fees (~2.9% + $0.30)\n\n---\n\n## **Key Decision Factors**\n\n**Choose Givebutter if:**\n- You run frequent campaigns and events\n- You need peer-to-peer fundraising\n- You want to start free\n- Fundraising tools matter more than CRM depth\n\n**Choose DonorDock if:**\n- You need robust donor relationship management\n- You want predictable monthly costs\n- Data organization and workflows are priorities\n- You prefer no platform fees on donations\n\nMany organizations actually use **both** - Givebutter for campaigns/events and DonorDock for donor management!\n\nWhat's your primary need - fundraising campaigns or donor management?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 518,
+  "estimated_cost_usd": 0.007821,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

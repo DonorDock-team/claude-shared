@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.868637+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A **donor CRM with text messaging** is a donor management system that integrates SMS capabilities, allowing nonprofits to send and receive text messages directly within their donor database platform.\n\n## Key Features\n\nThese integrated systems typically include:\n\n- **Text-to-give functionality**: Supporters text keywords like \"GIVE\" or \"DONATE\" to a designated number and receive a link to complete donations on mobile[4][5]\n- **Two-way texting**: Enable one-to-one conversations with donors to answer questions, share updates, and deepen relationships[2]\n- **Bulk messaging**: Send segmented campaigns to specific donor groups (major donors, volunteers, event attendees) for updates, reminders, and appeals[4]\n- **Personalization**: Customize messages with recipient names, giving amounts, and donor segments to strengthen connections[3]\n- **Automated workflows**: Schedule messages, send automated reminders for pledges or events, and trigger responses based on donor actions[1][3]\n- **Engagement tracking**: Monitor delivery rates, click rates, and text responses within a unified dashboard[3]\n- **Integrated donor data**: All text activity and donations automatically record in your donor database, simplifying follow-up and stewardship[6]\n\n## Popular Platforms\n\nNonprofits can use CRM systems like **DonorPerfect**, **Bloomerang**, **CharityEngine**, **Bonterra**, and **Andar/360**, which offer native texting tools or integrations. Many require connecting a Twilio account for SMS delivery[4].\n\n## Strategic Uses\n\nOrganizations use donor CRM texting for event reminders, volunteer recruitment, pledge fulfillment reminders, thank-yous, real-time campaign updates, and time-sensitive appeals. Text messaging achieves high open rates\u2014over 98% of texts are read within 3 minutes[5]\u2014and performs best when combined with other channels like email and direct mail[7].",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 376,
+  "estimated_cost_usd": 0.010661,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donorperfect.com/fundraising-software/text-message-fundraising/",
+      "https://charityengine.net/text-to-give/",
+      "https://andarsoftware.com/texting/",
+      "https://www.bonterratech.com/resources/how-video-and-text-messaging-can-drive-stronger-donor-engagement",
+      "https://www.donorperfect.com/integrations/email-marketing/dp-text/",
+      "https://bloomerang.com/blog/text-to-give-platforms/",
+      "https://www.givesmart.com/mobile-text-message-marketing/",
+      "https://www.donordock.com/features/text-message-outreach"
+    ]
+  }
+}

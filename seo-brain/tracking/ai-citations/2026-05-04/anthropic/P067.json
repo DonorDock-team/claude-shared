@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869415+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Tracking Donor Relationships Across a Team\n\n## 1. **Choose a Centralized System**\n\n### CRM (Customer Relationship Management) Options:\n- **Nonprofit-specific:** Salesforce Nonprofit Cloud, Bloomerang, DonorPerfect, Little Green Light\n- **General CRM:** HubSpot (free tier available), Zoho CRM\n- **Simple solutions:** Airtable, Google Sheets (for small teams)\n\n## 2. **Essential Information to Track**\n\n- **Contact details** (name, email, phone, address)\n- **Giving history** (amounts, dates, campaigns)\n- **Communication log** (calls, emails, meetings with dates and notes)\n- **Interests and preferences** (program areas, communication frequency)\n- **Assigned relationship owner** (primary point of contact)\n- **Next steps/action items** (with due dates)\n- **Personal details** (birthdays, family info, hobbies\u2014when appropriate)\n\n## 3. **Establish Clear Protocols**\n\n### Team Guidelines:\n- **Who updates what:** Define roles for data entry\n- **When to log interactions:** Within 24-48 hours\n- **Tagging system:** Categorize donors (major, recurring, lapsed, etc.)\n- **Handoff procedures:** Document when donors transition between team members\n\n## 4. **Best Practices**\n\n\u2705 **Hold regular sync meetings** to discuss major donors  \n\u2705 **Use shared calendars** for tracking donor touchpoints  \n\u2705 **Create templates** for common communications  \n\u2705 **Set reminders** for follow-ups and check-ins  \n\u2705 **Respect data ownership** while maintaining transparency  \n\u2705 **Keep notes professional** (they may be accessible in public records requests)\n\n## 5. **Simple Starting Point**\n\nIf you're just beginning, start with:\n1. A shared spreadsheet with donor names and contact info\n2. A \"last contact\" and \"next step\" column\n3. Weekly 15-minute team huddles to review\n4. Gradually add complexity as needed\n\n**The key is consistency\u2014any system only works if your team actually uses it.**\n\nWhat size is your team and donor base? I can offer more specific recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 518,
+  "estimated_cost_usd": 0.007815,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

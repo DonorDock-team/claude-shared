@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P077",
+  "prompt_text": "How to track major donor moves management",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.870080+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking major donor moves management is crucial for building strong relationships, optimizing fundraising efforts, and ensuring a consistent donor experience. It allows you to strategically guide donors through the cultivation cycle, from identification to stewardship.\n\nHere's a comprehensive guide on how to effectively track major donor moves management:\n\n## 1. Choose the Right Tool\n\nThe foundation of effective tracking is a robust system.\n\n*   **Customer Relationship Management (CRM) Software (Highly Recommended):** This is the gold standard for donor management.\n    *   **Examples:** Salesforce (especially with NPSP for non-profits), Blackbaud Raiser's Edge NXT, Virtuous, DonorPerfect, Bloomerang, Little Green Light.\n    *   **Why CRMs are superior:**\n        *   **Centralized Database:** All donor information in one place.\n        *   **Relationship Tracking:** Link individuals to households, companies, and other donors.\n        *   **Activity Logging:** Record every interaction (calls, emails, meetings, events).\n        *   **Moves Management Functionality:** Dedicated fields and workflows for tracking stages, next steps, and tasks.\n        *   **Reporting & Analytics:** Generate insightful reports on pipelines, portfolio performance, and conversion rates.\n        *   **Automation:** Automate tasks like reminders and follow-ups.\n        *   **Security & Compliance:** Better data security and privacy management.\n\n*   **Spreadsheets (For Smaller Organizations or Starting Out):** While not ideal for scalability or complexity, a well-structured spreadsheet can be a starting point.\n    *   **Limitations:** Lack of automation, poor data integrity over time, difficult for multiple users, limited reporting.\n    *   **If using spreadsheets:** Be meticulous about data entry and consistency.\n\n## 2. Key Data Points to Track\n\nRegardless of your tool, these are the essential pieces of information for each major donor:\n\n### A. Donor Profile & Demographics:\n*   **Full Name, Preferred Name, Salutation**\n*   **Contact Information:** Address, Phone, Email\n*   **Household Information:** Spouse/Partner, Children\n*   **Employer & Professional Background**\n*   **Key Relationships:** Board members, other donors, influential community members\n*   **Capacity Rating:** An estimated giving potential (e.g., $10K-$25K, $100K+).\n*   **Philanthropic Interests/Motivations:** What causes or programs they care about.\n*   **Communication Preferences:** How they prefer to be contacted (email, phone, mail).\n\n### B. Moves Management Cycle Status:\nThis is the core of your tracking. Define clear stages for your organization:\n*   **Identification:** Newly identified prospect.\n*   **Qualification:** Determining capacity, inclination, and connection.\n*   **Cultivation:** Building the relationship, engaging them with the mission.\n    *   *Sub-stages might include: Discovery, Engagement, Deepening Relationship*\n*   **Solicitation:** The ask itself.\n*   **Stewardship:** Acknowledging the gift, reporting impact, and maintaining the relationship.\n*   **Lost/Inactive:** Donor is no longer engaged or identified as a prospect.\n*   **Renewed/Upgraded:** Moved back into cultivation for the next gift.\n\n### C. Major Donor Portfolio & Assignment:\n*   **Relationship Manager (RM):** The staff member responsible for the donor.\n*   **Portfolio Assignment Date:** When the donor was assigned to the RM.\n*   **Portfolio Size:** How many donors the RM is managing.\n\n### D. Interaction & Engagement History:\n*   **Contact Reports:** Detailed records of every interaction.\n    *   **Date of Interaction**\n    *   **Type of Interaction:** Phone call, email, meeting, event, handwritten note, tour.\n    *   **Key Participants:** Who was involved from your organization and the donor's side.\n    *   **Summary of Conversation:** Key topics, donor insights, questions asked/answered.\n    *   **Outcome/Next Steps:** What was decided, what actions need to be taken.\n*   **Event Attendance:** Which events they attended.\n*   **Communications Sent:** Which specific communications (newsletters, appeals, impact reports) they received.\n\n### E. Proposals & Asks:\n*   **Proposal ID/Name:**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 920,
+  "estimated_cost_usd": 0.002302,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

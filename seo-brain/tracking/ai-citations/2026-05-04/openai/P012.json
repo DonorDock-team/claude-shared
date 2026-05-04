@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P012",
+  "prompt_text": "DonorDock vs Virtuous",
+  "engine": "openai",
+  "timestamp": "2026-05-04T16:02:46.869356+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When comparing DonorDock and Virtuous, it's important to consider their functionalities, target audiences, and pricing to determine which nonprofit CRM (Customer Relationship Management) system best fits your organization's needs. Here's a breakdown of their features:\n\n### DonorDock\n\n**Overview:**\n- **Target Audience:** Typically smaller to mid-sized nonprofits looking for an easy-to-use system with essential features at a lower cost.\n- **Ease of Use:** Known for its user-friendly interface, making it accessible for users with limited technical expertise.\n\n**Key Features:**\n- **Donor Management:** Basic donor database management, tracking interactions and donations.\n- **Fundraising Tools:** Tools for managing campaigns, online donations, and recurring donations.\n- **Communication:** Email marketing capabilities for newsletters and donor communication.\n- **Integration:** Basic integrations with other tools, such as payment processors and email marketing platforms.\n- **Reporting:** Standard reports on donor activity and fundraising performance.\n\n**Pricing:**\n- Generally more affordable with tiered pricing based on the number of users and features.\n\n### Virtuous\n\n**Overview:**\n- **Target Audience:** Designed for mid-sized to larger nonprofits wanting more robust features, including advanced marketing automation and donor engagement capabilities.\n- **Automation and Intelligence:** Strong focus on automating donor interactions and providing actionable insights.\n\n**Key Features:**\n- **Donor Management:** Comprehensive CRM functionality, including donor segmentation and journey mapping.\n- **Fundraising and Marketing Automation:** Advanced tools for personalized email and direct mail campaigns, including automation of these processes.\n- **Integration:** Extensive integration options with a variety of third-party platforms, aiding in comprehensive data management and strategy implementation.\n- **Reporting and Analytics:** Advanced analytics and reporting features with customizable dashboards to track KPIs.\n- **Volunteer and Event Management:** Tools for managing volunteer efforts and events, though more focused on overall donor engagement strategies.\n\n**Pricing:**\n- Typically priced higher due to more advanced features and capabilities, with pricing structures that can be customized based on the organization's specific needs.\n\n### Conclusion\n\n**Choose DonorDock if:**\n- You are a smaller nonprofit with limited budget.\n- You need a straightforward, easy-to-use CRM for basic donor management.\n- Simplified pricing and ease of use are key factors for your organization.\n\n**Choose Virtuous if:**\n- Your nonprofit is medium to large-sized and needs advanced CRM features.\n- You want a comprehensive tool with strong automation and integration capabilities.\n- You are ready to invest in a more robust system for more sophisticated engagement and fundraising strategies.\n\nUltimately, the selection between DonorDock and Virtuous should align with your organization's size, budget, and the complexity of your donor management and engagement needs.",
+  "donordock_mentioned": true,
+  "donordock_position": 15,
+  "competitors_mentioned": [
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 538,
+  "estimated_cost_usd": 0.005412,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

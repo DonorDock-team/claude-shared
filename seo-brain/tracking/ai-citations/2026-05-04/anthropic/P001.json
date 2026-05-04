@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P001",
+  "prompt_text": "What is DonorDock",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.868661+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock\n\n**DonorDock** is a cloud-based donor management and fundraising software (CRM) designed primarily for small to mid-sized nonprofit organizations.\n\n## Key Features\n\n- **Donor Management** - Centralized database to track donor information, giving history, and interactions\n- **Online Fundraising** - Donation pages, peer-to-peer fundraising, and event registration\n- **Communication Tools** - Email campaigns, automated acknowledgments, and donor engagement\n- **Reporting & Analytics** - Insights into fundraising performance and donor behavior\n- **Task Management** - Tools to help teams stay organized with follow-ups and workflows\n\n## Target Users\n\nDonorDock is particularly aimed at nonprofits that need:\n- An affordable, user-friendly solution\n- Tools to replace spreadsheets or outdated systems\n- Integration capabilities with other nonprofit tools\n\n## Pricing\n\nIt typically offers tiered pricing based on organization size and features needed, positioning itself as a cost-effective alternative to more expensive nonprofit CRMs like Salesforce Nonprofit Cloud or Blackbaud products.\n\nWould you like to know more about any specific aspect of DonorDock, such as pricing, comparisons to alternatives, or specific features?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 275,
+  "estimated_cost_usd": 0.004167,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

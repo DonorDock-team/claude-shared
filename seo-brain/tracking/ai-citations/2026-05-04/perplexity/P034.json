@@ -1,0 +1,37 @@
+{
+  "prompt_id": "P034",
+  "prompt_text": "Best nonprofit CRM for growing organizations",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869640+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**No single nonprofit CRM is universally best for growing organizations, as the ideal choice depends on factors like budget, scalability, team size, and specific needs such as donor management or fundraising integration.** [2][1] Sources consistently highlight **Salesforce Nonprofit Cloud**, **Bloomerang**, and **Funraise** as top scalable options for growth, with Salesforce praised as the industry leader for comprehensive features like fundraising, marketing, program management, grantmaking, and volunteer coordination.[3][1][4]\n\n### Key Recommendations for Growing Nonprofits\nThese CRMs stand out for their ability to scale with expanding operations, based on 2026 analyses:\n\n| CRM | Strengths for Growth | Pricing Notes | Citations |\n|----|----------------------|---------------|-----------|\n| **Salesforce Nonprofit Cloud** | Handles complex needs across fundraising, marketing, programs, and volunteers; highly customizable for large-scale expansion. | Free starter edition available; scales with paid tiers. | [3][1][4] |\n| **Bloomerang** | Simple, donor-retention focused with easy scaling; ideal for mid-sized orgs without overwhelming features. | Affordable, subscription-based. | [5][4][7] |\n| **Funraise** | User-friendly donor CRM that adapts to changing needs; streamlines management as supporter base grows. | Tailored for nonprofits; pricing grows with usage. | [1] |\n| **Blackbaud** or **DonorPerfect** | Robust for enterprise-level growth with advanced reporting and integrations. | Higher cost, suited for established orgs. | [4][7] |\n\n### Free or Low-Cost Options for Early Growth\nFor bootstrapping while scaling, consider:\n- **Givebutter**, **HubSpot CRM**, or **Zoho CRM**: Fully free tiers with donor tools and automation.[2][8]\n- Others like **Donorbox**, **Zeasy**, or **DonorDock** for basic-to-mid growth without upfront costs.[8]\n\n### Selection Tips\n- **Prioritize scalability**: Choose CRMs with donor databases, automation, and integrations that match your projected growth (e.g., Salesforce for 100+ staff).[1][2]\n- **Test fits**: No one-size-fits-all; evaluate based on ease of use, reporting, and retention tools.[2][5]\n- Sources agree on evaluating your org's stage\u2014simple tools like Bloomerang for smaller growth phases, enterprise like Salesforce for rapid expansion.[1][3][5]",
+  "donordock_mentioned": true,
+  "donordock_position": 1800,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Givebutter",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 517,
+  "estimated_cost_usd": 0.012776,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/",
+      "https://www.salesforce.com/nonprofit/",
+      "https://www.springly.org/en-us/blog/nonprofit-crm-advantages/",
+      "https://stratuslive.com/blog/nonprofit-crm-systems-comparison/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.g2.com/categories/nonprofit-crm/free",
+      "https://www.goodera.com/blog/best-crms-for-nonprofits-the-complete-guide-for-nonprofit-organizations"
+    ]
+  }
+}

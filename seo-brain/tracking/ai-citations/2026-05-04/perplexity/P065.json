@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P065",
+  "prompt_text": "Donor CRM with pledge tracking",
+  "engine": "perplexity",
+  "timestamp": "2026-05-04T16:02:46.869304+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Donor CRMs with pledge tracking** are specialized software platforms that help nonprofits manage donor relationships while monitoring pledge payments and commitments throughout their lifecycle.\n\n## Key Features\n\nPledge tracking in nonprofit CRMs typically includes:\n\n- **Dedicated pledge management tools:** Each donor profile has a pledge tab where organizations can record the total pledged amount, payment frequency, and due dates[3]\n- **Visual pipeline tracking:** Pledges progress through well-defined stages from initial commitment to fulfillment, improving accountability and team clarity[1]\n- **Automated reminders:** The system can send scheduled email reminders to donors and internal notifications to team members for personalized follow-ups on missed payments[3]\n- **Payment records:** Organizations create individual payment records for each expected donation with dates and \"Paid?\" status indicators[4]\n- **Pledge aging reports:** These track outstanding pledge payments categorized by how overdue they are (30, 60, or 90+ days past due)[3]\n- **Automated acknowledgments:** Branded donation receipts and thank-you letters are generated and sent from within the platform[1]\n\n## Notable Platforms\n\nSeveral CRMs offer robust pledge tracking capabilities:\n\n- **LEADer CRM:** Starts at $12.50 per month annually; includes visual pipeline tracking, branded receipts, and reminders[1]\n- **DonorSnap:** Features pledge management tools, aging reports, and customizable thank-you messages[3]\n- **Beacon CRM:** Allows filtering for pledged, future, and outstanding payments[4]\n- **SylogistMission:** Built on Microsoft Dynamics 365, provides 360\u00b0 donor views with automatic receipting[5]\n- **Bloomerang:** Starts at $125 monthly; includes constituent timelines and custom reports[6]\n\n## Why Separate Pledge Tracking Matters\n\nPledges differ from recurring donations because they typically have set end dates and are structured as individual payments with different accounting implications[3]. Effective pledge tracking helps nonprofits run successful capital campaigns, prevent missed payments, and maintain donor relationships through timely follow-ups[3].",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 415,
+  "estimated_cost_usd": 0.011246,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://leader.net/pt/2026/01/14/nonprofit-crm-donor-outreach-and-pledge-tracking-in-leader/",
+      "https://www.pledge.to/features/donor-data-and-management",
+      "https://donorsnap.com/blog/pledge-tracking-with-a-nonprofit-crm/",
+      "https://guide.beaconcrm.org/en/articles/8695394-tracking-pledges",
+      "https://www.sylogist.com/mission/crm/",
+      "https://bloomerang.com/blog/donor-management-software/",
+      "https://www.donorperfect.com",
+      "https://www.charityproud.org",
+      "https://www.bonterratech.com/blog/donor-management-software",
+      "https://doublethedonation.com/top-nonprofit-crms/"
+    ]
+  }
+}

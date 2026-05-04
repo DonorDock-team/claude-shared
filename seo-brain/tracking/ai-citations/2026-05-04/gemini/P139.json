@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-04T16:02:46.869477+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "While Salesforce itself offers **Salesforce Nonprofit Cloud**, which is Salesforce specifically tailored for nonprofits, if you're looking for *other* CRMs that offer similar power, scalability, and breadth of features but are purpose-built or highly specialized for the nonprofit sector, here are the top contenders:\n\n1.  **Blackbaud (Raiser's Edge NXT)**\n    *   **Similarity to Salesforce:** Blackbaud is arguably the largest and most established player in nonprofit technology, much like Salesforce in the broader CRM market. Raiser's Edge NXT is their flagship fundraising and donor management solution, offering comprehensive tools for donor segmentation, gift processing, grant management, major gift cultivation, and reporting. It's highly scalable for larger organizations.\n    *   **Key Features:** Advanced fundraising, donor management, prospect research, grant management, event management, financial reporting, and integrations with their broader ecosystem (e.g., Luminate Online for digital marketing, Financial Edge for accounting).\n\n2.  **Virtuous**\n    *   **Similarity to Salesforce:** Virtuous is a modern, cloud-native CRM that emphasizes \"responsive fundraising\" and personalized donor journeys. It offers a comprehensive suite of features and is designed for growth, much like how Salesforce targets evolving business needs. It's known for its user-friendly interface and automation capabilities.\n    *   **Key Features:** Donor management, wealth screening, marketing automation, email & direct mail tools, volunteer management, event management, crowdfunding, and robust reporting.\n\n3.  **Neon CRM**\n    *   **Similarity to Salesforce:** Neon CRM provides a very comprehensive, all-in-one solution for nonprofits, covering many operational aspects beyond just donor management. It aims to be a single source of truth for an organization, similar to Salesforce's ambition.\n    *   **Key Features:** Donor management, membership management, event registration, volunteer management, grant tracking, peer-to-peer fundraising, reporting, and website integration.\n\n4.  **Bloomerang**\n    *   **Similarity to Salesforce:** While often catering to a slightly smaller scale than the largest Salesforce implementations, Bloomerang shares a strong focus on data-driven donor engagement and retention. It emphasizes user-friendliness and actionable insights, making powerful CRM features accessible.\n    *   **Key Features:** Donor database, communication tools, donor retention focus, email marketing, online giving forms, reporting, and integrations.\n\n5.  **Kindful (now part of Bonterra, which also includes EveryAction & GiveGab)**\n    *   **Similarity to Salesforce:** Kindful offers a modern, intuitive platform with a strong emphasis on integrating fundraising efforts. Like Salesforce, it aims to consolidate various data points to give a holistic view of constituents and fundraising performance. Bonterra is building a powerful suite of tools under one umbrella.\n    *   **Key Features:** Donor CRM, online fundraising, event management, peer-to-peer, volunteer management, data analytics, and integrations with popular tools like QuickBooks, Mailchimp, and Zapier.\n\n6.  **CiviCRM**\n    *   **Similarity to Salesforce:** CiviCRM is an open-source, web-based CRM that offers incredible flexibility and customization, similar to the underlying power of the Salesforce platform. It's highly adaptable and can be integrated with popular CMS like WordPress, Drupal, and Joomla. While it requires more technical setup, its capabilities rival proprietary systems.\n    *   **Key Features:** Constituent management, fundraising, event management, membership management, case management, grant tracking, and peer-to-peer.\n\n**Key Considerations When Choosing:**\n\n*   **Size and Complexity of Your Organization:** Some CRMs are better suited for small nonprofits, while others excel with large, complex operations.\n*   **Budget:** Costs vary significantly based on features, number of users, and data volume. Open-source options like CiviCRM have no licensing fees but require technical expertise.\n*   **Specific Needs:** Do you primarily need fundraising? Membership management? Volunteer tracking? Event registration? Grant management? Some CRMs are stronger in certain areas.\n*   **Ease of Use & Learning Curve:** How tech-savvy is your team? Some systems are more intuitive than others.\n*   **Integrations:** How well does the CRM integrate with your existing accounting software, email marketing tools, website",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "CiviCRM",
+    "Kindful",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 900,
+  "estimated_cost_usd": 0.002253,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

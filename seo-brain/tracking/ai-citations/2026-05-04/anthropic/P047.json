@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P047",
+  "prompt_text": "Best donor CRM for community foundations",
+  "engine": "anthropic",
+  "timestamp": "2026-05-04T16:02:46.869261+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Community Foundations\n\nCommunity foundations have unique needs\u2014managing multiple funds, handling complex grants, and cultivating diverse donor relationships. Here are the top options:\n\n## **Top Recommendations**\n\n### **1. Foundant Technologies (GLM & CSuite)**\n- **Best for:** Full community foundation management\n- **Strengths:** Built specifically for community foundations; integrated grant management and donor database; fund accounting features\n- **Considerations:** Can be pricey; implementation takes time\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger foundations wanting customization\n- **Strengths:** Highly customizable; robust reporting; extensive integration options; large nonprofit ecosystem\n- **Considerations:** Requires more technical expertise; often needs consulting help\n\n### **3. Bloomerang**\n- **Best for:** Smaller-to-midsize community foundations prioritizing donor retention\n- **Strengths:** User-friendly; strong retention analytics; good reporting; reasonable pricing\n- **Considerations:** Less robust for complex fund accounting\n\n### **4. DonorPerfect**\n- **Best for:** Foundations needing flexibility\n- **Strengths:** Comprehensive features; fund tracking capabilities; good integration options\n- **Considerations:** Interface feels dated to some users\n\n### **5. Blackbaud Raiser's Edge NXT**\n- **Best for:** Larger, established foundations\n- **Strengths:** Industry standard; comprehensive features; strong reporting\n- **Considerations:** Expensive; can be complex; mixed reviews on customer support\n\n## **Key Features to Prioritize**\n- Fund tracking and designated gift management\n-Grantmaking workflow integration\n- Donor portal capabilities\n- Legacy/planned giving tools\n- Endowment reporting\n- Scholarship management (if applicable)\n\n**My Recommendation:** Start with **Foundant** if budget allows\u2014it's purpose-built for community foundations. Otherwise, **Bloomerang** offers excellent value for smaller operations.\n\nWould you like specific guidance based on your foundation's size or budget?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 460,
+  "estimated_cost_usd": 0.006942,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}
