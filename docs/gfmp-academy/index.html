@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DonorDock Partner Kit · GoFundMe Pro Academy</title>
+<meta name="description" content="A reference kit for the GoFundMe Pro Academy covering CRM concepts and DonorDock specifically." />
+<link rel="icon" href="https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/logos-DonorDock/logo-icon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --dd-purple: #8C2CBF;
+    --dd-purple-dark: #6F1F9C;
+    --dd-navy: #303034;
+    --dd-cream: #FFFCF5;
+    --dd-light-blue: #F7F9F9;
+    --dd-blue: #0F8FED;
+    --dd-green: #4BBE71;
+    --dd-yellow: #FBBF4C;
+    --dd-orange: #DD4E07;
+    --dd-border: #E8E8EC;
+    --dd-muted: #6B6B72;
+    --shadow-sm: 0 1px 2px rgba(48,48,52,0.06), 0 1px 3px rgba(48,48,52,0.04);
+    --shadow-md: 0 4px 12px rgba(48,48,52,0.08), 0 2px 4px rgba(48,48,52,0.04);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+  body {
+    margin: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--dd-cream);
+    color: var(--dd-navy);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  a { color: var(--dd-purple); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Inline AI CTA */
+  .ai-inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    background: linear-gradient(90deg, rgba(140,44,191,0.06) 0%, rgba(177,78,217,0.08) 100%);
+    border: 1px solid rgba(140,44,191,0.25);
+    border-radius: 14px;
+    padding: 16px 22px;
+    margin-bottom: 24px;
+  }
+  .ai-inline-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--dd-navy);
+    line-height: 1.4;
+  }
+  .ai-inline-text strong { color: var(--dd-purple); }
+  .ai-inline a.btn {
+    flex-shrink: 0;
+    padding: 10px 18px;
+    font-size: 13px;
+  }
+  @media (max-width: 600px) {
+    .ai-inline { flex-direction: column; align-items: flex-start; }
+  }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 48px;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 32px 32px 96px;
+  }
+  /* Sidebar */
+  .sidebar {
+    position: sticky;
+    top: 24px;
+    align-self: start;
+    height: calc(100vh - 48px);
+    overflow-y: auto;
+    padding: 24px 20px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: var(--shadow-md);
+  }
+  .sidebar-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 4px;
+  }
+  .sidebar-logo img { height: 28px; }
+  .sidebar-tag {
+    font-size: 12px;
+    color: var(--dd-muted);
+    margin: 0 0 20px;
+    line-height: 1.4;
+  }
+  .sidebar nav ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    counter-reset: section;
+  }
+  .sidebar nav li {
+    counter-increment: section;
+    margin: 4px 0;
+  }
+  .sidebar nav a {
+    display: block;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: var(--dd-navy);
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.15s, color 0.15s;
+  }
+  .sidebar nav a::before {
+    content: counter(section) ".";
+    color: var(--dd-muted);
+    margin-right: 8px;
+    font-weight: 400;
+  }
+  .sidebar nav a:hover {
+    background: var(--dd-light-blue);
+    text-decoration: none;
+    color: var(--dd-purple);
+  }
+
+  /* Main */
+  main { min-width: 0; }
+  .hero {
+    background: linear-gradient(135deg, #ffffff 0%, var(--dd-light-blue) 100%);
+    border-radius: 24px;
+    padding: 48px 48px 44px;
+    box-shadow: var(--shadow-md);
+    margin-bottom: 40px;
+  }
+  .hero-eyebrow {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--dd-purple);
+    background: rgba(140,44,191,0.08);
+    padding: 6px 14px;
+    border-radius: 100px;
+    margin-bottom: 16px;
+    letter-spacing: 0.02em;
+  }
+  .hero h1 {
+    font-size: 40px;
+    line-height: 1.15;
+    font-weight: 700;
+    margin: 0 0 12px;
+    letter-spacing: -0.02em;
+  }
+  .hero p {
+    font-size: 18px;
+    color: var(--dd-muted);
+    margin: 0;
+    max-width: 720px;
+  }
+
+  section {
+    background: white;
+    border-radius: 16px;
+    padding: 36px 40px;
+    margin-bottom: 24px;
+    box-shadow: var(--shadow-sm);
+    scroll-margin-top: 24px;
+  }
+  section h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+  section .section-num {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--dd-purple);
+    margin-bottom: 8px;
+  }
+  section h3 {
+    font-size: 19px;
+    font-weight: 600;
+    margin: 28px 0 8px;
+  }
+  section h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 16px 0 4px;
+    color: var(--dd-navy);
+  }
+  section p { margin: 0 0 12px; }
+  section ul, section ol { padding-left: 20px; margin: 0 0 12px; }
+  section li { margin: 6px 0; }
+
+  blockquote {
+    border-left: 3px solid var(--dd-purple);
+    padding: 8px 16px;
+    margin: 16px 0;
+    background: rgba(140,44,191,0.04);
+    border-radius: 0 8px 8px 0;
+    color: var(--dd-navy);
+    font-style: italic;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 20px;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--dd-border);
+    vertical-align: top;
+  }
+  th {
+    background: var(--dd-light-blue);
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--dd-navy);
+    letter-spacing: 0.02em;
+  }
+  tr:last-child td { border-bottom: none; }
+
+  /* Diff cards */
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    margin: 16px 0 8px;
+  }
+  .diff-card {
+    background: var(--dd-cream);
+    border: 1px solid var(--dd-border);
+    border-radius: 12px;
+    padding: 16px;
+  }
+  .diff-card .num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    background: var(--dd-purple);
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .diff-card h4 { margin: 0 0 6px; font-size: 15px; }
+  .diff-card p { font-size: 14px; color: var(--dd-muted); margin: 0; }
+
+  /* Feature pillar cards */
+  .pillar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .pillar-card {
+    border-radius: 14px;
+    padding: 20px;
+    color: white;
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+    min-height: 180px;
+  }
+  .pillar-card.crm { background: linear-gradient(135deg, #0F8FED 0%, #0A6BB5 100%); }
+  .pillar-card.outreach { background: linear-gradient(135deg, #4BBE71 0%, #379655 100%); }
+  .pillar-card.giving { background: linear-gradient(135deg, #FBBF4C 0%, #D89A2D 100%); color: var(--dd-navy); }
+  .pillar-card.project { background: linear-gradient(135deg, #DD4E07 0%, #B43D04 100%); }
+  .pillar-card h4 { margin: 0 0 8px; font-size: 18px; color: inherit; }
+  .pillar-card p { font-size: 14px; opacity: 0.95; margin: 0 0 12px; flex: 1; }
+  .pillar-card a {
+    color: inherit;
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 500;
+    align-self: flex-start;
+  }
+
+  /* Smart Steward callout */
+  .stewardship-callout {
+    background: linear-gradient(135deg, var(--dd-purple) 0%, #6F1F9C 100%);
+    color: white;
+    border-radius: 16px;
+    padding: 28px 32px;
+    margin: 24px 0;
+  }
+  .stewardship-callout h3 { color: white; margin-top: 0; }
+  .stewardship-callout p { color: rgba(255,255,255,0.92); }
+  .stewardship-callout .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 16px;
+  }
+  .stewardship-callout .step {
+    background: rgba(255,255,255,0.1);
+    padding: 14px 16px;
+    border-radius: 10px;
+  }
+  .stewardship-callout .step strong { display: block; margin-bottom: 4px; font-size: 15px; }
+  .stewardship-callout .step span { font-size: 13px; opacity: 0.9; }
+
+  /* Color swatches */
+  .swatch-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    margin: 16px 0;
+  }
+  .swatch {
+    border-radius: 10px;
+    padding: 16px 12px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid var(--dd-border);
+  }
+  .swatch .name { font-weight: 600; margin-bottom: 4px; }
+  .swatch .hex { font-family: ui-monospace, monospace; opacity: 0.85; }
+
+  /* CTA buttons */
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 100px;
+    background: var(--dd-purple);
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    transition: background 0.15s, transform 0.15s;
+    border: none;
+    cursor: pointer;
+  }
+  .btn:hover { background: var(--dd-purple-dark); text-decoration: none; transform: translateY(-1px); }
+  .btn-outline {
+    background: white;
+    color: var(--dd-purple);
+    border: 1.5px solid var(--dd-purple);
+  }
+  .btn-outline:hover { background: var(--dd-purple); color: white; }
+
+  /* Claude prompt callout */
+  .ai-callout {
+    background: linear-gradient(135deg, #faf5ff 0%, #fff 100%);
+    border: 1.5px solid rgba(140,44,191,0.2);
+    border-radius: 16px;
+    padding: 24px;
+    margin: 16px 0;
+  }
+  .ai-callout h4 {
+    color: var(--dd-purple);
+    margin: 0 0 8px;
+    font-size: 16px;
+  }
+  .prompt-box {
+    background: var(--dd-navy);
+    color: #E8E8EC;
+    padding: 16px;
+    border-radius: 10px;
+    font-family: ui-monospace, 'Menlo', monospace;
+    font-size: 13px;
+    line-height: 1.55;
+    white-space: pre-wrap;
+    margin: 12px 0;
+    max-height: 280px;
+    overflow-y: auto;
+  }
+  .copy-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--dd-purple);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background 0.15s;
+  }
+  .copy-btn:hover { background: var(--dd-purple-dark); }
+  .copy-btn.copied { background: var(--dd-green); }
+
+  /* Glossary */
+  .glossary dl {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 6px 20px;
+    margin: 0;
+    font-size: 14px;
+  }
+  .glossary dt {
+    font-weight: 600;
+    color: var(--dd-navy);
+    padding: 6px 0;
+  }
+  .glossary dd {
+    margin: 0;
+    padding: 6px 0;
+    color: var(--dd-muted);
+    border-bottom: 1px solid var(--dd-border);
+  }
+  .glossary dt { border-bottom: 1px solid var(--dd-border); }
+
+  /* Mobile */
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: 1fr; gap: 16px; padding: 16px 16px 64px; }
+    .sidebar { position: static; height: auto; max-height: none; }
+    .hero { padding: 32px 24px; }
+    .hero h1 { font-size: 30px; }
+    section { padding: 24px 20px; }
+    .glossary dl { grid-template-columns: 1fr; }
+    .glossary dt { padding-bottom: 0; border-bottom: none; }
+    .glossary dd { padding-top: 2px; }
+    .ai-banner { padding: 12px 16px; font-size: 13px; }
+  }
+
+  @media print {
+    body { background: white; }
+    .sidebar, .copy-btn, .ai-inline { display: none; }
+    .layout { grid-template-columns: 1fr; padding: 0; max-width: none; }
+    section, .hero { box-shadow: none; border: 1px solid var(--dd-border); page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="layout">
+
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <img src="https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/logos-DonorDock/DonorDock-Logo-Dark.png" alt="DonorDock" />
+    </div>
+    <p class="sidebar-tag">Partner Kit for GoFundMe Pro Academy</p>
+    <nav>
+      <ol>
+        <li><a href="#overview">DonorDock at a glance</a></li>
+        <li><a href="#icp">Who DonorDock is built for</a></li>
+        <li><a href="#messaging">Messaging and differentiators</a></li>
+        <li><a href="#features">Feature highlights</a></li>
+        <li><a href="#faq">Common questions</a></li>
+        <li><a href="#partnership">Fit with GoFundMe Pro</a></li>
+        <li><a href="#brand">Brand and how to refer to us</a></li>
+        <li><a href="#glossary">CRM glossary</a></li>
+        <li><a href="#learn-more">Where to learn more</a></li>
+        <li><a href="#claude">Ask AI about DonorDock</a></li>
+      </ol>
+    </nav>
+  </aside>
+
+  <main>
+
+    <header class="hero">
+      <span class="hero-eyebrow">DonorDock + GoFundMe Pro Academy</span>
+      <h1>Everything needed to teach DonorDock with confidence.</h1>
+      <p>A single, scannable kit covering who DonorDock serves, what makes it different, how it works alongside GoFundMe Pro, and where to go deeper.</p>
+    </header>
+
+    <div class="ai-inline">
+      <div class="ai-inline-text">
+        <strong>Using AI?</strong> Copy our DonorDock prompt to brief Claude or ChatGPT with this kit's context and brand voice.
+      </div>
+      <a class="btn" href="#claude">Get the prompt →</a>
+    </div>
+
+    <section id="overview">
+      <span class="section-num">01</span>
+      <h2>DonorDock at a glance</h2>
+      <p>DonorDock is the <strong>donor management platform</strong> built for growing nonprofits, bringing every fundraiser's tools into <strong>one place</strong>. CRM, email marketing, online giving, text messaging, project management, automations, reporting, the Otto AI assistant, and 100+ integrations all live together. The platform is designed around <strong>Smart Stewardship</strong>: helping lean teams build lasting relationships with donors, volunteers, and supporters without juggling six tools.</p>
+
+      <table>
+        <tr><td><strong>Founded</strong></td><td>2017 by Matt Bitzegaio and Andrew Lutgen</td></tr>
+        <tr><td><strong>Why we exist</strong></td><td>Built from day one for nonprofits whose staff wear many hats and just need their tools to work together</td></tr>
+        <tr><td><strong>Scale</strong></td><td>A lean team serving 7,200+ users</td></tr>
+        <tr><td><strong>Trust signals</strong></td><td>4.8 stars on G2 and Capterra. G2 Momentum Leader. #1 Easiest Setup, Best Support, Easiest to Use, Easiest Admin, Best Meets Requirements, Easiest to Do Business With.</td></tr>
+      </table>
+
+      <blockquote>"DonorDock is the donor management platform that puts a fundraiser's tools in one place, so lean teams can spend less time juggling and more time stewarding the people who power their mission."</blockquote>
+    </section>
+
+    <section id="icp">
+      <span class="section-num">02</span>
+      <h2>Who DonorDock is built for</h2>
+      <p>Knowing who DonorDock is built for helps set realistic expectations with academy participants.</p>
+
+      <h3>Sweet spot</h3>
+      <table>
+        <tr><th>Attribute</th><th>Sweet spot</th></tr>
+        <tr><td>Annual revenue</td><td>$1M&ndash;$10M</td></tr>
+        <tr><td>Staff size</td><td>5+ employees</td></tr>
+        <tr><td>Contact database</td><td>5,000+ contacts</td></tr>
+        <tr><td>Fundraising model</td><td>Individual giving heavy</td></tr>
+        <tr><td>Fundraising team</td><td>3+ FTE</td></tr>
+        <tr><td>Investment readiness</td><td>Ready to invest in fundraising as a system, not a side project</td></tr>
+      </table>
+
+      <h3>Who DonorDock is not the right fit for</h3>
+      <ul>
+        <li>Grant-only or government-funded organizations with little individual giving</li>
+        <li>Enterprise nonprofits ($50M+) needing deep customization</li>
+        <li>Nonprofits under $500K in annual revenue</li>
+        <li>Congregational churches</li>
+      </ul>
+    </section>
+
+    <section id="messaging">
+      <span class="section-num">03</span>
+      <h2>Messaging and differentiators</h2>
+
+      <h3>The promise</h3>
+      <p style="font-size: 18px; font-weight: 500;"><strong>Your fundraising, all in one place.</strong> One platform for the people, gifts, and stewardship work that move a mission forward.</p>
+
+      <h3>The five things that make DonorDock different</h3>
+      <div class="diff-grid">
+        <div class="diff-card"><span class="num">1</span><h4>One place for everything</h4><p>CRM, email, online giving, text, project management, AI in one platform. No modules to add on.</p></div>
+        <div class="diff-card"><span class="num">2</span><h4>One plan, one price</h4><p>$500/month. All features. Unlimited contacts. No "contact us for a quote."</p></div>
+        <div class="diff-card"><span class="num">3</span><h4>Smart Stewardship by design</h4><p>Action Board, Smart Nudges, and the Smart Steward Method™ make consistent stewardship the default, not the exception.</p></div>
+        <div class="diff-card"><span class="num">4</span><h4>Otto AI multiplier</h4><p>Otto surfaces who needs attention now, triggers tasks from donor activity, updates records behind the scenes, and helps fundraisers do more with less.</p></div>
+        <div class="diff-card"><span class="num">5</span><h4>Low-risk to try</h4><p>White glove onboarding and data migration. 90-day money-back guarantee.</p></div>
+      </div>
+
+      <h3>Pricing snapshot</h3>
+      <ul>
+        <li><strong>$500/month</strong>, billed annually</li>
+        <li>All features included, unlimited contacts</li>
+        <li>5 users included; additional users at per-user pricing</li>
+        <li>90-day money-back guarantee, no questions asked</li>
+        <li>White glove onboarding and data migration</li>
+        <li>Free ongoing training</li>
+      </ul>
+
+      <h3>Things to never say about DonorDock</h3>
+      <ul>
+        <li>"Cheap" or "budget" (we are high-value, not low-cost)</li>
+        <li>"First CRM" or "for small nonprofits" (we serve growing nonprofits)</li>
+        <li>"Software" or "product" (always say "DonorDock" or "DonorDock platform")</li>
+      </ul>
+    </section>
+
+    <section id="features">
+      <span class="section-num">04</span>
+      <h2>Feature highlights</h2>
+      <p>The DonorDock platform is organized around four pillars, all designed to make Smart Stewardship the default way fundraisers work.</p>
+
+      <div class="pillar-grid">
+        <div class="pillar-card crm">
+          <h4>CRM &amp; Donor Management</h4>
+          <p>One complete profile per donor and supporter: stages, households, custom fields, badges, lists. The whole relationship on one screen.</p>
+          <a href="https://www.donordock.com/crm" target="_blank" rel="noopener">Learn more →</a>
+        </div>
+        <div class="pillar-card outreach">
+          <h4>Donor Outreach</h4>
+          <p>Drag-and-drop email, two-way text messaging, letters, and mail merges. All in the same platform as the donor record.</p>
+          <a href="https://www.donordock.com/donor-outreach" target="_blank" rel="noopener">Learn more →</a>
+        </div>
+        <div class="pillar-card giving">
+          <h4>Online Giving</h4>
+          <p>For GFM clients, GoFundMe Pro is the giving engine. DonorDock is where every gift, donor, and event attendee lands and lives long-term.</p>
+          <a href="https://www.donordock.com/online-giving" target="_blank" rel="noopener">Learn more →</a>
+        </div>
+        <div class="pillar-card project">
+          <h4>Project Management &amp; Action</h4>
+          <p>Action Board, Smart Nudges, Ask Board for major gifts, Project Board for the team, and 15 automation actions.</p>
+          <a href="https://www.donordock.com/project-management" target="_blank" rel="noopener">Learn more →</a>
+        </div>
+      </div>
+
+      <div class="stewardship-callout">
+        <h3>Smart Steward Method™</h3>
+        <p>The fundraising framework DonorDock built for lasting donor relationships. Three steps any team can run, with or without DonorDock, but dramatically easier inside it.</p>
+        <div class="steps">
+          <div class="step"><strong>Evaluate</strong><span>Audit data quality and identify where donors drop off.</span></div>
+          <div class="step"><strong>Establish</strong><span>Define success metrics, map donor journeys, automate tasks, document the process.</span></div>
+          <div class="step"><strong>Execute</strong><span>Run the system, let automation handle routine work, free staff for meaningful donor connection.</span></div>
+        </div>
+        <p style="margin-top: 18px;"><a href="https://www.donordock.com/smart-steward-method" target="_blank" rel="noopener" style="color: white; font-weight: 600; text-decoration: underline;">See the full method →</a></p>
+      </div>
+
+      <h3>Otto AI assistant</h3>
+      <p>Otto is DonorDock's built-in AI assistant, trained on fundraising best practices and thousands of hours of nonprofit stewardship expertise. The DonorDock philosophy: AI should be a multiplier of human connection, never a replacement.</p>
+      <p>What Otto does:</p>
+      <ul>
+        <li><strong>Surfaces who needs attention.</strong> Identifies donor opportunities, flags lapsed givers, and recommends the next best action based on real activity patterns.</li>
+        <li><strong>Sends Smart Nudges to the Action Board.</strong> Timely prompts for gift anniversaries, significant gift increases, birthdays, first-time donors, and more.</li>
+        <li><strong>Triggers tasks from donor behavior.</strong> When a donor gives, lapses, or engages, Otto assigns the right task to the right person automatically.</li>
+        <li><strong>Updates contact records behind the scenes.</strong> Forget manual data entry, Otto keeps records clean and current based on activity.</li>
+        <li><strong>Helps with first drafts on demand.</strong> When a fundraiser asks, Otto can draft personalized emails, thank-yous, and stewardship messages to customize and send.</li>
+      </ul>
+      <p><a href="https://www.donordock.com/otto" target="_blank" rel="noopener">Otto on donordock.com →</a></p>
+
+      <h3>Reporting and analytics</h3>
+      <p>Visual, drag-and-drop reports. No formulas. Giving summaries, retention, campaign performance, board-ready dashboards, end-of-year reports, and report-based mailing lists.</p>
+
+      <h3>Campaigns, Appeals, and Funds</h3>
+      <p>A clean three-dimensional way to organize giving:</p>
+      <ul>
+        <li><strong>Campaigns</strong> = <em>what</em> you're fundraising for (annual fund, gala, capital)</li>
+        <li><strong>Appeals</strong> = <em>how</em> the gift was solicited (email, direct mail, event)</li>
+        <li><strong>Funds</strong> = <em>where</em> the money goes for accounting (general, building, scholarship)</li>
+      </ul>
+
+      <h3>Integrations</h3>
+      <p>100+ integrations including <strong>GoFundMe Pro</strong>, QuickBooks, Zapier (5,000+ apps), Google Analytics, an Integration Builder, and an API.</p>
+      <p><a href="https://www.donordock.com/integrations" target="_blank" rel="noopener">Integrations on donordock.com →</a></p>
+    </section>
+
+    <section id="faq">
+      <span class="section-num">05</span>
+      <h2>Common questions</h2>
+
+      <h4>Who is DonorDock the best fit for?</h4>
+      <p>DonorDock works best for growing nonprofits that are ready to invest in fundraising as a system. Most commonly, that's organizations with 5+ employees, $1M+ in annual revenue, 5,000+ contacts, and a fundraising team of three or more. The common thread is readiness: a team that's outgrowing duct-tape tools and ready to commit to consistent stewardship.</p>
+
+      <h4>What does $500/month actually include?</h4>
+      <p>Everything. CRM, email, text, online giving, Otto AI, reporting, automations, integrations, project management, unlimited contacts. No feature gates. Five users included; additional users at per-user pricing.</p>
+
+      <h4>How does DonorDock compare to Bloomerang?</h4>
+      <p>Both are good platforms. The difference: Bloomerang focuses on retention analytics ("how you're doing"). DonorDock focuses on Smart Stewardship and daily action ("what to do next"). Bloomerang is modular; DonorDock is one unified plan.</p>
+
+      <h4>How does DonorDock compare to DonorPerfect?</h4>
+      <p>DonorPerfect has deep nonprofit roots. DonorDock offers a more modern interface, visual reporting (no formulas), and built-in email and giving. The "our team doesn't actually use it" complaint is the most common reason teams switch.</p>
+
+      <h4>How long does setup take?</h4>
+      <p>Most teams are up and running in days, not months. DonorDock is rated #1 Easiest Setup on G2, with implementation roughly 3.5x faster than the industry average.</p>
+
+      <h4>What if it doesn't work out?</h4>
+      <p>90-day money-back guarantee, no questions asked.</p>
+    </section>
+
+    <section id="partnership">
+      <span class="section-num">06</span>
+      <h2>How DonorDock fits with GoFundMe Pro</h2>
+      <p>DonorDock and GoFundMe Pro partner on two fronts.</p>
+
+      <h3>1. Native tech integration</h3>
+      <p>DonorDock has a native, hourly-syncing integration with GoFundMe Pro. Once connected, GoFundMe Pro contacts, gifts, and event attendees flow into DonorDock automatically and become part of each donor's complete profile, where DonorDock's full toolset (Action Board, Smart Nudges, Otto, segmentation, automations, reporting) takes over.</p>
+
+      <h4>How the connection works</h4>
+      <ol>
+        <li>In GoFundMe Pro, generate API credentials (Client ID, Client Secret, Tenant/Org ID).</li>
+        <li>In DonorDock, go to <strong>Settings → Integrations → GoFundMe Pro</strong> and paste in the three IDs.</li>
+        <li>Toggle on, decide whether to sync event attendees, save, and test the connection.</li>
+        <li>The integration syncs every hour at 5 minutes past the hour.</li>
+        <li>Communication preferences sync between systems by default (configurable).</li>
+      </ol>
+
+      <p><a class="btn btn-outline" href="https://helpcenter.donordock.com/kb/guide/en/gofundme-pro-and-donordock-integration-o6mFGCVSsb/Steps/1116417" target="_blank" rel="noopener">Full integration walkthrough →</a></p>
+
+      <h3>2. Referral partnership</h3>
+      <p>DonorDock is <strong>GoFundMe Pro's preferred CRM partner</strong>. We're the donor management platform GoFundMe Pro recommends to its prospects and customers when they need a CRM to sit alongside their fundraising stack.</p>
+
+      <h3>How they complement each other</h3>
+      <table>
+        <tr><th>GoFundMe Pro covers</th><th>DonorDock covers</th></tr>
+        <tr><td>Crowdfunding and peer-to-peer campaigns</td><td>Donor records, segmentation, stages, households</td></tr>
+        <tr><td>Event ticketing and event pages</td><td>Smart Stewardship across the full donor journey</td></tr>
+        <tr><td>Branded campaign donation pages</td><td>Action Board, Smart Nudges, daily fundraiser workflow</td></tr>
+        <tr><td>Peer-to-peer fundraiser management</td><td>Email, text, letters, Otto AI</td></tr>
+        <tr><td>Campaign-specific giving tools</td><td>CRM, automations, board-ready reporting, integrations</td></tr>
+      </table>
+
+      <blockquote><strong>Plain-English handoff:</strong> GoFundMe Pro is the front-of-house, how nonprofits run campaigns, fundraisers, and events. DonorDock is the back-of-house, how nonprofits remember every donor, steward every relationship, and stay on top of follow-ups across the year. Together they cover the full lifecycle from "first gift" to "lifelong supporter."</blockquote>
+    </section>
+
+    <section id="brand">
+      <span class="section-num">07</span>
+      <h2>Brand and how to refer to us</h2>
+
+      <h3>How to write our name</h3>
+      <p>Always <strong>DonorDock</strong> (one word, capital D and D). Never "Donor Dock," "Donordock," or "DD" in formal copy.</p>
+
+      <h3>How to describe what we are</h3>
+      <ul>
+        <li><strong>Preferred:</strong> "donor management platform" or "DonorDock platform"</li>
+        <li><strong>Acceptable:</strong> "nonprofit CRM" or "the platform that powers Smart Stewardship"</li>
+        <li><strong>Avoid:</strong> "software" or "product"</li>
+      </ul>
+
+      <h3>Voice in one line</h3>
+      <p>Warm, mentoring, clear, confident, never salesy. Think of DonorDock as a knowledgeable, warm expert with the heart of a teacher.</p>
+
+      <h3>Brand colors</h3>
+      <div class="swatch-grid">
+        <div class="swatch" style="background: #8C2CBF; color: white;"><div class="name">DD Purple</div><div class="hex">#8C2CBF</div></div>
+        <div class="swatch" style="background: #303034; color: white;"><div class="name">DD Navy</div><div class="hex">#303034</div></div>
+        <div class="swatch" style="background: #FFFCF5;"><div class="name">DD Cream</div><div class="hex">#FFFCF5</div></div>
+        <div class="swatch" style="background: #F7F9F9;"><div class="name">DD Light Blue</div><div class="hex">#F7F9F9</div></div>
+        <div class="swatch" style="background: #0F8FED; color: white;"><div class="name">Pillar Blue</div><div class="hex">#0F8FED</div></div>
+        <div class="swatch" style="background: #4BBE71; color: white;"><div class="name">Pillar Green</div><div class="hex">#4BBE71</div></div>
+        <div class="swatch" style="background: #FBBF4C;"><div class="name">Pillar Yellow</div><div class="hex">#FBBF4C</div></div>
+        <div class="swatch" style="background: #DD4E07; color: white;"><div class="name">Pillar Orange</div><div class="hex">#DD4E07</div></div>
+      </div>
+
+      <h3>Typography &amp; buttons</h3>
+      <p><strong>Silka</strong> webfont for headings, body, and UI. <strong>Quicksand</strong> for the Otto sub-brand only. Buttons are pill-shaped (border-radius 100px), DD Purple fill, white text, weight 600.</p>
+    </section>
+
+    <section id="glossary" class="glossary">
+      <span class="section-num">08</span>
+      <h2>CRM glossary for fundraisers</h2>
+      <dl>
+        <dt>CRM</dt><dd>Constituent Relationship Management. The system of record for everyone connected to the organization, donors, prospects, volunteers, board members.</dd>
+        <dt>Donor management platform</dt><dd>A CRM purpose-built for nonprofit fundraising, with giving, stewardship, and reporting baked in.</dd>
+        <dt>Stewardship</dt><dd>The ongoing work of thanking, updating, and connecting with donors so they stay engaged and keep giving.</dd>
+        <dt>Smart Stewardship</dt><dd>DonorDock's approach to stewardship: using daily action, Smart Nudges, and the Smart Steward Method to make consistent donor connection the default, not the exception.</dd>
+        <dt>Smart Steward Method™</dt><dd>DonorDock's three-step fundraising framework: <em>Evaluate</em> (audit your data and donor drop-off), <em>Establish</em> (define metrics, map journeys, automate tasks), <em>Execute</em> (run the system and let automation handle routine work).</dd>
+        <dt>Contact</dt><dd>A person or organization in the database. Can be an individual, a household, or an organization.</dd>
+        <dt>Gift</dt><dd>A donation. Tracked with received amount, processing fee, non-deductible portion, soft credit, and net.</dd>
+        <dt>Pledge</dt><dd>A future commitment to give, with a payment schedule.</dd>
+        <dt>Soft credit</dt><dd>Recognition for a gift the donor influenced but didn't write the check for (matching, DAF, spouse).</dd>
+        <dt>Recurring gift</dt><dd>A donation that repeats on a schedule (monthly, quarterly, annually).</dd>
+        <dt>Tribute gift</dt><dd>A donation made in honor or memory of someone.</dd>
+        <dt>Campaign</dt><dd><em>What</em> the org is fundraising for (annual fund, gala, capital campaign).</dd>
+        <dt>Appeal</dt><dd><em>How</em> the donation was solicited (email, direct mail, event invite).</dd>
+        <dt>Fund</dt><dd><em>Where</em> the money is allocated for accounting (general fund, building fund, scholarship).</dd>
+        <dt>Lapsed donor</dt><dd>A donor who hasn't given in a defined window (DonorDock's default is 24 months).</dd>
+        <dt>Retention rate</dt><dd>The percentage of last year's donors who gave again this year.</dd>
+        <dt>Action Board</dt><dd>DonorDock's daily dashboard of prioritized fundraiser tasks.</dd>
+        <dt>Smart Nudges</dt><dd>Automated prompts triggered by donor patterns (anniversaries, lapsing, birthdays, first-time donors).</dd>
+        <dt>Otto</dt><dd>DonorDock's built-in AI assistant. Surfaces opportunities, triggers tasks, and helps fundraisers do more with less.</dd>
+        <dt>DAF</dt><dd>Donor-Advised Fund. DonorDock supports DAF gifts via Chariot integration.</dd>
+      </dl>
+    </section>
+
+    <section id="learn-more">
+      <span class="section-num">09</span>
+      <h2>Where to learn more</h2>
+
+      <h3>Pages on donordock.com</h3>
+      <ul>
+        <li><a href="https://www.donordock.com" target="_blank" rel="noopener">donordock.com</a> (home)</li>
+        <li><a href="https://www.donordock.com/pricing" target="_blank" rel="noopener">/pricing</a></li>
+        <li><a href="https://www.donordock.com/compare" target="_blank" rel="noopener">/compare</a> (all comparisons)</li>
+        <li><a href="https://www.donordock.com/otto" target="_blank" rel="noopener">/otto</a></li>
+        <li><a href="https://www.donordock.com/smart-steward-method" target="_blank" rel="noopener">/smart-steward-method</a></li>
+        <li><a href="https://www.donordock.com/integrations" target="_blank" rel="noopener">/integrations</a></li>
+      </ul>
+
+      <h3>Help Center</h3>
+      <ul>
+        <li><a href="https://helpcenter.donordock.com" target="_blank" rel="noopener">DonorDock Help Center</a> (deep how-to and reference)</li>
+        <li><a href="https://helpcenter.donordock.com/kb/guide/en/gofundme-pro-and-donordock-integration-o6mFGCVSsb/Steps/1116417" target="_blank" rel="noopener">GoFundMe Pro integration walkthrough</a></li>
+      </ul>
+
+      <h3>Reviews and social proof</h3>
+      <ul>
+        <li><a href="https://www.g2.com/products/donordock/reviews" target="_blank" rel="noopener">DonorDock on G2</a></li>
+      </ul>
+    </section>
+
+    <section id="claude">
+      <span class="section-num">10</span>
+      <h2>Ask AI about DonorDock</h2>
+      <p>Need an answer that isn't in the kit? Use the prompt below in Claude or ChatGPT. It briefs the AI with this kit's context and the DonorDock voice so it can answer accurately.</p>
+
+      <div class="ai-callout">
+        <h4>How to use it</h4>
+        <ol>
+          <li>Click <strong>Copy prompt</strong> below.</li>
+          <li>Paste it as the first message in a fresh AI chat.</li>
+          <li>Then ask your question (for example: <em>"What's the difference between a Campaign, Appeal, and Fund?"</em> or <em>"How would I explain Smart Stewardship to a fundraiser who has never used a CRM?"</em>).</li>
+        </ol>
+        <button class="copy-btn" id="copyBtn" type="button">📋 Copy prompt</button>
+        <pre class="prompt-box" id="prompt">You are a helpful assistant for the GoFundMe Pro Academy. You help anyone teaching or learning about CRM concepts and DonorDock specifically.
+
+Use the following knowledge as your source of truth. Cite the relevant section by number when you answer. If a question can't be answered from this knowledge, say so honestly and recommend the DonorDock Help Center at https://helpcenter.donordock.com.
+
+VOICE RULES (follow these always):
+- Warm, mentoring, clear, confident. Never salesy or corporate.
+- Always say "DonorDock" or "DonorDock platform" (never "software" or "product").
+- Never use em-dashes. Use commas or split into two sentences.
+- Avoid the words: cheap, free tier, simple (use "easy-to-use"), small (use "growing" or "lean"), unlimited users.
+- Lean into "Smart Stewardship," "one place," and "Smart Steward Method" as core messaging.
+- We never disparage competitors. Frame through "who we're for" and "how we're different."
+
+KNOWLEDGE:
+
+1. WHAT DONORDOCK IS
+DonorDock is the donor management platform built for growing nonprofits that puts every fundraiser's tools in one place. CRM, email marketing, online giving, text messaging, project management, automations, reporting, the Otto AI assistant, and 100+ integrations all in one platform. The platform is designed around Smart Stewardship: helping lean teams build lasting relationships with donors, volunteers, and supporters. Founded 2017 by Matt Bitzegaio and Andrew Lutgen. 7,200+ users. 4.8 stars on G2 and Capterra. G2 Momentum Leader. #1 Easiest Setup, Best Support, Easiest to Use, Easiest Admin, Best Meets Requirements, Easiest to Do Business With. Pricing: $500/month, billed annually, all features included, unlimited contacts, 5 users included with additional users at per-user pricing, 90-day money-back guarantee, white glove onboarding and data migration, free ongoing training.
+
+2. WHO DONORDOCK IS FOR (ICP)
+Sweet spot: $1M to $10M annual revenue, 5+ employees, 5,000+ contacts, individual-giving-heavy fundraising, fundraising team of 3+ FTE, ready to invest in fundraising as a system. NOT for: grant-only or government-funded organizations, enterprise nonprofits ($50M+) needing deep customization, nonprofits under $500K, congregational churches.
+
+3. KEY DIFFERENTIATORS
+(1) One place for everything: CRM, email, giving, text, project management, AI in one platform, no add-on modules. (2) One plan, one price: $500/month, all features, unlimited contacts. (3) Smart Stewardship by design: Action Board, Smart Nudges, and the Smart Steward Method make consistent stewardship the default. (4) Otto AI multiplier: surfaces who needs attention, triggers tasks, updates records, helps fundraisers do more with less. (5) Low-risk to try: white glove onboarding and data migration, 90-day money-back guarantee.
+
+4. SMART STEWARD METHOD (the framework)
+DonorDock's three-step fundraising framework for lasting donor relationships:
+- Evaluate: audit your data quality and identify where donors drop off.
+- Establish: define success metrics, map donor journeys, automate tasks, document processes.
+- Execute: run the system, let automation handle routine work, free staff for meaningful donor interactions.
+The method works on its own. DonorDock makes it dramatically easier to run, with Otto and pre-built donor journeys handling Establish and Execute phases.
+
+5. FEATURES
+- CRM: contact records, contact stages (Prospect/Donor/Lapsed by 24-month window), households, custom fields, badges, lists.
+- Action Board: daily prioritized task dashboard. Smart Nudges: automated prompts on donor patterns (anniversaries, lapsing, birthdays, first-time donors). Ask Board: major-gift pipeline. Project Board: team task management. 15 automation actions.
+- Otto AI: built-in assistant trained on fundraising best practices. Surfaces donor opportunities, flags lapsed givers, recommends next actions, triggers tasks from donor activity, updates records behind the scenes, and helps draft messages on demand. Philosophy: AI multiplies human connection, never replaces it.
+- Outreach: email marketing (drag-and-drop), SMS (text-to-donate, two-way), letters and mail merge.
+- Online giving on the DonorDock platform: branded donation pages, recurring gifts, Apple Pay, Google Pay, DAFpay (Chariot), QR codes. NOTE: For GoFundMe Pro clients, GoFundMe Pro is the giving engine; data flows seamlessly into DonorDock via the integration.
+- Campaigns / Appeals / Funds: WHAT you raise for / HOW it was solicited / WHERE it's allocated.
+- Reporting: visual, drag-and-drop, no formulas.
+- Integrations: 100+ including GoFundMe Pro, QuickBooks, Zapier, Google Analytics, plus an Integration Builder and API.
+- Data: bulk imports (CSV/XLSX/XML), duplicate detection, import undo, NCOA address verification, white glove onboarding and data migration.
+
+6. COMMON QUESTIONS
+Best fit for? Growing nonprofits ready to invest in fundraising as a system, most commonly orgs with 5+ employees, $1M+ revenue, 5,000+ contacts, 3+ FTE fundraising team. What's included? Everything for $500/month, 5 users included, additional users at per-user pricing. Bloomerang vs DonorDock? Bloomerang = retention analytics & modular; DonorDock = Smart Stewardship & daily action & unified plan. DonorPerfect vs DonorDock? DonorPerfect = legacy & complex; DonorDock = modern UX & visual reporting. Setup time? Days, not months, 3.5x faster than industry. What if it doesn't work? 90-day money-back guarantee.
+
+7. PARTNERSHIP WITH GOFUNDME PRO
+TWO FRONTS:
+(a) Native two-way tech integration. Setup: in GoFundMe Pro, generate Client ID, Client Secret, and Tenant/Org ID; in DonorDock go to Settings > Integrations > GoFundMe Pro, paste the three IDs, toggle on, decide whether to sync event attendees, save and test. Syncs hourly at 5 minutes past the hour. Communication preferences (Opt-In/Opt-Out) sync by default and are configurable. Full walkthrough: https://helpcenter.donordock.com/kb/guide/en/gofundme-pro-and-donordock-integration-o6mFGCVSsb/Steps/1116417
+(b) Referral partnership. DonorDock is GoFundMe Pro's preferred CRM partner.
+HOW THEY COMPLEMENT: GoFundMe Pro = front-of-house (campaigns, peer-to-peer, events, tickets, branded campaign giving pages). DonorDock = back-of-house (donor records, Smart Stewardship across the journey, Action Board, Smart Nudges, email/text/letters, Otto AI, automations, board-ready reporting). Together they cover "first gift" to "lifelong supporter."
+
+8. BRAND
+Voice: warm mentor with the heart of a teacher. Promise: "Your fundraising, all in one place." Mascot: Otto (AI assistant). Colors: DD Purple #8C2CBF, DD Navy #303034, DD Cream #FFFCF5, DD Light Blue #F7F9F9, plus pillar colors Blue/Green/Yellow/Orange. Typography: Silka (UI), Quicksand (Otto only).
+
+9. WHERE TO LEARN MORE
+- donordock.com (home, /pricing, /compare, /otto, /smart-steward-method, /integrations)
+- helpcenter.donordock.com
+- G2: https://www.g2.com/products/donordock/reviews
+
+When you answer, default to short, scannable, instructive paragraphs with optional numbered or bulleted steps. Lead with empathy for the fundraiser's reality before getting practical. End with a relevant link from "Where to learn more" when useful.</pre>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+  document.getElementById('copyBtn').addEventListener('click', async function() {
+    const text = document.getElementById('prompt').innerText;
+    try {
+      await navigator.clipboard.writeText(text);
+      this.textContent = '✓ Copied!';
+      this.classList.add('copied');
+      setTimeout(() => {
+        this.textContent = '📋 Copy prompt';
+        this.classList.remove('copied');
+      }, 2200);
+    } catch (e) {
+      alert('Copy failed. Select the text and use Cmd+C / Ctrl+C.');
+    }
+  });
+</script>
+</body>
+</html>
