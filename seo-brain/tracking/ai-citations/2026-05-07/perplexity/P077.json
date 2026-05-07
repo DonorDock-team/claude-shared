@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P077",
+  "prompt_text": "How to track major donor moves management",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.551115+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### How to Track Major Donor Moves Management\n\nMoves management is a structured fundraising process to cultivate major donors by tracking their progress through stages like identification, cultivation, solicitation, stewardship, and renewal. Effective tracking relies on a robust CRM system, clear metrics, and regular reviews to ensure every interaction (\"move\") advances the relationship. Below, I'll outline key steps, tools, and best practices drawn from proven nonprofit strategies.\n\n#### 1. **Build a Strong Data Foundation in Your CRM**\n   - **Clean and enrich donor data**: Start with an accurate CRM (e.g., DonorPerfect, DonorSnap, Blackbaud, Salesforce Nonprofit Cloud, or Giveffect). Remove duplicates, verify contacts, and capture key data like donation history, event attendance, email opens, wealth capacity, and affinity indicators (e.g., volunteer involvement or past philanthropy to similar causes).\n   - **Why it matters**: This enables personalized outreach and prioritization. Use wealth screening tools (integrated or external like Altrata) to score donors on **capacity** (financial ability) and **engagement** (giving frequency, upgrades).\n   - **Pro tip**: Segment donors into portfolios and assign them to team members for accountability.\n\n#### 2. **Define and Track Donor Stages**\n   Use a custom \"Stage\" field in your CRM to categorize donors (e.g., Identification \u2192 Cultivation \u2192 Solicitation \u2192 Stewardship \u2192 Renewal). Log every move\u2014calls, emails, meetings, events\u2014with dates, notes, outcomes, and next steps.\n\n   | Stage | Key Tracking Actions | CRM Features to Use |\n   |-------|----------------------|---------------------|\n   | **Identification** | Research prospects via giving history, wealth screens, and networking. Shortlist high-potentials. | Filters for top donors, lapsed givers; reports like \"Lifetime Giving\" or \"Top Donor Listing.\" |\n   | **Cultivation** | Personalized touches (e.g., thank-yous, impact updates, events). Build affinity. | Tickler reminders for tasks; user-defined fields for stage progress; detailed notes for team visibility. |\n   | **Solicitation** | Ask for gifts; track responses. | Task assignments with deadlines; alerts for milestones (e.g., SmartActions in DonorPerfect). |\n   | **Stewardship** | Post-gift engagement (e.g., anniversary calls, reports). | Automated workflows; engagement scores based on interactions. |\n   | **Renewal** | Re-engage for upgrades or repeats. | Dashboards for pipeline health; historical move logs. |\n\n#### 3. **Log and Automate Moves**\n   - **Record everything**: For each donor, create a \"moves plan\" outlining actions, responsible staff, timelines, and expected outcomes. Use CRM notes for qualitative details (e.g., conversation summaries) and quantitative data (e.g., response rates).\n   - **Automation tools**:\n     | Tool/Feature | Purpose | Examples |\n     |--------------|---------|----------|\n     | Tickler/Reminder Systems | Schedule and notify for next moves (e.g., 48-hour thank-yous). | DonorSnap, DonorPerfect. |\n     | Custom Fields & Scoring | Track stage, engagement score, readiness for ask. | Salesforce, Blackbaud. |\n     | Dashboards & Reports | Visualize pipeline (e.g., donors per stage, stalled prospects). | All major CRMs. |\n   - **Team collaboration**: Share visibility so multiple staff can contribute (e.g., log joint visits).\n\n#### 4. **Monitor Key Metrics and Evaluate Progress**\n   Track these KPIs to measure effectiveness and spot bottlenecks:\n\n   | Metric | Purpose | Target/Benchmark |\n   |--------|---------|------------------|\n   | **Conversion Rates** | % moving between stages (e.g., ID to cultivation). | Aim for 20-30% per stage. |\n   | **Donor Retention/Upgrade Rate** | Loyalty and increased giving. | 70%+ retention; 10-20% upgrades. |\n   | **Engagement Score** | Interaction frequency/quality (e.g., opens, attendance). | Customize per donor. |\n   | **Average Gift Size & Money Raised** | Overall ROI. | Track vs. goals. |\n   | **Moves Completed** | Activity volume (e.g., # of touches per donor). | 6-12 meaningful moves/year. |\n\n   - **Review cadence**:\n     | Action | Frequency |\n     |--------|-----------|\n     | Portfolio deep dives | Weekly/monthly. |\n     | Team check-ins | Bi-weekly. |\n     | Strategy evaluation | Quarterly (3 months); full review twice/year. |\n     | Data clean-up | Ongoing/quarterly. |\n\n#### 5. **Best Practices for Success**\n   - **Start small**: Pilot with one donor segment (e.g., recent upgraders) and a goal like \"15% major gift increase in 6 months.\"\n   - **Stay flexible**: Adjust plans based on donor feedback\u2014top orgs tweak 10% routinely, 30% for big shifts.\n   - **Avoid spreadsheets**: They lack automation; invest in CRM for scalability.\n   - **Common pitfalls**: Overlooking lapsed donors or inconsistent logging\u2014use alerts to prevent.\n   - **Tools summary**: DonorPerfect excels in task tracking; DonorSnap for reminders; Salesforce for analytics. Free trials available.\n\nBy systematizing tracking in a CRM, you'll convert more prospects to major donors (e.g., 5-10x ROI reported in sources). For implementation, review your donor files today and set up 3-5 test plans. Resources like DonorPerfect's factsheet or PlannedGiving.com guide provide templates.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 1195,
+  "estimated_cost_usd": 0.022949,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.plannedgiving.com/using-moves-management-a-step-by-step-guide-to-cultivating-major-donors/",
+      "https://donorsnap.com/blog/nonprofit-moves-management-101/",
+      "https://helpyousponsor.com/blog/implementing-a-moves-management-strategy-in-your-donor-relations",
+      "https://www.donorperfect.com/factsheets/moves-management-feature/",
+      "https://altrata.com/articles/data-driven-moves-management-for-nonprofits",
+      "https://www.donordock.com/articles/moves-management",
+      "https://www.blackbaud.com/industry-insights/glossary/moves-management-overview",
+      "https://www.salesforce.com/nonprofit/moves-management-guide/",
+      "https://www.giveffect.com/nonprofit-resource-center/moves-management-ultimate-guide-nonprofits/",
+      "https://www.nonprofitpro.com/article/rethinking-moves-management-the-5-stages-of-building-lasting-donor-relationships/"
+    ]
+  }
+}

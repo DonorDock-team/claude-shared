@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P088",
+  "prompt_text": "Best donor CRM for food security organizations",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550700+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Food Security Organizations\n\nHere are the top options tailored for food banks, meal programs, and food security nonprofits:\n\n## **Top Recommendations**\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-size food security organizations\n- **Key features:** Donor retention focus, engagement scoring, easy reporting\n- **Pricing:** Starting ~$125/month\n- **Why it's good:** Simple interface, strong donor communication tools, affordable\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with complex needs\n- **Key features:** Highly customizable, program tracking, volunteer management integration\n- **Pricing:** 10 free licenses via Power of Us program, then ~$36/user/month\n- **Why it's good:** Scalable, can track both donors and beneficiaries, extensive integrations\n\n### **3. Little Green Light**\n- **Best for:** Budget-conscious smaller organizations\n- **Key features:** Grant tracking, online forms, basic reporting\n- **Pricing:** Starting ~$59/month\n- **Why it's good:** Affordable, designed specifically for nonprofits, good customer support\n\n### **4. Kindful (by Bloomerang)**\n- **Best for:** Organizations needing online fundraising integration\n- **Key features:** Native online donation forms, donor insights, automated receipting\n- **Pricing:** Starting ~$100/month\n- **Why it's good:** Strong online giving tools, integrates well with food bank operations\n\n## **Food Security-Specific Considerations**\n\nLook for CRMs that can:\n- Track **in-kind donations** (food, supplies)\n- Manage **volunteer data** alongside donors\n- Segment donors by giving type (cash vs. goods)\n- Generate reports for USDA/federal programs if applicable\n\n**What size is your organization?** This would help me narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 436,
+  "estimated_cost_usd": 0.006585,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

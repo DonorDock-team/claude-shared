@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P038",
+  "prompt_text": "Best fundraising software for nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550919+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Fundraising Software for Nonprofits\n\nHere are the top options based on organization size and needs:\n\n## **Best Overall**\n- **Bloomerang** - Excellent donor management + fundraising tools, user-friendly\n- **Donorbox** - Great for online donations, low fees (1.75%), easy setup\n\n## **Best for Small Nonprofits**\n- **GiveWP** (WordPress plugin) - Very affordable, full control\n- **Kindful** - Simple interface, good for growing organizations\n- **Givebutter** - Free platform with optional tips, modern interface\n\n## **Best for Mid-Size to Large Nonprofits**\n- **Blackbaud Raiser's Edge NXT** - Comprehensive but expensive\n- **Salesforce Nonprofit Cloud** - Powerful CRM with fundraising tools\n- **Classy** - Strong peer-to-peer and event fundraising\n\n## **Best for Specific Needs**\n- **Peer-to-peer campaigns**: Classy, Givebutter\n- **Events**: Greater Giving, OneCause\n- **Membership organizations**: Wild Apricot\n- **Monthly giving**: Kindful, Donorbox\n\n## **Key Features to Consider**\n- Online donation forms\n- Donor database/CRM\n- Recurring gift management\n- Reporting and analytics\n- Email marketing integration\n- Payment processing fees\n- Ease of use\n\n**Budget tip**: Many offer nonprofit discounts or free tiers for small organizations.\n\nWhat's your organization's size and primary fundraising focus? I can give more specific recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "Givebutter",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 364,
+  "estimated_cost_usd": 0.005505,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P049",
+  "prompt_text": "Best donor CRM with unlimited contacts",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550550+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs with Unlimited Contacts for Nonprofits (2026)\n\nSeveral donor management CRMs stand out for offering **unlimited contacts** across plans, making them ideal for growing nonprofits without contact-based restrictions. I've prioritized those explicitly built for donor management, fundraising, and nonprofit workflows, based on the latest comparisons. Here's a breakdown of the strongest options:\n\n| CRM | Key Features | Pricing | Best For |\n|-----|--------------|---------|----------|\n| **Givebutter** | Unlimited contacts; free donor management, donation forms, fundraising campaigns, peer-to-peer tools, events, Constant Contact email integration, payment processing. Easiest-to-use nonprofit CRM. | Free tier; scales by features/records (paid plans add advanced tools). | Small-mid nonprofits wanting a free, all-in-one starter with unlimited scale. |\n| **DonorDock** | Unlimited contacts on every plan; donor management, online giving, email/text marketing, automations, project management. One-login platform. | Starts at $100/month. | Nonprofits needing integrated fundraising + CRM without data silos. |\n| **Givingtech** | Free unlimited contacts; full donation history, dynamic donor segments, lead management, automated donor conversion. Integrated with mailing lists. | Free for nonprofits. | Budget-conscious orgs focused on donor tracking and automation since 2009. |\n| **HubSpot Smart CRM** | Unlimited contacts; robust contact management, marketing automation, email tools. Free core CRM. | Free (premium add-ons for advanced features). | Small nonprofits prioritizing marketing alongside donor management. |\n\n#### Why These Stand Out\n- **Unlimited Contacts Confirmed**: All explicitly advertise no limits on contacts, avoiding per-record fees that plague tools like some Salesforce tiers.\n- **Nonprofit Focus**: DonorDock and Givebutter bundle donor-specific tools (e.g., giving forms, segments). Givingtech excels in free donor history/automation.\n- **Comparisons from Sources**: Ranked highly in 2026 guides (e.g., LiveImpact, DonorDock's buyer's guide, GivingTech). Others like Bloomerang's DonorDock mention or Keela imply limits or higher costs.\n- **Free Options Lead**: Givebutter and Givingtech are fully free for core unlimited use, perfect for small orgs\u2014HubSpot adds marketing muscle.\n\n#### Recommendations\n- **Start Here**: Try **Givebutter** for its free unlimited everything and nonprofit-first design\u2014top pick for most small orgs.\n- **If Scaling**: DonorDock for $100+/mo all-in-one power.\n- **Test Free Trials**: All offer demos; import sample data to check donor workflows.\n\nFor enterprise needs, Salesforce Nonprofit Cloud offers unlimited customization but starts higher (~$50/user/mo+). Skip if contacts are your main concern. Sources: LiveImpact, Givebutter, DonorDock, GivingTech (2026 data).",
+  "donordock_mentioned": true,
+  "donordock_position": 874,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Givebutter",
+    "Keela",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 597,
+  "estimated_cost_usd": 0.013976,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://givebutter.com/donor-management-crm",
+      "https://bloomerang.com/blog/donor-management-software/",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://blog.hubspot.com/sales/contact-management-software-nonprofits",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://givingtech.org/crm",
+      "https://www.societ.com/blog/nonprofit-resources/the-10-best-all-in-one-nonprofit-crms/",
+      "https://callhub.io/blog/donor-relationship-cultivation/donor-management-crm/"
+    ]
+  }
+}

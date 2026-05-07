@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P129",
+  "prompt_text": "Bloomerang limitations",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.551012+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Key Limitations of Bloomerang CRM (Based on 2026 Reviews and Comparisons)\n\nBloomerang is praised for its ease of use, strong donor management, and support, but user reviews and comparisons highlight several recurring limitations, especially for growing nonprofits, associations, or those needing advanced customization. These are drawn directly from verified sources like Capterra, Zeffy, SmartThoughts, and 4aGoodCause. I've grouped them into categories for clarity.\n\n#### **Pricing and Scalability Issues**\n- **Per-contact pricing scales poorly**: Costs rise with database size (e.g., concerns at 10,000+ contacts). Starts at $125/month (billed annually) for CRM, but grows expensive for larger orgs. [Source: [5], [2], [3]]\n- **Locked into their payment processor**: Can't use your own (e.g., Stripe-only), limiting rate shopping. [Source: [1]]\n- **Add-ons increase complexity/cost**: \"All-in-one\" expansions (via acquisitions like Qgiv, Kindful) add features but raise total ownership costs. [Source: [1], [2]]\n\n#### **Customization and Design Constraints**\n- **Poor donation forms and pages**: Clunky, limited customization (e.g., ugly defaults, no visual appeal without HTML/CSS/JS coding). Many users build forms elsewhere (e.g., MailChimp). [Source: [1], [3], [4]]\n- **Email and letter formatting restrictions**: Hard to format, no Word doc uploads for flyers/newsletters; restrictive templates. [Source: [2], [3], [4]]\n- **Non-customizable dashboard**: Provides good data but can't be tailored. [Source: [4]]\n\n#### **Reporting and Search Shortcomings**\n- **Complex reporting requires workarounds**: Advanced filters often need Excel exports; issues with soft credits, multi-stage grants. Steep learning curve for filters. [Source: [2], [4]]\n- **Weak database search**: Hard to query by demographics, donation amounts, states, or combined criteria without custom tweaks. [Source: [4]]\n\n#### **Feature Gaps and Integrations**\n- **Limited event management**: Basic ticketing lacks discount codes, robust options for large events/conferences. [Source: [2], [4]]\n- **Basic grant/scholarship tracking**: Insufficient for complex portfolios with multi-stage reviews. [Source: [2]]\n- **Integration challenges**: No native Zapier/many third-party syncs; custom API or Zapier needed for AMS/membership systems, burdensome for non-tech users. Post-acquisition unification risks. [Source: [1], [2]]\n- **No task reminders/multi-assignees**: Can't schedule email reminders or assign multiple people to tasks. [Source: [3]]\n\n#### **Support and Onboarding**\n- **Tiered support**: Chat free, but phone/higher-touch costs extra. Reputation for poor onboarding execution. [Source: [1], [4]]\n- **No satisfaction guarantee**: Users report issues canceling/avoiding auto-renewals without refunds. [Source: [4]]\n\n#### **Other Notable Gaps**\n- **Membership limitations**: Fine for simple models (<$2M revenue), but inadequate for complex dues, certifications, or education. [Source: [2]]\n- **Accounting**: Functional but lacks advanced fund accounting/reporting. [Source: [2]]\n\n| Limitation Category | Severity (User-Reported) | Workaround Examples |\n|---------------------|---------------------------|---------------------|\n| Pricing Scalability | High (grows with contacts) | Monitor database growth; consider caps |\n| Donation Forms | High (requires external tools) | Use Qgiv (integrated) or MailChimp |\n| Reporting | Medium-High (Excel needed) | Export to Excel; request custom reports |\n| Events/Grants | Medium (basic only) | Pair with dedicated platforms |\n| Integrations | Medium (tech-dependent) | Zapier or API devs |\n\n**Overall Context**: These limitations make Bloomerang best for small-mid nonprofits ($<2M revenue) focused on core donor retention/marketing. Larger orgs or those needing deep customization/events often supplement or switch (e.g., to Blackbaud alternatives, though those have their own complexities). Positive notes include unlimited users, mobile apps, and top-tier support. For fit, check Bloomerang's FAQ [6] or demos. [Aggregated from [1]-[4]]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 935,
+  "estimated_cost_usd": 0.019043,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://4agoodcause.com/blackbaud-vs-bloomerang/",
+      "https://www.smartthoughts.net/post/bloomerang-software-review-for-association-executives-2025",
+      "https://www.zeffy.com/blog/bloomerang-reviews",
+      "https://www.capterra.com/p/131207/Bloomerang/reviews/",
+      "https://bloomerang.com/pricing/",
+      "https://bloomerang.com/faq/",
+      "https://www.softwareadvice.com/nonprofit/bloomerang-profile/",
+      "https://bloomerang.com/blog/5-reports-every-bloomerang-user-should-run-to-get-to-know-their-donors-better/",
+      "https://bloomerang.com"
+    ]
+  }
+}

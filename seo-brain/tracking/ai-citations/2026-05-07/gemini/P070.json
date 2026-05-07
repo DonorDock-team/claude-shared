@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550742+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Automating donor thank you letters is a fantastic way to save time, ensure consistency, and improve donor stewardship. The key is to leverage your donor data effectively.\n\nHere's a step-by-step guide to automate donor thank you letters, ranging from basic to more advanced methods:\n\n## Core Components for Automation\n\nRegardless of the method, you'll need these foundational elements:\n\n1.  **Centralized Donor Data:** A reliable source for donor names, addresses, donation amounts, dates, and campaign details. This is typically your Donor Management System (DMS) or CRM.\n2.  **Thank You Letter Templates:** Pre-written letters with placeholders (merge fields) for personalized information.\n3.  **Automation Logic:** A system that triggers the letter generation and sending based on specific criteria (e.g., a new donation).\n\n## Methods for Automating Donor Thank You Letters\n\n### 1. Using Your Donor Management System (DMS/CRM) - **Recommended**\n\nMost modern DMS/CRMs (like Salesforce for Nonprofits, Blackbaud, NeonOne, Kindful, DonorPerfect, Little Green Light, Bloomerang) have robust features for this.\n\n**How it works:**\n*   **Data Integration:** Donations (from online forms, manual entry, third-party platforms) flow directly into your DMS.\n*   **Template Creation:** You design letter templates within the DMS using merge fields (e.g., `{{Donor Name}}`, `{{Donation Amount}}`, `{{Donation Date}}`, `{{Campaign Name}}`).\n*   **Automation Rules:** You set up rules (often called \"workflows,\" \"automation,\" or \"acknowledgment plans\") that:\n    *   **Trigger:** A new donation is received and recorded.\n    *   **Conditions:** (Optional) If donation amount is >$X, or if it's for a specific campaign, or if it's the donor's first gift.\n    *   **Action:** Generate the appropriate thank you letter (based on template) and either:\n        *   **Email:** Send it directly to the donor.\n        *   **Print Queue:** Add it to a batch for printing and mailing.\n*   **Tracking:** The DMS automatically logs that a thank you letter was sent to the donor, including the date.\n\n**Steps:**\n1.  **Ensure Data Entry is Consistent:** All donations should be entered into your DMS with accurate donor contact info and donation details.\n2.  **Create Letter Templates:** Design your various thank you letters (e",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 534,
+  "estimated_cost_usd": 0.001337,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

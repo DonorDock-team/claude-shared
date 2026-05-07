@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P083",
+  "prompt_text": "Best donor CRM for museums",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550444+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a museum depends heavily on your specific needs, budget, size, and long-term goals. Museums have unique requirements that blend general nonprofit fundraising with membership management, event ticketing, volunteer coordination, and often an educational or curatorial focus.\n\nHere's a breakdown of top contenders and key considerations:\n\n## Top Donor CRMs for Museums (Categorized)\n\n### 1. For Small to Mid-Sized Museums (Budget-Conscious, User-Friendly)\n\nThese options often prioritize ease of use, strong core fundraising features, and good customer support without breaking the bank.\n\n*   **Bloomerang:**\n    *   **Pros:** Highly intuitive interface, excellent donor retention tools and insights, strong email marketing integration, good reporting, focused on donor engagement. Very user-friendly.\n    *   **Cons:** May lack some of the deeper customizability or complex integration options of enterprise solutions.\n    *   **Good for:** Museums that prioritize ease of use, want to improve donor retention, and need robust communication tools.\n\n*   **NeonCRM (by Neon One):**\n    *   **Pros:** Very comprehensive for its price point, offering strong modules for membership management, event registration, volunteer management, and fundraising. Integrates well with websites.\n    *   **Cons:** Can have a steeper learning curve due to its breadth of features; some users find the interface a bit dated compared to newer platforms.\n    *   **Good for:** Museums that need an all-in-one solution for fundraising, memberships, events, and volunteers.\n\n*   **DonorPerfect:**\n    *   **Pros:** Long-standing, robust, and feature-rich, suitable for organizations with growing needs. Strong reporting, customizable forms, and good integration options (e.g., Constant Contact, QuickBooks).\n    *   **Cons:** Interface can feel a bit traditional; some features might require additional add-ons.\n    *   **Good for:** Museums looking for a proven, scalable solution that can handle diverse fundraising and operational needs.\n\n*   **Little Green Light (LGL):**\n    *   **Pros:** Highly affordable, very customizable fields and reporting, excellent customer support. Great value for core donor management.\n    *   **Cons:** Less emphasis on marketing automation or advanced donor retention features out-of-the-box compared to Bloomerang or Neon.\n    *   **Good for:** Smaller museums with limited budgets that need a solid, customizable database for tracking donations, contacts, and basic memberships.\n\n### 2. For Mid-Sized to Large Museums (Scalable, Comprehensive, Customizable)\n\nThese platforms offer extensive features, deep customization, and the ability to handle complex operations and major fundraising campaigns.\n\n*   **Raiser's Edge NXT (Blackbaud):**\n    *   **Pros:** The industry standard for large nonprofits. Extremely powerful for major gift fundraising, complex reporting, wealth screening, and comprehensive donor profiles. Cloud-based NXT offers a more modern interface than the desktop version. Blackbaud also offers **Alt",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "LGL",
+    "Little Green Light",
+    "Neon One",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 639,
+  "estimated_cost_usd": 0.001599,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P038",
+  "prompt_text": "Best fundraising software for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550963+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "There's no single \"best\" fundraising software for all nonprofits, as the ideal choice depends heavily on your organization's size, budget, specific fundraising activities, technological comfort level, and long-term goals.\n\nHowever, I can provide a breakdown of top contenders across different categories, along with key factors to consider when making your decision.\n\n---\n\n### Key Factors to Consider When Choosing Fundraising Software:\n\n1.  **Your Budget:** Prices range from free (with transaction fees) to thousands per month for enterprise solutions.\n2.  **Your Nonprofit's Size & Complexity:**\n    *   **Small (Startup to $500K annual budget):** May need basic CRM, online donation forms, and simple event management.\n    *   **Mid-Sized ($500K to $5M annual budget):** Will likely need more robust donor segmentation, reporting, email integration, and possibly peer-to-peer.\n    *   **Large ($5M+ annual budget):** Requires advanced CRM, sophisticated campaign management, integrations with accounting/HR, and deep analytics.\n3.  **Essential Features You Need:**\n    *   **Donor Management/CRM:** Centralized database for donor info, history, interactions.\n    *   **Online Donation Forms:** Customizable, mobile-friendly, recurring donations.\n    *   **Campaign Management:** Ability to track and manage specific fundraising appeals.\n    *   **Event Management:** Ticketing, registration, attendee tracking (for galas, runs, workshops).\n    *   **Peer-to-Peer Fundraising:** Tools for supporters to raise money on your behalf.\n    *   **Reporting & Analytics:** Insights into donor behavior, campaign performance.\n    *   **Communication Tools:** Email marketing, direct mail integration.\n    *   **Grant Tracking:** Managing grant applications, deadlines, and reporting.\n    *   **Volunteer Management:** Tracking volunteer hours and engagement.\n    *   **Wealth Screening/Prospect Research:** Identifying major donor potential.\n    *   **Payment Processing:** Securely handling transactions.\n4.  **Ease of Use & Learning Curve:** How intuitive is the interface for your staff? What kind of training is provided?\n5.  **Integrations:** Does it seamlessly connect with your accounting software (e.g., QuickBooks), email marketing (e.g., Mailchimp), website CMS (e.g., WordPress), or other CRMs?\n6.  **Customer Support & Training:** What level of support can you expect (phone, email, chat, knowledge base)? Are there onboarding services?\n7.  **Scalability:** Can the software grow with your organization's needs?\n\n---\n\n### Top Fundraising Software Recommendations:\n\nHere are some of the most popular and highly-regarded platforms, categorized by their typical strengths:\n\n#### 1. All-in-One for Small to Mid-Sized Nonprofits (Most Popular Starting Points)\n\nThese platforms aim to provide a comprehensive suite of tools for donor management, online fundraising, events, and communications.\n\n*   **Bloomerang:**\n    *   **Strengths:** Excellent donor retention focus, highly intuitive and user-friendly interface, strong reporting, modern design, great customer support.\n    *   **Best for:** Nonprofits prioritizing ease of use, donor engagement, and retention strategies.\n    *   **Pricing:** Tiered based on database size, generally affordable for small to mid-sized.\n\n*   **DonorPerfect:**\n    *   **Strengths:** Long-standing, robust feature set, good for data management, customizable fields, wide range of integrations, strong event management and payment processing.\n    *   **Best for:** Nonprofits needing a powerful, comprehensive solution that can grow with them. Can be a bit overwhelming for very small organizations initially.\n    ",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 794,
+  "estimated_cost_usd": 0.001986,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

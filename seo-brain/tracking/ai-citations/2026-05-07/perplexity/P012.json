@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P012",
+  "prompt_text": "DonorDock vs Virtuous",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550483+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### DonorDock vs. Virtuous: Nonprofit Donor CRM Comparison (2026)\n\nDonorDock and Virtuous are both U.S.-based donor management platforms (DonorDock founded 2017, Virtuous 2014) designed for nonprofits to track donors, manage relationships, and handle fundraising. DonorDock suits smaller organizations with simpler needs, while Virtuous targets growing nonprofits with advanced analytics. Here's a breakdown based on verified reviews, pricing data, and feature comparisons from sources like Zeffy, TrustRadius, G2, DonorPerfect, and others.\n\n#### Pricing\n| Aspect | DonorDock | Virtuous |\n|--------|-----------|----------|\n| **Base Cost** | $98/month (unlimited contacts, no contracts, no setup fee) + card processing fees | Monthly fees (exact undisclosed; positioned for sophisticated users) + 2.9% + $0.30 per transaction |\n| **Free Tier/Fees** | No platform fees on donations; card fees apply | Requires external processor; no zero-fee model |\n| **Best For** | Budget-conscious small nonprofits | Larger orgs willing to pay for premium features |\n\n*Key Insight*: DonorDock is more affordable for small shops (e.g., avoids high transaction cuts), but both incur processing costs unlike free alternatives like Zeffy. Virtuous adds fees that \"add up over time\" per Zeffy analysis.\n\n#### Key Features\nBoth offer core CRM tools like donor tracking, segmentation, email marketing, reporting, pledge/recurring donations, and volunteer management. Differences:\n\n| Category | DonorDock Strengths | Virtuous Strengths |\n|----------|---------------------|--------------------|\n| **Donor Management** | Centralized hub for imports, interactions, automated receipts; easy segmentation and personalized emails | Data-driven insights (wealth, social, engagement data); relational giving, major donor tracking; predictive analytics |\n| **Fundraising/Events** | Campaign tracking, online/recurring donations; lacks auctions/raffles/ticketing | Campaign tools, gift management; integrates external processors; limited soft credits (one per gift vs. multiples in competitors) |\n| **Marketing/Comms** | Targeted emails, automated campaigns, thank-yous; texting/dialer tools in some integrations | Built-in email (basic per DonorPerfect); mail segmentation; marketing automation |\n| **Reporting/Analytics** | Detailed donor reports | Advanced insights for donor listening at scale |\n| **Other** | Mobile access, task management | Calendar/reminders, lead scoring; mobile donations |\n\n*Shared Features*: Donation tracking, event management, receipts, volunteer tools. DonorDock emphasizes ease for grassroots orgs; Virtuous adds \"responsive fundraising\" with AI-like insights.\n\n#### Ease of Use & Support\n| Aspect | DonorDock | Virtuous |\n|--------|-----------|----------|\n| **Usability** | Easier to use, set up, and administer (per G2 reviewers) | User-friendly but support responses \"take days\" (DonorPerfect); tiered by plan |\n| **Support** | Tiered, business hours | Tiered, business hours; slower per reviews |\n| **Ratings** (TrustRadius) | Small biz: 9.6/10; Mid-size: 9.0/10 | Matches DonorDock scores; preferred for enterprises |\n\nG2 notes reviewers favor DonorDock for setup/business experience. Both score high for small/medium nonprofits (9.0-9.6/10).\n\n#### Pros & Cons\n**DonorDock**:\n- **Pros**: Affordable, intuitive for small teams, strong basics (tracking, emails, volunteers).\n- **Cons**: Lacks advanced analytics/auctions; card fees add up.\n\n**Virtuous**:\n- **Pros**: Deep donor insights, scalable for growth, comprehensive views (financials, gifts).\n- **Cons**: Higher costs, basic email, slower support, needs external payments.\n\n#### Who Should Choose What?\n- **Pick DonorDock** if you're a small grassroots nonprofit needing simple, cost-effective donor tracking and comms (e.g., under CharityEngine's rec for \"small shops\").\n- **Pick Virtuous** for mid-sized/growing orgs prioritizing data insights and relationships (but budget for fees).\n- **Alternatives**: DonorPerfect (better soft credits/support), Zeffy (zero fees, more tools).\n\nFor latest pricing/details, check [DonorDock](https://www.donordock.com) or [Virtuous](https://www.virtuous.org). Reviews from 22+ users on TrustRadius/G2 favor DonorDock for simplicity.",
+  "donordock_mentioned": true,
+  "donordock_position": 4,
+  "competitors_mentioned": [
+    "DonorPerfect",
+    "Virtuous"
+  ],
+  "urls_cited": [
+    "https://www.virtuous.org",
+    "https://www.donordock.com"
+  ],
+  "input_tokens": 7,
+  "output_tokens": 954,
+  "estimated_cost_usd": 0.019331,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.zeffy.com/compare/donordock-vs-virtuous",
+      "https://www.trustradius.com/compare-products/donordock-vs-virtuous-crm",
+      "https://www.donorperfect.com/fundraising-software/compare-donor-management-systems/virtuous/",
+      "https://slashdot.org/software/comparison/DonorDock-vs-Virtuous/",
+      "https://sourceforge.net/software/compare/DonorDock-vs-Virtuous/",
+      "https://blog.charityengine.net/virtuous-alternatives",
+      "https://www.g2.com/compare/donordock-vs-virtuous-crm",
+      "https://stratuslive.com/blog/comparing-nonprofit-crm-automation/",
+      "https://virtuous.org/blog/best-donor-database-software/"
+    ]
+  }
+}

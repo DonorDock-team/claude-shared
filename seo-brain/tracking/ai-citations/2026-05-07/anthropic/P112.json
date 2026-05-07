@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.551040+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Tracking Soft Credits in Donor CRM\n\n## What Are Soft Credits?\n\nSoft credits acknowledge individuals who influenced a donation without being the legal donor (e.g., the spouse who didn't write the check, a board member who solicited the gift, or a volunteer who facilitated the donation).\n\n## Best Practices for Tracking\n\n### 1. **Establish Clear Policies**\n- Define when soft credits apply (spousal gifts, solicitations, memorial gifts, etc.)\n- Document credit percentages (typically 100% soft credit alongside 100% hard credit)\n- Set organizational standards for consistency\n\n### 2. **Common Soft Credit Types**\n\n- **Spousal/Household**: Credit both partners for joint giving history\n- **Solicitor/Fundraiser**: Credit the person who secured the gift\n- **Memorial/Honor gifts**: Credit the person being honored\n- **Matching gifts**: Credit the employee who triggered employer match\n- **Organizational gifts**: Credit key contacts at corporate/foundation donors\n\n### 3. **CRM Setup**\n\nMost donor CRMs offer soft credit functionality:\n\n- **Create relationship fields** linking donors to influencers\n- **Use soft credit types** to categorize different relationships\n- **Enable reporting filters** to separate hard vs. soft credit totals\n- **Set up automated rules** (e.g., automatic spousal soft credits)\n\n### 4. **Reporting Considerations**\n\n- Always distinguish between hard and soft credit totals\n- Use soft credits for relationship tracking, not financial accounting\n- Include soft credits in individual donor portfolios for major gift officers\n- Filter appropriately when reporting total revenue (avoid double-counting)\n\n### 5. **Popular CRM Solutions**\n\nMost platforms support this: Salesforce Nonprofit Cloud, Bloomerang, Raiser's Edge, DonorPerfect, Little Green Light, and EveryAction all have soft credit features.\n\n**Pro tip**: Train staff consistently on when and how to apply soft credits to maintain data integrity.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 448,
+  "estimated_cost_usd": 0.006768,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

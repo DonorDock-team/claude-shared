@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550536+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor relationships across a team is crucial for maintaining strong connections and ensuring effective communication and coordination. Here are some steps and tools to manage and track these relationships effectively:\n\n1. **CRM System**: \n   - Implement a robust Customer Relationship Management (CRM) system specifically designed for nonprofits, such as Salesforce Nonprofit Success Pack, Bloomerang, or DonorPerfect. These platforms help maintain comprehensive donor records.\n   - Ensure the CRM is accessible to all relevant team members, and provide training on how to use it effectively.\n\n2. **Centralized Database**:\n   - Keep all donor information in a centralized database. Include contact details, donation history, communication logs, personal notes, preferences, and any other relevant information.\n   - Regularly update the database to ensure information is current and accurate.\n\n3. **Segmentation**:\n   - Segment donors based on specific criteria such as donation amount, frequency, interests, or engagement level. This helps in tailoring communication and fundraising strategies.\n\n4. **Assign Relationship Managers**:\n   - Assign specific team members to manage relationships with specific donors. This helps in personalizing interactions and building stronger connections.\n   - Define roles and responsibilities clearly to avoid duplication of efforts and miscommunication.\n\n5. **Communication Tracking**:\n   - Record all interactions with donors, including emails, phone calls, and meetings, in the CRM system. This ensures everyone on the team is aware of the current status and previous interactions.\n   - Use notes to capture key insights from interactions that might be valuable for future reference.\n\n6. **Regular Updates and Meetings**:\n   - Schedule regular meetings to discuss donor relationships, updates, and strategies as a team. This ensures everyone is on the same page and allows for collaborative brainstorming and problem-solving.\n   - Share reports and dashboards to track progress, goals, and metrics related to donor engagement and fundraising efforts.\n\n7. **Data Privacy and Security**:\n   - Ensure compliance with data protection regulations like GDPR or CCPA. Make sure all team members understand the importance of data security and donor privacy.\n\n8. **Utilize Automation**:\n   - Use automated tools for sending thank you messages, newsletters, and donation receipts. Automation can help maintain consistent communication without overwhelming the team.\n   - Setting up reminders for follow-up actions can also enhance relationship management.\n\n9. **Feedback and Improvement**:\n   - Encourage feedback from team members on the processes and systems in place. Constantly look for ways to improve the efficiency and effectiveness of tracking donor relationships.\n\n10. **Professional Development**:\n    - Invest in training and development opportunities for your team in donor relationship management and CRM usage to continually refine skills and strategies.\n\nBy implementing these strategies, you can create an organized and efficient system for managing donor relationships, ensuring that all team members are informed and aligned in their actions and communications.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 568,
+  "estimated_cost_usd": 0.005718,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

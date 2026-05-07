@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P047",
+  "prompt_text": "Best donor CRM for community foundations",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550421+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Community Foundations\n\nCommunity foundations manage complex donor-advised funds (DAFs), grants, endowments, and multi-level relationships (donors, advisors, grantees). The best CRMs emphasize fund accounting integration, grant tracking, customizable workflows, compliance reporting (e.g., IRS Form 990), and scalability for varying foundation sizes. Based on 2026 comparisons from sources like StratusLive, GoodUnited, Kindsight, Double the Donation, Salesforce, Insightly, LiveImpact, and DonorPerfect, here are the strongest options tailored to community foundations. I prioritized those with DAF-specific features, donor stewardship tools, and proven nonprofit adoption.\n\n#### 1. **Salesforce Nonprofit Cloud** (Top Overall Pick)\n   - **Why ideal for community foundations**: Enterprise-grade with unlimited customization, AI-driven insights (e.g., Einstein for donor predictions), native DAF management, grantmaking portals, and volunteer coordination. Handles complex fund tracking, compliance, and multi-constituent relationships seamlessly. Massive app ecosystem (e.g., integrations with Blackbaud, QuickBooks).\n   - **Key features**: Fundraising automation, program management, 360\u00b0 donor views, API flexibility.\n   - **Pricing**: Starts at ~$36/user/month (Nonprofit Success Pack free for eligible orgs); scales to custom enterprise.\n   - **Pros**: Highly scalable; used by 50,000+ nonprofits. **Cons**: Steep learning curve; best for mid-to-large foundations.\n   - **Sources**: Ranked #1 in Insightly, Salesforce, StratusLive; top enterprise in Kindsight/Double the Donation.\n\n#### 2. **DonorPerfect**\n   - **Why ideal**: Built-in fund accounting, DAF tracking, pledge management, and grant distribution tools. Excels in donor/advisor segmentation and automated stewardship (e.g., personalized reports). Strong for mid-sized foundations needing quick setup.\n   - **Key features**: Online giving forms, event management, mobile app, wealth screening integrations.\n   - **Pricing**: ~$89/month base; scales with contacts (~$0.10/contact).\n   - **Pros**: User-friendly; unlimited support. **Cons**: Less AI-heavy than Salesforce.\n   - **Sources**: Featured in DonorPerfect's guide; top in Double the Donation/GoodUnited for fundraising CRMs.\n\n#### 3. **Bloomerang**\n   - **Why ideal**: Donor retention focus with engagement scoring, DAF-friendly reporting, and simple grant tracking. Great for smaller community foundations prioritizing relationships over heavy accounting.\n   - **Key features**: Wealth screening, email automation, interactive dashboards.\n   - **Pricing**: ~$119/month (unlimited users); free for very small orgs.\n   - **Pros**: Intuitive; high retention rates (per benchmarks). **Cons**: Limited native fund accounting (needs integrations).\n   - **Sources**: Top in LiveImpact, Kindsight, StratusLive; excels for donor management.\n\n#### 4. **Bonterra (formerly Social Solutions)**\n   - **Why ideal**: Strong in outcomes tracking and grants management, with DAF modules for advisor portals and impact reporting. Suited for foundations blending philanthropy with program evaluation.\n   - **Key features**: Case management, volunteer tools, analytics.\n   - **Pricing**: Custom (mid-market focus).\n   - **Pros**: Impact-focused. **Cons**: Pricier for basics.\n   - **Sources**: Highlighted in Kindsight/GoodUnited.\n\n#### Quick Comparison Table\n\n| CRM              | Best For                  | DAF/Grant Strength | Starting Price      | Ease of Use | Scalability |\n|------------------|---------------------------|--------------------|---------------------|-------------|-------------|\n| **Salesforce**  | Large/complex foundations | Excellent         | $36/user/mo        | Medium     | High       |\n| **DonorPerfect**| Mid-sized, fund-focused  | Excellent         | $89/mo             | High       | Medium-High|\n| **Bloomerang**  | Small/relationship-driven| Good              | $119/mo            | Very High  | Medium     |\n| **Bonterra**    | Impact/grants            | Very Good         | Custom             | Medium     | High       |\n\n#### Recommendations\n- **Small foundations (<$5M AUM)**: Start with Bloomerang or LiveImpact (per LiveImpact blog) for affordability.\n- **Mid/large ($5M+ AUM)**: Salesforce or DonorPerfect for robust DAF handling.\n- **Before buying**: Audit needs (e.g., via DonorPerfect's guide), demo 3 options, check integrations (e.g., with Foundant for grants), and verify 990 compliance. Most offer free trials.\n\nFor the latest demos or pricing, visit the linked sites from search results. If your foundation has specific needs (e.g., size, budget), provide details for refined picks.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1026,
+  "estimated_cost_usd": 0.020411,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://stratuslive.com/blog/nonprofit-crm-systems-comparison/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.salesforce.com/nonprofit/",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://www.donorperfect.com/nonprofit-technology-blog/featured/choosing-a-nonprofit-crm/"
+    ]
+  }
+}

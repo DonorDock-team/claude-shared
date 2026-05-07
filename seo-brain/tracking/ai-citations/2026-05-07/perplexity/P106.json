@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P106",
+  "prompt_text": "How to recover lapsed donors",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550730+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### How to Recover Lapsed Donors: A Step-by-Step Guide\n\nLapsed donors\u2014typically those who haven't given in 12+ months but have donated at least twice before\u2014represent a high-value opportunity for nonprofits. Studies and expert advice (e.g., from Kindsight, Bonterra, Qgiv, and TrueSense) show reactivation rates can exceed 20-30% with targeted efforts, often at lower acquisition costs than new donors. Here's a proven, data-backed framework synthesized from top strategies.\n\n#### 1. **Identify and Segment Lapsed Donors**\n   - **Define \"lapsed\"**: Use your CRM to filter donors inactive for 12-24 months (adjust based on your data; newly lapsed respond best).\n   - **Prioritize high-value**: Focus on mid-to-high donors (e.g., $100+ lifetime or recent gifts) with repeat history. Ignore low-value one-offs.\n   - **Segment deeply**:\n     | Segment | Criteria | Why It Matters |\n     |---------|----------|---------------|\n     | Recent small donors | Lapsed <12 months, low amounts | Need reminders; quick wins via email. |\n     | Major/repeat donors | High value, lapsed 1-5 years | Personal outreach; higher ROI. |\n     | Long-lapsed | >5 years | Deeper reconnection; test surveys first. |\n   - **Tools**: Nonprofit CRMs like Bonterra or DonorPerfect for filtering by gift size, frequency, demographics, and engagement (e.g., volunteering).\n\n#### 2. **Analyze Why They Lapsed**\n   - **Data dive**: Compare lapsed vs. active donors on outreach, stewardship, and timing. Check for organizational changes (leadership, mission shifts) or external factors (bad press).\n   - **Survey them**: Ask about experience, stop reasons, and re-engagement triggers. Look for themes like poor communication or expired cards.\n   - **Quick wins**: Scan for expired credit cards (common for monthly givers) and update info proactively.\n\n#### 3. **Personalize Outreach with Gratitude, Not Asks**\n   - **Lead with \"We miss you\"**: Emphasize impact (\"Your gift helped X people\"), shared values, and thanks. Avoid immediate asks.\n   - **Channels by segment**:\n     | Method | Best For | Example Tactics |\n     |--------|----------|-----------------|\n     | Personalized emails/letters | All | \"It's been a year since your gift changed [story]. We miss you.\" Use past gift amounts for suggested asks (lower initially). |\n     | Phone calls | Mid/high-value | Thank them, ask how they're doing; script: \"How has life been? Your support meant [impact].\" |\n     | Handwritten notes | Majors | Signed by leaders/beneficiaries; no ask. |\n     | In-person meetings | Top donors | Listen to concerns, share updates. |\n   - **Test formats**: A/B premiums (e.g., free reports), multichannel (email + mail), or gift strings 20-50% below past levels.\n\n#### 4. **Show Tangible Impact and Reconnect**\n   - **Stories + metrics**: Share faces/names helped by their gifts (videos/photos) and data (e.g., \"Donors like you helped 30% more families\").\n   - **Multiple touches**: Don't stop at one\u2014sequence 3-5 efforts over months.\n\n#### 5. **Offer Easy, Alternative Re-Engagement Paths**\n   - Not all can give cash; invite non-financial options:\n     | Option | Examples |\n     |--------|----------|\n     | Volunteer | Past events they attended. |\n     | Peer-to-peer | Fundraise via their network. |\n     | Advocate | Share stories at work/church. |\n     | Other | Pray, advise, monthly micro-gifts. |\n   - Make it actionable: Clear CTAs with one-click links.\n\n#### 6. **Prevent Future Lapses and Track Results**\n   - **Stewardship basics**: Prompt thank-yous, impact updates, sustainer programs.\n   - **Measure ROI**: Track reactivation rate, average gift, lifetime value. Refine via A/B testing.\n   - **Automate wisely**: Use CRM workflows but escalate to personal for high-value.\n\n**Expected Results**: Selective campaigns yield 10-25% response rates (TrueSense data). Start small: Pick 100 high-potential donors, invest in calls/letters, and scale what works. Tools like Qgiv or Convergent CRM streamline this. Focus on relationships\u2014it's cheaper to reactivate than acquire.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bonterra",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 967,
+  "estimated_cost_usd": 0.019526,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://kindsight.io/resources/blog/lapsed-donors/",
+      "https://www.bonterratech.com/blog/regain-lapsed-donors",
+      "https://www.qgiv.com/blog/how-to-win-back-lapsed-donors/",
+      "https://www.convergentnonprofit.com/blog/p/item/62930/how-to-reengage-lapsed-donors-3-tips-for-nonprofits",
+      "https://www.truesense.com/blog/6-ways-win-back-lapsed-donors",
+      "https://nla1.org/lapsed-donors-4-expert-tips/",
+      "https://www.nonprofitpro.com/article/how-to-bring-lapsed-donors-back-to-your-nonprofit/",
+      "https://www.donorperfect.com/nonprofit-technology-blog/donation-processing/reactivate-expired-donors-credit-card-donations/",
+      "https://familypromise.org/latest/fundraising-tips-to-re-engage-lapsed-donors-punt-the-bunt/"
+    ]
+  }
+}

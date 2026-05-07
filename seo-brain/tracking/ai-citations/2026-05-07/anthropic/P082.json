@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550215+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRM Systems for Hospitals\n\nHere are the top CRM platforms specifically suited for hospital fundraising and donor management:\n\n## **Top Specialized Options**\n\n### **1. Blackbaud Raiser's Edge NXT**\n- **Best for:** Large hospital systems\n- Industry standard for healthcare philanthropy\n- Robust prospect research and major gift tracking\n- Strong reporting for complex gift structures\n- Integration with wealth screening tools\n- **Consideration:** Higher cost, steeper learning curve\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Hospitals wanting customization\n- Highly customizable for healthcare-specific needs\n- Excellent integration capabilities with EHR systems\n- Strong volunteer and event management\n- Scalable from small to enterprise level\n- Active nonprofit community support\n\n### **3. NeonCRM**\n- **Best for:** Mid-sized hospital foundations\n- User-friendly interface\n- Good membership and event management\n- Affordable pricing tier\n- Strong email marketing integration\n- Solid reporting capabilities\n\n### **4. Bloomerang**\n- **Best for:** Smaller hospital foundations\n- Focuses on donor retention metrics\n- Intuitive dashboard\n- Good email and engagement tracking\n- More affordable than enterprise solutions\n\n## **Key Features to Prioritize:**\n\n- **Grateful patient identification** integration\n- Major gift officer workflow management\n- Pledge and recurring gift tracking\n- Grant management capabilities\n- HIPAA-compliant data handling\n- Integration with planned giving tools\n- Board portal access\n\n## **Healthcare-Specific Considerations:**\n\n- Can it integrate with your EHR for grateful patient programs?\n- Does it support memorial/tribute gifts effectively?\n- Can it track physician referrals and relationships?\n- Does it handle complex gift agreements (endowments, naming opportunities)?\n\n**Recommendation:** Most large hospital foundations use **Raiser's Edge** or **Salesforce** due to their comprehensive features and healthcare market penetration.\n\nWhat size is your hospital foundation, and what's your primary fundraising focus?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 455,
+  "estimated_cost_usd": 0.006864,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

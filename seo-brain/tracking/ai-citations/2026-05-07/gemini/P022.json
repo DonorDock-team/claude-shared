@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P022",
+  "prompt_text": "Best DonorPerfect alternatives",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.551074+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorPerfect is a popular, comprehensive fundraising and donor management software. However, the \"best\" alternative depends heavily on your specific organization's size, budget, needs, and technical comfort level.\n\nHere are some of the top DonorPerfect alternatives, categorized to help you narrow down your choice:\n\n## Comprehensive CRM Alternatives (Similar to DonorPerfect's Scope)\n\nThese platforms offer a broad range of features for donor management, fundraising, events, reporting, and sometimes even marketing or membership management.\n\n1.  **Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack):**\n    *   **Overview:** The most powerful and customizable CRM, built on the world's leading cloud platform. NPSP is a free, pre-configured package for nonprofits.\n    *   **Pros:** Unmatched scalability and customization, vast app ecosystem, robust reporting, industry-standard.\n    *   **Cons:** Steep learning curve, often requires significant investment in implementation and ongoing administration (consultants), can be complex for smaller teams.\n    *   **Best For:** Mid-to-large nonprofits, organizations with complex data needs, those with a budget for customization and potentially a dedicated admin, or those expecting significant growth.\n\n2.  **Bloomerang:**\n    *   **Overview:** Highly regarded for its user-friendliness and focus on donor retention. It offers donor management, email marketing, online giving, reporting, and a unique donor engagement score.\n    *   **Pros:** Intuitive interface, excellent customer support, strong focus on donor stewardship, good reporting, integrated email and website forms.\n    *   **Cons:** May lack some deep customization options compared to Salesforce, some advanced features might be add-ons.\n    *   **Best For:** Small to mid-sized nonprofits prioritizing ease of use, donor retention, and strong relationship building.\n\n3.  **Blackbaud (Raiser's Edge NXT / eTapestry):**\n    *   **Overview:** Blackbaud is the largest provider of software for nonprofits.\n        *   **Raiser's Edge NXT:** Their flagship enterprise solution, very comprehensive, with advanced fundraising,",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 444,
+  "estimated_cost_usd": 0.001111,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

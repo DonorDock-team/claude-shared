@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550493+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Free Alternatives to Salesforce Nonprofit Cloud\n\nSalesforce Nonprofit Cloud offers powerful CRM features for nonprofits but requires paid licenses beyond 10 free ones via the Power of Us program. Here are the **best truly free or freemium alternatives** specifically suited for nonprofits, drawn from 2025-2026 comparisons. These focus on donor management, fundraising, and CRM without Salesforce's complexity or costs. I've prioritized options with **no-cost tiers** for core functionality.\n\n| Alternative | Key Free Features | Best For | Limitations | Source |\n|-------------|-------------------|----------|-------------|--------|\n| **Zeffy** | 100% free donor management, fundraising tools, ticketing, peer-to-peer campaigns, unlimited users/contacts. No fees on donations. | Small to mid-sized nonprofits needing full fundraising suite. | Geared toward Canada/US; basic reporting. | [1] |\n| **HubSpot CRM (Free)** | Unlimited users, contact tracking, email automation (lite), forms, landing pages, activity/reporting dashboards, integrations. | Marketing-driven donor engagement and basic CRM. | Not nonprofit-specific; add-ons for advanced fundraising cost extra. | [1], [2], [3] |\n| **Bloomerang (Free Tier)** | Limited donor management, engagement scoring, email tools, reporting for small orgs. | Very small nonprofits focused on donor retention. | Caps contacts/users; upgrades start at $125/mo. | [1], [2], [4] |\n| **Bitrix24 (Free)** | Unlimited users, CRM, project management, chat/video, forms, website builder, telephony add-ons. | All-in-one collaboration with CRM for teams. | Steeper learning curve; nonprofit features need customization. | [2], [3] |\n| **Zoho CRM (Free)** | Up to 3 users, sales pipeline, lead scoring, web forms, email templates, mobile app, basic workflows. | Small teams needing balanced CRM basics. | User limit; advanced automation paid. | [2], [3] |\n| **Givebutter** | Free core platform with donations, events, auctions, CRM, emails; small processing fee only on transactions. | Fundraising events and campaigns. | Transaction fees (2.95% + $0.30); premium features $29/mo. | [2] |\n| **CiviCRM** | Open-source: full donor/event/membership management, unlimited everything; self-hosted. | Tech-savvy nonprofits wanting customization. | Requires setup/hosting (free on own server). | [1] |\n\n#### Quick Recommendations\n- **Start here if 100% free is essential**: Zeffy or Givebutter for out-of-box nonprofit tools.\n- **For scalability**: HubSpot or Bitrix24 (unlimited users, strong ecosystems).\n- **Salesforce NPSP Note**: Not fully free\u2014uses Salesforce's 10 free licenses + free apps like Nonprofit Success Pack, but scales to paid ([5], [6]).\n\nThese outperform Salesforce's free tier in usability for small nonprofits (e.g., HubSpot's marketing tools > Salesforce Essentials). Test via free trials/sign-ups. For case management, consider Case Management Hub's free 21-day trial ([4]). Sources: Zeffy blog, Krowdbase, FastSlowMotion, CaseManagementHub (2025-2026 data).",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "Givebutter",
+    "Salesforce NPSP",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 705,
+  "estimated_cost_usd": 0.015599,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.zeffy.com/blog/salesforce-for-nonprofits",
+      "https://www.krowdbase.com/alternatives/salesforce.org-nonprofit-cloud",
+      "https://www.fastslowmotion.com/salesforce-free-crm-alternatives/",
+      "https://casemanagementhub.org/salesforce-nonprofit-cloud-alternatives/",
+      "https://www.salesforceben.com/4-free-salesforce-apps-for-nonprofits/",
+      "https://cube84.com/blog/bloomerang-vs-salesforce-nonprofit-cloud-vs-npsp-which-crm-is-best-for-your-nonprofit",
+      "https://www.capterra.com/p/265078/Salesforceorg-Nonprofit-Cloud/alternatives/",
+      "https://www.softwareadvice.com/nonprofit/salesforce-org-profile/alternatives/",
+      "https://www.liveimpact.org/salesforce"
+    ]
+  }
+}

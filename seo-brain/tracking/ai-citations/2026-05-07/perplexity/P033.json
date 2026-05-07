@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P033",
+  "prompt_text": "Alternative to DonorBox",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550669+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donorbox Alternatives in 2026\n\nDonorbox is a popular donation platform for nonprofits, but users often seek alternatives due to its 1.5-1.75% transaction fees, limited scalability for complex campaigns, or desire for free options. Based on recent comparisons from G2, Teachfloor, RallyUp, Bloomerang, and other reviews, here are the **top 10 alternatives**, prioritized by frequency of recommendations, cost savings, features, and user ratings. Givebutter emerges as the most cited \"best overall\" replacement.\n\n#### Quick Comparison Table\n| Rank | Platform | Key Strengths | Pricing Model | Best For | Platform Fees |\n|------|----------|---------------|---------------|----------|---------------|\n| 1 | **Givebutter** | Zero fees via tips; donation forms, CRM, events, P2P, crowdfunding | Free (tip-based) | Cost-conscious orgs; all-in-one | 0% |\n| 2 | **Zeffy** | Free for nonprofits; forms, recurring, events | Free | Small nonprofits | 0% |\n| 3 | **GiveLively** | Completely free for 501(c)(3)s; P2P, text-to-give, events | Free | Budget-limited groups | 0% |\n| 4 | **Bloomerang** | Robust CRM + fundraising; easy donor management, integrations (e.g., Mailchimp) | Starts free; upgrades from $119/mo | Donor retention & growth | Varies (no tx fees on some plans) |\n| 5 | **RallyUp** | Auctions, raffles, galas, text-to-give; end-to-end campaigns | Free tier; 2.9-6.9% flex | Event-heavy fundraisers | 0% on free (tips) |\n| 6 | **Classy** (GoFundMe) | Enterprise tools; multi-campaigns, analytics, team features | Custom (premium) | Large orgs with complex ops | ~2-4% + processing |\n| 7 | **MightyCause** | Nonprofit directory for donor discovery; P2P, free tier | Free tier; paid from $99/mo | Small orgs seeking exposure | 0% on free |\n| 8 | **Donately** | Developer-friendly forms, API, custom CSS | From $15/mo | Tech teams, embeddable forms | Low (usage-based) |\n| 9 | **Fundraise Up** | AI-optimized forms for higher conversions | Custom (~4.9% + processing) | Conversion-focused campaigns | 4.9% |\n| 10 | **GiveWP** (WordPress) | Full fundraising system; campaigns, donors, reports | From $149/yr | WordPress sites | Low (one-time plugins) |\n\n#### Why These Stand Out (Evidence from Sources)\n- **Givebutter (#1)**: Tops G2, Teachfloor, RallyUp, 118group (#1 score 15.1/15), and Whole Whale lists. Eliminates Donorbox's fees entirely\u2014savings of $15K+ annually for high-volume orgs\u2014while matching or exceeding features like CRM and events. \"Most compelling cost alternative\" (Teachfloor).\n- **Free Options (Zeffy, GiveLively)**: Ideal if fees are the pain point. GiveLively scores #2 in 118group (14.5/15); both praised for zero costs in Teachfloor and RallyUp.\n- **CRM-Focused (Bloomerang)**: Bloomerang's own comparison and G2 highlight superior donor tools over Donorbox's \"basic\" forms. Unlimited support, no contracts.\n- **Event/Specialty (RallyUp, Classy)**: RallyUp excels in auctions/galas (RallyUp blog); Classy for enterprise-scale (Teachfloor).\n- **Niche (GiveWP, Donately)**: WordPress users prefer GiveWP (WPDiscounts); devs like Donately's APIs (Teachfloor).\n\n#### How to Choose\n- **Zero Fees?** Givebutter, Zeffy, or GiveLively\u2014redirect savings to programs.\n- **Events/Auctions?** RallyUp or OneCause.\n- **Scale/CRM?** Bloomerang or Classy.\n- **WordPress?** GiveWP.\n- **AI/Optimization?** Fundraise Up.\n\nMost offer free trials or tiers. Check eligibility (e.g., 501(c)(3) for GiveLively). For custom needs, test 2-3 via demos\u2014platforms like Givebutter integrate quickly with existing sites. Sources updated as of 2026.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 982,
+  "estimated_cost_usd": 0.019748,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.g2.com/products/donorbox/competitors/alternatives",
+      "https://www.teachfloor.com/blog/best-donorbox-alternatives",
+      "https://rallyup.com/blog/donorbox-alternatives/",
+      "https://bloomerang.com/alternative/donorbox/",
+      "https://wpdiscounts.io/blog/best-donorbox-alternatives/",
+      "https://givebutter.com/blog/free-fundraising-sites",
+      "https://118group.com/research/we-reviewed-and-scored-8-online-giving-platforms-heres-how-they-compared/",
+      "https://wholewhale.com/tips/best-donation-platforms-nonprofits/",
+      "https://donorbox.org/nonprofit-blog/fundraising-platforms",
+      "https://www.anedot.com/compare/donorbox-alternative"
+    ]
+  }
+}

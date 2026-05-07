@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P077",
+  "prompt_text": "How to track major donor moves management",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.551086+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Major Donor Moves Management Tracking\n\n## Essential Tracking Components\n\n### 1. **Donor Database/CRM System**\n- **Donor profiles** with giving history, capacity ratings, interests\n- **Contact reports** for every interaction\n- **Next steps** and action items with deadlines\n- **Stage in cultivation cycle** (identification \u2192 cultivation \u2192 solicitation \u2192 stewardship)\n\n### 2. **Key Data Points to Track**\n\n**Donor Information:**\n- Contact details and preferences\n- Wealth indicators and giving capacity\n- Philanthropic interests and motivations\n- Relationships to your organization\n- Connection to board members/volunteers\n\n**Interaction History:**\n- Date, type, and purpose of contact\n- Who attended from your organization\n- Key discussion points and insights learned\n- Donor's response/reactions\n\n**Pipeline Status:**\n- Current cultivation stage\n- Anticipated ask amount and timing\n- Likelihood to give (rating system)\n- Assigned fundraiser/relationship manager\n\n### 3. **Moves Management Strategy**\n\nCreate a systematic approach:\n```\nStage 1: Identification \u2192 Research and qualify\nStage 2: Introduction \u2192 Make first contact\nStage 3: Cultivation \u2192 Build relationship (3-7 touches)\nStage 4: Solicitation \u2192 Make the ask\nStage 5: Stewardship \u2192 Thank and report impact\nStage 6: Re-engagement \u2192 Continue relationship\n```\n\n## Practical Tracking Tools\n\n**Spreadsheet Method (Small Shop):**\n- Donor name | Stage | Last contact | Next action | Deadline | Assigned to | Notes\n\n**Recommended CRM Platforms:**\n- Raiser's Edge\n- Salesforce Nonprofit Cloud\n- Bloomerang\n- DonorPerfect\n- Little Green Light (budget-friendly)\n\n## Best Practices\n\n\u2705 **Weekly review** of portfolio with relationship managers\n\u2705 **30-60-90 day action plans** for top prospects\n\u2705 **Contact reports within 24 hours** of meetings\n\u2705 **Pipeline meetings** monthly to review progress\n\u2705 **Metrics tracking:** touches per donor, conversion rates, time in each stage\n\nWould you like specific recommendations for your organization's size or focus area?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 502,
+  "estimated_cost_usd": 0.007572,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

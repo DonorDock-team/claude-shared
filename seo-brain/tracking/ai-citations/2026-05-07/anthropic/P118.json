@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P118",
+  "prompt_text": "ChatGPT for nonprofits is it safe",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550218+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Is ChatGPT Safe for Nonprofits?\n\nChatGPT can be safe for nonprofits when used properly, but there are important considerations:\n\n## Key Safety Concerns\n\n**Data Privacy**\n- Free version: Your inputs may be used to train AI models\n- Paid versions (Plus, Team, Enterprise): Offer better privacy controls and opt-out options\n- **Never input**: Donor information, beneficiary details, passwords, or sensitive organizational data\n\n**Accuracy Issues**\n- ChatGPT can generate incorrect information (\"hallucinations\")\n- Always fact-check outputs, especially for grant applications or public communications\n- Not reliable for legal or financial advice\n\n**Security Best Practices**\n- Use ChatGPT Plus, Team, or Enterprise for better data protection\n- Train staff on what NOT to share\n- Review and edit all AI-generated content before publishing\n- Create internal usage policies\n\n## Safer Use Cases for Nonprofits\n\n\u2705 **Lower risk:**\n- Brainstorming ideas\n- Draft writing (edited afterward)\n- Social media content ideas\n- Volunteer email templates\n- Meeting agendas\n\n\u274c **Higher risk (avoid):**\n- Processing donor databases\n- Handling confidential beneficiary information\n- Final grant applications without review\n- Legal document preparation\n\n## Bottom Line\n\nChatGPT can be a helpful tool for nonprofits if you:\n1. Use paid versions with data protection\n2. Establish clear usage policies\n3. Keep sensitive information out\n4. Always human-review outputs\n\nWould you like specific guidance on using AI for a particular nonprofit task?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 359,
+  "estimated_cost_usd": 0.005439,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

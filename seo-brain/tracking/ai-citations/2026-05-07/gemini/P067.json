@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550566+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor relationships across a team is crucial for fundraising success, preventing miscommunication, and ensuring a consistent donor experience. It moves beyond individual knowledge to a shared, actionable understanding of each donor.\n\nHere's a comprehensive guide on how to achieve this:\n\n## I. The Ideal Solution: Donor Relationship Management (DRM) or CRM Software\n\nThe most effective way to track donor relationships across a team is through dedicated software. These systems are built for collaboration and provide a centralized, structured database.\n\n**Key Features to Look for in a DRM/CRM:**\n\n1.  **Centralized Donor Database:** All donor contact information, historical data, and interactions are stored in one accessible place.\n2.  **Interaction Tracking:** Record every touchpoint (phone calls, emails, meetings, event attendance, social media interactions) with dates, notes, and the staff member responsible.\n3.  **Donation Management:** Track all gifts, pledges, recurring donations, campaigns, and payment methods.\n4.  **Relationship Manager/Owner:** Clearly assign a primary relationship manager for each donor, visible to the whole team.\n5.  **Task & Workflow Management:** Assign follow-up tasks (e.g., \"send thank you,\" \"schedule call,\" \"research interests\") to specific team members with due dates.\n6.  **Segmentation & Reporting:** Easily group donors based on criteria (giving level, interests, engagement) and generate reports on fundraising performance, donor retention, and campaign effectiveness.\n7.  **Communication History:** Store copies of emails, mail merges, and other communications sent to donors.\n8.  **Custom Fields:** Ability to add specific fields relevant to your organization (e.g., \"volunteer interest,\" \"board member connections\").\n9.  **Security & Access Control:** Manage who can view, edit, or delete donor data.\n10. **Integration:** Connects with other tools like email marketing platforms, accounting software, and payment processors.\n\n**Popular DRM/CRM Options for Nonprofits:**\n\n*   **Salesforce for Nonprofits (NPSP):** Highly customizable, robust, and scalable, often with free licenses for nonprofits.\n*   **Blackbaud Products (Raiser's Edge NXT, eTapestry):** Industry standard, comprehensive solutions.\n*   **Neon One (NeonCRM):** All-in-one solution for fundraising, events, and memberships.\n*   **Bloomerang:** User-friendly, focused on donor retention and engagement.\n*   **DonorPerfect:** Popular, comprehensive system for small to large nonprofits.\n*   **Little Green Light:** Affordable, powerful solution for smaller organizations.\n\n## II. If a Dedicated System Isn't Feasible Yet: Advanced Spreadsheets (with caveats)\n\nIf a CRM isn't in your budget or immediate plans, a well-structured spreadsheet can serve as a temporary",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Neon One",
+    "Raiser's Edge",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 595,
+  "estimated_cost_usd": 0.00149,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

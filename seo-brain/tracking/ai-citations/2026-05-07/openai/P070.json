@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550712+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Automating donor thank you letters can be an efficient way to show appreciation to supporters while saving time and resources. Here are several steps and tools you can use to automate this process:\n\n### 1. **Database Management**\n\n- **Centralized Database:** Use a CRM (Customer Relationship Management) system tailored for nonprofits, such as Salesforce Nonprofit Cloud, Blackbaud, or DonorPerfect. This helps store and manage donor information like names, addresses, donation amounts, and donation dates.\n\n### 2. **Template Creation**\n\n- **Thank You Letter Template:** Create a generic thank you letter template which includes placeholders for personalization, such as [Donor Name], [Donation Amount], [Date], and [Impact Statement].\n- **Branding and Tone:** Ensure the template is consistent with your organization\u2019s branding and voice. It should be warm, friendly, and express genuine gratitude.\n\n### 3. **Personalization**\n\n- **Mail Merge:** Use mail merge capabilities in tools like Microsoft Word, Google Docs, or the CRM itself to automatically pull data from your database into the correct placeholders in the template.\n- **Dynamic Content:** Consider adding personalized sections such as a specific project the donation supported or a unique beneficiary story.\n\n### 4. **Automation Tools**\n\n- **CRM Automation:** Many CRMs offer built-in workflows to trigger actions such as sending an automated email or generating a thank you letter when a donation is processed.\n- **Email Marketing Software:** Use platforms like Mailchimp, Constant Contact, or Sendinblue to automate the sending of thank you emails. These platforms allow for segmentation and scheduling, ensuring timely and appropriate thank you messages.\n\n### 5. **Printing & Mailing Services**\n\n- **Integrated Mailing Services:** Some CRMs partner with direct mail vendors to print and send physical letters automatically via API integrations.\n- **Batch Printing:** For organizations preferring to handle their mail in-house, set up a batch printing process where letters are printed on a regular schedule, and staff or volunteers handle postage and mailing.\n\n### 6. **Tracking and Reporting**\n\n- **Acknowledgment Tracking:** Ensure your CRM can log when thank you letters are sent or viewed (if digital). Set up reports or dashboards to monitor acknowledgment rates.\n- **Feedback and Improvement:** Regularly review the response and feedback from donors regarding thank you letters to improve future communications.\n\n### 7. **Regular Updates**\n\n- **Stay Current:** Update templates and personalization strategies regularly to reflect seasonal campaigns, new projects, or organizational changes, keeping communications fresh and relevant.\n\n### 8. **Test and Monitor**\n\n- **A/B Testing:** If possible, test different versions of your thank you letter for effectiveness. Track metrics like open rates, response rates, and subsequent donations.\n- **Adjust as Needed:** Use data to refine and adjust your approach, focusing on what resonates best with your donor base.\n\nBy employing these steps and making use of modern technology, you can efficiently automate donor thank you letters, freeing up resources for other important tasks while ensuring that your donors feel valued and appreciated.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 611,
+  "estimated_cost_usd": 0.006145,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P046",
+  "prompt_text": "Best donor CRM for arts and cultural nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550211+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Arts & Cultural Nonprofits\n\n## Top Recommendations\n\n### **1. PatronManager (Salesforce-based)**\n- **Best for:** Performing arts, theaters, museums\n- **Strengths:** Ticketing integration, patron engagement tracking, built on Salesforce\n- **Pricing:** Mid to high range (~$500-2,000+/month)\n\n### **2. Blackbaud Altru**\n- **Best for:** Museums, cultural institutions, zoos\n- **Strengths:** Comprehensive membership management, admissions, retail, events\n- **Pricing:** Enterprise-level (custom pricing)\n\n### **3. Bloomerang**\n- **Best for:** Small to mid-sized arts orgs\n- **Strengths:** Donor retention focus, easy to use, affordable\n- **Pricing:** $125-300/month\n\n### **4. NeonCRM**\n- **Best for:** Growing arts organizations\n- **Strengths:** Event management, membership, volunteer tracking\n- **Pricing:** $50-350/month\n\n### **5. DonorPerfect**\n- **Best for:** Budget-conscious organizations\n- **Strengths:** Customizable, strong reporting, integrations\n- **Pricing:** Starting ~$89/month\n\n## Key Features to Prioritize\n\n- **Ticketing/event integration** (if applicable)\n- Membership tier management\n- Campaign tracking for exhibitions/performances\n- Email marketing integration\n- Donor segmentation (patrons vs. one-time donors)\n- Grant tracking\n\n**What size is your organization?** That will help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 377,
+  "estimated_cost_usd": 0.005709,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P100",
+  "prompt_text": "What does Bloomerang really cost",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550262+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang's cost varies significantly depending on several factors, making it challenging to give a single \"real\" price. Their pricing model is primarily based on two key elements:\n\n1.  **The number of constituent records in your database.**\n2.  **The feature tier you choose (Starter, Standard, Pro, Enterprise).**\n\nHere's a breakdown of what determines the cost and what to consider for the \"real\" cost:\n\n### Core Pricing Model Factors\n\n1.  **Database Size (Constituent Records):** This is the most significant driver. Bloomerang charges based on the total number of individuals, organizations, and other records in your database.\n    *   **Example Tiers:** Common breakpoints might be 1,000, 5,000, 10,000, 25,000, 50,000+ constituents. The price increases as your database grows.\n2.  **Feature Tier:**\n    *   **Starter:** Basic CRM, online giving, email marketing, standard reports.\n    *   **Standard:** Adds more advanced reporting, more robust email features, potentially more user accounts, and additional integrations.\n    *   **Pro:** Includes even more advanced features, potentially unlimited users, premium integrations, and higher limits for email sends.\n    *   **Enterprise:** For very large organizations with complex needs, offering custom solutions and dedicated support.\n3.  **Add-ons:** Bloomerang offers additional features that can be added to any plan for an extra monthly fee. Common ones include:\n    *   **Bloomerang Payments Virtual Terminal:** For processing credit cards over the phone or in person.\n    *   **Text-to-Give:** For donations via text message.\n    *   **Advanced Reporting:** Some advanced reporting features might be add-ons for lower tiers.\n    *   **Premium Integrations:** Certain specialized integrations may incur an extra cost.\n4.  **Payment Term:** You typically get a discount if you pay annually versus monthly.\n5.  **One-Time Onboarding/Implementation Fees:** When you first sign up, there's usually a one-time fee for setting up your account, data migration (if needed), and initial training. This can range from a few hundred to several thousand dollars depending on your database size and complexity.\n\n### Estimated Price Ranges (Illustrative, Subject to Change)\n\n*   **Small Organizations (e.g., < 2,500 constituents):** Could range from **$99 - $300 per month** for Starter or Standard plans (paid annually).\n*   **Medium Organizations (e.g., 2,500 - 15,000 constituents):** Could range from **$300 - $800+ per month** for Standard or Pro plans (paid annually).\n*   **Large Organizations (e.g., 15,000 - 50,000+ constituents):** Could range from **$800 - $2,000+ per month** for Pro plans, or require a custom Enterprise quote.\n\n**Important Note:** These are highly generalized estimates. You must get a custom quote from Bloomerang for accurate pricing for your specific needs.\n\n### What Constitutes the \"Real\" Cost? (Potential Additional Costs)\n\nWhen considering the",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 713,
+  "estimated_cost_usd": 0.001784,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

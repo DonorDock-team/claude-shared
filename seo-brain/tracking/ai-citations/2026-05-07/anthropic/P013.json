@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P013",
+  "prompt_text": "DonorDock vs Little Green Light",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550514+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Little Green Light\n\nBoth are donor management systems for nonprofits, but they serve different organizational needs:\n\n## **DonorDock**\n\n**Best for:** Small to mid-sized nonprofits seeking modern, user-friendly software\n\n**Strengths:**\n- Clean, intuitive interface (modern design)\n- Strong relationship management focus\n- Unlimited users on all plans\n- Good mobile app\n- Responsive customer support\n- Task management and pipeline tracking\n- More affordable for smaller organizations\n\n**Weaknesses:**\n- Fewer advanced features than competitors\n- Limited reporting customization\n- Smaller integration ecosystem\n- Newer platform (less established)\n\n**Pricing:** Starts around $99/month\n\n---\n\n## **Little Green Light**\n\n**Best for:** Established nonprofits needing comprehensive features and customization\n\n**Strengths:**\n- Robust reporting and analytics\n- Highly customizable fields and layouts\n- Strong email marketing tools\n- Event management capabilities\n- Grant tracking features\n- Established platform with proven track record\n- Good for data-heavy organizations\n\n**Weaknesses:**\n- Steeper learning curve\n- Interface feels more dated\n- Can be overwhelming for small teams\n- Customer support can be slower\n\n**Pricing:** Starts around $59/month (tiered by contacts)\n\n---\n\n## **Which to Choose?**\n\n- **Choose DonorDock if:** You want ease of use, modern UX, and quick implementation\n- **Choose Little Green Light if:** You need deeper customization, advanced reporting, or manage complex data\n\nWould you like me to compare specific features (reporting, integrations, etc.)?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 370,
+  "estimated_cost_usd": 0.005598,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

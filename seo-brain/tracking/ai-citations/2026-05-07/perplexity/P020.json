@@ -1,0 +1,40 @@
+{
+  "prompt_id": "P020",
+  "prompt_text": "Cheaper alternative to Blackbaud",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550947+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Cheaper Alternatives to Blackbaud\n\nBlackbaud products like Raiser's Edge, eTapestry, and Luminate are powerful nonprofit CRMs but often expensive (e.g., eTapestry starts at $100\u2013$150/month, scaling with records; Raiser's Edge is enterprise-level pricing). Based on the search results, here are the top **cheaper alternatives**, prioritized by affordability, ease of use, and suitability for small to mid-sized nonprofits, schools, or churches. I've focused on options under $100/month starting price where possible, with key features, pricing, and evidence from sources.\n\n#### Top Recommendations (Sorted by Starting Price)\n| Tool              | Starting Price          | Best For                          | Key Features & Why Cheaper                  | Source Evidence |\n|-------------------|-------------------------|-----------------------------------|---------------------------------------------|-----------------|\n| **Sumac**        | Free (nonprofits); $35/mo paid | Small nonprofits needing basics  | Full donor management, unlimited users; no scaling fees like Blackbaud. | [1] \u2013 Positions as \"affordable Blackbaud alternative\" with free tier. |\n| **Little Green Light** | $45/mo (billed annually) | Budget-conscious small orgs      | Donor tracking, reporting; fraction of eTapestry cost ($45 vs. $100+). Minimal training needed. | [3], [7] \u2013 \"Cheaper than eTapestry\"; \"Best for affordability and ease.\" |\n| **Tithe.ly**     | $72/mo (free plan/trial) | Churches/digital giving          | Online donations, CRM; 30-day trial + free plan beats Blackbaud's entry costs. | [7] \u2013 Top shortlist for digital giving at low cost. |\n| **Bloomerang**   | $99/mo (or $40\u2013$125/mo annually; free trial/plan) | Donor retention & engagement     | Engagement scoring, email; $125/mo entry vs. Blackbaud's higher scaling. Free test option. | [1], [3], [4], [7] \u2013 \"Affordable entry point\"; \"User-friendly eTapestry alt.\" |\n| **DonorPerfect** | $89\u2013$99/mo             | Mid-size nonprofits              | Fundraising, reporting; 35+ years established, unlimited users, no enterprise complexity. | [1], [3], [4] \u2013 \"Great Blackbaud alternative\" at budget price for mid-size. |\n| **Kindful**      | From $33/mo            | Integrated fundraising           | All-in-one with payments; dramatic cost reduction from eTapestry. | [3], [7] \u2013 Low entry for fundraising tools. |\n| **NeonCRM**      | $49\u2013$99/mo             | Small/mid nonprofits             | Donor mgmt, email; includes more features than eTapestry at similar/lower cost. | [1], [3] \u2013 Scales affordably with built-ins. |\n| **Copper**       | $19\u2013$49/mo (+14-day trial) | G Suite users/small teams       | Custom fields, pipelines; seamless Google integration eliminates data entry costs. | [1] \u2013 \"Very user-friendly\" for small orgs. |\n| **Insightly**    | $29/mo (+free trial)   | Small orgs testing CRM           | Core tools; easy start vs. Blackbaud's bloat. | [1] \u2013 \"One of the best Blackbaud alternatives.\" |\n| **DonorSnap**    | $39/mo (up to 1K contacts) | Small orgs (scales to $199)     | All features included; no add-ons like Blackbaud. | [1] \u2013 Flat pricing for 1K\u201330K contacts. |\n\n#### Quick Comparison to Blackbaud\n- **Cost Savings**: Most start under $50/mo (vs. Blackbaud's $100+), with free tiers/trials (e.g., Sumac, Bloomerang, CiviCRM at $0 open-source per [3]).\n- **Common Strengths**: Easier setup (e.g., Bloomerang \"most user-friendly\" [3]), donor focus, integrations (Google, email), and no steep learning curve.\n- **Trade-offs**: Less enterprise-scale than Blackbaud (e.g., Virtuous at $350/mo [1] is pricier but more automated; skipped here for \"cheaper\" focus).\n- **For Specific Needs**:\n  - **Schools/Nonprofits**: Knack (customizable, pay-as-you-grow [2]).\n  - **Churches**: Tithe.ly or ACS [7].\n  - **Grants/CSR**: Optimy or Submittable (mid-range, simple setup [5], [6]).\n\n#### Recommendations\n- **Smallest Budget (<$50/mo)**: Start with **Sumac** (free) or **Little Green Light** ($45/mo) \u2013 proven eTapestry replacements.\n- **Best Overall Value**: **Bloomerang** or **DonorPerfect** \u2013 balance price, features, and reviews (4.8/5 on Capterra equivalents).\n- **Next Steps**: Most offer free trials/demos (no CC needed). Test 2\u20133 based on your size (e.g., <1K contacts? DonorSnap). Contact for custom quotes if scaling >$250K/year (e.g., Donately [1]).\n\nThese are drawn directly from 2026-updated comparisons across sources, emphasizing verified pricing and user praise for cost-effectiveness. If you share your org size or key needs (e.g., donors, grants), I can refine further.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Virtuous",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 1206,
+  "estimated_cost_usd": 0.023114,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donately.com/blog/blackbaud-raisers-edge-competitors",
+      "https://www.knack.com/blog/blackbaud-alternatives/",
+      "https://www.teachfloor.com/blog/best-blackbaud-etapestry-alternatives",
+      "https://stratuslive.com/guides/blackbaud-alternatives/",
+      "https://www.submittable.com/blackbaud-alternatives",
+      "https://www.optimy.com/blog-optimy/best-blackbaud-alternatives",
+      "https://theleadpastor.com/tools/best-blackbaud-competitors/",
+      "https://virtuous.org/compare/blackbaud/",
+      "https://www.liveimpact.org/blackbaud"
+    ]
+  }
+}

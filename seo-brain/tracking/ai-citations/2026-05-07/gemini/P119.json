@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P119",
+  "prompt_text": "AI to draft donor thank you letters",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550447+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Donor thank you letters are a cornerstone of donor relations, fostering loyalty and encouraging future giving. AI can be a powerful tool to assist in drafting these letters, saving time, ensuring consistency, and providing a strong starting point. However, it's crucial to remember that AI is an *assistant*, not a replacement for genuine human connection and personalization.\n\nHere's how to effectively use AI to draft donor thank you letters, along with best practices and important considerations:\n\n---\n\n## Benefits of Using AI for Donor Thank You Letters\n\n1.  **Efficiency & Speed:** Quickly generate first drafts, especially when dealing with a large volume of donations.\n2.  **Consistency:** Maintain a consistent tone, brand voice, and key messaging across all communications.\n3.  **Overcoming Writer's Block:** AI can provide a structure and initial wording, helping you get past the blank page.\n4.  **Customization at Scale:** Create various templates for different donation types, amounts, or donor segments, then easily adapt them.\n5.  **Language & Tone Variation:** Experiment with different tones (e.g., formal, warm, enthusiastic) or translate letters into multiple languages.\n\n---\n\n## How to Use AI to Draft Thank You Letters\n\nThe key to getting good results from AI is providing clear, detailed instructions (a \"prompt\").\n\n### Step 1: Choose Your AI Tool\n\nPopular choices include:\n*   **ChatGPT (OpenAI):** Great for general text generation.\n*   **Gemini (Google):** Similar capabilities, good for various writing tasks.\n*   **Claude (Anthropic):** Known for its ability to handle longer contexts and nuanced instructions.\n*   **Specialized CRM tools:** Some CRMs are starting to integrate AI features for donor communications directly.\n\n### Step 2: Gather Key Information (Input for the AI)\n\nBefore you write your prompt, collect all the necessary details:\n\n*   **Donor's Name:** `[Donor Name]`\n*   **Donation Amount (optional but helpful):** `[Amount]`\n*   **Date of Donation:** `[Date]`\n*   **Specific Project/Fund/Purpose:** `[Project Name]` (e.g., \"our clean water initiative,\" \"the scholarship fund,\" \"general operating support\")\n*   **Impact/Story:** This is the *most crucial* element. Briefly describe *how* their donation will make a difference. (e.g., \"will provide 10 meals to families in need,\" \"will fund one hour of cancer research,\" \"will help us launch our new after-school program\").\n*   **Your Organization's Name & Mission:** `[Organization Name]`, `[Brief Mission/Vision]`\n*   **Your Name & Title:** `[Your Name]`, `[Your Title]`\n*   **Desired Tone:** (e.g., \"warm and sincere,\" \"professional and grateful,\" \"enthusiastic",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 616,
+  "estimated_cost_usd": 0.001542,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

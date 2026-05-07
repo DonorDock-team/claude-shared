@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P012",
+  "prompt_text": "DonorDock vs Virtuous",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550452+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Virtuous Comparison\n\nBoth are cloud-based donor management systems, but they target different segments of the nonprofit market.\n\n## **DonorDock**\n\n### Strengths\n- **Pricing**: More affordable, especially for smaller organizations ($39-$129/month typical range)\n- **Simplicity**: Clean, intuitive interface with minimal learning curve\n- **Personal Touch**: Strong focus on relationship tracking and donor engagement\n- **Support**: Known for responsive, personalized customer service\n- **Quick Setup**: Faster implementation process\n\n### Best For\n- Small to mid-sized nonprofits\n- Organizations with limited technical staff\n- Grassroots fundraising operations\n- Teams wanting straightforward donor management without complexity\n\n### Limitations\n- Fewer advanced features and integrations\n- Less sophisticated reporting capabilities\n- May not scale as well for very large organizations\n\n---\n\n## **Virtuous**\n\n### Strengths\n- **Responsive Fundraising**: Built around automated, personalized donor engagement\n- **Sophistication**: Advanced marketing automation and multi-channel communication\n- **Reporting**: Robust analytics and custom reporting tools\n- **Integrations**: More extensive third-party integrations\n- **Scalability**: Better suited for growing organizations\n\n### Best For\n- Mid to large nonprofits\n- Organizations focused on marketing automation\n- Teams with dedicated development/fundraising staff\n- Nonprofits needing sophisticated donor segmentation\n\n### Limitations\n- **Higher cost** (typically starts around $299+/month)\n- Steeper learning curve\n- May be overkill for smaller organizations\n- Implementation can be more complex\n\n---\n\n## **Quick Decision Guide**\n\nChoose **DonorDock** if you:\n- Have a limited budget\n- Want something simple to use immediately\n- Have a smaller donor database (<5,000 contacts)\n\nChoose **Virtuous** if you:\n- Need advanced automation features\n- Have budget for a more robust solution\n- Want to scale significantly\n- Require sophisticated marketing capabilities\n\nWould you like me to dive deeper into any specific feature comparison?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 466,
+  "estimated_cost_usd": 0.007038,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

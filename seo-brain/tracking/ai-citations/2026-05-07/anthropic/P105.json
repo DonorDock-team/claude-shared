@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P105",
+  "prompt_text": "How to launch a monthly giving program",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550649+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Launch a Monthly Giving Program\n\n## 1. **Lay the Foundation**\n- **Set clear goals**: Define revenue targets and number of donors\n- **Choose your platform**: Select a payment processor that handles recurring donations (Donorbox, Givebutter, Classy, etc.)\n- **Name your program**: Create a compelling identity (e.g., \"Sustaining Circle,\" \"Champions Club\")\n- **Determine giving levels**: Offer 3-5 tiers with suggested amounts\n\n## 2. **Build the Infrastructure**\n- Set up recurring payment processing\n- Create a dedicated landing page\n- Develop automated welcome and thank-you emails\n- Plan ongoing stewardship communications (monthly updates, impact reports)\n- Train staff on the program\n\n## 3. **Craft Your Messaging**\n- Focus on **sustained impact** rather than one-time gifts\n- Emphasize convenience and ease\n- Show what monthly gifts accomplish over time\n- Share stories that demonstrate ongoing need\n\n## 4. **Launch Strategy**\n- **Start with current donors**: Your best prospects are existing supporters\n- **Offer incentives**: Consider small perks (exclusive updates, recognition, branded items)\n- **Ask at key moments**: \n  - After event attendance\n  - When one-time donors give\n  - During year-end appeals\n\n## 5. **Promote Across Channels**\n- Email campaigns to your database\n- Social media posts\n- Website prominently features the option\n- Include in newsletters\n- Phone calls to major donors\n- Add to donation forms as default option\n\n## 6. **Steward Monthly Donors**\n- Send special welcome packets\n- Provide exclusive updates\n- Make them feel like insiders\n- Thank them multiple times in year one\n- Make cancellation difficult to do accidentally but easy if intentional\n\n## 7. **Monitor and Optimize**\n- Track retention rates monthly\n- Reduce involuntary churn (failed credit cards)\n- Survey donors about their experience\n- A/B test messaging and amounts\n- Celebrate milestones\n\n**Pro tip**: Monthly donors typically give 42% more annually than one-time donors and have much higher lifetime value. Start small but start now!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 495,
+  "estimated_cost_usd": 0.007467,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

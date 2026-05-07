@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550580+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Keela Comparison\n\nBoth are cloud-based donor management systems designed for nonprofits, but they have distinct strengths:\n\n## **DonorDock**\n\n### Strengths\n- **Simplicity & ease of use** - Very intuitive interface, minimal learning curve\n- **Relationship-focused** - Emphasizes donor relationships over transactional data\n- **Affordable pricing** - Generally lower cost, good for smaller nonprofits\n- **Clean design** - Modern, uncluttered interface\n- **Quick implementation** - Faster to get up and running\n\n### Best For\n- Small to mid-sized nonprofits\n- Organizations prioritizing simplicity\n- Teams with limited technical expertise\n- Budgets under $100k-$1M in annual revenue\n\n## **Keela**\n\n### Strengths\n- **Advanced features** - More robust reporting, analytics, and automation\n- **AI-powered insights** - Predictive analytics for donor behavior\n- **Comprehensive functionality** - Email marketing, online fundraising, reporting all built-in\n- **Scalability** - Better for growing organizations\n- **Canadian focus** - Strong support for Canadian nonprofits (though works globally)\n\n### Best For\n- Mid-sized to larger nonprofits\n- Data-driven organizations\n- Teams needing advanced reporting\n- Organizations ready to leverage automation\n\n## **Key Differences**\n\n| Feature | DonorDock | Keela |\n|---------|-----------|-------|\n| Complexity | Simpler | More robust |\n| Price | Lower | Higher |\n| Learning Curve | Minimal | Moderate |\n| Reporting | Basic-Intermediate | Advanced |\n| Best Size | Small-Medium | Medium-Large |\n\n## **Bottom Line**\n\nChoose **DonorDock** if you want simplicity and ease of use at a lower price point.\n\nChoose **Keela** if you need advanced features, analytics, and room to grow.\n\nWould you like specific pricing information or details about a particular feature?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 458,
+  "estimated_cost_usd": 0.006918,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

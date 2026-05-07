@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P054",
+  "prompt_text": "Best donor CRM for animal rescue and shelters",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550851+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for an animal rescue or shelter depends heavily on your organization's size, budget, specific needs (e.g., how much focus is on animal tracking vs. pure donor management), and existing tech stack.\n\nHowever, many solutions aim to provide comprehensive support for animal welfare organizations. Here's a breakdown of top contenders, categorized by their primary strengths:\n\n## Top Picks for Integrated Solutions (Donor + Animal Management)\n\nThese solutions often offer a more holistic approach, combining donor management with features specific to animal welfare.\n\n1.  **ShelterLuv:**\n    *   **Strengths:** Designed specifically for animal shelters and rescues. Excellent for animal management (intake, medical, foster, adoption), volunteer management, and integrates basic donor management and fundraising tools. Offers online adoption applications, foster portals, and robust reporting for operations. Very user-friendly.\n    *   **Weaknesses:** While it has donor management, it might not be as sophisticated as dedicated donor CRMs for advanced fundraising strategies or wealth screening.\n    *   **Best For:** Small to medium-sized rescues and shelters looking for an all-in-one solution that prioritizes animal operations but also handles basic donor needs effectively.\n\n2.  **PetPoint (by Pethealth Inc.):**\n    *   **Strengths:** Widely used and often provided at low or no cost to organizations that microchip with 24PetWatch. Strong for animal intake, outcomes, medical records, and lost & found. Includes some donor tracking and reporting capabilities. Integrates with various online adoption platforms.\n    *   **Weaknesses:** The donor management features are more basic compared to dedicated CRMs. The interface can sometimes feel dated.\n    *   **Best For:** Organizations that prioritize animal management and benefit from the potential free/low-cost model via microchip partnerships. Good for operations, with basic donor functionality.\n\n3.  **Salesforce (with NPSP & Customizations):**\n    *   **Strengths:** Incredibly powerful and customizable. The Nonprofit Success Pack (NPSP)",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 434,
+  "estimated_cost_usd": 0.001087,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

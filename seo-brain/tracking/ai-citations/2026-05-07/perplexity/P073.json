@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550894+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### How to Track Donor Pledges\n\nTracking donor pledges involves recording commitments, applying payments, monitoring progress, sending reminders, and generating reports. Nonprofit CRM software like DonorSnap, ISPolitical, Churchteams, DonorPerfect, Keela, and DonorDock streamlines this. Below is a step-by-step guide based on proven methods from these tools.\n\n#### 1. **Set Up Pledges**\n   - **Create pledge records**: Enter donor details, pledge amount, frequency (e.g., monthly $200 + one-time $1,000 = $3,400 total), start/end dates, and purpose/fund.\n     - *DonorSnap*: Go to Contact > Pledge tab > Add. Enable email reminders.\n     - *Churchteams*: Add fund > Create Campaign > Enter pledges via profile (family/member level) or registration form/Text-to-Give.\n     - *ISPolitical*: Use Dashboard or entity record > Pledges & Targets section.\n     - *DonorPerfect/Keela*: Log in CRM pledge page; capture type, schedule, and donor intent.\n   - **Best practice**: Use family-level for households; allow self-entry via online forms.\n\n#### 2. **Apply Donations to Pledges**\n   - Link incoming donations automatically or manually to reduce the outstanding balance.\n     - *DonorSnap*: During receipt posting, apply to pledge; view summary on Donation/Pledge Detail.\n     - *Churchteams*: Select fund during entry; edits tie to specific Campaign by date.\n     - *ISPolitical*: In record > Click pledge date > Enter \"Fulfilled Amount\" or mark \"Written Off.\"\n     - *DonorDock/Keela*: Automate fulfillment tracking from donor CRM.\n\n#### 3. **Monitor and Report Progress**\n   | Tool/Method | Key Tracking Features |\n   |-------------|-----------------------|\n   | **DonorSnap** | Pledge status reports, donation forecast, write-off balances. |\n   | **ISPolitical** | Dashboard Pledge Aging (by date ranges); export to spreadsheets/call sheets. |\n   | **Churchteams** | Summary Reports (Campaign to Date); Contribution Statements show pledge status. |\n   | **DonorPerfect** | Pledge page summary (active/overdue/completed); payment schedules, reminders, analytics. |\n   | **Keela** | Payment schedules, missed payment follow-ups. |\n\n   - Run regular reports for totals, fulfillment rates, and forecasts.\n   - *NPSP/Salesforce option*: Use Opportunity records with types like \"Pledge Promised\" (Open) or \"Pledge Committed\" (Closed/Won).\n\n#### 4. **Send Reminders and Follow-Ups**\n   - Automate emails/SMS for due payments.\n     - *DonorSnap/Churchteams*: Built-in notifications to donor/third party.\n     - *DonorDock*: Trigger sequences for reminders.\n   - *Tip from DonorPerfect*: Set protocols for modifications, cancellations, and security.\n\n#### 5. **Best Practices for Effective Tracking**\n   - **Protocols**: Standardize recording (amount, frequency, fund); train staff.\n   - **Analysis**: Review fulfillment reports weekly; estimate inflows.\n   - **Tools Comparison**:\n     | Software | Strengths |\n     |----------|-----------|\n     | DonorSnap | Easy setup, forecasts, reports. |\n     | ISPolitical | Dashboard aging, exports (campaign-focused). |\n     | Churchteams | Campaigns per fund, self-entry forms. |\n     | DonorPerfect | Comprehensive CRM integration, reminders. |\n     | Keela/DonorDock | Automation, schedules. |\n   - Handle edge cases: Write off unfulfilled pledges; adjust for changes.\n\nImplement in a CRM for automation\u2014manual tracking (e.g., spreadsheets) risks errors. Start with DonorPerfect or DonorSnap for robust features. For custom needs, like Salesforce NPSP, adapt Opportunity types. This ensures 80-90% pledge fulfillment rates per industry benchmarks.",
+  "donordock_mentioned": true,
+  "donordock_position": 260,
+  "competitors_mentioned": [
+    "DonorPerfect",
+    "Keela",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 831,
+  "estimated_cost_usd": 0.017483,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://donorsnap.com/pledge-tracking/",
+      "https://ispolitical.com/how-do-i-track-pledges/",
+      "https://help.churchteams.com/knowledge/coming-soon-new-improved-pledge-tracking",
+      "https://www.donorperfect.com/nonprofit-technology-blog/fundraising-software/pledge-management/",
+      "https://www.keela.co/glossary/nonprofit-pledge-tracking",
+      "https://idealistconsulting.com/blog/two-options-tracking-donations-npsp",
+      "https://donortracker.org",
+      "https://www.donordock.com/features/pledge-tracking",
+      "https://fundraisersoftware.com/library/fundraiser-blog/entry/3-tips-for-good-pledge-tracking"
+    ]
+  }
+}

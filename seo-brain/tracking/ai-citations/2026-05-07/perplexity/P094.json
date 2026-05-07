@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P094",
+  "prompt_text": "Hidden costs of Bloomerang",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.551066+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Hidden Costs of Bloomerang: Key Insights from Pricing Analyses\n\nBloomerang's pricing is **not flat**\u2014it's primarily **per-contact/contact record scaling**, starting at advertised \"entry-level\" rates but increasing significantly as your donor database grows. Official site confirms: \"pricing is based on the amount of records, or contacts, you track\" ([7]). This creates unpredictable jumps, often unrevealed until quoting. Here's a breakdown of documented hidden or additional costs from comparisons and reviews:\n\n#### 1. **Per-Contact Scaling (Biggest \"Hidden\" Trap)**\n   - Starts ~$125/month for CRM (small databases, e.g., ~1,000 contacts) ([1][2][3][4]).\n   - Scales up with database size: Reviewers report jumps like $300 to $1,000/year when crossing tiers ([2]). No public tier charts\u2014requires custom quote.\n   - **Why hidden?** \"Starting prices\" mislead; real cost depends on your exact record count. One Reddit user cited a \"drastic\" annual spike ([2]).\n\n#### 2. **Modular Add-Ons & Bundle Confusion**\n   | Module              | Starting Price | Notes |\n   |---------------------|---------------|-------|\n   | CRM                | $125/mo      | Core donor mgmt ([2][3][4]) |\n   | Fundraising        | $40/mo       | Donation forms, events, P2P\u2014requires CRM ([2][4]) |\n   | Volunteer          | $119/mo      | Scheduling, tracking ([2][3][4]) |\n   | Membership         | $25/mo       | Add-on for renewals ([3]) |\n   | **Giving Platform Bundle** | $524/mo | \"Full suite\"\u2014**higher** than individual sum ($284/mo entry), likely due to higher contact tiers ([2]) |\n\n   - **Minimum for basics (CRM + Fundraising):** $165/mo ([2]).\n   - **Trap:** No bundle discounts publicized; gap unexplained ([2]).\n\n#### 3. **Payment Processing Fees (Locked-In Options)**\n   - **Bloomerang Payments:** 2.0% + $0.30/transaction (nonprofit rate, competitive vs. Stripe's 2.2%) ([2]).\n   - **Extras:** +1% platform fee on P2P fundraising ([1][6]); PayPal/Venmo via Bloomerang: 2.2% + $0.49 ([2]).\n   - **Lock-in:** Tied to their processors (e.g., Stripe required); can't always use your own ([1][2]).\n   - Donors can cover fees, but it impacts conversion.\n\n#### 4. **Support & Service Tiering**\n   - Chat included; **phone/higher-touch support costs extra** ([1]).\n   - **Annual increases:** 7\u201312% at renewal, even without growth ([2]).\n\n#### 5. **Implementation & Migration**\n   - **Not published:** $500\u2013$10,000+ estimated by third parties, based on data complexity/size ([2]).\n   - Bloomerang's playbook admits variability but no quotes upfront.\n\n#### 6. **Other Opaque Fees**\n   - **Data hygiene add-ons?** NCOA/deceased suppression *included* in CRM, a pro vs. competitors ([2]).\n   - **No per-user fees:** Unlimited users is a strength ([2][3]).\n   - Small org complaints: Too pricey for budget; wished for income-based tiers ([5]).\n\n#### Total Cost Reality\n- **Low-end example:** $125\u2013$165/mo (tiny DB, CRM only/fundraising).\n- **Full suite (entry):** ~$284/mo ($3,408/year) ([3]).\n- **Real-world:** Often $250\u2013$500+/mo for mid-size + fees. Vs. competitors: Higher entry than Little Green Light ($45/mo) but unlimited users help scale ([2]).\n- **Savings myth:** Consolidation may offset if replacing multiple tools, but staff time + scaling erodes it ([2]).\n\n**Bottom line:** Bloomerang hides costs behind \"starting at\" quotes and per-contact opacity\u2014always demand a **custom quote** with your exact contact count. For small nonprofits, it balloons fast ([5][6]). Sources like [1][2] emphasize getting quotes to uncover true totals. If scaling rapidly, monitor tier thresholds closely.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 936,
+  "estimated_cost_usd": 0.019061,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://4agoodcause.com/blackbaud-vs-bloomerang/",
+      "https://checkthat.ai/brands/bloomerang/pricing",
+      "https://www.smartthoughts.net/post/bloomerang-software-review-for-association-executives-2025",
+      "https://www.donordock.com/compare/bloomerang-vs-donordock",
+      "https://www.capterra.com/p/131207/Bloomerang/",
+      "https://www.zeffy.com/compare/zeffy-vs-bloomerang",
+      "https://bloomerang.com/pricing/",
+      "https://donorbox.org/nonprofit-blog/donorbox-vs-bloomerang"
+    ]
+  }
+}

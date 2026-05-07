@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P094",
+  "prompt_text": "Hidden costs of Bloomerang",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.551038+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Bloomerang\n\nWhile Bloomerang advertises transparent pricing, there are several potential hidden or additional costs to be aware of:\n\n## Common Hidden/Additional Costs\n\n### 1. **Implementation & Onboarding**\n- Data migration fees (importing existing donor data)\n- Custom setup and configuration\n- Staff training time and resources\n- Potential consultant fees for complex migrations\n\n### 2. **Integration Costs**\n- Third-party app integrations may require additional subscriptions\n- Payment processing fees (typically 2.9% + $0.30 per transaction for online donations)\n- Email service limitations on lower tiers may require upgrades\n- Accounting software integrations may need middleware\n\n### 3. **Feature Limitations by Tier**\n- **Email sending limits** - lower tiers have monthly caps\n- **User seats** - additional staff access may cost more\n- **Custom fields** - limited on basic plans\n- **Advanced reporting** - only on higher tiers\n- **Wealth screening** - typically an add-on fee\n\n### 4. **Transaction & Processing Fees**\n- Credit card processing fees (if using Bloomerang's payment processor)\n- ACH/bank transfer fees\n- Event ticketing transaction fees\n\n### 5. **Scaling Costs**\n- Price increases as your contact database grows\n- Additional fees for exceeding contact limits\n- Upgrade costs when outgrowing your current tier\n\n### 6. **Optional Add-ons**\n- Advanced wealth screening tools\n- Premium customer support\n- Custom report development\n- Additional data storage\n\n## Tips to Avoid Surprises\n\n- Request a **complete quote** including all fees\n- Ask about **contract length** and cancellation policies\n- Clarify **what's included** in your tier vs. add-ons\n- Understand **payment processing options** and fees\n- Factor in **staff time** for learning and implementation\n\nWould you like specific information about any of these cost areas?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 442,
+  "estimated_cost_usd": 0.006672,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P118",
+  "prompt_text": "ChatGPT for nonprofits is it safe",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550248+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Is ChatGPT Safe for Nonprofits?\n\n**Short answer:** ChatGPT can be safe for nonprofits when used properly, but it requires careful precautions\u2014especially regarding data privacy.\n\n## Key Safety Concerns\n\n### \ud83d\udea8 **Data Privacy Risks**\n- **Never input donor personal information** (names, addresses, contact details, donation amounts) into free-tier ChatGPT\n- Standard ChatGPT shares all input data with its model training by default\n- This violates donor privacy and trust principles\n\n### \u26a0\ufe0f **Accuracy Issues**\n- ChatGPT can \"hallucinate\" or generate false information\n- It sometimes invents facts when it doesn't know answers\n- All AI-generated content requires human review before sending to donors or submitting (especially grant applications)\n\n### \ud83d\udd12 **Compliance & Legal Risks**\n- Not HIPAA-compliant\n- Not PII-compliant on free/Plus tiers\n- Check your compliance requirements (COPPA for youth, GDPR for EU, etc.)\n- 23% of foundations won't accept AI-generated grant content\n\n## How to Use ChatGPT Safely\n\n\u2705 **DO:**\n- Use paid tiers (Business/Enterprise) that exclude data from training\n- Review and edit all outputs thoroughly\n- Anonymize any data before inputting\n- Establish clear AI governance and ethics policies\n- Disclose AI use when required\n\n\u274c **DON'T:**\n- Use free ChatGPT for sensitive organizational data\n- Trust outputs as final without human review\n- Input donor information without anonymization\n- Automatically send AI-generated emails or documents without editing\n\n**Best alternatives for privacy-conscious nonprofits:** Google Gemini for Nonprofits (free, enterprise-grade protection) or Claude with nonprofit discounts.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 360,
+  "estimated_cost_usd": 0.010427,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://dataro.io/blog/heres-what-you-need-to-know-about-chatgpt-for-nonprofits",
+      "https://getkweet.com/blog/chatgpt-for-nonprofits-pricing-discounts-and-use-cases-2025/",
+      "https://blog.rkdgroup.com/chatgpt-enterprise-a-game-changer-for-nonprofits-and-donor-data",
+      "https://www.bwf.com/chatgpt-for-fundraising/",
+      "https://www.slammedialab.com/post/chatgpt-for-nonprofits",
+      "https://www.charityexcellence.co.uk/chatgpt-for-non-profits/",
+      "https://help.openai.com/en/articles/9359041-openai-for-nonprofits",
+      "https://forums.techsoup.org/t/some-thoughts-about-chatgpt-and-nonprofits/17999"
+    ]
+  }
+}

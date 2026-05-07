@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.551067+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### What Are Soft Credits?\nSoft credits in donor CRMs attribute influence or referrals for donations to contacts who didn't directly contribute (e.g., a fundraiser who introduced a donor, a spouse, or a donor-advised fund advisor). They help track relationships, fundraising impact, and donor engagement without inflating financial totals. Unlike hard credits (direct payments), soft credits appear in separate reports/columns and don't count toward revenue totals.\n\n### General Steps to Track Soft Credits\nMost donor CRMs (e.g., Givebutter, CiviCRM, Salesforce NPSP, Beacon, Site Stacker, DonorPerfect, Keela, Bloomerang) support manual soft crediting post-transaction. Key processes:\n1. **Add Soft Credits**: Manually link to existing contacts or create new ones. Specify amount (full or partial transaction value).\n2. **View/Filter**: Use dedicated columns, filters, or dashboards for soft credit totals, transactions, or contacts.\n3. **Report**: Track via rollups, metric cards, or exports\u2014separate from hard credits.\n4. **Import/Batch**: For bulk, add notes during import, then apply soft credits.\n5. **Automation**: Some (e.g., Salesforce NPSP) auto-generate via rules; others require nightly batches for rollups.\n\n**Best Practices**:\n- Use for influencers (e.g., referrals, spouses, third-party payers like DAFs).\n- Avoid mixing with hard credits to maintain accurate financials.\n- Filter reports to show \"soft credits > $0\" or \"with soft credits.\"\n- Acknowledge soft-credited donors separately to build relationships.\n\n### Platform-Specific Tracking Guides\n| Platform | How to Add | How to View/Filter | Key Reporting Features |\n|----------|------------|--------------------|------------------------|\n| **Givebutter** [1] | Dashboard > Transaction > Funds & Credit > Credit a contact (manual only; select/create contact, set amount). | Transactions page: Add \"Soft credits\" column; filter \"With soft credits.\" Contacts page: Filter \"Total soft credits > $0.\" | Lists transactions/contacts with soft credits; export for import prep (use \"soft credit\" notes). |\n| **CiviCRM** [2] | Link to contributions; use for spouses, third-party payers (e.g., hard credit payer, soft credit donor). | Soft credit columns in reports (separate from totals). | Tracks relationships; shows complete credit lists without inflating totals. |\n| **Site Stacker** [3] | Log donation with payer (e.g., foundation); add advisor as soft credit. Supports offline/recurring batches with splits. | Donor record > Contributions campaign view. | Dashboard shows soft credits; categorize for DAFs/tax credits; visible in user logins. |\n| **Beacon** [4] | Payment record: Set payer (direct donor), soft credit fundraiser (e.g., introducer). | Metric cards on People/Dashboard: Use \"Fundraiser\" field; filter \"Fundraiser is not blank.\" | Sums direct vs. fundraising value; global/individual totals. |\n| **Salesforce NPSP** [5] | Manual or automated (via Contact Roles); nightly batch for rollups. | Contact record > Soft Credit Total section (rollup fields). | Aggregates totals (e.g., lifetime soft credits); customizable for households. Manual recalc for instant updates. |\n| **Keela** [6] | Assign via platform tools. | Built-in reporting. | Full supporter impact views; comprehensive fundraising reports. |\n| **DonorPerfect** [7] | Link records during entry. | Relationship views. | Tracks gift influencers for targeting/acknowledgments. |\n| **Bloomerang** [8] | Per contribution; rules-based. | Donor database reports. | Guidelines for proper use (e.g., referrals only). |\n\nFor custom setups, consult your CRM's admin or docs. If importing large datasets, tag transactions first for easier soft credit matching. This ensures accurate donor stewardship and fundraising insights.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Givebutter",
+    "Keela",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 842,
+  "estimated_cost_usd": 0.017657,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://help.givebutter.com/en/articles/10366478-how-to-use-soft-credits",
+      "https://civicrm.org/blog/eliet-henderson/improving-civicrm%E2%80%99s-soft-credit-functionality",
+      "https://training.sitestacker.com/support/solutions/articles/151000179915-how-to-log-and-track-soft-credits-in-site-stacker",
+      "https://guide.beaconcrm.org/en/articles/6817580-recording-soft-credits",
+      "https://help.salesforce.com/s/articleView?id=sfdo.npsp_soft_credits_overview.htm&language=en_US&type=5",
+      "https://www.keela.co/glossary/soft-credit-donation",
+      "https://www.donorperfect.com/fundraising-software/donor-management-software/",
+      "https://bloomerang.com/blog/ask-an-expert-what-are-the-rules-for-using-soft-credits-in-a-donor-database/"
+    ]
+  }
+}

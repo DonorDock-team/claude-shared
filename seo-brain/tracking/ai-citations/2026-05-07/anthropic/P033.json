@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P033",
+  "prompt_text": "Alternative to DonorBox",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550642+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Alternative Donation Platforms to DonorBox\n\nHere are some popular alternatives to DonorBox:\n\n## **Top Alternatives**\n\n### 1. **Givebutter**\n- Free platform with optional tipping\n- Peer-to-peer fundraising\n- Event ticketing\n- Modern, user-friendly interface\n\n### 2. **Zeffy**\n- 100% free for nonprofits (donors cover fees optionally)\n- No platform fees\n- Good for organizations wanting to maximize donations\n\n### 3. **GiveWP** (WordPress)\n- Self-hosted WordPress plugin\n- One-time purchase, no recurring fees\n- Full control over data and customization\n\n### 4. **Stripe Donations** (via Stripe)\n- Direct integration\n- Low processing fees (2.9% + $0.30)\n- Requires technical setup\n\n### 5. **PayPal Giving Fund**\n- Reduced fees for nonprofits\n- Widely recognized and trusted\n- Simple integration\n\n### 6. **Kindful/Bloomerang**\n- Combined CRM and donation platform\n- Better for established nonprofits\n- More expensive but comprehensive\n\n### 7. **Classy**\n- Enterprise-level features\n- Great for larger campaigns\n- Higher pricing tier\n\n## **What to Consider**\n- **Fees**: Platform fees vs. processing fees\n- **Features**: Recurring donations, peer-to-peer, events\n- **Integration**: CRM, email marketing, accounting software\n- **Ease of use**: Setup complexity and donor experience\n\nWhat's your primary use case? That would help narrow down the best option.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Givebutter",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 373,
+  "estimated_cost_usd": 0.005634,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

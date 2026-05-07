@@ -1,0 +1,37 @@
+{
+  "prompt_id": "P051",
+  "prompt_text": "Best donor CRM for lean fundraising teams",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550670+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Recommendation: DonorDock\nFor **lean fundraising teams**\u2014small, resource-strapped nonprofits handling donor management, giving, emails, and stewardship without complexity\u2014**DonorDock** stands out as the best donor CRM based on 2026 comparisons.\n\n#### Why DonorDock?\n- **Tailored for Lean Teams**: Explicitly built for \"lean nonprofit teams who do it all.\" It integrates fundraising, email, and stewardship into one simple, smart system\u2014no need for multiple tools or steep learning curves. [Source: DonorDock comparison page]\n- **Key Features for Efficiency**:\n  - All-in-one donor database with automated giving tracking.\n  - Built-in email campaigns and stewardship tools.\n  - Low-cost entry (affordable for small teams, often free tiers or low upfront fees).\n- **Strengths from Reviews**: Excels in simplicity and speed, ideal for teams without dedicated IT or admin staff. Avoids bloat seen in enterprise options like Salesforce.\n\n#### Strong Alternatives\nIf DonorDock doesn't fit, consider these highly rated for lean operations:\n\n| CRM          | Best For Lean Teams Because... | Pricing Insight | Key Sources |\n|--------------|--------------------------------|-----------------|-------------|\n| **Givebutter** | Free core CRM + fundraising tools (events, auctions, comms). Modern, no-setup-needed interface. | Free starter; scales affordably. | [1] Double the Donation |\n| **Funraise** | Blends CRM with digital fundraising; low upfront cost, wide functionality for small teams. | Low-cost, usage-based. | [9] Virtuous |\n| **Bloomerang** | Donor-focused reporting and engagement; simple for moderate complexity without event overload. | Affordable for small orgs. | [2], [7] Kindsight, Momentive |\n| **DonorPerfect** | Strong donor tracking and reporting; reliable for basics without excess features. | Established, mid-range pricing. | [5], [8] DonorPerfect, LiveImpact |\n\n#### Quick Comparison to Avoid\n- **Salesforce Nonprofit Cloud** [6]: Too customizable/enterprise-heavy for lean teams\u2014requires setup expertise.\n- **Bonterra/Ascend** [2]: Better for scaled ops, not minimal teams.\n\n**Next Steps**: Start with DonorDock's free trial (donordock.com) or Givebutter for zero-risk testing. Match to your donor volume (<1,000?) and needs (e.g., events vs. pure tracking). These picks are from 2026 top lists prioritizing ease and cost for small teams.",
+  "donordock_mentioned": true,
+  "donordock_position": 24,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Givebutter",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 531,
+  "estimated_cost_usd": 0.012989,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://www.donordock.com/compare",
+      "https://www.donorperfect.com",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://momentivesoftware.com/blog/best-donor-management-software/",
+      "https://www.liveimpact.org/blog/best-all-in-one-software-for-nonprofits",
+      "https://virtuous.org/blog/best-donation-platforms/"
+    ]
+  }
+}

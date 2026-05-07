@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P095",
+  "prompt_text": "Hidden costs of DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.551138+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorPerfect, like most comprehensive CRM and fundraising platforms, has a transparent base subscription fee. However, many organizations find themselves incurring additional costs that weren't immediately obvious during the initial sales process. These \"hidden costs\" often fall into categories of add-ons, implementation, maintenance, and the opportunity cost of internal resources.\n\nHere's a breakdown of potential hidden costs for DonorPerfect users:\n\n1.  **Tiered Features & Add-ons:**\n    *   **Core Features that become \"Add-ons\":** DonorPerfect offers a modular approach. While some features are standard, others (like advanced reporting, specific communication tools, peer-to-peer fundraising, or enhanced dashboards) might only be available at higher subscription tiers or as separate add-on modules. What seemed like a comprehensive package might require upgrades.\n    *   **Payment Processing:** While DonorPerfect integrates with various payment processors (including its own DP Payments), the transaction fees themselves are a cost. If you use DP Payments, these are distinct from your subscription. Other processors also have their own fee structures.\n    *   **Email Marketing:** DonorPerfect integrates with Constant Contact, often bundling it or offering it as an add-on. If you don't use Constant Contact and prefer another email service, you'll pay for that separately and might need additional integration work.\n    *   **Online Forms & Landing Pages:** While basic forms might be included, more sophisticated, customized, or numerous forms for various campaigns might require higher tiers or additional modules.\n    *   **Mobile Apps:** Access to certain mobile features or apps might be restricted to higher plans.\n    *   **Event Management:** Comprehensive event management features (ticketing, registrations, attendee tracking) are often separate modules or require a higher tier.\n\n2.  **Implementation & Setup Costs:**\n    *   **Data Migration:** This is one of the biggest hidden costs. Cleaning, formatting, and migrating your existing donor data from spreadsheets or an old CRM into DonorPerfect takes significant time and/or money.\n        *   **Internal Staff Time:** Your team will spend hours, days, or even weeks preparing data, mapping fields, and overseeing the migration. This is time not spent on fundraising.\n        *   **Professional Services:** If your data is complex or you lack internal expertise, you might need to pay DonorPerfect's professional services team or a third-party consultant for data migration and setup assistance. This can be thousands of dollars.\n    *   **Customization:** Setting up custom fields, reports, dashboards, and communication templates to match your specific organizational needs takes time. Again, this is either internal staff time or professional services.\n    *   **Integrations:** Connecting DonorPerfect to other essential tools (accounting software",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 569,
+  "estimated_cost_usd": 0.001424,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

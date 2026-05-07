@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P036",
+  "prompt_text": "Best donor management software for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550849+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "There's no single \"best\" donor management software for all nonprofits, as the ideal choice depends heavily on your organization's size, budget, specific needs, and technical expertise.\n\nHowever, I can highlight the top contenders and categorize them to help you find the best fit.\n\n### Key Factors to Consider When Choosing:\n\n1.  **Your Budget:** Software costs can range from free (with some limitations) to thousands per month.\n2.  **Organization Size & Complexity:** A small, all-volunteer group has different needs than a large national charity with multiple departments.\n3.  **Core Needs:**\n    *   Basic donor tracking?\n    *   Advanced major gift cultivation?\n    *   Event management?\n    *   Volunteer management?\n    *   Grant tracking?\n    *   Peer-to-peer fundraising?\n    *   Email marketing integration?\n    *   Accounting integration (QuickBooks, etc.)?\n4.  **Ease of Use vs. Customization:** Do you need something simple and intuitive, or a highly customizable system that requires more setup?\n5.  **Reporting & Analytics:** How deep do you need your insights to be?\n6.  **Customer Support & Training:** What level of help do you anticipate needing?\n7.  **Scalability:** Can the software grow with your organization?\n\n---\n\n### Top Donor Management Software Recommendations:\n\nHere are some of the most highly regarded platforms, broken down by their typical ideal user:\n\n#### 1. Best for Small to Mid-Sized Nonprofits & Ease of Use:\n\n*   **Bloomerang**\n    *   **Pros:** Very user-friendly, modern interface, excellent donor retention tools (engagement meter, constituent timeline), strong reporting, good customer service, integrates well with many tools. Focuses on donor relationships.\n    *   **Cons:** Might lack some of the deep customization or specific niche features required by very large or complex organizations. Pricing scales with the number of constituents.\n    *   **Ideal For:** Nonprofits prioritizing ease of use, donor engagement, and clear reporting. Great for organizations looking to improve their donor retention rates.\n\n*   **Little Green Light (LGL)**\n    *   **Pros:** Highly affordable, intuitive interface, excellent customer support, comprehensive core features for donor tracking, gift processing, and communications.\n    *   **Cons:** Less robust for very complex fundraising strategies (e.g., advanced peer-to-peer, extensive event management). User interface is functional but not as modern as Bloomerang or Virtuous.\n    *   **Ideal For:** Small nonprofits, startups, or those with very tight budgets who need solid core functionality without a steep learning curve.\n\n*   **Kind",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "LGL",
+    "Little Green Light",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 571,
+  "estimated_cost_usd": 0.001429,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

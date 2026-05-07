@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P121",
+  "prompt_text": "AI for donor research",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550571+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "AI is revolutionizing donor research by enabling fundraising teams to identify, understand, and engage potential and existing donors with unprecedented efficiency and depth. It moves beyond traditional, manual data analysis to provide proactive, data-driven insights.\n\nHere's a breakdown of how AI is used in donor research:\n\n## Key Applications of AI in Donor Research\n\n1.  **Automated Prospect Identification & Screening:**\n    *   **How it works:** AI algorithms scan vast amounts of public data \u2013 news articles, social media, corporate filings, property records, foundation databases, academic publications, and more. They identify individuals and organizations that match specific donor profiles (e.g., high net worth, connections to specific industries, past philanthropic activity, board memberships).\n    *   **Benefits:** Dramatically increases the pool of potential prospects, uncovers \"hidden gems\" that manual research might miss, and quickly screens out less relevant candidates.\n\n2.  **Wealth Assessment & Capacity Analysis:**\n    *   **How it works:** AI goes beyond basic wealth screening tools. It analyzes complex financial data (estimated net worth, stock holdings, real estate portfolios, business ownership, executive compensation, private company valuations) to provide a more nuanced understanding of a prospect's *capacity* to give. It can track significant financial events in real-time (e.g., IPOs, mergers, major asset sales) that might indicate new philanthropic opportunities.\n    *   **Benefits:** More accurate estimations of giving potential, allowing fundraisers to tailor ask amounts more effectively and prioritize prospects with the highest capacity.\n\n3.  **Philanthropic Propensity & Affinity Prediction:**\n    *   **How it works:**\n        *   **Propensity:** AI models analyze past giving patterns, volunteer history, event attendance, and engagement with similar causes to predict how likely a prospect is to give to *your* organization.\n        *   **Affinity:** Natural Language Processing (NLP) is used to scan public statements, interviews, social media posts, and news articles to identify a prospect's stated interests, passions, and previous involvement with causes related to your mission. It can also identify soft connections like shared alma maters, professional networks, or geographic ties.\n    *   **Benefits:** Helps prioritize prospects who are not only wealthy but also genuinely interested in your cause, leading to higher conversion rates and more meaningful relationships.\n\n4.  **Personalized Engagement & Communication Strategies:**\n    *   **How it works:** Based on a donor's profile, past interactions, predicted preferences, and communication style (learned from historical data), AI can recommend the optimal communication channel (email, phone, in-person), timing for outreach, and even suggest personalized messaging or content for appeals.\n    *   **Benefits:** Increases the effectiveness of fundraising efforts by making interactions more relevant and timely for each donor, improving engagement and donor retention.\n\n5.  **Donor Retention & Lapsed Donor Reactivation",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 603,
+  "estimated_cost_usd": 0.001509,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

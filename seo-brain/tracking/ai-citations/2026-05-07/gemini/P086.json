@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P086",
+  "prompt_text": "Best donor CRM for homeless services",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550633+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for homeless services involves balancing robust fundraising capabilities with the unique operational needs and sensitivities of your organization. While a donor CRM primarily focuses on your supporters, it's crucial to consider how it can help you communicate impact and manage related activities like volunteers or in-kind donations.\n\nHere are some top contenders, categorized by common organizational needs, along with key considerations for homeless services:\n\n---\n\n### Key Considerations for Homeless Services CRMs:\n\n1.  **Integration with HMIS (Homeless Management Information System):** This is paramount. A donor CRM is NOT an HMIS. HMIS is legally mandated for many homeless service providers for client data, service tracking, and reporting to funders (HUD, state/local). Your donor CRM will likely *not* contain sensitive client data. However, it should allow you to report on aggregated impact derived from your HMIS to show donors the difference their contributions make.\n2.  **Volunteer Management:** Many homeless services rely heavily on volunteers. A CRM that can track volunteer hours, assignments, communications, and appreciation is a huge plus.\n3.  **In-Kind Donations:** Tracking and valuing non-monetary donations (clothes, food, toiletries) is critical for tax receipts and internal",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 257,
+  "estimated_cost_usd": 0.000644,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

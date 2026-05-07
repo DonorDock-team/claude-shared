@@ -1,0 +1,42 @@
+{
+  "prompt_id": "P091",
+  "prompt_text": "Best donor CRM for environmental nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550898+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Environmental Nonprofits\n\nEnvironmental nonprofits often need CRMs that excel in donor management, online donation processing, grant tracking, volunteer coordination, and campaign tools tailored to causes like conservation and advocacy. Based on current 2026 rankings and specialized features, here are the strongest options from reliable sources. DonorPerfect stands out as the top pick for environmental groups due to its dedicated environmental fundraising module.\n\n#### 1. **DonorPerfect** (Top Recommendation for Environmental Nonprofits)\n   - **Why it's best**: Specifically designed for environmental fundraising, it manages donors, donations, grants, and volunteers in one platform. Supports online donations, recurring gifts, and reporting for eco-campaigns. Highly rated for mid-sized nonprofits focused on conservation.\n   - **Key features**: Grant tracking, mobile app, integration with payment processors, customizable dashboards for supporter segmentation.\n   - **Pricing**: Starts at ~$89/month (contact for nonprofit discounts).\n   - **Source**: [DonorPerfect Environmental Fundraising](https://www.donorperfect.com/nonprofits/environmental-fundraising/).\n   - **Best for**: Groups like land trusts or wildlife orgs needing grant-heavy workflows.\n\n#### 2. **Givebutter**\n   - **Why it fits**: Modern, all-in-one CRM with donor management, engagement tracking, and fundraising tools (e.g., peer-to-peer campaigns ideal for Earth Day drives). Free tier available, praised in 2026 top lists for ease of use.\n   - **Key features**: Personalized comms, event ticketing, text-to-donate, zero platform fees on donations.\n   - **Pricing**: Free core CRM; premium add-ons from $19/month.\n   - **Source**: [Double the Donation's 2026 Top Nonprofit CRMs](https://doublethedonation.com/top-nonprofit-crms/).\n\n#### 3. **CiviCRM** (Best Free/Open-Source Option)\n   - **Why it fits**: #1 open-source CRM for nonprofits worldwide, highly customizable for environmental tracking (e.g., membership renewals, event management for cleanups). No licensing fees, integrates with WordPress/Drupal.\n   - **Key features**: Contact/donation management, email campaigns, reporting; excels in events and pledges.\n   - **Pricing**: Free (hosting ~$10-50/month).\n   - **Sources**: [CiviCRM Official](https://civicrm.com), [USD Online Degrees Review](https://onlinedegrees.sandiego.edu/donor-management-software/).\n\n#### 4. **Virtuous CRM**\n   - **Why it fits**: Built for nonprofit fundraising with AI-driven insights for donor retention. Strong in marketing automation for environmental appeals.\n   - **Key features**: Donor scoring, workflows, integrations with email/marketing tools.\n   - **Pricing**: Custom (mid-market focus).\n   - **Source**: [Virtuous 2026 Guide](https://virtuous.org/blog/best-crm-for-nonprofits/).\n\n#### 5. **Salesforce Nonprofit Cloud**\n   - **Why it fits**: Enterprise-grade for large environmental orgs (e.g., WWF-scale). Handles complex programs, grants, and global donor bases.\n   - **Key features**: Program management, volunteer tracking, AI analytics.\n   - **Pricing**: Free edition available; scales to $36/user/month+.\n   - **Source**: [Salesforce Nonprofit](https://www.salesforce.com/nonprofit/).\n\n#### Quick Comparison Table\n\n| CRM            | Best For                  | Starting Price | Environmental Strengths              | Ease of Use |\n|----------------|---------------------------|----------------|--------------------------------------|-------------|\n| **DonorPerfect** | Grants & volunteers      | $89/mo        | Dedicated module                     | High       |\n| **Givebutter**   | Free fundraising         | Free          | Campaigns & engagement               | Very High  |\n| **CiviCRM**      | Customizable & free      | Free          | Events & memberships                 | Medium     |\n| **Virtuous**     | AI donor insights        | Custom        | Automation                           | High       |\n| **Salesforce**   | Large-scale programs     | Free tier     | Global scalability                   | Medium     |\n\n#### How to Choose\n- **Budget < $100/mo**: Start with Givebutter or CiviCRM.\n- **Environmental focus**: Prioritize DonorPerfect for built-in tools.\n- **Scale**: Salesforce for 10k+ donors.\n- **Next steps**: Demo 2-3 options (most offer free trials). Check integrations with tools like QuickBooks or email platforms. Reviews from Goodera and Authencio emphasize donor retention features like segmentation and automation as key for nonprofits.\n\nThese picks are drawn directly from 2026-specific sources prioritizing nonprofit use cases. For your org's size/needs, DonorPerfect edges out due to its niche fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "DonorPerfect",
+    "Givebutter",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [
+    "https://www.donorperfect.com/nonprofits/environmental-fundraising/",
+    "https://www.salesforce.com/nonprofit/",
+    "https://doublethedonation.com/top-nonprofit-crms/",
+    "https://virtuous.org/blog/best-crm-for-nonprofits/",
+    "https://civicrm.com",
+    "https://onlinedegrees.sandiego.edu/donor-management-software/"
+  ],
+  "input_tokens": 7,
+  "output_tokens": 1016,
+  "estimated_cost_usd": 0.020261,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.donorperfect.com/nonprofits/environmental-fundraising/",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/",
+      "https://onlinedegrees.sandiego.edu/donor-management-software/",
+      "https://civicrm.com",
+      "https://www.goodera.com/blog/best-crms-for-nonprofits-the-complete-guide-for-nonprofit-organizations",
+      "https://www.authencio.com/blog/best-donor-management-crm-key-features-for-nonprofits",
+      "https://www.salesforce.com/nonprofit/"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P015",
+  "prompt_text": "Alternative to Bloomerang",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550640+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Alternatives to Bloomerang\n\nHere are some popular donor management and fundraising CRM alternatives to Bloomerang:\n\n## **Top Competitors**\n\n### **1. DonorPerfect**\n- Comprehensive donor management\n- Strong reporting capabilities\n- Good for small to mid-size nonprofits\n- Similar price range to Bloomerang\n\n### **2. Little Green Light**\n- User-friendly interface\n- Affordable pricing\n- Good for smaller organizations\n- Strong customer support\n\n### **3. Kindful (by Bloomerang)**\n- Cloud-based donor management\n- Integrates well with other tools\n- Modern interface\n- Good automation features\n\n### **4. Salsa CRM (by Bonterra)**\n- Integrated with marketing and engagement tools\n- Good for advocacy organizations\n- Robust online fundraising features\n\n### **5. NeonCRM**\n- All-in-one platform\n- Event management included\n- Membership management\n- Good reporting tools\n\n## **Other Options**\n\n- **Blackbaud Raiser's Edge NXT** - Enterprise-level solution\n- **Keela** - AI-powered insights, growing platform\n- **Giveffect** - All-in-one nonprofit software\n- **CiviCRM** - Open-source option (free, but requires technical knowledge)\n\n## **What to Consider**\n- Organization size and budget\n- Specific features needed (events, pledges, major gifts, etc.)\n- Integration requirements\n- User-friendliness\n- Customer support quality\n\nWhat specific features are most important for your organization?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "CiviCRM",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 362,
+  "estimated_cost_usd": 0.005469,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

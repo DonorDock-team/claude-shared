@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P121",
+  "prompt_text": "AI for donor research",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550541+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "AI can be a powerful tool for donor research, helping nonprofits and fundraising organizations identify potential donors, understand their interests and giving capacities, and tailor their outreach strategies. Here are several ways AI can be utilized in donor research:\n\n1. **Predictive Analytics**:\n   - AI algorithms can analyze data to predict which donors are most likely to contribute based on their previous donation patterns, engagement with the organization, and demographic information.\n\n2. **Donor Segmentation**:\n   - Machine learning models can segment donors into different categories based on attributes such as giving history, engagement level, and socio-economic factors. This allows organizations to personalize their communication and marketing strategies.\n\n3. **Natural Language Processing (NLP)**:\n   - NLP can be used to analyze unstructured data sources such as social media, news articles, and public records to gather insights about potential donors\u2019 interests and philanthropic behaviors.\n\n4. **Affinity Scoring**:\n   - AI can assign scores to potential donors based on their likelihood to donate, affinity towards certain causes, and capacity to give. This helps prioritize outreach efforts.\n\n5. **Relationship Mapping**:\n   - AI tools can map relationships and connections between current donors, board members, and potential donors to identify networking opportunities and peer influence strategies.\n\n6. **Wealth Screening**:\n   - AI can leverage public databases, social media, and other online resources to assess the wealth and giving capacity of individuals, helping to identify major gift prospects.\n\n7. **Behavior Analysis**:\n   - AI can track and analyze donor interactions with an organization\u2019s digital content (e.g., emails, social media, website) to gauge their engagement levels and adapt strategies accordingly.\n\n8. **Enhanced CRM Systems**:\n   - AI-driven customer relationship management (CRM) systems can automate data entry, update donor profiles in real-time, and provide actionable insights for donor engagement.\n\n9. **Sentiment Analysis**:\n   - By analyzing donor feedback and sentiment from various communication channels, AI can help understand donor satisfaction and areas needing improvement.\n\n10. **Automated Correspondence**:\n    - AI can automate the process of sending personalized thank-you notes, updates, and invitations to events, ensuring consistent and timely communication with donors.\n\nFor successful implementation, it's crucial for organizations to ensure data privacy and compliance with relevant regulations when utilizing AI for donor research. Additionally, the use of AI should complement, not replace, human intuition and relationship-building in fundraising activities.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 11,
+  "output_tokens": 489,
+  "estimated_cost_usd": 0.004917,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P012",
+  "prompt_text": "DonorDock vs Virtuous",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550468+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When comparing DonorDock and Virtuous, you're looking at two popular donor management and CRM systems tailored for non-profit organizations. Each has its own strengths and features that cater to different organizational needs. Here's a general overview to help differentiate them:\n\n### DonorDock\n\n**Key Features:**\n- **Simplicity and Ease of Use:** DonorDock is designed to be user-friendly, which makes it ideal for smaller non-profits or those new to CRM systems.\n- **Donor Management:** Offers core CRM functionalities such as tracking donations, donor communication, and engagement metrics.\n- **Integration Capabilities:** It provides integrations with various third-party applications such as QuickBooks, Mailchimp, and other tools.\n- **Campaign Management:** Helps in managing fundraising campaigns and events with ease.\n- **Affordability:** Typically more affordable, appealing to smaller organizations or those with tight budgets.\n\n**Pros:**\n- Straightforward setup and user interface.\n- Good value for money, especially for smaller teams.\n- Focus on essential features without overwhelming complexity.\n\n**Cons:**\n- May lack advanced features and scalability needed by larger organizations.\n- Integration options, while sufficient, might not be as extensive as those offered by more comprehensive platforms.\n\n### Virtuous\n\n**Key Features:**\n- **Advanced Donor Management:** Includes detailed donor profiles, segmentation, and personalized communication tools to enhance engagement.\n- **Automation:** Robust automation features that allow for personalized communication workflows and task management.\n- **Analytics and Reporting:** Offers advanced analytics tools to provide insights into donor behavior and fundraising performance.\n- **Integration:** Extensive integration options with various platforms, including popular payment processors, email marketing tools, and others.\n- **Scalability:** Designed to grow with organizations, offering features that support larger and more complex non-profit operations.\n\n**Pros:**\n- Comprehensive features suitable for medium to large non-profits.\n- Strong focus on data-driven fundraising strategies.\n- Greater customization options.\n\n**Cons:**\n- More expensive, which might not be suitable for smaller organizations.\n- Steeper learning curve due to the complexity of features.\n\n### Conclusion\n\n- **Choose DonorDock if:** You're a small to medium non-profit looking for a straightforward, cost-effective solution without a steep learning curve.\n- **Choose Virtuous if:** You're a larger organization needing a comprehensive CRM that offers advanced features, scalability, and sophisticated donor engagement tools.\n\nYour choice should ultimately depend on the specific needs, budget, and capacity of your organization. It may be beneficial to take advantage of free trials or demos offered by both platforms to see which aligns better with your operational goals.",
+  "donordock_mentioned": true,
+  "donordock_position": 15,
+  "competitors_mentioned": [
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 523,
+  "estimated_cost_usd": 0.005262,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

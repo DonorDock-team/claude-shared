@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P003",
+  "prompt_text": "DonorDock reviews",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550450+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock Reviews\n\nDonorDock is a donor management and fundraising CRM designed primarily for small to mid-sized nonprofits. Here's what users typically say about it:\n\n## **Positive Feedback**\n\n- **User-friendly interface**: Many reviewers praise its clean, intuitive design that's easy to learn\n- **Affordable pricing**: Considered cost-effective compared to competitors like Bloomerang or Little Green Light\n- **Good customer support**: Responsive and helpful support team\n- **Donor management features**: Solid tools for tracking donations, donor communications, and relationships\n- **Email integration**: Built-in email capabilities are convenient\n- **Customization options**: Flexible custom fields and tagging\n\n## **Common Criticisms**\n\n- **Limited reporting**: Some users find reporting features less robust than competitors\n- **Feature gaps**: May lack advanced features needed by larger organizations (wealth screening, major gift tools, etc.)\n- **Integration limitations**: Fewer third-party integrations compared to more established platforms\n- **Learning curve for advanced features**: While basic use is easy, some advanced functions can be tricky\n- **Occasional bugs**: Some users report minor technical issues\n\n## **Best For**\n\n- Small nonprofits (under 5,000 contacts)\n- Organizations with limited budgets\n- Groups needing straightforward donor tracking without complex requirements\n\n## **Typical Ratings**\n\nGenerally receives **3.5-4.5 out of 5 stars** across review platforms.\n\nWould you like more specific information about pricing, features, or comparisons to alternative platforms?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 352,
+  "estimated_cost_usd": 0.005319,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

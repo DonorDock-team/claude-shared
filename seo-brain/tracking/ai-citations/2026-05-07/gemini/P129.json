@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P129",
+  "prompt_text": "Bloomerang limitations",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.551028+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a popular CRM specifically designed for nonprofits, known for its user-friendliness and focus on donor retention. While it's a fantastic tool for many organizations, especially small to medium-sized ones, it does have some limitations that might make it less suitable for others or require workarounds.\n\nHere are some common Bloomerang limitations:\n\n1.  **Limited Advanced Event Management:**\n    *   Bloomerang offers basic event registration and ticketing, but it's not a full-fledged event management platform. For complex events requiring multiple ticket types, detailed seating charts, complex sponsorship packages, or intricate scheduling, you might find it lacking compared to dedicated event software (like Blackbaud's Raiser's Edge Events, Cvent, Eventbrite Pro, etc.).\n    *   You might need to use an external event platform and integrate it, which can add cost and complexity.\n\n2.  **Basic Volunteer Management:**\n    *   While you can track volunteer hours and activities as interactions, Bloomerang does not have a robust dedicated volunteer management module. It lacks features like volunteer recruitment portals, shift scheduling, advanced background checks, or complex volunteer role management.\n    *   Organizations heavily reliant on volunteers might need a separate Volunteer Management System (VMS).\n\n3.  **Less Robust Grant Management:**\n    *   You can track grant applications, awards, and reporting deadlines as tasks or interactions, but Bloomerang doesn't offer the deep functionality of dedicated grant management software. It lacks features like complex grant pipeline tracking, funder research tools, detailed budget tracking per grant, or compliance reporting specific to grants.\n\n4.  **Limited Membership Management (for Associations):**\n    *   While you can manage basic memberships (e.g., annual donors), Bloomerang isn't designed as a full Association Management System (AMS). It doesn't handle complex membership tiers, automated recurring dues processing beyond standard recurring donations, member portals, or intricate member benefit tracking as effectively as a dedicated AMS.\n\n5.  **Less Advanced Peer-to-Peer (P2P) Fundraising:**\n    *   Bloomerang offers good basic fundraising pages and simple P2P capabilities. However, for highly sophisticated or large-scale P2P campaigns with extensive team functionality, gamification, or highly customizable individual participant pages, it might not be as robust as dedicated P2P platforms (like Classy, Givebutter, DonorDrive, etc.).\n\n6.  **Customization Limitations:**\n    *   Bloomerang is relatively user-friendly because it's somewhat standardized. While you can add custom fields, the ability to deeply customize workflows, change the underlying data structure, or build highly complex custom reports might be more limited than enterprise-level CRMs (like Salesforce's Nonprofit Cloud).\n    *   The interface itself isn't highly customizable for the end-user.\n\n7.  **Scalability for Very Large, Complex Organizations:**\n    *   While it scales well for small to mid-sized nonprofits, very large",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Givebutter",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 3,
+  "output_tokens": 622,
+  "estimated_cost_usd": 0.001556,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

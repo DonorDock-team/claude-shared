@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550883+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor pledges is crucial for nonprofit organizations to ensure they receive the pledged amounts and maintain good relationships with donors. Here's how you can effectively track donor pledges:\n\n1. **Choose the Right Tools:**\n   - **Donor Management Software:** Use a robust donor management system like DonorPerfect, Bloomerang, or Salesforce Nonprofit Success Pack. These platforms are designed to handle donor information, pledges, and donation histories.\n   - **Spreadsheets:** For smaller organizations or when you're just starting, spreadsheets like Microsoft Excel or Google Sheets can be a good option for tracking pledges.\n\n2. **Set Up a Tracking System:**\n   - **Database Structure:** Ensure your database or spreadsheet is set up to include key fields such as donor name, contact information, pledge amount, pledge date, payment schedule, and payment status.\n   - **Unique Identifiers:** Assign unique identifiers to each pledge or donor to easily filter and sort data.\n\n3. **Record Pledge Information:**\n   - Capture detailed information about each pledge, including the amount, scheduled payment dates, method of payment, and any restrictions or designations associated with the pledge.\n\n4. **Automate Reminders and Follow-Ups:**\n   - Use automated reminders to notify donors of upcoming pledge payments. This can be done via email or through the donor management software.\n   - Schedule regular follow-ups with donors who have overdue or outstanding pledges.\n\n5. **Monitor and Update Regularly:**\n   - Regularly update the status of each pledge as payments are received.\n   - Reconcile pledges with actual donations received to ensure accuracy in records.\n\n6. **Report and Analyze:**\n   - Generate reports to track the progress of pledge collections. This includes reports on overdue pledges, fulfilled pledges, and total pledges received versus outstanding.\n   - Analyze the data to identify trends and areas for improvement in donor retention and engagement.\n\n7. **Communicate with Donors:**\n   - Maintain regular communication with donors about the impact of their pledges, thanking them for their contributions and updating them on how their funds are being used.\n\n8. **Train Staff:**\n   - Ensure that staff members are adequately trained in using the pledge tracking system and understand the importance of accurate data entry and donor communication.\n\n9. **Privacy and Compliance:**\n   - Ensure that all donor information is kept confidential and that your tracking practices comply with relevant data protection regulations, such as GDPR or CCPA, if applicable.\n\nBy following these steps, you can effectively track donor pledges, maintain strong relationships with donors, and ensure that your organization meets its financial goals.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 531,
+  "estimated_cost_usd": 0.005343,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

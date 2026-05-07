@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P047",
+  "prompt_text": "Best donor CRM for community foundations",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550406+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM (Customer Relationship Management) system for community foundations depends on the specific needs, size, and requirements of the organization. Here are several options that are often considered well-suited for community foundations due to their features, scalability, and support:\n\n1. **Blackbaud CRM**: Known for its robust fundraising and relationship management capabilities, Blackbaud offers solutions specifically geared toward community foundations, with features like grant management and donor engagement.\n\n2. **Salesforce Nonprofit Cloud**: Highly customizable, Salesforce offers a flexible CRM platform with powerful analytics and donor management tools tailored to nonprofit needs. The Nonprofit Success Pack (NPSP) is particularly popular among community foundations.\n\n3. **Bloomerang**: This user-friendly CRM is designed for nonprofits of various sizes and offers features like donor retention insights, fundraising tools, and detailed analytics, making it suitable for community foundations.\n\n4. **Neon CRM**: Designed for nonprofit organizations, Neon CRM offers functionalities like donor management, communication tools, event planning, and grant tracking, with capabilities that cater to community foundations.\n\n5. **DonorPerfect**: Known for its comprehensive fundraising tools, DonorPerfect provides features like donor management, online fundraising, and analytics, which can be beneficial for community foundations.\n\n6. **CiviCRM**: An open-source CRM designed for nonprofits, CiviCRM offers flexibility and a range of features such as contact management, fundraising, and reporting, suitable for tech-savvy community foundations.\n\n7. **Foundant Technologies**: Specifically tailored for community foundations, Foundant provides grant management, community collaboration, and donor management solutions.\n\nWhen selecting a CRM, consider these factors:\n\n- **Budget**: Ensure the CRM fits within your financial constraints while providing necessary features.\n- **Ease of use**: Choose a system that staff can adopt easily without extensive training.\n- **Integration**: Check if the CRM can integrate with your existing systems and software for seamless operations.\n- **Scalability**: Make sure the system can grow with your foundation\u2019s needs.\n- **Support and Training**: Good customer support and available training resources are crucial for maximizing the CRM\u2019s potential.\n\nIt's often helpful to demo several options and speak with other community foundations to hear about their experiences.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 455,
+  "estimated_cost_usd": 0.004582,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

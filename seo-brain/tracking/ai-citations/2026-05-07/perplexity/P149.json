@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P149",
+  "prompt_text": "How to migrate from Excel to a nonprofit CRM",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.551129+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Migrate from Excel to a Nonprofit CRM\n\nBased on the search results, here's a comprehensive guide to successfully migrating your nonprofit's data from Excel spreadsheets to a CRM system:\n\n## Key Preparation Steps\n\n### 1. **Audit and Clean Your Data First**\n- Create a complete inventory of all data sources (spreadsheets, platforms, systems)\n- Identify the internal owner of each data source\n- Remove duplicates and standardize formats (names, addresses, phone numbers)\n- Flag unclear or questionable records for specialist review\n- Most nonprofits discover 20-30% more \"junk\" records than expected\n\n### 2. **Choose the Right CRM**\n- Select a CRM that fits your actual needs, not just the one with the most features\n- Consider partnering with a nonprofit technology consultant experienced with your chosen platform\n- A consultant can guide you on proper data formatting and help with implementation\n\n### 3. **Map Your Data Points**\nBefore exporting, identify what needs to migrate:\n- Contact records (donors, supporters, volunteers)\n- Donation and pledge history\n- Communication logs and notes\n- Tags/segments and custom fields\n- Event and membership data\n- Recurring gift schedules\n\n## Migration Timeline\n\nA phased approach typically takes **4-8 weeks** for small charities or **under 2 weeks** with efficient planning:\n\n| Week | Focus |\n|------|-------|\n| **Week 1** | Core contacts\u2014verify names, emails, and key fields |\n| **Week 2** | Active cases/programs you use daily |\n| **Week 3** | Supporting/historical data |\n| **Week 4** | Verification and cutover |\n\n## Data Preparation Best Practices\n\n### File Organization\n- Export data as structured CSV or Excel files\n- Separate individuals and organizations clearly\n- Ensure one data type per file\n- Use consistent naming conventions\n- Remove empty tabs and unused sheets\n\n### Data Structure\n- Rename headers to align with platform templates\n- Add required fields where missing\n- Keep transaction IDs and dates intact\n- Clarify how the new CRM calculates donations and tax-deductible values\n\n### For Donations Specifically\n- One row = one donation\n- Don't mix donations with pledges or pledge payments\n- Preserve transaction IDs and dates\n- Confirm pledge structure with your migration specialist\n\n## Import Process\n\n1. **Export all data** in two locations (local + cloud backup)\n2. **Import in the correct order**: contacts first, then gifts, then supporting data\n3. **Use duplicate detection tools** during import\n4. **Spot-check 10-15 random records** before going live\n5. **Run parallel systems** briefly\u2014enter new data in both systems to verify nothing is lost\n6. **Set a firm cutover date** and retire spreadsheets once confident\n\n## Success Tips\n\n- **Invest in team training** so staff understands the new system\n- **Ask 2-3 team members to test** records against original spreadsheets\n- **Keep your old system active** until migration is fully verified\n- **Clarify responsibilities early** with your CRM provider about what they handle vs. what you handle\n- **Use migration workspace tools** if available (file uploads, progress tracking, specialist feedback)\n\n## Expected Outcomes\n\nWith proper planning, most nonprofits can complete migration without:\n- Losing records\n- Disrupting donor relationships\n- Derailing fundraising calendars\n\nThe key is ensuring data is **formatted consistently and correctly** before migration begins.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 723,
+  "estimated_cost_usd": 0.015875,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.plinth.org.uk/complete-guide/migrate-spreadsheets-to-crm-charity",
+      "https://www.giveffect.com/nonprofit-resource-center/nonprofit-crm-data-migration-checklist/",
+      "https://npoinfo.com/moving-to-advanced-nonprofit-technology/",
+      "https://www.youtube.com/watch?v=rzvxGXHPkEk",
+      "https://www.donordock.com/articles/nonprofit-crm-migration-checklist",
+      "https://donorsnap.com/blog/why-your-nonprofit-should-upgrade-from-spreadsheets-to-a-crm/",
+      "https://www.youtube.com/watch?v=R3IdVbs1dZQ",
+      "https://forums.techsoup.org/t/when-to-switch-from-spreadsheets-to-crm-software-the-never-ending-discussion/17936",
+      "https://www.pipedrive.com/en/features/data-import-export",
+      "https://www.continuum.je/latest/how-i-migrated-a-charitys-data-from-excel-to-donorfy-using-alteryx"
+    ]
+  }
+}

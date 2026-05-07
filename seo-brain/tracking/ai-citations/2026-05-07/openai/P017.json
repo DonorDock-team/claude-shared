@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P017",
+  "prompt_text": "Alternative to Neon CRM",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550768+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "If you're seeking alternatives to Neon CRM, there are several customer relationship management (CRM) systems designed for nonprofits that you might consider. Here are a few popular options:\n\n1. **Bloomerang**: Known for its user-friendly interface, Bloomerang focuses on donor retention and offers features like donor database management, email marketing, and social media integration.\n\n2. **DonorPerfect**: This CRM specializes in fundraising and donor management, offering tools for online giving, event management, and comprehensive reporting.\n\n3. **Salesforce Nonprofit Cloud**: A powerful and customizable option, Salesforce for nonprofits provides robust CRM capabilities tailored specifically for nonprofit organizations, including donor management, marketing, and analytics.\n\n4. **Kindful**: With a strong emphasis on donor management and fundraising, Kindful offers integration with various other tools and platforms, making it a flexible choice for nonprofits.\n\n5. **CharityEngine**: An all-in-one solution that combines CRM, online fundraising, email marketing, and event management, suitable for nonprofits looking for comprehensive tools.\n\n6. **EveryAction**: Designed for nonprofits and advocacy groups, EveryAction offers features like engagement tracking, fundraising tools, and advocacy tools.\n\n7. **Wild Apricot**: Particularly popular with member-based organizations, it offers membership management, event registration, and email communication tools.\n\n8. **Little Green Light**: This tool provides affordable donor management solutions with features like online giving pages, donation management, and reporting.\n\nWhen evaluating these options, consider factors such as ease of use, integration capabilities, cost, and specific features that match the needs of your organization. Demoing a few different platforms can help determine which one is the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 11,
+  "output_tokens": 340,
+  "estimated_cost_usd": 0.003427,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

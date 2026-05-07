@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P013",
+  "prompt_text": "DonorDock vs Little Green Light",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550561+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Little Green Light (LGL) are both popular donor management systems designed for non-profit organizations, but they have different strengths and approaches. Here's a breakdown to help you compare them:\n\n## DonorDock vs. Little Green Light (LGL)\n\n| Feature / Aspect       | DonorDock                                                                         | Little Green Light (LGL)                                                                                                    |\n| :--------------------- | :-------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- |\n| **Primary Focus**      | All-in-one donor management, fundraising, and communication platform with a modern UX. Aims to consolidate tools. | Robust, highly functional donor database and CRM with powerful querying, segmentation, and gift processing. Emphasizes data integrity. |\n| **Target Audience**    | Small to medium-sized non-profits looking for a consolidated, user-friendly system with built-in marketing tools. | Small to medium-sized non-profits that prioritize powerful data management, detailed reporting, and excellent value. Often appeals to those comfortable with integrations. |\n| **Key Features**       | - **CRM:** Donor profiles, contact management, relationships<br>- **Gift Management:** Pledges, recurring gifts, soft credits<br>- **Fundraising:** Campaigns, appeals, online giving forms<br>- **Communications:** Built-in email marketing, segmentation, acknowledgments<br>- **Reporting:** Standard and custom reports, dashboards<br>- **Event Management:** Basic event registration & tracking<br>- **Task Management:** Workflows, reminders | - **CRM:** Comprehensive donor profiles, relationships, custom fields<br>- **Gift Management:** Highly detailed gift entry, pledges, recurring gifts, soft credits, grant tracking<br>- **Fundraising:** Campaigns, appeals, customizable online giving forms<br>- **Data & Reporting:** Extremely powerful query builder, segmentation, custom reports, analytics<br>- **Communications:** Letter & email templates, acknowledgments, Mailchimp integration<br>- **Event Management:** Simple event registration & tracking<br>- **Volunteer Management:** Basic tracking |\n| **Ease of Use / UI**   | Generally praised for its modern, clean, and intuitive user interface. Easy to navigate and get started with, aiming for minimal training. | Functional, straightforward interface. While not as \"flashy\" as some modern UIs, it's highly efficient and powerful once learned. Can have a slight learning curve to master its full capabilities (especially the query builder). |\n| **Pricing Model**      | Subscription-based, often tiered based on the number of contacts in your database or features. Generally competitive for an all-in-one solution. | Subscription-based, very competitive pricing primarily based on the number of constituent records. Known for offering excellent value for money. |\n| **Integrations**       | Payment processors (Stripe, PayPal, etc.), Mailchimp (for advanced email), Zapier, other common non-profit tools. | Integrates with many payment processors (St",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 625,
+  "estimated_cost_usd": 0.001564,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

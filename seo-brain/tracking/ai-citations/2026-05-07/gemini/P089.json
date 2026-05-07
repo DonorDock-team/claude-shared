@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P089",
+  "prompt_text": "Best donor CRM for mental health nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550801+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a mental health nonprofit requires careful consideration of its unique needs, particularly around privacy, impact reporting, and diverse funding sources.\n\n**CRITICAL DISCLAIMER FOR MENTAL HEALTH NONPROFITS:**\n\n**Your Donor CRM should absolutely NOT be used to store client-specific Protected Health Information (PHI) or personal health records. This is a severe HIPAA violation and an ethical breach.**\n\nThe donor CRM is for managing your relationships with **donors, volunteers, grantmakers, and supporters**. Any \"impact\" data related to client services should be aggregated, anonymized statistics (e.g., \"X number of therapy sessions provided,\" \"Y individuals received counseling,\" \"Z outreach events held\"), *not* individual client names, diagnoses, or treatment details. Client management should be handled by a separate, HIPAA-compliant Electronic Health Record (EHR) or client management system.\n\n---\n\nWith that crucial point in mind, here are some of the best donor CRMs for mental health nonprofits, along with their strengths and considerations:\n\n### Top Recommendations:\n\n1.  **Salesforce Nonprofit Success Pack (NPSP)**\n    *   **Pros:**\n        *   **Unrivaled Customization & Scalability:** Can be tailored to virtually any unique process, perfect for organizations with complex programs, grant reporting needs, or those expecting significant growth.\n        *   **Robust Grant Management:** Excellent for tracking grant lifecycles, applications, reporting, and relationships with foundations.\n        *   **Comprehensive Reporting:** Powerful analytics to demonstrate impact (using aggregated data), track fundraising performance, and manage donor segments.\n        *   **Vast AppExchange:** Integrates with thousands of other tools (email marketing, accounting, event management, advocacy tools).\n        *   **Generous Nonprofit Discount:** Often offers 10 free licenses and significant discounts on additional features.\n    *   **Cons:**\n        *   **Steep Learning Curve:** Can be complex and requires dedicated training.\n        *   **Implementation Costs:** May require a consultant for initial setup and customization, which can be a significant upfront investment.\n        *   **Maintenance:** Requires ongoing administration and possibly development as your needs evolve.\n    *   **Best for:** Larger, growing, or complex mental health nonprofits with dedicated staff for CRM management, significant grant funding, and a need for highly customized data tracking and reporting.\n\n2.  **Bloomerang**\n    *   **Pros:**\n        *   **User-Friendly Interface:** Known for being intuitive and easy to learn, ideal for smaller teams or those less tech-savvy.\n        *   **Strong Focus on Donor Retention:** Excellent tools for engagement, communication, and cultivating lasting donor relationships.\n        *   **Built-in Email & Communication:** Robust email marketing capabilities, thank you letters, and communication tracking.\n        *   **Integrated Website Forms & Donations:** Easy setup for online giving.\n        *   **Predictable Pricing:** Clear, tiered pricing based on database size.\n        *   **Good Reporting",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 630,
+  "estimated_cost_usd": 0.001577,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550638+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding a Donor CRM that integrates seamlessly with QuickBooks Online (QBO) is a common and smart need for many nonprofits. It helps streamline operations, reduce manual data entry, and ensures your financial records accurately reflect your fundraising activities.\n\nHere's a breakdown of top contenders and what to consider:\n\n## Key Considerations When Choosing\n\nBefore diving into specific CRMs, think about:\n\n1.  **Depth of QBO Integration:**\n    *   **One-way vs. Two-way:** Does it just push donations *to* QBO, or can it pull donor/transaction data *from* QBO as well?\n    *   **What Data Syncs:** Does it sync individual donations, new donors, recurring gifts, refunds, specific campaigns, pledges, or event registrations?\n    *   **Account Mapping:** How easy is it to map your CRM revenue accounts/funds to your QBO income accounts?\n    *   **Automation:** Does it automate the creation of sales receipts, journal entries, or invoices in QBO?\n\n2.  **Core CRM Features:** Beyond QBO integration, does it meet your needs for:\n    *   Donor profiles and segmentation\n    *   Communication tools (email, mail merge)\n    *   Campaign and appeal management\n    *   Grant tracking\n    *   Volunteer management\n    *   Event management\n    *   Reporting and analytics\n\n3.  **Ease of Use:** How intuitive is the interface for your staff?\n4.  **Scalability:** Can it grow with your organization?\n5.  **Pricing:** Understand monthly fees, per-user costs, and any additional charges for integrations or advanced features.\n6.  **Support & Training:** What kind of support is available?\n\n---\n\n## Top Donor CRMs with QuickBooks Online Integration\n\nHere are some of the most popular and highly-regarded options:\n\n### 1. Bloomerang\n\n*   **Overview:** Bloomerang is known for its user-friendly interface and focus on donor retention. It has a robust set of fundraising and communication tools.\n*   **QBO Integration:** One of the strongest native integrations.\n    *   **How it works:** It allows you to automatically push donations, refunds, and potentially other transactions from Bloomerang directly into QBO as sales receipts or journal entries. You can easily map Bloomerang funds/campaigns to your QBO income accounts.\n    *   **Benefits:** Excellent for automating daily/weekly donation sync, ensuring accurate",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 515,
+  "estimated_cost_usd": 0.00129,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

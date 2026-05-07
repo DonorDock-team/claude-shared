@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P016",
+  "prompt_text": "Alternative to DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550735+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorPerfect is a popular donor management and fundraising CRM for nonprofits. However, it might not be the right fit for every organization due to factors like cost, specific feature needs, user interface preferences, or integration requirements.\n\nWhen looking for an alternative, consider your organization's:\n*   **Budget:** What can you realistically afford per month or year?\n*   **Size & Complexity:** Are you a small, volunteer-run group or a large organization with multiple departments?\n*   **Key Features Needed:** Donor tracking, online giving, event management, grant tracking, volunteer management, communications, reporting, accounting integration, peer-to-peer fundraising, memberships?\n*   **Ease of Use:** Do you need something very intuitive, or do you have staff comfortable with more complex systems?\n*   **Scalability:** Do you expect to grow significantly in the coming years?\n*   **Support:** What level of customer support do you expect?\n\nHere are some excellent alternatives to DonorPerfect, categorized by their typical strengths and target organizations:\n\n---\n\n### All-in-One Comprehensive Platforms (Similar Scope to DonorPerfect)\n\nThese platforms offer a broad range of features for donor management, fundraising, and communications.\n\n1.  **Blackbaud (Raiser's Edge NXT, Blackbaud CRM):**\n    *   **Best for:** Large, established nonprofits with complex needs and significant budgets. Blackbaud offers multiple products, with RE NXT being a cloud-based evolution of their flagship CRM.\n    *   **Strengths:** Very robust, extensive features, strong reporting, industry leader, widely used.\n    *   **Considerations:** Can be expensive, steep learning curve, potentially less modern UI than some newer competitors.\n\n2.  **NeonOne (NeonCRM):**\n    *   **Best for:** Mid-sized to larger nonprofits looking for a comprehensive solution that includes donor management, membership, events, and volunteer management.\n    *   **Strengths:** All-in-one platform, good integrations, scalable, strong customer support.\n    *   **Considerations:** Can be feature-rich to the point of complexity for very small organizations.\n\n3.  **EveryAction (Bonterra):**\n    *   **Best for:** Large to enterprise-level organizations, often with advocacy or political components, needing sophisticated fundraising, engagement, and outreach tools.\n    *   **Strengths:** Powerful unified platform, excellent for digital fundraising and advocacy, robust reporting.\n    *   **Considerations:** Can be very expensive, may be overkill for smaller nonprofits.\n\n---\n\n### User-Friendly & Donor Retention Focused\n\nThese alternatives often prioritize ease of use, modern interfaces, and features aimed at improving donor relationships and retention.\n\n4.  **Bloomerang:**\n    *   **Best for:** Small to mid-sized nonprofits that prioritize donor engagement, retention, and an intuitive user experience.\n    *   **Strengths:** Very user-friendly, excellent for donor retention analytics, integrates well with popular tools, great customer service.\n    *   **Considerations:** Some advanced features (like complex event ticketing) might require integrations rather than being native.\n\n5.  **Virtuous:**\n    *   **Best for:** Mid-sized to larger, growing nonprofits seeking a modern, AI-driven platform focused on personalized donor journeys and generosity.\n    *   **Strengths:** Modern interface, strong automation, robust reporting and analytics, excellent for segmenting and personalized communications.\n    *   **Considerations:** Can be on the higher end of pricing, requires commitment to use its automation features effectively.\n\n6.  **Kindful",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Kindful",
+    "Raiser's Edge",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 756,
+  "estimated_cost_usd": 0.001891,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

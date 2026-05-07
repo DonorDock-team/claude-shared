@@ -1,0 +1,43 @@
+{
+  "prompt_id": "P064",
+  "prompt_text": "Donor CRM with email marketing built in",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550242+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs with Built-in Email Marketing\n\nSeveral nonprofit CRMs offer integrated email marketing tools, eliminating the need for separate platforms like MailChimp. These allow donor segmentation, personalization using CRM data (e.g., giving history, tags), automation, templates, and tracking\u2014all from one dashboard. Below are the strongest matches from recent sources, ranked by feature depth and nonprofit focus.\n\n| CRM | Key Built-in Email Features | Standout Advantages | Source |\n|-----|-----------------------------|---------------------|--------|\n| **Donorbox CRM** | Drag-and-drop builder, templates for newsletters/appeals, segmentation, automation, real-time tracking, Gmail/Outlook integration, Supporter Timeline for history. | Mission-driven templates; compliant lists; holistic donor views (donations + comms). Replaces standalone tools fully. | [1](https://donorbox.org/explore/nonprofit-crm/), [8](https://donorbox.zendesk.com/hc/en-us/articles/32926570790548-How-to-Use-Donorbox-Email-Marketing) |\n| **DonorDock** | Drag-and-drop builder, AI content tools, drip campaigns, bulk texting, merge tags for personalization (e.g., gift amounts, custom fields), list building. | Replaces MailChimp/Constant Contact; CRM data personalization unbeatable by standalone tools; newsletters/appeals direct from CRM. | [2](https://www.donordock.com/donor-outreach) |\n| **Bloomerang** | Personalized emails with merge fields (e.g., donation data), previews for recipients, tailored acknowledgments. | Easy upgrades for high-quality, donor-specific sends; profile-based personalization. | [6](https://bloomerang.com/news/feature-spotlight-an-upgrade-to-bloomerangs-built-in-email-marketing/) |\n| **Giveffect** | Segmentation, replacement variables for dynamic content, real-time CRM data personalization, direct mail merge. | Scales personalized campaigns; ties to donor/volunteer data for engagement. | [7](https://www.giveffect.com/marketing-and-communications-system) |\n| **Virtuous** | Pre-built automations, custom flows tied to giving behavior, contact record access (opens/clicks history), segmentation. | All-in-one with CRM integration; tracks donor journeys seamlessly. | [4](https://virtuous.org/blog/best-email-marketing-platforms-for-nonprofits/) |\n\n#### Quick Notes\n- **DonorPerfect** ([3](https://www.donorperfect.com/factsheets/constant-contact/)) integrates deeply with Constant Contact but doesn't have fully \"built-in\" email\u2014it's a synced add-on with AI and auto-sync.\n- **Others** like Streak ([5](https://www.streak.com/post/best-crm-for-nonprofits)) mention email tools but lack detailed built-in specifics.\n- **Best for most nonprofits**: Donorbox or DonorDock for complete replacement of external tools, with superior personalization from CRM data.\n\nThese options save time by keeping everything (donor data, emails, tracking) unified. Test free trials to match your needs.",
+  "donordock_mentioned": true,
+  "donordock_position": 1028,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Virtuous"
+  ],
+  "urls_cited": [
+    "https://bloomerang.com/news/feature-spotlight-an-upgrade-to-bloomerangs-built-in-email-marketing/",
+    "https://virtuous.org/blog/best-email-marketing-platforms-for-nonprofits/",
+    "https://www.donorperfect.com/factsheets/constant-contact/",
+    "https://donorbox.org/explore/nonprofit-crm/",
+    "https://donorbox.zendesk.com/hc/en-us/articles/32926570790548-How-to-Use-Donorbox-Email-Marketing",
+    "https://www.giveffect.com/marketing-and-communications-system",
+    "https://www.streak.com/post/best-crm-for-nonprofits",
+    "https://www.donordock.com/donor-outreach"
+  ],
+  "input_tokens": 9,
+  "output_tokens": 662,
+  "estimated_cost_usd": 0.014957,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://donorbox.org/explore/nonprofit-crm/",
+      "https://www.donordock.com/donor-outreach",
+      "https://www.donorperfect.com/factsheets/constant-contact/",
+      "https://virtuous.org/blog/best-email-marketing-platforms-for-nonprofits/",
+      "https://www.streak.com/post/best-crm-for-nonprofits",
+      "https://bloomerang.com/news/feature-spotlight-an-upgrade-to-bloomerangs-built-in-email-marketing/",
+      "https://www.giveffect.com/marketing-and-communications-system",
+      "https://donorbox.zendesk.com/hc/en-us/articles/32926570790548-How-to-Use-Donorbox-Email-Marketing"
+    ]
+  }
+}

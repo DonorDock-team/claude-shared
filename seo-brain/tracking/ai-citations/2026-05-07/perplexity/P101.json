@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P101",
+  "prompt_text": "DonorPerfect total cost of ownership",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550430+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorPerfect Total Cost of Ownership (TCO)\n\nBased on current pricing information, here's a comprehensive breakdown of DonorPerfect's TCO:\n\n## Monthly Software Costs\nDonorPerfect offers tiered pricing based on constituent records:\n\n- **Lite/Essentials Plan**: $89-$99/month (up to 1,000 records)\n- **Growth/Express Plan**: $159/month\n- **Premier Plan**: $499/month (25,000 records)\n- **Enterprise Plan**: $799/month (75,000 records)\n\n## Implementation & Setup\n- **Implementation**: $500-$5,000\n- **Data Migration/Setup**: $500-$2,000\n- **Customization** (optional): $500-$2,000\n\n## Training & Support\n- **Training**: $500-$2,000 per session\n- **Ongoing Support/Maintenance**: Hundreds to thousands per year depending on complexity\n\n## 3-Year TCO Estimate\n\n**Total Cost of Ownership (3-Year Range): $5,000-$20,000**\n\nThis varies significantly based on:\n- Organization size\n- Number of features needed\n- Implementation complexity\n- Training requirements\n\n**Industry Average Comparison**: $7,000-$25,000 for comparable nonprofit CRM solutions\n\n## Key Cost Advantages\n- **No tipping fees** (unlike platforms like Givebutter)\n- **Donor Covers Cost (DCC)** feature allows donors to offset processing fees\n- **No required hardware/servers**\n- Custom pricing available for larger organizations\n\nFor a personalized quote, DonorPerfect representatives can provide no-obligation pricing based on your specific nonprofit needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 339,
+  "estimated_cost_usd": 0.010109,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://pricingnow.com/question/donorperfect-cost/",
+      "https://www.itqlick.com/donorperfect/pricing",
+      "https://growjo.com/company/DonorPerfect_Fundraising_Growth_Platform",
+      "https://www.donorperfect.com/fundraising-software/compare-donor-management-systems/givebutter/",
+      "https://www.donorperfect.com/factsheets/donor-covers-cost-dcc/",
+      "https://www.donorperfect.com/fundraising-software/pricing-guide/",
+      "https://www.donorperfect.com/video/donorperfects-new-pricing/",
+      "https://www.trustradius.com/products/donorperfect/pricing",
+      "https://www.donorperfect.com/company/employee-owned/",
+      "https://www.donorperfect.com/video/end-of-year-procedures-on-demand-webinar-us/"
+    ]
+  }
+}

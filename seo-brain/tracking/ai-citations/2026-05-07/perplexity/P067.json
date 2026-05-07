@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550551+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### How to Track Donor Relationships Across a Team\n\nTracking donor relationships effectively requires a centralized system that ensures team-wide visibility, consistency, and collaboration. Nonprofit CRMs (constituent relationship management systems) or donor management software are the gold standard, as they store all donor data in one hub, automate workflows, and prevent silos. Below, I'll outline key strategies, drawing from proven best practices.\n\n#### 1. **Invest in a Centralized Nonprofit CRM or Donor Management System**\n   - **Why it works**: These tools create individual donor profiles that log every interaction (e.g., emails, calls, events, donations), making history accessible to the entire team. No more scattered spreadsheets or email chains.\n   - **Key features to prioritize**:\n     | Feature | Benefit for Team Tracking |\n     |---------|---------------------------|\n     | **Rich donor profiles** | Store giving history, communication logs, event RSVPs, notes, preferences, and relationships (e.g., household or workplace connections). Everyone sees the full \"story\" of the donor. |\n     | **Interaction logging** | Timestamped records of calls, thank-yous, newsletters, or meetings. Track frequency and type to spot patterns like declining engagement. |\n     | **Task assignments & reminders** | Auto-generate tasks (e.g., \"Follow up with Donor X post-event\") and assign to team members with due dates and notifications. |\n     | **List segmentation** | Group donors (e.g., \"LYBUNT\" for lapsed last-year donors, \"Major Donors,\" \"Frequent Givers\") for targeted team campaigns. |\n   - **Examples of tools** (from 2026 recommendations):\n     | Tool | Strengths for Team Use |\n     |------|------------------------|\n     | **Jetpack CRM** | Builds detailed profiles; segments for personalized outreach; tracks emails/events. |\n     | **DonorPerfect** | Donor journey mapping; automates stewardship cycles (Ask-Thank-Report-Repeat); dashboards for retention metrics. |\n     | **Bonterra** | Donation tracking with automation for thank-yous; alerts for lapsed donors. |\n     | **Kindful** | Household tracking, custom reports (e.g., scheduled lapsed donor lists), donor analytics. |\n     | **Instil** | Holistic data collection for referrals and sentiment. |\n\n#### 2. **Track Core Metrics for Relationship Health**\n   Focus on these team-shareable KPIs to measure progress and guide actions. Use CRM dashboards for real-time views:\n   - **Record of Interactions**: Log all touchpoints (in-person/digital) to monitor engagement trends over time.\n   - **Donor Sentiment**: Note feedback from surveys or notes to inform personalized outreach.\n   - **Engagement Over Time**: Track attendance, opens/clicks, and volunteer involvement.\n   - **Retention Reports**: LYBUNT/SYBUNT lists to flag at-risk donors for immediate team action.\n   - **Donor Referrals & Upgrades**: Monitor new donors from referrals and giving increases.\n   - **Retention Rates**: Year-over-year giving and lifetime value to benchmark team performance.\n\n#### 3. **Implement Team Best Practices**\n   - **Standardize Data Entry**: Train the team on logging interactions immediately (e.g., \"Date, type, notes, outcome\"). Use mobile apps for on-the-go updates.\n   - **Automate Workflows**: Set up reminders for stewardship (e.g., thank-yous within 48 hours) and shareable calendars for events.\n   - **Share Insights Regularly**: Create dashboards or scheduled reports (e.g., weekly lapsed donor lists emailed to the team). Hold meetings to review metrics like meaningful connections (calls, notes, events).\n   - **Integrate Tools**: Link your CRM with email, online forms, and event platforms for automatic data sync.\n   - **Segment and Personalize**: Use profiles to tailor outreach (e.g., major donors get in-person invites; grassroots get digital updates).\n\n#### 4. **Common Pitfalls to Avoid**\n   - **Siloed Data**: Without a CRM, teams duplicate efforts or miss history\u2014leading to poor retention (average nonprofit retention is ~45%).\n   - **Inconsistent Cadence**: Major donors need more frequent touches; use cohorts to enforce this.\n   - **No Measurement**: Always tie tracking to goals like retention (aim for 60-70% for majors) or acquisition costs.\n\nBy centralizing in a CRM and focusing on these metrics/workflows, your team can cultivate stronger relationships, boost retention, and scale efficiently. Start with a free trial of DonorPerfect or Kindful to test team access. For major donors, emphasize journey mapping to ensure every interaction builds lifetime loyalty.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bonterra",
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 979,
+  "estimated_cost_usd": 0.019712,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.instil.io/resources/6-important-donor-relationship-metrics-to-track",
+      "https://jetpackcrm.com/managing-donor-relationships-a-crm-guide-for-nonprofit-organizations/",
+      "https://www.bonterratech.com/blog/donor-relations-strategies",
+      "https://www.donorperfect.com/nonprofit-technology-blog/fundraising-software/major-donor-retention-tools-how-to-build-relationships-that-last-a-lifetime/",
+      "https://afpglobal.org/6-important-metrics-tracking-major-donor-relationships-sponsored-content",
+      "https://kindful.com/nonprofit-glossary/donor-management-software/",
+      "https://www.nonprofitpro.com/post/donor-management-5-ways-organize-supporter-data/",
+      "https://www.donorrelations.com/post/4-key-metrics-for-donor-relations-success",
+      "https://donorsnap.com/blog/donor-retention-metrics/"
+    ]
+  }
+}

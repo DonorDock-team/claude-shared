@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P083",
+  "prompt_text": "Best donor CRM for museums",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550394+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Museums\n\nHere are the top donor CRM options specifically suited for museums:\n\n## **Top Recommendations**\n\n### **1. Blackbaud Altru**\n- **Built specifically for museums** and cultural institutions\n- Combines fundraising, membership, ticketing, and programs\n- Strong for mid-to-large museums\n- **Cons:** Premium pricing, can be complex\n\n### **2. Salesforce Nonprofit Cloud**\n- Highly customizable for museum needs\n- Excellent for constituent relationship management\n- Integrates well with ticketing/membership systems\n- **Cons:** Requires setup/customization investment\n\n### **3. Bloomerang**\n- User-friendly with strong retention analytics\n- Good for small-to-mid-sized museums\n- Affordable pricing\n- **Cons:** Less museum-specific features\n\n### **4. Little Green Light**\n- Budget-friendly option\n- Simple, intuitive interface\n- Good reporting capabilities\n- **Cons:** Fewer integrations than larger platforms\n\n### **5. Tessitura**\n- Enterprise solution for large museums\n- Excellent ticketing + CRM integration\n- Strong patron analytics\n- **Cons:** Expensive, significant implementation time\n\n## **Key Considerations**\n\n- **Integration needs:** Does it work with your ticketing/membership system?\n- **Budget:** Range from ~$1,500/year (LGL) to $50K+ (Altru, Tessitura)\n- **Museum size:** Staff capacity for implementation/training\n- **Membership management:** Critical feature for most museums\n\nWhat's your museum's size and primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "LGL",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 370,
+  "estimated_cost_usd": 0.005589,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

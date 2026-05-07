@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550543+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For nonprofits seeking a CRM similar to Salesforce, several platforms are specifically tailored to address the unique needs and challenges of nonprofit organizations. Here are a few notable options:\n\n1. **Blackbaud CRM**: Blackbaud offers a range of solutions designed specifically for nonprofits, including fundraising, financial management, and constituent relationship management. Their products are designed to help nonprofits manage their donor relationships and fundraising efforts effectively.\n\n2. **NeonCRM**: NeonCRM is designed for nonprofits and offers features for managing donors, fundraising campaigns, and events. It also includes tools for email marketing, reporting, and volunteer management.\n\n3. **Bloomerang**: Bloomerang is focused on donor management and retention. It provides tools for managing donor relationships, tracking engagement, and analyzing fundraising efforts.\n\n4. **DonorPerfect**: This CRM is designed to help nonprofits raise more money and manage donor relationships more effectively. It includes features for donation processing, reporting, and communication management.\n\n5. **Kindful**: Kindful aims to provide an easy-to-use platform for donor management, fundraising, and reporting. It includes integrations with other software like QuickBooks and Mailchimp, making it easier to manage various aspects of nonprofit operations.\n\n6. **Little Green Light**: Focused on fundraising and donor management, Little Green Light offers tools for tracking donations, managing campaigns, and engaging with constituents.\n\n7. **Virtuous CRM**: This platform is aimed at helping nonprofits increase their impact through better relationship management. It incorporates marketing, fundraising, and donor management features.\n\nMany of these CRMs, like Salesforce with its Nonprofit Success Pack (NPSP), can be customized or integrated with additional tools to better fit the specific needs of the organization. It's important for nonprofits to evaluate their specific requirements and consider factors like cost, scalability, ease of use, and available integrations when choosing a CRM.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 376,
+  "estimated_cost_usd": 0.0038,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

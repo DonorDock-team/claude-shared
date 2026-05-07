@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550626+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Keela are both popular cloud-based donor management and fundraising software solutions designed for nonprofits. While they share core functionalities, they have distinct philosophies, feature sets, and ideal user bases.\n\nHere's a breakdown to help you compare them:\n\n## DonorDock\n\n**Philosophy:** Focuses on simplicity, ease of use, and a modern, intuitive user interface for core donor management and fundraising. It aims to be effective without being overly complex or feature-bloated.\n\n**Key Features & Characteristics:**\n\n*   **Donor CRM:** Robust contact management, donor profiles, relationship tracking, giving history.\n*   **Fundraising:** Online donation pages and forms, recurring giving, peer-to-peer (via integration), event management (via integration). Strong integration with Qgiv for payment processing and advanced fundraising tools.\n*   **Communication:** Email segmentation, direct mail merge capabilities, personalized communications. Relies on integrations (like Mailchimp or Constant Contact via Zapier) for mass email marketing.\n*   **Reporting & Analytics:** Standard reports on donors, campaigns, and giving. Dashboards for at-a-glance insights.\n*   **Integrations:** Excellent Zapier integration, strong direct integration with Qgiv. Connects with accounting software like QuickBooks.\n*   **Ease of Use:** Often praised for its modern, clean interface and user-friendliness, making it quick to learn and adopt.\n*   **Pricing:** Generally considered transparent and competitive, often based on the number of active contacts.\n\n**Strengths:**\n*   **Modern UI/UX:** Very intuitive and pleasant to use.\n*   **Simplicity:** Great for organizations that want powerful core features without unnecessary complexity.\n*   **Qgiv Integration:** Seamless experience if you already use or plan to use Qgiv for online fundraising and events.\n*   **Strong Support:** Users often report excellent customer service.\n*   **Affordable:** Good value for its feature set, especially for smaller to mid-sized organizations.\n\n**Potential Drawbacks:**\n*   **Less \"All-in-One\":** Relies on integrations for more advanced features like comprehensive email marketing, grant management, or volunteer management.\n*   **Newer Player:** While mature, it's not as established as some older platforms.\n\n## Keela\n\n**Philosophy:** Aims to be a comprehensive, all-in-one solution for nonprofits, offering a broader range of features including AI-powered insights, beyond just core donor management.\n\n**Key Features & Characteristics:**\n\n*   **Donor CRM:** Detailed donor profiles, relationship tracking, giving history, custom fields.\n*   **Fundraising:** Online donation pages and forms, recurring giving, peer-to-peer fundraising, event management.\n*   **Communication:** Built-in email marketing, mail merge, and SMS capabilities, extensive segmentation.\n*   **AI-Powered Insights:** A major differentiator. Features like \"Donor Score,\" \"Propensity to Give,\" and \"Wealth Indicators\" to help identify and cultivate major donors.\n*   **Grant Management:** Dedicated tools to track grant applications, deadlines, and reporting.\n*   **Volunteer Management:** Tools to recruit, schedule",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 664,
+  "estimated_cost_usd": 0.001661,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

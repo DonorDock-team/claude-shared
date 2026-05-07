@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P143",
+  "prompt_text": "Donor CRM that does pledges and recurring",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550806+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Almost all dedicated donor CRMs are designed to handle both **pledges** and **recurring donations** as these are fundamental components of non-profit fundraising. The difference lies in how robustly they track these, the associated features (like payment reminders, automated installment tracking, credit card updaters), and their overall CRM capabilities.\n\nHere are some of the top Donor CRM systems that excel in managing pledges and recurring gifts, categorized roughly by typical user size/complexity:\n\n---\n\n### Popular Donor CRMs for Pledges and Recurring Donations:\n\n**For Small to Mid-Sized Organizations (often more budget-friendly and user-friendly):**\n\n1.  **Bloomerang:**\n    *   **Strengths:** Excellent for donor retention, intuitive interface, strong reporting, tracks pledges (payment schedules, reminders) and recurring gifts very well, including credit card updating services. Known for its focus on helping non-profits improve donor loyalty. (Now includes Kindful features).\n    *   **Pledges/Recurring:** Yes, core functionality.\n\n2.  **DonorPerfect:**\n    *   **Strengths:** A long-standing, all-in-one solution that handles virtually all aspects of donor management, including robust pledge management (tracking installments, outstanding balances, generating payment schedules) and recurring gift processing (integrates with their own payment processor, DPPay).\n    *   **Pledges/Recurring:** Yes, comprehensive.\n\n3.  **Neon One (NeonCRM):**\n    *   **Strengths:** A comprehensive platform great for organizations with diverse needs (membership, events, volunteers, as well",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 335,
+  "estimated_cost_usd": 0.00084,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "prompt_id": "P087",
+  "prompt_text": "Best donor CRM for refugee services",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550674+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Refugee Services Nonprofits\n\nRefugee services organizations (e.g., those focused on aid, resettlement, advocacy, or emergency response) need donor CRMs that excel in **multi-language support**, **global donor tracking**, **recurring donation management**, **event/grant tracking**, and **integration with payment gateways** for international fundraising. They often handle high-volume, one-off crisis donors alongside long-term supporters. Based on 2026 reviews from sources like DonorDock, Bloomerang, and GoodUnited, here are the **best fits**, prioritized for refugee-focused needs:\n\n#### 1. **Bloomerang** (Top Recommendation for Most Refugee Orgs)\n   - **Why ideal for refugee services**: Prioritizes donor retention with AI-driven insights (e.g., engagement scoring for crisis campaigns). Handles wealth screening for major donors funding refugee programs. Easy volunteer/event tracking for resettlement events. Unlimited users, mobile app for field staff.\n   - **Key features**: Automated thank-yous, recurring gifts, reporting dashboards for grant reports (vital for UNHCR-style funding).\n   - **Pricing**: Starts at $119/month (billed annually); free trial.\n   - **Pros**: User-friendly (no IT needed), 95%+ retention focus. Used by similar orgs like humanitarian aid groups.\n   - **Cons**: Less robust for 1,000+ donors without add-ons.\n   - **Sources**: Bloomerang's 2026 guide [3], Evertrue [6], LiveImpact comparison [5].\n\n#### 2. **DonorPerfect Fundraising**\n   - **Why ideal**: Built for mid-sized nonprofits with complex donor histories (e.g., tracking diaspora donors). Strong in pledge/recurring management for monthly refugee aid campaigns. Integrates with global processors like Stripe for international giving.\n   - **Key features**: Custom workflows for emergency appeals, segmentation by giving history (e.g., one-time vs. sustainers), built-in email/marketing.\n   - **Pricing**: $89\u2013$500+/month based on contacts; nonprofit discounts.\n   - **Pros**: Scalable for growing refugee orgs; excellent reporting for compliance.\n   - **Cons**: Steeper learning curve.\n   - **Sources**: DonorDock's 2026 buyer's guide [4], Ellipsis Partners [8].\n\n#### 3. **Salesforce Nonprofit Cloud** (Best for Large/Global Refugee Orgs)\n   - **Why ideal**: Highly customizable for international ops (multi-currency, languages). Powers orgs like IRC or Refugee Council with case management + donor tracking. Free starter edition for small teams.\n   - **Key features**: AI (Einstein) for donor predictions, integrations with EveryAction for advocacy campaigns.\n   - **Pricing**: Free for 10 users; $36\u2013$72/user/month for advanced.\n   - **Pros**: Unlimited scalability, grant management.\n   - **Cons**: Requires setup expertise (or consultant).\n   - **Sources**: LiveImpact [5], Ellipsis Partners [8], DonorDock [4].\n\n#### Quick Comparison Table (Top Contenders for Refugee Services)\n\n| CRM              | Best For                  | Starting Price | Donor Limit | Standout Refugee Feature              | Rating (2026 Avg.) |\n|------------------|---------------------------|----------------|-------------|---------------------------------------|--------------------|\n| **Bloomerang**  | Retention & ease-of-use  | $119/mo       | Unlimited  | Engagement scoring for campaigns     | 4.9/5             |\n| **DonorPerfect**| Mid-size complexity      | $89/mo        | 500+       | Global recurring pledges             | 4.7/5             |\n| **Salesforce**  | Large/global scale       | Free starter  | Unlimited  | Multi-language/currency              | 4.6/5             |\n| **EveryAction (Bonterra)** | Advocacy + donors     | Custom        | 5K+        | Voter/refugee advocacy integration   | 4.5/5             |\n| **Keela**       | Small teams              | $99/mo        | Unlimited  | Mobile-first for field fundraising   | 4.4/5             |\n\n#### Other Strong Options\n- **Neon One**: Affordable ($99/mo) with quick online forms\u2014great for urgent refugee appeals [8].\n- **Kindful (by Bloomerang)**: Simple QuickBooks integration for small refugee orgs [7].\n- **Little Green Light**: Budget-friendly for tiny teams (<500 donors) [5].\n\n#### How to Choose\n- **Small (<500 donors)**: Bloomerang or Keela\u2014focus on simplicity.\n- **Mid-size (500\u20135K)**: DonorPerfect\u2014balances power and cost.\n- **Large/global**: Salesforce\u2014handles complexity.\n- **Next steps**: Demo 2\u20133 via free trials. Check integrations (e.g., with Classy for peer-to-peer refugee fundraisers). Most offer nonprofit pricing (10\u201320% off).\n\nThese picks draw from 2026 comparisons emphasizing donor retention (key for sustained refugee aid) across DonorDock [4], Bloomerang [3], and LiveImpact [5]. No single \"perfect\" CRM exists\u2014match to your donor volume and tech comfort. Need specifics on your org size/budget? Provide details for tailored advice.",
+  "donordock_mentioned": true,
+  "donordock_position": 503,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Neon One",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1116,
+  "estimated_cost_usd": 0.021761,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://bloomerang.com/blog/donor-management-software/",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://www.evertrue.com/blog/donor-management-software-solutions/",
+      "https://kindful.com/nonprofit-glossary/donor-management-software/",
+      "https://www.ellipsispartners.com/donation-crms-for-nonprofits/",
+      "https://www.authencio.com/blog/best-donor-management-software-for-nonprofits-guide"
+    ]
+  }
+}

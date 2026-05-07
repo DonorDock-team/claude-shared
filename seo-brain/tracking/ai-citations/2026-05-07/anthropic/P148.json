@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P148",
+  "prompt_text": "Donor management vs CRM what's the difference",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.551043+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor Management vs CRM: Key Differences\n\n## **Donor Management System**\nA **specialized tool designed specifically for nonprofits** to handle fundraising and donor relationships.\n\n### Key Features:\n- **Donation tracking** (gifts, pledges, recurring donations)\n- **Campaign management** for fundraising drives\n- **Grant tracking** and reporting\n- **Tax receipts** and acknowledgment letters\n- **Donor segmentation** based on giving history\n- **Event management** for galas, auctions, etc.\n- **Nonprofit-specific reporting** (LYBUNT, SYBUNT, retention rates)\n\n### Examples:\nBloomerang, DonorPerfect, Little Green Light, Raiser's Edge\n\n---\n\n## **CRM (Customer Relationship Management)**\nA **general business tool** for managing relationships with customers, clients, or constituents.\n\n### Key Features:\n- **Contact management**\n- **Sales pipeline** tracking\n- **Marketing automation**\n- **Task and activity management**\n- **Customizable workflows**\n- **Analytics and dashboards**\n- Flexible for various industries\n\n### Examples:\nSalesforce, HubSpot, Microsoft Dynamics\n\n---\n\n## **The Bottom Line**\n\n- **Donor Management = Built for nonprofits** with fundraising-specific features out of the box\n- **CRM = Flexible platform** that can be customized for nonprofits but requires more setup\n\nMany nonprofits use **Salesforce's Nonprofit Cloud** (a CRM adapted for nonprofits) as a middle ground, getting CRM power with nonprofit-specific features.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 367,
+  "estimated_cost_usd": 0.005556,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

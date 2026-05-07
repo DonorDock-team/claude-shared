@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P137",
+  "prompt_text": "Little Green Light limitations",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550448+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Little Green Light (LGL) is a popular and well-regarded CRM solution specifically designed for small to mid-sized nonprofits. While it excels in many areas, particularly affordability and ease of use for its target audience, it does have some limitations compared to more robust, enterprise-level, or highly specialized systems.\n\nHere are some common limitations of Little Green Light:\n\n1.  **Scalability for Very Large Organizations:**\n    *   While LGL handles a good volume of donors and data, very large organizations with hundreds of thousands or millions of constituents, complex departmental structures, and massive transaction volumes might find it less robust than systems like Salesforce NPSP, Blackbaud Raiser's Edge NXT, or Microsoft Dynamics.\n    *   The user interface and reporting might become slower or less efficient with extremely large datasets.\n\n2.  **Less Advanced CRM Features:**\n    *   LGL focuses on core donor management. It may lack some of the deeper, more sophisticated CRM functionalities found in higher-end systems, such as:\n        *   **Complex Relationship Mapping:** While it tracks relationships, very intricate network mapping or organizational hierarchies might be harder to visualize and manage.\n        *   **Advanced Workflow Automation:** While it has some automation, highly customized, multi-stage approval processes or intricate task management might be limited.\n        *   **Predictive Analytics & AI:** LGL's reporting is strong for what it does, but it typically doesn't offer predictive analytics, AI-driven insights for donor propensity, or machine learning capabilities for fundraising optimization.\n\n3.  **Limited Advanced Marketing Automation:**\n    *   LGL has built-in email capabilities and integrates with tools like Mailchimp and Constant Contact. However, it's not a full-fledged marketing automation platform. It won't have the deep segmentation, A/B testing, drip campaigns, landing page builders, or advanced lead nurturing sequences found in dedicated marketing automation tools (e.g., HubSpot, Pardot, Marketo).\n\n4.  **No Native Accounting/Financial System:**\n    *   LGL is a donor management system, not an accounting system. While it integrates well with QuickBooks and other accounting software, it doesn't handle general ledgers, accounts payable/receivable, payroll, or full financial reporting natively.\n\n5.  **Less Extensive Customization:**\n    *   While you can add custom fields, customize forms, and configure",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "LGL",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 502,
+  "estimated_cost_usd": 0.001256,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

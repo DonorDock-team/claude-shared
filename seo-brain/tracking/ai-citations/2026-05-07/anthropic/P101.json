@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P101",
+  "prompt_text": "DonorPerfect total cost of ownership",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550396+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorPerfect Total Cost of Ownership (TCO)\n\n## Base Pricing Structure\n\n**Subscription Model:**\n- Starting at approximately **$89-149/month** for small organizations\n- **$1,068-1,788/year** minimum\n- Pricing scales with:\n  - Number of records/contacts\n  - Number of users\n  - Features needed\n\n## Core Cost Components\n\n### 1. **Software Subscription** ($1,000-$10,000+/year)\n- Tiered based on database size and users\n- Common mid-sized nonprofit: $3,000-5,000/year\n\n### 2. **Implementation & Setup** ($500-$5,000+)\n- Initial configuration\n- Data migration from previous system\n- Custom fields and forms setup\n- May require professional services\n\n### 3. **Training** ($500-$2,000)\n- Initial staff training\n- Ongoing training for new employees\n- Some included, advanced training extra\n\n### 4. **Add-on Modules** (Variable)\n- **Online donations** (included in most plans)\n- **Email marketing** ($300-600/year additional)\n- **Event management**\n- **Grant tracking**\n- **Mobile app access**\n- **Advanced reporting**\n\n### 5. **Payment Processing Fees**\n- If using DonorPerfect's payment processor\n- Typically **2.3-3.0% + $0.30** per transaction\n- Can use third-party processors\n\n### 6. **Technical Support** (Often included)\n- Basic support usually included\n- Premium support packages available\n\n### 7. **Maintenance & Updates**\n- Generally included in subscription\n- Cloud-based = automatic updates\n\n## Sample TCO Scenarios\n\n### **Small Nonprofit (< 5,000 contacts)**\n- Annual subscription: $1,500-2,500\n- Setup/migration: $1,000 (one-time)\n- Training: $500 (one-time)\n- **Year 1**: ~$3,000-4,000\n- **Ongoing**: ~$1,500-2,500/year\n\n### **Medium Nonprofit (5,000-25,000 contacts)**\n- Annual subscription: $3,500-6,000\n- Setup/migration: $2,500 (one-time)\n- Training: $1,000 (one-time)\n- Add-ons: $500-1,000/year\n- **Year 1**: ~$7,500-10,500\n- **Ongoing**: ~$4,000-7,000/year\n\n### **Large Nonprofit (25,000+ contacts)**\n- Annual subscription: $8,000-15,000+\n- Setup/migration: $5,000+ (one-time)\n- Training: $2,000+ (one-time)\n- Add-ons: $1,500+/year\n- **Year 1**: ~$16,500-22,500+\n- **Ongoing**: ~$9,500-16,500+/year\n\n## Hidden/Often-Overlooked Costs\n\n- **Staff time** for system administration\n- **Custom report development**\n- **Integration** with other tools (accounting, email, etc.)\n- **Data cleanup** before/after migration\n- **Consultant fees** if needed\n- **Additional user licenses** as you grow\n\n## Cost-Saving Tips\n\n1. Negotiate multi-year contracts\n2. Start with essential features only\n3. Use included training resources\n4. DIY implementation if tech-savvy\n5. Compare payment processor rates\n\n## Questions to Ask DonorPerfect\n\n- What's included in base pricing for our size?\n- What are overage fees?\n- Are there contracts or can we cancel anytime?\n- What does implementation/migration cost?\n- Which integrations are free vs. paid?\n\n**Note:** Pricing varies significantly based on organizational needs. Request a custom quote for accurate TCO.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 910,
+  "estimated_cost_usd": 0.013701,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

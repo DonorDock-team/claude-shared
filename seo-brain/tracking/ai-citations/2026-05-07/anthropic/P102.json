@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550460+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Free Alternatives to Salesforce Nonprofit Cloud\n\nHere are the best free options for nonprofits:\n\n## **Fully Free Options**\n\n### **1. Salesforce Nonprofit Success Pack (NPSP)**\n- **Free** for eligible nonprofits (10 licenses)\n- Built on Salesforce platform\n- Includes donor management, fundraising, program tracking\n- **Best for:** Organizations already considering Salesforce\n\n### **2. CiviCRM**\n- Completely free and open-source\n- Donor management, event registration, email marketing\n- Integrates with WordPress, Drupal, Joomla\n- **Best for:** Tech-savvy orgs with website integration needs\n\n### **3. Odoo Community Edition**\n- Open-source ERP with CRM module\n- Customizable for nonprofit needs\n- Includes accounting, inventory, project management\n- **Best for:** Orgs needing all-in-one operations management\n\n## **Freemium Options (Generous Free Tiers)**\n\n### **4. HubSpot for Nonprofits**\n- Free CRM with unlimited users\n- Contact management, email tracking, forms\n- Discount on paid features\n- **Best for:** Marketing-focused nonprofits\n\n### **5. Zoho CRM**\n- Free for up to 3 users\n- Additional nonprofit discounts available\n- Contact management, workflows, reports\n- **Best for:** Small teams\n\n### **6. Bitrix24**\n- Free for unlimited users (limited features)\n- CRM, projects, communication tools\n- **Best for:** Collaboration-focused organizations\n\n## **Recommendation**\nStart with **NPSP** if you want robust features, or **HubSpot** for simplicity and ease of use.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 405,
+  "estimated_cost_usd": 0.006123,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

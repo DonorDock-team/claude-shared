@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P091",
+  "prompt_text": "Best donor CRM for environmental nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550870+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Environmental Nonprofits\n\n## Top Recommendations\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large environmental orgs with complex needs\n- **Strengths:** Highly customizable, program tracking, grant management\n- **Pricing:** Free for 10 users (Power of Us program), then ~$36/user/month\n- **Environmental fit:** Can track campaigns, volunteer activities, advocacy efforts\n\n### **2. Bloomerang**\n- **Best for:** Small to mid-sized orgs focused on donor retention\n- **Strengths:** Excellent donor engagement scores, intuitive interface\n- **Pricing:** Starts at ~$125/month\n- **Environmental fit:** Strong email marketing, event management\n\n### **3. NeonCRM**\n- **Best for:** Growing environmental nonprofits\n- **Strengths:** All-in-one (donations, membership, events, volunteers)\n- **Pricing:** Starts at ~$50/month\n- **Environmental fit:** Membership management for conservation groups\n\n### **4. Little Green Light**\n- **Best for:** Budget-conscious smaller organizations\n- **Strengths:** Affordable, solid reporting, grant tracking\n- **Pricing:** Starts at ~$39/month\n- **Environmental fit:** Good for land trusts and local conservation groups\n\n### **5. EveryAction (Bonterra)**\n- **Best for:** Advocacy-heavy environmental organizations\n- **Strengths:** Integrates CRM with advocacy/campaigning tools\n- **Pricing:** Custom (typically higher-end)\n- **Environmental fit:** Used by major environmental groups like Sierra Club\n\n## Key Features to Prioritize\n- Grant tracking and reporting\n- Volunteer/activist management\n- Campaign and advocacy integration\n- Membership tiers\n- Geographic/mapping capabilities\n\nWhat's your organization's size and primary focus?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 427,
+  "estimated_cost_usd": 0.006453,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

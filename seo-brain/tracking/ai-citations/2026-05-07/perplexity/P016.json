@@ -1,0 +1,41 @@
+{
+  "prompt_id": "P016",
+  "prompt_text": "Alternative to DonorPerfect",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550720+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Alternatives to DonorPerfect (2026)\n\nDonorPerfect is a longstanding nonprofit CRM focused on donor management, fundraising, and reporting, but many organizations switch due to its dated interface, high costs (starting ~$99/month), integration patchwork, and complexity. Based on recent comparisons from G2, vendor blogs, and nonprofit reviews, here are the **top 10 alternatives**, prioritized by frequency of recommendations, user ratings, and key strengths like ease of use, pricing, and unified features. I've grouped them by best fit.\n\n#### 1. **Givebutter** (Best Overall & Free Option)\n   - **Why switch?** Completely free (unlimited donors, CRM, email, analytics, integrations, 24/7 support). Modern forms, peer-to-peer, events, and real-time fundraising progress\u2014beats DonorPerfect's clunky tools. Faster setup and no monthly fees.\n   - **Ideal for:** Small-to-mid nonprofits wanting all-in-one without costs.\n   - **Sources:** G2 #1, Givebutter blog, CharityEngine blog.\n   - **Pricing:** Free (2.95% + $0.30/transaction).\n\n#### 2. **Bloomerang** (Best for Donor Retention & Unified Platform)\n   - **Why switch?** Clean interface with donor engagement meters, retention reporting, and integrated fundraising (text, events, P2P). No data silos\u2014unified CRM, volunteers, and insights via drag-and-drop reports. Easier than DonorPerfect's spreadsheets.\n   - **Ideal for:** Mid-sized orgs prioritizing retention over raw data depth.\n   - **Sources:** G2 #2, Bloomerang site, Teachfloor, Harness.\n   - **Pricing:** Starts ~$119/month.\n\n#### 3. **CharityEngine** (Best for Native Automation & AI)\n   - **Why switch?** All features built-in (payments, recurring gifts, P2P, AI segmentation)\u2014no DonorPerfect-style add-ons. Custom dashboards and unified data for effortless reporting/stewardship.\n   - **Ideal for:** Growing teams tired of integrations.\n   - **Sources:** CharityEngine blog #1, Givebutter blog.\n   - **Pricing:** Custom (fundraising-focused).\n\n#### 4. **Little Green Light** (Best Budget/Simplest)\n   - **Why switch?** Streamlined core features (contacts, gifts, events, reports) without DonorPerfect's bloat or learning curve. Affordable for basics; integrates with QuickBooks/Mailchimp.\n   - **Ideal for:** Small orgs or volunteers needing essentials only.\n   - **Sources:** Teachfloor #3, Givebutter blog, CharityEngine blog.\n   - **Pricing:** Starts ~$39/month.\n\n#### 5. **Neon CRM** (Best Modular CRM)\n   - **Why switch?** CRM-first with add-ons for events/fundraising. More flexible than DonorPerfect for mid-market needs.\n   - **Ideal for:** Orgs wanting customizable modules.\n   - **Sources:** G2 #4, Givebutter blog.\n   - **Pricing:** Starts ~$99/month.\n\n#### Other Strong Contenders\n| Alternative | Key Edge Over DonorPerfect | Best For | Pricing Starts |\n|-------------|--------------------------------|----------|---------------|\n| **Bonterra (EveryAction)** | Omnichannel automation, no silos for complex campaigns | Large campaigns | Custom |\n| **Virtuous** | AI insights, modern UX (Raiser's Edge alternative too) | Engagement-focused | Custom |\n| **Funraise** | Drag-and-drop forms, donor journeys | UX-driven fundraising | ~$99/month |\n| **Keela** | AI donor recommendations, easy segmentation | Retention optimization | Custom |\n| **Kindful** | Visual dashboards, QuickBooks sync | Marketing automation | ~$119/month (now part of Bloomerang) |\n\n#### Quick Comparison Table: DonorPerfect vs. Top 3\n| Feature | DonorPerfect | Givebutter | Bloomerang | CharityEngine |\n|---------|--------------|------------|------------|---------------|\n| **Pricing** | $99+/month | Free | $119+/month | Custom |\n| **Interface** | Dated/clunky | Modern/mobile | Clean/engaging | Custom AI dashboards |\n| **Integrations** | Patchwork/add-ons | Unlimited native | Unified platform | All native |\n| **Key Strength** | Deep reporting | Speed/value | Retention metrics | Automation |\n| **G2 Rating** | N/A | Top-rated | High | High |\n\n#### Switching Tips\n- **Free trials:** Most offer 14-30 days (e.g., Bloomerang, Givebutter).\n- **Migration ease:** Tools like Bloomerang/Givebutter handle DonorPerfect imports seamlessly.\n- **Consider your size:** Small/budget? Givebutter or Little Green Light. Enterprise? Salesforce or Bonterra.\n- **Data from 2026 sources:** G2, vendor sites emphasize DonorPerfect's age vs. these modern, unified options.\n\nFor specifics (e.g., your nonprofit size/budget), provide more details! Sources: G2 [1], CharityEngine [2], Givebutter [3], Bloomerang [4], Teachfloor [5].",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Givebutter",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 1109,
+  "estimated_cost_usd": 0.021653,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.g2.com/products/donorperfect/competitors/alternatives",
+      "https://blog.charityengine.net/donorperfect-alternatives",
+      "https://givebutter.com/blog/donorperfect-alternatives",
+      "https://bloomerang.com/alternative/donorperfect/",
+      "https://www.teachfloor.com/blog/best-donorperfect-alternatives",
+      "https://www.nonprofitfixer.com/nonprofit-fixer-blog/best-fundraising-software",
+      "https://www.bonterratech.com/blog/donor-management-software",
+      "https://www.goharness.com/blog-posts/bloomerang-vs-donorperfect",
+      "https://virtuous.org/compare/"
+    ]
+  }
+}

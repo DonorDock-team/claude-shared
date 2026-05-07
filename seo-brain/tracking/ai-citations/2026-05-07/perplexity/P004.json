@@ -1,0 +1,37 @@
+{
+  "prompt_id": "P004",
+  "prompt_text": "DonorDock pricing",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550545+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### DonorDock Pricing Overview (as of 2026)\n\nDonorDock offers a **single pricing plan called DonorDock ONE** at **$500 per month** (flat rate, annual subscription). This includes:\n- **Unlimited contacts** and donor records.\n- **Unlimited gift management and tracking**.\n- **Unlimited custom online donation pages**.\n- **Reporting, dashboards, and integrations** (e.g., QuickBooks Online, Eventbrite, GoFundMe Pro, PayPal, and 1,000+ others).\n- **Volunteer, event, and grant tracking**.\n- **No contracts, no hidden costs**, and a **free trial** available.\n\n**Key evidence from sources**:\n- Official site and G2 ([1], [2]): Confirms \"$500.00 Per Month\" for DonorDock ONE with unlimited features.\n- GetApp, Capterra ([3], [4]): Lists starting price as \"$500 flat rate per month.\"\n- Pricing last updated March 2, 2026 ([2]).\n\n#### Online Giving Fees (Separate from Subscription)\n- **1% flat platform fee** on transactions ([2]).\n- **Donor-funded option**: Donors can cover a flat **5% + $0.30** per transaction (covers processing and supports DonorDock). If not covered, nonprofits pay only Stripe's standard nonprofit processing fees (typically ~2.2% + $0.30), with **no DonorDock platform fee** ([5], [6]).\n- Comparison: Lower than competitors like Network for Good (3% platform fee) or Qgiv (3.95%-4.95%) ([5], [7]).\n\n#### Alternatives for Comparison\n| Tool              | Starting Price          | Key Notes                  |\n|-------------------|-------------------------|----------------------------|\n| **Zeffy**        | $119/month (CORE)      | Basics for donor management ([2]). |\n| **DonorPerfect** | $119/user/month        | Free trial ([3], [4]).    |\n| **Little Green Light** | $45/month (up to 2,500 contacts) | First 30 days free ([2]). |\n\n**Notes**: \n- Final costs negotiated with DonorDock; no per-user or contact-based scaling ([2], [4]).\n- High user ratings for value (4.9/5 on Capterra/GetApp) due to transparency and all-in-one features ([3], [4]).\n- For custom quotes or demos: Visit [donordock.com/pricing](https://www.donordock.com/pricing) ([1]).\n\nThis is aggregated from 2026 public sources; verify directly for your nonprofit's needs.",
+  "donordock_mentioned": true,
+  "donordock_position": 4,
+  "competitors_mentioned": [
+    "DonorPerfect",
+    "Little Green Light",
+    "Network for Good"
+  ],
+  "urls_cited": [
+    "https://www.donordock.com/pricing"
+  ],
+  "input_tokens": 5,
+  "output_tokens": 563,
+  "estimated_cost_usd": 0.01346,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/pricing",
+      "https://www.g2.com/products/donordock/pricing",
+      "https://www.getapp.com/nonprofit-software/a/donordock/",
+      "https://www.capterra.com/p/184187/DonorDock/",
+      "https://helpcenter.donordock.com/kb/guide/en/donordock-and-online-giving-fees-FF6iCEKSlh/Steps/1935110",
+      "https://helpcenter.donordock.com/kb/guide/en/donors-covering-processing-fees-n6LwYO7xqb/Steps/2705524",
+      "https://www.donordock.com/compare/network-for-good-vs-donordock",
+      "https://www.softwareadvice.com/nonprofit/donordock-profile/",
+      "https://www.donordock.com/lp/donation-management",
+      "https://www.donordock.com"
+    ]
+  }
+}
