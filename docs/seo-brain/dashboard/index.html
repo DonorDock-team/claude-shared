@@ -1,0 +1,911 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>DonorDock SEO Brain — Dashboard</title>
+<link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin />
+<link rel="preconnect" href="https://api.github.com" crossorigin />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --cream: #FFFCF5;
+    --navy: #1F3252;
+    --purple: #8C2CBF;
+    --blue: #5B7BD9;
+    --coral: #F08C6A;
+    --sage: #7AB07A;
+    --slate: #4A5568;
+    --slate-light: #718096;
+    --border: #E5E0D5;
+    --bg-card: #FFFFFF;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Silka', -apple-system, system-ui, 'Segoe UI', sans-serif;
+    background: var(--cream);
+    color: var(--navy);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  @font-face {
+    font-family: 'Silka';
+    src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Regular.otf') format('opentype');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Silka';
+    src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-SemiBold.otf') format('opentype');
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: 'Silka';
+    src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Bold.otf') format('opentype');
+    font-weight: 700;
+  }
+  header {
+    background: var(--navy);
+    color: var(--cream);
+    padding: 18px 28px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  header h1 { font-size: 18px; margin: 0; font-weight: 700; letter-spacing: -0.01em; }
+  header .meta { font-size: 12px; color: rgba(255,252,245,0.7); }
+  header button { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: var(--cream); padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 12px; font-family: inherit; }
+  header button:hover { background: rgba(255,255,255,0.2); }
+  nav {
+    display: flex; gap: 4px; padding: 0 28px; background: var(--bg-card); border-bottom: 1px solid var(--border);
+  }
+  nav button {
+    background: transparent; border: none; padding: 14px 18px; cursor: pointer;
+    font-family: inherit; font-size: 14px; color: var(--slate); font-weight: 600;
+    border-bottom: 2px solid transparent;
+  }
+  nav button.active { color: var(--navy); border-bottom-color: var(--purple); }
+  nav button:hover:not(.active) { color: var(--navy); }
+  main { padding: 28px; max-width: 1400px; margin: 0 auto; }
+  .grid { display: grid; gap: 16px; }
+  .grid-3 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  .grid-7 { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+  .card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; padding: 18px; }
+  .card h3 { margin: 0 0 4px 0; font-size: 13px; font-weight: 600; color: var(--slate); text-transform: uppercase; letter-spacing: 0.04em; }
+  .card .stat { font-size: 28px; font-weight: 700; color: var(--navy); line-height: 1.1; margin: 4px 0; }
+  .card .delta { font-size: 12px; color: var(--slate-light); }
+  .card .delta.up { color: var(--sage); }
+  .card .delta.down { color: var(--coral); }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; padding: 10px 12px; background: var(--cream); border-bottom: 2px solid var(--border); font-weight: 600; color: var(--slate); font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+  td { padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:hover td { background: rgba(255,252,245,0.5); }
+  .pill { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+  .pill.dd { background: var(--purple); color: white; }
+  .pill.miss { background: #FED7CC; color: #C04A28; }
+  .pill.win { background: #D4F0D4; color: #2D6A2D; }
+  .pill.warn { background: #FCE8B8; color: #8C5A0F; }
+  .pill.muted { background: var(--cream); color: var(--slate); border: 1px solid var(--border); }
+  .pillar-card { padding: 14px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; }
+  .pillar-card h4 { margin: 0 0 6px 0; font-size: 13px; font-weight: 600; }
+  .pillar-card .count { font-size: 22px; font-weight: 700; color: var(--purple); margin: 0; }
+  .pillar-card .url { font-size: 11px; color: var(--slate-light); font-family: monospace; }
+  .progressbar { height: 8px; background: var(--cream); border-radius: 4px; overflow: hidden; border: 1px solid var(--border); }
+  .progressbar-fill { height: 100%; background: linear-gradient(90deg, var(--purple), var(--blue)); }
+  .empty-state { padding: 48px 24px; text-align: center; color: var(--slate-light); }
+  .empty-state h3 { color: var(--navy); margin-top: 0; }
+  .toolbar { display: flex; gap: 8px; align-items: center; margin-bottom: 16px; flex-wrap: wrap; }
+  input, select, textarea {
+    font-family: inherit; font-size: 13px; padding: 6px 10px; border: 1px solid var(--border);
+    border-radius: 6px; background: var(--bg-card); color: var(--navy);
+  }
+  input:focus, select:focus, textarea:focus { outline: 2px solid var(--purple); outline-offset: -1px; border-color: var(--purple); }
+  .btn {
+    padding: 6px 14px; border: none; border-radius: 6px; cursor: pointer; font-family: inherit;
+    font-size: 13px; font-weight: 600;
+  }
+  .btn-primary { background: var(--purple); color: white; }
+  .btn-primary:hover { background: #7325A0; }
+  .btn-primary:disabled { background: #C9A8D8; cursor: not-allowed; }
+  .btn-secondary { background: var(--bg-card); color: var(--navy); border: 1px solid var(--border); }
+  .btn-secondary:hover { background: var(--cream); }
+  .toggle { width: 36px; height: 20px; background: var(--border); border-radius: 10px; position: relative; cursor: pointer; transition: background 0.15s; border: none; padding: 0; }
+  .toggle.on { background: var(--sage); }
+  .toggle::after { content: ''; position: absolute; top: 2px; left: 2px; width: 16px; height: 16px; background: white; border-radius: 50%; transition: left 0.15s; }
+  .toggle.on::after { left: 18px; }
+  .modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.4); display: none; align-items: center; justify-content: center; z-index: 100; }
+  .modal-backdrop.show { display: flex; }
+  .modal { background: var(--bg-card); border-radius: 12px; padding: 28px; max-width: 520px; width: 90%; max-height: 85vh; overflow: auto; }
+  .modal h2 { margin: 0 0 12px 0; }
+  .modal pre { background: var(--cream); padding: 12px; border-radius: 6px; font-size: 12px; overflow-x: auto; }
+  .row { display: flex; gap: 12px; align-items: center; }
+  .stat-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 13px; }
+  .stat-row:last-child { border-bottom: none; }
+  .stat-row .label { color: var(--slate); }
+  .stat-row .value { font-weight: 600; color: var(--navy); }
+  .meter { display: inline-flex; align-items: center; gap: 8px; }
+  .meter-bar { width: 80px; height: 6px; background: var(--cream); border-radius: 3px; overflow: hidden; border: 1px solid var(--border); }
+  .meter-fill { height: 100%; background: var(--purple); }
+  details { background: var(--cream); padding: 8px 12px; border-radius: 6px; margin: 8px 0; cursor: pointer; }
+  summary { font-size: 12px; color: var(--slate); user-select: none; }
+  details[open] summary { margin-bottom: 8px; color: var(--navy); font-weight: 600; }
+  pre { font-family: 'SF Mono', Monaco, monospace; font-size: 11px; }
+  .small { font-size: 11px; color: var(--slate-light); }
+  .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 300px; }
+  .tag { display: inline-block; padding: 1px 6px; background: var(--cream); border: 1px solid var(--border); border-radius: 4px; font-size: 11px; color: var(--slate); margin-right: 4px; }
+  .footer { padding: 24px 28px; text-align: center; color: var(--slate-light); font-size: 11px; border-top: 1px solid var(--border); margin-top: 32px; }
+  @media (prefers-color-scheme: dark) {
+    /* keep light — dashboard reads better in cream */
+  }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>DonorDock SEO Brain</h1>
+    <div class="meta" id="last-updated">Loading…</div>
+  </div>
+  <div class="row">
+    <button onclick="refreshAll()">↻ Refresh</button>
+    <button onclick="openSettings()">⚙ Settings</button>
+  </div>
+</header>
+
+<nav>
+  <button class="active" data-tab="citations">Citations</button>
+  <button data-tab="pillars">Pillar Health</button>
+  <button data-tab="prompts">Prompt Editor</button>
+  <button data-tab="opportunities">Opportunities</button>
+</nav>
+
+<main>
+  <!-- =========================================================== -->
+  <!-- TAB: CITATIONS                                                -->
+  <!-- =========================================================== -->
+  <section id="tab-citations">
+    <div class="grid grid-3" id="citations-headline" style="margin-bottom: 24px;">
+      <div class="card"><h3>Latest Run</h3><div class="stat" id="cite-date">—</div><div class="delta" id="cite-priority">—</div></div>
+      <div class="card"><h3>Aggregate Citation Rate</h3><div class="stat" id="cite-rate">—</div><div class="delta" id="cite-rate-delta">—</div></div>
+      <div class="card"><h3>Run Cost</h3><div class="stat" id="cite-cost">—</div><div class="delta" id="cite-cost-detail">—</div></div>
+    </div>
+
+    <div class="card" style="margin-bottom: 16px;">
+      <h3 style="margin-bottom: 4px;">Citation Rate Over Time</h3>
+      <div class="small" id="history-overall-meta" style="margin-bottom: 12px;">—</div>
+      <div style="height: 240px; position: relative;"><canvas id="chart-overall"></canvas></div>
+    </div>
+
+    <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
+      <div class="card">
+        <h3 style="margin-bottom: 4px;">Per-Engine Citation Rate Over Time</h3>
+        <div class="small" style="margin-bottom: 12px;">Each engine plotted weekly so you can see which AI surface is gaining or losing share.</div>
+        <div style="height: 260px; position: relative;"><canvas id="chart-engines"></canvas></div>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 4px;">Top Competitor Mentions Over Time</h3>
+        <div class="small" style="margin-bottom: 12px;">Top 5 competitors by cumulative mentions across all weekly runs.</div>
+        <div style="height: 260px; position: relative;"><canvas id="chart-competitors"></canvas></div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom: 16px;">
+      <h3 style="margin-bottom: 12px;">By Engine</h3>
+      <table>
+        <thead><tr><th>Engine</th><th>Runs</th><th>OK</th><th>DD Hits</th><th>Citation %</th><th>Cost</th></tr></thead>
+        <tbody id="cite-engines-tbody"><tr><td colspan="6" class="empty-state">Loading…</td></tr></tbody>
+      </table>
+    </div>
+
+    <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 16px;">
+      <div class="card">
+        <h3 style="margin-bottom: 12px;">Top Wins (DonorDock cited)</h3>
+        <table id="cite-wins"><thead><tr><th>Engine</th><th>Prompt</th></tr></thead><tbody><tr><td colspan="2" class="empty-state">—</td></tr></tbody></table>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 12px;">Top Misses (Competitor cited, DonorDock not)</h3>
+        <table id="cite-misses"><thead><tr><th>Engine</th><th>Prompt</th><th>Competitors</th></tr></thead><tbody><tr><td colspan="3" class="empty-state">—</td></tr></tbody></table>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top: 16px;">
+      <h3 style="margin-bottom: 12px;">Competitor Mention Counter</h3>
+      <table>
+        <thead><tr><th>Competitor</th><th>Mentions across all engines</th></tr></thead>
+        <tbody id="cite-competitors"><tr><td colspan="2" class="empty-state">—</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- =========================================================== -->
+  <!-- TAB: PILLAR HEALTH                                            -->
+  <!-- =========================================================== -->
+  <section id="tab-pillars" style="display: none;">
+    <div class="card" style="margin-bottom: 24px;">
+      <h3>Backfill Progress</h3>
+      <div class="row" style="margin: 8px 0 12px 0;">
+        <div style="flex: 1;"><div class="progressbar"><div class="progressbar-fill" id="backfill-bar" style="width: 0%"></div></div></div>
+        <div class="small" id="backfill-counts">— / —</div>
+      </div>
+    </div>
+    <div class="grid grid-7" id="pillar-cards"></div>
+  </section>
+
+  <!-- =========================================================== -->
+  <!-- TAB: PROMPT EDITOR                                            -->
+  <!-- =========================================================== -->
+  <section id="tab-prompts" style="display: none;">
+    <div class="toolbar">
+      <input type="text" id="prompt-search" placeholder="Search prompts…" style="flex: 1; min-width: 200px;" oninput="renderPrompts()" />
+      <select id="prompt-filter-priority" onchange="renderPrompts()">
+        <option value="">All priorities</option>
+        <option value="top-50">top-50 only</option>
+        <option value="full-only">full-only</option>
+      </select>
+      <select id="prompt-filter-pillar" onchange="renderPrompts()"><option value="">All pillars</option></select>
+      <select id="prompt-filter-active" onchange="renderPrompts()">
+        <option value="">All</option>
+        <option value="active">Active only</option>
+        <option value="disabled">Disabled only</option>
+      </select>
+      <button class="btn btn-secondary" onclick="addPromptRow()">+ Add</button>
+      <button class="btn btn-primary" id="prompt-save-btn" onclick="commitPromptChanges()">Save Changes (0)</button>
+    </div>
+    <div class="card" style="padding: 0; overflow-x: auto;">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th><th style="min-width: 320px;">Text</th><th>Phase</th><th>Pillar</th><th>ICP</th>
+            <th>Priority</th><th>Active</th><th>AIO</th>
+          </tr>
+        </thead>
+        <tbody id="prompts-tbody"><tr><td colspan="8" class="empty-state">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- =========================================================== -->
+  <!-- TAB: OPPORTUNITIES                                            -->
+  <!-- =========================================================== -->
+  <section id="tab-opportunities" style="display: none;">
+    <div class="card">
+      <h3>Latest Monthly Opportunity Report</h3>
+      <div id="opportunities-content" class="empty-state">Loading…</div>
+    </div>
+  </section>
+</main>
+
+<div class="footer">
+  Reads live from <a href="https://github.com/DonorDock-team/claude-shared" style="color: var(--purple);">DonorDock-team/claude-shared</a>.
+  Prompt-bank edits commit via the GitHub API (PAT required — Settings).
+</div>
+
+<!-- Settings modal -->
+<div class="modal-backdrop" id="settings-modal">
+  <div class="modal">
+    <h2>Dashboard Settings</h2>
+    <p class="small">Configure the dashboard's GitHub access for the prompt editor. Your PAT is stored only in this browser's localStorage.</p>
+    <label style="display:block; margin: 12px 0 4px 0; font-weight: 600;">GitHub Personal Access Token</label>
+    <input type="password" id="pat-input" placeholder="ghp_… or github_pat_…" style="width: 100%;" />
+    <div class="small" style="margin-top: 4px;">
+      Needs scope: <code>repo</code> on <code>DonorDock-team/claude-shared</code>.
+      Without a PAT, prompt editor saves a downloadable JSON file you commit manually.
+    </div>
+    <div class="row" style="margin-top: 20px; justify-content: flex-end;">
+      <button class="btn btn-secondary" onclick="clearPat()">Clear</button>
+      <button class="btn btn-secondary" onclick="closeSettings()">Cancel</button>
+      <button class="btn btn-primary" onclick="savePat()">Save</button>
+    </div>
+  </div>
+</div>
+
+<!-- Diff modal (shown after Save Changes) -->
+<div class="modal-backdrop" id="diff-modal">
+  <div class="modal" style="max-width: 720px;">
+    <h2>Confirm Prompt Changes</h2>
+    <div id="diff-content"></div>
+    <div class="row" style="margin-top: 20px; justify-content: flex-end;">
+      <button class="btn btn-secondary" onclick="closeDiff()">Cancel</button>
+      <button class="btn btn-secondary" onclick="downloadJson()">Download JSON</button>
+      <button class="btn btn-primary" id="commit-btn" onclick="commitToGitHub()">Open PR via GitHub API</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ============================================================================
+// Configuration
+// ============================================================================
+const REPO_OWNER = 'DonorDock-team';
+const REPO_NAME = 'claude-shared';
+const RAW_BASE = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main`;
+const API_BASE = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}`;
+const LOCKED_PILLARS = [
+  { name: 'Donor Stewardship', id: '69eb6cb822a81ad28a27e801', url: '/smart-steward-method' },
+  { name: 'CRM', id: '69eb6cd27fa93ec8ab484322', url: '/crm' },
+  { name: 'Online Giving', id: '69eb6ce266456b7917d21f43', url: '/online-giving' },
+  { name: 'Fundraising Strategy', id: '69eb6cec3a55627ab83d8743', url: '/fundraising-strategy' },
+  { name: 'Donor Engagement', id: '69eb6cf56aa6f92a3a162f6b', url: '/donor-outreach' },
+  { name: 'AI for Nonprofits', id: '69eb6cfd66ac68d8d7702716', url: '/otto' },
+  { name: 'Donor Retention', id: '69eb6d05f4bf8b3eeaface0a', url: '/donor-retention' },
+];
+
+// ============================================================================
+// State
+// ============================================================================
+let state = {
+  prompts: null,         // full prompts.json
+  promptsSha: null,      // GitHub blob SHA for prompts.json
+  promptsDirty: new Set(),  // ids of edited prompts
+  promptsOriginal: null, // deep-cloned original to compute diff
+  citations: null,       // latest summary
+  citationsPrior: null,  // prior week summary for delta
+  citationsDate: null,
+  pillarSnapshot: null,  // backfill counts per pillar
+  pat: localStorage.getItem('dd-dashboard-pat') || null,
+};
+
+// ============================================================================
+// Tab switching
+// ============================================================================
+document.querySelectorAll('nav button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('main > section').forEach(s => s.style.display = 'none');
+    document.getElementById('tab-' + btn.dataset.tab).style.display = '';
+  });
+});
+
+// ============================================================================
+// Data loading
+// ============================================================================
+async function loadJson(path, opts = {}) {
+  // path is relative to repo root, e.g. 'seo-brain/tracking/prompts.json'
+  // Add cache-busting timestamp so we don't hit GH CDN cache
+  const url = `${RAW_BASE}/${path}?t=${Date.now()}`;
+  const r = await fetch(url, opts);
+  if (!r.ok) throw new Error(`${r.status} ${path}`);
+  return r.json();
+}
+
+async function loadPrompts() {
+  const data = await loadJson('seo-brain/tracking/prompts.json');
+  state.prompts = data;
+  state.promptsOriginal = JSON.parse(JSON.stringify(data.prompts));
+  state.promptsDirty.clear();
+  // Populate pillar filter
+  const sel = document.getElementById('prompt-filter-pillar');
+  if (sel.children.length === 1) {
+    LOCKED_PILLARS.forEach(p => {
+      const o = document.createElement('option');
+      o.value = p.name; o.textContent = p.name;
+      sel.appendChild(o);
+    });
+  }
+  // Also fetch the file SHA for later commits
+  try {
+    const meta = await fetch(`${API_BASE}/contents/seo-brain/tracking/prompts.json`).then(r => r.ok ? r.json() : null);
+    state.promptsSha = meta?.sha || null;
+  } catch {}
+  renderPrompts();
+}
+
+async function loadLatestCitations() {
+  // Try to find the latest run by probing today + 7 days back
+  const now = new Date();
+  let summary = null, summaryDate = null, prior = null, priorDate = null;
+  for (let i = 0; i < 14; i++) {
+    const d = new Date(now);
+    d.setUTCDate(now.getUTCDate() - i);
+    const dateStr = d.toISOString().slice(0, 10);
+    try {
+      const data = await loadJson(`seo-brain/tracking/ai-citations/${dateStr}/_summary.json`);
+      if (!summary) {
+        summary = data; summaryDate = dateStr;
+      } else if (!prior && dateStr !== summaryDate) {
+        prior = data; priorDate = dateStr;
+        break;
+      }
+    } catch {}
+  }
+  state.citations = summary;
+  state.citationsPrior = prior;
+  state.citationsDate = summaryDate;
+  renderCitations();
+}
+
+async function loadCitationHistory() {
+  // List date directories under seo-brain/tracking/ai-citations/ via the GitHub Contents API,
+  // then fetch each _summary.json so we have a time series.
+  let dirs = [];
+  try {
+    const r = await fetch(`${API_BASE}/contents/seo-brain/tracking/ai-citations`);
+    if (r.ok) {
+      const items = await r.json();
+      dirs = items
+        .filter(x => x.type === 'dir' && /^\d{4}-\d{2}-\d{2}$/.test(x.name))
+        .map(x => x.name)
+        .sort();
+    }
+  } catch {}
+
+  const summaries = [];
+  for (const dateStr of dirs) {
+    try {
+      const data = await loadJson(`seo-brain/tracking/ai-citations/${dateStr}/_summary.json`);
+      summaries.push({ date: dateStr, ...data });
+    } catch {}
+  }
+  state.citationHistory = summaries;
+  renderCitationHistory();
+}
+
+async function loadPillarSnapshot() {
+  // Try to fetch a pillar-snapshot.json maintained by backfill batches.
+  // If it doesn't exist, fall back to a static snapshot.
+  try {
+    const data = await loadJson('seo-brain/backfill/pillar-snapshot.json');
+    state.pillarSnapshot = data;
+  } catch {
+    state.pillarSnapshot = {
+      generated: '2026-04-26',
+      total_articles: 290,
+      backfilled: 81,
+      faq_library_size: 203,
+      pillars: {
+        'Fundraising Strategy': 27,
+        'Donor Stewardship': 15,
+        'CRM': 11,
+        'Donor Engagement': 10,
+        'Online Giving': 7,
+        'Donor Retention': 6,
+        'AI for Nonprofits': 5,
+      },
+    };
+  }
+  renderPillars();
+}
+
+async function loadOpportunities() {
+  // Try latest YYYY-MM file
+  const now = new Date();
+  for (let i = 0; i < 6; i++) {
+    const d = new Date(now);
+    d.setUTCMonth(now.getUTCMonth() - i);
+    const ym = d.toISOString().slice(0, 7);
+    const url = `${RAW_BASE}/seo-brain/opportunities/${ym}.md?t=${Date.now()}`;
+    try {
+      const r = await fetch(url);
+      if (r.ok) {
+        const md = await r.text();
+        document.getElementById('opportunities-content').innerHTML =
+          `<div class="small" style="margin-bottom: 12px;">Source: <code>seo-brain/opportunities/${ym}.md</code></div>` +
+          `<pre style="white-space: pre-wrap; font-family: 'Silka', sans-serif; font-size: 14px; line-height: 1.6;">${escapeHtml(md)}</pre>`;
+        return;
+      }
+    } catch {}
+  }
+  document.getElementById('opportunities-content').innerHTML =
+    `<h3>No opportunity report yet</h3><p>The first monthly report fires May 1st at ~7:14am ET. After it lands, this tab will display the latest report inline.</p>`;
+}
+
+function refreshAll() {
+  document.getElementById('last-updated').textContent = `Loading at ${new Date().toLocaleString()}…`;
+  Promise.all([loadPrompts(), loadLatestCitations(), loadCitationHistory(), loadPillarSnapshot(), loadOpportunities()])
+    .then(() => {
+      document.getElementById('last-updated').textContent = `Updated ${new Date().toLocaleString()}`;
+    })
+    .catch(err => {
+      document.getElementById('last-updated').textContent = `Load error: ${err.message}`;
+    });
+}
+
+// ============================================================================
+// Rendering — Citation History (line charts)
+// ============================================================================
+const chartInstances = {};
+const PALETTE = {
+  navy: '#1F3252', purple: '#8C2CBF', blue: '#5B7BD9',
+  coral: '#F08C6A', sage: '#7AB07A', slate: '#4A5568',
+};
+
+function destroyChart(key) {
+  if (chartInstances[key]) { chartInstances[key].destroy(); delete chartInstances[key]; }
+}
+
+function lineChartConfig(labels, datasets, yLabel) {
+  return {
+    type: 'line',
+    data: { labels, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } },
+        tooltip: { backgroundColor: '#1F3252', padding: 10, titleFont: { size: 12 }, bodyFont: { size: 12 } },
+      },
+      scales: {
+        x: { ticks: { font: { size: 11 } }, grid: { display: false } },
+        y: { beginAtZero: true, title: { display: !!yLabel, text: yLabel, font: { size: 11 } }, ticks: { font: { size: 11 } } },
+      },
+    },
+  };
+}
+
+function renderCitationHistory() {
+  const hist = state.citationHistory || [];
+  const meta = document.getElementById('history-overall-meta');
+  if (!hist.length) {
+    meta.textContent = 'No runs yet. The first weekly run lands Mondays at ~6:20am ET.';
+    return;
+  }
+  const single = hist.length === 1;
+  if (single) {
+    meta.textContent = `Baseline week — 1 run on file (${hist[0].date}). Lines draw next Monday once a second run lands.`;
+  } else {
+    meta.textContent = `${hist.length} weekly runs · ${hist[0].date} → ${hist[hist.length - 1].date}`;
+  }
+
+  // For a single-point chart, pad an empty trailing slot so the dot sits left-of-center
+  // and bump point sizes so the baseline reading is unmistakable.
+  const labels = single ? [hist[0].date, ''] : hist.map(h => h.date);
+  const pad = (arr) => single ? [arr[0], null] : arr;
+  const ptR = single ? 9 : 4;
+  const ptHover = single ? 12 : 6;
+
+  // Chart 1: Overall citation rate
+  destroyChart('overall');
+  chartInstances.overall = new Chart(document.getElementById('chart-overall'), lineChartConfig(
+    labels,
+    [{
+      label: 'DonorDock citation rate',
+      data: pad(hist.map(h => h.donordock_citation_rate_pct ?? 0)),
+      borderColor: PALETTE.purple, backgroundColor: PALETTE.purple + '22',
+      tension: 0.25, pointRadius: ptR, pointHoverRadius: ptHover,
+      pointBackgroundColor: PALETTE.purple, pointBorderColor: '#fff', pointBorderWidth: 2,
+      fill: true, borderWidth: 2, spanGaps: true,
+    }],
+    'Citation rate (%)'
+  ));
+
+  // Chart 2: Per-engine citation rate
+  const engineColors = { anthropic: PALETTE.navy, openai: PALETTE.sage, perplexity: PALETTE.coral, gemini: PALETTE.blue };
+  const engineKeys = Array.from(new Set(hist.flatMap(h => Object.keys(h.by_engine || {}))));
+  destroyChart('engines');
+  chartInstances.engines = new Chart(document.getElementById('chart-engines'), lineChartConfig(
+    labels,
+    engineKeys.map(eng => ({
+      label: eng,
+      data: pad(hist.map(h => h.by_engine?.[eng]?.citation_rate_pct ?? null)),
+      borderColor: engineColors[eng] || PALETTE.slate,
+      backgroundColor: 'transparent',
+      tension: 0.25, pointRadius: ptR, pointHoverRadius: ptHover,
+      pointBackgroundColor: engineColors[eng] || PALETTE.slate, pointBorderColor: '#fff', pointBorderWidth: 2,
+      borderWidth: 2, spanGaps: true,
+    })),
+    'Citation rate (%)'
+  ));
+
+  // Chart 3: Top 5 competitor mentions
+  const totals = {};
+  for (const h of hist) {
+    for (const [name, count] of Object.entries(h.competitor_mentions || {})) {
+      totals[name] = (totals[name] || 0) + count;
+    }
+  }
+  const top5 = Object.entries(totals).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([n]) => n);
+  const compColors = [PALETTE.purple, PALETTE.coral, PALETTE.blue, PALETTE.sage, PALETTE.navy];
+  destroyChart('competitors');
+  chartInstances.competitors = new Chart(document.getElementById('chart-competitors'), lineChartConfig(
+    labels,
+    top5.map((name, i) => ({
+      label: name,
+      data: pad(hist.map(h => h.competitor_mentions?.[name] ?? null)),
+      borderColor: compColors[i], backgroundColor: 'transparent',
+      tension: 0.25, pointRadius: ptR, pointHoverRadius: ptHover,
+      pointBackgroundColor: compColors[i], pointBorderColor: '#fff', pointBorderWidth: 2,
+      borderWidth: 2, spanGaps: true,
+    })),
+    'Mentions per run'
+  ));
+}
+
+// ============================================================================
+// Rendering — Citations
+// ============================================================================
+function renderCitations() {
+  const s = state.citations;
+  const p = state.citationsPrior;
+  if (!s) {
+    document.getElementById('cite-date').textContent = 'No data';
+    document.getElementById('cite-priority').textContent = 'First Mon run lands tomorrow 6:20am ET';
+    return;
+  }
+  document.getElementById('cite-date').textContent = state.citationsDate;
+  document.getElementById('cite-priority').textContent = `Filter: ${s.priority_filter} · ${s.successes}/${s.total_runs} successes`;
+
+  document.getElementById('cite-rate').textContent = (s.donordock_citation_rate_pct ?? 0) + '%';
+  if (p) {
+    const delta = (s.donordock_citation_rate_pct - p.donordock_citation_rate_pct).toFixed(1);
+    const el = document.getElementById('cite-rate-delta');
+    el.textContent = `${delta >= 0 ? '+' : ''}${delta}pp vs prior (${p.run_date})`;
+    el.className = 'delta ' + (delta > 0 ? 'up' : delta < 0 ? 'down' : '');
+  } else {
+    document.getElementById('cite-rate-delta').textContent = 'baseline week';
+  }
+
+  document.getElementById('cite-cost').textContent = '$' + (s.total_estimated_cost_usd ?? 0);
+  document.getElementById('cite-cost-detail').textContent = `${s.total_runs} API calls`;
+
+  // Per-engine table
+  const byEngine = s.by_engine || {};
+  const tbody = document.getElementById('cite-engines-tbody');
+  tbody.innerHTML = Object.entries(byEngine).map(([engine, v]) => `
+    <tr>
+      <td><strong>${engine}</strong></td>
+      <td>${v.total}</td><td>${v.ok}</td><td>${v.donordock_hits}</td>
+      <td>
+        <div class="meter">
+          <div class="meter-bar"><div class="meter-fill" style="width:${v.citation_rate_pct}%"></div></div>
+          <span>${v.citation_rate_pct}%</span>
+        </div>
+      </td>
+      <td>$${v.cost_usd}</td>
+    </tr>
+  `).join('');
+
+  // Competitor mentions
+  const comps = s.competitor_mentions || {};
+  const compTbody = document.getElementById('cite-competitors');
+  if (Object.keys(comps).length === 0) {
+    compTbody.innerHTML = `<tr><td colspan="2" class="empty-state">No competitor mentions detected.</td></tr>`;
+  } else {
+    const max = Math.max(...Object.values(comps));
+    compTbody.innerHTML = Object.entries(comps).slice(0, 15).map(([c, n]) => `
+      <tr>
+        <td>${escapeHtml(c)}</td>
+        <td><div class="meter"><div class="meter-bar"><div class="meter-fill" style="width:${(100*n/max).toFixed(0)}%"></div></div><span>${n}</span></div></td>
+      </tr>
+    `).join('');
+  }
+
+  // Wins / misses tables left as-is — would need raw run data, not just summary.
+  // Surface a hint that drill-down lives in the per-prompt JSON.
+  document.querySelector('#cite-wins tbody').innerHTML =
+    `<tr><td colspan="2" class="empty-state small">Drill into <code>seo-brain/tracking/ai-citations/${state.citationsDate}/_report.md</code> for the full wins/misses list.</td></tr>`;
+  document.querySelector('#cite-misses tbody').innerHTML = '';
+}
+
+// ============================================================================
+// Rendering — Pillars
+// ============================================================================
+function renderPillars() {
+  const snap = state.pillarSnapshot;
+  if (!snap) return;
+
+  const total = snap.total_articles;
+  const done = snap.backfilled;
+  const pct = (100 * done / total).toFixed(1);
+  document.getElementById('backfill-bar').style.width = pct + '%';
+  document.getElementById('backfill-counts').textContent = `${done} of ${total} articles backfilled (${pct}%) · FAQ library: ${snap.faq_library_size}`;
+
+  const container = document.getElementById('pillar-cards');
+  container.innerHTML = LOCKED_PILLARS.map(p => {
+    const count = snap.pillars[p.name] || 0;
+    return `
+      <div class="pillar-card">
+        <h4>${p.name}</h4>
+        <p class="count">${count}</p>
+        <div class="url"><a href="https://www.donordock.com${p.url}" target="_blank" style="color: var(--slate-light);">${p.url}</a></div>
+      </div>
+    `;
+  }).join('');
+}
+
+// ============================================================================
+// Rendering — Prompts
+// ============================================================================
+function renderPrompts() {
+  if (!state.prompts) return;
+  const search = document.getElementById('prompt-search').value.toLowerCase();
+  const fp = document.getElementById('prompt-filter-priority').value;
+  const fpil = document.getElementById('prompt-filter-pillar').value;
+  const fa = document.getElementById('prompt-filter-active').value;
+
+  const filtered = state.prompts.prompts.filter(p => {
+    if (search && !(p.text.toLowerCase().includes(search) || p.id.toLowerCase().includes(search))) return false;
+    if (fp && p.priority !== fp) return false;
+    if (fpil && p.pillar !== fpil) return false;
+    if (fa === 'active' && !p.active) return false;
+    if (fa === 'disabled' && p.active) return false;
+    return true;
+  });
+
+  const tbody = document.getElementById('prompts-tbody');
+  tbody.innerHTML = filtered.map(p => `
+    <tr data-pid="${p.id}">
+      <td><strong>${p.id}</strong></td>
+      <td><textarea rows="2" style="width:100%; min-width: 280px;" oninput="updatePrompt('${p.id}', 'text', this.value)">${escapeHtml(p.text)}</textarea></td>
+      <td>${escapeHtml(p.phase || '')}</td>
+      <td>
+        <select onchange="updatePrompt('${p.id}', 'pillar', this.value)">
+          ${LOCKED_PILLARS.map(pil => `<option value="${pil.name}" ${pil.name === p.pillar ? 'selected' : ''}>${pil.name}</option>`).join('')}
+          <option value="OUT-OF-ICP" ${p.pillar === 'OUT-OF-ICP' ? 'selected' : ''}>OUT-OF-ICP</option>
+        </select>
+      </td>
+      <td><span class="tag">${escapeHtml(p.icp || '')}</span></td>
+      <td>
+        <select onchange="updatePrompt('${p.id}', 'priority', this.value)">
+          <option value="top-50" ${p.priority === 'top-50' ? 'selected' : ''}>top-50</option>
+          <option value="full-only" ${p.priority === 'full-only' ? 'selected' : ''}>full-only</option>
+        </select>
+      </td>
+      <td><button class="toggle ${p.active ? 'on' : ''}" onclick="updatePrompt('${p.id}', 'active', !${p.active})"></button></td>
+      <td><button class="toggle ${p.aio ? 'on' : ''}" onclick="updatePrompt('${p.id}', 'aio', !${p.aio})"></button></td>
+    </tr>
+  `).join('');
+  updateSaveBtn();
+}
+
+function updatePrompt(pid, field, value) {
+  const p = state.prompts.prompts.find(x => x.id === pid);
+  if (!p) return;
+  p[field] = value;
+  state.promptsDirty.add(pid);
+  // For toggle/select changes, re-render to reflect visual state
+  if (field === 'active' || field === 'aio') renderPrompts();
+  updateSaveBtn();
+}
+
+function addPromptRow() {
+  if (!state.prompts) return;
+  const ids = state.prompts.prompts.map(p => parseInt(p.id.replace(/\D/g,''))).filter(n => !isNaN(n));
+  const next = (Math.max(...ids, 0) + 1).toString().padStart(3, '0');
+  const newId = 'P' + next;
+  state.prompts.prompts.push({
+    id: newId, text: '(new prompt — edit me)',
+    phase: 'AWARENESS', pillar: 'CRM', icp: 'Medium Nonprofits',
+    priority: 'full-only', category: 'operational', active: true, aio: false,
+  });
+  state.promptsDirty.add(newId);
+  renderPrompts();
+}
+
+function updateSaveBtn() {
+  const n = state.promptsDirty.size;
+  const btn = document.getElementById('prompt-save-btn');
+  btn.textContent = `Save Changes (${n})`;
+  btn.disabled = n === 0;
+}
+
+function commitPromptChanges() {
+  // Build a diff summary
+  const orig = state.promptsOriginal;
+  const cur = state.prompts.prompts;
+  const diffs = [];
+  cur.forEach(p => {
+    const o = orig.find(x => x.id === p.id);
+    if (!o) {
+      diffs.push({ kind: 'add', id: p.id, text: p.text });
+      return;
+    }
+    const changed = [];
+    ['text','phase','pillar','icp','priority','active','aio'].forEach(f => {
+      if (o[f] !== p[f]) changed.push(`${f}: "${o[f]}" → "${p[f]}"`);
+    });
+    if (changed.length) diffs.push({ kind: 'update', id: p.id, changes: changed });
+  });
+  // No deletes for now — toggle active:false instead
+  const html = diffs.length === 0
+    ? '<p>No changes detected.</p>'
+    : `<div class="small" style="margin-bottom:12px;">${diffs.length} change${diffs.length === 1 ? '' : 's'}</div>`
+      + diffs.map(d => d.kind === 'add'
+          ? `<div style="margin-bottom:8px;"><span class="pill win">NEW</span> ${escapeHtml(d.id)} — ${escapeHtml(d.text)}</div>`
+          : `<div style="margin-bottom:8px;"><span class="pill warn">EDIT</span> ${escapeHtml(d.id)}<ul style="margin:4px 0 4px 20px;">${d.changes.map(c => `<li>${escapeHtml(c)}</li>`).join('')}</ul></div>`
+        ).join('');
+  document.getElementById('diff-content').innerHTML = html;
+  document.getElementById('commit-btn').disabled = !state.pat;
+  document.getElementById('commit-btn').textContent = state.pat ? 'Open PR via GitHub API' : 'No PAT — use Download instead';
+  document.getElementById('diff-modal').classList.add('show');
+}
+
+async function commitToGitHub() {
+  if (!state.pat) { alert('Set a PAT in Settings first.'); return; }
+  const btn = document.getElementById('commit-btn');
+  btn.disabled = true;
+  btn.textContent = 'Committing…';
+  try {
+    const branch = `dashboard/prompts-${new Date().toISOString().replace(/[:.]/g,'-').slice(0,19)}`;
+    // Get main SHA
+    const mainRef = await fetch(`${API_BASE}/git/ref/heads/main`, {
+      headers: { Authorization: `token ${state.pat}` }
+    }).then(r => r.json());
+    const mainSha = mainRef.object.sha;
+    // Create branch
+    await fetch(`${API_BASE}/git/refs`, {
+      method: 'POST',
+      headers: { Authorization: `token ${state.pat}`, 'content-type': 'application/json' },
+      body: JSON.stringify({ ref: `refs/heads/${branch}`, sha: mainSha })
+    });
+    // Update prompts.json
+    const newContent = JSON.stringify({
+      ...state.prompts,
+      last_updated: new Date().toISOString().slice(0,10),
+    }, null, 2) + '\n';
+    await fetch(`${API_BASE}/contents/seo-brain/tracking/prompts.json`, {
+      method: 'PUT',
+      headers: { Authorization: `token ${state.pat}`, 'content-type': 'application/json' },
+      body: JSON.stringify({
+        message: `dashboard: prompt-bank edits (${state.promptsDirty.size} changes)`,
+        content: btoa(unescape(encodeURIComponent(newContent))),
+        branch: branch,
+        sha: state.promptsSha,
+      })
+    });
+    // Open PR
+    const pr = await fetch(`${API_BASE}/pulls`, {
+      method: 'POST',
+      headers: { Authorization: `token ${state.pat}`, 'content-type': 'application/json' },
+      body: JSON.stringify({
+        title: `dashboard: prompt-bank edits (${state.promptsDirty.size})`,
+        body: `Edited via SEO Brain dashboard at ${new Date().toLocaleString()}.`,
+        head: branch, base: 'main',
+      })
+    }).then(r => r.json());
+    btn.textContent = `✓ PR #${pr.number} opened`;
+    setTimeout(() => {
+      window.open(pr.html_url, '_blank');
+      closeDiff();
+      refreshAll();
+    }, 800);
+  } catch (e) {
+    btn.disabled = false;
+    btn.textContent = 'Open PR via GitHub API';
+    alert('Failed: ' + e.message);
+  }
+}
+
+function downloadJson() {
+  const newContent = JSON.stringify({ ...state.prompts, last_updated: new Date().toISOString().slice(0,10) }, null, 2) + '\n';
+  const blob = new Blob([newContent], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'prompts.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function closeDiff() { document.getElementById('diff-modal').classList.remove('show'); }
+
+// ============================================================================
+// Settings modal
+// ============================================================================
+function openSettings() {
+  document.getElementById('pat-input').value = state.pat || '';
+  document.getElementById('settings-modal').classList.add('show');
+}
+function closeSettings() { document.getElementById('settings-modal').classList.remove('show'); }
+function savePat() {
+  const v = document.getElementById('pat-input').value.trim();
+  if (v) { state.pat = v; localStorage.setItem('dd-dashboard-pat', v); }
+  closeSettings();
+}
+function clearPat() {
+  state.pat = null; localStorage.removeItem('dd-dashboard-pat');
+  document.getElementById('pat-input').value = '';
+  closeSettings();
+}
+
+// ============================================================================
+// Utilities
+// ============================================================================
+function escapeHtml(s) {
+  if (s == null) return '';
+  return String(s).replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+}
+
+// ============================================================================
+// Boot
+// ============================================================================
+refreshAll();
+</script>
+</body>
+</html>
