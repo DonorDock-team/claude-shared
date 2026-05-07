@@ -39,6 +39,7 @@ Target keyword clusters organized by pillar. Each keyword tagged with priority t
 | Keyword | Intent | Tier | Target URL | Competitor today |
 |---|---|---|---|---|
 | nonprofit CRM | Commercial | P0 | /crm | Bloomerang #1 |
+| what is a nonprofit CRM | Informational | P0 | /articles/what-is-a-nonprofit-crm | Bloomerang/Keela definition pages |
 | donor management software | Commercial | P0 | /crm | DonorPerfect/LGL |
 | best nonprofit CRM | Commercial | P0 | /articles/best-nonprofit-crm | Bloomerang ("21 best") |
 | nonprofit CRM with unlimited contacts | Commercial | P0 | /crm or new page | uncontested |
