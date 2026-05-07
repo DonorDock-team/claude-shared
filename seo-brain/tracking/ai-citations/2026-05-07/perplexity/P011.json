@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P011",
+  "prompt_text": "DonorDock vs Salesforce Nonprofit Cloud",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550418+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### DonorDock vs. Salesforce Nonprofit Cloud: Key Comparison\n\nDonorDock and Salesforce Nonprofit Cloud (formerly Nonprofit Success Pack or NPSP) are both donor management CRMs for nonprofits, but they target different scales and needs. DonorDock is a purpose-built, all-in-one platform for small to midsized nonprofits emphasizing simplicity and speed. Salesforce is an enterprise-grade system offering deep customization but with higher complexity and costs. Below is a structured breakdown based on recent comparisons (2025-2026 data).\n\n#### Pricing\n| Feature                  | DonorDock                          | Salesforce Nonprofit Cloud                  |\n|--------------------------|------------------------------------|---------------------------------------------|\n| **Starting Price**      | $300/month (Essentials Plan, up to 10 users, all features included) | $60/user/month (plus implementation, apps, maintenance) |\n| **Hidden Costs**        | Transparent; includes training, support, migration | High: 3-6 months setup ($10K+ consultants), third-party apps, premium support |\n| **Free Tier**           | None; donor-funded perks like always-free tools | Free NPSP version available but requires heavy customization |\n| **Transaction Fees**    | Card fees apply (no platform fee on donations in some plans) | Varies; integrations add costs |\n\n**Evidence**: DonorDock's site highlights all-inclusive $300/month vs. Salesforce's misleading $60/user base (sources [1], [3]). Zeffy comparisons note DonorDock at ~$98-300/month + fees, Salesforce $60+/user + extras ([2]).\n\n#### Ease of Use & Setup\n- **DonorDock**: Ready in days with intuitive interface, no coding needed. \"Fully furnished home\" analogy\u2014import data, start immediately. Includes migration support, built-in email, automation (Stewardship Journeys, Otto AI).\n- **Salesforce**: 3-6 months implementation, steep learning curve, needs IT/consultants. \"Empty warehouse\" requiring custom builds. Sandbox for nonprofits must be configured.\n\n**User Feedback**: G2 reviews prefer DonorDock for ease of use, setup, administration, and business fit (92%+ satisfaction vs. lower for Salesforce) ([4]). SWWC case study: Switched from Salesforce for simplicity, unlimited contacts, integrated emailing\u2014no more MailChimp silos ([5]).\n\n#### Features\n| Category                | DonorDock Strengths                          | Salesforce Strengths                          |\n|-------------------------|----------------------------------------------|-----------------------------------------------|\n| **Core CRM**           | Unlimited contacts, donor tracking, tasks (ActionBoard), automation | Robust data model, grant/volunteer management |\n| **Fundraising**        | Donation tracking, email campaigns, messaging | Advanced customization, AI (Agentforce)       |\n| **Integrations**       | Built-in (no extras needed for basics)      | 1,000+ apps, but adds complexity/cost         |\n| **Scalability**        | Ideal for small/midsize (10K emails/month free) | Enterprise (multi-dept, complex workflows)    |\n| **Support**            | Direct, unlimited, no extra fees             | Tiered; premium costs more, slower responses  |\n\n**Evidence**: DonorDock for \"advanced automation without enterprise pricing\" ([6]). Salesforce excels in large orgs with IT resources ([6], [7]). Both handle donor management; DonorDock adds nonprofit-specific simplicity ([1-5]).\n\n#### Pros & Cons\n**DonorDock**:\n- **Pros**: Cost-effective long-term, user-friendly, fast ROI, strong support. Reviewers rate it higher for needs met, updates, and ongoing support (G2 [4]).\n- **Cons**: Less customizable for massive enterprises; transaction fees on cards.\n\n**Salesforce Nonprofit Cloud**:\n- **Pros**: Unmatched scalability, free base NPSP, powerful for complex needs (e.g., human services, grants [4]).\n- **Cons**: Overkill for most (80%+ nonprofits are small/midsize), high TCO, training barriers.\n\n#### Who Should Choose What?\n- **Pick DonorDock** if you're a small/midsize nonprofit (e.g., <50 staff) wanting quick setup, affordability, and focus on mission over tech. Saves time/money vs. Salesforce (e.g., SWWC grew donors effortlessly [5]).\n- **Pick Salesforce** for large enterprises with IT budgets needing heavy customization/multi-dept integration ([6-9]).\n- **Alternatives**: Zeffy (zero fees, all-in-one fundraising [2]); Virtuous for personalization ([6]).\n\n**Bottom Line**: For most nonprofits, DonorDock wins on value, simplicity, and reviews\u2014avoiding Salesforce's \"enterprise complexity you don't need\" ([1], [3]). Test via free trials: DonorDock emphasizes nonprofit focus without the bloat. Sources: DonorDock.com, G2, Zeffy (2025-2026).",
+  "donordock_mentioned": true,
+  "donordock_position": 4,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 1029,
+  "estimated_cost_usd": 0.020462,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/comparison/salesforce-npc",
+      "https://www.zeffy.com/compare/donordock-vs-salesforce",
+      "https://www.donordock.com/comparison/salesforce-npsp",
+      "https://www.g2.com/compare/agentforce-nonprofit-formerly-salesforce-nonprofit-cloud-vs-donordock",
+      "https://www.donordock.com/success-stories/swwc",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://fundraisingwell.com/resources/f/how-the-top-crm-solutions-compare-for-nonprofit-success",
+      "https://cube84.com/blog/hubspot-vs-salesforce-npsp-vs-nonprofit-cloud-choosing-the-right-crm-for-donor-management",
+      "https://provisiopartners.com/content-hub-posts/salesforce-nonprofit-cloud-vs-nonprofit-success-pack-a-comparison-guide"
+    ]
+  }
+}

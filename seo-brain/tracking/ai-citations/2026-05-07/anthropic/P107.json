@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550763+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Measure Donor Retention\n\n## Key Retention Metrics\n\n### 1. **Overall Retention Rate**\n```\n(Number of donors who gave in both years / Number of donors who gave last year) \u00d7 100\n```\n**Example:** 400 donors last year, 280 gave again this year = 70% retention rate\n\n### 2. **New Donor Retention Rate**\nTrack first-time donors separately\u2014they typically have lower retention (often 20-40%)\n```\n(First-time donors from last year who gave again / Total first-time donors last year) \u00d7 100\n```\n\n### 3. **Multi-Year Retention Rate**\nDonors who've given 2+ years consecutively (usually 60-80% retention)\n\n### 4. **Lapsed Donor Rate**\n```\n(Donors who gave previously but not this year / Total donors last year) \u00d7 100\n```\n\n## Important Time Frames to Track\n\n- **Month-over-month** (for campaigns)\n- **Year-over-year** (most common)\n- **13-month retention** (accounts for donors who give annually but not in same calendar year)\n- **Rolling 24-month** (broader view of engagement)\n\n## Cohort Analysis\n\nTrack retention by:\n- **Acquisition source** (event, online, direct mail)\n- **Gift size** (major vs. small donors)\n- **Donor type** (individual, corporate, foundation)\n- **Campaign** (which appeals retain best)\n\n## Benchmarks\n\n- **Average nonprofit:** 40-45% overall retention\n- **New donors:** 20-30%\n- **Repeat donors:** 60-65%\n- **Top performers:** 50%+ overall\n\n## Tools to Use\n\n- Your **donor database/CRM**\n- Spreadsheet cohort analysis\n- Dashboard software (Tableau, Google Data Studio)\n\n**Pro tip:** Retention is more cost-effective than acquisition\u2014prioritize keeping existing donors!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 455,
+  "estimated_cost_usd": 0.006861,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

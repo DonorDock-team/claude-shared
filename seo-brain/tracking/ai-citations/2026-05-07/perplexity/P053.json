@@ -1,0 +1,40 @@
+{
+  "prompt_id": "P053",
+  "prompt_text": "Best donor CRM for a 10 person fundraising team",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550784+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Recommendations for Donor CRM for a 10-Person Fundraising Team\n\nFor a small team of 10 fundraisers, the ideal donor CRM should prioritize **ease of use, affordability, collaboration features (e.g., shared dashboards, task assignment, real-time updates), donor tracking, and integrated fundraising tools** without overwhelming complexity or high costs typical of enterprise solutions like Salesforce Nonprofit Cloud. Based on 2026 analyses from sources like Double the Donation, G2, Evertrue, and others, here are the **top 3 picks** tailored to your team size. These stand out for lightweight interfaces, team workflows, and scalability for mid-sized nonprofits.\n\n| CRM | Best For | Key Features for 10-Person Teams | Pricing (2026 Est.) | Why It Fits |\n|-----|----------|---------------------------------|---------------------|-------------|\n| **Givebutter** | All-in-one fundraising + lightweight CRM | Shared donor pipelines, real-time engagement tracking, personalized comms, forms/events, unlimited users. Mobile-friendly for field teams. | Free core; $19-$99/mo for premium (unlimited contacts). | Top-rated on G2 and Double the Donation for small teams; combines CRM/donations without silos. No per-user fees\u2014perfect for 10 people collaborating on campaigns. |\n| **Bloomerang** | Donor retention & engagement | Team dashboards, donor scoring, automated workflows, reporting, volunteer mgmt. Simple setup with strong analytics. | $119/mo base (up to 750 contacts); scales affordably. Unlimited staff access. | Frequently #1 in lists (Evertrue, Kindsight, Bloomerang's own benchmarks); excels in retention for fundraising teams. Easy for non-tech users; integrates with email/tools. |\n| **DonorPerfect** | Robust reporting & donor mgmt | Custom workflows, pledge tracking, team segmentation, grant reporting. Strong import/export for quick onboarding. | $89-$500/mo based on contacts; unlimited users. | Highlighted by LiveImpact and Ellipsis Partners for established teams; balances power with simplicity. Great for 10-person ops needing detailed insights without enterprise bloat. |\n\n#### Why These Over Others?\n- **Filtered for team size**: Enterprise options like Salesforce or Bonterra (from Insightly, GoodUnited) are customizable but overkill/expensive for 10 people (setup costs $10K+). These three are \"plug-and-play\" with high G2 ratings (4.8-4.9/5) and nonprofit-specific focus.\n- **Team collaboration emphasis**: All support multi-user access, role-based permissions, and activity feeds\u2014crucial for avoiding email chains or spreadsheets.\n- **2026 trends**: Sources note rising demand for integrated fundraising (e.g., Givebutter's edge in events/donations) amid economic pressures on small orgs.\n- **Avoided mismatches**: Tools like EveryAction suit advocacy-heavy groups; Ascend or Insightly are niche.\n\n#### Quick Decision Framework\n1. **Budget-tight + all-in-one?** \u2192 Givebutter (start free today).\n2. **Retention analytics priority?** \u2192 Bloomerang (demo shows ROI fast).\n3. **Reporting depth needed?** \u2192 DonorPerfect.\n   \n**Next steps**: Request demos from 2-3 (most offer free trials). Check contact limits against your donor base (e.g., Bloomerang starts small). For custom needs, factor integrations (all work with QuickBooks, Mailchimp). Sources: [Double the Donation](https://doublethedonation.com/top-nonprofit-crms/), [G2](https://learn.g2.com/best-crm-for-nonprofits), [Evertrue](https://www.evertrue.com/blog/donor-management-software-solutions/).",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Givebutter",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [
+    "https://doublethedonation.com/top-nonprofit-crms/",
+    "https://learn.g2.com/best-crm-for-nonprofits",
+    "https://www.evertrue.com/blog/donor-management-software-solutions/"
+  ],
+  "input_tokens": 11,
+  "output_tokens": 783,
+  "estimated_cost_usd": 0.016778,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.evertrue.com/blog/donor-management-software-solutions/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://www.liveimpact.org/blog/best-all-in-one-software-for-nonprofits",
+      "https://learn.g2.com/best-crm-for-nonprofits?hsLang=en",
+      "https://bloomerang.com/blog/donor-management-software/",
+      "https://www.ellipsispartners.com/donation-crms-for-nonprofits/"
+    ]
+  }
+}

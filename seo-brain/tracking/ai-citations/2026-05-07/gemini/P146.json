@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P146",
+  "prompt_text": "Best donor CRM with grant tracking",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550972+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The \"best\" donor CRM with grant tracking really depends on your organization's specific needs, budget, size, and technical capabilities. However, several platforms stand out for their robust grant management features alongside core donor CRM functionalities.\n\nHere are the top contenders, categorized for different organizational profiles:\n\n---\n\n### Top Recommendations:\n\n1.  **Salesforce Nonprofit Cloud (NPSP)**\n    *   **Best For:** Medium to large organizations, those with complex grant lifecycles, and a need for highly customized solutions.\n    *   **Pros:**\n        *   **Unrivaled Customization:** Salesforce's flexibility allows you to build out highly specific grant tracking workflows, from prospecting to application submission, reporting, and even impact measurement.\n        *   **Powerful Reporting & Analytics:** Deep insights into your grant pipeline, funder relationships, and grant performance.\n        *   **Vast Ecosystem:** Thousands of app integrations (AppExchange) for almost any need, including dedicated grant management apps if NPSP's native capabilities aren't enough.\n        *   **Scalability:** Grows with your organization.\n        *   **Strong Relationship Tracking:** Excellent for managing complex funder relationships.\n    *   **Cons:**\n        *   **Steep Learning Curve:** Requires significant administrative expertise, potentially a dedicated admin, or reliance on consultants.\n        *   **Cost:** While Salesforce offers 10 free licenses to nonprofits, implementation and ongoing customization/support can be expensive.\n        *   **Can Be Overkill:** For smaller organizations with simpler grant needs, it might be too complex and costly.\n    *   **Grant Tracking Capabilities:** Highly configurable to manage grant deadlines, tasks, proposals, budgets, reporting requirements, payments, and communications with program officers. You can create custom objects to track specific grant stages and metrics.\n\n2.  **Blackbaud Raiser's Edge NXT (RENXT)**\n    *   **Best For:** Mid-size to large, established nonprofits, especially those already familiar with Blackbaud products.\n    *   **Pros:**\n        *   **Comprehensive Fundraising Suite:** A very robust, all-in-one solution that covers almost every aspect of fundraising.\n        *   **Dedicated Grant Module:** Raiser's Edge NXT has a mature and comprehensive grant management module designed specifically for the grant lifecycle.\n        *   **Industry Standard:** Widely used, meaning lots of resources, training, and consultants available.\n        *   **Strong Reporting:** Excellent reporting capabilities tailored for fundraising and grants.\n    *   **Cons:**\n        *   **Cost:** Can be",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 542,
+  "estimated_cost_usd": 0.001357,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P035",
+  "prompt_text": "Best all-in-one fundraising platform for nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550752+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best All-in-One Fundraising Platforms for Nonprofits\n\nHere are the top comprehensive solutions:\n\n## **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- **Strengths:** Donor management + fundraising + communications\n- **Key features:** Donation processing, email marketing, donor retention tools, reporting\n- **Pricing:** Starts ~$125/month\n\n## **2. Givebutter**\n- **Best for:** Budget-conscious organizations\n- **Strengths:** Free platform with optional tips model\n- **Key features:** Peer-to-peer fundraising, event ticketing, auctions, CRM\n- **Pricing:** Free (donors can tip) or 1% + payment processing\n\n## **3. Classy (by GoFundMe)**\n- **Best for:** Mid to large nonprofits with growth goals\n- **Strengths:** Campaigns, events, peer-to-peer, recurring giving\n- **Key features:** Customizable donation forms, corporate matching, analytics\n- **Pricing:** Custom (typically $$$)\n\n## **4. Donorbox**\n- **Best for:** Quick setup and affordability\n- **Strengths:** Simple donation forms, recurring giving, crowdfunding\n- **Key features:** Embeddable forms, text-to-give, event ticketing\n- **Pricing:** 1.75% platform fee + payment processing\n\n## **5. Keela**\n- **Best for:** Data-driven organizations\n- **Strengths:** CRM + fundraising + AI insights\n- **Pricing:** Starts ~$149/month\n\n**Choose based on:** your budget, organization size, and whether you need basic fundraising tools or full CRM capabilities.\n\nWhat's your nonprofit's size and primary fundraising needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Givebutter",
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 20,
+  "output_tokens": 413,
+  "estimated_cost_usd": 0.006255,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

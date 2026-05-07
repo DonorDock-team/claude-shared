@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P001",
+  "prompt_text": "What is DonorDock",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550252+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**DonorDock** is a cloud-based **donor management and fundraising software** designed specifically for **nonprofit organizations**.\n\nIts primary goal is to help nonprofits streamline their fundraising efforts, manage donor relationships more effectively, and ultimately raise more money to support their mission.\n\nHere's a breakdown of what DonorDock typically offers:\n\n1.  **Donor Relationship Management (CRM):**\n    *   A centralized database to store all donor information, including contact details, giving history, interactions, preferences, and relationships.\n    *   Allows for donor segmentation to target specific groups with personalized messages.\n\n2.  **Online Giving & Donation Processing:**\n    *   Tools to create customizable online donation forms that can be embedded on a nonprofit's website.\n    *   Supports various donation types, including one-time gifts, recurring donations, pledges, and sometimes even peer-to-peer fundraising.\n    *   Integrates with payment processors (like Stripe) for secure transaction processing.\n\n3.  **Communication & Marketing Tools:**\n    *   Email marketing capabilities to send newsletters, campaign updates, appeals, and thank-you messages.\n    *   Automated thank-you letters and receipts.\n    *   Personalized communication based on donor segments and giving history.\n\n4.  **Reporting & Analytics:**\n    *   Provides dashboards and reports to track fundraising performance, campaign effectiveness, donor trends, and overall financial health.\n    *   Helps nonprofits make data-driven decisions.\n\n5.  **Campaign Management:**\n    *   Tools to plan, execute, and track the progress of various fundraising campaigns (e.g., annual appeals, capital campaigns, Giving Tuesday).\n    *   Allows for setting goals and monitoring progress towards those goals.\n\n6.  **Event Management (sometimes included):**\n    *   Features for managing fundraising events, including registration, ticketing, and attendee tracking.\n\n**In essence, DonorDock aims to provide an all-in-one solution for nonprofits to move beyond spreadsheets and legacy systems, empowering them with modern tools to connect with their supporters, efficiently manage their data, and achieve their fundraising goals.** It's often chosen by small to mid-sized nonprofits looking for an intuitive, comprehensive, and affordable platform.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 466,
+  "estimated_cost_usd": 0.001166,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

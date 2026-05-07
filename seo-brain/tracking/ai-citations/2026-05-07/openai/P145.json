@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P145",
+  "prompt_text": "Best donor CRM for capital campaigns",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550889+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM for capital campaigns depends on several factors, including the size of your organization, your specific needs, and your budget. However, some CRM platforms are particularly well-regarded in the nonprofit sector for their robust features tailored to capital campaigns. Here are a few top choices:\n\n1. **Raiser's Edge NXT (by Blackbaud):**\n   - **Strengths:** Raiser's Edge NXT is one of the most comprehensive and widely used platforms, offering powerful tools for donor management, analytics, and campaign tracking. It features prospect research capabilities and mobile access, which are crucial for capital campaigns.\n   - **Considerations:** It can be costly, and the learning curve may be steep for new users. \n\n2. **Salesforce Nonprofit Cloud:**\n   - **Strengths:** With its high customization capabilities, Salesforce offers great flexibility through the Nonprofit Success Pack (NPSP). It provides robust reporting and a wide range of integrations.\n   - **Considerations:** The customization options can require significant technical expertise to implement effectively.\n\n3. **Bloomerang:**\n   - **Strengths:** Bloomerang focuses on donor retention and engagement, providing a user-friendly interface and excellent customer support. It offers automated donor insights and is relatively affordable.\n   - **Considerations:** It may lack some of the advanced features of larger systems, especially if you have very complex needs.\n\n4. **Kindful (by Bloomerang):**\n   - **Strengths:** Kindful is intuitive and integrates well with other tools you might already be using. Its focus on simplicity and visual dashboards is ideal for small to mid-sized organizations.\n   - **Considerations:** It might not be as feature-rich as other platforms for very large capital campaigns.\n\n5. **Neon CRM:**\n   - **Strengths:** Neon CRM offers a comprehensive feature set ideal for capital campaigns, including donor management, email marketing, and online fundraising tools. It's known for excellent customer service.\n   - **Considerations:** Some users have noted that customization can be limited compared to platforms like Salesforce.\n\n6. **DonorPerfect:**\n   - **Strengths:** DonorPerfect is user-friendly and offers excellent reporting capabilities. It includes capital campaign management tools and is scalable for organizations of different sizes.\n   - **Considerations:** The interface might seem dated compared to some newer systems.\n\n7. **EveryAction:**\n   - **Strengths:** EveryAction provides robust tools for donor management and fundraising, with a strong focus on digital activities and integrations.\n   - **Considerations:** Pricing may be a concern for smaller organizations.\n\nIn choosing a CRM for capital campaigns, consider factors like the platform\u2019s scalability, ease of use, customization options, integration capabilities with other tools you use, and customer support. If possible, take advantage of free trials or demos to see how well the software meets your organization's specific needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 585,
+  "estimated_cost_usd": 0.005882,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

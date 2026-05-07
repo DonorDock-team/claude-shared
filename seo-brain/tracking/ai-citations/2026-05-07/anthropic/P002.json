@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P002",
+  "prompt_text": "Is DonorDock good",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550385+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock Overview\n\nDonorDock is a **donor management CRM** designed primarily for small to mid-sized nonprofits. Here's a balanced look:\n\n## Strengths\n- **Affordable pricing** - Generally less expensive than competitors like Bloomerang or Little Green Light\n- **User-friendly interface** - Clean, intuitive design that's easy to learn\n- **Good core features** - Solid contact management, donation tracking, and basic reporting\n- **Email integration** - Built-in email capabilities\n- **Responsive customer support** - Users often praise their support team\n- **Online donation forms** - Included without additional fees\n\n## Limitations\n- **Limited advanced features** - May lack depth for larger organizations with complex needs\n- **Reporting constraints** - Not as robust as higher-end platforms\n- **Fewer integrations** - Smaller ecosystem compared to major competitors\n- **Scalability questions** - May outgrow it as your organization expands\n\n## Best For\n- Small nonprofits (budgets under $1-2M)\n- Organizations new to donor management software\n- Teams wanting simplicity over complexity\n- Groups with straightforward fundraising needs\n\n## Consider Alternatives If...\n- You need complex grant management\n- Require extensive custom reporting\n- Need major event management tools\n- Want robust wealth screening\n\n**Bottom line**: DonorDock is a solid, budget-friendly option for smaller nonprofits that prioritizes ease of use over advanced features. Worth trying their demo to see if it fits your specific needs.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 344,
+  "estimated_cost_usd": 0.005202,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

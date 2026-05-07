@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P131",
+  "prompt_text": "Neon CRM negative reviews",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.551128+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Key Negative Reviews and Complaints about Neon CRM\n\nNeon CRM, a cloud-based CRM for nonprofits, receives mixed feedback across review sites like Capterra, G2, Software Advice, TrustRadius, and others. While some users praise its user-friendliness and reporting, negative reviews (from 2026 data) highlight recurring pain points in usability, integrations, reporting, support, and features. Below, I've summarized the most common criticisms, backed by direct quotes and evidence from the search results.\n\n#### 1. **Poor Reporting and Data Accessibility**\n   - Users frequently call reporting \"difficult, non-intuitive,\" \"a nightmare,\" and clunky, requiring manual workarounds.\n   - **Evidence**:\n     | Source | Quote |\n     |--------|-------|\n     | Capterra [1] | \"Donor profile pages are very disjointed and messy - I have to dig to find the info I need as it is spread across different tabs... not all of the categories are easily accessible to run in reports... enter it manually.\" |\n     | Capterra [1] | \"Reporting is difficult and non-intuitive... It was difficult to pull reports and utilize those for fundraising means.\" |\n     | Software Advice [3] / G2 [4] (implied in cons) | Reports noted as inflexible despite some positive mentions. |\n\n#### 2. **Limited Integrations and Missing Features**\n   - No native support for invoices, mandatory credit card surcharges, mobile app, certain email clients (e.g., Google), auction systems, or grant research/discovery.\n   - Grant tracking is basic (applications only, no prospecting).\n   - **Evidence**:\n     | Source | Quote |\n     |--------|-------|\n     | Capterra [1] | \"You cannot (1) send invoices... (2) make a credit card surcharge mandatory.\" \"Doesn't integrate well with our events software... no integration with the auction system.\" \"Batch transfer... guest profiles could be duplicated.\" |\n     | Capterra [1] | \"It doesn't work with my email (Google). I have to manually enter email conversations.\" |\n     | Design by Cosmic [2] | \"Grant tracking... does not currently extend to the discovery and research phase.\" |\n     | Capterra [1] | \"We weren't receiving our payouts in a timely manner.\" |\n\n#### 3. **Steep Learning Curve and Complexity**\n   - Overwhelming for small teams; requires significant training time. Features like email templates are \"hard to use\" and lack creativity.\n   - Risk of underutilization for smaller orgs paying for unused tools.\n   - **Evidence**:\n     | Source | Quote |\n     |--------|-------|\n     | Design by Cosmic [2] | \"Steeper learning curve... customizing... complex and time-consuming... invest significant time in training.\" \"Risk of paying for more than you use... for very small nonprofits, the platform could be more than what's needed.\" |\n     | Capterra [1] | \"Some of the great features, like the email templates, are hard to use, and the templates are lacking creativity.\" \"Very clunky in its set up and usage.\" |\n\n#### 4. **Weak Customer Support and Mobile Limitations**\n   - Support requires paid training, even for long-term users. No reliable mobile app.\n   - **Evidence**:\n     | Source | Quote |\n     |--------|-------|\n     | Capterra [1] | \"Customer service is limited- as in they want you to pay for training, even if you have been a paying member for more than five years.\" |\n     | Capterra [1] | \"Lack of a reliable mobile app, which makes it difficult to manage donor information... away from a computer.\" |\n\n#### Overall Ratings Context\n- **Capterra [1]**: 617 reviews; cons dominate user quotes, with scores not specified but negatives prominent.\n- **TrustRadius [5]**: Starts at $99/month; mixed but loading reviews suggest similar issues.\n- **G2 [4]**: Some pros on interface/workflows, but cons page highlights dislikes.\n\nThese issues appear consistent across small-to-mid nonprofits (2-10 employees, 6-12 months usage). For alternatives, reviewers often seek simpler tools focused on core needs like donor management without bloat. Check full sites for latest 2026 updates.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 915,
+  "estimated_cost_usd": 0.018743,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.capterra.com/p/102088/NeonCRM/reviews/",
+      "https://designbycosmic.com/guides/nonprofit-branding/neon-crm/",
+      "https://www.softwareadvice.com/nonprofit/neoncrm-profile/reviews/",
+      "https://www.g2.com/products/neon-one-llc-neon-crm/reviews?qs=pros-and-cons",
+      "https://www.trustradius.com/products/neon-crm/reviews",
+      "https://www.youtube.com/watch?v=phAm8Mm0DdA"
+    ]
+  }
+}

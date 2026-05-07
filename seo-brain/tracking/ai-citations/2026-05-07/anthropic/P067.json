@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550519+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Tracking Donor Relationships Across a Team\n\n## 1. **Centralized CRM System**\nChoose a donor database that everyone can access:\n- **Popular options**: Salesforce (Nonprofit Cloud), Bloomerang, DonorPerfect, Little Green Light\n- Ensure all interactions are logged in one place\n- Set required fields for consistency\n\n## 2. **Establish Clear Ownership**\n- Assign a **primary relationship manager** for each major donor\n- Define portfolio sizes (e.g., 75-150 major donors per officer)\n- Create a system for flagging \"shared\" relationships\n- Document who does what when multiple people interact with same donor\n\n## 3. **Interaction Logging Protocol**\nRequire team members to document:\n- Date and type of contact (call, email, meeting, event)\n- Key discussion points\n- Donor interests, concerns, or requests\n- Next steps and follow-up dates\n- **Within 24 hours** of the interaction\n\n## 4. **Regular Team Communication**\n- **Weekly briefings**: Share upcoming visits and recent conversations\n- **Portfolio reviews**: Monthly or quarterly deep dives on major donors\n- **Shared calendar**: Mark donor meetings visible to relevant team members\n- **Briefing memos**: Before events, share who's attending and talking points\n\n## 5. **Donor Stages & Moves Management**\nTrack where each donor is in the cultivation cycle:\n- Identification \u2192 Qualification \u2192 Cultivation \u2192 Solicitation \u2192 Stewardship\n- Assign next actions with deadlines\n- Review stalled relationships regularly\n\n## 6. **Access & Permissions Strategy**\n- Development team: Full access\n- Leadership: View key donors\n- Program staff: Limited, need-to-know basis\n- Set clear data privacy expectations\n\n## 7. **Key Metrics Dashboard**\nTrack team-wide:\n- Contact frequency by donor tier\n- Days since last contact\n- Pending tasks and overdue follow-ups\n- Solicitation pipeline status\n\n**Pro tip**: The system only works if people actually use it. Keep it simple, provide training, and build logging time into team routines.\n\nWhat size team are you working with?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 494,
+  "estimated_cost_usd": 0.007455,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

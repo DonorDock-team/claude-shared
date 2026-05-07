@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P138",
+  "prompt_text": "Virtuous customer complaints",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550496+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Key Virtuous CRM Customer Complaints\n\nBased on aggregated user reviews and expert analyses from sources like SmartThoughts, G2 (215+ reviews), and Software Advice, here are the most frequently cited complaints about Virtuous CRM, a donor management platform for nonprofits. Complaints focus on usability limitations, support nuances, and scalability issues, despite praise for its intuitive interface and responsive support.\n\n#### Top Complaints (Ranked by Frequency of Mentions)\n| Complaint | Details & Examples | Sources |\n|-----------|---------------------|---------|\n| **Limited Form Customization & Design Issues** | Forms lack flexibility for collecting info/payments; not practical for quick/anonymous donations (e.g., no tap-to-pay); users want more customization options. Repeated in multiple G2 reviews (e.g., \"I wish the forms were more customizable\"). | G2 (multiple mentions, 2+ explicit cons) |\n| **Query & Reporting Limitations** | Query functionality less flexible than competitors (e.g., Salesforce); steep learning curve for complex reporting/customization. | SmartThoughts |\n| **Integration Challenges** | \"All-in-one\" claims overstated\u2014relies on partner integrations (QuickBooks, DonorSearch, payment processors) that aren't fully native; issues with event management and seamless functionality. | SmartThoughts, G2 (2 mentions) |\n| **Complexity for Small Organizations** | Onboarding costs and complexity overwhelm sub-$500K nonprofits; not ideal for very small teams. | SmartThoughts |\n| **Support Response Times & Access** | 24-48 hour ticket resolution (no real-time chat like Bloomerang); some report no dedicated support, only generic tickets or bots (conflicting with praise for reps like \"Aaron B.\"). | SmartThoughts, Software Advice, G2 |\n| **Missing Features** | Lacks robust marketing tools; long estimated conversion times; custom setups sometimes unsupported (though support helps problem-solve). No quick anonymous donation process. | G2 |\n\n#### Summary Insights\n- **Most Common Theme**: Usability gaps in forms and customization (heavily echoed on G2).\n- **Context**: Virtuous scores high on ease-of-use overall (intuitive UI, dedicated reps), but these pain points frustrate power users or small orgs. Feedback is often forwarded for development (e.g., tap-to-pay requests).\n- **Positive Counterbalance**: 4.5-5 star averages on G2/Software Advice; support is \"knowledgeable\" but not instant.\n\nFor direct support, contact Virtuous at (866) 329-4009 or their [Help Center](https://support.virtuous.org/hc/en-us). More reviews at [G2](https://www.g2.com/products/virtuous-crm/reviews) or [SmartThoughts](https://www.smartthoughts.net/post/virtuous-crm-software-for-nonprofits-review).",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Virtuous"
+  ],
+  "urls_cited": [
+    "https://www.g2.com/products/virtuous-crm/reviews",
+    "https://www.smartthoughts.net/post/virtuous-crm-software-for-nonprofits-review",
+    "https://support.virtuous.org/hc/en-us"
+  ],
+  "input_tokens": 6,
+  "output_tokens": 596,
+  "estimated_cost_usd": 0.013958,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.smartthoughts.net/post/virtuous-crm-software-for-nonprofits-review",
+      "https://www.g2.com/products/virtuous-crm/reviews?qs=pros-and-cons",
+      "https://www.softwareadvice.com/nonprofit/virtuous-profile/reviews/",
+      "https://virtuous.org/contact/",
+      "https://www.featuredcustomers.com/vendor/virtuous",
+      "https://virtuous.org/resources/help-center/",
+      "https://www.infotech.com/software-reviews/products/virtuouscrm?c_id=174",
+      "https://support.virtuous.org/hc/en-us"
+    ]
+  }
+}

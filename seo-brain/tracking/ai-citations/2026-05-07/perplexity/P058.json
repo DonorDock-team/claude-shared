@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P058",
+  "prompt_text": "Donor CRM with online giving forms",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.551062+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs with Integrated Online Giving Forms\n\nBased on the search results, several nonprofit CRMs stand out for their built-in, customizable online donation forms that sync donor and gift data directly into the system. These tools emphasize mobile-friendly designs, branding, recurring giving prompts, and automation to streamline fundraising. Here's a breakdown of the leading options, focusing on key features relevant to your query:\n\n#### 1. **DonorPerfect** (Most Featured in Results)\n   - **Core Strengths**: Drag-and-drop builder for mobile-optimized forms with consistent branding (colors, fonts, logos, videos). Supports suggested giving amounts, impact statements, custom fields (dropdowns, checkboxes), hidden tracking codes, and recurring upgrades. Forms embed on websites/emails; all data auto-syncs to CRM for donor profiles, segmentation, and analytics.\n   - **Additional Tools**: Donor portal for self-management, sign-up/survey/volunteer forms, automatic staff alerts, Constant Contact integration for welcome series.\n   - **Pricing**: Starts at $99/month (record-based).\n   - **Ideal For**: Small to medium nonprofits needing seamless CRM + forms without extras. \"Every plan includes high-converting forms\" \u2013 no add-ons.\n   - **Evidence**: Results [1], [2], [3], [8] highlight setup ease, auto-sync, and donor retention boosts (e.g., instant merges for thank-yous).\n\n#### 2. **Virtuous**\n   - **Core Strengths**: Customizable donation forms/pages with data intelligence for gift optimization. Full CRM integration for donor journeys, marketing automation, wealth data, and analytics.\n   - **Additional Tools**: AI fundraising agent, volunteer management, robust BI.\n   - **Pricing**: Custom (organization size-based).\n   - **Ideal For**: Medium/large nonprofits wanting all-in-one with AI personalization.\n   - **Evidence**: Results [3], [5] emphasize frictionless online experiences and donor engagement growth.\n\n#### 3. **Donorbox**\n   - **Core Strengths**: Easy customizable forms supporting recurring donations, with AI-powered CRM for segmentation, email, and action tracking.\n   - **Additional Tools**: Comprehensive donor management.\n   - **Pricing**: Free platform with paid upgrades.\n   - **Ideal For**: Quick setup for online fundraising.\n   - **Evidence**: Results [3], [6] note donor management and efficiency.\n\n#### 4. **Bloomerang**\n   - **Core Strengths**: Flexible forms with matching gift integrations, campaign pages, and donor insights from multi-form options.\n   - **Additional Tools**: Tailored giving menus for campaigns.\n   - **Pricing**: Not specified in results.\n   - **Ideal For**: Nonprofits focused on conversions and donor preferences.\n   - **Evidence**: Result [7] quotes improved clarity and insights.\n\n#### 5. **Other Mentions**\n   - **Givecloud** (Result [9]): Smart forms with suggested amounts, social proof, donor portal, and tools like gift catalogs/peer-to-peer.\n   - **General CRM Needs** (Result [4]): Prioritize built-in giving to avoid separate platforms; look for donor timelines, recurring support.\n\n| CRM          | Form Customization | Auto-Sync to CRM | Recurring Focus | Starting Price    | Best For                  |\n|--------------|--------------------|------------------|-----------------|-------------------|---------------------------|\n| **DonorPerfect** | Drag-and-drop, branding, fields | Yes, full donor/gift | Suggested amounts, upgrades | $99/mo            | All-around integration   |\n| **Virtuous**    | High, with AI optimization     | Yes              | Yes             | Custom            | Scaling with AI          |\n| **Donorbox**    | Easy, recurring-ready          | Yes (AI CRM)     | Strong          | Free tier         | Quick online setup       |\n| **Bloomerang**  | Campaign pages, matching gifts | Yes              | Menu options    | N/A               | Donor insights           |\n| **Givecloud**   | Smart suggestions, modern UX   | Yes              | Donor portal    | N/A               | Generosity drivers       |\n\n**Recommendation**: **DonorPerfect** dominates the results for its depth in form features + CRM sync, making it ideal if you want everything in one affordable package. Test via their setup video (Result [8]) for quick wins like code defaults and auto-downloads. For AI-heavy needs, go Virtuous. Most offer demos \u2013 prioritize based on your nonprofit size and recurring giving goals.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 938,
+  "estimated_cost_usd": 0.019094,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donorperfect.com/nonprofit-technology-blog/fundraising-software/mobile-donation-forms/",
+      "https://www.donorperfect.com/fundraising-software/integrated-online-forms/",
+      "https://positiveequation.com/top-tools-to-grow-your-nonprofits-monthly-giving-program/",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://virtuous.org",
+      "https://donorbox.org",
+      "https://bloomerang.com/features/donation-forms/",
+      "https://www.donorperfect.com/video/how-to-set-up-your-online-donation-forms/",
+      "https://givecloud.com"
+    ]
+  }
+}

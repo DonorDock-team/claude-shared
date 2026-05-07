@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P056",
+  "prompt_text": "Best donor CRM to consolidate multiple fundraising tools",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550965+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Consolidating multiple fundraising tools into a single donor CRM is a smart move that improves data integrity, streamlines operations, and provides a holistic view of your donors. The \"best\" CRM depends heavily on your organization's size, budget, complexity of needs, and specific tools you're currently using.\n\nHere are some of the top donor CRMs known for their robust features and ability to consolidate various fundraising activities, categorized by typical organizational needs:\n\n---\n\n### Top Donor CRMs for Consolidation\n\n#### 1. Salesforce NPSP (Nonprofit Success Pack) - *Best for Scalability & Customization*\n\n*   **Why it consolidates:** Salesforce is a platform, not just a CRM. NPSP is a pre-configured package specifically for nonprofits, providing a flexible data model for managing relationships, donations, grants, and programs. Its strength lies in its vast ecosystem (AppExchange) for integrating or adding specialized functionality (e.g., sophisticated event management, marketing automation).\n*   **Key Features for Consolidation:**\n    *   **Comprehensive Donor Management:** Profiles, gift history, relationships, communication preferences.\n    *   **Donation & Grant Management:** Track pledges, recurring gifts, grant cycles, proposals.\n    *   **Campaign Management:** Build, execute, and track multi-channel campaigns.\n    *   **Integration Powerhouse:** Connects with virtually any other tool (e.g., event platforms like Classy/Eventbrite, email marketing like Pardot/Mailchimp, accounting like QuickBooks, specialized peer-to-peer tools, advocacy platforms).\n    *   **Reporting & Analytics:** Highly customizable dashboards and reports.\n    *   **Program Management:** Track impact and beneficiaries.\n*   **Pros:** Unparalleled scalability, flexibility, vast integration options, strong community support, industry-standard.\n*   **Cons:** Steep learning curve, can be complex to set up and maintain without technical expertise (often requires a consultant), can become expensive with many add-ons.\n*   **Best For:** Mid-to-large nonprofits, those with complex needs, organizations planning significant growth, or those who want ultimate control and customization.\n\n#### 2. Virtuous - *Best for Modern Fundraising Automation & Engagement*\n\n*   **Why it consolidates:** Virtuous is built from the ground up to be an all-in-one platform focused on responsive, personalized donor engagement. It aims to replace many disparate tools by offering robust native functionality.\n*   **Key Features for Consolidation:**\n    *   **Unified Donor Database:** 360-degree view of donors, wealth screening.\n    *   **Native Online Fundraising:** Donation pages, recurring gifts, peer-to-peer fundraising, events.\n    *   **Marketing & Communication Automation:** Email, SMS, direct mail tools with automation workflows.\n    *   **Responsive Fundraising Engine:** Identifies key moments for engagement, personalized asks.\n    *   **Volunteer & Grant Management:** Integrated modules.\n    *   **Powerful Reporting & Analytics:** Track ROI across all channels.\n*   **Pros:** Modern, intuitive UI, strong focus on automation and donor engagement, excellent native fundraising tools, good integration capabilities with other key systems (e.g., accounting).\n*   **Cons:** Can be a higher price point for smaller organizations, some advanced features might require a deeper dive.\n*   **Best For:** Mid-size to large nonprofits looking for a modern, integrated platform with strong marketing automation and a focus on personalized donor journeys.\n\n#### 3. Blackbaud Raiser's Edge NXT - *Best for Established & Large Nonprofits*\n\n*   **Why it consolidates:** Raiser's Edge has long been an industry staple for large nonprofits. NXT is the modern, cloud-based evolution, designed to provide a comprehensive suite",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge",
+    "Salesforce NPSP",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 794,
+  "estimated_cost_usd": 0.001987,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

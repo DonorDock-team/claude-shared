@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P065",
+  "prompt_text": "Donor CRM with pledge tracking",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550442+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Yes, many Donor CRMs are specifically designed with robust pledge tracking capabilities as a core feature. This allows non-profits to manage multi-payment commitments from donors, track installments, and ensure timely fulfillment.\n\nHere are some of the top Donor CRMs known for excellent pledge tracking, along with their general strengths:\n\n### Top Donor CRMs with Pledge Tracking\n\n1.  **Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack):**\n    *   **Strengths:** Highly customizable, scalable, vast app ecosystem (AppExchange), powerful reporting. Pledges are handled through \"Opportunities\" and \"Payments,\" allowing for detailed tracking of installments, expected revenue, and received amounts against specific General Accounting Units (GAUs).\n    *   **Considerations:** Can be complex to set up and requires an administrator, often higher implementation costs, but the software itself is often discounted or free for non-profits.\n\n2.  **Blackbaud (e.g., Raiser's Edge NXT, eTapestry):**\n    *   **Strengths:** Industry leader with comprehensive solutions.\n        *   **Raiser's Edge NXT:** Enterprise-grade, extremely robust for large organizations, complex campaigns, and major gift fundraising. Pledge tracking is highly detailed, supporting various schedules and reminders.\n        *   **eTapestry:** More affordable and user-friendly for small to medium-sized organizations. Excellent for basic pledge tracking, recurring gifts, and donor management.\n    *   **Considerations:** Can be expensive, and the user interface for some products might feel dated to some users (though NXT is modern).\n\n3.  **Bloomerang:**\n    *   **Strengths:** Known for its user-friendly interface, focus on donor retention, and powerful reporting. Bloomerang makes it easy to set up pledges, schedule installments, track payments, and calculate outstanding balances. Their \"engagement meter\" helps identify donors",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 397,
+  "estimated_cost_usd": 0.000994,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

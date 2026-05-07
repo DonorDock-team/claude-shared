@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P084",
+  "prompt_text": "Best donor CRM for theaters",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550506+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a theater really depends on its size, budget, specific needs (e.g., volume of shows, complexity of memberships, reliance on volunteers), and existing systems.\n\nHowever, for theaters, the most critical factor often is **how well the CRM integrates with (or natively handles) ticketing and patron management.** You don't just want a donor CRM; you want a *patron management system* that includes robust fundraising capabilities.\n\nHere are the top contenders and key considerations:\n\n### Top Recommendations (Prioritizing Theater-Specific Needs)\n\n1.  **Blackbaud Altru:**\n    *   **Why it's great for theaters:** This is purpose-built for cultural institutions (museums, performing arts centers). It's an all-in-one solution that natively integrates ticketing, membership management, fundraising, retail, and education programs. It provides a single view of each patron, whether they're buying a ticket, renewing a membership, or making a donation.\n    *   **Pros:** Comprehensive, single database for all patron interactions, strong reporting, designed for the arts world.\n    *   **Cons:** Can be expensive, interface can sometimes feel dated (though they are continuously updating), steep learning curve for new users.\n    *   **Best for:** Medium to large theaters with complex needs for ticketing, memberships, and fundraising.\n\n2.  **Dedicated Arts/Ticketing Platforms with Integrated CRM:**\n    *   Many modern ticketing systems have evolved into powerful patron management systems with significant CRM and fundraising capabilities built-in. These often offer the most seamless experience for theaters.\n    *   **Spektrix:**\n        *   **Why it's great:** Cloud-based platform specifically for arts and culture organizations. Excellent for ticketing, marketing, fundraising, and analytics. Highly praised for its modern interface, data insights, and integration capabilities.\n        *   **Pros:** Modern, intuitive, strong analytics for marketing and fundraising, excellent customer support, designed for arts.\n        *   **Cons:** Can be a significant investment, may not have the deep fundraising features of a dedicated enterprise",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 443,
+  "estimated_cost_usd": 0.001109,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

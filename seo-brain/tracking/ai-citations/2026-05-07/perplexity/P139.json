@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550558+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Salesforce Nonprofit Cloud (NPC) and NPSP: The Direct Nonprofit Equivalents\n\n**Salesforce Nonprofit Cloud (NPC)** and the **Nonprofit Success Pack (NPSP)** are essentially **Salesforce customized specifically for nonprofits**. They build directly on the Salesforce platform, offering the same enterprise-grade CRM power (unlimited customization, AI insights, vast AppExchange ecosystem, scalability) but with pre-built nonprofit features like donor/gift tracking, volunteer management, campaigns, and reporting. \n\n- **NPSP**: Free open-source add-on for base Salesforce (10 free licenses via Power of Us program). Ideal for **small to mid-sized nonprofits** transitioning from spreadsheets or basic tools. Highly flexible with community support.\n- **NPC**: Paid upgrade ($60\u2013$100/user/month + implementation costs ~$10K\u2013$30K). Best for **mid-to-large nonprofits** (500+ staff) needing advanced AI, Marketing Cloud integration, and enterprise security.\n\nFrom search results [1][4][5][7]:\n- NPC/NPSP excel in comprehensive donor data, workflows, and integrations but require setup time and IT resources\u2014unlike simpler tools.\n\n| Feature | Salesforce NPC/NPSP | Why Similar to Core Salesforce |\n|---------|----------------------|-------------------------------|\n| **Customization** | Unlimited (like Salesforce) | AppExchange + partner ecosystem |\n| **Scalability** | Enterprise-level | Handles 100K+ donors/campaigns |\n| **AI/Analytics** | Advanced insights | Einstein AI for donor scoring |\n| **Integrations** | 5,000+ apps | Same as commercial Salesforce |\n| **Best For** | Growing/large orgs | Mirrors Salesforce but nonprofit-optimized |\n\n**Evidence**: Multiple sources ([1], [2], [4], [5], [7]) position NPC/NPSP as the \"enterprise standard\" for nonprofits, directly adapting Salesforce without rebuilding from scratch. It's not \"similar\"\u2014it's **Salesforce rebranded for your sector**.\n\n### Top Alternatives If You Want \"Salesforce-Like\" Without Full Complexity\nIf NPC/NPSP feels like overkill (e.g., high setup costs, steep learning curve), these provide **similar power** (customization, integrations, analytics) but are easier/faster for nonprofits:\n\n1. **StratusLIVE 365** (on Microsoft Dynamics 365) **[2]**\n   - **Why similar**: Enterprise-scale, AI donor insights, real-time analytics, seamless Microsoft integrations (Outlook/Teams).\n   - **Best for**: Large nonprofits avoiding Salesforce setup. Outshines in out-of-box nonprofit tools.\n\n2. **Virtuous CRM+** **[2][7]**\n   - **Why similar**: Automation, donor journeys, fundraising tools rival Salesforce; Zapier + nonprofit integrations.\n   - **Best for**: Mid-sized orgs wanting quick value over customization depth.\n\n3. **CharityEngine** **[3]**\n   - **Why similar**: Unified platform (CRM + fundraising/events/marketing) without add-ons/consultants.\n   - **Best for**: Nonprofits ditching Salesforce's \"multiple apps\" model.\n\n| Alternative | Ease vs. Salesforce | Key Edge | Pricing Note |\n|-------------|---------------------|----------|--------------|\n| **StratusLIVE** | Higher | MS ecosystem, AI scoring | Enterprise (custom) |\n| **Virtuous** | Much higher | Automation focus | Mid-market |\n| **CharityEngine** | Highest | All-in-one | Simplified |\n\n**Recommendation**: Start with **NPSP** (free tier) if you like Salesforce's ecosystem\u2014it's the closest match with minimal changes. Scale to NPC as you grow. For less overhead, test StratusLIVE. Avoid Bloomerang/Neon for small orgs only\u2014they lack Salesforce depth [1][3][6]. Pilot via free trials to match your donor volume/team size.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 814,
+  "estimated_cost_usd": 0.01724,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://cube84.com/blog/bloomerang-vs-salesforce-nonprofit-cloud-vs-npsp-which-crm-is-best-for-your-nonprofit",
+      "https://stratuslive.com/blog/nonprofit-crm-systems-comparison/",
+      "https://blog.charityengine.net/salesforce-alternatives",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://casemanagementhub.org/salesforce-nonprofit-cloud-alternatives/",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/",
+      "https://www.ohack.org/about/faq/five-of-the-best-crms-for-nonprofits",
+      "https://bloomerang.com/alternative/salesforce-for-nonprofits/"
+    ]
+  }
+}

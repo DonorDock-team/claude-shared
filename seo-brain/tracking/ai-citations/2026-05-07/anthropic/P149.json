@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P149",
+  "prompt_text": "How to migrate from Excel to a nonprofit CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.551098+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Migrating from Excel to a Nonprofit CRM\n\n## Pre-Migration Steps\n\n### 1. **Assess Your Current Data**\n- Review all Excel spreadsheets containing donor, volunteer, and program data\n- Identify duplicate records and inconsistencies\n- Document what data fields you're currently tracking\n- Determine what historical data you need to preserve\n\n### 2. **Choose the Right CRM**\nPopular nonprofit CRMs include:\n- **Bloomerang** - donor-focused\n- **Salesforce Nonprofit Cloud** - highly customizable\n- **DonorPerfect** - comprehensive fundraising\n- **Little Green Light** - user-friendly for small nonprofits\n- **NeonCRM** - all-in-one solution\n- **Kindful** - modern interface\n\n## Migration Process\n\n### 3. **Clean Your Data**\n- Remove duplicates\n- Standardize formatting (phone numbers, addresses, names)\n- Fill in missing information where possible\n- Create consistent categories/tags\n- Verify email addresses are valid\n\n### 4. **Map Your Fields**\n- Match Excel columns to CRM fields\n- Identify custom fields you'll need to create\n- Plan for data that doesn't fit standard fields\n\n### 5. **Prepare Your Data for Import**\n- Export Excel to CSV format\n- Organize data into separate files if needed (contacts, donations, activities)\n- Include required fields for your CRM\n- Follow the CRM's import template if provided\n\n### 6. **Test Import**\n- Import a small sample dataset first\n- Verify data appears correctly\n- Check relationships between records\n- Adjust field mapping as needed\n\n### 7. **Full Migration**\n- Back up your Excel files\n- Import all data in the correct order (usually contacts first, then related records)\n- Verify data integrity\n- Check totals and counts match\n\n### 8. **Train Your Team**\n- Schedule training sessions\n- Create documentation for common tasks\n- Designate a CRM administrator\n- Plan for ongoing support\n\n### 9. **Phase Out Excel**\n- Run systems in parallel briefly\n- Gradually shift all data entry to CRM\n- Archive Excel files for reference\n\n## Tips for Success\n\n\u2705 **Start with clean data** - garbage in, garbage out  \n\u2705 **Don't rush** - plan for 2-3 months for full transition  \n\u2705 **Get buy-in** - involve staff early in the process  \n\u2705 **Document everything** - create processes for your new system  \n\u2705 **Consider hiring help** - many CRMs offer migration services  \n\nWould you like specific guidance on any of these steps?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 601,
+  "estimated_cost_usd": 0.009066,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

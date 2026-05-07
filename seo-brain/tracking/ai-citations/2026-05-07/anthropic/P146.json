@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P146",
+  "prompt_text": "Best donor CRM with grant tracking",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550931+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs with Grant Tracking\n\n## Top Recommendations\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large nonprofits with complex needs\n- **Grant tracking:** Robust grant management, proposal tracking, reporting deadlines\n- **Pros:** Highly customizable, extensive integrations, comprehensive reporting\n- **Cons:** Steep learning curve, can be expensive\n- **Pricing:** Starting ~$36/user/month (discounted for nonprofits)\n\n### **2. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- **Grant tracking:** Grant pipeline management, deadline tracking, basic reporting\n- **Pros:** User-friendly, excellent donor retention focus, good support\n- **Cons:** Less robust grant features than specialized tools\n- **Pricing:** Starting ~$125/month\n\n### **3. Foundant GLM (Grant Lifecycle Manager)**\n- **Best for:** Grant-focused organizations\n- **Grant tracking:** Purpose-built for grants, comprehensive tracking from application to reporting\n- **Pros:** Excellent grant-specific features, collaboration tools\n- **Cons:** Donor management less robust than pure CRMs\n- **Pricing:** Custom pricing\n\n### **4. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established nonprofits with diverse fundraising\n- **Grant tracking:** Integrated grant management, relationship tracking\n- **Pros:** Industry standard, comprehensive features\n- **Cons:** Expensive, can be complex\n- **Pricing:** Custom pricing (typically higher-end)\n\n### **5. NeonCRM**\n- **Best for:** Budget-conscious small to mid-sized orgs\n- **Grant tracking:** Grant tracking, opportunity management\n- **Pros:** Affordable, all-in-one solution, good reporting\n- **Cons:** Interface could be more modern\n- **Pricing:** Starting ~$50/month\n\n## Quick Decision Guide\n- **Tight budget?** \u2192 NeonCRM or Bloomerang\n- **Grant-heavy organization?** \u2192 Foundant GLM\n- **Need maximum customization?** \u2192 Salesforce\n- **Want industry standard?** \u2192 Raiser's Edge\n\nWhat's your organization's size and primary need?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 514,
+  "estimated_cost_usd": 0.007752,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550573+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "While Salesforce itself has a very robust and popular solution for nonprofits (Salesforce Nonprofit Cloud, formerly known as the Nonprofit Success Pack or NPSP), if you're looking for *other* CRMs that offer similar power, scalability, and comprehensive features tailored for nonprofits, here are the top contenders:\n\n1.  **Salesforce Nonprofit Cloud (NPSP):**\n    *   **Why it's similar (because it IS Salesforce):** This is built directly on the Salesforce platform, offering the same core CRM capabilities, customization, AppExchange integrations, and reporting power.\n    *   **Nonprofit Specifics:** It comes with a pre-configured data model designed for donor management, household relationships, grants, campaigns, volunteers, events, and fundraising. Salesforce.org also offers 10 free licenses for qualifying nonprofits.\n    *   **Why it's the benchmark:** Many consider it the enterprise-level standard for nonprofits due to its flexibility and vast ecosystem.\n\n2.  **Blackbaud (Raiser's Edge NXT):**\n    *   **Why it's similar:** Blackbaud is arguably the other \"giant\" in the nonprofit CRM space, especially for larger organizations. Raiser's Edge NXT is a comprehensive, cloud-based solution that aims to provide an all-in-one platform for fundraising, donor management, reporting, and analytics. It's designed for scale and deep functionality.\n    *   **Nonprofit Specifics:** Exclusively built for nonprofits, offering deep features for major gifts, planned giving, grant management, event fundraising, and direct marketing.\n    *   **Difference:** While powerful, its ecosystem and customization might feel different from Salesforce's AppExchange model.\n\n3.  **Microsoft Dynamics 365 for Nonprofits:**\n    *   **Why it's similar:** Like Salesforce, Dynamics 365 is an enterprise-grade CRM that Microsoft has adapted for the nonprofit sector. It offers strong integration with other Microsoft products (Office 365, Power BI) and is highly configurable. It can manage donor relationships, grant applications, volunteer programs, and fundraising efforts.\n    *   **Nonprofit Specifics:** Microsoft has specific nonprofit programs and accelerators to tailor Dynamics 365 to the unique needs of organizations, including constituent management, program delivery, and financial management.\n    *   **Difference:** For those already invested in the Microsoft ecosystem, it can be a natural fit.\n\n4.  **NetSuite for Nonprofits:**\n    *   **Why it's similar:** NetSuite is a comprehensive cloud-based business management suite (ERP + CRM) that also offers a specialized version for nonprofits. It's similar in its ambition to be an all-encompassing system, integrating donor management, fundraising, financial management, inventory, and supply chain.\n    *   **Nonprofit Specifics:** Features include grant management, fund accounting, restricted fund tracking, and program management, all within a unified platform.\n    *   **Difference:** It often appeals to larger nonprofits that need integrated financial and operational management alongside CRM.\n\n5.  **Virtuous:**\n    *   **Why it's similar:** Virtuous is a newer, modern CRM that focuses heavily on \"responsive fundraising\" and donor journey automation. It's cloud-based, offers a clean interface, and provides powerful segmentation, email marketing, and analytics, much like Salesforce emphasizes data-driven donor engagement.\n    *   **Nonprofit Specifics:** Strong in multi-channel fundraising, marketing automation, donor relationship management, and portfolio management for major donors.\n    *   **Difference:** It's generally praised for its user-friendliness and modern approach, often considered a strong alternative for organizations looking for something fresh and engagement-focused.\n\n6.  **Neon One (NeonCRM):**\n    *   **Why it's similar:** NeonCRM is a popular, full-featured cloud-based CRM designed specifically for nonprofits. It integrates donor management, fundraising, events, memberships, volunteers, and",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 836,
+  "estimated_cost_usd": 0.002093,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

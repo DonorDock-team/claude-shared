@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P093",
+  "prompt_text": "Cheapest nonprofit CRM with online giving",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.551009+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Cheapest Nonprofit CRM with Online Giving\n\nBased on the search results, **Givebutter** stands out as the **cheapest (truly free) option** for a nonprofit CRM that includes online giving. Here's a breakdown:\n\n#### Why Givebutter?\n- **Pricing**: Completely **free** for core CRM and donation features\u2014no limits on contacts, users, or transactions. Revenue comes from optional donor tips (which nonprofits keep 100% of donations via the \"Givebutter Guarantee\"). If tips are disabled, a 3% platform fee applies + standard payment processing (~2.9% + $0.30).\n- **Key Features** (all free):\n  - Unlimited donor/contact management and data import.\n  - Online donation forms, fundraising campaigns, peer-to-peer tools, events.\n  - Personalized emails, reporting, and basic donor engagement.\n- **Best For**: Small nonprofits starting with online fundraising. It's an all-in-one platform, not just a bare-bones CRM.\n- **Evidence from Sources**:\n  - [1]: \"Givebutter\u2019s CRM and donation management features are free... raise funds, import unlimited contact records... at no cost.\"\n  - [2]: \"Free tier offers unlimited contacts, donation forms... basic donor management... nonprofits pay zero platform fees\" (with tips enabled).\n\n#### Close Alternatives (Low-Cost or Limited Free)\nIf Givebutter doesn't fit, these are the next-cheapest with online giving:\n\n| CRM | Pricing | Key Pros | Limitations | Source |\n|-----|---------|----------|-------------|--------|\n| **Flowlu** | Free for up to 2 users; $9/user/mo after (nonprofit discounts) | CRM + projects, volunteers, finance; donor pipelines. | User limit on free plan. | [1] |\n| **Tithe.ly** (church-focused) | Free ($0/mo); only pay processing (2.9% + $0.30) | Unlimited donations, giving module. | Geared toward churches; less full CRM. | [8] |\n| **Little Green Light** | Record-based (very affordable, e.g., starts low); unlimited users. | Pure donor CRM; scales with database. | No free tier; paid from start. | [2] |\n| **Bloomerang** | Starts ~$125/mo (flat); unlimited users/forms. | Advanced donor retention, emails. | Not free. | [2], [3] |\n| **Keela** | Contact-based (check site for details). | Donor mgmt + emails; good for US/Canada. | Paid, scales with contacts. | [2] |\n\n#### Recommendation\nStart with **Givebutter**\u2014it's the only unlimited, no-cost CRM + online giving combo repeatedly called \"best all-around\" and \"free to get started\" across sources [1] and [2]. Test it via their site (givebutter.com) for your nonprofit's needs. For growth or advanced features, scale to Bloomerang or DonorPerfect. Avoid general CRMs like Salesforce unless you need heavy customization (not cheapest).",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Keela",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 651,
+  "estimated_cost_usd": 0.014789,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://givebutter.com/blog/best-free-crm-for-nonprofits",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://bloomerang.com/blog/free-nonprofit-software/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.goodunited.io/blog/best-online-donation-platforms",
+      "https://blog.mightycause.com/best-fundraising-platforms-for-nonprofits-2026/",
+      "https://www.instrumentl.com/blog/best-donation-platforms-for-nonprofits",
+      "https://txt2give.co/blog/affordable-donation-platforms-for-small-churches/",
+      "https://www.springly.org/en-us/free-crm-nonprofit/"
+    ]
+  }
+}

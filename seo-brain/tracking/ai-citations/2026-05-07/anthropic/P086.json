@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P086",
+  "prompt_text": "Best donor CRM for homeless services",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550586+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best CRM Options for Homeless Services\n\n## Top Recommendations\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-size homeless shelters and service organizations\n- **Strengths:** \n  - Excellent donor retention focus\n  - User-friendly interface\n  - Strong email marketing tools\n  - Affordable pricing ($125-$500/month)\n- **Considerations:** Limited case management features\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations needing both donor management AND client services tracking\n- **Strengths:**\n  - Highly customizable\n  - Can manage both donors and clients in one system\n  - Robust reporting\n  - Free/discounted for nonprofits (10 licenses free)\n- **Considerations:** Steeper learning curve, may need consultant\n\n### **3. Bloomerang + Apricot (Social Solutions)**\n- **Best combined approach:** Use Bloomerang for donors, Apricot for client case management\n- **Why:** Purpose-built tools for each function often outperform all-in-ones\n\n### **4. Little Green Light**\n- **Best for:** Budget-conscious organizations\n- **Strengths:**\n  - Affordable ($39-$79/month)\n  - Solid donor management features\n  - Good customer support\n- **Considerations:** More basic feature set\n\n## Key Features to Prioritize\n\n- **Donor segmentation** (by giving level, frequency, program interest)\n- **Automated thank-you letters** and receipts\n- **Grant tracking** capabilities\n- **Email marketing** integration\n- **Reporting** for board/funders\n- **Mobile accessibility**\n\n## Important Question\n\nDo you need to track **client services** in the same system, or purely donor management? This significantly impacts the recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 417,
+  "estimated_cost_usd": 0.006297,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

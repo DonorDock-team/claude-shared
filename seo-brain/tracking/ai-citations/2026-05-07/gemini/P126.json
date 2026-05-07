@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P126",
+  "prompt_text": "Donor stewardship workflow templates",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550858+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Donor stewardship is the continuous process of building relationships with donors, showing appreciation for their support, and demonstrating the impact of their contributions. Effective stewardship leads to increased donor retention, deeper engagement, and ultimately, greater long-term philanthropic support.\n\nHere are several workflow templates for different donor segments and giving scenarios, along with general best practices.\n\n---\n\n## **General Donor Stewardship Workflow: First-Time & Small-Mid Gifts**\n\nThis workflow is designed for most individual donors, especially those making their first gift or gifts under a certain threshold (e.g., $1 - $999).\n\n**Trigger:** Donation Received\n\n**Objective:**\n*   Acknowledge gift promptly and gratefully.\n*   Make the donor feel valued.\n*   Educate the donor on the impact of their gift.\n*   Lay the groundwork for future engagement and giving.\n\n**Workflow Steps:**\n\n1.  **Immediate (within 24 hours): Automated Digital Receipt & Thank You**\n    *   **Action:** Send an immediate, branded email confirming the gift and providing a tax receipt.\n    *   **Content:** Express gratitude, briefly mention the organization's mission, and include a link to learn more about impact.\n    *   **Ownership:** CRM/Development Assistant\n\n2.  **Prompt (within 48-72 hours): Personalized Thank You Communication**\n    *   **Action:** Send a personalized thank you letter (or email, depending on gift size/donor preference).\n    *   **Content:**\n        *   Address donor by name.\n        *   Specifically mention the gift amount (if appropriate for the tier) and date.\n        *   Connect their gift to a specific, tangible impact (e.g., \"Your gift of $X will provide Y meals,\" or \"Your support helps us reach Z students\").\n        *   Avoid asking for another gift.\n        *   *Optional:* Hand-sign physical letters.\n    ",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 406,
+  "estimated_cost_usd": 0.001016,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

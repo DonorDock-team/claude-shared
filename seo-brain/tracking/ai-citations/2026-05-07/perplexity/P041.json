@@ -1,0 +1,38 @@
+{
+  "prompt_id": "P041",
+  "prompt_text": "Best donor CRM for mid-sized nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.551118+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Mid-Sized Nonprofits in 2026\n\nBased on recent analyses from sources like Insightly, Double the Donation, Kindsight, and others, here are the standout donor CRMs tailored for mid-sized nonprofits (typically 10-100 staff, managing complex donor relationships, programs, and fundraising). These prioritize donor management, retention, engagement tracking, and integrations for fundraising/events. I focused on tools repeatedly praised for mid-sized scale, ease of use, and ROI.\n\n#### 1. **Insightly** (Top Pick for Program Delivery)\n   - **Why it fits mid-sized nonprofits**: Built for organizations with program tracking alongside donor management. Handles contacts, pipelines, automation, and reporting without overwhelming complexity.\n   - **Key features**: Custom workflows, mobile app, integrations (e.g., QuickBooks, Mailchimp), nonprofit-specific templates.\n   - **Pricing**: Starts ~$29/user/month (billed annually); scalable for growth.\n   - **Pros**: Affordable scaling, strong for mid-sized ops. **Cons**: Less fundraising-native than pure donor tools.\n   - **Sources**: Ranked #1 by Insightly's 2026 guide [1].\n\n#### 2. **DonorPerfect**\n   - **Why it fits**: Proven for small-to-mid nonprofits needing customizable donor tracking, gift history, and campaigns. Excels in donor retention and major gifts.\n   - **Key features**: Online forms, recurring gifts, pledges, reporting dashboards, integrations (e.g., accounting, events).\n   - **Pricing**: ~$89/month base + per contact fees; unlimited users.\n   - **Pros**: Highly customizable, strong support. **Cons**: Setup can take time.\n   - **Sources**: Top-rated in LiveImpact [8], Virtuous [7], DonorPerfect's own [6].\n\n#### 3. **Neon CRM (Neon One)**\n   - **Why it fits**: All-in-one for mid-sized groups focusing on constituent management, events, and online fundraising.\n   - **Key features**: Donor portals, membership tracking, email marketing, peer-to-peer fundraising.\n   - **Pricing**: ~$99/month base; scales with contacts.\n   - **Pros**: User-friendly basics. **Cons**: Limited advanced analytics.\n   - **Sources**: Highlighted in Kindsight [3], Virtuous [7], Bloomerang [9].\n\n#### 4. **Little Green Light**\n   - **Why it fits**: Ideal for mid-sized nonprofits wanting simple, reliable donor/constituent management without bloat.\n   - **Key features**: Contact history, gift tracking, reports, integrations (e.g., Constant Contact).\n   - **Pricing**: ~$39/month for 500 contacts; very affordable.\n   - **Pros**: Low learning curve, great support. **Cons**: Fewer automation tools.\n   - **Sources**: Recommended in GoodUnited [4], Bloomerang [9], LiveImpact [8].\n\n#### 5. **Bloomerang**\n   - **Why it fits**: Donor-retention focused, simple for mid-sized teams transitioning from spreadsheets.\n   - **Key features**: Engagement scoring, wealth screening, surveys, Amazon Wishlist integration.\n   - **Pricing**: ~$119/month for 500 contacts.\n   - **Pros**: Intuitive, retention tools shine. **Cons**: Lighter on programs/grants.\n   - **Sources**: StratusLive [5], Virtuous [7], LiveImpact [8].\n\n#### Quick Comparison Table\n\n| CRM              | Best For                  | Starting Price (Monthly) | Key Strength          | Top Integrations      |\n|------------------|---------------------------|---------------------------|-----------------------|-----------------------|\n| **Insightly**   | Programs + donors        | $29/user                 | Workflow automation  | QuickBooks, Zapier   |\n| **DonorPerfect**| Custom fundraising       | $89 base                 | Major gifts/pledges  | Accounting, events   |\n| **Neon CRM**    | Events/memberships       | $99 base                 | Online giving        | Payment processors   |\n| **Little Green Light** | Simple donor tracking | $39 (500 contacts)     | Affordability        | Email tools          |\n| **Bloomerang**  | Donor retention          | $119 (500 contacts)     | Engagement scoring   | Wealth tools         |\n\n#### How to Choose\n- **Budget under $100/mo?** Go Little Green Light or Insightly.\n- **Heavy fundraising?** DonorPerfect or Neon CRM.\n- **Need scalability to enterprise?** Consider Salesforce Nonprofit Cloud (from [1], [7]) but it's pricier/complex for true mid-sized.\n- **Next steps**: Most offer free trials/demos. Evaluate based on your donor volume (e.g., 5K-50K contacts), integrations, and must-haves like grant tracking.\n\nThese recs draw from 2026-specific lists [1-9], emphasizing real-user fit over marketing hype. For your exact needs (e.g., volunteer mgmt), share more details!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 1058,
+  "estimated_cost_usd": 0.020894,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://stratuslive.com/blog/nonprofit-crm-systems-comparison/",
+      "https://www.donorperfect.com/nonprofits/smaller-nonprofit-fundraising-software/",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://bloomerang.com/blog/nonprofit-crm/"
+    ]
+  }
+}

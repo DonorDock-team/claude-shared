@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P149",
+  "prompt_text": "How to migrate from Excel to a nonprofit CRM",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.551113+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Migrating from Excel to a nonprofit CRM (Customer Relationship Management) system can be a significant step towards improving your organization\u2019s data management, efficiency, and overall operations. Here\u2019s a step-by-step guide to help you navigate the process:\n\n### 1. Assess Your Needs\n\n- **Identify Requirements**: Determine what functionalities you need from the CRM, such as donation tracking, volunteer management, event management, email marketing, and reporting.\n- **Involve Stakeholders**: Gather input from staff and volunteers who will be using the system to ensure it meets their needs.\n- **Define Goals**: Set clear objectives for what you aim to achieve with the CRM, such as improved reporting, enhanced donor engagement, or streamlined operations.\n\n### 2. Choose a Suitable CRM\n\n- **Research Options**: Compare nonprofit CRM solutions like Salesforce Nonprofit Success Pack, Bloomerang, EveryAction, Kindful, or DonorPerfect.\n- **Consider Budget**: Assess your budget constraints and look for discounts or grants available for nonprofits.\n- **Test Drives**: Use free trials or demos to evaluate user-friendliness and feature sets.\n\n### 3. Prepare Your Data\n\n- **Data Audit**: Review and clean your Excel data to ensure accuracy; remove duplicates and outdated information.\n- **Standardize Data**: Make sure data fields are consistent, such as contact names, addresses, and phone numbers.\n- **Segmentation**: Organize your data into categories, such as donors, volunteers, or partners, if applicable.\n\n### 4. Plan the Migration\n\n- **Map Your Data**: Identify how your existing Excel columns correspond to fields in the CRM. Most CRMs have predefined fields, but custom fields can often be added.\n- **Create a Migration Plan**: Decide on the migration process, timeline, and responsibilities. Consider whether to do it all at once or in phases.\n\n### 5. Execute the Migration\n\n- **Use Import Tools**: Leverage import tools provided by the CRM, which often include data import wizards or templates.\n- **Test Migration**: Conduct a test migration with a small dataset to identify potential issues.\n- **Full Migration**: Once satisfied with the test, proceed with migrating the entire dataset.\n\n### 6. Validate the Data\n\n- **Verify Accuracy**: Check for data integrity post-migration by ensuring all records have been transferred and correctly mapped.\n- **Test Functionality**: Ensure all CRM functionalities work with the imported data, such as generating reports or executing email campaigns.\n\n### 7. Train Your Team\n\n- **Provide Training**: Offer training sessions or resources for your team to get familiar with the new CRM interface and capabilities.\n- **Create Documentation**: Develop reference materials or guides specific to your organization\u2019s processes.\n\n### 8. Monitor and Evaluate\n\n- **Regular Check-ins**: Conduct regular evaluations to ensure the CRM is meeting your goals and that any issues are addressed promptly.\n- **Gather Feedback**: Collect feedback from users to refine processes and improve user experience.\n\n### 9. Expand Usage\n\n- **Integrate Tools**: As you gain confidence, consider integrating other tools and services (e.g., email marketing platforms or donation processors) with your CRM.\n- **Enhance Features**: Explore additional CRM features that can further benefit your organization, such as mobile access or advanced analytics.\n\nBy following these steps, you can ensure a smooth transition from Excel to a nonprofit CRM, enabling your organization to operate more efficiently and effectively.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 709,
+  "estimated_cost_usd": 0.00713,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

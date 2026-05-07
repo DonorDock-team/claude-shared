@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P010",
+  "prompt_text": "Does DonorDock have online giving",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550254+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock doesn't *function* as a standalone online giving platform in the same way a dedicated giving solution might (like Givebutter, Classy, etc.).\n\nHowever, it absolutely **facilitates and integrates with online giving** seamlessly, ensuring that all online donation data flows directly into your CRM.\n\nHere's how DonorDock handles online giving:\n\n1.  **Customizable Online Donation Forms:** DonorDock allows you to create **customizable online donation forms** that are branded to your organization. These forms are designed to be embedded on your website or used as standalone landing pages.\n2.  **Payment Processor Integration:** These forms integrate with popular payment processors like **Stripe** and **PayPal**. This is where the actual credit card processing and money transfer happen. DonorDock acts as the bridge between your donor and the payment processor, then captures all the resulting data.\n3.  **Automatic Data Capture:** The key benefit is that when someone donates through a DonorDock-powered form, all the donor information (name, email, address, donation amount, date, campaign, payment method, recurring status) is **automatically captured and updated directly within DonorDock**. This eliminates manual data entry and ensures your CRM is always up-to-date.\n4.  **Recurring Giving:** The online forms support recurring donations, allowing donors to set up monthly, quarterly, or annual gifts.\n5.  **Campaign and Fund Tracking:** Donations made through these forms are automatically attributed to the correct campaigns, funds, and appeals within DonorDock, giving you accurate reporting.\n\n**In summary:** While DonorDock isn't a *payment processor* itself, it provides the **forms, integrations, and data management** necessary to run effective online giving campaigns and ensure all that valuable donor data lands exactly where it needs to be \u2013 in your CRM.",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 377,
+  "estimated_cost_usd": 0.000944,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

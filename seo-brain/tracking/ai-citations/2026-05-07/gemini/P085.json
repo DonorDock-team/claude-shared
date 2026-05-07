@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P085",
+  "prompt_text": "Best donor CRM for advocacy organizations",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550568+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding the \"best\" donor CRM for an advocacy organization depends heavily on your specific needs, budget, scale, and technical capacity. Advocacy organizations have unique requirements beyond just fundraising, such as managing activists, tracking legislative engagement, and facilitating grassroots actions.\n\nHere are the top contenders, categorized by their strengths, along with key features to look for:\n\n## Top Contenders for Advocacy Organizations\n\n### 1. EveryAction / NGP VAN (Highly Recommended for Dedicated Advocacy)\n*   **Strengths:** Built specifically for political campaigns and advocacy. Extremely powerful for grassroots organizing, legislative tracking, field organizing, digital advocacy (email, SMS, social), and robust data management. It's an all-in-one platform for engagement, fundraising, and organizing.\n*   **Key Features:**\n    *   Donor & Volunteer Management\n    *   Email, SMS, and Social Media Tools\n    *   Petition & Action Alert Tools\n    *   Field Organizing & Canvassing Tools (MiniVAN)\n    *   Legislative Tracking & Engagement\n    *   Event Management\n    *   Targeting & Segmentation\n    *   Robust Reporting & Analytics\n*   **Best For:** Medium to large advocacy organizations, political campaigns, unions, and any organization with a heavy focus on grassroots organizing, direct action, and legislative lobbying.\n*   **Considerations:** Can be expensive and has a steeper learning curve than simpler CRMs.\n\n### 2. NationBuilder (Strong All-in-One for Digital-First Advocacy)\n*   **Strengths:** A comprehensive platform that integrates CRM, website, email, social media, fundraising, and advocacy tools. Designed for \"leaders and movements,\" it excels at helping organizations build a community, manage supporters, and mobilize action.\n*   **Key Features:**\n    *   Integrated Website & Blog\n    *   CRM for Donors, Volunteers, & Activists\n    *   Email & SMS Broadcasting\n    *   Petition & Pledges Tools\n    *   Social Media Integration (listening & publishing)\n    *   Fundraising & Online Donations\n    *   Volunteer Management\n    *   Segmented Communication\n*   **Best For:** Advocacy organizations looking for an integrated solution that combines their web presence with their CRM and advocacy actions. Especially good for organizations that rely heavily on digital engagement and community building.\n*   **Considerations:** While powerful, its all-in-one nature means you're largely within the NationBuilder ecosystem, which might limit some deep customizations possible with Salesforce.\n\n### 3. Salesforce NPSP (Nonprofit Success Pack) + Advocacy Apps (Most Flexible & Scalable)\n*   **Strengths:** Salesforce is the world's leading CRM, and NPSP customizes it for nonprofits. Its strength lies in its incredible flexibility, scalability, and vast ecosystem of third-party apps (many on the AppExchange) that can extend its functionality for advocacy.\n*   **Key Features (NPSP Core):**\n    *   Robust Donor & Constit",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 624,
+  "estimated_cost_usd": 0.001562,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

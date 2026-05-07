@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P023",
+  "prompt_text": "What is replacing Kindful",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.551088+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# What's Replacing Kindful\n\nKindful, the donor management and fundraising CRM, was **acquired by Bloomerang in 2021** and has been **sunset as a standalone product**. \n\n## The Replacement Path\n\n**Bloomerang** is the official replacement. The company migrated Kindful customers to the Bloomerang platform, which offers:\n\n- Donor management\n- Online fundraising\n- Email marketing\n- Reporting and analytics\n- Volunteer management\n- Integration capabilities\n\n## Alternative Options\n\nIf you're looking for alternatives beyond Bloomerang, popular nonprofit CRM options include:\n\n- **Salesforce Nonprofit Cloud** (formerly NPSP)\n- **Neon CRM**\n- **Little Green Light**\n- **DonorPerfect**\n- **Keela**\n- **Virtuous CRM**\n- **Network for Good**\n\n## Timeline\n\n- Kindful stopped accepting new customers in 2021\n- Existing customers were transitioned to Bloomerang over the following months\n- The Kindful brand has been fully integrated into Bloomerang\n\nIf you were a Kindful user, Bloomerang would be your natural migration path, though you're free to evaluate other nonprofit CRM solutions based on your organization's specific needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Network for Good",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 294,
+  "estimated_cost_usd": 0.004449,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

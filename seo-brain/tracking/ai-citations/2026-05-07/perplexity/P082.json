@@ -1,0 +1,44 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550245+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Hospitals and Healthcare Nonprofits\n\nHospitals and healthcare foundations often need donor CRMs with features like HIPAA compliance, grateful patient fundraising, major gift tracking, pledge management, and integration with patient data systems. Based on the latest 2026 comparisons from specialized nonprofit resources, here are the **best options tailored for hospitals**:\n\n#### 1. **DonorPerfect** (Top Pick for Hospitals)\n   - **Why it's best**: Explicitly built for hospital fundraising, disease research, and medical nonprofits. Handles payments, pledges, donor segmentation, and reporting. Claims users raise **171% more funds** in the first 3 years. Strong on healthcare-specific workflows like event management and recurring gifts.\n   - **Key features**: HIPAA-compliant options, donor portals, mobile giving, integrations with payment processors.\n   - **Pricing**: Starts at ~$100/month (scales with contacts).\n   - **Sources**: [DonorPerfect Hospital Page](https://www.donorperfect.com/nonprofits/hospital-fundraising/), [CharityEngine Blog](https://blog.charityengine.net/fundraising-software-healthcare-nonprofits).\n   - **Best for**: Mid-to-large hospitals with high-volume fundraising.\n\n#### 2. **Virtuous** (Best for Grateful Patient & AI-Driven Fundraising)\n   - **Why it's best**: Designed for healthcare foundations, with AI to identify major donors from grateful patients. Supports patient giving pages, donor management, and relationship-building automation.\n   - **Key features**: AI donor insights, personalized campaigns, HIPAA security, texting/email tools.\n   - **Pricing**: Custom (typically $500+/month for enterprises).\n   - **Sources**: [Virtuous Healthcare Solutions](https://virtuous.org/solutions-healthcare/).\n   - **Best for**: Hospitals focusing on patient-to-donor pipelines and major gifts.\n\n#### 3. **Bloomerang** (Best Overall Nonprofit CRM with Hospital Fit)\n   - **Why it's best**: Ranked #1 in 2026 donor management guides for ease of use and fundraising growth. Excels in donor retention (key for recurring hospital supporters) with engagement scoring and wealth screening.\n   - **Key features**: Unified platform for donations, events, volunteers; integrates with healthcare tools; mobile-friendly.\n   - **Pricing**: $119/month (unlimited users).\n   - **Sources**: [Bloomerang 2026 Guide](https://bloomerang.com/blog/donor-management-software/), [Kindsight Top 14](https://kindsight.io/resources/blog/best-crm-for-nonprofits/).\n   - **Best for**: Smaller hospitals or foundations prioritizing donor relationships.\n\n#### 4. **Salesforce NPSP** (Best for Enterprise-Scale Hospitals)\n   - **Why it's best**: Highly customizable for complex hospital needs like program tracking and integrations with EHR systems. Powers large healthcare orgs with robust analytics.\n   - **Key features**: Donor management, fundraising pipelines, custom reporting, HIPAA via add-ons.\n   - **Pricing**: Free core (add-ons ~$36/user/month+).\n   - **Sources**: [USD Online Degrees Guide](https://onlinedegrees.sandiego.edu/donor-management-software/).\n   - **Best for**: Large hospitals with IT teams.\n\n#### Quick Comparison Table\n\n| CRM            | HIPAA Focus | Key Hospital Strength          | Starting Price | Best For                  |\n|----------------|-------------|--------------------------------|----------------|---------------------------|\n| **DonorPerfect** | Yes        | Hospital pledges & events     | $100/mo       | High-volume fundraising  |\n| **Virtuous**    | Yes        | Grateful patient AI           | $500+/mo      | Major gifts & patients   |\n| **Bloomerang**  | Via integrations | Donor retention scoring     | $119/mo       | Ease of use & growth     |\n| **Salesforce NPSP** | Add-ons | Custom scalability            | Free+         | Enterprise hospitals     |\n\n#### How to Choose\n- **Prioritize HIPAA/security** for patient data (DonorPerfect/Virtuous excel).\n- **Test demos**: Most offer free trials\u2014focus on hospital-specific integrations (e.g., Epic/MyChart).\n- **Other strong contenders**: DonorDock, CharityEngine, Bonterra (from [DonorDock Guide](https://www.donordock.com/articles/best-nonprofit-crm) and [GoodUnited](https://www.goodunited.io/blog/nonprofit-crm-fundraising-software)).\n- **2026 Trends**: AI for donor predictions and mobile-first giving are standard in top picks.\n\nFor hospitals, **start with DonorPerfect** due to its proven healthcare track record. Request a demo via their sites for tailored advice.",
+  "donordock_mentioned": true,
+  "donordock_position": 4069,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Salesforce NPSP",
+    "Virtuous"
+  ],
+  "urls_cited": [
+    "https://virtuous.org/solutions-healthcare/",
+    "https://www.donorperfect.com/nonprofits/hospital-fundraising/",
+    "https://bloomerang.com/blog/donor-management-software/",
+    "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+    "https://blog.charityengine.net/fundraising-software-healthcare-nonprofits",
+    "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+    "https://www.donordock.com/articles/best-nonprofit-crm",
+    "https://onlinedegrees.sandiego.edu/donor-management-software/"
+  ],
+  "input_tokens": 6,
+  "output_tokens": 1003,
+  "estimated_cost_usd": 0.020063,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.donorperfect.com/nonprofits/hospital-fundraising/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://onlinedegrees.sandiego.edu/donor-management-software/",
+      "https://bloomerang.com/blog/donor-management-software/",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://virtuous.org/solutions-healthcare/",
+      "https://blog.charityengine.net/fundraising-software-healthcare-nonprofits"
+    ]
+  }
+}

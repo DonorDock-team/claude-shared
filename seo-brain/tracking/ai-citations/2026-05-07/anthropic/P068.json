@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P068",
+  "prompt_text": "How to consolidate fundraising tools",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550585+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Consolidate Fundraising Tools\n\nConsolidating your fundraising tools can streamline operations, reduce costs, and improve donor experience. Here's a step-by-step approach:\n\n## 1. **Audit Your Current Tools**\n- List all platforms you're using (CRM, email, payment processing, events, peer-to-peer, etc.)\n- Document what each tool does and costs\n- Identify overlapping features and gaps\n- Note integration pain points\n\n## 2. **Define Your Requirements**\n- **Must-haves**: donation processing, donor management, reporting, email communications\n- **Nice-to-haves**: event management, peer-to-peer, text-to-give, volunteer tracking\n- Consider your organization's size and complexity\n- Factor in staff technical skills\n\n## 3. **Research All-in-One Platforms**\nPopular consolidated solutions include:\n- **Bloomerang** - CRM + communications\n- **Donorbox** - Donations + crowdfunding + events\n- **Classy** - Comprehensive fundraising suite\n- **GiveButter** - Free platform with multiple tools\n- **Salesforce Nonprofit Cloud** - Enterprise solution\n\n## 4. **Evaluate Integration Options**\nIf one platform won't work, look for tools that integrate well:\n- Payment processors (Stripe, PayPal) with your CRM\n- Email platforms (Mailchimp, Constant Contact) with donor database\n- Use Zapier for connecting disparate systems\n\n## 5. **Plan Your Migration**\n- **Clean your data** before transferring\n- Create a transition timeline\n- Train staff on new systems\n- Run parallel systems briefly if needed\n- Communicate changes to donors if necessary\n\n## 6. **Calculate ROI**\nCompare:\n- Combined cost of current tools vs. consolidated platform\n- Staff time saved\n- Improved donor retention from better experience\n\n**Pro tip**: Start with your CRM as the central hub and build outward from there.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Givebutter",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 448,
+  "estimated_cost_usd": 0.006762,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

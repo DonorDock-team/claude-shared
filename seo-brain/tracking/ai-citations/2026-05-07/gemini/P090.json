@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P090",
+  "prompt_text": "Best donor CRM for youth development",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550854+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For youth development organizations, selecting the \"best\" donor CRM means finding one that not only handles fundraising and donor management effectively but also often accommodates the unique needs of tracking participants, volunteers, programs, and impact.\n\nHere are the top recommendations, categorized by their strengths, along with key considerations for your decision:\n\n---\n\n## Top Donor CRM Recommendations for Youth Development\n\n### 1. Salesforce NPSP (Nonprofit Success Pack)\n**Best For:** Organizations with complex needs, significant growth potential, or those wanting to track granular program data, volunteers, and participant outcomes.\n\n*   **Pros:**\n    *   **Highly Customizable:** You can configure it to track virtually anything \u2013 individual youth participants, program enrollment, attendance, outcomes, family relationships, volunteer hours, grants, and more.\n    *   **Scalable:** Grows with your organization, from small to enterprise-level.\n    *   **Integrated Ecosystem:** A vast marketplace of apps (AppExchange) allows for integration with almost any tool (marketing, accounting, events, survey tools like Formstack or SurveyMonkey).\n    *   **10 Free Licenses:** Salesforce offers 10 free user licenses for nonprofits, making it very cost-effective to start.\n    *   **Robust Reporting:** Powerful reporting and dashboard capabilities to track fundraising progress and program impact.\n*   **Cons:**\n    *   **Steep Learning Curve:** Can be complex to set up and maintain without some technical expertise or a dedicated administrator.\n    *   **Implementation Costs:** While the licenses are free, setting up and customizing NPSP often requires a consultant, which can be a significant upfront investment.\n    *   **Ongoing Maintenance:** Requires ongoing administration to keep it optimized.\n*   **Why it's great for Youth Development:** NPSP's flexibility makes it ideal for managing the intricate relationships between donors, youth participants, their families, and volunteers, and for tracking longitudinal program impact.\n\n### 2. Bloomerang\n**Best For:** Organizations prioritizing donor retention, user-friendliness, and strong communication tools, especially if fundraising is the primary driver.\n\n*   **Pros:**\n    *   **Incredibly User-Friendly:** Modern, intuitive interface, often cited as one of the easiest CRMs to learn and use.\n    *   **Donor Retention Focus:** Built-in features like wealth screening, engagement meters, and proactive communication suggestions help improve donor loyalty.\n    *   **Excellent Reporting & Dashboards:** Clear, actionable insights into fundraising performance and donor engagement.\n    *   **Integrated Email & Website Forms:** Streamlines communication and donation processing.\n    *   **Good Support:** Praised for responsive customer service and helpful resources.\n*   **Cons:**\n    *   **Less Robust for Program Management",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 573,
+  "estimated_cost_usd": 0.001434,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

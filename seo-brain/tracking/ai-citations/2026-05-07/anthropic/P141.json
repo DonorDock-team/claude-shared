@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P141",
+  "prompt_text": "Easy donor database for fundraisers",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550652+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Easy Donor Database Solutions for Fundraisers\n\nHere are the best options based on your needs and budget:\n\n## **Best for Small Nonprofits/Beginners**\n\n### **1. Donorbox**\n- Super simple interface\n- Built-in donation forms\n- Free up to $1,000/month in donations\n- Great for getting started quickly\n\n### **2. Little Green Light**\n- Designed specifically for small nonprofits\n- Easy learning curve\n- ~$39-59/month\n- Good donor tracking and reporting\n\n## **Best Free/Low-Cost Options**\n\n### **3. Bloomerang (Basic tier)**\n- Excellent for donor retention\n- User-friendly dashboard\n- ~$125/month (well worth it)\n- Built-in engagement tools\n\n### **4. CiviCRM**\n- **Completely free** (open source)\n- More setup required\n- Best if you have some tech support\n- Very customizable\n\n## **Best Spreadsheet Alternative**\n\n### **5. Google Sheets/Airtable**\n- Free to start\n- Templates available online\n- Good for very small operations (<100 donors)\n- Limited automation\n\n## **What to Track (At Minimum)**\n- \u2713 Donor name and contact info\n- \u2713 Donation amounts and dates\n- \u2713 Communication preferences\n- \u2713 Engagement history\n\n**What's your organization's size and budget?** I can give you a more specific recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "DonorBox",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 342,
+  "estimated_cost_usd": 0.005172,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

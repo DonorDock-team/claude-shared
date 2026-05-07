@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P052",
+  "prompt_text": "Best CRM for a new development director",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550710+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the best CRM (Customer Relationship Management) system for a new development director depends on several factors, including the specific needs of your organization, budget, and the level of technical expertise available. Here are some CRM systems that are highly regarded and could be suitable for a development director, particularly in nonprofit or fundraising contexts:\n\n1. **Salesforce Nonprofit Cloud**:\n   - **Pros**: Highly customizable, robust reporting, and a vast array of integrations. Tailored solutions for nonprofits through the Nonprofit Success Pack (NPSP).\n   - **Cons**: Can be complex and require significant setup and maintenance efforts.\n\n2. **Raiser\u2019s Edge NXT**:\n   - **Pros**: Designed specifically for nonprofits, it offers solid donor management, fundraising tools, and reporting features.\n   - **Cons**: It can be expensive, and some users find its interface less intuitive compared to other systems.\n\n3. **Bloomerang**:\n   - **Pros**: User-friendly interface, good donor management capabilities, and excellent customer support. Great for small to mid-sized nonprofits.\n   - **Cons**: Less customizable than some other solutions.\n\n4. **NeonCRM**:\n   - **Pros**: Comprehensive features for donor management, event planning, and membership management. Good integration capabilities.\n   - **Cons**: May have a steeper learning curve, especially for smaller teams.\n\n5. **HubSpot**:\n   - **Pros**: Offers a free tier with solid CRM capabilities and easy-to-use interface. Great for organizations looking for marketing and sales integration.\n   - **Cons**: Nonprofit-specific features are limited compared to dedicated nonprofit CRMs.\n\n6. **DonorPerfect**:\n   - **Pros**: Strong donor management functionalities, flexible reporting, customizable fields, and good customer support.\n   - **Cons**: The user interface can be somewhat outdated.\n\n7. **Little Green Light**:\n   - **Pros**: Affordable, straightforward to use, particularly suited for small to medium-sized organizations.\n   - **Cons**: Not as scalable as some other CRM offerings for larger organizations.\n\nWhen selecting a CRM, consider conducting a needs assessment to determine what features are a priority, such as donor segmentation, event management, email marketing, reporting, or integration with other tools. Additionally, take advantage of free trials or demos to test the software and ensure it aligns with your organizational goals and workflows.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 491,
+  "estimated_cost_usd": 0.004945,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

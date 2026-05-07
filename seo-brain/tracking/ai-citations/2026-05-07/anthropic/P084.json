@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P084",
+  "prompt_text": "Best donor CRM for theaters",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550459+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Theaters\n\nHere are the top options specifically suited for theater organizations:\n\n## **Top Recommendations**\n\n### **1. PatronManager (by Salesforce)**\n- **Best for:** Mid-to-large theaters\n- Purpose-built for performing arts organizations\n- Integrates ticketing + CRM + fundraising\n- Robust patron behavior tracking\n- Higher price point but comprehensive\n\n### **2. Tessitura**\n- **Best for:** Large theaters and arts institutions\n- Industry standard for major performing arts venues\n- Extremely powerful but complex\n- Handles ticketing, fundraising, membership, marketing\n- Significant investment required\n\n### **3. Spektrix**\n- **Best for:** Small-to-mid size theaters\n- All-in-one ticketing and CRM\n- User-friendly interface\n- Strong reporting capabilities\n- Popular with regional theaters\n\n### **4. Bloomerang**\n- **Best for:** Small theaters on a budget\n- Donor retention focus\n- Easy to use\n- Affordable pricing\n- May need separate ticketing system\n\n### **5. Little Green Light**\n- **Best for:** Small community theaters\n- Budget-friendly\n- Simple donor management\n- Less robust than specialized arts software\n\n## **Key Features to Look For**\n- Integration with ticketing systems\n- Patron/donor attendance history tracking\n- Segmentation by giving + attendance patterns\n- Event management\n- Email marketing integration\n\n**What's your theater's size and budget?** That will help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 347,
+  "estimated_cost_usd": 0.005244,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

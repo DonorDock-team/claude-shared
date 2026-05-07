@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P086",
+  "prompt_text": "Best donor CRM for homeless services",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550618+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Homeless Services Nonprofits\n\nHomeless services organizations often need CRMs that go beyond basic donor management to handle client case tracking, service outcomes, program reporting, and volunteer coordination alongside fundraising. Based on the latest 2026 comparisons from specialized nonprofit resources, here are the strongest options tailored to this niche. I prioritized tools with proven use in human services/shelters, donor retention features, and affordability for small-to-mid-sized orgs.\n\n#### 1. **CaseWorthy** (Top Pick for Homeless Shelters)\n   - **Why it fits**: Purpose-built for human services like homeless shelters. Excels in client intake, case management, outcomes tracking (e.g., housing placements, service utilization), and HMIS compliance. Integrates donor/fundraising data with client workflows for grant reporting.\n   - **Key features**: Customizable workflows, real-time dashboards, donor tracking, mobile app for field staff.\n   - **Pricing**: Starts at ~$5,000/year for small orgs (custom quotes); scalable.\n   - **Pros**: Seamless client-donor data unification; reduces spreadsheets. **Cons**: Steeper learning curve for pure fundraising teams.\n   - **Source**: Johnny Baskin analysis highlights it as the best for shelters moving beyond spreadsheets [6].\n\n#### 2. **Bloomerang**\n   - **Why it fits**: Simple, donor-focused CRM ideal for small homeless nonprofits emphasizing retention and engagement. Pairs well with shelter-specific tools via integrations (e.g., HMIS systems).\n   - **Key features**: Donor profiles, automated engagement scoring, event/recurring gift tracking, wealth screening.\n   - **Pricing**: $119/month (unlimited users, 2,500 contacts); free trial.\n   - **Pros**: Intuitive, affordable, high donor retention rates (94%+). **Cons**: Lacks built-in client case management\u2014needs add-ons.\n   - **Source**: Ranked #1 for small nonprofits in LiveImpact [1] and StratusLive [7] comparisons.\n\n#### 3. **Salesforce Nonprofit Cloud**\n   - **Why it fits**: Highly customizable for complex homeless services (e.g., program delivery + donor pipelines). Used by large orgs like shelters for integrated fundraising, case management, and impact reporting.\n   - **Key features**: Donor management, grant tracking, volunteer shifts, AI-powered insights (Einstein), NPSP for free core CRM.\n   - **Pricing**: Free NPSP edition; paid add-ons ~$36\u2013$180/user/month.\n   - **Pros**: Scalable, 10,000+ integrations (e.g., HMIS). **Cons**: Requires setup expertise/cost.\n   - **Source**: Top-rated across Salesforce [8], Ellipsis Partners [4], and multiple lists [1,2,5].\n\n#### Quick Comparison Table\n\n| CRM          | Best For                  | Starting Price       | Client Management? | Donor Tools Strength | Ease of Use |\n|--------------|---------------------------|----------------------|--------------------|----------------------|-------------|\n| **CaseWorthy** | Shelters/human services  | $5K/year (custom)   | Excellent (native) | Good                | Medium     |\n| **Bloomerang** | Small orgs/donor focus   | $119/mo             | Via integrations  | Excellent           | High       |\n| **Salesforce** | Large/scalable ops       | Free core; $36+/user| Excellent (custom)| Excellent           | Low (w/o help) |\n\n#### Other Strong Contenders\n- **DonorPerfect**: Robust fundraising + grant tracking; good for mid-sized homeless orgs [4].\n- **Givebutter**: Free tier with forms/events; modern for engagement [2].\n- **Keela or Neon One**: Affordable donor tools with engagement scoring [5,4].\n\n**Recommendation**: Start with **CaseWorthy** if client tracking is core to your homeless services (e.g., shelter beds, outcomes). For donor-heavy ops on a budget, go **Bloomerang**. Demo 2\u20133 via free trials, checking HMIS/HUD compliance. Most offer nonprofit discounts\u2014factor in your contact volume (~1K\u201310K donors/clients) and team size. For deeper dives, check the linked sources.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Keela",
+    "Neon One",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 899,
+  "estimated_cost_usd": 0.018506,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://www.ellipsispartners.com/donation-crms-for-nonprofits/",
+      "https://bloomerang.com/blog/nonprofit-crm/",
+      "https://johnnybaskin.com/the-best-crm-for-homeless-shelters/",
+      "https://stratuslive.com/blog/nonprofit-crm-systems-comparison/",
+      "https://www.salesforce.com/nonprofit/"
+    ]
+  }
+}

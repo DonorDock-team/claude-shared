@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550776+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Measuring donor retention is essential for understanding how well your organization retains its donors over time. High retention rates typically indicate donor satisfaction and trust in your organization\u2019s mission, while low retention rates may highlight areas needing improvement in donor engagement and communication. Here\u2019s a step-by-step guide on how to measure donor retention:\n\n1. **Define Your Timeframe**: \n   - Decide whether you will measure annually, biannually, or over another period depending on your fundraising cycles and goals.\n\n2. **Identify Your Donor Cohorts**:\n   - Determine the group or cohort of donors you want to track. A common approach is to start with donors who gave in a specific year.\n\n3. **Collect Data**:\n   - Gather data on donors who gave in your chosen starting period. You should collect information such as the number of donors, donation amounts, and frequency of donations.\n\n4. **Track Subsequent Giving**:\n   - Observe which of these initial donors contributed again in the following period(s).\n\n5. **Calculate Retention Rate**:\n   - Use the formula:  \n     \\[\n     \\text{Donor Retention Rate} = \\left( \\frac{\\text{Number of repeat donors in subsequent period}}{\\text{Number of donors in initial period}} \\right) \\times 100\n     \\]\n   - This percentage will give you the retention rate for the period.\n\n6. **Analyze Trends**:\n   - Review retention rates over multiple periods to identify trends. Compare them to historical data or industry benchmarks.\n\n7. **Segment Analysis**:\n   - Consider segmenting donors by characteristics such as donor level, method of giving (online, monthly, major gift), or engagement activity (volunteers, event attendees) for a more in-depth analysis.\n\n8. **Evaluate Engagement Strategies**:\n   - Analyze which strategies might have contributed to retaining or losing donors. This may include changes in communication, events, stewardship, and donor satisfaction.\n\n9. **Adjust Strategies Accordingly**:\n   - Use insights from your analysis to inform future retention strategies, focusing on areas such as personalized communication, appreciation events, or improved donor acknowledgment processes.\n\n10. **Regular Reporting and Monitoring**:\n    - Regularly measure and report on retention as part of your organization's key performance indicators (KPIs) to ensure focus on continuous improvement.\n\nRemember, donor retention is not solely a number but an indicator of the health of your relationships with supporters. Regular engagement, transparent communication, and expressing appreciation can significantly improve retention over time.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 508,
+  "estimated_cost_usd": 0.00511,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

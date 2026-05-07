@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P040",
+  "prompt_text": "Donor software with QuickBooks integration",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.551076+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Many donor management software platforms offer robust integration with QuickBooks, primarily QuickBooks Online (QBO), but some also support QuickBooks Desktop (QBD). This integration streamlines accounting processes, ensures accurate financial reporting, and reduces manual data entry.\n\nHere are some of the top donor software solutions known for their QuickBooks integration:\n\n---\n\n### Top Donor Software with QuickBooks Integration\n\n1.  **Bloomerang**\n    *   **QuickBooks Integration:** Excellent, direct integration with QuickBooks Online. It allows you to map your Bloomerang transaction types (donations, pledges, fees) to specific QuickBooks Online accounts (income accounts, liability accounts for pledges). You can sync gifts, refunds, and adjustments as invoices or sales receipts.\n    *   **Key Features:** Modern CRM, smart donor engagement features, email marketing, reporting, pledge management, online giving forms, constituent timelines.\n    *   **Best For:** Small to medium-sized non-profits looking for a user-friendly system with strong donor engagement tools.\n\n2.  **Kindful (now part of Bonterra)**\n    *   **QuickBooks Integration:** Strong, direct integration with QuickBooks Online. Kindful is often praised for its seamless financial reporting capabilities, allowing you to sync donations, pledges, and donor information directly into QBO. It provides detailed mapping options for GL accounts.\n    *   **Key Features:** Donor CRM, online fundraising pages, email marketing, event management, peer-to-peer fundraising, reporting, payment processing.\n    *   **Best For:** Small to medium-sized non-profits that prioritize robust fundraising and financial integration.\n\n3.  **DonorPerfect**\n    *   **QuickBooks Integration:** Integrates with both QuickBooks Online and QuickBooks Desktop. DonorPerfect offers a dedicated \"QuickBooks Sync\" tool that allows for granular control over which transactions sync and how they map to your chart of accounts. You can sync gifts, pledges, and constituent information.\n    *   **Key Features:** Comprehensive donor management, fundraising tools, online forms, event management, grant tracking, volunteer management, robust reporting.\n    *   **Best For:** Medium to larger non-profits looking for a long-standing, full-featured system that can handle complex needs and offers flexibility for both QBO and QBD users.\n\n4.  **NeonCRM (Neon One)**\n    *   **QuickBooks Integration:** Strong integration with QuickBooks Online, typically via a dedicated app or connector. They also offer options for QuickBooks Desktop, often through export/import functionality or third-party middleware. It allows for the syncing of donation data and mapping to appropriate GL accounts.\n    *   **Key Features:** All-in-one platform including CRM, fundraising, membership management, event registration, email marketing, website integration, and reporting.\n    *   **Best For:** Non-profits of various sizes (especially medium) looking for a comprehensive suite of tools beyond just donor management.\n\n5.  **Little Green Light (LGL)**\n    *   **QuickBooks Integration:** Offers a dedicated QuickBooks Online integration for syncing gifts and pledges. For QuickBooks Desktop, it provides easy-to-use export features that can be imported into QBD. Known for its clear guidance on setting up mapping.\n    *   **Key Features:** Affordable and powerful CRM, donation tracking, gift processing, email, acknowledgments, reporting, volunteer management.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 694,
+  "estimated_cost_usd": 0.001736,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

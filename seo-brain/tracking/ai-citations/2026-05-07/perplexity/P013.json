@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P013",
+  "prompt_text": "DonorDock vs Little Green Light",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550546+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### DonorDock vs. Little Green Light: Nonprofit CRM Comparison (2026)\n\nBoth DonorDock and Little Green Light (LGL) are popular donor management CRMs for nonprofits, focusing on tracking donors, gifts, and relationships. LGL emphasizes affordability and customization, while DonorDock prioritizes modern usability and all-in-one fundraising tools. Here's a breakdown based on recent comparisons from G2, Capterra, Gralio, and vendor sites.\n\n#### Key Features Head-to-Head\n| Feature                  | Little Green Light                          | DonorDock                                   |\n|--------------------------|---------------------------------------------|---------------------------------------------|\n| **Donor Management**    | Strong: Custom fields, tags, search, retention reports | Strong: Unlimited contacts, gift tracking, ActionBoard\u00ae (AI task suggestions) |\n| **Fundraising/Online Giving** | Basic forms (LGL Forms); supports Stripe/PayPal | Unlimited campaigns, integrated pages with Stripe, PayPal, ACH, Apple/Google Pay |\n| **Email Marketing**     | Basic bulk emails; advanced needs integrations | Built-in drag-and-drop newsletters and outreach |\n| **Integrations**        | Limited (e.g., payment processors)         | Broader (email, payments, text); more modern ecosystem |\n| **Reporting**           | Donor retention, grants, customizable      | Retention trends, donor insights            |\n| **Data Migration**      | Supported (2-week exports via Comprehensive Export ZIP) | Quick (<2 weeks) with free onboarding support |\n| **Other Standouts**     | Excellent grant management, deadline tracking | Texting, automations, \"virtual assistant\" tasks |\n| **Contracts**           | None, cancel anytime                       | None, cancel anytime                        |\n\n#### Pricing\n- **LGL**: $45\u2013$135+/month based on constituent count (e.g., cheaper for small lists). Plus payment processing fees.\n- **DonorDock**: Starts at ~$98\u2013$500/month (one plan includes CRM, email, giving, text, AI). Plus card fees. Scales with features, not just contacts.\n- **Note**: Both are cost-effective for small/midsize orgs, but LGL is often cheaper upfront. Free alternatives like Zeffy exist (zero fees via donor tips) but lack some depth.\n\n#### User Ratings & Reviews\n| Source       | Little Green Light | DonorDock          |\n|--------------|--------------------|--------------------|\n| **G2**      | 4.4/5 (62 reviews) | 4.8/5 (135 reviews)|\n| **Capterra**| 4.7/5 (252 reviews)| 4.8/5 (30 reviews) |\n\n- **LGL Pros** (from users): Affordable, intuitive for basics, responsive support, flexible data customization. \"Great for small nonprofits on a budget.\"\n- **LGL Cons**: Outdated interface (built pre-iPhone era), clunky navigation, limited emails/integrations, basic forms.\n- **DonorDock Pros**: Modern UI, easier setup/admin, higher adoption, streamlined everything. \"Feels like a virtual assistant.\"\n- **DonorDock Cons**: Higher cost, less emphasis on grants.\n\nReviewers on G2 note DonorDock is easier to use, set up, and administer overall.\n\n#### Who Should Choose Which?\n- **Pick LGL** if: You're a small/midsize nonprofit prioritizing low cost, grant tracking, and data flexibility. Ideal for budget-conscious groups with simple needs (e.g., <5K constituents).\n- **Pick DonorDock** if: You want a modern, all-in-one platform with better emails, giving pages, and automations. Suited for growing orgs focused on donor engagement and quick implementation.\n- **Switching?** Easy from LGL: Export via Reports > Comprehensive Export (ZIP file), then DonorDock handles import/onboarding.\n\nFor robust reporting/integrations, both may need supplements. Test free trials\u2014LGL for affordability, DonorDock for usability. Sources: Gralio.ai, DonorDock.com, G2.com (2025\u20132026 data).",
+  "donordock_mentioned": true,
+  "donordock_position": 4,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 856,
+  "estimated_cost_usd": 0.017864,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://gralio.ai/compare/little-green-light-vs-donordock",
+      "https://www.donordock.com/compare/little-green-light-vs-donordock",
+      "https://www.zeffy.com/compare/donordock-vs-little-green-light",
+      "https://helpcenter.donordock.com/kb/guide/en/migrating-from-little-green-light-DlXpRFLHA1/Steps/1864996",
+      "https://www.g2.com/compare/donordock-vs-little-green-light",
+      "https://www.littlegreenlight.com/blog/donor-management-and-fundraising-software/",
+      "https://www.donordock.com/compare"
+    ]
+  }
+}

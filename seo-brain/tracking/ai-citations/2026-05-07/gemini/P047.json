@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P047",
+  "prompt_text": "Best donor CRM for community foundations",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550440+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a community foundation (CF) is highly dependent on the foundation's size, budget, complexity of funds, and specific operational needs. Community foundations have unique requirements that go beyond typical nonprofit donor management, primarily around **fund accounting, complex grantmaking, and sophisticated relationship management.**\n\nHere are the top contenders and key considerations:\n\n---\n\n### Top Recommendations for Community Foundations\n\n#### 1. Blackbaud (Specifically FIMS & Raiser's Edge NXT, or a combination)\n\n*   **Overview:** Blackbaud is the largest provider of software for nonprofits, and they have products specifically tailored for community foundations.\n    *   **FIMS (Foundation Information Management System):** This is often considered the gold standard for fund accounting in community foundations. It's a robust system designed specifically for the unique complexities of managing endowments, donor-advised funds (DAFs), designated funds, and more, including spending policies, gift annuities, and detailed financial reporting.\n    *   **Raiser's Edge NXT (RENXT):** Blackbaud's flagship donor management platform, providing strong capabilities for donor cultivation, stewardship, communications, event management, and robust reporting.\n    *   **Blackbaud Grantmaking:** A dedicated solution for managing the entire grant lifecycle, from application to disbursement and reporting.\n*   **Pros:**\n    *   **Deep Fund Accounting (FIMS):** Unparalleled in its ability to handle complex fund structures, spending policies, and financial reporting for CFs.\n    *   **Comprehensive Suite:** When integrated, FIMS, RENXT, and Grantmaking cover virtually all CF needs under one vendor (though integration can sometimes be complex).\n    *   **Industry Standard:** Many large and established CFs use Blackbaud products, meaning a strong user community and specialized consultants are available.\n    *   **Robust Reporting:** Excellent for financial audits, donor statements, and regulatory compliance.\n*   **Cons:**\n    *   **Cost:** Can be very expensive, especially for the full suite of products.\n    *   **Complexity & Learning Curve:** FIMS, in particular, has a steep learning curve and requires specialized staff.\n    *   **Technology",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 456,
+  "estimated_cost_usd": 0.001142,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

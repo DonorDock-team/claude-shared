@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P147",
+  "prompt_text": "Best donor CRM with event management",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.551029+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM with event management depends heavily on your organization's specific needs, size, budget, and the complexity of your events. However, here are the top contenders and what makes them stand out:\n\n**Key Considerations When Evaluating:**\n\n1.  **Organization Size & Budget:** Solutions range from affordable for small non-profits to enterprise-level for large institutions.\n2.  **Event Complexity:** Do you need simple registration, or do you manage multi-day conferences with breakout sessions, seating charts, live auctions, and complex ticketing tiers?\n3.  **Ease of Use vs. Customization:** Do you prefer an out-of-the-box solution or something highly customizable (which often requires more setup)?\n4.  **Integration:** How well does the event management integrate with the core CRM? Is it seamless, or are there manual steps? Do you need integrations with other tools (accounting, email marketing)?\n5.  **Donor Journey:** How well does the system help you track and nurture donors before, during, and after an event?\n6.  **Reporting & Analytics:** Can you easily track event ROI, attendee demographics, and fundraising performance?\n\n---\n\n### Top Donor CRMs with Event Management Capabilities:\n\n#### 1. Blackbaud Raiser's Edge NXT (and related Blackbaud products)\n\n*   **Best For:** Large, established non-profits, universities, hospitals, and organizations with complex fundraising and event needs.\n*   **Why it's good:** Blackbaud is the industry giant. Raiser's Edge NXT offers robust donor management alongside powerful, integrated event management tools. You can create sophisticated event pages, manage registrations, ticketing, sponsorships, guest lists, and even integrate with auction software. Their \"Blackbaud Events\" module is specifically designed for complex events.\n*   **Pros:**\n    *   Extremely comprehensive and scalable.\n    *   Deep integration between CRM and event functions.\n    *   Handles complex ticketing, sponsorships, and attendee management.\n    *   Strong reporting and analytics.\n*   **Cons:**\n    *   Can be expensive.\n    *   Steep learning curve for new users.\n    *   Interface can sometimes feel less modern than newer tools.\n\n#### 2. Salesforce NPSP (Nonprofit Success Pack) + AppExchange Apps\n\n*   **Best For:** Medium to large non-profits seeking ultimate flexibility, customization, and a platform that can grow with them indefinitely.\n*   **Why it's good:** While NPSP itself is a powerful CRM, it relies on the vast Salesforce AppExchange for dedicated event management tools. Popular choices include **Blackthorn Events**, **Fonteva Events**, or integrating with tools like Eventbrite via connectors. This allows you to build an incredibly tailored solution.\n*   **Pros:**\n    *   Unmatched customization and scalability.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 598,
+  "estimated_cost_usd": 0.001497,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

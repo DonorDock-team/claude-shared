@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P036",
+  "prompt_text": "Best donor management software for nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550810+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor Management Software for Nonprofits\n\nHere are the top options based on organization size and needs:\n\n## **Best Overall Options**\n\n### **Bloomerang**\n- Excellent for small-to-medium nonprofits\n- Strong donor retention focus\n- Built-in engagement metrics\n- **Price:** Starting ~$125/month\n\n### **Salesforce Nonprofit Cloud**\n- Best for large organizations\n- Highly customizable\n- Robust reporting and integration\n- **Price:** 10 free licenses, then ~$36/user/month\n\n## **Best for Small Nonprofits**\n\n### **DonorPerfect**\n- User-friendly interface\n- Good online fundraising tools\n- **Price:** Starting ~$89/month\n\n### **Little Green Light**\n- Affordable option\n- Solid core features\n- **Price:** Starting ~$59/month\n\n## **Best Free/Low-Cost Options**\n\n### **Givebutter**\n- Free CRM with fundraising tools\n- Transaction fees apply to donations\n\n### **HubSpot for Nonprofits**\n- Free CRM with marketing tools\n- Good for organizations building donor relationships\n\n## **Key Features to Consider**\n- Online donation processing\n- Email marketing integration\n- Reporting and analytics\n- Event management\n- Grant tracking\n- Volunteer management\n\n**What's your nonprofit's size and primary needs?** This will help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 324,
+  "estimated_cost_usd": 0.004905,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

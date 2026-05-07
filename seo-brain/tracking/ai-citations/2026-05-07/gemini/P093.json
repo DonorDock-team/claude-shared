@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P093",
+  "prompt_text": "Cheapest nonprofit CRM with online giving",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.551024+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for the **cheapest nonprofit CRM with online giving**, you're often looking at free tiers, donor-covered fee models, or very low-cost solutions that might require some DIY setup.\n\nHere are the top contenders, ranging from truly free to very affordable:\n\n---\n\n### Top Recommendations (Free or Very Low Cost)\n\n1.  **Givebutter**\n    *   **Cost:** **Free for core features.** Their model relies on donors covering payment processing fees (optional, but highly adopted) and/or optional \"tips\" to Givebutter. If donors don't cover fees, standard credit card processing fees (e.g., 2.9% + $0.30 per transaction) apply, but Givebutter itself doesn't charge platform fees for most features.\n    *   **Online Giving:** Excellent, built-in online giving forms, peer-to-peer fundraising, event ticketing, text-to-give, auction tools. All are seamlessly integrated.\n    *   **CRM Features:** Solid donor management, contact profiles, donation tracking, communication tools, segmentation, and basic reporting.\n    *   **Pros:** Truly free for most nonprofits, very user-friendly interface, comprehensive fundraising tools built-in, great for small to medium organizations.\n    *   **Cons:** While the CRM is good for tracking, it's not as robust or customizable as a full enterprise CRM like Salesforce.\n\n2.  **Salesforce NPSP (Nonprofit Success Pack)**\n    *   **Cost:** **10 free user licenses** for qualifying nonprofits. This is a massive value, as Salesforce is a world-class CRM.\n    *   **Online Giving:** NPSP itself doesn't have built-in donation forms. You'll need to integrate a third-party solution like:\n        *   **Classy, Donorbox, or Funraise:** These integrate well with Salesforce and provide advanced online giving features. (These will have their own costs/fees",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 415,
+  "estimated_cost_usd": 0.00104,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

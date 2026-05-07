@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550610+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### DonorDock vs. Keela: Nonprofit Donor CRM Comparison (2026)\n\nDonorDock and Keela are both popular donor management CRMs tailored for small to mid-sized nonprofits, focusing on tracking donors, managing relationships, and streamlining fundraising. DonorDock emphasizes simplicity and speed for smaller teams, while Keela offers more robust automation and marketing tools. Neither is free\u2014both charge monthly fees plus transaction costs\u2014unlike alternatives like Zeffy (zero platform fees via voluntary tips). Below is a head-to-head breakdown based on recent comparisons, reviews, and vendor details.\n\n#### Pricing\n| Feature          | DonorDock                          | Keela                              |\n|------------------|------------------------------------|------------------------------------|\n| **Starting Cost**| $98/month (plus ~2.9% + $0.30 card fees) | Custom pricing (monthly fees + transaction costs; typically $100\u2013$300+/month based on contacts/features) |\n| **Free Trial**   | Yes                               | Yes                               |\n| **Key Note**     | Predictable flat fee; scales with contacts | Usage-based; can add up with add-ons like wealth screening |\n\n*Sources: Zeffy comparison [1], vendor sites via Slashdot [3]. Exact Keela pricing requires a demo.*\n\n#### Key Features\nBoth excel in core donor CRM functions, but differ in scope:\n\n| Category              | DonorDock Strengths                                                                 | Keela Strengths                                                                 |\n|-----------------------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|\n| **Donor Management** | Contact database, segmentation, donation tracking, membership tracking             | Advanced segmentation, donor journeys, wealth screening, recurring donation tools |\n| **Fundraising**      | Donation forms, email templates, peer-to-peer (via integrations)                    | Built-in forms, automation workflows, raffles, event management                 |\n| **Marketing/Comms**  | Mass emails, template builder, call logging                                         | Customizable emails/SMS, preference tracking, automated journeys                |\n| **Reporting**        | Basic dashboards, exportable data                                                   | Advanced insights, AI-driven analytics                                          |\n| **Integrations**     | Zapier (e.g., connects to Keela [2]), QuickBooks, Mailchimp                         | Native + Zapier; strong with payment processors                                 |\n| **Other**            | Mobile access, volunteer tracking                                                  | Event/volunteer management, accounting ties                                     |\n\n*Sources: Slashdot [3], G2 [4], Keela's DonorPerfect comparison [6]. DonorDock is lighter on events; Keela is more \"all-in-one.\"*\n\n#### Ease of Use & Setup\n- **DonorDock**: Wins here per G2 reviews [4]. Users praise its intuitive interface: \"Easy to use... one-stop shop for emails, memberships, and donations.\" Setup is quick; minimal IT needed. Drawbacks: Occasional email formatting glitches.\n- **Keela**: More feature-rich but steeper learning curve. Reviewers note strong support but prefer DonorDock for simplicity. Keela testimonial: \"Ease of use and customer support that none offer\" [6].\n\n#### Customer Support & Reviews\n| Metric             | DonorDock                  | Keela                      |\n|--------------------|----------------------------|----------------------------|\n| **G2 Rating**     | Higher ease-of-use scores [4] | Solid but trails in admin  |\n| **Support**       | Business hours + online; responsive team | 24/7 live rep option [3]; highly praised |\n| **User Feedback** | \"Team at DonorDock is very good\" [4] | \"Checks all our boxes\" [6] |\n\n*DonorDock (US-based, founded 2017) edges out in user-friendliness for small orgs; Keela (Canada, founded 2013) shines for growing nonprofits needing automation.*\n\n#### Pros & Cons\n**DonorDock**:\n- **Pros**: Affordable entry, fast setup, great for basic donor tracking/email.\n- **Cons**: Limited built-in events/marketing; relies on integrations like Zapier [2].\n\n**Keela**:\n- **Pros**: Powerful automation, donor insights, comprehensive tools.\n- **Cons**: Higher cost, more complex for tiny teams.\n\n#### Recommendation\n- **Choose DonorDock** if you're a small nonprofit (e.g., <1,000 donors) prioritizing low cost, ease, and quick wins on emails/donations.\n- **Choose Keela** for mid-sized orgs needing automation, events, and advanced engagement.\n- **Test Both**: Free trials available. If fees are a concern, consider Zeffy [1] for free tools or Donorbox [5,7] for donation-focused alternatives.\n\nFor the latest, check demos: [DonorDock](www.donordock.com), [Keela](www.keela.co). Data from 2026 sources like G2, Slashdot, and Zeffy.",
+  "donordock_mentioned": true,
+  "donordock_position": 4,
+  "competitors_mentioned": [
+    "DonorBox",
+    "DonorPerfect",
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1017,
+  "estimated_cost_usd": 0.020276,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.zeffy.com/compare/donordock-vs-keela",
+      "https://zapier.com/apps/donordock/integrations/keela",
+      "https://slashdot.org/software/comparison/DonorDock-vs-Keela/",
+      "https://www.g2.com/compare/donordock-vs-aplos-software-keela",
+      "https://www.capterra.com/compare/154358-156860/Keela-vs-Donorbox",
+      "https://www.keela.co/landing/keela-vs-donorperfect",
+      "https://www.softwareadvice.com/nonprofit/donorbox-profile/vs/keela/",
+      "https://www.donordock.com/articles/best-nonprofit-crm"
+    ]
+  }
+}

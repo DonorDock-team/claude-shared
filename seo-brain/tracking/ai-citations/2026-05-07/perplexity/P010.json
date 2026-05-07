@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P010",
+  "prompt_text": "Does DonorDock have online giving",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550237+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Yes, DonorDock has online giving capabilities.**\n\nDonorDock provides \"Online Giving Pages\" that let nonprofits accept donations online quickly, with features like unlimited customizable pages for campaigns, appeals, events, memberships, pledges, and ticket sales. Key details from their site and help center:\n\n- **Setup and Integration**: Create branded, embeddable pages in minutes. Gifts sync automatically to your DonorDock CRM in real-time. Supports Stripe and PayPal (via Stripe Connect for full features); Square via Zapier. Also integrates with Chariot for DAFpay and Double the Donation for matching gifts.\n- **Donation Types**: One-time, recurring (custom frequencies), memberships (auto-categorizes with dates), sponsorships, honor/memorial/anonymous gifts.\n- **Fees**: 1% platform fee (donor-funded option available, no mandatory fees), plus standard processor fees (e.g., ~2.2% + $0.30 via Stripe/PayPal).\n- **Extras**: Auto tax receipts/thank-yous, QR codes, text-to-donate (via keywords to DonorDock number), secure (SOC II certified, encrypted).\n- **Access**: Found in the DonorDock dashboard under \"Online Giving.\"\n\nSources: DonorDock.com/online-giving, helpcenter.donordock.com (multiple guides), YouTube overview. This is current as of available info.",
+  "donordock_mentioned": true,
+  "donordock_position": 7,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 288,
+  "estimated_cost_usd": 0.009344,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/online-giving",
+      "https://www.youtube.com/watch?v=teCdtRyPaas",
+      "https://helpcenter.donordock.com/kb/en/online-giving-146301",
+      "https://helpcenter.donordock.com/kb/guide/en/online-giving-overview-oigm9umSjA/Steps/1116318",
+      "https://helpcenter.donordock.com/kb/guide/en/donordock-and-online-giving-fees-FF6iCEKSlh/Steps/1935110",
+      "https://helpcenter.donordock.com/kb/guide/en/membership-online-giving-pages-pk35D79839/Steps/4099656",
+      "https://helpcenter.donordock.com/kb/guide/en/online-giving-overview-oigm9umSjA/Steps/1116318,1408128,1317598",
+      "https://helpcenter.donordock.com/kb/guide/en/understanding-online-giving-fields-3UhHtm7CRu/Steps/1710134",
+      "https://www.donordock.com/lp/online-giving",
+      "https://www.donordock.com/pricing"
+    ]
+  }
+}

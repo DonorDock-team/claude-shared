@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P019",
+  "prompt_text": "Alternative to Blackbaud Raisers Edge",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550904+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Blackbaud Raiser's Edge has been a long-standing dominant player in the nonprofit CRM space, but many organizations look for alternatives due to its complexity, cost, dated interface (especially the desktop version), or a desire for more modern, cloud-native solutions.\n\nHere are some of the top alternatives to Blackbaud Raiser's Edge, categorized by their general focus and strengths:\n\n---\n\n### **1. Most Popular & Comprehensive (Often Cloud-Native)**\n\nThese are strong contenders, often offering a wide range of features, integrations, and scalability.\n\n*   **Salesforce for Nonprofits (NPSP - Nonprofit Success Pack):**\n    *   **Strengths:** Highly customizable, incredibly robust, massive ecosystem of apps (AppExchange), scalable for organizations of all sizes, often offers free licenses for the first 10 users.\n    *   **Considerations:** Can be complex to set up and maintain without Salesforce administrators or consultants, implementation costs can be significant, requires ongoing training.\n    *   **Best for:** Organizations wanting a highly flexible, future-proof solution that can integrate with almost anything, and are willing to invest in setup and administration.\n\n*   **Bloomerang:**\n    *   **Strengths:** Known for its user-friendliness, strong focus on donor retention (features like donor engagement score), excellent reporting, integrated email marketing, modern interface. Acquired Kindful, expanding its offering.\n    *   **Considerations:** While comprehensive, it might not have the extreme depth of customization that Salesforce offers for very unique workflows.\n    *   **Best for:** Organizations looking for an intuitive, modern, all-in-one solution that prioritizes donor engagement and ease of use, particularly small to medium-sized nonprofits.\n\n*   **DonorPerfect:**\n    *   **Strengths:** Long-standing and well-established, robust feature set including donor management, fundraising, events, and reporting. Good for organizations needing a reliable, full-featured system without the complexity of Salesforce.\n    *   **Considerations:** The interface can feel",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 429,
+  "estimated_cost_usd": 0.001075,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

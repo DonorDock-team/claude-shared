@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P071",
+  "prompt_text": "Donor retention benchmarks for nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550786+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Donor Retention Benchmarks for Nonprofits (2025\u20132026)\n\nDonor retention rates measure the percentage of last year's donors who give again this year, calculated as (repeat donors / total prior-year donors) \u00d7 100. Benchmarks vary by source, donor type (e.g., new vs. repeat), organization size, and data period, but industry averages typically range from **35\u201355%** overall. Rates are consistently higher for repeat donors and lower for new ones. Here's a synthesis of the most recent data from key reports:\n\n#### Overall Donor Retention Benchmarks\n| Source | Year/Period | Overall Rate | Notes |\n|--------|-------------|--------------|-------|\n| Fundraising Effectiveness Project (FEP) via 4aGoodCause [1] | 2025\u20132026 | **42.9%** | Average across nonprofits; stable at 40\u201345% for years. Small nonprofits (<1,000 donors): realistic goal 35\u201345%. |\n| Virtuous Software (771 mid-sized US nonprofits) [2] | 2026 | **54.73%** | Top quartile: 69.64%. Digital-first orgs often hit 53% [5]. |\n| Fundraising Report Card [3,7] | 2024\u20132025 | **~35%** (avg); **53.65%** repeat | Live benchmark; under 35% needs urgent attention. |\n| CCS Fundraising [9] | 2025 | **46%** | Internal data analytics average. |\n| NPTechForGood [8] | 2024 | **45%** | Down 2.6% from 2023. |\n| Bloomerang (FEP Q3) [4] | 2025 | **31.9%** | Slight increase from 31.7% in 2024; quarterly snapshot. |\n\n- **Key Insight**: Most nonprofits retain ~40\u201350% of donors annually, meaning they lose more than they keep without strong strategies. Top performers (e.g., 55\u201370%) focus on stewardship, monthly giving (up to 90% retention [1]), and second gifts.\n\n#### Breakdown by Donor Type\n| Donor Segment | Average Rate | Source/Notes |\n|---------------|--------------|--------------|\n| **New Donors** (first-time) | 14\u201325% | FEP: 14\u201319.4% [1,4]; Virtuous first-to-second gift: 25.84% (top: 37.86%) [2]; Fundraising Report Card: 17.88\u201319.63% [1,7]. ~3/4 new donors give once and leave. |\n| **Repeat Donors** | 43\u201369% | FEP: 69.2% [1], 43.6% YTD [4]; Fundraising Report Card: 53.65% [7]; top monthly: 90% [1]. |\n| **Micro Donors** ($1\u2013$100) | 21.3% | FEP Q3 2025 [4]; lowest segment. |\n| **Major Donors** ($5K\u2013$50K) | 52% | FEP Q3 2025 [4]; supersize ($50K+): 56.6%. |\n| **By Gift Frequency** [4] | Varies | 1-time: 19.2%; 2-time: 38.5%; 3\u20136 times: 62.5%; 7+: 87.3%. More gifts = higher retention. |\n| **Reactivated Donors** | 35.72% | Fundraising Report Card [7]. |\n\n#### Trends and Recommendations\n- **Declines Noted**: New donor retention dipped slightly (e.g., 18.1% Q1 2025 [6]); overall stable but below 50% for most.\n- **Good Targets**: <40%: Critical; 40\u201355%: Average (focus here for quick gains); >55%: Strong; top quartile ~70%.\n- **Why It Matters**: Retaining donors costs ~$0.20 per $1 raised vs. much higher acquisition costs [3]. Nonprofits exceeding averages often use CRM tools for personalization and recurring gifts [1,2].\n- **Data Sources**: Primarily FEP (quarterly scorecard), Virtuous, Fundraising Report Card. Benchmarks from 2024\u20132026; check latest FEP for Q1 2026 updates.\n\nFor your nonprofit, benchmark against similar size/sector (e.g., arts/health vary slightly [1]). Track via: (repeat donors this year / all donors last year) \u00d7 100. Aim to beat your prior year by 5\u201310% annually.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1010,
+  "estimated_cost_usd": 0.020171,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://4agoodcause.com/the-importance-of-donor-retention-how-to-calculate-and-track/",
+      "https://virtuous.org/blog/understanding-donor-retention/",
+      "https://www.donorsearch.net/resources/donor-retention/",
+      "https://bloomerang.com/blog/donor-retention/",
+      "https://www.nextafter.com/blog/donor-retention/",
+      "https://afpglobal.org/news/fundraising-effectiveness-project-data-q1-2025-shows-increases-dollars-raised-declining",
+      "https://fundraisingreportcard.com/benchmarks/",
+      "https://www.nptechforgood.com/101-best-practices/online-fundraising-statistics-for-nonprofits/",
+      "https://www.ccsfundraising.com/insights/donor-acquisition-and-retention-strategies/"
+    ]
+  }
+}

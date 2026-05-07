@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P143",
+  "prompt_text": "Donor CRM that does pledges and recurring",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550780+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for a donor CRM that supports pledges and recurring donations, you'll want to evaluate several options to find the best fit for your organization's needs. Here are some popular donor CRM platforms that offer these features:\n\n1. **Bloomerang**: Known for its user-friendly interface and robust donor management capabilities, Bloomerang supports pledges, recurring donations, and provides insightful donor engagement tools.\n\n2. **Neon CRM**: This platform offers comprehensive donor management features, including support for recurring gifts, pledges, and payment processing. Neon CRM is versatile and can handle various nonprofit fundraising needs.\n\n3. **DonorPerfect**: This CRM is widely used for its flexibility and power in managing donor relationships. It supports pledges and automated recurring donation processing, along with extensive reporting capabilities.\n\n4. **Kindful**: Kindful offers seamless integration with various fundraising and accounting tools. It provides features for managing recurring donations, pledges, and donor engagement tracking.\n\n5. **Salesforce Nonprofit Cloud**: As a highly customizable CRM, Salesforce offers a suite of tools tailored for nonprofits. With the Nonprofit Success Pack (NPSP), you can manage pledges, recurring donations, and gain comprehensive insights into donor activities.\n\n6. **EveryAction**: A powerful tool designed for nonprofits, EveryAction supports complex donor management tasks, including recurring donations and pledges, and offers advanced segmentation and reporting features.\n\n7. **Little Green Light**: This CRM is an affordable solution for smaller nonprofits, supporting recurring gifts and pledge tracking along with event planning and email marketing tools.\n\nWhen choosing a CRM, consider factors such as integration capabilities with your current systems, ease of use, customer support, scalability, and pricing. It may also be helpful to request demos or trials to see which platform best suits your organization's workflow.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 366,
+  "estimated_cost_usd": 0.0037,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P049",
+  "prompt_text": "Best donor CRM with unlimited contacts",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550565+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding a \"best\" donor CRM with *truly* unlimited contacts can be a bit nuanced, as many CRMs use contact tiers for their pricing. However, several excellent options offer either genuinely unlimited contacts (often in a free or very low-cost model, perhaps with feature limitations) or such a high cap that it's effectively unlimited for almost any organization.\n\nHere are some of the best donor CRMs that either offer unlimited contacts or provide extremely generous contact limits at reasonable price points, broken down by their ideal use case:\n\n---\n\n### Top Donor CRMs with Unlimited (or Effectively Unlimited) Contacts\n\n**1. Givebutter**\n*   **Truly Unlimited Contacts:** Yes, in their free plan.\n*   **Pros:**\n    *   **Free Core CRM & Fundraising:** Givebutter is incredibly powerful for being free. It includes a comprehensive CRM, donation pages, peer-to-peer, events, text-to-donate, live streaming, and more, all with unlimited contacts.\n    *   **User-Friendly:** Designed to be intuitive and easy for nonprofits of all sizes.\n    *   **All-in-One Platform:** Integrates fundraising tools directly with the CRM.\n    *   **Excellent Support:** Known for responsive customer service even for free users.\n*   **Cons:**\n    *   **Tip-Based Revenue:** While free, they rely on donors covering processing fees and leaving an optional \"tip\" for Givebutter. If donors don't cover fees or tip, the platform's sustainability could be a concern for some, though it's been successful so far.\n    *   **Advanced CRM Features:** While robust for basic and mid-range needs, it might not have the deeply specialized features or extensive customization of enterprise-level systems like Salesforce NPSP.\n*   **Best For:** Small to mid-sized nonprofits, startups, or organizations looking for an incredibly robust, free, all-in-one fundraising and CRM solution with zero contact limits.\n\n**2. Salesforce NPSP (Nonprofit Success Pack)**\n*   **Effectively Unlimited Contacts:** Yes, Salesforce is built to handle millions of records.\n*   **Pros:**\n    *   **Free for 10 Users:** Salesforce offers 10 free licenses for their Enterprise Edition, pre-configured with NPSP for qualifying nonprofits.\n    *   **Unparalleled Customization & Scalability:** As the world's leading CRM, Salesforce can be customized to an incredible degree to fit any nonprofit's unique needs, no matter how complex or large. It scales infinitely.\n    *   **Vast Ecosystem:** Access to thousands of apps on the AppExchange for integrations (marketing, finance, etc.).\n    *   **Robust Reporting & Automation:** Powerful tools for analytics, workflows, and process automation.\n*   **Cons:**\n    *   **Complexity & Learning Curve:** Salesforce NPSP can be overwhelming without prior experience. It often requires significant upfront setup and ongoing administration, potentially necessitating consultants or dedicated staff.\n    *   **",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Givebutter",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 632,
+  "estimated_cost_usd": 0.001582,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

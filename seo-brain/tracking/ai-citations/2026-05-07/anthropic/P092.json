@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550926+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRM for International NGOs\n\nHere are the top CRM options for international NGOs, considering multi-currency, global compliance, and cross-border fundraising needs:\n\n## **Top Recommendations**\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large international NGOs\n- **Strengths:** \n  - Highly customizable for complex global operations\n  - Multi-currency support\n  - Strong integration ecosystem\n  - Robust reporting across regions\n- **Considerations:** Requires technical expertise; higher cost\n\n### **2. Microsoft Dynamics 365 (Nonprofit Edition)**\n- **Best for:** Organizations already using Microsoft ecosystem\n- **Strengths:**\n  - Excellent multi-language and multi-currency support\n  - Strong European presence and GDPR compliance\n  - Integration with Office 365\n- **Considerations:** Can be complex to implement\n\n### **3. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established nonprofits with traditional fundraising\n- **Strengths:**\n  - Purpose-built for nonprofits\n  - Multi-currency capabilities\n  - Strong donor management features\n- **Considerations:** Can be expensive; some users find it less intuitive\n\n### **4. CiviCRM**\n- **Best for:** Budget-conscious NGOs with technical capacity\n- **Strengths:**\n  - Open-source (cost-effective)\n  - Multi-language support\n  - Customizable\n  - Active nonprofit community\n- **Considerations:** Requires technical skills for setup/maintenance\n\n### **5. Kindful (by Bloomerang)**\n- **Best for:** Small to mid-sized NGOs\n- **Strengths:**\n  - User-friendly interface\n  - Good reporting features\n  - Integration with payment processors\n- **Considerations:** Less robust for very complex international needs\n\n## **Key Features to Prioritize**\n\n- \u2705 Multi-currency transaction handling\n- \u2705 GDPR and international data privacy compliance\n- \u2705 Multi-language interface\n- \u2705 Global payment gateway integrations\n- \u2705 Time zone management\n- \u2705 Regional reporting capabilities\n\n**What's your organization's size and primary geographic focus?** This would help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 522,
+  "estimated_cost_usd": 0.007875,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550699+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Automate Donor Thank You Letters\n\n## Best Approaches\n\n### 1. **Donor Management Software (Recommended)**\nPopular platforms include:\n- **Bloomerang** - Built-in automated acknowledgments\n- **DonorPerfect** - Customizable thank you templates\n- **Little Green Light** - Automated receipts and letters\n- **Kindful/Bloomerang** - Personalization tokens\n- **Salesforce Nonprofit Cloud** - Advanced automation\n\n### 2. **Email Marketing Tools**\n- **Mailchimp** (has nonprofit pricing)\n- **Constant Contact**\n- **ActiveCampaign**\n- Set up triggers based on donation amount or type\n\n### 3. **Mail Merge Solutions**\nFor physical letters:\n- **Google Docs + Sheets** (free option)\n- **Microsoft Word Mail Merge**\n- **Lob.com** for automated physical mailings\n\n## Key Automation Features to Include\n\n\u2705 **Personalization tokens**: Name, amount, date, designation  \n\u2705 **Tiered messaging**: Different letters for donation levels  \n\u2705 **Timing triggers**: Send within 24-48 hours  \n\u2705 **Tax receipts**: Auto-generate compliant documentation  \n\u2705 **Monthly/recurring donor recognition**: Separate workflows  \n\n## Simple Starting Point\n\n**Free/Low-Cost Method:**\n1. Export donor data to Google Sheets\n2. Create letter template in Google Docs with merge fields\n3. Use free add-on like **Autocrat** or **Yet Another Mail Merge**\n4. Set to trigger automatically when new donations added\n\n## Important Tips\n\n- **Keep it personal** - Avoid overly robotic language\n- **Add handwritten notes** for major gifts\n- **A/B test** different messages\n- **Include impact stories**, not just \"thank you\"\n\nWhat's your organization's current process? I can provide more specific recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 447,
+  "estimated_cost_usd": 0.00675,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

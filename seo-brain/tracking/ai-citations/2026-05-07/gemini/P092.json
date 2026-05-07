@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550967+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for an international NGO is complex, as it depends heavily on the NGO's specific size, budget, geographic reach, existing tech stack, and unique fundraising strategies. However, certain CRMs are consistently recommended due to their robust features, scalability, and ability to handle the complexities of multi-national operations.\n\nHere are the top contenders, along with key considerations for international NGOs:\n\n### Key Considerations for International NGOs:\n\n1.  **Multi-currency Support:** Essential for accepting donations and reporting across different currencies.\n2.  **Multi-language Capabilities:** Both for the user interface (staff in different countries) and for donor communications (localized messaging).\n3.  **Global Payment Gateways:** Integration with various payment processors common in different regions (e.g., SEPA Direct Debit in Europe, local bank transfers, mobile money in Africa, diverse credit card processors).\n4.  **Data Residency & Compliance:** Understanding where data is stored and ensuring compliance with regulations like GDPR (Europe), CCPA (California), and other country-specific data privacy laws. The ability to choose data center locations can be crucial.\n5.  **Scalability:** The ability to grow with the organization, from a few users to hundreds across multiple countries.\n6.  **Complex Organizational Structures:** Support for hierarchical structures, country offices, field programs, and segmented reporting.\n7.  **Integration Ecosystem:** Ability to integrate with other mission-critical tools like accounting software (e.g., QuickBooks, NetSuite, SAP), marketing automation, project management, and reporting tools.\n8.  **Offline Access/Mobile Capabilities:** For field staff who may not always have reliable internet.\n9.  **Reporting & Analytics:** Advanced capabilities to track fundraising performance by region, currency, campaign, and donor segment globally.\n10. **Support & Implementation Partners:** Availability of support and specialized implementation partners in various geographic",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 396,
+  "estimated_cost_usd": 0.000992,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

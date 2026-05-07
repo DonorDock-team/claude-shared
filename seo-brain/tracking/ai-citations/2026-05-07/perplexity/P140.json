@@ -1,0 +1,41 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550623+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs with QuickBooks Online Integration\n\nSeveral donor management platforms (CRMs) for nonprofits offer native integrations with QuickBooks Online (QBO), automating the sync of donations, donors, transactions, and financial data to eliminate manual entry. Below is a curated list from the search results, ranked by prominence and detail in integration features. All support automatic syncing as sales receipts, invoices, or journal entries.\n\n#### 1. **Donorbox** (Most Detailed Native Integration)\n   - **Key Features**:\n     - Syncs one-time/recurring donations, ticket sales, and transactions as Sales Receipts or Invoices + Payments.\n     - Setup Wizard maps campaigns to QBO accounts, products/services, custom fields, classes, and locations (requires QBO Plus or higher).\n     - Dashboard for monitoring sync status (synced/pending/failed).\n   - **Cost**: $50/month add-on to Donorbox plans.\n   - **Setup**: Log in to Donorbox > Integrations > Connect QBO > Follow Wizard.\n   - **Best For**: Nonprofits needing effortless, real-time fundraising-to-accounting sync.\n   - **Source**: [Donorbox Integration Page](https://donorbox.org/explore/quickbooks-integration/)\n\n#### 2. **DonorDock**\n   - **Key Features**:\n     - Auto-syncs donations/transactions as sales receipts; links to gift numbers for easy navigation.\n     - Focuses on accounting side (not payments); eliminates double entry.\n   - **Best For**: Streamlined financial record-keeping without granular donor details in QBO.\n   - **Source**: [DonorDock Integration](https://www.donordock.com/integrations/quickbooks-online)\n\n#### 3. **DonorPerfect** (Robust, Multi-Option Sync)\n   - **Key Features**:\n     - Syncs gifts/expenses; posts as individual entries, daily/monthly summaries, or journal entries.\n     - Maps donors to QBO customers; supports multiple bank accounts, income accounts, classes.\n     - Real-time data access; filters for posted/unposted gifts; integrates with QBO Desktop too.\n     - Option to purchase QBO via DonorPerfect.\n   - **Best For**: Comprehensive donor management with flexible posting (individual or batched).\n   - **Source**: [DonorPerfect QBO Overview](https://www.donorperfect.com/factsheets/quickbooks-online/), [Integration Page](https://www.donorperfect.com/integrations/financial-accounting/quickbooks/)\n\n#### 4. **Funraise**\n   - **Key Features**:\n     - Sends donor/donation data; creates Sales Receipts and Customers.\n     - Customizable fee reporting; maps accounts, classes, products/services.\n   - **Best For**: Quick, automated donor data transfer.\n   - **Source**: [Funraise Integration](https://www.funraise.org/integrations/quickbooks)\n\n#### 5. **CharityEngine**\n   - **Key Features**:\n     - Dual sync: Detailed (per donor) for small orgs or Batch (gross deposits) for large ones.\n     - Gross deposit reconciliation, automatic returns sync.\n   - **Best For**: Scalable nonprofits (small to enterprise) prioritizing reconciliation.\n   - **Source**: [CharityEngine Blog](https://blog.charityengine.net/quickbooks-integration)\n\n#### Comparison Table\n\n| CRM          | Sync Types                  | Donor Mapping | Custom Mapping (Classes/Fields) | Pricing Notes          | Ideal Org Size    |\n|--------------|-----------------------------|---------------|---------------------------------|-------------------------|-------------------|\n| **Donorbox** | Donations, tickets, recurring | Yes          | Accounts, products, custom     | $50/mo add-on         | All sizes        |\n| **DonorDock**| Donations as sales receipts | Via gift #   | Basic                          | Not specified         | Mid-size         |\n| **DonorPerfect** | Gifts, expenses (individual/batch) | To customers | Banks, income, classes         | Bundled with CRM      | All sizes        |\n| **Funraise** | Donations/donors            | Creates customers | Accounts, classes, products   | Not specified         | Small-mid        |\n| **CharityEngine** | Detailed or batch         | Yes          | Deposits, fees                 | Not specified         | Small to large   |\n\n#### General Integration Notes\n- **Common Requirements**: Pre-create QBO income accounts, products/services, and custom fields. Admin rights in QBO needed.\n- **Benefits Across All**: Reduces errors, saves time on double entry, supports real-time or scheduled syncs.\n- **Other Mentions**: Neon CRM (from buyer guides) also integrates seamlessly for donor tracking and reporting.\n\n**Recommendation**: Start with **Donorbox** or **DonorPerfect** for the most mature, feature-rich integrations. Test via free trials/demos (most offer them) and verify QBO plan compatibility (e.g., Plus+ for classes/locations). For 2026 evaluations, check vendor sites for updates.",
+  "donordock_mentioned": true,
+  "donordock_position": 1194,
+  "competitors_mentioned": [
+    "DonorBox",
+    "DonorPerfect",
+    "Neon CRM"
+  ],
+  "urls_cited": [
+    "https://www.donordock.com/integrations/quickbooks-online",
+    "https://www.funraise.org/integrations/quickbooks",
+    "https://blog.charityengine.net/quickbooks-integration",
+    "https://www.donorperfect.com/factsheets/quickbooks-online/",
+    "https://www.donorperfect.com/integrations/financial-accounting/quickbooks/",
+    "https://donorbox.org/explore/quickbooks-integration/"
+  ],
+  "input_tokens": 10,
+  "output_tokens": 1055,
+  "estimated_cost_usd": 0.020855,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://donorbox.org/explore/quickbooks-integration/",
+      "https://www.donordock.com/integrations/quickbooks-online",
+      "https://blog.charityengine.net/quickbooks-integration",
+      "https://www.donorperfect.com/video/donorperfect-and-quickbooks/",
+      "https://www.funraise.org/integrations/quickbooks",
+      "https://www.donorperfect.com/factsheets/quickbooks-online/",
+      "https://theleadpastor.com/tools/best-donor-management-software-that-works-with-quickbooks/",
+      "https://www.donorperfect.com/integrations/financial-accounting/quickbooks/",
+      "https://www.donorperfect.com/video/donorperfect-integration-quickbooks-accounting-software/"
+    ]
+  }
+}

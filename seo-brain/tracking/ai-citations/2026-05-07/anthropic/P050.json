@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P050",
+  "prompt_text": "Best donor CRM for community nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550583+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Community Nonprofits\n\n## Top Recommendations\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits focused on retention\n- **Pricing:** Starting ~$125/month\n- **Strengths:** Excellent donor retention tools, intuitive interface, strong reporting\n- **Ideal if:** Donor relationships are your top priority\n\n### **2. Little Green Light**\n- **Best for:** Budget-conscious small nonprofits\n- **Pricing:** Starting ~$49/month\n- **Strengths:** Affordable, comprehensive features, good customer service\n- **Ideal if:** You need full functionality without breaking the bank\n\n### **3. Kindful (by Bloomerang)**\n- **Best for:** Growing community nonprofits\n- **Pricing:** Starting ~$100/month\n- **Strengths:** Modern interface, good integrations, online giving tools\n- **Ideal if:** You want ease of use with built-in fundraising\n\n### **4. DonorPerfect**\n- **Best for:** Nonprofits needing customization\n- **Pricing:** Starting ~$89/month\n- **Strengths:** Highly customizable, robust features, strong support\n- **Ideal if:** You have specific workflow needs\n\n### **5. Neon CRM**\n- **Best for:** All-in-one solution seekers\n- **Pricing:** Starting ~$50/month\n- **Strengths:** Membership management, event registration, email marketing included\n- **Ideal if:** You want everything in one platform\n\n## Key Factors to Consider\n- **Budget** (typically $50-150/month for community nonprofits)\n- **Database size** (number of contacts)\n- **Required integrations** (QuickBooks, Mailchimp, etc.)\n- **Staff technical comfort level**\n\nWhat's your approximate budget and contact database size?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 440,
+  "estimated_cost_usd": 0.006648,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

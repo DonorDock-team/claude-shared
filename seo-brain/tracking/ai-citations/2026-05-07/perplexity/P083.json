@@ -1,0 +1,40 @@
+{
+  "prompt_id": "P083",
+  "prompt_text": "Best donor CRM for museums",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550428+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Museums in 2026\n\nBased on recent analyses from nonprofit tech guides, museum-specific reviews, and industry discussions (e.g., DonorDock, Urban Insight, AAM Community), here are the **best donor-focused CRMs for museums**. These platforms excel in donor tracking, fundraising, membership management, and integrating with ticketing/events\u2014key for cultural institutions. I've prioritized those repeatedly highlighted for museums/arts orgs, with pros, cons, and best-fit scenarios.\n\n#### 1. **Tessitura CRM** (Top Pick for Museums)\n   - **Why it stands out**: Consistently ranked #1 for museums and cultural arts (Urban Insight). Provides a unified view of donors, visitors, members, and ticket buyers. Excels in donor histories, propensity-to-give scoring, and seamless fundraising pipelines.\n   - **Key features**: 360\u00b0 supporter profiles, event/donation tracking, email automation, reporting.\n   - **Best for**: Mid-to-large museums with ticketing needs (e.g., attendance-linked donations).\n   - **Pricing**: Custom (starts ~$10K/year for mid-sized orgs).\n   - **Drawbacks**: Steeper learning curve; higher cost.\n   - **Evidence**: [Urban Insight review](https://www.urbaninsight.com/article/best-crm-for-museums) calls it \"the best option for museums.\"\n\n#### 2. **Blackbaud Altru**\n   - **Why it stands out**: Museum-tailored CRM/ticketing hybrid with strong donor management. Tracks attendance, memberships, and donations in one dashboard (STQRY).\n   - **Key features**: Supporter 360\u00b0 views, recurring gifts, pledge tracking, integrations with payment processors.\n   - **Best for**: Visitor-heavy museums needing donation + ticketing integration.\n   - **Pricing**: Subscription-based (~$5K\u2013$20K/year).\n   - **Drawbacks**: Less flexible for non-museum nonprofits.\n   - **Evidence**: [STQRY's 2026 guide](https://www.stqry.com/blog/museum-software) praises its supporter tracking.\n\n#### 3. **Neon CRM** (or Neon One)\n   - **Why it stands out**: Built for membership-driven orgs like museums/arts groups. Superior donor searches, histories, and online forms (Insightly, DonorDock).\n   - **Key features**: Donor segmentation, event fundraising, volunteer tracking, mobile app.\n   - **Best for**: Small-to-mid museums with volunteer/membership focus.\n   - **Pricing**: Starts at $99/month (scales with contacts).\n   - **Drawbacks**: Limited advanced analytics without add-ons.\n   - **Evidence**: [Insightly's top nonprofits list](https://www.insightly.com/blog/best-crm-for-non-profits/) highlights it for museums.\n\n#### 4. **DONOR VIEW**\n   - **Why it stands out**: Excels in donor tracking/searches for cultural heritage orgs (AAM Community). Ideal for free/admission-free museums.\n   - **Key features**: Advanced donor histories, custom reporting, online library/museum integrations.\n   - **Best for**: Small-mid cultural heritage sites (e.g., online libraries/museums).\n   - **Pricing**: Affordable for mid-sized (~$2K\u2013$5K/year).\n   - **Drawbacks**: Less emphasis on ticketing.\n   - **Evidence**: [AAM discussion](https://community.aam-us.org/discussion/whats-the-perfect-crm-for-a-mid-sized-cultural-heritage-organization) recommends it as \"spectacular.\"\n\n#### 5. **Spektrix** (Strong Arts Alternative)\n   - **Why it stands out**: Arts fundraising specialist linking ticketing to donor pipelines (Spektrix site).\n   - **Key features**: Propensity-to-donate modeling, supporter journeys, CRM-fundraising sync.\n   - **Best for**: Performing arts museums or donor conversion-focused orgs.\n   - **Pricing**: Custom (arts-oriented bundles).\n   - **Drawbacks**: More UK/EU-focused, pricier for small orgs.\n   - **Evidence**: [Spektrix overview](https://www.spektrix.com/en-us/arts-fundraising-software).\n\n#### Quick Comparison Table\n\n| CRM          | Best For                  | Donor Tracking Strength | Pricing (Starting) | Ticketing Integration |\n|--------------|---------------------------|--------------------------|--------------------|-----------------------|\n| **Tessitura** | Large museums            | Excellent (360\u00b0 views)  | $10K+/year        | Native               |\n| **Blackbaud Altru** | Visitor/donation hybrids | Excellent               | $5K+/year         | Native               |\n| **Neon CRM** | Membership/volunteers    | Very Good               | $99/month         | Add-on               |\n| **DONOR VIEW** | Heritage/free museums   | Excellent (searches)    | $2K+/year         | Limited              |\n| **Spektrix** | Arts fundraising         | Very Good (propensity)  | Custom            | Native               |\n\n#### Recommendations\n- **Start here if mid-sized museum**: Tessitura or Blackbaud Altru for comprehensive donor + operations.\n- **Budget/small org**: Neon CRM or DONOR VIEW.\n- **Next steps**: Demo 2\u20133 via free trials (most offer them). Check integrations with your tools (e.g., QuickBooks, Mailchimp). For 2026, prioritize AI-driven donor insights (e.g., giving predictions in Tessitura).\n\nSources: Aggregated from DonorDock, STQRY, AAM, Insightly (all 2026-updated). Results emphasize museum-specific use cases over generic nonprofit CRMs like Salesforce/HubSpot.",
+  "donordock_mentioned": true,
+  "donordock_position": 150,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [
+    "https://www.stqry.com/blog/museum-software",
+    "https://www.insightly.com/blog/best-crm-for-non-profits/",
+    "https://community.aam-us.org/discussion/whats-the-perfect-crm-for-a-mid-sized-cultural-heritage-organization",
+    "https://www.spektrix.com/en-us/arts-fundraising-software",
+    "https://www.urbaninsight.com/article/best-crm-for-museums"
+  ],
+  "input_tokens": 6,
+  "output_tokens": 1214,
+  "estimated_cost_usd": 0.023228,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://www.urbaninsight.com/article/best-crm-for-museums",
+      "https://community.aam-us.org/discussion/whats-the-perfect-crm-for-a-mid-sized-cultural-heritage-organization",
+      "https://doublethedonation.com/top-museum-software/",
+      "https://www.stqry.com/blog/museum-software",
+      "https://www.spektrix.com/en-us/arts-fundraising-software",
+      "https://nonprofittechshop.com/museumhub-blog/why-settle-for-a-crm-that-doesnt-know-museums",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://cuseum.com/blog/tips-for-choosing-a-crm-for-your-museum"
+    ]
+  }
+}

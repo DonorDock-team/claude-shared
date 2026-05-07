@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P011",
+  "prompt_text": "DonorDock vs Salesforce Nonprofit Cloud",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550437+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When evaluating DonorDock vs. Salesforce Nonprofit Cloud, you're essentially looking at two very different philosophies and target markets for nonprofit software.\n\nHere's a breakdown to help you decide:\n\n---\n\n## Salesforce Nonprofit Cloud (NPC)\n\nSalesforce Nonprofit Cloud is a comprehensive, highly customizable platform built on top of the world's leading CRM. It's designed to manage virtually all aspects of a nonprofit's operations, from fundraising and program management to marketing, grants, and volunteers. The core of NPC is the **Nonprofit Success Pack (NPSP)**, which customizes the standard Salesforce platform for common nonprofit data models (households, donations, recurring gifts, etc.).\n\n**Key Features:**\n\n*   **Comprehensive Donor & Constituent Management:** Tracks donors, prospects, volunteers, staff, board members, and their relationships.\n*   **Fundraising & Development:** Manage campaigns, appeals, pledges, recurring gifts, grants, major gifts, and planned giving.\n*   **Program Management:** Track program participants, services delivered, and outcomes (often requires additional configuration or add-ons).\n*   **Grant Management:** Track grant applications, awards, reporting, and disbursements (often requires additional configuration or add-ons).\n*   **Volunteer Management:** Recruit, schedule, and track volunteers (often requires additional configuration or add-ons).\n*   **Marketing & Engagement:** Integrates with Salesforce Marketing Cloud (Pardot/Account Engagement) or other marketing automation tools for sophisticated segmentation and communication.\n*   **Powerful Reporting & Analytics:** Robust dashboards and reporting tools for deep insights.\n*   **Automation:** Workflow automation to streamline processes.\n*   **AppExchange:** A vast marketplace of pre-built apps and integrations.\n\n**Pros:**\n\n*   **Unrivaled Scalability:** Can grow with organizations of any size and complexity, from small to global enterprises.\n*   **Extreme Customization:** Highly configurable to meet unique organizational needs, data models, and workflows.\n*   **Comprehensive Functionality:** Can manage almost every aspect of a nonprofit's operations on a single platform.\n*   **Vast Ecosystem:** Access to a huge network of partners, consultants, developers, and an AppExchange with thousands of integrations.\n*   **Powerful Reporting & Analytics:** Offers sophisticated data analysis capabilities.\n*   **Integration Powerhouse:** Integrates with almost any other system via APIs.\n\n**Cons:**\n\n*   **Complexity & Steep Learning Curve:** Requires significant training and often dedicated administrators to manage effectively.\n*   **High Total Cost of Ownership (TCO):** While Salesforce often provides 10 free licenses, implementation costs (consultants, customization), ongoing administration, and",
+  "donordock_mentioned": true,
+  "donordock_position": 16,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 556,
+  "estimated_cost_usd": 0.001392,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

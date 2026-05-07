@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P110",
+  "prompt_text": "How to segment your donor list",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550955+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### How to Segment Your Donor List: A Step-by-Step Guide\n\nDonor segmentation involves dividing your supporters into groups based on shared traits like giving history, demographics, or engagement levels. This allows for personalized outreach, boosting retention, engagement, and fundraising ROI. Nonprofits using tools like CRMs (e.g., Givebutter, Blackbaud) can automate much of this. Below is a proven 5-step process, synthesized from expert sources.\n\n#### 1. **Gather and Organize Donor Data**\n   - **Collect data** from surveys, signup forms, event registrations, emails, and donation histories.\n   - **Centralize it** in a donor management CRM to create unified profiles.\n   - **Clean it up**: Remove duplicates, update contacts, and verify records for accuracy.\n   - *Why it matters*: A clean database (e.g., with fields for age, location, gift amount) is the foundation\u2014without it, segments are unreliable (Givebutter, Bonterra).\n\n#### 2. **Set Segmentation Goals Based on Priorities**\n   - Focus on 1-2 key objectives first, like reactivating lapsed donors, boosting event attendance, or year-end appeals.\n   - Examples:\n     | Goal                  | Target Segments                  |\n     |-----------------------|----------------------------------|\n     | Reactivate lapsed    | Donors inactive >12 months      |\n     | Increase events      | Past attendees or major donors  |\n     | Year-end appeal      | Past holiday givers or non-givers this year |\n   - *Tip*: Align with your strategy\u2014e.g., use RFM (Recency, Frequency, Monetary value) for quick prioritization (Dataro).\n\n#### 3. **Create Your Segments**\n   - Group donors using filters in your CRM. Common categories include:\n     | Segmentation Type     | Examples                                                                 |\n     |-----------------------|--------------------------------------------------------------------------|\n     | **Demographics**     | Age (e.g., Gen Z, retirees), gender, location, career, income (Evertrue, GoodUnited). |\n     | **Giving Behavior**  | Frequency (monthly, annual, lapsed); Amount tiers ($1-99, $100-499, $500+); RFM scores (e.g., \"Best Donors\": high R/F/M) (Blackbaud, Dataro). |\n     | **Engagement**       | Event attendees, volunteers, email openers; Affinity (e.g., wetland conservation supporters) (Kindsight). |\n     | **Campaign-Specific**| Givers to GivingTuesday vs. disaster relief (GoodUnited).                |\n   - *Pro tip*: Start simple (e.g., first-time vs. loyal), then refine with multi-lens data like interests + giving history. Save custom filters for reuse.\n\n#### 4. **Personalize Outreach and Test**\n   - Tailor messages: Send impact reports to campaign donors, major gift asks to high-capacity segments, or low-barrier recurring asks to young donors.\n   - Use stewardship plans, e.g., automated shifts (first-time \u2192 recurring) or timed appeals (annual givers at their usual donation month).\n   - *Examples*:\n     - Monthly givers: Reinforce ongoing impact.\n     - Lapsed high-value: \"We miss you\" with personalized wins.\n\n#### 5. **Refine and Measure Over Time**\n   - Track metrics like open rates, response rates, and retention.\n   - Update segments quarterly (e.g., re-score RFM) and iterate based on results.\n   - *Advanced*: Use engagement scoring software to quantify involvement (Bonterra).\n\n#### Quick Wins and Tools\n- **RFM Example** (Dataro):\n  | Segment              | RFM Profile       | Strategy                     |\n  |----------------------|-------------------|------------------------------|\n  | Best Donors         | 5-5-5            | VIP stewardship             |\n  | New High-Value      | 5-1-5            | Nurture for loyalty         |\n  | Lapsed High-Value   | 1-5-5            | Win-back campaign           |\n\nImplementing this can increase donor lifetime value by tailoring asks\u2014e.g., no $50 appeals to major donors (Blackbaud). Start with your CRM's filters today for immediate impact. For more, check Givebutter's cheat sheet or Dataro's RFM guide.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bonterra",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 911,
+  "estimated_cost_usd": 0.018686,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://givebutter.com/blog/donor-segmentation",
+      "https://www.bonterratech.com/blog/donor-segmentation",
+      "https://www.goodunited.io/blog/donor-database-segmentation-examples",
+      "https://www.evertrue.com/donor-segmentation/",
+      "https://dataro.io/blog/donor-segmentation-understanding-the-rfm-approach",
+      "https://kindsight.io/resources/blog/donor-segmentation-guide/",
+      "https://www.blackbaud.com/industry-insights/glossary/donor-segmentation",
+      "https://connections.aprahome.org/Articles/4-ways-to-prioritize-and-segment-your-nonprofit-donor-database"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P144",
+  "prompt_text": "How to choose nonprofit fundraising software",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550819+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Choose Nonprofit Fundraising Software\n\nSelecting the right fundraising software is crucial for your nonprofit's success. Here's a practical guide:\n\n## 1. **Assess Your Needs**\n- Size of your donor base\n- Types of fundraising (events, online, peer-to-peer, recurring)\n- Integration requirements (email, accounting, CRM)\n- Reporting and analytics needs\n- Staff technical expertise\n\n## 2. **Key Features to Consider**\n\n**Essential:**\n- Online donation processing\n- Donor database management\n- Receipt generation and tax documentation\n- Basic reporting\n- Mobile responsiveness\n\n**Advanced:**\n- Peer-to-peer fundraising\n- Event management\n- Recurring donation management\n- Email marketing integration\n- Custom donation forms\n- Wealth screening tools\n\n## 3. **Evaluate Cost Structure**\n- Monthly/annual subscription fees\n- Transaction/processing fees (typically 2-3%)\n- Setup and training costs\n- Cost per additional users\n- Hidden fees for support or features\n\n## 4. **Important Questions to Ask**\n- How easy is it to customize?\n- What's included in customer support?\n- How is donor data secured?\n- Can you export your data?\n- What integrations are available?\n- Is there a contract commitment?\n\n## 5. **Popular Options by Organization Size**\n\n**Small nonprofits:** Donorbox, GiveWP, PayPal Giving\n**Mid-size:** Bloomerang, Little Green Light, Kindful\n**Large organizations:** Blackbaud, Salesforce Nonprofit Cloud\n\n## 6. **Take Action**\n1. Request demos from 3-4 platforms\n2. Involve key staff in testing\n3. Check references from similar nonprofits\n4. Start with a trial period if available\n\nWhat's your organization's primary fundraising challenge?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 420,
+  "estimated_cost_usd": 0.006342,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550260+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a hospital is a significant decision that depends heavily on the hospital's specific size, complexity, budget, existing tech stack, and fundraising goals. However, certain CRMs stand out due to their scalability, robust features, integration capabilities, and track record with large, complex organizations like hospitals.\n\nHere are the top contenders, along with key features and considerations for hospitals:\n\n---\n\n### Top Donor CRMs for Hospitals\n\n1.  **Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack / Salesforce for Nonprofits)**\n    *   **Why it's great for Hospitals:**\n        *   **Scalability:** Unmatched scalability, capable of handling vast donor bases, complex campaigns (grateful patient programs, capital campaigns, planned giving), and intricate relationship management.\n        *   **Customization:** Highly customizable to fit unique hospital fundraising processes, reporting needs, and integration requirements.\n        *   **Ecosystem (AppExchange):** A massive marketplace of integrated apps for wealth screening, marketing automation, event management, accounting, and more, making it incredibly flexible.\n        *   **Integration Prowess:** Excellent for integrating with existing hospital systems (e.g., EMR/EHR for grateful patient identification *via middleware, not direct PHI storage in CRM*), finance systems (ERP), and other enterprise applications. Many partners specialize in healthcare integrations.\n        *   **Reporting & Analytics:** Powerful, flexible reporting and dashboard capabilities to track KPIs, donor segments, campaign performance, and demonstrate ROI to boards and leadership.\n        *   **Security:** Enterprise-grade security protocols.\n    *   **Considerations:**\n        *   **Complexity:** Can be complex to set up and requires significant expertise, often necessitating the hiring of specialized consultants for implementation and ongoing customization.\n        *   **Cost:** While Salesforce offers discounted licenses for nonprofits, the total cost of ownership (TCO) can be high due to implementation, customization, and app expenses.\n\n2.  **Blackbaud (Raiser's Edge NXT & Luminate CRM)**\n    *   **Why it's great for Hospitals:**\n        *   **Fundraising Specialization:** Blackbaud is solely focused on the nonprofit sector and has a deep understanding of fundraising best practices, including those specific to healthcare.\n        *   **Raiser's Edge NXT (RENXT):** One of the most widely used fundraising CRMs, known for its robust features for major gifts, planned giving, grant management, and moves management. It's particularly strong for organizations with established fundraising programs.\n        *   **Luminate CRM (",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 543,
+  "estimated_cost_usd": 0.001359,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

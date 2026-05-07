@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550508+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Salesforce Nonprofit Cloud is a comprehensive solution, so finding a truly \"free\" alternative that offers *all* the same functionalities (CRM, fundraising, program management, volunteer management, marketing automation, reporting) will be challenging.\n\nHowever, there are excellent free and open-source tools, or platforms with generous free tiers, that can cover many of these needs, often requiring a hybrid approach.\n\nHere are the best free alternatives, broken down by category:\n\n---\n\n### **A. Best Overall \"Free\" (Open Source) Alternative**\n\n1.  **CiviCRM**\n    *   **What it is:** A powerful, open-source Constituent Relationship Management (CRM) system designed specifically for non-profits, associations, and advocacy groups.\n    *   **Key Features:**\n        *   **Constituent Management:** Tracks donors, members, volunteers, clients, staff.\n        *   **Fundraising:** Donation processing, peer-to-peer, recurring donations, pledges, grant tracking.\n        *   **Event Management:** Online registration, ticketing, participant tracking.\n        *   **Membership Management:** Automated renewals, member portals.\n        *   **Case Management:** Track services provided to clients.\n        *   **Volunteer Management:** Recruitment, scheduling, tracking.\n        *",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 269,
+  "estimated_cost_usd": 0.000674,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.551081+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking soft credits in a donor CRM is crucial for understanding the full scope of a donor's influence and engagement, even if they aren't the legal source of the funds. It allows you to recognize and steward the right people.\n\nHere's a breakdown of how CRMs typically handle soft credits and best practices for tracking them:\n\n## What are Soft Credits?\n\nA soft credit is a way to attribute a gift to a donor who didn't directly make the contribution, but whose influence, recommendation, or affiliation led to the donation. The primary donor (the legal entity writing the check) receives the tax receipt, but the soft credit recipient is recognized for their role.\n\n**Common Examples:**\n\n*   **Donor-Advised Funds (DAFs):** The DAF (e.g., Fidelity Charitable, Schwab Charitable) is the primary donor, but the individual who recommended the grant receives a soft credit.\n*   **Family Foundations:** The foundation is the primary donor, but the family members who direct its giving receive soft credits.\n*   **Matching Gifts:** The employer is the primary donor, but the employee whose gift was matched receives a soft credit for the matched amount.\n*   **Tribute Gifts:** A gift made \"in honor of\" or \"in memory of\" someone. The person honored/memorialized receives a soft credit, and often the family of the memorialized person.\n*   **Board Member Influence:** A board member solicits a gift from a corporation they work for, or an individual they know. The board member receives a soft credit for that gift.\n\n## Why Track Soft Credits?\n\n1.  **Accurate Donor Engagement:** Provides a complete picture of a donor's relationship and influence with your organization. A donor who directs $100,000 from their DAF is a $100,000 donor, even if their personal checks are small.\n2.  **Major Gift Prospecting:** Identifies high-capacity donors and influencers who may be prospects for future major gifts or leadership roles.\n3.  **Proper Stewardship & Recognition:** Ensures you thank and cultivate the right individuals, beyond just the legal donor.\n4.  **Reporting & Analytics:** Allows for more nuanced reporting on donor lifetime value, campaign success, and the effectiveness of board and volunteer engagement.\n5.  **Campaign Progress:** Helps attribute gift credit towards campaign goals for specific individuals or committees.\n6.  **Relationship Management:** Helps fundraisers understand the full impact of their portfolio donors.\n\n## How CRMs Typically Handle Soft Credits\n\nMost modern donor CRMs (e.g., Salesforce NPSP, Blackbaud Raiser's Edge NXT, Bloomerang, DonorPerfect, Little Green Light) have dedicated functionality for soft credits. While the exact terminology may vary, the core mechanism is similar:\n\n1.  **The Primary Gift Record:**\n    *   When a gift comes in, you create a **Gift/Donation record** (often called an \"Opportunity\" in Salesforce).\n    *   This record is primarily linked to the **Legal Donor** (e.g., \"Fidelity Charitable,\" \"Acme Corporation",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 655,
+  "estimated_cost_usd": 0.00164,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P015",
+  "prompt_text": "Alternative to Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550680+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a popular CRM for nonprofits, known for its ease of use, donor retention focus, and intuitive interface. However, it might not be the perfect fit for every organization due to pricing, specific feature needs, integration requirements, or scalability.\n\nHere's a breakdown of excellent alternatives, categorized to help you find the best match:\n\n---\n\n### I. Direct Competitors (Dedicated Nonprofit CRMs)\n\nThese platforms offer similar core functionalities to Bloomerang, often targeting small to mid-sized nonprofits, but with different feature sets, philosophies, or pricing models.\n\n1.  **Neon CRM (by Neon One)**\n    *   **Strengths:** Comprehensive suite including donor management, fundraising, events, memberships, and website integration. Strong analytics and reporting. Good for organizations wanting an all-in-one solution.\n    *   **Best for:** Growing nonprofits, membership organizations, those needing integrated event management.\n    *   **Differentiator:** Often seen as more robust for membership and event management out-of-the-box compared to Bloomerang's focus on donor retention.\n\n2.  **DonorPerfect**\n    *   **Strengths:** Long-standing and very established. Offers robust donor management, fundraising tools, reporting, and integrations. Strong focus on direct mail and traditional fundraising methods.\n    *   **Best for:** Mid-sized to larger nonprofits, organizations with established fundraising programs, those needing strong integration with payment processors.\n    *   **Differentiator:** More mature and feature-rich in some areas, potentially steeper learning curve than Bloomerang but offers deep customization.\n\n3.  **Little Green Light (LGL)**\n    *   **Strengths:** Highly affordable, intuitive, and user-friendly. Great for small to mid-sized nonprofits that need solid donor management without a lot of frills. Excellent customer support.\n    *   **Best for:** Small nonprofits, organizations on a budget, those prioritizing simplicity and good support.\n    *   **Differentiator:** More budget-friendly than Bloomerang, often praised for its simplicity and directness.\n\n4.  **Virtuous**\n    *   **Strengths:** Modern, visually appealing interface. Focus on \"responsive fundraising,\" intelligent automation, and personalized donor journeys. Strong for marketing automation and wealth screening.\n    *   **Best for:** Mid-sized to larger nonprofits looking for advanced automation, personalization, and a modern UX.\n    *   **Differentiator:** More advanced marketing automation and AI-driven insights than Bloomerang, with a focus on holistic donor engagement.\n\n5.  **Bonterra (formerly Kindful)**\n    *   **Strengths:** Excellent for online fundraising, peer-to-peer campaigns, and integrating with other tools. Good reporting and easy-to-use interface.\n    *   **Best for:** Nonprofits heavily reliant on online fundraising and wanting robust integrations with other platforms.\n    *   **Differentiator:** Stronger focus on online fundraising tools and integrations, particularly beneficial for digital-first strategies.\n\n6.  **Blackbaud Products (eTapestry, Raiser's Edge NXT)**\n    *   **eTapestry:**\n        *   **Strengths:** Cloud-based, good for smaller to mid-sized organizations within the Blackbaud ecosystem. Decent donor management and reporting.\n        *   **Best for:** Organizations wanting a stepping stone into the Blackbaud world or those needing a simpler Blackbaud solution.\n        *   **Differentiator:** Part of the larger Blackbaud suite, but often considered less intuitive than Bloomerang.\n    *   **Raiser's Edge NXT:**\n        *   **Strengths:** Enterprise-level solution, extremely powerful and comprehensive for large, complex organizations with significant fundraising operations.\n        *   **Best for:** Large nonprofits, universities, hospitals, and organizations with complex data and reporting needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One",
+    "Raiser's Edge",
+    "Virtuous",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 813,
+  "estimated_cost_usd": 0.002034,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

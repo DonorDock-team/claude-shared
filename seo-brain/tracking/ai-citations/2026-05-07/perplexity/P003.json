@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P003",
+  "prompt_text": "DonorDock reviews",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550482+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock Reviews Summary\n\nBased on current user reviews, here's what nonprofits are saying about DonorDock:\n\n## **Strengths**\n\n**Ease of Use**\n- Consistently praised as intuitive and user-friendly, even for non-technical teams\n- Simple navigation and straightforward setup\n\n**Customer Support**\n- Repeatedly highlighted as exceptional and responsive\n- Users report fast, patient, and genuinely helpful support team\n- Described as \"life changing\" and \"unmatched\" by multiple reviewers\n\n**Core Features**\n- Effective donor tracking and management in one centralized location\n- Action Board for timely stewardship reminders\n- Otto (AI tool) for personalized donor engagement\n- Email blast capabilities\n- Automated receipts, year-end statements, and follow-up task assignments\n- Customizable, easy-to-use reporting\n\n**Value**\n- Cost-effective alternative to competitors (starting at $89/month)\n- Focuses on essential features that users actually need rather than unnecessary complexity\n\n## **Limitations**\n\n- **Missing Advanced Features**: Lacks volunteer management, ticket sales, and event auction capabilities\n- **Data Cleanup Challenges**: Users report difficulties with household setup and duplicate management, especially when integrating with platforms like Stripe or GiveButter\n- **Onboarding Support**: Some new users find help documentation could be more accessible\n\n## **Overall Rating**\n- **G2**: 151+ reviews with strong ratings\n- **TrustRadius**: Starting at $89/month\n- Generally recommended for **small to mid-sized nonprofits** seeking an affordable, user-friendly donor management solution",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 315,
+  "estimated_cost_usd": 0.00974,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.g2.com/products/donordock/reviews?qs=pros-and-cons",
+      "https://www.g2.com/products/donordock/reviews",
+      "https://www.capterra.com/p/184187/DonorDock/",
+      "https://www.donordock.com/compare/givebutter-vs-donordock",
+      "https://www.trustradius.com/products/donordock/reviews",
+      "https://www.donordock.com/compare/neon-crm-vs-donordock",
+      "https://www.softwareadvice.com/nonprofit/donordock-profile/",
+      "https://www.featuredcustomers.com/vendor/donordock/testimonials",
+      "https://www.glassdoor.com/Reviews/DonorDock-Reviews-E3971640.htm"
+    ]
+  }
+}

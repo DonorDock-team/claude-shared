@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P064",
+  "prompt_text": "Donor CRM with email marketing built in",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550259+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "You're looking for a powerful combination that many nonprofits need: a system that not only manages your donor data but also allows you to communicate with them effectively through email, all from one platform.\n\nThis integration is crucial because it allows for:\n*   **Highly segmented and personalized communication** based on giving history, interests, event attendance, etc.\n*   **Automated donor journeys** (e.g., welcome series for new donors, re-engagement for lapsed donors).\n*   **Tracking email engagement** directly within donor profiles.\n*   **Streamlined workflows** for fundraising campaigns.\n\nHere's a breakdown of key features to look for and popular CRM options that offer robust built-in email marketing:\n\n---\n\n### Key Features of a Donor CRM with Built-in Email Marketing:\n\n1.  **Core CRM Capabilities:**\n    *   **Donor Profiles:** Comprehensive records for individuals and households (contact info, relationships, communication history, notes, custom fields).\n    *   **Donation Tracking:** Record all gifts, pledges, recurring donations, soft credits.\n    *   **Campaign & Fund Management:** Track donations against specific campaigns, appeals, and funds.\n    *   **Gift Acknowledgments:** Automated or templated thank-you letters/emails and tax receipts.\n    *   **Reporting & Analytics:** Standard and custom reports on fundraising performance, donor retention, acquisition, etc.\n    *   **Pledge Management:** Track pledge installments and send reminders.\n    *   **Event Management (often integrated):** Manage event registrations, ticketing, and attendee communication.\n    *   **Volunteer Management (sometimes integrated):** Track volunteer hours and roles.\n\n2.  **Robust Built-in Email Marketing Features:**\n    *   **Audience Segmentation:** Crucially, segment your email lists based on *any data point in your CRM* (e.g., donors who gave to a specific campaign, last gift amount, first-time donors, recurring donors, event attendees, volunteers, geographical location).\n    *   **Email Builder:** Intuitive drag-and-drop editor for creating beautiful, mobile-responsive emails.\n    *   **Email Templates:** Pre-designed templates for newsletters, appeals, thank-yous, event invitations, etc.\n    *   **Personalization:** Dynamically insert donor-specific data (name, last gift amount, preferred pronouns) into email content and subject lines.\n    *   **Automation & Workflows:** Set up automated email sequences based on triggers (e.g., welcome series for new donors, birthday greetings, lapsed donor re-engagement, thank-you follow-ups).\n    *   **A/B Testing:** Test different subject lines, content, or calls to action to optimize engagement.\n    *   **Email Analytics:** Track open rates, click-through rates, bounces, unsubscribes, and view this data at both the campaign level and individual donor profile level.\n    *   **Communication History:** Every email sent to a donor (and their engagement with it) should be logged on their individual CRM profile.\n    *   **Forms & Landing Pages:** Create branded donation forms, event registration forms, and newsletter sign-up",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 665,
+  "estimated_cost_usd": 0.001665,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

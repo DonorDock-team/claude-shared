@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P056",
+  "prompt_text": "Best donor CRM to consolidate multiple fundraising tools",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550922+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Consolidation\n\n## Top All-in-One Solutions\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-size nonprofits wanting simplicity\n- **Consolidates:** Donor management, email marketing, online giving, wealth screening, reporting\n- **Strengths:** Excellent donor retention focus, intuitive interface, strong support\n- **Price:** ~$125-$500+/month\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Large organizations needing customization\n- **Consolidates:** Donor data, grant management, program tracking, marketing automation, volunteer management\n- **Strengths:** Highly customizable, robust integrations, scales infinitely\n- **Price:** 10 free licenses, then ~$36+/user/month (discounted for nonprofits)\n\n### **3. Kindful (by Bloomerang)**\n- **Best for:** Mid-size organizations with complex needs\n- **Consolidates:** Donation tracking, online forms, email campaigns, event management, integrations\n- **Strengths:** Strong API, good automation, flexible reporting\n- **Price:** ~$100-$400+/month\n\n### **4. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established organizations with major gift programs\n- **Consolidates:** Comprehensive fundraising suite including peer-to-peer, events, email, analytics\n- **Strengths:** Industry standard, powerful reporting, enterprise features\n- **Price:** Custom pricing (typically higher investment)\n\n## Quick Comparison\n\n| CRM | Ease of Use | Consolidation Power | Best Size | Implementation Time |\n|-----|-------------|---------------------|-----------|---------------------|\n| Bloomerang | \u2b50\u2b50\u2b50\u2b50\u2b50 | \u2b50\u2b50\u2b50\u2b50 | Small-Mid | Days |\n| Salesforce | \u2b50\u2b50\u2b50 | \u2b50\u2b50\u2b50\u2b50\u2b50 | Mid-Large | Weeks-Months |\n| Kindful | \u2b50\u2b50\u2b50\u2b50 | \u2b50\u2b50\u2b50\u2b50 | Mid | 1-2 weeks |\n| Raiser's Edge | \u2b50\u2b50\u2b50 | \u2b50\u2b50\u2b50\u2b50\u2b50 | Large | Months |\n\n## Key Questions to Ask\n\n1. **What tools are you currently using?** (payment processors, email platforms, event software)\n2. **What's your annual fundraising revenue?** (determines appropriate tier)\n3. **How technical is your team?** (affects implementation difficulty)\n4. **Do you need grant management?** (not all CRMs include this)\n\n**Quick recommendation:** For most organizations consolidating tools, **Bloomerang** offers the best balance of features, ease of use, and value.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 691,
+  "estimated_cost_usd": 0.010419,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

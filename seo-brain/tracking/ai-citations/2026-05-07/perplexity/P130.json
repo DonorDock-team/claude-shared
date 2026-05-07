@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P130",
+  "prompt_text": "DonorPerfect downsides",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.551069+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Key Downsides of DonorPerfect\n\nDonorPerfect is a robust nonprofit CRM praised for its depth, but user reviews across G2, Capterra, Trustpilot, and others (from 2025-2026) consistently highlight usability, cost, and fit issues. Here's a synthesized breakdown of the most common complaints, backed by direct evidence:\n\n#### 1. **Steep Learning Curve and Complexity**\n   - Comprehensive features overwhelm non-technical staff, volunteers, and small teams without IT support.\n   - **Evidence**: \"Comprehensive systems often come with a learning curve... navigating the full feature set... can feel overwhelming\" ([1]). \"There is a lot to learn... feels a bit overwhelming at first\" (Corrie M., Capterra [2]). \"DP learning curve is steep\" (Capterra [4]). After 4 years, users still struggle with reports ([3]).\n   - **Impact**: Leads to underutilization, workarounds, and poor ROI for grassroots or volunteer-run orgs.\n\n#### 2. **Outdated, Clunky Interface**\n   - Traditional design feels cumbersome compared to modern apps; not intuitive for daily tasks like data entry or multi-window use.\n   - **Evidence**: \"A More Traditional Interface... daily tasks feel cumbersome\" ([1]). \"Batch gift entry screen is hard-coded to only show 10 rows\" ([2]). \"Outdated, clunky, not intuitive... dashboard is unhelpful\" (Capterra [4]). \"Too many places to enter data... entered inconsistently\" ([3]).\n   - **Impact**: Friction in repetitive workflows compounds for small teams.\n\n#### 3. **Reporting and Customization Challenges**\n   - Powerful reports are hard to build/customize; limited flexibility in receipts, emails, and forms (e.g., no conditional logic).\n   - **Evidence**: \"Reporting... tricky to customize... takes time and practice\" (Lisa H., Capterra [2]). \"Reports are difficult to set up quickly... confusing to have to set up templates\" (Capterra [4]). \"Receipting feature isn't as customizable... workaround needed\" (Elizabeth O., Capterra [2]). Weak drag-and-drop forms require separate reports ([5]).\n   - **Impact**: Adds mental load; households/couples hard to link for combined giving ([3], [4]).\n\n#### 4. **Tiered Pricing Too High for Small Nonprofits**\n   - Costs scale with features, but small orgs pay for unused tools; includes processing fees even if not fully utilized.\n   - **Evidence**: \"Tiered pricing... climbs as your needs grow... justifies the ongoing cost?\" ([1]). \"Small nonprofit... does not use the majority of features \u2014 streamlined version... lower cost\" (Matt D., G2 [2]). \"Large cost for simpler things... price is through the roof\" (Capterra [4]).\n   - **Impact**: Not ideal for orgs under $250K revenue or basic needs ([2]).\n\n#### 5. **Inconsistent Support and Onboarding**\n   - Varies by tier/issue; weak initial setup help, billing/cancellation frustrations.\n   - **Evidence**: \"Support during initial implementation... extremely weak\" (Capterra [4]). Trustpilot 3.9/5 reflects issues with complex cases ([2]). Frequent verification email delays annoy daily users ([4]).\n   - **Impact**: Slows adoption for new users.\n\n#### Who It's Not For\nPer reviews ([2]): Volunteer-run orgs, new/small nonprofits (<$250K revenue), teams without CRM expertise, or those needing quick setup/basic campaigns. Many switch to simpler/free alternatives like Zeffy for better fit.\n\n**Overall Ratings Context**: Mixed\u2014strong on features (e.g., G2/Capterra ~4-4.5/5), but usability drags scores down. Large orgs with resources tolerate it; small ones don't. Check DonorPerfect's own reviews ([6]) for counterpoints, but independent sites show these pain points clearly.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 837,
+  "estimated_cost_usd": 0.017573,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://designbycosmic.com/guides/nonprofit-branding/donorperfect/",
+      "https://www.zeffy.com/blog/donorperfect-reviews",
+      "https://www.g2.com/products/donorperfect/reviews?qs=pros-and-cons",
+      "https://www.capterra.com/p/2698/DonorPerfect-Fundraising-Software/reviews/",
+      "https://www.softwareadvice.com/nonprofit/donorperfect-profile/reviews/",
+      "https://www.donorperfect.com/reviews-ratings/ratings/"
+    ]
+  }
+}

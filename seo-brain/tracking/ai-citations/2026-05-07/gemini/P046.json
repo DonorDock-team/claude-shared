@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P046",
+  "prompt_text": "Best donor CRM for arts and cultural nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550257+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For arts and cultural nonprofits, the \"best\" CRM isn't just about tracking donations; it's about managing patrons, members, ticket sales, events, volunteers, and grants, all while fostering a vibrant community. The ideal system often combines robust CRM capabilities with strong event and membership management features.\n\nHere are the top contenders, categorized by their strengths and ideal use cases:\n\n---\n\n## Top Donor CRMs for Arts & Cultural Nonprofits\n\n### 1. **PatronManager (Built on Salesforce)**\n*   **Best For:** Performing arts organizations (theaters, orchestras, dance companies, opera), museums, and other cultural institutions that rely heavily on ticketing, subscriptions, and membership.\n*   **Why it's Great:**\n    *   **Deep Integration:** Built directly on Salesforce's robust platform, meaning you get the power and flexibility of Salesforce NPSP for donor management, combined with specialized arts functionality.\n    *   **Comprehensive Ticketing:** Handles single tickets, subscriptions, membership packages, seat maps, timed entry, and group sales.\n    *   **Membership Management:** Tracks member tiers, benefits, renewals, and integrates with ticketing for member-exclusive access or discounts.\n    *   **Fundraising & Marketing:** Connects donor data with ticket buyer data for highly targeted fundraising appeals and marketing campaigns.\n    *   **Flexibility:** As a Salesforce product, it's highly customizable and can integrate with a vast ecosystem of third-party apps.\n*   **Considerations:** Can be more complex to set up and manage than simpler CRMs, and requires Salesforce expertise or dedicated staff/consultants. Pricing can be significant, especially with additional Salesforce licenses.\n\n### 2. **Tessitura**\n*   **Best For:** Large-scale performing arts organizations, major museums, and multi-venue cultural institutions with complex ticketing, fundraising, and marketing needs.\n*   **Why it's Great:**\n    *   **Industry Standard for Large Orgs:** Widely adopted by leading cultural institutions globally.\n    *   **Unified Platform:** Designed as an all-in-one solution for ticketing, fundraising, memberships, marketing, and analytics. It provides",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 453,
+  "estimated_cost_usd": 0.001135,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

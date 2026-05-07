@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P086",
+  "prompt_text": "Best donor CRM for homeless services",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550601+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When considering the best donor CRM (Customer Relationship Management) systems for homeless services, it's essential to evaluate based on features, ease of use, cost, and the specific needs of your organization. Here are some CRM options that are well-regarded in the nonprofit sector, particularly for organizations working with homeless services:\n\n1. **Salesforce Nonprofit Cloud**: Salesforce offers a highly customizable and robust set of tools tailored for nonprofit organizations, including those serving the homeless. Its Nonprofit Success Pack (NPSP) is designed to manage donation tracking, program management, and donor relationships effectively.\n\n2. **Bloomerang**: Known for its user-friendly interface and strong focus on donor retention, Bloomerang can be an excellent choice for smaller to mid-sized organizations. It provides tools for managing donor relationships and analyzing engagement.\n\n3. **Kindful**: Acquired by Bloomerang, Kindful offers seamless integration with other platforms and tools needed for streamlined operations. It emphasizes ease of use and provides strong donor management and reporting features.\n\n4. **Neon CRM**: This CRM is designed specifically for nonprofits and offers comprehensive features including fundraising, donor management, event management, and more. It is scalable for organizations of different sizes.\n\n5. **DonorPerfect**: A popular choice for many nonprofits, DonorPerfect offers comprehensive donor management features, including tools for pledges, gift management, and donor communication.\n\n6. **Little Green Light**: A cost-effective solution for small to medium-sized nonprofits, Little Green Light offers a range of features for donor tracking and fundraising management.\n\n7. **Network for Good**: This CRM is easy to use and integrates fundraising and donor management in one platform. It is particularly beneficial for smaller organizations looking for an all-in-one solution.\n\nWhen selecting a CRM, consider factors such as your organization's size, budget, specific needs (like reporting or integration with other tools), and the level of support you require. Many CRM providers offer demos or free trials, which can be valuable in assessing their suitability for your homeless services organization.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Network for Good",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 414,
+  "estimated_cost_usd": 0.004172,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P035",
+  "prompt_text": "Best all-in-one fundraising platform for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550796+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" all-in-one fundraising platform for your nonprofit really depends on your specific needs, budget, size, and technical capabilities. There's no single perfect solution, but several platforms stand out for their comprehensive offerings.\n\nAn \"all-in-one\" platform typically means it combines several key fundraising functions into a single system, often including:\n\n*   **Online Donation Forms:** Customizable, mobile-responsive forms.\n*   **Donor Management (CRM):** Tracking donor data, interactions, giving history, segmentation.\n*   **Peer-to-Peer Fundraising:** Tools for supporters to create their own fundraising pages.\n*   **Event Management:** Ticketing, registration, guest management for galas, walks, runs.\n*   **Auction Software:** Silent, live, and online auctions.\n*   **Text-to-Give/Text-to-Pledge:** Mobile giving options.\n*   **Email Marketing/Communication:** Sending appeals, thank yous, newsletters.\n*   **Reporting & Analytics:** Insights into campaign performance and donor trends.\n*   **Website Integration:** Easy embedding of forms and campaign pages.\n\nHere are some of the top contenders, categorized by their typical strengths and best fits:\n\n---\n\n### Top All-in-One Fundraising Platforms:\n\n1.  **Bloomerang (with Kindful Integration)**\n    *   **Strengths:** Excellent donor CRM focus, strong for donor retention and cultivation, user-friendly interface. Kindful (which Bloomerang acquired) adds robust fundraising features like peer-to-peer, events, and donation pages, making it a very strong all-in-one. Great customer support and educational resources.\n    *   **Best For:** Nonprofits prioritizing donor relationships, retention, and a comprehensive, modern CRM that integrates powerful fundraising tools. Mid-sized organizations, but scalable.\n    *   **Considerations:** While the integration is seamless, it's still two distinct product lines in some ways. Pricing scales with donor records.\n\n2.  **Classy**\n    *   **Strengths:** Industry leader for modern, sleek fundraising experiences, especially strong in peer-to-peer, events, and crowdfunding. Excellent user interface for both donors and administrators. Great reporting and insights. Integrates with many CRMs (like Salesforce).\n    *   **Best For:** Nonprofits focused on engaging campaigns, peer-to-peer fundraising, and large-scale virtual or in-person events. Mid-to-large organizations that value a premium, modern donor experience.\n    *   **Considerations:** Can be one of the more expensive options, especially for smaller organizations. While it has donor management, it's often paired with a dedicated CRM for deeper data management.\n\n3.  **Givebutter**\n    *   **Strengths:** Very user-friendly, comprehensive features (donation forms, events, P2P, auctions, text-to-donate), and a unique \"free\" pricing model (relying on optional donor tips and transaction fees, though standard processing fees apply). Great for live streaming events.\n    *   **Best For:** Smaller to mid-sized nonprofits, startups, or those with limited budgets looking for a full suite of modern tools without significant upfront costs. Very intuitive for volunteers",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Givebutter",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 682,
+  "estimated_cost_usd": 0.001708,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}
