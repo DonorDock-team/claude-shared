@@ -6,6 +6,7 @@
 <title>DonorDock SEO Brain — Dashboard</title>
 <link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin />
 <link rel="preconnect" href="https://api.github.com" crossorigin />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 <style>
   :root {
     --cream: #FFFCF5;
@@ -164,6 +165,25 @@
       <div class="card"><h3>Latest Run</h3><div class="stat" id="cite-date">—</div><div class="delta" id="cite-priority">—</div></div>
       <div class="card"><h3>Aggregate Citation Rate</h3><div class="stat" id="cite-rate">—</div><div class="delta" id="cite-rate-delta">—</div></div>
       <div class="card"><h3>Run Cost</h3><div class="stat" id="cite-cost">—</div><div class="delta" id="cite-cost-detail">—</div></div>
+    </div>
+
+    <div class="card" style="margin-bottom: 16px;">
+      <h3 style="margin-bottom: 4px;">Citation Rate Over Time</h3>
+      <div class="small" id="history-overall-meta" style="margin-bottom: 12px;">—</div>
+      <div style="height: 240px; position: relative;"><canvas id="chart-overall"></canvas></div>
+    </div>
+
+    <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
+      <div class="card">
+        <h3 style="margin-bottom: 4px;">Per-Engine Citation Rate Over Time</h3>
+        <div class="small" style="margin-bottom: 12px;">Each engine plotted weekly so you can see which AI surface is gaining or losing share.</div>
+        <div style="height: 260px; position: relative;"><canvas id="chart-engines"></canvas></div>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 4px;">Top Competitor Mentions Over Time</h3>
+        <div class="small" style="margin-bottom: 12px;">Top 5 competitors by cumulative mentions across all weekly runs.</div>
+        <div style="height: 260px; position: relative;"><canvas id="chart-competitors"></canvas></div>
+      </div>
     </div>
 
     <div class="card" style="margin-bottom: 16px;">
@@ -392,6 +412,32 @@ async function loadLatestCitations() {
   renderCitations();
 }
 
+async function loadCitationHistory() {
+  // List date directories under seo-brain/tracking/ai-citations/ via the GitHub Contents API,
+  // then fetch each _summary.json so we have a time series.
+  let dirs = [];
+  try {
+    const r = await fetch(`${API_BASE}/contents/seo-brain/tracking/ai-citations`);
+    if (r.ok) {
+      const items = await r.json();
+      dirs = items
+        .filter(x => x.type === 'dir' && /^\d{4}-\d{2}-\d{2}$/.test(x.name))
+        .map(x => x.name)
+        .sort();
+    }
+  } catch {}
+
+  const summaries = [];
+  for (const dateStr of dirs) {
+    try {
+      const data = await loadJson(`seo-brain/tracking/ai-citations/${dateStr}/_summary.json`);
+      summaries.push({ date: dateStr, ...data });
+    } catch {}
+  }
+  state.citationHistory = summaries;
+  renderCitationHistory();
+}
+
 async function loadPillarSnapshot() {
   // Try to fetch a pillar-snapshot.json maintained by backfill batches.
   // If it doesn't exist, fall back to a static snapshot.
@@ -443,13 +489,111 @@ async function loadOpportunities() {
 
 function refreshAll() {
   document.getElementById('last-updated').textContent = `Loading at ${new Date().toLocaleString()}…`;
-  Promise.all([loadPrompts(), loadLatestCitations(), loadPillarSnapshot(), loadOpportunities()])
+  Promise.all([loadPrompts(), loadLatestCitations(), loadCitationHistory(), loadPillarSnapshot(), loadOpportunities()])
     .then(() => {
       document.getElementById('last-updated').textContent = `Updated ${new Date().toLocaleString()}`;
     })
     .catch(err => {
       document.getElementById('last-updated').textContent = `Load error: ${err.message}`;
     });
+}
+
+// ============================================================================
+// Rendering — Citation History (line charts)
+// ============================================================================
+const chartInstances = {};
+const PALETTE = {
+  navy: '#1F3252', purple: '#8C2CBF', blue: '#5B7BD9',
+  coral: '#F08C6A', sage: '#7AB07A', slate: '#4A5568',
+};
+
+function destroyChart(key) {
+  if (chartInstances[key]) { chartInstances[key].destroy(); delete chartInstances[key]; }
+}
+
+function lineChartConfig(labels, datasets, yLabel) {
+  return {
+    type: 'line',
+    data: { labels, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } },
+        tooltip: { backgroundColor: '#1F3252', padding: 10, titleFont: { size: 12 }, bodyFont: { size: 12 } },
+      },
+      scales: {
+        x: { ticks: { font: { size: 11 } }, grid: { display: false } },
+        y: { beginAtZero: true, title: { display: !!yLabel, text: yLabel, font: { size: 11 } }, ticks: { font: { size: 11 } } },
+      },
+    },
+  };
+}
+
+function renderCitationHistory() {
+  const hist = state.citationHistory || [];
+  const meta = document.getElementById('history-overall-meta');
+  if (!hist.length) {
+    meta.textContent = 'No runs yet. The first weekly run lands Mondays at ~6:20am ET.';
+    return;
+  }
+  if (hist.length === 1) {
+    meta.textContent = `1 run on file (${hist[0].date}). Lines populate as additional weeks accumulate.`;
+  } else {
+    meta.textContent = `${hist.length} weekly runs · ${hist[0].date} → ${hist[hist.length - 1].date}`;
+  }
+
+  const labels = hist.map(h => h.date);
+
+  // Chart 1: Overall citation rate
+  destroyChart('overall');
+  chartInstances.overall = new Chart(document.getElementById('chart-overall'), lineChartConfig(
+    labels,
+    [{
+      label: 'DonorDock citation rate',
+      data: hist.map(h => h.donordock_citation_rate_pct ?? 0),
+      borderColor: PALETTE.purple, backgroundColor: PALETTE.purple + '22',
+      tension: 0.25, pointRadius: 4, pointHoverRadius: 6, fill: true, borderWidth: 2,
+    }],
+    'Citation rate (%)'
+  ));
+
+  // Chart 2: Per-engine citation rate
+  const engineColors = { anthropic: PALETTE.navy, openai: PALETTE.sage, perplexity: PALETTE.coral, gemini: PALETTE.blue };
+  const engineKeys = Array.from(new Set(hist.flatMap(h => Object.keys(h.by_engine || {}))));
+  destroyChart('engines');
+  chartInstances.engines = new Chart(document.getElementById('chart-engines'), lineChartConfig(
+    labels,
+    engineKeys.map(eng => ({
+      label: eng,
+      data: hist.map(h => h.by_engine?.[eng]?.citation_rate_pct ?? null),
+      borderColor: engineColors[eng] || PALETTE.slate,
+      backgroundColor: 'transparent',
+      tension: 0.25, pointRadius: 3, pointHoverRadius: 5, borderWidth: 2, spanGaps: true,
+    })),
+    'Citation rate (%)'
+  ));
+
+  // Chart 3: Top 5 competitor mentions
+  const totals = {};
+  for (const h of hist) {
+    for (const [name, count] of Object.entries(h.competitor_mentions || {})) {
+      totals[name] = (totals[name] || 0) + count;
+    }
+  }
+  const top5 = Object.entries(totals).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([n]) => n);
+  const compColors = [PALETTE.purple, PALETTE.coral, PALETTE.blue, PALETTE.sage, PALETTE.navy];
+  destroyChart('competitors');
+  chartInstances.competitors = new Chart(document.getElementById('chart-competitors'), lineChartConfig(
+    labels,
+    top5.map((name, i) => ({
+      label: name,
+      data: hist.map(h => h.competitor_mentions?.[name] ?? null),
+      borderColor: compColors[i], backgroundColor: 'transparent',
+      tension: 0.25, pointRadius: 3, pointHoverRadius: 5, borderWidth: 2, spanGaps: true,
+    })),
+    'Mentions per run'
+  ));
 }
 
 // ============================================================================
