@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P098",
+  "prompt_text": "Hidden costs of Virtuous",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550132+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Overview of Virtuous Pricing\nVirtuous (a nonprofit CRM and fundraising platform) has **no fully public, fixed pricing page** with transparent tiers (their pricing page emphasizes \"flexible bundles\" but lacks specifics). Costs vary by organization size, features, and usage. Reported starting prices from 2026 sources range from **$119\u2013$500/month**, but real expenses include platform fees, processing fees, add-ons, and \"hidden\" elements like surcharges. Bottom line: Expect **$200\u2013$500+/month base + 2.9%+ transaction fees**, scaling with volume.\n\n### Base Subscription Costs\nInconsistent reports across sources, likely due to custom quotes:\n| Source | Reported Starting Price | Notes |\n|--------|--------------------------|-------|\n| ITQlick [1] | $500/month | Compared to Click & Pledge; rated average for nonprofits. |\n| Zeffy [3] | $199/month | Example: $2,778/year on $10K raised (incl. processing). |\n| Capterra [8] | $119/month | Lowest reported; \"other/per month\" with free trial. |\n| RaiseDonors [10] | Custom (\"personalized pricing\") | Unlimited forms/admins, no feature gating. |\n\n- **TCO Insight [1]**: Includes licenses, training, customizations, support. Virtuous often has higher implementation TCO than competitors like Click, despite similar ratings.\n- Virtuous positions as \"scalable\" [4], saving ~22% time annually, but no hard numbers on setup fees.\n\n### Transaction Processing Fees (Powered by Stripe)\n**Core fee: 2.9% + $0.30 per successful Visa/MC/Discover transaction** [2,6]. Not \"free\" \u2013 deducted from gifts unless donor covers. Full breakdown:\n\n| Fee Type | Rate | Charged By | Notes |\n|----------|------|------------|-------|\n| Visa/MC/Discover | 2.9% + $0.30 | Virtuous/Stripe | Standard online cards. |\n| Amex | 3.5% + $0.30 | Virtuous/Stripe | Higher for premium cards. |\n| ACH (US only) | 1% + $0.50 | Virtuous/Stripe | No cap; lower % but fixed fee. |\n| International Surcharge | +1.00% | Virtuous | Added to non-US cards. |\n| Corporate Card Surcharge | +0.60% | Virtuous | Business cards. |\n| ACH/Card Dispute | $15 | Stripe | If not resolved in your favor. |\n| ACH Chargeback | $5 | Virtuous | Per occurrence. |\n| Card Auto-Update | $0.25/instance | Virtuous | Per updated card (e.g., expired cards). |\n| Payout/Minimum Merchant | $0 | N/A | No payout fees. |\n\n- **Donor-Paid Fees [5]**: Optional checkbox on forms \u2013 donors can cover fees (tax-deductible, tracked in \"Donor Paid Costs\" project). If not, **fees are subtracted from your net gift** (not synced to accounting; check Reconciliation reports).\n- **Impact Example [3]**: On $10K raised, ~$277\u2013$500+ in fees + $199/mo = $2,778/year total.\n\n### Other Potential Hidden/Additional Costs\n- **Professional Services [9]**: In-house experts for setup/training/customization \u2013 pricing not public, but \"suite of offerings\" implies extras (e.g., data migration, integrations).\n- **Customizations/Integrations**: Hardware, maintenance, support [1]; accounting sync issues if fees not donor-covered [5].\n- **No Platform Fees Claim?** [10] \u2013 But contradicted by subscription reports; processing is separate.\n- **Disputes/Chargebacks**: $5\u2013$15 hits add up for high-volume orgs.\n- **Scaling**: No \"feature gating\" [10], but bundles likely tier by donors/revenue (e.g., higher for enterprises).\n\n### Key Takeaways & Recommendations\n- **True \"Hidden\" Costs**: Processing surcharges (1\u20133.5% + extras) erode 3\u20135%+ of gifts; non-donor-covered fees vanish from your CRM totals/accounting. Custom quotes hide TCO variability.\n- **ROI Comparison [1]**: Virtuous scores 85/100 vs. Click's 66/100, but higher TCO \u2013 cheaper alternatives like Zeffy ($0) exist for small orgs.\n- **Mitigate**: Enable donor-paid fees [5,6]; review Stripe reconciliation monthly. Request a **custom demo/quote** from Virtuous for your org's scale \u2013 sources suggest negotiating bundles.\n- Not criminal/fraudulent, but transparency is low; always verify with Virtuous sales for 2026 rates.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 1020,
+  "estimated_cost_usd": 0.020318,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.itqlick.com/compare/click-pledge-fundraising-solutions/virtuous-software",
+      "https://support.virtuous.org/hc/en-us/articles/18224650853261-Understanding-Processing-Fees-and-Transaction-Limits-with-Payments-powered-by-Stripe",
+      "https://www.zeffy.com/compare/zeffy-vs-virtuous",
+      "https://virtuous.org/pricing/",
+      "https://support.virtuous.org/hc/en-us/articles/10481771864589-What-is-the-Donor-Paid-Costs-project-in-Virtuous-CRM",
+      "https://support.raisedonors.com/hc/en-us/articles/24836343234573-What-are-Processing-Fees",
+      "https://virtuousbenefits.care/faq/",
+      "https://www.capterra.com/p/159179/Virtuous/",
+      "https://support.virtuous.org/hc/en-us/articles/33580007334285-Virtuous-Professional-Services-Offerings-and-Pricing",
+      "https://explore.raisedonors.com/pricing/"
+    ]
+  }
+}

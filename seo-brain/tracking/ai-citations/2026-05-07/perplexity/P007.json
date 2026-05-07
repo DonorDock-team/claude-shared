@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P007",
+  "prompt_text": "DonorDock vs Network for Good",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550069+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### DonorDock vs. Network for Good (Now Bonterra Guided Fundraising)\n\nNetwork for Good was acquired by Bonterra in 2022 and rebranded as Bonterra Guided Fundraising. It's a donor management platform for nonprofits, offering fundraising pages, donor tracking, and email tools. DonorDock positions itself as a direct, more affordable alternative, especially for small-to-medium nonprofits. Below is a head-to-head comparison based on pricing, features, user feedback, and migration ease from recent sources (2026 data).\n\n#### Pricing\n| Feature                  | DonorDock                          | Network for Good (Bonterra)              |\n|--------------------------|------------------------------------|------------------------------------------|\n| **Base Price**          | $500/month (unlimited contacts)   | Starts at ~$300/month; scales with contacts (exact pricing opaque, requires demo) |\n| **Contracts**           | None; 90-day money-back guarantee | 36-month renewal contract                |\n| **Platform Fee on Donations** | 1% (+ standard Stripe processing) | 3% (+ standard processing)               |\n| **Other Fees**          | No hidden fees; free trial        | Hidden fees; limited to 10,000 contacts  |\n| **Best For**            | Lean teams on budgets             | Larger nonprofits (less transparent)     |\n\n**Key Takeaway**: DonorDock is more predictable and cheaper long-term, with no contact limits or contracts. Network for Good's pricing lacks transparency, per reviews on G2 and BetterWorld.\n\n#### Features\nBoth offer core nonprofit CRM tools, but DonorDock emphasizes an all-in-one, simple interface.\n\n| Category                | DonorDock                                      | Network for Good (Bonterra)                   |\n|-------------------------|------------------------------------------------|-----------------------------------------------|\n| **Donor Management**   | Unlimited contacts, gift tracking, custom fields, badges for sorting, retention reports | Contact/gift tracking; auto-imports online donations; yearly totals view |\n| **Fundraising**        | Online giving pages (Stripe, PayPal, ACH, Apple/Google Pay), peer-to-peer | Online giving; supports check imports        |\n| **Outreach**           | Email, text messaging, automations, ActionBoard\u00ae (virtual assistant) | Email; limited (no calls/SMS for events)     |\n| **Other**              | Project management, integrations (e.g., QuickBooks), peer-to-peer | Accounting integration, absentee bidding; 80% unique features like customizable reports |\n| **Ease of Use**        | #1 easiest setup/user adoption (DonorDock site, G2); faster implementation | \"Extremely user-friendly\" for imports (G2 reviews) but limited outreach |\n\n**Key Takeaway**: DonorDock bundles more (e.g., texting, automations) in one platform for growing teams. Network for Good excels in basic imports but feels limited for communication-heavy use.\n\n#### User Reviews & Satisfaction\n- **G2 & TrustRadius**: DonorDock praised for organization, YOY reports, retention tracking, emails, and value for small/medium nonprofits (\"best CRM considering features, usability, value\"). Network for Good loved for quick check imports and donor totals but criticized for no calls/SMS (e.g., youth event reminders).\n- **Overall**: DonorDock wins on simplicity and scalability; Network for Good suits basic tracking but prioritizes larger orgs.\n\n#### Switching from Network for Good\nEasy with DonorDock:\n- Self-guided import tool + free assistance/trainings.\n- Export steps: Contacts and gifts via Network for Good's export (detailed at DonorDock Help Center).\n- No data loss; designed for quick migration.\n\n#### Recommendation\n**Choose DonorDock** if you're a small/medium nonprofit seeking affordability, unlimited scale, and all-in-one tools without contracts\u2014ideal for lean teams (e.g., fast growth, online fundraising). **Stick with Network for Good** for established larger orgs needing accounting ties or if you're locked into Bonterra's ecosystem. Test DonorDock's free trial to import data and compare directly. For 2026, DonorDock ranks #1 for ease in buyer's guides.",
+  "donordock_mentioned": true,
+  "donordock_position": 4,
+  "competitors_mentioned": [
+    "Bonterra",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 857,
+  "estimated_cost_usd": 0.017879,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/compare/network-for-good-vs-donordock",
+      "https://www.g2.com/compare/bonterra-network-for-good-vs-donordock",
+      "https://helpcenter.donordock.com/kb/guide/en/exporting-data-from-network-for-good-yn8VVru9Mm/Steps/1855433",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://www.donordock.com/compare",
+      "https://www.donordock.com/articles/nonprofit-software-customization",
+      "https://www.trustradius.com/compare-products/bonterra-network-for-good-vs-donordock",
+      "https://betterworld.org/fundraising-guides/network-for-good-alternatives/",
+      "https://www.softwareadvice.com/nonprofit/donordock-profile/alternatives/"
+    ]
+  }
+}

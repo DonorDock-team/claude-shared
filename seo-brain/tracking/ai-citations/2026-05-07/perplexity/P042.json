@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P042",
+  "prompt_text": "Best donor CRM for faith-based nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550011+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Faith-Based Nonprofits\n\nFaith-based nonprofits (e.g., churches, ministries, seminaries) need CRMs with strong donor tracking, online giving, pledge management, reporting for tithing/recurring gifts, and integrations for events or volunteer coordination. Based on 2026 reviews and comparisons, here are the **top recommendations**, prioritized by faith-specific features, ease of use, pricing, and expert endorsements. I focused on platforms explicitly built or proven for religious orgs.\n\n#### 1. **DonorPerfect** (Best Overall for Faith-Based Fundraising)\n   - **Why it fits**: Cloud-based with dedicated church donation tools\u2014automates tithing tracking, batch processing, pledges, online giving, and donor stewardship. Handles faith-specific needs like recurring donations and event fundraising. Non-profit discounts available.\n   - **Key features**: Donation history, custom reports, integrations (e.g., QuickBooks), mobile app.\n   - **Pricing**: Starts ~$89/month (billed annually); scales by donor volume.\n   - **Evidence**: Highlighted in TechSoup forums [3] and DonorPerfect's religious fundraising page [6] as ideal for ministries after years of user searches.\n   - **Best for**: Small-to-mid-sized churches wanting simplicity.\n\n#### 2. **Salesforce Nonprofit Cloud** (Best for Large/Complex Orgs)\n   - **Why it fits**: Flexible for faith-based use cases like missionary programs, community centers, or seminaries. Supports multi-touchpoints (donor emails, client intake, events) with deep customization.\n   - **Key features**: Donor management, AI insights, volunteer tracking, grant reporting; NPSP (free add-on) for nonprofits.\n   - **Pricing**: Free edition for basics; paid starts ~$36/user/month + implementation.\n   - **Evidence**: Praised in GalvinTech guide [4] as \"unparalleled\" for faith nonprofits due to trusted architecture and case studies.\n   - **Best for**: Growing orgs with diverse needs (e.g., client services + fundraising).\n\n#### 3. **CharityEngine** (Best All-in-One for Efficiency)\n   - **Why it fits**: Combines CRM, online giving, email, and payments tailored for faith groups\u2014streamlines donor data without multiple logins.\n   - **Key features**: Text-to-give, automations, compliance tools (e.g., ACA reporting).\n   - **Pricing**: Custom; often ~$100\u2013300/month based on size.\n   - **Evidence**: Top-ranked in ShareServices' 2025 list for faith nonprofits [7].\n   - **Best for**: Ministries seeking one platform to replace spreadsheets/tools.\n\n#### 4. **Virtuous** (Best for Donor Relationships & Growth)\n   - **Why it fits**: Nonprofit-focused CRM emphasizing responsive donor experiences, with fundraising, volunteer, and marketing tools adaptable to faith missions.\n   - **Key features**: Wealth screening, personalized journeys, online forms.\n   - **Pricing**: Starts ~$120/month.\n   - **Evidence**: Featured in broad nonprofit CRM lists [8] with strong reviews for relational fundraising.\n   - **Best for**: Orgs prioritizing long-term donor retention.\n\n#### Quick Comparison Table\n\n| CRM            | Faith-Specific Strengths          | Starting Price | Donor Limit (Entry) | Top Integrations      |\n|----------------|-----------------------------------|----------------|---------------------|-----------------------|\n| **DonorPerfect** | Tithing/pledges, church tools    | $89/mo        | Unlimited          | QuickBooks, Events   |\n| **Salesforce**   | Custom faith workflows           | Free/$36/user | Unlimited          | 1,000+ apps          |\n| **CharityEngine**| All-in-one giving/email         | ~$100/mo      | Scales             | Payments, Text       |\n| **Virtuous**     | Donor journeys/volunteers        | $120/mo       | 500+               | Marketing tools      |\n\n#### Other Strong Contenders\n- **Funraise** [2]: User-friendly for growing faith orgs; adaptive donor CRM.\n- **DonorDock** [1]: Affordable all-in-one (CRM + marketing) for smaller ministries.\n- **Bloomerang/Ascend** [5]: Solid general nonprofit options with faith user bases, but less specialized.\n\n#### Buying Tips\n- **Evaluate**: Demo 2\u20133 (most offer free trials). Check faith case studies and tithing reports.\n- **Budget**: Expect $100\u2013500/month; factor setup (~$1K\u20135K for custom).\n- **Trends in 2026**: AI-driven insights (e.g., Salesforce) and text-to-give are rising for mobile-first donors.\n- **Next Steps**: Visit DonorPerfect [6] or Salesforce [4] for faith demos.\n\nThese picks draw from 11+ sources comparing 20+ CRMs, ensuring relevance to faith-based needs like spiritual donor engagement. If you share org size/budget, I can refine further.",
+  "donordock_mentioned": true,
+  "donordock_position": 3857,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 1055,
+  "estimated_cost_usd": 0.020849,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://forums.techsoup.org/t/searching-for-a-good-donor-crm-for-years-that-fit-our-ministries-needs/7478",
+      "https://galvintech.com/choosing-the-right-crm-for-faith-based-nonprofits/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.donorperfect.com/nonprofits/religious-fundraising-software/",
+      "https://shareservices.co/blog/best-donor-platforms-faith-based-nonprofits",
+      "https://virtuous.org",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software"
+    ]
+  }
+}

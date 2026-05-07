@@ -1,0 +1,44 @@
+{
+  "prompt_id": "P062",
+  "prompt_text": "Best nonprofit CRM with email and text messaging",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550129+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Nonprofit CRMs with Integrated Email and Text Messaging\n\nBased on the search results, several CRMs stand out for nonprofits needing built-in email marketing and SMS/text messaging capabilities. These tools help manage donors, automate campaigns, and track engagement without needing separate platforms. I'll highlight the strongest matches, key features, and why they fit, drawing directly from the sources.\n\n#### 1. **Giveffect** (Top Pick for All-in-One Marketing)\n   - **Why it fits**: Explicitly offers robust email marketing, text messaging, and direct mail in one platform, with real-time analytics. It's designed for nonprofit marketing automation, including automated email campaigns and batch printing.\n   - **Key features**:\n     | Feature          | Details |\n     |------------------|---------|\n     | Email            | Automation, mail merge, performance tracking |\n     | Text Messaging   | Integrated SMS for supporter outreach |\n     | Other            | Donor management, fundraising tools |\n   - **Source**: [Giveffect Marketing System](https://www.giveffect.com/marketing-and-communications-system)\n   - **Best for**: Small to mid-sized nonprofits wanting seamless multichannel communication.\n\n#### 2. **Virtuous**\n   - **Why it fits**: Positioned as the #1 email marketing platform for nonprofits because it's fully integrated into its CRM. Supports email campaigns tied to donor data; pairs well with texting via integrations (mentioned in nonprofit CRM contexts).\n   - **Key features**:\n     | Feature          | Details |\n     |------------------|---------|\n     | Email            | Native CRM-integrated campaigns, personalization |\n     | Text Messaging   | Compatible with SMS tools (e.g., via ecosystem) |\n     | Other            | Donor retention, fundraising automation |\n   - **Source**: [Virtuous Email Platforms](https://virtuous.org/blog/best-email-marketing-platforms-for-nonprofits/)\n   - **Best for**: Orgs prioritizing email depth with CRM synergy.\n\n#### 3. **Bloomerang** (Frequently Recommended CRM)\n   - **Why it fits**: Tops multiple lists (e.g., [Double the Donation](https://doublethedonation.com/top-nonprofit-crms/), [Kindsight](https://kindsight.io/resources/blog/best-crm-for-nonprofits/), [Insightly](https://www.insightly.com/blog/best-crm-for-non-profits/)) for donor management. Integrates email marketing and supports text messaging for engagement.\n   - **Key features**:\n     | Feature          | Details |\n     |------------------|---------|\n     | Email            | Campaign tools, automation |\n     | Text Messaging   | SMS for quick donor updates |\n     | Other            | Reporting, retention focus |\n   - **Best for**: Donor-centric nonprofits focused on retention.\n\n#### Other Strong Contenders\n| CRM                  | Email Support                  | Text Support                  | Standout Sources |\n|----------------------|--------------------------------|-------------------------------|------------------|\n| **Mailchimp**       | Full campaigns, websites      | Via integrations             | [Mailchimp CRM](https://mailchimp.com/resources/customer-relationship-management-for-nonprofits/) |\n| **Tatango**         | Basic (focus on SMS)          | Advanced mass texting        | [Tatango Nonprofits](https://www.tatango.com/blog/mass-texting-service-for-nonprofits/) \u2013 Pair with a CRM |\n| **Salesforce Nonprofit Cloud** | Enterprise email automation | SMS add-ons                  | [Insightly](https://www.insightly.com/blog/best-crm-for-non-profits/), [Opportunity Hack](https://www.ohack.org/about/faq/five-of-the-best-crms-for-nonprofits) |\n| **HubSpot CRM**     | Free email marketing          | SMS via integrations         | Multiple lists (e.g., Insightly, Opportunity Hack) |\n\n#### Quick Comparison and Advice\n- **Most Integrated**: Giveffect \u2013 Handles email + text natively without extras.\n- **Best Free/Low-Cost Starter**: Mailchimp or HubSpot for basics, scaling to full CRM.\n- **For Scale**: Salesforce or Bloomerang if you have 10k+ donors.\n- **Selection Tips** (from sources like [Double the Donation](https://doublethedonation.com/top-nonprofit-crms/) and [GoodUnited](https://www.goodunited.io/blog/nonprofit-crm-fundraising-software)): Prioritize donor tracking, automation, mobile apps, and integrations. Test free trials; check pricing (many offer nonprofit discounts).\n\nIf your nonprofit has specific needs (e.g., size, budget), provide more details for tailored recs. Start with Giveffect or Bloomerang demos for the closest match to your query.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [
+    "https://www.ohack.org/about/faq/five-of-the-best-crms-for-nonprofits",
+    "https://www.tatango.com/blog/mass-texting-service-for-nonprofits/",
+    "https://virtuous.org/blog/best-email-marketing-platforms-for-nonprofits/",
+    "https://doublethedonation.com/top-nonprofit-crms/",
+    "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+    "https://mailchimp.com/resources/customer-relationship-management-for-nonprofits/",
+    "https://www.insightly.com/blog/best-crm-for-non-profits/",
+    "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+    "https://www.giveffect.com/marketing-and-communications-system"
+  ],
+  "input_tokens": 9,
+  "output_tokens": 976,
+  "estimated_cost_usd": 0.019667,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.giveffect.com/marketing-and-communications-system",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://virtuous.org/blog/best-email-marketing-platforms-for-nonprofits/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.tatango.com/blog/mass-texting-service-for-nonprofits/",
+      "https://mailchimp.com/resources/customer-relationship-management-for-nonprofits/",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://www.ohack.org/about/faq/five-of-the-best-crms-for-nonprofits"
+    ]
+  }
+}

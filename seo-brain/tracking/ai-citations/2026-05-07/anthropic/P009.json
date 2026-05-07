@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550150+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Givebutter Comparison\n\nBoth are modern fundraising platforms, but they serve different niches and have distinct approaches:\n\n## **Givebutter**\n\n### Best For:\n- Small to medium nonprofits\n- Organizations wanting an all-in-one fundraising solution\n- Groups running campaigns, events, and peer-to-peer fundraising\n\n### Key Strengths:\n- **Free tier available** (platform fee model - donors can cover fees)\n- Beautiful, modern campaign pages\n- Excellent for event ticketing and auctions\n- Strong peer-to-peer fundraising tools\n- Text-to-donate capabilities\n- Built-in CRM features\n- Very user-friendly interface\n\n### Limitations:\n- Less robust donor management than dedicated CRMs\n- Limited customization for advanced needs\n- Newer platform (less established)\n\n## **DonorDock**\n\n### Best For:\n- Small nonprofits needing donor management\n- Churches and faith-based organizations\n- Organizations prioritizing donor relationships over campaigns\n\n### Key Strengths:\n- **Affordable CRM-focused platform** ($39-99/month)\n- Strong donor database and relationship tracking\n- Task management and workflows\n- Email integration\n- Customizable donor profiles\n- Good reporting capabilities\n- No transaction fees on top of payment processing\n\n### Limitations:\n- Less sophisticated fundraising campaign tools\n- Fewer event management features\n- Smaller user community\n- More basic compared to enterprise solutions\n\n## **Quick Decision Guide**\n\n**Choose Givebutter if:**\n- You run frequent campaigns or events\n- You need beautiful, shareable fundraising pages\n- You want to start free\n- Peer-to-peer fundraising is important\n\n**Choose DonorDock if:**\n- Donor relationship management is your priority\n- You need affordable CRM features\n- You're a church or faith-based org\n- You want predictable monthly costs\n\n**Consider both if:** You might use Givebutter for campaigns while using DonorDock as your donor database (they can integrate).\n\nWhat's your primary use case?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 473,
+  "estimated_cost_usd": 0.007146,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

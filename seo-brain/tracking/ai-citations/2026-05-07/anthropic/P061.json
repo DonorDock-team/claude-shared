@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P061",
+  "prompt_text": "Best donor CRM for monthly giving programs",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550047+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Monthly Giving Programs\n\n## Top Recommendations\n\n### **1. Keela**\n- **Best for:** Small to mid-sized nonprofits\n- **Monthly giving features:**\n  - Automated recurring donation processing\n  - Donor retention tracking\n  - Customizable giving levels\n  - Built-in email automation for sustainer communications\n- **Pricing:** Starts at ~$99/month\n\n### **2. Bloomerang**\n- **Best for:** Donor retention focus\n- **Monthly giving features:**\n  - Retention metrics dashboard\n  - Automated thank-you workflows\n  - Recurring gift management\n  - Engagement scoring for sustainers\n- **Pricing:** Starts at ~$125/month\n\n### **3. Donorbox + CRM Integration**\n- **Best for:** Budget-conscious organizations\n- **Monthly giving features:**\n  - Excellent recurring donation interface\n  - Low processing fees (1.5% platform fee)\n  - Integrates with Salesforce, Bloomerang, etc.\n  - Branded donor portal\n- **Pricing:** Pay-as-you-go model\n\n### **4. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with complex needs\n- **Monthly giving features:**\n  - Highly customizable recurring gift tracking\n  - Advanced segmentation\n  - Robust reporting and analytics\n  - Automation capabilities\n- **Pricing:** 10 free licenses, then ~$36/user/month\n\n### **5. Little Green Light**\n- **Best for:** Small nonprofits\n- **Monthly giving features:**\n  - Simple recurring gift setup\n  - Email integration\n  - Payment processing options\n  - Good reporting tools\n- **Pricing:** Starts at ~$59/month\n\n## Key Features to Look For\n\n- \u2705 Automated recurring payment processing\n- \u2705 Failed payment recovery workflows\n- \u2705 Sustainer-specific communication tools\n- \u2705 Upgrade/downgrade management\n- \u2705 Retention analytics\n- \u2705 Donor portal access\n\n**What's your organization's size and budget?** That would help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Keela",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 502,
+  "estimated_cost_usd": 0.007575,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

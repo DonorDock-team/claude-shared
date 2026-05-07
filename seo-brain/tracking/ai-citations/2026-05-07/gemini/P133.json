@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P133",
+  "prompt_text": "Givebutter limitations",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550093+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Givebutter is a popular and powerful fundraising platform, especially for its user-friendly interface and \"free-to-use\" model (where donors are asked to cover fees and tip). However, like any platform, it has certain limitations that might make it a less-than-perfect fit for every organization, especially those with highly specialized needs or very large-scale operations.\n\nHere are some common limitations of Givebutter:\n\n1.  **\"Donor Cover Fees & Tipping\" Model:**\n    *   **Perception:** While optional, the default setting asks donors to cover payment processing fees *and* leave an additional tip for Givebutter. Some donors might find this confusing or off-putting, even if they can opt-out. Organizations might also prefer a clearer, fixed fee structure.\n    *   **Cost to Organization:** If an organization opts to cover all fees themselves to avoid asking donors, the costs can add up, making it not \"free\" to them.\n\n2.  **Limited Advanced CRM Functionality:**\n    *   **Basic Donor Management:** Givebutter offers a donor database and tracking, but it's not a full-fledged Constituent Relationship Management (CRM) system like Salesforce, Blackbaud, or HubSpot.\n    *   **Lack of Depth:** It may lack advanced features for donor segmentation, wealth screening, grant management, volunteer management, intricate stewardship tracking, or complex reporting beyond campaign-specific data. Organizations often need to integrate with a dedicated CRM or export data regularly.\n\n3.  **Reporting and Analytics Depth:**\n    *   **Campaign-Focused:** While it provides good insights into campaign performance, transaction history, and donor data, its reporting capabilities might be less robust for organizations requiring highly customized financial reports, multi-year trend analysis, or comprehensive impact reporting for boards and major funders.\n\n4.  **Customization and Branding for Larger Organizations:**\n    *   **Brand Presence:** While you can brand your campaigns, Givebutter's own branding is present unless you opt for a higher-tier paid plan or it's implicitly covered by your donor-covered fees.\n    *   **Website Integration:** Integrating Givebutter seamlessly into a highly customized website's look and feel can sometimes be challenging compared to platforms designed for deeper embedding or those offering more extensive API access for custom development.\n\n5.  **Offline Fundraising Management:**\n    *   **Online Focus:** Givebutter is primarily an online fundraising platform. While you can manually add offline donations",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 3,
+  "output_tokens": 511,
+  "estimated_cost_usd": 0.001278,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

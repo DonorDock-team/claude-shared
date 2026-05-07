@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P132",
+  "prompt_text": "Network for Good problems",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550039+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Network for Good (NfG) is a well-known platform in the nonprofit technology space, primarily offering fundraising and donor management tools. While it serves many organizations effectively, like any software, users and the market can point to several common \"problems\" or areas for improvement.\n\nHere's a breakdown of potential issues, categorized for clarity:\n\n### 1. Ease of Use & User Interface (UI)\n\n*   **Outdated Interface:** Some users find the platform's user interface to be less modern or intuitive compared to newer competitors. This can make navigation cumbersome and certain tasks less efficient.\n*   **Steep Learning Curve (for some features):** While basic functions are often straightforward, getting the most out of advanced features or setting up complex campaigns might require more effort and training than some users expect.\n\n### 2. Feature Set & Advanced Functionality\n\n*   **Limited CRM Depth:** While NfG offers donor management, it may not provide the deep, highly customizable CRM functionalities found in dedicated donor management systems (like Bloomerang, DonorPerfect, or Salesforce NPSP). This can be a limitation for organizations with complex donor segments, moves management strategies, or extensive data tracking needs.\n*   **Basic Email Marketing:** The email marketing tools are functional for sending newsletters and appeals, but they often lack the advanced segmentation, automation, A/B testing, and robust analytics offered by dedicated email service providers (ESPs) like Mailchimp, Constant Contact, or HubSpot.\n*   **Peer-to-Peer (P2P) Limitations:** While NfG supports P2P fundraising, the customization options for individual fundraising pages or team campaigns might be less flexible or visually appealing than platforms specializing in P2P (e.g., Classy, Givebutter).\n*   **Event Management:** Event registration and management features might be basic, lacking advanced ticketing options, seating charts, or complex multi-tier pricing found in specialized event platforms.\n*   **Lack of Robust Grant Management:** NfG is not designed for comprehensive grant tracking or application management, requiring nonprofits to use separate systems for this critical function.\n\n### 3. Customer Support\n\n*   **Response Times:** Some users have reported varying response times or difficulty reaching support during critical campaign periods.\n*   **Quality of Support:** Experiences can vary; some users find the support staff highly knowledgeable, while others report receiving generic answers or needing to escalate issues to get resolution.\n*   **Limited Channels:** Depending on the subscription level, access to phone support or dedicated account managers might be limited.\n\n### 4. Pricing & Value\n\n*   **Transaction Fees:** While common across platforms, NfG's transaction fees (on top of subscription costs) can add up, especially for organizations processing a high volume of smaller donations. It's crucial for nonprofits to understand the total cost.\n*   **Tiered Pricing Complexity:** Understanding which features are available at which pricing tier can sometimes be confusing, leading to organizations paying for features they don't fully utilize or discovering they need to upgrade for a critical function.\n*   **Perceived Value for Cost:** Some organizations, particularly smaller ones with tight budgets, question if the feature set justifies the recurring subscription fees, especially when compared to",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Network for Good",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 666,
+  "estimated_cost_usd": 0.001666,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P006",
+  "prompt_text": "DonorDock vs DonorPerfect",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.549988+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When comparing DonorDock and DonorPerfect, it's important to consider their features, pricing, ease of use, and customer support to determine which donor management system might best suit your organization's needs. Here's a brief comparison of the two:\n\n### DonorDock\n\n**Features:**\n- **Donor Management:** Offers tools for tracking donor interactions, managing contact information, and segmenting donors.\n- **Fundraising Campaigns:** Provides features for creating and managing campaigns, including email marketing integration.\n- **Reporting and Analytics:** Users can generate various reports to analyze fundraising performance and donor engagement.\n- **Integrations:** Seamless integration with platforms like QuickBooks, Mailchimp, and Zapier.\n- **User Experience:** Known for an intuitive and straightforward interface, which can be beneficial for organizations without a dedicated IT team.\n\n**Pricing:**\n- Typically offers tiered pricing based on the number of records or donors, making it potentially cost-effective for smaller organizations.\n\n**Customer Support:**\n- Provides support via email and online resources, with options for personalized training sessions.\n\n### DonorPerfect\n\n**Features:**\n- **Comprehensive Donor Management:** Offers robust tools for managing donor information, donation processing, and tracking donor histories.\n- **Fundraising Tools:** Includes options for online donations, event management, and peer-to-peer fundraising.\n- **Extensive Reporting:** Allows for customizable reports and dashboards to monitor various fundraising metrics.\n- **Integrations:** Compatible with a wide range of third-party applications, including Constant Contact, QuickBooks, and social media platforms.\n- **Customization:** Highly customizable to fit the specific needs of larger and more complex organizations.\n\n**Pricing:**\n- Typically based on the number of constituent records, and while it may be more expensive, it offers scalability for larger nonprofits.\n\n**Customer Support:**\n- Provides multiple support channels, including phone, email, and extensive online resources. Offers dedicated account managers for higher-tier plans.\n\n### Conclusion\n\n- **DonorDock** might be more appealing to smaller organizations looking for an easy-to-use and cost-effective solution that covers the basics of donor management and fundraising.\n- **DonorPerfect** could be better suited for larger organizations that need a more robust system with advanced features and customization capabilities.\n\nUltimately, the best choice will depend on your specific needs, budget, and the scale of your fundraising activities. If possible, consider taking advantage of free trials or demos offered by both platforms to get a better feel for which one aligns with your organization's goals.",
+  "donordock_mentioned": true,
+  "donordock_position": 15,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 501,
+  "estimated_cost_usd": 0.005045,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

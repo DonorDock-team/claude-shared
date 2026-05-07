@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P062",
+  "prompt_text": "Best nonprofit CRM with email and text messaging",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550100+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Nonprofit CRMs with Email and Text Messaging\n\n## Top Recommendations\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- **Strengths:** Donor retention focus, built-in email marketing, SMS capabilities\n- **Pricing:** Starts at ~$125/month\n- **Notable:** Excellent donor engagement tracking and user-friendly interface\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Large nonprofits with complex needs\n- **Strengths:** Highly customizable, robust email/SMS through integrations (Marketing Cloud, Twilio)\n- **Pricing:** 10 free licenses via Power of Us program, then paid plans\n- **Notable:** Most powerful but steeper learning curve\n\n### **3. Kindful (by Bloomerang)**\n- **Best for:** Growing nonprofs needing automation\n- **Strengths:** Email automation, integrated texting, online donation forms\n- **Pricing:** Starts at ~$100/month\n- **Notable:** Strong payment processing integration\n\n### **4. Keela**\n- **Best for:** Budget-conscious organizations\n- **Strengths:** Built-in email and SMS, AI-powered insights\n- **Pricing:** Starts at ~$50/month\n- **Notable:** Best value for features included\n\n### **5. NeonCRM**\n- **Best for:** All-in-one solution seekers\n- **Strengths:** Email marketing included, SMS via integrations, event management\n- **Pricing:** Custom pricing (typically $50-150/month)\n\n## Key Considerations\n- **Budget:** Factor in per-text/email costs beyond base fees\n- **Size:** Donor database size affects pricing\n- **Integration needs:** Consider your existing tools\n- **Support:** Nonprofit-specific training and resources\n\n**Pro tip:** Most offer free trials\u2014test 2-3 before committing!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Keela",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 440,
+  "estimated_cost_usd": 0.006648,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

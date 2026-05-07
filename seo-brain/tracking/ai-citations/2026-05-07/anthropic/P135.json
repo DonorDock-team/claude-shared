@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P135",
+  "prompt_text": "Why nonprofits leave DonorPerfect",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550163+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Reasons Nonprofits Leave DonorPerfect\n\nBased on user feedback and migration patterns, here are the main reasons organizations switch away from DonorPerfect:\n\n## 1. **Cost Concerns**\n- Pricing can become expensive as organizations grow\n- Per-user licensing fees add up quickly\n- Additional costs for add-ons and integrations\n- Better value perceived in competitor products\n\n## 2. **User Interface & Usability**\n- Outdated, less intuitive interface compared to modern alternatives\n- Steep learning curve for new staff\n- Clunky navigation and workflow\n- Not as user-friendly as newer cloud-based platforms\n\n## 3. **Reporting Limitations**\n- Report customization can be difficult\n- Limited flexibility in creating custom reports\n- Reporting tools feel outdated\n- Difficulty extracting data in desired formats\n\n## 4. **Integration Challenges**\n- Limited native integrations with modern tools\n- Difficulty connecting with websites, email platforms, and other software\n- API limitations for custom integrations\n\n## 5. **Online Fundraising**\n- Online donation forms feel dated\n- Limited customization options for web forms\n- Better online giving experiences available elsewhere\n- Mobile responsiveness issues\n\n## 6. **Customer Support**\n- Inconsistent support quality reported by some users\n- Long wait times for technical assistance\n- Training resources may not meet needs\n\n## 7. **Growth & Scalability**\n- Organizations outgrow the platform's capabilities\n- Need more sophisticated features for major gifts, grants management, or fundraising analytics\n- Enterprise-level organizations seeking more robust solutions\n\n## 8. **Competition**\nNewer platforms offering:\n- More modern interfaces\n- Better mobile experiences\n- Advanced automation\n- AI-powered insights\n- More flexible pricing models\n\n**Popular alternatives** include Bloomerang, Salesforce Nonprofit Cloud, NeonCRM, Little Green Light, and Blackbaud products.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 437,
+  "estimated_cost_usd": 0.006609,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P044",
+  "prompt_text": "Best donor CRM for food banks",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550113+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM for food banks requires looking at specific features tailored to nonprofit organizations, particularly those that handle food distribution. Here are some popular choices, known for their effectiveness in the nonprofit sector, that you might find suitable:\n\n1. **Salesforce for Nonprofits**: Salesforce offers a Nonprofit Success Pack (NPSP) which is highly customizable and includes features for donor management, volunteer coordination, and program management. Its scalability is a significant plus, allowing food banks to grow without having to change systems.\n\n2. **Bloomerang**: This CRM is geared towards smaller to mid-sized nonprofits and offers tools for donor management, donor retention, and reporting. It is known for its user-friendly interface and excellent customer support.\n\n3. **DonorPerfect**: This CRM is tailored for efficient donation management and is well-suited for tracking donor information, managing events, and creating reports. Its features are designed to enhance donor engagement and fundraising efforts.\n\n4. **Neon CRM**: Neon provides a full suite of tools for nonprofits, including donor management, email marketing, and fundraising event coordination. It also offers integration capabilities with other software, which can be helpful for expanding its functionality.\n\n5. **Kindful**: Known for its intuitive design, Kindful offers tools for tracking donor interactions, managing campaigns, and integrating with other platforms to streamline operations.\n\n6. **Network for Good**: This CRM focuses on donor management and fundraising tools for small and medium-sized nonprofits. It includes features to help with campaign management and donor communication.\n\nEach of these platforms comes with different price points and capabilities, so it's crucial to assess your food bank's specific needs, such as the size of your donor base, budget constraints, and desired integrations, before making a decision. Additionally, many CRMs offer demos or free trials, which can help you evaluate which system aligns best with your operational goals.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 381,
+  "estimated_cost_usd": 0.003842,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

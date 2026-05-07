@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P062",
+  "prompt_text": "Best nonprofit CRM with email and text messaging",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550114+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best nonprofit CRM (Customer Relationship Management) system with email and text messaging capabilities depends on the specific needs of your organization, including your budget, the size of your contact database, and the complexity of your campaigns. However, several CRMs are highly regarded in the nonprofit sector for offering comprehensive tools that include email and text messaging. Here are some popular choices:\n\n1. **Salesforce.org Nonprofit Cloud**:\n   - Offers robust CRM capabilities tailored for nonprofits.\n   - Integrates with Salesforce Marketing Cloud for powerful email and SMS marketing features.\n   - Highly customizable with a range of extensions and add-ons available through AppExchange.\n\n2. **Bloomerang**:\n   - Designed specifically for small to mid-sized nonprofits.\n   - Offers built-in email marketing capabilities.\n   - Integrates with third-party apps for extended functionalities, including text messaging.\n\n3. **NeonCRM**:\n   - Provides a comprehensive platform with email marketing.\n   - Supports text messaging through integration with third-party services.\n   - Known for its user-friendly interface and constituent engagement features.\n\n4. **EveryAction**:\n   - Combines CRM with digital marketing tools, including email and SMS.\n   - Good for advocacy organizations due to its organizing tools and outreach capabilities.\n\n5. **Kindful**:\n   - Interfaces seamlessly with popular email marketing platforms like Mailchimp and Constant Contact.\n   - Text messaging requires integration with platforms that support SMS.\n\n6. **Little Green Light**:\n   - Suitable for smaller nonprofits seeking affordability and simplicity.\n   - Offers basic email communications and integrates with other services for texting.\n\n7. **Network for Good**:\n   - Includes essential CRM features with built-in email tools.\n   - Provides texting functionality through partnerships with other platforms.\n\nWhen choosing a CRM, consider factors like:\n- Integration capabilities with your existing systems.\n- Pricing and whether it fits your budget, including costs for scaling up.\n- Ease of use and the learning curve for your team.\n- Support and customer service quality.\n\nIt's often helpful to take advantage of free trials or demo versions to evaluate how well the system meets your organization's needs before committing to a purchase.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Little Green Light",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 429,
+  "estimated_cost_usd": 0.004327,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

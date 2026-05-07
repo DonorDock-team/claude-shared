@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P081",
+  "prompt_text": "Best donor CRM for community colleges",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550157+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Community Colleges\n\nHere are the top options tailored for community college fundraising needs:\n\n## **Top Recommendations**\n\n### **1. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established programs with significant fundraising operations\n- **Strengths:** Comprehensive features, strong reporting, widely used in education\n- **Considerations:** Higher cost, may be overpowered for smaller programs\n\n### **2. Salesforce Nonprofit Success Pack (NPSP)**\n- **Best for:** Colleges wanting customization and scalability\n- **Strengths:** Highly customizable, integrates well with other systems, robust ecosystem\n- **Considerations:** Requires technical expertise or consultant support\n\n### **3. Bloomerang**\n- **Best for:** Small to mid-sized advancement offices\n- **Strengths:** User-friendly, affordable, excellent retention-focused tools\n- **Considerations:** Less complex than enterprise solutions\n\n### **4. DonorPerfect**\n- **Best for:** Budget-conscious colleges with straightforward needs\n- **Strengths:** Affordable, good basic functionality, educational pricing\n- **Considerations:** Interface less modern than competitors\n\n### **5. Ellucian Advance (formerly Benefactor)**\n- **Best for:** Colleges already using Ellucian systems\n- **Strengths:** Built specifically for higher education, integrates with Colleague/Banner\n- **Considerations:** Limited if not in Ellucian ecosystem\n\n## **Key Selection Criteria**\n- Integration with your student information system\n- Budget constraints\n- Staff technical expertise\n- Alumni database size\n- Reporting needs\n\n**Recommendation:** Most community colleges find success with **Bloomerang** or **Salesforce NPSP** depending on budget and technical capacity.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 408,
+  "estimated_cost_usd": 0.006162,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

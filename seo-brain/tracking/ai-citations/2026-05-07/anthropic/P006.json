@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P006",
+  "prompt_text": "DonorDock vs DonorPerfect",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.545304+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs DonorPerfect Comparison\n\nBoth are donor management platforms, but they serve different market segments and have distinct strengths.\n\n## **DonorDock**\n\n### Best For\n- Small nonprofits and growing organizations\n- Organizations wanting modern, intuitive software\n- Teams prioritizing ease of use over extensive features\n\n### Key Strengths\n- **Simple, modern interface** - Very user-friendly\n- **Affordable pricing** - Budget-friendly for smaller organizations\n- **Quick setup** - Minimal learning curve\n- **Good donor relationship tracking**\n- **Mobile-friendly design**\n\n### Limitations\n- Fewer advanced features than competitors\n- Limited customization options\n- Smaller integration ecosystem\n- May lack depth for complex organizations\n\n---\n\n## **DonorPerfect**\n\n### Best For\n- Established nonprofits of all sizes\n- Organizations needing comprehensive features\n- Groups requiring extensive reporting and customization\n\n### Key Strengths\n- **Mature, feature-rich platform** - Handles complex needs\n- **Extensive integrations** - 100+ add-ons available\n- **Robust reporting tools**\n- **Strong event management capabilities**\n- **Dedicated support and training**\n- **Peer-to-peer fundraising options**\n\n### Limitations\n- Steeper learning curve\n- Interface feels less modern\n- Higher cost\n- Can be overwhelming for small organizations\n\n---\n\n## **Quick Decision Guide**\n\n**Choose DonorDock if you:**\n- Have a small team/budget\n- Want something simple to learn quickly\n- Need basic donor management\n\n**Choose DonorPerfect if you:**\n- Need advanced features and reporting\n- Require extensive integrations\n- Have budget for a comprehensive solution\n- Manage complex fundraising campaigns\n\nWhat's your organization's size and primary needs?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 414,
+  "estimated_cost_usd": 0.006267,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

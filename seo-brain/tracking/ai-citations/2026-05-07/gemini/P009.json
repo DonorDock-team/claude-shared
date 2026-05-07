@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550191+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Givebutter are both excellent platforms for nonprofits, but they serve slightly different primary purposes and offer distinct pricing models. The \"best\" choice depends heavily on your specific needs, budget, and priorities.\n\nHere's a breakdown to help you compare:\n\n---\n\n## DonorDock\n\n**Primary Focus:** A robust, affordable Donor Relationship Management (CRM) system with integrated fundraising tools.\n\n**Key Features:**\n\n*   **Donor Management (CRM):** This is DonorDock's core strength. It offers comprehensive donor profiles, communication history, giving trends, pledges, soft credits, moves management, segmentation, and task management.\n*   **Fundraising Tools:** Includes custom donation pages, recurring gift options, campaign tracking, and some basic event management capabilities.\n*   **Integrations:** Known for its strong integration with **QuickBooks Online and Desktop**, which is a huge benefit for financial reconciliation. Also integrates with Mailchimp and Zapier.\n*   **Communication:** Tools for email communication, letter merges, and tracking donor interactions.\n*   **Reporting:** Good reporting capabilities for donor retention, giving trends, campaign performance, and financial reconciliation.\n*   **Pricing Model:** Subscription-based. You pay a monthly fee (often tiered by the number of contacts) plus standard payment processing fees (e.g., Stripe, PayPal).\n\n**Best Suited For:**\n\n*   Nonprofits that prioritize robust **donor management and relationship building** over time.\n*   Organizations that need strong integration with **QuickBooks** for financial tracking.\n*   Teams looking for an **affordable, dedicated CRM** that goes beyond basic contact management.\n*   Those who want detailed tracking of donor interactions, pledges, and cultivation stages.\n*   Nonprofits comfortable with a monthly subscription fee for dedicated CRM functionality.\n\n**Pros:**\n\n*   Excellent, affordable CRM capabilities.\n*   Seamless QuickBooks integration.\n*   User-friendly interface for managing donor data.\n*   Strong reporting for donor insights.\n*   Dedicated support often included in the subscription.\n\n**Cons:**\n\n*   Not free; requires a monthly subscription.\n*   Fundraising tools are solid but might not be as feature-rich or dynamic as Givebutter for complex campaigns like peer-to-peer or live stream events.\n\n---\n\n## Givebutter\n\n**Primary Focus:** An all-in-one, free-to-use fundraising platform with built-in CRM functionality.\n\n**Key Features:**\n\n*   **Comprehensive Fundraising:** This is Givebutter's standout feature. It offers a wide array of modern fundraising tools:\n    *   **Campaigns:** Beautiful, customizable fundraising pages.\n    *   **Peer-to-Peer:** Robust tools for team fundraising and individual fundraisers.\n    *   **Events:** Ticketing, registrations, auctions (silent, live, online), raffles.\n    *   **Text-to-Donate:** Easy text-based giving.\n    *   **Live",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 618,
+  "estimated_cost_usd": 0.001546,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

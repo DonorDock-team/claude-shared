@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P098",
+  "prompt_text": "Hidden costs of Virtuous",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550105+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Virtuous CRM\n\nWhile Virtuous markets itself as a comprehensive nonprofit CRM solution, there are several potential hidden costs to consider:\n\n## 1. **Implementation & Onboarding**\n- Professional services for data migration\n- Custom configuration and setup fees\n- Training sessions beyond basic package\n- Consultant fees if internal expertise is limited\n\n## 2. **Integration Costs**\n- Third-party app connections may require paid middleware (Zapier, etc.)\n- Custom API development for specialized integrations\n- Ongoing maintenance of integrations\n\n## 3. **Data Migration**\n- Cleaning and preparing data from previous system\n- Potential data loss or corruption requiring remediation\n- Staff time dedicated to migration process\n\n## 4. **User Licensing**\n- Costs can escalate quickly as organization grows\n- Per-user pricing model may exceed budget with team expansion\n- Different feature tiers may require upgrades\n\n## 5. **Advanced Features**\n- Premium modules (automation, advanced analytics)\n- AI-powered features may cost extra\n- Custom reporting beyond standard templates\n\n## 6. **Support & Maintenance**\n- Premium support tiers for faster response times\n- Ongoing technical support needs\n- System updates that require staff retraining\n\n## 7. **Staff Time Investment**\n- Learning curve and productivity dip\n- Ongoing system administration\n- Creating and maintaining workflows\n\n## 8. **Potential Add-Ons**\n- Email sending beyond included limits\n- Additional storage\n- Enhanced security features\n\n**Recommendation**: Request a detailed pricing breakdown and implementation timeline before committing.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 358,
+  "estimated_cost_usd": 0.005409,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

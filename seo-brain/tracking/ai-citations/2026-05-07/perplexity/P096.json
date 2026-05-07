@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P096",
+  "prompt_text": "Hidden costs of Neon CRM",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550019+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Hidden Costs of Neon CRM\n\nNeon CRM employs a **modular, contact-sales pricing model** without publicly listed prices, requiring a demo for custom quotes. The base platform covers core donor management, online fundraising, email marketing, and standard reporting, but most nonprofits incur significant add-ons and extras. Here's a breakdown of key hidden costs based on 2026 analyses:\n\n#### 1. **Modular Add-Ons (Major Cost Drivers)**\n   - Events management (registration, ticketing, attendee tracking): **Additional fee** (not in base).\n   - Memberships (renewals, portals, tiered levels): **Additional fee**.\n   - Advanced grant compliance (restricted fund tracking, expenditure reporting): **Not standard**; requires custom config or extra modules.\n   - Enterprise features (advanced analytics, custom integrations, dedicated support): **Contact sales** for higher tiers.\n   - **Impact**: Mid-sized nonprofits (e.g., with 4-6 events/year + memberships) face \"line-item\" stacking, turning base into 2-3x the cost.\n\n   | Feature | Included in Base? | Cost |\n   |---------|-------------------|------|\n   | Donor Management | Yes | Base |\n   | Events | No | Add-on |\n   | Memberships | No | Add-on |\n   | Grant Compliance | No | Custom/Add-on |\n   | Advanced Reporting | No (Enterprise) | Contact sales |\n\n#### 2. **Transaction Processing Fees**\n   - Credit card: **2.99% + $0.30** per transaction.\n   - e-Check/ACH: **1% + $1**.\n   - AmEx: **+1% upcharge**.\n   - **Impact**: Scales with donation volume; no waivers mentioned for nonprofits.\n\n#### 3. **Scalability and Record Limits**\n   - Lower tiers (e.g., Essentials ~$99/mo) cap records (e.g., 5K donors), forcing upgrades.\n   - Data enhancement (NCOA, deceased suppression): Optional, but skipping leads to **hidden operational costs** like wasted postage/returns.\n     - Example savings from data hygiene (per TrueGivers):\n       | Records | Monthly Price | Avg. Savings |\n       |---------|---------------|--------------|\n       | 1-5K | $10 | $68 |\n       | 5K-25K | $40 | $364 |\n       | 25K-50K | $60 | $1,407 |\n\n#### 4. **Implementation and Overhead**\n   - **No annual discounts**; monthly billing only.\n   - Setup/migration/training: Unlisted but \"year-one\" totals include labor (data cleanup, onboarding).\n   - Gaps (e.g., grant reporting) force **spreadsheets/exports** or secondary tools, adding process overhead.\n   - Premium support/integrations: Extra fees.\n\n#### Total Cost Reality\n- **Essentials**: ~$99/mo (basic, limited scalability).\n- **Impact**: ~$209/mo (up to 5K records).\n- **Empower**: ~$409/mo (up to 20K records, advanced tools).\n- **Full Stack for Average Nonprofit**: Base + 2-3 add-ons + fees often exceeds $500-1,000/mo, per modular quotes. Budget for **subscription (visible) + implementation (20-50% extra) + ongoing overhead**.\n\n**Advice**: Request itemized quotes listing *all* needed modules. Compare year-one totals vs. alternatives like Capsule (scalable, no hidden add-ons) or Givebutter (free core features). Sources confirm lower tiers lack automation/integrations, inflating long-term costs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Givebutter",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 774,
+  "estimated_cost_usd": 0.016628,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://capsulecrm.com/blog/neon-crm-pricing/",
+      "https://grantpipe.com/compare/pricing/neon-crm/",
+      "https://truegivers.com/neoncrm-pricing/",
+      "https://givebutter.com/alternatives/neon-one",
+      "https://www.softwareadvice.com/nonprofit/neoncrm-profile/"
+    ]
+  }
+}

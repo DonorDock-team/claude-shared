@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550083+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "You're looking for a common, and very smart, pricing model for nonprofits! Many CRMs charge per user, which can quickly become cost-prohibitive. The \"flat rate\" usually means the price scales based on your organization's size (e.g., number of donor records, annual revenue, or contacts) but **does not add extra fees for each person on your team who needs access.**\n\nHere are several donor CRMs known for this type of pricing model, often including unlimited users within their core tiers:\n\n1.  **Bloomerang:**\n    *   **How it works:** Pricing is primarily based on the number of constituent (donor/contact) records in your database. All plans typically include unlimited users, robust donor management, reporting, email marketing, and often online giving pages.\n    *   **Why it fits:** Explicitly designed for nonprofits, user-friendly, and highly regarded for its donor retention focus. No per-user fees.\n\n2.  **Little Green Light (LGL):**\n    *   **How it works:** Pricing is very straightforward, based on the number of constituent records. All tiers include unlimited users and full access to their features (donor management, gift processing, communications, reporting, event management).\n    *   **Why it fits:** Excellent value, powerful for its price point, and a strong emphasis on unlimited users. Great for smaller to mid-sized organizations.\n\n3.  **Kindful (a Bloomerang company):**\n    *   **How it works:** Similar to Bloomerang, pricing is typically based on the number of constituent records or annual revenue processed. Most plans include unlimited users and comprehensive features for donor management, fundraising, integrations, and reporting.\n    *   **Why it fits:** Modern interface, strong integration capabilities, and designed with unlimited users in mind.\n\n4.  **DonorSnap:**\n    *   **How it works:** Pricing is based on the number of active records in your database. All plans include unlimited users, online forms, email integration, reporting, and more.\n    *   **Why it fits:** Known for being cost-effective with strong core features and no per-user fees.\n\n5.  **WildApricot (primarily for membership, but often used by nonprofits for donors too):**\n    *   **How it works:** Pricing is based on the number of contacts in your database (members, donors, subscribers). All plans include unlimited administrators/users. While strong on membership, it handles donor management, event registration, and website building well.\n    *   **Why it fits:** If your organization has both members and donors, or primarily donors but values membership-style features, this is a strong contender with clear, no-per-user pricing.\n\n6.  **CharityMaster:**\n    *   **How it works:** Offers a few distinct plans, often based on database size, and emphasizes unlimited users across its offerings. It provides comprehensive donor management, fundraising, and reporting tools.\n    *   **Why it fits:** A good option for those looking for a traditional, robust solution without user count limitations.\n\n7",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 651,
+  "estimated_cost_usd": 0.001631,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}
