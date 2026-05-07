@@ -1,9 +1,19 @@
 # Phase 4.7 — Article Cleanup + URL Hygiene Plan
 
-**Status:** Draft (proposed)
+**Status:** Closed (2026-05-07)
 **Owner:** Rob (review + approve) → Claude Queue executor (run)
 **Total articles touched:** ~55 across 13 workstream categories
 **Source:** Aggregated from Phase 4.5 batch proposals (B1–B14)
+**Outcomes:** see `seo-brain/cleanup/2026-05-phase-4.7-completed.md`
+
+## Closeout summary (2026-05-07)
+
+All 14 Asana tasks in Claude Queue are in ✅ Done. Rob worked through every task and either executed, adjusted, or chose to skip. Two explicit scope decisions diverged from the original plan:
+
+- **Session-notes / training articles → removed, not migrated to `/help/`.** Workstreams 1, 2, 3, 6 are closed via removal + 410/301 rather than building a help-center IA. The `donordock-helpcenter` skill route is deferred.
+- **No `/news/` URL built (workstream 4).** Product changelog cluster handled in place (or removed) for now. A future `/news/` or `/changelog/` IA is parked.
+
+The four executed waves (3A title rewrites, 3B body sweeps, 4A glossary expansion, 4B crypto + AmazonSmile refreshes) shipped 96 articles live. See completion summary for per-workstream detail.
 
 ## Why this exists
 
