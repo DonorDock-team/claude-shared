@@ -537,13 +537,19 @@ function renderCitationHistory() {
     meta.textContent = 'No runs yet. The first weekly run lands Mondays at ~6:20am ET.';
     return;
   }
-  if (hist.length === 1) {
-    meta.textContent = `1 run on file (${hist[0].date}). Lines populate as additional weeks accumulate.`;
+  const single = hist.length === 1;
+  if (single) {
+    meta.textContent = `Baseline week — 1 run on file (${hist[0].date}). Lines draw next Monday once a second run lands.`;
   } else {
     meta.textContent = `${hist.length} weekly runs · ${hist[0].date} → ${hist[hist.length - 1].date}`;
   }
 
-  const labels = hist.map(h => h.date);
+  // For a single-point chart, pad an empty trailing slot so the dot sits left-of-center
+  // and bump point sizes so the baseline reading is unmistakable.
+  const labels = single ? [hist[0].date, ''] : hist.map(h => h.date);
+  const pad = (arr) => single ? [arr[0], null] : arr;
+  const ptR = single ? 9 : 4;
+  const ptHover = single ? 12 : 6;
 
   // Chart 1: Overall citation rate
   destroyChart('overall');
@@ -551,9 +557,11 @@ function renderCitationHistory() {
     labels,
     [{
       label: 'DonorDock citation rate',
-      data: hist.map(h => h.donordock_citation_rate_pct ?? 0),
+      data: pad(hist.map(h => h.donordock_citation_rate_pct ?? 0)),
       borderColor: PALETTE.purple, backgroundColor: PALETTE.purple + '22',
-      tension: 0.25, pointRadius: 4, pointHoverRadius: 6, fill: true, borderWidth: 2,
+      tension: 0.25, pointRadius: ptR, pointHoverRadius: ptHover,
+      pointBackgroundColor: PALETTE.purple, pointBorderColor: '#fff', pointBorderWidth: 2,
+      fill: true, borderWidth: 2, spanGaps: true,
     }],
     'Citation rate (%)'
   ));
@@ -566,10 +574,12 @@ function renderCitationHistory() {
     labels,
     engineKeys.map(eng => ({
       label: eng,
-      data: hist.map(h => h.by_engine?.[eng]?.citation_rate_pct ?? null),
+      data: pad(hist.map(h => h.by_engine?.[eng]?.citation_rate_pct ?? null)),
       borderColor: engineColors[eng] || PALETTE.slate,
       backgroundColor: 'transparent',
-      tension: 0.25, pointRadius: 3, pointHoverRadius: 5, borderWidth: 2, spanGaps: true,
+      tension: 0.25, pointRadius: ptR, pointHoverRadius: ptHover,
+      pointBackgroundColor: engineColors[eng] || PALETTE.slate, pointBorderColor: '#fff', pointBorderWidth: 2,
+      borderWidth: 2, spanGaps: true,
     })),
     'Citation rate (%)'
   ));
@@ -588,9 +598,11 @@ function renderCitationHistory() {
     labels,
     top5.map((name, i) => ({
       label: name,
-      data: hist.map(h => h.competitor_mentions?.[name] ?? null),
+      data: pad(hist.map(h => h.competitor_mentions?.[name] ?? null)),
       borderColor: compColors[i], backgroundColor: 'transparent',
-      tension: 0.25, pointRadius: 3, pointHoverRadius: 5, borderWidth: 2, spanGaps: true,
+      tension: 0.25, pointRadius: ptR, pointHoverRadius: ptHover,
+      pointBackgroundColor: compColors[i], pointBorderColor: '#fff', pointBorderWidth: 2,
+      borderWidth: 2, spanGaps: true,
     })),
     'Mentions per run'
   ));
