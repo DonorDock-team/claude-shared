@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550057+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for a donor CRM with flat-rate pricing and no per-user fees, it's essential to focus on platforms that cater specifically to non-profits with straightforward pricing models. Here are a few options to consider:\n\n1. **Bloomerang**: Bloomerang offers simple pricing based on the number of records, not the number of users. This can be advantageous for non-profits with many volunteers or staff members who need access to the system.\n\n2. **Neon One (Neon CRM)**: Neon CRM also offers pricing tiers primarily based on the number of records rather than the number of users, making it a good option for organizations with multiple team members involved in donor management.\n\n3. **Little Green Light**: This CRM is known for its affordable, all-inclusive pricing where you pay based on the number of records in the system. This can be especially beneficial for smaller non-profits or those with rapidly growing donor lists.\n\n4. **DonorSnap**: DonorSnap\u2019s pricing is based on the number of records you have and not on the number of users, making it a budget-friendly option for organizations with a large team needing access.\n\n5. **CiviCRM**: Although not a hosted service with flat-rate pricing per se, CiviCRM is an open-source option, allowing you to manage donor information without worrying about per-user fees. Hosting and customization might incur costs, but you have control over how many users can access it.\n\nWhen evaluating these CRMs, verify the most current pricing structure and assess whether their features match your organization's specific needs. Additionally, consider any additional costs that might come with implementation, support, or add-ons.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 335,
+  "estimated_cost_usd": 0.003395,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

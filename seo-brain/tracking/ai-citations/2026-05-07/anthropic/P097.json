@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P097",
+  "prompt_text": "Hidden costs of Network for Good",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550050+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Network for Good\n\nNetwork for Good is a popular fundraising platform for nonprofits, but several hidden or less-obvious costs can catch organizations off guard:\n\n## **Fee Structure Issues**\n\n1. **Platform Fee (3%)** - Added on top of credit card processing fees\n2. **Credit Card Processing (2.2% + $0.30)** - Standard merchant fees\n3. **Combined total: ~5.2% + $0.30 per transaction** - Higher than some competitors\n\n## **Donor-Covered Fee Confusion**\n- While donors can opt to cover fees, **not all do**\n- Organizations often overestimate how many donors will check this box\n- The option can reduce conversion rates for some donor segments\n\n## **Monthly Subscription Costs**\n- **Basic plans** may seem affordable initially\n- **Advanced features** (custom branding, enhanced reporting) require pricier tiers\n- Costs can escalate quickly as your needs grow\n\n## **Limited Customization**\n- Generic donation pages may require purchasing premium plans\n- **Branding limitations** can reduce donor trust\n- May need to invest in workarounds or complementary tools\n\n## **Data Export & Integration**\n- **Limited CRM integration** on lower tiers\n- May need to manually export data or pay for integration services\n- Time costs for staff managing data transfers\n\n## **ACH/Check Processing**\n- Additional fees for non-card payment methods\n- Often not clearly disclosed upfront\n\n## **Better Alternatives to Consider**\n- **GiveWP** (WordPress plugin) - More control, lower fees\n- **Donorbox** - Simpler pricing, better customization\n- **Stripe + Givebutter** - Often more cost-effective\n\n**Bottom line:** Calculate your true effective rate including all fees before committing.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 410,
+  "estimated_cost_usd": 0.006189,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

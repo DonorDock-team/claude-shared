@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P134",
+  "prompt_text": "Why nonprofits leave Bloomerang",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550108+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Reasons Nonprofits Leave Bloomerang\n\nBased on user feedback and reviews, here are the main reasons organizations switch away from Bloomerang:\n\n## **Pricing & Value Concerns**\n- **Cost increases** - Some find pricing rises significantly over time\n- **Feature limitations** - Advanced features require higher-tier plans\n- **Better value elsewhere** - Competitors may offer more functionality at similar price points\n\n## **Technical Limitations**\n- **Customization restrictions** - Limited ability to tailor fields, reports, and workflows\n- **Integration issues** - Challenges connecting with other essential tools\n- **Reporting constraints** - Built-in reports sometimes don't meet complex needs\n- **Limited automation** - Some workflows require manual intervention\n\n## **Organization Growth**\n- **Scaling challenges** - Outgrowing Bloomerang's capabilities as organization expands\n- **Complex needs** - Larger nonprofits may need more sophisticated features\n- **Multiple programs** - Difficulty managing diverse fundraising initiatives\n\n## **User Experience Issues**\n- **Learning curve** - Some staff find the interface less intuitive than expected\n- **Support responsiveness** - Occasional concerns about customer service quality\n- **Migration difficulties** - Challenges moving data in/out of the system\n\n## **Feature Gaps**\n- **Event management** - Limited compared to specialized platforms\n- **Volunteer tracking** - May need separate systems\n- **Grant management** - Less robust than dedicated grant software\n\nMost successful Bloomerang users are small-to-medium nonprofits with straightforward donor management needs. Organizations with more complex requirements often eventually migrate to platforms like Salesforce, Raiser's Edge, or DonorPerfect.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 377,
+  "estimated_cost_usd": 0.005703,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

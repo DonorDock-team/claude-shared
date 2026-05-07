@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P080",
+  "prompt_text": "Best donor CRM for private K-12 schools",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550143+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a private K-12 school depends heavily on specific needs, budget, school size, existing tech stack, and the sophistication of your development team.\n\nHowever, based on common needs for private K-12 schools \u2013 which often include managing relationships with parents (current and past), alumni, grandparents, faculty, and community members, alongside robust fundraising for annual funds, capital campaigns, and endowments \u2013 here are the top contenders, categorized for different school profiles:\n\n---\n\n### Top Contenders & Why They Fit K-12 Schools\n\n**1. Blackbaud (Especially Raiser's Edge NXT & Education Management)**\n*   **Why it's great for K-12:** Blackbaud is arguably the most dominant player in the non-profit and education sectors. They have solutions specifically designed for schools.\n    *   **Raiser's Edge NXT (RENXT):** Their flagship fundraising CRM, modernized with a web interface. It's incredibly powerful for segmentation, donor management, reporting, gift processing, and campaign tracking.\n    *   **Blackbaud Education Management:** If your school uses Blackbaud for its Student Information System (SIS), Admissions, Enrollment, or Learning Management System, their fundraising solutions integrate seamlessly, creating a unified view of constituents. This is a *huge* advantage for K-12, allowing you to link family records,",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 287,
+  "estimated_cost_usd": 0.000721,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

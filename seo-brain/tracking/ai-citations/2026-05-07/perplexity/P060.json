@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550014+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Recurring Giving\n\nBased on the search results, several nonprofit CRMs excel at managing recurring donations (also called monthly or sustainer giving). These platforms emphasize automation, donor tracking, personalized engagement, and seamless payment handling to boost retention and predictable revenue. Here's a breakdown of the key options, their standout features, and why they fit recurring programs:\n\n#### 1. **DonorDock** (Top for Automation and Tracking)\n   - **Key Features**:\n     - Tracks donor contributions over time to identify loyal supporters.\n     - Automates thank-you emails, receipts, and payment expiration reminders.\n     - Personalizes outreach with impact stories and updates.\n   - **Best For**: Nonprofits wanting simple, hands-off management to prevent lapsed donations.\n   - **Source**: [1]\n\n#### 2. **CharityEngine** (Top for Donor Portals and Flexibility)\n   - **Key Features**:\n     - Customizable donation forms with AI-personalized ask amounts, one-time vs. recurring options.\n     - Donor portal for self-service: modify, pause, or cancel payments.\n     - Supports multiple methods (credit card, ACH, PayPal, Venmo, DAFs; no crypto).\n     - Automated acknowledgments (email/text/mail), milestone campaigns, and multi-step engagement series.\n   - **Best For**: Building scalable monthly programs with high donor control and retention tools.\n   - **Source**: [2]\n\n#### 3. **GivingFuel** (Top for Imports and Admin Control)\n   - **Key Features**:\n     - Centralized dashboard for managing recurring intervals, amounts, and payments.\n     - Donors self-manage via Donor Account Center; admins can intervene.\n     - Imports historic/recurring data (with fee for migrations); initiates new gifts from stored payments.\n     - Auto-updates expired cards; supports fund splitting and peer-to-peer (e.g., sponsorships).\n     - Real-time analytics on donor behavior.\n   - **Best For**: Switching platforms without disrupting giving; high-volume recurring management.\n   - **Source**: [4]\n\n#### 4. **Donorbox** (Top for Segmentation and Reporting)\n   - **Key Features**:\n     - Auto-creates donor accounts with login details for upgrades/management.\n     - Advanced filters to segment by amount/interval for targeted communications.\n     - Integrates with receipts, reporting, and CRM for full visibility.\n   - **Best For**: Data-driven personalization and tracking long-term supporters.\n   - **Source**: [5]\n\n#### Comparison Table of Core Recurring Features\n\n| CRM          | Donor Self-Management | Automation (Thanks/Reminders) | Payment Options | Data Import/Migration | Reporting/Segmentation |\n|--------------|-----------------------|-------------------------------|-----------------|-----------------------|------------------------|\n| **DonorDock** | Partial (via CRM)    | Yes (emails, reminders)      | Standard       | Not specified        | Donor history tracking |\n| **CharityEngine** | Full portal         | Yes (multi-channel, milestones) | Extensive (ACH, wallets) | Not specified   | Behavioral insights   |\n| **GivingFuel** | Full portal          | Yes (auto-card updates)      | Flexible       | Yes (recurring fee)  | Real-time dashboard   |\n| **Donorbox** | Full accounts        | Partial (integrations)       | Standard       | Not specified        | Advanced filters      |\n| **Funraise** | Not detailed         | Implied for monthly setups   | Standard       | Not specified        | Basic reports         |\n| **Virtuous** | Automation-focused   | Welcome series/sequencing    | Standard       | Not specified        | Workflow automation   |\n\n#### Additional Recommendations from Results\n- **General Strategies** (Across [3], [7-9]): Use CRM data to target likely recurring donors (e.g., via surveys), default to monthly on forms, automate collections, and send milestone updates. Tools like DonorPerfect ([9]) and GiveSmart ([8]) add easy forms and donor databases.\n- **Other Options**: Funraise ([6]) for incentives; Virtuous ([7]) for new-donor conversion; Mightycause ([10]) for reports/engagement.\n\n**Recommendation**: Start with **CharityEngine** or **GivingFuel** if donor self-service and imports are priorities. Test free trials (most offer them) to match your nonprofit's scale. Recurring programs typically yield higher lifetime value and retention (e.g., [2], [9]). For setup guides, check the linked articles.",
+  "donordock_mentioned": true,
+  "donordock_position": 439,
+  "competitors_mentioned": [
+    "DonorBox",
+    "DonorPerfect",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 943,
+  "estimated_cost_usd": 0.019166,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/articles/recurring-donations",
+      "https://blog.charityengine.net/nonprofit-crm-monthly-giving-features",
+      "https://afpglobal.org/building-recurring-giving-program-4-steps-nonprofits",
+      "https://www.givingfuel.com/features/donormanagement-overview",
+      "https://donorbox.org/explore/recurring-donations/",
+      "https://www.funraise.org/features/recurring-giving",
+      "https://virtuous.org/blog/recurring-giving/",
+      "https://www.givesmart.com/blog/increase-recurring-donations/",
+      "https://www.donorperfect.com/monthly-giving/",
+      "https://www.mightycause.com/guide/recurring-giving"
+    ]
+  }
+}

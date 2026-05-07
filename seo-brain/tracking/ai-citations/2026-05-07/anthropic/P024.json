@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P024",
+  "prompt_text": "How much does nonprofit donor CRM cost",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.548770+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Nonprofit Donor CRM Costs\n\nNonprofit CRM pricing varies widely based on features, organization size, and needs:\n\n## **Free Options**\n- **CiviCRM** - Free, open-source (hosting/support costs extra)\n- **Bitrix24** - Free tier for small teams\n- **SuiteCRM** - Free, open-source\n\n## **Budget-Friendly ($0-$50/month)**\n- **Bloomerang** - ~$125/month\n- **Little Green Light** - $39-$99/month\n- **DonorPerfect** - Starting ~$89/month\n- **Kindful** - ~$100+/month\n\n## **Mid-Range ($100-$300/month)**\n- **Salesforce Nonprofit Cloud** - Free for 10 licenses, then ~$36/user/month\n- **NeonCRM** - $50-$200+/month\n- **Keela** - ~$119-$249/month\n- **Bloomerang** - $125-$400+/month\n\n## **Enterprise Level ($300+/month)**\n- **Blackbaud Raiser's Edge NXT** - $6,000-$30,000+/year\n- **Salesforce** (larger implementations) - Can exceed $500+/month\n\n## **Key Cost Factors:**\n- Number of contacts/donors\n- Number of users\n- Features needed (online giving, email marketing, events)\n- Implementation/setup fees\n- Training and support\n- Data migration costs\n\n**Tip:** Many CRM providers offer nonprofit discounts (10-50% off). Always ask about nonprofit pricing and free trials.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 387,
+  "estimated_cost_usd": 0.00585,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

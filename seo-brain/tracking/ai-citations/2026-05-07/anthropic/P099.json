@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P099",
+  "prompt_text": "Best value donor CRM under $500 per month",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550159+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Value Donor CRMs Under $500/Month\n\n## Top Recommendations\n\n### **1. Bloomerang** (~$125-$150/month)\n- **Best for:** Small to mid-size nonprofits\n- **Strong points:** Excellent donor retention tools, automated engagement reminders, intuitive interface\n- **Includes:** Email marketing, reporting, wealth screening\n- **User feedback:** Consistently highest-rated for usability\n\n### **2. Donorbox** ($0-$139/month + processing fees)\n- **Best for:** Budget-conscious organizations\n- **Strong points:** Free tier available, strong donation forms, text-to-give\n- **Includes:** Basic CRM, recurring donations, peer-to-peer\n- **Note:** Pay primarily via processing fees (platform fee can be covered by donors)\n\n### **3. Little Green Light** (~$59-$189/month)\n- **Best for:** Small nonprofits wanting full features\n- **Strong points:** Flat-rate pricing regardless of contacts, comprehensive features\n- **Includes:** Unlimited users, email, reporting, online forms\n\n### **4. Kindful** (now Bloomerang Express, ~$100-$200/month)\n- **Best for:** Growing organizations\n- **Strong points:** Good automation, integrates well with QuickBooks\n- **Includes:** Task management, email, reporting\n\n## Key Considerations\n- **Database size:** Some charge per contact\n- **Users:** Check if unlimited or tiered\n- **Payment processing:** Often separate fees (2-3%)\n- **Email volume:** May have sending limits\n\n**What's your organization's size and primary needs?** This helps narrow the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 384,
+  "estimated_cost_usd": 0.005814,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

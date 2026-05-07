@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P116",
+  "prompt_text": "Best AI tool for nonprofit donor outreach",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550147+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "There isn't a single \"best\" AI tool for nonprofit donor outreach, as the ideal choice depends heavily on your nonprofit's size, budget, existing technology, specific outreach goals, and staff expertise.\n\nHowever, we can categorize the most effective AI applications and recommend tools within those categories. The most successful approach often involves a *combination* of tools.\n\nHere are the key areas where AI can significantly boost nonprofit donor outreach:\n\n---\n\n### Categories of AI Tools for Nonprofit Donor Outreach:\n\n**1. Generative AI for Content Creation & Personalization (Broad Utility)**\n*   **What it does:** Helps draft emails, social media posts, appeal letters, thank-you notes, subject lines, calls to action, and even basic campaign outlines. It can also help segment audiences and tailor messages.\n*   **Why it's great for nonprofits:** Saves immense time on copywriting, helps overcome writer's block, and can generate multiple variations for A/B testing. Can assist in creating more personalized content at scale.\n*   **Recommended Tools:**\n    *   **ChatGPT / Google Gemini (formerly Bard):** Excellent for general brainstorming, drafting various types of content, summarizing donor data (ensure privacy), and generating ideas for campaigns. Free tiers are very powerful.\n    *   **Jasper / Copy.ai:** More focused on marketing and sales copy, these tools often have templates specifically designed for persuasive writing, which can be adapted for fundraising appeals. They typically offer more advanced features and integrations for a monthly fee.\n    *   **Canva's Magic Write:** Integrated directly into a design tool, this is great for drafting text directly into social media graphics, flyers, or presentations.\n\n**2. Predictive AI for Donor Insights & Prospecting (Strategic & Data-Driven)**\n*   **What it does:** Analyzes your existing donor data (and sometimes external data) to identify patterns. It can predict:\n    *   Which donors are most likely to give again (and when).\n    *   Which donors are at risk of lapsing.\n    *   Which current donors have the capacity to become major donors.\n    *   Potential new prospects that match your ideal donor profile.\n    *   Optimal ask amounts and timing.\n*   **Why it's great for nonprofits:** Moves outreach from reactive to proactive, helps prioritize efforts on the most promising donors, and maximizes fundraising potential.\n*   **Recommended Tools (often integrated into CRMs or specialized platforms):**\n    *   **Salesforce Einstein for Nonprofits:** If you use Salesforce, Einstein AI can provide predictive analytics for donor churn, gift likelihood, and major donor identification. Powerful but requires a robust Salesforce implementation.\n    *   **Blackbaud Raiser's Edge NXT (with AI features):** Blackbaud often incorporates AI for wealth screening, prospect identification, and predicting donor behavior within its leading fundraising CRM.\n    *   **Dataro:** Specifically designed for direct mail and digital fundraising optimization, Dataro uses AI to predict who to mail, when, and with what ask amount to maximize ROI. Can be very effective for larger campaigns.\n    *   **Gravyty (now part of Blackbaud):** Focuses on AI-powered major gift prospecting and",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 670,
+  "estimated_cost_usd": 0.001677,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

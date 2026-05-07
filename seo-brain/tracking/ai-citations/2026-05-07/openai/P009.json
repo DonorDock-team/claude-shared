@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550165+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Givebutter are both software platforms designed to assist nonprofits with fundraising and donor management, but they cater to slightly different needs and offer a range of features that may appeal to different types of organizations.\n\n### DonorDock\n\n**Key Features:**\n1. **Donor Management**: DonorDock focuses on providing a comprehensive donor management system. This includes tracking donor interactions, managing contact information, and segmenting donors.\n2. **Email and Communication Tools**: It offers integrated email tools to help nonprofits communicate effectively with their donors.\n3. **Fundraising Tools**: Supports various fundraising activities and campaigns, allowing for event management and donation tracking.\n4. **Reporting and Analytics**: Provides detailed analytics and reporting tools to help organizations assess the effectiveness of their campaigns.\n\n**Strengths:**\n- Strong donor management capabilities.\n- Useful analytics for campaign assessment.\n- Integration with other tools for improved workflows.\n\n**Considerations:**\n- May be more suited for organizations looking for robust donor management features.\n\n### Givebutter\n\n**Key Features:**\n1. **Fundraising Campaigns**: Givebutter specializes in peer-to-peer fundraising, events, auctions, and donation forms. It\u2019s known for its user-friendly interface in setting up campaigns.\n2. **Payment Processing**: It supports multiple payment methods, including credit cards, PayPal, Apple Pay, and more, making it flexible for donors.\n3. **Social Engagement**: Offers tools to encourage social sharing and engagement, which is beneficial for peer-to-peer fundraising.\n4. **Integrated Livestreaming**: A unique feature that allows for live streaming within fundraisers, enhancing remote event capabilities.\n\n**Strengths:**\n- Focused on engaging donors with peer-to-peer elements and social sharing.\n- Integrated live streaming for virtual events.\n- Provides a variety of payment options.\n\n**Considerations:**\n- Might be a better fit for organizations focusing on social and peer-to-peer fundraising.\n\n### Choosing Between DonorDock and Givebutter\n\nWhen deciding between these platforms, consider the specific needs of your organization:\n\n- If comprehensive donor management and communication are your priority, **DonorDock** might be the better choice.\n- If your focus is on peer-to-peer fundraising, social engagement, and virtual events, **Givebutter** could be more suitable.\n\nUltimately, it depends on whether your nonprofit needs a robust management tool or a dynamic fundraising platform with peer-to-peer capabilities. Consider taking advantage of free trials or demos if available to better assess which platform aligns best with your goals.",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 515,
+  "estimated_cost_usd": 0.005185,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.549212+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM with Recurring Giving\n\nI'll help you understand donor CRMs with recurring giving capabilities. Here's what you need to know:\n\n## **Top Donor CRMs with Recurring Giving**\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- Strong retention tracking\n- Automated recurring gift processing\n- Donor engagement scoring\n- **Pricing:** Starting at ~$125/month\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Large organizations\n- Highly customizable\n- Robust recurring donation automation\n- Integrates with payment processors\n- **Pricing:** $36/user/month (NPSP is free)\n\n### **3. DonorPerfect**\n- **Best for:** Growing nonprofits\n- Built-in payment processing\n- Automated recurring gift management\n- Donor portal for self-service\n- **Pricing:** Starting at ~$89/month\n\n### **4. Kindful (by Bloomerang)**\n- **Best for:** Small nonprofits\n- Simple recurring gift setup\n- Donor communication tools\n- Good reporting\n- **Pricing:** Starting at ~$100/month\n\n### **5. Keela**\n- **Best for:** Budget-conscious organizations\n- AI-powered insights\n- Recurring donation management\n- Email marketing included\n- **Pricing:** Starting at ~$50/month\n\n## **Key Features to Look For**\n\n### **Recurring Gift Management**\n- \u2705 Automated payment processing\n- \u2705 Flexible frequency options (weekly, monthly, quarterly, annually)\n- \u2705 Failed payment notifications and retry logic\n- \u2705 Easy upgrade/downgrade options for donors\n- \u2705 Donor self-service portal\n\n### **Payment Processing**\n- Multiple payment gateway integrations (Stripe, PayPal, Authorize.net)\n- ACH/bank transfers for lower fees\n- Credit card vault security (PCI compliance)\n- Automated receipting\n\n### **Reporting & Analytics**\n- Monthly recurring revenue (MRR) tracking\n- Churn rate analysis\n- Donor lifetime value calculations\n- Retention reports\n- Forecasting tools\n\n### **Donor Communication**\n- Automated thank-you emails\n- Payment confirmation notifications\n- Renewal reminders\n- Impact updates for sustaining donors\n- Failed payment alerts\n\n## **Questions to Consider**\n\nBefore choosing a CRM, ask yourself:\n\n1. **What's your budget?** (including transaction fees)\n2. **How many donors do you have?** (current and projected)\n3. **Do you need email marketing built-in?**\n4. **What payment processors do you currently use?**\n5. **How tech-savvy is your team?**\n6. **Do you need grant management or event tools too?**\n\n## **Implementation Tips**\n\n1. **Migrate existing recurring donors carefully** - Test thoroughly before going live\n2. **Set up automated workflows** - Welcome series, payment failures, anniversaries\n3. **Create a monthly giving program brand** - Give it a name and identity\n4. **Train staff on processing** - Especially handling payment failures\n5. **Monitor metrics monthly** - Track growth, churn, and average gift size\n\nWould you like more specific recommendations based on your organization's size, budget, or specific needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 765,
+  "estimated_cost_usd": 0.011517,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

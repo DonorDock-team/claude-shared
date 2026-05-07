@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P027",
+  "prompt_text": "Best rated donor CRM on G2",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550180+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Bloomerang CRM is the best-rated donor CRM on G2 based on the provided search results.**\n\n### Key Evidence from G2 Reviews (May 2026 Data):\n- **Nonprofit CRM Category** ([1], [3], [4]): Bloomerang scores 4.6\u20134.7/5 stars (889+ reviews), praised for ease of use, robust reporting, integrations, and donor retention. It's frequently highlighted as top-rated.\n- **Donor Management Category** ([2], [6]): 4.6/5 (889 reviews), ranked **4th Easiest To Use**. DonorDock claims strong positioning here too, but Bloomerang has higher explicit ratings and review volume.\n- **Comparisons**: Outshines others like Blackbaud Raiser's Edge NXT (mid-market focus, [4]), Zeffy (highest satisfaction but not overall top, [4]), and Givebutter (#1 overall nonprofit software, not donor-specific, [8]).\n\nWhile Givebutter won G2's #1 Best Nonprofit Software 2026 ([8], 1.5K+ reviews), Bloomerang leads specifically in **donor management/nonprofit CRM** subcategories per G2's donor-focused grids ([2], [4]). No result shows a higher G2 score for pure donor CRM functionality. For the latest, check G2 directly as rankings evolve.",
+  "donordock_mentioned": true,
+  "donordock_position": 454,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Givebutter",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 293,
+  "estimated_cost_usd": 0.009419,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.g2.com/categories/nonprofit-crm",
+      "https://www.g2.com/categories/donor-management",
+      "https://bloomerang.com/blog/nonprofit-crm/",
+      "https://www.g2.com/categories/nonprofit-crm/small-business",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://www.g2.com/categories/donor-management/resources",
+      "https://stratuslive.com/blog/nonprofit-crm-systems-comparison/",
+      "https://givebutter.com/blog/best-nonprofit-software-award-2026",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/"
+    ]
+  }
+}

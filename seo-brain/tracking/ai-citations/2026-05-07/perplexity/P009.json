@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550178+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs. Givebutter: Comprehensive Comparison (2026)\n\nBoth DonorDock and Givebutter are popular nonprofit CRM and fundraising platforms designed to streamline donor management, online giving, and engagement. DonorDock emphasizes affordable, AI-powered donor stewardship and automation, while Givebutter positions itself as a free, all-in-one fundraising suite with broader campaign tools. Below is a head-to-head breakdown based on features, pricing, user feedback, and more from recent comparisons (e.g., DonorDock's site, G2, GetApp, Slashdot, and others).\n\n## Key Features Comparison\n\n| Category              | DonorDock                                                                 | Givebutter                                                                 |\n|-----------------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------|\n| **Core CRM**         | Full donor CRM with centralized data, giving history, engagement insights, AI summaries (Otto AI suggests outreach). Badges, tasks, and workflows from reports. | Built-in donor CRM for tracking gifts, segmentation, and automation. Data often in separate tabs; strong on transaction tracking. |\n| **Automation**       | Organization-wide workflows with **15 actions** (emails, tasks, badges, journeys). Auto-receipts, year-end statements, reminders. | **6 actions** via Givebutter Plus. Automates reports and basic follow-ups. |\n| **Fundraising Tools**| Online giving, email/text builder with AI for subject lines/CTAs. Focus on stewardship over campaigns. | High-converting forms, peer-to-peer, events, auctions, raffles, fundraising pages. Supports Venmo, PayPal, Cash App, Apple/Google Pay. |\n| **Communication**    | AI-optimized emails/texts, personalized outreach from one view (call/email/text/task). Print letters, export lists. | Email/SMS/direct mail, marketing suite for personalized messages. Unlimited campaigns. |\n| **Reporting/Analytics** | Actionable reports (email/text/assign from any report). Retention tracking, performance insights. | Displays totals; strong on donor lifetime value and retention via integrated tools. |\n| **Integrations**     | QuickBooks, Mailchimp; native Givebutter integration available (via Zapier-like templates). | Broad payment processors; fewer CRM-specific but all-in-one reduces need. |\n| **Other Standouts**  | Easiest setup (voted); unlimited contacts; affordable for stewardship-heavy orgs. Secure data, volunteer tools. | 2.5% APY wallet on funds; mobile app; donor tips model; event ticketing, P2P. Zero monthly fees. |\n\n*Sources: [1] DonorDock comparison, [2] Slashdot, [3] GetApp, [6] G2, [7] Givebutter blog.*\n\n## Pricing and Fees\n- **DonorDock**: More affordable overall (specifics not listed, but positioned as budget-friendly vs. Givebutter). No platform fees mentioned; focuses on core CRM without tipping.\n- **Givebutter**: Completely free core platform (no monthly fees/minimums). Relies on **optional donor tips** (covers processing fees). Givebutter Plus adds advanced automation (~$29+/mo). Processing: ~2.95% + $0.30/transaction, offset by tips.\n  \n*Givebutter wins for small orgs wanting zero upfront costs; DonorDock for predictable, low-cost CRM scaling.*\n\n*From [4] YouTube comparison (Donorbox vs. Givebutter, analogous): Givebutter's tipping model suits broad fundraising; cleaner fees favor focused tools.*\n\n## User Reviews and Satisfaction\n- **DonorDock**: Praised for ease (aesthetic UI, donor organization, reports, badges, retention tracking). \"Easy to organize donor info, email donors, check YOY progress\" (G2 [6]). Strong for engagement tasks.\n- **Givebutter**: Loved for all-in-one simplicity, branding, unlimited auctions/photos, donor experience. \"Aesthetic, easy for donors; handles campaigns/events seamlessly\" (G2 [6]). Critiques: Can't unpublish live campaigns; form titles visible to donors.\n  \n*G2 head-to-head ([6]): DonorDock edges on donor management depth; Givebutter on fundraising breadth. GetApp/Slashdot ([2][3]) rate both highly for nonprofits.*\n\n*Support: Givebutter ties for top scores with live agents/multi-channels ([9]). DonorDock offers dedicated team.*\n\n## Pros and Cons\n### DonorDock\n**Pros**:\n- Superior AI/automation for donor relationships (e.g., Otto AI, 15 workflows).\n- Actionable insights turn data into tasks.\n- Affordable, full CRM for stewardship-focused orgs.\n- Seamless Givebutter integration possible ([5]).\n\n**Cons**:\n- Less emphasis on events/P2P/auctions.\n- Fewer built-in fundraising pages vs. all-in-one rivals.\n\n### Givebutter\n**Pros**:\n- Free, expansive toolkit (forms, events, P2P, auctions, wallet).\n- Frictionless donor experience (mobile, multiple payments).\n- Ideal for campaigns and growth ([4]: \"More leverage for small nonprofits\").\n\n**Cons**:\n- Tipping model can feel unpredictable.\n- Shallower CRM automation (fewer actions, buried data).\n\n## Which to Choose?\n- **Pick DonorDock** if you need a robust, AI-driven CRM for donor stewardship, personalized follow-ups, and automation without campaign bloat. Best for mid-sized nonprofits prioritizing relationships and affordability.\n- **Pick Givebutter** if you're a small/growing org wanting an all-in-one free platform for events, P2P, auctions, and quick fundraising. Excels at simplifying operations and donor acquisition.\n- **Hybrid?** Integrate them ([5])\u2014use Givebutter for campaigns, DonorDock for CRM depth.\n\nFor the latest pricing or demos, check official sites: [DonorDock](https://www.donordock.com) or [Givebutter](https://givebutter.com). Real choice depends on your org's size, focus (CRM vs. campaigns), and budget\u2014trial both!",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter"
+  ],
+  "urls_cited": [
+    "https://givebutter.com",
+    "https://www.donordock.com"
+  ],
+  "input_tokens": 8,
+  "output_tokens": 1271,
+  "estimated_cost_usd": 0.024089,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/compare/givebutter-vs-donordock",
+      "https://slashdot.org/software/comparison/DonorDock-vs-Givebutter/",
+      "https://www.getapp.com/nonprofit-software/a/givebutter/compare/donordock/",
+      "https://www.youtube.com/watch?v=Gw5yKnEDXCY",
+      "https://www.donordock.com/integrations/givebutter",
+      "https://www.g2.com/compare/donordock-vs-givebutter",
+      "https://givebutter.com/blog/best-online-donation-platforms",
+      "https://sourceforge.net/software/compare/DonorDock-vs-Givebutter/",
+      "https://118group.com/research/we-reviewed-and-scored-8-online-giving-platforms-heres-how-they-compared/"
+    ]
+  }
+}

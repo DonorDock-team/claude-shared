@@ -1,0 +1,38 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "perplexity",
+  "timestamp": "2026-05-07T21:03:20.550070+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**LiveImpact offers the nonprofit CRM with flat-rate pricing and no per-user fees that best matches your query.**\n\n### Key Details from Search Results\n- **Flat-Rate Model**: LiveImpact uses a single monthly or annual fee, regardless of the number of users (staff, board, volunteers) or contact records stored. This avoids per-user charges and database-size tiers, making it budget-predictable for growing organizations. No incentives to delete donor data to cut costs.\n  - Source: [1] LiveImpact blog \u2013 Explicitly describes their \"flat-rate, modular pricing\" with \"no per-user fees, no contact record tiers,\" and case management included (not an add-on).\n\n### Comparison to Other Options\nMost nonprofit CRMs use per-user, per-contact, or tiered pricing, which don't fully match:\n| CRM | Pricing Model | Matches Query? | Notes |\n|-----|---------------|----------------|-------|\n| **LiveImpact** | Flat-rate (one fee) | \u2705 Yes | Unlimited users/records; modular add-ons. |\n| Bloomerang | Per-contact records ($125+/month) | \u274c No | Unlimited users, but scales with database size [2, 8]. |\n| DonorPerfect | Custom quote (likely per-contact/users) | \u274c No | Personalized, includes many features but not flat-rate [7]. |\n| Salesforce Nonprofit Cloud | Per-user ($60\u2013$100/month) | \u274c No | Enterprise tiers [4]. |\n| Givebutter | Free core (tips on donations) or low-cost | \u26a0\ufe0f Partial | Unlimited users/contacts on free plan, but transaction-based [4, 9]. |\n| Flowlu | Free (2 users), then $9/user/month | \u274c No | Per-user after free tier; nonprofit discounts [2]. |\n| DonorDock | Paid tiers (no free plan) | \u274c No | Processing fees; full CRM not free [2]. |\n| GivingTech | Free platform + 1.6% avg. transaction fee | \u26a0\ufe0f Partial | No monthly fee, but fee-based on donations [6]. |\n| Donorbox | $0\u2013$150/month + platform fees (1.75\u20132.95%) | \u274c No | Subscription + fees; full CRM extra [5, 8]. |\n\n- **Why LiveImpact Stands Out**: It's the only one explicitly advertising true flat-rate pricing without per-user or per-record limits, directly addressing growth without cost spikes [1, 3]. Others tie costs to users, contacts, or transactions.\n\nFor current pricing or demos, visit [LiveImpact's pricing page](https://www.liveimpact.org/blog/nonprofit-crm-pricing) or contact them, as 2026 details may vary. If you need flat-rate + free options, Givebutter or GivingTech are close alternatives but rely on donation tips/fees.",
+  "donordock_mentioned": true,
+  "donordock_position": 1556,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Givebutter",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [
+    "https://www.liveimpact.org/blog/nonprofit-crm-pricing"
+  ],
+  "input_tokens": 12,
+  "output_tokens": 602,
+  "estimated_cost_usd": 0.014066,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.liveimpact.org/blog/nonprofit-crm-pricing",
+      "https://givebutter.com/blog/best-free-crm-for-nonprofits",
+      "https://momentivesoftware.com/blog/nonprofit-crm/",
+      "https://www.streak.com/post/best-crm-for-nonprofits",
+      "https://blog.mightycause.com/best-fundraising-platforms-for-nonprofits-2026/",
+      "https://givingtech.org/pricing",
+      "https://www.donorperfect.com/fundraising-software/pricing-guide/",
+      "https://bloomerang.com/blog/free-nonprofit-software/",
+      "https://www.g2.com/categories/nonprofit-crm/free"
+    ]
+  }
+}

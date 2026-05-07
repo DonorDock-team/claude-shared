@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P008",
+  "prompt_text": "DonorDock vs Neon CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-05-07T21:03:20.550095+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Neon CRM Comparison\n\n## Quick Overview\n\n**DonorDock** - Best for small nonprofits and churches wanting simplicity\n**Neon CRM** - Best for growing nonprofits needing comprehensive features\n\n## Key Differences\n\n### **Pricing**\n- **DonorDock**: Starts around $39-99/month, simpler pricing tiers\n- **Neon CRM**: Starts around $99-199/month, scales with contacts and features\n\n### **Ease of Use**\n- **DonorDock**: Known for intuitive, clean interface; minimal learning curve\n- **Neon CRM**: More complex but powerful; steeper learning curve\n\n### **Core Features**\n\n| Feature | DonorDock | Neon CRM |\n|---------|-----------|----------|\n| Donor Management | \u2713 Basic-Intermediate | \u2713 Advanced |\n| Email Marketing | \u2713 Basic | \u2713 Robust (Neon Mail) |\n| Event Management | \u2713 Limited | \u2713 Comprehensive |\n| Volunteer Tracking | \u2717 Limited | \u2713 Yes |\n| Membership Management | \u2717 No | \u2713 Yes |\n| Reporting | \u2713 Standard | \u2713 Advanced/Custom |\n| Grant Tracking | \u2713 Yes | \u2713 Yes |\n\n### **Best For**\n\n**Choose DonorDock if you:**\n- Have a small team or limited tech expertise\n- Manage under 5,000 contacts\n- Want affordable, straightforward donor management\n- Prioritize ease of use over advanced features\n\n**Choose Neon CRM if you:**\n- Need all-in-one functionality (events, memberships, volunteers)\n- Have 5,000+ contacts or plan to scale\n- Want advanced reporting and automation\n- Need comprehensive integrations\n\n### **Support & Training**\n- **DonorDock**: Known for responsive, personal support\n- **Neon CRM**: Extensive knowledge base, training resources, larger support team\n\n## Bottom Line\nDonorDock is ideal for simplicity-focused organizations, while Neon CRM suits nonprofits needing a more feature-rich, scalable solution.\n\nWould you like details on any specific feature area?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 538,
+  "estimated_cost_usd": 0.008124,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550032+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Almost all modern donor CRMs include robust recurring giving functionality as a core feature. This is because recurring donors are the backbone of many non-profits, providing predictable, sustainable income.\n\nHere's a breakdown of popular donor CRMs that excel in managing recurring giving, along with what to look for:\n\n---\n\n### Key Features to Look for in Recurring Giving within a CRM:\n\n1.  **Easy Setup for Donors:** Simple, intuitive online forms for donors to set up recurring donations (monthly, quarterly, annually, custom).\n2.  **Donor Self-Service Portal:** Allows donors to log in, view their giving history, update payment information (credit card expiry, bank account changes), change donation amounts, or cancel recurring gifts themselves. This reduces administrative burden.\n3.  **Automated Payment Processing:** Integration with payment gateways (Stripe, PayPal, Authorize.net, etc.) for automatic deductions.\n4.  **Failed Payment Notifications/Dunning Management:** Automated emails to donors when a recurring payment fails (e.g., expired card), prompting them to update their information. This is crucial for retention.\n5.  **Upgrade/Downgrade Options:** Tools for donors or staff to easily adjust the recurring donation amount.\n6.  **Reporting & Analytics:**\n    *   **MRR (Monthly Recurring Revenue):** Track predictable income.\n    *   **Churn Rate:** How many recurring donors are canceling.\n    *   **Retention Rate:** How many are staying.\n    *   **Average Recurring Gift Size:** Insights into donor behavior.\n    *   **Lifetime Value:** Project future income from recurring donors.\n7.  **Automated Communications:**\n    *   **Welcome Series:** For new recurring donors.\n    *   **Anniversary Messages:** To thank donors on their giving anniversary.\n    *   **Impact Updates:** To show donors the effect of their consistent support.\n8.  **Tribute/Gift Designations:** Ability for donors to designate recurring gifts in honor or memory of someone.\n9.  **PCI Compliance:** Secure handling of sensitive payment information.\n\n---\n\n### Top Donor CRMs with Excellent Recurring Giving Features:\n\nHere are some leading options, catering to different organizational sizes and needs:\n\n1.  **Salesforce Nonprofit Cloud (with NPSP - Nonprofit Success Pack)**\n    *   **Pros:** Most powerful and customizable platform. Excellent for complex organizations with diverse fundraising needs. Extensive app ecosystem. NPSP is free for non-profits (though implementation and add-ons can be costly). Robust reporting.\n    *   **Recurring Giving:** NPSP tracks recurring donations (called \"Recurring Donations\" and \"Sustainer Series\") natively. Integrates with various payment processors. Highly customizable automation for payment failures and donor communication.\n    *   **Cons:** Steep learning curve, requires significant administrative expertise or budget for consultants. Can be expensive for smaller organizations.\n    *   **Best For:** Medium to large non-profits, organizations with complex data needs, those looking for long-term scalability and deep customization.\n\n2.  **Blackbaud (Raisin's Edge NXT, Luminate CRM)**\n    *   **Pros:** Industry giant with a wide range of products. Comprehensive solutions for large and enterprise-level non-profits. Strong analytics and peer-to-peer fundraising capabilities.\n    *   **Recurring Giving:** Excellent dunning management, donor portals, and integration across their suite of tools for robust recurring gift management and reporting.\n    *   **Cons:** Can be very expensive, complex, and sometimes feel dated. May be overkill for smaller organizations.\n    *   **Best For:** Large non-profits, universities, hospitals, and organizations with deep pockets and complex fundraising operations.\n\n3.  **Bloomerang**\n    *   **Pros:** Known for its focus on donor retention and engagement. User-friendly interface, strong communication tools (email, letters), and built-in donor engagement metrics. Excellent training and support.\n    *   **Recurring Giving:** Easy for donors to set up and manage. Automated email notifications for failed payments, expiring cards, and personalized thank you messages. Good reporting on",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 867,
+  "estimated_cost_usd": 0.002169,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

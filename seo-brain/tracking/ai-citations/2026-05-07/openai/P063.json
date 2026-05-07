@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550170+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Implementing a Donor CRM (Customer Relationship Management) system with text messaging capabilities can significantly improve your organization's ability to engage with donors, manage relationships, and enhance fundraising efforts. Here's a guide on how to effectively integrate text messaging into a Donor CRM system:\n\n### 1. **Select a Donor CRM with Text Messaging Features:**\n   - **Research and Choose:** Look for CRM solutions specifically designed for nonprofits, which often have features like donation tracking, donor segmentation, and communication tools.\n   - **Integration Capabilities:** Ensure the CRM can integrate with popular text messaging platforms (such as Twilio or Zipwhip) or offer built-in SMS functionality.\n\n### 2. **Segment Your Donor List:**\n   - **Data Collection:** Gather comprehensive donor data, including phone numbers and consent for text messaging.\n   - **Create Segments:** Segment your donor list based on criteria like donation history, engagement level, and interests to tailor your messages effectively.\n\n### 3. **Craft Effective Messaging Campaigns:**\n   - **Personalization:** Use the CRM to personalize messages with donor names and relevant details.\n   - **Call to Action:** Clearly define what action you want the recipient to take, whether it's donating, attending an event, or participating in a campaign.\n   - **Timing:** Schedule messages for optimal times to increase engagement and response rates.\n\n### 4. **Automate Text Messaging:**\n   - **Automated Messages:** Set up automated messages for activities such as donation confirmations, thank-you notes, and event reminders.\n   - **Drip Campaigns:** Create a series of automated messages that are sent based on donor actions or timelines, like a welcome series for new donors.\n\n### 5. **Engage and Interact:**\n   - **Two-Way Communication:** Enable two-way texting so donors can ask questions or provide feedback.\n   - **Responsive Replies:** Assign staff to monitor and respond to inquiries promptly.\n\n### 6. **Track and Analyze Performance:**\n   - **Analytics Dashboard:** Use CRM analytics to track the success of text messaging campaigns, including open rates, response rates, and conversion metrics.\n   - **A/B Testing:** Conduct tests on different message formats and times to optimize your outreach strategies.\n\n### 7. **Maintain Compliance:**\n   - **Obtain Consent:** Make sure donors have opted-in to receive text messages in accordance with regulations like the Telephone Consumer Protection Act (TCPA).\n   - **Data Privacy:** Protect donor information by adhering to data protection laws, such as GDPR if applicable.\n\n### 8. **Integrate with Other Channels:**\n   - **Omnichannel Approach:** Combine text messaging with other channels (email, social media, direct mail) for a comprehensive communication strategy.\n   - **Consistency:** Maintain consistent messaging across all platforms to reinforce your brand and message.\n\n### 9. **Review and Iterate:**\n   - **Feedback Loop:** Regularly assess the feedback and results from your campaigns and make necessary improvements.\n   - **Stay Updated:** Keep your CRM and texting strategy up-to-date with the latest trends and technologies in donor engagement.\n\nBy carefully selecting the right tools and employing strategic practices, integrating text messaging into your Donor CRM can lead to more meaningful interactions with donors, ultimately boosting engagement and fundraising outcomes.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 665,
+  "estimated_cost_usd": 0.006683,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

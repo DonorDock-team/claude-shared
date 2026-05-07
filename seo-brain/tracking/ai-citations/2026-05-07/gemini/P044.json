@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P044",
+  "prompt_text": "Best donor CRM for food banks",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550140+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the best donor CRM for a food bank involves considering several unique needs, such as tracking in-kind donations (food, supplies), managing volunteers, and efficient communication with a diverse donor base.\n\nHere are some of the best donor CRMs for food banks, highlighting their strengths and what to look for:\n\n---\n\n### Top Donor CRM Recommendations for Food Banks\n\n1.  **Bloomerang**\n    *   **Strengths:** Highly user-friendly, excellent for donor retention and engagement, robust reporting, strong email communication tools. Its focus on donor cultivation helps food banks build lasting relationships. It handles in-kind donations well.\n    *   **Best For:** Food banks prioritizing strong donor relationships, ease of use, and data-driven insights for fundraising.\n    *   **Considerations:** Pricing scales with your donor database size.\n\n2.  **Neon One (NeonCRM)**\n    *   **Strengths:** An all-in-one solution that includes robust donor management, fundraising, **volunteer management**, event registration, and more. This integrated approach is incredibly valuable for food banks that rely heavily on volunteers. It has strong capabilities for tracking in-kind donations.\n    *   **Best For:** Food banks looking for a comprehensive platform that can manage donors, fundraising campaigns, and their critical volunteer base in one system.\n    *   **Considerations:** Can have a steeper learning curve initially due to its breadth of features, but powerful once mastered.\n\n3.  **Salesforce NPSP (Nonprofit Success Pack)**\n    *   **Strengths:** Incredibly powerful and customizable. Salesforce offers 10 free licenses for nonprofits, making it potentially very cost-effective for the core system. It can track virtually anything (monetary, in-kind, grants, relationships, programs) and integrate with countless other tools.\n    *   **Best For:** Larger food banks, those with complex operations, or organizations with the budget for dedicated IT staff or consultants for setup and ongoing customization.\n    *   **Considerations:** Steep learning curve, requires significant administrative effort or external expertise to set up and",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Neon One",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 435,
+  "estimated_cost_usd": 0.001089,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

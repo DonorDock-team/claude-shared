@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P134",
+  "prompt_text": "Why nonprofits leave Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550148+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a popular and generally well-regarded donor management and fundraising CRM for nonprofits, especially known for its user-friendliness and focus on donor retention. However, no platform is a universal fit, and nonprofits leave Bloomerang for a variety of reasons, often related to their specific growth, evolving needs, or budget constraints.\n\nHere are the most common reasons why nonprofits might choose to leave Bloomerang:\n\n1.  **Scalability and Growth:**\n    *   **Outgrowing the System:** Bloomerang is excellent for small to medium-sized organizations. As a nonprofit grows significantly in terms of donor volume, complexity of programs, staff size, or geographic reach (e.g., multi-chapter organizations), they might find Bloomerang's features or database architecture less capable of handling enterprise-level needs.\n    *   **Complex Data Management:** Larger organizations often have more intricate data structures, requiring highly customizable fields, objects, and advanced relational database capabilities that Bloomerang might not offer out-of-the-box.\n\n2.  **Advanced Feature Set Limitations:**\n    *   **Niche Fundraising Needs:** While Bloomerang covers core fundraising well, some organizations need highly specialized modules that it doesn't offer natively, such as:\n        *   **Comprehensive Grant Management:** Detailed tracking of grant cycles, proposals, reporting, and stewardship beyond basic notes.\n        *   **Advanced Event Management:** Complex ticketing, seating charts, multi-tier sponsorships, and check-in processes for large-scale events.\n        *   **Volunteer Management:** In-depth scheduling, hour tracking, skills management, and communication for a large volunteer base.\n        *   **Capital Campaign Management:** Specific tools for managing pledges, soft credits, and complex major gift pipelines over long periods.\n        *   **Advanced Peer-to-Peer Fundraising:** While it integrates with some, organizations deeply focused on P2P might seek more robust, built-in options.\n    *   **Marketing Automation Depth:** Organizations with sophisticated marketing needs might find Bloomerang's email and communication tools",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 424,
+  "estimated_cost_usd": 0.001061,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

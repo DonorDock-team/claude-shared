@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P097",
+  "prompt_text": "Hidden costs of Network for Good",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550090+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Network for Good (NFG) is a well-known and generally reputable platform for non-profit fundraising and donor management, particularly for small to medium-sized organizations. While their advertised pricing (subscription fees + transaction fees) is usually transparent, like any complex software solution, there can be \"hidden\" or less obvious costs that organizations should be aware of.\n\nHere are some hidden costs to consider with Network for Good:\n\n1.  **Implicit Costs of Transaction Fees (Beyond the advertised percentage):**\n    *   **Donor Perception:** While often absorbed by the non-profit, the transaction fee reduces the *net* amount received. If donors are given the option to cover the fee, some may not, or they may feel a slight friction point.\n    *   **Reconciliation Time:** Even if clearly stated, reconciling gross donations, fees, and net payouts can add administrative time, especially if not perfectly integrated with your accounting software.\n    *   **Chargeback Fees:** While rare, if a donor disputes a charge, there's usually a fee associated with processing the chargeback, which is almost always borne by the non-profit.\n\n2.  **Staff Time & Learning Curve:**\n    *   **Onboarding & Training:** Even with NFG's coaching, staff will need to invest significant time learning the new system, migrating data, setting up campaigns, and understanding all the features. This is a substantial internal cost that doesn't appear on an invoice.\n    *   **Ongoing Management",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 311,
+  "estimated_cost_usd": 0.000779,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

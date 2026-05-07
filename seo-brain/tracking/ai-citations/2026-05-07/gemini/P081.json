@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P081",
+  "prompt_text": "Best donor CRM for community colleges",
+  "engine": "gemini",
+  "timestamp": "2026-05-07T21:03:20.550198+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a community college depends heavily on specific needs, budget, existing infrastructure, and the size/maturity of your development office. However, some stand out for their features, scalability, and suitability for the higher education non-profit space.\n\nHere are the top contenders, categorized by common community college profiles:\n\n## Top Recommended Donor CRMs for Community Colleges\n\n### 1. Blackbaud Raiser's Edge NXT (RENXT)\n*   **Best for:** Established development offices, medium to large community colleges, those seeking an industry-standard, comprehensive solution.\n*   **Why it's good:**\n    *   **Higher Ed Focus:** Blackbaud has a long history and strong presence in higher education advancement. RENXT, while not solely for higher ed, benefits from this expertise.\n    *   **Comprehensive Features:** Robust donor management, gift processing, prospecting, grant management, event management, peer-to-peer fundraising, wealth screening, and strong reporting.\n    *   **Scalability:** Can handle significant donor bases and complex fundraising operations.\n    *   **Integration:** Integrates with other Blackbaud products (e.g., Financial Edge NXT for accounting, Award Management for scholarships).\n*   **Considerations:**\n    *   **Cost:** Can be more expensive than other options.\n    *   **Learning Curve:** Powerful, but can take time for staff to fully master.\n\n### 2. Salesforce Nonprofit Cloud (with NPSP)\n*   **Best for:** Community colleges looking for ultimate flexibility, robust integration possibilities, or those already using Salesforce for other departments.\n*   **Why it's good:**\n    *   **Flexibility & Customization:** Unmatched ability to customize the platform to fit your exact processes. The Nonprofit Success Pack (NPSP) provides a solid foundation for fundraising.\n    *   **Ecosystem:** Access to thousands of apps on the AppExchange, allowing you to extend functionality for almost any need (e.g., event management, email marketing, grant management, volunteer management).\n    *   **Reporting & Analytics:** Extremely powerful and customizable reporting tools.\n    *   **Cloud-Native:** Excellent accessibility and mobile capabilities.\n    *   **Affordability (Initial):** Salesforce offers significant discounts and free licenses for non-profits.\n*   **Considerations:**\n    *   **Complexity:** The sheer flexibility can be daunting. Requires either in-house Salesforce expertise or reliance on consultants for initial setup and ongoing customization.\n    *   **Add-on Costs:** While the core NPSP is discounted, many powerful add-ons and integrations come with additional costs.\n\n### 3. DonorPerfect\n*   **Best for:** Small to medium-sized community college development teams, those needing a user-friendly, robust, and cost-effective solution.\n*   **Why it",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 599,
+  "estimated_cost_usd": 0.001499,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

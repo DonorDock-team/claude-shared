@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P008",
+  "prompt_text": "DonorDock vs Neon CRM",
+  "engine": "openai",
+  "timestamp": "2026-05-07T21:03:20.550109+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When choosing between DonorDock and Neon CRM, it's important to consider the unique needs of your nonprofit organization, as both platforms offer different features and advantages.\n\n### DonorDock:\n**Overview:**\nDonorDock is designed for small to medium-sized nonprofits and focuses on simplifying donor management and fundraising activities. It\u2019s known for ease of use and affordability.\n\n**Key Features:**\n- **Donor Management:** Offers tools for tracking donor interactions and managing donor relationships.\n- **Fundraising Tools:** Includes features for campaign management, donation tracking, and online giving.\n- **Automation:** Provides automation for routine tasks like thank-you emails and reminders.\n- **Integration:** Works with popular tools like QuickBooks and Mailchimp for easy integration.\n- **User-Friendly Interface:** Designed to be intuitive and easy to navigate.\n\n**Pros:**\n- Cost-effective with straightforward pricing.\n- Easy to set up and use, requiring minimal training.\n- Suitable for organizations with limited tech resources.\n\n**Cons:**\n- May lack advanced features required by larger organizations.\n- Limited customization compared to more robust solutions.\n\n### Neon CRM:\n**Overview:**\nNeon CRM is a more comprehensive CRM platform designed for larger nonprofits that require a wide range of features to manage complex fundraising activities.\n\n**Key Features:**\n- **Comprehensive CRM:** Manages constituents, donations, memberships, and events all in one place.\n- **Event Management:** Facilitates event planning and registration with robust tools.\n- **Advanced Reporting:** Offers detailed reporting and analytics features.\n- **Integration:** Integrates with multiple third-party applications, including Salesforce and QuickBooks.\n- **Customization:** Provides extensive customization options to tailor the platform to specific needs.\n\n**Pros:**\n- Suitable for larger organizations with complex fundraising and management needs.\n- Highly customizable to fit unique organizational processes.\n- Strong support and training resources available.\n\n**Cons:**\n- Higher cost compared to DonorDock, possibly making it less suitable for very small nonprofits.\n- More complex setup and may require training to utilize all features effectively.\n\n### Decision Considerations:\n- **Size and Complexity of Your Organization:** DonorDock is preferable for smaller nonprofits with simpler needs, while Neon CRM is more suitable for larger organizations with more complex requirements.\n- **Budget:** Evaluate your budget constraints as Neon CRM can be more costly.\n- **Needed Features:** Consider which features are essential for your organization, such as event management or advanced reporting.\n- **Ease of Use vs. Customization:** Decide whether you prioritize ease of use and quick setup or advanced features and customization.\n\nUltimately, the best choice depends on your organization's specific requirements, resources, and strategic goals. Consider demoing both platforms if possible to directly compare their interfaces and functionalities.",
+  "donordock_mentioned": true,
+  "donordock_position": 22,
+  "competitors_mentioned": [
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 544,
+  "estimated_cost_usd": 0.005472,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}
