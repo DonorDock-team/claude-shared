@@ -80,6 +80,8 @@ Seven topical authority pillars. Each pillar owns a topic cluster, anchors to a 
 - "Nonprofit CRM migration checklist" (exists — needs update for upmarket language)
 - "Nonprofit CRM pricing explained" (new — attacks competitor pricing opacity)
 
+**AEO cornerstone (2026-05-07):** `/articles/what-is-a-nonprofit-crm` — answers the head AEO question "What is a nonprofit CRM?" with Smart Stewardship framing, Action Board / Smart Nudges product naming, and locked pricing anchors ($500/mo flat, unlimited contacts, 1% platform fee). Internal-link target for any "what is a CRM" intent across the cluster.
+
 **Target link density:** 15–25 supporting articles.
 
 ---

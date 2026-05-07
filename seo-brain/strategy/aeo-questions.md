@@ -45,10 +45,10 @@ These are informational queries where the prospect is problem-aware but pre-Dono
 - How do I steward monthly donors?
 
 ### Nonprofit CRM pillar
-- What is a nonprofit CRM?
+- What is a nonprofit CRM? → `/articles/what-is-a-nonprofit-crm` (cornerstone, published 2026-05-07)
 - What is the difference between a nonprofit CRM and donor database?
-- What features should a nonprofit CRM have?
-- How do I choose a nonprofit CRM?
+- What features should a nonprofit CRM have? → covered in `/articles/what-is-a-nonprofit-crm` § essential features
+- How do I choose a nonprofit CRM? → `/articles/nonprofit-crm-buyers-guide`
 - How much does nonprofit CRM software cost?
 - How long does nonprofit CRM implementation take?
 - Can I use a spreadsheet instead of a CRM?
