@@ -222,9 +222,9 @@
     </div>
 
     <div class="card" style="margin-top: 16px;">
-      <h3 style="margin-bottom: 12px;">Competitor Mention Counter</h3>
+      <h3 style="margin-bottom: 12px;">Mention Counter</h3>
       <table>
-        <thead><tr><th>Competitor</th><th>Mentions across all engines</th></tr></thead>
+        <thead><tr><th>Name</th><th>Mentions across all engines</th></tr></thead>
         <tbody id="cite-competitors"><tr><td colspan="2" class="empty-state">—</td></tr></tbody>
       </table>
     </div>
@@ -693,19 +693,23 @@ function renderCitations() {
     </tr>
   `).join('');
 
-  // Competitor mentions
-  const comps = s.competitor_mentions || {};
+  // Mention counter — DonorDock + competitors, sorted by count descending
+  const comps = { ...s.competitor_mentions };
+  if (s.donordock_hits != null) comps['DonorDock'] = s.donordock_hits;
   const compTbody = document.getElementById('cite-competitors');
   if (Object.keys(comps).length === 0) {
-    compTbody.innerHTML = `<tr><td colspan="2" class="empty-state">No competitor mentions detected.</td></tr>`;
+    compTbody.innerHTML = `<tr><td colspan="2" class="empty-state">No mentions detected.</td></tr>`;
   } else {
-    const max = Math.max(...Object.values(comps));
-    compTbody.innerHTML = Object.entries(comps).slice(0, 15).map(([c, n]) => `
-      <tr>
-        <td>${escapeHtml(c)}</td>
-        <td><div class="meter"><div class="meter-bar"><div class="meter-fill" style="width:${(100*n/max).toFixed(0)}%"></div></div><span>${n}</span></div></td>
-      </tr>
-    `).join('');
+    const sorted = Object.entries(comps).sort((a, b) => b[1] - a[1]);
+    const max = sorted[0][1];
+    compTbody.innerHTML = sorted.slice(0, 16).map(([c, n]) => {
+      const isDd = c === 'DonorDock';
+      return `
+      <tr${isDd ? ' style="background:rgba(140,44,191,0.05);"' : ''}>
+        <td>${isDd ? `<strong style="color:var(--purple);">${escapeHtml(c)}</strong>` : escapeHtml(c)}</td>
+        <td><div class="meter"><div class="meter-bar"><div class="meter-fill" style="width:${(100*n/max).toFixed(0)}%;${isDd ? 'background:var(--purple);' : ''}"></div></div><span>${n}</span></div></td>
+      </tr>`;
+    }).join('');
   }
 
   // Wins / misses tables left as-is — would need raw run data, not just summary.
