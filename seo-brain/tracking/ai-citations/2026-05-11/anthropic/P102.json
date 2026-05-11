@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.424423+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Free Alternatives to Salesforce Nonprofit Cloud\n\nHere are the best free options for nonprofits:\n\n## **Fully Free CRM Solutions**\n\n### **1. Salesforce Nonprofit Success Pack (NPSP)**\n- **Cost:** Free (requires free Salesforce licenses)\n- **10 free licenses** through Salesforce.org's Power of Us program\n- Built on Salesforce platform with nonprofit-specific features\n- Includes donor management, grants tracking, and reporting\n- Best for: Organizations already comfortable with Salesforce\n\n### **2. CiviCRM**\n- **Cost:** 100% free and open-source\n- Donor management, event registration, email marketing, and membership tracking\n- Integrates with WordPress, Drupal, and Joomla\n- Best for: Tech-savvy organizations with website integration needs\n\n### **3. Bitrix24**\n- **Cost:** Free plan for unlimited users\n- CRM, project management, and collaboration tools\n- Limited storage (5GB) on free plan\n- Best for: Small nonprofits needing basic CRM + team collaboration\n\n## **Free for Nonprofits (with Verification)**\n\n### **4. HubSpot for Nonprofits**\n- **40% discount** on paid plans (essentially makes starter plans very affordable)\n- Free tier includes basic CRM, email marketing, forms\n- Best for: Organizations focused on inbound marketing\n\n### **5. Zoho CRM**\n- **Free for up to 3 users**\n- Discounts available for verified nonprofits\n- Mobile-friendly with automation features\n- Best for: Very small teams\n\n## **Other Options to Consider**\n\n- **SuiteCRM** - Open-source, self-hosted\n- **EspoCRM** - Open-source with cloud option\n- **Odoo Community** - Open-source ERP/CRM\n\n**Recommendation:** Start with **Salesforce NPSP** if you want enterprise features, or **CiviCRM** if you prefer open-source flexibility.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce NPSP",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 466,
+  "estimated_cost_usd": 0.007038,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P007",
+  "prompt_text": "DonorDock vs Network for Good",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.423504+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Network for Good Comparison\n\nBoth are nonprofit fundraising platforms, but they serve different needs and organizational sizes.\n\n## **DonorDock**\n\n**Best for:** Small to mid-sized nonprofits seeking affordable CRM\n\n**Strengths:**\n- More affordable pricing (starts around $99/month)\n- Modern, intuitive interface\n- Strong donor management and relationship tracking\n- Good reporting and analytics\n- Unlimited users on all plans\n- Responsive customer support\n- Built-in email marketing\n\n**Limitations:**\n- Fewer third-party integrations\n- Less robust event management\n- Smaller company (less established)\n- Fewer advanced features for complex organizations\n\n## **Network for Good**\n\n**Best for:** Established nonprofits wanting all-in-one solution\n\n**Strengths:**\n- Comprehensive fundraising suite (CRM, email, events, peer-to-peer)\n- Extensive integration options\n- Robust event management tools\n- Strong peer-to-peer fundraising\n- Established reputation (20+ years)\n- More training resources\n- Payment processing included\n\n**Limitations:**\n- More expensive (typically $1,000+/year minimum)\n- Steeper learning curve\n- Can feel overwhelming for smaller organizations\n- Transaction fees on donations\n\n## **Bottom Line**\n\n- **Choose DonorDock** if you're a smaller nonprofit prioritizing affordability, ease of use, and donor relationship management\n- **Choose Network for Good** if you need comprehensive fundraising tools, run complex campaigns, or require extensive integrations\n\nWould you like specific details about pricing or particular features?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 364,
+  "estimated_cost_usd": 0.005508,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

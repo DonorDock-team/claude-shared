@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P024",
+  "prompt_text": "How much does nonprofit donor CRM cost",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.423362+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The cost of a nonprofit donor CRM (Customer Relationship Management) system can vary widely based on several factors, including the size of the organization, the number of users, the specific features required, and the vendor selected. Here\u2019s a general overview to give you an idea of the potential costs:\n\n1. **Entry-Level CRM:**\n   - Typically designed for smaller nonprofits.\n   - Prices can range from free to around $50-$100 per month.\n   - Examples include basic versions of platforms like Bloomerang, Kindful, or NeonCRM.\n\n2. **Mid-Tier CRM:**\n   - Suitable for medium-sized nonprofits with more robust needs.\n   - Costs may range from $100 to $300 per month.\n   - These often offer more advanced features such as enhanced reporting, integration with other software, and improved customization.\n\n3. **Enterprise-Level CRM:**\n   - Designed for large nonprofits with extensive CRM needs.\n   - Pricing can start at around $300 per month and go significantly higher, sometimes reaching thousands of dollars monthly.\n   - These solutions often include advanced analytics, extensive customer support, and customization capabilities, and may be tailored specifically to the organization's needs.\n   - Salesforce Nonprofit Cloud and Blackbaud are examples in this category.\n\n4. **Additional Costs:**\n   - **Setup and Implementation:** Costs for setup and customization can vary widely, depending on the complexity, ranging from a few hundred to several thousand dollars as a one-time fee.\n   - **Training and Support:** Some vendors offer training and support packages, which might be included in the subscription fee or charged additionally.\n   - **Integrations and Add-Ons:** Additional fees might be incurred for integrating the CRM with other software or for purchasing add-on features.\n\n5. **Discounts and Special Programs:**\n   - Some vendors offer special pricing or discounts for nonprofits, including free versions for small organizations or substantial discounts for larger ones.\n\nIt\u2019s essential for nonprofits to carefully assess their needs, consider scalability, and compare different CRM solutions to find the most cost-effective and appropriate system for their specific requirements.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 418,
+  "estimated_cost_usd": 0.004215,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

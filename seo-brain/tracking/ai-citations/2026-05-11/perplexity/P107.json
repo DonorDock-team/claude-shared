@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.421839+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### How to Measure Donor Retention\n\nDonor retention measures the percentage of donors from one period (e.g., Year 1) who give again in the next period (e.g., Year 2). It's a key nonprofit metric, as retaining existing donors is typically 5\u201310x cheaper than acquiring new ones, and loyal donors give more over time (e.g., recurring givers retain at 80\u201390%).\n\n#### Standard Formula\nThe most common method, used across sources like Keela, Bloomerang, and Blackbaud, is:\n\n\\[\n\\text{Donor Retention Rate} = \\left( \\frac{\\text{Number of donors who gave in both Year 1 and Year 2}}{\\text{Total number of donors in Year 1}} \\right) \\times 100\n\\]\n\n**Key Rules** (from Sopact and others):\n- Count **unique donors**, not gifts or transactions (e.g., one person giving twice in Year 2 counts as one).\n- Use consistent donor identities across years (match by email, name, etc., to avoid duplicates).\n\n**Example** (from Keela [1]):\n- Year 1 (2024): 2,000 total donors.\n- Year 2 (2025): 700 gave in both years.\n- Calculation: (700 \u00f7 2,000) \u00d7 100 = **35%**.\n\nAnother example (from Rallyup [5]):\n- 2023: 1,200 donors; 2024: 720 returned \u2192 (720 \u00f7 1,200) \u00d7 100 = **60%**.\n\n#### Calculation Tips\n- **Manual**: Export donor lists from your CRM/database (e.g., Excel). Use `COUNTIF` or `VLOOKUP` to match returning donors [5].\n- **Automated**: Donor management software (e.g., Bloomerang, Blackbaud, Keela) tracks this automatically, often with trends over time [2,8].\n- Avoid blending segments\u2014measure separately for accuracy [6].\n\n#### Variations for Deeper Insights\n| Type | Description | Formula/Example | When to Use |\n|------|-------------|-----------------|-------------|\n| **Annual (most common)** | Year-over-year total donors [1,2,3,4]. | As above. | Overall health check. |\n| **Cohort** | Track by acquisition year (e.g., % of 2023 donors still giving in 2025) [1,6]. | Same formula, filtered by cohort. | Spot long-term loyalty. |\n| **First-Time** | Only new donors from Year 1 who return [5,6,7]. | E.g., 300/500 newbies return = 60%. | Welcome series effectiveness. |\n| **Repeat** | Donors who gave \u22652 years prior [6,7]. | Target: >65%. | Stewardship for loyalists. |\n| **Rolling** | Last 12 months vs. prior 12 [1]. | Matches recent givers. | Monthly dashboards. |\n| **Campaign** | Specific campaign donors who repeat [1]. | Narrow focus. | Event/campaign ROI. |\n| **Gift-Based** | By gift value/frequency, not people [5]. | E.g., total gifts retained \u00f7 prior gifts. | Revenue trends (less common). |\n\n#### Benchmarks (2024\u20132025 Data)\nFrom Fundraising Effectiveness Project (FEP) and others [5,6,7]:\n| Segment | Average Rate | Good Target | Excellent |\n|---------|--------------|-------------|-----------|\n| **Overall** | 35\u201345% | 40\u201350% | 60%+ |\n| **First-Time** | 19\u201330% | 25\u201330% | 30%+ |\n| **Repeat** | 65\u201370% | 65%+ | 70%+ |\n| **Recurring/Monthly** | 80\u201390% | N/A | N/A |\n\nRates <40% often signal data issues (duplicates) or poor engagement [6]. Track alongside KPIs like lifetime value, lapse rate (100% - retention), reactivation rate, and average gift size [1].\n\n#### Related Metrics and Best Practices\n- **Lapse Rate**: 100% - Retention Rate (e.g., 65% lapse means focus on reactivation).\n- **Tools**: CRM reports, surveys (e.g., SurveyMonkey for lapsed donors) [5].\n- **Improve It**: Personalize thank-yous, promote monthly giving (boosts retention 3\u20135%), segment by gift size [1,5].\n\nFor precise tracking, baseline by cohort (first-time vs. repeat) and monitor trends\u2014rising rates indicate strong stewardship [6]. Sources: Keela [1], Bloomerang [2], Kindsight [3], BoardEffect [4], Rallyup [5], Sopact [6], 4AGoodCause [7], Blackbaud [8].",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 1050,
+  "estimated_cost_usd": 0.020768,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.keela.co/blog/donor-retention",
+      "https://bloomerang.com/blog/donor-retention/",
+      "https://kindsight.io/resources/blog/a-guide-to-donor-retention-for-nonprofits/",
+      "https://www.boardeffect.com/blog/donor-retention-rate/",
+      "https://rallyup.com/blog/donor-retention-rate/",
+      "https://www.sopact.com/use-case/donor-retention",
+      "https://4agoodcause.com/the-importance-of-donor-retention-how-to-calculate-and-track/",
+      "https://kb.blackbaud.com/articles/Article/58594"
+    ]
+  }
+}

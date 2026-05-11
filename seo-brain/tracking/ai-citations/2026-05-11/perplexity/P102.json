@@ -1,0 +1,43 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424516+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Free Alternatives to Salesforce Nonprofit Cloud\n\nSalesforce Nonprofit Cloud offers powerful CRM features for nonprofits but can be complex and costly beyond its initial 10 free licenses via the Power of Us program (which excludes full Nonprofit Cloud modules like Grants Management). Based on current sources, here are the top **genuinely free or free-tier alternatives** tailored for nonprofits, focusing on donor management, fundraising, and CRM. I've prioritized 100% free options or those with robust free plans, excluding paid-only tools like DonorPerfect ($99+/mo) or Bloomerang ($125+/mo).\n\n#### 1. **Zeffy** (100% Free)\n   - **Best for**: Small to mid-sized nonprofits needing donor management and fundraising.\n   - **Key Features**: Free ticketing, peer-to-peer fundraising, donor database, email campaigns, and payment processing (no platform fees\u2014100% of donations kept by the nonprofit).\n   - **Limitations**: Optimized for fundraising; less emphasis on advanced case management.\n   - **Source**: Zeffy blog (2025 guide) positions it as the top free Salesforce alternative.\n   - **Get Started**: [zeffy.com](https://www.zeffy.com)\n\n#### 2. **HubSpot CRM** (Free Core Plan)\n   - **Best for**: Basic donor tracking, email marketing, and contact management.\n   - **Key Features**: Unlimited users/contacts, deal pipelines, email tracking, forms, and nonprofit-specific templates. Integrates with free tools like Mailchimp.\n   - **Limitations**: Advanced reporting and automation require paid upgrades ($20+/mo/user).\n   - **Source**: Multiple lists (Zeffy, Krowdbase, Capterra) highlight it as a free general CRM with nonprofit applicability.\n   - **Get Started**: [hubspot.com/crm](https://www.hubspot.com/products/crm)\n\n#### 3. **CiviCRM** (100% Free, Open-Source)\n   - **Best for**: Tech-savvy nonprofits wanting full customization.\n   - **Key Features**: Donor management, events, memberships, grants, and campaigns. Self-hosted or cloud options.\n   - **Limitations**: Requires technical setup (e.g., WordPress/Drupal integration) and hosting costs (~$10-50/mo).\n   - **Source**: Zeffy guide notes it as a free nonprofit-specific CRM.\n   - **Get Started**: [civicrm.org](https://civicrm.org)\n\n#### 4. **Bloomerang (Free Tier)**\n   - **Best for**: Very small organizations (<500 donors).\n   - **Key Features**: Donor database, engagement scoring, email tools, and reporting in the limited free plan.\n   - **Limitations**: Caps at small scale; upgrades needed for growth ($125+/mo).\n   - **Source**: Zeffy and Krowdbase mention the free tier explicitly.\n   - **Get Started**: [bloomerang.co](https://bloomerang.co)\n\n| Alternative | 100% Free? | Core Strengths | Ideal Org Size | Setup Ease |\n|-------------|------------|----------------|---------------|------------|\n| **Zeffy** | Yes | Fundraising, donations | Small/Mid | Easy |\n| **HubSpot CRM** | Free tier | Contacts, emails | Any | Very Easy |\n| **CiviCRM** | Yes (open-source) | Full nonprofit CRM | Small/Mid | Technical |\n| **Bloomerang** | Limited free | Donor engagement | Very Small | Easy |\n\n#### Additional Notes\n- **Salesforce Free Options**: NPSP (Nonprofit Success Pack) is free on top of Power of Us's 10 licenses, but scaling requires paid Nonprofit Cloud seats. Not a full \"alternative\" if you're avoiding Salesforce entirely (SalesforceBen, Plinth).\n- **Other Mentions**: Tools like Donorbox or Givebutter appear in lists but start paid ($59+/mo) with free trials only\u2014no ongoing free plans.\n- **Recommendations**: Start with Zeffy for pure fundraising or HubSpot for broader CRM. Test free trials/sign-ups (e.g., Case Management Hub offers 21-day free team trials, per their site). Evaluate based on your needs: donor-focused (Zeffy) vs. case management (e.g., LiveImpact as a flexible alt).\n\nThese are drawn directly from 2025-2026 comparison guides (Zeffy, Krowdbase, Capterra, etc.), ensuring up-to-date relevance. For service-heavy orgs, consider hybrids like Neon CRM (paid but simpler than Salesforce).",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "DonorBox",
+    "DonorPerfect",
+    "Givebutter",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [
+    "https://www.zeffy.com",
+    "https://bloomerang.co",
+    "https://civicrm.org",
+    "https://www.hubspot.com/products/crm"
+  ],
+  "input_tokens": 8,
+  "output_tokens": 963,
+  "estimated_cost_usd": 0.019469,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.zeffy.com/blog/salesforce-for-nonprofits",
+      "https://www.krowdbase.com/alternatives/salesforce.org-nonprofit-cloud",
+      "https://casemanagementhub.org/salesforce-nonprofit-cloud-alternatives/",
+      "https://www.salesforceben.com/4-free-salesforce-apps-for-nonprofits/",
+      "https://www.plinth.org.uk/complete-guide/best-salesforce-grants-alternatives",
+      "https://www.cazoomi.com/tag/alternatives-to-salesforce-nonprofit-cloud/",
+      "https://www.capterra.com/p/265078/Salesforceorg-Nonprofit-Cloud/alternatives/",
+      "https://www.softwareadvice.com/nonprofit/salesforce-org-profile/alternatives/",
+      "https://www.liveimpact.org/salesforce"
+    ]
+  }
+}

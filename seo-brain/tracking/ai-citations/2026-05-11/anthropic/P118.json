@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P118",
+  "prompt_text": "ChatGPT for nonprofits is it safe",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.424045+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# ChatGPT for Nonprofits: Safety Considerations\n\nChatGPT can be reasonably safe for nonprofits if used properly, but there are important considerations:\n\n## \u2705 **Generally Safe Uses**\n- Drafting general content (newsletters, social media posts)\n- Brainstorming ideas\n- Summarizing public information\n- Creating templates\n- Writing assistance for grants (non-confidential sections)\n\n## \u26a0\ufe0f **Key Safety Concerns**\n\n### **Data Privacy**\n- **Don't input:** Donor information, beneficiary details, financial data, or any personally identifiable information (PII)\n- OpenAI may use conversations to improve its models unless you opt out\n- No HIPAA, FERPA, or similar compliance guarantees with free versions\n\n### **Confidentiality**\n- Avoid sharing sensitive organizational strategies, unreleased plans, or proprietary information\n- Be cautious with grant proposals containing unique approaches\n\n### **Accuracy Issues**\n- ChatGPT can generate incorrect information (\"hallucinations\")\n- Always fact-check statistics, legal information, and citations\n- Don't rely on it for compliance or legal advice\n\n## \ud83d\udee1\ufe0f **Best Practices**\n\n1. **Use ChatGPT Enterprise or Teams** if handling sensitive work (offers better data protections)\n2. **Review your organization's data policy** before use\n3. **Never paste confidential data** directly into prompts\n4. **Verify all outputs** before publication\n5. **Train staff** on appropriate vs. inappropriate uses\n\n## Bottom Line\nChatGPT can be a valuable tool for nonprofits when used thoughtfully, but treat it like a public forum\u2014never share anything you wouldn't post publicly.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 393,
+  "estimated_cost_usd": 0.005949,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

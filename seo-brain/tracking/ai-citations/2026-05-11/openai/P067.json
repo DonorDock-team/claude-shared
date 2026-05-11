@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.424649+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor relationships across a team is crucial for ensuring consistent communication and maximizing the effectiveness of fundraising efforts. Here are some steps and tools you can use to effectively track those relationships:\n\n1. **Choose a CRM System**:\n   - **Customer Relationship Management (CRM)** software is essential for tracking donor relationships. Popular nonprofit CRMs include Salesforce, Bloomerang, DonorPerfect, Blackbaud Raiser\u2019s Edge, Kindful, and NeonCRM. These tools help manage contact information, donation history, communication logs, and more.\n\n2. **Centralize Data**:\n   - Ensure all donor-related information is centralized in the CRM. This includes personal information, donation history, communication preferences, and notes from interactions.\n\n3. **Define Roles and Permissions**:\n   - Clearly define which team members have access to specific information within the CRM. Use roles and permissions to control access levels and ensure data security.\n\n4. **Standardize Data Entry**:\n   - Develop a set of guidelines for entering data into the CRM to maintain consistency. This includes naming conventions, categorization of donors, tagging systems, and recording interactions.\n\n5. **Regularly Update Records**:\n   - Encourage team members to update the CRM promptly after interactions with donors. This ensures that all members have access to the most current information.\n\n6. **Utilize Tags and Segmentation**:\n   - Use tags or segments to categorize donors based on specific criteria such as giving level, event participation, interests, or geographic location. This helps in personalized communication and targeted campaigns.\n\n7. **Schedule Regular Check-ins**:\n   - Hold regular meetings or check-ins to discuss donor relationships, major gifts, and pipeline reviews. This allows the team to share insights and strategize collectively.\n\n8. **Automate Processes**:\n   - Use automation features within your CRM to schedule follow-ups, send thank-you emails, or trigger reminders for team members about important donor milestones or touchpoints.\n\n9. **Integrate Communication Tools**:\n   - Integrate email marketing platforms, social media, and other communication tools with your CRM to track interactions across all channels. Tools like Mailchimp or Constant Contact are often integrated for seamless tracking.\n\n10. **Generate Reports**:\n    - Use CRM reporting features to generate insights on donor engagement, fundraising progress, and team performance. Analyze these reports regularly to inform decisions and strategies.\n\n11. **Provide Training**:\n    - Regularly train your team members on how to use the CRM effectively. Keeping everyone updated on new features or processes ensures cohesive and efficient use of the system.\n\n12. **Encourage Team Collaboration**:\n    - Foster a collaborative environment where team members share insights and strategies regarding donor engagement. Utilize shared notes or internal communication platforms like Slack or Microsoft Teams to facilitate conversation.\n\n13. **Monitor Relationships and Feedback**:\n    - Use feedback mechanisms to understand donor perceptions and adapt strategies accordingly. This helps maintain positive relationships and improve donor retention.\n\nBy implementing these strategies and utilizing the right tools, your team can effectively track and manage donor relationships, leading to more successful and organized fundraising efforts.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 618,
+  "estimated_cost_usd": 0.006217,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

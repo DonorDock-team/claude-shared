@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423631+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "You're looking for a specific pricing model in the Donor CRM space, which can be a bit challenging as many popular CRMs have per-user fees or tiered pricing that scales with users. However, there are excellent options that fit your \"flat rate pricing, no per-user fees\" criteria, typically basing their price on the number of constituent records (donors, prospects, volunteers) in your database or transaction volume.\n\nHere are some top Donor CRMs that generally follow this model:\n\n1.  **Bloomerang**\n    *   **Pricing Model:** Primarily based on the number of constituent records you manage in your database (e.g., 0-1,000, 1,001-5,000, etc.). No per-user fees.\n    *   **Strengths:** Very user-friendly, strong focus on donor retention and engagement, excellent reporting and donor analytics (like wealth screening and engagement scores), integrated email marketing, online giving forms.\n    *   **Good for:** Small to mid-sized nonprofits looking for an intuitive system focused on building strong donor relationships.\n\n2.  **Neon CRM**\n    *   **Pricing Model:** Tiered plans based on your database size (number of records/contacts). They offer packages with various features included, but pricing scales with contacts, not users.\n    *   **Strengths:** A comprehensive all-in-one solution that goes beyond just donor management to include membership management, event registration, website integration, volunteer management, and peer-to-peer fundraising.\n    *   **Good for:** Nonprofits that need a robust, integrated system to manage multiple aspects of their operations alongside donor relations.\n\n3.  **Little Green Light (LGL)**\n    *   **Pricing Model:** Very transparent pricing based solely on the number of active constituents in your database. No limits on users.\n    *   **Strengths:** Highly affordable, especially for smaller organizations. Covers core donor management, gift processing, reporting, acknowledgements, basic email communication, and integrations with popular tools like Mailchimp and QuickBooks.\n    *   **Good for:** Small to medium-sized nonprofits looking for a cost-effective, straightforward, and powerful",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 463,
+  "estimated_cost_usd": 0.001161,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

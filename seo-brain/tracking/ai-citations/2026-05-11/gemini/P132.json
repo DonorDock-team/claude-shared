@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P132",
+  "prompt_text": "Network for Good problems",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423494+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Network for Good (NfG) is a well-known online fundraising platform and a significant player in the nonprofit tech space, especially for processing donations from third-party platforms like Facebook, Benevity, and various corporate giving programs. While it serves a valuable purpose, particularly for smaller nonprofits, users often report a set of common problems.\n\nHere are the main categories of problems associated with Network for Good:\n\n1.  **Delayed Payouts and Donor Data Limitations (The Biggest Complaint):**\n    *   **DAF Model:** Network for Good operates as a donor-advised fund (DAF) intermediary. This means when a donor gives through NfG (or a platform like Facebook that uses NfG as its payment processor), the donation isn't immediately transferred to the nonprofit's bank account. Instead, it goes into a DAF managed by NfG. NfG then grants the money to the nonprofit in periodic disbursements (e.g., monthly).\n    *   **Slow Cash Flow:** This delay (often 3-6 weeks, sometimes longer) can significantly impact a nonprofit's cash flow, especially for time-sensitive projects or smaller organizations that rely on donations for immediate operational needs.\n    *   **Incomplete Donor Data:** Because NfG is the \"donor of record\" in their DAF model, the data passed on to nonprofits can sometimes be incomplete. You might get the donor's name and donation amount, but miss email addresses, mailing addresses, or phone numbers, making immediate, personalized stewardship challenging. This also means the nonprofit can't quickly add them to their mailing list or donor CRM.\n    *   **Stewardship Challenges:** The delay in receiving both funds and complete donor data hinders a nonprofit's ability to thank donors promptly and effectively, potentially impacting future giving.\n\n2.  **Platform Usability & Features:**\n    *   **Outdated Interface:** Many users find NfG's platform and user interface to be clunky, less intuitive, and visually less appealing than newer, more modern fundraising platforms.\n    *   **Limited Customization:** Fundraising pages and communication tools often lack the deep customization options available on other platforms, making it harder for nonprofits to maintain strong brand consistency.\n    *   **Reporting Limitations:** While reports exist, users sometimes find them difficult to customize or extract specific, granular data needed for in-depth analysis of campaigns or donor segments.\n    *   **Feature Gaps:** Compared to all-in-one fundraising suites, NfG might lack advanced features like robust peer",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 525,
+  "estimated_cost_usd": 0.001314,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

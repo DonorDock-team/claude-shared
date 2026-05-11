@@ -1,0 +1,37 @@
+{
+  "prompt_id": "P042",
+  "prompt_text": "Best donor CRM for faith-based nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423424+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Faith-Based Nonprofits\n\nBased on recent analyses from nonprofit tech reviews, forums, and specialized vendor sites (as of 2026), several CRMs stand out for faith-based organizations like churches, ministries, and religious nonprofits. These prioritize donor management, online giving, fundraising automation, and faith-specific features (e.g., tithing tracking, ministry campaigns). I've prioritized those explicitly tailored for faith-based use, with key strengths, pricing notes (where available), and evidence from sources.\n\n#### 1. **Virtuous** (Top Pick for Modern Faith-Based Fundraising)\n   - **Why it fits**: Built specifically for faith-based nonprofits with donor management, branded online giving, AI-powered outreach, and ministry-focused tools. Handles recurring tithing, event giving, and personalized donor journeys.\n   - **Key features**: CRM + fundraising in one, mobile-responsive, integrations with church management software.\n   - **Pricing**: Starts at ~$150/month (custom quotes common).\n   - **Evidence**: Virtuous.org highlights it as a \"responsive toolkit for modern ministry fundraising\" [1]. Frequently recommended in faith-specific comparisons.\n\n#### 2. **DonorPerfect**\n   - **Why it fits**: Cloud-based CRM with strong donation tracking, batch processing, reporting, and faith-based automation (e.g., pledge management, church donation history). Used widely by religious orgs for simplifying giving.\n   - **Key features**: Online forms, mobile app, integrations with accounting tools like QuickBooks.\n   - **Pricing**: $89\u2013$500+/month based on contacts; nonprofit discounts available.\n   - **Evidence**: Praised in TechSoup forums for ministry needs [4] and DonorPerfect's site for \"faith-based donation tracking\" [9]. Listed in top nonprofit CRM roundups [8].\n\n#### 3. **DonorDirect by Ministry Brands**\n   - **Why it fits**: Designed explicitly for faith-based fundraisers, focusing on donor relations, time-saving automation, and church-specific workflows like mission trip funding.\n   - **Key features**: Supporter database, matching gifts, event management.\n   - **Pricing**: Custom; often mid-tier for small-to-mid orgs.\n   - **Evidence**: Double the Donation's 2026 top 22 list calls it \"explicitly designed for faith-based fundraisers\" [3].\n\n#### 4. **CharityEngine**\n   - **Why it fits**: All-in-one platform combining CRM, online giving, email marketing, and payments\u2014ideal for faith orgs needing integrated ministry tools without complexity.\n   - **Key features**: Donor data unification, automated workflows, PCI-compliant giving.\n   - **Pricing**: Starts at ~$100/month.\n   - **Evidence**: Ranked in top 5 donor platforms for faith-based nonprofits (Dec 2025 update) [6].\n\n#### 5. **Salesforce Nonprofit Cloud** (Best for Scale/Customization)\n   - **Why it fits**: Flexible for unique faith challenges (e.g., multi-touchpoint donor journeys, client intake for missions). Trusted by seminaries, community centers, and large ministries.\n   - **Key features**: Deep customization, PSA integration, grant tracking; free NPSP edition for small orgs.\n   - **Pricing**: Free core (NPSP); $36\u2013$200+/user/month for advanced.\n   - **Evidence**: GalvinTech notes its \"deep faith-based use cases\" and trust by major religious orgs [5]. Common in broad nonprofit CRM lists [8].\n\n#### Comparison Table\n\n| CRM            | Best For                  | Faith-Specific Strengths          | Starting Price | Top Sources |\n|----------------|---------------------------|-----------------------------------|----------------|-------------|\n| **Virtuous**  | Modern ministry giving   | AI outreach, branded tithing     | $150/mo       | [1]        |\n| **DonorPerfect** | Donation tracking       | Pledge automation, reporting     | $89/mo        | [4], [9]   |\n| **DonorDirect** | Faith fundraisers        | Donor relations, events          | Custom        | [3]        |\n| **CharityEngine** | All-in-one simplicity  | Integrated payments/email        | $100/mo       | [6]        |\n| **Salesforce** | Large/custom needs       | Multi-touchpoint ministry tools  | Free\u2013$36/user | [5], [8]   |\n\n#### Quick Recommendations\n- **Small churches/ministries (<500 donors)**: Start with DonorPerfect or Virtuous for ease and affordability.\n- **Growing orgs**: CharityEngine or DonorDirect for integrated fundraising.\n- **Enterprise-level**: Salesforce for scalability.\n- **Other notables**: Bloomerang, Bonterra (EveryAction), Neon One appear in general lists [2,7,8] but lack strong faith-specific mentions.\n\nEvaluate via free trials/demos, considering your donor count, budget, and integrations (e.g., with church apps like Planning Center). Check for 501(c)(3) discounts and data migration support. Sources like DonorSearch and TechSoup emphasize testing for your ministry's workflow [4].",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Neon One",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 1073,
+  "estimated_cost_usd": 0.021119,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://virtuous.org/faith-based/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://forums.techsoup.org/t/searching-for-a-good-donor-crm-for-years-that-fit-our-ministries-needs/7478",
+      "https://galvintech.com/choosing-the-right-crm-for-faith-based-nonprofits/",
+      "https://shareservices.co/blog/best-donor-platforms-faith-based-nonprofits",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://www.ellipsispartners.com/donation-crms-for-nonprofits/",
+      "https://www.donorperfect.com/nonprofits/religious-fundraising-software/"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423474+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A **Donor CRM with recurring giving** capabilities is an essential tool for modern nonprofits. It combines the core functionality of a Customer Relationship Management (CRM) system, tailored for donors, with specialized features designed to manage and grow recurring donations.\n\nHere's a breakdown of what that entails:\n\n### Core Features of a Donor CRM\n\nBefore diving into recurring giving, a good donor CRM should provide:\n\n1.  **Donor & Contact Management:**\n    *   Centralized database for all donor information (contact details, demographics, relationships).\n    *   Tracking of interactions (emails, calls, meetings, notes).\n    *   Segmentation capabilities to group donors based on various criteria.\n2.  **Donation Tracking & Management:**\n    *   Recording of all donation types (one-time, pledges, grants, in-kind).\n    *   Association of donations with campaigns, funds, and appeals.\n    *   Gift acknowledgment and receipt generation.\n3.  **Communication & Marketing:**\n    *   Email integration for direct outreach and newsletters.\n    *   Mail merge for physical mailings.\n    *   Personalized communication based on donor segments and history.\n4.  **Reporting & Analytics:**\n    *   Standard and customizable reports on fundraising performance (e.g., donor retention, average gift size, campaign ROI).\n    *   Dashboards for at-a-glance insights.\n5.  **Event Management:**\n    *   Tracking event attendees, registrations, and sponsorships.\n    *   Ticket sales and payment processing for events.\n6.  **Volunteer Management (Optional but common):**\n    *   Tracking volunteer hours, skills, and availability.\n    *   Assigning volunteers to tasks or events.\n7.  **Integrations:**\n    *   Seamless connections with payment gateways (Stripe, PayPal, etc.), accounting software (QuickBooks), email marketing platforms, and wealth screening tools.\n8.  **Security & Compliance:**\n    *   Data security measures (encryption, access controls).\n    *   PCI DSS compliance for handling payment information.\n    *   GDPR/CCPA compliance where applicable.\n\n### Key Recurring Giving Features within a Donor CRM\n\nThe \"recurring giving\" aspect adds specialized functionality to streamline and optimize this crucial revenue stream:\n\n1.  **Online Recurring Giving Forms:**\n    *   Customizable, mobile-responsive forms that allow donors to sign up for recurring donations directly on your website.\n    *   Options for various frequencies (monthly, quarterly, annually, custom).\n    *   Pre-set and custom donation amounts.\n    *   Branding to match your organization's look and feel.\n2.  **Automated Payment Processing:**\n    *   Securely stores donor payment information (tokenized, PCI compliant).\n    *   Automatically processes scheduled payments (credit cards, ACH/eCheck, digital wallets like Apple Pay/Google Pay).\n    *   Integration with popular payment gateways.\n3.  **Donor Self-Service Portal:**\n    *   Allows donors to log in and manage their own recurring gifts.\n    *   Donors can update payment information, change donation amounts or frequency, view their giving history, download receipts, and even pause or cancel their recurring gift.\n    *   **Crucial for reducing administrative burden.**\n4.  **Automated",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 703,
+  "estimated_cost_usd": 0.001759,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

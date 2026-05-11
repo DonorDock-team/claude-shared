@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P040",
+  "prompt_text": "Donor software with QuickBooks integration",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423062+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Donor Software with QuickBooks Integration\n\nSeveral donor management platforms for nonprofits offer seamless integrations with QuickBooks (Online or Desktop), eliminating double data entry by syncing donations, gifts, donors, and transactions as sales receipts, journal entries, or summaries. Below is a summary of key options from the search results, focusing on features, setup, and benefits.\n\n#### 1. **DonorSnap** (donorsnap.com)\n   - **Integration Type**: Direct sync with QuickBooks Online or Desktop (PC) at no extra cost.\n   - **Key Features**:\n     - Auto-transfer transactions after matching DonorSnap accounting codes to GL income accounts and payment methods to asset accounts.\n     - Optional linking of DonorSnap contacts to QuickBooks customers (manual or via Excel import).\n     - Batch sending of transactions with duplicate prevention.\n     - Acts as a \"subsidiary ledger\" for detailed donor tracking; supports manual summary reports for any accounting software.\n   - **Setup**: Authorize QuickBooks access, match accounts, then send batches.\n   - **Best For**: Nonprofits wanting free, straightforward automation.\n\n#### 2. **DonorPerfect** (donorperfect.com)\n   - **Integration Type**: Bi-directional sync with QuickBooks Online/Desktop; available as a trusted QuickBooks Solution Provider (can purchase QB through them).\n   - **Key Features**:\n     - Sync gifts/expenses as individual entries, daily/monthly summaries, or journal entries.\n     - Map donors to QB customers, gifts to bank/income accounts/classes; filter unposted/missing-code gifts.\n     - Real-time data access, audit trails, and expense management.\n     - DonorPerfect handles donor details/pledges; QB for GL/financials.\n   - **Setup**: Apps dropdown in DonorPerfect; connect GL to QB income accounts, configure posting method (e.g., individual/daily).\n   - **Best For**: Comprehensive fundraising CRM with cloud access and detailed reporting.\n\n#### 3. **Funraise** (funraise.org)\n   - **Integration Type**: Direct to QuickBooks Online.\n   - **Key Features**:\n     - Auto-send donor/donation data as sales receipts.\n     - Auto-create QB customers from donors.\n     - Customize fee reporting; map accounts, classes, product/service fields.\n   - **Setup**: Simple connection for instant syncing.\n   - **Best For**: Quick, automated fundraising platforms focused on online donations.\n\n#### 4. **Kindful** (kindful.com)\n   - **Integration Type**: Two-way sync with QuickBooks.\n   - **Key Features**:\n     - Real-time updating of gifts, donors, expenses.\n     - Donor profile editing, pattern tracking, custom reports.\n     - Integrates with donation pages/payment processors.\n   - **Setup**: Native app integration for unified contact/financial management.\n   - **Best For**: CRM-heavy users needing donor outreach insights alongside accounting.\n\n#### 5. **DonorDock** (donordock.com)\n   - **Integration Type**: Via Zapier (no extra DonorDock cost; Zapier starts at $20/month, nonprofit discounts available).\n   - **Key Features**:\n     - Automate data flow for accurate syncing.\n     - Easy setup/maintenance despite integration complexity.\n   - **Best For**: Budget-conscious orgs okay with Zapier as middleware.\n\n| Software       | QB Version       | Cost of Integration | Sync Options                  | Unique Strength                  |\n|----------------|------------------|---------------------|-------------------------------|----------------------------------|\n| DonorSnap     | Online/Desktop  | Free               | Batches, customers (opt.)    | Duplicate prevention, subsidiary ledger |\n| DonorPerfect  | Online/Desktop  | Included           | Individual/daily/monthly, bi-directional | Audit trails, real-time filters |\n| Funraise      | Online          | Included           | Sales receipts, auto-customers | Fee customization, speed       |\n| Kindful       | Online          | Included           | Two-way, real-time           | Donor patterns/reports         |\n| DonorDock     | Online (via Zapier) | Zapier fees     | Automated workflows          | Low DonorDock cost, flexibility |\n\n**Recommendations**: Start with **DonorSnap** or **DonorPerfect** for robust, no-cost native integrations. Test free trials/demos (most offer them) to match your workflow. All prevent duplicates and support nonprofit-specific needs like fund accounting. For setup guides, check each site's linked resources (e.g., DonorSnap's integration guides).",
+  "donordock_mentioned": true,
+  "donordock_position": 2847,
+  "competitors_mentioned": [
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 929,
+  "estimated_cost_usd": 0.018959,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://donorsnap.com/quickbooks-integration/",
+      "https://www.donorperfect.com/factsheets/quickbooks-online/",
+      "https://www.funraise.org/integrations/quickbooks",
+      "https://www.donorperfect.com/integrations/financial-accounting/quickbooks/",
+      "https://kindful.com/blog/quickbooks-for-nonprofits/",
+      "https://www.donorperfect.com/video/donorperfect-and-quickbooks/",
+      "https://www.donorperfect.com/video/donorperfect-integration-quickbooks-accounting-software/",
+      "https://www.donordock.com/articles/donordock-and-quickbooks-a-nonprofit-software-dream-team"
+    ]
+  }
+}

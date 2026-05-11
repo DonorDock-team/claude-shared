@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P149",
+  "prompt_text": "How to migrate from Excel to a nonprofit CRM",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423260+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Step-by-Step Guide to Migrating from Excel to a Nonprofit CRM\n\nMigrating donor, supporter, or program data from Excel spreadsheets to a nonprofit CRM (e.g., DonorSnap, Giveffect, Keela, or Salesforce for Nonprofits) is straightforward with planning. Most small nonprofits complete it in 2-8 weeks without data loss, by auditing, cleaning, and phasing the process. This synthesizes best practices from expert guides like Plinth, Giveffect, DonorDock, and NPOinfo.\n\n#### 1. **Audit and Inventory Your Data (1-2 Days)**\n   - List **all data sources**: Every Excel file, Google Sheet, or external tool holding contacts, donations, volunteers, events, notes, or programs.\n   - Identify **data types to migrate** (essentials first):\n     | Data Type          | Examples                          | Priority |\n     |--------------------|-----------------------------------|----------|\n     | Contacts          | Names, emails, phones, addresses | High    |\n     | Donations         | Amounts, dates, transaction IDs  | High    |\n     | Volunteers/Events | Hours, attendance, registrations | Medium  |\n     | Notes/History     | Interactions, tags, custom fields| Low     |\n   - **Evidence**: Giveffect and DonorDock emphasize inventorying to avoid losing 20-30% \"junk\" data; Plinth notes small charities often finish core audits in Week 1.\n\n#### 2. **Clean and Prepare Your Excel Files (3-5 Days)**\n   - **Standardize formats**: Use consistent date formats (e.g., YYYY-MM-DD), name casing (e.g., \"John Doe\"), and yes/no fields (avoid free-text mismatches).\n   - **Remove junk**: Delete duplicates, blank rows, outdated records. Tools like Excel's \"Remove Duplicates\" help.\n   - **Structure for CRM**:\n     - Save as **CSV** (one row = one record, e.g., one donation per row).\n     - Match CRM templates: Download from your CRM (e.g., Keela's nonprofit CSV template labels columns like \"Donor_FirstName\", \"Gift_Amount\").\n     - Separate files: Contacts first, then donations, pledges, etc. Add required fields like unique IDs.\n   - **Pro tip**: Flag unclear data for review; clean in Excel *before* import to avoid post-migration headaches (NPOinfo: \"haphazard spreadsheets fail without this\").\n   - **Evidence**: DonorDock reports 20-30% data is junk; videos like \"Excel to CRM Made Easy\" show mapping fields accurately.\n\n#### 3. **Choose and Set Up Your CRM (1 Week)**\n   - Pick based on needs: Simple for small teams (DonorSnap), robust for scaling (Salesforce). Test imports via free trials.\n   - Partner with a **nonprofit tech consultant** if complex (NPOinfo recommends for formatting help).\n   - **Evidence**: Plinth stresses \"fit your needs, not the biggest features\"; TechSoup forums say switch when Excel exceeds 10 columns or basic tracking.\n\n#### 4. **Migrate in Phases (2-4 Weeks)**\n   Follow Plinth's proven 4-week plan or DonorDock's 2-week sprint:\n   | Week/Phase | Focus                          | Actions |\n   |------------|--------------------------------|---------|\n   | **1: Core Contacts** | Primary list (names, emails) | Export CSV \u2192 Import \u2192 Verify with 2-3 team members vs. original. |\n   | **2: Active Data**   | Donations, current programs/volunteers | Import in order (contacts first); use CRM duplicate tools. |\n   | **3: Supporting Data**| History, notes, events       | Bulk import; less urgent. |\n   | **4: Verify & Cutover**| Full check                   | Run parallel (enter new data in both systems 1 week); spot-check 10-15 records; set go-live date. |\n   - **Import order matters**: Contacts \u2192 Gifts \u2192 Notes (Giveffect).\n   - Backup everything twice (local + cloud).\n\n#### 5. **Train and Go Live (Ongoing)**\n   - Invest in **training**: 1-2 days per team member; use CRM tutorials/workspaces (Giveffect's hub for feedback/templates).\n   - Monitor: Keep old Excel active 1-2 weeks post-cutover.\n   - **Evidence**: Plinth: Most finish in 4-8 weeks with training; DonorDock: Under 2 weeks possible without disruption.\n\n#### Common Pitfalls and Fixes\n- **Duplicates/Mismatches**: Standardize before import; use CRM mapping tools (Pipedrive/YouTube tutorials).\n- **Volume**: Phase to avoid overload; test small files first.\n- **Custom Data**: Add new columns in CSV for unique fields.\n- **Security**: CRMs beat Excel for access controls (DonorSnap).\n\nThis process minimizes errors, saves time, and unlocks CRM benefits like automated reporting. For CRM-specific templates, check your provider's docs (e.g., Keela CSV). If stuck, consultants handle 80% of the work per NPOinfo.",
+  "donordock_mentioned": true,
+  "donordock_position": 443,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 1079,
+  "estimated_cost_usd": 0.021215,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.plinth.org.uk/complete-guide/migrate-spreadsheets-to-crm-charity",
+      "https://www.keela.co/glossary/nonprofit-crm-csv-import-template",
+      "https://www.giveffect.com/nonprofit-resource-center/nonprofit-crm-data-migration-checklist/",
+      "https://npoinfo.com/moving-to-advanced-nonprofit-technology/",
+      "https://www.youtube.com/watch?v=rzvxGXHPkEk",
+      "https://www.donordock.com/articles/nonprofit-crm-migration-checklist",
+      "https://donorsnap.com/blog/why-your-nonprofit-should-upgrade-from-spreadsheets-to-a-crm/",
+      "https://www.youtube.com/watch?v=R3IdVbs1dZQ",
+      "https://forums.techsoup.org/t/when-to-switch-from-spreadsheets-to-crm-software-the-never-ending-discussion/17936",
+      "https://www.pipedrive.com/en/features/data-import-export"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "prompt_id": "P055",
+  "prompt_text": "Best CRM for a 2 person fundraising team",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.422178+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Best CRM for a 2-Person Fundraising Team\n\nFor a small team of just 2 people focused on fundraising, prioritize **free or low-cost CRMs** that are easy to set up, lightweight, and handle core needs like donor tracking, donations, emails, and basic reporting\u2014without steep learning curves or enterprise pricing. Avoid complex systems like Salesforce Nonprofit Cloud or Blackbaud Raiser's Edge NXT, which suit larger orgs and require more setup/time (sources: [1], [5], [9]).\n\n#### Top Recommendations\nHere's a curated list from 2026 reviews ([1]-[9]), ranked for small teams (under 1,000 contacts, minimal users). I focused on all-in-one tools for fundraising + donor CRM.\n\n| CRM | Why Ideal for 2-Person Team | Pricing (2026 Est.) | Key Features | Drawbacks | Best For |\n|-----|--------------------------------|---------------------|--------------|-----------|----------|\n| **Givebutter** (Top Pick) | All-in-one fundraising powerhouse; dead simple for tiny teams. No setup hassle, mobile-friendly. Tops G2 and multiple lists ([1], [3], [4]). | Free core (unlimited donors/events); 2.95% platform fee on donations only. Premium add-ons ~$19/mo. | Donations, donor CRM, emails, events, text-to-donate, websites. Unified donor view. | Less robust reporting for massive growth. | Peer-to-peer campaigns, quick donor engagement. |\n| **Bloomerang** | Lightweight donor-focused CRM; intuitive for beginners. Frequent mentions for small nonprofits ([2], [9]). | Starts ~$119/mo (billed annually); free trial. Discounts for tiny orgs. | Donor retention tools, engagement scoring, emails, integrations (e.g., QuickBooks). | No built-in donation forms (use add-ons). | Donor relationship building on a budget. |\n| **HubSpot CRM (Free Tier)** | Zero-cost entry; scales as you grow. Perfect for testing without commitment ([6]). | Completely free for basics; paid upgrades ~$20/mo/user. | Contact tracking, email automation, forms, basic reporting. Nonprofit templates. | Limited nonprofit-specific fundraising (add Stripe for payments). | Very small teams (under 1K contacts) starting out. |\n| **Neon CRM** or **Little Green Light** | Affordable, simple donor/event management ([7], [9]). Neon for all-in-one; LGL for basics. | Neon: ~$99/mo; LGL: ~$39/mo. Free trials. | Donors, events, memberships, volunteers (Neon); clean donor database (LGL). | Neon can feel dated; LGL lacks advanced automation. | Events/volunteers alongside fundraising. |\n\n#### Why These?\n- **Evidence from Sources**: Givebutter leads as \"best for all-in-one/lightweight\" ([1], [3]); HubSpot for micro-teams ([6]); Bloomerang/Neon for donor focus ([2], [7], [9]). Enterprise picks like StratusLIVE or Virtuous ([5], [8]) are overkill for 2 users.\n- **Key Criteria for Your Team**: Low/no cost (<$150/mo total), quick onboarding (under 1 day), mobile access, fundraising integrations (e.g., Stripe/PayPal). Handles 500-5K donors easily.\n- **Quick Comparison Tip**: Test free trials of Givebutter + HubSpot first\u2014they cover 90% of needs without credit cards.\n\n#### Next Steps\n1. **Start Here**: Sign up for Givebutter (givebutter.com)\u2014it's built for teams like yours and integrates everything.\n2. **Evaluate**: Import a sample donor list; track 1 campaign. Check integrations with your email/bank.\n3. **Avoid**: Raiser's Edge or DonorPerfect\u2014great for mid-size but pricey/complex for 2 people ([1], [9]).\n\nIf you share budget, donor count, or must-have features (e.g., events), I can refine this!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 862,
+  "estimated_cost_usd": 0.01796,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://learn.g2.com/best-crm-for-nonprofits",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://stratuslive.com/blog/nonprofit-crm-systems-comparison/",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://www.liveimpact.org/blog/best-all-in-one-software-for-nonprofits",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/",
+      "https://www.silentauctionpro.com/blogs/best-CRMs-for-fundraising.php"
+    ]
+  }
+}

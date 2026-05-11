@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P034",
+  "prompt_text": "Best nonprofit CRM for growing organizations",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.421558+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Nonprofit CRMs for Growing Organizations\n\n## Top Recommendations\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Mid to large organizations ready to scale\n- **Pricing:** 10 free licenses, then ~$36/user/month\n- **Strengths:** \n  - Highly customizable and scalable\n  - Robust reporting and automation\n  - Extensive third-party integrations\n  - Large nonprofit community\n- **Consideration:** Steeper learning curve, may need admin support\n\n### **2. Bloomerang**\n- **Best for:** Donor retention focus\n- **Pricing:** Starting ~$125/month\n- **Strengths:**\n  - Excellent donor management and engagement tools\n  - Built-in retention metrics\n  - User-friendly interface\n  - Strong email/communication features\n\n### **3. Neon CRM**\n- **Best for:** All-in-one solution for small-to-midsize nonprofits\n- **Pricing:** Starting ~$50/month\n- **Strengths:**\n  - Fundraising, membership, and event management\n  - Good value for features offered\n  - Decent reporting capabilities\n  - Growing integration ecosystem\n\n### **4. HubSpot for Nonprofits**\n- **Best for:** Marketing-focused organizations\n- **Pricing:** Free tier available; 40% discount on paid plans\n- **Strengths:**\n  - Excellent marketing automation\n  - Intuitive interface\n  - Strong free option to start\n  - Easy to scale up\n\n## Key Selection Factors\n- **Budget** (including implementation costs)\n- **Technical capacity** of your team\n- **Specific needs** (fundraising, programs, volunteers, events)\n- **Integration requirements** with existing tools\n- **Growth trajectory** over next 3-5 years\n\nWhat's your organization's primary focus and current size?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 433,
+  "estimated_cost_usd": 0.006537,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

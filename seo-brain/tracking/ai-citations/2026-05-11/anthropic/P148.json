@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P148",
+  "prompt_text": "Donor management vs CRM what's the difference",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.423007+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor Management vs CRM: Key Differences\n\n## **Donor Management Software**\n- **Purpose-built** for nonprofits and fundraising\n- **Focused specifically on**:\n  - Donation tracking and receipting\n  - Donor history and giving patterns\n  - Grant management\n  - Campaign tracking\n  - Nonprofit-specific reporting (IRS compliance, acknowledgment letters)\n  - Pledge management\n\n## **CRM (Customer Relationship Management)**\n- **General business tool** adaptable to various industries\n- **Broader focus on**:\n  - All types of contacts (not just donors)\n  - Sales pipelines\n  - Marketing automation\n  - Customer service\n  - General communication tracking\n  - Customizable for multiple use cases\n\n## **The Overlap**\nBoth systems track:\n- Contact information\n- Interaction history\n- Communication logs\n- Relationship management\n\n## **Which Should You Choose?**\n\n**Choose Donor Management if you:**\n- Run a nonprofit focused primarily on fundraising\n- Need specialized gift processing features\n- Require nonprofit-specific compliance reporting\n\n**Choose a CRM if you:**\n- Need to manage diverse stakeholder relationships (volunteers, members, program participants, etc.)\n- Want highly customizable workflows\n- Already use a CRM platform organization-wide\n\n**Many organizations use hybrid approaches** or nonprofit CRMs (like Salesforce Nonprofit Cloud) that combine both capabilities.\n\nWhat's your specific use case? That would help narrow down the best option.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 336,
+  "estimated_cost_usd": 0.005091,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

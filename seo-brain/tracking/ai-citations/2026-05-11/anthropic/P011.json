@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P011",
+  "prompt_text": "DonorDock vs Salesforce Nonprofit Cloud",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.424203+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Salesforce Nonprofit Cloud\n\n## Quick Comparison\n\n| Feature | DonorDock | Salesforce Nonprofit Cloud |\n|---------|-----------|---------------------------|\n| **Best For** | Small to mid-sized nonprofits | Mid to large nonprofits |\n| **Starting Price** | ~$99/month | ~$36/user/month (NPSP free, but needs setup) |\n| **Ease of Use** | Very user-friendly | Steep learning curve |\n| **Setup Time** | Hours to days | Weeks to months |\n| **Customization** | Limited but sufficient | Highly customizable |\n\n## DonorDock\n\n### Strengths\n- **Simple & intuitive** interface designed specifically for nonprofits\n- **Quick implementation** - minimal training required\n- **All-in-one** donor management with built-in email, reporting, and task management\n- **Affordable** for smaller organizations\n- **Good customer support** with personal touch\n- Mobile-friendly\n\n### Limitations\n- Less customization than Salesforce\n- Fewer third-party integrations\n- May outgrow it as organization scales significantly\n- Limited advanced automation features\n\n### Ideal For\n- Nonprofits with 1-10 staff members\n- Organizations raising <$5M annually\n- Teams without dedicated IT support\n- Groups wanting to get started quickly\n\n## Salesforce Nonprofit Cloud\n\n### Strengths\n- **Extremely powerful** and scalable\n- **Nonprofit Success Pack (NPSP)** is free\n- **Extensive customization** - can do almost anything\n- **Robust integrations** with thousands of apps\n- **Advanced reporting** and analytics\n- Industry standard with large community\n- Comprehensive program management tools\n\n### Limitations\n- **Complex** - requires training and potentially consultants\n- **Hidden costs** - implementation, customization, training, add-ons\n- Can be **overkill** for smaller nonprofits\n- Requires ongoing administration\n- Steeper total cost of ownership\n\n### Ideal For\n- Established nonprofits with $2M+ budgets\n- Organizations with complex programs\n- Teams with dedicated Salesforce admin\n- Nonprofits needing extensive customization\n- Organizations already using Salesforce\n\n## Decision Framework\n\n**Choose DonorDock if you:**\n- Have a small team with limited tech expertise\n- Need to get up and running quickly\n- Want predictable, affordable pricing\n- Primarily need donor management and basic fundraising tools\n\n**Choose Salesforce if you:**\n- Have complex organizational needs\n- Need to track programs, outcomes, and grants extensively\n- Have (or can hire) technical resources\n- Require deep customization and integration\n- Plan significant organizational growth\n\n## Cost Reality Check\n\n**DonorDock:** $99-299/month typically = $1,200-3,600/year\n\n**Salesforce:** While NPSP is free, realistic annual costs including:\n- Licenses for additional users\n- Implementation/consulting ($5k-50k+)\n- Training\n- Ongoing admin support\n- **Total first year: $10k-50k+** for most organizations\n\n## Bottom Line\n\nDonorDock is like a **reliable sedan** - affordable, easy to drive, does what you need.\n\nSalesforce is like a **customizable truck** - can haul anything, go anywhere, but requires more skill and investment to operate.\n\nWould you like specific recommendations based on your nonprofit's size and needs?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 794,
+  "estimated_cost_usd": 0.011967,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

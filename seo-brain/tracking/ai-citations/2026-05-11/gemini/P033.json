@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P033",
+  "prompt_text": "Alternative to DonorBox",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.421513+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorBox is a fantastic platform, especially for its ease of use, robust features, and competitive pricing. However, there are many excellent alternatives, each with its own strengths, pricing models, and target audiences.\n\nTo help you choose, I've categorized them based on their primary focus and common use cases:\n\n---\n\n### **All-in-One Fundraising Platforms (Direct Competitors with similar feature sets)**\n\nThese platforms often offer a comprehensive suite of tools for various fundraising needs, much like DonorBox.\n\n1.  **Givebutter:**\n    *   **Strengths:** Often promoted as \"free\" (they encourage donors to cover fees), extremely user-friendly, modern interface, strong for peer-to-peer, crowdfunding, and events. Offers text-to-give and live streaming tools.\n    *   **Good for:** Small to medium-sized nonprofits looking for a modern, versatile, and cost-effective solution with strong P2P and event capabilities.\n    *   **Pricing:** \"Free\" (donors asked to tip), standard credit card processing fees apply.\n\n2.  **Classy:**\n    *   **Strengths:** Enterprise-level solution with highly customizable branding, sophisticated peer-to-peer, crowdfunding, and event fundraising. Excellent reporting and integrations.\n    *   **Good for:** Mid-to-large size nonprofits needing advanced features, strong branding control, and scalable solutions for complex campaigns.\n    *   **Pricing:** Subscription-based, generally higher than DonorBox, plus transaction fees.\n\n3.  **Funraise:**\n    *   **Strengths:** Modern platform with AI-powered insights, robust donor management, customizable donation forms, P2P, events, and text-to-give. Focus on automation and data.\n    *   **Good for:** Mid-sized to larger organizations looking for powerful automation, data analytics, and a modern user experience.\n    *   **Pricing:** Subscription-based, plus transaction fees.\n\n4.  **QGiv:**\n    *   **Strengths:** Wide range of features including online giving, text-to-give, peer-to-peer, events, and auction software. Known for excellent customer support and robust reporting.\n    *   **Good for:** Nonprofits of all sizes needing a comprehensive solution with a particular focus on event fundraising and strong support.\n    *   **Pricing:** Subscription-based, tiered packages, plus transaction fees.\n\n5.  **",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 516,
+  "estimated_cost_usd": 0.001291,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P130",
+  "prompt_text": "DonorPerfect downsides",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423081+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Key Downsides of DonorPerfect\n\nDonorPerfect is a robust donor management CRM popular among mid-to-large nonprofits, but user reviews and comparisons (from sources like Capterra, G2, Zeffy, CharityEngine, and Software Advice, dated up to 2026) consistently highlight several pain points. These make it less ideal for small teams, beginners, or those needing simplicity. Below, I've synthesized the most common cons, grouped by theme, with evidence from reviews.\n\n#### 1. **Steep Learning Curve and Complexity**\n   - Overwhelming for non-technical users, volunteers, or small teams without dedicated IT support. Features are powerful but require significant time to master.\n   - **Evidence**:\n     | Source | Quote/Example |\n     |--------|--------------|\n     | Zeffy [3] | \"A lot to learn... feels overwhelming at first\" (Corrie M., Capterra); \"Reporting is powerful but hard to use... takes time and practice\" (Lisa H., Capterra). |\n     | DesignbyCosmic [2] | \"Tech empathy gap\" \u2013 complex for non-IT staff, leading to underutilization. |\n     | G2 [4] | \"Learning Curve\" listed as top con; \"After 4 years... becoming comfortable\" with reports. |\n     | Capterra [5] | \"DP learning curve is steep\"; \"Support during onboarding was weak.\" |\n\n#### 2. **Outdated, Clunky Interface and Usability Issues**\n   - Traditional design feels cumbersome compared to modern apps; lacks intuitiveness for daily tasks like data entry or multi-window viewing.\n   - **Evidence**:\n     | Source | Quote/Example |\n     |--------|--------------|\n     | DesignbyCosmic [2] | \"More traditional interface... daily tasks feel cumbersome.\" |\n     | G2 [4] | \"Not Intuitive\"; \"Too many places to enter data... easily entered inconsistently\"; can't link spouses/households easily. |\n     | Capterra [5] | \"Outdated, clunky... dashboard unhelpful\"; batch entry limited to 10 rows; can't open two donor windows. |\n     | Software Advice [6] | Drag-and-drop forms require separate reports, unlike classic forms. |\n\n#### 3. **Reporting and Customization Limitations**\n   - Reports are deep but tricky to customize; dashboards lack flexibility; workarounds needed for receipts or donor comms.\n   - **Evidence**:\n     | Source | Quote/Example |\n     |--------|--------------|\n     | CharityEngine [1] | \"Dashboards and reports less customizable.\" |\n     | Zeffy [3] | \"Reporting tricky to customize\"; limited receipt customization. |\n     | G2 [4] | \"Report Generation\" as con; \"Too many ways to pull reports.\" |\n     | Capterra [5] | \"Reports difficult to set up quickly... confusing templates.\" |\n\n#### 4. **Reliance on Third-Party Integrations and Missing Features**\n   - Core functions (email, P2P fundraising, auctions) often need external tools, causing data silos/sync issues. Weak online forms and household donor handling.\n   - **Evidence**:\n     | Source | Quote/Example |\n     |--------|--------------|\n     | CharityEngine [1] | \"Reliance on third-party tools... data silos\"; lacks all-in-one features like auctions/case management. |\n     | Capterra [5] | \"Integration with Constant Contact weak\"; \"Online Forms module weak\"; poor household crediting (e.g., couples from joint accounts). |\n\n#### 5. **Pricing and Value Mismatch for Small Nonprofits**\n   - Tiered pricing scales with features, but small orgs pay for unused tools; high processing fees; no streamlined low-cost version.\n   - **Evidence**:\n     | Source | Quote/Example |\n     |--------|--------------|\n     | Zeffy [3] | \"Pricey and complex\" for small nonprofits under $250K; \"Paying for capabilities they don't use\" (Matt D., G2). |\n     | DesignbyCosmic [2] | \"Tiered pricing climbs... requires budget analysis.\" |\n     | Capterra [5] | \"High cost... pay for things we rarely use\"; \"Processing fees a lot.\" |\n\n#### 6. **Inconsistent Support and Other Friction**\n   - Support varies by tier/issue (e.g., billing woes); login/verification delays; no conditional email logic.\n   - **Evidence**:\n     | Source | Quote/Example |\n     |--------|--------------|\n     | Zeffy [3] | Trustpilot 3.9/5 due to \"frustrated users... billing/cancellations.\" |\n     | Capterra [5] | \"Verification email wait... cringe-worthy\"; chat support praised, but overall inconsistent. |\n\n#### Who It's Not For\nPer Zeffy [3], avoid if you're a small/volunteer-run org (<$250K revenue), need quick setup, or prioritize low costs/simple workflows. It's built for larger-scale operations where the depth justifies the hassle.\n\nOverall, ratings hover around 4/5 across platforms, with praise for donor tracking but frustration from usability and fit issues. Small nonprofits often switch to simpler alternatives like Zeffy for better ROI. If evaluating, demo it and check recent user reviews for your org size.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 1137,
+  "estimated_cost_usd": 0.022073,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://blog.charityengine.net/charityengine-vs-donorperfect",
+      "https://designbycosmic.com/guides/nonprofit-branding/donorperfect/",
+      "https://www.zeffy.com/blog/donorperfect-reviews",
+      "https://www.g2.com/products/donorperfect/reviews?qs=pros-and-cons",
+      "https://www.capterra.com/p/2698/DonorPerfect-Fundraising-Software/reviews/",
+      "https://www.softwareadvice.com/nonprofit/donorperfect-profile/reviews/",
+      "https://www.donorperfect.com/reviews-ratings/ratings/"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P032",
+  "prompt_text": "Alternative to Givebutter for donor management",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424930+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Givebutter is a popular all-in-one platform known for its user-friendly interface, robust fundraising tools (online forms, peer-to-peer, events, text-to-give), and donor management capabilities, often operating on a donor-pays-the-fee model.\n\nIf you're looking for an alternative, especially if your primary focus is **donor management** (CRM) with integrated fundraising, here are some excellent options, broken down by their strengths:\n\n## Top Alternatives to Givebutter for Donor Management & Fundraising\n\n### 1. Bloomerang\n*   **Strengths:** Excellent donor management focused on **donor retention and engagement**. Strong CRM features, robust reporting, personalized communication tools, email marketing, and integrated fundraising pages.\n*   **Best for:** Organizations prioritizing building lasting donor relationships and gaining insights into donor behavior. Good for small to medium non-profits.\n*   **Why it's an alternative:** While Givebutter has a CRM, Bloomerang's is deeper, more analytical, and focused on stewardship.\n\n### 2. Salesforce for Nonprofits (NPSP)\n*   **Strengths:** Highly customizable, powerful, and scalable CRM built on the world's leading customer relationship management platform. Offers extensive donor management, grant tracking, program management, volunteer management, and can be integrated with numerous fundraising apps (AppExchange).\n*   **Best for:** Medium to large non-profits, or smaller non-profits with complex data needs and a willingness to invest in customization. Salesforce offers 10 free licenses for non-profits.\n*   **Why it's an alternative:** A much more robust and customizable CRM than Givebutter's built-in solution, offering enterprise-level capabilities. Requires more setup and potentially ongoing administration.\n\n### 3. Neon One (specifically NeonCRM)\n*   **Strengths:** A comprehensive suite of tools including a strong CRM, event management, membership management, fundraising pages, peer-to-peer, grant management, and volunteer tracking. Very good for organizations with diverse operational needs beyond just fundraising.\n*   **Best for:** Medium-sized non-profits, membership organizations, and those needing an all-in-one solution that emphasizes operational efficiency alongside fundraising.\n*   **Why it's an alternative:** Similar all-in-one approach to Givebutter but often with more advanced CRM, membership, and event features, making it a powerful contender.\n\n### 4. DonorPerfect\n*   **Strengths:** A long-standing, comprehensive solution with a powerful donor database, robust reporting, fundraising tools (online forms, events, text-to-give), and integrated email marketing. Known for",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 554,
+  "estimated_cost_usd": 0.001387,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

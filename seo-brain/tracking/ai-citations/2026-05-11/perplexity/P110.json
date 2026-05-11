@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P110",
+  "prompt_text": "How to segment your donor list",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.422734+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### How to Segment Your Donor List: A Step-by-Step Guide\n\nDonor segmentation divides your supporters into targeted groups based on shared traits like giving history, demographics, or engagement levels. This boosts retention, personalization, and fundraising ROI by allowing tailored outreach\u2014e.g., reactivation emails for lapsed donors or major gift appeals for high-capacity supporters. Sources like Givebutter, Bonterra, and EverTrue emphasize starting simple and refining with data.\n\n#### Core Steps to Segment (Consensus from Givebutter [1], Bonterra [2], and Others)\n1. **Gather and Organize Data**  \n   Collect info from surveys, forms, events, emails, and donation records. Store in a central CRM (e.g., Givebutter or Blackbaud [6]). Clean duplicates, update contacts, and ensure accuracy. Key data points: giving history, demographics, engagement (e.g., opens, clicks).\n\n2. **Set Goals and Priorities**  \n   Focus on one objective first, like reactivating lapsed donors, boosting event attendance, or year-end appeals (Givebutter [1]). Align segments to goals\u2014e.g., target holiday givers for December campaigns.\n\n3. **Define and Create Segments**  \n   Group donors using filters in your CRM. Save custom segments for reuse. Common types below.\n\n4. **Personalize Outreach**  \n   Craft messages, asks, and timing per segment\u2014e.g., impact reports for campaign-specific donors (GoodUnited [4]).\n\n5. **Refine and Automate Over Time**  \n   Track results, adjust (e.g., move repeat givers to \"loyal\" via automation, EverTrue [3]). Use engagement scores or RFM (below) for ongoing tweaks.\n\n#### Key Segmentation Strategies with Examples\nUse these proven categories, often combined for precision (e.g., \"local Gen Z STEM workers,\" Bonterra [2]).\n\n| Category | Examples | Best Uses | Sources |\n|----------|----------|-----------|---------|\n| **Demographics** | Age (Gen Z, retirees), gender, location, career, income, education | Identify patterns; tailor events (e.g., local appeals) | EverTrue [3], Bonterra [2], GoodUnited [4] |\n| **Giving History (RFM Model)** | Recency (recent vs. lapsed), Frequency (monthly vs. occasional), Monetary (tiers: <$100, $100\u2013$499, $500+) | Prioritize \"best\" (high R/F/M, e.g., 5-5-5); time appeals | Dataro [8], Blackbaud [6], GoodUnited [4] |\n| **Engagement/Behavior** | Event attendees, volunteers, email opens, recurring donors | Boost loyalty; peer-to-peer invites for past campaign supporters | Givebutter [1], Kindsight [5] |\n| **Affinity/Campaign** | Back-to-school donors, disaster relief givers | Relevant follow-ups (e.g., impact updates) | EverTrue [3], GoodUnited [4] |\n| **Capacity/Wealth** | First-time, major donors (e.g., 5% net worth capacity over 5 years) | Customized asks; major gift pipelines | APRA [7], Kindsight [5] |\n\n#### Tips for Success\n- **Start Small**: Segment by gift frequency or amount first (GoodUnited [4]).\n- **Tools**: CRMs like Givebutter enable one-click filters; add engagement scoring (Bonterra [2]).\n- **Action Plans**: Build stewardship matrices (e.g., thank-yous by tier) and test (e.g., A/B emails).\n- **Evidence of Impact**: Segmented campaigns see higher open rates and gifts\u2014e.g., RFM identifies \"new high-value\" donors early (Dataro [8]).\n\nFor templates, check Givebutter's cheat sheet [1] or Stetson's PDF [9]. Implement in your CRM today for quick wins.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bonterra",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 828,
+  "estimated_cost_usd": 0.017441,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://givebutter.com/blog/donor-segmentation",
+      "https://www.bonterratech.com/blog/donor-segmentation",
+      "https://www.evertrue.com/donor-segmentation/",
+      "https://www.goodunited.io/blog/donor-database-segmentation-examples",
+      "https://kindsight.io/resources/blog/donor-segmentation-guide/",
+      "https://www.blackbaud.com/industry-insights/glossary/donor-segmentation",
+      "https://connections.aprahome.org/Articles/4-ways-to-prioritize-and-segment-your-nonprofit-donor-database",
+      "https://dataro.io/blog/donor-segmentation-understanding-the-rfm-approach",
+      "https://www.stetson.edu/other/community-engagement/media/npls-downloadable-content/2025/donor-segmentation-cheat-sheet.pdf",
+      "https://bloomerang.com/blog/donor-segmentation/"
+    ]
+  }
+}

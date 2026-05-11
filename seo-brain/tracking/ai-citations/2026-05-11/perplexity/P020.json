@@ -1,0 +1,38 @@
+{
+  "prompt_id": "P020",
+  "prompt_text": "Cheaper alternative to Blackbaud",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.422709+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Cheaper Alternatives to Blackbaud\n\nBlackbaud (e.g., Raiser's Edge, eTapestry) is enterprise-grade CRM software for nonprofits, often costing $4,000\u2013$8,000+ annually for small/mid-size orgs, plus add-ons, implementation, and locked-in processing fees. Cheaper alternatives target small to mid-size nonprofits with simpler, scalable pricing\u2014often starting under $100/month. Here's a curated list from recent comparisons, focusing on verified pricing and key strengths:\n\n| Alternative | Starting Price | Best For | Key Features & Notes |\n|-------------|----------------|----------|----------------------|\n| **Donately** | Free (4% fee); $19/mo Starter (3.5% fee); $49/mo Team (2% fee) | Small orgs starting fundraising | Low entry; scales to custom for $250K+ revenue. All-in-one donations. |\n| **Copper** | $19/mo (standard); $49/mo (popular) | Small teams using Google Workspace | G Suite integration; custom fields, pipelines; 14-day free trial. |\n| **Insightly** | $29/mo | Small nonprofits | Test Plus/Professional free; user-friendly CRM basics. |\n| **DonorSnap** | $39/mo (up to 1K contacts); up to $199/mo (30K contacts) | Small orgs | All features included at every tier; flat scaling. |\n| **Sumac** | Free (nonprofits); $35/mo paid | Budget starters | Upgrade for advanced features; nonprofit-focused. |\n| **Little Green Light** | ~$45/mo | eTapestry switchers | Essential donor mgmt; fraction of Blackbaud cost; community support. |\n| **NeonCRM** | $49\u2013$99/mo | Small/mid-size | Robust features included; scales with capacity. |\n| **Bloomerang** | $99\u2013$125/mo (up to 1K records); free trial | Donor retention focus | Easy UI, engagement scoring; scales to $499 (40K records). |\n| **DonorPerfect** | $89\u2013$99/mo | Mid-size ($500K\u2013$5M revenue) | 35+ years; unlimited users, gifts, reporting; custom quotes. |\n| **Knack** | Pay-as-you-grow (not specified, but affordable) | Customizable all-in-one | No database size limits; beats Blackbaud on flexibility. |\n\n#### Why These Are Cheaper & Evidence\n- **Cost Savings**: Blackbaud's base is 10\u201350x higher for small orgs due to modules and scaling. These start at $0\u2013$99/mo, often with free tiers/trials, no locked processing, and all-core features (donor mgmt, emails, reporting).\n- **Sources**: Aggregated from Donately, Knack, Teachfloor, StratusLIVE, and 4aGoodCause comparisons (2024\u20132026). E.g., Bloomerang praised for $125 entry + ease; Little Green Light as \"fraction of eTapestry's $100\u2013150/mo.\"\n- **Trade-offs**: Less enterprise-scale than Blackbaud; ideal for <5M revenue orgs. Virtuous ($350/mo) or LiveImpact are mid-tier but still cheaper for specifics like marketing/grants.\n\n**Recommendations**:\n- **Smallest budgets (<$50/mo)**: Donately, Copper, Sumac, Little Green Light.\n- **Easiest switch from eTapestry**: Bloomerang or NeonCRM (user-friendly, built-in email).\n- Test via free trials. For custom needs (e.g., grants), check Optimy or Submittable. Contact vendors for 2026 quotes, as pricing can vary by contacts/revenue.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Virtuous",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 808,
+  "estimated_cost_usd": 0.017144,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donately.com/blog/blackbaud-raisers-edge-competitors",
+      "https://www.knack.com/blog/blackbaud-alternatives/",
+      "https://www.teachfloor.com/blog/best-blackbaud-etapestry-alternatives",
+      "https://stratuslive.com/guides/blackbaud-alternatives/",
+      "https://4agoodcause.com/blackbaud-vs-bloomerang/",
+      "https://www.optimy.com/blog-optimy/best-blackbaud-alternatives",
+      "https://www.submittable.com/blackbaud-alternatives",
+      "https://virtuous.org/compare/blackbaud/",
+      "https://www.liveimpact.org/blackbaud"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P055",
+  "prompt_text": "Best CRM for a 2 person fundraising team",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.422076+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best CRM for a 2-Person Fundraising Team\n\nFor a small fundraising team, you want something **affordable, easy to use, and purpose-built for nonprofits**. Here are the top options:\n\n## **Top Recommendation: Bloomerang**\n- **Price:** ~$125/month\n- **Why:** Specifically designed for small nonprofits, intuitive interface, excellent donor retention tools\n- **Best for:** Teams that want something powerful but not overwhelming\n\n## **Budget-Friendly Options**\n\n### **Little Green Light**\n- **Price:** $59/month\n- **Why:** Nonprofit-focused, solid features, great value\n- **Best for:** Tight budgets without sacrificing functionality\n\n### **DonorPerfect**\n- **Price:** Starting ~$89/month\n- **Why:** User-friendly, good reporting, scalable\n- **Best for:** Balance of affordability and features\n\n## **If You Need More Power**\n\n### **Salesforce Nonprofit Cloud**\n- **Price:** Free for up to 10 users (Nonprofit Success Pack)\n- **Why:** Enterprise-level features, highly customizable\n- **Caveat:** Steeper learning curve, may need consultant help\n\n## **Quick Decision Guide**\n\n- **Easiest to learn:** Bloomerang or Little Green Light\n- **Best value:** Little Green Light\n- **Most room to grow:** Salesforce\n- **Best all-around:** Bloomerang\n\n**My advice:** Start with a free trial of **Bloomerang** and **Little Green Light** to see which feels right for your workflow. Both offer demos specifically for small teams.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 374,
+  "estimated_cost_usd": 0.005667,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

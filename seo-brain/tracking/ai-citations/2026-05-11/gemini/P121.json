@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P121",
+  "prompt_text": "AI for donor research",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424756+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "AI is rapidly transforming the landscape of donor research, moving it from largely manual, reactive processes to more proactive, data-driven, and predictive strategies.\n\nAt its core, AI for donor research leverages advanced algorithms, machine learning (ML), and natural language processing (NLP) to analyze vast amounts of data, identify patterns, and make predictions about current and prospective donors.\n\nHere's a breakdown of how AI is used, its benefits, and the associated challenges:\n\n---\n\n### How AI is Used in Donor Research:\n\n1.  **Prospect Identification & Qualification:**\n    *   **What it does:** Scans vast datasets (public records, news articles, social media, proprietary databases) to identify individuals or organizations that match an ideal donor profile.\n    *   **AI's role:** Uses predictive modeling to score potential prospects based on wealth indicators, philanthropic interests, affiliations, and past giving patterns of similar donors.\n    *   **Example:** Identifying individuals who recently sold a company, made significant political donations, or serve on the boards of other non-profits aligned with your mission.\n\n2.  **Wealth Screening & Capacity Assessment:**\n    *   **What it does:** Estimates a donor's financial capacity to give.\n    *   **AI's role:** Automates the aggregation and analysis of financial data (real estate holdings, stock transactions, business ownership, compensation data) to provide a more accurate and efficient wealth profile than manual methods.\n\n3.  **Propensity to Give Modeling:**\n    *   **What it does:** Predicts how likely a donor is to make a gift, and even the potential size of that gift, based on past behavior and engagement.\n    *   **AI's role:** Analyzes internal CRM data (",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 364,
+  "estimated_cost_usd": 0.000911,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

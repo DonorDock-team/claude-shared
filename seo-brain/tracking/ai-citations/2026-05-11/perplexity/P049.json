@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P049",
+  "prompt_text": "Best donor CRM with unlimited contacts",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424689+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs with Unlimited Contacts\n\nBased on the latest 2026 comparisons, several donor management CRMs stand out for offering **unlimited contacts** across plans (free or paid). These are purpose-built for nonprofits, bundling donor tracking, fundraising, email, and more. I've prioritized truly free or low-cost options with strong reviews for ease of use and features. Here's a breakdown of the best matches:\n\n#### 1. **Givebutter** (Top Free Pick)\n   - **Key Features**: Unlimited contacts, donation forms, fundraising campaigns, peer-to-peer tools, event pages, basic donor management, Constant Contact integration.\n   - **Pricing**: Free tier with unlimited everything; scales on features/volume.\n   - **Best For**: Small nonprofits ditching outdated tools. Easiest-to-use per reviews.\n   - **Source**: [1], [2], [7]\n   - **Why #1**: Completely free core CRM, no contact limits\u2014ideal starter.\n\n#### 2. **Givingtech CRM** (Best Free All-Around)\n   - **Key Features**: Unlimited contacts, full donation history, dynamic donor segments, lead management, automated donor conversion, mailing lists.\n   - **Pricing**: Free for nonprofits.\n   - **Best For**: Integrated donor/lead management since 2009; trusted by 4,000+ orgs.\n   - **Source**: [8]\n   - **Strength**: No-cost, robust free tier without upsells.\n\n#### 3. **DonorDock** (Best All-in-One Paid)\n   - **Key Features**: Unlimited contacts, donor management, online giving, email/text marketing, automations, project management\u2014one login/platform.\n   - **Pricing**: Starts at $100/month.\n   - **Best For**: Mid-sized orgs wanting everything bundled.\n   - **Source**: [3], [4]\n   - **Strength**: Comprehensive; top-rated in buyer's guides.\n\n#### Quick Comparison Table\n\n| CRM          | Free Tier? | Unlimited Contacts | Standout Features                  | Starting Price | Ideal Org Size |\n|--------------|------------|---------------------|------------------------------------|----------------|---------------|\n| **Givebutter** | Yes       | Yes                | Forms, events, P2P fundraising    | Free          | Small        |\n| **Givingtech** | Yes       | Yes                | Segments, leads, automation       | Free          | Small-Medium |\n| **DonorDock**  | No        | Yes                | Email/text, projects, all-in-one  | $100/mo       | Medium       |\n| Bloomerang   | No        | Yes                | Donor retention focus             | $100/mo       | Any          |\n| HubSpot      | Yes (basic)| Partial (free limits) | Marketing, contact mgmt          | Free (upgrades)| Small        |\n\n#### Other Strong Mentions\n- **Bloomerang**: Unlimited contacts, excels in retention; $100+/mo ([3]).\n- **HubSpot Smart CRM**: Free basic contact mgmt with marketing; best for small teams but contact limits on free tier ([5]).\n- Avoid if limits matter: Salesforce/Insightly (enterprise-scale, not unlimited free) ([6]).\n\n**Recommendation**: Start with **Givebutter** or **Givingtech** for zero cost and unlimited contacts\u2014perfect for small nonprofits. Test free trials to match your workflow. Data from 2026 guides emphasizes these for value and nonprofit focus.",
+  "donordock_mentioned": true,
+  "donordock_position": 1329,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 719,
+  "estimated_cost_usd": 0.015806,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://givebutter.com/donor-management-crm",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://bloomerang.com/blog/donor-management-software/",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://blog.hubspot.com/sales/contact-management-software-nonprofits",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://blog.givecentral.org/best-donor-management-software-for-small-nonprofits-in-2026/",
+      "https://givingtech.org/crm",
+      "https://www.societ.com/blog/nonprofit-resources/the-10-best-all-in-one-nonprofit-crms/"
+    ]
+  }
+}

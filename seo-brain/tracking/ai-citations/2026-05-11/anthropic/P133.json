@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P133",
+  "prompt_text": "Givebutter limitations",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.423540+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Givebutter Limitations\n\nHere are the main limitations to consider when using Givebutter:\n\n## **Pricing & Fees**\n- **Platform fee**: 5% on free plan (can be covered by donors)\n- Must upgrade to paid plan ($0-$180+/month) to eliminate platform fee\n- Payment processing fees still apply (2.9% + $0.30 for cards)\n\n## **Features & Functionality**\n- **Limited customization** compared to some enterprise fundraising platforms\n- **Basic CRM capabilities** - may need to integrate with dedicated CRM for complex donor management\n- **Reporting** can be less robust than specialized analytics tools\n- **Peer-to-peer fundraising** features exist but may be less advanced than P2P-specific platforms\n\n## **Technical Limitations**\n- **Integration options** are growing but still more limited than established competitors\n- **API access** may be restricted on lower-tier plans\n- **Custom branding** options somewhat limited on free plan\n\n## **Scale & Complexity**\n- Better suited for **small to mid-size nonprofits**\n- May not handle extremely high-volume campaigns as efficiently\n- Less suitable for organizations with very complex fundraising needs\n\n## **Support**\n- Support quality can vary by plan level\n- Phone support may not be available on all plans\n\n## **Best For**\nSmall-medium nonprofits, schools, individual fundraisers, and organizations wanting an affordable, user-friendly platform\n\nWould you like specific comparisons to alternative platforms?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 340,
+  "estimated_cost_usd": 0.005136,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P094",
+  "prompt_text": "Hidden costs of Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423114+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a popular CRM for nonprofits, often praised for its user-friendliness and focus on donor retention. However, like any software, there can be \"hidden\" or less obvious costs beyond the monthly subscription fee. These aren't necessarily Bloomerang being deceptive, but rather expenses that organizations might not fully anticipate when budgeting.\n\nHere are some of the hidden costs of Bloomerang:\n\n1.  **Transaction Fees (Bloomerang Payments):**\n    *   **The Cost:** While Bloomerang itself doesn't charge a fee *for processing*, its integrated payment processor (Bloomerang Payments, powered by Stripe) does. This includes a percentage fee per transaction (e.g., 2.2% + $0.30 for credit cards) and potentially an additional fee for ACH/bank transfers.\n    *   **Why it's \"Hidden\":** Organizations sometimes only budget for the CRM subscription and forget to factor in the cumulative cost of these processing fees, which can add up significantly, especially with high donation volumes.\n\n2.  **Higher Tier Subscriptions for Advanced Features:**\n    *   **The Cost:** Bloomerang's pricing is tiered based on database size and features. While the basic tiers are robust, certain functionalities are only available at higher price points. These can include:\n        *   Increased email sending limits.\n        *   More advanced reporting capabilities.\n        *   API access for more complex integrations.\n        *   Specific constituent engagement tools.\n    *   **Why it's \"Hidden\":** An organization might start on a lower tier, only to discover later that a crucial feature they need (or want to use more extensively) requires an upgrade, increasing their monthly spend unexpectedly.\n\n3.  **Third-Party Integrations and Add-ons:**\n    *   **The Cost:** While Bloomerang offers many native features, organizations often need to integrate with other tools like:\n        *   **Advanced Email Marketing:** If Bloomerang's native email isn't robust enough (e.g., for complex drip campaigns, A/B testing beyond basic), you might pay for tools like Constant Contact, Mailchimp, or Pardot.\n        *   **Wealth Screening:** While Bloomerang has a basic wealth score, deep dives often require integrations with services like DonorSearch, WealthEngine, or iWave, which have their own subscriptions.\n        *   **Grant Management:** For sophisticated grant tracking and application processes, you might need a dedicated grant management system.\n        *   **Event Management:** For complex events, you might need platforms like Eventbrite or Kindful Events (which can integrate).\n        *   **Accounting Software:** While there's a QuickBooks Online integration, complex accounting needs might require custom setup or additional tools.\n    *   **Why it's \"Hidden\":** Organizations may initially think Bloomerang will cover all their needs, but then find they need to",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 606,
+  "estimated_cost_usd": 0.001517,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

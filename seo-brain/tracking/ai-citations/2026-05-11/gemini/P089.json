@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P089",
+  "prompt_text": "Best donor CRM for mental health nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.421875+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a mental health nonprofit involves balancing standard fundraising needs with the unique sensitivities and operational realities of the mental health sector. While CRMs typically handle *donor* data and not *client protected health information (PHI)*, the principles of privacy, impact tracking, and sensitive communication are paramount.\n\nHere are the top contenders, along with their pros, cons, and specific considerations for mental health nonprofits:\n\n---\n\n### Top Donor CRMs for Mental Health Nonprofits\n\n1.  **Salesforce Nonprofit Cloud**\n    *   **Pros:**\n        *   **Unparalleled Customization & Scalability:** Salesforce is incredibly powerful and can be tailored to almost any workflow. This is crucial if your organization has complex program structures, grant requirements, or plans for significant growth.\n        *   **Robust Reporting & Analytics:** Excellent for demonstrating impact, tracking grants, and segmenting donors based on specific interests related to mental health initiatives.\n        *   **Vast Ecosystem (AppExchange):** Integrates with nearly everything (marketing automation, event management, accounting, etc.), allowing you to build a comprehensive tech stack.\n        *   **Grant Management:** Strong capabilities for tracking grant applications, awards, and reporting requirements, which are often significant for mental health services.\n    *   **Cons:**\n        *   **Steep Learning Curve:** Can be complex and overwhelming without proper training or a dedicated administrator.\n        *   **Cost:** Initial setup can be expensive (often requiring a consultant), and ongoing licensing costs can add up, especially for smaller organizations.\n        *   **Maintenance:** Requires ongoing attention to optimize and manage.\n    *   **Mental Health Fit:** Ideal for larger, growing, or highly complex mental health organizations that need a deeply customizable system to track diverse funding sources, specific program impacts, and sensitive donor relationships.\n\n2.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 383,
+  "estimated_cost_usd": 0.00096,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

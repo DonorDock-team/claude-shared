@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P047",
+  "prompt_text": "Best donor CRM for community foundations",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.424214+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Community Foundations\n\nCommunity foundations have unique needs\u2014managing multiple funds, handling complex gift types, and coordinating with various advisors. Here are the top options:\n\n## **Top Tier Solutions**\n\n### **1. Foundant GLM (Gifts & Grants Management)**\n- **Best for:** Mid to large community foundations\n- **Strengths:** \n  - Purpose-built for community foundations\n  - Fund accounting integration\n  - Donor portal and advisor access\n  - Grant management in same system\n- **Considerations:** Higher price point, implementation time\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger foundations wanting customization\n- **Strengths:**\n  - Highly customizable for complex fund structures\n  - Robust reporting and dashboards\n  - Large app ecosystem\n- **Considerations:** Requires dedicated admin, can be expensive\n\n### **3. Bloomerang**\n- **Best for:** Small to mid-sized foundations\n- **Strengths:**\n  - Strong donor engagement tools\n  - Excellent retention metrics\n  - User-friendly interface\n  - Good value for price\n- **Considerations:** Less specialized for foundation-specific needs\n\n## **Strong Alternatives**\n\n- **DonorPerfect** - Solid all-around option with fund accounting\n- **Raiser's Edge NXT** (Blackbaud) - Enterprise solution, extensive features\n- **Giveffect** - All-in-one with grant management included\n\n## **Key Features to Prioritize**\n- Multiple fund management\n- DAF (Donor-Advised Fund) tracking\n- Planned giving/legacy gift tracking\n- Advisor portal access\n- Integration with accounting software\n- Grant payment tracking\n\n**Recommendation:** Most community foundations find **Foundant GLM** or **Salesforce** best suit their complex needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 424,
+  "estimated_cost_usd": 0.006402,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

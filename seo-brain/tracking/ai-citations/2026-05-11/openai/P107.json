@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.421794+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Measuring donor retention is a critical aspect of nonprofit management, as it helps organizations understand how successful they are at maintaining relationships with their donors. Here are several steps and metrics you can use to measure donor retention effectively:\n\n1. **Calculate the Donor Retention Rate:**\n   - **Formula:** \n     \\[\n     \\text{Donor Retention Rate} = \\left( \\frac{\\text{Number of Returning Donors}}{\\text{Number of Donors in Previous Year}} \\right) \\times 100\n     \\]\n   - **Example:** If you had 1,000 donors last year, and 600 of them donated again this year, your retention rate is \\( \\frac{600}{1000} \\times 100 = 60\\% \\).\n\n2. **Assess Your Donor Attrition Rate:**\n   - This is the inverse of the retention rate and shows the percentage of donors who did not return.\n   - **Formula:** \n     \\[\n     \\text{Donor Attrition Rate} = 100\\% - \\text{Donor Retention Rate}\n     \\]\n\n3. **Track the Retention Rate Over Different Periods:**\n   - **First-Year vs. Multi-Year Retention:** First-time donors often have lower retention rates. Monitor the retention from year one to year two separately, as well as the retention of multi-year donors.\n   - Analyze trends over multiple years to identify patterns or shifts in donor behavior.\n\n4. **Segment Retention Rates:**\n   - **By Giving Level:** Compare the retention rates of small, medium, and large donors.\n   - **By Campaign or Appeal:** Determine which fundraising campaigns yield higher retention rates.\n   - **By Donor Source:** Track retention based on how or where donors were acquired (e.g., online vs. direct mail).\n\n5. **Monitor Lifetime Value of Donors:**\n   - Calculate the average lifetime value (LTV) of a donor, taking into account both the frequency and amount of donations over time. This can help in understanding the financial impact of retaining different types of donors.\n\n6. **Conduct Donor Surveys and Feedback:**\n   - Engage with donors to gather feedback on their giving experience. This qualitative data can provide insights into why donors stay or leave.\n\n7. **Utilize Donor Management Software:**\n   - Use CRM software to track donor interactions, giving history, and communications. This data can help identify who is likely to lapse and why.\n\n8. **Benchmark Against Industry Standards:**\n   - Compare your retention rates with industry averages to gauge your performance. The Fundraising Effectiveness Project (FEP) usually provides annual reports on average retention rates across sectors.\n\nBy regularly measuring and analyzing these metrics, you can implement strategies to improve donor retention, such as enhancing donor communication, expressing gratitude effectively, and tailoring engagement strategies for different donor segments.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 588,
+  "estimated_cost_usd": 0.00591,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

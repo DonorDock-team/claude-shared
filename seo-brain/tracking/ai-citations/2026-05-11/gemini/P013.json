@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P013",
+  "prompt_text": "DonorDock vs Little Green Light",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424730+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Both DonorDock and Little Green Light (LGL) are donor management software solutions designed for nonprofits. However, they often cater to slightly different needs and organizational sizes due to their feature sets, pricing, and overall approach.\n\nHere's a breakdown to help you compare them:\n\n## DonorDock vs. Little Green Light\n\n| Feature/Aspect         | DonorDock                                       | Little Green Light (LGL)                                |\n| :--------------------- | :---------------------------------------------- | :------------------------------------------------------ |\n| **Primary Focus**      | Comprehensive donor management, fundraising, and engagement platform, often emphasizing automation and modern UI. | User-friendly, affordable donor management for small to mid-sized nonprofits. |\n| **Target Audience**    | Growing nonprofits, mid-sized organizations, and those seeking an all-in-one solution with robust features. | Small to mid-sized nonprofits, startups, and those with budget constraints or simpler needs. |\n| **Core Features**      | - Donor & Contact Management <br> - Gift & Pledge Tracking <br> - Automated Acknowledgements <br> - Campaign & Appeal Management <br> - Grant Tracking <br> - Event Management <br> - Volunteer Management <br> - Communication Tools (Email, Mail Merge) <br> - Robust Reporting & Analytics <br> - Online Donation Forms <br> - Task & Workflow Automation | - Donor & Contact Management <br> - Gift & Pledge Tracking <br> - Automated Acknowledgements <br> - Campaign & Appeal Management <br> - Basic Grant Tracking <br> - Simple Event Management <br> - Basic Volunteer Tracking <br> - Communication Tools (Mail Merge, some email) <br> - Good Reporting (flexible) <br> - Online Donation Forms <br> - Basic Task Management |\n| **Ease of Use**        | Generally good, modern interface, but the breadth of features might require a steeper initial learning curve for some. | Often praised for its intuitive interface, ease of setup, and straightforward navigation. |\n| **Pricing**            | Typically tiered based on features and/or donor records. Can be more expensive than LGL, but offers more advanced features. Value proposition is comprehensive functionality. | Very competitive and affordable, often based on the number of donor records. A significant strength for budget-conscious organizations. |\n| **Scalability**        | Designed to scale with growing organizations, offering advanced features as needs become more complex. | Excellent for small to mid-sized organizations. While it can scale, very large or highly complex organizations might eventually look for more specialized features. |\n| **Integrations**       | Integrates with popular tools like payment processors (Stripe, PayPal), accounting software, email marketing (Mailchimp, Constant Contact). | Integrates well with payment processors (Stripe, PayPal), Mailchimp, QuickBooks, and others. |\n| **Reporting**          | Robust and customizable reporting, often with advanced analytics and dashboards for deeper insights into fundraising performance. | Flexible and powerful reporting engine that allows users to create highly customized reports from various data points. A strong feature for its price point. |\n| **Customer Support**   | Generally good, with various tiers of support depending on the plan. | Often lauded for its responsive and helpful customer support, including a strong knowledge base and",
+  "donordock_mentioned": true,
+  "donordock_position": 5,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 684,
+  "estimated_cost_usd": 0.001712,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

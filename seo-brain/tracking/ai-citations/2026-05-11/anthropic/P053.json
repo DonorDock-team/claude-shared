@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P053",
+  "prompt_text": "Best donor CRM for a 10 person fundraising team",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.421732+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for a 10-Person Fundraising Team\n\nFor a team your size, you need something robust but not enterprise-overwhelming. Here are the top options:\n\n## **Top Recommendations**\n\n### **1. Bloomerang** \u2b50 Best Overall\n- **Price:** ~$125-175/month\n- **Why it's great:** Built specifically for fundraising, excellent donor retention tools, intuitive interface\n- **Best for:** Teams wanting strong reporting and donor engagement features out-of-the-box\n\n### **2. Salesforce Nonprofit Cloud**\n- **Price:** $36/user/month (Power of Us pricing)\n- **Why it's great:** Highly customizable, scales well, huge nonprofit community\n- **Best for:** Teams with some technical capacity who want room to grow\n- **Note:** May require implementation help initially\n\n### **3. DonorPerfect**\n- **Price:** ~$89/month base + per record fees\n- **Why it's great:** Solid all-around features, good online giving integration\n- **Best for:** Traditional fundraising with events and major gifts\n\n### **4. Neon CRM**\n- **Price:** ~$99-199/month\n- **Why it's great:** Modern interface, strong membership features, good event management\n- **Best for:** Organizations with membership programs or frequent events\n\n## **Key Questions to Consider:**\n- Do you need integrated email marketing?\n- How important is event management?\n- What's your technical capacity for customization?\n- Budget range?\n\nWhat type of fundraising does your team focus on most? That'll help narrow it down further.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 20,
+  "output_tokens": 372,
+  "estimated_cost_usd": 0.00564,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

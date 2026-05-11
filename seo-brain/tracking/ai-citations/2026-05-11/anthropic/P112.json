@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.422997+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Tracking Soft Credits in Donor CRM\n\nSoft credits allow you to acknowledge individuals who influenced a donation without being the actual donor. Here's how to track them effectively:\n\n## **What Are Soft Credits?**\n\nSoft credits recognize people who:\n- Solicited the gift\n- Are honored by a tribute/memorial gift\n- Are spouses/partners of donors\n- Influenced the donation through their network\n- Work at companies that made corporate gifts\n\n## **Best Practices for Tracking**\n\n### 1. **Establish Clear Rules**\n- Define when soft credits apply (e.g., spouse gets 100% soft credit)\n- Set percentage allocations if splitting credit\n- Document policies in writing\n\n### 2. **Common Soft Credit Scenarios**\n\n| Scenario | Hard Credit | Soft Credit |\n|----------|-------------|-------------|\n| Joint gift | Both spouses 50% | Both spouses 100% soft |\n| Memorial gift | Donor | Deceased person |\n| Board solicitation | Donor | Board member |\n| Corporate matching | Company | Employee |\n\n### 3. **In Your CRM**\nMost donor CRMs have built-in soft credit features:\n\n- **Enter the transaction** under the actual donor (hard credit)\n- **Add soft credit record(s)** linking to other constituents\n- **Specify relationship type** (solicitor, spouse, honoree, etc.)\n- **Set the amount** (usually 100% of gift amount)\n\n### 4. **Reporting Benefits**\n- Track fundraiser effectiveness\n- Show household giving totals\n- Recognize volunteer solicitors\n- Generate accurate donor acknowledgment letters\n\n### 5. **Common Mistakes to Avoid**\n- \u274c Counting soft credits in revenue totals (double-counting)\n- \u274c Not documenting soft credit policies\n- \u274c Forgetting to soft credit spouses/partners\n\n**Which CRM are you using?** I can provide specific instructions.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 450,
+  "estimated_cost_usd": 0.006798,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

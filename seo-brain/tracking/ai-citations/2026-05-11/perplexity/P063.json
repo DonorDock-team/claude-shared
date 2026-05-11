@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423943+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs with Integrated Text Messaging\n\nBased on the search results, several Donor CRMs offer built-in or tightly integrated SMS/text messaging for nonprofits, focusing on fundraising, donor engagement, volunteer recruitment, and text-to-give campaigns. These tools emphasize high open rates (often 98% within minutes), opt-in compliance, personalization, and bi-directional syncing with donor data. Here's a breakdown of the most relevant options directly tied to Donor CRMs:\n\n#### 1. **DonorPerfect (with DP Text or Rally Corp Integration)**\n   - **Key Features**:\n     | Feature | Details |\n     |---------|---------|\n     | Text-to-Give | Custom keywords (e.g., \"GIVE\" to a number) trigger secure donations, pledges, volunteer signups. |\n     | Engagement | Segmentation, event invites, updates, gamified giving (e.g., scavenger hunts), goal meters. |\n     | Reporting | In-depth analytics on texts, delivery, responses. |\n     | Integration | Native bi-directional API; Rally adds short codes (e.g., 24365), NFC tap-to-donate, automated follow-ups. |\n     | Pricing | Custom; DP Text offers trials via text (e.g., \"CORAL\" to 844-585-0681). |\n   - **Best For**: Nonprofits wanting seamless DonorPerfect CRM sync without switching systems. 98% read rate in 3 minutes.\n   - **Sources**: [1], [2], [4] (Constant Contact SMS add-on).\n\n#### 2. **Andar/360**\n   - **Key Features**:\n     | Feature | Details |\n     |---------|---------|\n     | Personalization | Merge donor name, giving history, affinity groups. |\n     | Engagement Tracking | Delivery/click rates, response storage, automated workflows based on replies. |\n     | Multi-Channel | Boosts email/SMS strategy with event invites, updates. |\n     | Security | Matches incoming texts to CRM accounts automatically. |\n   - **Best For**: Secure, accessible donor/volunteer outreach with workflow automation.\n   - **Source**: [3].\n\n#### Other Notable Options (Standalone CRMs with Strong Text Features)\n| CRM | Highlights | Source |\n|-----|------------|--------|\n| **Funraise** | Custom text-to-give codes (e.g., \"DONATE\"), personalized outbound texts, auto-reminders, donor CRM integration, campaign thermometers. | [5] |\n| **DonorDock** | Bulk/individual texts for reminders/appeals, signup forms with SMS consent, response tracking. | [6] |\n| **Giveffect** | Immediate notifications for events/campaigns, high engagement via SMS marketing. | [7] |\n\n#### Quick Comparison\n| CRM/Integration | Text-to-Give | Bi-Directional CRM Sync | Automation/Workflows | Unique Edge |\n|-----------------|--------------|--------------------------|----------------------|-------------|\n| DonorPerfect + DP Text/Rally | Yes (keywords/short codes) | Yes | Yes (thank-yous, segmentation) | Event gamification, NFC. |\n| Andar/360 | Partial (responses trigger workflows) | Yes | Yes (follow-ups) | Personalization merges. |\n| Funraise | Yes (custom codes) | Yes (full CRM) | Yes (reminders) | Digital wallet support. |\n| DonorDock | Yes (bulk/outbound) | Yes | Partial (forms/tracking) | Embeddable signup forms. |\n\n**Recommendations**: Start with **DonorPerfect integrations** (DP Text or Rally) if you're already using that CRM\u2014quick setup and proven ROI (e.g., 95% of marketers see revenue gains). For a full CRM switch, **Funraise** or **Andar/360** excel in end-to-end text fundraising. Test via free trials or keyword demos. Always ensure TCPA compliance for opt-ins. For more, check linked sources.",
+  "donordock_mentioned": true,
+  "donordock_position": 2193,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 826,
+  "estimated_cost_usd": 0.017411,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donorperfect.com/integrations/email-marketing/dp-text/",
+      "https://www.rallycorp.com/integrations/donorperfect",
+      "https://andarsoftware.com/texting/",
+      "https://www.donorperfect.com/factsheets/constant-contact-sms/",
+      "https://www.funraise.org/features/text-engagement",
+      "https://www.donordock.com/features/text-message-outreach",
+      "https://www.giveffect.com/marketing-and-communications-system",
+      "https://bloomerang.com/blog/taking-advantage-of-texts-for-fundraising-and-supporter-engagement/"
+    ]
+  }
+}

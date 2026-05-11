@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P056",
+  "prompt_text": "Best donor CRM to consolidate multiple fundraising tools",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.422273+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Consolidation\n\nThe ideal choice depends on your organization's size and needs, but here are the top options:\n\n## **Best Overall: Bloomerang**\n- **Strengths**: Excellent consolidation of donor management, email marketing, online giving, and wealth screening\n- **Best for**: Small to mid-size nonprofits ($100K-$10M revenue)\n- **Pricing**: ~$125-$500/month\n- **Key feature**: Strong donor retention focus with built-in engagement tracking\n\n## **Most Comprehensive: Salesforce Nonprofit Cloud**\n- **Strengths**: Can replace virtually all tools; highly customizable\n- **Best for**: Larger organizations with technical resources\n- **Pricing**: $$$$ (plus implementation costs)\n- **Key feature**: Unlimited integration possibilities\n\n## **Best Value: DonorPerfect**\n- **Strengths**: Solid all-in-one with online giving, email, events, and peer-to-peer\n- **Best for**: Growing organizations wanting to reduce tool sprawl\n- **Pricing**: ~$89-$300/month\n\n## **Best for Small Shops: Little Green Light**\n- **Strengths**: Simple consolidation of donor tracking, communications, and basic fundraising\n- **Best for**: Organizations under $1M budget\n- **Pricing**: $59-$119/month\n\n## **Most Modern: Givebutter (for certain orgs)**\n- **Strengths**: Free CRM + fundraising tools for smaller events/campaigns\n- **Best for**: Event-heavy, digitally-focused organizations\n- **Pricing**: Free (platform fees on donations)\n\n**What tools are you currently using?** That would help narrow the recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 395,
+  "estimated_cost_usd": 0.005979,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

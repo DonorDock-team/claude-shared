@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P056",
+  "prompt_text": "Best donor CRM to consolidate multiple fundraising tools",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.422763+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Consolidating multiple fundraising tools into a single donor CRM is a smart move for efficiency, data integrity, and a holistic view of your donors. The \"best\" CRM really depends on your organization's size, budget, specific fundraising activities, and technical comfort level.\n\nHere are the top donor CRMs known for their ability to consolidate various fundraising functions, along with their strengths:\n\n### Key Considerations When Choosing:\n\nBefore diving into options, think about:\n\n1.  **Your Current Tools:** List all your current fundraising tools (donation forms, event registration, email marketing, grant tracking, volunteer management, peer-to-peer, text-to-give). Which of these do you *need* the new CRM to replace or integrate with seamlessly?\n2.  **Budget:** What's your realistic annual budget for software, implementation, and potential training?\n3.  **Organization Size & Complexity:** Are you a small startup, a growing mid-size, or a large enterprise with complex needs?\n4.  **User Friendliness:** How tech-savvy is your team? Do you need something intuitive out-of-the-box, or do you have the resources for customization?\n5.  **Reporting Needs:** What kind of insights do you need from your consolidated data?\n6.  **Scalability:** Will the CRM grow with you as your organization evolves?\n\n---\n\n### Top Donor CRMs for Consolidation:\n\nThese CRMs either have robust built-in modules for various fundraising activities or exceptional integration capabilities with specialized tools.\n\n1.  **Salesforce NPSP (Nonprofit Success Pack)**\n    *   **Best For:** Large, complex organizations, those with unique needs, or those expecting significant growth.\n    *   **Why it Consolidates:** Salesforce is the ultimate platform for consolidation. While NPSP provides the nonprofit framework, the vast AppExchange (marketplace for additional apps) allows you to integrate or add almost any functionality you need \u2013 from advanced marketing automation to complex program management, event platforms, peer-to-peer tools, and grant management. Many fundraising tools (Classy, Givebutter, DonorDrive, Pardot, Marketing Cloud) have deep native integrations with Salesforce.\n    *   **Pros:** Highly customizable, incredibly powerful, huge ecosystem, scalable to infinity, unparalleled reporting.\n    *   **Cons:** Steep learning curve, requires an administrator or consultant for optimal setup and maintenance, can be the most expensive in terms of implementation and ongoing support.\n\n2.  **Bloomerang",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Givebutter",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 522,
+  "estimated_cost_usd": 0.001307,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

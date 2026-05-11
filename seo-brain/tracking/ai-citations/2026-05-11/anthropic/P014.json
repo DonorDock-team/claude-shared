@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.424772+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Keela Comparison\n\nBoth are cloud-based donor management systems designed for nonprofits, but they have different strengths:\n\n## **DonorDock**\n\n### Strengths:\n- **Simplicity & ease of use** - Clean, intuitive interface\n- **Relationship-focused** - Emphasizes donor engagement and communication tracking\n- **Affordable pricing** - Generally lower cost for smaller organizations\n- **Quick setup** - Faster implementation time\n- **Good for**: Small to mid-sized nonprofits wanting straightforward donor management\n\n### Limitations:\n- Fewer advanced features\n- Less robust reporting compared to Keela\n- Smaller integration ecosystem\n\n## **Keela**\n\n### Strengths:\n- **AI-powered insights** - Predictive analytics for donor behavior\n- **Comprehensive features** - More robust fundraising tools\n- **Advanced reporting** - Deeper data analysis and custom reports\n- **Email marketing** - Built-in campaign tools\n- **Online donations** - Integrated payment processing\n- **Good for**: Growing nonprofits needing data-driven decision-making\n\n### Limitations:\n- Steeper learning curve\n- Higher price point\n- May be overkill for very small organizations\n\n## **Quick Decision Guide**\n\nChoose **DonorDock** if you:\n- Have a smaller budget\n- Want simplicity over advanced features\n- Need to get up and running quickly\n\nChoose **Keela** if you:\n- Need sophisticated reporting and analytics\n- Want all-in-one fundraising capabilities\n- Plan to scale significantly\n\n**Recommendation**: Try free trials of both to see which interface feels better for your team's workflow.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 380,
+  "estimated_cost_usd": 0.005748,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

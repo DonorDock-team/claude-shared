@@ -1,0 +1,39 @@
+{
+  "prompt_id": "P119",
+  "prompt_text": "AI to draft donor thank you letters",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424329+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top AI Tools and Prompts for Drafting Donor Thank-You Letters\n\nAI streamlines creating personalized, heartfelt donor thank-yous for nonprofits, boosting retention by making donors feel valued. Below, I've curated the best options from recent search results, including free tools, ready-to-use prompts, and generators. Prioritize editing outputs for your org's voice and specifics like donor name, gift amount, and impact.\n\n#### Free AI Prompts (Copy-Paste into ChatGPT, Gemini, Poe, or Claude)\nThese are battle-tested templates from experts. Replace brackets with your details.\n\n1. **Gail Perry Group Template** (From [3] \u2013 Emphasizes warmth, impact, and no jargon):\n   ```\n   As an experienced nonprofit fundraising expert, write a short thank you letter to [donor\u2019s name] which will begin with an innovative or creative sentence that charms the donor and conveys gratitude using a tone that is warm, positive and upbeat. Include how the gift will be used [e.g., \"to provide meals for 50 families\"], the name of your organization [xxx] and sign it by a high-ranking person [name/role] including their phone number [xxx].\n\n   Requirements: Use the first person: \u201cI\u201d and \u201cwe.\u201d Use the second person: \u201cyou,\u201d \u201cyou\u201d and \u201cyou\u201d again. Say things like \u201cI can\u2019t begin to thank you enough for\u2026\u201d or \u201cBecause of your gift, a family will...\u201d Use contractions such as \u201cWe\u2019ll.\u201d Use exclamation marks if appropriate, but don\u2019t use too many. Show some emotion. Talk about the impact of the gift. Be concise. Don\u2019t be formal. Don\u2019t start with \u201con behalf of.\u201d Don\u2019t use jargon like \u201cwe are deeply grateful.\u201d Don\u2019t ask for more.\n   ```\n   **Example Output Style**: \"Peter, your gift just lit up the room for a classroom of kids dreaming big!\"\n\n2. **AI for Education Prompt** (From [2] \u2013 Great for mission-focused letters; attach past examples if possible):\n   ```\n   You are an experienced fundraising professional with a background in raising philanthropy for [your sector, e.g., educational non-profits]. Draft a thank you letter to a recent donor. Explain the connection between [org mission/vision, e.g., \"providing mentors to young entrepreneurs\"] and the donor's generous gift of [amount]. For reference, [attach or describe a past thank-you example].\n   ```\n   **Tip**: Upload a sample letter (redact sensitive info) for tailored style-matching.\n\n3. **Poe Free Tool** (From [1] \u2013 YouTube tutorial + direct link):\n   - Access: [Poe Fundraiser Thank-You](https://poe.com/Fundraiser-Thank-You)\n   - Input donor details/mission; it uses proven copywriting frameworks for emotional resonance.\n\n#### Specialized AI Generators (Free Tiers Available)\n| Tool | Key Features | Link | Best For |\n|------|--------------|------|----------|\n| **Fundwriter.ai** [5] | Personalized thank-yous, appeals, emails; 30+ templates; drafts 10x faster. | [fundwriter.ai](https://www.fundwriter.ai) | High-volume nonprofits needing segments (e.g., major vs. small donors). |\n| **Taskade AI Generator** [4] | Instant bespoke letters; focuses on retention via personalization. | [taskade.com/generate/nonprofit/donor-thank-you-letter](https://www.taskade.com/generate/nonprofit/donor-thank-you-letter) | Quick, professional outputs with workflow integration. |\n| **Easy-Peasy.AI** [6] | Simple input (e.g., \"Peter\"); generates donor/customer notes. Free. | [easy-peasy.ai/templates/thank-you-note-generator](https://easy-peasy.ai/templates/thank-you-note-generator) | Beginners; example: Turns \"Peter\" into \"Your uplifting words have helped me stay driven!\" |\n| **Willy FreeWill** [9] | Nonprofit-specific; inputs donor name/org for instant notes. | [willy.freewill.com/ty-notes](https://willy.freewill.com/ty-notes) | Speed; patient for generation time. |\n| **DonorPerfect AI** [7] | Integrates with CRM; also does videos/social for appreciation. | [donorperfect.com/fundraising-ai-writer-bot](https://www.donorperfect.com/fundraising-ai-writer-bot) | CRM users wanting multi-channel engagement. |\n\n#### Pro Tips for Best Results\n- **Personalize Deeply**: Always add gift impact (e.g., \"Your $500 feeds 20 kids for a week\").\n- **Tone Hacks**: Warm/upbeat > formal. Use \"you\" 3x+; contractions; emotion (e.g., \"thrilled!\").\n- **Avoid Pitfalls**: No \"dear friend,\" no asks, no lofty language. Test 2-3 versions.\n- **Scale It**: Batch-process for events; A/B test for loyalty (studies show personalized thanks lift repeat gifts 20-30%).\n- **Edit Always**: AI drafts; humans add soul. Track opens/replies to refine.\n\nStart with the Gail Perry prompt\u2014it's produced \"killer\" results per users. Need a sample letter? Provide donor/org details!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [
+    "https://willy.freewill.com/ty-notes",
+    "https://www.donorperfect.com/fundraising-ai-writer-bot",
+    "https://www.fundwriter.ai",
+    "https://easy-peasy.ai/templates/thank-you-note-generator",
+    "https://poe.com/Fundraiser-Thank-You",
+    "https://www.taskade.com/generate/nonprofit/donor-thank-you-letter"
+  ],
+  "input_tokens": 8,
+  "output_tokens": 1120,
+  "estimated_cost_usd": 0.021824,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.youtube.com/watch?v=q0pBLiWiV60",
+      "https://www.aiforeducation.io/prompts/write-a-donor-thank-you-letter",
+      "https://gailperrygroup.com/use-ai-to-write-donor-thank-you-letters/",
+      "https://www.taskade.com/generate/nonprofit/donor-thank-you-letter",
+      "https://www.fundwriter.ai",
+      "https://easy-peasy.ai/templates/thank-you-note-generator",
+      "https://www.donorperfect.com/fundraising-ai-writer-bot/",
+      "https://bit.ai/ai-prompts/donor-thank-you-letter",
+      "https://willy.freewill.com/ty-notes"
+    ]
+  }
+}

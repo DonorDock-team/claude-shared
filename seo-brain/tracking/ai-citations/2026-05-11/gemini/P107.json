@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.421880+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Measuring donor retention is crucial for understanding the health and sustainability of your fundraising efforts. It tells you what percentage of your existing donors are continuing to support your organization over time.\n\nHere's how to measure donor retention, along with important variations and considerations:\n\n## The Basic Donor Retention Formula\n\nThe most common and fundamental way to measure donor retention is year-over-year:\n\n**Donor Retention Rate = (Number of Donors who gave in Year 2 AND Year 1 / Total Number of Donors who gave in Year 1) x 100**\n\nLet's break down the components:\n\n*   **Year 1 (The Baseline Year):** This is the previous period you're measuring against. You'll count all unique donors who made at least one gift during this year.\n*   **Year 2 (The Current Year):** This is the period you're evaluating. You'll identify which of the donors from Year 1 also made at least one gift during Year 2.\n*   **Number of Donors who gave in Year 2 AND Year 1:** This is the numerator. It represents the \"retained donors\" \u2013 those who supported you in both periods.\n*   **Total Number of Donors who gave in Year 1:** This is the denominator. It represents your entire donor pool from the previous period, against which you're measuring retention.\n\n---\n\n### **Example:**\n\nLet's say:\n*   In **2022 (Year 1)**, your organization had **1,000 unique donors**.\n*   In **2023 (Year 2)**, you look back at those 1,000 donors and find that **450 of them** made at least one gift again in 2023.\n\n**Calculation:**\n\nDonor Retention Rate = (450 / 1,000) x 100\nDonor Retention Rate = 0.45 x 100\n**Donor Retention Rate = 45%**\n\nThis means 45% of your 2022 donors continued their support in 2023.\n\n---\n\n## Important Variations and Types of Retention\n\nWhile the basic formula is a great start, you should consider segmenting your retention metrics for deeper insights:\n\n1.  **Overall Donor Retention:** (As described above) This gives you a broad picture of your entire donor base.\n\n2.  **First-Time Donor Retention Rate:** This is CRITICAL. It measures how many of your *new donors* from Year 1 made a second gift in Year 2.\n    *   **Formula:** (Number of First-Time Donors in Year 1 who gave again in Year 2 / Total Number of First-Time Donors in Year 1) x 100\n    *   **Why it's important:** First-time donor retention rates are often much lower (typically 15-30%) than overall retention. Improving this rate is key to long-term growth and turning one-time givers into loyal supporters.\n\n3.  **Repeat Donor Retention Rate:** This measures how many donors who have given *more than once* in the past continue to give.\n    *   **Formula:** (Number of Repeat Donors in Year 1 who gave again in Year 2 / Total Number of Repeat Donors in Year 1) x 100\n    *   **Why it's important:** These donors are already somewhat loyal. Their retention rates should be significantly higher (often 60-80% or more). If they're not, it might indicate issues with stewardship or engagement.\n\n4.  **Value Retention (or Revenue Retention):** This metric looks at the *money* retained, not just the number",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 807,
+  "estimated_cost_usd": 0.002019,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

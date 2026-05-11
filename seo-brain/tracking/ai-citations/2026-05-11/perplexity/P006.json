@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P006",
+  "prompt_text": "DonorDock vs DonorPerfect",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423411+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### DonorDock vs. DonorPerfect: Key Comparison (2026)\n\nDonorDock and DonorPerfect are both nonprofit CRMs focused on donor management, online giving, tracking gifts/contacts, email outreach, and integrations (e.g., Stripe, PayPal). DonorPerfect is a long-established, comprehensive platform for organizations of all sizes, while DonorDock positions itself as a modern, user-friendly alternative with unified features. Here's a breakdown based on recent comparisons from G2, Capterra, GetApp, and vendor sites.\n\n#### Ratings and User Feedback\n| Platform      | Overall Rating | Ease of Use | Key Pros (from Reviews) | Key Cons (from Reviews) |\n|---------------|----------------|-------------|--------------------------|--------------------------|\n| **DonorDock** | 4.8/5 (G2, GetApp) | 9.6/10 (G2) | Affordable single plan; intuitive interface; fast setup (3.5x faster than DonorPerfect); high adoption (20% higher); excellent support/onboarding. | Donor profile pages could improve; some database fields not easily accessible. |\n| **DonorPerfect** | 4.6/5 (G2, GetApp) | 8.4/10 (G2) | Customizable screens; strong thank-you automation; robust for complex needs like auctions/matching gifts. | Dated UI; unintuitive navigation; finicky data handling; modular add-ons inflate costs. |\n\n- DonorDock edges out in most categories except peer-to-peer fundraising (per DonorDock's analysis).\n- Users praise DonorDock's \"excellent customer service\" and simplicity; DonorPerfect shines for customization but frustrates with complexity.\n\n#### Pricing\n- **DonorDock**: Single \"ONE\" plan (~$98-99/month) includes CRM, email, online giving, SMS, AI assistant (Otto), project management (ActionBoard), unlimited pages, automations. No contracts; cloud-hosted.\n- **DonorPerfect**: Starts at ~$450/month base; add-ons for email, online giving, etc., drive total costs \"significantly higher.\" Includes contracts/setup fees in some cases.\n- **Note**: Third-party like Zeffy highlights both charge monthly + ~2.9% transaction fees, but DonorDock bundles more natively.\n\n#### Features Head-to-Head\nBoth cover core needs (donor/gift tracking, recurring donations, reporting, events, volunteers). DonorDock includes extras in its base plan; DonorPerfect often requires add-ons.\n\n| Feature Category | DonorDock | DonorPerfect |\n|------------------|-----------|--------------|\n| **Core CRM** | Donor/gift tracking, unlimited contacts, custom fields, integrations | Similar, plus strong prospect/alumni management |\n| **Giving Tools** | Online forms, P2P, pledges, mobile/recurring, SMS marketing | Online forms, auctions, matching gifts, pledges (add-ons for some) |\n| **Engagement** | Email, AI assistant, Smart Nudges, 15+ automations | Email (Constant Contact), custom reports, receipting |\n| **Advanced** | Built-in project mgmt, unlimited pages, high user adoption tools | Grant/in-kind management, raffles (via partners) |\n| **Setup/Migration** | Easiest setup; direct import from DonorPerfect exports (via Listings tool) | More complex; supports exports but slower implementation |\n\n- DonorDock wins on modern features like AI, SMS, and unified tools; DonorPerfect is broader for enterprise-scale (e.g., auctions, grants).\n- Both support mobile giving, events, and volunteer tracking.\n\n#### Best For\n- **Choose DonorDock** if you want affordability, ease (especially for small/medium teams), quick setup, and all-in-one features without add-ons. Ideal for growing nonprofits prioritizing user adoption and simplicity.\n- **Choose DonorPerfect** for established orgs needing deep customization, comprehensive reporting, and proven scalability across fundraising initiatives.\n- **Alternatives like Zeffy** (mentioned in comparisons) offer free donor management + extras (auctions, ticketing) via voluntary donor tips\u2014no platform fees.\n\nFor migration from DonorPerfect to DonorDock: Export via \"Listings\" tool, then use DonorDock's import. Test both with demos\u2014DonorDock claims higher satisfaction overall. Sources: G2, Capterra, GetApp, vendor pages (updated through March 2026).",
+  "donordock_mentioned": true,
+  "donordock_position": 4,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 932,
+  "estimated_cost_usd": 0.019004,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/compare/donorperfect-vs-donordock",
+      "https://www.zeffy.com/compare/donordock-vs-donorperfect",
+      "https://slashdot.org/software/comparison/DonorDock-vs-DonorPerfect-Fundraising-Software/",
+      "https://www.getapp.com/nonprofit-software/a/donorperfect-fundraising-software/compare/donordock/",
+      "https://www.capterra.com/compare/2698-184187/DonorPerfect-Fundraising-Software-vs-DonorDock",
+      "https://helpcenter.donordock.com/kb/guide/en/migrating-from-donorperfect-1gMxjVr5lY/Steps/1116447",
+      "https://www.softwareadvice.com/nonprofit/donordock-profile/vs/donorperfect/",
+      "https://www.g2.com/compare/donordock-vs-donorperfect"
+    ]
+  }
+}

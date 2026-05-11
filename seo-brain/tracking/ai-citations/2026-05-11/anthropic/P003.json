@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P003",
+  "prompt_text": "DonorDock reviews",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.424392+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock Reviews: Overview\n\nDonorDock is a donor management system (CRM) designed specifically for small to mid-sized nonprofits. Here's what users typically say about it:\n\n## **Positive Feedback**\n\n- **User-friendly interface**: Many reviewers praise its clean, intuitive design that's easy to navigate\n- **Affordable pricing**: Often highlighted as cost-effective compared to competitors like Bloomerang or DonorPerfect\n- **Good customer support**: Users frequently mention responsive and helpful support team\n- **Automation features**: Automated receipting and thank-you emails are well-received\n- **Integration capabilities**: Works with payment processors and other common nonprofit tools\n- **Suitable for small nonprofits**: Great entry-level solution for organizations outgrowing spreadsheets\n\n## **Common Criticisms**\n\n- **Limited reporting**: Some users want more advanced or customizable reporting options\n- **Feature limitations**: May lack some advanced features found in enterprise-level systems\n- **Learning curve**: While generally user-friendly, some features require time to master\n- **Growing pains**: As a newer platform, some users encounter occasional bugs or feature gaps\n\n## **Typical Rating Range**\nMost review sites show ratings around **4.0-4.5 out of 5 stars**\n\n## **Best For**\n- Small to medium nonprofits\n- Organizations with limited budgets\n- Groups new to donor management software\n- Nonprofits needing basic to intermediate CRM features\n\nWould you like specific information about pricing, features, or comparisons to alternative platforms?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 352,
+  "estimated_cost_usd": 0.005319,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

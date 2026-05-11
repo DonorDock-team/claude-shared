@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P143",
+  "prompt_text": "Donor CRM that does pledges and recurring",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.421758+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# CRM Systems with Pledge & Recurring Donation Features\n\nHere are the top donor CRMs that handle both pledges and recurring donations:\n\n## **Top Recommendations**\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- Strong pledge tracking with payment schedules\n- Automated recurring donation processing\n- Email reminders for pledge fulfillment\n- **Pricing:** ~$125-500+/month\n\n### **2. Blackbaud Raiser's Edge NXT**\n- **Best for:** Larger nonprofits with complex needs\n- Comprehensive pledge management\n- Sophisticated recurring gift processing\n- Extensive reporting capabilities\n- **Pricing:** Custom (typically $10K+/year)\n\n### **3. Little Green Light**\n- **Best for:** Budget-conscious small nonprofits\n- Built-in pledge tracking\n- Recurring donation management\n- Easy to use interface\n- **Pricing:** ~$59-99/month\n\n### **4. Salsa CRM (formerly Engage)**\n- **Best for:** Advocacy-focused organizations\n- Integrated payment processing for recurring gifts\n- Pledge campaigns and tracking\n- Strong email integration\n- **Pricing:** ~$400-800+/month\n\n### **5. DonorPerfect**\n- Robust pledge management system\n- Automated recurring billing\n- Payment gateway integrations\n- **Pricing:** ~$89-500+/month\n\n## **Key Features to Look For:**\n- Automated payment processing\n- Pledge reminder emails\n- Payment plan flexibility\n- Failed payment handling\n- Reporting on pledge fulfillment rates\n\n**What size organization are you?** This will help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 390,
+  "estimated_cost_usd": 0.005901,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

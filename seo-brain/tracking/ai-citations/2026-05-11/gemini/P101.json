@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P101",
+  "prompt_text": "DonorPerfect total cost of ownership",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424376+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Estimating the Total Cost of Ownership (TCO) for DonorPerfect is crucial for budgeting and understanding the true investment. DonorPerfect is a robust, cloud-based donor management system, and while its subscription fees are the most obvious cost, many other factors contribute to the overall TCO.\n\nHere's a breakdown of the typical components that make up the DonorPerfect TCO:\n\n---\n\n### 1. Software Licensing / Subscription Fees\n\nThis is the core ongoing cost and is highly variable based on:\n*   **Number of Constituents/Records:** DonorPerfect plans are tiered, often based on the number of active donor and contact records you manage. As your database grows, your subscription tier may increase.\n*   **Features and Modules Included:** DonorPerfect offers different \"packages\" or tiers (e.g., Basic, Essentials, Professional, Enterprise) that include varying levels of functionality. Higher tiers include more advanced features like:\n    *   Advanced reporting and analytics\n    *   Integrated online fundraising forms and peer-to-peer tools\n    *   Email marketing functionality\n    *   Donor portals\n    *   Pledge management\n    *   General ledger export capabilities\n    *   Event management tools\n    *   Payment processing integrations\n*   **Payment Frequency:** Annual payments are often discounted compared to monthly payments.\n\n**Estimated Range:**\n*   **Small Organizations (under 5,000 constituents, basic features):** ~$100 - $300+ per month (or $1,200 - $3,600+ annually)\n*   **Medium Organizations (5,000 - 25,000 constituents, comprehensive features):** ~$300 - $800+ per month (or $3,600 - $9,600+ annually)\n*   **Large Organizations (25,000+ constituents, enterprise features):** $800 - $2,000+ per month (or $9,600 - $24,000+ annually)\n\n---\n\n### 2. Implementation & Setup Costs\n\nThese are typically one-time or upfront costs:\n*   **Data Migration:**\n    *   **Internal Staff Time:** The biggest cost here is often the time your staff spends cleaning, de-duping, and organizing your existing data before it can be imported. This can be hundreds of hours.\n    *   **DonorPerfect Professional Services:** DonorPerfect offers services to assist with data migration, which can save your team significant time but comes at an additional cost.\n*   **System Configuration:** Setting up custom fields, screens, user permissions, workflows, and initial reports to match your organization's specific needs.\n*   **Integrations:** Configuring",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 584,
+  "estimated_cost_usd": 0.001462,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

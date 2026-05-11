@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P084",
+  "prompt_text": "Best donor CRM for theaters",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424557+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a theater really depends on its size, budget, existing ticketing system, and specific needs. The ideal solution for a theater often integrates ticketing and donor management seamlessly, as ticket buyers are frequently the same people who become donors.\n\nHere's a breakdown of top contenders, categorized by their primary strength:\n\n## Top Recommendations for Theaters\n\n### 1. Integrated Ticketing & Donor Management (Highly Recommended for Most Theaters)\n\nThese systems are built specifically for performing arts organizations and handle both box office operations and donor relations, offering a unified view of patrons.\n\n*   **Tessitura:**\n    *   **Pros:** The gold standard for many large and mid-sized performing arts organizations. Extremely powerful, highly customizable, and offers deep integration between ticketing, fundraising, marketing, and membership. Provides unparalleled insights into patron behavior from first ticket purchase to major donor.\n    *   **Cons:** Very expensive, has a significant learning curve, and requires dedicated staff for administration. Not suitable for small theaters.\n    *   **Best For:** Large and established mid-sized theaters with complex needs, significant budgets, and dedicated IT/CRM staff.\n\n*   **Spektrix:**\n    *   **Pros:** Cloud-native and modern. Offers excellent integration between ticketing, marketing, and fundraising. Known for its user-friendly interface, robust reporting, and strong focus on data-driven marketing. Good support and a vibrant user community. Excellent for memberships and subscriptions.\n    *   **Cons:** Still a significant investment. While scalable, it might be more than very small theaters need.\n    *   **Best For:** Mid-sized to large theaters looking for a modern, integrated, and data-savvy solution without the immense overhead of Tessitura.\n\n*   **AudienceView (or its various products like PatronManager):**\n    *   **Pros:** AudienceView offers a suite of products tailored for different sizes. PatronManager (built on Salesforce) combines a robust CRM with integrated ticketing, making it very flexible and leveraging the power of the Salesforce ecosystem. OvationTix is another AudienceView product that's more self-service and affordable for smaller venues.\n    *   **Cons:** Can be complex to set up and customize, especially PatronManager on Salesforce, potentially requiring consultants. Costs can vary widely.\n    *   **Best For:** Theaters looking for a Salesforce-powered solution (PatronManager) or those needing a scalable platform that can grow with them (AudienceView).\n\n### 2. Strong Dedicated Non-Profit CRMs (Good if Ticketing is Handled Separately)\n\nIf your theater uses a separate, effective ticketing system and needs a robust CRM specifically for fundraising and donor management, these are excellent choices that *can* integrate with ticketing (often via APIs or manual imports).\n\n*   **Bloomerang:**\n    *   **Pros:** Highly regarded for its user-friendliness, focus on donor retention, and intuitive",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 617,
+  "estimated_cost_usd": 0.001544,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

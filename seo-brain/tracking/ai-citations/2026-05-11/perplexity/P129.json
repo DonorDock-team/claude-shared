@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P129",
+  "prompt_text": "Bloomerang limitations",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.422918+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Key Limitations of Bloomerang (Based on User Reviews and Comparisons)\n\nBloomerang is praised for its donor management CRM, ease of use, and strong customer support (e.g., 4.5/5 on G2), but multiple sources highlight recurring drawbacks, especially for growing nonprofits or those needing advanced features. Here's a synthesized breakdown from the search results:\n\n#### Pricing and Scalability Issues\n- **Contact-based pricing scales with database size**: Starts at ~$125/month for CRM but rises significantly as constituent records grow (e.g., concerns at 10,000+ records). Annual billing required for lowest rates; add-ons like Volunteer or Fundraising increase costs.\n- **Locked payment processing**: Tied to Bloomerang's Stripe integration (2.9% + $0.30/transaction + 1% for P2P). No option for your own processor, limiting rate shopping.\n- **Extra fees for support and services**: Tiered support (chat free, phone/higher-touch extra); implementation, data migration, and add-ons cost more.\n\n#### Feature Gaps and Functionality Limits\n| Category | Limitations | Sources |\n|----------|-------------|---------|\n| **Reporting** | Complex filtering often requires Excel exports; lacks advanced customization. | [3], G2 reviews [1] |\n| **Volunteer Management** | Missing essential features; basic scheduling despite improvements like Central Schedule and recurring shifts. | [1], [2] |\n| **Fundraising & Events** | Clunky donation forms; weaker online tools vs. competitors like Classy; basic event/grant management (not for complex portfolios or large conferences). | [2], [3], [4] |\n| **Integrations** | Limited native connections (e.g., no Zapier out-of-box, MailChimp challenges); custom API needs tech resources. Acquisition integrations (e.g., Qgiv) may be immature. | [2], [3] |\n| **Customization** | Restricted donation forms, letter formatting; user permissions can block data access/filtering, causing mailing/event issues. | [3], [5] |\n| **Membership/AMS** | New 2024 features suit simple models (<$2M revenue) but inadequate for complex dues, certifications, or education. No native AMS sync. | [3] |\n\n#### Usability and Complexity\n- **Learning curve**: Steeper for new users or those switching; interface feels complex vs. simpler rivals like Little Green Light. Post-acquisitions (Kindful, Qgiv), it risks becoming an over-featured \"all-in-one\" with integration hiccups.\n- **Other gaps**: Basic accounting; not ideal for nonprofits prioritizing fundraising over donor relationships.\n\n#### Comparisons to Alternatives\n- **Vs. Blackbaud**: Bloomerang is cheaper/easier but shares processor lock-in and integration limits.\n- **Better for small/simple needs**: Vs. Virtuous (more automation, pricier) or DonorPerfect (similar ratings but weaker support).\n\n**Overall**: Best for small-mid nonprofits (<$2M revenue) focused on donor retention (64% avg. for top users). Larger orgs report cost/feature frustrations. Check current pricing via demo, as 2026 reviews note ongoing acquisition risks. Sources: G2 [1], comparisons [2-4], Bloomerang blog [5-6].",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 698,
+  "estimated_cost_usd": 0.015488,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.g2.com/products/bloomerang-volunteer/reviews?qs=pros-and-cons",
+      "https://4agoodcause.com/blackbaud-vs-bloomerang/",
+      "https://www.smartthoughts.net/post/bloomerang-software-review-for-association-executives-2025",
+      "https://purefirefly.com/classy-vs-bloomerang-for-nonprofits/",
+      "https://bloomerang.com/blog/pros-and-cons-of-donor-database-user-permission-security/",
+      "https://bloomerang.com/experience/impact/",
+      "https://www.softwareadvice.com/nonprofit/bloomerang-profile/reviews/",
+      "https://www.youtube.com/watch?v=47mxH_ZzotI"
+    ]
+  }
+}

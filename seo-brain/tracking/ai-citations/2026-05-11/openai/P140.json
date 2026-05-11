@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.424852+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for a donor CRM that integrates with QuickBooks Online, it's important to choose a solution that not only offers seamless integration but also fits your organization's specific needs. Here are a few donor CRM platforms known for their integration with QuickBooks Online:\n\n1. **Neon CRM**: Neon CRM offers comprehensive donor management features and integrates with QuickBooks Online. It supports the synchronization of transactions, donations, and other financial data, making it easier to manage your accounting needs.\n\n2. **Bloomerang**: Bloomerang provides a user-friendly interface focused on donor retention. It integrates with QuickBooks Online to streamline your accounting processes by syncing financial and donation data between the platforms.\n\n3. **Kindful**: Known for its intuitive design and powerful features, Kindful integrates seamlessly with QuickBooks Online. It helps nonprofits manage donor data, track donations, and automatically sync financial information.\n\n4. **DonorDock**: This CRM is designed for small to medium-sized nonprofits and provides a simple, yet robust set of features. Its integration with QuickBooks Online helps in maintaining accurate financial records by syncing donor and transaction data.\n\n5. **Aplos**: Specifically built for nonprofits, Aplos offers donor management along with accounting software. Its integration with QuickBooks Online allows you to manage donations and financial transactions efficiently.\n\nWhen selecting a CRM, consider additional features such as donor segmentation, campaign management, reporting capabilities, and overall ease of use. It's also beneficial to check user reviews and possibly run a demo or trial of the software to ensure it meets your organization's specific needs.",
+  "donordock_mentioned": true,
+  "donordock_position": 999,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 316,
+  "estimated_cost_usd": 0.0032,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P120",
+  "prompt_text": "AI for nonprofit grant writing",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424567+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "AI is rapidly transforming many fields, and nonprofit grant writing is no exception. While it's crucial to understand that AI is a powerful *tool* and not a replacement for human expertise, it can significantly enhance efficiency, quality, and capacity for nonprofits.\n\nHere's a breakdown of how AI can assist in nonprofit grant writing, along with its benefits, limitations, and best practices:\n\n---\n\n## How AI Can Assist in Nonprofit Grant Writing\n\nAI, particularly large language models (LLMs) like ChatGPT, Google Bard/Gemini, and Claude, can support various stages of the grant writing process:\n\n1.  **Prospect Research & Funder Alignment:**\n    *   **Summarizing Funder Guidelines:** AI can quickly parse through lengthy grant guidelines and RFPs (Requests for Proposals) to highlight key requirements, eligibility criteria, and priorities.\n    *   **Identifying Keyword Matches:** You can feed AI your mission statement or project description and ask it to find alignment with potential funders' stated interests or past grant awards.\n    *   **Analyzing Past Grants:** While AI can't directly access proprietary databases, you can feed it publicly available information about a funder's past grants and ask it to identify patterns, common themes, and preferred project types.\n    *   **Tools like Instrumentl** (which integrates AI) are specifically designed for this, combining grant discovery with tracking and management.\n\n2.  **Idea Generation & Brainstorming:**\n    *   **Developing Project Concepts:** If you have a general problem, AI can help brainstorm innovative solutions or program ideas that align with your mission and potential funder interests.\n    *   **Refining Logic Models:** AI can assist in articulating inputs, activities, outputs, outcomes, and long-term impacts, helping to structure your program's theory of change.\n    *   **Overcoming Writer's Block:** When stuck on how to phrase a specific section (e.g., problem statement, methodology), AI can offer various starting points or different angles.\n\n3.  **Drafting & Content Generation:**\n    *   **Generating First Drafts:** AI can generate initial drafts of common grant sections such as:\n        *   **Problem Statement:** Provide data and ask AI to craft a compelling narrative.\n        *   **Organizational Description/History:** Give it your mission and key milestones.\n        *   **Project Description/Methodology:** Outline your activities and objectives.\n        *   **Evaluation Plan:** Suggest metrics and ask for common evaluation approaches.\n        *   **Budget Narrative:** Explain your budget items and ask AI to write justifications.\n        *   **Executive Summary:** After drafting the full proposal, ask AI to synthesize it into a concise summary.\n    *   **Rephrasing & Clarifying:** Improve the readability, conciseness, or",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 586,
+  "estimated_cost_usd": 0.001466,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

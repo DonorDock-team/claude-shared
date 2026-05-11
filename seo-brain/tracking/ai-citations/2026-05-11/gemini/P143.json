@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P143",
+  "prompt_text": "Donor CRM that does pledges and recurring",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.421890+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "You're looking for a common and crucial set of features in a Donor CRM! Most modern CRMs designed for non-profits will handle both **pledges** (commitments to give a certain amount over time) and **recurring donations** (automated, regular gifts, often monthly or annually).\n\nHere are some of the top donor CRMs that excel in these areas, catering to various organization sizes and budgets:\n\n### Top Donor CRMs for Pledges & Recurring Donations\n\n1.  **Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack)**\n    *   **Pros:** Incredibly powerful, highly customizable, vast ecosystem of apps and integrations, scalable for organizations of all sizes. Excellent for complex fundraising strategies, including major gifts and capital campaigns.\n    *   **Cons:** Can be complex to set up and manage, steep learning curve, potentially higher cost (though often free/discounted licenses for non-profits exist, implementation and ongoing admin costs can add up).\n    *   **Pledges & Recurring:** Handles both robustly. NPSP has specific objects and workflows for managing pledges, installment schedules, and recurring donation series.\n\n2.  **Blackbaud Raiser's Edge NXT**\n    *   **Pros:** The industry standard for many larger non-profits, comprehensive suite of tools, powerful analytics, strong reporting, and robust financial tracking.\n    *   **Cons:** Can be expensive, interface can feel a bit dated for some (though NXT improved this), steep learning curve for full utilization.\n    *   **Pledges & Recurring:** Fully supported. Raiser's Edge has deep functionality for tracking pledges, payments against pledges, and managing recurring gift programs.\n\n3.  **Bloomerang**\n    *   **Pros:** Modern, intuitive interface, strong focus on donor retention and engagement, excellent reporting with dashboards, good email marketing and online giving features built-in. Generally easier to use than Salesforce or Blackbaud.\n    *   **Cons:** May not have the depth of customization or third-party integrations as Salesforce for highly unique needs.\n    *   **Pledges & Recurring:** Excellent support for both. Easy to set up recurring donation forms, track pledge balances, and manage payment schedules.\n\n4.  **Neon CRM (by Neon One)**\n    *   **Pros:** All-in-one solution that includes CRM, online fundraising, event management, membership management, and even basic website tools. Good for organizations that want to consolidate multiple platforms. User-friendly with good support.\n    *   **Cons:** Can feel a bit feature-heavy if you only need basic CRM, interface might not be as polished as Bloomerang for some.\n    *   **Pledges & Recurring:** Comprehensive features for managing pledges, recurring donations, and tracking payment plans.\n\n5.  **DonorPerfect**\n    *   **Pros:** Long-standing, reliable, and comprehensive solution. Good reporting, robust online fundraising forms, and integrations with other popular tools (like Constant Contact, Mailchimp). Strong customer support.\n    *   **Cons:** Interface can feel a bit less modern compared to newer platforms, pricing can scale up for larger databases.\n    *   **Pledges & Recurring:** Core functionality includes robust tracking for pledges, installment schedules, and managing recurring gifts with integrated payment processing.\n\n6.  **Virtuous**\n    *   **Pros:** Modern, \"responsive fundraising\" approach, strong focus on donor engagement and automation, predictive analytics, excellent email and marketing automation built-in. Great for organizations looking to personalize donor journeys.\n    *   **Cons:** Can be on the pricier side, might be overkill for very small, simple organizations.\n    *   **Pledges &",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Neon CRM",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 779,
+  "estimated_cost_usd": 0.00195,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424909+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Donor CRMs with QuickBooks Online Integration\n\nSeveral Donor CRMs offer native integrations with QuickBooks Online (QBO), enabling automated syncing of donations, donors, and transactions to reduce manual entry. Below is a summary of key options from the search results, focusing on verified integrations:\n\n| Donor CRM       | Key Integration Features                                                                 | QBO-Specific Notes                                                                 | Source |\n|-----------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|--------|\n| **DonorDock**  | - Auto-syncs donations/transactions as sales receipts<br>- Links gifts to QBO for navigation<br>- No manual data entry | Native QBO integration (Desktop requires export/import)                          | [1]   |\n| **DonorPerfect** | - Posts gifts as individual/daily/monthly summaries<br>- Maps to bank/income accounts/classes<br>- Syncs donors to QBO customers (limited reliability)<br>- Real-time data access, filters for posted/unposted gifts<br>- Journal entries, multi-bank support | Cloud-based; add-on for most packages; no auto-updates for refunds (manual in QBO); saves ~50 hours/month | [2], [3], [4] |\n| **Funraise**   | - Sends donor/donation data as sales receipts<br>- Creates QBO customers<br>- Customizes fee reporting, maps accounts/classes/products | One-click sync for donations/donors                                               | [5]   |\n| **Bloomerang** | - Tracks revenue, donations, invoicing<br>- Robust syncing of transactions               | Direct app connection via Intuit marketplace                                      | [7]   |\n\n#### Additional Insights\n- **DonorPerfect** has the most detailed QBO support (e.g., configurable posting, real-time sync), but requires admin setup in both systems and doesn't auto-handle post-posting changes like refunds.\n- Other CRMs (e.g., via GetApp's list of 21 options) may integrate, but results highlight these as prominent nonprofit-focused ones.\n- **Limitations**: Integrations focus on outbound sync from CRM to QBO (gifts \u2192 sales receipts/journal entries). Reverse sync or edits often need manual QBO adjustments. QBO Desktop has weaker/no native support (exports only).\n\nFor setup, check each CRM's apps/integration menu (e.g., DonorPerfect via Apps dropdown). If you need pricing, demos, or comparisons, visit their sites or contact sales (e.g., DonorPerfect accounting support).",
+  "donordock_mentioned": true,
+  "donordock_position": 725,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 505,
+  "estimated_cost_usd": 0.012605,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/integrations/quickbooks-online",
+      "https://www.donorperfect.com/video/donorperfect-and-quickbooks/",
+      "https://www.donorperfect.com/factsheets/quickbooks-online/",
+      "https://www.donorperfect.com/factsheets/quickbooks-integration/",
+      "https://www.funraise.org/integrations/quickbooks",
+      "https://www.getapp.com/nonprofit-software/nonprofit-crm/w/quickbooks/",
+      "https://quickbooks.intuit.com/app/apps/appdetails/bloomerang/"
+    ]
+  }
+}

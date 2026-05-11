@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P098",
+  "prompt_text": "Hidden costs of Virtuous",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423785+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Overview of Virtuous Pricing\nVirtuous CRM uses a **custom, per-user pricing model** rather than fixed tiers, starting around **$35\u2013$50 per user per month** (with volume discounts: $50 for 1\u201310 users, $45 for 11\u2013100, down to $35 for 1,000+ users). Annual licensing is ~$500 per user initially. However, sources highlight several **\"hidden\" or additional costs** beyond base subscriptions, often criticized in comparisons (e.g., DonorPerfect, Zeffy). Official Virtuous pages emphasize \"flexible bundles,\" but third-party analyses reveal extras. No single public price page lists everything transparently.\n\n### Identified Hidden or Additional Costs\nHere's a breakdown from search results, categorized with evidence:\n\n| Cost Type | Details | Estimated Range | Sources |\n|-----------|---------|-----------------|---------|\n| **Base Subscription** | Per-user monthly/annual fees; scales with users. Small orgs (10 users): ~$500/month. | $35\u2013$50/user/mo ($500/user/yr) | [2], [5] |\n| **Implementation & Setup** | One-time fees for onboarding, data migration, and configuration. Varies by org size/complexity. | $1K\u2013$5K (small, 1\u201310 users); $20K+ (100+ users) | [2] |\n| **Customization** | Extra for tailored features/configs. | $500\u2013$5K+ | [2] |\n| **Training** | Per-employee costs for complex software; multiple groups/departments may need separate sessions. | Hundreds to thousands per employee | [2] |\n| **Support** | Not always included; additional fees for premium/customer support. Every DonorPerfect plan includes it free. | Varies (e.g., \"hidden fees\" noted) | [1], [2] |\n| **Maintenance** | Ongoing updates, bug fixes, support. | Hundreds to thousands per year | [2] |\n| **Transaction/Processing Fees** | Credit card fees (~2\u20133%) unless donor opts to cover via \"Donor Paid Costs\" project. Non-covered fees deducted from gift (not synced to accounting). Events/auctions need separate tools/integrations (extra fees/syncing). | $199/mo base + fees (e.g., $2,778/yr on $10K raised) | [3], [4] |\n| **Professional Services** | In-house expert services (e.g., advanced setup, optimization). | Not specified publicly; \"suite of offerings\" | [6] |\n| **Add-Ons/Bundles** | Virtuous Raise (fundraising forms/pages): Unlimited but \"personalized pricing.\" Events require integrations. | Contact vendor; potential extras | [7], [8], [3] |\n\n### Key Criticisms & Context\n- **High Costs Overall**: Labeled \"expensive\" with \"hidden fees\" in competitor pages ([1], [2], [3]). E.g., Zeffy claims Virtuous = $199/mo + fees vs. their $0.\n- **Donor-Paid Fees Feature** ([4]): Optional donor coverage funnels fees to a special project (tax-deductible for donor). If not covered, fees reduce net gift\u2014no CRM tracking/sync. Check \"Reconciliation reporting\" for breakdowns.\n- **Limitations**: Soft credits/tributes limited to one per gift ([1]); events need extras ([3]).\n- **No Free Tier**: Starts at ~$119/mo in some listings ([5]), but custom quotes required ([7]).\n\nFor exact quotes, contact Virtuous directly (no full public pricelist). Mid-sized nonprofits may pay $150\u2013$585/mo equivalents ([2]), but totals escalate with add-ons. Compare via tools like Capterra ([5]) for user reviews.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 813,
+  "estimated_cost_usd": 0.017213,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donorperfect.com/fundraising-software/compare-donor-management-systems/virtuous/",
+      "https://www.itqlick.com/virtuous-software/pricing",
+      "https://www.zeffy.com/compare/zeffy-vs-virtuous",
+      "https://support.virtuous.org/hc/en-us/articles/10481771864589-What-is-the-Donor-Paid-Costs-project-in-Virtuous-CRM",
+      "https://www.capterra.com/p/159179/Virtuous/",
+      "https://support.virtuous.org/hc/en-us/articles/33580007334285-Virtuous-Professional-Services-Offerings-and-Pricing",
+      "https://virtuous.org/pricing/",
+      "https://explore.raisedonors.com/pricing/",
+      "https://www.youtube.com/watch?v=QFp4xcLNO_c"
+    ]
+  }
+}

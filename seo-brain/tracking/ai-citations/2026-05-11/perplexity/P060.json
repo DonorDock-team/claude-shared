@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423429+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM with Recurring Giving\n\nBased on the search results, here are the top platforms that combine donor CRM capabilities with recurring giving management:\n\n## Leading Solutions\n\n### **DonorPerfect**\n- **Key Feature**: Automatic Monthly Giving with 90% donor retention rate\n- **Capabilities**: \n  - Automatically process recurring payments at set frequencies\n  - Credit card updater for expired cards\n  - Automatic donor record updates\n  - Manual batch processing option\n- **Pricing**: Starts at $99/month (based on number of records)\n- **Best For**: Small to medium nonprofits needing flexible, affordable CRM solutions\n\n### **DonorBox**\n- **Key Features**:\n  - Easy-to-use recurring donation forms\n  - Self-service donor portal for managing recurring gifts\n  - \"Recurring Upsell\" to convert one-time gifts to recurring\n  - Advanced segmentation and tracking\n- **Pricing**: Free plans available (1.5-2.95% platform fee)\n- **Best For**: Nonprofits of all sizes seeking straightforward, affordable solutions\n\n### **DonorDock**\n- **Key Features**:\n  - Track and manage recurring gifts\n  - Automated thank-you emails and receipts\n  - Payment failure reminders and auto-fixes\n  - Personalized donor experiences based on CRM data\n- **Best For**: Organizations wanting streamlined automation\n\n### **GivingFuel**\n- **Key Features**:\n  - Centralized recurring donor management\n  - Donor-controlled updates via Donor Account Center\n  - Initiate new gifts using stored payment methods\n  - Recurring donation migration from other processors\n- **Best For**: Organizations needing total control over recurring donations\n\n### **Givingtech**\n- **Key Features**: Free nonprofit CRM with:\n  - Real-time donation syncing\n  - Automated lead-to-donor conversion\n  - Lapsed donor alerts\n  - Birthday and anniversary emails\n\n## Common Best Practices Across Platforms\n- Automate acknowledgments and reminders\n- Segment donors for personalized communication\n- Track retention metrics and donor behavior\n- Proactively manage payment failures\n- Enable donor self-service management options",
+  "donordock_mentioned": true,
+  "donordock_position": 1019,
+  "competitors_mentioned": [
+    "DonorBox",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 432,
+  "estimated_cost_usd": 0.011501,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/articles/recurring-donations",
+      "https://donorbox.org/explore/recurring-donations",
+      "https://www.givingfuel.com/features/donormanagement-overview",
+      "https://www.donorperfect.com/factsheets/automatic-monthly-giving/",
+      "https://givingtech.org/crm",
+      "https://www.bonterratech.com/training/salsa-labs/managing-recurring-donations",
+      "https://www.blackbaud.com/industry-insights/glossary/what-are-recurring-donations",
+      "https://positiveequation.com/top-tools-to-grow-your-nonprofits-monthly-giving-program/",
+      "https://bloomerang.com",
+      "https://www.funraise.org/features/donor-crm"
+    ]
+  }
+}

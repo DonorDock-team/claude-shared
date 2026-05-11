@@ -1,0 +1,37 @@
+{
+  "prompt_id": "P085",
+  "prompt_text": "Best donor CRM for advocacy organizations",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424700+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Advocacy Organizations\n\nAdvocacy organizations need CRMs that excel in donor management, campaign tracking, email mobilization, event handling, and supporter engagement\u2014beyond basic fundraising. They often prioritize tools with advocacy-specific features like petition tools, grassroots organizing, and compliance for political or issue-based work. Based on recent analyses (2026 data from sources like Double the Donation, Virtuous, and Ellipsis Partners), here are the **best donor CRMs tailored for advocacy nonprofits**. I prioritized those frequently recommended for high-engagement, action-oriented groups.\n\n#### 1. **EveryAction (Bonterra)** \u2013 **Best Overall for Advocacy**\n   - **Why it fits advocacy**: Built for issue-based orgs (e.g., ACLU, Sierra Club users), it combines donor CRM with advocacy tools like petitions, texts, calls-to-action, and voter data integration. Tracks \"supporter journeys\" from donations to advocacy actions.\n   - **Key features**: Online fundraising, email/SMS advocacy campaigns, event management, reporting on engagement scores.\n   - **Pricing**: Starts at ~$500/month (scales with donors).\n   - **Evidence**: Tops lists in [2], [3], [7] for advocacy; praised for unifying fundraising + mobilization.\n\n#### 2. **Salesforce Nonprofit Cloud** \u2013 **Best for Scalable, Custom Advocacy**\n   - **Why it fits advocacy**: Highly customizable for complex workflows like peer-to-peer fundraising, canvassing, and integrating with tools like NationBuilder for digital organizing. Handles large-scale donor data with AI insights.\n   - **Key features**: Donor pipelines, volunteer coordination, marketing automation, HIPAA/GDPR compliance options.\n   - **Pricing**: Free for small orgs (<10 paid users); ~$36/user/month + setup.\n   - **Evidence**: Ranked #2 in [6]; common for mid-large advocacy groups per [1], [7] due to flexibility.\n\n#### 3. **Virtuous CRM** \u2013 **Best for Donor-Centric Advocacy Growth**\n   - **Why it fits advocacy**: AI-driven \"Wealth\" and \"Engagement\" scoring predicts donor actions; strong on email nurturing and recurring gifts, ideal for advocacy's long-term relationship building.\n   - **Key features**: Automated workflows, text/email, integrations with Zoom/Advocacy tools.\n   - **Pricing**: Custom, starts ~$300/month.\n   - **Evidence**: #1 in [6]'s 2026 list; highlighted in [2] for adaptive supporter management.\n\n#### 4. **Bloomerang** \u2013 **Best for Small/Mid-Size Advocacy Startups**\n   - **Why it fits advocacy**: Simple donor tracking with engagement timelines; excels at volunteer management and quick campaigns, great for grassroots groups.\n   - **Key features**: Wealth screening, event ticketing, mobile app.\n   - **Pricing**: $119/month (unlimited users).\n   - **Evidence**: Featured in [1], [5]; user-friendly per [2], suits emerging advocacy orgs.\n\n#### 5. **CiviCRM** \u2013 **Best Free/Open-Source Option**\n   - **Why it fits advocacy**: Free, self-hosted; powers 14,000+ nonprofits with modules for events, petitions, and memberships. Highly extensible for custom advocacy (e.g., via Drupal/WordPress).\n   - **Key features**: Donor database, email blasts, reporting; community plugins for SMS/voter tools.\n   - **Pricing**: Free (hosting ~$10-50/month).\n   - **Evidence**: [9] emphasizes its nonprofit scale; viable alternative in [6] for budget-conscious advocacy.\n\n#### Quick Comparison Table\n\n| CRM              | Best For                  | Starting Price | Advocacy Strengths                  | Top Sources |\n|------------------|---------------------------|----------------|-------------------------------------|-------------|\n| **EveryAction** | Full advocacy suite      | $500/mo       | Petitions, mobilization, integration| [2],[3],[7] |\n| **Salesforce**  | Large-scale customization| Free-$36/user | AI insights, scalability            | [6],[1],[7] |\n| **Virtuous**    | AI donor engagement      | $300/mo       | Predictive scoring, automation      | [6],[2]     |\n| **Bloomerang**  | Easy entry-level         | $119/mo       | Volunteers, simplicity              | [1],[2],[5] |\n| **CiviCRM**     | Budget/open-source       | Free          | Customizable, extensible            | [9],[6]     |\n\n#### How to Choose\n- **Small org (<5k donors)**: Bloomerang or CiviCRM for affordability.\n- **High-volume advocacy**: EveryAction or Salesforce for robust tools.\n- **Test via demos**: Most offer free trials. Check integrations (e.g., with Zapier, Google Workspace) and reviews on G2/Capterra for 2026 updates.\n- **Caveats**: Healthcare-focused like StratusLIVE [4] or DonorPerfect [7] are less ideal unless HIPAA is needed. No single \"best\"\u2014align with your donor volume and tech stack.\n\nFor specifics, visit the linked sources or trial the top picks. Sources are from 2026 rankings, ensuring relevance.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "CiviCRM",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1114,
+  "estimated_cost_usd": 0.021731,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://stratuslive.com/7-best-crms-for-healthcare-nonprofit-organizations-in-2026/",
+      "https://bloomerang.com",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/",
+      "https://www.ellipsispartners.com/donation-crms-for-nonprofits/",
+      "https://www.goodera.com/blog/best-crms-for-nonprofits-the-complete-guide-for-nonprofit-organizations",
+      "https://civicrm.org/home"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P133",
+  "prompt_text": "Givebutter limitations",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423620+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Key Limitations of Givebutter\n\nGivebutter is a free fundraising platform for nonprofits (individuals cannot create accounts, per [5] and policy updates as of Dec 2022). It offers tools like campaigns, auctions, and events with optional donor tips to cover costs (backed by the Givebutter Guarantee for 100% fund retention when tips are enabled, per [2], [4], [6]). However, it has strict content, eligibility, fee, and functional restrictions. Below is a breakdown based on official guidelines and user feedback.\n\n#### 1. **Eligibility and Account Restrictions**\n   - **Nonprofits/Organizations Only**: Individual accounts are prohibited; campaigns for personal or individual fundraisers are disabled or removed ([1], [5]).\n   - **Sanctions and Humanitarian Aid**: No fundraising for countries on the US OFAC sanctions list (via Stripe). Individual aid efforts (e.g., \"contacts on the ground\") require nonprofit status; support for armed groups leads to account removal ([1]).\n   - **501(c)(3) Not Strictly Required**: While many resources discuss it ([8]), Givebutter supports various nonprofits, but verified status affects processing fees (e.g., 1.9% ACH for verified 501(c)(3)s vs. 2.9% standard, per [6]).\n\n#### 2. **Content and Campaign Guidelines**\n   - **Prohibited Content**: Hate speech (e.g., transphobic, homophobic, antisemitic) results in removal. No gun raffles/auctions (firearms or ammo); gun advocacy/outdoor groups OK if no weapons given away ([1]).\n   - **Monitoring**: Campaigns are reviewed on reports; Givebutter doesn't endorse any but enforces community guidelines.\n\n#### 3. **Pricing and Fee Limitations** (as of Sept 9, 2025 updates)\n   | Feature | Tips Enabled (Default for New Accounts) | Tips Disabled |\n   |---------|-----------------------------------------|---------------|\n   | **Platform Fee** | 0% (Givebutter Guarantee covers) | 3% flat |\n   | **Processing Fee** | 0% to nonprofit (2.9% + $0.30 covered by donors/Guarantee; 92-95% donors cover, per [4], [5], [6]) | 2.9% + $0.30 (donor-optional coverage) |\n   | **Guarantee Exclusions** | DAFpay, card readers, pre-Sept 2025 recurring plans, campaigns without tips ([2]) | N/A |\n\n   - Legacy pricing for pre-Sept 9, 2025 accounts; new accounts auto-enroll in Standard ([2]).\n   - Auto-charge auctions limit tip options ([2]).\n   - Customizable per campaign, but disabling tips incurs fees deducted from funds.\n\n#### 4. **Functional and Tool Limitations**\n   - **Customization**: Limited options for personalization, impacting user satisfaction ([3]).\n   - **Auctions**: No easy filtering for unbid/unpicked items (led to shipping/refund errors in user reviews, [3]). Photos/descriptions/min bids supported, but on-the-fly updates can be clunky.\n   - **Communications**: Free features have send limits per period ([7]).\n   - **Payment Methods**: Some (e.g., DAFpay, terminals) exclude Guarantee; no tips on certain auction payments ([2]).\n   - **Plus Plan**: Optional upgrade (cancel anytime), but basic tier has no monthly fees ([4]).\n\n#### 5. **User-Reported Drawbacks**\n   - Auction fulfillment tracking issues (e.g., mistaking unbid items for unpicked, causing refunds and lost funds, [3]).\n   - Dependency on donor tips for \"free\" model; if declined, Givebutter covers but may affect long-term viability.\n\nFor full details, review Givebutter's [Terms](https://givebutter.com/terms), [Content Guidelines](https://help.givebutter.com/en/articles/9462388-content-guidelines-for-givebutter-campaigns), and [Pricing](https://givebutter.com/pricing). Nonprofits should verify compliance to avoid unpublished campaigns or account bans.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [
+    "https://givebutter.com/pricing",
+    "https://help.givebutter.com/en/articles/9462388-content-guidelines-for-givebutter-campaigns",
+    "https://givebutter.com/terms"
+  ],
+  "input_tokens": 5,
+  "output_tokens": 882,
+  "estimated_cost_usd": 0.018245,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://help.givebutter.com/en/articles/9462388-content-guidelines-for-givebutter-campaigns",
+      "https://help.givebutter.com/en/articles/1512762-givebutter-standard-pricing-explained",
+      "https://www.g2.com/products/givebutter/reviews?qs=pros-and-cons",
+      "https://givebutter.com/pricing",
+      "https://morongocsd.specialdistrict.org/files/6113ba32d/Give+Butter.pdf",
+      "https://mediacopilot.ai/givebutter-newsroom-fundraising-guide/",
+      "https://givebutter.com/terms",
+      "https://givebutter.com/blog/501c3-requirements"
+    ]
+  }
+}

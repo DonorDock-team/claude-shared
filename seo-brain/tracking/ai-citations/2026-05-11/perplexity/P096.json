@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P096",
+  "prompt_text": "Hidden costs of Neon CRM",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423439+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Neon CRM Pricing Overview\nNeon CRM uses a **modular, contact-sales pricing model** without publicly listed fixed prices for all tiers. Base plans start around **$99/month (Essentials)** for core donor management, scaling to **$209/month (Impact, up to 5,000 records)** and **$409/month (Empower, up to 20,000 records)**, but exact costs require a demo and custom quote. Add-ons for events, memberships, advanced analytics, and enterprise features incur **additional line-item fees**. No confirmed annual discounts.\n\n| Tier/Add-On | Approximate Price | Key Includes/Limits |\n|-------------|-------------------|---------------------|\n| **Essentials** | $99/month | Basic donor DB, email marketing, standard reports, event tools (limited) |\n| **Impact** | $209/month | Up to 5,000 records, custom fields, advanced reports, recurring donations |\n| **Empower** | $409/month | Up to 20,000 records, advanced analytics, grant tracking, P2P fundraising |\n| **Events Add-On** | Additional cost | Registration, ticketing, attendee management |\n| **Memberships Add-On** | Additional cost | Renewals, member portal, tiered levels |\n| **Enterprise/Advanced** | Contact sales | Custom integrations, dedicated support, enhanced data |\n\n**Payment Processing Fees** (always extra):\n- Credit card: 2.99% + $0.30\n- ACH/e-check: 1% + $1\n- AmEx: +1% upcharge\n\n### Key Hidden Costs\nNeon CRM's base platform covers only **core donor management and fundraising**. Most nonprofits need add-ons, leading to unpredictable totals. Here's a breakdown from sources:\n\n1. **Modular Add-Ons (Most Common Surprise)**:\n   - Events, memberships, and advanced grant compliance are **not in base pricing**\u2014they're separate fees.\n   - Example: A mid-sized nonprofit with 4-6 events/year + memberships could see **20-50%+ increase** over base.\n   - Grant tracking lacks native restricted fund reporting; requires custom config or extra modules.\n\n2. **Upsells for Scale/Support**:\n   - Premium support, expanded integrations, and higher record limits (beyond tier caps) cost extra.\n   - No self-serve pricing\u2014**demo required**, delaying budgeting.\n\n3. **Implementation & Ongoing Overhead**:\n   - **Year 1 Total**: Subscription + migration, data cleanup, training, and setup labor (often unquoted initially).\n   - **Process Gaps**: Manual exports/spreadsheets for grant audits, compliance docs, or restricted funds post-launch.\n   - NeonOne suite lock-in: Data ties across products complicate migration.\n\n4. **Other Fees**:\n   - Data hygiene (e.g., NCOA, deceased suppression) ignored leads to wasted postage/returns.\n   - Lower tiers miss automation/reporting, forcing workarounds or upgrades.\n\n**Real-World Impact**: Smaller orgs find Essentials too limited (e.g., no scalability), while mid/large ones pay premium for full features. Sources note it's best for established nonprofits but overkill/expensive for budgets under $10K/year due to these extras.\n\n*Sources: Capsule CRM blog [1], GrantPipe comparison [2], TrueGivers analysis [3], Givebutter [4], G2 reviews [5]. All data as of latest available (pre-2026).*",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Givebutter",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 727,
+  "estimated_cost_usd": 0.015923,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://capsulecrm.com/blog/neon-crm-pricing/",
+      "https://grantpipe.com/compare/pricing/neon-crm/",
+      "https://truegivers.com/neoncrm-pricing/",
+      "https://givebutter.com/alternatives/neon-one",
+      "https://www.g2.com/products/neon-one-llc-neon-crm/reviews?qs=pros-and-cons",
+      "https://forums.techsoup.org/t/new-independent-discussion-forum-for-neoncrm-a-fundraising-and-membership-crm-for-nonprofits/3761"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P145",
+  "prompt_text": "Best donor CRM for capital campaigns",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.422255+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a capital campaign depends heavily on your organization's specific needs, budget, existing infrastructure, and team's technical comfort. However, certain CRMs excel in the robust major gift management, pipeline tracking, and reporting capabilities crucial for successful capital campaigns.\n\nHere are the top contenders, along with their strengths and considerations for capital campaigns:\n\n### Key Features to Look For in a Capital Campaign CRM:\n\nBefore diving into specific CRMs, ensure they offer:\n\n1.  **Robust Prospect Management:** Detailed profiles, wealth screening integration, relationship mapping.\n2.  **Moves Management:** Clear stages (identification, qualification, cultivation, solicitation, stewardship), activity logging, next steps, task assignment, and automated reminders.\n3.  **Pledge Management:** Ability to track multi-year pledges, payment schedules, outstanding balances, and generate reminders.\n4.  **Pipeline Visibility:** Customizable dashboards and reports to see the campaign's progress at a glance (total committed, pipeline value, gifts by stage, solicitor performance).\n5.  **Reporting & Analytics:** Powerful, flexible reporting tools to slice and dice data for board reports, campaign committee updates, and strategic decision-making.\n6.  **Team Collaboration:** Tools for multiple staff members to work on prospects, share notes, and coordinate activities.\n7.  **Customization:** The ability to tailor fields, workflows, and reporting to your specific campaign structure.\n8.  **Integration Capabilities:** Connections with wealth screening tools (DonorSearch, iWave, WealthEngine), accounting software, and communication platforms.\n9.  **Security & Data Integrity:** Essential for handling sensitive donor information and financial data.\n\n---\n\n### Top Donor CRMs for Capital Campaigns:\n\n1.  **Salesforce (with Nonprofit Success Pack - NPSP)**\n    *   **Strengths for Capital Campaigns:**\n        *   **Unparalleled Customization:** NPSP provides a solid foundation, but Salesforce's true power lies in its ability to be customized to exactly fit your campaign's unique stages, metrics, and workflows. You can build specific fields for proposals, gift types, and more.\n        *   **Robust Opportunity Management:** NPSP's \"Opportunities\" object is perfect for tracking major gift solicitations through your moves management pipeline, assigning values, probabilities, and closing dates.\n        *   **Advanced Reporting & Dashboards:** Create highly detailed, real-time reports and dashboards for every aspect of your campaign \u2013 prospect",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 515,
+  "estimated_cost_usd": 0.001289,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

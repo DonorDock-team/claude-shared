@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P081",
+  "prompt_text": "Best donor CRM for community colleges",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423948+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRM for Community Colleges\n\nBased on the search results, here are the top options to consider:\n\n## Specialized Solutions\n\n**Ellucian CRM** (Result [4])\n- Built specifically for colleges and universities\n- Designed with higher education support services in mind\n- Best if you want a solution tailored to academic institutions\n\n**Salesforce Nonprofit Cloud** (Result [8])\n- Flexible and powerful platform\n- Manages donors, volunteers, grants, and programs in one unified system\n- Scalable for institutions of various sizes\n\n## General Nonprofit CRM Options\n\nThe search results highlight several top-rated nonprofit CRMs that work well for donor management:\n\n- **Ascend, Bloomerang, Bonterra** (Result [2])\n- **Giveffect** (Result [1]) - excels at managing donor relationships and tracking contributions\n- **CiviCRM** (Result [5]) - open-source, customizable, with no licensing fees (cost-effective)\n- **Kindful** (Result [7]) - includes fundraising tools and donor analytics\n\n## Recommendation\n\nFor **community colleges specifically**, I'd suggest:\n1. **Ellucian CRM** if you want higher-ed specific features\n2. **Salesforce Nonprofit Cloud** for flexibility and comprehensive program management\n3. **CiviCRM** if budget is a concern (open-source, no licensing fees)\n\n**Next steps:** Compare these based on your specific needs around donor tracking, reporting capabilities, integration with existing systems, and budget.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "CiviCRM",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 308,
+  "estimated_cost_usd": 0.009641,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://element451.com/blog/crm-for-higher-education",
+      "https://onlinedegrees.sandiego.edu/donor-management-software/",
+      "https://www.streak.com/post/best-crm-for-nonprofits",
+      "https://www.bonterratech.com/blog/donor-management-software",
+      "https://www.goodera.com/blog/best-crms-for-nonprofits-the-complete-guide-for-nonprofit-organizations"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P079",
+  "prompt_text": "Best donor CRM for Catholic nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.423525+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Catholic Nonprofits\n\nHere are the top options specifically suited for Catholic organizations:\n\n## **1. Blackbaud Raiser's Edge NXT**\n- **Best for:** Larger Catholic dioceses, schools, and institutions\n- Strong in comprehensive fundraising management\n- Widely used by religious organizations\n- Higher price point but very robust\n\n## **2. Bloomerang**\n- **Best for:** Small to mid-sized Catholic parishes and ministries\n- Excellent donor retention focus\n- User-friendly interface\n- Affordable pricing (~$125-300/month)\n\n## **3. Little Green Light**\n- **Best for:** Small Catholic nonprofits and parish ministries\n- Simple, intuitive design\n- Budget-friendly (~$39-129/month)\n- Good for organizations with limited tech staff\n\n## **4. ParishSOFT Family Suite**\n- **Best specifically for:** Catholic parishes\n- Integrates sacramental records, family directory, and donations\n- Built by Catholics for Catholic parish needs\n- Includes Faith Formation management\n\n## **5. Salesforce Nonprofit Cloud**\n- **Best for:** Tech-savvy organizations wanting customization\n- Powerful but requires more technical expertise\n- Heavily discounted for nonprofits (10 free licenses)\n- Can be customized for Catholic-specific needs\n\n## **Key Considerations:**\n- Integration with parish management systems\n- Ability to track sacramental giving vs. general donations\n- Multi-fund campaign management (building funds, missions, etc.)\n- Reporting for diocesan requirements\n\n**Budget recommendation:** Start with Bloomerang or Little Green Light unless you need parish-specific features (then ParishSOFT).",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 387,
+  "estimated_cost_usd": 0.005853,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

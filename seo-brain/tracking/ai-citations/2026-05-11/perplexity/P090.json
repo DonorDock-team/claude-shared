@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P090",
+  "prompt_text": "Best donor CRM for youth development",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.422001+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Youth Development Nonprofits\n\nYouth development organizations often need CRMs that handle donor management alongside participant tracking (e.g., registrations, waivers, guardians, special needs), program outcomes, and multi-generational engagement. Based on the search results, here are the strongest recommendations tailored to this niche, prioritized by relevance and features mentioned specifically for youth programs.\n\n#### 1. **DonorPerfect** (Top Pick for Youth Development)\n   - **Why it fits**: Explicitly designed for youth development with tools for registrations, waivers, guardian contacts, special needs, and high-energy program admin. It's a comprehensive nonprofit CRM with strong fundraising (e.g., corporate matching via integrations).\n   - **Key strengths**: Streamlines admin amid busy activities; integration-friendly for maximizing donations.\n   - **Sources**: [1], [5]\n   - **Best for**: Youth orgs balancing donors and participants.\n\n#### 2. **StratusLIVE**\n   - **Why it fits**: Built for youth development nonprofits, tracking participants, engaging multi-generational donors (e.g., families), and demonstrating program outcomes.\n   - **Key strengths**: Participant-focused tracking + donor engagement.\n   - **Sources**: [4]\n   - **Best for**: Orgs proving impact to funders.\n\n#### 3. **Springly**\n   - **Why it fits**: Tailored for education/youth development with contact tracking, attendance lists, and event management\u2014ideal for camp/program-heavy orgs.\n   - **Key strengths**: Simple, ABC-easy tools for youth-focused ops.\n   - **Sources**: [7]\n   - **Best for**: Smaller teams needing quick setup.\n\n#### Other Strong General Options\nThese are top-rated nonprofit CRMs frequently recommended (2026 lists) that work well for youth orgs via custom fields for participants/donors:\n| CRM          | Key Youth-Relevant Features                  | Sources          | Pricing Note (if mentioned) |\n|--------------|----------------------------------------------|------------------|-----------------------------|\n| **Bloomerang** | Unified donor platform; powerful for retention/growth | [2], [6]        | Top-rated for 2026          |\n| **Insightly**  | Program delivery for mid-sized orgs          | [8]              | #1 for nonprofits w/ programs |\n| **Salesforce Nonprofit Cloud** | Scalable for complex youth ops               | [8]              | Enterprise-level            |\n| **Bonterra, Ascend** | Fundraising optimization                     | [2], [3]         | Campaign-focused            |\n\n#### Quick Comparison & Selection Tips\n- **Budget/Small org**: Springly or Bloomerang (easy, affordable).\n- **Participant-heavy**: DonorPerfect or StratusLIVE (youth-specific).\n- **Scale**: Insightly/Salesforce.\n- **Next steps**: Request demos from DonorPerfect/StratusLIVE (links in [1],[4],[5]). Most offer free trials; evaluate based on participant tracking + donor reports.\n\nDonorPerfect edges out as the best overall due to direct youth development mentions across sources. For personalized fit, check integrations with tools like event platforms.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 655,
+  "estimated_cost_usd": 0.014846,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donorperfect.com/nonprofits/youth-development/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://stratuslive.com/youth-development/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://bloomerang.com/blog/donor-management-software/",
+      "https://www.springly.org/en-us/nonprofit/education-and-youth-development/",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/"
+    ]
+  }
+}

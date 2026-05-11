@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P136",
+  "prompt_text": "Salesforce Nonprofit Cloud problems",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424146+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Salesforce Nonprofit Cloud Problems\n\nBased on current information, here are the primary issues organizations encounter with Salesforce Nonprofit Cloud:\n\n## Data & Operational Challenges\n\n**Inconsistent Data Definitions**\n- Different teams define key terms (\"engaged donor,\" \"prospect major donor,\" \"inactive\") in conflicting ways\n- This creates unstable segmentation and causes trust issues with system outputs\n- Reports built around available fields rather than actual business decisions\n\n**Incomplete Context & Fragmentation**\n- Donor data scattered across multiple systems without unified visibility\n- AI and reporting fail due to poor data quality and incomplete context, not insufficient technology\n- Critical information (like grant deadlines) still lives in spreadsheets or personal calendars\n\n**Reporting Design Issues**\n- Reports show symptoms of deeper problems: undefined stage definitions, mixed recurring donation exceptions, counting row volume instead of unique participants\n- The root cause: gap between \"what data we have\" vs. \"what decision needs to be made\"\n\n## Integration & Compatibility Issues\n\n**Third-Party App Limitations**\n- Not all objects in Nonprofit Cloud are visible through integrations (e.g., Zapier connections)\n- Over 22 apps report compatibility, but rollout continues on an app-by-app basis\n- Limited support resources when integration issues occur\n\n**Volunteer Management & Feature Complexity**\n- Issues with volunteer population in search functions\n- Program-based outcome variations require workarounds\n\n## Organizational Concerns\n\n**Resource Requirements**\n- Concerns about sufficient staffing to manage long-term\n- Perceived administrative complexity despite pre-configuration\n- Implementation and configuration demands\n\n**Cost Considerations**\n- Nonprofit Cloud represents a different investment than legacy NPSP\n\n## Key Takeaway\n\nMost failures stem from **operational and foundational issues**\u2014inconsistent processes, poor data governance, and misaligned definitions\u2014rather than platform limitations. Success requires unified data architecture, clear business rules, and integration into actual fundraising workflows.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 389,
+  "estimated_cost_usd": 0.010856,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.salesforceben.com/how-salesforce-nonprofit-cloud-can-fix-ai-failures-in-fundraising/",
+      "https://dev.to/maintask/reporting-failure-patterns-we-keep-seeing-in-nonprofit-salesforce-orgs-kp6",
+      "https://community.zapier.com/troubleshooting-99/not-able-to-see-all-salesforce-nonprofit-cloud-objects-40570",
+      "https://trailhead.salesforce.com/trailblazer-community/topics/nonprofitcloud",
+      "https://idealistconsulting.com/blog/your-nonprofit-cloud-questions-answered",
+      "https://www.imissioninstitute.org/salesforce-for-nonprofits/5-reasons-nonprofits-dismiss-salesforce-and-why-they-need-to-reconsider/",
+      "https://teamheller.com/resources/blog/shedding-light-on-three-concerns-about-the-salesforce-nonprofit-cloud"
+    ]
+  }
+}

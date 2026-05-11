@@ -1,0 +1,39 @@
+{
+  "prompt_id": "P145",
+  "prompt_text": "Best donor CRM for capital campaigns",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.422208+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Capital Campaigns\n\nCapital campaigns require robust donor CRMs with features like advanced moves management, wealth screening integration, pipeline tracking, grant/gift tracking, and reporting for major gifts and multi-year pledges. Based on 2026 analyses from sources like Double the Donation, Kindsight, StratusLive, and Capital Campaign Pro, here are the standout options tailored for capital campaigns. These excel in handling complex donor relationships, segmentation, and campaign-specific workflows over general fundraising tools.\n\n#### 1. **DonorPerfect** (Top Pick for Most Campaigns)\n   - **Why ideal for capital campaigns**: Built-in moves management, gift tracking, pledge fulfillment, and prospecting tools. Integrates with wealth screening (e.g., iWave) for identifying high-capacity donors. Handles multi-year campaigns with automated reminders and reporting.\n   - **Key features**: Donor database, mass mailing, event management, custom dashboards for campaign progress.\n   - **Pricing**: Starts at ~$100/month; scales with contacts.\n   - **Evidence**: Ranked highly in DonorPerfect's own benchmarks and Ellipsis Partners' nonprofit CRM guide for unifying fundraising and finance in campaigns. Used by thousands of nonprofits for major gifts.\n\n#### 2. **Blackbaud Raiser's Edge NXT**\n   - **Why ideal**: Enterprise-grade for large-scale campaigns with sophisticated pipeline management, wealth analytics, and AI-driven insights. Tracks solicitation stages, donor capacity, and campaign ROI.\n   - **Key features**: CRM + fundraising suite, mobile app, integrations with 100+ tools (e.g., video calls, donor CRMs from Capital Campaign Pro list).\n   - **Pricing**: Custom (often $10K+/year for mid-large orgs).\n   - **Evidence**: Featured in Ellipsis Partners and Capital Campaign Pro's 30+ tools list as a leader for modern campaigns; excels in donor retention and major gift cultivation per StratusLive 2026 comparison.\n\n#### 3. **Bonterra (formerly EveryAction)**\n   - **Why ideal**: Strong for mid-sized campaigns with advocacy tools, personalized outreach, and real-time donor insights. Campaign-specific modules for tracking progress and engagement.\n   - **Key features**: Donor management, email/SMS automation, wealth screening, reporting.\n   - **Pricing**: ~$500+/month.\n   - **Evidence**: Highlighted in Kindsight's top 14 and GoodUnited's 8 best for optimizing donor relations in fundraising drives; praised for scalability in capital efforts.\n\n#### 4. **Neon CRM (Neon One)**\n   - **Why ideal**: Flexible for campaigns with donor tracking, event management, and pledge handling. Affordable entry for growing orgs running capital pushes.\n   - **Key features**: Online forms, reporting, integrations for wealth tools.\n   - **Pricing**: Starts at $99/month.\n   - **Evidence**: Authencio's 2026 guide lists it for comprehensive donor/event tools; Ellipsis notes its strength in unifying campaign data.\n\n#### 5. **Salesforce Nonprofit Cloud** (Best for Tech-Savvy/Enterprise)\n   - **Why ideal**: Highly customizable for complex pipelines, AI predictions on donor likelihood, and integrations with campaign tech stacks (e.g., from Capital Campaign Pro).\n   - **Key features**: Open API, AI insights, multi-channel engagement.\n   - **Pricing**: $36/user/month base + add-ons.\n   - **Evidence**: Common in top lists (Ellipsis, Double the Donation) for nonprofits needing scalability; pairs with wealth screening for targeted capital donor outreach.\n\n#### Quick Comparison Table\n\n| CRM              | Best For                  | Moves Mgmt/Pipelines | Wealth Screening | Starting Price | Top Sources |\n|------------------|---------------------------|----------------------|------------------|----------------|-------------|\n| **DonorPerfect** | Mid-sized campaigns      | Excellent           | Yes             | $100/mo       | [3], [9]   |\n| **Raiser's Edge**| Large/enterprise         | Best-in-class       | Native          | Custom        | [9], [4]   |\n| **Bonterra**     | Advocacy-heavy           | Strong              | Integrated      | $500/mo       | [2], [5]   |\n| **Neon CRM**     | Budget-conscious         | Good                | Via integrations| $99/mo        | [7], [9]   |\n| **Salesforce**   | Custom tech stacks       | Highly customizable | Yes             | $36/user/mo   | [9], [1]   |\n\n#### Selection Tips\n- **Small campaigns (<$1M)**: Start with Bloomerang or Neon CRM (simple, donor-retention focused; per [6]).\n- **Large campaigns (>$5M)**: Raiser's Edge or Salesforce for depth.\n- **Key eval factors**: Free trials (most offer), integrations (e.g., with AI tools from [4]), and donor retention scores (aim for 70%+ via tools like Giveffect from [1]).\n- Test 2-3 via demos; migrate data is easier than switching later (per [9]).\n\nThese picks prioritize capital campaign needs over generic CRMs\u2014focus on ones matching your scale and tech comfort. For specifics, check vendor sites like DonorPerfect.com.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Neon CRM",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1102,
+  "estimated_cost_usd": 0.021551,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.donorperfect.com",
+      "https://capitalcampaignpro.com/tools-technology-modern-capital-campaigns/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://stratuslive.com/blog/nonprofit-crm-systems-comparison/",
+      "https://www.authencio.com/blog/best-donor-management-software-for-nonprofits-guide",
+      "https://visible.vc/blog/best-crm-for-fundraising/",
+      "https://www.ellipsispartners.com/donation-crms-for-nonprofits/"
+    ]
+  }
+}

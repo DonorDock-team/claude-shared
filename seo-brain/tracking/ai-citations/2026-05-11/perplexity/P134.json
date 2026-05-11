@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P134",
+  "prompt_text": "Why nonprofits leave Bloomerang",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423795+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Why Nonprofits Leave Bloomerang\n\nBased on the search results, here are the key reasons nonprofits discontinue using Bloomerang:\n\n## Scaling and Feature Limitations\n\n**Outgrowing the platform:** As organizations grow and fundraising becomes more complex, many nonprofits find that Bloomerang's capabilities no longer meet their needs. The platform was originally designed as a simpler solution for smaller nonprofits, so larger organizations eventually require more functionality and deeper reporting capabilities.\n\n## Pricing Structure Issues\n\n**Per-contact pricing model:** Bloomerang charges based on the number of contacts in your database, meaning costs increase substantially as your donor database grows. This can become prohibitively expensive for scaling organizations.\n\n**Higher overall costs:** As Bloomerang has evolved into an \"all-in-one\" platform, pricing has increased accordingly. The tiered customer support model also means phone support and higher-touch service require additional fees beyond the base platform cost.\n\n## Integration and Flexibility Constraints\n\n**Locked payment processing:** Nonprofits cannot bring their own payment processor and are locked into using Stripe through Bloomerang, limiting flexibility in financial operations.\n\n**Integrations with other tools:** Organizations seeking deeper integration capabilities with other software solutions may find Bloomerang's ecosystem limiting.\n\n## User Experience Challenges\n\n**Steep learning curve:** Despite being positioned as user-friendly for smaller nonprofits, new users still report a significant learning curve when adopting Bloomerang's CRM software.\n\n**Complexity:** As the platform has added more features to serve as an all-in-one solution, it has become more complex to manage.\n\nThese factors typically drive nonprofits to explore alternative platforms like CharityEngine or other specialized solutions better suited to their growth stage and operational needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 339,
+  "estimated_cost_usd": 0.010106,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://bloomerang.com/blog/vision-for-2026/",
+      "https://www.prnewswire.com/news-releases/bloomerang-report-shows-gap-between-donor-expectations-and-nonprofit-actions-highlights-what-inspires-giving-302378941.html",
+      "https://charityengine.net/charityengine-vs-bloomerang/",
+      "https://onlinelibrary.wiley.com/doi/10.1002/nba.31659",
+      "https://bloomerang.com/blog/revenue-killers-stalling-your-mission-and-how-to-fix/",
+      "https://4agoodcause.com/blackbaud-vs-bloomerang/",
+      "https://bloomerang.com/blog/donor-retention/",
+      "https://bloomerang.com/blog/navigating-contractual-pitfalls-when-switching-nonprofit-software/"
+    ]
+  }
+}

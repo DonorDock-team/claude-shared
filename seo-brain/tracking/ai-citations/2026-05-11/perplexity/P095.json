@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P095",
+  "prompt_text": "Hidden costs of DonorPerfect",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423240+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Hidden Costs of DonorPerfect\n\nDonorPerfect does not publish fixed pricing publicly, instead requiring personalized quotes based on donor database size (constituent count), features, and usage. Third-party sources (e.g., CheckThat.ai, G2, PricingNow, Zeffy) report base subscriptions starting at **$89\u2013$119/month** (~$1,068\u2013$1,428/year for entry-level \"Lite,\" \"Essentials,\" or \"CORE\" plans), scaling up to **$159\u2013$299/month** or more for \"Growth,\" \"Plus,\" or \"Enterprise\" tiers with larger databases or added users/records. However, several **hidden or opaque costs** significantly inflate the total cost of ownership (TCO), often surprising nonprofits during onboarding or scaling.\n\n#### 1. **Payment Processing Fees (Scales with Donation Volume)**\n   - DonorPerfect's integrated processor (DP Payments, powered by SafeSave) charges **2.89%\u20133.39% + $0.30 per credit/debit card transaction** and **0.75% + $0.35 for ACH**.\n   - These are higher than alternatives like Stripe (2.2% + $0.30) or Bloomerang (2.0% + $0.30), adding **$3,450\u2013$5,950 extra annually on $500K in donations** (CheckThat.ai).\n   - **Estimated annual costs** (at 2.89% + $0.30, assuming all credit cards):\n\n     | Annual Donations | Processing Cost |\n     |------------------|-----------------|\n     | $100,000        | ~$2,920        |\n     | $250,000        | ~$7,300        |\n     | $500,000        | ~$14,600       |\n     | $1,000,000      | ~$29,200       |\n\n   - Third-party processors (e.g., Stripe) can integrate but may not fully support native features, per documentation gaps noted in reviews.\n\n#### 2. **Feature Add-Ons and Upgrades (Unpublished Pricing)**\n   - Core features like moves management, QuickBooks integration, advanced reporting, SmartAnalytics, Custom API Access, DP Text, and premium support require sales quotes and higher tiers.\n   - User reviews on G2 and AppDealHunt cite \"pricing opacity\" as a frustration: many \"standard\" features in competitors (e.g., Blackbaud) are extras here, often needing upgrades or integrations.\n   - DonorPerfect's own comparison page highlights this indirectly by bundling features in \"new pricing\" videos, but add-ons remain unlisted.\n\n#### 3. **Implementation and One-Time Fees**\n   - **Data migration**: $500\u2013$5,000 (PricingNow, CheckThat.ai), depending on data volume/complexity; large orgs need dedicated support.\n   - **Customization**: $1,000\u2013$10,000 for advanced modules (AppDealHunt).\n   - **Training**: $500\u2013$2,000 beyond free webinars (PricingNow); daily-use frustrations like slow verification emails add operational drag (Capterra).\n   - **Year 1 TCO estimate** (base + processing on $500K donations): **$16,378\u2013$20,378** (CheckThat.ai), excluding add-ons.\n\n#### 4. **Scaling and Other Overlooked Costs**\n   - Costs rise with **constituent count or users**, not per-user like some platforms\u2014flexible for growth but unpredictable for budgeting.\n   - **Mobile limitations** and automation setup issues can lead to indirect costs (e.g., missed donor engagement).\n   - No free version or trial; board budgeting requires sales calls.\n\n#### When These Hit Hardest\n- **High-volume fundraisers** (> $100K/year): Processing fees dominate TCO.\n- **Growing orgs**: Database scaling + add-ons compound expenses.\n- **Competitor context**: Givebutter/Zeffy ads claim DonorPerfect's fees can exceed their \"free\" models (e.g., $3,750 on $25K via Givebutter tips covers a full DonorPerfect year), though DonorPerfect counters with \"hidden donor tips\" in comparisons.\n\n**Sources**: Aggregated from CheckThat.ai [1], DonorPerfect.com [2,8,9], AppDealHunt [3], PricingNow [4], G2 [5], Zeffy [6], Capterra [7]. Official advice: Request a quote for your specifics, as estimates vary. For low-volume nonprofits, alternatives with lower/zero platform fees may save more.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 973,
+  "estimated_cost_usd": 0.019616,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://checkthat.ai/brands/donorperfect/pricing",
+      "https://www.donorperfect.com/fundraising-software/compare-donor-management-systems/givebutter/",
+      "https://appdealhunt.com/featured/donorperfect-review-pros-and-cons-for-large-organizations/",
+      "https://pricingnow.com/question/donorperfect-cost/",
+      "https://www.g2.com/products/donorperfect/pricing",
+      "https://www.zeffy.com/compare/zeffy-vs-donorperfect",
+      "https://www.capterra.com/compare/2698-220131/DonorPerfect-Fundraising-Software-vs-Zeffy",
+      "https://www.donorperfect.com/fundraising-software/pricing-guide/",
+      "https://www.donorperfect.com/video/donorperfects-new-pricing/"
+    ]
+  }
+}

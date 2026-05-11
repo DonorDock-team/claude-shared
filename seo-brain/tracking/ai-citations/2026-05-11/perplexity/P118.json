@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P118",
+  "prompt_text": "ChatGPT for nonprofits is it safe",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424139+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Is ChatGPT Safe for Nonprofits?\n\nNo, ChatGPT is **not entirely safe** for nonprofits without strict precautions. While it offers time-saving benefits like idea generation, content drafting, and brainstorming, multiple risks\u2014especially data privacy, security, bias, and inaccuracies\u2014make it hazardous for sensitive operations. Sources from nonprofit-focused analyses (e.g., TechSoup, Candid.org, Hinchilla) consistently highlight these issues, drawing from real-world failures like the National Eating Disorders Association's (NEDA) chatbot \"Tessa,\" which gave harmful mental health advice and was taken offline.\n\n#### Key Risks and Evidence\n| Risk Category | Description & Examples | Supporting Sources |\n|---------------|-------------------------|--------------------|\n| **Data Privacy & Security** | Input data (e.g., beneficiary details, financials, strategies) may train OpenAI models unless opted out. Violates GDPR/CCPA; risks fines, IP theft, or exposing vulnerable data. Nonprofits handle sensitive info, amplifying exposure. | [1] TechSoup: Avoid personal info in prompts. <br> [3] Hinchilla: Grant data uploads breach regs; reputational damage. <br> [5] Charity Excellence: Don't enter sensitive personal/financial data. <br> [8] OpenAI: Enterprise offers better security for large orgs. |\n| **Inaccuracies & Hallucinations** | Generates false info, outdated data (no real-time access pre-2023 cutoff in base models), or plagiarized content. Critical for grants, advice, or reports. | [1] TechSoup: Fact-check everything. <br> [2] Candid.org: ChatGPT fabricates examples; NEDA bot failed testing. <br> [5] Charity Excellence: No real-time data; complex queries overload. |\n| **Bias & Ethical Harm** | Trained on biased datasets; outputs offensive/inappropriate content, eroding trust or harming missions (e.g., mental health bots mimicking empathy poorly). | [2] Candid.org: \"Do no harm\" pledge; test for bias/hallucinations. <br> [4] Lightful: Introduces bias; not for all audiences. |\n| **Compliance & Legal** | Breaches data laws; funders question professionalism if AI mishandles info. | [3] Hinchilla: Undermines stewardship. <br> [6] Riskalts: IT compliance risks. |\n\n#### Mitigation Strategies (If Using It)\nAdopt a \"human-centered, do no harm\" approach per [2] Candid.org:\n- **Never input sensitive data**: Use anonymized prompts; opt out of data training in settings.\n- **Human oversight**: Always fact-check, plagiarism-scan, and test outputs (e.g., for bias).\n- **Strategic limits**: For ideation only\u2014not grants, client advice, or decisions. Identify \"co-botting\" pain points with human veto.\n- **Build literacy & policies**: Train staff; senior leaders approve uses.\n- **Test rigorously**: Simulate interactions; add prompt safeguards (e.g., \"Use inclusive language for minorities\").\n- **Alternatives**: Free Google for Nonprofits AI ([7] YouTube/WholeWhale); OpenAI Nonprofit discounts ([8]); enterprise for security.\n\n**Bottom line**: Benefits exist for low-risk tasks, but risks outweigh for core nonprofit work involving data or stakeholders. Prioritize ethical AI literacy and testing to avoid scandals like NEDA's. For high-security needs, upgrade to ChatGPT Enterprise via OpenAI's nonprofit program.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 737,
+  "estimated_cost_usd": 0.016082,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://blog.techsoup.org/posts/mitigating-risks-when-using-chatgpt",
+      "https://candid.org/blogs/why-the-first-step-for-nonprofits-using-ai-technology-chatgpt-is-to-no-harm/",
+      "https://www.hinchilla.com/learn/why-not-use-chatgpt-grant-writing",
+      "https://lightful.com/blog/digital/chatgpt-for-nonprofits-potential-and-pitfalls",
+      "https://www.charityexcellence.co.uk/chatgpt-for-non-profits/",
+      "https://riskalts.com/what-chatgpt-ai-says-about-common-nonprofit-it-risks/",
+      "https://www.youtube.com/watch?v=d96XREK5Ktc",
+      "https://help.openai.com/en/articles/9359041-openai-for-nonprofits"
+    ]
+  }
+}

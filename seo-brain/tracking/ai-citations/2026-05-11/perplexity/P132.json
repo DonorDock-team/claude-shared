@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P132",
+  "prompt_text": "Network for Good problems",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423449+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Known Problems and Controversies with Network for Good\n\nNetwork for Good (rebranded as \"For Good\" in 2025 and now part of Bonterra) is a fundraising platform for nonprofits, but it has faced several issues based on public records and reports. Here's a breakdown of the main problems, supported by evidence from the search results:\n\n#### 1. **Controversy Over Funding Harmful Causes**\n   - **Issue**: The platform's free \"DonateNow Lite\" tool, available to all 501(c)(3) charities listed on Candid, has been used by organizations promoting conversion therapy, despite Network for Good not directly listing them as customers.\n   - **Details**: Exodus Global Alliance, which supports sexual orientation conversion therapy (widely criticized as unethical and harmful by medical bodies like the APA), uses this tool for fundraising.\n   - **Evidence**: Wikipedia entry [1] explicitly notes this under \"Controversy.\" This raises questions about lax vetting of free-tier users, potentially enabling funding for controversial or discredited practices.\n\n#### 2. **Technical and Service Disruptions**\n   - **Issue**: The main donation platform is currently in \"maintenance mode,\" preventing users from donating.\n   - **Details**: As of the latest info, donate.forgood.org [4] displays: \"For Good is in maintenance mode. Please come back later to make a donation.\" This could disrupt nonprofits relying on it for real-time fundraising.\n   - **Evidence**: Direct from the site's status message [4]. No timeline for resolution is provided, which might indicate ongoing technical problems.\n\n#### 3. **High Fees and Cost Concerns**\n   - **Issue**: Transaction fees of 3-5% on donations (plus subscription fees) can eat into nonprofit funds, with costs optionally passed to donors.\n   - **Details**: Nonprofits must decide whether to absorb fees or ask donors to cover them, which may reduce donation rates. While marketed as \"affordable,\" smaller orgs have criticized similar platforms for hidden costs.\n   - **Evidence**: Wikipedia [1] confirms the fee structure. Their own site [2] emphasizes returns like \"$6 in donations for every $1 spent,\" but this doesn't address base fee complaints.\n\n#### 4. **Corporate Changes and Leadership Instability**\n   - **Issue**: Recent acquisitions and CEO departure may signal internal disruptions affecting service reliability.\n   - **Details**: Acquired by Bonterra in 2022, CEO Bill Strathmann left in 2023. Rebranding to \"For Good\" in 2025 [1], with separate entities now (e.g., forgood.org [5] as a DAF platform).\n   - **Evidence**: Timeline from Wikipedia [1]. Bonterra's page [3] promotes it positively, but the changes coincide with maintenance issues [4].\n\n#### 5. **Login and Access Problems**\n   - **Issue**: Multiple login portals with potential access hurdles; no clear unified support for common issues.\n   - **Details**: Users must navigate separate logins (e.g., networkforgood.org/login [10], epic.networkforgood.com [8]), and support is scattered (FAQ, Learning Center [6,9]).\n   - **Evidence**: Contact page [6] directs to self-help without phone/email options for basic issues. Help articles [9] exist but require searching.\n\n#### User-Reported or Implied Challenges\n- While search results lack widespread complaint aggregators (e.g., no BBB or Trustpilot snippets), the free tool's misuse [1] and maintenance downtime [4] suggest reliability gaps for small nonprofits.\n- Bonterra's promo [3] highlights AI tools to fix \"disconnected tools\" and \"manual work,\" implying past platform shortcomings.\n\nFor resolution:\n- **Support**: Use their Help Center [9] or login for account-specific issues [7,10].\n- **Alternatives**: Nonprofits often switch to Classy, Donorbox, or GoFundMe for lower fees or better vetting.\n\nNo major lawsuits or shutdowns reported, but these issues could impact trust, especially for small orgs dependent on seamless tools. If you're a user, check status at donate.forgood.org.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bonterra",
+    "DonorBox",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 860,
+  "estimated_cost_usd": 0.017915,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://en.wikipedia.org/wiki/Network_for_Good",
+      "https://www.networkforgood.org/about/",
+      "https://www.bonterratech.com/product/network-for-good",
+      "https://donate.forgood.org",
+      "https://www.forgood.org",
+      "https://www.networkforgood.org/npo/about/contact.aspx",
+      "https://www.networkforgood.org/profile/login.aspx",
+      "https://epic.networkforgood.com/admins/sign_in",
+      "https://intercom.help/networkforgood/en/collections/8841663-help-articles",
+      "https://www.networkforgood.org/login"
+    ]
+  }
+}

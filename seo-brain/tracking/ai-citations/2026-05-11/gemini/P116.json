@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P116",
+  "prompt_text": "Best AI tool for nonprofit donor outreach",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423833+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "There isn't a single \"best\" AI tool for nonprofit donor outreach, as the ideal choice depends on your organization's size, budget, specific needs, existing tech stack, and technical expertise.\n\nHowever, I can categorize the types of AI tools most beneficial for nonprofit donor outreach and highlight popular options within each category.\n\n**How AI Benefits Nonprofit Donor Outreach:**\n\n*   **Personalization:** Tailor communications to individual donors based on their giving history, interests, and engagement.\n*   **Segmentation:** Automatically group donors into more effective segments for targeted campaigns.\n*   **Predictive Analytics:** Identify potential major donors, predict who is likely to give again, or who is at risk of churning.\n*   **Content Generation:** Draft emails, social media posts, appeal letters, and thank-you notes more quickly.\n*   **Efficiency:** Automate repetitive tasks, freeing up staff for more strategic work.\n*   **Prospecting:** Identify new potential donors based on specific criteria.\n\n---\n\n### Top AI Tool Categories for Nonprofit Donor Outreach:\n\n**1. AI-Powered CRM (Constituent Relationship Management) / Donor Management Systems:**\nThese are often the *foundation* of nonprofit outreach. Many modern CRMs are integrating AI features to enhance their core functionalities.\n\n*   **Blackbaud (e.g., Raiser's Edge NXT, eTapestry):** A leader in nonprofit tech. They are heavily investing in AI for predictive analytics, prospect research, wealth screening, and personalized communications. Blackbaud acquired Gravyty (an AI-driven fundraising platform), integrating its capabilities.\n    *   **Pros:** Comprehensive, tailored for nonprofits, strong analytics, deep integration with other fundraising tools.\n    *   **Cons:** Can be expensive, steep learning curve for full utilization.\n    *   **Best for:** Medium to large nonprofits, those looking for an all-in-one solution with deep fundraising intelligence.\n\n*   **Salesforce Nonprofit Cloud:** Leverages Salesforce's robust CRM platform with specific features for nonprofits. Einstein AI (Salesforce's AI engine) can be configured for predictive analytics, personalized donor journeys, and automated insights.\n    *   **Pros:** Highly customizable, scalable, vast ecosystem of apps, powerful AI capabilities.\n    *   **Cons:** Can be complex to set up and manage, potentially expensive with add-ons.\n    *   **Best for:** Mid-sized to large nonprofits needing high customizability and scalability.\n\n*   **Bloomerang:** An intuitive CRM designed specifically for nonprofits, focusing on donor engagement. While its AI is less explicit than Blackbaud or Salesforce, it offers features like donor engagement scores and communication tracking that are AI-adjacent and highly useful. They also integrate with tools that have stronger AI.\n    *   **Pros:** User-friendly, strong focus on donor engagement, good for",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 592,
+  "estimated_cost_usd": 0.001482,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

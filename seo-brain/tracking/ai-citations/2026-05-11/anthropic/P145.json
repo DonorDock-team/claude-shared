@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P145",
+  "prompt_text": "Best donor CRM for capital campaigns",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.422109+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Capital Campaigns\n\nHere are the top options specifically suited for capital campaigns:\n\n## **Top Tier Solutions**\n\n### **1. Blackbaud Raiser's Edge NXT**\n- **Best for:** Large organizations ($5M+ campaigns)\n- **Strengths:** Robust gift tracking, pledge management, campaign hierarchies, donor pipeline tools\n- **Considerations:** Higher cost, steeper learning curve\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Customization and scalability\n- **Strengths:** Highly customizable campaign tracking, automated workflows, donor engagement scoring\n- **Considerations:** Requires setup/admin expertise\n\n## **Mid-Market Options**\n\n### **3. Bloomerang**\n- **Best for:** Small to mid-size campaigns ($500K-$5M)\n- **Strengths:** Excellent donor retention focus, clean interface, good pledge tracking\n- **Price:** More affordable (~$125-200/month)\n\n### **4. DonorPerfect**\n- **Best for:** Organizations wanting comprehensive features without enterprise cost\n- **Strengths:** Strong pledge management, campaign tracking, custom reporting\n\n### **5. NeonCRM**\n- **Best for:** Growing nonprofits\n- **Strengths:** Campaign-specific dashboards, multi-year pledge tracking, good reporting\n\n## **Key Features to Prioritize:**\n- Multi-year pledge tracking\n- Campaign hierarchy management\n- Major gift pipeline tools\n- Wealth screening integration\n- Custom reporting dashboards\n- Donor contact history\n\n**What's your organization's size and campaign goal?** That will help narrow the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 377,
+  "estimated_cost_usd": 0.005697,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

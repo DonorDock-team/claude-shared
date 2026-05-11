@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P043",
+  "prompt_text": "Best donor CRM for human services nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423636+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "There isn't a single \"best\" donor CRM for all human services nonprofits, as the ideal choice depends on your organization's specific size, budget, complexity, existing tech stack, and unique needs. However, I can highlight top contenders and key features to look for, along with specific considerations for human services.\n\n**Key Considerations for Human Services Nonprofits:**\n\nHuman services organizations often have specific needs beyond basic donor management:\n\n1.  **Volunteer Management:** Many rely heavily on volunteers for program delivery.\n2.  **Program Tracking/Impact Measurement:** Linking donations to specific programs and demonstrating outcomes.\n3.  **Grant Management:** Tracking applications, deadlines, reporting for foundations and government grants.\n4.  **Constituent Relationship Management (CRM):** Beyond just donors, managing relationships with clients (while often in a separate, secure case management system), volunteers, partners, and community members.\n5.  **Data Security & Privacy:** Especially if there's any overlap or integration with client data (though typically CRMs are *not* case management systems, robust security is always important).\n6.  **Diverse Funding Sources:** Individual donors, corporate sponsors, foundations, government grants, events.\n7.  **Community Engagement:** Tools for outreach, events, and broad communication.\n\n---\n\n### Top Donor CRM Recommendations for Human Services Nonprofits:\n\nHere are some of the leading platforms, broken down with their strengths and considerations for human services:\n\n1.  **Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack)**\n    *   **Strengths:**\n        *   **Highly Customizable:** Unparalleled flexibility to adapt to complex human services models, including managing clients (though often with a separate case management app), volunteers, programs, and grants.\n        *   **Scalability:** Grows with your organization, from small to very large.\n        *   **Vast Ecosystem:** Thousands of third-party apps (many nonprofit-specific) on the AppExchange for everything from advanced grant management to volunteer scheduling to client intake.\n        *   **Robust Reporting:** Powerful analytics to track every aspect of your operations and demonstrate impact.\n        *   **Discounted for Nonprofits:** Salesforce offers 10 free licenses to nonprofits, making the initial entry very appealing.\n    *   **Considerations for Human Services:**\n        *   **Steep Learning Curve:** Requires significant time, expertise, or consulting fees for initial setup and ongoing administration.\n        *   **Implementation Costs:** While the licenses can be free, customization and integration often require a significant investment in implementation partners.\n        *   **Case Management:** While NPSP can track constituent relationships, it is *not* a HIPAA-compliant case management system out-of-the-box. You'd likely need to integrate with a specialized case management solution or build out specific apps on the",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 590,
+  "estimated_cost_usd": 0.001477,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

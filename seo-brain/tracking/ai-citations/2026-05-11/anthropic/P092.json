@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.422284+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for International NGOs\n\nHere are the top options based on international NGO needs:\n\n## **Top Recommendations**\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large international NGOs with complex needs\n- **Strengths:** Highly customizable, multi-currency, excellent for global operations, strong reporting\n- **Considerations:** Requires technical expertise, higher cost\n- **Pricing:** Discounted/free for qualifying nonprofits\n\n### **2. Microsoft Dynamics 365 (Nonprofit Accelerator)**\n- **Best for:** Organizations already using Microsoft ecosystem\n- **Strengths:** Multi-language support, integrates with Office 365, good for global teams\n- **Considerations:** Setup complexity\n- **Pricing:** Nonprofit discounts available\n\n### **3. Raiser's Edge NXT (Blackbaud)**\n- **Best for:** Established NGOs with significant fundraising operations\n- **Strengths:** Purpose-built for nonprofits, strong international presence, multi-currency\n- **Considerations:** Can be expensive, some users find it complex\n- **Pricing:** Subscription-based, varies by size\n\n### **4. CiviCRM**\n- **Best for:** Budget-conscious NGOs comfortable with open-source\n- **Strengths:** Free, highly customizable, multi-currency, strong community\n- **Considerations:** Requires technical expertise or consulting support\n- **Pricing:** Free (hosting and customization costs apply)\n\n### **5. Donorfy**\n- **Best for:** UK-based NGOs or those with UK operations\n- **Strengths:** Affordable, user-friendly, GDPR-compliant, multi-currency\n- **Pricing:** Competitive subscription model\n\n## **Key Features to Look For:**\n- Multi-currency support\n- GDPR and international data compliance\n- Multi-language capabilities\n- Global payment gateway integrations\n- Consolidation of data across regions\n\n**What's your organization's size and primary geographic focus?** That would help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "CiviCRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 469,
+  "estimated_cost_usd": 0.00708,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

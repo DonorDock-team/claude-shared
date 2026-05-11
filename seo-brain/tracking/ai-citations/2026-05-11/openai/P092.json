@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.422687+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting a donor CRM (Customer Relationship Management) system for an international NGO involves considering various factors such as scalability, ease of use, integration capabilities, cost, and features tailored to nonprofit needs. Here are some popular CRM systems that are often recommended for international NGOs:\n\n1. **Salesforce Nonprofit Success Pack (NPSP):**\n   - **Pros:** Highly customizable, robust analytics, extensive integration capabilities, and a large ecosystem of third-party apps. Salesforce also offers discounts or free licenses through its Power of Us Program for qualifying nonprofits.\n   - **Cons:** Can be complex to set up, requiring technical expertise.\n\n2. **Bloomerang:**\n   - **Pros:** User-friendly interface with a focus on donor retention, strong reporting capabilities, and helpful customer support.\n   - **Cons:** May not be as feature-rich as some larger platforms for complex organizations.\n\n3. **Blackbaud CRM:**\n   - **Pros:** Tailored specifically for nonprofits, it offers comprehensive fundraising, marketing, and program management tools. Has global experience with support for multiple currencies and languages.\n   - **Cons:** Can be expensive and more suited for larger NGOs with significant budgets.\n\n4. **Kindful by Network for Good:**\n   - **Pros:** Strong donor management and online fundraising tools, intuitive design, and integrates well with other platforms like QuickBooks and Mailchimp.\n   - **Cons:** Some limitations in advanced features needed by large international NGOs.\n\n5. **Raiser\u2019s Edge NXT (by Blackbaud):**\n   - **Pros:** Advanced analytics, donor management tools, and flexible configurations for large organizations.\n   - **Cons:** Higher cost and might require dedicated staff for management.\n\n6. **DonorPerfect:**\n   - **Pros:** Versatile platform with strong donor management, reporting, and event management features. Offers a good balance between affordability and functionality.\n   - **Cons:** Learning curve for some users and potentially less robust in integrations compared to Salesforce or Blackbaud.\n\n7. **Little Green Light:**\n   - **Pros:** Cost-effective with strong donor management capabilities, good for small to mid-sized NGOs.\n   - **Cons:** Might lack some advanced features needed by larger organizations.\n\n8. **NeonCRM:**\n   - **Pros:** Comprehensive set of features including donor and membership management, along with strong customization options.\n   - **Cons:** May require some training to fully leverage all its features.\n\nWhen choosing a CRM for an international NGO, it's crucial to evaluate how well each platform supports international operations, such as multi-currency handling, multilingual support, and compliance with international data privacy regulations. It's also prudent to seek input from current users of the platforms within the NGO sector to understand real-world performance and support experiences.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 553,
+  "estimated_cost_usd": 0.005562,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

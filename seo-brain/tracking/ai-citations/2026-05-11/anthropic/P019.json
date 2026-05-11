@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P019",
+  "prompt_text": "Alternative to Blackbaud Raisers Edge",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.422065+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Alternatives to Blackboard Raiser's Edge\n\nHere are some popular alternatives to Raiser's Edge for nonprofit fundraising and donor management:\n\n## **Top Competitors**\n\n### **1. Salesforce Nonprofit Cloud**\n- Built on Salesforce platform\n- Highly customizable and scalable\n- Strong reporting and integration capabilities\n- Best for: Medium to large nonprofits with technical resources\n\n### **2. Bloomerang**\n- User-friendly interface\n- Strong donor retention focus\n- Good reporting and email integration\n- Best for: Small to mid-sized nonprofits\n\n### **3. DonorPerfect**\n- Comprehensive fundraising features\n- Online donation integration\n- Flexible reporting\n- Best for: Small to medium nonprofits\n\n### **4. Kindful (by Bloomerang)**\n- Cloud-based and intuitive\n- Marketing automation features\n- Good for growing organizations\n- Best for: Small to medium nonprofits\n\n### **5. Little Green Light**\n- Affordable pricing\n- Simple, clean interface\n- Good customer support\n- Best for: Small nonprofits and grassroots organizations\n\n## **Other Options Worth Considering**\n\n- **Neon CRM** - All-in-one solution with membership management\n- **Keela** - AI-powered insights and automation\n- **Virtuous** - Responsive fundraising platform\n- **EveryAction** - Strong for advocacy and political organizations\n- **GiveSmart** - Focus on events and mobile giving\n\n## **Selection Factors**\n- Organization size and budget\n- Required features (events, grants, pledges, etc.)\n- Technical expertise available\n- Integration needs\n- User-friendliness requirements\n\nWhat's your organization's size and primary needs? I can provide more specific recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 405,
+  "estimated_cost_usd": 0.006129,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

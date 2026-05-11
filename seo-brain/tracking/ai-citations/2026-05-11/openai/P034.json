@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P034",
+  "prompt_text": "Best nonprofit CRM for growing organizations",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.421602+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best nonprofit CRM (Customer Relationship Management) system for a growing organization depends on specific needs, budget, and the organization's size. However, several CRM options are highly regarded in the nonprofit sector due to their features, scalability, and support for fundraising and donor management. Here are some top choices:\n\n1. **Salesforce Nonprofit Success Pack (NPSP):**\n   - **Features:** Customizable platform, strong community support, donor and volunteer management, reporting and analytics.\n   - **Scalability:** Highly scalable, suitable for organizations of all sizes.\n   - **Considerations:** May require technical expertise for customization.\n\n2. **Bloomerang:**\n   - **Features:** Donor retention focus, user-friendly interface, powerful analytics, email marketing tools.\n   - **Scalability:** Suitable for small to mid-sized nonprofits.\n   - **Considerations:** Limited advanced customization compared to Salesforce.\n\n3. **Neon CRM:**\n   - **Features:** Fundraising tools, event management, membership management, online forms.\n   - **Scalability:** Good for small to mid-sized organizations with growth potential.\n   - **Considerations:** Can become complex as functionality increases.\n\n4. **Kindful:**\n   - **Features:** Intuitive design, strong integrations, donor tracking, reporting.\n   - **Scalability:** Ideal for small to medium-sized nonprofits.\n   - **Considerations:** Less robust for large organizations with complex needs.\n\n5. **DonorPerfect:**\n   - **Features:** Donation processing, donor tracking, custom reports, event and volunteer management.\n   - **Scalability:** Suitable for nonprofits of various sizes.\n   - **Considerations:** User interface may feel dated compared to newer platforms.\n\n6. **Blackbaud Raiser\u2019s Edge NXT:**\n   - **Features:** Comprehensive fundraising features, donor management, predictive analytics.\n   - **Scalability:** Designed for mid-sized to large organizations.\n   - **Considerations:** Higher cost; best suited for organizations needing powerful capabilities.\n\n7. **Little Green Light:**\n   - **Features:** Donor management, online donations, reporting, and event planning.\n   - **Scalability:** Effective for small to mid-sized organizations.\n   - **Considerations:** Less suitable for very large organizations.\n\nWhen choosing a CRM, consider factors such as ease of use, integration with existing tools, customer support, and cost. It's often beneficial to take advantage of free trials or demos to evaluate how well a CRM meets your organization's specific needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 513,
+  "estimated_cost_usd": 0.005163,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

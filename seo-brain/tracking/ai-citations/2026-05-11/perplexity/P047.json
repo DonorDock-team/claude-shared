@@ -1,0 +1,37 @@
+{
+  "prompt_id": "P047",
+  "prompt_text": "Best donor CRM for community foundations",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424309+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Community Foundations\n\nCommunity foundations require donor CRMs with strong features for managing endowments, grants, donor-advised funds (DAFs), compliance reporting, and multi-level relationships (e.g., donors, advisors, grantees). Based on recent analyses from specialized nonprofit resources (updated for 2026), here are the **top recommendations**, prioritized for foundations' unique needs like grantmaking workflows, fund accounting integration, and scalability. I evaluated from lists in sources [1-9], focusing on those explicitly praised for foundations or similar grant-focused orgs.\n\n#### 1. **Salesforce Nonprofit Cloud** (Top Overall Pick)\n   - **Why best for community foundations**: Enterprise-grade with unlimited customization, AI-driven insights, grant management, and DAF tracking. Handles complex hierarchies (donors \u2192 funds \u2192 grantees) and integrates with accounting tools. Massive app ecosystem for foundation-specific needs like compliance and reporting.\n   - **Key features**: Donor/advisor portals, automated workflows, fundraising automation, volunteer/grant tracking.\n   - **Pricing**: Starts at ~$36/user/month (nonprofit discounts); scales for large foundations.\n   - **Evidence**: Ranked #1 in [4] and [5] as the \"enterprise standard\"; featured in [7] for foundations; [3] and [6] highlight its security (encryption, audit trails).\n   - **Best for**: Mid-to-large foundations (e.g., $10M+ AUM).\n\n#### 2. **DonorPerfect**\n   - **Why best for community foundations**: Cloud-based with fast setup, customizable fund accounting, pledge tracking, and grant reporting. Excels in donor segmentation and multi-fund management, accessible anywhere for remote teams.\n   - **Key features**: Donor portals, automated acknowledgments, reporting dashboards, integrations with QuickBooks.\n   - **Pricing**: ~$89/month base (nonprofit pricing); flexible tiers.\n   - **Evidence**: [9] emphasizes its essential features like speed and ease for nonprofits; aligns with foundation needs in [3] and [8] for streamlined supporter management.\n   - **Best for**: Small-to-mid foundations seeking affordability and simplicity.\n\n#### 3. **Blackbaud** (e.g., Blackbaud CRM or Raiser's Edge NXT)\n   - **Why best for community foundations**: Tailored for endowments and grantmaking with robust fund accounting, prospecting, and analytics. Strong in compliance and high-volume donor relations.\n   - **Key features**: Endowment management, DAF tools, advanced reporting, wealth screening.\n   - **Pricing**: Custom (enterprise-level, $10K+/year).\n   - **Evidence**: Top in [7] for foundations; frequently listed in [1-3] for fundraising power.\n   - **Best for**: Large foundations with complex portfolios.\n\n#### 4. **Bloomerang or Kindful** (Strong Alternatives for Smaller Foundations)\n   | CRM          | Strengths for Foundations                  | Pricing (Starting) | Key Sources |\n   |--------------|--------------------------------------------|--------------------|-------------|\n   | **Bloomerang** | Donor retention focus, engagement scoring, simple grant tracking; great for growing funds. | $119/month       | [1], [3]   |\n   | **Kindful**  | Wealth screening, fund-specific campaigns; integrates with accounting. | $119/month       | [7]        |\n\n#### Quick Comparison Table\n| CRM                  | Foundation Fit (Grants/DAFs) | Ease of Use | Scalability | Cost-Effectiveness |\n|----------------------|------------------------------|-------------|-------------|--------------------|\n| **Salesforce**      | Excellent                   | Medium     | High       | Medium            |\n| **DonorPerfect**    | Very Good                   | High       | Medium     | High              |\n| **Blackbaud**       | Excellent                   | Medium     | High       | Low               |\n| **Bloomerang**      | Good                        | High       | Medium     | High              |\n\n#### Selection Tips from Experts ([8], [6])\n- **Assess needs**: Prioritize grantmaking (e.g., Salesforce) vs. donor engagement (e.g., DonorPerfect). Check DAF support and integrations (e.g., with Foundant or Fluxx for grants).\n- **Must-haves**: Role-based security, audit trails, mobile access, nonprofit discounts (90% off via TechSoup).\n- **Next steps**: Demo 2-3 options; review [8]'s guide for community foundations specifically. Funraise ([3]) is emerging for user-friendly growth.\n\nSalesforce leads for most due to its depth, but DonorPerfect wins for quick wins on budget. Tailor to your AUM size and tech stack.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 991,
+  "estimated_cost_usd": 0.019886,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://www.salesforce.com/nonprofit/",
+      "https://www.goodera.com/blog/best-crms-for-nonprofits-the-complete-guide-for-nonprofit-organizations",
+      "https://www.springly.org/en-us/blog/crm-for-foundations/",
+      "https://www.peakgrantmaking.org/insights/how-to-select-the-right-software-for-your-community-foundation/",
+      "https://www.donorperfect.com/nonprofit-technology-blog/featured/nonprofit-crm-features/"
+    ]
+  }
+}

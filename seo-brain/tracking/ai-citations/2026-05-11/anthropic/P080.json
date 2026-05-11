@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P080",
+  "prompt_text": "Best donor CRM for private K-12 schools",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.423689+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Private K-12 Schools\n\n## Top Recommendations\n\n### **1. Blackbaud Raiser's Edge NXT**\n- **Best for:** Large schools with significant fundraising operations\n- **Strengths:** \n  - Industry standard in education fundraising\n  - Robust alumni tracking and engagement tools\n  - Strong reporting and analytics\n  - Integrates well with other Blackbaud products\n- **Considerations:** Higher cost, steeper learning curve\n\n### **2. Bloomerang**\n- **Best for:** Small to mid-sized schools\n- **Strengths:**\n  - User-friendly interface\n  - Strong donor retention focus\n  - Excellent engagement metrics\n  - More affordable than enterprise options\n  - Good customer support\n\n### **3. DonorPerfect**\n- **Best for:** Schools seeking balance of features and affordability\n- **Strengths:**\n  - Comprehensive fundraising tools\n  - Customizable for school needs\n  - Strong gift processing\n  - Integration with QuickBooks and other systems\n\n### **4. Salesforce Education Cloud (NPSP)**\n- **Best for:** Schools already using Salesforce or wanting maximum customization\n- **Strengths:**\n  - Highly customizable\n  - Can manage both admissions and development\n  - Powerful automation and reporting\n- **Considerations:** Requires technical expertise or consultant\n\n### **5. Little Green Light**\n- **Best for:** Smaller schools with limited budgets\n- **Strengths:**\n  - Simple, affordable pricing\n  - Easy to learn\n  - Good basic functionality\n  - Responsive support\n\n## Key Features to Prioritize\n\n- **Alumni tracking** across graduation years\n- **Parent/family relationship** management\n- **Event management** for galas and reunions\n- **Pledge tracking** and multi-year commitments\n- **Grant management** capabilities\n- **Integration** with accounting systems\n\nWhat's your school's size and annual fundraising volume? That would help narrow the recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 460,
+  "estimated_cost_usd": 0.006954,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

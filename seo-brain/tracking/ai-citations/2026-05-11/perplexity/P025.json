@@ -1,0 +1,39 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423590+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Recommended Donor CRMs with Flat-Rate Pricing (No Per-User Fees)\n\nFlat-rate pricing means a single monthly/annual fee that doesn't scale with users, contacts, or records\u2014ideal for nonprofits wanting predictable budgets and easy team access. From the search results, here are the top matches focused on donor management (CRM for donors, fundraising, etc.). I prioritized true flat-rate models without per-user charges.\n\n#### 1. **LiveImpact** (Top Pick for Predictability)\n   - **Pricing**: Flat-rate monthly/annual fee (exact tiers not specified in results; modular add-ons included without extra user/contact scaling).\n   - **Key Features**: Unlimited users and contacts. Donor management, case management built-in (no add-on fees). No per-contact tiers, avoiding incentives to delete data.\n   - **Best For**: Growing orgs needing budget stability; removes barriers to adding staff/volunteers.\n   - **Source**: [LiveImpact Blog](https://www.liveimpact.org/blog/nonprofit-crm-pricing).\n   - **Why It Fits**: Explicitly designed as \"flat-rate, modular pricing\" with no per-user or per-record fees.\n\n#### 2. **Little Green Light**\n   - **Pricing**: $45\u2013$119/month (flat rate, regardless of contacts or users).\n   - **Key Features**: Donor management for small orgs (up to 2,500 contacts comfortably). Basic tracking, reporting.\n   - **Best For**: Small nonprofits without grant needs; simple donor databases.\n   - **Source**: [GrantPipe Comparison](https://grantpipe.com/resources/best/best-nonprofit-crm-under-100-month/).\n   - **Why It Fits**: Confirmed flat-rate, no scaling by size/users.\n\n#### 3. **GrantPipe** (Flat Self-Serve)\n   - **Pricing**: $199\u2013$799/month (flat self-serve plans).\n   - **Key Features**: Donor + grant tracking, restricted fund compliance. No per-contact pricing.\n   - **Best For**: Orgs handling donors and grants; more robust than basic tools.\n   - **Source**: [GrantPipe](https://grantpipe.com/resources/best/best-nonprofit-crm-under-100-month/).\n   - **Why It Fits**: Explicit \"flat-rate\" with no per-contact or user fees.\n\n#### 4. **Bloomerang Giving Platform**\n   - **Pricing**: Starts at $125/month.\n   - **Key Features**: Unlimited users, unlimited forms (donations/events), email marketing, donor scoring (Generosity Score, engagement levels).\n   - **Best For**: Donor-focused fundraising with engagement tools.\n   - **Source**: [Bloomerang](https://bloomerang.com/blog/free-nonprofit-software/).\n   - **Why It Fits**: Unlimited users confirm no per-user fees; flat starting rate (revenue-based scaling possible, check site).\n\n#### Comparison Table\n| CRM              | Starting Price/Mo | Unlimited Users? | Unlimited Contacts? | Standout Donor Features          | Limitations                  |\n|------------------|-------------------|------------------|---------------------|----------------------------------|------------------------------|\n| **LiveImpact**  | Flat (TBD)       | Yes             | Yes                | Case mgmt, no data deletion pressure | Pricing details on site     |\n| **Little Green Light** | $45             | Yes             | Yes (flat)         | Basic donor tracking            | No grants; small-scale best |\n| **GrantPipe**   | $199             | Yes             | Yes                | Grants + donors, compliance     | Higher cost                 |\n| **Bloomerang**  | $125             | Yes             | Yes? (check tiers) | Donor scoring, forms, email     | May scale by revenue        |\n\n#### Key Insights from Results\n- **Avoid Per-Contact/User Traps**: Many CRMs (e.g., Neon CRM) scale by contacts ($49\u2013$99 but rises >5K contacts) or users, creating \"perverse incentives\" like deleting donor history (LiveImpact).\n- **Free Alternatives?** Not flat-rate true CRMs\u2014options like Givebutter/Zeffy/GivingTech are \"free\" with 1.6\u20133.95% transaction fees (effective cost rises with volume). Good for low-donation orgs but not pure flat-rate.\n- **Next Steps**: Visit vendor sites for demos/trials (e.g., LiveImpact emphasizes growth-friendly model). Factor in your donor volume, team size, and needs like events/grants. Most offer nonprofit discounts.\n\nThese are 2026-relevant from current data; confirm latest pricing directly. If you need more on features or comparisons, provide details!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Givebutter",
+    "Little Green Light",
+    "Neon CRM"
+  ],
+  "urls_cited": [
+    "https://grantpipe.com/resources/best/best-nonprofit-crm-under-100-month/",
+    "https://www.liveimpact.org/blog/nonprofit-crm-pricing",
+    "https://bloomerang.com/blog/free-nonprofit-software/"
+  ],
+  "input_tokens": 12,
+  "output_tokens": 980,
+  "estimated_cost_usd": 0.019736,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.liveimpact.org/blog/nonprofit-crm-pricing",
+      "https://grantpipe.com/resources/best/best-nonprofit-crm-under-100-month/",
+      "https://momentivesoftware.com/blog/nonprofit-crm/",
+      "https://givebutter.com/blog/best-free-crm-for-nonprofits",
+      "https://www.engagebay.com/blog/paid-crm-for-nonprofits/",
+      "https://givingtech.org/pricing",
+      "https://bloomerang.com/blog/free-nonprofit-software/",
+      "https://www.g2.com/categories/nonprofit-crm/free",
+      "https://www.donorperfect.com/fundraising-software/pricing-guide/"
+    ]
+  }
+}

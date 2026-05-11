@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P005",
+  "prompt_text": "DonorDock vs Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424920+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Both DonorDock and Bloomerang are popular CRM (Constituent Relationship Management) and fundraising software solutions designed for nonprofits. They aim to help organizations manage donors, track donations, and streamline fundraising efforts, but they come from slightly different philosophies and cater to slightly different needs.\n\nHere's a breakdown to help you compare them:\n\n## DonorDock vs. Bloomerang: A Comprehensive Comparison\n\n| Feature/Aspect         | Bloomerang                                           | DonorDock                                         |\n| :--------------------- | :--------------------------------------------------- | :------------------------------------------------ |\n| **Target Audience**    | Small to mid-sized nonprofits, those focused on donor retention, data-driven decision-making. | Small to mid-sized nonprofits, those prioritizing simplicity, modern design, ease of use, affordability. |\n| **Core Philosophy**    | Donor retention, donor loyalty, data insights to improve engagement. | Simplicity, modern user experience, streamlined fundraising operations. |\n| **Key Strengths**      | Robust donor retention tools (Donor Score, Engagement Meter), strong reporting, mature feature set, excellent email marketing. | Highly intuitive interface, modern online forms, excellent customer support, strong focus on ease of adoption. |\n| **CRM & Donor Profiles** | Comprehensive profiles, rich activity timelines, deep segmentation capabilities. | Clean, user-friendly profiles, good activity tracking, straightforward segmentation. |\n| **Fundraising Tools**  | Online giving forms (customizable), pledges, grant tracking, event management (often via integrations). | Modern, embeddable online giving forms, pledges, basic event management. |\n| **Email Marketing**    | Robust, built-in email marketing with templates, segmentation, and open/click tracking. | Simpler built-in email capabilities, focused on essential communications. |\n| **Reporting & Analytics** | Excellent, highly customizable reports, specific donor retention reports, NPSP-inspired metrics. | Good set of standard reports, clear dashboards, focuses on key fundraising metrics. |\n| **Integrations**       | Strong ecosystem of integrations (QuickBooks, Mailchimp, Qgiv, Fundraise, etc.). | Growing list of integrations, focused on essential tools. |\n| **Ease of Use**        | Generally easy, but with a deeper feature set, it has a slightly steeper learning curve initially. | Very high, designed for quick adoption and minimal training. Modern UI. |\n| **Pricing**            | Tiered pricing based on the number of *constituents* in your database. Can become more expensive as your database grows. | Tiered pricing, often more competitive for smaller databases. |\n| **Scalability**        | Very good for growing organizations up to the mid-size range. Can handle complex data. | Good for small to mid-sized organizations. May reach limits faster than Bloomerang for highly complex needs. |\n| **Customer Support**   | Generally highly rated, responsive.                  | Often receives rave reviews for personalized and quick support. |\n\n---\n\n### Bloomerang Deep Dive\n\n**Pros:**\n*   **Donor Retention Focus:** This is Bloomerang's flagship feature. Its \"Engagement Meter\" and \"Donor Score\" provide actionable insights into donor loyalty and help you identify donors at risk or those with high potential.\n*   **Robust Reporting:** Bloomerang excels in providing detailed, customizable reports that are crucial for understanding your fundraising performance and donor base.\n*   **Integrated Email Marketing:** The built-in email system is powerful, allowing for segmented campaigns, personalized communications, and tracking of engagement.\n*   **Mature Platform:** As a more established",
+  "donordock_mentioned": true,
+  "donordock_position": 5,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 743,
+  "estimated_cost_usd": 0.001859,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.423903+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Implementing a donor CRM (Customer Relationship Management) system with text messaging capabilities can significantly enhance your organization's fundraising efforts and donor engagement. Here\u2019s a breakdown of different aspects to consider when developing or choosing such a system:\n\n### Core Features\n\n1. **Contact Management:**\n   - Store detailed donor profiles, including contact information, donation history, preferences, and communication logs.\n   - Segment donors based on various criteria (e.g., donation amount, frequency, interests).\n\n2. **Communication Tools:**\n   - Integrated text messaging capabilities for sending personalized messages, reminders, and updates.\n   - Email integration for multi-channel communication strategies.\n\n3. **Donation Tracking:**\n   - Record and track all forms of donations, pledges, and recurring gifts.\n   - Provide donors with receipts and acknowledgment messages.\n\n4. **Campaign Management:**\n   - Create, manage, and track fundraising campaigns.\n   - Set goals and monitor progress in real-time.\n\n5. **Automation and Workflows:**\n   - Automate routine tasks such as sending thank-you messages, reminders, and follow-ups.\n   - Set up drip campaigns to keep donors engaged over time.\n\n6. **Reporting and Analytics:**\n   - Generate reports on donor activity, campaign performance, and overall fundraising effectiveness.\n   - Use analytics to identify trends and improve future strategies.\n\n7. **Integration Capabilities:**\n   - Ensure seamless integration with other systems (e.g., email marketing platforms, financial software).\n   - API access for custom integrations and extensions.\n\n8. **Security and Compliance:**\n   - Protect donor data with robust security measures.\n   - Ensure compliance with data protection regulations (e.g., GDPR, CCPA).\n\n### Benefits of Including Text Messaging\n\n- **Higher Engagement:** Text messages typically have higher open rates compared to emails, ensuring more donors see your messages.\n- **Immediate Communication:** Reach donors instantly with time-sensitive information, such as campaign updates or event reminders.\n- **Personal Touch:** Customize messages to enhance donor relationships and make them feel valued.\n\n### Choosing the Right System\n\nWhen selecting a CRM with text messaging capabilities, consider the following:\n\n- **Scalability:** Ensure the system can grow with your organization\u2019s needs.\n- **User-Friendly Interface:** A system that is easy to navigate will encourage consistent use by your team.\n- **Cost:** Evaluate the pricing structure to ensure it fits within your budget while offering the necessary features.\n- **Customer Support:** Opt for a provider with robust customer service to assist with any issues or questions.\n\n### Popular CRM Options\n\nSome popular donor CRMs that include text messaging functionality include:\n\n1. **Bloomerang:** Known for its user-friendly interface and donor retention focus.\n2. **Neon One (Neon CRM):** Offers comprehensive donor management features with integrated communication tools.\n3. **Kindful:** Notable for its integration capabilities and modern interface.\n4. **Givebutter:** Combines fundraising and communication tools, including texting, in one platform.\n5. **Keela:** Focuses on intelligent automation and analytics with multi-channel communication.\n\nBy carefully selecting and implementing a donor CRM with text messaging, you can enhance donor relationships, streamline your fundraising processes, and ultimately, improve the success of your campaigns.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Givebutter",
+    "Keela",
+    "Kindful",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 650,
+  "estimated_cost_usd": 0.006533,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

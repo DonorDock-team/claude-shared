@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P131",
+  "prompt_text": "Neon CRM negative reviews",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423255+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Summary of Negative Reviews for Neon CRM (2026)\n\nNeon CRM, a popular nonprofit CRM for donor management, events, memberships, and fundraising, receives mixed feedback. While some users praise its affordability and breadth, **38-62% of reviews highlight significant drawbacks** across platforms like Capterra, G2, Software Advice, and TrustRadius. Common themes include usability issues, limited features, poor support, and high costs. Below is a categorized breakdown based on verified user reviews from 2025-2026.\n\n#### 1. **Usability and Interface Issues** (Most Frequent Complaint: ~50% of Negative Reviews)\n   - **Clunky, Non-Intuitive Navigation**: Menus are \"convoluted,\" reports are \"difficult and non-intuitive,\" and donor profiles are \"disjointed and messy\" with info spread across tabs (Capterra, G2).\n   - **Outdated Updates**: Improvements feel \"clunky, outdated,\" complicating editing/navigation. \"Next Gen\" features are rushed without full functionality (Capterra 38% negative; G2).\n   - **Overwhelming for Small Teams**: \"Intricate and complex\" backend requires IT knowledge; heavy lift for small orgs without time/expertise (G2, TrustRadius).\n   - **Mobile Limitations**: No reliable app; hard to manage donors on-the-go (Capterra).\n\n#### 2. **Reporting and Customization Shortfalls**\n   - Reports lack flexibility: Hard to access data, no easy filtering, can't link all data to dashboards/charts (Capterra, G2).\n   - Limited creativity: Email templates are \"lacking,\" workflows/reports need more options (G2, Capterra 51% negative on email campaigns).\n   - Donor/Constituent Management: Can't add matched gifts to pledges; company/individual memberships \"don't work as promised\" (Capterra).\n\n#### 3. **Payment and Billing Problems** (62% Negative on Capterra)\n   - No native invoicing or mandatory credit card surcharges; forces 3rd-party tools like Stripe (Capterra, G2).\n   - NeonPay Push: Expensive ($199/month processor fee); users feel \"strong-armed\" into switching from cheaper processors (Capterra).\n   - Payout Delays and High Costs: \"Weren't receiving payouts timely\"; costs doubled, hard cancellations with 3-month fees in \"fine print\" (Capterra).\n   - Auction/Event Integrations: No integration with popular systems; batch imports cause duplicates if emails mismatch (Capterra).\n\n#### 4. **Integrations and Feature Gaps**\n   - Poor event software sync; \"legacy events\" trap users avoiding NeonPay (Capterra).\n   - Volunteer Module: Needs kiosk check-in, name tag printing (G2).\n   - Missing Depth: Lacks donor intelligence, accounting tools vs. specialized software like Blackbaud (Capterra).\n   - Donor Portal: Not user-friendly for average users or developers (G2).\n\n#### 5. **Support and Onboarding**\n   - Limited Customer Service: Pay-for-training even after years; slow chat/email responses requiring screenshots (Capterra, G2).\n   - Data Migration: Import help provided, but setup is DIY; transitions \"not smooth\" (G2).\n   - Fundraising Impact: \"Inconsistent, unreliable\" forms led to $2K shortfall (Software Advice).\n\n#### Ratings Context\n| Platform       | Overall Score | Negative % on Key Issues |\n|----------------|---------------|--------------------------|\n| **Capterra**  | ~4.2/5 (61 reviews) | 38% (updates), 51% (email), 62% (payments) |\n| **G2**        | Positive lean, but detailed cons | N/A (qualitative) |\n| **TrustRadius**| Lower for small/mid nonprofits | \"Difficult without IT, too costly\" |\n| **Software Advice** | Mixed | Fundraising \"cumbersome\" |\n\n**Evidence Sources**: Direct quotes/excerpts from [Capterra Reviews](https://www.capterra.com/p/102088/NeonCRM/reviews/), [Capterra Overview](https://www.capterra.com/p/102088/NeonCRM/), [G2 Reviews](https://www.g2.com/products/neon-one-llc-neon-crm/reviews), [Software Advice](https://www.softwareadvice.com/nonprofit/neoncrm-profile/reviews/), [TrustRadius](https://www.trustradius.com/products/neon-crm/reviews). Reviews span small nonprofits (2-10 employees), emphasizing it's a \"jack-of-all-trades\" but lacks depth for specialized needs.\n\nNeon CRM suits budget-conscious small orgs willing to invest setup time, but growing teams often report frustration scaling it. Alternatives like Blackbaud are suggested for advanced features.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Neon CRM"
+  ],
+  "urls_cited": [
+    "https://www.softwareadvice.com/nonprofit/neoncrm-profile/reviews/",
+    "https://www.capterra.com/p/102088/NeonCRM/",
+    "https://www.capterra.com/p/102088/NeonCRM/reviews/",
+    "https://www.g2.com/products/neon-one-llc-neon-crm/reviews",
+    "https://www.trustradius.com/products/neon-crm/reviews"
+  ],
+  "input_tokens": 6,
+  "output_tokens": 1033,
+  "estimated_cost_usd": 0.020513,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.capterra.com/p/102088/NeonCRM/reviews/",
+      "https://www.capterra.com/p/102088/NeonCRM/",
+      "https://www.g2.com/products/neon-one-llc-neon-crm/reviews",
+      "https://www.softwareadvice.com/nonprofit/neoncrm-profile/reviews/",
+      "https://www.trustradius.com/products/neon-crm/reviews",
+      "https://www.softwareadvice.com/nonprofit/neoncrm-profile/"
+    ]
+  }
+}

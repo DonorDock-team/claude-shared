@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424562+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding truly \"free\" alternatives to a comprehensive platform like Salesforce Nonprofit Cloud, which offers CRM, donor management, fundraising, marketing automation, program management, and more, is challenging. \"Free\" often comes with trade-offs:\n\n1.  **Limited Features:** Free tiers might lack advanced functionality, scalability, or integrations.\n2.  **Self-Hosting/Technical Skills:** Open-source solutions are free to use but require technical expertise for setup, hosting, and maintenance.\n3.  **Time Investment:** Building and integrating multiple free tools can be very time-consuming.\n4.  **Hidden Costs:** Transaction fees for donations, paid add-ons, or eventual upgrades as your needs grow.\n\nHowever, many excellent options can significantly reduce costs, especially for smaller nonprofits. Here's a breakdown of free and very low-cost alternatives, categorized by approach:\n\n---\n\n## 1. Dedicated Open-Source Non-Profit CRMs (Requires Technical Setup)\n\nThese are free to use but require a hosting environment (e.g., WordPress, Drupal, Joomla) and some technical knowledge or a developer.\n\n*   **CiviCRM**\n    *   **What it is:** The most prominent open-source CRM specifically designed for nonprofits, associations, and advocacy groups. It's incredibly comprehensive, covering contact management, fundraising, event management, memberships, case management, peer-to-peer fundraising, and more.\n    *   **Pros:**\n        *   **Feature-rich:** Comparable in breadth to Salesforce for many nonprofit functions.\n        *   **No licensing fees:** Truly free software.\n        *   **Highly customizable:** Can be tailored to specific needs.\n        *   **Active community:** Large user and developer community for support.\n    *   **Cons:**\n        *   **Steep learning curve:** Can be complex to set up and manage without technical expertise.\n        *   **Requires hosting:** Needs to be installed on a web server (often integrated with WordPress, Drupal, or Joomla), incurring hosting costs.\n        *   **User interface can feel dated:** Not as modern or intuitive as some newer cloud solutions.\n    *   **Best for:** Nonprofits with some technical capacity (staff or volunteer) or a budget for a developer to set it up and maintain it.\n\n*   **SuiteCRM**\n    *   **What it is:** A powerful open-source CRM that is a fork of SugarCRM Community Edition. While not exclusively for nonprofits, its flexibility allows it to be adapted for donor management, fundraising, and program tracking.\n    *   **Pros:**\n        *   **Comprehensive CRM:** Covers sales, marketing, customer service, and includes custom modules.\n        *   **Free and open-source:** No licensing costs.\n",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 578,
+  "estimated_cost_usd": 0.001447,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

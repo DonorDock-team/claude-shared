@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P077",
+  "prompt_text": "How to track major donor moves management",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423281+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking major donor moves management is crucial for effective fundraising, ensuring no prospect or donor \"falls through the cracks,\" and maximizing philanthropic potential. It's a systematic approach to cultivating relationships that lead to significant gifts.\n\nHere's how to track major donor moves management:\n\n## 1. Understand \"Moves Management\"\n\nBefore tracking, understand the concept. Moves management is a systematic process of identifying, qualifying, cultivating, soliciting, and stewarding major gift prospects and donors. Each \"move\" is an interaction designed to bring the donor closer to making a gift and deepening their relationship with your organization.\n\n**The Five Stages:**\n\n1.  **Identification:** Finding potential major donors.\n2.  **Qualification:** Assessing a prospect's capacity (ability to give) and inclination (willingness to give).\n3.  **Cultivation:** Building a relationship and educating the prospect about your organization's mission and impact.\n4.  **Solicitation:** Asking for a specific gift for a specific purpose.\n5.  **Stewardship:** Thanking the donor, reporting on impact, and maintaining the relationship for future engagement.\n\n## 2. Choose the Right Tools\n\nThe foundation of effective tracking is a robust system.\n\n*   **Donor Relationship Management (DRM) or CRM System (Highly Recommended):** This is the gold standard. Systems like Salesforce (with Nonprofit Cloud), Blackbaud (Raiser's Edge NXT, eTapestry), DonorPerfect, Bloomerang, Virtuous, and Little Green Light are designed for this purpose.\n    *   **Benefits:** Centralized data, comprehensive donor profiles, activity logging, pipeline management, reporting, automation, team collaboration.\n*   **Spreadsheets (for very small operations, with caution):** While possible for a handful of donors, spreadsheets quickly become unwieldy, lack automation, don't easily support team collaboration, and are prone to errors and data silos. If you must use one, structure it meticulously.\n*   **Project Management Software (Less Common for Donor Tracking):** Tools like Asana, Trello, or Monday.com *could* be adapted for tasks related to donor moves, but they lack the donor-specific fields and reporting capabilities of a dedicated DRM/CRM.\n\n## 3. Key Data Points to Track in Your System\n\nRegardless of the tool, consistent data entry is vital. Here's what you should track for each major donor/prospect:\n\n### A. Donor/Prospect Profile:\n\n*   **Basic Contact Information:** Name, address, phone, email, preferred communication method.\n*   **Demographics:** Age, family, marital status (if relevant and available).\n*   **Employer & Professional Information:** Company, title, board affiliations.\n*   **Giving History:** All past gifts (amounts, dates, designations, type of gift).\n*   **Wealth Indicators:** Capacity rating (e.g., $10K-$25K, $100K-$250K, $1M+), wealth screening data (real estate, stock, business ownership).\n*   **Interests & Affiliations:** Programs/causes they care about, past volunteer roles, committee service, connection to staff/board.\n*   **Source of Prospect:** How they were identified.\n*   **Relationship Manager (RM):** The staff member responsible for cultivating this donor.\n\n### B. Moves Management Data:\n\n*   **Current Pipeline Stage:** (Identification, Qualification, Cultivation, Solicitation, Stewardship). This is critical for pipeline reporting.\n*   **Last Contact Date:** When was the last meaningful interaction?\n*   **Type of Interaction (\"Move\"):**\n    *   Call (phone, video)\n    *   Email\n    *   Meeting (in-person, virtual)\n    *   Event Invitation/Attendance\n    *   Site Visit\n    *   Informational Mailing",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Virtuous",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 814,
+  "estimated_cost_usd": 0.002037,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}
