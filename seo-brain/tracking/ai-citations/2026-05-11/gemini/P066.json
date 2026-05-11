@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P066",
+  "prompt_text": "Donor CRM with campaign and appeal tracking",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424552+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A Donor CRM (Constituent Relationship Management) with robust campaign and appeal tracking capabilities is essential for nonprofits to effectively manage their fundraising efforts, understand donor behavior, and optimize their giving strategies.\n\nHere's a breakdown of what this entails:\n\n## What is a Donor CRM?\n\nAt its core, a Donor CRM is a specialized software system designed to store, organize, and manage all interactions and information related to an organization's donors, prospects, volunteers, and other constituents.\n\n**Key Donor CRM functionalities typically include:**\n\n*   **Constituent Profiles:** Comprehensive records for each individual/organization, including contact info, demographics, relationships, communication preferences, and giving history.\n*   **Donation Processing:** Recording gifts (online, offline, recurring, pledges), managing payment methods, generating receipts.\n*   **Interaction Tracking:** Logging every touchpoint \u2013 phone calls, emails, meetings, social media interactions.\n*   **Reporting & Analytics:** Generating insights into donor retention, acquisition, giving trends, and overall fundraising performance.\n*   **Segmentation:** Grouping constituents based on specific criteria (giving level, interests, location, engagement).\n\n## Campaign and Appeal Tracking Explained\n\nThis is where a good Donor CRM truly empowers fundraising teams.\n\n### 1. Campaign Tracking\n\nA **Campaign** is a broad, overarching fundraising effort with a specific goal, timeframe, and often a budget. It's the big picture strategy.\n\n**Examples of Campaigns:**\n*   Annual Fund Campaign\n*   Year-End Giving Campaign\n*   Capital Campaign for a new building\n*   Monthly Giving Program Enrollment Campaign\n*   Emergency Relief Campaign\n\n**How a CRM tracks Campaigns:**\n*   **Campaign Setup:** Define campaign name, overall goal (financial, donor count), start/end dates, budget, and responsible team members.\n*   **Linking Appeals:** Crucially, a CRM allows you to link multiple \"Appeals\" (see below) to a single campaign.\n*   **Roll-Up Reporting:** The CRM aggregates data from all associated appeals to show the overall progress of the campaign towards its goal. You can see total funds raised, total donors, and ROI for the entire campaign.\n*   **Performance Metrics:** Tracks campaign success metrics like cost per dollar raised, total revenue, donor acquisition, and retention rates.\n\n### 2. Appeal Tracking\n\nAn **Appeal** is a specific outreach effort or tactic used within a campaign to solicit donations from a particular segment of constituents. Appeals are the individual actions taken to achieve the campaign's goal.\n\n**Examples of Appeals (within an \"Annual Fund Campaign\"):**\n*   Direct Mail Letter (e.g., \"Spring Newsletter Appeal\")\n*   Email Blast (e.g., \"May Matching Gift Email\")\n*   Social Media Post (e.g., \"Giving Tuesday Facebook Post\")\n*   Phone-a-thon Script (e.g., \"Lapsed Donor Call Script\")\n*   Specific Web Donation Form (e.g., \"Website Homepage Banner Appeal\")\n\n**How a CRM tracks Appeals:**\n*   **Appeal Setup:** Define appeal name, link to a specific campaign, target audience segment, communication channel (email, direct mail, social, phone), specific ask amount/purpose, and start/end dates.\n*   **Source Codes/Tracking Codes:** Each appeal is assigned a unique code (e.g., \"ANN",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 704,
+  "estimated_cost_usd": 0.001762,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

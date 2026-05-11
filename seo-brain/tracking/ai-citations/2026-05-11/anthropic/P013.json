@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P013",
+  "prompt_text": "DonorDock vs Little Green Light",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.424582+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Little Green Light\n\nBoth are donor management/CRM systems for nonprofits, but they have different strengths:\n\n## **DonorDock**\n\n**Best for:** Small to mid-sized nonprofits wanting modern, user-friendly software\n\n**Strengths:**\n- Modern, intuitive interface\n- Excellent customer support\n- Unlimited users on all plans\n- Good mobile app\n- Strong relationship tracking\n- Easy to learn and implement\n- Transparent pricing\n\n**Limitations:**\n- Fewer advanced features than competitors\n- Limited reporting customization\n- Smaller integration ecosystem\n- Newer product (less established)\n\n**Pricing:** ~$99-199/month (flat rate, unlimited users)\n\n---\n\n## **Little Green Light**\n\n**Best for:** Nonprofits needing robust reporting and customization\n\n**Strengths:**\n- Highly customizable fields and workflows\n- Powerful reporting capabilities\n- Strong grant tracking\n- Household management features\n- Email marketing included\n- Established product (since 2001)\n- More comprehensive feature set\n\n**Limitations:**\n- Older, less intuitive interface\n- Steeper learning curve\n- Per-user pricing can get expensive\n- Not as mobile-friendly\n\n**Pricing:** ~$59/month (1 user) + $39/user for additional users\n\n---\n\n## **Which to Choose?**\n\n**Choose DonorDock if:**\n- You want easy-to-use software with quick implementation\n- You have multiple team members needing access\n- User experience is a priority\n\n**Choose Little Green Light if:**\n- You need extensive customization\n- Complex reporting is critical\n- You have fewer users (cost-effective for small teams)\n\nBoth offer free trials\u2014I'd recommend testing each with your specific workflows.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 405,
+  "estimated_cost_usd": 0.006123,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

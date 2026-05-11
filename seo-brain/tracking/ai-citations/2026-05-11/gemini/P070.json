@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.421695+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Automating donor thank you letters is a highly effective way to save time, ensure timeliness, and maintain consistency in your donor communications. However, it's crucial to strike a balance between automation and personalization. Donors appreciate efficiency, but they also want to feel individually appreciated.\n\nHere's a step-by-step guide to automating donor thank you letters, keeping personalization in mind:\n\n## The Core Principle: Efficiency + Personalization\n\nAutomation handles the repetitive tasks, freeing you to focus on adding personalized touches where it matters most.\n\n## Essential Tools & Components:\n\n1.  **Donor Management System (DMS) / CRM (Constituent Relationship Management):** This is the heart of your automation.\n    *   **Examples:** Salesforce NPSP, Blackbaud Raiser's Edge, DonorPerfect, Little Green Light, Bloomerang, NeonCRM, Virtuous, Kindful.\n    *   **Key Features Needed:**\n        *   Ability to store donor contact information (name, address, email).\n        *   Ability to store donation details (amount, date, fund, campaign, type of donation).\n        *   Merge field functionality for letters/emails.\n        *   Reporting and segmentation capabilities.\n        *   Automation triggers or batch processing.\n2.  **Letter/Email Templates:** Pre-written thank you messages with placeholders for donor-specific information.\n3.  **Merge Fields (Placeholders):** Special tags in your templates that pull data directly from your CRM (e.g., `<<DonorFirstName>>`, `<<DonationAmount>>`, `<<DonationDate>>`).\n4.  **Printer & Mail Supplies (for physical letters) / Email Service (for digital letters):**\n    *   Your CRM often has integrated email capabilities.\n    *   For physical letters, you'll need envelopes, stamps, and a reliable printer.\n\n## Step-by-Step Automation Process:\n\n### 1. Choose & Set Up Your CRM/DMS\n\n*   **Data Entry:** Ensure all donor contact information and donation details are accurately entered and maintained in your system. This is paramount for successful automation.\n*   **Fund/Campaign Tracking:** Make sure you're properly tagging donations to specific funds or campaigns, as this can allow for more tailored thank you messages.\n\n### 2. Design Your Thank You Letter/Email Templates\n\n*   **Create Multiple Templates:** Don't use one generic template for everyone. Consider templates for:\n    *   First-time donors\n    *   Recurring donors (monthly givers)\n    *   Major donors\n    *   Specific campaigns or events\n    *   In-kind donations\n    *   Tribute/memorial gifts\n*   **Key Template Elements:**\n    *   **Your Organization's Logo & Contact Info:** Professional branding.\n    *   **Date:** Can be an automated merge field.\n    *   **Salutation:** `Dear <<DonorFirstName>>`, `Dear <<DonorFullName>>`, or `Dear <<CompanyOrOrganizationName>>`.\n    *   **Personalized Opening:** Reference the specific donation: \"Thank you for your generous gift of <<DonationAmount>> received on <<DonationDate>>.\"\n    *   **Impact Statement:** This is where you connect their gift to your mission. \"Your support helps us <<achieve specific outcome>>.\" *This often needs to be manually edited or chosen from a few options.*\n    *   **Tax Receipt Language:** If applicable, include required tax-deductible language.\n",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce NPSP",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 737,
+  "estimated_cost_usd": 0.001845,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

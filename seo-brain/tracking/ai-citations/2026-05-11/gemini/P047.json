@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P047",
+  "prompt_text": "Best donor CRM for community foundations",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424360+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a community foundation involves a unique set of requirements that go beyond standard nonprofit fundraising. Community foundations (CFs) need systems that can manage complex fund structures, track multiple types of relationships (donors, fundholders, grantees, professional advisors), facilitate grantmaking, and integrate with financial accounting systems.\n\nHere are the top contenders and key considerations, broken down by suitability:\n\n### Top Contenders for Community Foundations\n\n**1. Blackbaud FIMS (Foundations Information Management System)**\n*   **Why it's a Top Pick:** FIMS is specifically designed for foundations. It excels at fund accounting, grantmaking, and tracking the intricate details of various fund types (donor-advised, designated, unrestricted, field of interest, endowments, etc.). It manages spendable income calculations, investment pool allocations, and offers robust reporting tailored to foundation operations.\n*   **Pros:**\n    *   Purpose-built for foundations.\n    *   Strong fund accounting and grantmaking modules.\n    *   Handles complex investment and spending policies.\n    *   Comprehensive reporting for compliance and operations.\n    *   Integrates with other Blackbaud products (like Raiser's Edge NXT for broader fundraising, or Financial Edge NXT for accounting).\n*   **Cons:**\n    *   Can be expensive, especially for smaller CFs.\n    *   User interface can feel a bit dated compared to newer cloud-native solutions.\n    *   Learning curve can be steep.\n    *   While",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 314,
+  "estimated_cost_usd": 0.000787,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

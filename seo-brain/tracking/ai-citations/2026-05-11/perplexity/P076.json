@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P076",
+  "prompt_text": "How to improve donor retention",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423052+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Why Donor Retention Matters\nDonor retention is crucial for nonprofits, as loyal donors give more over time, support special campaigns, and are cheaper to retain than acquire new ones. A healthy retention rate is around or above 40%. Strategies from expert sources like Bloomerang, OneCause, Donorly, Double the Donation, and others focus on gratitude, personalization, engagement, and convenience.\n\n### Top Strategies to Improve Donor Retention\nHere are proven, actionable tactics grouped by theme, drawn directly from the search results:\n\n#### 1. **Express Gratitude Quickly and Personally**\n   - Send thank-you emails within 24 hours of a gift (Bloomerang [1]).\n   - Use phone calls, handwritten notes, or short thank-you videos (15-30 seconds) for loyal donors (Double the Donation [4]).\n   - Personalize with the donor's preferred name and specific impact details, e.g., \"Your $50 fed 10 families\" (Double the Donation [4]).\n\n#### 2. **Share Impact Stories and Outcomes**\n   - Report tangible results, like \"Your support built 5 wells for 200 families,\" using personal beneficiary anecdotes (Bloomerang [1], Double the Donation [4], OneCause [2]).\n   - Send regular updates via a dedicated retention email stream with impact stories, event invites, and constituent news (OneCause [2]).\n\n#### 3. **Offer Convenient Giving Options**\n   - Promote recurring gifts (monthly/annual) with easy opt-in checkboxes, suggested low amounts (e.g., $25/month vs. $300 one-time), and perks like exclusive event access or merchandise (Donorly [3], Double the Donation [4]).\n   - Provide multiple payment methods (credit/debit, ACH, PayPal, Apple Pay) and non-cash options like stock/real estate donations or matching gifts (Double the Donation [4]).\n\n#### 4. **Segment and Personalize Communications**\n   - Use donor data or AI to segment by giving history, engagement, or cohorts; target at-risk donors (lapsed or low-engagement) with tailored outreach (OneCause [2], Sopact [5], CCS Fundraising [8]).\n   - Create trigger-based playbooks: Respond to skipped installments within 72 hours; survey for feedback on campaigns (Bloomerang [1], Sopact [5]).\n\n#### 5. **Boost Engagement Beyond Donations**\n   - Invite to volunteer, peer-to-peer fundraising, advocacy (e.g., social media shares, petitions), events, or VIP/membership programs (OneCause [2], AFP Global [7], DonorPerfect [6]).\n   - Build community for major donors via giving societies, exclusive briefings, or leadership councils (DonorPerfect [6]).\n\n#### 6. **Leverage Data and AI for Proactive Retention**\n   - Identify at-risk donors monthly with AI, then engage via calls/updates; track churn KPIs (OneCause [2]).\n   - Use multichannel outreach (email, phone, events) with consistent messaging; segment past event participants for repeats (OneCause [2]).\n\n#### 7. **Measure and Iterate**\n   - Calculate retention rate: (Donors who gave this year who also gave last year) / Total last year's donors \u00d7 100 (Donorly [3]).\n   - Set measurable goals, assess progress regularly, and test against a 10-15% holdout group (Sopact [5], CCS Fundraising [8], NextAfter [10]).\n\n| Strategy | Key Sources | Expected Impact |\n|----------|-------------|-----------------|\n| Quick Thanks | [1], [4] | Builds immediate loyalty |\n| Recurring Gifts | [3], [4] | Increases lifetime value |\n| Impact Stories | [1], [2], [4] | Boosts emotional connection |\n| Segmentation/AI | [2], [5] | Reduces churn by 10-15%+ |\n| Engagement Invites | [2], [6], [7] | Turns donors into advocates |\n\nImplement these in a structured plan: Start with data audit and segmentation, automate thank-yous/recurrings, then layer on engagement. Track results quarterly to refine. For tools, consider donor databases for personalization and AI for predictions (implied in [2], [5]).",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 908,
+  "estimated_cost_usd": 0.018638,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://bloomerang.com/blog/donor-retention/",
+      "https://www.onecause.com/blog/donor-retention/",
+      "https://donorly.com/thedonorlyblog/donor-retention",
+      "https://doublethedonation.com/donor-retention/",
+      "https://www.sopact.com/use-case/donor-retention",
+      "https://www.donorperfect.com/nonprofit-technology-blog/fundraising-software/major-donor-retention-tools-how-to-build-relationships-that-last-a-lifetime/",
+      "https://afpglobal.org/donor-retention-how-sustain-relationships-year-after-year",
+      "https://www.ccsfundraising.com/insights/donor-acquisition-and-retention-strategies/",
+      "https://www.blackbaud.com/industry-insights/glossary/donor-retention",
+      "https://www.nextafter.com/blog/donor-retention/"
+    ]
+  }
+}

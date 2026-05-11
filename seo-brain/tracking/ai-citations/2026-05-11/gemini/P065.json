@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P065",
+  "prompt_text": "Donor CRM with pledge tracking",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424365+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A **Donor CRM with pledge tracking** is a specialized customer relationship management system designed specifically for non-profit organizations to manage their donor base, track interactions, and most importantly, record and manage financial commitments known as pledges.\n\nPledges are promises by donors to contribute a specific amount of money over a set period, often in installments. Effective pledge tracking is crucial for predictable revenue, accurate financial forecasting, and maintaining strong donor relationships.\n\nHere's a breakdown of the key features and functionalities you'd expect in such a system:\n\n---\n\n### Core Donor CRM Features (Foundation)\n\nBefore diving into pledge specifics, a good donor CRM will have these foundational capabilities:\n\n1.  **Contact & Household Management:**\n    *   Comprehensive donor profiles (names, addresses, phone, email, preferences).\n    *   Relationship tracking (spouses, family, employers, board affiliations).\n    *   Custom fields to capture specific donor data relevant to your organization.\n    *   Household grouping for unified communications and giving summaries.\n\n2.  **Donation History & Tracking:**\n    *   Record all types of donations (one-time, recurring, in-kind, grants).\n    *   Link donations to campaigns, funds, appeals, and specific projects.\n    *   Gift acknowledgment and receipt generation (automated and manual).\n    *   Soft credit tracking (e.g., recognizing an individual for a corporate gift).\n\n3.  **Communication & Engagement:**\n    *   Log all interactions (calls, emails, meetings, notes).\n    *   Mass email and direct mail capabilities for campaigns and newsletters.\n    *   Segmentation tools to target specific donor groups.\n    *   Donor communication preferences management.\n\n4.  **Reporting & Analytics:**\n    *   Customizable dashboards for real-time insights (e.g., total raised, donor retention).\n    *   Standard and custom reports (e.g., donor lists, giving by campaign, lapsed donors).\n    *   Export data for further analysis.\n\n5.  **User Management & Security:**\n    *   Role-based permissions to control data access.\n    *   Data privacy and security compliance (e.g., GDPR, PCI).\n\n6.  **Integrations:**\n    *   Payment gateways (e.g., Stripe, PayPal) for online donations.\n    *   Accounting software (e.g., QuickBooks, Xero).\n    *   Email marketing platforms (e.g., Mailchimp, Constant Contact).\n    *   Event management tools.\n\n---\n\n### Specific Pledge Tracking Features\n\nThis is where the CRM truly shines for pledge management:\n\n1.  **Pledge Creation & Customization",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 562,
+  "estimated_cost_usd": 0.001406,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.423037+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking soft credits in a donor CRM (Customer Relationship Management) system is essential for acknowledging individuals or organizations that influence or facilitate donations, even if they aren't the direct source of the funds. Here's a general approach to tracking soft credits effectively:\n\n1. **Understand Soft Credits**: Soft credits are acknowledgments given to entities that help bring in a donation but aren't the actual donor of record. This could include board members, volunteers, or donors who influence others to give.\n\n2. **Choose the Right CRM**: Ensure that your CRM system supports soft credit tracking. Popular nonprofit CRMs such as Salesforce Nonprofit Success Pack, Bloomerang, and NeonCRM have this functionality.\n\n3. **Define Policies and Guidelines**: Clearly outline what qualifies as a soft credit within your organization. Consistency is crucial, so everyone must have the same understanding of what actions lead to a soft credit.\n\n4. **Set Up Soft Credit Tracking**: In your CRM, set up soft credit tracking by:\n   - Configuring contact or account records to include soft credit fields or relationships.\n   - Creating a standard process or workflow for assigning soft credits to ensure accuracy and consistency.\n\n5. **Recording Soft Credits**:\n   - When entering a donation, identify any individuals or entities responsible for influencing that donation.\n   - Use dedicated fields or relationship links in the donation record to attribute soft credits to these parties.\n\n6. **Use Custom Tags or Fields**: If your CRM allows it, set up custom tags or fields specifically for soft credits. This might include checkboxes or dropdown menus to specify the type of influence (e.g., referral, matching funds).\n\n7. **Automate Process**: Utilize CRM automation tools to streamline the process. Create workflows or trigger rules that automatically assign soft credits when certain conditions are met, reducing the chance of manual entry errors.\n\n8. **Generate Reports and Acknowledgments**:\n   - Create reports that detail soft credits, helping you understand the impact of these influencers on your fundraising.\n   - Use CRM capabilities to generate automated acknowledgment letters or emails to express gratitude to both direct donors and those who contributed through soft credits.\n\n9. **Regular Training and Updates**: Provide regular training sessions for your team on tracking and managing soft credits. Keep your policies and procedures updated to reflect any changes in your CRM system or organizational strategy.\n\n10. **Analyze and Optimize**:\n   - Regularly review soft credit data to identify trends or key influencers.\n   - Use this information to strengthen relationships with those who regularly garner soft credits, potentially turning them into even more effective advocates for your organization.\n\nBy effectively managing soft credits, you can enhance donor relations and leverage the full network of your supporters to boost your fundraising efforts.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 545,
+  "estimated_cost_usd": 0.005488,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

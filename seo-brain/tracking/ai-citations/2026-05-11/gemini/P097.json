@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P097",
+  "prompt_text": "Hidden costs of Network for Good",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423651+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Network for Good (NfG) is a popular fundraising platform for nonprofits, known for its all-in-one approach to donor management, online fundraising, email marketing, and peer-to-peer campaigns. While its direct pricing can seem competitive, there are several \"hidden\" or less obvious costs that nonprofits should consider when evaluating the platform:\n\n1.  **Payment Processing Fees (The \"True\" Transaction Cost):**\n    *   While NfG has its own platform fees (often a monthly or annual subscription), there are separate *payment processor fees* (e.g., from WePay/Chase, their integrated processor). These are typically a percentage + a fixed fee per transaction (e.g., 2.2% + $0.30).\n    *   **Hidden Aspect:** Many nonprofits focus on NfG's published platform fee and underestimate the cumulative impact of these processing fees, especially as donation volume grows. If not carefully itemized and communicated, they can feel like an additional layer of unexpected cost. Chargeback fees can also be substantial.\n\n2.  **Staff Time & Operational Overhead:**\n    *   **Onboarding & Training:** Even with good support, getting staff up to speed, migrating initial data, and setting up campaigns takes significant staff time.\n    *   **Ongoing Data Management:** Keeping donor records clean, updating contact information, and managing segments requires continuous staff effort.\n    *   **Reporting & Analysis:** While NfG offers reporting, pulling specific data, cross-referencing, and analyzing it to inform strategy still consumes staff time.\n    *   **Manual Workarounds:** If NfG lacks a specific feature your organization needs, staff may spend time manually exporting data, importing it elsewhere, or creating workarounds, which is inefficient.\n    *   **Hidden Aspect:** These are internal resource costs that don't appear on",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 386,
+  "estimated_cost_usd": 0.000967,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

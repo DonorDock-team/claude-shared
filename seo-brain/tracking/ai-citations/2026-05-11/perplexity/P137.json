@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P137",
+  "prompt_text": "Little Green Light limitations",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424338+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Key Limitations of Little Green Light (LGL)\n\nLittle Green Light is a donor management CRM primarily for small to mid-sized nonprofits. Based on official documentation and reviews, here are its main limitations, categorized for clarity:\n\n#### Email Sending Limits\nLGL imposes strict metering to maintain sender reputation:\n- **Free evaluation/trial period**: Email disabled for first 3 days (contact support to enable); then **100 emails/day** for the remainder.\n- **Subscribed but unpaid accounts**: **250 emails/day**.\n- **Newly activated paid customers**: **250 emails/day** initially, until reputation is established.\n- **Paid subscribers in good standing**:\n  | Monthly Contact Limit | Daily Limit (approx.) |\n  |-----------------------|-----------------------|\n  | Up to 2,500           | Not specified beyond monthly |\n  | 5,000                 | Varies by reputation |\n  | 10,000+               | Up to 2x monthly tier |\n- Exceeding limits blocks sending until the next cycle. Stats (clicks, unsubscribes) update constituent status and are viewable in *Mailings > Emails > Usage* tab.\n- **Prohibition**: No spam, unsolicited emails, or high-bandwidth abuse; violations lead to account suspension.\n\n(Source: [1] LGL Help Article on Email Limits)\n\n#### Scalability and Feature Depth\n- **Best for small/mid-sized orgs**: Supports up to **200,000 constituent records**, but larger nonprofits with complex workflows (e.g., multiple departments, intricate grant management) may outgrow it.\n- **\"Jack of all trades\" issue**: All-in-one convenience lacks depth in specialized areas:\n  - Basic email automation (not as advanced as ActiveCampaign).\n  - Minimal online donation processing via LGL Forms (not a full fundraising competitor).\n- Forms have blunt limits: e.g., total submissions or per-item inventory (like tickets), but no recurring gifts if using multiple amount fields for inventory.\n\n(Sources: [2] DesignbyCosmic Review; [4] Pricing Page; [5],[7] LGL Forms Help)\n\n#### Account and Service Restrictions\n- **Geographic**: Not available to organizations in the **EU, UK, or Switzerland**.\n- **Terms of Service**:\n  - \"As-is\" service: No guarantees on uptime, security, accuracy, or error fixes.\n  - LGL can **suspend/terminate accounts anytime** for any reason (e.g., abuse, high bandwidth, violations).\n  - Right to modify/discontinue service (30 days' notice; data archived within 60 days).\n  - No reselling, modifying, or exploiting the service.\n  - Technical support only for paid subscribers.\n- **No liability** for data loss, revenue impacts, or indirect damages.\n\n(Source: [3] Terms of Service)\n\n#### Other Noted Constraints\n- **AI/Technical quirks**: Some external AI summaries (e.g., Google) provide inaccurate info, like claiming imports can't be deleted (they can, if most recent).\n- **User reviews**: Pros/cons from G2 and Software Advice highlight similar scalability and feature limits, though specifics vary.\n\n(Sources: [6] LGL Blog; [8],[9] Review Sites; [10] Comparison)\n\nFor workarounds (e.g., integrating external email tools), check LGL's help docs or contact support. These limits ensure compliance and reliability but may require supplements for high-volume needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 712,
+  "estimated_cost_usd": 0.015695,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://help.littlegreenlight.com/article/461-limits-on-sending-email-directly-from-little-green-light",
+      "https://designbycosmic.com/guides/nonprofit-branding/little-green-light/",
+      "https://www.littlegreenlight.com/terms/",
+      "https://www.littlegreenlight.com/pricing/",
+      "https://help.littlegreenlight.com/article/442-limit-how-many-submissions-youll-accept-on-a-form",
+      "https://www.littlegreenlight.com/blog/ai/",
+      "https://help.littlegreenlight.com/article/441-set-limits-on-the-number-of-tickets-you-will-sell",
+      "https://www.g2.com/products/little-green-light/reviews?qs=pros-and-cons",
+      "https://www.softwareadvice.com/nonprofit/little-green-light-profile/reviews/",
+      "https://4agoodcause.com/givebutter-vs-little-green-light/"
+    ]
+  }
+}

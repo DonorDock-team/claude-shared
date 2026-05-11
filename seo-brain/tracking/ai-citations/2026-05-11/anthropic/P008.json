@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P008",
+  "prompt_text": "DonorDock vs Neon CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.423668+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Neon CRM Comparison\n\n## **DonorDock**\n\n### Best For\n- Small nonprofits and startups\n- Organizations wanting simple, intuitive donor management\n- Teams prioritizing ease of use over advanced features\n\n### Key Strengths\n- **Simplicity**: Very user-friendly interface, minimal learning curve\n- **Relationship-focused**: Emphasizes donor relationships and engagement tracking\n- **Affordable**: Lower price point for smaller organizations\n- **Quick setup**: Can be operational quickly\n- **Clean design**: Modern, uncluttered interface\n\n### Limitations\n- Fewer advanced features than enterprise solutions\n- More limited reporting capabilities\n- Smaller integration ecosystem\n- Better suited for organizations under 1,000 donors\n\n---\n\n## **Neon CRM**\n\n### Best For\n- Small to mid-sized nonprofits\n- Organizations needing comprehensive all-in-one solution\n- Groups wanting integrated fundraising, events, and membership management\n\n### Key Strengths\n- **Feature-rich**: Comprehensive donor management, event registration, membership tracking, email marketing\n- **Robust reporting**: Extensive customizable reports and dashboards\n- **Fundraising tools**: Built-in online donation forms, peer-to-peer fundraising, event management\n- **Scalability**: Can grow with mid-sized organizations\n- **Integration options**: More third-party integrations available\n\n### Limitations\n- Steeper learning curve\n- Can feel overwhelming for very small teams\n- Higher price point\n- Some users report interface feels dated\n\n---\n\n## **Quick Comparison**\n\n| Feature | DonorDock | Neon CRM |\n|---------|-----------|----------|\n| **Ease of Use** | \u2b50\u2b50\u2b50\u2b50\u2b50 | \u2b50\u2b50\u2b50 |\n| **Features** | \u2b50\u2b50\u2b50 | \u2b50\u2b50\u2b50\u2b50\u2b50 |\n| **Reporting** | \u2b50\u2b50\u2b50 | \u2b50\u2b50\u2b50\u2b50 |\n| **Price** | Lower | Moderate |\n| **Best Organization Size** | <1,000 donors | 500-10,000 donors |\n\n## **Bottom Line**\n\nChoose **DonorDock** if you value simplicity, have a smaller donor base, and want to get started quickly without complexity.\n\nChoose **Neon CRM** if you need comprehensive features, advanced reporting, integrated fundraising tools, and room to scale.\n\nWould you like more details about pricing or specific features?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 600,
+  "estimated_cost_usd": 0.009054,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

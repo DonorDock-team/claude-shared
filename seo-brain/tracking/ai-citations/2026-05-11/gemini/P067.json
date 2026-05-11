@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424720+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor relationships effectively across a team is crucial for maximizing fundraising efforts, ensuring consistent messaging, and building stronger, more personalized connections. The key is a combination of the right tools, clear processes, and a collaborative team culture.\n\nHere's a comprehensive guide:\n\n---\n\n## The Cornerstone: A Centralized CRM System\n\nThe absolute must-have for tracking donor relationships across a team is a **Constituent Relationship Management (CRM) system** designed for nonprofits.\n\n**Why a CRM is essential:**\n1.  **Centralized Database:** All donor information, interactions, and history are in one place, accessible to the whole team (with appropriate permissions).\n2.  **Historical Record:** Provides a complete timeline of engagement, gifts, and communications.\n3.  **Collaboration:** Allows multiple team members to view, update, and contribute to a donor's record.\n4.  **Segmentation & Personalization:** Enables tailoring communications based on interests, giving history, and relationship stage.\n5.  **Reporting & Analytics:** Track fundraising performance, identify trends, and evaluate strategies.\n6.  **Task Management:** Assign and track follow-up tasks to specific team members.\n\n**What to look for in a Nonprofit CRM:**\n*   **Donor-Centric Features:** Gift processing, pledge tracking, recurring giving management, stewardship features.\n*   **Contact Management:** Detailed donor profiles, household relationships, communication preferences.\n*   **Interaction Logging:** Ability to record calls, emails, meetings, notes, and other touchpoints.\n*   **Task & Workflow Management:** Assign follow-ups, set reminders, manage donor journeys.\n*   **Reporting & Dashboards:** Customizable reports on giving trends, donor retention, campaign performance.\n*   **Integration Capabilities:** Connects with email marketing, accounting, event management tools.\n*   **User Permissions:** Control who can view and edit different types of information.\n*   **Scalability:** Grows with your organization.\n*   **User-Friendliness:** Easy for your team to learn and use consistently.\n\n**Popular Nonprofit CRM Options:**\n*   **Salesforce NPSP (Nonprofit Success Pack):** Highly customizable, robust, but can have a learning curve.\n*   **Blackbaud (Raiser's Edge NXT, eTapestry):** Industry standard for many large nonprofits, offers various solutions.\n*   **Bloomerang:** User-friendly, strong focus on donor retention and engagement.\n*   **DonorPerfect:** Comprehensive features, good for mid-sized organizations.\n*   **Little Green Light:** Affordable, good for smaller nonprofits, strong customer support.\n*   **Kindful (now part of Bloomerang):** Simple interface, good integrations.\n\n---\n\n## What Information to Track in Your CRM\n\nConsistency is key. Decide on the essential data fields and ensure everyone uses them.\n\n1.  **Basic Contact Information:**\n    *   Full Name (individual/organization)\n    *   Preferred Pronouns\n    *   Contact Details (phone, email, mailing address)\n    *   Preferred Communication Method\n    *   Household/Organization Affiliation\n\n2.  **Giving History:**\n    *   Gift Date, Amount, Type (one-time, recurring, in-kind)\n    *   Campaign/Fund/Appeal\n    *   Pledge Information (amount, payment schedule, status)\n    *   Giving Frequency\n    *   Payment Method\n\n3.  **Relationship & Engagement Details:**\n    *   **Relationship Owner:** Who on the team is primarily responsible for stewarding this donor.\n    *   **Interests/Passions:** What specific programs or aspects of your mission they care about.\n    *   **Engagement Level:** How active they are (e.g., event attendee, volunteer, board member).\n    *   **Key Relationships:** Connections to other donors, board members, community leaders.\n    *   **Wealth Screening Data:** (If applicable) Capacity to give, philanthropic indicators.\n    *   **Personal Notes:** Birthdays, anniversaries, family details, significant life events.\n\n4.  **Communication History (Interaction Log):**\n    *   **Date & Time of Interaction**\n    *   **Type of Interaction:** Call, email, meeting, mail, social media, event attendance.\n    *   **Team Member Involved:** Who initiated/conducted the interaction.\n    *   **Key Discussion Points/Outcome:** What was talked about, next steps.\n    *   **Files/Attachments:** Relevant documents, photos, correspondence.\n\n5.  **Tasks & Next Steps:**\n    *   **Assigned To:** Which team member is responsible.\n    *   **Due Date:** When the task needs to be completed.\n    *   **Task Type:** Follow-up call,",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce NPSP",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 1008,
+  "estimated_cost_usd": 0.002522,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

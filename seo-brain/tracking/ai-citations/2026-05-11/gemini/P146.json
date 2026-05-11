@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P146",
+  "prompt_text": "Best donor CRM with grant tracking",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.422794+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM with grant tracking depends heavily on your organization's specific size, budget, complexity of needs, and technical comfort level.\n\nHere are the top contenders, categorized by who they might be best for, followed by key features to look for:\n\n---\n\n## Top Donor CRMs with Robust Grant Tracking\n\n### 1. Salesforce Nonprofit Cloud (NPSP)\n\n*   **Best For:** Mid-to-large organizations, those with complex data needs, organizations needing extreme customization, or those with existing Salesforce expertise/budget for a consultant.\n*   **Grant Tracking Capabilities:** Excellent. NPSP itself provides a strong foundation for donor management. For grant tracking, you can leverage:\n    *   **Out-of-the-box Salesforce functionality:** Create custom objects for grants, applications, deadlines, requirements, and reporting.\n    *   **AppExchange Solutions:** Numerous apps specifically designed for grant management (e.g., Grunsfeld, Grant Management for Nonprofits by Salesforce itself). These can automate workflows, track stages, manage reporting, and generate necessary documents.\n*   **Pros:**\n    *   **Unparalleled Customization:** Can be tailored to virtually any workflow or data requirement.\n    *   **Scalability:** Grows with your organization, no matter how complex your needs become.\n    *   **Powerful Reporting & Analytics:** Deep insights into both donor and grant data.\n    *   **Vast Ecosystem:** Integrates with thousands of other tools (marketing, accounting, etc.).\n    *   **Free Licenses:** Nonprofits get 10 free user licenses for Salesforce Enterprise Edition.\n*   **Cons:**\n    *   **",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 348,
+  "estimated_cost_usd": 0.000872,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P061",
+  "prompt_text": "Best donor CRM for monthly giving programs",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423600+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Monthly Giving Programs\n\nNonprofit CRMs excel at monthly giving (recurring donations) by automating pledges, tracking retention, integrating payment processors, and segmenting sustainers for targeted campaigns. Based on 2026 analyses from sources like Positive Equation, Double the Donation, DonorDock, and Bloomerang, here are the standout options. These prioritize features like seamless recurring billing (e.g., via Stripe/PayPal), donor retention scoring, and monthly giving funnels.\n\n#### 1. **Bloomerang** (Top Pick for Monthly Giving)\n   - **Why it excels**: Built for donor retention with \"Sustainer Scores\" to predict and boost monthly givers. Unified platform for pledges, auto-renewals, and engagement tracking. Integrates with Classy, Fundly for campaigns.\n   - **Key features**: Recurring donation forms, email automation, wealth screening.\n   - **Best for**: Small-to-mid nonprofits focused on growing sustainers (e.g., 20-50% retention lift reported).\n   - **Pricing**: Starts at $119/month (unlimited users).\n   - **Evidence**: Ranked #1 in Bloomerang's 2026 guide [6] and Evertrue's list [4]; Positive Equation highlights it for monthly programs [1].\n\n#### 2. **Kindful** (Best for Integrated Fundraising)\n   - **Why it excels**: Strong recurring donation tools with \"Pledge Management\" for monthly tracking and upsell prompts (e.g., bump from $10 to $20/month).\n   - **Key features**: Native payment processing, donor portals for self-managed pledges, reporting dashboards.\n   - **Best for**: Teams needing all-in-one fundraising + CRM.\n   - **Pricing**: From $119/month.\n   - **Evidence**: Featured in Kindful's 2026 tools [7] and DonorDock's comparison [5] for efficient donor journeys.\n\n#### 3. **DonorPerfect** (Best for Small Nonprofits)\n   - **Why it excels**: Affordable entry with robust recurring gift tracking, pledge reminders, and segmentation for monthly donor nurturing.\n   - **Key features**: Mobile app, event integration, customizable reports.\n   - **Best for**: Budget-conscious orgs (<$500K revenue) scaling monthly programs.\n   - **Pricing**: Starts at $89/month.\n   - **Evidence**: Tailored for small teams in DonorPerfect's guide [8]; top in Streak's nonprofit CRM list [9].\n\n#### 4. **CharityEngine** / **Bonterra** (Enterprise-Scale Options)\n   - **CharityEngine**: AI-driven donor insights for monthly retention; full fundraising suite.\n   - **Bonterra (ex-Two Step)**: Advanced automation for high-volume sustainers.\n   - **Best for**: Larger nonprofits ($1M+ revenue).\n   - **Pricing**: Custom (mid-tier ~$200+/month).\n   - **Evidence**: Double the Donation's 2026 top 22 [3]; Kindsight's 14 best [2].\n\n#### Quick Comparison Table\n\n| CRM            | Recurring Focus                  | Starting Price | Unlimited Users? | Top Strength                  |\n|----------------|----------------------------------|----------------|------------------|-------------------------------|\n| **Bloomerang** | Sustainer scoring, retention    | $119/mo       | Yes             | Donor retention               |\n| **Kindful**    | Pledge upsells, donor portals   | $119/mo       | Yes             | Fundraising integration       |\n| **DonorPerfect**| Pledge tracking, reminders     | $89/mo        | No (add-ons)    | Affordability for small orgs  |\n| **CharityEngine** | AI insights, automation       | Custom        | Yes             | Scalability                   |\n\n#### How to Choose\n- **Test demos**: Most offer free trials (e.g., Bloomerang's 30-day).\n- **Key must-haves for monthly giving**: Recurring payment integrations, retention analytics, A/B email testing.\n- **Avoid spreadsheets**: As DonorDock notes [5], CRMs centralize data to lift monthly revenue 15-30%.\n\nStart with Bloomerang if retention is your goal\u2014it's consistently #1 for this use case across 2026 reviews. For specifics, check demos or sites like [1] for monthly tools.",
+  "donordock_mentioned": true,
+  "donordock_position": 315,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 912,
+  "estimated_cost_usd": 0.018704,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://positiveequation.com/top-tools-to-grow-your-nonprofits-monthly-giving-program/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.evertrue.com/blog/donor-management-software-solutions/",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://bloomerang.com/blog/donor-management-software/",
+      "https://kindful.com/nonprofit-glossary/donor-management-software/",
+      "https://www.donorperfect.com/nonprofits/smaller-nonprofit-fundraising-software/",
+      "https://www.streak.com/post/best-crm-for-nonprofits"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P044",
+  "prompt_text": "Best donor CRM for food banks",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423813+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For food banks, choosing the \"best\" donor CRM means finding one that excels not just in monetary donor management, but also handles the unique aspects of **in-kind donations (food, supplies), volunteer management, and reporting on impact (meals provided, people served).**\n\nThere isn't a single \"best\" for every food bank, as budget, staff capacity, and specific needs vary. However, here are the top contenders and what makes them suitable:\n\n---\n\n### Top Recommendations for Food Banks\n\n1.  **Salesforce Nonprofit Cloud (with NPSP - Nonprofit Success Pack)**\n    *   **Why it's great for Food Banks:**\n        *   **Highly Customizable:** You can track anything \u2013 pounds of food, specific types of donations (fresh produce, canned goods), expiration dates (if applicable to your process), partner relationships (grocery stores, farms).\n        *   **Robust Volunteer Management:** Salesforce has excellent add-ons and integrations for managing volunteers, their shifts, skills, and hours \u2013 crucial for food bank operations.\n        *   **Scalability:** Grows with your organization, from small to large multi-location food banks.\n        *   **Reporting & Analytics:** Unparalleled ability to create detailed reports on donor segments, donation types, campaign performance, and crucially, impact metrics.\n        *   **Grant Management:** Strong capabilities for tracking grants, which are vital for food banks.\n    *   **Considerations:**\n        *   **Learning Curve:** Can be complex to set up and learn, often requiring an implementation partner or dedicated staff.\n        *   **Cost:** While NPSP itself is free for up to 10 users, additional apps, customization, and ongoing administration can incur costs.\n\n2.  **Neon One (NeonCRM)**\n    *   **Why it's great for Food Banks:**\n        *   **All-in-One Solution:** Offers a comprehensive suite including donor management, event management, and robust **volunteer management**, which is a huge plus for food banks.\n        *   **In-Kind Tracking:** Supports tracking non-monetary donations, allowing you to log food donations by weight or item.\n        *   **User-Friendly:** Generally considered easier to use than Salesforce, making it more accessible for staff and volunteers.\n        *   **Reporting:** Solid reporting features, including impact tracking.\n        *   **Integrated Communication:**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Neon One",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 499,
+  "estimated_cost_usd": 0.001249,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "prompt_id": "P051",
+  "prompt_text": "Best donor CRM for lean fundraising teams",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.421463+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Lean Fundraising Teams\n\nFor lean fundraising teams\u2014typically small nonprofits with limited staff, budgets, and needing simple, all-in-one tools for donor management, emails, tracking, and campaigns\u2014focus on affordable, user-friendly CRMs with low upfront costs and minimal setup. Based on 2026 comparisons from sources like DonorDock, Double the Donation, and Bloomerang, here are the strongest matches:\n\n#### 1. **DonorDock** (Top Recommendation)\n   - **Why ideal for lean teams**: Built explicitly for \"lean nonprofit teams who do it all.\" Combines giving, email, stewardship, and CRM in one simple system\u2014no extras to overwhelm. Affordable pricing starts low, with quick setup.\n   - **Key features**: Donor tracking, automated emails, fundraising pages, reporting. Integrates payments seamlessly.\n   - **Evidence**: DonorDock's own comparison [5] highlights it as the all-in-one for small teams; echoed in Double the Donation's 22 top CRMs [2].\n   - **Pricing**: Starts ~$19/month (billed annually); free trial.\n   - **Best for**: Teams under 5 people prioritizing simplicity over enterprise features.\n\n#### 2. **Givebutter**\n   - **Why ideal**: Modern, free-to-start CRM with donor management, engagement tracking, and fundraising tools. Handles everything lean teams need without complexity.\n   - **Key features**: Custom forms, emails, donor portals, events, text-to-give. Zero platform fees on donations.\n   - **Evidence**: Ranked high in Double the Donation's 2026 list [2] for supporter management; also in GoodUnited's top 8 [3].\n   - **Pricing**: Free core CRM; 2.95% + $0.30 per transaction (low for lean ops).\n   - **Best for**: Ultra-budget teams wanting free entry with scalability.\n\n#### 3. **Funraise**\n   - **Why ideal**: Blends CRM with digital fundraising for lean teams seeking wide functionality at low cost. Easy to use, no steep learning curve.\n   - **Key features**: Donor database, campaigns, peer-to-peer, recurring gifts, reporting.\n   - **Evidence**: Virtuous's 2026 donation platforms list [9] calls it best for \"lean teams with low upfront cost\"; cross-referenced in multiple top lists.\n   - **Pricing**: Starts ~$99/month; free trial.\n   - **Best for**: Teams needing campaign tools alongside basic CRM.\n\n#### Quick Comparison Table\n\n| CRM         | Starting Price | Key Strength for Lean Teams          | Top Sources                  |\n|-------------|----------------|--------------------------------------|------------------------------|\n| **DonorDock** | ~$19/mo      | All-in-one simplicity               | [5], [2]                    |\n| **Givebutter** | Free         | Zero-cost entry, full fundraising   | [2], [3]                    |\n| **Funraise**  | ~$99/mo      | Campaign + CRM blend                | [9]                         |\n| Bloomerang | ~$119/mo     | Donor retention (less lean-focused) | [1], [4], [8]               |\n| DonorPerfect| Custom (~$89/mo) | Robust but more setup needed      | [7]                         |\n\n#### Why These Over Others?\n- Enterprise options like Blackbaud Raiser's Edge NXT [6] or Bloomerang [1,4,8] excel for mid-sized orgs with complex reporting but are overkill (higher cost/setup) for lean teams.\n- Avoided general lists without \"lean\" emphasis (e.g., Ascend, Bonterra [1]).\n- Prioritized 2026-updated sources confirming affordability and ease for small teams.\n\n**Recommendation**: Start with **DonorDock** for most lean teams\u2014it's purpose-built and balances cost/features perfectly. Test free trials to confirm fit. If fully free is key, go Givebutter. Check each site's demo for your exact workflow.",
+  "donordock_mentioned": true,
+  "donordock_position": 347,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Givebutter",
+    "Raiser's Edge",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 839,
+  "estimated_cost_usd": 0.017609,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://momentivesoftware.com/blog/best-donor-management-software/",
+      "https://www.donordock.com/compare",
+      "https://stratuslive.com/blog/nonprofit-crm-systems-comparison/",
+      "https://www.donorperfect.com",
+      "https://bloomerang.com/blog/donor-management-software/",
+      "https://virtuous.org/blog/best-donation-platforms/"
+    ]
+  }
+}

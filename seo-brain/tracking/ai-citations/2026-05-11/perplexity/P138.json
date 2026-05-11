@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P138",
+  "prompt_text": "Virtuous customer complaints",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424526+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Virtuous Customer Complaints Summary\n\nBased on user reviews and feedback, here are the main complaints about Virtuous CRM:\n\n## **Technical & Functionality Issues**\n- **Form Design Limitations**: Forms lack customization options and aren't always practical for collecting information and payments\n- **Query Functionality**: Less flexible than some competitors, limiting data analysis capabilities\n- **Reporting Customization**: Requires a learning curve for complex analysis\n- **Integration Issues**: Despite being marketed as \"all-in-one,\" the platform heavily relies on partner integrations (QuickBooks, payment processors, wealth screening tools), rather than offering truly native end-to-end functionality\n- **Missing Features**: Marketing tools lack robustness; users note missing features like tap-to-pay functionality for quick/anonymous donations\n\n## **Support & Responsiveness**\n- **Support Speed**: Response times are 24-48 hours rather than real-time chat support (unlike some competitors like Bloomerang)\n- **Customization Support Gaps**: When users create custom solutions, support availability for those implementations can be limited\n\n## **Implementation Challenges**\n- **Complexity & Onboarding**: The platform's complexity creates challenges for smaller organizations with budgets under $500K\n- **Steep Onboarding Costs**: Implementation costs can be prohibitive for resource-constrained nonprofits\n\n## **Positive Note**\nDespite these complaints, users consistently praise the **intuitive interface, ease of use, and knowledgeable customer support team**.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 292,
+  "estimated_cost_usd": 0.009398,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.smartthoughts.net/post/virtuous-crm-software-for-nonprofits-review",
+      "https://www.g2.com/products/virtuous-crm/reviews?qs=pros-and-cons",
+      "https://virtuous.org/contact/",
+      "https://www.softwareadvice.com/nonprofit/virtuous-profile/reviews/",
+      "https://www.featuredcustomers.com/vendor/virtuous",
+      "https://www.infotech.com/software-reviews/products/virtuouscrm?c_id=174",
+      "https://virtuous.org/resources/help-center/",
+      "https://virtuous.org/customer-stories/",
+      "https://www.glassdoor.com/Reviews/Virtuous-Software-Reviews-E1410815.htm"
+    ]
+  }
+}

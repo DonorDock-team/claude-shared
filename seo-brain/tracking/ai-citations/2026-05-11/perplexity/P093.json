@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P093",
+  "prompt_text": "Cheapest nonprofit CRM with online giving",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.422905+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Givebutter is the cheapest nonprofit CRM with online giving\u2014it's completely free for core features.**\n\n### Why Givebutter?\n- **Free Tier Details**: Unlimited contacts, donation forms, fundraising campaigns, peer-to-peer tools, event pages, and basic donor management (CRM functionality). No subscription fees, per-user costs, or per-contact pricing. Revenue comes from optional donor tips (nonprofits pay 0% platform fees if enabled; 3% + payment processing if disabled). [Sources: [2], [3]]\n- **Online Giving**: Built-in donation processing, forms, and campaigns\u2014fully integrated with the free CRM.\n- **Best For**: Small nonprofits starting with online fundraising and basic donor tracking. It's highlighted as the top all-around free option in 2026 comparisons.\n\n### Strong Free Alternative: CiviCRM\n- **Cost**: 100% free open-source software (no subscription fees ever).\n- **Online Giving**: Supports fundraising, donations, and integrations for payments (e.g., via extensions).\n- **Caveat**: Requires technical skills for self-hosted setup, installation, maintenance, and customizations like payment gateways. No built-in hosting/support. Ideal if you have dev resources. [Source: [1]]\n\n### Compare to Other Low-Cost Options\n| CRM | Starting Price | Online Giving? | Key Notes |\n|-----|----------------|---------------|-----------|\n| **Givebutter** | **Free** | Yes (unlimited forms/campaigns) | Easiest free all-in-one; unlimited users/contacts. |\n| **CiviCRM** | **Free** (open-source) | Yes (via extensions) | Highly customizable but needs tech setup. |\n| **Little Green Light** | $45/month (record-based) | Yes | Affordable for small teams; unlimited users, simple donor management. [Sources: [1], [2], [4], [9]] |\n| **Bloomerang** | $125/month | Yes | Donor retention focus; scales with contacts. [Source: [5]] |\n| **Flowlu** | Free (up to 2 users); $9/user/mo after | Yes | Nonprofit discounts; includes tasks/projects. [Source: [3]] |\n\nGivebutter wins for \"cheapest\" (zero cost, no setup hurdles) unless you need advanced free customization (CiviCRM). Check their sites for 2026 trials, as features/pricing can update. Sources are from recent 2026 nonprofit CRM reviews.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "Givebutter",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 519,
+  "estimated_cost_usd": 0.012809,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://givebutter.com/blog/best-free-crm-for-nonprofits",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://bloomerang.com/blog/free-nonprofit-software/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://blog.mightycause.com/best-fundraising-platforms-for-nonprofits-2026/",
+      "https://www.instrumentl.com/blog/best-donation-platforms-for-nonprofits",
+      "https://www.getapp.com/nonprofit-software/nonprofit-crm/f/online-giving/"
+    ]
+  }
+}

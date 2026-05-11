@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P083",
+  "prompt_text": "Best donor CRM for museums",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.424224+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Museums\n\nHere are the top donor CRM systems well-suited for museums:\n\n## **Top Specialized Options**\n\n### **1. Altru (Blackbaud)**\n- **Built specifically for museums** and cultural institutions\n- Integrated fundraising, membership, ticketing, and admissions\n- Robust analytics and reporting\n- **Best for:** Mid-to-large museums with complex needs\n- **Drawback:** Higher cost, steeper learning curve\n\n### **2. Tessitura**\n- Popular among major museums and performing arts organizations\n- Comprehensive CRM with ticketing, memberships, and development\n- Strong patron relationship management\n- **Best for:** Large institutions with dedicated IT resources\n- **Drawback:** Expensive, requires significant implementation\n\n### **3. Raiser's Edge NXT (Blackbaud)**\n- Industry-standard nonprofit CRM\n- Strong fundraising and donor management features\n- Cloud-based with good reporting\n- **Best for:** Museums focused heavily on major gift fundraising\n\n## **More Affordable Alternatives**\n\n### **4. Bloomerang**\n- User-friendly interface\n- Strong donor retention focus\n- Good reporting at lower price point\n- **Best for:** Small-to-mid-sized museums\n\n### **5. DonorPerfect**\n- Affordable and customizable\n- Can integrate with ticketing systems\n- Good membership management\n- **Best for:** Budget-conscious small museums\n\n## **Key Considerations**\n- Integration with ticketing/admissions systems\n- Membership tracking capabilities\n- Event management features\n- Budget and staff technical capacity\n\nWhat size is your museum and what's your primary need?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 378,
+  "estimated_cost_usd": 0.005709,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P008",
+  "prompt_text": "DonorDock vs Neon CRM",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423759+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### DonorDock vs. Neon CRM: Key Comparison for Nonprofits (2026)\n\nBoth DonorDock and Neon CRM (from Neon One) are cloud-based donor management platforms designed for small to midsize nonprofits. They handle core functions like donor tracking, fundraising, email campaigns, texting, and reporting. Neon CRM offers broader features for complex needs, while DonorDock emphasizes simplicity, affordability, and ease of use. Below is a breakdown based on verified reviews, pricing data, and feature comparisons from sources like Gralio, DonorDock's site, TrustRadius, G2, Slashdot, Zeffy, and SourceForge.\n\n#### Pricing\n| Aspect              | DonorDock                          | Neon CRM                          |\n|---------------------|------------------------------------|-----------------------------------|\n| **Starting Price** | $98\u2013$500/month (unlimited contacts; tiers based on features) + 2.9% + $0.30 per transaction | $409\u2013$500+/month (unlimited contacts) + extra fees (e.g., $25/month for donations, processing fees) |\n| **Contracts**      | No contracts; cancel anytime      | Contracts common; potential penalties |\n| **Hidden Fees**    | None explicitly noted             | Hidden fees and add-ons reported |\n| **Free Trial/Migration** | Quick data migration (<2 weeks) | Migration tools available but slower |\n| **Best For**       | Budget-conscious small orgs       | Larger orgs willing to pay for extras |\n\n*Evidence*: DonorDock sites highlight \"fraction of the price\" vs. Neon's \"heavy\" costs. Zeffy compares note both charge monthly + transaction fees, but DonorDock is positioned as cheaper.\n\n#### Features Head-to-Head\nBoth support unlimited campaigns, donor management, email/newsletters, retention reports, and texting. Key similarities/differences:\n\n| Feature Category          | DonorDock Strengths/Notes                          | Neon CRM Strengths/Notes                          |\n|---------------------------|----------------------------------------------------|---------------------------------------------------|\n| **Donor Management**     | Centralized hub, segmentation, personalized comms | Comprehensive records, prospecting, workflows     |\n| **Fundraising**          | Unlimited pages/forms, no added processing fees   | Unlimited campaigns + shop, events, pledges       |\n| **Email & Automation**   | Drag-and-drop builder, bulk emails, automation    | Built-in marketing, A/B testing, triggers, 50+ integrations |\n| **Reporting**            | Retention trends, Actionboard\u00ae dashboard          | Advanced widgets, metrics, analytics              |\n| **Support**              | Responsive (per DonorDock claims)                 | Slow response times, no phone support (common complaints) |\n| **Ease of Use**          | Modern, intuitive interface; quick setup          | Feature-rich but complex/steep learning curve     |\n| **Integrations**         | Basic (focus on built-in tools)                   | Extensive (third-party apps)                      |\n| **Limitations**          | Fewer advanced tools (e.g., no full event ticketing) | Bugs in merging duplicates, limited email customization |\n\n*Evidence*: Gralio.ai lists shared features (e.g., donor retention reports \u2713 both). Neon excels in reporting/automation per Slashdot/SourceForge. DonorDock wins on usability per G2/TrustRadius (29 reviews favor it over Neon for simplicity).\n\n#### Pros & Cons from User Reviews\n**DonorDock Pros** (Higher ratings on G2/TrustRadius):\n- Affordable and scalable for small teams.\n- User-friendly; \"robust enough to grow\" without unused features.\n- Fast migration, flexible pricing.\n\n**DonorDock Cons**:\n- Lacks depth for very large orgs (e.g., limited pipelines, website flexibility).\n- Essential but not as feature-packed as enterprise tools.\n\n**Neon CRM Pros**:\n- Powerful for growing orgs: full fundraising suite, membership/events/volunteers.\n- Strong data insights and integrations.\n\n**Neon CRM Cons** (Frequent complaints):\n- Expensive with add-ons.\n- Poor support (slow, email-only).\n- Complex navigation; bugs (e.g., duplicate merging).\n\n*Evidence*: G2 notes DonorDock's functionality but Neon's \"depth.\" DonorDock's site and Gralio cite user feedback on Neon's support/learning curve. TrustRadius/Slashdot reviews (2026 data) echo higher DonorDock satisfaction for SMBs.\n\n#### Who Should Choose What?\n- **Pick DonorDock** if you're a small/midsize nonprofit prioritizing **cost savings, simplicity, and quick setup**. Ideal for streamlined donor outreach without bloat (e.g., teams avoiding Neon's complexity).\n- **Pick Neon CRM** if you need **advanced reporting, integrations, events, and scalability** for medium+ orgs, and can handle higher costs/support tradeoffs.\n- **Alternatives to Consider**: Bloomerang (relationship-focused), Zeffy (zero fees via donor tips).\n\nFor the latest, check TrustRadius or G2 for 2026 user reviews, as pricing/features evolve. Test demos\u2014both offer trials.",
+  "donordock_mentioned": true,
+  "donordock_position": 4,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1055,
+  "estimated_cost_usd": 0.020846,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://gralio.ai/compare/neon-crm-vs-donordock",
+      "https://www.donordock.com/compare/neon-crm-vs-donordock",
+      "https://www.trustradius.com/compare-products/donordock-vs-neon-crm",
+      "https://slashdot.org/software/comparison/DonorDock-vs-NeonCRM/",
+      "https://www.zeffy.com/compare/donordock-vs-neon-one",
+      "https://sourceforge.net/software/compare/Bloomerang-vs-DonorDock-vs-NeonCRM/",
+      "https://www.g2.com/compare/donordock-vs-neon-one-llc-neon-crm"
+    ]
+  }
+}

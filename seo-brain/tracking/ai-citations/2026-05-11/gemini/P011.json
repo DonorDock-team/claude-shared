@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P011",
+  "prompt_text": "DonorDock vs Salesforce Nonprofit Cloud",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424349+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing between **DonorDock** and **Salesforce Nonprofit Cloud** is a decision that largely depends on your organization's size, complexity, budget, and specific needs. They represent quite different philosophies and scales of operation.\n\nLet's break them down:\n\n---\n\n## DonorDock\n\nDonorDock is generally positioned as a modern, user-friendly donor management system designed primarily for small to medium-sized nonprofits. It aims to simplify fundraising and donor engagement with an intuitive interface.\n\n**Key Features often include:**\n*   **Donor CRM:** Centralized donor profiles, gift history, contact information.\n*   **Gift & Pledge Tracking:** Recording and managing all types of donations.\n*   **Donor Segmentation:** Grouping donors for targeted communication.\n*   **Email Marketing:** Built-in tools for sending newsletters and campaign updates.\n*   **Fundraising Campaigns:** Managing and tracking specific campaigns.\n*   **Acknowledgement Letters:** Automating thank you letters and receipts.\n*   **Basic Reporting:** Generating reports on donations, donors, and campaigns.\n*   **Integrations:** Often connects with popular tools like QuickBooks Online, Mailchimp, payment processors.\n*   **Online Donation Forms:** Simple, embeddable forms for your website.\n\n**Pros of DonorDock:**\n*   **Ease of Use:** Generally boasts a very intuitive and clean interface, making it quicker for staff to learn and adopt.\n*   **Affordability:** Typically more budget-friendly, especially for smaller organizations, with clear pricing tiers.\n*   **Faster Implementation:** Quicker to set up and get started compared to a more complex system like Salesforce.\n*   **Focused Functionality:** Designed specifically for donor management and fundraising, avoiding feature bloat for organizations that don't need a full CRM.\n*   **Responsive Support:** Often praised for personalized customer support.\n\n**Cons of DonorDock:**\n*   **Limited Scalability for Enterprise:** May eventually hit a ceiling for very large, highly complex organizations with intricate data models or vast numbers of constituents.\n*   **Less Customization:** While flexible, it won't offer the deep level of customization available in Salesforce. You largely work within its predefined structure.\n*   **Fewer Integrations:** While it integrates with common tools, its ecosystem of third-party apps is smaller than Salesforce's AppExchange.\n*   **Less Comprehensive:** May not cover all aspects of a nonprofit's operations (e.g., extensive volunteer management, complex program management, advanced grant tracking) as thoroughly as Salesforce.\n\n**Best for:** Small to medium-sized nonprofits, those new to CRM, organizations with limited IT staff, those prioritizing ease of use and affordability for core donor management and fundraising needs.\n\n---\n\n## Salesforce Nonprofit Cloud (NPC)\n\nSalesforce Nonprofit Cloud",
+  "donordock_mentioned": true,
+  "donordock_position": 19,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 582,
+  "estimated_cost_usd": 0.001457,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

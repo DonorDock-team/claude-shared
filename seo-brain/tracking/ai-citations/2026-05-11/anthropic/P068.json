@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P068",
+  "prompt_text": "How to consolidate fundraising tools",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.424787+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Consolidate Fundraising Tools\n\nConsolidating your fundraising tools can streamline operations, reduce costs, and improve donor experience. Here's a systematic approach:\n\n## 1. **Audit Your Current Tools**\n- List all platforms you're using (CRM, email, payment processing, event management, etc.)\n- Document what each tool does and costs\n- Identify overlapping features\n- Note integration pain points\n\n## 2. **Define Your Requirements**\n- Essential features you can't live without\n- Team size and technical capabilities\n- Budget constraints\n- Compliance needs (data security, tax receipting)\n- Reporting requirements\n\n## 3. **Choose an All-in-One Platform or Hub**\nConsider platforms that offer multiple functions:\n- **Donor CRM + fundraising**: Salesforce, Bloomerang, DonorPerfect\n- **All-in-one solutions**: Classy, Givebutter, Donorbox\n- **Comprehensive suites**: Blackbaud, NeonCRM\n\n## 4. **Migration Strategy**\n- **Clean your data** before migration (remove duplicates, standardize fields)\n- **Create a timeline** with phases\n- **Test thoroughly** with small data samples first\n- **Run systems parallel** temporarily to ensure nothing breaks\n\n## 5. **Integration Over Replacement**\nSometimes consolidation means connecting, not replacing:\n- Use tools like Zapier or Make to connect specialized tools\n- Ensure your CRM is the central hub\n- Prioritize API capabilities\n\n## 6. **Train Your Team**\n- Provide adequate training on new systems\n- Create documentation\n- Designate power users\n\n**Start small** and consolidate incrementally rather than replacing everything at once.\n\nWhat's your biggest challenge with your current tool setup?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 406,
+  "estimated_cost_usd": 0.006132,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

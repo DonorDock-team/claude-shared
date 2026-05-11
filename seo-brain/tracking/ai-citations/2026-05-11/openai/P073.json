@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.422129+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor pledges is crucial for effective fundraising management and ensuring that donors honor their commitments. Here are some steps and best practices to effectively track donor pledges:\n\n1. **Use a Donor Management System**: \n   - Invest in a robust donor management software or CRM (Customer Relationship Management) system that allows you to record and track pledges, payments, and donor interactions.\n   - Popular software choices include Salesforce, DonorPerfect, Blackbaud, and Bloomerang.\n\n2. **Create a Pledge Tracking System**: \n   - Establish a standardized system for entering pledge information into your database. This should include details such as the donor\u2019s name, pledge amount, pledge date, payment schedule, and any specific terms or conditions.\n\n3. **Categorize Pledges**: \n   - Segment pledges by type, such as one-time, recurring, or multi-year commitments. This can help in forecasting future income and allocating resources accordingly.\n\n4. **Set Up Automatic Reminders**: \n   - Utilize your donor management software to send automated reminders to donors before a payment is due. This can be through email, SMS, or other communication channels.\n\n5. **Establish Reporting Systems**: \n   - Develop regular reports to monitor pledged amounts versus received amounts, overdue pledges, and overall pledge status. This can help identify any issues and strategize follow-up actions.\n\n6. **Acknowledge and Recognize Pledges**: \n   - Send timely acknowledgments and receipts for each pledge and payment received. Maintaining strong donor relationships is key to securing future commitments.\n\n7. **Communicate Regularly**: \n   - Keep donors informed about how their pledges are making an impact. Regular updates can encourage them to fulfill their commitments and continue supporting your cause.\n\n8. **Implement Follow-Up Procedures**: \n   - Create a process to follow up with donors whose pledges have not been fulfilled according to the schedule. This might include friendly reminders, personal phone calls, or personalized letters.\n\n9. **Review and Update Pledge Status**: \n   - Periodically review your pledge records to update the status of each pledge, amend donor contact information, and adjust payment schedules if necessary.\n\n10. **Data Security and Privacy**: \n    - Ensure that donor data is securely stored and handled according to privacy laws and regulations. Implement access controls and data protection measures to safeguard sensitive information.\n\n11. **Analyze Trends and Performance**: \n    - Use analytical tools to evaluate pledge patterns and fundraising performance. This can help in planning future campaigns and improving donor engagement strategies.\n\nBy implementing these practices, you can effectively manage donor pledges, enhance donor relationships, and ensure the financial stability of your fundraising efforts.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 551,
+  "estimated_cost_usd": 0.005542,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

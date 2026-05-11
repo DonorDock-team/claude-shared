@@ -1,0 +1,37 @@
+{
+  "prompt_id": "P017",
+  "prompt_text": "Alternative to Neon CRM",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.421809+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Neon CRM Alternatives for Nonprofits (2026)\n\nNeon CRM is a popular cloud-based CRM for nonprofits, offering donor management, fundraising, events, memberships, and volunteers. However, it starts at ~$99\u2013$119/month (plus setup fees up to $900 and 2.9% + $0.30 transaction fees), lacks a free plan, and has limited integrations for some users. Below are the strongest alternatives based on recent comparisons, grouped by best fit. I've prioritized free/low-cost options, ease of use, and key strengths like fundraising focus or CRM depth.\n\n#### 1. **Best Free Option: Givebutter**\n   - **Why it's a top alternative**: Completely free all-in-one platform (no monthly fees, just optional tips). Covers fundraising, donor management, events, and CRM basics\u2014ideal for small nonprofits ditching Neon CRM's costs.\n   - **Key features**: Custom donation forms, recurring gifts, text-to-give, auctions, CRM with donor insights.\n   - **Pricing**: Free forever; transaction fees ~2.95% + $0.30 (waivable at scale).\n   - **Best for**: Budget-conscious orgs prioritizing online giving over deep CRM.\n   - **Source**: Givebutter blog comparison.\n\n#### 2. **Best for Fundraising-First: Donorbox**\n   - **Why it's a top alternative**: Flexible donation forms with global payments (credit cards, ACH, PayPal, Apple/Google Pay, multi-currency). Lighter CRM than Neon but faster for online giving.\n   - **Key features**: Peer-to-peer fundraising, recurring donations, branded forms; integrates with CRMs like Salesforce.\n   - **Pricing**: Free for basic forms; paid plans from $159/month for advanced CRM/tools.\n   - **Best for**: Nonprofits with mobile/global donors needing quick setup.\n   - **Source**: Givebutter and Teachfloor reviews.\n\n#### 3. **Best CRM-Focused: Bloomerang**\n   - **Why it's a top alternative**: Donor retention emphasis with engagement scoring, wealth screening, and insights (stronger than Neon's reporting for \"why donors lapse\"). Unified platform for CRM + giving + events.\n   - **Key features**: Unlimited users, mobile app, email marketing, moves management.\n   - **Pricing**: Starts ~$119/month (contact-based); often cheaper long-term than Neon for retention tools.\n   - **Best for**: Mid-sized orgs focused on donor relationships over broad features.\n   - **Source**: Bloomerang site, Givebutter, Software Advice.\n\n#### 4. **Best for Memberships: Join It or Raklet**\n   | Platform | Key Strengths vs. Neon CRM | Pricing | Best For |\n   |----------|-----------------------------------|---------|----------|\n   | **Join It** | Simpler membership tools, no enterprise complexity; integrates with Eventbrite, Mailchimp, Zapier, Stripe. Avoids Neon's high tiers/setup. | Starts ~$99/month (core features). | Membership-heavy nonprofits wanting integrations. |\n   | **Raklet** | All-in-one for members/events/donations; better Zapier support than Neon. | From $49/month; free trial. | Associations needing affordable, flexible CRM. |\n   - **Sources**: Join It and Raklet sites.\n\n#### 5. **Enterprise/Mid-Market Picks**\n   - **CharityEngine**: Fundraising + clean data/recurring gifts. Pricing: Custom (mid-market).\n   - **Bonterra (ex-Neon One ecosystem)**: Scalable for large ops. Best for enterprises.\n   - **DonorPerfect**: Deep reporting/custom fields (40+ years experience). ~$89/month+.\n   - **CiviCRM**: Free/open-source (self-hosted); unlimited contacts, full data ownership. Needs tech skills.\n   - **Sources**: Givebutter, Teachfloor, LiveImpact blogs.\n\n#### Quick Comparison Table\n| Alternative | Starting Price | Transaction Fees | Standout Feature | Neon CRM Edge It Lacks |\n|-------------|----------------|------------------|------------------|------------------------|\n| **Givebutter** | Free | 2.95% + $0.30 | Free all-in-one | Advanced workflows |\n| **Donorbox** | Free basic | Platform-dependent | Global payments | Full CRM depth |\n| **Bloomerang** | ~$119/mo | Via add-ons | Donor retention scoring | Events/volunteers breadth |\n| **Join It** | ~$99/mo | Via Stripe | Easy memberships + integrations | Comprehensive reporting |\n| **CiviCRM** | Free | None (self-hosted) | Total customization | Out-of-box ease |\n\n#### Recommendations\n- **Small nonprofits (<500 contacts)**: Start with **Givebutter** (free) or **Donorbox**.\n- **Growing orgs**: **Bloomerang** for retention or **DonorPerfect** for reporting.\n- **Tech-savvy**: **CiviCRM** for zero fees.\n- Most offer free trials/demos. Check integrations (e.g., QuickBooks, Zapier) and test reporting\u2014Neon users often switch for cost or simplicity.\n\nFor tailored advice, share your org size, budget, or must-have features! Sources from 2026 reviews (e.g., Software Advice, Teachfloor).",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "CiviCRM",
+    "DonorBox",
+    "DonorPerfect",
+    "Givebutter",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 1118,
+  "estimated_cost_usd": 0.021785,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://givebutter.com/blog/neoncrm-alternatives",
+      "https://joinit.com/alternatives/neoncrm",
+      "https://www.raklet.com/alternatives/neoncrm-vs-raklet/",
+      "https://bloomerang.com/alternative/neoncrm/",
+      "https://www.teachfloor.com/blog/best-neon-crm-alternatives",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://www.softwareadvice.com/nonprofit/neoncrm-profile/alternatives/"
+    ]
+  }
+}

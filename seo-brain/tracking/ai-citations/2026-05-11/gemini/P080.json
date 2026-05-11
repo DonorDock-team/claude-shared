@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P080",
+  "prompt_text": "Best donor CRM for private K-12 schools",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423823+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding the \"best\" donor CRM for a private K-12 school really depends on the school's specific needs, budget, existing tech stack, and the size and sophistication of its development office. However, some CRMs consistently rise to the top for educational institutions due to their features, integrations, and focus on donor engagement.\n\nHere are the top contenders, categorized to help you identify the best fit:\n\n---\n\n### Top Donor CRM Recommendations for Private K-12 Schools\n\n#### 1. Blackbaud Raiser's Edge NXT (RENXT)\n*   **Best For:** Larger, established private schools with comprehensive fundraising programs and often already using other Blackbaud K-12 solutions (like their SIS or tuition management).\n*   **Pros:**\n    *   **Industry Standard for Education:** Blackbaud has a dominant presence in the K-12 and higher education market.\n    *   **Deep Integrations:** Seamlessly integrates with Blackbaud's own K-12 solutions (formerly \"ON\" products like Smart Tuition, academic management, admissions management), creating a unified ecosystem. This is a HUGE advantage for schools already using Blackbaud for other functions.\n    *   **Comprehensive Features:** Robust for annual giving, capital campaigns, major gifts, prospect research, event management, and alumni relations.\n    *   **Scalability:** Can handle very large databases and complex fundraising operations.\n    *   **Reporting & Analytics:** Powerful, detailed reporting capabilities.\n*   **Cons:**\n    *   **Cost:** Generally the most expensive option, both for the software and potential implementation/consulting.\n    *   **Complexity:** Can have a steep learning curve and requires dedicated staff to manage effectively.\n    *   **User Interface:** While improved with NXT, some find it less intuitive than newer, cloud-native platforms.\n\n#### 2. Salesforce Nonprofit Cloud (with NPSP - Nonprofit Success Pack)\n*   **Best For:** Schools with a dedicated tech team or IT resources",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 415,
+  "estimated_cost_usd": 0.00104,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

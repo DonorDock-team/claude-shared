@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P086",
+  "prompt_text": "Best donor CRM for homeless services",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424894+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Homeless Services\n\nHomeless services nonprofits often need CRMs that handle **donor management** (tracking contributions, retention, and engagement) alongside **client case management** (intake, housing transitions, outcomes tracking). General nonprofit CRMs excel at donors, while specialized tools like those for homelessness integrate both. Based on 2026 reviews from sources like Double the Donation, Kindsight, LiveImpact, and shelter-specific sites, here are the strongest options tailored to your query.\n\n#### 1. **Bloomerang** (Best Overall for Donor-Focused Homeless Nonprofits)\n   - **Why it fits**: Excels in donor retention with engagement scoring, automated stewardship, and fundraising tools. Integrates with housing software for client-donor overlap (e.g., tracking in-kind donations like shelter supplies).\n   - **Key features**: Donor database, recurring gifts, reporting, email campaigns. Affordable for small orgs ($119\u2013$10K+/year based on contacts).\n   - **Pros**: Simple UI, high retention rates (per LiveImpact comparison). Used by many service nonprofits.\n   - **Cons**: Less robust for deep client case management\u2014pair with tools like Case Management Hub.\n   - **Evidence**: Ranked #1\u20133 in Kindsight's 14 best, Double the Donation's 22 top CRMs, and LiveImpact's small nonprofit review for donor tools.\n\n#### 2. **Salesforce Nonprofit Cloud** (Best for Scaling Operations)\n   - **Why it fits**: Enterprise-grade donor CRM with modules for programs, volunteers, and grants. Customizable for homeless services (e.g., track donor-funded housing outcomes).\n   - **Key features**: AI-powered insights, unlimited apps (integrate with HMIS for client data), donor pipelines, multi-channel engagement.\n   - **Pros**: Free/discounted for nonprofits (<$25B revenue); massive ecosystem. Handles 1M+ contacts.\n   - **Cons**: Steep learning curve and setup costs ($36\u2013$360/user/month post-discount).\n   - **Evidence**: Called \"enterprise standard\" by Insightly; #1 in Salesforce's own nonprofit suite; featured across Kindsight, Double the Donation.\n\n#### 3. **Givebutter** (Best Free/Affordable All-in-One)\n   - **Why it fits**: Modern donor CRM with built-in fundraising (events, auctions) and supporter tracking. Suited for homeless orgs needing quick donor campaigns without client-heavy features.\n   - **Key features**: Free platform (2.95% + $0.30/transaction), CRM + payments, text/email tools, donor portals.\n   - **Pros**: No monthly fees; mobile-first for field staff.\n   - **Cons**: Limited advanced reporting for complex homeless workflows.\n   - **Evidence**: Top in Double the Donation's 2026 list for supporter management.\n\n#### 4. **CaseWorthy** (Best for Integrated Donor + Client Management in Shelters)\n   - **Why it fits**: Homelessness-specific CRM blending donor tracking with case management. Tracks shelter donations tied to client outcomes (e.g., housing placements funded by donors).\n   - **Key features**: Client intake, outcomes dashboards, grant reporting, donor integration.\n   - **Pros**: Tailored workflows reduce spreadsheets; excels in human services.\n   - **Cons**: Pricing opaque (custom quotes); less donor-centric than Bloomerang.\n   - **Evidence**: Recommended by Johnny Baskin's shelter CRM guide as top for data integration and workflows.\n\n#### 5. **LiveImpact** (Best Value for Small Homeless Nonprofits)\n   - **Why it fits**: All-in-one for donors, programs, and impact tracking\u2014ideal for linking shelter donors to measurable results like transitional housing success.\n   - **Key features**: Donor management, mobile app for field data, custom reports. Starts at $99/month.\n   - **Pros**: Strong ROI for small teams; beats competitors in value per LiveImpact's own 2026 comparison.\n   - **Cons**: Newer player, fewer integrations.\n   - **Evidence**: #1 value pick in LiveImpact's 10-option review; aligns with GoodUnited's fundraising tools.\n\n#### Quick Comparison Table\n\n| CRM            | Donor Strengths                  | Homeless/Client Fit          | Pricing (2026 Est.)       | Best For                  |\n|----------------|----------------------------------|------------------------------|---------------------------|---------------------------|\n| **Bloomerang** | Retention, automation            | Good (integrates)            | $119+/mo                 | Donor retention           |\n| **Salesforce** | Scalable pipelines, AI           | Excellent (custom)           | Discounted $36+/user/mo  | Large orgs                |\n| **Givebutter** | Free fundraising + CRM           | Basic                        | Free (transaction fees)   | Startups/small budgets    |\n| **CaseWorthy** | Outcomes tied to donors          | Excellent (shelter-specific) | Custom                   | Case + donor integration  |\n| **LiveImpact** | Impact reporting for donors      | Strong (programs)            | $99+/mo                  | Small orgs/value          |\n\n#### Recommendations\n- **Small/budget orgs**: Start with **Bloomerang** or **Givebutter** for donors, add Case Management Hub for housing (per result [4]).\n- **Shelters with client focus**: **CaseWorthy** for seamless donor-client workflows.\n- **Growing orgs**: **Salesforce** for long-term power.\nTest demos\u2014most offer free trials. Check integrations with HMIS (homeless data standards) and reviews on G2/Capterra for 2026 updates. Sources prioritize donor optimization while noting homeless tools.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Givebutter",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1186,
+  "estimated_cost_usd": 0.022811,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://casemanagementhub.org/homelessness-transitional-housing-support-software/",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://johnnybaskin.com/the-best-crm-for-homeless-shelters/",
+      "https://www.salesforce.com/nonprofit/"
+    ]
+  }
+}

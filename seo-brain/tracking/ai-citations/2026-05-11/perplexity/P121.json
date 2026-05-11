@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P121",
+  "prompt_text": "AI for donor research",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424710+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top AI Tools for Donor Research in Nonprofits\n\nAI is transforming donor research by analyzing vast datasets on wealth, philanthropy, and giving patterns to identify high-potential prospects, predict behaviors, and streamline outreach. Tools like predictive modeling and AI-generated profiles prioritize top donors, saving time and boosting fundraising efficiency. Below are the leading options from recent sources, focused on prospect research.\n\n#### 1. **DonorSearch Ai** (Most Advanced Predictive Modeling)\n   - **Key Features**:\n     - Customizable machine learning on the world's largest philanthropic database.\n     - Scores prospects on: Most Likely to Respond (MLR), repeat donor likelihood (81% accuracy), new donor potential, retention, upgrades, and lifetime value (up to 20x higher for targeted prospects).\n     - Processes portfolios in minutes vs. hours; integrates with 40+ CRMs.\n     - Entry-level: Enhanced CORE (visualizations, standard models); ProspectView Online 2 (AI-powered reports).\n   - **Best For**: Major gift officers needing precise prioritization and pipeline building.\n   - **Evidence**: DSAi clients report faster portfolio management and higher-value donors. Built for nonprofits, enhances (doesn't replace) existing research.\n   - **Source**: [DonorSearch.net](https://www.donorsearch.net/resources/ai-for-nonprofits/), [DonorSearch Ai page](https://www.donorsearch.net/donorsearch-ai/).\n\n#### 2. **DonorAtlas** (AI-Powered Profiles from Open Web)\n   - **Key Features**:\n     - Generates verified, cited profiles in seconds, including on-demand research for new prospects.\n     - Reduces research time by 75%; compiles lists in minutes vs. days.\n     - CRM integration for seamless workflow.\n   - **Best For**: Quick, intuitive prospect screening and connection-finding tied to missions.\n   - **Evidence**: Users praise it over other wealth screeners for speed and accuracy in identifying mission-aligned donors.\n   - **Source**: [DonorAtlas.com](https://www.donoratlas.com).\n\n#### Comparison Table: DonorSearch Ai vs. DonorAtlas\n\n| Feature                  | DonorSearch Ai                          | DonorAtlas                              |\n|--------------------------|-----------------------------------------|-----------------------------------------|\n| **Core Strength**       | Predictive scores (e.g., MLR, lifetime value) | Instant AI profiles from web data      |\n| **Data Source**         | Largest philanthropic database         | Open web (sourced, verified, cited)    |\n| **Time Savings**        | Minutes for portfolio prioritization   | 75% reduction; seconds per profile     |\n| **Customization**       | Highly (build own models)              | On-demand profiles                     |\n| **Integrations**        | 40+ CRMs                               | CRM-compatible                         |\n| **Ideal Use Case**      | Long-term donor prediction & retention | Rapid initial research & list-building |\n\n#### Additional Insights and Considerations\n- **Other Tools**: \n  - **Kindsight Intelligence**: Fundraising-specific AI for next-best actions and content, embedded in CRMs (secure, no long-term data retention). More engagement-focused but uses donor data contextually.\n  - **Fundraise Up**: AI suggests personalized donation amounts/currency based on patterns (non-PII), aiding engagement post-research.\n- **Donor Perceptions**: 82% of donors know AI, but 31% might donate less due to privacy/ethics concerns. Focus on fraud detection (48%) and efficiency (45%) wins approval; 43% see neutral/positive giving impact.\n  - **Source**: [Cherian Koshy Study](https://www.cheriankoshy.com/aistudy/).\n- **Tips for Implementation**: Start with integrations to your CRM. Combine predictive tools (e.g., DonorSearch) with profile generators (e.g., DonorAtlas) for full pipelines. AI enhances human strategy\u2014use it to prioritize, not automate outreach entirely.\n\nThese tools leverage proprietary algorithms and massive datasets for evidence-based predictions, proven by user metrics like 81% repeat donor accuracy and 20x lifetime value gains. For demos, visit the linked sites.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [
+    "https://www.donorsearch.net/donorsearch-ai/",
+    "https://www.cheriankoshy.com/aistudy/",
+    "https://www.donorsearch.net/resources/ai-for-nonprofits/",
+    "https://www.donoratlas.com"
+  ],
+  "input_tokens": 5,
+  "output_tokens": 868,
+  "estimated_cost_usd": 0.018035,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donorsearch.net/resources/ai-for-nonprofits/",
+      "https://www.donorsearch.net/donorsearch-ai/",
+      "https://www.donoratlas.com",
+      "https://www.cheriankoshy.com/aistudy/",
+      "https://fundraiseup.com/blog/5-ways-to-drive-donor-engagement-with-AI-for-nonprofits/",
+      "https://kindsight.io/kindsight-intelligence/",
+      "https://www.fidelitycharitable.org/articles/ai-tools-every-nonprofit-needs.html",
+      "https://adagetech.com/blog/utilizing-artificial-intelligence-for-fundraising-excellence/"
+    ]
+  }
+}

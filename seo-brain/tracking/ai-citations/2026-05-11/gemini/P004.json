@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P004",
+  "prompt_text": "DonorDock pricing",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424725+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock's pricing is primarily based on the **number of active constituent records** you manage in the system. They typically offer different tiers designed for various sizes of nonprofits.\n\nAs of my last update, their plans generally include:\n\n1.  **Starter Plan:**\n    *   **Best For:** Smaller organizations just getting started with donor management.\n    *   **Pricing:** Often starts around **$99 per month** for a specific number of active records (e.g., up to 1,000 records).\n    *   **Features:** Basic donor management, donation tracking, communication tools, standard support.\n\n2.  **Growth Plan:**\n    *   **Best For:** Growing organizations needing more robust features and higher record limits.\n    *   **Pricing:** Often starts around **$199 per month** for a higher number of active records (e.g., up to 2,500 - 5,000 records).\n    *   **Features:** Everything in Starter, plus more advanced features like event management, volunteer tracking, custom fields, more users, enhanced support.\n\n3.  **Impact Plan:**\n    *   **Best For:** Larger, established organizations with significant donor bases and complex needs.\n    *   **Pricing:** Often starts around **$399+ per month** for a much higher number of active records (e.g., 10,000+ records).\n    *   **Features:** Everything in Growth, plus the highest record limits, dedicated support, and often more integrations or advanced reporting capabilities.\n\n**Key things to remember about DonorDock pricing:**\n\n*   **Active Constituent Records:** This is the primary driver of cost. As your database grows, your price will increase to the next tier.\n*   **Annual vs. Monthly:** You can often save money by paying annually rather than monthly.\n*   **Onboarding/Setup Fees:** There might be a one-time onboarding or setup fee, especially for higher tiers.\n*   **Custom Quotes:** For very large organizations or specific needs, they will likely provide a custom quote.\n*   **Free Demo:** They usually offer a free demo to show you the software and discuss your specific needs.\n\n**To get the most accurate and up-to-date pricing for your specific organization, it's always best to visit the official DonorDock website or contact their sales team directly.** Prices can change, and your exact needs (number of records, specific features) will determine your final cost.",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 3,
+  "output_tokens": 532,
+  "estimated_cost_usd": 0.001331,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

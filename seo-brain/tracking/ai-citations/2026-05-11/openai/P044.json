@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P044",
+  "prompt_text": "Best donor CRM for food banks",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.423726+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the best donor CRM (Customer Relationship Management) system for food banks depends on several factors, including the size of the organization, budget, specific needs, and existing technology infrastructure. However, here are some popular CRM options that are well-suited for food banks and other non-profit organizations:\n\n1. **Salesforce for Nonprofits:** Salesforce offers a Nonprofit Success Pack (NPSP) that is highly customizable and suitable for organizations of all sizes. It helps manage donations, volunteers, and campaigns efficiently. Many food banks have successfully used Salesforce to streamline operations and donor management.\n\n2. **Bloomerang:** Bloomerang is a user-friendly platform designed for nonprofits, focusing on donor retention and engagement. It offers features like donation tracking, online giving, event management, and robust reporting.\n\n3. **Neon CRM:** This all-in-one CRM system is designed to address the unique needs of non-profits and includes tools for fundraising, event management, and donor communications. Neon CRM can integrate with various third-party applications, making it a flexible choice.\n\n4. **Kindful:** Kindful offers a comprehensive suite of fundraising tools that include donor management, online giving, and communications tools. Its platform is known for its ease of use and integration capabilities with other tools like QuickBooks and Mailchimp.\n\n5. **DonorPerfect:** DonorPerfect is known for its robust reporting and analytics capabilities, making it easy to track and manage donor relationships and fundraising efforts. It also offers customizable dashboards and integration options.\n\n6. **Little Green Light:** This is a cost-effective option that provides plenty of features suitable for small to medium-sized food banks, such as donor management, event planning, and reporting tools.\n\n7. **CiviCRM:** As an open-source CRM designed specifically for non-profits, CiviCRM is a highly customizable and cost-effective solution that can be adapted to meet specific organizational needs, including managing donors, members, and volunteers.\n\nEach of these CRM systems has its strengths, so it's essential to evaluate them based on how well they align with your food bank's specific requirements and budget. Consider aspects like ease of use, integration with existing platforms, support and training offered, and scalability to ensure the system can grow with your organization.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 451,
+  "estimated_cost_usd": 0.004542,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "prompt_id": "P065",
+  "prompt_text": "Donor CRM with pledge tracking",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424314+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs with Pledge Tracking for Nonprofits\n\nBased on the search results, several nonprofit CRMs excel at pledge tracking, offering features like visual pipelines, automated reminders, aging reports, donor profiles with dedicated pledge tabs, and integration with donation workflows. These tools centralize donor data, track pledge status (e.g., outstanding, due, fulfilled), send reminders/thank-yous, and provide reporting to ensure accountability. Here's a breakdown of the strongest options:\n\n#### 1. **LEADer CRM** (Top Recommendation for Pledge Pipelines)\n   - **Key Pledge Features**:\n     - Visual pipeline tracks each pledge/donation journey with defined next steps (e.g., initial inquiry \u2192 follow-up \u2192 fulfillment \u2192 renewal).\n     - Full visibility into donor history, tags (e.g., campaign, donor level), tasks, reminders for thank-yous/renewals.\n     - Branded receipts/acknowledgments sent directly; logs all interactions for team-wide access.\n     - Handles pledges from calls, forms, imports; ensures no missed follow-ups.\n   - **Availability**: Web, iOS, Android with cross-device sync.\n   - **Pricing**: Starts at $12.50/month (annual plan).\n   - **Best For**: Teams needing streamlined outreach and accountability.\n   - **Source**: [LEADer Nonprofit CRM](https://leader.net/pt/2026/01/14/nonprofit-crm-donor-outreach-and-pledge-tracking-in-leader/)\n\n#### 2. **DonorSnap**\n   - **Key Pledge Features**:\n     - Dedicated \"pledge tab\" per donor profile for tracking total pledged, payment frequency, due dates.\n     - Differentiates pledges from donations/recurring gifts; automated reminders (email to donors or internal notifications).\n     - Reports: Pledge Aging (categorizes overdue by 30/60/90 days), plus customizable thank-yous referencing campaign progress.\n     - Streamlines capital campaigns by logging payments and preventing missed opportunities.\n   - **Best For**: Organizations running pledge-heavy campaigns with relationship-building focus.\n   - **Source**: [DonorSnap Pledge Tracking](https://donorsnap.com/blog/pledge-tracking-with-a-nonprofit-crm/)\n\n#### 3. **Beacon CRM**\n   - **Key Pledge Features**:\n     - Tracks pledges via **Subscription** records (auto-created from forms/integrations) for recurring pledges; payments logged as they occur.\n     - **Payment** records for one-off/multi-payment pledges (e.g., quarterly); filter for outstanding/future/overdue (e.g., \"Paid? unchecked + date filters\").\n     - Specialized records for grants, legacies, major gifts.\n   - **Best For**: Flexible pledge types with easy filtering and automation.\n   - **Source**: [Beacon Guide to Tracking Pledges](https://guide.beaconcrm.org/en/articles/8695394-tracking-pledges)\n\n#### Other Strong Options with Pledge/Donor Tracking\n| CRM              | Pledge Highlights                          | Pricing/Notes                  | Source |\n|------------------|--------------------------------------------|--------------------------------|--------|\n| **Pledge.to**   | Live analytics for trends; seamless CRM integrations for donor/pledge data import. | Not specified                 | [2]   |\n| **Bloomerang**  | Tracks donor retention, gifts/pledges via timelines, segmentation, reports. | Starts at $125/month          | [5]   |\n| **DonorPerfect**| Gift & pledge tracking, moves management. | Not specified                 | [7]   |\n| **Charityproud**| Donation & pledge tracking, campaigns.    | Not specified                 | [8]   |\n| **Givebutter**  | Custom reports, data viz for performance; file uploads for pledge docs. | Free tier available           | [6]   |\n\n#### Quick Comparison & Recommendations\n- **Most Affordable/Accessible**: LEADer ($12.50/mo) or Givebutter (free options).\n- **Best for Reporting/Reminders**: DonorSnap (aging reports, dual reminder types).\n- **Most Flexible**: Beacon (custom record types/filters).\n- All integrate donor outreach, history, and automation to reduce busywork and boost retention.\n\nStart with LEADer or DonorSnap for robust, out-of-the-box pledge pipelines. Most offer demos\u2014check their sites for trials tailored to nonprofits. If you need integrations (e.g., with payment processors), Pledge.to shines. Let me know if you'd like details on a specific tool!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter"
+  ],
+  "urls_cited": [
+    "https://guide.beaconcrm.org/en/articles/8695394-tracking-pledges",
+    "https://leader.net/pt/2026/01/14/nonprofit-crm-donor-outreach-and-pledge-tracking-in-leader/",
+    "https://donorsnap.com/blog/pledge-tracking-with-a-nonprofit-crm/"
+  ],
+  "input_tokens": 7,
+  "output_tokens": 948,
+  "estimated_cost_usd": 0.019241,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://leader.net/pt/2026/01/14/nonprofit-crm-donor-outreach-and-pledge-tracking-in-leader/",
+      "https://www.pledge.to/features/donor-data-and-management",
+      "https://donorsnap.com/blog/pledge-tracking-with-a-nonprofit-crm/",
+      "https://guide.beaconcrm.org/en/articles/8695394-tracking-pledges",
+      "https://bloomerang.com/blog/donor-management-software/",
+      "https://givebutter.com/donor-management-crm",
+      "https://www.donorperfect.com",
+      "https://www.charityproud.org",
+      "https://www.bonterratech.com/blog/donor-management-software",
+      "https://www.streak.com/post/best-crm-for-nonprofits"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P024",
+  "prompt_text": "How much does nonprofit donor CRM cost",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423464+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The cost of a nonprofit donor CRM (Customer Relationship Management) system varies *widely* depending on several factors, including the size of your organization, the number of contacts/donors you have, the features you need, and the level of support desired.\n\nIt's not just a monthly subscription fee; you also need to consider one-time setup costs, training, and potential add-ons.\n\nHere's a breakdown of what to expect:\n\n### General Price Ranges (Monthly Subscription Fees, *approximate*)\n\n*   **Free or Very Low-Cost (for very small startups/basic needs):**\n    *   **$0 - $100/month:** Some platforms offer free tiers for very limited contacts/users, or primarily rely on transaction fees for donations processed through their system rather than a monthly subscription. These are often basic donor management with core fundraising tools.\n    *   *Examples:* GiveButter (mostly transaction-fee based), some very basic versions of larger CRMs, or smaller, niche tools.\n\n*   **Small to Medium Nonprofits (Growing needs):**\n    *   **$100 - $500/month:** This is where many growing nonprofits find themselves. Pricing is typically tiered based on the number of contacts (donors, volunteers, prospects) or users. These plans include essential features like donor profiles, donation tracking, basic reporting, and communication tools.\n    *   *Examples:* Bloomerang, DonorPerfect (entry to mid-tier), Kindful, NeonOne, Little Green Light, WildApricot (more focused on membership).\n\n*   **Medium to Large Nonprofits (Advanced needs):**\n    *   **$500 - $2,000+/month:** For organizations with a larger donor base, more complex fundraising strategies, multiple departments, or advanced reporting and automation needs. These plans offer features like grant tracking, robust event management, volunteer management, marketing automation integrations, wealth screening, and comprehensive analytics.\n    *   *Examples:* Salesforce Nonprofit Cloud, Blackbaud Raiser's Edge NXT (mid-tier), SalsaLabs, Virtuous.\n\n*   **Enterprise Nonprofits (Highly customized/complex needs):**\n    *   **$2,000 - $10,000+/month:** Large, complex organizations with thousands of contacts, intricate fundraising campaigns, multiple global offices, and highly specific integration or customization requirements. Often involves extensive implementation services.\n    *   *Examples:* Salesforce Nonprofit Cloud (fully customized), Blackbaud Raiser's Edge NXT (top tiers).\n\n### Factors Influencing the Cost\n\n1.  **Number of Contacts/Donors:** This is often the primary driver of subscription cost. Most CRMs charge based on tiers (e.g., up to 2,500 contacts, 2,501-5,000 contacts, etc.).\n2.  **Number of Users:** Some CRMs charge per user seat, others offer unlimited users within a tier.\n3.  **Features and Functionality:**\n    *   Basic donor management (contact info, donation history)\n    *   Fundraising tools (campaign management, peer-to-peer, online forms)\n    *   Communication tools (email marketing, segmentation)\n    *   Event management\n    *   Volunteer management\n    *   Grant tracking\n    *   Reporting and analytics\n    *   Integrations (accounting, payment processors, email, wealth screening)\n    *   Membership management\n    *   Marketing automation\n4.  **Implementation/Setup Fees (One-Time):** This can range from a few hundred dollars to tens of thousands, depending on:\n    *",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 774,
+  "estimated_cost_usd": 0.001937,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

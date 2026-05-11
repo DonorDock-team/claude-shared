@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P120",
+  "prompt_text": "AI for nonprofit grant writing",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424521+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### AI Tools for Nonprofit Grant Writing: Top Recommendations (2025-2026)\n\nAI is transforming nonprofit grant writing by automating research, drafting, alignment with funder priorities, and compliance checks\u2014boosting productivity by up to 80-90% (e.g., Pets for Patriots case via Grant Assistant). Tools trained on winning proposals excel, per MIT studies and surveys (60% of nonprofits interested, per Tapp Network/TechSoup). Below, I break down the best options from recent analyses, focusing on purpose-built platforms over general AI like ChatGPT/Claude (which require heavy prompting and lack grant-specific training).\n\n#### Top Purpose-Built AI Grant Writing Platforms\nThese integrate workflows for discovery, drafting, and management. Ranked by comprehensiveness, nonprofit focus, and user-reported wins.\n\n| Platform | Key Strengths | Pricing/Plans | Best For | Evidence/Examples |\n|----------|---------------|---------------|----------|-------------------|\n| **Grantboost** (#1 overall per 2025 tests) | Full workflow: AI proposal generation, funder research from 990s/RFPs, custom prompts, 3.5M+ words processed monthly by 5K+ teams. Human-AI framework for planning/research/drafting/editing. | Paid (starts low for nonprofits); free trial. | Transforming entire process; teams seeking efficiency. | Outperforms generics; serves 5K+ nonprofits. |\n| **Grant Assistant (by FreeWill)** | Trained on 7K+ winning proposals; generates funder-aligned drafts/outlines, summarizes opportunities for go/no-go, refines tone/voice, team collaboration. 80-90% time reduction. | Paid; nonprofit-focused pricing. | Drafting high-quality proposals fast; maintaining org voice. | Pets for Patriots won $30K in first month. |\n| **Instrumentl Apply** | Combines AI drafting with grant discovery/tracking; RFP-based narratives, formatting, real funder data integration. | Higher price; free tier limited. | End-to-end workflow (research + writing + management). | Top-rated for advanced AI tied to funder data. |\n| **Vee (Grant AI Agent)** | Finds opportunities, writes proposals, manages pipeline. | Paid. | Nonprofits scaling submissions. | Streamlines from search to submit. |\n| **Granted AI** | Searches 133K+ foundations/federal/state grants; drafts proposals. | Paid. | Broad discovery + drafting. | Covers \"every grant in existence.\" |\n| **Grantable** | Learns your org/funders over time; AI \"coworker\" for management. | Paid. | Repeat users building long-term efficiency. | Adapts with use. |\n| **GrantOrb** | Guided \"wizard\" builder, eligibility checks, templates. | Paid (pricing TBD). | Newer writers/emerging nonprofits. | Step-by-step structure. |\n\n#### General AI Tools (Free/Supplemental)\n- **Gemini (Google)**: Good for data viz, idea brainstorming, Sheets/Docs integration. Prompt carefully (e.g., \"Analyze this RFP for priorities\").\n- **ChatGPT/Claude**: Flexible for research/summaries/refining content, but not grant-trained\u2014use for simple tasks, always review.\n\n#### Best Practices for Using AI in Grant Writing\nFollow a human-AI framework (from Grantboost):\n- **Planning**: Human sets strategy; AI suggests from successful grants.\n- **Research**: AI scans 990s/RFPs for funder fit (e.g., prompt: \"Summarize priorities from this foundation's awards\").\n- **Drafting**: AI generates outlines/sections; human adds context.\n- **Editing**: AI refines clarity/tone; human verifies accuracy.\n- **Finalization**: Human ensures voice/compliance.\n\n**Pro Tips**:\n- Start with purpose-built tools for 2-5x faster wins.\n- Prompt effectively: \"Think step-by-step; list assumptions; match funder tone.\"\n- Always edit AI output\u2014funders reject generic/misaligned proposals.\n- Stack tools: Grantboost for core + Gemini for visuals.\n\nNonprofits adopting these report higher win rates and less burnout. Test free trials to match your needs. For specifics, share your org's focus/mission!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 887,
+  "estimated_cost_usd": 0.018323,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.grantassistant.ai/resources/articles/ai-grant-writing",
+      "https://www.nonprofits.freewill.com/resources/blog/ai-grant-writing-tools",
+      "https://www.grantboost.io/blog/Best-AI-Tools/",
+      "https://www.instrumentl.com/blog/best-ai-for-grant-writing",
+      "https://guides.library.ttu.edu/grant",
+      "https://www.grantable.co",
+      "https://www.vee.com/grant",
+      "https://www.youtube.com/watch?v=hMCmcIMkI8U",
+      "https://grantedai.com"
+    ]
+  }
+}

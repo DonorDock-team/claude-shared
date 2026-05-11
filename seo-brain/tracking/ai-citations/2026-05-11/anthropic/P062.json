@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P062",
+  "prompt_text": "Best nonprofit CRM with email and text messaging",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.423684+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Nonprofit CRMs with Email & Text Messaging\n\n## Top Recommendations\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- **Strengths:** Donor retention focus, built-in email marketing, SMS add-on available\n- **Price:** ~$125-$400/month\n- **Email & SMS:** Native email builder, integrates with SMS providers\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger nonprofits with complex needs\n- **Strengths:** Highly customizable, robust features, Power of Us program (10 free licenses)\n- **Price:** Free for qualifying nonprofits (10 licenses), then discounted pricing\n- **Email & SMS:** Via Marketing Cloud or third-party integrations (Twilio, ClickSend)\n\n### **3. Kindful (by Bloomerang)**\n- **Best for:** Growing nonprofits\n- **Strengths:** Strong email automation, donor segmentation\n- **Price:** ~$100-$300/month\n- **Email & SMS:** Native email, SMS through integrations\n\n### **4. Neon CRM**\n- **Best for:** All-in-one solution seekers\n- **Strengths:** Email marketing included, event management, membership tools\n- **Price:** ~$50-$200/month\n- **Email & SMS:** Built-in email campaigns, SMS via add-ons\n\n### **5. DonorPerfect**\n- **Best for:** Established nonprofits\n- **Strengths:** Robust reporting, integrated email marketing (ConstantContact partnership)\n- **Price:** ~$89-$500/month\n- **Email & SMS:** Email included, SMS integrations available\n\n## Key Decision Factors\n- **Budget**: Smaller orgs \u2192 Neon CRM or Bloomerang\n- **Customization needs**: High \u2192 Salesforce\n- **Ease of use**: Bloomerang or Kindful\n- **All-in-one**: Neon CRM\n\nWhat's your organization's size and budget range?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 484,
+  "estimated_cost_usd": 0.007308,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

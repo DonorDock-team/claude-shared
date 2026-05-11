@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423968+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Givebutter both serve the nonprofit sector, but they approach fundraising and donor management from different angles, with distinct core strengths and pricing models.\n\nHere's a breakdown to help you decide which is better for your organization:\n\n---\n\n## Executive Summary (TL;DR)\n\n*   **Givebutter:** Best for organizations needing a **modern, free-to-start online fundraising platform** with diverse campaign types (crowdfunding, peer-to-peer, events, auctions). Its CRM is functional for tracking data *from its own platform*, but less comprehensive for holistic donor management across all channels.\n*   **DonorDock:** Best for organizations needing a **comprehensive, paid donor management system (CRM)** that integrates fundraising efforts, provides deep donor insights, and helps build long-term relationships through robust tracking, segmentation, and stewardship tools.\n\n---\n\n## Givebutter\n\n**Core Focus:** Modern online fundraising campaigns and event management.\n\n**What it is:** Givebutter is an all-in-one fundraising platform designed to help nonprofits create engaging and effective online campaigns quickly. It excels at facilitating various types of fundraising, from simple donation pages to complex peer-to-peer campaigns, events, and auctions. Its primary draw is its \"free\" model (it relies on donor tips to cover transaction fees).\n\n**Key Features:**\n*   **Campaigns:** Crowdfunding, Peer-to-Peer, Event Ticketing, Auctions (silent & live), Live Streams.\n*   **Donor Engagement:** Built-in email & text messaging, supporter feeds, fundraising pages, donation forms.\n*   **Event Management:** Ticketing, guest list management, virtual and hybrid event support.\n*   **Basic CRM:** Tracks donors, donations, and campaign interactions specifically within the Givebutter ecosystem.\n*   **Reporting:** Campaign-specific reports.\n*   **Integrations:** Connects with some popular tools like Salesforce, Zapier, Mailchimp.\n\n**Pros:**\n*   **Cost-Effective:** Free to start, with transaction fees typically covered by donor tips (or absorbed by the organization if tips aren't enough).\n*   **User-Friendly & Modern UI:** Very intuitive and visually appealing for both organizers and donors.\n*   **Versatile Campaign Types:** Excellent for launching a wide variety of engaging online fundraisers.\n*   **Quick Setup:** Can get a campaign up and running very quickly.\n*   **Good for Engagement:** Built-in communication tools make it easy to interact with supporters during campaigns.\n\n**Cons:**\n*   **Limited CRM Depth:** While it has donor management features, it's primarily focused on transactional data from its own platform. It may not provide a holistic view of all donor interactions (e.g., offline donations, volunteer hours, direct mail appeals) unless manually imported.\n*   **Reliance on Tips:** While \"free,\" the model relies on donors covering fees, which can feel less predictable or professional for some organizations.\n*   **Less Focus on Stewardship:** Its strengths are in acquisition and campaign execution, less so in deep, long-term donor stewardship strategies (compared to a dedicated CRM).\n\n**Best For:**\n*   New or small nonprofits with tight budgets.\n*   Organizations heavily reliant on modern online fundraising, peer-to-peer campaigns, and virtual events.\n*   Those needing a quick, easy, and aesthetically pleasing way to launch specific campaigns.\n*   Organizations that are less concerned with a deeply integrated, single source of truth for all donor data across all channels.\n\n---\n\n## DonorDock\n\n**Core Focus:** Comprehensive donor management (CRM) and building long-",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 754,
+  "estimated_cost_usd": 0.001886,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

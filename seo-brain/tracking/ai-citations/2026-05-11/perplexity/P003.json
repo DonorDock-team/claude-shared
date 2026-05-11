@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P003",
+  "prompt_text": "DonorDock reviews",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424483+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### DonorDock Reviews Summary (2026)\n\nDonorDock is a donor management CRM tailored for small to mid-sized nonprofits, praised for its simplicity, affordability (starting at $89/month), and strong customer support. It excels in core fundraising tasks like donor tracking, email campaigns, reporting, and automations (e.g., Action Board for reminders and Otto for personalized messaging). However, it lacks advanced features like volunteer management, event ticketing, or deep customization, making it less ideal for complex needs.\n\n#### Key Pros from User Reviews\n| Pros | Details from Reviews (G2, Capterra, TrustRadius) |\n|------|-------------------------------------------------|\n| **Ease of Use** | \"Super intuitive\" and \"user-friendly even for non-tech-savvy teams.\" Streamlines donor tracking, campaigns, and data organization. Quick setup with clean interface. |\n| **Customer Support** | \"Unmatched,\" \"life-changing,\" \"responsive and patient.\" Fast responses, helpful tips, and genuine care noted across reviews. |\n| **Core Features** | Action Board for timely stewardship; Otto AI for messaging; easy reporting/customization; email blasts; integrations (e.g., Stripe, GiveButter). \"Game-changer for efficiency.\" |\n| **Value** | Affordable vs. competitors like Neon CRM ($500+/month). No contact limits, no hidden fees for nonprofits. \"Best for our size.\" |\n| **Overall Ratings** | G2: High praise for basics; Capterra: 8/10 likelihood to recommend; TrustRadius: \"Intuitive and powerful,\" \"Great features, great price.\" |\n\n#### Key Cons from User Reviews\n| Cons | Details from Reviews |\n|------|----------------------|\n| **Limited Advanced Features** | No volunteer management, ticket sales, event auctions, or deep customization. \"Jack-of-all-trades but not best-in-class.\" |\n| **Data Management Issues** | Household linking and duplicate cleanup challenging, especially post-integrations. Hard to find in-app help for new users. |\n| **Scalability** | Best for small/medium orgs; may need supplements for marketing automation or program management. |\n\n#### Notable Quotes\n- **Positive**: \"DonorDock makes my fundraising more streamlined... like having a Development Assistant!\" (G2)\n- **Balanced**: \"Great product for us\u2014ease of use and solving our problems. No complaints for our size.\" (Capterra)\n- **Comparison**: Superior to Neon CRM in usability and support at a fraction of the cost; users switching from pricier, clunky systems love it.\n\nSources: Aggregated from G2 (top reviews), Capterra, TrustRadius, and comparison sites like DonorDock's Neon CRM page. Reviews emphasize it's ideal for nonprofits prioritizing simplicity over bells-and-whistles. For demos/pricing, check donordock.com.",
+  "donordock_mentioned": true,
+  "donordock_position": 4,
+  "competitors_mentioned": [
+    "Givebutter",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 591,
+  "estimated_cost_usd": 0.01388,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.g2.com/products/donordock/reviews",
+      "https://www.g2.com/products/donordock/reviews?qs=pros-and-cons",
+      "https://www.capterra.com/p/184187/DonorDock/",
+      "https://designbycosmic.com/guides/nonprofit-branding/donordock/",
+      "https://www.trustradius.com/products/donordock/reviews",
+      "https://www.donordock.com/compare/neon-crm-vs-donordock",
+      "https://www.glassdoor.com/Reviews/DonorDock-Reviews-E3971640.htm",
+      "https://www.featuredcustomers.com/vendor/donordock/testimonials",
+      "https://www.softwareadvice.com/nonprofit/donordock-profile/"
+    ]
+  }
+}

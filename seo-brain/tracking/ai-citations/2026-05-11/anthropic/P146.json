@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P146",
+  "prompt_text": "Best donor CRM with grant tracking",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.422301+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs with Grant Tracking\n\n## Top Recommendations\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large nonprofits with complex needs\n- **Grant tracking:** Robust grant management with customizable pipelines, reporting deadlines, and deliverables\n- **Pricing:** Starting ~$36/user/month\n- **Pros:** Highly customizable, extensive integrations, comprehensive reporting\n- **Cons:** Steep learning curve, requires implementation support\n\n### **2. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- **Grant tracking:** Built-in grant tracking with deadline reminders and reporting requirements\n- **Pricing:** Starting ~$125/month\n- **Pros:** User-friendly, excellent donor retention focus, strong support\n- **Cons:** Limited customization compared to Salesforce\n\n### **3. Foundant (GrantHub)**\n- **Best for:** Grant-focused organizations\n- **Grant tracking:** Purpose-built for grants with application tracking, compliance, and reporting\n- **Pricing:** Starting ~$99/month\n- **Pros:** Grant-specific features, collaboration tools, document management\n- **Cons:** Less robust for individual donor management\n\n### **4. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established nonprofits with diverse revenue streams\n- **Grant tracking:** Comprehensive grant management module\n- **Pricing:** Custom pricing (typically higher-end)\n- **Pros:** Industry standard, extensive features, strong reporting\n- **Cons:** Expensive, can be complex\n\n## Key Features to Look For\n- Deadline/renewal tracking\n- Document storage\n- Reporting requirement management\n- Funder relationship history\n- Integration with accounting software\n\n**What's your organization's size and primary focus?** This will help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 422,
+  "estimated_cost_usd": 0.006372,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

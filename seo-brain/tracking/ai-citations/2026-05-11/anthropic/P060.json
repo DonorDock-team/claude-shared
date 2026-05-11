@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.423324+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM with Recurring Giving\n\nI'll help you understand donor CRMs with recurring giving capabilities. Here's what you need to know:\n\n## **Top Donor CRMs with Recurring Giving**\n\n### **Best Overall Options**\n\n1. **Bloomerang**\n   - Strong recurring gift management\n   - Automated payment processing\n   - Donor retention focus\n   - Price: ~$125-$500/month\n\n2. **Kindful (by Bloomerang)**\n   - Flexible recurring donation schedules\n   - Integrated payment processing\n   - Good for small-to-mid sized nonprofits\n   - Price: ~$100-$300/month\n\n3. **Donorbox**\n   - Easy recurring donation setup\n   - Low fees (1.5% platform + processing)\n   - Embeddable forms\n   - Good for organizations of all sizes\n\n4. **Keela**\n   - Automated recurring gift tracking\n   - Smart automation features\n   - Price: ~$119-$299/month\n\n### **Enterprise Options**\n\n- **Salesforce Nonprofit Cloud** - Highly customizable, requires more setup\n- **Blackbaud Raiser's Edge NXT** - Comprehensive but expensive\n- **NeonCRM** - Good mid-tier option\n\n## **Key Features to Look For**\n\n\u2705 Automated payment processing  \n\u2705 Customizable giving schedules (monthly, quarterly, annual)  \n\u2705 Failed payment retry logic  \n\u2705 Donor communication automation  \n\u2705 Upgrade/downgrade capabilities  \n\u2705 Reporting on recurring revenue  \n\u2705 Integration with accounting software  \n\n## **What's your context?**\n- Organization size?\n- Current donor database size?\n- Budget range?\n- Specific features needed?\n\nI can provide more tailored recommendations!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "Keela",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 425,
+  "estimated_cost_usd": 0.006417,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.422729+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for International NGOs\n\nInternational NGOs require donor CRMs with robust multi-currency support, global compliance (e.g., GDPR, data localization), multi-language capabilities, international payment gateways, and scalable features for cross-border fundraising, volunteer coordination, and reporting. Based on 2026 analyses from sources like Double the Donation, Bloomerang, G2, and specialized nonprofit guides, here are the standout options. I prioritized those explicitly suited for global operations, excluding US-centric tools without strong international evidence.\n\n#### 1. **Salesforce Nonprofit Cloud** (Top Recommendation for Scale)\n   - **Why ideal for international NGOs**: Handles unlimited currencies, 200+ languages, and global data residency. Integrates with international processors like Stripe Global, PayPal, and Worldpay. Excels in constituent management across regions, with AI-driven insights for donor segmentation and compliance tracking.\n   - **Key features**: Customizable dashboards, grant tracking, volunteer management, and API integrations for 1,000+ tools.\n   - **Pricing**: Starts at ~$36/user/month (nonprofit discounts available); free for small orgs via Power of Us Hub.\n   - **Evidence**: Ranked #1 in G2's 2026 nonprofit CRM list [7] and featured in Ellipsis Partners' favorites [5] for enterprise-level international use.\n   - **Best for**: Large NGOs like UNHCR or Oxfam needing enterprise scalability.\n\n#### 2. **Raiser's Edge NXT (Blackbaud)**\n   - **Why ideal**: Supports multi-currency donations, international addressing, and GDPR-compliant reporting. Strong in global fundraising with built-in wealth screening and prospecting for international donors.\n   - **Key features**: Advanced analytics, event management, and integrations with global payment systems.\n   - **Pricing**: Custom quotes; ~$500+/month for mid-sized orgs.\n   - **Evidence**: G2 highlights it as a \"long-term operational system\" for centralized management [7]; top pick in Ellipsis [5] and Goodera's guide [4].\n   - **Best for**: Mid-to-large NGOs with complex global donor bases.\n\n#### 3. **Bonterra (formerly EveryAction)**\n   - **Why ideal**: Multi-currency, multi-language support, and tools for international advocacy campaigns. Processes donations in 100+ countries via integrations.\n   - **Key features**: Donor engagement scoring, automated workflows, and peer-to-peer fundraising.\n   - **Pricing**: Starts at ~$500/month.\n   - **Evidence**: Listed in top 14 by Kindsight [1], 22 by Double the Donation [2], and Ellipsis [5].\n   - **Best for**: Advocacy-focused NGOs with global campaigns.\n\n#### 4. **iXiam CRM**\n   - **Why ideal**: Specifically built for charities/NGOs with a focus on digital transformation in international contexts. Supports multi-currency, GDPR, and localized data storage for EU/Asia ops.\n   - **Key features**: Custom NGO modules for fundraising, impact reporting, and volunteer portals.\n   - **Pricing**: Custom; tailored for NGOs.\n   - **Evidence**: Dedicated page for \"CRM for Charities and NGOs\" emphasizing global digital transformation [8].\n   - **Best for**: EU/Asia-based NGOs seeking specialized international support.\n\n#### Comparison Table\n\n| CRM                  | Multi-Currency | Languages Supported | Global Payments | Starting Price | Best Scale     |\n|----------------------|----------------|---------------------|-----------------|---------------|----------------|\n| **Salesforce NPC**  | Yes (unlimited)| 200+               | Yes (Stripe, etc.) | ~$36/user/mo | Enterprise    |\n| **Raiser's Edge NXT**| Yes           | Multi              | Yes             | ~$500/mo     | Large         |\n| **Bonterra**        | Yes           | Multi              | Yes             | ~$500/mo     | Mid-large     |\n| **iXiam**           | Yes           | Multi (GDPR focus) | Yes             | Custom       | Mid-global    |\n\n#### Quick Selection Guide\n- **Budget under $1K/month + growth needs**: Start with Salesforce (free tier scales well).\n- **Enterprise compliance heavy**: Raiser's Edge or Salesforce.\n- **Europe/Asia focus**: iXiam or Bonterra.\n- **Avoid for international**: Bloomerang, DonorPerfect, Neon One\u2014strong for US nonprofits per [1][2][5][6] but lack emphasized global features.\n\n**Next steps**: Demo Salesforce or iXiam first, as they offer nonprofit-specific international trials. Check for your NGO's region-specific integrations (e.g., SEPA for EU). Sources updated for 2026 trends [1-8].",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 987,
+  "estimated_cost_usd": 0.019826,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://www.goodera.com/blog/best-crms-for-nonprofits-the-complete-guide-for-nonprofit-organizations",
+      "https://www.ellipsispartners.com/donation-crms-for-nonprofits/",
+      "https://bloomerang.com/blog/donor-management-software/",
+      "https://learn.g2.com/best-crm-for-nonprofits",
+      "https://ixiam.com/en/charities-and-ngos/"
+    ]
+  }
+}

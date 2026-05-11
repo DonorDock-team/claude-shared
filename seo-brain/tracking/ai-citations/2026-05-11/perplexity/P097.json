@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P097",
+  "prompt_text": "Hidden costs of Network for Good",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423610+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Overview of Network for Good Pricing\nNetwork for Good (now part of Bonterra) does not publicly list exact pricing on its website, requiring a demo for quotes. Base costs typically start at **$200\u2013$400/month** (billed annually), scaling with contact volume (e.g., $200 for up to 1,000 contacts, $300 for 5,000, $400 for 10,000) [5]. All plans include a **3% platform/transaction fee** on donations, plus standard payment processor fees like **2.9% + $0.30** per credit card transaction via Stripe [1][2][3][5]. However, multiple sources highlight **hidden or unexpected costs** that inflate the total beyond advertised rates.\n\n### Key Hidden Costs\nThese are frequently cited in comparisons and reviews, often discovered post-signup or during sales demos:\n\n| Hidden Cost | Description | Estimated Impact | Sources |\n|-------------|-------------|------------------|---------|\n| **Transaction/Platform Fees** | 3\u20135% per donation (on top of processor fees); not always clear upfront. Varies by plan/feature (e.g., higher on branded pages). | For $500K annual donations at 2.5%, adds **$12,500/year** beyond subscription. | [1][2][3][4][5] |\n| **Tiered Pricing Escalation** | Costs rise with contacts/features; essentials may lock out key tools (e.g., no grant management at any tier). | Plans jump from $200 to $400+; add-ons like coaching ($250/month) or event tickets ($1 after 50). | [1][2][4][5] |\n| **Long Contracts & Renewal Traps** | 36-month contracts; post-2022 Bonterra acquisition changed terms, support, and naming. Auto-renewals with hikes. | Locked in for years; switching incurs migration fees/data issues. | [2][4] |\n| **Post-Signup Fees** | \"Hidden fees\" added after 12-month subscriptions; setup, migration, or compliance tools require extras. | Disrupts budgets; e.g., restricted fund tracking needs separate software. | [1][4] |\n| **Implementation Overheads** | No transparent year-1 costs; includes data migration (2\u20133 weeks delay), training, and ongoing exports/reconciliation. | Adds labor/process costs beyond subscription (e.g., spreadsheets for grants). | [4] |\n| **Processor Variability** | Stripe (2.9% + $0.30) or PayPal (1.99% + $0.49), totaling $220\u2013$800+/month combined. | Opaque until demo; totals exceed alternatives like Donately ($220\u2013$689). | [5] |\n\n**Exceptions**: Facebook fundraising via Network for Good has **zero fees for nonprofits** (Meta covers all processing) [6].\n\n### Evidence from Comparisons\n- **Lack of Transparency**: Pricing hidden behind demos; competitors like Zeffy/DonorDock emphasize \"no hidden fees\" vs. Network's opacity [1][2][3].\n- **User Reports**: Reviews note fees \"adding up quickly\" and surprises post-subscription [1][4].\n- **Total Cost of Ownership**: Model as subscription + transactions + implementation. E.g., $300/month base + 3% on $500K donations = ~$21K/year, plus extras [2][4][5].\n- **Historical Context**: Older claims of \"low-cost\" ($1 invested yields $6 return) from 2005 are outdated amid Bonterra changes [7].\n\nFor accurate quotes, request a demo and ask for **total cost of ownership** (subscription + fees at your donation volume + contracts). Alternatives like Zeffy (0% fees) or DonorDock (1% + $500/month flat) often cited as cheaper [2][3].",
+  "donordock_mentioned": true,
+  "donordock_position": 2522,
+  "competitors_mentioned": [
+    "Bonterra",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 816,
+  "estimated_cost_usd": 0.017261,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://betterworld.org/fundraising-guides/network-for-good-alternatives/",
+      "https://www.donordock.com/compare/network-for-good-vs-donordock",
+      "https://www.zeffy.com/compare/network-for-good-vs-wonderful",
+      "https://grantpipe.com/compare/pricing/network-for-good/",
+      "https://www.donately.com/compare/network-for-good-vs-donately",
+      "https://www.goodunited.io/blog/network-for-good-facebook",
+      "https://sandbox.networkforgood.org/npo/about/press/fact_sheet.aspx",
+      "https://www.capterra.com/p/111128/Bonterra-Guided-Fundraising/"
+    ]
+  }
+}

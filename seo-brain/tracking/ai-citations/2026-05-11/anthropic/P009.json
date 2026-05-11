@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.423844+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Givebutter Comparison\n\nBoth are modern fundraising platforms, but they serve different needs. Here's a breakdown:\n\n## **Givebutter**\n\n### Strengths:\n- **Free platform** (no monthly fees, optional tip model)\n- Excellent for **campaigns, events, and peer-to-peer fundraising**\n- Beautiful, modern donation forms and campaign pages\n- Strong social fundraising features\n- Great for smaller nonprofits or those just starting\n- Easy to use with minimal learning curve\n\n### Limitations:\n- Less robust donor management/CRM features\n- Limited customization for complex needs\n- Fewer advanced reporting capabilities\n\n## **DonorDock**\n\n### Strengths:\n- **Full-featured donor CRM** with relationship management focus\n- Better for **ongoing donor stewardship and communications**\n- More comprehensive reporting and analytics\n- Task management and workflow automation\n- Better for organizations with complex donor relationships\n- More affordable than traditional CRMs like Bloomerang or DonorPerfect\n\n### Limitations:\n- Monthly subscription cost (~$99-199/month typically)\n- Steeper learning curve\n- Less flashy campaign/event pages compared to Givebutter\n\n## **Which to Choose?**\n\n- **Choose Givebutter if:** You need campaign/event fundraising tools, want free software, or are a smaller organization\n- **Choose DonorDock if:** You need serious donor management, track complex relationships, or have outgrown spreadsheets\n\n**Pro tip:** Some organizations use **both** - Givebutter for campaigns and DonorDock for donor management.\n\nWhat's your primary need - fundraising campaigns or donor relationship management?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 386,
+  "estimated_cost_usd": 0.005841,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

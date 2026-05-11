@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.422081+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Track Donor Pledges\n\n## 1. **Choose Your Tracking Method**\n\n### Spreadsheet (Simple & Free)\n- **Excel or Google Sheets** work well for small organizations\n- Create columns for:\n  - Donor name and contact info\n  - Pledge amount\n  - Pledge date\n  - Payment schedule\n  - Amount paid to date\n  - Balance remaining\n  - Payment due dates\n  - Notes/restrictions\n\n### Donor Management Software\n- **QuickBooks** (accounting + basic tracking)\n- **Bloomerang, DonorPerfect, Little Green Light** (nonprofit-focused)\n- **Salesforce Nonprofit Cloud** (comprehensive CRM)\n\n## 2. **Essential Information to Record**\n\n- **Donor details**: Name, address, phone, email\n- **Pledge specifics**: Total amount, date made, purpose/restriction\n- **Payment terms**: Installment schedule, frequency, end date\n- **Documentation**: Signed pledge card or written confirmation\n- **Acknowledgment**: Thank you letter sent (date)\n- **Payment history**: Date and amount of each payment received\n\n## 3. **Best Practices**\n\n### Regular Follow-Up\n- Send **friendly reminders** before payments are due\n- Provide **progress updates** on funded projects\n- Make payment convenient (online options, auto-pay)\n\n### Reconciliation\n- Match payments to pledges **weekly or monthly**\n- Generate aging reports to track overdue pledges\n- Update records immediately when payments arrive\n\n### Documentation\n- Keep **signed pledge forms** when possible\n- Send acknowledgment letters for tax purposes\n- Note any changes to payment schedules\n\n## 4. **Simple Spreadsheet Template**\n\n| Donor Name | Email | Pledge Amount | Pledge Date | Payment Schedule | Paid to Date | Balance | Next Due Date | Status |\n|------------|-------|---------------|-------------|------------------|--------------|---------|---------------|--------|\n\nWould you like help setting up a specific system for your organization?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 455,
+  "estimated_cost_usd": 0.006864,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

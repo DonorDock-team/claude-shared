@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424762+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for a CRM similar to Salesforce but tailored for nonprofits, the most direct and often best answer **is Salesforce itself**, specifically its **Nonprofit Cloud (formerly known as the Nonprofit Success Pack or NPSP)**.\n\nHere's why and other strong contenders:\n\n---\n\n### 1. Salesforce Nonprofit Cloud (NPSP)\n\n*   **Why it's the most similar:** Because it *is* Salesforce. It's built directly on the core Salesforce platform, meaning it inherits all the power, flexibility, AppExchange ecosystem, and customization capabilities that make Salesforce so robust. It leverages the same user interface, reporting tools, and underlying architecture.\n*   **What it offers for nonprofits:**\n    *   **Donor Management:** Tracks individual donors, households, organizations, and their giving history.\n    *   **Fundraising:** Manages donations (one-time, recurring), pledges, grants, campaigns, and appeals.\n    *   **Relationship Management:** Connects constituents (donors, volunteers, program participants) to their households and organizations.\n    *   **Program Management:** (Often requires some customization or AppExchange partners) Helps track beneficiaries, services delivered, and program outcomes.\n    *   **Volunteer Management:** (Often via AppExchange partners) Organizes volunteer sign-ups, shifts, and hours.\n    *   **Event Management:** (Often via AppExchange partners) Streamlines event registration and attendance tracking.\n    *   **Reporting & Analytics:** Provides powerful tools to analyze fundraising performance, donor trends, and impact.\n    *   **AppExchange:** Access to thousands of third-party apps for specialized needs (email marketing, accounting integration, advanced analytics, etc.).\n*   **Pricing:** Salesforce offers 10 free licenses to qualified nonprofits and significant discounts on additional licenses and products.\n\n---\n\n### Other Strong Contenders (True Alternatives)\n\nIf you're looking for something *not* Salesforce but with similar comprehensive capabilities, here are top options:\n\n2.  **Blackbaud (Raiser's Edge NXT, Luminate CRM):**\n    *   **Similarities to Salesforce:** Blackbaud is arguably the most established and largest provider of software for nonprofits. Their flagship products like **Raiser's Edge NXT** and **Luminate CRM** offer comprehensive fundraising, donor management, marketing, and reporting capabilities. They have a vast ecosystem of integrated solutions (financials, grant management, peer-to-peer fundraising, etc.).\n    *   **Key Differences:** Blackbaud's solutions are often more purpose-built from the ground up specifically for nonprofits, whereas Salesforce adapts a general CRM platform. The user interface and underlying architecture are different. Raiser's Edge NXT is a cloud-based evolution of their long-standing desktop product.\n\n3.  **Microsoft Dynamics 365 for Nonprofits:**\n    *   **Similarities to Salesforce:** Like Salesforce, Dynamics 365 is a powerful enterprise-grade CRM platform that can be tailored for nonprofits. It offers sales, service, and marketing modules that can be configured for donor relations, volunteer management, and program tracking. It integrates seamlessly with other Microsoft products (Office 365, Power BI).\n    *   **Key Differences:** It's Microsoft's ecosystem vs. Salesforce's. It may require more upfront customization to get to a nonprofit-specific solution compared to Salesforce Nonprofit Cloud's out-of-the-box configuration.\n\n---\n\n### Other Notable",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 721,
+  "estimated_cost_usd": 0.001805,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

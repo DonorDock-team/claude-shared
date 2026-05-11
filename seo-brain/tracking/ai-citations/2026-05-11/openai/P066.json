@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P066",
+  "prompt_text": "Donor CRM with campaign and appeal tracking",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.424458+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A Donor CRM (Customer Relationship Management) system with campaign and appeal tracking is a tool specifically designed for non-profit organizations, charities, and other entities that rely on donations. It helps manage relationships with donors, track contributions, and evaluate the success of fundraising efforts. Below are the key features and benefits of such a system:\n\n### Key Features:\n\n1. **Donor Management:**\n   - Maintain comprehensive donor profiles with contact information, giving history, preferences, and communication logs.\n   - Segment donors based on various criteria like donation frequency, amount, or engagement level.\n\n2. **Campaign Tracking:**\n   - Create, manage, and track fundraising campaigns.\n   - Set goals and monitor progress in real-time.\n   - Analyze the performance of campaigns with detailed reports and dashboards.\n\n3. **Appeal Tracking:**\n   - Design and manage multiple appeals within a campaign.\n   - Track the effectiveness of different appeals by response rates and donations received.\n   - Customize appeals based on donor segments to increase relevancy and response.\n\n4. **Fundraising Analytics:**\n   - Generate detailed reports on donation trends, donor retention, and campaign performance.\n   - Use predictive analytics to identify potential major donors and plan future campaigns.\n\n5. **Communication Tools:**\n   - Facilitate email, direct mail, and social media communication directly from the CRM.\n   - Keep track of all donor interactions to personalize future communications.\n\n6. **Integration:**\n   - Integrate with payment gateways to process donations securely.\n   - Sync with other platforms like email marketing tools, accounting software, and event management systems.\n\n7. **Event Management:**\n   - Plan and manage fundraising events, track attendees, and link event participation to donor records.\n\n8. **Volunteer Management:**\n   - Track volunteer activities and hours, and manage volunteer communication.\n\n9. **Donor Self-Service:**\n   - Provide donors with a portal to view their donation history, update their contact details, and manage their communications preferences.\n\n10. **Compliance and Security:**\n    - Ensure data is handled in compliance with relevant regulations like GDPR or HIPAA.\n    - Implement strong security measures to protect sensitive donor information.\n\n### Benefits:\n\n- **Improved Donor Relationships:** By having a complete view of your donors, you can tailor your communications and engage more personally and effectively.\n- **Enhanced Fundraising Efficiency:** Streamline the entire fundraising process, and focus on strategies that yield the best results.\n- **Data-Driven Decision Making:** Use data insights to drive strategic decisions that enhance donor engagement and campaign success.\n- **Time and Cost Saving:** Automation of manual processes and efficient database management saves time and reduces overhead costs.\n- **Better Donor Retention:** By tracking interactions and preferences, you can improve donor satisfaction and increase retention.\n\nWhen selecting a Donor CRM system, look for features that align with your organization\u2019s specific needs, consider the scalability of the software, and ensure there\u2019s adequate support and training available. Popular donor CRM options include Salesforce Nonprofit Cloud, Blackbaud Raiser\u2019s Edge, and Bloomerang.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 618,
+  "estimated_cost_usd": 0.006217,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

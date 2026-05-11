@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P045",
+  "prompt_text": "Best donor CRM for private schools and education",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423978+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a private school involves balancing specific needs like managing alumni relations, parent giving, capital campaigns, and integrating with other school systems (admissions, student information system).\n\nHere's a breakdown of top contenders, categorized by their strengths, along with key features to consider:\n\n## Top Donor CRMs for Private Schools and Education\n\n### 1. Blackbaud (The Education Fundraising Powerhouse)\n\nBlackbaud is the dominant player in non-profit and education fundraising, offering a suite of products.\n\n*   **Raiser's Edge NXT:**\n    *   **Pros:** Industry standard for fundraising, incredibly robust for gift processing, moves management, reporting, and analytics. Strong integration with other Blackbaud products (like Financial Edge NXT, Altru, and their K-12/Higher Ed specific solutions). Large user community and extensive resources. Excellent for complex campaigns and large endowments.\n    *   **Cons:** Can be expensive, has a steeper learning curve, and the interface can feel less modern than some newer platforms. Support quality can be inconsistent.\n    *   **Best For:** Most private schools, especially mid to large-sized institutions that need a comprehensive, scalable, and dedicated fundraising solution. Schools that already use other Blackbaud products will benefit most from seamless integration.\n\n*   **Blackbaud K-12 Solutions (formerly Blackbaud Education Management):**\n    *   **Pros:** Offers a comprehensive suite that includes admissions, student information system (SIS), learning management (LMS), and **fundraising/alumni management** all under one roof. This integrated approach is a huge plus for private schools as it creates a single source of truth for constituents.\n    *   **Cons:** The fundraising module might be less feature-rich than Raiser's Edge NXT as a standalone, but its integration with the core school operations is its strength. Can be very expensive for the full suite.\n    *   **Best For:** K-12 private schools looking for a truly unified school",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 418,
+  "estimated_cost_usd": 0.001047,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

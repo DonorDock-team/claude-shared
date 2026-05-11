@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P119",
+  "prompt_text": "AI to draft donor thank you letters",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.424280+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Certainly! Here\u2019s a template for creating a donor thank you letter. You can customize the details according to your organization's needs and the specifics of the donation.\n\n---\n\n[Your Organization\u2019s Letterhead or Logo]\n\n[Date]\n\n[Donor's Name]  \n[Donor's Address]  \n[City, State, ZIP Code]\n\nDear [Donor's Name],\n\nI hope this message finds you well. On behalf of [Your Organization\u2019s Name], I wanted to extend our heartfelt thanks for your generous donation of [Donation Amount] on [Date of Donation]. Your support is crucial to our mission and enables us to continue [briefly describe what your organization does, e.g., \"providing educational resources to underprivileged children\"].\n\nThis past [time period], with contributions from kind donors like you, we have been able to [mention any recent achievements or developments related to your organization\u2019s mission]. Your donation will directly help us [mention any specific projects or areas that the donation will support, e.g., \"launch a new after-school program,\" \"provide meals for families in need,\" etc.].\n\nWe are deeply grateful for your commitment to our cause and for joining us in our efforts to make a difference. Thanks to your generosity, we are able to continue our work and impact even more lives. \n\nWe would like to invite you to [mention any upcoming events, meetings, or visits]. It\u2019s a great opportunity to see firsthand the impact of your contributions and meet others who share your passion for [mention your cause].\n\nOnce again, thank you for your support and trust. We look forward to continuing this impactful journey together.\n\nWarm regards,\n\n[Your Name]  \n[Your Position/Title]  \n[Your Organization\u2019s Name]  \n[Contact Information]\n\nP.S. Please do not hesitate to contact us if you have any questions or if you would like more information on how your donation is making a difference.\n\n---\n\nFeel free to modify the template as needed depending on your organization's style and the specific relationship you have with the donor.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 409,
+  "estimated_cost_usd": 0.004125,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

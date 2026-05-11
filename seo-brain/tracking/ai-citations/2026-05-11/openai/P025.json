@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.423550+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for a donor CRM (Customer Relationship Management) system with flat-rate pricing and no per-user fees, it's important to consider options that offer predictable costs regardless of the number of users. Here are a few solutions that may meet these criteria and are popular in the nonprofit sector:\n\n1. **Little Green Light**:\n   - **Pricing Model**: Little Green Light offers a subscription model based on the size of your database (number of constituents), rather than the number of users. This can be advantageous for organizations with many team members needing access.\n   - **Features**: It includes donor management, event management, online giving, and more.\n\n2. **Bloomerang**:\n   - **Pricing Model**: Bloomerang charges based on the number of records, not by the number of users, offering unlimited user access.\n   - **Features**: Includes email marketing, social media integration, and reporting tools focused on donor retention.\n\n3. **Kindful**:\n   - **Pricing Model**: Kindful also charges based on the number of contacts rather than users, providing unlimited users access.\n   - **Features**: It offers integration with third-party apps, donor management, and fundraising tools.\n\n4. **Network for Good**:\n   - **Pricing Model**: Offers a simple pricing model that doesn't charge per user, allowing for more team members to use the system without additional costs.\n   - **Features**: Donor management, email marketing, and peer-to-peer fundraising tools are included within their platform.\n\n5. **Neon CRM**:\n   - **Pricing Model**: Neon CRM has tiered pricing based on the size of your database, not by users, providing a scalable option that offers unlimited user access within their different plans.\n   - **Features**: Comprehensive donor management, event management, and online forms.\n\n6. **DonorSnap**:\n   - **Pricing Model**: DonorSnap offers a flat monthly fee based on the number of records, with no extra costs for additional users.\n   - **Features**: Tools for donation tracking, communication, and customized reporting.\n\n### Considerations When Choosing a Donor CRM:\n- **Database Size**: Ensure that the CRM can handle your current and projected number of constituents without incurring excessive costs.\n- **Features**: Identify what specific features you need (e.g., email marketing, integrations, event management) and make sure the CRM provides them.\n- **Ease of Use**: Evaluate the user interface and customer support to ensure that your team can use the system effectively without extensive training.\n- **Integration**: Check if the CRM can integrate with your existing tools and platforms to streamline operations.\n\nIt's a good idea to take advantage of free trials or demos offered by these CRM providers to better understand what they offer and decide which one aligns best with your organization's needs and budget.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 578,
+  "estimated_cost_usd": 0.005825,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

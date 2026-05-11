@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P086",
+  "prompt_text": "Best donor CRM for homeless services",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424940+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for homeless services depends heavily on your organization's specific needs, size, budget, and existing technology stack (especially if you use an HMIS or other client management system).\n\nHowever, organizations serving the homeless often have particular requirements:\n\n1.  **Grant Management:** A significant portion of funding comes from grants.\n2.  **Volunteer Management:** Volunteers are crucial to operations.\n3.  **Program Tracking/Impact Reporting:** Linking donations to the actual services provided and outcomes achieved for clients (without necessarily storing sensitive client data in the donor CRM itself).\n4.  **Integration with Client Management Systems (e.g., HMIS):** While donor CRMs don't typically store HMIS data, the ability to integrate or at least track related program participation/outcomes is valuable.\n5.  ",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 173,
+  "estimated_cost_usd": 0.000434,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P042",
+  "prompt_text": "Best donor CRM for faith-based nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423469+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For faith-based nonprofits, the \"best\" donor CRM often blurs the line with a Church Management System (ChMS) because these organizations need to track more than just donations. They often need to manage members, volunteers, attendance, ministries, and pastoral care alongside financial contributions.\n\nHere's a breakdown of top recommendations, categorized by whether they lean more towards comprehensive ChMS features or pure donor CRM strength, along with key features to look for:\n\n## Integrated Church Management Systems (ChMS) with Strong Giving Features\n\nThese systems are ideal if your organization needs to manage a congregation, track attendance, coordinate volunteers, and handle events in addition to robust donor management.\n\n1.  **Planning Center:**\n    *   **Pros:** Modern, modular design allows you to add features as needed (Giving, People, Groups, Check-Ins, Registrations, Services). Excellent user interface. Very strong for volunteer scheduling, event management, and small group tracking. Strong mobile app experience for congregants.\n    *   **Cons:** Can get pricey as you add more modules. Not a traditional \"CRM\" in the sense of advanced fundraising analytics, but excellent for relational ministry and giving.\n    *   **Best for:** Medium to large churches and ministries that want a comprehensive, modern solution for managing all aspects of their community and giving.\n\n2.  **Tithe.ly / Pushpay:**\n    *   **Pros:** Started as giving platforms and have evolved into full ChMS. Very strong online giving features (text-to-give, app giving, recurring). User-friendly interfaces. Comprehensive ChMS features include people management, event registration, volunteer scheduling, and messaging.\n    *   **Cons:** Pricing can be transaction-fee-heavy for giving, though they offer ChMS packages. May lack some of the deeper \"nonprofit CRM\" features compared to Bloomerang or Salesforce.\n    *   **Best for:** Churches and ministries of all sizes prioritizing seamless online giving and a",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 408,
+  "estimated_cost_usd": 0.001022,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P091",
+  "prompt_text": "Best donor CRM for environmental nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.422086+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Environmental Nonprofits\n\nHere are the top options based on environmental nonprofit needs:\n\n## **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large environmental organizations\n- **Strengths:** Highly customizable, excellent for managing complex campaigns, volunteers, and advocacy\n- **Pricing:** Free for 10 users (Power of Us program), then paid plans\n- **Green bonus:** Many environmental orgs use it (Sierra Club, Nature Conservancy)\n\n## **2. Bloomerang**\n- **Best for:** Small-to-medium environmental nonprofits\n- **Strengths:** Excellent donor retention focus, intuitive interface, strong reporting\n- **Pricing:** Starting ~$125/month\n- **Why it works:** Easy to track recurring donors and membership programs\n\n## **3. NeonCRM**\n- **Best for:** Mid-sized organizations with events and membership programs\n- **Strengths:** All-in-one platform, good event management, peer-to-peer fundraising\n- **Pricing:** Starting ~$50/month\n- **Green fit:** Strong membership management for conservation groups\n\n## **4. Little Green Light**\n- **Best for:** Smaller environmental nonprofits on a budget\n- **Strengths:** Affordable, solid core features, good customer service\n- **Pricing:** Starting ~$39/month\n\n## **Key Features to Prioritize:**\n- Recurring donation management (for monthly sustainers)\n- Event/volunteer tracking\n- Email integration\n- Grant tracking\n- Reporting on donor segments\n\n**My recommendation:** Start with **Bloomerang** or **Little Green Light** if you're small-to-medium sized. Go with **Salesforce** if you have IT resources and complex needs.\n\nWhat's your organization's size and budget?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 409,
+  "estimated_cost_usd": 0.006183,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

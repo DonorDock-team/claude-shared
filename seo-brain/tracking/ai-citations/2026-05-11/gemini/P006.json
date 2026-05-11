@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P006",
+  "prompt_text": "DonorDock vs DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423459+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Both DonorDock and DonorPerfect are popular donor management and fundraising software solutions designed for nonprofits. However, they cater to slightly different needs and preferences, offering distinct user experiences and feature focuses.\n\nHere's a breakdown to help you compare them:\n\n---\n\n### DonorPerfect\n\n**Overview:** DonorPerfect has been a long-standing player in the nonprofit software space. It's known for its comprehensive feature set, robust reporting, and scalability, often serving a wide range of organizations from small to very large.\n\n**Key Features:**\n*   **Comprehensive CRM:** Robust donor profiles, gift tracking, pledges, recurring gifts, grants management.\n*   **Fundraising Tools:** Online donation forms, peer-to-peer fundraising, crowdfunding, event management, text-to-give, direct mail segmentation.\n*   **Communication:** Email marketing, donor segmentation, personalized thank-you letters.\n*   **Reporting & Analytics:** Highly customizable reports, dashboards, financial reporting, pledge forecasting.\n*   **Integrations:** Extensive marketplace with integrations for accounting (QuickBooks, Sage), email marketing (Constant Contact), wealth screening, payment processors, and more.\n*   **Constituent Engagement:** Tools for managing volunteers, members, and other constituents.\n*   **Mobile App:** For on-the-go access to donor data and gift entry.\n\n**Pros:**\n*   **Extremely Feature-Rich:** Offers a vast array of tools for almost any fundraising and donor management need.\n*   **Scalability:** Can effectively serve very large organizations with complex needs.\n*   **Robust Reporting:** Highly customizable and powerful reporting capabilities.\n*   **Established & Reliable:** A mature platform with a long track record and extensive resources.\n*   **Strong Integrations:** A wide range of integrations to extend functionality.\n\n**Cons:**\n*   **User Interface Can Feel Dated:** While continually updated, the UI can sometimes feel less modern or intuitive compared to newer solutions.\n*   **Steeper Learning Curve:** Due to its comprehensive nature, it can take more time to master.\n*   **Pricing:** Can become quite expensive for organizations with larger donor databases.\n*   **Customization Can Be Complex:** While powerful, customizing reports or forms might require more technical understanding.\n\n**Best For:**\n*   Mid-sized to large nonprofits with complex fundraising needs.\n*   Organizations that require deep customization in reporting and data management.\n*   Nonprofits that need an all-in-one solution and are comfortable with a more traditional software interface.\n*   Organizations that value extensive features and robust scalability.\n\n---\n\n### DonorDock\n\n**Overview:** DonorDock is a newer, modern cloud-based solution that aims to simplify donor management with a clean, intuitive interface. It's often highlighted for its focus on modern donor engagement and seamless integration within the Microsoft ecosystem.\n\n**Key Features:**\n*   **Intuitive CRM:** Clean donor profiles, gift tracking, communication history, smart segmentation.\n*   **Modern Fundraising:** Easy-to-create online donation pages, event registration, peer-to-peer tools, text-to-give.\n*   **Streamlined Communications:** Built-in email marketing, automated acknowledgments,",
+  "donordock_mentioned": true,
+  "donordock_position": 5,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 667,
+  "estimated_cost_usd": 0.001669,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

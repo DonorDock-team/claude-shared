@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P024",
+  "prompt_text": "How much does nonprofit donor CRM cost",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423419+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Nonprofit Donor CRM Pricing Overview (2026)\n\nNonprofit donor CRMs vary widely in cost based on factors like **number of contacts/records**, **number of users**, **features/modules** (e.g., donor management, events, reporting, automation), and **billing model** (monthly/annual, tiered, or usage-based). \"Free\" options often rely on donor tips or platform fees (2-3%), which can hurt donor experience. Paid plans start as low as **$45/month** for basics and scale to **$500+/month** for all-in-one systems. Most offer nonprofit discounts, unlimited users on many plans, and trials.\n\n#### Key Pricing Ranges\n| Category | Starting Price (Monthly, Billed Annually) | Examples & Notes |\n|----------|-------------------------------------------|------------------|\n| **Budget/Lightweight** (Core donor tracking, small lists <2,500 contacts) | $45\u2013$125 | - Little Green Light: $45 (up to 2,500 records); $90 for 20,000.<br>- Bloomerang: $125 (up to 1,000 records; unlimited users).<br>- DonorPerfect: $99 (record-based; add-ons extra). |\n| **Mid-Tier** (Growing orgs, 1K\u201310K contacts, emails/automation) | $125\u2013$300 | - Keela: ~$225 (2,500 contacts; unlimited users/emails).<br>- Givebutter Plus: $29+ (scales by contacts; core free w/ donor tips or 3% fee).<br>- DonorDock: $125 (up to 1,000 records; fundraising add-on $40). |\n| **Enterprise/All-in-One** (Events, P2P, advanced reporting; 10K+ contacts) | $300\u2013$700+ | - CharityEngine: $500 (unlimited contacts).<br>- Virtuous: ~$300 (custom; AI insights).<br>- Giveffect: $399\u2013$599 (modules for volunteers/events). |\n| **Free/Low-Cost Entry** | $0 (w/ fees) | - Givebutter Core: $0 (3% fee if no tips).<br>- Open-source: $0 software, but high setup time. |\n\n#### Pricing Drivers (From Sources)\n- **Contacts/Records**: Primary scaler (e.g., Bloomerang/DonorPerfect charge per record tier).\n- **Users**: Per-user rare; most unlimited (e.g., Bloomerang, Keela).\n- **Add-Ons**: Events/auctions/volunteers extra (e.g., DonorDock volunteer mgmt $119).\n- **Transaction Fees**: 1.75\u20133% on donations if not covered by tips/subscriptions.\n- **Discounts**: 10% annual billing common; some free licenses (e.g., DonorDock: 10 free for eligibles).\n\n#### Top Recommendations by Org Size\n- **Small (<1K contacts)**: Little Green Light ($45) or Givebutter (free tier).\n- **Mid-Sized (1K\u201310K)**: Bloomerang ($125) or Keela ($225) for retention tools.\n- **Large/Complex**: CharityEngine ($500) or DonorPerfect ($99+) for scalability.\n\nPrices from 2026 sources like DonorDock, Bloomerang, and CharityEngine blogs; always check vendor sites for custom quotes/trials, as they scale with needs. For ROI, factor in time savings and donor retention gains (e.g., Bloomerang emphasizes 20\u201330% retention boosts).",
+  "donordock_mentioned": true,
+  "donordock_position": 1260,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Keela",
+    "Little Green Light",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 759,
+  "estimated_cost_usd": 0.016409,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://blog.charityengine.net/nonprofit-crm-cost",
+      "https://momentivesoftware.com/blog/nonprofit-crm/",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://bloomerang.com/pricing/",
+      "https://www.fiftyandfifty.org/blog/best-nonprofit-crms",
+      "https://blog.mightycause.com/best-fundraising-platforms-for-nonprofits-2026/",
+      "https://www.donorperfect.com/fundraising-software/pricing-guide/"
+    ]
+  }
+}

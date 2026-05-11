@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P046",
+  "prompt_text": "Best donor CRM for arts and cultural nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424120+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Arts and Cultural Nonprofits\n\nBased on recent comparisons (2026 rankings), the best donor CRMs for arts and cultural nonprofits prioritize audience engagement, ticketing integration, donor propensity scoring, and fundraising tied to events/memberships. Here's a breakdown of the strongest options, drawn from expert guides like Double the Donation, Kindsight, and vendor sites:\n\n#### 1. **Spektrix** (Top Pick for Arts-Specific Fundraising)\n   - **Why it stands out**: Built exclusively for arts organizations (theaters, museums, orchestras). Seamlessly links fundraising CRM with ticketing and marketing\u2014identifies high-propensity donors from ticket buyers and converts them via personalized campaigns.\n   - **Key features**: Donor pipelines, event tracking, supporter segmentation, integrated payments.\n   - **Best for**: Mid-to-large arts groups needing end-to-end audience-to-donor conversion.\n   - **Source**: Spektrix site [3]; aligns with arts-focused lists.\n\n#### 2. **Tessitura** (Best for Comprehensive Audience Management)\n   - **Why it stands out**: Tailored for arts/cultural orgs (e.g., performing arts, museums). Handles everything from ticketing and CRM to donor stewardship in one platform, boosting retention and upsell opportunities.\n   - **Key features**: Patron data unification, fundraising automation, analytics for engagement scoring.\n   - **Best for**: Large institutions with complex ticketing needs.\n   - **Source**: Kindsight's top 14 list [2].\n\n#### 3. **DonorPerfect** (Best All-Around Fundraising CRM for Arts)\n   - **Why it stands out**: Proven for arts, culture, and humanities nonprofits. Excels in donor/membership management, event tracking, and campaigns\u2014cloud-based with strong reporting.\n   - **Key features**: Donor database, pledge tracking, email integration, volunteer coordination.\n   - **Best for**: Smaller-to-mid arts nonprofits wanting robust, affordable donor tools without full ticketing.\n   - **Source**: DonorPerfect arts page [7]; Galaxy Digital's 2026 roundup [6].\n\n#### Quick Comparison Table\n| CRM          | Arts Focus | Ticketing Integration | Pricing (Est. 2026) | Standout Strength                  |\n|--------------|------------|-----------------------|---------------------|------------------------------------|\n| **Spektrix** | High      | Native               | Custom (mid-range) | Donor conversion from audiences   |\n| **Tessitura**| High      | Native               | Enterprise-level   | Full patron lifecycle management  |\n| **DonorPerfect** | Medium-High | Via integrations    | $89+/mo            | Donor/events flexibility          |\n| Others (e.g., Bloomerang, DonorDock) | General  | Limited              | $100-300/mo        | Basic donor mgmt; less arts-tuned |\n\n#### Other Strong Contenders\n- **Bloomerang/Ascend/Bonterra** (from [2]): Great general nonprofit CRMs with arts applicability; strong on engagement but lack native ticketing.\n- **Givebutter/DonorDock** (from [1], [5]): Modern, all-in-one with free tiers\u2014good for small arts groups starting out.\n- **Artwork Archive** ([4]): Niche for galleries/collectors; lightweight CRM for donor tracking alongside inventory.\n\n**Recommendation**: Start with **Spektrix** if your org sells tickets/events\u2014it's purpose-built for arts donor growth. For pure donor management, go **DonorPerfect**. Demo 2-3 based on size/budget; most offer free trials. Check sites for latest pricing/demos.",
+  "donordock_mentioned": true,
+  "donordock_position": 2657,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 771,
+  "estimated_cost_usd": 0.016592,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.spektrix.com/en-us/arts-fundraising-software",
+      "https://help.artworkarchive.com/en/articles/5564085-using-artwork-archive-s-crm-built-for-galleries-nonprofits-and-collectors",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://www.galaxydigital.com/blog/best-donor-management-software-options-for-nonprofits",
+      "https://www.donorperfect.com/nonprofits/arts-nonprofit-software/"
+    ]
+  }
+}

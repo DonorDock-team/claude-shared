@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P087",
+  "prompt_text": "Best donor CRM for refugee services",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.421474+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Best Donor CRMs for Refugee Services Nonprofits\n\nRefugee services organizations (e.g., aid groups, resettlement agencies) need donor CRMs that excel in **donor tracking, multi-channel fundraising (online giving, events, grants), volunteer coordination, case management integration, and reporting for impact metrics** like aid delivery or family reunifications. These often involve high-volume, recurring small donors and compliance with international reporting (e.g., GDPR, donor privacy).\n\nFrom 2026 analyses across top sources ([1-9]), no CRM is *exclusively* for refugee services, but several stand out for **mid-sized nonprofits with global outreach, customizable workflows, and integrations for services like volunteer matching or grant tracking**. I prioritized those praised for **scalability, affordability, ease-of-use, and refugee-relevant features** (e.g., household/family donor views, multi-currency, segmentation for diaspora donors).\n\n#### Top Recommendations\nHere's a comparison of the **best 5 fits**, based on features, pricing (2026 estimates), and strengths for refugee work. Data aggregated from [1] DonorDirect/Double the Donation, [2] Kindsight, [3] GoodUnited, [4] DonorDock, [5] Bloomerang, [9] LiveImpact.\n\n| CRM | Best For | Key Refugee-Relevant Features | Pricing (Starting, Annual) | Pros | Cons |\n|-----|----------|-------------------------------|----------------------------|------|------|\n| **Bloomerang** ([2][5][6][9]) | **Overall Top Pick: Refugee services scaling from small to mid-size** | Donor retention scoring, household views (track family sponsors), event/volunteer tracking, QuickBooks integration for grants, mobile app for field staff. | $119/mo (unlimited users, 500 contacts); scales to $10K+/yr for 50K+ | Intuitive UI, 95% donor retention boost reported, free onboarding. Excels in recurring gifts common in refugee aid. | Less robust case management without add-ons. |\n| **Bonterra (ex-NeonCRM)** ([2][3]) | Global refugee ops with grants & advocacy | Multi-currency, pledge tracking, workflows for sponsorships, API for service platforms (e.g., case mgmt tools), peer-to-peer fundraising. | $99/mo (basic); $5K+/yr enterprise | Powerful segmentation for diaspora donors, strong reporting for funders like UNHCR. | Steeper learning curve. |\n| **LiveImpact** ([9]) | Small refugee nonprofits focused on impact tracking | Built-in program/outcome tracking (e.g., refugees served), mobile data collection for field teams, donor portals for transparency. | $50/mo (1K contacts); custom for larger | Affordable, refugee-like use cases (e.g., aid distribution metrics). Honest pros/cons in reviews. | Newer player, fewer integrations. |\n| **SylogistMission** ([8]) | Faith-based refugee aid (e.g., church-sponsored resettlement) | 360\u00b0 donor views (donor/volunteer overlap), Microsoft Dynamics backbone for custom refugee workflows, financials/grants module. | Custom quote (~$5K+/yr) | Handles complex constituent relationships (e.g., sponsor-refugee links). | Higher cost, enterprise-focused. |\n| **DonorDirect (Ministry Brands)** ([1]) | Faith-based or mission-driven refugee groups | Tailored for faith fundraisers but flexible; donor relations tools, batch imports for large lists, event mgmt. | $4K+/yr (custom) | Time-saving automation for donor stewardship. | Less emphasis on non-donor services. |\n\n#### Why These Over Others?\n- **Bloomerang leads** due to universal praise ([5][6][9]) for **donor retention**\u2014critical for refugee orgs relying on sustained giving (e.g., monthly sponsors). It's in 14+ \"best of\" lists and handles 2026 trends like AI-driven engagement.\n- **Bonterra** shines for **international scale** ([2]), matching refugee needs like multi-language support.\n- Excluded generalists like Salesforce ([9])\u2014too complex/expensive for most refugee nonprofits without IT teams. Little Green Light ([9]) is great for tiny orgs but lacks scale.\n- Faith-based options (DonorDirect, SylogistMission) if your group has religious ties, common in refugee aid (e.g., Lutheran Services).\n\n#### Quick Buyer's Tips for Refugee Services\n1. **Prioritize**: Integrations with tools like Classy (fundraising pages), EveryAction (advocacy), or service CRMs (e.g., Efforts to Outcomes for case mgmt).\n2. **Free Trials**: All offer 14-30 days\u2014test donor import and reporting.\n3. **Budget Check**: Under $5K/yr for <10K donors? Start with Bloomerang/LiveImpact.\n4. **2026 Trends** ([4]): Look for AI personalization and mobile-first for global teams.\n\nFor a custom fit, share your org size, budget, or key pain points (e.g., \"tracking sponsors per refugee family\"). Demo Bloomerang first\u2014it's the safest bet per [5]. Sources: Linked in search results [1-9].",
+  "donordock_mentioned": true,
+  "donordock_position": 1193,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1106,
+  "estimated_cost_usd": 0.021611,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://bloomerang.com/blog/donor-management-software/",
+      "https://www.evertrue.com/blog/donor-management-software-solutions/",
+      "https://kindful.com/nonprofit-glossary/donor-management-software/",
+      "https://www.sylogist.com/mission/crm/",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit"
+    ]
+  }
+}

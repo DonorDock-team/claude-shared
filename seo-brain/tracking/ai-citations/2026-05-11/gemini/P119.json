@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P119",
+  "prompt_text": "AI to draft donor thank you letters",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424381+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Yes, AI can be a powerful tool to draft donor thank you letters, significantly improving efficiency, ensuring consistency, and helping overcome writer's block. However, it's crucial to remember that **AI should be a starting point and an assistant, not a replacement for genuine human emotion and careful review.**\n\nHere's a comprehensive guide on how to use AI for donor thank you letters effectively:\n\n---\n\n### Benefits of Using AI for Thank You Letters:\n\n1.  **Efficiency & Speed:** Quickly generate drafts for various donor types and donation amounts, especially useful during peak fundraising times.\n2.  **Overcoming Writer's Block:** AI can provide a solid starting point when you're struggling to find the right words or a fresh angle.\n3.  **Consistency:** Maintain a consistent tone, brand voice, and key messaging across all your thank you communications.\n4.  **Personalization (with data):** If you provide specific donor and donation details, AI can weave them into the letter, making it more personal than a generic template.\n5.  **Variety:** Generate multiple versions of a letter to choose from or to use for A/B testing.\n\n---\n\n### Key Considerations & Best Practices:\n\n1.  **Always Review and Edit:** This is the most critical step. AI-generated content can sometimes sound generic, repetitive, or miss nuances. You *must* add your organization's unique voice and a personal touch.\n2.  **Inject Human Emotion:** AI struggles with genuine empathy and warmth. You'll need to infuse the draft with heartfelt gratitude, specific anecdotes, and emotional resonance.\n3.  **Accuracy is Paramount:** Double-check all names, dates, donation amounts, and project details. AI can \"hallucinate\" or misinterpret information.\n4.  **Protect Donor Privacy:** **DO NOT input sensitive personal identifiable information (PII)** like full donor addresses, bank details, or highly personal notes into public AI models (like ChatGPT, Gemini, Claude). Stick to names, donation amounts, and general project impact.\n5.  **Maintain Your Brand Voice:** If your organization has a specific tone (e.g., formal, friendly, passionate, humble), ensure the AI's output aligns with it. You might need to refine the prompt or edit heavily.\n6.  **Focus on Impact:** The most effective thank you letters explain *how* the donation makes a difference. Ensure the AI draft clearly articulates the impact in a compelling way.\n7.  **Avoid Over-Reliance:** Don't let AI replace the thoughtfulness required for donor stewardship. Use it to streamline the mechanical parts, freeing you up for the strategic and emotional elements.\n\n---\n\n### What Information to Provide to the AI (Your Prompt):\n\nThe quality of the AI's output depends directly on the quality and detail of your input. Be specific!\n\n**Essential Information:**\n\n*   **Donor's Name:** (e.g., \"Ms. Jane Doe,\" \"The Smith Family Foundation\")\n*   **Donation Amount:** (e.g., \"$100,\" \"a generous gift\")\n*   **Date of Donation:** (e.g., \"received on October 26th\")\n*   **Your Organization's Full Name:** (e.g., \"Hope for Homeless Pets\")\n*   **Your Organization's Mission (briefly):** (e.g., \"dedicated to rescuing and rehoming abandoned animals\")\n*   **The SPECIFIC IMPACT of the donation:** *This is the most important part.* (e.g., \"your $100 will",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 758,
+  "estimated_cost_usd": 0.001897,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

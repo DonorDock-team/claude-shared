@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P094",
+  "prompt_text": "Hidden costs of Bloomerang",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423071+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Hidden Costs of Bloomerang: Key Insights from Pricing Analyses\n\nBloomerang's pricing is **not flat or fully transparent**\u2014it's primarily **per-contact (constituent records)**, scaling with database size, which can lead to unexpected jumps. Official site mentions \"based on records,\" but lacks public tier details, forcing custom quotes. Multiple sources (e.g., 4aGoodCause, CheckThat.ai, DonorDock) confirm \"starting at\" prices hide escalations. Here's a breakdown of documented hidden or additional costs:\n\n#### 1. **Per-Contact Scaling (Biggest Surprise for Growing Orgs)**\n   - **Base CRM**: Starts ~$125/month (small DB, e.g., <1,000 contacts), but rises sharply.\n     - Examples: Reviewers report jumps from $300 to $1,000/year when crossing tiers (Reddit via CheckThat.ai [2]).\n     - \"Incremental increases\" per TrustRadius, but \"significant jumps at thresholds\" noted by users.\n   - **Annual renewals**: 7\u201312% hikes reported, independent of growth (CheckThat.ai [2]).\n   - **Evidence**: 4aGoodCause [1], SmartThoughts [6], DonorDock [5] all emphasize \"increases as database grows,\" with no public tier chart.\n\n#### 2. **Module Add-Ons and Bundling Confusion**\n   | Module              | Starting Price (Monthly, Annual Billing) | Notes |\n   |---------------------|------------------------------------------|-------|\n   | CRM                | $125                                    | Core; scales with contacts. |\n   | Fundraising        | $40                                     | Donation forms, events, P2P; **requires CRM** (min $165 total). |\n   | Volunteer          | $119                                    | Scheduling, tracking; **separate add-on**. |\n   | Membership         | $25                                     | Renewals, profiles (SmartThoughts [6]). |\n   | **Giving Platform Bundle** | $524                          | \"Full suite\"\u2014**higher than sum of parts ($284 entry)**; likely for larger DBs (2,500\u20135K contacts) per CheckThat.ai [2]. |\n\n   - **Paradox**: Individual modules sum cheaper than bundle at \"starting\" rates, but bundle assumes bigger DB. No public explanation (CheckThat.ai [2]).\n\n#### 3. **Payment Processing Fees (Locked-In Options)**\n   - **Bloomerang Payments**: 2.0% + $0.30/transaction (nonprofit rate; competitive vs. Stripe's 2.2% + $0.30 [2]).\n   - **Extras**: +1% platform fee on P2P (4aGoodCause [1], Zeffy [7]); PayPal/Venmo via Bloomerang: 2.2% + $0.49.\n   - **Lock-in**: Tied to Bloomerang/Stripe; can't always use own processor (4aGoodCause [1]).\n   - Donors can cover fees, but still impacts net.\n\n#### 4. **Implementation, Migration, and Support Upsells**\n   - **Onboarding/Migration**: $500\u2013$10,000+ (data complexity, size); unverified third-party estimates (CheckThat.ai [2], SoftwareFinder [3]).\n     - Factors: Customization, data cleanliness, legacy system.\n   - **Support**: Chat included; **phone/higher-touch tiered extra** (4aGoodCause [1]).\n   - **Other**: NCOA/deceased suppression included in CRM, but add-ons like wealth insights may vary.\n\n#### 5. **User-Reported Pain Points (Capterra [4], Others)**\n   - \"Draconian billing policies\" (Capterra [4]).\n   - No event tracking; mass comms buried as \"interactions.\"\n   - Unlimited users is a pro, but total cost favors only if replacing per-seat tools (e.g., Salesforce).\n\n#### Total Cost Verdict\n- **Small org (CRM only, small DB)**: ~$125\u2013$165/month + processing.\n- **Full suite, growing DB**: $300\u2013$1,000+/month + 10\u201320% annual hikes + setup ($1K\u2013$10K).\n- **Savings myth**: Consolidation helps if replacing $250+/month tools, but per-contact + fees erode for many (vs. free/flat competitors like Zeffy [7] or Little Green Light at $45 [2]).\n- **Recommendation**: Request a custom quote revealing your exact tiers\u2014public \"starting\" prices understate real costs for 70%+ of users per reviewer patterns.\n\nSources cross-verify across competitors (e.g., [1], [2], [5\u20137]), with 2026 Capterra [4] echoing billing complaints. For precise math, demo with your contact count.",
+  "donordock_mentioned": true,
+  "donordock_position": 392,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1023,
+  "estimated_cost_usd": 0.020366,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://4agoodcause.com/blackbaud-vs-bloomerang/",
+      "https://checkthat.ai/brands/bloomerang/pricing",
+      "https://softwarefinder.com/nonprofit/bloomerang-fundraising",
+      "https://www.capterra.com/p/131207/Bloomerang/pricing/",
+      "https://www.donordock.com/compare/bloomerang-vs-donordock",
+      "https://www.smartthoughts.net/post/bloomerang-software-review-for-association-executives-2025",
+      "https://www.zeffy.com/compare/zeffy-vs-bloomerang",
+      "https://bloomerang.com/pricing/"
+    ]
+  }
+}

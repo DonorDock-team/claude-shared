@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P149",
+  "prompt_text": "How to migrate from Excel to a nonprofit CRM",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423301+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Migrating from Excel to a nonprofit CRM is a significant step that can dramatically improve your organization's efficiency, fundraising capabilities, and donor relationships. It involves more than just copying and pasting; it's a strategic process.\n\nHere's a comprehensive guide to help you make the transition smoothly:\n\n## Why Migrate from Excel?\n\nBefore diving in, understand why this move is crucial:\n\n*   **Single Source of Truth:** No more scattered spreadsheets with conflicting information.\n*   **Better Donor Relationships:** Track interactions, preferences, and history to personalize outreach.\n*   **Improved Fundraising:** Segment donors, manage campaigns, track pledges, and identify major donor prospects more effectively.\n*   **Enhanced Reporting:** Generate insights into donor retention, campaign performance, and financial trends with ease.\n*   **Automation:** Automate tasks like donor acknowledgments, recurring donation processing, and communication workflows.\n*   **Team Collaboration:** Multiple team members can access and update donor records simultaneously, with controlled permissions.\n*   **Data Security:** CRMs offer better security and backup protocols than individual Excel files.\n\n---\n\n## The Migration Process: Step-by-Step\n\n### Phase 1: Planning & CRM Selection\n\n1.  **Define Your Needs & Goals:**\n    *   What problems are you trying to solve with a CRM? (e.g., better donor tracking, easier event management, streamlined communications, grant tracking, volunteer management).\n    *   What features are essential? (e.g., donor profiles, donation tracking, communication tools, reporting, event management, volunteer management, integrations with email marketing/payment processors).\n    *   Who will be using the CRM? What are their roles and needs?\n    *   What is your budget (initial setup, monthly/annual fees, potential training costs)?\n\n2.  **Research Nonprofit CRMs:**\n    *   Many CRMs are designed specifically for nonprofits or offer significant discounts. Popular options include:\n        *   **Salesforce NPSP (Nonprofit Success Pack):** Very powerful and customizable, but has a steeper learning curve and can be costly for implementation/ongoing admin if you don't have internal expertise. Often free/heavily discounted licenses for nonprofits.\n        *   **NeonOne (NeonCRM):** Comprehensive solution for donor management, events, volunteers, and websites.\n        *   **Bloomerang:** Known for its focus on donor retention, user-friendly interface, and strong reporting.\n        *   **DonorPerfect:** A long-standing, robust option with extensive features.\n        *   **Little Green Light (LGL):** Often praised for its affordability and ease of use for smaller to medium-sized nonprofits.\n        *   **Kindful:** Focuses on modern fundraising tools, integrations, and reporting.\n        *   **Blackbaud (Raiser's Edge NXT, eTapestry):** Industry giants, often for larger organizations.\n    *   Read reviews, watch demos, and talk to other nonprofits about their experiences.\n\n3.  **Shortlist & Demo:**\n    *   Select 2-3 CRMs that seem like a good fit.\n    *   Schedule personalized demos, asking specific questions related to your needs and showing them examples of your current",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce NPSP",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 678,
+  "estimated_cost_usd": 0.001698,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

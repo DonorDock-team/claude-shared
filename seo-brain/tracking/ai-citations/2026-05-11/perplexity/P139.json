@@ -1,0 +1,40 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424715+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top CRMs Similar to Salesforce Nonprofit Cloud for Nonprofits\n\nSalesforce Nonprofit Cloud (including the free Nonprofit Success Pack or NPSP) is a highly customizable, scalable CRM with donor management, AI insights, integrations, and enterprise features\u2014ideal for mid-to-large nonprofits with tech expertise. However, it often requires significant setup, IT resources, and ongoing maintenance. Below are the closest alternatives based on 2026 comparisons, prioritizing similarity in **customizability, donor engagement, fundraising tools, integrations, and scalability** while being nonprofit-tailored. These stand out for mimicking Salesforce's power without the full complexity.\n\n#### 1. **StratusLIVE 365 CRM** (Closest Overall Match for Enterprise Needs)\n   - **Why similar?** Built on Microsoft Dynamics 365 (like Salesforce's ecosystem), it offers **advanced customization, AI-powered donor insights, engagement scoring, real-time analytics, and seamless integrations** with Outlook, Teams, and SharePoint. Handles comprehensive fundraising, campaigns, and donor management at scale.\n   - **Best for:** Enterprise or large nonprofits needing Salesforce-like depth without as much setup hassle.\n   - **Key edges over Salesforce:** Easier Microsoft-native integrations; less consultant dependency.\n   - **Comparison snapshot** (from StratusLIVE analysis):\n     | Feature              | StratusLIVE 365 | Salesforce Nonprofit Cloud |\n     |----------------------|------------------|----------------------------|\n     | **Customization**   | High (Dynamics-based) | Very high (ecosystem)     |\n     | **AI/Donor Tools**  | Advanced engagement scoring | Customizable AI            |\n     | **Best Fit**        | Enterprise nonprofits | Large, tech-savvy orgs     |\n   - **Source:** [StratusLIVE comparison](https://stratuslive.com/blog/nonprofit-crm-systems-comparison/).\n\n#### 2. **LiveImpact** (Strong for All-in-One Customization with Case Management)\n   - **Why similar?** Combines donor/fundraising tools with **customizable case management, events, grants, volunteers, and board features** in one platform\u2014mirroring Salesforce's flexibility for programs + fundraising. Highly scalable for growth-oriented orgs.\n   - **Best for:** Small-to-mid nonprofits delivering direct services (e.g., food banks, youth programs) that want Salesforce power without multiple apps.\n   - **Key edges:** Single-platform efficiency; tops lists for integrated ops.\n   - **Source:** [LiveImpact 2026 review](https://www.liveimpact.org/blog/best-crm-for-small-nonprofit) ranks it #1 for growth-focused small nonprofits.\n\n#### 3. **CharityEngine** (Unified Platform with High Customizability)\n   - **Why similar?** One CRM for **fundraising, online giving, events, marketing, automation, and donor management**\u2014addresses Salesforce's need for add-ons. Offers workflows and scalability without scattered systems.\n   - **Best for:** Nonprofits frustrated by Salesforce's multi-app setup, seeking a \"cleaner, more powerful\" alternative.\n   - **Key edges:** No extra tools needed; built for donor-centric teams.\n   - **Source:** [CharityEngine Salesforce alternatives](https://blog.charityengine.net/salesforce-alternatives).\n\n#### Quick Comparison of Top Alternatives\n| CRM              | Customization Level | Key Strengths Like Salesforce | Ideal Nonprofit Size | Free Tier? |\n|------------------|---------------------|-------------------------------|----------------------|------------|\n| **StratusLIVE 365** | Very High (Dynamics) | AI insights, enterprise integrations | Large/Enterprise    | No        |\n| **LiveImpact**     | High               | All-in-one (donors + programs)     | Small-Growing        | No        |\n| **CharityEngine**  | High               | Unified fundraising/CRM            | Mid-Sized            | No        |\n| **Bloomerang**     | Moderate           | Donor engagement (simpler)         | Small                | Trial     |\n| **Neon CRM**       | Moderate           | Events/membership tools            | Small-Mid            | No        |\n\n#### Other Notable Mentions\n- **Case Management Hub**: Matches Salesforce for operational depth (clients, workflows, reporting) but focuses more on services than pure fundraising. Great for social services. ([Source](https://casemanagementhub.org/salesforce-nonprofit-cloud-alternatives/))\n- **Insightly or Microsoft Dynamics 365 Nonprofit Accelerator**: Enterprise customizable like Salesforce, with faster setup for mid-sized orgs. ([Source](https://www.insightly.com/blog/best-crm-for-non-profits/))\n\n**Recommendation:** If you're a large nonprofit with Microsoft tools, go **StratusLIVE**. For smaller teams wanting Salesforce scalability without the overhead, try **LiveImpact** or **CharityEngine**. Most offer demos/trials\u2014test based on your donor volume and integrations. Salesforce remains free for 10 licenses via Power of Us, but these alternatives often win on ease for non-tech teams.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [
+    "https://blog.charityengine.net/salesforce-alternatives",
+    "https://stratuslive.com/blog/nonprofit-crm-systems-comparison/",
+    "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+    "https://www.insightly.com/blog/best-crm-for-non-profits/",
+    "https://casemanagementhub.org/salesforce-nonprofit-cloud-alternatives/"
+  ],
+  "input_tokens": 10,
+  "output_tokens": 1055,
+  "estimated_cost_usd": 0.020855,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://stratuslive.com/blog/nonprofit-crm-systems-comparison/",
+      "https://blog.charityengine.net/salesforce-alternatives",
+      "https://cube84.com/blog/bloomerang-vs-salesforce-nonprofit-cloud-vs-npsp-which-crm-is-best-for-your-nonprofit",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://casemanagementhub.org/salesforce-nonprofit-cloud-alternatives/",
+      "https://bloomerang.com/alternative/salesforce-for-nonprofits/",
+      "https://www.ohack.org/about/faq/five-of-the-best-crms-for-nonprofits",
+      "https://www.springly.org/en-us/blog/nonprofit-crm-advantages/"
+    ]
+  }
+}

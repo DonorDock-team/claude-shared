@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P134",
+  "prompt_text": "Why nonprofits leave Bloomerang",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.423711+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Reasons Nonprofits Leave Bloomerang\n\nWhile Bloomerang is generally well-regarded in the nonprofit CRM space, organizations do leave for various reasons:\n\n## **Pricing Concerns**\n- **Cost increases** as organizations grow or need more features\n- **Per-user pricing model** can become expensive for larger teams\n- Budget constraints, especially for smaller nonprofits\n\n## **Feature Limitations**\n- **Limited customization** compared to more robust platforms\n- **Basic accounting integration** - not a full fund accounting solution\n- **Grant management** features may be insufficient for grant-heavy organizations\n- **Event management** capabilities described as basic by some users\n\n## **Organizational Growth**\n- Outgrowing the platform as databases expand significantly\n- Needing more **advanced reporting and analytics**\n- Requiring **enterprise-level features** not available in Bloomerang\n\n## **Technical Issues**\n- **Integration limitations** with other tools in their tech stack\n- **Data import/export** challenges when migrating\n- Occasional performance or reliability concerns\n\n## **Workflow Mismatches**\n- Platform designed primarily for **fundraising-focused** organizations\n- May not fit well for program-heavy nonprofits\n- Specific industry needs better served elsewhere\n\n## **Alternative Platforms**\nOrganizations often migrate to:\n- **Salesforce Nonprofit Cloud** (more customizable)\n- **Blackbaud products** (more comprehensive)\n- **Little Green Light, DonorPerfect, or Kindful** (different feature sets)\n\n**Note:** Many nonprofits remain satisfied with Bloomerang - departures often reflect changing organizational needs rather than platform deficiencies.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 376,
+  "estimated_cost_usd": 0.005688,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

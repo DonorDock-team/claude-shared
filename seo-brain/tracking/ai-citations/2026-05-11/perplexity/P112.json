@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423076+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Understanding Soft Credits in Donor CRMs\n\nSoft credits in donor CRMs track **recognition for influencers, referrers, or solicitors** who contribute to a donation without being the primary payer (who receives the **hard credit**). This distinguishes financial accountability (hard credits for actual payments) from donor recognition (soft credits for impact). Hard credits ensure accurate revenue reporting; soft credits power donor walls, fundraising leaderboards, and relationship management.\n\n#### Key Concepts Across CRMs\n| CRM/System          | Hard Credit Object                  | Soft Credit Object/Method                  | Primary Use Cases                          |\n|---------------------|-------------------------------------|--------------------------------------------|--------------------------------------------|\n| **Salesforce NPSP/Fundraising** | Gift Transaction (primary donor payment) | Gift Soft Credit (manual or via Gift Entry); Gift Default Soft Credit (auto for commitments) | Track influencers; auto-rollups on Donor Gift Summary (e.g., total soft/hard counts, first/highest amounts). |\n| **Blackbaud CRM**  | Gift record on donor's profile     | Recognition Credits (parallel to hard; donor auto-gets both) | Honor rolls/donor walls (recognition only); avoid mixing with financial reports. |\n| **Dynamics 365/Charity Hub** | Donation record (payer)            | New Soft Credit on donation (link to influencer) | Referrals; view via payment schedule. |\n| **Beacon CRM**     | Payment record (Payer field)       | Fundraiser field on split payments         | Track fundraising value; metric cards filter \"Fundraiser is not blank.\" |\n| **Access Charity CRM** | Original payment on contact       | Soft Creditors tab (add via Plus button)  | Multi-constituent crediting. |\n\n#### Step-by-Step: How to Track Soft Credits\n1. **Record the Hard Credit First**:\n   - Create a donation/gift transaction for the actual payer (e.g., \u00a31000 from Fran\u00e7ois in Beacon).\n   - This posts to financials and the donor's giving history.\n\n2. **Add Soft Credits**:\n   - **Salesforce**: On Gift Transaction, create Gift Soft Credit record linking to influencer (e.g., Genevieve). Use Gift Entry for batching.\n   - **Blackbaud**: Assign recognition credits on the gift; auto-applies to donor + others.\n   - **Beacon/Dynamics**: Split payment if needed, assign \"Fundraiser\" or \"New Soft Credit\" to portions (e.g., 1/3 each to 3 volunteers).\n   - **General**: Link to contact records; specify amount (full, split, or %) and type (e.g., solicitor, advisor).\n\n3. **Aggregation & Reporting**:\n   - **Rollups**: Salesforce auto-summarizes on Donor Gift Summary (soft count, totals). Beacon uses metric cards (Payer for hard; Fundraiser for soft).\n   - **Filters**: Report hard for finances; include soft for recognition (e.g., Blackbaud: recognition-only reports).\n   - **Dashboards**: Sum soft credits globally (e.g., Beacon dashboard totals fundraising value).\n   - **DAF Example** (from Bloomerang): Hard credit to sponsor (DAF); soft to individual recommender.\n\n4. **Best Practices**:\n   - **Avoid Double-Counting**: Use soft only for non-payers; never mix in financial reports.\n   - **Splitting**: For shared influence (e.g., employer match), divide amounts proportionally.\n   - **Visibility**: Add to contact dashboards (e.g., Salesforce Related Record Details).\n   - **Tributes**: Pair with Gift Tribute objects for honor/memoriam gifts (Salesforce-specific).\n\n#### Evidence from Sources\n- **Salesforce Trailhead [1]**: Objects like Gift Soft Credit auto-rollup for segmentation/portfolios.\n- **Beacon [3]**: Metric cards distinguish Payer (hard) vs. Fundraiser (soft) for dashboards.\n- **Blackbaud [4][5]**: Parallel recognition system; soft credits control report inclusion without altering finances.\n- **Dynamics [2]**, **Access [6]**: UI-driven addition on donation records.\n\nThis setup ensures ethical recognition while maintaining clean books. For CRM-specific setup, check admin guides or test in a sandbox. If you specify your CRM, I can refine further.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 909,
+  "estimated_cost_usd": 0.018662,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://trailhead.salesforce.com/content/learn/modules/soft-credits-and-tributes-in-fundraising/credit-everyone-involved-in-a-donation",
+      "https://www.youtube.com/watch?v=kHqK5gOhWeU",
+      "https://guide.beaconcrm.org/en/articles/6817580-recording-soft-credits",
+      "https://www.brightvinesolutions.com/post/2015/10/07/blackbaud-crm-recognition-credits-part-1-the-basics",
+      "https://kb.blackbaud.com/knowledgebase/articles/Article/37510",
+      "https://accessgroup.my.site.com/Support/s/article/Access-Charity-CRM-How-are-soft-credit-payments-created?language=en_US",
+      "https://bloomerang.com/blog/ask-an-expert-how-to-credit-recognize-daf-gifts-in-a-crm/"
+    ]
+  }
+}

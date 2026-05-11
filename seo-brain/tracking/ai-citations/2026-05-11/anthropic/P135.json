@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P135",
+  "prompt_text": "Why nonprofits leave DonorPerfect",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.423880+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Reasons Nonprofits Leave DonorPerfect\n\nBased on user feedback and industry reports, here are the main reasons organizations switch from DonorPerfect:\n\n## 1. **Cost Concerns**\n- Pricing can become expensive as organizations grow\n- Additional fees for advanced features and integrations\n- Per-user pricing model can add up for larger teams\n\n## 2. **User Interface & Experience**\n- Interface feels outdated compared to modern alternatives\n- Steep learning curve for new users\n- Not as intuitive as newer CRM platforms\n\n## 3. **Reporting Limitations**\n- Custom reporting can be complex and time-consuming\n- Limited data visualization options\n- Difficulty extracting data in desired formats\n\n## 4. **Integration Challenges**\n- Limited native integrations with other tools\n- API limitations for custom integrations\n- Difficulty connecting with modern fundraising platforms\n\n## 5. **Customization Constraints**\n- Limited flexibility for unique organizational needs\n- Difficulty adapting to specific workflows\n- Rigid field structures\n\n## 6. **Customer Support Issues**\n- Response times can be slow\n- Support quality varies\n- Training resources may not meet all needs\n\n## 7. **Outgrowing the Platform**\n- Organizations with complex needs may find it limiting\n- Better options available for sophisticated data analysis\n- Need for more robust multi-channel fundraising tools\n\n## Popular Alternatives\nOrganizations often migrate to: Salesforce Nonprofit Cloud, Bloomerang, NeonCRM, Little Green Light, or Blackbaud products.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 350,
+  "estimated_cost_usd": 0.005304,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P093",
+  "prompt_text": "Cheapest nonprofit CRM with online giving",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.422948+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding the absolute \"cheapest\" nonprofit CRM with online giving often means looking at solutions that either have a generous free tier, a \"pay what you can\" model, or very low monthly costs, especially when donors cover transaction fees.\n\nHere are the top contenders, categorized for clarity:\n\n---\n\n### Best for \"Free-ish\" (Donor-Covered Fees Model)\n\nThese platforms are primarily fundraising tools that have built-in CRM functionalities. They are often \"free\" to use, relying on donors to cover payment processing and platform fees.\n\n1.  **Givebutter**\n    *   **Cost:** Completely *free* to use for the nonprofit. Donors are given the *option* to cover the processing fees (standard credit card fees ~2.9% + $0.30) and a small Givebutter platform fee (1-5%). If donors don't cover it, the nonprofit pays only the standard credit card fees.\n    *   **Online Giving:** Robust suite of tools including donation forms, peer-to-peer, ticketing, auctions, text-to-donate.\n    *   **CRM:** Includes donor management, contact records, communication tools, and basic reporting.\n    *   **Why it's cheap:** Excellent value for money, especially if your donors are willing to cover fees. Very comprehensive for a free tool.\n\n2.  **Donorbox**\n    *   **Cost:** Free for the basic plan up to $1,000 in donations per month. After that, a 1.5% platform fee applies (plus standard payment processing fees of ~2.9% + $0.30), which donors can optionally cover. Add-ons like integrations or more advanced features have separate costs.\n    *   **Online Giving:** Highly customizable donation forms, recurring donations, text-to-give, peer-to-peer, fundraising pages.\n    *   **CRM:** Includes donor profiles, donation history, donor segmentation, and basic reporting. Integrates well with other CRMs.\n    *   **Why it's cheap:** Very low-cost entry, and its core functionality is strong.\n\n3.  **Mightycause (formerly Razoo)**\n    *   **Cost:** Free to use for organizations (donors can cover a 4.9% platform fee + credit card processing fees). If donors don't cover it, the organization pays the 4.9% platform fee.\n    *   **Online Giving:** Individual donation pages, team fundraising, events, peer-to-peer, and giving day support.\n    *   **CRM:** Basic donor tracking and communication tools are included.\n    *   **Why it's cheap:** Another free-to-start option where donors can shoulder the costs.\n\n---\n\n### Best for Low-Cost Dedicated CRM\n\nThese are CRMs first, with strong integrations or built-in online giving. They typically have a low monthly subscription fee.\n\n1.  **Little Green Light (LGL)**\n    *   **Cost:** Starts at **$45/month** for up to 2,500 constituents and 2,500 emails/month. Pricing scales based on contact count.\n    *   **Online Giving:** While it doesn't *process* payments directly, it integrates seamlessly with major payment processors like **Stripe, PayPal, Authorize.net**, etc., to pull donation data directly into your CRM. You can create custom donation forms within LGL that link to these processors.\n    *   **CRM:** Comprehensive donor management, gift entry, acknowledgments, pledges, recurring gifts, reporting, constituent profiles, event management, and",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter",
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 771,
+  "estimated_cost_usd": 0.00193,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

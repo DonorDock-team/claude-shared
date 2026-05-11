@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423928+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### DonorDock vs. Givebutter: Key Comparison for Nonprofits (2026)\n\nBoth DonorDock and Givebutter are popular nonprofit tools for donor management, fundraising, and CRM. DonorDock positions itself as a full-featured, affordable CRM focused on stewardship and automation, while Givebutter is an all-in-one fundraising platform emphasizing campaigns, events, and donor engagement with a \"free\" model (via donor tips). Here's a breakdown based on recent comparisons from DonorDock's site, G2, GetApp, Slashdot, YouTube reviews, and others.\n\n#### Pricing and Fees\n| Aspect              | DonorDock                          | Givebutter                          |\n|---------------------|------------------------------------|-------------------------------------|\n| **Core Pricing**   | Starts affordable (e.g., \"more affordable\" per DonorDock); unlimited users/contacts in higher tiers. Free online giving with TipBack\u00ae (donor-funded) or Donor Funded options. | Free platform (no monthly fees/minimums), but relies on donor tips (1-5% if skipped). 2.5% APY on funds in Givebutter Wallet. |\n| **Transaction Fees**| Built-in giving pages; recurring/one-time donations embedded on your site. Payment processing separate (e.g., Stripe). | 2.9% + 30\u00a2 per donation (Stripe/Venmo/PayPal). Optional donor tips cover platform costs. |\n| **Limits**         | Unlimited giving pages; no caps on emails/texts in top plans (e.g., 10,000/month). | Unlimited campaigns; broader tools but tip-dependent. |\n\n**Takeaway**: DonorDock wins on predictable, low-cost CRM for growing orgs. Givebutter suits small teams wanting zero upfront costs, but fees add up without tips (per Harness and YouTube comparisons).\n\n#### Core Features\n| Category            | DonorDock Strengths                                                                 | Givebutter Strengths                                                                 |\n|---------------------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|\n| **Donor Management/CRM** | Full CRM: AI summaries (Otto), giving history + engagement in one view, badges, automated receipts/year-end statements. | Built-in CRM for tracking/segmenting; real-time donor feeds, personalized messaging (email/SMS/direct mail). |\n| **Fundraising Tools** | Online giving, workflows (15 actions), task assignment from reports, AI email builder. | Donation forms, peer-to-peer, events/auctions/ticketing, text-to-donate, live streams. Broader \"social\" fundraising. |\n| **Automation & AI** | Superior: 15 workflow actions, AI outreach suggestions, data-driven reminders. Reports \u2192 instant actions (email/text/tasks). | Basic (6 actions); strong engagement suite but less CRM depth. |\n| **Reporting/Outreach** | Action-oriented reports; call/email/text from one view. | Good segmentation/reports; marketing tools for retention. |\n| **Integrations**   | Zapier (e.g., sync Givebutter transactions to DonorDock); native tools reduce needs. | Stripe, PayPal, Venmo, Mailchimp, Salesforce; 5,000+ via Zapier. |\n\n**Evidence**: DonorDock's comparison highlights its edge in stewardship (e.g., unlimited tasks vs. Givebutter's 5; 15 actions vs. 6). Givebutter excels in event/peer-to-peer per YouTube (Donorbox vs. Givebutter video) and Harness blog, ideal for campaigns.\n\n#### Ease of Use and Reviews\n- **DonorDock**: \"Easiest Setup\" (DonorDock site). G2 users praise organization, reports, retention tracking, badges, and donor emails. Aesthetic for donors.\n- **Givebutter**: Intuitive, donor-facing (fun feeds, no auction photo limits). G2: Strong branding/support. Tied for top support score (118group review) with live agents.\n- **User Satisfaction**: Mixed head-to-heads (G2, Slashdot, GetApp). DonorDock for CRM depth; Givebutter for all-in-one simplicity (e.g., YouTube recommends for small nonprofits growing campaigns).\n\n#### Pros/Cons Summary\n**DonorDock Pros**: Deeper CRM/automation, AI tools, cost-effective for stewardship, free giving options.  \n**Cons**: Less emphasis on events/peer-to-peer.  \n\n**Givebutter Pros**: Free core tools, event/auction/P2P powerhouse, real-time engagement, Wallet perks.  \n**Cons**: Tip reliance, shallower CRM, potential hidden fees.  \n\n#### Recommendation\n- **Choose DonorDock** if you need robust donor relationships, automation, and reporting (e.g., mid-sized nonprofits focused on retention/long-term growth).\n- **Choose Givebutter** for campaigns, events, and quick setup (e.g., small teams/schools wanting peer-to-peer without integrations).\n- **Hybrid Option**: Integrate via Zapier (e.g., Givebutter transactions \u2192 DonorDock CRM, per DonorDock site).\n\nFor latest pricing/details, check official sites as features evolve (data from 2026 sources like G2/Slashdot). Test free trials to match your workflow.",
+  "donordock_mentioned": true,
+  "donordock_position": 4,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 1080,
+  "estimated_cost_usd": 0.021224,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/compare/givebutter-vs-donordock",
+      "https://slashdot.org/software/comparison/DonorDock-vs-Givebutter/",
+      "https://www.getapp.com/nonprofit-software/a/givebutter/compare/donordock/",
+      "https://www.youtube.com/watch?v=Gw5yKnEDXCY",
+      "https://www.donordock.com/integrations/givebutter",
+      "https://www.goharness.com/blog-posts/donorbox-vs-givebutter",
+      "https://www.g2.com/compare/donordock-vs-givebutter",
+      "https://sourceforge.net/software/compare/DonorDock-vs-Givebutter/",
+      "https://118group.com/research/we-reviewed-and-scored-8-online-giving-platforms-heres-how-they-compared/"
+    ]
+  }
+}

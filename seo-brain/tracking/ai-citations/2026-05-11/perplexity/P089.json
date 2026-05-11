@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P089",
+  "prompt_text": "Best donor CRM for mental health nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.421833+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Mental Health Nonprofits\n\nMental health nonprofits often need donor CRMs that excel in **fundraising automation, donor segmentation (e.g., by recurring supporters or campaign affinity), personalized outreach, reporting on impact metrics, and integration with online giving platforms**. These tools help track donations tied to mental health initiatives like awareness campaigns or crisis support. Based on 2026 analyses from sources like Kindsight, Double the Donation, and Bloomerang, here are the **top recommendations tailored to mental health orgs** (prioritized by ease of use, affordability for small-to-mid nonprofits, and features like donor retention scoring and behavioral insights):\n\n#### 1. **Bloomerang** (Top Pick for Most Mental Health Nonprofits)\n   - **Why it fits**: Built specifically for donor retention with wealth screening, engagement scoring, and automated thank-yous. Ideal for mental health groups running emotional storytelling campaigns\u2014tracks donor \"affinity\" to causes like suicide prevention. 95%+ retention rates reported by users.\n   - **Key features**: Unlimited users, mobile app, QuickBooks integration, free data migration.\n   - **Pricing**: Starts at $119/month (billed annually); free trial.\n   - **Evidence**: Ranked #1 in Bloomerang's 2026 guide [7] and top 3 in Kindsight's 14 best [1]. Double the Donation notes its superiority for mid-sized orgs [2].\n   - **Best for**: Small-medium mental health nonprofits (e.g., NAMI affiliates) focused on recurring gifts.\n\n#### 2. **Givebutter** (Best Free/Streamlined Option)\n   - **Why it fits**: All-in-one with zero platform fees on donations, text-to-give, and peer-to-peer fundraising\u2014perfect for viral mental health awareness drives (e.g., #MentalHealthMatters). Custom forms for therapy fund trackers.\n   - **Key features**: CRM + events, auctions, CRM exports to Excel/Google Sheets; TikTok/Instagram integrations for youth-focused campaigns.\n   - **Pricing**: Free core CRM; 2.95% + $0.30/transaction (low for nonprofits).\n   - **Evidence**: Highlighted as a \"modern standout\" in Double the Donation's 22 top CRMs [2] for 2026 supporter management.\n   - **Best for**: Bootstrapped or grassroots mental health groups emphasizing digital outreach.\n\n#### 3. **Virtuous** (Best for Personalized Engagement)\n   - **Why it fits**: AI-driven donor journeys with \"responsive experiences\" like timed emails post-donation, tailored to mental health donor personas (e.g., corporate wellness givers). Strong on volunteer-to-donor pipelines for support group networks.\n   - **Key features**: Online giving, marketing automation, volunteer management; integrates with Classy for events.\n   - **Pricing**: Custom (starts ~$500/month); demo required.\n   - **Evidence**: Self-promoted as top CRM [3], echoed in GoodUnited's 8 best [4] for mission-driven fundraising.\n   - **Best for**: Growing mental health orgs with 10k+ donors needing scalable personalization.\n\n#### 4. **Salesforce Nonprofit Cloud** (Best Enterprise-Scale)\n   - **Why it fits**: Unlimited customization for complex needs like integrating with telehealth data or grant tracking for mental health research. AI (Einstein) predicts donor lapses based on giving history.\n   - **Key features**: App ecosystem (e.g., for volunteer scheduling), advanced analytics, PSA integration.\n   - **Pricing**: Free for small orgs (<10 staff); scales to $36/user/month + add-ons.\n   - **Evidence**: \"Enterprise standard\" in Insightly's 2026 top 6 [5] and Goodera's guide [6].\n   - **Best for**: Large mental health networks (e.g., national orgs) with high-volume data.\n\n#### Comparison Table\n\n| CRM          | Starting Price | Key Mental Health Strength              | Donor Limit | Integrations | Free Trial |\n|--------------|----------------|-----------------------------------------|-------------|--------------|------------|\n| **Bloomerang** | $119/mo      | Retention scoring for recurring therapy funds | Unlimited  | QuickBooks, Zapier | Yes       |\n| **Givebutter** | Free         | Text/peer-to-peer for awareness campaigns | Unlimited  | Stripe, Google | Yes       |\n| **Virtuous**   | ~$500/mo     | AI-personalized journeys                | Unlimited  | Classy, Twilio    | Demo      |\n| **Salesforce** | Free-$36/user| Custom analytics for research grants    | Unlimited  | 1,000+ apps       | Yes       |\n\n#### Quick Selection Tips\n- **Budget < $200/mo?** Bloomerang or Givebutter.\n- **High donor volume?** Virtuous or Salesforce.\n- **Mental health-specific needs**: Prioritize donor engagement tools (all do), plus check for HIPAA-adjacent compliance via integrations (e.g., Salesforce excels).\n- **Next steps**: Demo 2-3 via their sites [1-7]. Most offer nonprofit discounts; migrate data free with Bloomerang/Givebutter.\n\nThese picks draw directly from 2026 rankings, emphasizing tools proven for cause-based fundraising like mental health (e.g., donor fatigue mitigation via automation). For custom fits, share your org size/budget!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Givebutter",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 1135,
+  "estimated_cost_usd": 0.022049,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://virtuous.org",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://www.insightly.com/blog/best-crm-for-non-profits/",
+      "https://www.goodera.com/blog/best-crms-for-nonprofits-the-complete-guide-for-nonprofit-organizations",
+      "https://bloomerang.com/blog/donor-management-software/"
+    ]
+  }
+}

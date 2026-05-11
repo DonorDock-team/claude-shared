@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P059",
+  "prompt_text": "Nonprofit CRM with donation forms",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.423146+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Nonprofit CRM with Donation Forms\n\nHere are the top CRM solutions designed specifically for nonprofits with integrated donation capabilities:\n\n## **Best Overall Options**\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- **Key features:** Donor retention focus, integrated online donation forms, email marketing, engagement scoring\n- **Pricing:** Starting at ~$125/month\n- **Highlight:** Excellent donor retention analytics\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with complex needs\n- **Key features:** Highly customizable, program management, grant tracking, robust reporting\n- **Pricing:** Free for up to 10 users (NPSP), paid plans from $36/user/month\n- **Highlight:** Most powerful and scalable option\n\n### **3. Kindful (by Bloomerang)**\n- **Best for:** Growing nonprofits\n- **Key features:** Donation forms, donor management, wealth screening, email campaigns\n- **Pricing:** Starting at ~$100/month\n- **Highlight:** User-friendly interface with strong automation\n\n## **Budget-Friendly Options**\n\n### **4. Little Green Light**\n- **Pricing:** Starting at $59/month\n- **Best for:** Small nonprofits with limited budgets\n- **Features:** Basic donation forms, contact management, reporting\n\n### **5. DonorPerfect**\n- **Pricing:** Starting at ~$89/month\n- **Best for:** Mid-sized nonprofits\n- **Features:** Customizable donation pages, peer-to-peer fundraising, event management\n\n## **Key Features to Look For**\n\n\u2705 Customizable donation forms (one-time & recurring)\n\u2705 Donor database management\n\u2705 Receipt automation & tax documentation\n\u2705 Email marketing integration\n\u2705 Reporting and analytics\n\u2705 Payment processing (credit cards, ACH, PayPal)\n\u2705 Mobile-responsive forms\n\u2705 Peer-to-peer fundraising capabilities\n\n## **Questions to Consider**\n\n- What's your budget?\n- How many contacts/donors do you have?\n- Do you need grant management features?\n- What payment processors do you prefer?\n- Do you need volunteer management?\n\nWould you like more details on any specific platform?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 531,
+  "estimated_cost_usd": 0.008007,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

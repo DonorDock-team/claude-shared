@@ -1,0 +1,37 @@
+{
+  "prompt_id": "P059",
+  "prompt_text": "Nonprofit CRM with donation forms",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423230+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Nonprofit CRMs with Integrated Donation Forms\n\nSeveral nonprofit CRMs from the search results stand out for combining donor management with built-in online donation forms. These tools streamline fundraising by automating data flow from forms directly into donor records, enabling tracking, acknowledgments, and segmentation. Here's a breakdown of the strongest matches, prioritized by explicit mentions of donation forms and key features:\n\n| CRM | Key Features | Best For | Integrations Noted |\n|-----|--------------|----------|-------------------|\n| **DonorPerfect** ([1]) | Online forms for donations, recurring gifts, tributes; auto-syncs to donor records; 3x higher completion rates; mass mailing, moves management. | Mid-sized nonprofits needing robust admin automation. | Grant/gift tracking. |\n| **Funraise** ([2]) | Custom online donation forms; donor profiles, engagement tracking, email marketing; campaign management; high-performing forms. | Small nonprofits prioritizing ease and affordability. | Seamless tech tool integrations; distinguishes CRM from pure fundraising platforms. |\n| **Givebutter** ([3], [10]) | Full fundraising suite with donation forms (47% conversion); donor management, engagement tracking, personalized comms. | All sizes; flexible, modern all-in-one platform. | Double the Donation for matching gifts. |\n| **CauseVox** ([6]) | Customizable, mobile-friendly donation pages; auto-syncs donor data; peer-to-peer; donor self-service portal. | Small teams focused on donor journeys and simplicity. | Built-in CRM syncs with campaigns. |\n| **Donorbox** ([7]) | All-in-one with AI-powered CRM; donate buttons, online forms; email management, segmentation. | Broad fundraising needs with AI efficiency. | Comprehensive donor tools. |\n| **Bloomerang** ([8]) | Fundraising CRM with donor/volunteer management; implies form integration for acquisition. | Donor retention and volunteer coordination. | Not specified in results. |\n| **Keela (via Aplos)** ([9]) | Donation management with CRM; tracks engagement. | Team collaboration and donation increases. | Aplos integration. |\n\n#### Why These Fit \"Nonprofit CRM with Donation Forms\"\n- **Core Match**: All emphasize donor CRMs (centralized databases for relationships, tracking) paired with forms that handle online giving, recurring donations, and data automation\u2014avoiding manual entry.\n- **Standouts**:\n  - **Funraise** and **Givebutter** excel for small orgs with user-friendly forms and analytics.\n  - **DonorPerfect** leads for scale, with proven form performance.\n  - Many integrate with matching gift tools (e.g., Double the Donation [3]) to boost revenue by screening donors post-donation.\n- **CRM vs. Fundraising Platforms**: Results ([2], [6]) clarify CRMs focus on long-term donor relations (profiles, segmentation, lifecycle tracking), while forms add immediate fundraising\u2014ideal for unified workflows.\n\nFor implementation, start with free trials (e.g., DonorPerfect, Funraise). Match to your size: Funraise/Givebutter for small budgets; DonorPerfect for complex needs. If matching gifts matter, prioritize Givebutter, Funraise, or DonorPerfect.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Givebutter",
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 669,
+  "estimated_cost_usd": 0.015056,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donorperfect.com",
+      "https://www.funraise.org/features/donor-crm",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.streak.com/post/best-crm-for-nonprofits",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.causevox.com/blog/crm-software-for-nonprofits/",
+      "https://donorbox.org",
+      "https://bloomerang.com",
+      "https://www.aplos.com/donation-software-for-nonprofits",
+      "https://givebutter.com"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P061",
+  "prompt_text": "Best donor CRM for monthly giving programs",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.423519+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Monthly Giving Programs\n\nHere are the top platforms specifically strong for managing recurring donations:\n\n## **Top Tier Options**\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits focused on retention\n- Excellent recurring gift tracking and upgrade prompts\n- Built-in donor retention analytics\n- Automated communication workflows for sustainers\n- **Price:** ~$125-300/month\n\n### **2. Kindful (by Bloomerang)**\n- Specialized monthly giving campaign tools\n- Strong integration with major payment processors\n- Automated failed payment recovery\n- **Price:** ~$100-200/month\n\n### **3. Keela**\n- AI-powered insights for identifying monthly giving prospects\n- Robust recurring donation management\n- Automated donor journeys for sustainers\n- **Price:** ~$100-175/month\n\n## **Enterprise Options**\n\n### **4. Salesforce Nonprofit Success Pack (NPSP)**\n- Highly customizable recurring gift management\n- Advanced segmentation for monthly donors\n- Requires more setup but extremely powerful\n- **Price:** Starting ~$36/user/month (plus implementation)\n\n### **5. Blackbaud Raiser's Edge NXT**\n- Comprehensive sustainer program tools\n- Strong for organizations with large programs\n- **Price:** Custom pricing (typically $10K+/year)\n\n## **Budget-Friendly Options**\n\n### **6. Donor Perfect**\n- Solid recurring gift tracking\n- Good automation features\n- **Price:** ~$89-149/month\n\n### **7. Little Green Light**\n- Simple recurring donation management\n- Good for smaller programs\n- **Price:** ~$39-59/month\n\n## **Key Features to Look For:**\n- \u2705 Automated payment retry for failed transactions\n- \u2705 Easy sustainer upgrade paths (increase monthly amount)\n- \u2705 Dedicated communication workflows\n- \u2705 Lifetime value tracking\n- \u2705 Payment processor integration (Stripe, PayPal, etc.)\n\n**What size is your organization and current monthly donor count?** That would help me narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 493,
+  "estimated_cost_usd": 0.00744,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

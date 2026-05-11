@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P101",
+  "prompt_text": "DonorPerfect total cost of ownership",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424324+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### DonorPerfect Total Cost of Ownership (TCO) in 2026\n\nDonorPerfect does not publish fixed pricing publicly, opting instead for personalized quotes based on factors like constituent (donor) database size, feature tier (e.g., Core, Plus, Pro), organization scale, and donation volume. Pricing scales with database size rather than per-user seats, making it flexible for nonprofits but opaque without a quote. Below is a synthesis of 2026 TCO estimates from third-party sources (e.g., CheckThat.ai, PricingNow, G2, Software Advice), which align on core ranges but vary by assumptions like annual donations processed ($100K\u2013$1M) and optional services.\n\n#### Key Pricing Tiers (Third-Party Estimates)\n| Tier | Monthly Cost (Est.) | Annual Subscription (Est.) | Key Features |\n|------|---------------------|----------------------------|--------------|\n| **Core/Essentials** | $89\u2013$119 | $1,068\u2013$1,428 | Basic donor management, online forms, Constant Contact Lite integration, chat support. Suited for small orgs transitioning from spreadsheets. |\n| **Plus/Growth** | $159+ (quote req.) | $1,908\u2013$2,400+ | Adds QuickBooks integration, moves management, auction tools, batch entry. For mid-sized multi-channel campaigns. |\n| **Pro/Enterprise** | $299+ (custom) | $3,588+ | API access, advanced reporting, enterprise support. For large orgs with integrations. |\n\n- **Starting Price Consensus**: $89\u2013$119/month (G2, PricingNow, CheckThat.ai, Software Advice).\n- **Official Stance**: All plans include customizable donor management, Constant Contact/Mailchimp integrations, reporting, donation forms/processing, automation, volunteer/grant tools, and mobile app. Request a quote via DonorPerfect's site for exacts tailored to your donor count.\n\n#### Full TCO Breakdown\nTCO includes subscription + payment processing (majority of variable costs) + one-time/optional fees. Payment processing via DP Payments (powered by SafeSave) is 2.89%\u20133.39% + $0.30 per credit card transaction (0.75% + $0.35 for ACH)\u2014higher than alternatives like Stripe (2.2% + $0.30) or Bloomerang (2.0% + $0.30), adding $3K\u2013$6K extra on $500K donations.\n\n| Cost Component | Estimated Cost | Notes |\n|----------------|----------------|-------|\n| **Base Subscription (Year 1)** | $1,428\u2013$3,588 | Core to Pro; scales with donor database size (not published limits). Higher for Plus/Pro. |\n| **Payment Processing** | Scales with volume:<br>$2,920 ($100K donations)<br>$7,300 ($250K)<br>$14,600 ($500K)<br>$29,200 ($1M) | 2.89% + $0.30/CC; \"Donor Covers Cost\" (DCC) option lets donors offset fees, potentially reducing net cost. |\n| **Implementation/Data Migration (One-Time)** | $500\u2013$5,000 | Varies by org size/complexity; optional setup assistance. |\n| **Customization** | $1,000\u2013$10,000 (one-time) | For advanced features beyond tiers. |\n| **Training** | $500\u2013$2,000 | Beyond free webinars; per org size/type. |\n| **Year 1 Total TCO (Example: $500K Donations, Plus Tier)** | **$16,378\u2013$20,378** | Low end: Core + minimal extras; high end: Pro + migration/training + full processing. Excludes hardware (cloud-based, none required). |\n\n#### Year 1 TCO Ranges by Scenario\n| Annual Donations | Org Size/Tier | Est. Total Year 1 TCO |\n|------------------|---------------|-----------------------|\n| $100K | Small/Core | $4,000\u2013$7,000 |\n| $250K | Mid/Plus | $9,000\u2013$12,000 |\n| **$500K** | Mid/Plus | **$15,878\u2013$20,378** (most cited benchmark) |\n| $1M | Large/Pro | $32,000\u2013$40,000+ |\n\n#### Additional Insights\n- **Hidden Costs & Savings**: Processing fees dominate TCO (70\u201390% for high-volume orgs). DCC feature boosts net revenue by letting donors cover fees. Compared to free platforms like Givebutter, DonorPerfect fees on $25K raised (~$3,750) could equal a full year's subscription\u2014but it includes advanced tools absent in free tiers.\n- **Company Scale**: DonorPerfect generates ~$42.5M annual revenue (Growjo est.), supporting robust features.\n- **Recommendations**: Get a free personalized quote from DonorPerfect (no obligation). Factor in fundraising volume\u2014higher success amplifies processing costs but also DCC offsets. For alternatives, compare TCO with Bloomerang or Stripe-integrated tools to save on fees.\n\nSources: Primarily [1] CheckThat.ai (detailed TCO models), [2] PricingNow (tier breakdowns), [4] G2, [6\u20137] DonorPerfect official pages. Estimates are 2026-current; actuals depend on your quote.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 1152,
+  "estimated_cost_usd": 0.022304,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://checkthat.ai/brands/donorperfect/pricing",
+      "https://pricingnow.com/question/donorperfect-cost/",
+      "https://growjo.com/company/DonorPerfect_Fundraising_Growth_Platform",
+      "https://www.g2.com/products/donorperfect/pricing",
+      "https://www.donorperfect.com/factsheets/donor-covers-cost-dcc/",
+      "https://www.donorperfect.com/fundraising-software/compare-donor-management-systems/givebutter/",
+      "https://www.donorperfect.com/fundraising-software/pricing-guide/",
+      "https://www.trustradius.com/products/donorperfect/pricing",
+      "https://www.donorperfect.com/video/donorperfects-new-pricing/",
+      "https://www.donorperfect.com/landing/monthly-giving-calculator/"
+    ]
+  }
+}

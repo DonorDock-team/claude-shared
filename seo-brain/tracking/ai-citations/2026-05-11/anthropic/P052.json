@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P052",
+  "prompt_text": "Best CRM for a new development director",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.421564+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best CRMs for a New Development Director\n\nFor a new development director, I'd recommend these based on nonprofit fundraising needs:\n\n## **Top Recommendation: Bloomerang**\n- **Best for:** Small to mid-size nonprofits\n- Built specifically for donor management\n- Excellent donor retention focus\n- Intuitive interface (gentle learning curve)\n- Strong reporting and engagement tracking\n- **Price:** ~$125-150/month\n\n## **Runner-Up Options:**\n\n**1. DonorPerfect**\n- Comprehensive fundraising features\n- Good integration with online giving\n- Solid reporting\n- **Price:** ~$89+/month\n\n**2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations or those planning significant growth\n- Most powerful and customizable\n- Steeper learning curve\n- Free for up to 10 users, then ~$36/user/month\n\n**3. Little Green Light**\n- Budget-friendly option\n- Simple, clean interface\n- Good for smaller shops\n- **Price:** ~$39+/month\n\n## **Key Considerations:**\n- **Budget:** What can your organization afford?\n- **Database size:** How many constituents?\n- **Team size:** Just you or multiple users?\n- **Current systems:** What are you migrating from?\n\n**My advice:** Start with a demo of Bloomerang and DonorPerfect. They offer the best balance of power and usability for someone stepping into the role.\n\nWhat's your org size and primary fundraising focus?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 350,
+  "estimated_cost_usd": 0.005295,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

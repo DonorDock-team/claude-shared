@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423983+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Yes, absolutely! Integrating text messaging (SMS) capabilities directly into a Donor CRM has become a crucial feature for modern non-profits to engage with their supporters effectively.\n\nMany popular Donor CRM platforms now offer robust SMS features, either natively built-in or through seamless integrations with specialized texting services.\n\nHere are some of the top Donor CRMs that provide strong text messaging functionalities, along with what to look for:\n\n### Top Donor CRMs with Text Messaging\n\n1.  **Bloomerang:**\n    *   **Strength:** Excellent for donor engagement and retention. They have strong native SMS features, allowing you to send targeted messages, event reminders, thank-yous, and appeals directly from the CRM.\n    *   **SMS Features:** Two-way texting, mass texts, personalization, segmentation, automated messages.\n\n2.  **Neon CRM (Neon One):**\n    *   **Strength:** A comprehensive suite of tools for non-profits, including CRM, fundraising, events, and membership management. Their messaging tools are quite robust.\n    *   **SMS Features:** Mass texting, personalized messages, drip campaigns, automated alerts, event reminders, support for keywords.\n\n3.  **DonorPerfect:**\n    *   **Strength:** A long-standing and widely used CRM, known for its extensive features and integrations. They offer a strong texting module.\n    *   **SMS Features:** One-off and mass texts, automated messaging, personalized fields, tracking of interactions in donor records, opt-in/opt-out management.\n\n4.  **Virtuous:**\n    *   **Strength:** Focuses on \"responsive fundraising\" and personalized donor journeys. Text messaging is a core part of their multi-channel engagement strategy.\n    *   **SMS Features:** Highly personalized texts, automated messaging based on donor behavior, two-way conversations, segmentation, robust reporting.\n\n5.  **Salesforce Nonprofit Cloud (with add-ons):**\n    *   **Strength:** Highly customizable and scalable. While Salesforce itself doesn't have native SMS, its extensive AppExchange offers numerous top-tier SMS integration apps (e.g., Mogli SMS, Twilio-based solutions) specifically designed for non-profits.\n    *   **SMS Features (via integration):** Comprehensive mass texting, 2-way communication, automation, data logging, advanced segmentation, keywords, compliance management.\n\n6.  **Keela:**\n    *   **Strength:** All-in-one CRM with AI-powered insights, offering a suite of tools including email, fundraising, and project management. Their messaging features are well-integrated.\n    *   **SMS Features:** Mass texting, personalized messages, segmentation, automated campaigns, logging of communications.\n\n7.  **Givebutter:**\n    *   **Strength:** A popular free fundraising platform that also functions as a CRM. Excellent for small to medium organizations looking for an all-in-one solution with strong communication tools.\n    *   **SMS Features:** Built-in mass texting for campaigns and events, peer-to-peer texting, direct messaging.\n\n8.  **Little Green Light (LGL):**\n    *   **Strength:** A more affordable and user-friendly option, particularly for smaller non-profits",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Keela",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 675,
+  "estimated_cost_usd": 0.001689,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

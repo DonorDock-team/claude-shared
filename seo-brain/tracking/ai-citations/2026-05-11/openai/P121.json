@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P121",
+  "prompt_text": "AI for donor research",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.424664+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Using AI for donor research can help organizations streamline their fundraising efforts, identify potential donors, and enhance donor engagement strategies. Here are several ways AI can be leveraged in donor research:\n\n1. **Predictive Analytics**: AI can analyze historical donor data to identify patterns and predict future donor behavior, helping organizations target their efforts more effectively.\n\n2. **Prospect Identification**: Machine learning algorithms can comb through vast datasets, such as public records, social media, and donor databases, to identify potential new donors who match the profile of existing supporters.\n\n3. **Wealth Screening**: AI can aggregate public financial data, property records, and market indicators to assess a potential donor\u2019s capacity to give, providing a clearer picture of which prospects have the potential for large contributions.\n\n4. **Donor Segmentation**: AI can segment donors based on their interests, giving history, engagement levels, and demographics, enabling more personalized and effective communication and outreach strategies.\n\n5. **Natural Language Processing (NLP)**: NLP tools can process unstructured data, like social media posts or news articles, to gather insights about potential donors' interests and affiliations.\n\n6. **Sentiment Analysis**: By analyzing text from emails, surveys, or social media interactions, AI can gauge donor sentiment, helping organizations understand donor satisfaction and tailor engagement strategies.\n\n7. **Automated Reporting**: AI can automate the creation of donor reports and dashboards, offering insights and visualizations that help fundraising teams track progress and make data-driven decisions.\n\n8. **Enhanced Communication Strategies**: Understanding when and how donors prefer to be contacted can improve response rates. AI can analyze communication data to refine these strategies.\n\n9. **Chatbots and Virtual Assistants**: These tools can answer donor queries, guide potential donors through the donation process, and provide personalized recommendations, improving user experience and engagement.\n\n10. **Social Network Analysis**: AI can map the connections between existing donors and prospects, leveraging these networks for introductions and to identify influence pathways.\n\nImplementing AI in donor research requires careful consideration of privacy and ethical use of data, ensuring compliance with data protection regulations and maintaining transparency with donors about how their data is used.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 11,
+  "output_tokens": 435,
+  "estimated_cost_usd": 0.004378,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

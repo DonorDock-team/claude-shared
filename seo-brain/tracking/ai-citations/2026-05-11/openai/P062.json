@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P062",
+  "prompt_text": "Best nonprofit CRM with email and text messaging",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.423730+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When selecting a CRM (Customer Relationship Management) platform for nonprofits that includes email and text messaging capabilities, it's important to consider features like user-friendliness, integration capabilities, customer support, and pricing. Here are some popular nonprofit CRM options that provide robust email and text messaging functionalities:\n\n1. **Bloomerang**:\n   - **Features**: Designed specifically for nonprofits, Bloomerang offers easy-to-use tools for donor management, email marketing, and reporting. It also provides engagement tracking and donor retention insights.\n   - **Email/Text Messaging**: Bloomerang integrates email marketing directly within the platform. For text messaging, it may require integrations with third-party services.\n\n2. **Kindful**:\n   - **Features**: Offers donor management, tracking, and reporting tools. Kindful is known for its intuitive interface and strong integration capabilities.\n   - **Email/Text Messaging**: Kindful partners with communication platforms like Mailchimp for email marketing and supports integrations with text messaging services such as Twilio.\n\n3. **Neon CRM**:\n   - **Features**: Comprehensive CRM with tools for fundraising, member management, event planning, and email marketing.\n   - **Email/Text Messaging**: Built-in email marketing and integration with text messaging services make it a versatile choice for nonprofits.\n\n4. **Salesforce for Nonprofits**:\n   - **Features**: A highly customizable CRM with a broad range of applications. The Nonprofit Cloud by Salesforce is tailored for fundraising, managing programs, and engaging donors.\n   - **Email/Text Messaging**: Offers native email solutions and supports integrations with platforms like Twilio for SMS capabilities.\n\n5. **Zoho CRM**:\n   - **Features**: While not exclusively for nonprofits, Zoho CRM offers a wide array of features including automation, analytics, and integration with various services.\n   - **Email/Text Messaging**: Built-in email tools and robust third-party integration options for text messaging.\n\n6. **DonorPerfect**:\n   - **Features**: A comprehensive solution tailored to nonprofit fundraising with features for donor management and retention strategies.\n   - **Email/Text Messaging**: Integrated email marketing and capabilities for text messaging through partnerships with services like Constant Contact and Tell-Efficient.\n\n7. **Little Green Light**:\n   - **Features**: Focuses on donor management and fundraising with a user-friendly interface and straightforward reporting tools.\n   - **Email/Text Messaging**: Email communication tools are integrated, while text messaging might require third-party integrations.\n\nWhen choosing a CRM, consider factors like the size of your organization, budget, specific needs (such as volunteer management or event planning), and the level of customer support offered by the provider. Many of these platforms offer free trials, so it's beneficial to test a few before making a decision.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 561,
+  "estimated_cost_usd": 0.005647,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

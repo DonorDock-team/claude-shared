@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P137",
+  "prompt_text": "Little Green Light limitations",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424386+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Little Green Light (LGL) is a popular and effective donor management system for many small to mid-sized nonprofits, known for its affordability and robust core features. However, like any software, it has limitations, especially when compared to higher-end or more specialized systems.\n\nHere are some common limitations of Little Green Light:\n\n1.  **Advanced Reporting & Analytics:**\n    *   While LGL offers good query tools and standard reports, it may lack the depth of advanced analytics, predictive modeling, sophisticated data visualization, or AI-driven insights found in more enterprise-level CRMs.\n    *   Organizations needing very complex custom reports or dashboards might find themselves doing more manual data manipulation outside of LGL.\n\n2.  **Marketing & Communications Automation:**\n    *   LGL's built-in email functionality is functional for acknowledgments, newsletters, and basic campaigns, but it's not a full-fledged marketing automation platform.\n    *   It lacks advanced features like sophisticated email drip campaigns, A/B testing, complex segmentation within email sends, lead scoring, or robust landing page builders. (It often integrates with dedicated email marketing tools like Mailchimp for these needs).\n\n3.  **Complex Workflow Automation:**\n    *   While LGL has some basic automation (e.g., recurring gifts, auto-acknowledgments), it may not support highly complex, multi-step, conditional workflows that larger organizations might want to automate within their CRM (e.g., highly specific donor journeys triggered by multiple",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 313,
+  "estimated_cost_usd": 0.000784,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

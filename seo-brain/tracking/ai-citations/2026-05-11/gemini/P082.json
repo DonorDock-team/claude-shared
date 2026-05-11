@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424178+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a hospital is a complex decision, as it depends heavily on the hospital's size, fundraising goals, budget, existing IT infrastructure, and specific compliance needs (especially HIPAA).\n\nHospitals have unique requirements compared to other non-profits, primarily due to the sensitive nature of patient data and the potential for grateful patient programs.\n\nHere are the top contenders, categorized, along with their strengths and considerations for hospitals:\n\n---\n\n### **Top Contenders for Hospitals (Generally Enterprise-Level)**\n\nThese systems offer the most robust features, scalability, and customization needed for large hospital foundations, but come with higher costs and implementation complexity.\n\n1.  **Salesforce Nonprofit Cloud (NPSP)**\n    *   **Strengths for Hospitals:**\n        *   **Extreme Customization:** Salesforce is a platform, meaning it can be highly tailored to fit intricate hospital fundraising workflows, including complex relationship mapping (patient, family, doctor, grateful patient, donor, volunteer).\n        *   **Scalability:** Can handle vast amounts of data and users, perfect for large health systems.\n        *   **Robust Ecosystem:** Thousands of apps (AppExchange) for wealth screening, prospect research, marketing automation, event management, and integrations with other hospital systems (carefully, see compliance).\n        *   **Advanced Analytics & Reporting:** Powerful dashboards and",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 280,
+  "estimated_cost_usd": 0.000701,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

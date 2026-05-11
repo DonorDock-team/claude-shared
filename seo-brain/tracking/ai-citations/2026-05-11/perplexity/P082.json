@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424128+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Hospitals and Healthcare Nonprofits\n\nHospitals and healthcare foundations often need donor management software (CRM) with features like HIPAA-compliant data handling, grateful patient programs, pledge tracking, fundraising campaigns for medical research or facilities, and integration with payment systems. Based on the latest 2026 reviews and comparisons from specialized nonprofit resources, here are the standout options tailored for this sector. I've prioritized those explicitly mentioned for hospitals, healthcare, or medical fundraising, ranked by relevance, frequency in top lists, and hospital-specific features.\n\n#### 1. **DonorPerfect** (Top Recommendation for Hospitals)\n   - **Why it's best for hospitals**: Purpose-built for healthcare, disease research, medical nonprofits, and hospital fundraising. Handles donor/volunteer data, pledges, payments, and campaigns. Claims users raise 171% more funds in the first 3 years. Cloud-based with strong integration for health-specific workflows.\n   - **Key features**: Donor consolidation, online giving, reporting, HIPAA considerations.\n   - **Sources**: Ranked highly in [2], [3], [5]; dedicated hospital fundraising page.\n   - **Pricing**: Starts around $89/month (varies by contacts); free trial available.\n   - **Best for**: Mid-sized hospitals needing robust, all-in-one fundraising tools.\n\n#### 2. **Virtuous**\n   - **Why it's best for hospitals**: AI-powered for healthcare foundations, with patient giving pages, grateful patient tracking, and major gift cultivation. Deepens donor relationships via automation and insights.\n   - **Key features**: Donor management, AI analytics, personalized fundraising, CRM + marketing.\n   - **Sources**: [8] highlights it specifically for healthcare foundations.\n   - **Pricing**: Custom quotes; focuses on enterprise-level nonprofits.\n   - **Best for**: Larger hospitals emphasizing AI-driven patient/donor engagement.\n\n#### 3. **Bloomerang**\n   - **Why it's best for hospitals**: Unified platform for donor retention and fundraising, frequently tops 2026 lists. Excels in engagement scoring and reporting, adaptable for healthcare donor stewardship.\n   - **Key features**: Donor profiles, email automation, event management, mobile app.\n   - **Sources**: Featured in [1], [9] as a top overall nonprofit CRM.\n   - **Pricing**: $119/month base; scales with donors.\n   - **Best for**: Smaller hospital foundations prioritizing donor retention.\n\n#### Other Strong Contenders\n| CRM              | Hospital/Healthcare Fit                          | Standout Features                     | Sources          | Pricing Insight          |\n|------------------|--------------------------------------------------|---------------------------------------|------------------|--------------------------|\n| **Salesforce NPSP** | Highly customizable for complex hospital needs  | Advanced reporting, integrations     | [6]             | Free open-source + add-ons |\n| **DonorDock**    | Bundles donor mgmt + online giving for nonprofits | Text/email marketing, automations    | [7]             | Starts ~$100/month      |\n| **CharityEngine**| Addresses HIPAA/security for healthcare         | Efficiency tools, compliance focus   | [5]             | Custom enterprise       |\n| **Ascend/Bloomerang/Bonterra** | General nonprofit strength, adaptable to hospitals | Campaign tools, donor relations     | [1]             | Varies; $100+/month     |\n\n#### How to Choose\n- **Prioritize HIPAA/security**: DonorPerfect, CharityEngine, and Virtuous emphasize healthcare compliance.\n- **Scale**: DonorPerfect for most hospitals; Salesforce for massive operations.\n- **Trials/Demos**: All offer free trials\u2014test integrations with your hospital's systems (e.g., EHR).\n- **Trends in 2026**: AI (Virtuous) and unified platforms (Bloomerang, DonorDock) dominate for efficiency.\n\nFor hospitals, **DonorPerfect** edges out as the most directly tailored and proven, per multiple expert guides. Check their sites for demos matching your size/budget. If you provide more details (e.g., budget, donor volume), I can refine this.",
+  "donordock_mentioned": true,
+  "donordock_position": 2979,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Salesforce NPSP",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 851,
+  "estimated_cost_usd": 0.017783,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.galaxydigital.com/blog/best-donor-management-software-options-for-nonprofits",
+      "https://www.donorperfect.com/nonprofits/hospital-fundraising/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://blog.charityengine.net/fundraising-software-healthcare-nonprofits",
+      "https://onlinedegrees.sandiego.edu/donor-management-software/",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://virtuous.org/solutions-healthcare/",
+      "https://bloomerang.com/blog/donor-management-software/"
+    ]
+  }
+}

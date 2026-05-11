@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P040",
+  "prompt_text": "Donor software with QuickBooks integration",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423105+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Many donor software platforms offer integration with QuickBooks, which is crucial for nonprofits to streamline their financial record-keeping, reconcile donations, and manage their general ledger.\n\nThe type and depth of integration can vary:\n\n*   **Direct API Integration:** Transactions automatically sync between the donor software and QuickBooks (often preferred).\n*   **Third-Party Connectors/Apps:** Using tools like Zapier or specific connectors to bridge the two systems.\n*   **Export/Import:** Generating reports from the donor software that can be easily imported into QuickBooks.\n*   **Summary vs. Transactional:** Some sync every individual donation, others just provide a summary total for a period.\n\nHere are some popular donor management software options that are known for their QuickBooks integration:\n\n1.  **Bloomerang:**\n    *   **Description:** Known for its focus on donor retention and engagement, with intuitive reporting and communications tools.\n    *   **QuickBooks Integration:** Offers a robust, direct integration that allows you to sync donations as invoices or sales receipts, map funds to specific QuickBooks accounts, and manage pledges. It supports both QuickBooks Online and Desktop (via an app).\n\n2.  **DonorPerfect:**\n    *   **Description:** A comprehensive donor management system that caters to a wide range of nonprofit sizes, offering fundraising, communications, and reporting tools.\n    *   **QuickBooks Integration:** Has a well-established integration. It can sync gifts, pledges, and constituent data. Often, this involves dedicated export features tailored for QuickBooks or direct API connections for specific versions. Supports both QuickBooks Online and Desktop.\n\n3.  **Neon CRM (formerly NeonOne):**\n    *   **Description:** An all-in-one solution that includes donor management, membership management, event registration, and website tools.\n    *   **QuickBooks Integration:** Offers a strong integration to push revenue and expense data, allowing you to choose whether to sync individual transactions or summarized batches. Supports both QuickBooks Online and Desktop.\n\n4.  **Kindful (now part of Classy):**\n    *   **Description:** A modern, user-friendly fundraising and donor management platform known for its reporting and integrations.\n    *   **QuickBooks Integration:** Very popular for its seamless and direct QuickBooks Online integration. It allows you to map donations, campaigns, and funds directly to your QuickBooks chart of accounts, automating reconciliation.\n\n5.  **eTapestry (Blackbaud):**\n    *   **Description:** An entry-level CRM from Blackbaud, designed for smaller to medium-sized nonprofits.\n    *   **QuickBooks Integration:** While Blackbaud also has its own financial software (Financial Edge), eTapestry offers specific integrations or export tools to facilitate data transfer to QuickBooks, allowing you to reconcile donations.\n\n6.  **Little Green Light:**\n    *   **Description:** An affordable and straightforward donor management system, often chosen by smaller nonprofits for its ease of use and good support.\n    *   **QuickBooks Integration:** Offers direct export features designed to be easily imported into QuickBooks, and can also integrate via tools like Zapier for more automated workflows.\n\n7.  **Virtuous:**\n    *   **Description:** A modern, donor-centric CRM focused on automation and personalized donor journeys.\n    *   **QuickBooks Integration:** Provides robust API-driven integration to",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Virtuous",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 693,
+  "estimated_cost_usd": 0.001734,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

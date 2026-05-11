@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P133",
+  "prompt_text": "Givebutter limitations",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.423662+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Givebutter is a popular and effective fundraising platform, especially for its modern interface, ease of use, and \"free\" core offering. However, like any platform, it has limitations that might make it less suitable for certain organizations or specific needs. Understanding these can help you decide if it's the right fit.\n\nHere are some common limitations of Givebutter:\n\n1.  **Not a Full-Fledged CRM (Donor Management System):**\n    *   While Givebutter stores donor data and tracks donations, it's not designed to be a comprehensive CRM. It lacks advanced features for donor segmentation, wealth screening, relationship tracking, major donor cultivation, grant management, or detailed communication histories beyond basic email receipts.\n    *   Organizations needing deep donor insights and sophisticated relationship management will likely need to integrate Givebutter with a dedicated CRM (like Salesforce NPSP, Bloomerang, NeonOne, etc.) via Zapier or direct integrations, which can add complexity and cost.\n\n2.  **Reliance on Donor-Covered Fees & Standard Processing Fees:**\n    *   Givebutter's core platform is \"free\" for organizations, meaning they don't charge a platform fee on top of transaction costs. However, it strongly encourages donors to cover the standard payment processing fees (typically 2.9% + $0.30 for credit cards via Stripe/PayPal) *and* an optional Givebutter tip.\n    *   While many donors are happy to cover these, some may be put off by the explicit ask, or find it confusing, potentially leading to lower donation amounts or drop-offs.\n    *   If donors opt *not* to cover the fees, the organization effectively pays them, which is still a cost.\n\n3.  **Limited Customization for Advanced Branding/White-Labeling:**\n    *   Givebutter offers good branding options (logos, colors, banners), but it's not truly white-label. The \"Powered by Givebutter\" branding will always be present to some degree.\n    *   Organizations with very strict branding guidelines or those requiring a completely seamless, integrated experience directly on their own website without external links might find the customization options less robust than building something custom or using platforms designed for deeper integration.\n\n4.  **Reporting and Analytics Depth:**\n    *   Givebutter provides essential reports on donations, campaigns, and donors. However, for organizations that require highly detailed, custom analytical reports, advanced forecasting, or complex data visualizations, it might fall short compared to dedicated BI tools or more robust CRMs.\n\n5.  **Specific Event Features:**\n    *   While excellent for many types of fundraising events (ticketing, auctions, peer-to-peer), Givebutter might not have the hyper-specialized features required for extremely complex events. For example, highly intricate multi-day conferences, advanced seating arrangements, detailed vendor management, or highly granular check-in/out processes might require more specialized event management software.\n\n6.  **No Native Volunteer Management:**\n    *   Givebutter is focused on fundraising. It does not offer features for recruiting, scheduling, tracking, or communicating with volunteers, which is a common need for many non-profits. This would require a separate system.\n\n7.  **Basic Membership Management:**\n    *   Givebutter can handle recurring donations, which can function as basic membership payments. However,",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Givebutter",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 3,
+  "output_tokens": 696,
+  "estimated_cost_usd": 0.001741,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

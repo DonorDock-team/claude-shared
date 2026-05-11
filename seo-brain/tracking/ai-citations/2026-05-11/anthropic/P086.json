@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P086",
+  "prompt_text": "Best donor CRM for homeless services",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.424792+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best CRMs for Homeless Services Organizations\n\nFor homeless services organizations, you need a CRM that handles both donor management and client services. Here are the top options:\n\n## **Best Overall: Bloomerang**\n- **Price:** Starting at ~$125/month\n- **Strengths:** \n  - Excellent donor retention focus\n  - User-friendly interface\n  - Strong reporting and engagement tracking\n  - Good for small-to-medium nonprofits\n- **Consideration:** Limited case management features\n\n## **Best for Integrated Services: Apricot by Social Solutions**\n- **Price:** Custom pricing (typically $3,000+/year)\n- **Strengths:**\n  - Built specifically for human services\n  - Combines donor management with client case management\n  - HMIS integration capabilities\n  - Outcome tracking and reporting\n- **Best for:** Organizations needing both fundraising and service delivery tracking\n\n## **Best Budget Option: Little Green Light**\n- **Price:** Starting at $59/month\n- **Strengths:**\n  - Affordable for smaller organizations\n  - Good donor management basics\n  - Grant tracking\n  - Responsive support\n\n## **Best for Larger Organizations: Salesforce Nonprofit Cloud**\n- **Price:** 10 free licenses, then ~$36/user/month\n- **Strengths:**\n  - Highly customizable\n  - Can integrate service delivery and fundraising\n  - Scalable\n  - Nonprofit Success Pack (NPSP) included\n- **Consideration:** Steeper learning curve, may need consultant\n\n## **Key Features to Prioritize:**\n- Grant management and reporting\n- Volunteer coordination\n- Email marketing integration\n- HMIS compatibility (if applicable)\n- Mobile access for outreach workers\n\n**My Recommendation:** Start with **Bloomerang** if you're primarily focused on donor management, or **Apricot** if you need integrated client services tracking.\n\nWhat's your organization's size and primary need?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 449,
+  "estimated_cost_usd": 0.006777,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

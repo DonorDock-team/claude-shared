@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.423860+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM with Text Messaging\n\nI'd be happy to help you find or build a donor CRM system with SMS capabilities. Here are your main options:\n\n## **All-in-One Solutions**\n\n### **Purpose-Built Nonprofit CRMs with SMS:**\n- **Bloomerang** - Donor management with built-in texting\n- **Kindful** (by Bloomerang) - Integrates with SMS platforms\n- **NeonCRM** - Native SMS features for donor engagement\n- **DonorPerfect** - Text-to-give and messaging capabilities\n- **Little Green Light** - CRM with SMS integration options\n\n### **General CRMs with Strong SMS:**\n- **HubSpot** (Nonprofit pricing available) - SMS via integrations\n- **Salesforce Nonprofit Cloud** - With SMS apps from AppExchange\n- **Keap** - Built-in SMS automation\n\n## **CRM + SMS Integration Approach**\n\nPair a donor CRM with:\n- **Twilio** - Programmable SMS API\n- **TextMagic** - Business SMS platform\n- **SimpleTexting** - Mass texting service\n- **EZ Texting** - SMS marketing platform\n\n## **Key Features to Look For:**\n- \u2705 Donor segmentation for targeted messaging\n- \u2705 Two-way conversations\n- \u2705 Automated thank-you texts\n- \u2705 Text-to-donate functionality\n- \u2705 Campaign tracking\n- \u2705 Compliance (opt-in/opt-out management)\n\n## **What's your specific need?**\n- Organization size?\n- Budget range?\n- Primary use case (fundraising, event reminders, stewardship)?\n- Technical expertise level?\n\nI can provide more tailored recommendations based on your situation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 418,
+  "estimated_cost_usd": 0.006312,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

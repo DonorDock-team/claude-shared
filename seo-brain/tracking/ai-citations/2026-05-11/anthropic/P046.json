@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P046",
+  "prompt_text": "Best donor CRM for arts and cultural nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.424024+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Arts & Cultural Nonprofits\n\n## Top Recommendations\n\n### **1. PatronManager (by Salesforce)**\n- **Best for:** Performing arts organizations, theaters, museums\n- **Key features:** Ticketing integration, membership management, donor tracking\n- **Built on Salesforce** platform specifically for arts organizations\n- **Pricing:** Custom (typically $$$)\n\n### **2. Blackbaud Altru**\n- **Best for:** Museums, zoos, cultural attractions\n- **Key features:** Admissions, membership, fundraising, retail all-in-one\n- **Industry leader** for cultural institutions\n- **Pricing:** Enterprise-level ($$$)\n\n### **3. Bloomerang**\n- **Best for:** Small-to-midsize arts organizations\n- **Key features:** Donor retention focus, intuitive interface, excellent reporting\n- **Great value** with strong support\n- **Pricing:** Starting ~$125/month ($$)\n\n### **4. Tessitura**\n- **Best for:** Large performing arts centers, symphonies, opera companies\n- **Key features:** Comprehensive ticketing + CRM, very powerful\n- **Industry standard** for major arts organizations\n- **Pricing:** Enterprise-level ($$$+)\n\n### **5. DonorPerfect**\n- **Best for:** Small-to-midsize organizations on a budget\n- **Key features:** Solid fundamentals, reasonable pricing, arts-friendly\n- **Pricing:** Starting ~$89/month ($)\n\n## Key Considerations\n- **Ticketing needs?** PatronManager or Tessitura\n- **Budget constraints?** Bloomerang or DonorPerfect\n- **Museum/attraction?** Altru\n- **Size of database** and complexity of needs\n\nWhat's your organization's size and primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 424,
+  "estimated_cost_usd": 0.006414,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

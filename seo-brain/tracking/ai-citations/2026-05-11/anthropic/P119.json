@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P119",
+  "prompt_text": "AI to draft donor thank you letters",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.424235+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# AI-Powered Donor Thank You Letter Generator\n\nI can help you create personalized donor thank you letters! Here's how we can approach this:\n\n## What I'll Need From You\n\n1. **Donor Information:**\n   - Donor name\n   - Donation amount\n   - Date of donation\n   - Type of donation (monetary, in-kind, recurring, etc.)\n   - Any specific campaign or project they supported\n\n2. **Organization Details:**\n   - Your organization's name\n   - Mission/cause\n   - Tax ID (if needed for tax-deductible statement)\n   - Signer's name and title\n\n3. **Tone & Style Preferences:**\n   - Formal or conversational\n   - Length (brief or detailed)\n   - Any specific messaging priorities\n\n## Sample Template\n\nHere's a basic example I can customize:\n\n---\n\n**[Date]**\n\nDear [Donor Name],\n\nThank you for your generous gift of [amount] to [Organization Name]. Your support means the world to us and directly impacts [specific outcome/beneficiaries].\n\nBecause of donors like you, we're able to [specific achievement or goal]. Your contribution will help us [concrete example of impact].\n\nWe're deeply grateful for your commitment to [cause]. Together, we're making a real difference in [community/area].\n\nWith heartfelt thanks,\n\n[Name]\n[Title]\n\n---\n\n**Would you like me to:**\n- Draft letters for specific donors?\n- Create multiple templates for different donation levels?\n- Adapt the tone for your organization?\n\nJust share the details and I'll create personalized letters for you!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 362,
+  "estimated_cost_usd": 0.005472,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

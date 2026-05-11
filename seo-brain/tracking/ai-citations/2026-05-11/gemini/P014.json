@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.424924+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Keela are both modern, cloud-based donor management and fundraising software solutions designed for nonprofits. While they share many core functionalities, they have distinct philosophies, feature strengths, and ideal user profiles.\n\nHere's a detailed comparison to help you decide:\n\n---\n\n### DonorDock vs. Keela: Head-to-Head Comparison\n\n| Feature Category        | DonorDock                                                                    | Keela                                                                                       |\n| :---------------------- | :--------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |\n| **Overall Philosophy**  | Focus on simplicity, intuitive user experience, and streamlining core donor management and fundraising tasks. Modern, clean UI. | More \"all-in-one\" approach, offering a broader suite of tools including strong email marketing and volunteer management. |\n| **User Interface (UI) & Ease of Use** | **Excellent.** Known for its extremely clean, modern, and intuitive interface. Very easy to navigate, even for new users.                                     | **Very Good.** Also has a modern, clean UI and is generally considered user-friendly, though slightly more feature-rich can mean a steeper initial learning curve than DonorDock. |\n| **CRM & Donor Management** | Robust donor profiles, giving history, contact management, householding, communication tracking, custom fields. | Comprehensive donor profiles, giving history, contact management, householding, communication tracking, custom fields, **strong volunteer management.** |\n| **Fundraising Tools**   | Online donation forms, campaigns, pledges, recurring giving, peer-to-peer fundraising (newer), gift processing. | Online donation forms, campaigns, pledges, recurring giving, **more robust peer-to-peer fundraising, grant tracking, capital campaigns.** |\n| **Communications**      | Email functionality (integrates with tools like Mailchimp or through its own basic email builder), letter templates, segmentation. | **Strong native email marketing** with automation, segmentation, customizable templates, letter templates, personalized outreach. |\n| **Event Management**    | Basic event creation and registration, guest list management. Often relies on integrations for more complex events. | More comprehensive event management features, including ticketing, attendee tracking, and event-specific fundraising pages. |\n| **Volunteer Management** | Limited to managing volunteers as contacts within the CRM. No dedicated volunteer portal or shift scheduling. | **Dedicated volunteer management module,** including volunteer profiles, hour tracking, scheduling, communication, and reporting. A major differentiator. |\n| **Reporting & Analytics** | Visual dashboards, standard reports (donor retention, campaign performance), custom report builder. Focus on actionable insights. | Robust reporting, visual dashboards, impact tracking, custom report builder, more detailed insights into various aspects (fundraising, volunteer, email). |\n| **Integrations**        | Stripe (for payments), QuickBooks Online, potentially Zapier for broader connectivity. Continuously expanding. | Stripe, QuickBooks Online, Xero, Zapier for extensive custom integrations, Mailchimp. |\n| **Pricing Model**       | Typically tiered based on the number of active donor records. Often seen as competitive for its feature set. | Tiered based on the number of contacts (donors,",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 660,
+  "estimated_cost_usd": 0.001651,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

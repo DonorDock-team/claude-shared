@@ -1,0 +1,39 @@
+{
+  "prompt_id": "P041",
+  "prompt_text": "Best donor CRM for mid-sized nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.423225+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "### Top Donor CRMs for Mid-Sized Nonprofits\n\nBased on recent comparisons (2026 data), mid-sized nonprofits (typically 10-50 staff, $1M-$10M annual budget) benefit from CRMs balancing donor management, fundraising automation, reporting, and scalability without enterprise complexity. Key priorities: donor retention, gift tracking, email integration, and affordability (often $100-500/month base). Here's a curated list of the strongest options, drawn from expert reviews and comparisons.\n\n#### Recommended Picks\n| CRM | Best For | Key Strengths | Pricing (Starting) | Potential Drawbacks |\n|-----|----------|---------------|---------------------|---------------------|\n| **Neon One CRM** | Basic, all-in-one needs | Donor tracking, event management, simple fundraising pages; easy setup for growing orgs. | $99/month | Limited advanced analytics. |\n| **Givebutter** | Engagement + fundraising | Free core tools, donor database, personalized comms, integrated payments; scales well. | Free (premium add-ons ~$19/month) | Less robust for very complex workflows. |\n| **Virtuous CRM+** | High-touch donor relationships | AI-driven insights, marketing automation, wealth screening; nonprofit-focused. | ~$300/month (custom quotes) | Higher cost for full features. |\n| **DonorPerfect** | Customizable fundraising | Gift tracking, batch processing, reporting; proven for mid-sized with nonprofit discounts. | $89/month | Steeper learning curve initially. |\n| **Bloomerang** | Donor retention focus | Simple interface, engagement scoring, mobile app; quick to implement. | $119/month | Fewer enterprise integrations. |\n| **Little Green Light** | Reliable, low-frills | Cloud-based donor mgmt, reporting, no steep curve; ideal for mid-sized without IT team. | $39/month | Basic compared to powerhouses like Salesforce. |\n\n#### Why These Stand Out for Mid-Sized Nonprofits\n- **From Reviews**: Neon One and Bloomerang top \"best for small to midsize\" lists ([1], [4]). DonorPerfect and Little Green Light excel for proven, affordable scalability ([5], [6], [7]). Givebutter and Virtuous shine for modern engagement ([2], [3]).\n- **Common Features**: All handle core donor CRM needs (profiles, history, segmentation, pledges). Mid-sized orgs like ministries praise DonorPerfect for batch tools and discounts ([8]).\n- **Avoid for Mid-Sized**: Skip heavyweights like Blackbaud Raiser's Edge or Salesforce (better for large orgs, per [3], [9]) unless you need 100+ staff scale.\n\n#### How to Choose\n1. **Assess Needs**: Prioritize retention (Bloomerang/Virtuous), events (Neon One), or free entry (Givebutter).\n2. **Budget & Trial**: Most offer demos/free trials. Factor integrations (e.g., QuickBooks, Mailchimp).\n3. **Next Steps**: Demo 2-3 (e.g., DonorPerfect + Bloomerang). Check TechSoup for discounts ([8]).\n\nFor tailored advice, share your budget, staff size, or must-have features!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Little Green Light",
+    "Neon One",
+    "Raiser's Edge",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 667,
+  "estimated_cost_usd": 0.015029,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/",
+      "https://stratuslive.com/blog/nonprofit-crm-systems-comparison/",
+      "https://www.donorperfect.com/nonprofits/smaller-nonprofit-fundraising-software/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://forums.techsoup.org/t/searching-for-a-good-donor-crm-for-years-that-fit-our-ministries-needs/7478",
+      "https://www.springly.org/en-us/blog/nonprofit-crm-advantages/"
+    ]
+  }
+}

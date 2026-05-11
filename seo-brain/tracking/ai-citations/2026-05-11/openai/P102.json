@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.424468+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "There are several free alternatives to Salesforce Nonprofit Cloud that nonprofit organizations can consider. While these alternatives may not necessarily have all the features of Salesforce, they can still provide valuable CRM functionalities. Here are some options:\n\n1. **CiviCRM**: \n   - An open-source and fully customizable CRM that is specifically tailored for nonprofit, civic-sector, and community-based organizations. It integrates with popular content management systems like WordPress, Joomla, and Drupal.\n\n2. **Zoho CRM for Nonprofits**:\n   - Offers a free version with essential CRM features that can be suitable for small nonprofit organizations. It includes tools for managing contacts, sales, marketing, and customer support.\n\n3. **HubSpot CRM**: \n   - A free CRM platform with features including contact management, email templates, interaction tracking, and a visual dashboard. While not specifically designed for nonprofits, it can be adapted to suit nonprofit needs.\n\n4. **Bitrix24**:\n   - Provides free CRM tools along with project management, communication, and collaboration features. Its free plan caters to smaller teams with essential CRM functionalities.\n\n5. **SuiteCRM**: \n   - An open-source CRM that offers a wide range of features similar to Salesforce, without licensing costs. It's highly customizable and can be tailored to fit the needs of nonprofit organizations.\n\n6. **Odoo Community Edition**:\n   - While Odoo is a comprehensive suite of business applications, its Community Edition is open-source and free. It includes CRM functionalities that can be extended with additional modules.\n\n7. **EspoCRM**:\n   - A simple and easy-to-use open-source CRM that includes basic features for managing contacts, accounts, leads, and opportunities.\n\n8. **Vtiger CRM**:\n   - A free CRM that can be used for managing campaigns, customer support, and engagement. They offer a free edition specifically tailored for small businesses and nonprofits.\n\nRemember, while these alternatives offer free versions, they may come with certain limitations or may require more technical knowledge for setup and customization. It's important to evaluate the specific needs of your nonprofit and consider the scalability, ease of use, and the community support available for each of these platforms.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 439,
+  "estimated_cost_usd": 0.004425,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

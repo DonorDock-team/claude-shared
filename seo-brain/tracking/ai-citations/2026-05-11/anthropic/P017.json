@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P017",
+  "prompt_text": "Alternative to Neon CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.421722+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Alternatives to Neon CRM\n\nHere are some popular alternatives to Neon CRM, depending on your organization's needs:\n\n## **Top Competitors**\n\n### **1. Salesforce Nonprofit Cloud**\n- Most comprehensive, enterprise-level solution\n- Highly customizable but steeper learning curve\n- Best for: Large nonprofits with complex needs\n\n### **2. Bloomerang**\n- Strong donor retention focus\n- Intuitive interface\n- Best for: Small to mid-sized nonprofits focused on fundraising\n\n### **3. DonorPerfect**\n- Affordable and user-friendly\n- Good reporting capabilities\n- Best for: Small to medium organizations\n\n### **4. Blackbaud Raiser's Edge NXT**\n- Industry standard for larger nonprofits\n- Robust but expensive\n- Best for: Established organizations with larger budgets\n\n### **5. Little Green Light**\n- Simple, affordable option\n- Good customer support\n- Best for: Small nonprofits and startups\n\n## **Other Notable Options**\n\n- **Kindful** (now Bloomerang) - Modern interface, good automation\n- **Keela** - AI-powered insights, affordable\n- **Virtuous** - Responsive fundraising platform\n- **EveryAction** - Strong for advocacy organizations\n- **CiviCRM** - Free, open-source option\n\n## **What to consider:**\n- Organization size\n- Budget\n- Primary use case (fundraising, membership, events, etc.)\n- Integration needs\n- Technical expertise available\n\nWhat's your primary use case? I can provide more specific recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 368,
+  "estimated_cost_usd": 0.005562,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

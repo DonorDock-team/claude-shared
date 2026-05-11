@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P126",
+  "prompt_text": "Donor stewardship workflow templates",
+  "engine": "gemini",
+  "timestamp": "2026-05-11T13:16:09.422055+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Donor stewardship is the continuous process of building and maintaining a strong relationship with donors, showing them appreciation, demonstrating the impact of their gifts, and keeping them engaged with your mission. Effective stewardship is crucial for donor retention and inspiring future generosity.\n\nBelow are several workflow templates for different types of donor gifts, designed to be adapted to your organization's specific needs, size, and resources.\n\n---\n\n## Core Principles for All Stewardship Workflows:\n\n1.  **Promptness:** Acknowledge gifts quickly.\n2.  **Personalization:** Tailor communications as much as possible.\n3.  **Impact:** Show donors how their gift makes a difference.\n4.  **Consistency:** Follow through on your stewardship plan.\n5.  **Multi-Channel:** Use a mix of mail, email, phone, and in-person contact.\n6.  **CRM Integration:** Track all communications and donor preferences in your Donor Relationship Management (CRM) system.\n\n---\n\n## Template 1: General Gift Stewardship Workflow (Online & Mail Gifts < $1,000)\n\nThis workflow is for standard, individual gifts that aren't considered \"major\" for your organization. It's often highly automated but includes personal touches.\n\n**Goal:** Acknowledge receipt, thank the donor, demonstrate impact, and foster continued engagement.\n\n| Stage                 | Responsible Party(ies)      | Action Steps                                                                                                                                                               | Timeline                                           | Notes / Goal                                                                                                                                                                                                                                                              |\n| :-------------------- | :-------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |\n| **1. Gift Processing & Acknowledgment** | Database Administrator, Finance | - Process gift in CRM, record details (amount, designation, source).<br>- Generate official tax receipt (if required).<br>- Add/update donor contact info and preferences. | Within 24-48 hours of gift",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 429,
+  "estimated_cost_usd": 0.001074,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

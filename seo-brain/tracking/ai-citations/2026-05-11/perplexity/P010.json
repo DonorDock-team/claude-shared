@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P010",
+  "prompt_text": "Does DonorDock have online giving",
+  "engine": "perplexity",
+  "timestamp": "2026-05-11T13:16:09.424110+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**Yes, DonorDock has online giving features.**\n\nDonorDock provides \"Online Giving Pages\" that let nonprofits accept donations online for free (with a 1% platform fee on gifts). These connect directly to Stripe and PayPal (Stripe Connect required for full features), automatically recording donations in your DonorDock account in real time.\n\n### Key Capabilities (from DonorDock's site and help center):\n- **Create unlimited customizable pages**: For campaigns, appeals, events, memberships, pledges, tickets, honorariums, memorials, or anonymous gifts.\n- **Payment options**: One-time, recurring (weekly/monthly/quarterly/annual), memberships, sponsorships; supports credit cards, Stripe, PayPal, DAFpay, and Square via Zapier.\n- **Sharing methods**: Direct links, QR codes, text-to-donate (via DonorDock phone/keywords), website embeds (compatible with WordPress, Wix, Squarespace, etc.).\n- **Security & automation**: SOC II certified, encrypted; auto tax receipts, thank-you emails, donor records, and imports from Stripe/PayPal.\n- **Setup**: Log in > Online Giving > Add New Giving Page. Only admins manage it.\n\nEvidence: Official pages like [donordock.com/online-giving](https://www.donordock.com/online-giving) promote it as a core feature; help docs detail setup ([e.g., here](https://helpcenter.donordock.com/kb/guide/en/creating-an-online-giving-page-IbwiiyR2at/Steps/1352614)) and confirm all gifts sync automatically. No conflicting info in results.",
+  "donordock_mentioned": true,
+  "donordock_position": 7,
+  "competitors_mentioned": [],
+  "urls_cited": [
+    "https://www.donordock.com/online-giving",
+    "https://helpcenter.donordock.com/kb/guide/en/creating-an-online-giving-page-IbwiiyR2at/Steps/1352614"
+  ],
+  "input_tokens": 8,
+  "output_tokens": 343,
+  "estimated_cost_usd": 0.010169,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/online-giving",
+      "https://helpcenter.donordock.com/kb/guide/en/online-giving-overview-oigm9umSjA/Steps/1116318",
+      "https://helpcenter.donordock.com/kb/en/online-giving-146301",
+      "https://helpcenter.donordock.com/kb/guide/en/membership-online-giving-pages-pk35D79839/Steps/4099656",
+      "https://helpcenter.donordock.com/kb/guide/en/creating-an-online-giving-page-IbwiiyR2at/Steps/1352614",
+      "https://helpcenter.donordock.com/kb/guide/en/online-giving-overview-oigm9umSjA/Steps/1116318,1408128,1317598",
+      "https://helpcenter.donordock.com/kb/guide/en/understanding-online-giving-fields-3UhHtm7CRu/Steps/1710134",
+      "https://www.donordock.com/lp/online-giving",
+      "https://www.donordock.com/pricing"
+    ]
+  }
+}

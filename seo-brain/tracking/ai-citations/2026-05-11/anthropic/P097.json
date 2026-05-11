@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P097",
+  "prompt_text": "Hidden costs of Network for Good",
+  "engine": "anthropic",
+  "timestamp": "2026-05-11T13:16:09.423530+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Network for Good\n\nNetwork for Good is a popular fundraising platform, but there are several hidden or less-obvious costs to be aware of:\n\n## **Primary Fee Structure**\n- **Platform fee**: 3% of donations\n- **Payment processing**: ~2.2% + $0.30 per transaction\n- **Total visible cost**: ~5.2% + $0.30 per donation\n\n## **Hidden/Additional Costs**\n\n### 1. **Monthly Subscription Fees**\n- Plans range from $0-$249+/month depending on features\n- Essential tools often locked behind higher tiers\n\n### 2. **Donor Covers Fees (But Not Always)**\n- They offer donors the option to cover fees, but many don't\n- You're responsible for uncovered processing costs\n\n### 3. **ACH Transfer Fees**\n- Bank transfer fees may apply when withdrawing funds\n- Timing delays can affect cash flow\n\n### 4. **Integrations & Add-ons**\n- CRM integrations may require premium plans\n- API access limited on lower tiers\n- Advanced reporting features cost extra\n\n### 5. **Staff Time & Learning Curve**\n- Training time for staff/volunteers\n- Ongoing management and optimization\n- Technical support limitations on basic plans\n\n### 6. **Transaction Minimums & Holds**\n- Small transactions become expensive with flat fees\n- Fund holds/delays during initial setup or verification\n\n### 7. **Lost Donation Revenue**\n- Platform fees reduce actual donation amounts\n- Competing branding may dilute your organization's identity\n\n## **Better Alternatives to Consider**\n- **GiveWP** (self-hosted, lower fees)\n- **Donorbox** (transparent pricing)\n- **PayPal Charitable** (lower rates for nonprofits)\n\n**Bottom line**: Factor in 6-8% total cost + subscription fees when budgeting.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 434,
+  "estimated_cost_usd": 0.006549,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

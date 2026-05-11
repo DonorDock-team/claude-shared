@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "openai",
+  "timestamp": "2026-05-11T13:16:09.424669+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For nonprofits looking for a CRM similar to Salesforce, there are several options tailored specifically to meet their unique needs. These solutions provide features and functionalities designed to manage donor relationships, fundraising, volunteer management, and more. Here are a few popular CRM platforms for nonprofits:\n\n1. **Blackbaud CRM**: Blackbaud offers a suite of products specifically designed for nonprofit organizations. Their solutions include tools for donor management, fundraising, and campaign management, similar to what Salesforce provides but with a specific focus on nonprofit needs.\n\n2. **Bloomerang**: This platform is known for its simplicity and ease of use, focusing on donor retention and engagement. Bloomerang provides tools for tracking donor interactions, fundraising activities, and generating reports, making it a solid alternative for nonprofits.\n\n3. **Neon CRM**: Neon One offers Neon CRM, which integrates tools for fundraising, donor management, event planning, and membership management. It is designed to help nonprofits manage their relationships and operations more efficiently.\n\n4. **DonorPerfect**: This CRM solution is specifically focused on fundraising and donor management. It offers features for tracking donations, managing events, and communicating with donors, making it a great choice for nonprofit organizations.\n\n5. **Kindful**: Kindful, which is now part of Bloomerang, provides donor management tools with integrations for fundraising and communication. It is user-friendly and offers robust reporting features.\n\n6. **CiviCRM**: An open-source option, CiviCRM is highly customizable and can be used to manage donations, events, memberships, and communications for nonprofits.\n\nThese platforms cater to nonprofits' needs with tailored features for donor management, fundraising, volunteer coordination, and more. Each offers a unique set of capabilities, so it's worth exploring them to find the best fit for a specific nonprofit's needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 364,
+  "estimated_cost_usd": 0.00368,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}
