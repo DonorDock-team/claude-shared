@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P078",
+  "prompt_text": "Best donor CRM for Jewish nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.897226+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Jewish Nonprofits\n\nHere are the top CRM options specifically suited for Jewish organizations:\n\n## **1. Bloomerang**\n- **Why it's good**: Strong donor retention focus, intuitive interface\n- **Jewish org features**: Customizable for Hebrew dates, Jewish calendar events, yahrzeit tracking\n- **Best for**: Small to mid-sized organizations ($100-300/month)\n\n## **2. DonorPerfect**\n- **Why it's good**: Highly customizable, robust reporting\n- **Jewish org features**: Can track Hebrew dates, lifecycle events, synagogue-specific fields\n- **Best for**: Organizations needing detailed customization ($89+/month)\n\n## **3. Kindful (Bloomerang)**\n- **Why it's good**: User-friendly, good automation\n- **Jewish org features**: Event management for holidays, campaign tracking\n- **Best for**: Growing nonprofits seeking simplicity\n\n## **4. Salesforce Nonprofit Cloud**\n- **Why it's good**: Most powerful, highly scalable\n- **Jewish org features**: Fully customizable for any Jewish organizational need\n- **Best for**: Larger organizations with technical resources (grants available)\n\n## **5. ShulCloud** *(Jewish-specific)*\n- **Why it's good**: Built specifically for synagogues and Jewish schools\n- **Jewish org features**: Hebrew calendar, yahrzeit reminders, aliyah tracking, member management\n- **Best for**: Synagogues, Jewish day schools\n\n## **Key Features to Look For:**\n- Hebrew calendar integration\n- Yahrzeit/memorial date tracking\n- Lifecycle event management (B'nai Mitzvah, weddings)\n- High Holiday appeal campaigns\n- Multi-generational family tracking\n\n**What type of Jewish organization are you working with?** (Synagogue, JCC, federation, educational, social service?)",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 429,
+  "estimated_cost_usd": 0.006483,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

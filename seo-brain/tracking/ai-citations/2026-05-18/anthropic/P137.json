@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P137",
+  "prompt_text": "Little Green Light limitations",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898266+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Little Green Light Limitations\n\nLittle Green Light (LGL) is a popular cloud-based donor management system, but it has several limitations to consider:\n\n## **Technical Limitations**\n\n- **No native mobile app** - Only web-based access, which can be limiting for field work\n- **Limited offline functionality** - Requires internet connection to access data\n- **Report customization constraints** - While improved, complex custom reports can be challenging\n- **No built-in document storage** - Limited file attachment capabilities compared to some competitors\n\n## **Functional Limitations**\n\n- **Basic email marketing** - Email tools are functional but not as robust as dedicated email platforms\n- **Limited peer-to-peer fundraising** - Not ideal for crowdfunding or P2P campaigns\n- **Volunteer management** - Lacks comprehensive volunteer tracking features\n- **Event management** - Basic event tools; may need additional software for complex events\n- **Grant management** - Limited grant tracking compared to specialized grant management systems\n\n## **Integration & Customization**\n\n- **API limitations** - API exists but may not be as extensive as enterprise solutions\n- **Third-party integrations** - Fewer pre-built integrations than larger competitors\n- **Custom fields** - While available, there are limits on complexity and number\n\n## **User Experience**\n\n- **Learning curve** - Interface can feel dated to some users\n- **Navigation** - Some users find the menu structure less intuitive\n- **Speed** - Occasional performance issues with very large databases\n\n## **Best For**\n\nDespite limitations, LGL works well for small to mid-sized nonprofits that need affordable, comprehensive donor management without enterprise-level complexity.\n\nWhat specific functionality are you evaluating?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 11,
+  "output_tokens": 374,
+  "estimated_cost_usd": 0.005643,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

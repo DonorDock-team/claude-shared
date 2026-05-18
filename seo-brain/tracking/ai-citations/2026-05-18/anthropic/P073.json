@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898712+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Track Donor Pledges\n\n## 1. **Choose Your Tracking System**\n\n### Spreadsheet (Small Organizations)\n- **Excel or Google Sheets** with columns for:\n  - Donor name and contact info\n  - Pledge amount\n  - Pledge date\n  - Payment schedule\n  - Amount received\n  - Balance due\n  - Payment method\n  - Campaign/fund designation\n\n### Donor Management Software (Growing Organizations)\n- **DonorPerfect**\n- **Bloomerang**\n- **Little Green Light**\n- **Salesforce Nonprofit Cloud**\n- **Kindful**\n\n## 2. **Essential Information to Track**\n\n- Donor contact details\n- Pledge amount and date\n- Payment terms (one-time, installments, monthly)\n- Expected payment dates\n- Actual payments received\n- Outstanding balance\n- Restrictions or designations\n- Acknowledgment letters sent\n- Tax receipts issued\n\n## 3. **Best Practices**\n\n### Document Everything\n- Get written confirmation of pledges\n- Use pledge forms or email confirmations\n- Keep copies of all correspondence\n\n### Set Up Reminders\n- Schedule follow-ups before payment due dates\n- Send friendly reminders for upcoming installments\n- Flag overdue pledges for outreach\n\n### Reconcile Regularly\n- Match payments to pledges weekly or monthly\n- Update records immediately when payments arrive\n- Review aging reports for unpaid pledges\n\n## 4. **Communication Tips**\n\n- Thank donors promptly when pledges are made\n- Send payment reminders 1-2 weeks before due dates\n- Provide multiple payment options\n- Issue receipts immediately for all payments\n- Report on impact to keep donors engaged\n\nWould you like specific recommendations based on your organization's size?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 402,
+  "estimated_cost_usd": 0.006069,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

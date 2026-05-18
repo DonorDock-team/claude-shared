@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P011",
+  "prompt_text": "DonorDock vs Salesforce Nonprofit Cloud",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898297+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing between DonorDock and Salesforce Nonprofit Cloud is a decision that hinges heavily on your organization's size, budget, technical expertise, complexity of needs, and long-term vision. They represent two very different philosophies and target markets.\n\nHere's a detailed comparison to help you decide:\n\n---\n\n### DonorDock\n\n**DonorDock** is an all-in-one donor management and fundraising software designed specifically for small to mid-sized nonprofits. It aims to be intuitive, easy to use, and provide core CRM and fundraising functionalities without overwhelming complexity.\n\n**Key Characteristics:**\n\n*   **Target Audience:** Small to medium-sized nonprofits, those with limited IT staff, organizations seeking a straightforward and easy-to-implement solution.\n*   **Core Philosophy:** Simplicity, ease of use, integrated core functionalities, affordability.\n*   **Strengths:**\n    *   **Ease of Use:** Highly intuitive interface, quick onboarding, generally requires minimal training.\n    *   **All-in-One:** Integrates donor management, donation processing, email communications, basic event management, and reporting in one platform.\n    *   **Affordability:** Generally more budget-friendly, especially for smaller organizations, with transparent pricing models.\n    *   **Quick Implementation:** Can be up and running much faster than Salesforce.\n    *   **Focused Features:** Designed specifically for the most common nonprofit needs without unnecessary complexity.\n    *   **Customer Support:** Often praised for responsive and personalized support directly from the vendor.\n*   **Limitations:**\n    *   **Limited Customization:** Less flexible in terms of custom fields, workflows, and process automation compared to Salesforce. You largely work within the confines of its design.\n    *   **Scalability Ceiling:** While good for its target market, very large or highly complex organizations might eventually outgrow its capabilities.\n    *   **Fewer Integrations:** A growing list of integrations, but not nearly as vast as Salesforce's AppExchange.\n    *   **Less Advanced Features:** May lack advanced program management, complex grant management, peer-to-peer fundraising, or sophisticated marketing automation tools found in larger platforms.\n\n---\n\n### Salesforce Nonprofit Cloud (NPSP + NCO)\n\n**Salesforce Nonprofit Cloud** (which often starts with the **Nonprofit Success Pack - NPSP**, and can be expanded with **Nonprofit Cloud for Outcomes - NCO**, and other modules) is an enterprise-grade, highly customizable platform built on the Salesforce core. It's designed to be a comprehensive solution for all aspects of a nonprofit's operations.\n\n**Key Characteristics:**\n\n*   **Target Audience:** Medium to large nonprofits, organizations with complex program needs, those requiring extensive customization, organizations with dedicated IT staff or budget for consultants, and those planning for significant long-term growth.\n*   **Core Philosophy:** Flexibility, scalability, comprehensive platform, ecosystem of solutions, \"clicks not code\" customization where possible.\n*   **Strengths:**\n    *   **Unmatched Flexibility & Customization:** Can be configured to almost any unique organizational structure, workflow, or data model. You can build custom objects, fields,",
+  "donordock_mentioned": true,
+  "donordock_position": 17,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 654,
+  "estimated_cost_usd": 0.001637,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

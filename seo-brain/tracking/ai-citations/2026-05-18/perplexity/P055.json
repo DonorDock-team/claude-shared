@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P055",
+  "prompt_text": "Best CRM for a 2 person fundraising team",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.898737+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For a 2\u2011person fundraising team, you\u2019ll want something:\n\n- Easy to learn and run without an admin\n- Affordable at low volumes\n- Strong on online giving + basic automation\n- Opinionated (you shouldn\u2019t have to design everything from scratch)\n\nBased on the tools in your search results and what small teams typically need, here are the top fits and when to pick each.\n\n---\n\n## 1. Givebutter  \n**Best for:** Very small, scrappy teams that do a lot of online campaigns, events, and peer\u2011to\u2011peer.\n\n**Why it works for 2 people**\n- Built for lean nonprofits; fundraising tools + lightweight CRM in one.\n- Great donation pages, events, and peer\u2011to\u2011peer out of the box.\n- Donor timelines, basic segmentation, and simple email/text built in.\n- Very fast setup; you can be live in a day.\n\n**Watch\u2011outs**\n- CRM is \u201cgood enough,\u201d not deep (limited complex reporting, moves management, etc.).\n- If you grow into complex major-gift work or heavy grant tracking, you might outgrow it.\n\n**Best if:** Your fundraising is mostly online campaigns, events, and appeals; you want minimal setup and tech overhead.\n\n---\n\n## 2. DonorDock  \n**Best for:** Tiny teams who want *donor management first* with built\u2011in online giving and email.\n\n**Why it works for 2 people**\n- Purpose\u2011built nonprofit CRM; donor profiles, tasks, basic pipelines, and simple automations.\n- Includes online giving, email, and text in a single platform (reduces tool sprawl).\n- Interface is simpler and less \u201centerprise\u201d than something like Salesforce or Blackbaud.\n\n**Watch\u2011outs**\n- Less widely known than some competitors; fewer consultants/support firms if you want outside help.\n- Integrations and advanced analytics are more limited than high\u2011end CRMs.\n\n**Best if:** You care more about a tidy donor database and simple workflows than fancy campaign pages.\n\n---\n\n## 3. Bloomerang  \n**Best for:** Small to mid-sized nonprofits planning to grow, with a focus on donor retention.\n\n**Why it works for 2 people**\n- Clean donor database, engagement scores, and good retention\u2011focused reporting.\n- Solid email tools and segmentation; good for regular stewardship touches.\n- Better long\u2011term fit if you expect to move into more sophisticated fundraising.\n\n**Watch\u2011outs**\n- Costs and complexity are higher than Givebutter/DonorDock for a 2\u2011person shop.\n- Setup takes more time; you\u2019ll want to be a bit more intentional about data structure.\n\n**Best if:** You\u2019re willing to spend more time and money now for a system you can grow into.\n\n---\n\n## 4. Virtuous  \n**Best for:** Small teams with ambitious growth and multi\u2011channel fundraising plans.\n\n**Why it works for 2 people (if you\u2019re ready for more sophistication)**\n- Strong automation, segmentation, and multi\u2011channel donor journeys.\n- Great for building systematic stewardship and upgrade workflows.\n\n**Watch\u2011outs**\n- Probably overkill and too expensive for many 2\u2011person teams.\n- Will require more learning and some tech comfort.\n\n**Best if:** You\u2019re already raising a solid amount and are ready to invest in automation-heavy growth.\n\n---\n\n## 5. Salesforce Nonprofit Cloud, Raiser\u2019s Edge NXT, StratusLIVE, etc.  \n**Summary:** These are powerful but generally **not** ideal for a 2\u2011person team unless you already have them through a parent org or have dedicated admin help.\n\n- High setup/maintenance demands.\n- You\u2019ll spend more time being a CRM admin than a fundraiser.\n\n---\n\n## How to choose (fast decision framework)\n\nAnswer these three questions:\n\n1. **What\u2019s your primary way of raising money over the next 12\u201324 months?**  \n   - Mostly online campaigns/events/peer\u2011to\u2011peer \u2192 **Givebutter**  \n   - Mix of online + mailed appeals + basic major gifts \u2192 **DonorDock** or **Bloomerang**  \n   - Heavy automation and segmented journeys across channels \u2192 **Virtuous**\n\n2. **How much time can you realistically spend on CRM setup/maintenance each week?**  \n   - <2 hours/week \u2192 **Givebutter** or **DonorDock**  \n   - 2\u20135 hours/week and you like tinkering \u2192 **Bloomerang**  \n   - 5+ hours/week and you\u2019re comfortable with tech \u2192 **Virtuous** or more advanced systems\n\n3. **Budget tolerance (for software, not just payment processing fees)?**\n   - Very tight budget, just need to \u201cget organized\u201d \u2192 **Givebutter** or an entry DonorDock plan  \n   - Willing to invest for growth \u2192 **Bloomerang** (and possibly Virtuous if your revenue warrants it)\n\n---\n\n## Recommended short list for a 2\u2011person team\n\nIf you want a concrete, short recommendation list:\n\n- **Most likely best fit for a 2\u2011person team:**  \n  - **Givebutter** \u2013 if campaigns/events are central and you want speed + simplicity.  \n  - **DonorDock** \u2013 if donor record-keeping and simple stewardship are core.\n\n- **Consider if you\u2019re more established / planning to scale:**  \n  - **Bloomerang** \u2013 better reports and retention focus, but more cost/complexity.\n\nIf you tell me:\n- Approx. annual fundraising revenue\n- How you mainly raise money now (events, online campaigns, grants, major gifts, etc.)\n- Whether you already use tools like Mailchimp, Eventbrite, or Classy\n\nI can narrow this to a single \u201cbest choice\u201d and outline a 30\u2011day rollout plan tailored to your situation.",
+  "donordock_mentioned": true,
+  "donordock_position": 1102,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Givebutter",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 1203,
+  "estimated_cost_usd": 0.023075,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://learn.g2.com/best-crm-for-nonprofits",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://stratuslive.com/blog/nonprofit-crm-systems-comparison/",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/",
+      "https://www.youtube.com/watch?v=sn0tWvffFWc",
+      "https://www.larksuite.com/en_us/blog/crm-nonprofits"
+    ]
+  }
+}

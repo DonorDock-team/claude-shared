@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898424+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for a CRM similar to Salesforce but specifically for nonprofits, you're essentially looking for a robust, customizable, and comprehensive platform that can handle donor management, fundraising, grant tracking, volunteer management, program management, and reporting.\n\nHere are the top CRM platforms that are often considered alternatives to Salesforce for nonprofits, ranging from dedicated nonprofit solutions to adaptable enterprise systems:\n\n1.  **Salesforce Nonprofit Cloud (NPSP / Nonprofit Cloud):**\n    *   **Why it's first:** This *is* Salesforce, but specifically configured and enhanced for nonprofits. If you like the *power* and *ecosystem* of Salesforce, this is the most direct equivalent. It leverages the core Salesforce platform but adds nonprofit-specific data models and features (like tracking households, recurring donations, pledges, grants, and program management).\n    *   **Similarity to Salesforce:** It *is* Salesforce.\n    *   **Best for:** Medium to large nonprofits, or those that need extreme flexibility, scalability, and integration with a vast app marketplace. Salesforce also offers significant discounts for nonprofits.\n\n2.  **Blackbaud (e.g., Raiser's Edge NXT, eTapestry, Luminate CRM):**\n    *   **Why it's a strong alternative:** Blackbaud is arguably the biggest name in nonprofit technology, often considered the \"other\" big player alongside Salesforce. They offer a suite of products, with **Raiser's Edge NXT** being their flagship donor management and fundraising CRM for larger organizations. **eTapestry** is often recommended for smaller to mid-sized nonprofits.\n    *   **Similarity to Salesforce:** Enterprise-grade, comprehensive, widely adopted, and robust reporting/analytics.\n    *   **Best for:** Nonprofits of all sizes, depending on the specific Blackbaud product. Raiser's Edge NXT is very powerful for large, established organizations.\n\n3.  **Bloomerang:**\n    *   **Why it's good:** Bloomerang is highly regarded for its focus on donor retention and engagement. It offers a very intuitive user interface, excellent reporting (including donor retention metrics), email marketing, and integrations.\n    *   **Similarity to Salesforce:** Strong emphasis on data and analytics, good for tracking donor journeys, and very user-friendly.\n    *   **Best for:** Small to medium-sized nonprofits that prioritize donor engagement, retention, and an easy-to-use interface.\n\n4.  **DonorPerfect:**\n    *   **Why it's good:** DonorPerfect is a long-standing and comprehensive fundraising and donor management software. It offers robust features for fundraising, event management, grant tracking, reporting, and online giving.\n    *   **Similarity to Salesforce:** All-in-one approach, comprehensive feature set, and good for managing various aspects of nonprofit operations.\n    *   **Best for:** Small to mid-sized nonprofits looking for a feature-rich, integrated solution that can handle most of their fundraising and donor management needs.\n\n5.  **Neon One (Neon CRM):**\n    *   **Why it's good:** Neon CRM offers an all-in-one solution that includes donor management, fundraising, membership management, event registration, and peer-to-peer fundraising. It's known for its comprehensive feature set and user-friendly design.\n    *   **Similarity to Salesforce:** Broad functionality across multiple nonprofit operations, good for organizations looking to consolidate systems.\n    *   **Best for:** Small to mid-sized nonprofits that need an integrated solution covering various aspects like fundraising, membership, and events.\n\n6.  **Microsoft Dynamics 365 (with nonprofit accelerators):**\n    *   **Why it's an option:** Similar to Salesforce, Dynamics 365 is an enterprise-grade CRM that offers a robust and customizable platform. Microsoft has a dedicated **Nonprofit Accelerator** that provides a data model and templates specifically for nonprofits, helping to tailor the platform for fundraising, volunteer management, and program delivery.\n    *   **Similarity to Salesforce:** Highly customizable, scalable, strong integration with other Microsoft products (Office 365, Power BI), and a strong partner ecosystem.\n    *   **Best for:** Larger nonprofits, or those already heavily invested in Microsoft's ecosystem, that require a highly customized and integrated solution.\n\n7.  **Kindful (now part of Bonterra, which also includes EveryAction):**\n    *   **Why it's good:** Kind",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 933,
+  "estimated_cost_usd": 0.002335,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

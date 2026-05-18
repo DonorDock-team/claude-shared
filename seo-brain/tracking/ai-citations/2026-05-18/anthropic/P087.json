@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P087",
+  "prompt_text": "Best donor CRM for refugee services",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898490+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Refugee Services\n\nFor refugee services organizations, you'll want a CRM that handles complex donor relationships while being affordable for nonprofits. Here are the top options:\n\n## **Top Recommendations**\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with complex needs\n- **Strengths:** Highly customizable, tracks multi-year grants, case management integration\n- **Cost:** Free for 10 licenses, then ~$36/user/month\n- **Why for refugees:** Can integrate donor management with client services tracking\n\n### **2. Bloomerang**\n- **Best for:** Small to mid-size organizations\n- **Strengths:** Excellent donor retention focus, intuitive interface, great reporting\n- **Cost:** Starting ~$125/month\n- **Why for refugees:** Strong storytelling features to communicate impact\n\n### **3. Little Green Light**\n- **Best for:** Budget-conscious organizations\n- **Strengths:** Affordable, solid grant tracking, good support\n- **Cost:** Starting ~$59/month\n- **Why for refugees:** Low cost with essential features\n\n### **4. Kindful (by Bloomerang)**\n- **Best for:** Organizations wanting automation\n- **Strengths:** Marketing automation, online fundraising integration\n- **Cost:** Starting ~$100/month\n\n## **Key Features to Prioritize**\n- Grant tracking and reporting\n- Multi-currency support (if serving international donors)\n- Impact reporting tools\n- Integration with email marketing\n- Volunteer management (many refugee services need this)\n\n**What's your organization's size and budget?** I can give more specific recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 375,
+  "estimated_cost_usd": 0.005667,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

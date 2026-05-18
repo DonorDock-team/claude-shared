@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898953+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking soft credits in a donor CRM is crucial for understanding the full impact of your supporters, recognizing their influence, and properly stewarding relationships. While the exact terminology and steps may vary slightly depending on your specific CRM (e.g., Salesforce NPSP, Raiser's Edge NXT, Bloomerang, DonorPerfect, Kindful, etc.), the underlying principles and common features are similar.\n\n## What is a Soft Credit?\n\nA soft credit is a recognition of a donor's influence on a gift, even if they were not the direct financial contributor. The \"hard credit\" (the actual financial transaction) goes to the entity that wrote the check or made the payment. The \"soft credit\" goes to the individual or entity that facilitated, influenced, or is otherwise associated with that gift.\n\n**Common Soft Credit Scenarios:**\n\n*   **Solicitor:** An individual who asked for the donation (e.g., a board member, volunteer fundraiser).\n*   **Influencer/Referrer:** Someone whose connection or advice led to the gift.\n*   **Spouse/Household Member:** If one spouse makes a donation, the other spouse often receives a soft credit for household giving totals.\n*   **Matching Gift Company:** An employer that matches an employee's donation. The employee gets the hard credit, and the company gets a soft credit for the matching portion.\n*   **Family Foundation Principal:** If a family foundation makes a gift, the individual family members who direct the foundation often receive a soft credit.\n*   **Corporate Affiliation:** An employee makes a donation, and their employer receives a soft credit for demonstrating corporate philanthropy through its employees.\n\n## Why Track Soft Credits?\n\n1.  **Relationship Management:** Steward and acknowledge individuals who are bringing in gifts, even if they aren't the direct donor.\n2.  **Accurate Reporting:** Get a holistic view of an individual's total impact (both their direct giving and the gifts they influenced).\n3.  **Fundraising Strategy:** Identify your most effective fundraisers, board members, and advocates.\n4.  **Grant Reporting:** Some grants may require reporting on influenced gifts.\n5.  **Cultivation & Appeals:** Tailor future communications and appeals based on their full engagement.\n\n## How to Track Soft Credits in a Donor CRM (General Approach)\n\nMost donor CRMs follow one or a combination of these methods:\n\n### 1. Dedicated Soft Credit Object/Section\n\nThis is the most robust and flexible method, often found in",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 520,
+  "estimated_cost_usd": 0.001302,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

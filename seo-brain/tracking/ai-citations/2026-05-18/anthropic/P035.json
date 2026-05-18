@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P035",
+  "prompt_text": "Best all-in-one fundraising platform for nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898594+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best All-in-One Fundraising Platforms for Nonprofits\n\n## Top Recommendations\n\n### **1. Classy**\n- **Best for:** Mid-to-large nonprofits\n- **Key features:** Peer-to-peer, events, crowdfunding, recurring donations, branded campaigns\n- **Pricing:** Custom pricing (typically starts ~$500/month)\n- **Strengths:** Beautiful, customizable donation forms; strong event tools\n\n### **2. Givebutter**\n- **Best for:** Small-to-mid nonprofits seeking affordability\n- **Key features:** Free platform (donors can tip), events, auctions, peer-to-peer, CRM\n- **Pricing:** Free (optional donor tips cover costs) or 1.9% + $0.30 per transaction\n- **Strengths:** No monthly fees; surprisingly robust feature set\n\n### **3. Donorbox**\n- **Best for:** Simple, straightable setup\n- **Key features:** Recurring giving, crowdfunding, peer-to-peer, memberships, text-to-give\n- **Pricing:** 1.5% platform fee (reduced to 0.89% on annual plans)\n- **Strengths:** Easy to implement; integrates with most websites\n\n### **4. Bloomerang**\n- **Best for:** Donor relationship management + fundraising\n- **Key features:** Built-in CRM, online donations, email marketing, reporting\n- **Pricing:** Starts at $125/month\n- **Strengths:** Excellent donor retention tools and engagement scores\n\n### **5. Network for Good**\n- **Best for:** Comprehensive nonprofit management\n- **Key features:** Fundraising, donor management, email, coaching/support\n- **Pricing:** Starts at $199/month\n- **Strengths:** Training and nonprofit expertise included\n\n## What to Consider\n- **Organization size** and budget\n- **Technical expertise** of your team\n- **Integration needs** (website, CRM, accounting)\n- **Types of campaigns** you run most\n\nWhat's your nonprofit's size and primary fundraising needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Givebutter",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 20,
+  "output_tokens": 483,
+  "estimated_cost_usd": 0.007305,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

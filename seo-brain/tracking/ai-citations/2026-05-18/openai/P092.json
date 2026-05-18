@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.898792+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM for international NGOs depends on various factors, such as the organization's size, budget, specific needs, and technical capabilities. However, several donor CRM systems are widely regarded as effective for international NGOs. Here are a few popular options:\n\n1. **Salesforce.org Nonprofit Cloud**: Known for its robust customization options, Salesforce offers a Nonprofit Success Pack (NPSP) tailored for NGOs. It provides tools for managing donors, volunteers, and programs, and its global reach makes it suitable for international NGOs.\n\n2. **Bloomerang**: This CRM is user-friendly and focuses on donor retention and engagement. It provides insightful reporting features and integrates well with various fundraising platforms, making it a solid choice for smaller to mid-sized NGOs.\n\n3. **Blackbaud Raiser\u2019s Edge NXT**: Offering powerful data analytics and reporting tools, this CRM is specifically designed for large, complex organizations. It is a comprehensive solution that allows for detailed tracking of donor interactions across multiple countries.\n\n4. **Neon CRM**: Neon provides a flexible platform with capabilities for managing donations, memberships, and events. It is a good solution for growing international NGOs due to its scalability and integrations with various third-party applications.\n\n5. **Kindful**: Known for its intuitive interface and strong integration capabilities, Kindful helps NGOs manage donor data and communication effectively. It can be an ideal fit for small to medium-sized international organizations looking for simplicity and efficiency.\n\n6. **DonorPerfect**: This CRM offers a wide range of features, from donor tracking to event management, and is highly customizable. It supports multi-currency transactions, which is beneficial for international NGOs.\n\n7. **EveryAction**: Designed for nonprofits, it combines fundraising, advocacy, and organizing tools in one platform. It allows international NGOs to engage with supporters on a broad scale and includes integrated email marketing capabilities.\n\nWhen choosing the right CRM, consider factors such as ease of use, cost, customer support, scalability, and the ability to handle multi-country operations and multiple currencies. It's often beneficial to take advantage of free trials or demos offered by these providers before making a decision.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 433,
+  "estimated_cost_usd": 0.004363,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

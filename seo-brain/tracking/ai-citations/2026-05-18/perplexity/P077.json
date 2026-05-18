@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P077",
+  "prompt_text": "How to track major donor moves management",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.898989+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "To track major donor moves management effectively, set up a simple, consistent structure in your CRM and build habits around using it. Here\u2019s a practical, step\u2011by\u2011step approach.\n\n---\n\n## 1. Define your stages and fields\n\nStart by standardizing how you\u2019ll *label* and *track* donors.\n\n### A. Core stages (pipeline)\n\nUse a single, required \u201cStage\u201d field (picklist) in your CRM, for example:\n\n1. Identification  \n2. Qualification (optional but useful)  \n3. Cultivation  \n4. Solicitation  \n5. Stewardship  \n\nEvery major donor / prospect should always be in exactly one stage.\n\n### B. Key data fields on each donor record\n\nAt minimum, add these fields:\n\n- **Assigned fundraiser** \u2013 who \u201cowns\u201d the relationship.  \n- **Major donor tier** \u2013 e.g., A / B / C or High / Medium / Low capacity.  \n- **Current stage** \u2013 from the list above.  \n- **Next action** \u2013 short description (\u201cSchedule lunch,\u201d \u201cSend impact report\u201d).  \n- **Next action date** \u2013 when that action should happen.  \n- **Ask amount (target)** \u2013 current goal for next ask.  \n- **Ask date (target)** \u2013 when you hope to make the ask.  \n\nOptional but helpful:\n\n- Primary interest area(s)  \n- Preferred communication channel  \n- Risk flags (e.g., \u201cat risk of lapsing,\u201d \u201ccooling engagement\u201d)  \n\nKeep it simple enough that fundraisers will actually use it.\n\n---\n\n## 2. Log every \u201cmove\u201d as an activity\n\n\u201cMoves\u201d are meaningful, intentional touchpoints that advance the relationship (not every mass email).\n\nSet up activity types such as:\n\n- Call  \n- Personal email  \n- Meeting (virtual/in-person)  \n- Event interaction  \n- Proposal / ask  \n- Stewardship touch (impact report, thank\u2011you call, tour, etc.)\n\nFor each move, track:\n\n- Date  \n- Type  \n- Fundraiser who did it  \n- Objective (ID, cultivation, solicitation, stewardship)  \n- Outcome / notes  \n\nRule of thumb: *If it\u2019s not in the database, it didn\u2019t happen.*\n\n---\n\n## 3. Use reminders and workflows\n\nYour system should *push* next steps to fundraisers, not rely on memory.\n\n- **Task / tickler reminders** \u2013 create a task for each \u201cNext action\u201d with a due date and owner.  \n- **Automated workflows** where possible, for example:\n  - After a gift posts \u2192 create \u201cThank\u2011you call\u201d task within 48 hours.  \n  - 9\u201312 months after last major gift \u2192 create \u201cCheck\u2011in\u201d task.  \n  - No logged activity for 90 days in cultivation \u2192 alert the assigned fundraiser.  \n\n---\n\n## 4. Make it reportable\n\nDesign your tracking so you can answer questions like:\n\n**By portfolio / fundraiser**\n\n- How many prospects per stage?  \n- How many open tasks are past due?  \n- How many meetings, calls, and asks per month?\n\n**By donor / pipeline**\n\n- Stage conversion (ID \u2192 cultivation \u2192 solicitation \u2192 stewardship).  \n- Time spent in each stage.  \n- Moves per donor before a gift.  \n- Major gift conversion rate (prospects who become major donors).  \n\n**By revenue**\n\n- Average gift size and upgrades.  \n- Donor retention and renewal rates for major donors.\n\nCheck at least monthly:\n\n- Stage distribution (is anyone \u201cstuck\u201d?)  \n- Activity volume (inputs, not just dollars)  \n- Upcoming key dates (proposals, renewals)\n\n---\n\n## 5. Standardize data entry\n\nCreate a brief **moves management data standard** for your team:\n\n- What counts as a \u201cmove\u201d and must be logged.  \n- How to fill in Stage, Next action, and Next action date.  \n- How soon after contact it must be entered (e.g., within 24\u201348 hours).  \n- Required fields for new major prospects.\n\nTrain everyone and audit periodically (e.g., spot\u2011check 10 donors per portfolio).\n\n---\n\n## 6. Start small and iterate\n\nIf you\u2019re just getting started:\n\n1. Pick a clear **major donor segment** (e.g., donors giving $X+ in last 2 years).  \n2. Add the core fields to those records.  \n3. Require logging all meetings, calls, and asks for that segment.  \n4. Run basic monthly reports on:\n   - Activity count by fundraiser  \n   - Pipeline by stage  \n   - Gifts closed vs. proposals made  \n\nRefine fields and stages only after you see where you\u2019re missing information.\n\n---\n\nIf you share what CRM you\u2019re using (Salesforce, DonorPerfect, Blackbaud, etc.), I can outline exactly how to set up the fields, tasks, and a basic moves management dashboard in that system.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 1013,
+  "estimated_cost_usd": 0.020219,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://philanthropydaily.com/tracking-your-donor-life-cycle/",
+      "https://www.plannedgiving.com/using-moves-management-a-step-by-step-guide-to-cultivating-major-donors/",
+      "https://helpyousponsor.com/blog/implementing-a-moves-management-strategy-in-your-donor-relations",
+      "https://donorsnap.com/blog/nonprofit-moves-management-101/",
+      "https://altrata.com/articles/data-driven-moves-management-for-nonprofits",
+      "https://www.blackbaud.com/industry-insights/glossary/moves-management-overview",
+      "https://www.donorperfect.com/nonprofit-technology-blog/fundraising-software/major-donor-retention-tools-how-to-build-relationships-that-last-a-lifetime/",
+      "https://kindsight.io/resources/blog/moves-management/",
+      "https://www.salesforce.com/nonprofit/moves-management-guide/"
+    ]
+  }
+}

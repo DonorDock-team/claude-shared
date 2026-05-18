@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P005",
+  "prompt_text": "DonorDock vs Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.899009+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Both DonorDock and Bloomerang are excellent fundraising CRM platforms designed to help non-profits manage donor relationships, track donations, and streamline communications. However, they cater to slightly different needs and organizational sizes.\n\nHere's a detailed comparison to help you decide:\n\n---\n\n## DonorDock vs. Bloomerang: A Head-to-Head Comparison\n\n| Feature/Aspect         | DonorDock                                       | Bloomerang                                         |\n| :--------------------- | :---------------------------------------------- | :------------------------------------------------- |\n| **Overall Philosophy** | Simplicity, modern UI, all-in-one for growing non-profits. Focus on ease of use and quick adoption. | Donor retention, deep analytics, robust feature set. Scalable for various sizes, with a strong emphasis on donor engagement. |\n| **Target Audience**    | Small to medium-sized non-profits, startups, organizations prioritizing ease of use and a modern feel. | Small to large non-profits, organizations focused on donor retention strategies, those needing robust analytics and scalable solutions. |\n| **Ease of Use/Learning Curve** | **Very high.** Intuitive interface, minimal learning curve. Users often report quick onboarding. | **Moderate to High.** Feature-rich, which can lead to a steeper initial learning curve. Powerful once mastered. |\n| **Donor Management**   | Comprehensive donor profiles, relationship tracking, custom fields, notes, communication history. | Very robust donor profiles, detailed activity timelines, wealth screening integrations, and a unique **\"Engagement Meter\"** for each donor. |\n| **Donation Tracking**  | Tracks all donations (online, offline), pledges, recurring gifts. Simple and effective. | Extensive tracking for donations, pledges, recurring gifts, soft credits, grant management. Very detailed financial reporting. |\n| **Online Giving**      | Customizable online donation forms, peer-to-peer fundraising, text-to-give. Integrated with Stripe. | Highly customizable online giving forms, event registration, peer-to-peer, and volunteer sign-ups via **Generosity X (formerly Qgiv)** integration. |\n| **Communications**     | Email marketing, direct mail merge, letter templates, segmentation. | Advanced email builder with templates, segmentation, automated communication workflows, direct mail integration. |\n| **Reporting & Analytics** | Solid, essential reporting for donations, donors, campaigns. Good for basic insights. | **Excellent.** Highly detailed and customizable reports, specific donor retention reports, lifetime value, campaign performance. The engagement meter is a key differentiator. |\n| **Event Management**   | Basic event management, ticketing, and registration capabilities. Good for simpler events. | More robust event management, ticketing, and registration, especially through Generosity X, which offers dedicated event pages. |\n| **Volunteer Management** | Less emphasis, can track volunteers as contacts but lacks dedicated features. | More explicit volunteer management features, including sign-up forms and tracking. |\n| **Integrations**       | Standard integrations (Stripe, QuickBooks, Mailchimp, Zapier). Expanding its ecosystem. | Broader range of integrations (Stripe, PayPal, QuickBooks, Xero, Mailchimp, wealth screening tools,",
+  "donordock_mentioned": true,
+  "donordock_position": 5,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 660,
+  "estimated_cost_usd": 0.001651,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

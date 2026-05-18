@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P122",
+  "prompt_text": "Otto vs ChatGPT for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898479+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Comparing \"Otto\" and ChatGPT for nonprofits requires understanding what each tool brings to the table, as they serve different, though sometimes overlapping, purposes.\n\n*   **ChatGPT (by OpenAI):** This is a **general-purpose large language model (LLM)**. It's trained on a vast amount of internet data and can generate human-like text, answer questions, summarize, translate, and much more, across virtually any topic. It's a versatile AI assistant.\n\n*   **Otto (by Generosity AI):** This is a **specialized AI assistant designed specifically for nonprofits**. It's built to understand nonprofit terminology, best practices, and workflows, and aims to automate or assist with common nonprofit tasks like grant writing, donor communications, and impact reporting.\n\nHere's a breakdown to help nonprofits decide:\n\n---\n\n### Otto vs. ChatGPT for Nonprofits: A Comparison\n\n| Feature/Aspect         | Otto (by Generosity AI)                                     | ChatGPT (OpenAI)                                           |\n| :--------------------- | :---------------------------------------------------------- | :---------------------------------------------------------- |\n| **Primary Purpose**    | Specialized AI assistant for nonprofit operations (fundraising, comms, impact reporting) | General-purpose conversational AI and language model        |\n| **Domain Expertise**   | Highly specialized in nonprofit best practices, terminology, and common tasks | Broad general knowledge, requires specific prompting for niche topics |\n| **Key Use Cases**      | Grant writing, donor appeals, thank you notes, impact reports, social media content, event descriptions | Brainstorming, drafting emails, summarizing research, content ideas, basic code, general queries |\n| **Data & Training**    | Trained on nonprofit-specific data, successful campaigns, grant applications, etc. | Vast dataset from the internet, diverse topics              |\n| **Ease of Use for NFP**| Designed for nonprofit users, often with guided templates and workflows | Requires good prompt engineering to get specific, relevant output |\n| **Output Relevance**   | Generally high for nonprofit tasks, tailored language       | Varies; can be generic if not prompted carefully           |\n| **Integration**        | Potentially designed to integrate with CRM/donor management (check specifics for Generosity AI's Otto) | Not natively integrated with NFP-specific systems           |\n| **Cost**               | Typically a paid subscription service, priced for organizations | Free tier available; Plus subscription for advanced features/models |\n| **Customization**      | Likely offers more tailored templates and outputs for NFP goals | Highly customizable via prompting, but needs user input for NFP context |\n| **Learning Curve**     | Potentially lower for direct NFP tasks                       | Higher for specific",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 564,
+  "estimated_cost_usd": 0.001411,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

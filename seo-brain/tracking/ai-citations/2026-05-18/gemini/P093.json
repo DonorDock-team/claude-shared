@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P093",
+  "prompt_text": "Cheapest nonprofit CRM with online giving",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898889+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for the *cheapest* nonprofit CRM with online giving, you're generally going to be weighing truly free options (with some caveats) against very low-cost monthly subscriptions.\n\nHere are the top contenders, starting with the absolute cheapest:\n\n---\n\n### 1. Zeffy (Truly Free - No Platform Fees, No Payment Processing Fees)\n\n*   **Cost:** 100% Free. Zeffy covers all transaction fees by asking donors to leave an optional tip. If donors don't tip, it's still free for your nonprofit.\n*   **Online Giving:** Excellent. Customizable donation forms, recurring giving, peer-to-peer, ticketing, event registration, text-to-give.\n*   **CRM Features:** Basic but growing donor management. You can track donors, donations, issue tax receipts, and segment your donor base. It's not as robust as a dedicated, paid CRM, but it's very functional for small to medium nonprofits, especially those who prioritize keeping costs at zero.\n*   **Pros:** Absolutely unbeatable on price. Comprehensive online giving tools.\n*   **Cons:** CRM features are less developed than more expensive platforms. Relies on donor tips for sustainability (though it's still free for you if they don't tip).\n\n---\n\n### 2. Givebutter (Free Platform - Standard Payment Processing Fees Apply)\n\n*   **Cost:** Free for the platform itself. You only pay standard payment processing fees (e.g., 2.9% + $0.30 per transaction for Stripe/PayPal). Donors can opt to cover these fees.\n*   **Online Giving:** Very strong. Donation forms, crowdfunding, peer-to-peer, events, auctions, text-to-give, live-streaming tools.\n*   **CRM Features:** Includes a basic but functional CRM to manage contacts, track donations, segment donors, and communicate. It's designed to keep everything under one roof.\n*   **Pros:** Feature-rich for a free platform, excellent online giving tools. Good for fundraising campaigns and events.\n*   **Cons:** Standard processing fees apply (unless covered by donors). CRM is good but may lack some advanced features found in paid solutions.\n\n---\n\n### 3. Little Green Light (LGL) (Very Affordable Monthly Subscription)\n\n*   **Cost:** Starts around **$39-$49/month** (depending on the number of constituents). This is a very competitive price for a full-featured CRM. Standard payment processing fees apply (integrates with Stripe, PayPal, etc.).",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Givebutter",
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 544,
+  "estimated_cost_usd": 0.001362,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

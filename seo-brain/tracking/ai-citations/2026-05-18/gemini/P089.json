@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P089",
+  "prompt_text": "Best donor CRM for mental health nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898644+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a mental health nonprofit involves balancing standard nonprofit CRM needs with the unique sensitivities and program structures inherent to mental health services.\n\nThe key considerations for a mental health nonprofit CRM include:\n\n1.  **Data Security & Privacy:** While a *donor* CRM typically doesn't store Protected Health Information (PHI) subject to HIPAA (as that's handled by your client/EHR system), it's crucial that any donor or constituent data is handled with the utmost security and discretion. Donors supporting mental health causes may themselves have personal connections that require sensitive handling.\n2.  **Program & Grant Tracking:** Mental health organizations often rely heavily on grants and need to track donations tied to specific programs (e.g., crisis lines, youth therapy, advocacy, research).\n3.  **Communication Sensitivity:** The CRM's communication tools must allow for highly targeted and sensitive messaging, avoiding stigmatizing language and ensuring appropriate outreach.\n4.  **Volunteer Management",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 203,
+  "estimated_cost_usd": 0.00051,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P091",
+  "prompt_text": "Best donor CRM for environmental nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898762+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for an environmental nonprofit depends heavily on your specific needs, budget, and organizational size and complexity. However, some CRMs stand out due to their flexibility, robust features, and ability to handle the unique data requirements of environmental organizations (like project tracking, volunteer management, and grant management).\n\nHere are some of the top contenders, categorized to help you decide:\n\n---\n\n### Top Recommendations for Environmental Nonprofits\n\n**1. Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack)**\n\n*   **Why it's great for Environmental Nonprofits:**\n    *   **Ultimate Customization:** Salesforce is unparalleled in its ability to be customized. You can create custom objects and fields to track specific environmental projects (e.g., land parcels, species data, specific advocacy campaigns, restoration sites), volunteer hours per project, grant milestones, and more.\n    *   **Robust Project Management:** Link donations, volunteers, and communications directly to conservation areas, policy goals, or specific species initiatives.\n    *   **Grant Management:** Excellent for tracking the complex requirements of environmental grants.\n    *   **AppExchange:** A vast marketplace for integrations, including GIS/mapping tools, advocacy platforms, advanced reporting, and event management.\n    *   **Scalability:** Grows with your organization, from small startups to large national organizations.\n    *   **Industry Standard:** Widely used by large nonprofits, meaning a good ecosystem of consultants and resources.\n*   **Potential Downsides:**\n    *   **Steep Learning Curve:** Requires dedicated admin time and can be overwhelming for small teams without technical expertise.\n    *   **Cost:** While Salesforce offers free licenses for nonprofits (NPSP), implementation, ongoing administration, and some AppExchange apps can be costly.\n*   **Best For:** Mid-to-large environmental nonprofits with complex data needs, multiple projects, grants, and a willingness to invest in customization and training.\n\n**2. Blo",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 404,
+  "estimated_cost_usd": 0.001012,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

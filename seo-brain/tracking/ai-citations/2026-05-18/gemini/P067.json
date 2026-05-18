@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898416+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor relationships across a team is crucial for maintaining consistent communication, avoiding duplication of effort, personalizing outreach, and ultimately strengthening donor loyalty and increasing fundraising success.\n\nThe best way to achieve this is through a **Donor Relationship Management (DRM) system** (often a specialized CRM for nonprofits), complemented by clear team processes and communication protocols.\n\nHere's a breakdown of how to do it effectively:\n\n---\n\n## 1. Implement a Centralized DRM/CRM System\n\nThis is the absolute foundation. A robust DRM/CRM system acts as the single source of truth for all donor information.\n\n**Key Features to Look For:**\n\n*   **Comprehensive Donor Profiles:**\n    *   Contact information (name, address, email, phone).\n    *   Demographics (age, interests, occupation).\n    *   Giving history (dates, amounts, campaigns, designations, pledges).\n    *   Relationships (household members, linked organizations, board affiliations).\n    *   Wealth screening data (potential capacity to give).\n    *   Preferred communication methods and any opt-outs.\n    *   Custom fields for specific organizational needs.\n*   **Interaction Tracking & Activity Log:**\n    *   Record every interaction: phone calls, emails, meetings, events attended, mail sent.\n    *   Date, time, person responsible for the interaction, summary/notes, and next steps.\n    *   Ability to attach relevant documents (meeting notes, proposals).\n*   **Relationship Ownership/Primary Contact:**\n    *   Assign a clear \"relationship owner\" (e.g., Major Gift Officer, Annual Fund Manager) to each donor. This person is the primary point of contact and responsible for stewarding that relationship.\n*   **Task Management & Reminders:**\n    *   Assign follow-up tasks to team members (e.g., \"Send thank you letter,\" \"Schedule follow-up call,\" \"Prepare proposal\").\n    *   Set due dates and reminders.\n*   **Communication & Campaign Management:**\n    *   Segment donors based on giving history, interests, and engagement level.\n    *   Track which communications (email campaigns, direct mail, appeals) each donor has received.\n*   **Reporting & Analytics:**\n    *   Generate reports on giving trends, donor retention, campaign performance, individual fundraiser activity, etc.\n    *   Dashboards to visualize key metrics.\n*   **Permissions & Security:**\n    *   Control who can view, edit, or delete donor data, ensuring data integrity and privacy.\n\n**Popular DRM/CRM Options for Nonprofits:**\n\n*   **Salesforce Nonprofit Cloud (NPSP):** Highly customizable, powerful, and scalable, but can have a learning curve. Many apps and integrations available.\n*   **Blackbaud Raiser's Edge NXT:** A long-standing industry leader, comprehensive for all aspects of fundraising.\n*   **Bloomerang:** User-friendly, focused on donor retention and engagement, good for smaller to medium-sized organizations.\n*   **DonorPerfect:** Robust features, strong reporting, and good customer support.\n*   **Little Green Light:** Affordable, easy-to-use for small to medium nonprofits, good for core tracking.\n*   **Kindful (now a Bloomerang product):** Modern interface, good integrations, donor-centric focus.\n\n---\n\n## 2. Establish Clear Team Processes and Protocols\n\nA system is only as good as the people using it. Defined processes are crucial for team success.\n\n*   **Define Relationship Ownership:**\n    *   Clearly assign primary relationship owners for key donors (e.g., major donors, board members, top volunteers).\n    *   Establish criteria for when ownership shifts (e.g., once a donor reaches a",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 785,
+  "estimated_cost_usd": 0.001965,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

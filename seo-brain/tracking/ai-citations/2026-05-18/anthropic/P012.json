@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P012",
+  "prompt_text": "DonorDock vs Virtuous",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898312+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Virtuous Comparison\n\nBoth are cloud-based donor management systems, but they target different organizational needs:\n\n## **DonorDock**\n\n### Best For\n- Small to mid-sized nonprofits\n- Organizations with limited budgets\n- Teams wanting simplicity and ease of use\n\n### Key Strengths\n- **Affordable pricing** - Generally more budget-friendly\n- **User-friendly interface** - Intuitive, minimal learning curve\n- **Quick setup** - Can be up and running quickly\n- **Core functionality** - Covers essential donor management needs\n- **Good customer support** - Responsive team\n\n### Limitations\n- Fewer advanced features\n- More limited customization options\n- Smaller integration ecosystem\n\n---\n\n## **Virtuous**\n\n### Best For\n- Growing to large nonprofits\n- Organizations prioritizing donor relationships\n- Teams wanting advanced automation and marketing tools\n\n### Key Strengths\n- **Responsive Fundraising\u2122** - AI-driven donor engagement recommendations\n- **Advanced automation** - Sophisticated workflows and triggers\n- **Comprehensive marketing tools** - Email, SMS, and multi-channel campaigns\n- **Robust reporting** - Deep analytics and insights\n- **Volunteer & project management** - Broader feature set\n- **Extensive integrations** - Connects with more third-party tools\n\n### Limitations\n- **Higher cost** - Premium pricing structure\n- **Steeper learning curve** - More complex system\n- **May be overkill** for very small organizations\n\n---\n\n## **Quick Decision Guide**\n\n**Choose DonorDock if you:**\n- Have a limited budget (<$5M annual revenue)\n- Need basic donor management without complexity\n- Want to get started quickly\n- Have a small team\n\n**Choose Virtuous if you:**\n- Need sophisticated donor engagement tools\n- Want AI-driven fundraising insights\n- Require advanced automation and segmentation\n- Have budget for a premium solution\n- Plan to scale significantly\n\n---\n\nWould you like specific information about pricing, integrations, or particular features?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 460,
+  "estimated_cost_usd": 0.006948,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

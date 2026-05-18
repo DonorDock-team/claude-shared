@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P031",
+  "prompt_text": "Alternative to Little Green Light",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898413+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Little Green Light (LGL) is a popular fundraising CRM for small to medium-sized nonprofits, known for its affordability and comprehensive feature set for donor management. If you're looking for an alternative, it's usually because you need more specialized features, a different user interface, better scalability, specific integrations, or a different price point.\n\nHere's a breakdown of alternatives, categorized by their strengths and typical target users:\n\n---\n\n### **Direct Competitors (All-in-One Non-Profit CRMs - Similar Scope to LGL)**\n\nThese options offer similar core functionalities (donor management, gift tracking, communications, reporting) and are often popular with organizations that might also consider LGL.\n\n1.  **Bloomerang**\n    *   **Pros:** Very strong focus on donor retention and engagement, excellent reporting, user-friendly interface, good integrations, often praised for its \"philanthropic intelligence\" features.\n    *   **Cons:** Can be more expensive than LGL as you scale up, some users find the event management basic.\n    *   **Best for:** Nonprofits of all sizes prioritizing donor engagement, retention, and a modern, intuitive interface.\n\n2.  **Kindful (now Bonterra)**\n    *   **Pros:** Modern interface, strong integration capabilities with popular tools (e.g., QuickBooks, Mailchimp), good for online fundraising campaigns and donor communication.\n    *   **Cons:** Some users report that reporting can be less flexible than other platforms, customer support sometimes gets mixed reviews.\n    *   **Best for:** Nonprofits looking for strong integrations and a modern, clean user experience, especially those heavy on online fundraising.\n\n3.  **DonorPerfect**\n    *   **Pros:** Long-standing, robust, comprehensive features for donor management, fundraising, events, and accounting integration. Good for mid-sized organizations with more complex needs.\n    *   **Cons:** Interface can feel a bit dated compared to newer platforms, learning curve can be steeper.\n    *   **Best for:** Mid-sized nonprofits needing a powerful, proven solution with deep feature sets, willing to invest time in training.\n\n4.  **Neon CRM (by NeonOne)**\n    *   **Pros:** Highly customizable, strong for membership management, events, and peer-to-peer fundraising alongside standard donor management. Offers a broad suite of tools.\n    *   **Cons:** Can feel overwhelming due to the sheer number of features, pricing can escalate with add-ons.\n    *   **Best for:** Organizations with diverse needs beyond just donor management, such as membership, events, or advocacy.\n\n---\n\n### **More Robust / Enterprise-Level Solutions (for Organizations that have Outgrown LGL)**\n\nIf you need deeper customization, more complex workflows, or enterprise-level scale.\n\n5.  **Salesforce for Nonprofits (NPSP - Nonprofit Success Pack)**\n    *   **Pros:** Incredibly powerful and customizable, integrates with virtually anything, vast ecosystem of apps, can scale indefinitely. Often free/discounted licenses for nonprofits.\n    *   **Cons:** Steep learning curve, requires significant administrative/technical expertise to set up and maintain, can be expensive to customize and implement without in-house knowledge.\n    *   **Best for:** Larger nonprofits, those with complex data needs, or organizations with internal technical resources or budget for consultants.\n\n6.  **Blackbaud (eTapestry, Raiser's Edge NXT)**\n    *",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 728,
+  "estimated_cost_usd": 0.001821,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

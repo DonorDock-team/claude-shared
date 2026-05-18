@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P085",
+  "prompt_text": "Best donor CRM for advocacy organizations",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.898404+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For advocacy organizations, the \u201cbest\u201d donor CRM depends heavily on your size, channels (email, phones, field, social), and whether you do lobbying/501(c)(4) work. Below is a concise shortlist plus how to choose.\n\n---\n\n## Top donor CRMs well-suited to advocacy orgs\n\n### 1. EveryAction / Bonterra Advocacy  \n**Best for:** Medium\u2013large advocacy orgs; integrated advocacy + fundraising + digital.  \n**Why it fits advocacy:**\n- Built for nonprofits that do petitions, email advocacy, click\u2011to\u2011call, and SMS plus fundraising.\n- Strong supporter segmentation: actions taken, donation history, issues, geography.\n- Robust email and digital tools with reporting tied back to supporter records.\n- Widely used by 501(c)(3)/(c)(4) and political-adjacent orgs.\n\n**Watch for:** Higher cost, implementation complexity; usually overkill for very small groups.\n\n---\n\n### 2. NationBuilder  \n**Best for:** Advocacy orgs that blend campaigning, organizing, and fundraising.  \n**Strengths:**\n- Unified database of supporters, donors, volunteers, and members.\n- Website, petitions, email, and fundraising pages all tied to the CRM.\n- Good for distributed organizing, chapters, and grassroots mobilization.\n\n**Watch for:** Email/design tools and reporting can feel less sophisticated than dedicated email platforms; pricing can rise with list size.\n\n---\n\n### 3. Salsa Labs (Salsa Engage + CRM)  \n**Best for:** Advocacy orgs needing solid advocacy tools plus donor CRM without enterprise pricing.  \n**Strengths:**\n- Email, petitions, online actions, and online giving in one platform.\n- Targeted advocacy (legislator lookup, email/letter actions) integrated with donor records.\n- Automation for welcome series, reactivation, and basic donor journeys.\n\n**Watch for:** UI and reporting sometimes feel dated compared to newer SaaS tools.\n\n---\n\n### 4. Bloomerang  \n**Best for:** Advocacy orgs where fundraising is primary and advocacy actions are secondary.  \n**Strengths:**\n- Highly donor-centric: great retention reports, easy segmenting, simple interface.\n- Integrates with fundraising tools and email platforms; ideal if you already run advocacy tools elsewhere (Action Network, Phone2Action, etc.).\n- Good for small\u2013mid-sized orgs growing a donor base.\n\n**Watch for:** Doesn\u2019t natively handle advanced advocacy workflows; you\u2019ll rely on integrations.\n\n---\n\n### 5. CiviCRM (open source)  \n**Best for:** Advocacy orgs with tech capacity (or a partner) who want control and low ongoing licensing costs.  \n**Strengths:**\n- Open source; strong support for advocacy, memberships, events, and contributions.\n- Highly customizable fields, workflows, and dashboards.\n- Good for international and rights-based orgs; big ecosystem of implementers.\n\n**Watch for:** Requires technical expertise to host, configure, and maintain; not plug\u2011and\u2011play.\n\n---\n\n### 6. Funraise, Givebutter, DonorDock, etc.  \nThese are strong **donor-first** CRMs (Funraise, Givebutter, DonorDock, Kindful, etc.) highlighted in many \u201cbest nonprofit CRM\u201d lists. They\u2019re excellent for donations, campaigns, events, and basic engagement but usually require separate tools for advocacy actions.\n\n**Best if:**  \n- You\u2019re mostly fundraising and email, with only light \u201cadvocacy\u201d (e.g., sign-on stories, petitions via an external tool).  \n- You need something clean, affordable, and easy for a small staff.\n\n---\n\n## How to choose: advocacy-specific criteria\n\nUse these questions to quickly narrow options:\n\n1. **What actions do you run most?**\n   - Petitions, click\u2011to\u2011call, tweet\u2011to\u2011target, legislator emails: consider EveryAction/Bonterra, NationBuilder, Salsa, CiviCRM.\n   - Primarily fundraising + email with occasional petitions: Bloomerang + Action Network (or similar), or a donor-first CRM + external advocacy tool.\n\n2. **Do you need to handle both 501(c)(3) and 501(c)(4)/PAC data?**\n   - Look for vendors experienced with multi-entity compliance and data separation (EveryAction/Bonterra and NationBuilder are common in this space).\n\n3. **Staff capacity & tech skills**\n   - Low tech, small team: Bloomerang, Givebutter, DonorDock, Funraise, or an all\u2011in\u2011one like NationBuilder.\n   - Strong tech capacity or a dev/consultant: CiviCRM can be powerful and cost-effective.\n\n4. **Channel mix**\n   - Heavy email + digital advocacy: EveryAction/Bonterra, Salsa.\n   - Heavy field organizing and chapters: NationBuilder, CiviCRM.\n\n5. **Budget**\n   - Under ~$5\u20138k/year: lean toward Bloomerang, Givebutter, DonorDock, or CiviCRM (with clear implementation budget).\n   - Over ~$10k/year and a big file: EveryAction/Bonterra, NationBuilder, Salsa are realistic.\n\n---\n\n## If you share a bit more\u2026\n\nIf you tell me:\n- Your country,\n- Org size (staff + email/donor list size),\n- Whether you run 501(c)(4)/political advocacy,\n- Your current tools (Mailchimp, ActBlue, Action Network, etc.),\n\nI can recommend 2\u20133 specific CRMs (by name) that are best suited to your exact advocacy context and suggest an integration path if needed.",
+  "donordock_mentioned": true,
+  "donordock_position": 2849,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "CiviCRM",
+    "Givebutter",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1165,
+  "estimated_cost_usd": 0.022496,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://learn.g2.com/best-crm-for-nonprofits",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://bloomerang.com",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://www.zendesk.com/sell/crm/nonprofit/",
+      "https://civicrm.org/home",
+      "https://stratuslive.com/7-best-crms-for-healthcare-nonprofit-organizations-in-2026/"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P019",
+  "prompt_text": "Alternative to Blackbaud Raisers Edge",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898707+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Alternatives to Blackbaud Raiser's Edge\n\nHere are popular alternatives to Raiser's Edge for nonprofit fundraising and donor management:\n\n## **Top Competitors**\n\n### **1. Salesforce Nonprofit Cloud**\n- Built on Salesforce platform\n- Highly customizable\n- Strong reporting and integration capabilities\n- Best for: Medium to large nonprofits with technical resources\n\n### **2. Bloomerang**\n- User-friendly interface\n- Strong donor retention focus\n- Built-in engagement metrics\n- Best for: Small to mid-sized nonprofits\n\n### **3. DonorPerfect**\n- Comprehensive donor management\n- Good reporting tools\n- Integrated online donation forms\n- Best for: Small to medium nonprofits\n\n### **4. NeonCRM**\n- All-in-one fundraising platform\n- Event management included\n- Membership tracking\n- Best for: Growing nonprofits needing versatility\n\n### **5. Little Green Light**\n- Affordable cloud-based option\n- Simple, clean interface\n- Good customer support\n- Best for: Small nonprofits and new users\n\n## **Other Options**\n- **Kindful** (now Bloomerang)\n- **EveryAction** - Best for advocacy-focused organizations\n- **Keela** - AI-powered insights\n- **Giveffect** - All-in-one suite\n- **CharityEngine** - Marketing automation focus\n\n## **Key Considerations**\n- Budget and organization size\n- Technical expertise available\n- Integration needs\n- Specific features required (events, advocacy, grants, etc.)\n\nWhat size is your organization and what are your primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 378,
+  "estimated_cost_usd": 0.005724,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

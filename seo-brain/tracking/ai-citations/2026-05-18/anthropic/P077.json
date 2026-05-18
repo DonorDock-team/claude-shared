@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P077",
+  "prompt_text": "How to track major donor moves management",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898964+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Major Donor Moves Management Tracking\n\n## Core Tracking System\n\n**Essential components to monitor:**\n\n### 1. **Contact Information & Wealth Indicators**\n- Basic demographics and contact preferences\n- Capacity ratings and wealth screening data\n- Relationship history and connections\n- Giving history (amounts, frequency, designations)\n\n### 2. **The 7-Stage Moves Management Cycle**\n\nTrack each donor's position:\n1. **Identification** - Prospect research stage\n2. **Qualification** - Assess capacity and inclination\n3. **Cultivation** - Building the relationship\n4. **Solicitation** - The ask\n5. **Stewardship** - Thanking and reporting impact\n6. **Upgrade** - Moving to next level\n7. **Involvement** - Deeper engagement\n\n### 3. **Activity Tracking**\n\nFor each donor, log:\n- **Last contact date and type** (meeting, call, email, event)\n- **Next planned action** with specific date\n- **Strategy/goal** for this donor\n- **Stage in pipeline**\n- **Action owner** (who's responsible)\n- **Outcomes and notes** from each interaction\n\n## Tracking Tools\n\n**Options by organization size:**\n\n| Tool | Best For | Cost |\n|------|----------|------|\n| **Spreadsheet** | <100 donors | Free |\n| **Donor CRM** (Bloomerang, DonorPerfect) | Small-medium orgs | $$ |\n| **Salesforce/Raiser's Edge** | Large organizations | $$$ |\n\n## Key Metrics to Monitor\n\n- **Moves per donor per year** (target: 4-7 for major donors)\n- **Portfolio size per officer** (typically 100-150 donors)\n- **Pipeline velocity** (time in each stage)\n- **Conversion rates** (qualification \u2192 solicitation \u2192 gift)\n- **Average time to close**\n- **Return on investment** per donor/portfolio\n\n## Best Practices\n\n\u2705 **Schedule regular portfolio reviews** (weekly/monthly)\n\u2705 **Set 30/60/90-day action plans** for each donor\n\u2705 **Use contact reports** within 24 hours of interaction\n\u2705 **Color-code by urgency** or stage\n\u2705 **Track soft credit** for team involvement\n\u2705 **Include qualitative notes** about interests, motivations, concerns\n\n## Simple Spreadsheet Approach\n\nMinimum columns needed:\n- Donor Name\n- Current Stage\n- Last Contact Date\n- Next Action + Date\n- Assigned Officer\n- Ask Amount/Strategy\n- Notes\n\n**Would you like a template for any specific tracking method or help setting up metrics for your organization?**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 627,
+  "estimated_cost_usd": 0.009447,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

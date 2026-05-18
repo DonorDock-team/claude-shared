@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.897922+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "You're looking for a common and highly desired pricing model in the nonprofit space! Many CRMs charge per user, but several excellent options offer flat-rate pricing based on your database size (number of contacts/donors) rather than the number of staff who access it.\n\nHere are some top donor CRMs known for their flat-rate, no per-user fee models:\n\n### Recommended Donor CRMs with Flat-Rate (No Per-User) Pricing:\n\n1.  **Little Green Light (LGL)**\n    *   **Pricing Model:** Flat monthly/annual fee based solely on the number of constituents (donors, prospects, volunteers, etc.) in your database. Unlimited users are included at every tier.\n    *   **Strengths:** Very robust for its price point, excellent donor management, robust reporting, fundraising, event management, and grant tracking. Highly configurable.\n    *   **Best For:** Small to medium-sized nonprofits looking for a powerful, flexible, and affordable solution.\n    *   **Notes:** Can have a slight learning curve due to its flexibility, but highly praised by users.\n\n2.  **Bloomerang**\n    *   **Pricing Model:** Primarily based on the number of constituents in your database. All tiers generally include unlimited users.\n    *   **Strengths:** Modern, intuitive interface, strong focus on donor retention, excellent communication tools (email marketing, constituent engagement meter), robust reporting, and fundraising features.\n    *   **Best For:** Nonprofits of all sizes, especially those prioritizing donor engagement and user-friendliness.\n    *   **Notes:** Acquired Kindful, expanding its feature set. Pricing scales linearly with constituent count.\n\n3.  **Keela**\n    *   **Pricing Model:** Flat monthly/annual fee based on the number of contacts in your database. Unlimited users are included.\n    *   **Strengths:** All-in-one solution including CRM, fundraising, email marketing, project management, volunteer management, and grant management. Very clean and modern interface.\n    *   **Best For:** Nonprofits looking for a comprehensive suite of tools integrated into one platform, without needing to integrate multiple systems.\n    *   **Notes:**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Keela",
+    "Kindful",
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 463,
+  "estimated_cost_usd": 0.001161,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

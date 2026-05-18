@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.898616+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Measuring donor retention is crucial for nonprofit organizations to evaluate the effectiveness of their engagement strategies and ensure long-term sustainability. Here\u2019s how you can measure donor retention:\n\n1. **Define the Time Period**: Decide the time frame for measuring retention. Common intervals are annually or quarterly.\n\n2. **Identify Your Donors**: Separate first-time donors from returning donors, as retention strategies may differ for each group.\n\n3. **Calculate Donor Retention Rate**:\n   - **Basic Formula**: \n     \\[\n     \\text{Donor Retention Rate} = \\left( \\frac{\\text{Number of Donors at End of Period}}{\\text{Number of Donors at Start of Period}} \\right) \\times 100\n     \\]\n   - Example: If you start with 200 donors and end with 150 of the same, the retention rate is \\( \\left( \\frac{150}{200} \\right) \\times 100 = 75\\% \\).\n\n4. **Analyze Lapsing Donors**: Determine why donors did not return. This can involve surveys, feedback sessions, or data analysis to identify patterns.\n\n5. **Segment Analysis**: Break down retention by donor segments such as donation size, frequency, or method (in-person, online, etc.) to understand which groups are most loyal.\n\n6. **Longitudinal Tracking**: Track individual donor activity over multiple periods to identify long-term retention trends.\n\n7. **Benchmarking**: Compare your retention rates against industry standards or similar organizations to understand your relative performance.\n\n8. **Contact Frequency and Engagement**: Analyze how often you communicate with donors and the types of engagements (newsletters, events) to correlate with retention rates.\n\n9. **Use CRM Tools**: Utilize donor management software to track, analyze, and visualize retention data efficiently.\n\n10. **Report and Adjust**: Regularly report retention findings to stakeholders and adjust strategies based on data-driven insights.\n\nBy systematically measuring and analyzing donor retention, you can implement strategies to improve long-term donor engagement and loyalty.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 422,
+  "estimated_cost_usd": 0.00425,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

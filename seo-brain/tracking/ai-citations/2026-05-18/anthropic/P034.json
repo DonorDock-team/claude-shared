@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P034",
+  "prompt_text": "Best nonprofit CRM for growing organizations",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898541+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Nonprofit CRMs for Growing Organizations\n\n## Top Recommendations\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Mid-size to large growing nonprofits\n- **Strengths:** Highly scalable, extensive features, large ecosystem\n- **Pricing:** 10 free licenses, then ~$36/user/month\n- **Considerations:** Steeper learning curve, may need implementation support\n\n### **2. Bloomerang**\n- **Best for:** Donor retention focus\n- **Strengths:** Excellent donor engagement tools, intuitive interface, strong reporting\n- **Pricing:** Starting ~$125/month\n- **Ideal if:** Fundraising and donor relationships are your priority\n\n### **3. NeonCRM**\n- **Best for:** All-in-one solution for small-to-mid sized orgs\n- **Strengths:** Membership management, event registration, fundraising, user-friendly\n- **Pricing:** Starting ~$50/month\n- **Ideal if:** You need integrated tools without complexity\n\n### **4. HubSpot for Nonprofits**\n- **Best for:** Marketing-focused organizations\n- **Strengths:** Free tier available, excellent automation, scales well\n- **Pricing:** Free with discounts on paid tiers (40%+ off)\n- **Ideal if:** You prioritize digital marketing and communications\n\n### **5. Little Green Light**\n- **Best for:** Budget-conscious smaller orgs ready to scale\n- **Strengths:** Affordable, solid donor management, good support\n- **Pricing:** Starting ~$39/month\n\n## Key Selection Criteria\n- **Current size** and projected growth\n- **Budget** (including implementation costs)\n- **Integration needs** (accounting, email, etc.)\n- **Staff technical capacity**\n- **Primary use case** (fundraising, programs, volunteers)\n\nWhat's your organization's size and main priorities?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 439,
+  "estimated_cost_usd": 0.006627,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

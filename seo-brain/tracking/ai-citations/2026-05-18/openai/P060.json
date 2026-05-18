@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.897830+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When managing a donor CRM (Customer Relationship Management) system with a focus on recurring giving, several key features and strategies are essential for efficiency and effectiveness. Below are some best practices and considerations:\n\n1. **Donor Segmentation:**\n   - Segment your donors based on their giving patterns, interests, and engagement level. This helps tailor communication and cultivate relationships.\n   - Create segments for new, recurring, and lapsed donors to manage different communication strategies.\n\n2. **Recurring Gift Management:**\n   - Ensure seamless setup for donors to initiate recurring gifts. This includes providing flexible options for frequency (e.g., monthly, quarterly, annually).\n   - Make it easy for donors to update their payment information or modify their recurring gift amounts.\n\n3. **Automated Communications:**\n   - Automate personalized thank-you messages and receipts immediately after a donation is received.\n   - Use automated communications to remind donors of upcoming renewal dates or credit card expirations.\n\n4. **Reporting and Analytics:**\n   - Use detailed reporting tools within your CRM to track recurring giving trends, donor retention rates, and overall fundraising performance.\n   - Analyze data to identify opportunities for growth or areas needing improvement.\n\n5. **Integration with Payment Gateways:**\n   - Ensure your CRM integrates smoothly with multiple payment gateways to accommodate different donor preferences.\n   - Ensure all transactions are secure and compliant with regulations (e.g., PCI DSS).\n\n6. **Donor Engagement:**\n   - Regularly update donors about the impact of their contributions, using newsletters or impact reports.\n   - Organize exclusive events or offer special recognition for recurring donors to foster community and loyalty.\n\n7. **User-Friendly Interface:**\n   - Design a user-friendly donor portal where donors can easily manage their giving, access donation history, and print receipts.\n   - Ensure the CRM system is intuitive for your team to reduce training time and improve operational efficiency.\n\n8. **Data Security and Privacy:**\n   - Protect donor data with strong security measures and adhere to data privacy laws such as GDPR or CCPA.\n   - Regularly perform data audits to ensure data integrity and security.\n\n9. **Feedback and Surveys:**\n   - Solicit feedback from donors to improve your processes and CRM functionalities.\n   - Use surveys to understand donor preferences and motivations, tailoring your strategies accordingly.\n\n10. **Customer Support:**\n    - Provide excellent support for donors via multiple channels (phone, email, chat) to resolve issues swiftly.\n    - Train your staff to assist donors effectively, ensuring high satisfaction and donor retention.\n\nImplementing these practices within your CRM will help nurture long-term relationships with donors, increase donor retention, and maximize the impact of recurring giving initiatives.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 538,
+  "estimated_cost_usd": 0.005412,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

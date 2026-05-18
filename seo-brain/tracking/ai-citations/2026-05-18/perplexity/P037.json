@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P037",
+  "prompt_text": "Easiest donor management software to use",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.898735+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Based on your query and the sources you provided, the donor management / nonprofit CRM tools most often praised for being *easy to use* are:\n\n### 1. Givebutter (Free CRM + fundraising)\n- **Why it\u2019s easy:** Very simple, modern interface; donor database is tightly integrated with forms, events, and campaigns.\n- **Notable usability features (from [3], [7]):**\n  - Custom filters, tags, live search, and saved searches for quick segmentation.\n  - Donation, events, and donor records all in one place\u2014no manual syncing.\n  - Easy to resend receipts and pull a donor\u2019s full giving history.\n- **Best for:** Small\u2013mid-sized nonprofits that want an all\u2011in\u2011one, free\u2011to-start system (donations, events, peer\u2011to\u2011peer + CRM).\n\n### 2. Donorbox (Very simple donation + donor management)\n- **Why it\u2019s easy:** Built around a very user\u2011friendly donation form and straightforward donor profiles.\n- **Notable usability features (from [2], [8]):**\n  - Easy-to-use form builder that embeds on your site.\n  - Simple donor profiles and searches (by giving level, frequency, location, interests, etc.).\n- **Pricing:** Free to use, with a 1.5% platform fee on donations plus payment processing.\n- **Best for:** Organizations that primarily need donation forms and light donor management, not a full CRM.\n\n### 3. Bloomerang (Simple, but more full\u2011featured)\n- **Why it\u2019s considered easy:** Designed specifically for nonprofits with a clean UI and built\u2011in fundraising tools.\n- **Notable usability features (from [1], [6]):**\n  - Constituent timelines that show all donor interactions in one view.\n  - Engagement and generosity scores built in (no extra setup).\n  - Strong segmentation and custom reports without much technical work.\n- **Pricing (from [1]):** Starts around $125/month.\n- **Best for:** Growing nonprofits wanting a purpose\u2011built donor CRM that is still intuitive.\n\n### 4. DonorPerfect\n- **Why it\u2019s easy:** Long\u2011standing nonprofit CRM with a focus on usability for both new and advanced users.\n- **Notable usability features (from [4]):**\n  - Cloud-based, accessible anywhere.\n  - Automations for gift processing and scheduled reports reduce manual work.\n  - Users highlight \u201csimple design\u201d and that new staff can get comfortable quickly.\n- **Best for:** Organizations that need depth (custom fields, complex reports) but want a relatively gentle learning curve.\n\n### 5. \u201cGeneral\u201d CRMs with nonprofit templates (HubSpot, Salesforce NPSP, Zoho)\nMentioned in [2] as options, but:\n- **Pros:** Powerful, often have free tiers (HubSpot, Zoho).\n- **Cons:** Usually *less* intuitive for non\u2011technical nonprofit staff and require more setup and customization.\n- **Best for:** Teams with tech capacity or a consultant; not ideal if \u201ceasiest\u201d is your top priority.\n\n---\n\n### Quick recommendation by situation\n\n- **Brand\u2011new or small org, wants easiest + free:**  \n  - Start with **Givebutter** or **Donorbox**.\n\n- **Small\u2013mid org, wants an easy, purpose\u2011built donor CRM (and has a budget):**  \n  - Look at **Bloomerang** first, **DonorPerfect** second.\n\n---\n\nIf you tell me:\n- your org size (approx. contacts/donors),\n- whether you run events or mostly online donations,\n- and your monthly budget (including \u201c$0\u201d),\n\nI can narrow this down to 1\u20132 specific tools and suggest which to trial first.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Givebutter",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 777,
+  "estimated_cost_usd": 0.016682,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://bloomerang.com/blog/donor-management-software/",
+      "https://onlinedegrees.sandiego.edu/donor-management-software/",
+      "https://givebutter.com/donor-management-crm",
+      "https://www.donorperfect.com",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://kindful.com/nonprofit-glossary/donor-management-software/",
+      "https://www.g2.com/categories/donor-management/free",
+      "https://donorbox.org/donor-management",
+      "https://www.techsoup.org/donor-and-grants-management"
+    ]
+  }
+}

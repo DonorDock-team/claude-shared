@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P008",
+  "prompt_text": "DonorDock vs Neon CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.897935+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Neon CRM Comparison\n\nBoth are popular nonprofit CRM platforms, but they serve different organizational needs:\n\n## **DonorDock**\n\n### Best For\n- Small nonprofits and ministries\n- Organizations wanting simplicity\n- Teams with limited tech experience\n\n### Key Strengths\n- **User-friendly interface** - Very intuitive and easy to learn\n- **Affordable pricing** - Starts around $59/month\n- **Relationship-focused** - Strong donor management features\n- **Clean design** - Modern, uncluttered interface\n- **Good customer support**\n\n### Limitations\n- Fewer advanced features\n- Limited reporting compared to enterprise solutions\n- Smaller integration ecosystem\n- Less suitable for large organizations\n\n---\n\n## **Neon CRM**\n\n### Best For\n- Small to mid-sized nonprofits\n- Organizations needing all-in-one functionality\n- Groups wanting built-in marketing tools\n\n### Key Strengths\n- **Comprehensive feature set** - CRM, fundraising, marketing, events\n- **Strong reporting** - Robust analytics and custom reports\n- **Email marketing included** - Built-in communication tools\n- **Membership management** - Good for membership organizations\n- **More integrations** - Connects with many third-party tools\n\n### Limitations\n- Steeper learning curve\n- Higher price point (typically $149+/month)\n- Interface can feel less modern\n- Some users report customer service delays\n\n---\n\n## **Quick Decision Guide**\n\nChoose **DonorDock** if you:\n- Have a small team or budget\n- Prioritize ease of use\n- Need basic donor management\n\nChoose **Neon CRM** if you:\n- Need comprehensive features (events, marketing, membership)\n- Require advanced reporting\n- Want an all-in-one platform\n\nWhat's your organization's size and primary needs?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 426,
+  "estimated_cost_usd": 0.006444,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

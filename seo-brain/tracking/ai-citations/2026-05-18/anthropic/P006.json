@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P006",
+  "prompt_text": "DonorDock vs DonorPerfect",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.891948+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs DonorPerfect Comparison\n\n## Overview\n\n**DonorDock** and **DonorPerfect** are both donor management systems, but they target different segments of the nonprofit market.\n\n## Key Differences\n\n### **DonorDock**\n- **Best for:** Small to mid-sized nonprofits\n- **Pricing:** More affordable, starting around $99-149/month\n- **Interface:** Modern, intuitive, user-friendly\n- **Learning curve:** Easier to learn and implement\n- **Focus:** Streamlined donor relationships and communication\n- **Support:** Known for responsive customer service\n\n### **DonorPerfect**\n- **Best for:** Mid to large nonprofits\n- **Pricing:** Higher cost, typically $89/month + per-record fees\n- **Interface:** More traditional, can feel dated\n- **Learning curve:** Steeper, more complex features\n- **Focus:** Comprehensive fundraising management\n- **Support:** Extensive but can be slower\n\n## Feature Comparison\n\n| Feature | DonorDock | DonorPerfect |\n|---------|-----------|--------------|\n| Donation tracking | \u2713 | \u2713 |\n| Online giving | \u2713 | \u2713 |\n| Reporting | Good | Excellent |\n| Email marketing | Built-in | Integrated |\n| Event management | Basic | Advanced |\n| Accounting integration | Limited | Extensive (QuickBooks, etc.) |\n| Customization | Moderate | Extensive |\n\n## Which to Choose?\n\n**Choose DonorDock if:**\n- You're a smaller nonprofit (under 1,000 donors)\n- You want easy setup and use\n- Budget is a primary concern\n- You need strong donor communication tools\n\n**Choose DonorPerfect if:**\n- You have complex fundraising needs\n- You need extensive reporting and customization\n- You have dedicated staff for database management\n- Integration with accounting software is critical\n\nBoth are solid choices\u2014your decision should depend on organization size, budget, and complexity needs.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 474,
+  "estimated_cost_usd": 0.007167,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

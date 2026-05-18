@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.897074+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM with Recurring Giving\n\nI'll help you understand donor CRM systems with recurring giving functionality. Here's what you should know:\n\n## Key Features to Look For\n\n### Recurring Giving Capabilities\n- **Automated payment processing** (monthly, quarterly, annual)\n- **Multiple payment methods** (credit card, ACH/bank transfer)\n- **Donation scheduling** and customization\n- **Easy upgrade/downgrade** options for donors\n- **Failed payment retry** logic and notifications\n\n### Essential CRM Functions\n- **Donor profiles** with giving history\n- **Segmentation** for targeted outreach\n- **Email communications** and receipts\n- **Reporting and analytics**\n- **Tax receipt generation**\n\n## Popular Donor CRM Options\n\n### **Bloomerang**\n- Strong recurring gift management\n- Excellent retention tracking\n- ~$125-500+/month\n\n### **Donorbox**\n- Easy recurring donation setup\n- Good for small-medium nonprofits\n- ~$0-299+/month (plus processing fees)\n\n### **Salesforce Nonprofit Cloud**\n- Powerful customization\n- Robust for larger organizations\n- Free for qualifying nonprofits (10 licenses)\n\n### **Little Green Light**\n- Simple, affordable\n- Good recurring gift tracking\n- ~$39-99/month\n\n### **Kindful** (by Bloomerang)\n- User-friendly interface\n- Integrated with many tools\n- ~$100-300+/month\n\n## What are your specific needs?\n- Organization size?\n- Budget range?\n- Current systems you're using?\n- Special requirements?\n\nI can provide more tailored recommendations based on your situation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 386,
+  "estimated_cost_usd": 0.005832,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

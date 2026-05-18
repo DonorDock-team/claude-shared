@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P012",
+  "prompt_text": "DonorDock vs Virtuous",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898354+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Virtuous are both powerful CRM (Constituent Relationship Management) platforms designed for nonprofits, but they cater to slightly different needs and organizational sizes.\n\nHere's a breakdown to help you compare them:\n\n## DonorDock\n\n**Overview:** DonorDock is generally seen as a more modern, intuitive, and often more affordable solution for small to mid-sized nonprofits. It focuses on providing core donor management functionalities with an emphasis on ease of use and streamlined workflows.\n\n**Key Characteristics:**\n\n*   **Target Audience:** Small to mid-sized nonprofits, organizations new to CRM, or those looking to upgrade from spreadsheets or very basic systems.\n*   **Philosophy:** Simplicity, efficiency, core donor management, and ease of adoption.\n*   **Key Features (Core):**\n    *   Donor Profiles & Contact Management\n    *   Donation Tracking & Gift Entry\n    *   Pledge Management\n    *   Basic Reporting & Dashboards\n    *   Email Marketing Integration (often via 3rd party)\n    *   Communication & Activity Logging\n    *   Simple Segmentation\n    *   Fund & Campaign Management\n*   **Strengths:**\n    *   **User-Friendly Interface:** Often praised for its modern, clean, and intuitive design, making it easy for staff to learn and use.\n    *   **Affordability:** Generally more budget-friendly, especially for smaller organizations.\n    *   **Quick Setup:** Easier and faster to implement than more complex systems.\n    *   **Core Functionality:** Provides all the essential tools for managing donors and donations without unnecessary complexity.\n    *   **Good Support:** Typically offers responsive and helpful customer support.\n*   **Potential Limitations:**\n    *   **Less Advanced Automation:** May not have the deep marketing automation, personalized journey builders, or sophisticated workflows of more enterprise-level solutions.\n    *   **Fewer Deep Analytics:** While it has good reporting, it might lack some of the advanced predictive analytics or wealth screening tools built into other systems.\n    *   **Less Customization:** May offer fewer options for extensive customization compared to highly flexible platforms.\n    *   **Scalability for Large Orgs:** While it scales well for growing mid-sized organizations, very large or complex nonprofits with highly specific needs might eventually look for more robust tools.\n\n## Virtuous\n\n**Overview:** Virtuous is a comprehensive, \"responsive fundraising\" platform designed to help nonprofits grow by fostering deeper, more personalized relationships with donors. It emphasizes automation, data-driven insights, and multi-channel engagement.\n\n**Key Characteristics:**\n\n*   **Target Audience:** Mid-sized to large nonprofits, organizations with sophisticated fundraising strategies, those focused on personalized donor journeys, and teams that want to leverage automation and data extensively.\n*   **Philosophy:** Responsive fundraising, donor-centric engagement, maximizing lifetime value, data-driven decision-making, and automation.\n*   **Key Features (Comprehensive):**\n    *   **All DonorDock features, PLUS:**\n    *   Advanced Marketing Automation & Donor Journey Builders\n    *   Wealth Screening & Prospect Research Tools\n    *   Robust Segmentation & Custom Filters\n    *   Integrated Email, SMS, and Direct Mail Capabilities\n    *   Advanced Reporting, Dashboards, and Predictive Analytics\n    *   Grant Management\n    *   Volunteer Management\n    *   Peer-to-Peer Fundraising Tools\n    *   Event Management\n    *   Extensive Integrations (payment processors, accounting, advocacy tools)\n    *   Proposal Management\n    *   AI-powered insights\n*   **Strengths:**\n    *   **Powerful Automation:** Excellent for automating personalized communications and workflows, saving staff",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 766,
+  "estimated_cost_usd": 0.001917,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P006",
+  "prompt_text": "DonorDock vs DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.897863+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When comparing DonorDock and DonorPerfect, you're looking at two robust donor management systems, but with different philosophies, target audiences, and feature sets.\n\nHere's a breakdown to help you decide:\n\n## DonorDock\n\n**Overview:** DonorDock is a newer, modern donor management system built with a strong emphasis on integration with Microsoft 365. It aims to provide a streamlined, user-friendly experience for small to mid-sized nonprofits.\n\n**Key Strengths:**\n\n*   **Modern User Interface (UI):** Generally praised for its clean, intuitive, and easy-to-navigate design. Less of a learning curve than some older systems.\n*   **Microsoft 365 Integration:** This is a major selling point. If your organization heavily uses Outlook, Excel, Word, and other Microsoft 365 apps, DonorDock offers seamless integration, allowing for a more unified workflow.\n*   **Ease of Use:** Designed to be accessible for staff of all tech levels, making adoption smoother.\n*   **Transparent Pricing:** Often more upfront and clear about its pricing structure.\n*   **Focus on Core Functionality:** Provides excellent tools for donor CRM, donation processing, communication, and basic reporting without overwhelming users with overly complex features.\n*   **Automation:** Offers features like automated donor acknowledgments and communication workflows.\n\n**Potential Limitations:**\n\n*   **Less Mature/Comprehensive:** As a newer platform, it may not have the sheer depth of features or the extensive third-party integration marketplace that DonorPerfect has built over decades.\n*   **Scalability (for very large orgs):** While good for small to mid-sized, very large organizations with highly complex fundraising operations might find it less exhaustive than DonorPerfect.\n*   **Fewer Advanced Features:** Might lack some of the highly specialized or niche features that larger, more established systems offer (e.g., highly granular volunteer management, extremely complex grant tracking, very deep peer-to-peer campaign customization).\n\n**Best For:**\n\n*   Small to medium-sized nonprofits.\n*   Organizations that heavily use Microsoft 365 and value seamless integration.\n*   Teams looking for a modern, intuitive, and easy-to-adopt system.\n*   Organizations prioritizing core CRM, communication, and fundraising without excessive complexity.\n*   Those with limited IT resources who appreciate a user-friendly interface.\n\n---\n\n## DonorPerfect\n\n**Overview:** DonorPerfect is one of the most established and widely used donor management systems in the nonprofit sector. It's a comprehensive platform designed to handle a vast array of fundraising and donor relations needs for organizations of all sizes.\n\n**Key Strengths:**\n\n*   ",
+  "donordock_mentioned": true,
+  "donordock_position": 15,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 556,
+  "estimated_cost_usd": 0.001391,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

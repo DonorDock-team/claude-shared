@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898907+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Tracking Soft Credits in Donor CRM\n\nSoft credits recognize individuals who facilitated a donation without being the legal donor. Here's how to track them effectively:\n\n## **Basic Setup**\n\n### 1. **Define Soft Credit Types**\nCommon categories include:\n- Household members (spouse/partner)\n- Board members who solicited the gift\n- Fundraising volunteers\n- Corporate employees (when company gives)\n- Estate executors\n- Event committee members\n- In honor/memory tributes\n\n### 2. **Establish Attribution Rules**\n- **Percentage-based**: Allocate 100% or split credit among multiple people\n- **Full credit**: Give each person full soft credit (most common)\n- **Primary vs. secondary**: Distinguish levels of involvement\n\n## **Implementation in Your CRM**\n\n### **Most CRMs Support:**\n- Creating soft credit relationships on donation records\n- Linking multiple individuals to one gift\n- Designating soft credit type/role\n- Running reports filtered by soft credits\n\n### **Key Fields to Track:**\n- Soft credit recipient name\n- Relationship to hard credit donor\n- Soft credit type/reason\n- Amount attributed\n- Date of gift\n- Campaign/appeal\n\n## **Best Practices**\n\n\u2705 **Be consistent** - Document your soft credit policy  \n\u2705 **Don't double-count** - Clearly separate hard vs. soft credit in reports  \n\u2705 **Track reciprocal credits** - When a spouse gives, credit both  \n\u2705 **Use for recognition** - Include soft credits in lifetime giving calculations for acknowledgment purposes  \n\u2705 **Report separately** - Generate distinct reports for revenue (hard credits) vs. engagement (soft credits)\n\n## **Common Use Cases**\n\n- **Household giving**: Crediting both spouses regardless of whose name is on check\n- **Corporate matching**: Crediting employee who triggered company gift\n- **Solicitor credit**: Tracking which volunteer secured the donation\n\n**What CRM system are you using?** I can provide more specific instructions.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 459,
+  "estimated_cost_usd": 0.006933,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

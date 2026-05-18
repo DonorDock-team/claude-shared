@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P145",
+  "prompt_text": "Best donor CRM for capital campaigns",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.898734+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM (Customer Relationship Management) system for capital campaigns largely depends on the specific needs and scale of your organization, as well as your budget. However, here are a few popular and highly-regarded donor CRMs frequently used for capital campaigns:\n\n1. **Salesforce Nonprofit Success Pack (NPSP)**:\n   - **Pros**: Highly customizable, robust reporting and analytics, strong integration capabilities with other platforms.\n   - **Cons**: Can be complex to set up, may require a dedicated administrator.\n\n2. **Blackbaud Raiser\u2019s Edge NXT**:\n   - **Pros**: Specifically designed for nonprofits, comprehensive donor management features, strong focus on fundraising and campaign management.\n   - **Cons**: Can be pricey, particularly add-ons, and some users report a steep learning curve.\n\n3. **Bloomerang**:\n   - **Pros**: User-friendly interface, excellent donor engagement tools, focuses on donor retention.\n   - **Cons**: Might be less suited for very large organizations with complex needs.\n\n4. **Neon CRM**:\n   - **Pros**: Offers flexibility and wide-ranging integrations, good for medium to large nonprofits, includes event management and email marketing.\n   - **Cons**: Reporting features are strong but can be complex for some users.\n\n5. **DonorPerfect**:\n   - **Pros**: Solid donor management tools, great for organizations of varying sizes, includes event planning and fundraising tools.\n   - **Cons**: Interface could be outdated compared to other CRMs, and can become expensive with additional modules.\n\n6. **Kindful**:\n   - **Pros**: Simplified design, strong integrations with other fundraising tools, easy to use for small to mid-sized nonprofits.\n   - **Cons**: May not have as many advanced features as larger CRMs.\n\nWhen choosing a CRM, consider factors such as your organization\u2019s size, the complexity of your capital campaign, integration needs with other platforms, budget, and the level of customer support required. Most providers offer demos or free trials, which can be a great way to evaluate their systems before making a decision.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 435,
+  "estimated_cost_usd": 0.004383,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

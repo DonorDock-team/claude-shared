@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898544+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Automating Donor Thank You Letters\n\nHere are effective ways to automate your donor appreciation while keeping it personal:\n\n## **Software Solutions**\n\n### CRM & Donor Management Systems\n- **Bloomerang, DonorPerfect, or Little Green Light** - automatically trigger thank you emails/letters based on donation amounts\n- **Mailchimp or Constant Contact** - for email thank yous with merge fields\n- **Salesforce Nonprofit Cloud** - for larger organizations with complex workflows\n\n### Mail Automation\n- **Lob.com or PostGrid** - automatically print and mail physical letters\n- **DocuSign or PandaDoc** - generate personalized PDFs with signatures\n\n## **Best Practices for Automation**\n\n### Keep It Personal\n- Use merge fields for names, donation amounts, and specific campaigns\n- Segment by donor type (first-time, recurring, major gifts)\n- Create different templates for different giving levels\n- Include real signatures (scanned or digital)\n\n### Set Up Triggers\n- **Immediate**: Automated email within 1 hour of donation\n- **24-48 hours**: Personalized letter for donations over threshold amount\n- **Special handling**: Flag major gifts for personal phone calls\n\n### What to Automate vs. Personalize\n\u2705 **Automate**: Tax receipts, initial acknowledgments, recurring donor updates\n\u270d\ufe0f **Personalize**: Major gifts ($1,000+), first-time donors, monthly donors\n\n## **Simple Setup Steps**\n\n1. Choose your donor database software\n2. Create 3-5 letter templates for different scenarios\n3. Set up automated workflows/triggers\n4. Test thoroughly before going live\n5. Review monthly and adjust\n\n**Pro tip**: Even automated letters should feel personal - avoid overly corporate language and include specific impact stories.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 409,
+  "estimated_cost_usd": 0.00618,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

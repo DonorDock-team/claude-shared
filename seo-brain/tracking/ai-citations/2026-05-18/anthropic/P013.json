@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P013",
+  "prompt_text": "DonorDock vs Little Green Light",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898369+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Little Green Light Comparison\n\nBoth are cloud-based donor management systems designed for nonprofits, but they have different strengths:\n\n## **DonorDock**\n\n**Best for:** Small to medium nonprofits wanting modern, user-friendly software\n\n**Strengths:**\n- Modern, intuitive interface\n- Easier learning curve\n- Strong relationship tracking and contact management\n- Good mobile experience\n- Responsive customer support\n- More affordable pricing structure\n- Built-in text messaging\n- Clean, streamlined design\n\n**Limitations:**\n- Fewer advanced features than LGL\n- Less customization options\n- Smaller user community\n- Newer product (less established)\n\n## **Little Green Light**\n\n**Best for:** Nonprofits needing robust reporting and customization\n\n**Strengths:**\n- Highly customizable fields and reports\n- More comprehensive feature set\n- Strong reporting capabilities\n- Extensive integration options\n- Longer track record (established 2001)\n- Good for complex organizational needs\n- Detailed grant tracking\n\n**Limitations:**\n- Steeper learning curve\n- Interface feels more dated\n- Can be overwhelming for smaller organizations\n- More expensive at higher tiers\n\n## **Pricing**\n\n- **DonorDock:** Starts around $99-149/month\n- **Little Green Light:** Starts around $59/month but scales up based on records\n\n## **Bottom Line**\n\nChoose **DonorDock** if you want ease-of-use and modern design.\nChoose **Little Green Light** if you need deep customization and robust reporting.\n\nWhat's your organization's size and primary needs?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 370,
+  "estimated_cost_usd": 0.005598,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

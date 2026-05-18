@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P004",
+  "prompt_text": "DonorDock pricing",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898943+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock offers tiered pricing based primarily on the **number of constituents** in your database, with discounts available for annual billing.\n\nHere's a general overview of their pricing tiers (as of my last update, always check their official website for the most current information):\n\n1.  **Standard Plan:**\n    *   **For:** Up to 1,000 constituents.\n    *   **Cost (approx):** Around **$99/month** (when billed annually) or $129/month (when billed monthly).\n    *   **Includes:** Core CRM features, donation forms, email marketing (up to 2,000 emails/month), reporting, 2 users, basic integrations.\n\n2.  **Professional Plan:**\n    *   **For:** Up to 5,000 constituents.\n    *   **Cost (approx):** Around **$199/month** (when billed annually) or $249/month (when billed monthly).\n    *   **Includes:** Everything in Standard, plus higher email limits (e.g., 5,000 emails/month), 5 users, peer-to-peer fundraising, enhanced integrations.\n\n3.  **Growth Plan:**\n    *   **For:** Up to 15,000 constituents.\n    *   **Cost (approx):** Around **$299/month** (when billed annually) or $379/month (when billed monthly).\n    *   **Includes:** Everything in Professional, plus even higher email limits (e.g., 15,000 emails/month), unlimited users, and potentially more advanced features.\n\n4.  **Enterprise Plan:**\n    *   **For:** Organizations with 15,000+ constituents.\n    *   **Cost:** Custom pricing \u2013 you'll need to contact DonorDock directly for a quote.\n    *   **Includes:** All Growth features, plus customized solutions, dedicated support, and higher volume capabilities.\n\n**Key things to note:**\n\n*   **Constituent Count:** This is the primary driver of the price.\n*   **Annual vs. Monthly Billing:** Annual billing typically offers a significant discount.\n*   **Users & Email Limits:** Higher tiers generally include more users and a larger volume of emails per month.\n*   **Free Demo:** DonorDock typically offers a free demo so you can see the software in action before committing.\n\n**Recommendation:**\nFor the most accurate and up-to-date pricing, always visit the official DonorDock pricing page: [https://www.donordock.com/pricing](https://www.donordock.com/pricing)",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [],
+  "urls_cited": [
+    "https://www.donordock.com/pricing"
+  ],
+  "input_tokens": 3,
+  "output_tokens": 575,
+  "estimated_cost_usd": 0.001438,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

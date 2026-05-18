@@ -1,0 +1,39 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.897850+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Here are strong donor CRMs that handle recurring giving well, plus what makes each one useful depending on your needs.\n\n---\n\n## 1. GivingFuel (donor CRM + giving platform)\n\n**Best for:** Organizations that want tight control over recurring plans and the ability to charge stored payment methods.\n\n**Recurring-giving strengths (from [2]):**\n- Centralizes all recurring donors in one CRM view.\n- Manage intervals, payment methods, amounts, pauses/upgrades, and \u201cauto-fix\u201d failed payments.\n- Automatically updates expired/canceled cards to avoid lapses.\n- Can initiate new gifts using a donor\u2019s stored payment method (no new form needed).\n- Donor self-service: donors can update or cancel their recurring gifts via a Donor Account Center.\n- Recurring donation transfer tools to migrate from other processors without interruption.\n\n**Why consider it:** Very robust recurring features plus donor self-management and strong admin controls.\n\n---\n\n## 2. DonorPerfect\n\n**Best for:** Small\u2013mid-sized nonprofits that want a mature CRM with strong automatic monthly giving tools.\n\n**Recurring-giving strengths (from [3] & [6]):**\n- Automatic Monthly Giving module to:\n  - Automatically process recurring payments at set frequencies.\n  - Automatically update donor records with recurring gift data.\n  - Use a Credit Card Updater to keep card info current.\n- Users who leverage Automatic Monthly Giving report retaining ~90% of recurring donors.\n- Integrates with forms and other tools; good for a broader CRM + recurring giving setup.\n\n**Why consider it:** Proven monthly giving automation and strong retention results within a full-featured CRM.\n\n---\n\n## 3. Donorbox + Donorbox CRM\n\n**Best for:** Nonprofits of all sizes that want easy recurring donation forms plus built-in CRM.\n\n**Recurring-giving strengths (from [6] & [8]):**\n- Donation forms built for recurring gifts (monthly, etc.).\n- Donorbox CRM shows:\n  - Donation history, including new/canceled recurring plans and changes in donation amount.\n  - Full supporter timelines with all interactions.\n- Segmentation and email tools to target recurring donors and trigger communications based on changes (e.g., upgrades, cancellations).\n\n**Why consider it:** Very fast to set up; excellent for orgs that want to grow monthly giving without a heavy tech lift.\n\n---\n\n## 4. DonorDock\n\n**Best for:** Small organizations that want a simple CRM with automated recurring stewardship.\n\n**Recurring-giving strengths (from [1]):**\n- Tracks recurring donations and provides a clear view of each donor\u2019s giving over time.\n- Automates thank-you emails and receipts for recurring gifts.\n- Automated reminders when payment methods are expiring or need updating.\n- Uses CRM data to send personalized updates and content to recurring donors.\n\n**Why consider it:** Focuses on making recurring stewardship and communication easy, with good automation.\n\n---\n\n## 5. Andar/360\n\n**Best for:** Organizations wanting deeper analytics to convert one-time donors into monthly supporters.\n\n**Recurring-giving strengths (from [5]):**\n- Uses CRM data to identify ideal monthly donor prospects (based on patterns and behavior).\n- Supports recurring donations directly, plus:\n  - Customizable donation forms.\n  - Donor portal for self-service management of recurring gifts.\n- Can prefill forms or use personalized links with embedded donor data to reduce friction in sign-up.\n\n**Why consider it:** Strong fit if your strategy is to systematically grow and optimize a monthly giving program using data.\n\n---\n\n## 6. Omatic (integration with Salesforce / Blackbaud)\n\n**Best for:** Orgs already using Salesforce or Blackbaud that need clean recurring data from multiple online systems.\n\n**Recurring-giving strengths (from [4]):**\n- Not a CRM itself, but:\n  - Integrates online and recurring giving data from \u201cany\u201d online system into Salesforce or Blackbaud.\n  - Designed to handle high volume and complexity of recurring-gift data.\n- Useful where multiple fundraising tools feed into a central CRM.\n\n**Why consider it:** If your CRM is Salesforce or Blackbaud and you have multiple donation platforms, Omatic keeps recurring-gift data in sync and reliable.\n\n---\n\n## 7. Other CRMs that support recurring giving\n\nSeveral general nonprofit CRMs (not detailed in your snippets but commonly used) also manage recurring donations:\n\n- **Bloomerang, Neon CRM, Kindful, Bonterra, etc.**: typically offer recurring gift tracking, card updates, and donor segmentation by recurring vs. one-time.\n- **Funraise** ([7]): focuses on recurring giving as part of its fundraising suite, with flexible schedules.\n- Many CRMs highlighted in overviews like [9] and [10] include recurring gift management as a standard donor-management feature.\n\n---\n\n## How to choose the right CRM for recurring giving\n\nUse these filters:\n\n1. **Donor self-service needed?**  \n   - Strong options: GivingFuel, Andar/360, Donorbox (via donor portal/forms).\n\n2. **Automation & card updater priority?**  \n   - Strong options: DonorPerfect, GivingFuel, Donorbox.\n\n3. **You already use Salesforce or Blackbaud and multiple giving tools?**  \n   - Consider adding Omatic for recurring-donation integration.\n\n4. **Budget & simplicity vs. depth:**  \n   - Lower complexity / quick launch: Donorbox, DonorDock.  \n   - More robust / larger programs: DonorPerfect, GivingFuel, Andar/360.\n\n---\n\nIf you share your approximate donor base size, current tools (e.g., Stripe, Salesforce, Excel), and must-haves (e.g., donor portal, card updater, event management), I can recommend 2\u20133 best-fit CRMs and a migration/rollout plan specifically for your situation.",
+  "donordock_mentioned": true,
+  "donordock_position": 2314,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "DonorBox",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1197,
+  "estimated_cost_usd": 0.022976,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/articles/recurring-donations",
+      "https://www.givingfuel.com/features/donormanagement-overview",
+      "https://www.donorperfect.com/factsheets/automatic-monthly-giving/",
+      "https://help.omaticsoftware.com/integration-solutions-by-activity/nonprofit-online-giving",
+      "https://andarsoftware.com/how-to-convert-one-time-donors-into-monthly-supporters/",
+      "https://positiveequation.com/top-tools-to-grow-your-nonprofits-monthly-giving-program/",
+      "https://www.funraise.org/features/recurring-giving",
+      "https://donorbox.org/explore/nonprofit-crm",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.streak.com/post/best-crm-for-nonprofits"
+    ]
+  }
+}

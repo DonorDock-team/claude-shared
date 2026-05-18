@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898824+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for an international NGO is complex, as it depends heavily on the NGO's size, specific operational needs, budget, existing tech stack, and long-term strategy.\n\nHowever, based on the unique requirements of international NGOs (multi-currency, multi-language, global compliance, diverse donor bases, complex program management), a few platforms stand out as leaders due to their robust features, scalability, and flexibility.\n\nHere are the top contenders, along with their pros and cons for international NGOs:\n\n---\n\n### Top Recommendations for International NGOs\n\n1.  **Salesforce Nonprofit Success Pack (NPSP)**\n    *   **Why it's Great for International NGOs:**\n        *   **Unparalleled Customization & Scalability:** Salesforce is incredibly flexible. NPSP provides a pre-configured data model for nonprofits, which can then be tailored extensively to manage diverse international programs, different legal entities, and complex donor relationships across countries.\n        *   **Multi-Currency Support:** Salesforce natively supports multi-currency, which is crucial for international fundraising and financial reporting.\n        *   **Multi-Language Capabilities:** The Salesforce UI can be displayed in many languages, and you can create multi-language communication templates.\n        *   **Vast Ecosystem (AppExchange):** The Salesforce AppExchange offers thousands of apps for everything from advanced reporting, payment processing (integrating with global gateways like Stripe, PayPal, local solutions), marketing automation, compliance (e.g., GDPR tools), and more, allowing you to build a comprehensive solution.\n        *   **Global Presence & Data Centers:** Salesforce has data centers globally, which can be important for data sovereignty and compliance.\n        *   **Robust Reporting & Analytics:** Create detailed reports across all your global operations, fundraising campaigns, and donor segments.\n        *   **Grant Management:** Excellent for tracking grants from international foundations and governments.\n    *   **Potential Cons:**\n        *   **Complexity & Learning Curve:** Salesforce NPSP can be overwhelming to set up and manage without technical expertise. Implementation often requires a",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 428,
+  "estimated_cost_usd": 0.001072,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

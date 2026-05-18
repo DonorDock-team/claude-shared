@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898646+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Donor retention is a critical metric for any nonprofit organization, indicating the percentage of donors who gave a gift in one period and then gave again in a subsequent period. Measuring it helps you understand the health of your donor relationships, the effectiveness of your stewardship efforts, and the long-term sustainability of your funding.\n\nHere's how to measure donor retention, including different types of retention and key considerations:\n\n---\n\n## The Basic Donor Retention Formula\n\nThe most common way to calculate donor retention is:\n\n**Donor Retention Rate = (Number of Retained Donors in Current Period / Number of Donors in Previous Period) x 100**\n\nLet's break down the terms:\n\n1.  **Previous Period (Baseline Period):** This is the period you're comparing against. Most commonly, this is the prior fiscal year (FY) or calendar year (CY). For example, if you're calculating retention for FY 2023, your previous period would be FY 2022.\n2.  **Number of Donors in Previous Period:** This is the total number of *unique* donors who made at least one gift during your chosen previous period.\n3.  **Retained Donors in Current Period:** This is the number of *unique* donors who gave a gift in the *previous period* AND also gave at least one gift in the *current period*.\n\n---\n\n## Step-by-Step Calculation Example\n\nLet's say you want to measure donor retention from Fiscal Year 2022 to Fiscal Year 2023.\n\n**Step 1: Define Your Timeframes**\n*   **Previous Period:** FY 2022 (July 1, 2021 \u2013 June 30, 2022)\n*   **Current Period:** FY 2023 (July 1, 2022 \u2013 June 30, 2023)\n\n**Step 2: Identify Donors from the Previous Period**\n*   Pull a list of all *unique* individuals or organizations who made a donation in FY 2022.\n*   Let's say you had **1,000 unique donors** in FY 2022. (This is your denominator).\n\n**Step 3: Identify Retained Donors in the Current Period**\n*   Now, look at your list of 1,000 donors from FY 2022.\n*   For each of those 1,000 donors, check if they also made *any* donation (of any amount) during FY 2023.\n*   Count how many of them appear on both lists.\n*   Let's say **450 of those 1,000 donors** also made a gift in FY 2023. (This is your numerator).\n\n**Step 4: Apply the Formula**\n*   Donor Retention Rate = (450 / 1,000) x 100\n*   Donor Retention Rate = 0.45 x 100\n*   **Donor Retention Rate = 45%**\n\n---\n\n## Types of Donor Retention to Measure\n\nBeyond the overall rate, it's highly beneficial to segment your retention analysis:\n\n1.  **Overall Donor Retention:** As described above, the general rate for all donors.\n2.  **First-Time Donor Retention:**\n    *   **Formula:** (Number of First-Time Donors from Previous Period who Gave Again in Current Period / Total Number of First-Time Donors in Previous Period) x 100\n    *   **Why it's important:**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 786,
+  "estimated_cost_usd": 0.001966,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P053",
+  "prompt_text": "Best donor CRM for a 10 person fundraising team",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898596+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRM for a 10-Person Fundraising Team\n\nFor a team your size, I'd recommend these top options:\n\n## **Top Pick: Bloomerang**\n- **Best for:** Mid-sized nonprofits focused on donor retention\n- **Price:** ~$125-175/month\n- **Strengths:** Excellent retention tools, engagement scoring, intuitive interface\n- **Why it fits:** Perfect scale for 10 users, strong reporting without overwhelming complexity\n\n## **Runner-Up: Salesforce Nonprofit Cloud**\n- **Best for:** Organizations planning significant growth\n- **Price:** $36/user/month (Nonprofit discount)\n- **Strengths:** Highly customizable, robust ecosystem, scales infinitely\n- **Trade-off:** Steeper learning curve, may need admin support\n\n## **Budget-Friendly: Little Green Light**\n- **Best for:** Cost-conscious teams\n- **Price:** ~$59/month (unlimited users)\n- **Strengths:** Affordable, solid core features, good support\n- **Limitation:** Less sophisticated analytics\n\n## **Also Consider:**\n- **DonorPerfect** - Comprehensive, moderate price point\n- **Neon CRM** - Modern interface, good all-in-one solution\n- **Kindful** (by Bloomerang) - Simpler alternative to Bloomerang\n\n## **Key Questions to Ask Yourself:**\n1. What's your annual fundraising budget? (typically spend 1-3%)\n2. Do you need integrated email marketing and event management?\n3. How important is grant tracking?\n4. Do you prefer cloud-based or need offline access?\n\n**What type of organization are you?** That would help me narrow this down further.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 20,
+  "output_tokens": 397,
+  "estimated_cost_usd": 0.006015,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.898395+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "If you're looking for a CRM similar to Salesforce but specifically tailored for nonprofits, there are several options you might consider:\n\n1. **Salesforce Nonprofit Cloud**: While it is a part of Salesforce, it\u2019s worth mentioning because it's designed specifically for nonprofits. It offers various tools for donor management, fundraising, and community engagement.\n\n2. **Blackbaud CRM**: Blackbaud offers a suite of tools designed for nonprofits, educational institutions, and healthcare organizations. It's known for its robust fundraising and donor management capabilities.\n\n3. **Bloomerang**: This CRM is designed for small to mid-sized nonprofits and focuses on donor retention and engagement. It provides a user-friendly interface and reporting tools that are crucial for fundraising activities.\n\n4. **Neon CRM**: Neon is tailored for nonprofits, offering features for donor management, event planning, and membership management. It's a flexible solution that integrates with various third-party applications.\n\n5. **Kindful**: Known for its simplicity and integration capabilities, Kindful helps nonprofits manage their donor database and fundraising activities efficiently.\n\n6. **DonorPerfect**: This CRM is popular among nonprofits for its donor management and fundraising capabilities, along with a strong focus on reporting and analytics.\n\n7. **Little Green Light**: This is a cost-effective CRM option for small to mid-sized nonprofits, offering tools for donor management, gift tracking, and event management.\n\n8. **Raklet**: This platform offers CRM solutions for nonprofits, with features that include donor management, event registration, and email marketing capabilities.\n\nEach of these CRM systems has unique features and benefits, so it's important to consider your organization's specific needs, budget, and integration requirements when choosing a solution.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 340,
+  "estimated_cost_usd": 0.00344,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

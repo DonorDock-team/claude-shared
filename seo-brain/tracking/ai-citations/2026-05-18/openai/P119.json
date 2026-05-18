@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P119",
+  "prompt_text": "AI to draft donor thank you letters",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.898279+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Certainly! Here\u2019s a draft for a donor thank you letter. This template can be customized to fit the specifics of your organization, the campaign, and the relationship you have with your donor. Make sure to personalize it as much as possible to convey genuine appreciation.\n\n---\n\n[Your Organization's Letterhead]\n[Date]\n\n[Donor's Name]\n[Donor's Address]\n[City, State, Zip Code]\n\nDear [Donor's Name],\n\nI hope this message finds you well. On behalf of [Your Organization\u2019s Name], I want to extend our heartfelt gratitude for your generous contribution of [specific donation amount, if appropriate] to [specific campaign or general fund, if applicable]. Your support is instrumental in driving our mission to [briefly state the mission or goal of your organization].\n\nThanks to your generosity, [mention one or two specific outcomes or programs that the donation will support]. [Provide a brief insight or story illustrating the impact of their contribution.] It is donors like you that empower us to make significant strides toward [organization's broader impact goal or vision].\n\nWe are thrilled to have you as a part of our community and look forward to keeping you updated on our progress. We value your connection to our mission and are eager to share more stories of the positive changes your support helps to create.\n\nPlease don't hesitate to reach out if you have any questions, or would like to get more involved in our work. Our team is always here to assist and engage with supporters like you.\n\nThank you once again for your generosity and commitment to our cause. Together, we are making a difference.\n\nWarm regards,\n\n[Your Name]\n[Your Title]\n[Your Organization\u2019s Name]\n[Contact Information]\n\n---\n\nFeel free to adjust the tone and content based on your organization's culture and the nature of your relationship with the donor.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 365,
+  "estimated_cost_usd": 0.003685,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

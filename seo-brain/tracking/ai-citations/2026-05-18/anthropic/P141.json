@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P141",
+  "prompt_text": "Easy donor database for fundraisers",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898497+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Easy Donor Database Solutions for Fundraisers\n\nHere are the best options organized by organization size and needs:\n\n## **Best All-Around Options**\n\n### **1. Bloomerang** \u2b50 Most Popular\n- **Best for:** Small to mid-sized nonprofits\n- **Price:** Starting ~$125/month\n- **Why it's easy:** Intuitive interface, excellent donor retention tools\n- **Key features:** Email integration, wealth screening, automated thank-yous\n\n### **2. Donorbox**\n- **Best for:** Budget-conscious organizations\n- **Price:** Free + transaction fees (1.5-3%)\n- **Why it's easy:** Minimal learning curve, embedded donation forms\n- **Key features:** Donor management, recurring gifts, event ticketing\n\n### **3. Little Green Light**\n- **Best for:** Very small nonprofits\n- **Price:** Starting $49/month\n- **Why it's easy:** Simple, straightforward design\n- **Key features:** Donation tracking, reporting, email campaigns\n\n## **Free/Low-Cost Options**\n\n### **4. Kindful (by Bloomerang)**\n- Free for up to 1,000 contacts\n- Basic donor management and reporting\n\n### **5. CiviCRM**\n- 100% free (open-source)\n- Requires some technical know-how to set up\n\n### **6. Google Sheets/Excel**\n- Ultimate budget option\n- Templates available online\n- Good for very small operations (<100 donors)\n\n## **What to Look For**\n\n\u2705 Easy donation import/entry  \n\u2705 Basic reporting (who gave, when, how much)  \n\u2705 Email integration  \n\u2705 Receipt generation  \n\u2705 Good customer support  \n\n**What size is your organization?** I can give more specific recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "DonorBox",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 420,
+  "estimated_cost_usd": 0.006342,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P101",
+  "prompt_text": "DonorPerfect total cost of ownership",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.898291+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorPerfect\u2019s **total cost of ownership (TCO)** depends on a few buckets:\n\n### 1) Subscription / license cost\nPublic sources show pricing estimates that vary by plan:\n- **From about $89/month** for entry-level plans\n- Common tiers cited around **$119/month, $159/month, $299/month, $499/month, and up to $799/month** depending on constituent count and features\n\n### 2) One-time implementation costs\nTypical reported ranges:\n- **$500 to $5,000** for setup/implementation\n- Data migration or setup assistance may add **$500 to $2,000**\n\n### 3) Customization and add-ons\n- Custom features or configuration: **$500 to $10,000**\n- Extra modules/integrations can make costs rise quickly\n\n### 4) Training\n- Training is commonly estimated at **$500 to $2,000**\n- Some sources cite **$500 to $1,500 per session**\n\n### 5) Ongoing payment-processing impact\nIf you use donation forms or payment processing, the real TCO can also include:\n- Processing fees\n- Optional donor tipping/cover-cost behavior on third-party platforms\n- Potential savings if donors use **Donor Covers Cost (DCC)** to offset fees\n\n## Practical TCO estimate\nFor a small nonprofit, a rough first-year TCO might be:\n\n- **Low end:** about **$1,500\u2013$4,000**\n- **Mid-range:** about **$5,000\u2013$15,000+**\n- **Higher end:** **$20,000+** if you need major customization, multiple integrations, or a larger-plan subscription\n\n## Bottom line\nDonorPerfect is usually **not just the monthly subscription**. A realistic TCO should include:\n- subscription\n- setup/migration\n- training\n- customization\n- integrations/modules\n- payment processing costs\n\nIf you want, I can turn this into a **1-year or 3-year TCO model** for a small, medium, or large nonprofit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 431,
+  "estimated_cost_usd": 0.011489,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://pricingnow.com/question/donorperfect-cost/",
+      "https://www.itqlick.com/donorperfect/pricing",
+      "https://growjo.com/company/DonorPerfect_Fundraising_Growth_Platform",
+      "https://www.donorperfect.com/fundraising-software/compare-donor-management-systems/givebutter/",
+      "https://www.g2.com/products/donorperfect/pricing",
+      "https://www.donorperfect.com/factsheets/donor-covers-cost-dcc/",
+      "https://www.trustradius.com/products/donorperfect/pricing",
+      "https://www.donorperfect.com/fundraising-software/pricing-guide/",
+      "https://www.donorperfect.com/video/donorperfects-new-pricing/"
+    ]
+  }
+}

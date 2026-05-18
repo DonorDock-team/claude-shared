@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.898015+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Implementing a donor CRM (Customer Relationship Management) system with text messaging capabilities can significantly enhance your organization's ability to communicate with donors, streamline fundraising efforts, and improve overall engagement. Here\u2019s a guide on how to set up such a system:\n\n### Steps to Implement a Donor CRM with Text Messaging:\n\n1. **Assess Your Needs:**\n   - Determine the specific needs of your organization. Consider the scale of your operations, the number of donors, and the type of interactions you wish to support.\n   - Identify the key features you require, such as donor tracking, segmentation, automated messaging, and reporting.\n\n2. **Choose the Right CRM Platform:**\n   - Select a CRM that offers robust donor management capabilities. Popular CRM platforms for nonprofits include Salesforce Nonprofit Cloud, Bloomerang, NeonCRM, and Little Green Light.\n   - Ensure the CRM has, or can integrate with, text messaging capabilities. Some platforms have built-in SMS features, while others might require third-party integrations.\n\n3. **Integrate Text Messaging:**\n   - If the CRM doesn\u2019t have built-in text messaging, consider integrating a service like Twilio, TextMagic, or ClickSend.\n   - Ensure the integration allows for two-way communication, automated campaigns, and personalization.\n\n4. **Data Migration and Setup:**\n   - Migrate existing donor data into the new CRM. This often involves cleaning up data for accuracy and ensuring compatibility.\n   - Set up donor profiles, including contact information, donation history, and communication preferences.\n\n5. **Segmentation and Personalization:**\n   - Segment your donor database to tailor messages effectively. Segmentation can be based on donation history, engagement level, interests, and demographics.\n   - Personalize text messages to enhance donor engagement and relationship management.\n\n6. **Create Automated Campaigns:**\n   - Set up automated text messaging campaigns. These can include donation thank you messages, event invitations, campaign updates, and reminders.\n   - Define triggers for sending messages, such as a donation being made or a birthday.\n\n7. **Compliance and Permissions:**\n   - Ensure compliance with regulations like GDPR (General Data Protection Regulation) or TCPA (Telephone Consumer Protection Act) in the countries where you operate.\n   - Obtain explicit consent from donors before sending them text messages.\n\n8. **Training and Support:**\n   - Train your staff on how to use the CRM effectively. This includes data entry, messaging, and interpreting analytics.\n   - Establish a support system for troubleshooting and ongoing training.\n\n9. **Monitor and Optimize:**\n   - Use analytics tools within the CRM to monitor the effectiveness of your text messaging campaigns.\n   - Analyze open rates, response rates, and engagement to refine your strategies.\n\n10. **Feedback and Improvement:**\n    - Gather feedback from donors regarding your communication approach.\n    - Continually improve your processes based on feedback and the latest technology advances.\n\n### Tips for Successful Implementation:\n- **Engagement:** Keep your messages concise and to the point. Overly frequent or lengthy texts can lead to disengagement.\n- **Value:** Provide value in your messages, whether through information, calls to action, or gratitude.\n- **Testing:** Regularly test your campaigns to see what type of messaging resonates best with your donors.\n- **Integration:** Ensure seamless integration between your CRM and other platforms you may use, like email marketing or payment processing tools. \n\nBy following these steps and tips, you can effectively set up a donor CRM system with text messaging capabilities, enhancing your organization's donor relationships and fundraising success.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 711,
+  "estimated_cost_usd": 0.007143,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

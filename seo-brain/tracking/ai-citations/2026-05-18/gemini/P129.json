@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P129",
+  "prompt_text": "Bloomerang limitations",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898892+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a popular and generally well-regarded CRM for nonprofits, especially known for its focus on donor retention and user-friendliness. However, like any software, it has limitations, particularly when compared to more complex or specialized systems. These limitations often depend on the size, complexity, and specific needs of the nonprofit.\n\nHere are some common Bloomerang limitations:\n\n1.  **Limited Scope Beyond Core Fundraising & Donor Management:**\n    *   **Membership Management:** While you can track members as constituents, Bloomerang isn't a dedicated Association Management System (AMS). It lacks robust features for automated renewals, member portals, tiered benefits management, or complex membership hierarchies found in specialized AMS platforms.\n    *   **Volunteer Management:** Basic tracking of volunteer activities is possible, but it doesn't offer advanced volunteer scheduling, shift management, skills matching, or dedicated volunteer portals.\n    *   **Event Management:** Bloomerang's event tools are fairly basic. For complex events requiring advanced ticketing, seating charts, multi-track registration, or detailed sponsor management, you'll likely need to integrate with a dedicated event platform (e.g., Eventbrite, Blackbaud Luminate Online Events).\n    *   **Grant Management:** While you can track grant applications and awards as opportunities, it's not a full-fledged grant management system with robust features for complex proposal tracking, grant calendars with specific compliance requirements, or detailed reporting for foundations.\n    *   **Website/CMS Functionality:** Bloomerang is not a content management system (CMS) or website builder. It focuses on donor data and communication.\n\n2.  **Customization and Flexibility:**\n    *   **Less Extensive Customization:** Compared to highly configurable enterprise CRMs like Salesforce, Bloomerang offers fewer options for deep customization of the user interface, complex workflow automation beyond basic email triggers, or creating entirely new custom objects. While you can add custom fields, reshaping the core functionality is limited.\n    *   **Report Builder Flexibility:** While Bloomerang has excellent built-in reports for donor retention and engagement, the custom report builder can sometimes feel less flexible or powerful for highly specific, multi-dimensional analysis or complex cross-module reporting compared to some other platforms.\n\n3.  **Integrations:**\n    *   **Fewer Native Integrations:** While Bloomerang offers essential integrations (e.g., QuickBooks, Mailchimp, various payment processors), the ecosystem of native, out-of-the-box integrations is smaller than some competitors. For niche tools or advanced connections, you might rely more heavily on third-party connectors like Zapier, which can add cost and complexity.\n\n4.  **Advanced Fundraising Capabilities:**\n    *   **Peer-to",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 3,
+  "output_tokens": 560,
+  "estimated_cost_usd": 0.001401,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

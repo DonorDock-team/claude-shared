@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P052",
+  "prompt_text": "Best CRM for a new development director",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898543+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best CRM Options for a New Development Director\n\nHere are the top choices based on nonprofit fundraising needs:\n\n## **Top Recommendations**\n\n### **1. Bloomerang** \u2b50 Best Overall\n- **Why:** Built specifically for donor retention\n- Intuitive interface, minimal learning curve\n- Strong engagement scoring and donor insights\n- Price: ~$125-150/month\n- Ideal if you're building relationships from scratch\n\n### **2. Salesforce Nonprofit Cloud**\n- **Why:** Most powerful and scalable\n- Free for up to 10 users (Power of Us program)\n- Steep learning curve but extensive capabilities\n- Best if you have/can get technical support\n\n### **3. Little Green Light**\n- **Why:** Budget-friendly, nonprofit-specific\n- Simple donor management and reporting\n- Price: ~$39-59/month\n- Good for smaller shops with basic needs\n\n### **4. DonorPerfect**\n- **Why:** Comprehensive mid-market solution\n- Strong reporting and integration options\n- Price: ~$89+/month\n- Good balance of features and usability\n\n## **Key Considerations**\n- **Budget**: What can you realistically afford?\n- **Database size**: How many contacts?\n- **Tech support**: Do you have IT help?\n- **Integration needs**: Email marketing, accounting software?\n\n**My recommendation:** Start with **Bloomerang** if budget allows - it's designed for exactly your situation and won't overwhelm you while you're learning the development role.\n\nWhat's your organization's size and budget range?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 357,
+  "estimated_cost_usd": 0.0054,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

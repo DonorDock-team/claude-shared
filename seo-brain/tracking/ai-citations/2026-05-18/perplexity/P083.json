@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P083",
+  "prompt_text": "Best donor CRM for museums",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.898290+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For museums, \u201cbest\u201d depends on size, budget, and whether you need ticketing/membership tightly integrated with fundraising. Here\u2019s a concise breakdown based on your query and the sources you surfaced:\n\n### 1. Museum\u2011specific, all\u2011in\u2011one CRMs\n\n**Tessitura**  \n- Best for: Mid\u2011to\u2011large museums and cultural institutions with significant ticketing, memberships, and philanthropic programs.  \n- Strengths (per Urban Insight [3]):  \n  - Deep arts/culture focus (ticketing, memberships, fundraising, marketing in one ecosystem).  \n  - Strong integrations with visitor services and box office.  \n- Consider if: You\u2019re a bigger institution with complex needs and have the budget and staff capacity to manage an enterprise system.\n\n**Spektrix** [6]  \n- Best for: Small\u2011to\u2011mid\u2011sized museums and attractions with ticketing plus fundraising/marketing needs.  \n- Strengths:  \n  - Combines ticketing, marketing, and fundraising in one CRM designed for visitor attractions.  \n  - Good for organizations wanting a single source of truth for visitors, members, and donors.  \n- Consider if: You want a modern, cloud\u2011based system tightly coupling ticketing and CRM but Tessitura feels too heavy or costly.\n\n### 2. Nonprofit CRMs that work well for museums\n\n**Neon CRM (Neon One)** [2]  \n- Best for: Membership\u2011based organizations, associations, museums, and arts groups.  \n- Strengths:  \n  - Strong membership tools, online giving, email marketing, basic automation.  \n  - Nonprofit\u2011focused; often easier and cheaper to implement than enterprise arts CRMs.  \n- Consider if: You\u2019re a small\u2011to\u2011mid\u2011sized museum focused on memberships and donations more than advanced ticketing.\n\n**Salsa Labs** [4]  \n- Best for: Museums focused heavily on fundraising campaigns and advocacy.  \n- Strengths:  \n  - Fundraising, events, online giving, and advocacy tools.  \n  - Membership management is supported, but less museum\u2011specific than Tessitura/Spektrix.  \n- Consider if: Your museum runs many campaigns and events and wants robust digital fundraising tools.\n\n**Salesforce Nonprofit Cloud (+ museum\u2011specific add\u2011ons)** [5]  \n- Best for: Institutions that want maximum flexibility and are prepared to invest in configuration.  \n- Strengths:  \n  - Very customizable; can handle donors, programs, volunteers, education programs, etc.  \n  - Large ecosystem; some consultancies offer museum\u2011specific packages.  \n- Consider if: You have IT/consultant support and want a long\u2011term, extensible platform.\n\n### 3. Lean donor\u2011focused CRMs (if you don\u2019t need integrated ticketing)\n\nIf you\u2019re a smaller museum or don\u2019t sell tickets through your CRM, these can be enough:\n\n- **DonorDock** [2,7] \u2013 Simple, nonprofit\u2011specific donor CRM with online giving and email.  \n- **DonorPerfect** [7] \u2013 Established donor management CRM with good reporting and integrations.  \n- **DonorView** [1] \u2013 Praised in one mid\u2011sized cultural\u2011heritage context for donor tracking and cost.\n\nThese are usually easier to adopt and cheaper but won\u2019t manage ticketing/visitation data natively.\n\n---\n\n### How to choose for your museum (quick framework)\n\n1. **Do you need integrated ticketing + membership + donations?**  \n   - Yes, and you\u2019re medium/large: **Tessitura** or **Spektrix**.  \n   - Yes, but simpler needs: **Spektrix**, **Neon CRM** (if ticketing is separate but membership is key).\n\n2. **Are you primarily focused on memberships and fundraising (ticketing separate)?**  \n   - Small\u2013mid: **Neon CRM**, **DonorPerfect**, or **DonorDock**.\n\n3. **Do you have IT capacity and budget for customization?**  \n   - If yes and you want high flexibility: **Salesforce Nonprofit Cloud** with museum\u2011specific consulting.\n\nIf you can share your museum\u2019s size (annual visitors, staff, budget), current ticketing system, and membership volume, I can narrow this down to 1\u20132 best\u2011fit options and suggest a short evaluation checklist.",
+  "donordock_mentioned": true,
+  "donordock_position": 2631,
+  "competitors_mentioned": [
+    "DonorPerfect",
+    "Neon CRM",
+    "Neon One",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 906,
+  "estimated_cost_usd": 0.018608,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://community.aam-us.org/discussion/whats-the-perfect-crm-for-a-mid-sized-cultural-heritage-organization",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://www.urbaninsight.com/article/best-crm-for-museums",
+      "https://doublethedonation.com/top-museum-software/",
+      "https://nonprofittechshop.com/museumhub-blog/why-settle-for-a-crm-that-doesnt-know-museums",
+      "https://www.spektrix.com/en-us/clients/crm-for-museums-attractions",
+      "https://www.galaxydigital.com/blog/best-donor-management-software-options-for-nonprofits"
+    ]
+  }
+}

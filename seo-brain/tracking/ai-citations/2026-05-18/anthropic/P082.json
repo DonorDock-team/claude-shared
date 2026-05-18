@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898063+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Hospitals\n\nHere are the top CRM solutions specifically suited for hospital fundraising:\n\n## **Top Recommendations**\n\n### **1. Blackbaud Raiser's Edge NXT**\n- **Best for:** Large hospital systems\n- Industry standard in healthcare philanthropy\n- Robust wealth screening and prospect research\n- Strong reporting for complex healthcare campaigns\n- Integration with healthcare data systems\n- Higher cost but comprehensive features\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Mid-to-large hospitals wanting customization\n- Highly customizable for hospital-specific needs\n- Excellent integration capabilities with EHR systems\n- Strong analytics and AI features (Einstein)\n- Scalable as your program grows\n- Requires more technical setup\n\n### **3. Bloomerang**\n- **Best for:** Small-to-mid-sized hospital foundations\n- User-friendly interface\n- Strong donor retention focus\n- Good reporting at lower price point\n- Excellent customer support\n- May lack some advanced healthcare features\n\n### **4. DonorPerfect**\n- **Best for:** Budget-conscious hospital foundations\n- Solid core fundraising features\n- Good grateful patient program management\n- Reasonable pricing\n- Integrates with many third-party tools\n\n## **Key Features Hospitals Need**\n- \u2713 Grateful patient tracking\n- \u2713 HIPAA compliance considerations\n- \u2713 Major gift pipeline management\n- \u2713 Planned giving tools\n- \u2713 Event management (galas, grateful patient events)\n- \u2713 Grant tracking\n- \u2713 Integration with wealth screening tools\n\n**What size is your hospital foundation?** This will help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 392,
+  "estimated_cost_usd": 0.005919,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

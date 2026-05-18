@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.898010+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When comparing DonorDock and Givebutter, it's important to consider the specific needs of your organization as both platforms offer distinct features tailored for different purposes in fundraising and donor management.\n\n### DonorDock\n**Overview:**\nDonorDock is primarily a donor management system (DMS), designed to help nonprofits manage relationships with their donors. It focuses on CRM capabilities, simplifying the process of tracking donor interactions, donations, and other related activities.\n\n**Key Features:**\n- **Donor Management:** It offers tools for tracking donor history, managing donor relationships, and segmenting donors for targeted communication.\n- **Contact Relationship Management (CRM):** Helps store and organize donor information efficiently.\n- **Fundraising Tools:** Supports various fundraising activities and integrates with third-party applications.\n- **Reporting and Analytics:** Provides reports on donor activity and campaign performance to help analyze and improve fundraising strategies.\n- **Email Marketing:** Includes features for email communication, allowing nonprofits to nurture relationships with their supporters.\n- **Task Management:** Tools to assign and track tasks related to donor engagement and fundraising projects.\n\n**Ideal For:**\n- Organizations seeking a strong CRM-focused solution to manage donor relationships and maintain an organized database of donor interactions.\n- Nonprofits that need tools to create personalized donor experiences through targeted communication strategies.\n\n### Givebutter\n**Overview:**\nGivebutter is known for its comprehensive fundraising platform, specifically focusing on facilitating online fundraising events and campaigns. It combines elements of crowdfunding, peer-to-peer fundraising, and event ticketing in one platform.\n\n**Key Features:**\n- **Fundraising Campaigns:** Supports a variety of fundraising formats including auctions, events, and peer-to-peer fundraising.\n- **Donation Forms and Pages:** Provides customizable forms for collecting donations with easy integration into websites.\n- **Ticketing:** Offers event management features that include ticket sales and registration for fundraising events.\n- **Payment Processing:** Robust payment solutions that support multiple payment methods.\n- **Social Sharing:** Designed for shareability, increasing outreach with social media integration.\n- **Donor Engagement:** Encourages donor support with features like supporter feeds and donation updates.\n\n**Ideal For:**\n- Nonprofits focusing on online fundraising, especially organizations that regularly host events or want to leverage peer-to-peer networks.\n- Organizations looking for a user-friendly platform capable of integrating fun, engaging elements into fundraising campaigns.\n\n### Conclusion:\nYour choice between DonorDock and Givebutter largely depends on organizational goals. If tracking donor interactions and maintaining a comprehensive donor database are key priorities, DonorDock may be the best choice. On the other hand, if your organization places a higher emphasis on raising funds through online campaigns and events, Givebutter might be more suitable.\n\nIt's advised to take advantage of trial periods or demos, if available, to explore the functionalities and see which aligns best with your needs.",
+  "donordock_mentioned": true,
+  "donordock_position": 15,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 568,
+  "estimated_cost_usd": 0.005715,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

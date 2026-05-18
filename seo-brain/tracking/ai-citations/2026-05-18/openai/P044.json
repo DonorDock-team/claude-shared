@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P044",
+  "prompt_text": "Best donor CRM for food banks",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.897954+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the best donor CRM for food banks involves considering the specific needs and goals of the organization, such as managing donor relationships, fundraising, volunteer coordination, and tracking donations. Here are some popular CRM systems that are well-suited for nonprofits, including food banks:\n\n1. **Salesforce Nonprofit Cloud**: Salesforce offers a Nonprofit Success Pack (NPSP) that is highly customizable and can be adapted to fit the needs of a food bank. It provides tools for donor management, fundraising, volunteer management, and reporting.\n\n2. **Bloomerang**: Designed specifically for nonprofits, Bloomerang focuses on donor engagement and offers features like donor retention insights, communication tracking, and fundraising management.\n\n3. **DonorPerfect**: This CRM offers comprehensive fundraising features, including donor management, gift processing, and event planning. It also provides robust reporting tools.\n\n4. **NeonCRM**: NeonCRM supports donor relationships, fundraising campaigns, event management, and communications. It is user-friendly and scalable, which is great for growing nonprofits.\n\n5. **Raiser's Edge NXT**: Part of the Blackbaud suite, Raiser's Edge NXT is a powerful tool for larger food banks with advanced needs. It offers features for donor relationship management, fundraising, and analytics.\n\n6. **Kindful**: Offering integration with many third-party applications, Kindful provides donor management tools, fundraising solutions, and easy-to-use interface that supports small to medium-size nonprofits.\n\n7. **Little Green Light**: A flexible CRM that offers donor management, online giving, and event tracking. It is particularly appreciated for its cost-effectiveness and ease of use.\n\n8. **CauseVox**: A more straightforward solution for direct online fundraising and donor engagement, suitable for smaller organizations or specific campaigns.\n\nWhen selecting a CRM, consider factors like budget, ease of use, scalability, integration with existing tools, and the specific functionalities that matter most to your food bank. It\u2019s also beneficial to explore demos or free trials to get a hands-on feel for the CRM before making a final decision.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 420,
+  "estimated_cost_usd": 0.004233,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

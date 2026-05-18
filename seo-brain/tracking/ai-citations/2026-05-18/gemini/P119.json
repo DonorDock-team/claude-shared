@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P119",
+  "prompt_text": "AI to draft donor thank you letters",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898309+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Yes, AI can be a highly effective tool for drafting donor thank you letters, especially for organizations dealing with a high volume of donations. However, it's crucial to use AI as an *assistant* to streamline the process, not as a replacement for genuine human touch and review.\n\nHere's how to leverage AI for drafting donor thank you letters, along with best practices and important considerations:\n\n---\n\n## How AI Can Help Draft Donor Thank You Letters\n\n### 1. **Benefits of Using AI:**\n\n*   **Efficiency & Speed:** Generate drafts quickly, freeing up staff time for other tasks.\n*   **Consistency:** Ensure a consistent tone, brand voice, and messaging across all thank you letters.\n*   **Customization at Scale:** With the right input, AI can personalize letters beyond just the donor's name, adapting to donation amount, type, and specific impact area.\n*   **Overcoming Writer's Block:** AI can provide a strong starting point when you're struggling to find the right words.\n*   **Multilingual Support:** Generate letters in multiple languages if your donor base is international.\n\n### 2. **Key Information to Provide the AI (Your Prompt Engineering):**\n\nThe quality of the AI's output directly depends on the quality of your input. Be as specific as possible!\n\n**Essential Details:**\n\n*   **Organization Name:**\n*   **Organization Mission/Vision:** (A brief sentence or two)\n*   **Donor Name:**\n*   **Donation Amount:** (e.g., $100, $5,000, \"in-kind donation of 10 laptops\")\n*   **Date of Donation:**\n*   **Specific Project/Impact Area:** (e.g., \"supporting our youth literacy program,\" \"providing emergency relief to disaster victims,\" \"funding our annual scholarship for STEM students\")\n*   **Desired Tone:** (e.g., warm, grateful, professional, inspiring, urgent, heartfelt)\n*   **Key Message to Convey:** (e.g., \"every dollar makes a difference,\" \"you are part of our community,\" \"your support directly impacts X lives\")\n*   **Call to Action (Optional):** (e.g., \"visit our website to learn more,\" \"follow us on social media,\" \"join us for our upcoming event\")\n*   **Contact Person/Sign-off Name & Title:** (e.g., \"Sarah Chen, Executive Director\")\n*   **Tax-Deductible Information:** (e.g., \"This donation is 100% tax-deductible to the extent allowed by law.\")\n*   **Next Steps for Donor:** (e.g., \"A formal tax receipt will be mailed to you shortly.\")\n\n**Optional/Advanced Details:**\n\n*   **Donor's Giving History (if known):** (e.g., \"first-time donor,\" \"long-time supporter,\" \"increased their giving this year\")\n*   **Specific Donor Relationship (if applicable):** (e.g., \"corporate partner,\" \"event sponsor,\" \"volunteer\")\n*   **Keywords/Phrases to Include or Avoid:** (e.g., \"include 'community resilience',\" \"avoid jargon like 'synergistic'\")\n*   **Length:** (e.g., \"Keep it concise, under 200 words,\" \"write a detailed letter, approx. 300 words\")\n\n### 3. **Steps to Draft Donor Thank You Letters with AI:**\n\n1.  **Gather Donor Data:** Ensure you have all the necessary information for each donor (name, amount, project, etc.) from your CRM or donor management system.\n2.  **Choose Your AI Tool:** Use a large language model like ChatGPT, Claude, Google Gemini, or similar.\n3.  **Craft Your Prompt:** Combine the information from step 2 into a clear, concise prompt.\n    *   *Example Prompt below*\n4.  **Generate Drafts:** Input your prompt into the AI",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 850,
+  "estimated_cost_usd": 0.002127,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P101",
+  "prompt_text": "DonorPerfect total cost of ownership",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898307+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Understanding the Total Cost of Ownership (TCO) for DonorPerfect involves much more than just the monthly subscription fee. It encompasses all direct and indirect costs associated with acquiring, implementing, maintaining, and utilizing the software over its lifespan.\n\nHere's a breakdown of the typical TCO components for DonorPerfect:\n\n**I. Direct Costs (Usually easier to quantify)**\n\n1.  **Software Subscription Fees:**\n    *   **Base Package:** DonorPerfect's pricing is typically tiered based on the number of constituents in your database, the features included (e.g., Starter, Professional, Enterprise levels), and the number of users. This is your primary recurring cost.\n    *   **Add-Ons & Modules:** Many powerful features are often available as separate add-ons or included only in higher tiers:\n        *   Online Forms/Giving Pages (often a separate tier or module)\n        *   Payment Processing (DPMerchant Services or integrating with third parties)\n        *   Text-to-Give\n        *   Peer-to-Peer Fundraising\n        *   DonorPerfect Mobile App (often included in higher tiers)\n        *   Wealth Screening Integration (e.g., with WealthEngine, iWave)\n        *   Constant Contact/Mailchimp Integration (some basic integration is usually there, but advanced features might be extra)\n        *   Advanced Reporting/Dashboards\n        *   Data Sync/API Access for other integrations\n\n2.  **Implementation and Setup Costs:**\n    *   **Data Migration:** If you're moving from another system or spreadsheets, there will be costs associated with migrating your existing donor data. This can include professional services from DonorPerfect, a third-party consultant, or significant internal staff time. Complexity and data cleanliness are key drivers here.\n    *   **System Configuration:** Setting up custom fields, user roles, security settings, online forms, branding, and basic integrations.\n    *   **Onboarding/Training:** Initial training sessions for staff (webinars, in-person, or self-paced courses). DonorPerfect often includes some training, but extensive or customized training may be an additional cost.\n\n3.  **Payment Processing Fees:**\n    *   This is a critical, often underestimated cost for any fundraising software.\n    *   **Transaction Fees:** A percentage of each donation received, plus often a small per-transaction fee. These vary based on your processor (DPMerchant Services, Stripe, PayPal, Authorize.net, etc.) and your organization's volume.\n    *   **PCI Compliance Fees:** Some processors might have small monthly or annual fees related to maintaining Payment Card Industry (PCI) compliance.\n\n4.  **Third-Party Integrations & Software:**\n    *   **Accounting Software:** Fees for connectors or custom development to integrate with QuickBooks, Sage Intacct, etc.\n    *   **Email Marketing:** While DonorPerfect often integrates with services like Constant Contact, you still pay for your Constant Contact subscription.\n    *   **Event Management:** If you use a separate tool for events, integrating it can incur costs.\n    *   **Prospect Research/Wealth Screening:** Subscription fees for services like WealthEngine, iWave, or ResearchPoint.\n\n5.  **Consulting Fees:**\n    *   If your needs are complex, you might hire independent consultants for",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 698,
+  "estimated_cost_usd": 0.001747,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

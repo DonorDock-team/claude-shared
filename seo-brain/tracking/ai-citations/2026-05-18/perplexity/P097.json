@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P097",
+  "prompt_text": "Hidden costs of Network for Good",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.897916+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Network for Good\u2019s **headline price may not be the full cost**. Based on the search results, the main hidden or easy-to-miss costs are:\n\n- **Monthly subscription fees**: reported ranges include **$100\u2013$400/month**, with some sources citing plans starting around **$200/month** or **$300/month**.\n- **Transaction fees on donations**: often reported as **3%** or **2.9% + $0.30 per transaction**.\n- **Higher-tier plan requirements**: some features may only be available on more expensive tiers, which can push costs up quickly.\n- **Add-on costs**:\n  - **Personal coaching**: one source mentions **$250/month**\n  - **Event ticket fees**: one source mentions **$1 per ticket after 50 tickets**\n- **Hidden fees / unclear pricing**:\n  - Pricing is often **not publicly transparent** and may require a demo or sales call.\n  - Some users/reviews mention **unexpected fees after signing up** or contract-related surprises.\n- **Contract and renewal costs**:\n  - Some sources mention **annual billing**, **contracts**, or even **36-month renewal terms** depending on the plan.\n- **Integration / migration costs**:\n  - If you need Salesforce or other integrations, there may be extra fees.\n  - Moving data in or out of the platform can create additional labor or switching costs.\n- **Feature gaps requiring another tool**:\n  - One source says there is **no grant management**, so nonprofits may need a separate system for reporting/compliance/fund tracking.\n\n### In plain terms\nThe biggest hidden cost is usually the combination of:\n**subscription fee + payment processing fee + add-ons + contract/integration overhead**.\n\nIf you want, I can turn this into a **simple cost breakdown table** or a **\u201cwhat to ask sales before signing\u201d checklist**.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 384,
+  "estimated_cost_usd": 0.010781,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.zeffy.com/compare/zeffy-vs-network-for-good",
+      "https://betterworld.org/fundraising-guides/network-for-good-alternatives/",
+      "https://www.donordock.com/compare/network-for-good-vs-donordock",
+      "https://grantpipe.com/compare/pricing/network-for-good/",
+      "https://www.donately.com/compare/network-for-good-vs-donately",
+      "https://www.zeffy.com/compare/network-for-good-vs-wonderful",
+      "https://www.givelively.org/blog/how-much-do-nonprofit-fundraising-platforms-actually-cost",
+      "https://sandbox.networkforgood.org/npo/about/press/fact_sheet.aspx",
+      "https://www.capterra.com/p/111128/Bonterra-Guided-Fundraising/"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P116",
+  "prompt_text": "Best AI tool for nonprofit donor outreach",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.897976+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Here\u2019s a concise, practical answer based on current tools and how they\u2019re used in nonprofits:\n\n## No single \u201cbest\u201d tool for everyone  \nThe best AI tool for donor outreach depends on:\n- Your **primary goal** (more gifts, better segmentation, or faster content creation)\n- Your **database/CRM** (Bloomerang, Virtuous, Salesforce NPSP, etc.)\n- Your **size and budget** (small shop vs. large development team)\n\nBelow are leading options, what they\u2019re best at, and when to pick each.\n\n---\n\n## Top AI tools for nonprofit donor outreach\n\n### 1. DonorSearch Ai  \n**Best for:** Identifying who to contact and how to prioritize outreach.\n\n- Uses **predictive modeling** on wealth, philanthropy, and engagement data to:\n  - Score donors by likelihood to give or upgrade\n  - Flag **major gift prospects** already in your database\n  - Inform **pipeline creation** and moves management\n- Strong fit if you:\n  - Do mid/major gifts or capital campaigns\n  - Have a decent number of donors but limited staff time\n- Often integrates with CRMs and other fundraising platforms.\n\n**Use it when:** Your problem is \u201cWe don\u2019t know who to call first\u201d more than \u201cWe don\u2019t know what to say.\u201d\n\n---\n\n### 2. Bloomerang AI Content Assistant  \n**Best for:** Writing highly donor-centric emails and appeals quickly\u2014especially for Bloomerang users.\n\n- Built into **Bloomerang** (a popular nonprofit CRM).\n- Helps:\n  - Draft **personalized donor emails, appeals, acknowledgments**\n  - Adjust tone (warmer, more formal, more concise)\n  - Save time for small teams doing a lot of one-to-one outreach\n- Designed specifically for nonprofit communications and fundraising.\n\n**Use it when:** You already use Bloomerang (or are open to it) and want faster, better donor communications without adding another standalone tool.\n\n---\n\n### 3. Virtuous Momentum & Virtuous Insights  \n**Best for:** Automated, personalized journeys at scale.\n\n- Part of the **Virtuous** fundraising platform.\n- Uses AI to:\n  - Suggest the **next best action** with each donor\n  - Automate sequences (emails, tasks, touches) based on behavior\n  - Provide analytics on which outreach is working\n- Strong if you:\n  - Want **journey orchestration** (welcome sequences, lapsed reactivation, upgrade paths)\n  - Already use or are considering Virtuous as your CRM.\n\n**Use it when:** You want full lifecycle automation and personalization within a modern CRM.\n\n---\n\n### 4. Dataro  \n**Best for:** Data-driven campaign targeting and retention.\n\n- Focuses on **fundraising intelligence** and ranked donor actions:\n  - Who\u2019s likely to respond to a mailing, email, or phone call\n  - Who is at risk of lapsing\n  - Which donors to ask for recurring, upgrade, or reactivation\n- Integrates with multiple CRMs and channels.\n\n**Use it when:** You run regular campaigns and want AI to optimize **who gets what** to improve ROI and reduce list fatigue.\n\n---\n\n### 5. Donorbox + Jay\u00b7AI  \n**Best for:** Smaller orgs using Donorbox for online giving who want smart insights and copy help.\n\n- Donorbox handles donation pages and recurring gifts.\n- **Jay\u00b7AI** layer can:\n  - Provide **AI-driven insights** about donor behavior\n  - Help draft campaign messaging and appeals\n  - Suggest ways to boost conversions and repeat giving\n\n**Use it when:** You already rely on Donorbox for donations and want lighter-weight AI for insights + messaging without a full data science stack.\n\n---\n\n### 6. Chorus (Campaign-focused AI)  \n**Best for:** Multichannel fundraising campaign content and optimization.\n\n- AI-powered fundraising software that:\n  - Identifies which messages drive donations\n  - Generates content (email, social, ad copy, etc.)\n  - Tracks performance across channels\n- Good for digital-heavy strategies and testing.\n\n**Use it when:** You run a lot of **digital campaigns** and want AI to help with content creation and performance optimization across email/social/ads.\n\n---\n\n## If you want one recommendation by scenario\n\n- **Small to mid-size nonprofit, overwhelmed by content:**  \n  - Already on Bloomerang \u2192 **Bloomerang AI Content Assistant**  \n  - Not tied to a CRM \u2192 consider **Donorbox + Jay\u00b7AI** (for giving + AI help) or a general tool like ChatGPT plus a basic CRM.\n\n- **Mid to large nonprofit with many donors, limited gift officers:**  \n  - Need to find best prospects \u2192 **DonorSearch Ai** or **Dataro**  \n  - Want journeys and automation \u2192 **Virtuous with Momentum/Insights**\n\n- **Digital fundraising & marketing-heavy orgs:**  \n  - Focus on multichannel campaigns \u2192 **Chorus** + an AI prospecting tool like **DonorSearch Ai** or **Dataro**.\n\n---\n\n## How to choose quickly (3 questions)\n\n1. **What\u2019s your biggest pain?**\n   - \u201cToo many donors, not sure who to prioritize\u201d \u2192 Predictive tools (**DonorSearch Ai**, **Dataro**)\n   - \u201cToo many messages to write\u201d \u2192 Content tools (**Bloomerang AI**, **Chorus**, Jay\u00b7AI)\n   - \u201cNeed integrated system for journeys\u201d \u2192 AI-enabled CRMs (**Virtuous**, **Bloomerang** with AI)\n\n2. **What CRM or donation platform do you use now?**\n   - Stick with tools that integrate natively; that usually wins over a slightly \u201cbetter\u201d tool that doesn\u2019t connect.\n\n3. **What level of data do you have?**\n   - Thousands of donors and years of data \u2192 predictive tools shine.  \n   - Smaller lists \u2192 prioritize content/personalization tools over heavy modeling.\n\n---\n\nIf you tell me:\n- Your CRM/donation platform\n- Approximate number of donors\n- Whether you\u2019re more constrained by **time** or **money**\n\nI can give you a very specific \u201ctop 1\u20132 tools\u201d recommendation tailored to your situation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Salesforce NPSP",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 1293,
+  "estimated_cost_usd": 0.024419,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://bloomerang.com/blog/ai-tools-for-nonprofits/",
+      "https://www.donorsearch.net/resources/ai-for-nonprofits/",
+      "https://virtuous.org/blog/ai-for-nonprofits/",
+      "https://www.whippy.ai/ai-software/best-ai-software-for-nonprofits",
+      "https://www.nptechforgood.com/ai-for-nonprofits/tools/",
+      "https://www.fidelitycharitable.org/articles/ai-tools-every-nonprofit-needs.html",
+      "https://www.goodunited.io/blog/ai-fundraising-assistant-nonprofits",
+      "https://data.org/resources/the-best-ai-fundraising-productivity-tools-for-nonprofits/",
+      "https://dataro.io"
+    ]
+  }
+}

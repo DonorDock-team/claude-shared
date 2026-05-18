@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P040",
+  "prompt_text": "Donor software with QuickBooks integration",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898946+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Integrating your donor software with QuickBooks is crucial for nonprofits to streamline operations, maintain accurate financial records, and understand their donor base more effectively.\n\n**Why Integration Matters:**\n\n1.  **Eliminate Double Entry:** Avoid manually entering donation data from your donor software into QuickBooks, saving time and reducing errors.\n2.  **Accurate Financial Reporting:** Ensure that all revenue from donations is accurately reflected in your QuickBooks accounts, making reconciliation, budgeting, and audits much simpler.\n3.  **Unified Data:** While donor software focuses on donor relationships and gift tracking, QuickBooks handles the broader financial picture. Integration connects these two essential perspectives.\n4.  **Better Decision Making:** With consistent, real-time (or near real-time) data, you can make informed decisions about fundraising campaigns, grant applications, and overall financial health.\n5.  **Audit Readiness:** Clean, integrated data makes preparing for audits significantly less stressful.\n\n**How Integration Typically Works (Key Concepts):**\n\n*   **Donor Software:** Manages individual donor records, donation history, campaigns, pledges, communications, and acknowledgment letters.\n*   **QuickBooks:** Manages your Chart of Accounts, bank accounts, expenses, payroll, and generates financial statements (Profit & Loss, Balance Sheet).\n*   **The Bridge:** The integration syncs summarized data from your donor software into QuickBooks.\n    *   **Deposits:** Typically, the donor software will consolidate donations received over a period (e.g., daily, weekly) and push a single \"deposit\" or \"sales receipt\" entry to QuickBooks, categorized by relevant income accounts (e.g., unrestricted donations, program-specific funds).\n    *   **Journal Entries:** For more complex transactions or to allocate funds across different programs (using QuickBooks' Class Tracking), the integration might create journal entries.\n    *   **Donor/Customer Records:** Some integrations can create or update \"customer\" (donor) records in QuickBooks, though often the detailed donor CRM functions remain primarily in the donor software.\n    *   **Fund/Campaign Mapping:** You'll typically map your fundraising campaigns or funds in the donor software to specific income accounts or classes in QuickBooks.\n\n**Key Features to Look For in Integrated Donor Software:**\n\n1.  **Robust CRM:** Comprehensive donor profiles, communication history, segmentation.\n2.  **Donation Tracking:** Ability to track one-time gifts, recurring donations, pledges, in-kind gifts, and grants.\n3.  **Online Giving:** Integrated online donation forms, peer-to-peer fundraising, and event registration.\n4.  **Reporting & Analytics:** Customizable reports on donor activity,",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 546,
+  "estimated_cost_usd": 0.001367,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

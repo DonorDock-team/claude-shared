@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P061",
+  "prompt_text": "Best donor CRM for monthly giving programs",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.897926+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for monthly giving programs depends significantly on your organization's size, budget, specific needs, and existing tech stack. However, certain CRMs stand out due to their robust features for managing, cultivating, and retaining recurring donors.\n\nHere are some of the top contenders, highlighting why they are excellent for monthly giving programs:\n\n### Top Recommendations for Monthly Giving Programs\n\n1.  **Bloomerang**\n    *   **Why it's great for monthly giving:** Bloomerang is built with a strong focus on donor retention and engagement, which is paramount for monthly giving.\n        *   **Engagement Score:** Automatically tracks donor engagement, helping you identify at-risk monthly donors or those ready for an upgrade.\n        *   **Automated Communication:** Excellent tools for setting up personalized thank-you messages, anniversary reminders, and impact reports specific to recurring donors.\n        *   **Recurring Gift Management:** Easy setup, management, and tracking of recurring donations. Their payment processor (Bloomerang Payments powered by Stripe) handles failed payments and provides donor self-service options.\n        *   **User-Friendly:** Generally considered very intuitive and easy to use, reducing staff training time.\n        *   **Reporting:** Strong reporting on retention, churn, and average monthly gift value.\n    *   **Best for:** Small to mid-sized nonprofits looking for a user-friendly CRM with a strong emphasis on donor retention.\n\n2.  **Virtuous**\n    *   **Why it's great for monthly giving:** Virtuous excels in \"responsive fundraising\" and automation, making it ideal for scaling monthly giving programs with personalized engagement.\n        *   **Automation & Personalization:** Highly sophisticated automation allows for triggered communications based on donor behavior, donation milestones, or payment issues. This enables hyper-personalized journeys for monthly givers.\n        *   **Robust Recurring Gift Engine:** Comprehensive tools for managing pledges, recurring gifts, and payment methods.\n        *   **Wealth & Propensity Scoring:** Helps identify potential monthly donors or those ready for an upgrade.\n        *",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 429,
+  "estimated_cost_usd": 0.001075,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

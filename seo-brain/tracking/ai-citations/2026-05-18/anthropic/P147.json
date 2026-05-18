@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P147",
+  "prompt_text": "Best donor CRM with event management",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898845+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs with Event Management\n\n## Top Recommendations\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- **Strengths:** Excellent donor retention tools, built-in event registration, email marketing\n- **Price:** ~$125-$500/month\n- **Event features:** Registration pages, ticketing, check-in tools\n\n### **2. Blackbaud Raiser's Edge NXT**\n- **Best for:** Large nonprofits with complex needs\n- **Strengths:** Comprehensive enterprise solution, robust reporting\n- **Price:** Custom pricing (typically $10K+/year)\n- **Event features:** Full event lifecycle management, auction tools, peer-to-peer fundraising\n\n### **3. Salsa Engage (formerly Salsa CRM)**\n- **Best for:** Advocacy-focused organizations\n- **Strengths:** Strong event + advocacy integration, peer-to-peer campaigns\n- **Price:** ~$400-$1,000+/month\n- **Event features:** Custom registration forms, ticketing, team fundraising\n\n### **4. DonorPerfect**\n- **Best for:** Budget-conscious organizations\n- **Strengths:** Good value, reliable functionality, strong support\n- **Price:** ~$89-$500/month\n- **Event features:** Online registration, payment processing, attendee tracking\n\n### **5. Kindful (by Bloomerang)**\n- **Best for:** Small nonprofits needing simplicity\n- **Strengths:** User-friendly, good integrations\n- **Price:** ~$100-$300/month\n\n## Key Considerations\n- **Organization size** and database needs\n- **Budget** for software + implementation\n- **Integration** requirements (accounting, email, etc.)\n- **Staff technical** expertise\n\nWhat's your organization's size and primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 428,
+  "estimated_cost_usd": 0.006462,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

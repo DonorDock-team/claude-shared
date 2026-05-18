@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P051",
+  "prompt_text": "Best donor CRM for lean fundraising teams",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898486+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Lean Fundraising Teams\n\nFor small teams that need maximum impact with minimal overhead, here are the top options:\n\n## **Best Overall: Bloomerang**\n- **Price:** Starting at $125/month\n- **Best for:** Teams of 1-5 needing automation + insights\n- **Strengths:** \n  - Intuitive interface with minimal learning curve\n  - Built-in donor retention tools\n  - Strong email integration\n  - Excellent engagement scoring\n\n## **Best Budget Option: Little Green Light**\n- **Price:** Starting at $59/month\n- **Best for:** Very small teams watching costs\n- **Strengths:**\n  - Full-featured at low price point\n  - Good reporting\n  - Solid support\n  - No per-user fees\n\n## **Best for Growth: Kindful (by Bloomerang)**\n- **Price:** Starting at $100/month\n- **Best for:** Teams planning to scale\n- **Strengths:**\n  - Modern interface\n  - Strong online giving integration\n  - Robust automation\n  - Good API for integrations\n\n## **Best Free Option: Sumac (Free tier)**\n- **Price:** Free up to 500 contacts\n- **Best for:** Very early-stage organizations\n- **Limitations:** Feature restrictions, eventual upgrade needed\n\n## **Key Features Lean Teams Need:**\n- \u2705 Email integration (MailChimp, Constant Contact)\n- \u2705 Online donation page builder\n- \u2705 Automated thank-you workflows\n- \u2705 Simple gift entry\n- \u2705 Basic reporting (retention, lifetime value)\n\n**Skip:** Salesforce/Blackbaud unless you have dedicated admin capacity.\n\nWhat's your team size and annual fundraising goal? That will help narrow it down further.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 418,
+  "estimated_cost_usd": 0.006318,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

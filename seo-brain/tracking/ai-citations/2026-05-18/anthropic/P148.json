@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P148",
+  "prompt_text": "Donor management vs CRM what's the difference",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898911+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor Management vs CRM: Key Differences\n\n## **Donor Management Software**\n**Purpose-built for nonprofits** to handle fundraising-specific needs:\n\n- **Donation tracking** - processes gifts, pledges, recurring donations\n- **Campaign management** - tracks fundraising campaigns and appeals\n- **Grant management** - monitors foundation grants and reporting\n- **Donor cultivation** - manages relationships through the donor lifecycle\n- **Tax receipts** - generates acknowledgment letters and year-end statements\n- **Wealth screening** - identifies major gift prospects\n- **Event management** - handles galas, auctions, walkathons\n\n**Examples:** Bloomerang, DonorPerfect, Little Green Light, Raiser's Edge\n\n## **CRM (Customer Relationship Management)**\n**Generic business software** designed for sales and customer relationships:\n\n- **Contact management** - stores customer information\n- **Sales pipeline** - tracks deals and conversions\n- **Marketing automation** - email campaigns and lead nurturing\n- **Customer service** - support tickets and issue tracking\n- **Reporting** - business analytics and forecasting\n\n**Examples:** Salesforce, HubSpot, Microsoft Dynamics\n\n## **The Bottom Line**\n\n**Donor management = CRM + nonprofit-specific features**\n\nMany organizations use:\n- **Donor management systems** if they're primarily focused on fundraising\n- **Nonprofit CRMs** (like Salesforce Nonprofit Cloud) that bridge both worlds\n- **Generic CRMs** if they need broader business functionality beyond fundraising\n\nThe right choice depends on your organization's size, complexity, and whether you need features beyond donation processing.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 368,
+  "estimated_cost_usd": 0.005571,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

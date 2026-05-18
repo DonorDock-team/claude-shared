@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P030",
+  "prompt_text": "Donor management software with the best customer support",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.898342+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Based on recent reviews and the sources you provided, these donor management / nonprofit CRM tools are most frequently praised for *customer support specifically*:\n\n### 1. Bloomerang  \n- **Why it stands out for support:**\n  - Multiple sources (EverTrue blog, G2 reviews, Bloomerang\u2019s own roundup, and Affnetz article) emphasize its **responsive live chat** and **helpful onboarding**.\n  - Users often note that support is **quick, knowledgeable, and proactive** in troubleshooting.\n- **Best fit:** Small to mid-sized nonprofits that value ease of use and ongoing hand-holding, especially if donor retention is a focus.\n\n### 2. DonorPerfect  \n- **Why it stands out for support:**\n  - G2-based content and DonorPerfect\u2019s own site highlight **strong customer support** repeatedly.\n  - Users describe the support team as **friendly, responsive, and good at guiding new users**, with extensive training materials and webinars.\n- **Best fit:** Organizations that want a mature, flexible system with lots of configuration options and are likely to need help with custom reports, workflows, and integrations.\n\n### 3. Neon CRM  \n- **Why it stands out for support (from broader reviews like OptimalNetworks and other industry roundups):**\n  - Often cited for **good implementation support** and **ongoing customer service**, including training.\n- **Best fit:** Nonprofits needing a full-featured CRM (events, memberships, email, etc.) and willing to invest in a guided onboarding.\n\n### 4. Raiser\u2019s Edge NXT (Blackbaud) \u2013 honorable mention  \n- **Why it\u2019s mentioned:**\n  - In higher-end implementations, customers praise Blackbaud\u2019s **dedicated account reps and professional services**.\n- **Caveat:** Support quality can vary by package level and budget; tends to be best for larger orgs that can afford premium support and consulting.\n\n---\n\nIf you tell me:\n- your nonprofit\u2019s size (contacts/donors, staff),\n- budget range (per month/year),\n- and any must-have features (events, memberships, text-to-give, integrations),\n\nI can rank 2\u20133 options for you specifically and point to which one is most likely to give you the *best* support experience for your situation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 478,
+  "estimated_cost_usd": 0.0122,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.evertrue.com/blog/donor-management-software-solutions/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://learn.g2.com/best-donor-management-software",
+      "https://bloomerang.com/blog/donor-management-software/",
+      "https://www.donorperfect.com",
+      "https://www.optimalnetworks.com/the-best-donor-management-software-for-nonprofits-reviews-ratings/",
+      "https://onlinedegrees.sandiego.edu/donor-management-software/",
+      "https://donorbox.org/donor-management",
+      "https://affnetz.com/explore-the-best-nonprofit-crm-software-to-consider-in-2025/"
+    ]
+  }
+}

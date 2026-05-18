@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P024",
+  "prompt_text": "How much does nonprofit donor CRM cost",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.897823+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The cost of a nonprofit donor CRM (Customer Relationship Management) system can vary widely depending on several factors, including the size and needs of the organization, the number of users, and the specific features required. Here are some general guidelines:\n\n1. **Free Options:**\n   - Some CRMs offer free versions with limited features or for a limited number of users. Examples include Zoho CRM and HubSpot CRM.\n   - Donor management tools specifically designed for nonprofits, like Little Green Light or Bloomerang Lite, may offer free plans with basic features.\n\n2. **Low to Mid-Range Options:**\n   - Many CRM providers offer solutions in the range of $50 to $300 per month. These often include more robust features, more users, and varying levels of support.\n   - Options in this range might include solutions like Kindful, Bloomerang, or Neon CRM, which cater specifically to nonprofits.\n\n3. **High-End Options:**\n   - For large organizations with complex needs, CRM systems can cost several thousand dollars per year. These might offer extensive customization, advanced analytics, and dedicated support services.\n   - Salesforce Nonprofit Cloud is an example of a high-end solution, where costs can vary significantly based on the level of customization and the number of users.\n\n4. **Additional Costs:**\n   - Implementation fees: One-time setup and training costs can vary sharply.\n   - Customization: Additional features or integrations can add to the cost.\n   - Support: Premium support options are often an additional cost.\n   - Data Migration: Importing existing donor data can incur extra charges.\n\nIt's important for nonprofits to evaluate their specific needs and budget constraints when selecting a CRM. Most providers offer demos or free trials, which can help in assessing the system's suitability. Additionally, many CRM vendors offer discounts for nonprofits, so it's worth inquiring during the purchasing process.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 378,
+  "estimated_cost_usd": 0.003815,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P136",
+  "prompt_text": "Salesforce Nonprofit Cloud problems",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898069+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Salesforce Nonprofit Cloud Problems\n\n## 1. **Implementation Challenges**\n- **Complexity**: Steep learning curve for staff unfamiliar with Salesforce\n- **Customization overload**: Too many custom fields/objects creating maintenance issues\n- **Data migration**: Messy legacy data causing problems during transition\n- **Timeline/budget overruns**: Projects often take longer and cost more than expected\n\n## 2. **Cost Issues**\n- **Licensing expenses**: Can be expensive for smaller nonprofits\n- **Hidden costs**: Implementation, training, maintenance, and consulting fees add up\n- **AppExchange add-ons**: Additional tools and integrations increase costs\n- **Annual increases**: Subscription costs tend to rise over time\n\n## 3. **Technical Problems**\n- **Performance issues**: Slow load times with large data sets\n- **Integration difficulties**: Connecting to other systems (accounting, email platforms, etc.)\n- **Reporting limitations**: Standard reports may not meet specific needs\n- **Mobile experience**: App functionality sometimes limited compared to desktop\n\n## 4. **User Adoption**\n- **Staff resistance**: Team members comfortable with old systems resist change\n- **Insufficient training**: Users don't understand how to leverage features\n- **Too complicated**: Interface overwhelming for non-technical users\n- **Low engagement**: System becomes unused \"shelfware\"\n\n## 5. **Data Management**\n- **Duplicate records**: Household accounts and contact management can create duplicates\n- **Data quality**: Garbage in, garbage out - poor data hygiene\n- **NPSP complexity**: Nonprofit Success Pack has its own learning curve\n- **Reporting accuracy**: Incorrect configurations lead to unreliable reports\n\n## 6. **Functional Limitations**\n- **Grant management**: Not robust out-of-the-box\n- **Program tracking**: May require significant customization\n- **Volunteer management**: Basic features may not meet complex needs\n- **Event management**: Often requires third-party tools\n\n## **Solutions & Best Practices**\n- Start with minimum viable product (MVP) approach\n- Invest properly in training and change management\n- Use a qualified nonprofit-focused consultant\n- Maintain a Salesforce admin or partner relationship\n- Regular data cleanup and governance\n- Join nonprofit user groups for support\n\nWould you like specific advice on any of these issues?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 518,
+  "estimated_cost_usd": 0.007812,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P066",
+  "prompt_text": "Donor CRM with campaign and appeal tracking",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898359+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A **Donor CRM with campaign and appeal tracking** is an essential tool for non-profit organizations to manage their relationships with donors effectively and optimize their fundraising efforts.\n\nAt its core, it's a specialized Customer Relationship Management (CRM) system designed for the unique needs of non-profits, specifically tailored to track interactions, donations, and the performance of various fundraising initiatives.\n\nLet's break down its key components and functionalities:\n\n### Core Components & Functionalities\n\n1.  **Donor Management:**\n    *   **Comprehensive Donor Profiles:** Store detailed information about individual donors and organizations (contact info, demographics, relationships, communication preferences, giving history, notes from interactions).\n    *   **Household & Organizational Linking:** Group related donors (e.g., husband and wife) or link individuals to their employers/foundations.\n    *   **Constituent Segmentation:** Categorize donors based on giving levels, interests, engagement, location, etc., for targeted communication.\n    *   **Communication History:** Log all touchpoints (calls, emails, meetings, mailings) with each donor.\n    *   **Pledge Management:** Track multi-year pledges, payment schedules, and remaining balances.\n    *   **Recurring Gift Management:** Automate billing and tracking for recurring donations.\n    *   **Wealth Screening Integration:** Identify potential major donors based on publicly available wealth indicators.\n\n2.  **Campaign Management:**\n    *   **Campaign Definition:** Create and define broad fundraising initiatives (e.g., Annual Fund, Capital Campaign, Year-End Giving, Scholarship Drive, Disaster Relief Fund).\n    *   **Goal Setting:** Establish financial goals and key performance indicators (KPIs) for each campaign.\n    *   **Timeline & Budget:** Set start and end dates, and track overall campaign budgets.\n    *   **Campaign Hierarchy:** Link multiple appeals to a single overarching campaign to see how specific efforts contribute to the larger goal.\n    *   **Progress Tracking:** Monitor real-time progress towards campaign goals, showing total donations, number of donors, and average gift size.\n\n3.  **Appeal Tracking (Specific Outreach Efforts):**\n    *   **Appeal Creation:** Define specific fundraising asks or outreach efforts within a campaign (e.g., \"Spring Direct Mail Appeal,\" \"Year-End Email Blast,\" \"Giving Tuesday Social Media Campaign,\" \"Major Donor Outreach Phone-a-thon\").\n    *   **Appeal Codes:** Assign unique codes to each appeal to accurately track where donations originate.\n    *   **Target Audience/Segmentation:** Specify which donor segments will receive a particular appeal.\n    *   **Cost Tracking:** Record the expenses associated with each appeal (printing, postage, email platform fees, ad spend).\n    *   **Response Tracking:** Monitor who responded to which appeal, how many donations were received, and the total revenue generated.\n    *   **Average Gift Size per Appeal:** Analyze the typical donation amount for a specific appeal.\n    *   **ROI Calculation:** Calculate the Return on Investment (ROI) for each appeal by comparing revenue generated against costs.\n\n4.  **Fundraising & Donation Processing:**\n    *   **Online Donation Pages:** Create branded, mobile-responsive donation forms that integrate directly with the CRM.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 673,
+  "estimated_cost_usd": 0.001685,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

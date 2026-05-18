@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.897909+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Based on your query and the sources you provided, here are donor/nonprofit CRMs that match what you\u2019re asking for: flat-rate pricing with no per\u2011user fees (and usually no per\u2011contact tiers either).\n\n### 1. LiveImpact\n- **Pricing model:** Flat-rate based on features/modules (\u201capps\u201d) you need.  \n- **Users:** No per\u2011user fees.  \n- **Contacts:** No per\u2011contact/record tiers.  \n- **Why it fits:**  \n  - Explicitly marketed as flat-rate regardless of users or records.  \n  - Case management is built in rather than sold as an extra add-on (per [1] and [2]).  \n  - Designed so your costs **don\u2019t increase** just because your database or staff grows.\n\nThis is the clearest match to \u201cflat rate, no per user fees\u201d from your results, and it also avoids contact-based pricing.\n\n### 2. DonorDock\n- **Pricing model:** Single transparent monthly price (e.g., $500/month for growing orgs per [3]).  \n- **Users:** Generally positioned as unlimited users (no per\u2011user pricing mentioned in current materials).  \n- **Contacts:** \u201cUnlimited contacts on every plan\u201d per [3].  \n- **Why it fits:**  \n  - One fixed subscription price, not tied to users or contact count.  \n  - Good for organizations that expect their database to grow significantly.\n\n### 3. Keela (partial match)\n- **Pricing model:** Scales by **contact count**, not users (per [3]).  \n- **Users:** Unlimited users, no per\u2011user fees.  \n- **Contacts:** Price increases as your contact list grows.  \n- **Why it\u2019s *almost* a fit:**  \n  - You asked for flat rate pricing; Keela is **not** flat-rate because costs rise with contacts.  \n  - It **does** satisfy the \u201cno per\u2011user fees\u201d part, but still penalizes database growth.\n\n### 4. Other options to consider (not pure flat-rate, but no per\u2011user fees)\nThese may be useful if \u201cno per\u2011user pricing\u201d is more important than pure flat-rate:\n\n- **Little Green Light** \u2013 Pricing scales by number of records (e.g., $45/month up to 2,500 records; $90/month up to 20,000 per [3]). No mention of per\u2011user fees; typically allows multiple users at no extra cost.  \n- **Many \u201cfree\u201d or low-cost CRMs / fundraising suites** (Givebutter, Givingtech, Donorbox, etc., per [4], [7], [8])  \n  - Often no monthly platform fee and no per-user fee, but revenue comes from **transaction/processing fees** or donor tips.  \n  - Not truly flat-rate, because the effective cost scales with how much you raise.\n\n### How to narrow down quickly\nIf your must\u2011haves are:\n- **Flat monthly/annual fee**  \n- **No per\u2011user fees**  \n- **No per\u2011contact tiers**\n\nThen from the sources you gave, your best direct matches are:\n\n1. **LiveImpact**  \n2. **DonorDock**\n\nIf you share your approximate:\n- annual online revenue,\n- current contact count,\n- and number of staff/volunteers who need access,\n\nI can help you estimate the *real* monthly/annual cost for each (including likely processing/implementation costs) and suggest which one is the better fit.",
+  "donordock_mentioned": true,
+  "donordock_position": 775,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter",
+    "Keela",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 728,
+  "estimated_cost_usd": 0.015956,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.liveimpact.org/blog/nonprofit-crm-pricing",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://givebutter.com/blog/best-free-crm-for-nonprofits",
+      "https://momentivesoftware.com/blog/nonprofit-crm/",
+      "https://www.donorperfect.com/fundraising-software/pricing-guide/",
+      "https://givingtech.org/pricing",
+      "https://bloomerang.com/blog/free-nonprofit-software",
+      "https://www.donately.com/blog/the-hidden-cost-of-no-platform-fee-fundraising-tools"
+    ]
+  }
+}

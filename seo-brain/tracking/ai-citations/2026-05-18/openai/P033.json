@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P033",
+  "prompt_text": "Alternative to DonorBox",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.898501+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "If you're looking for alternatives to DonorBox for managing donations and fundraising, there are several platforms you might consider depending on your specific needs and preferences. Here are some popular alternatives:\n\n1. **GoFundMe**: Primarily known for personal crowdfunding campaigns, GoFundMe also offers services for nonprofits.\n\n2. **Patreon**: Best for creators who want to offer exclusive content to subscribers in exchange for recurring support.\n\n3. **Kickstarter**: While more focused on creative projects, it can be used for certain types of fundraising efforts.\n\n4. **Indiegogo**: Similar to Kickstarter, Indiegogo offers more flexible funding options.\n\n5. **JustGiving**: A popular platform for peer-to-peer fundraising and nonprofit campaigns.\n\n6. **Classy**: Designed specifically for nonprofits, Classy provides a suite of fundraising tools including crowdfunding, events, and donation pages.\n\n7. **Fundly**: An easy-to-use online fundraising platform that supports a wide variety of campaigns.\n\n8. **Network for Good**: Provides comprehensive fundraising software designed for small to medium-sized nonprofits.\n\n9. **PayPal Donations**: A simple solution if you're looking to integrate donation buttons into your website.\n\n10. **Stripe Payments**: Offers advanced payment processing and can be integrated into customized donation solutions.\n\n11. **Givebutter**: Combines features for fundraising, ticketing, and auctions, with a focus on ease of use and social sharing.\n\n12. **CauseVox**: Designed for nonprofits, CauseVox offers tools to create and manage campaigns easily.\n\nEach platform has its own set of features and fee structures, so it's important to evaluate them based on factors like ease of use, customization options, fees, and the specific needs of your organization or campaign.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 359,
+  "estimated_cost_usd": 0.00362,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

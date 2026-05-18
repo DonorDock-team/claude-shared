@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P046",
+  "prompt_text": "Best donor CRM for arts and cultural nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898106+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for an arts and cultural nonprofit really depends on your specific needs, size, budget, and the complexity of your operations (e.g., do you need robust ticketing integrated?).\n\nHowever, considering the unique requirements of arts and cultural organizations \u2013 managing not just donors but also members, subscribers, ticket purchasers, volunteers, and often merchandise \u2013 here are the top contenders, categorized for different scenarios:\n\n---\n\n## Top Recommendations for Arts & Cultural Nonprofits\n\n### 1. Blackbaud Altru (Most Specialized)\n\n*   **Best For:** Medium to large-sized museums, theaters, zoos, aquariums, botanical gardens, and other cultural institutions that need a comprehensive solution for *both* fundraising/CRM and patron management (ticketing, membership, retail, education programs).\n*   **Why it's Great for Arts & Culture:**\n    *   **Purpose-Built:** Altru was specifically designed for cultural organizations.\n    *   **All-in-One:** It uniquely integrates donor management (CRM) with powerful ticketing, membership management, retail (POS), education program registration, and event management. This means a single source of truth for all patron interactions.\n    *   **Deep Functionality:** Handles complex membership structures, timed ticketing, recurring donations, group sales, and more.\n    *   **Reporting:** Robust reporting across all modules, allowing you to see the full patron journey from first ticket purchase to major donor.\n*   **Considerations:**\n    *   **Cost:** Can be a significant investment, especially for smaller organizations.\n    *   **Learning Curve:** With its breadth of features, it can be complex to set up and master.\n    *   **Ecosystem:** While powerful, it is part of the Blackbaud ecosystem, which some organizations find restrictive or expensive for additional modules.\n\n### 2. Salesforce Nonprofit Cloud (NPSP) with Ticketing Integration (Most Flexible/Scalable)\n\n*   **Best For:** Organizations that need ultimate flexibility, scalability, and customization, especially those with complex needs or who anticipate significant growth. This often involves integrating with a specialized ticketing solution.\n*   **Why it's Great for Arts & Culture:**\n    *   **Customization:** Salesforce is incredibly flexible. You can tailor it precisely to your unique processes for fundraising, patron engagement, and more.\n    *   **Unified View (with integration):** By integrating NPSP with a powerful ticketing system (e",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 511,
+  "estimated_cost_usd": 0.00128,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

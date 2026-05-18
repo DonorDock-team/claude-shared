@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P059",
+  "prompt_text": "Nonprofit CRM with donation forms",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898963+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Nonprofit CRM with Donation Forms\n\nHere are the top CRM platforms designed specifically for nonprofits with integrated donation capabilities:\n\n## **Top Recommendations**\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- **Key features:** Donor retention focus, online donation forms, email marketing, wealth screening\n- **Pricing:** Starting at ~$125/month\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with complex needs\n- **Key features:** Highly customizable, grant management, program tracking, robust reporting\n- **Pricing:** 10 free licenses, then ~$36/user/month (nonprofit discount)\n\n### **3. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established nonprofits\n- **Key features:** Comprehensive fundraising tools, event management, peer-to-peer fundraising\n- **Pricing:** Custom pricing (typically higher-end)\n\n### **4. DonorPerfect**\n- **Best for:** Budget-conscious organizations\n- **Key features:** Integrated donation forms, receipt automation, pledge tracking\n- **Pricing:** Starting at ~$89/month\n\n### **5. Neon CRM**\n- **Best for:** Growing nonprofits\n- **Key features:** All-in-one platform, membership management, event registration, customizable forms\n- **Pricing:** Starting at ~$50/month\n\n## **Key Features to Look For**\n- \u2705 Customizable donation forms\n- \u2705 Recurring gift management\n- \u2705 Tax receipt automation\n- \u2705 Payment processing integration\n- \u2705 Donor communications/email marketing\n- \u2705 Reporting and analytics\n\nWould you like more details about any specific platform or help choosing based on your organization's size and needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 425,
+  "estimated_cost_usd": 0.006417,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

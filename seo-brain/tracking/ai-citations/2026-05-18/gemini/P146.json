@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P146",
+  "prompt_text": "Best donor CRM with grant tracking",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898829+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding the \"best\" donor CRM with grant tracking depends heavily on your organization's specific needs, budget, size, and technical comfort level. However, some platforms are consistently rated highly for their robust features in both areas.\n\nHere are some of the top contenders, highlighting their strengths in grant tracking:\n\n---\n\n### Top Donor CRMs with Robust Grant Tracking\n\n1.  **Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack)**\n    *   **Pros:**\n        *   **Unrivaled Customization:** Salesforce is incredibly flexible. You can tailor grant tracking workflows, custom fields, reports, and dashboards to your exact needs. Many organizations build sophisticated grant management processes on NPSP.\n        *   **Scalability:** Grows with your organization, from small non-profits to large enterprises.\n        *   **Vast Ecosystem:** Thousands of apps on the AppExchange, many designed for non-profits, can integrate to extend functionality (e.g., specific grant management apps, reporting tools).\n        *   **Powerful Reporting:** Build highly detailed reports and dashboards to track grant lifecycles, due dates, funding amounts, and success rates.\n    *   **Cons:**\n        *   **Steep Learning Curve:** Can be complex to set up and administer without a dedicated Salesforce admin or consultant.\n        *   **Cost:** While the NPSP itself is often discounted or free for the first 10 licenses, implementation, ongoing administration, and additional apps can become expensive.\n    *   **Best for:** Medium to large non-profits, organizations with complex grant application processes, those needing extensive customization, or groups with existing Salesforce expertise.\n\n2.  **Blackbaud Raiser's Edge NXT**\n    *   **Pros:**\n        *   **Industry Standard for Large Non-profits:** A very comprehensive solution, especially for larger organizations with complex fundraising and grant portfolios.\n        *   **Dedicated Grant Management Module:** Offers detailed tools for tracking grant opportunities, proposals, applications, awards, payments, and reporting requirements. You can manage stages, tasks, and communications.\n        *   **Strong Reporting:** Excellent reporting capabilities for all aspects of fundraising, including grants.\n        *   **Deep Functionality:** Handles everything from prospect research to stewardship.\n    *   **Cons:**\n        *   **Cost:** Can be one of the more expensive options on the market.\n        *   **Complexity:** Can have a high learning curve, especially for new users, and feels less modern to some.\n        *   **Customer Service:** Reviews on customer service can be mixed.\n    *   **Best for:** Large, established non-profits, universities, hospitals, and organizations with significant endowments and extensive grant portfolios that need an enterprise-level solution.\n\n3.  **NeonCRM (by Neon One)**\n    *   **Pros:**\n        *   **All-in-One Solution:** Offers a wide range of",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 609,
+  "estimated_cost_usd": 0.001524,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

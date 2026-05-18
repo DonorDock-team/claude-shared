@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P034",
+  "prompt_text": "Best nonprofit CRM for growing organizations",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.898554+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When selecting a CRM for growing nonprofit organizations, it's important to consider options that offer scalability, ease of use, affordability, and features specifically tailored for nonprofit needs. Here are some of the best nonprofit CRMs to consider:\n\n1. **Salesforce Nonprofit Success Pack (NPSP)**:\n   - **Pros**: Highly customizable and scalable, with a vast array of features and integrations. It offers donor management, fundraising, and campaign management capabilities specifically designed for nonprofits.\n   - **Cons**: Can be complex to set up initially and may require significant customization, which might necessitate additional support or consultancy services.\n\n2. **Bloomerang**:\n   - **Pros**: User-friendly interface with features designed to be intuitive for nonprofit users. It focuses on donor retention and provides useful insights and analytics.\n   - **Cons**: It might have limitations in complex reporting or integrations compared to more robust systems.\n\n3. **Neon One**:\n   - **Pros**: Comprehensive solution tailored for nonprofits, offering features for donor management, event management, and email marketing. It also integrates well with third-party applications.\n   - **Cons**: Pricing can be a concern for smaller organizations, and the interface might require some learning curve.\n\n4. **DonorPerfect**:\n   - **Pros**: Excellent for managing donor relationships and tracking fundraising efforts. It offers a variety of customization options and third-party integrations.\n   - **Cons**: Some users report that the reporting features can be complex to use effectively.\n\n5. **Little Green Light**:\n   - **Pros**: Cost-effective with a strong focus on donor management and fundraising. It's known for being user-friendly and easy to set up.\n   - **Cons**: It might not be as feature-rich as other CRMs for larger organizations with complex needs.\n\n6. **Kindful**:\n   - **Pros**: Offers a clean, easy-to-navigate interface, with strong integrations with popular platforms like Mailchimp and QuickBooks. Focuses on donor management and fundraising analytics.\n   - **Cons**: Some users find the reporting features less comprehensive compared to other options.\n\n7. **CiviCRM**:\n   - **Pros**: Open-source CRM with no licensing fees, which can be highly customized to fit specific nonprofit needs. It offers a range of features for managing contacts, contributions, events, and more.\n   - **Cons**: Requires technical expertise to set up and maintain, which might necessitate external support.\n\nWhen choosing a CRM, it's crucial to assess your organization's specific needs, budget, and how tech-savvy your team is. Additionally, take advantage of free trials and demos to see which CRM feels like the best fit for your organization.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 551,
+  "estimated_cost_usd": 0.005542,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

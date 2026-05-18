@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P110",
+  "prompt_text": "How to segment your donor list",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898779+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Segment Your Donor List\n\nDonor segmentation helps you personalize communications and increase engagement. Here are the most effective ways to segment:\n\n## **1. Giving History**\n- **Donation amount** (major, mid-level, small donors)\n- **Giving frequency** (one-time, monthly, annual, lapsed)\n- **Lifetime value** (total giving over time)\n- **First-time vs. repeat donors**\n- **Recency** (when they last gave)\n\n## **2. Demographics**\n- Age/generation\n- Location/geography\n- Income level (where available)\n- Profession or industry\n\n## **3. Engagement Level**\n- Event attendees\n- Volunteers\n- Email open/click rates\n- Social media followers\n- Website visitors\n\n## **4. Connection to Mission**\n- **Designated giving** (specific programs they support)\n- **Interest areas** (education, healthcare, animals, etc.)\n- **Beneficiary relationship** (alumni, patient, parent, etc.)\n\n## **5. Donor Lifecycle Stage**\n- Prospects\n- New donors (0-12 months)\n- Active donors\n- Lapsed donors (haven't given in 13-24 months)\n- LYBUNT (Last Year But Unfortunately Not This)\n- SYBUNT (Some Years But Unfortunately Not This)\n\n## **6. Communication Preferences**\n- Channel preference (email, mail, phone, text)\n- Frequency preference\n- Content interests\n\n## **Quick Start Tip**\nBegin with 3-5 simple segments based on giving behavior, then expand as you gather more data and capacity.\n\nWhat's your primary goal for segmentation?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 386,
+  "estimated_cost_usd": 0.005829,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

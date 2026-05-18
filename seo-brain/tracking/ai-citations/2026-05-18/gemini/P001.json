@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P001",
+  "prompt_text": "What is DonorDock",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898753+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**DonorDock** is a cloud-based **donor relationship management (DRM) software** specifically designed to help **non-profit organizations** manage their donors, track donations, and streamline their fundraising efforts.\n\nThink of it as a specialized CRM (Customer Relationship Management) system for the non-profit world.\n\nHere's a breakdown of what DonorDock typically provides and aims to do:\n\n1.  **Centralized Donor Database (CRM):** It serves as a single source of truth for all donor information. This includes contact details, communication history, donation records, preferences, and relationships.\n2.  **Donation Tracking & Management:** Organizations can easily record, track, and manage all types of donations (one-time, recurring, pledges, in-kind, etc.).\n3.  **Online Donation Forms:** DonorDock allows non-profits to create customizable, mobile-responsive online donation forms that can be embedded on their website or shared directly, making it easy for supporters to give.\n4.  **Campaign Management:** It helps organize and track specific fundraising campaigns, events, and appeals, allowing organizations to monitor their progress towards goals.\n5.  **Communication Tools:** Features often include tools for sending personalized email appeals, newsletters, thank-you letters, and automated receipts, fostering better donor engagement.\n6.  **Reporting & Analytics:** Non-profits can generate various reports to understand fundraising trends, donor retention, campaign performance, and overall financial health, aiding in data-driven decision-making.\n7.  **Automation:** It aims to automate routine tasks like sending donation acknowledgments, recurring donation reminders, and segmenting donors.\n8.  **Integrations:** DonorDock often integrates with other essential tools like payment processors (e.g., Stripe), accounting software (e.g., QuickBooks), and website platforms.\n\n**In essence, DonorDock helps non-profits:**\n\n*   **Save time** by automating administrative tasks.\n*   **Improve donor relationships** through personalized communication and better understanding of their giving history.\n*   **Increase fundraising effectiveness** by providing tools to manage campaigns and analyze performance.\n*   **Keep donor data organized** and accessible in one place.\n\nIt's typically aimed at small to medium-sized non-profits looking for an all-in-one solution to manage their donor base and fundraising operations more efficiently.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 489,
+  "estimated_cost_usd": 0.001224,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}
