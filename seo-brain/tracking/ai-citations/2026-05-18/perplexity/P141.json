@@ -1,0 +1,42 @@
+{
+  "prompt_id": "P141",
+  "prompt_text": "Easy donor database for fundraisers",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.898524+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Here are some of the easiest donor databases for fundraisers, based on usability, setup, and how \u201cnon-techie-friendly\u201d they are.\n\n---\n\n## 1. Donorbox CRM  \n**Best for:** Small to mid-sized nonprofits that already (or plan to) use Donorbox for online donations.\n\n**Why it\u2019s easy:**\n- Built directly into the Donorbox fundraising platform, so online gifts automatically create/update donor records.\n- Very straightforward donor profiles and filters: you can segment by first/last donation date, lapses, cancelled plans, location, gift frequency, and more ([source](https://donorbox.org/donor-management)).\n- Adding offline donations and merging duplicates is simple and built-in.\n- Good for fundraisers who want one system for donation forms + donor tracking without heavy configuration.\n\n**Watch out for:**\n- Best if you\u2019re okay standardizing on Donorbox for donation processing.\n\n---\n\n## 2. Zeffy  \n**Best for:** Organizations that want free software with built-in donor database + fundraising tools.\n\n**Why it\u2019s easy:**\n- 100% free to nonprofits; Zeffy is funded by optional tips from donors ([source](https://www.zeffy.com/blog/donor-databases-for-nonprofits)).\n- Donor data is automatically stored whenever someone gives or signs up via a Zeffy form or campaign.\n- Simple filtering, searching, and segmenting in one place.\n- Good for teams that want minimal setup and no separate CRM costs.\n\n**Watch out for:**\n- Works best if you use Zeffy for most campaigns so the database stays complete.\n\n---\n\n## 3. Little Green Light  \n**Best for:** Small and mid-sized nonprofits that want a \u201clightweight\u201d but full donor management system.\n\n**Why it\u2019s easy:**\n- Designed specifically for smaller shops; less overwhelming than big-enterprise CRMs ([source](https://www.littlegreenlight.com)).\n- Lets you consolidate spreadsheets into one donor database with clear dashboards and reports.\n- More flexible than many \u201cfree\u201d tools, but still easier to learn than large systems like Raiser\u2019s Edge.\n\n**Watch out for:**\n- Paid, so it\u2019s for orgs that have at least a modest CRM budget.\n\n---\n\n## 4. Bloomerang  \n**Best for:** Donor retention and relationship-focused fundraisers.\n\n**Why it\u2019s easy:**\n- Clean, simple interface with donor timelines showing interactions and gifts ([source](https://bloomerang.com/blog/donor-management-software/)).\n- Engagement and generosity scores make it simpler for fundraisers to prioritize follow-ups.\n- Built-in online giving forms that auto-create donor profiles.\n- Strong segmentation and reporting that\u2019s still accessible to non-analysts.\n\n**Watch out for:**\n- More expensive than \u201cfree\u201d tools, but often worth it if you\u2019re serious about long-term donor growth.\n\n---\n\n## 5. DonorPerfect  \n**Best for:** Growing organizations that need more power but still want user-friendly basics.\n\n**Why it\u2019s easy:**\n- Longtime nonprofit-focused platform with lots of templates and support ([source](https://www.donorperfect.com)).\n- Easy tracking of giving history and contact info; online forms feed directly into donor records.\n- Real-time updates and collaboration help fundraisers stay aligned.\n\n**Watch out for:**\n- More features = more to learn; may feel like \u201ctoo much\u201d for very small teams starting from spreadsheets.\n\n---\n\n## How to choose the easiest one for *you*\n\nAsk yourself:\n\n1. **What are you using for online donations now?**  \n   - If it\u2019s flexible: Donorbox or Zeffy (all-in-one) are easiest starts.  \n   - If you want a more robust CRM: consider Little Green Light or Bloomerang.\n\n2. **How big and complex is your data?**  \n   - Under a few thousand records and simple needs: Zeffy or Donorbox CRM.  \n   - Growing donor base or plans for more advanced campaigns: Little Green Light, Bloomerang, or DonorPerfect.\n\n3. **Who will actually use it?**  \n   - Mostly fundraisers, little IT/ops support: prioritize intuitive UI (Zeffy, Donorbox, Bloomerang, LGL).  \n   - Larger team with data support: DonorPerfect or similar.\n\n---\n\nIf you share:\n- your org size,\n- current tools (e.g., Excel, Mailchimp, Stripe, etc.),\n- and your monthly budget for software,\n\nI can recommend 1\u20132 specific platforms and outline an \u201ceasy start\u201d setup plan.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [
+    "https://donorbox.org/donor-management",
+    "https://bloomerang.com/blog/donor-management-software/",
+    "https://www.littlegreenlight.com",
+    "https://www.donorperfect.com",
+    "https://www.zeffy.com/blog/donor-databases-for-nonprofits"
+  ],
+  "input_tokens": 7,
+  "output_tokens": 953,
+  "estimated_cost_usd": 0.019316,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://donorbox.org/donor-management",
+      "https://www.zeffy.com/blog/donor-databases-for-nonprofits",
+      "https://www.donorsearch.net",
+      "https://altrata.com/articles/a-guide-to-nonprofit-donor-databases",
+      "https://bloomerang.com/blog/donor-management-software/",
+      "https://www.donorperfect.com",
+      "https://www.littlegreenlight.com",
+      "https://kindsight.io/resources/blog/prospect-research-tools/",
+      "https://www.goodunited.io/blog/nonprofit-donor-prospecting-tools"
+    ]
+  }
+}

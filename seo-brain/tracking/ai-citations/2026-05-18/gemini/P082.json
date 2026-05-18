@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898110+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Determining the \"best\" donor CRM for hospitals isn't a one-size-fits-all answer, as the ideal solution depends heavily on the hospital's size, budget, specific fundraising strategies, existing technology infrastructure (especially EHR systems), and internal expertise.\n\nHowever, based on features, scalability, market presence in the non-profit sector, and ability to handle the complexities of healthcare philanthropy, two platforms consistently rise to the top:\n\n1.  **Salesforce Nonprofit Cloud (with NPSP - Nonprofit Success Pack)**\n2.  **Blackbaud Raiser's Edge NXT**\n\nLet's break down why these are leading contenders and what unique considerations hospitals have.\n\n---\n\n### Key Considerations for Hospitals Choosing a Donor CRM:\n\nBefore diving into specific platforms, understand the unique needs of hospital fundraising:\n\n1.  **Grateful Patient Programs:** This is often the cornerstone of hospital philanthropy. The CRM must facilitate identifying, segmenting, and stewarding patients who wish to express gratitude through donations.\n2.  **EHR Integration (or robust data transfer):** Seamless or at least efficient data flow between the Electronic Health Record (e.g., Epic, Cerner) and the CRM is crucial for grateful patient identification, patient journey mapping, and overall prospect research. This *must* be done compliantly, often through secure, one-way data feeds or de-identified data.\n3.  **HIPAA Compliance:** While fundraising CRMs typically don't store full patient health information (PHI), any linkage to patient data for grateful patient programs must adhere strictly to HIPAA regulations. This often means segregating PHI from donor records and only importing specific, permissible data points.\n4.  **Major Gift & Planned Giving Focus:** Hospitals often seek large, transformative gifts for research, new facilities, or endowments. The CRM needs robust tools for prospect research, moves management, portfolio management, and proposal tracking.\n5.  **Research Giving:** Managing donations tied to specific research projects, principal investigators, or endowments.\n6.  **Volunteer Management:** Many hospitals rely on auxiliaries and volunteers. While not always core to the CRM, integration with volunteer management tools can be beneficial.\n7.  **Grant Management:** For grants received from foundations or government entities.\n8.  **Wealth Screening & Prospect Research:** Essential for identifying high-capacity donors among the patient population and community.\n9.  **Scalability:** Hospitals can have hundreds of thousands",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 509,
+  "estimated_cost_usd": 0.001274,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

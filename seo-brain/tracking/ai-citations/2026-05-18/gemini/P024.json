@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P024",
+  "prompt_text": "How much does nonprofit donor CRM cost",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.897865+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The cost of a nonprofit donor CRM (Constituent Relationship Management) system varies *wildly*, from **free to tens of thousands of dollars per year**, depending on a multitude of factors. It's not just a single subscription fee; you need to consider the total cost of ownership.\n\nHere's a breakdown of the key factors influencing the cost and what you can expect:\n\n---\n\n### Key Factors Influencing CRM Cost:\n\n1.  **Nonprofit Size & Complexity:**\n    *   **Small/Startup:** Less than $100k annual revenue, few staff, basic donor tracking needs.\n    *   **Medium:** $100k - $1M annual revenue, growing staff, more sophisticated fundraising activities (events, grants).\n    *   **Large/Enterprise:** Over $1M annual revenue, many staff, complex programs, multiple fundraising channels, advanced reporting requirements.\n\n2.  **Number of Contacts/Donors:** Many CRMs price based on the size of your database (e.g., 1,000, 5,000, 10,000+ contacts).\n\n3.  **Number of Users:** How many staff members need access to the system? Some CRMs charge per user, while others offer tiered pricing that includes a certain number of users.\n\n4.  **Required Features:**\n    *   **Basic:** Donor profiles, gift entry, basic reporting, communication tracking.\n    *   **Mid-range:** Email marketing integration, simple event management, volunteer management, segmentation, grant tracking, donor acknowledgements.\n    *   **Advanced:** Sophisticated reporting & analytics, fundraising forecasting, peer-to-peer fundraising, wealth screening, robust grant management, custom integrations, advanced marketing automation.\n\n5.  **Implementation & Training:** This is often the biggest \"hidden\" cost, especially for more complex systems.\n    *   **Self-implementation:** Might be free or low cost if you have the internal expertise.\n    *   **Vendor-assisted implementation:** Vendors often charge for setup, data migration, and initial training. This can range from a few hundred dollars to tens of thousands.\n    *   **Consultant-led implementation:** For complex systems like Salesforce, you might hire a specialized consultant, which can be very expensive.\n\n6.  **Data Migration:** Moving your existing donor data from spreadsheets, old systems, or other sources into",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 508,
+  "estimated_cost_usd": 0.001272,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

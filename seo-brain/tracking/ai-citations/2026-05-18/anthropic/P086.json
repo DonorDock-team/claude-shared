@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P086",
+  "prompt_text": "Best donor CRM for homeless services",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898433+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best CRM Options for Homeless Services\n\n## Top Recommendations\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized homeless shelters\n- **Strengths:** Intuitive interface, strong donor retention tools, affordable\n- **Pricing:** Starting ~$125/month\n- **Why it works:** Excellent for tracking individual donor relationships and engagement scores\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with complex needs\n- **Strengths:** Highly customizable, integrates case management with fundraising\n- **Pricing:** 10 free licenses through Power of Us program, then discounted rates\n- **Why it works:** Can manage both client services AND donor relationships in one system\n\n### **3. Little Green Light**\n- **Best for:** Budget-conscious organizations\n- **Strengths:** Affordable, solid core features, good reporting\n- **Pricing:** Starting ~$39/month\n- **Why it works:** Simple donor management without overwhelming features\n\n### **4. Neon CRM**\n- **Best for:** Organizations wanting all-in-one functionality\n- **Strengths:** Built-in event management, membership tracking, email marketing\n- **Pricing:** Starting ~$50/month\n- **Why it works:** Handles both program participants and donors effectively\n\n## Key Features to Look For\n- **Grant tracking** (crucial for homeless services funding)\n- **Recurring donation management**\n- **Volunteer coordination**\n- **Report generation** for funders\n- **Email integration**\n\n## Special Consideration\nMany homeless service organizations also need **case management software**. Consider whether you need separate systems or an integrated solution like Salesforce that can handle both.\n\n**What's your organization's size and budget?** I can provide a more specific recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 407,
+  "estimated_cost_usd": 0.006147,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

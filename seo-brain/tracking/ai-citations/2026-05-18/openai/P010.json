@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P010",
+  "prompt_text": "Does DonorDock have online giving",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.898071+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Yes, DonorDock offers online giving functionality. DonorDock is a fundraising and donor management platform designed to help nonprofits manage their donor relationships and fundraising activities. Among its features are online giving tools, which allow nonprofits to accept donations through their website or customized donation pages. These tools typically support various payment methods and provide secure processing to ensure that donors can easily and safely contribute to the organization's cause.",
+  "donordock_mentioned": true,
+  "donordock_position": 5,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 79,
+  "estimated_cost_usd": 0.000825,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

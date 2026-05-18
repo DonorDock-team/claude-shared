@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P121",
+  "prompt_text": "AI for donor research",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898422+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "AI is rapidly transforming the landscape of donor research, allowing non-profits and fundraising organizations to identify, qualify, and engage potential donors more efficiently and effectively. It moves beyond traditional, manual research by leveraging vast datasets and complex algorithms to uncover patterns and predict behavior.\n\nHere's a breakdown of how AI is used in donor research:\n\n### Key Applications of AI in Donor Research:\n\n1.  **Prospect Identification & Segmentation:**\n    *   **How it works:** AI tools can analyze public data (e.g., real estate records, SEC filings, company directorships, news articles, philanthropic databases, social media activity, public tax records of foundations) to identify individuals or organizations with the potential for significant giving.\n    *   **AI's Role:** It sifts through massive amounts of unstructured and structured data far faster than humans, identifying common characteristics of high-value donors, and segmenting them into groups based on demographics, interests, wealth indicators, and past giving patterns.\n\n2.  **Wealth Screening & Capacity Assessment:**\n    *   **How it works:** AI algorithms can estimate a prospect's giving capacity by analyzing their assets (real estate, stock holdings, business ownership), income indicators (executive salaries, public compensation), and other financial data points.\n    *   **AI's Role:** It quantifies potential financial contributions by aggregating and interpreting diverse financial indicators, providing a more accurate estimate than human analysis alone.\n\n3.  **Propensity Scoring & Predictive Analytics:**\n    *   **How it works:** By analyzing an organization's historical donor data (past giving amounts, frequency, types of donations, engagement with events, website visits, volunteer activities), AI can predict the likelihood of a prospect or current donor making a future gift, and even the likely amount.\n    *   **AI's Role:** It identifies subtle patterns and correlations that indicate a higher propensity to give to specific causes or campaigns, allowing fundraisers to prioritize their outreach to the most promising candidates.\n\n4.  **Relationship Mapping & Network Analysis:**\n    *   **How it works:** AI can identify connections between potential donors and an organization's existing board members, staff, or major supporters. It scans for shared affiliations (alumni networks, professional organizations, common board memberships).\n    *   **AI's Role:** It uncovers \"hidden\" relationships that can lead to warm introductions, making initial outreach more effective and personal.\n\n5.  **Personalized Engagement & Communication:**\n    *   **How it works:** Based on a prospect's interests, past interactions, and communication preferences identified by AI, the system can recommend personalized content, optimal communication channels (email, phone, direct mail), and the best timing for outreach.\n    *   **AI's Role:** It helps tailor fundraising appeals to resonate more deeply with individual donors, increasing the chances of engagement and donation.\n\n6.  **Due Diligence & Risk Assessment:**\n    *   **How it works:** AI can quickly scan news articles, legal databases, and watchlists for any negative information or reputational risks associated with a potential donor, ensuring ethical and compliant fundraising practices.\n    *   **AI's Role:** It flags potential red flags much faster than manual searches, protecting the organization'",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 674,
+  "estimated_cost_usd": 0.001686,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P038",
+  "prompt_text": "Best fundraising software for nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898772+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Fundraising Software for Nonprofits\n\nHere are the top options based on organization size and needs:\n\n## **All-in-One Platforms**\n\n**1. Bloomerang**\n- Best for: Small to mid-size nonprofits\n- Strong donor management and retention tools\n- Easy to use with excellent customer support\n- Starting ~$125/month\n\n**2. Blackbaud Raiser's Edge NXT**\n- Best for: Large organizations\n- Comprehensive enterprise solution\n- Robust reporting and analytics\n- Higher cost, steeper learning curve\n\n**3. Donorbox**\n- Best for: Budget-conscious nonprofits\n- Simple, affordable online donation platform\n- Starting at $0 (platform fee of 1.5%)\n- Great for peer-to-peer and recurring donations\n\n## **Specialized Solutions**\n\n**4. Givebutter**\n- Best for: Event fundraising and campaigns\n- Free platform (optional tips)\n- Fun, interactive donor experience\n- Great for smaller organizations\n\n**5. Classy**\n- Best for: Peer-to-peer and crowdfunding\n- Modern, mobile-optimized\n- Strong campaign tools\n- Mid to large organizations\n\n**6. Network for Good**\n- Best for: Beginners\n- Simple interface\n- Bundled coaching/support\n- ~$149/month\n\n## **Key Features to Consider**\n- Online donation forms\n- Recurring giving options\n- Donor management (CRM)\n- Email marketing integration\n- Reporting capabilities\n- Mobile optimization\n- Payment processing fees\n\n**What size is your organization?** That will help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "Givebutter",
+    "Network for Good",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 375,
+  "estimated_cost_usd": 0.00567,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

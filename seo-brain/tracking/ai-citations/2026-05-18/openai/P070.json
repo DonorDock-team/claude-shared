@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.898558+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Automating donor thank you letters is a great way to ensure timely and consistent communication with your supporters. Here are some steps you can take to automate the process:\n\n1. **Choose the Right Tools:**\n   - **CRM Software:** Use Customer Relationship Management (CRM) software such as Salesforce, Bloomerang, or DonorPerfect that supports automation features.\n   - **Email Marketing Tools:** Tools like Mailchimp, Constant Contact, or SendinBlue can also help automate emails.\n\n2. **Organize Your Donor Database:**\n   - Ensure your donor data is clean and up-to-date.\n   - Segment your donors based on criteria such as donation amount, frequency, or campaign for more personalized letters.\n\n3. **Create Templates:**\n   - Design a set of thank you letter templates tailored to different segments or donation types.\n   - Include personalization tokens (e.g., donor name, donation amount) that will be filled in automatically by your software.\n   - Make sure each letter is heartfelt and specific about what the donation will support.\n\n4. **Set Up Automation Workflows:**\n   - Use your chosen CRM or email marketing tool to set up workflows that trigger thank you letters upon receiving a donation.\n   - Decide on triggers such as new donation received, recency of donation, or the donor reaching a certain cumulative amount.\n\n5. **Testing:**\n   - Test your automation setup to ensure that the correct letters are sent for different types of donations.\n   - Make sure personalization tokens are working correctly and that the emails or letters are formatted properly.\n\n6. **Implement and Monitor:**\n   - Once tested, turn on your workflows.\n   - Monitor the process, checking that letters are being sent as expected, and gather feedback from some recipients if possible.\n\n7. **Review and Update:**\n   - Regularly review your automation process and adjust templates and workflows as needed.\n   - Update your thank you letters periodically to keep them fresh and relevant, and to incorporate any feedback you've received.\n\n8. **Integrate with Other Systems:**\n   - Consider integrating your automation system with financial systems for real-time data updates.\n   - Ensure any manual donations (e.g., checks) are promptly entered into the system for workflow triggering.\n\n9. **Compliance and Personalization:**\n   - Ensure compliance with any legal requirements for donor communications in your area (e.g., proper tracking and recording).\n   - Strive for personalization beyond just names and amounts; mention specific projects or impacts of their donations.\n\nBy following these steps, you can create an efficient workflow that enhances your donor relations through timely and personalized thank you communications.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 528,
+  "estimated_cost_usd": 0.005315,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

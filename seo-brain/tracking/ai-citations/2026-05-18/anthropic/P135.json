@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P135",
+  "prompt_text": "Why nonprofits leave DonorPerfect",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898008+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Reasons Nonprofits Leave DonorPerfect\n\nBased on user feedback and industry observations, nonprofits typically leave DonorPerfect for these reasons:\n\n## 1. **Cost Concerns**\n- Pricing can become expensive as organizations grow\n- Per-user fees add up quickly for larger teams\n- Additional costs for modules and integrations\n\n## 2. **User Interface & Experience**\n- Dated, less intuitive interface compared to newer competitors\n- Steep learning curve for staff\n- Navigation can feel cumbersome\n\n## 3. **Reporting Limitations**\n- Built-in reports may not meet complex needs\n- Custom reporting can be difficult without technical expertise\n- Limited data visualization options\n\n## 4. **Integration Challenges**\n- Limited native integrations with modern tools\n- API limitations for custom connections\n- Difficulties syncing with website platforms and other software\n\n## 5. **Scalability Issues**\n- System may not grow well with organization's needs\n- Performance can slow with large databases\n- Advanced features may require expensive upgrades\n\n## 6. **Customer Support**\n- Response times may not meet expectations\n- Implementation and training quality varies\n- Limited support hours depending on plan\n\n## 7. **Migration to Modern Platforms**\n- Moving to cloud-native solutions (Salesforce, Bloomerang, NeonCRM)\n- Seeking all-in-one platforms with better email marketing, event management\n- Wanting more mobile-friendly options\n\nWould you like to know about specific alternatives nonprofits typically switch to?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 347,
+  "estimated_cost_usd": 0.005259,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

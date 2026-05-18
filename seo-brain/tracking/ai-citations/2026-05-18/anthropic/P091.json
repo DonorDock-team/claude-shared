@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P091",
+  "prompt_text": "Best donor CRM for environmental nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898714+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Environmental Nonprofits\n\nHere are the top options tailored for environmental organizations:\n\n## **Top Recommendations**\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large environmental organizations with complex needs\n- **Strengths:** Highly customizable, robust reporting, grant management integration\n- **Pricing:** 10 free licenses, then ~$36/user/month\n- **Note:** Steeper learning curve but powerful features\n\n### **2. Bloomerang**\n- **Best for:** Small to mid-sized environmental nonprofits\n- **Strengths:** Excellent donor retention tools, intuitive interface, strong reporting\n- **Pricing:** Starting ~$125/month\n- **Standout:** Focus on donor engagement metrics\n\n### **3. NeonCRM**\n- **Best for:** Growing environmental organizations\n- **Strengths:** All-in-one platform (fundraising, events, membership, email marketing)\n- **Pricing:** Starting ~$50/month\n- **Note:** Good value for comprehensive features\n\n### **4. Little Green Light**\n- **Best for:** Smaller environmental groups on a budget\n- **Strengths:** Simple, affordable, strong customer support\n- **Pricing:** Starting ~$39/month\n- **Ideal if:** You need basics without complexity\n\n### **5. Kindful** (now Bloomerang)\n- Merged with Bloomerang but still available\n- Strong automation and integration capabilities\n\n## **Key Features to Prioritize**\n- Grant tracking capabilities\n- Membership management (if applicable)\n- Volunteer coordination\n- Event management for cleanups/advocacy\n- Email marketing integration\n- Donation forms and online giving\n\n**What's your organization's size and primary needs?** That would help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 411,
+  "estimated_cost_usd": 0.006213,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

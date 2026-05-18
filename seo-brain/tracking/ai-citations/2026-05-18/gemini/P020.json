@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P020",
+  "prompt_text": "Cheaper alternative to Blackbaud",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898817+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Blackbaud offers a wide range of products for nonprofits, from CRM and fundraising to accounting and website management. To find a cheaper alternative, you first need to identify which specific Blackbaud products or functionalities you're looking to replace.\n\nHere's a breakdown of common Blackbaud functionalities and cheaper alternatives, along with key considerations:\n\n## Main Blackbaud Products and Their Cheaper Alternatives\n\n### 1. Donor Management & CRM (e.g., Raiser's Edge NXT, eTapestry)\n\nThis is often the core functionality nonprofits seek. These platforms help track donors, manage donations, cultivate relationships, and run campaigns.\n\n**Top Cheaper Alternatives:**\n\n*   **Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack):**\n    *   **Why it's cheaper:** Salesforce offers 10 free licenses to qualified nonprofits, and additional licenses are heavily discounted. It's incredibly powerful and customizable.\n    *   **Pros:** Highly scalable, vast ecosystem of apps, robust reporting, strong community support.\n    *   **Cons:** Can have a steeper learning curve and may require an implementation partner for complex setups.\n*   **Bloomerang:**\n    *   **Why it's cheaper:** Pricing is often more transparent and scales based on donor records, often making it more affordable for small to medium organizations.\n    *   **Pros:** User-friendly interface, strong focus on donor retention, excellent communication tools, good reporting.\n    *   **Cons:** May not have the depth of customization of Salesforce for highly unique needs.\n*   **Neon One (NeonCRM):**\n    *   **Why it's cheaper:** Offers a comprehensive suite (CRM, fundraising, events, membership) often at a more accessible price point than Blackbaud for similar features.\n    *   **Pros:** All-in-one solution, good for membership organizations, strong integrations.\n    *   **Cons:** Interface can feel a bit dated compared to some newer platforms.\n*   **Little Green Light (LGL):**\n    *   **Why it's cheaper:** Very affordable, especially for smaller organizations, with clear tiered pricing.\n    *   **Pros:** Easy to use, good for basic donor management, integrates with many third-party tools (Mailchimp, PayPal).\n    *   **Cons:** Less robust than more comprehensive CRMs, might lack advanced features for larger organizations.\n*   **DonorPerfect:**\n    *   **Why it's cheaper:** Long-standing competitor to Blackbaud, often with more competitive pricing models for similar features.\n    *   **Pros:** Comprehensive feature set (CRM, online forms, events), good support, strong reporting.\n    *   **Cons:** Interface can feel a bit busy, some features might require add-ons.\n*   **Kindful (now part of Bloomerang but still a distinct brand offering):**\n    *   **Why it's cheaper:** Generally more budget-friendly than Blackbaud, especially for its integrated online fundraising and CRM.\n    *   **Pros:** Modern interface, strong integration with Stripe and other tools, good",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 652,
+  "estimated_cost_usd": 0.001632,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

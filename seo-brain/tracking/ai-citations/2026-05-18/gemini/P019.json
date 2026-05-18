@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P019",
+  "prompt_text": "Alternative to Blackbaud Raisers Edge",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898755+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Blackbaud Raiser's Edge is a powerful, long-standing CRM (Constituent Relationship Management) solution for nonprofits, particularly known for its fundraising and donor management capabilities. However, many organizations seek alternatives due to various reasons like cost, complexity, user interface, specific feature needs, or integration requirements.\n\nThe market for nonprofit CRMs is vibrant, with many excellent choices. Here's a breakdown of top alternatives, categorized by their strengths and typical use cases:\n\n---\n\n## Top Alternatives to Blackbaud Raiser's Edge\n\n### 1. Salesforce-Based Solutions (Highly Customizable & Scalable)\n\nSalesforce is a highly popular and incredibly flexible platform, and many nonprofit CRMs are built on top of it.\n*   **Salesforce Nonprofit Success Pack (NPSP):**\n    *   **Overview:** This is the foundational package that transforms Salesforce into a powerful nonprofit CRM. It's often free for up to 10 users for qualified nonprofits. It provides out-of-the-box data structures for managing donors, households, grants, programs, and more.\n    *   **Pros:** Highly customizable, massive ecosystem of apps (AppExchange), incredibly scalable for organizations of all sizes, robust reporting and automation.\n    *   **Cons:** Requires significant setup and configuration (often needing an implementation partner), can have a steep learning curve, additional apps and advanced features can increase cost.\n    *   **Best For:** Medium to large nonprofits, organizations with complex data needs, those looking for a future-proof, highly integrated solution.\n*   **Affinaquest (formerly Campus Management/Elements):**\n    *   **Overview:** A comprehensive, cloud-native CRM built on Salesforce specifically for higher education institutions.\n    *   **Pros:** Tailored to the unique needs of universities (alumni relations, student lifecycle, admissions, fundraising), modern interface, deep integration.\n    *   **Cons:** Specific to higher ed, potentially complex for other nonprofit types.\n    *   **Best For:** Colleges and universities.\n*   **Other Salesforce AppExchange Solutions:** Many specialized solutions exist for specific needs (e.g., event management, grant management, advocacy) that integrate seamlessly with NPSP.\n\n### 2. Cloud-Native All-in-One Fundraising & Donor Management CRMs\n\nThese are purpose-built for nonprofits, often offering a more integrated and user-friendly experience than older systems.\n\n*   **DonorPerfect:**\n    *   **Overview:** A widely used, comprehensive donor management system with strong capabilities for gift processing, fundraising, reporting, and online forms.\n    *   **Pros:** User-friendly interface, good support, robust features for mid-sized organizations, competitive pricing.\n    *   **Cons:** Integrations with external systems can sometimes be",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "DonorPerfect",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 579,
+  "estimated_cost_usd": 0.00145,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P017",
+  "prompt_text": "Alternative to Neon CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898593+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Alternatives to Neon CRM\n\nHere are some popular alternatives to Neon CRM, organized by organization size and needs:\n\n## **Best Overall Alternatives**\n\n1. **Salesforce Nonprofit Cloud**\n   - Most comprehensive features\n   - Highly customizable\n   - Steeper learning curve and higher cost\n\n2. **Bloomerang**\n   - Strong donor retention focus\n   - Excellent reporting\n   - User-friendly interface\n\n3. **DonorPerfect**\n   - Robust fundraising tools\n   - Good for mid-sized nonprofits\n   - Strong integration options\n\n## **Best for Small Nonprofits**\n\n4. **Little Green Light**\n   - Affordable pricing\n   - Simple interface\n   - Good donor management\n\n5. **Kindful** (now part of Bloomerang)\n   - Intuitive design\n   - Modern interface\n   - Good automation features\n\n6. **Keela**\n   - AI-powered insights\n   - Affordable\n   - Good for growing organizations\n\n## **Best for Specific Needs**\n\n7. **Blackbaud Raiser's Edge NXT**\n   - Enterprise-level solution\n   - Comprehensive features\n   - Higher price point\n\n8. **Giveffect**\n   - All-in-one solution\n   - Volunteer management included\n   - Good value for money\n\n9. **Network for Good**\n   - Built-in fundraising tools\n   - Good for smaller budgets\n   - Easy to use\n\n**What features are most important for your organization?** That would help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Network for Good",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 367,
+  "estimated_cost_usd": 0.005547,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

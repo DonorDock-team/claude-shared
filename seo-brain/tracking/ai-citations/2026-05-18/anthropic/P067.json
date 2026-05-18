@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898374+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Tracking Donor Relationships Across a Team\n\n## 1. **Use a CRM System**\nThe foundation of team-wide donor tracking:\n\n### Popular Options:\n- **Nonprofit-specific**: Bloomerang, DonorPerfect, Little Green Light, Kindful\n- **General CRM**: Salesforce (with Nonprofit Success Pack), HubSpot\n- **Budget-friendly**: Airtable, Google Sheets (for small teams)\n\n### Key Features to Use:\n- Contact history and interaction logs\n- Task assignments and reminders\n- Donation history\n- Custom fields for donor preferences\n- Shared notes visible to all team members\n\n## 2. **Establish Clear Protocols**\n\n### Documentation Standards:\n- **Log every interaction** (calls, emails, meetings, events)\n- **Use consistent formats** (date, type, outcome, next steps)\n- **Tag urgency levels** and follow-up dates\n- **Record preferences** (communication style, interests, restrictions)\n\n### Ownership Rules:\n- Assign primary relationship owners\n- Define when to loop in others (major asks, special events)\n- Clarify handoff procedures when staff changes\n\n## 3. **Regular Team Communication**\n\n### Weekly/Monthly Practices:\n- **Moves management meetings** to discuss donor pipeline\n- **Shared dashboards** showing donor engagement status\n- **Briefing documents** before donor meetings\n- **Debriefs** after major interactions\n\n## 4. **Segmentation & Assignments**\n\nDivide responsibilities clearly:\n- By giving level (major, mid-level, annual)\n- By geographic region\n- By program interest\n- By relationship stage (prospect, active, lapsed)\n\n## 5. **Safeguards & Best Practices**\n\n- **Permission levels** (who can view/edit what)\n- **Data backup** procedures\n- **Privacy compliance** (GDPR, donor confidentiality)\n- **Transition plans** when team members leave\n- **Regular data hygiene** (dedupe, update contact info)\n\n## 6. **Integration Tips**\n\nConnect your systems:\n- Email platforms (for tracking opens/clicks)\n- Calendar systems (for meeting scheduling)\n- Accounting software (for gift processing)\n- Event management tools\n\n---\n\n**Start simple**: Even a shared spreadsheet with consistent logging is better than scattered information. Scale up as your team and donor base grow.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 547,
+  "estimated_cost_usd": 0.00825,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

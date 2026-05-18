@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P100",
+  "prompt_text": "What does Bloomerang really cost",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898111+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang's pricing, like most SaaS (Software as a Service) platforms, isn't a single fixed number. It's a **subscription-based model primarily determined by two main factors:**\n\n1.  **The number of constituent records (contacts) you have in your database.**\n2.  **The feature tier (plan level) you choose.**\n\nThey are designed specifically for non-profits and offer transparent pricing once you understand these core drivers.\n\n### The Main Cost Drivers:\n\n1.  **Number of Constituent Records (Contacts):**\n    *   This is the most significant factor. Bloomerang charges based on the maximum number of unique constituent records you have in your system.\n    *   Pricing tiers usually start for smaller numbers of contacts (e.g., under 2,500) and scale up significantly as your database grows (e.g., 5,000, 10,000, 25,000, 50,000, 100,000+).\n    *   **Example (illustrative, not exact current pricing):** A small non-profit with up to 2,500 contacts might start around $99 - $199 USD/month (depending on the plan), while an organization with 25,000 contacts could be in the range of $500 - $1,000+ USD/month, and even higher for very large databases.\n\n2.  **Feature Tier (Plan Level):**\n    *   Bloomerang typically offers several plan levels (e.g., Starter, Standard, Pro, Enterprise). Each level includes a progressively broader set of features and capabilities.\n    *   **Starter/Basic:** Core CRM, donor management, basic reporting, email marketing, online giving forms.\n    *   **Standard:** Adds more advanced reporting, integrations, wealth screening, possibly more email sends.\n    *   **Pro/Advanced:** Includes more sophisticated analytics, dedicated support, custom fields, more robust integrations.\n    *   **Enterprise:** For large organizations with complex needs, often includes custom solutions, dedicated account management, and higher usage limits.\n\n### Other Factors that Influence the \"Real\" Cost:\n\n*   **Contract Length:** Like many subscriptions, you can often get a discount by committing to an annual contract rather than paying month-to-month.\n*   **Specific Features & Modules:** While many features are bundled, some might have usage-based costs or be part of higher tiers:\n    *   **Bloomerang Mail:** Their integrated email marketing tool might have limits",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 555,
+  "estimated_cost_usd": 0.001389,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P065",
+  "prompt_text": "Donor CRM with pledge tracking",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898304+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A Donor CRM with robust pledge tracking is essential for any nonprofit managing multi-payment commitments, especially for capital campaigns, major gifts, or recurring giving programs.\n\nHere's a breakdown of what a good system should offer:\n\n## Key Features of Donor CRM Pledge Tracking:\n\n### I. Core Pledge Management Functionality\n\n1.  **Pledge Creation & Definition:**\n    *   **Pledge Amount:** The total committed sum.\n    *   **Pledge Type:** e.g., Capital Campaign, Major Gift, Annual Fund Pledge, General Pledge, Endowment.\n    *   **Pledge Date:** Date the pledge was made.\n    *   **Start/End Dates:** For the overall pledge period.\n    *   **Campaign/Appeal Association:** Link the pledge directly to a specific fundraising effort.\n    *   **Designation/Fund:** Allocate the pledge to a specific fund or program.\n    *   **Pledge Status:** Active, Completed, Overdue, Cancelled, Pending, Draft.\n    *   **Acknowledgement Status:** Track if the pledge has been acknowledged.\n    *   **Internal Notes:** For staff to add context, special instructions, or donor preferences.\n    *   **Attachments:** Ability to upload scanned pledge forms, agreements, or related documents.\n\n2.  **Installment Scheduling:**\n    *   **Automated Installment Generation:** Based on frequency (monthly, quarterly, annually, bi-annually, custom) and number of payments.\n    *   **Flexible Due Dates:** Ability to manually adjust individual installment due dates.\n    *   **Installment Amounts:** Automatically calculated or manually entered for irregular payment schedules.\n    *   **Remaining Balance Tracking:** Clearly show how much is still owed on the pledge.\n\n3.  **Payment Application & Tracking:**\n    *   **Link Payments to Pledges:** Easily associate incoming donations (cash, check, credit card, stock) with specific pledge installments.\n    *   **Partial Payments:** Record partial payments towards an installment and automatically adjust the remaining amount due for that installment.\n    *   **Overpayments:** Handle situations where a donor pays more than the scheduled installment, potentially rolling over to the next.\n    *   **Payment History:** A clear timeline of all payments received against a pledge.\n    *   **Outstanding Balance:** Real-time view of the total outstanding amount for each pledge and for the donor overall.\n\n4.  **Pledge Status Management:**\n    *   **Completion:** Automatically mark a pledge as \"Completed\" once all installments are paid.\n    *   **Overdue Tracking:** Identify and report on pledges with missed or overdue payments.\n    *   **Cancellation/Adjustments:** Ability to cancel a pledge (with reasons) or adjust the total amount/schedule if the donor's circumstances change.\n    *   **Write-Offs:** Option to write off uncollectible pledge amounts.\n\n5.  **Soft & Hard Credits:**\n    *   **Hard Credit:** To the donor making the payment.\n    *   **Soft Credit:** To individuals or organizations who influenced the gift (e.g., board members, corporate matching, family members). This is crucial for recognizing solicitors and relationships.\n\n### II. Donor & Relationship Management Integration\n\n1.  **Comprehensive Donor Profiles:** All pledges, payments, communications, and interactions clearly visible on the donor's",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 708,
+  "estimated_cost_usd": 0.001772,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

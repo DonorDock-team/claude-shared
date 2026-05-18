@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P040",
+  "prompt_text": "Donor software with QuickBooks integration",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.898933+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Here\u2019s a concise guide to donor management / fundraising CRMs that integrate with QuickBooks, plus what to watch for when choosing.\n\n---\n\n## 1. Strong options with native QuickBooks integrations\n\n### DonorPerfect  \n- **QuickBooks:** Online *and* Desktop  \n- **How it works:**  \n  - Gifts, pledges, and donor data live in DonorPerfect  \n  - You map funds/campaigns/GL codes to QuickBooks accounts, classes, bank accounts  \n  - Post gifts as individual, daily, or monthly summaries  \n  - Can map donors to QuickBooks customers  \n- **Best for:** Small\u2013mid sized nonprofits that need robust donor CRM + flexible accounting mapping and use either QBO or Desktop.\n\n---\n\n### DonorSnap  \n- **QuickBooks:** Online and Desktop (PC)  \n- **How it works:**  \n  - You map DonorSnap \u201cAccounting Codes\u201d to QuickBooks income accounts  \n  - Map payment methods to asset (bank) accounts  \n  - Send **batches** of transactions to QuickBooks; built\u2011in safeguards prevent duplicates  \n- **Best for:** Organizations that like batching entries to QuickBooks and want lower cost donor software with solid basics.\n\n---\n\n### DonorDock  \n- **QuickBooks:** **Online only** (no Desktop integration; Desktop users must export/import files)  \n- **How it works:**  \n  - New gifts in DonorDock automatically create **Sales Receipts** in QuickBooks Online  \n  - Links sales receipts to donor gifts for easy navigation  \n  - Focuses entirely on accounting sync (not a payment processor)  \n- **Best for:** Smaller nonprofits on QuickBooks Online looking for simple, automated sync without lots of accounting complexity.\n\n---\n\n### Funraise  \n- **QuickBooks:** Online only  \n- **How it works:**  \n  - Sends donor and donation data to QuickBooks Online  \n  - Creates **Sales Receipts** for donations  \n  - Creates **Customers** for donors  \n  - Lets you map Account, Class, and Product/Service for detailed reporting  \n- **Best for:** Growth-minded organizations doing more online fundraising (pages, events, recurring giving) that want those gifts flowing straight into QBO.\n\n---\n\n## 2. Other donor CRMs commonly used with QuickBooks\n\nThe article you surfaced (\u201c13 Best Donor Management Software for QuickBooks\u201d) includes multiple platforms beyond the ones listed above (e.g., Bloomerang, Neon One, Kindful, etc.). Most fall into these categories:\n\n- **Native QuickBooks integration:** direct, usually with QuickBooks Online; sometimes Desktop via connector/app.  \n- **File-based integration:** export gifts from CRM, import into QuickBooks (CSV/IIF).  \n- **Third\u2011party connectors:** Zapier, dbSync, or similar tools to bridge the two.\n\nIf you want, I can cross\u2011reference that article and give you a shortlist tailored to:\n- Your version of QuickBooks (Online vs Desktop)  \n- Your budget range  \n- Size of your donor base and key fundraising channels (online, events, mail, etc.)\n\n---\n\n## 3. Key questions to ask vendors\n\nWhen comparing donor software with QuickBooks integration, ask:\n\n1. **QBO or Desktop (or both)?**  \n   - Some (like DonorDock, Funraise) only integrate with QuickBooks Online.  \n   - If you\u2019re on Desktop, confirm they support it natively (like DonorPerfect, DonorSnap) or via an easy export/import.\n\n2. **What is actually synced?**  \n   - Individual transactions vs daily/monthly summaries  \n   - Donor as **Customer** or just line items  \n   - Fees, refunds, and pledge payments handling  \n   - Classes, funds, campaigns, and departments\n\n3. **Direction and timing:**  \n   - One-way (CRM \u2192 QuickBooks) versus two-way  \n   - Real\u2011time sync vs manual batch posting\n\n4. **Error prevention & audit trail:**  \n   - Duplicate prevention  \n   - Ability to see what\u2019s posted/unposted  \n   - Easy to re\u2011post or fix mapping errors?\n\n5. **Cost & limitations:**  \n   - Is QuickBooks integration included or an extra paid add\u2011on?  \n   - Any transaction or user limits?\n\n---\n\n## 4. Rough pricing tiers (from the article)\n\nTypical ranges for donor CRMs that integrate with QuickBooks:\n\n| Plan Type      | Approx. Price/User/Month | Typical Features                                           |\n|----------------|--------------------------|------------------------------------------------------------|\n| Free           | $0                        | Basic donation tracking, limited reports                  |\n| Personal       | $10\u2013$30                  | Donation tracking, QuickBooks integration, basic reports  |\n| Business       | $40\u2013$80                  | Advanced reports, dashboards, event management            |\n| Enterprise     | $100\u2013$200                | Analytics, advanced security, dedicated support           |\n\n---\n\nIf you share:\n- Whether you use QuickBooks Online or Desktop  \n- Your donor count and approximate budget\n\nI can narrow this down to 2\u20133 best\u2011fit systems and suggest how to structure the integration (individual vs summary posting, classes/funds mapping, etc.).",
+  "donordock_mentioned": true,
+  "donordock_position": 1098,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 1062,
+  "estimated_cost_usd": 0.020954,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://theleadpastor.com/tools/best-donor-management-software-that-works-with-quickbooks/",
+      "https://donorsnap.com/quickbooks-integration/",
+      "https://www.donordock.com/integrations/quickbooks-online",
+      "https://www.donorperfect.com/integrations/financial-accounting/quickbooks/",
+      "https://www.funraise.org/integrations/quickbooks",
+      "https://www.youtube.com/watch?v=KXuMYR4_MAU",
+      "https://www.donorperfect.com/video/donorperfect-and-quickbooks/",
+      "https://www.donorperfect.com/factsheets/quickbooks-online/",
+      "https://www.donorperfect.com/video/donorperfect-integration-quickbooks-accounting-software/",
+      "https://www.donordock.com/articles/donordock-and-quickbooks-a-nonprofit-software-dream-team"
+    ]
+  }
+}

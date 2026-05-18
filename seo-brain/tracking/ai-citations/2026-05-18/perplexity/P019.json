@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P019",
+  "prompt_text": "Alternative to Blackbaud Raisers Edge",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.898740+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Here are some strong alternatives to Blackbaud Raiser\u2019s Edge, with when they\u2019re usually a good fit and key pros/cons. If you share your budget, database size, and must\u2011have features, I can narrow this to 2\u20133 best options for you.\n\n---\n\n## 1. Virtuous CRM  \n**Best for:** Growth\u2011oriented, mid\u2011size to large nonprofits that want modern automation and marketing tools.\n\n**Why consider it:**\n- Built\u2011in marketing automation (email journeys, workflows, donor signals).\n- Strong donor management: 360\u00b0 profiles, households, engagement scoring.\n- Good integrations and open API.\n- Designed specifically for nonprofits, so terminology and workflows are familiar.\n\n**Trade\u2011offs:**\n- More complex than lightweight tools; you\u2019ll want a proper implementation.\n- Pricing is mid\u2011 to upper\u2011tier (usually not ideal for tiny orgs).\n\n---\n\n## 2. Bloomerang  \n**Best for:** Small to mid\u2011size nonprofits focused on retention and ease of use.\n\n**Why consider it:**\n- Very user\u2011friendly interface; easy for non\u2011technical staff.\n- Strong retention and engagement features (donor timelines, communications).\n- Good mobile\u2011friendly donation pages and basic online giving.\n- Widely cited as a top Raiser\u2019s Edge competitor for smaller teams.\n\n**Trade\u2011offs:**\n- Less robust for complex, multi\u2011department operations or very large databases.\n- Advanced automation and deep customizations are more limited than in enterprise CRMs.\n\n---\n\n## 3. DonorPerfect  \n**Best for:** Budget\u2011conscious mid\u2011size organizations ($500K\u2013$5M+ in revenue).\n\n**Why consider it:**\n- Longstanding nonprofit CRM with solid donor management, gift processing, and reporting.\n- Flexible configuration: custom fields, forms, and workflows.\n- Widely used, so you can find consultants and peers who know it.\n\n**Trade\u2011offs:**\n- Interface and UX can feel less modern than some newer competitors.\n- Marketing automation isn\u2019t as advanced as Virtuous or specialist email tools.\n\n---\n\n## 4. Neon CRM  \n**Best for:** Mid\u2011size nonprofits that want an all\u2011in\u2011one fundraising + membership + events platform.\n\n**Why consider it:**\n- Built specifically for nonprofits; supports membership, events, volunteer data.\n- Automation for acknowledgments and some donor journeys.\n- Online donation pages, peer\u2011to\u2011peer tools, and email built in.\n\n**Trade\u2011offs:**\n- \u201cAll\u2011in\u2011one\u201d means you may outgrow parts of the stack (e.g., email marketing) and need integrations later.\n- Can feel like \u201ca lot of system\u201d for very small teams.\n\n---\n\n## 5. Donately  \n**Best for:** Organizations focused on online fundraising forms and P2P, especially if you already have or plan to connect another CRM.\n\n**Why consider it:**\n- Very strong, customizable donation forms and peer\u2011to\u2011peer fundraising.\n- Simple, modern interface.\n- Tiered pricing from free (with platform fee) to low\u2011cost paid plans.\n\n**Trade\u2011offs:**\n- More of a fundraising/online giving platform than a fully featured donor CRM.\n- You may still need a separate system for deep donor relationship management.\n\n---\n\n## 6. StratusLIVE 365  \n**Best for:** Enterprise nonprofits that are Microsoft\u2011centric (Dynamics 365, Office 365, Azure).\n\n**Why consider it:**\n- Built on Microsoft Dynamics 365; highly scalable (millions of records).\n- Very deep donor management, gift processing, and online fundraising suite.\n- Dedicated experience migrating from Raiser\u2019s Edge and Blackbaud CRM.\n\n**Trade\u2011offs:**\n- Requires more IT/implementation resources and governance.\n- Best suited for larger, more complex organizations with multiple programs or offices.\n\n---\n\n## 7. Knack (custom database platform)  \n**Best for:** Organizations that want a highly customized, all\u2011in\u2011one system and have some technical capacity or a partner.\n\n**Why consider it:**\n- Extremely flexible and customizable (build exactly what you need).\n- Pay\u2011as\u2011you\u2011grow pricing.\n- Can support donor management, programs, volunteers, etc., in one place.\n\n**Trade\u2011offs:**\n- It\u2019s a \u201cplatform,\u201d not a pre\u2011built fundraising CRM; you\u2019ll need to design workflows.\n- Success depends heavily on implementation quality and internal champions.\n\n---\n\n## 8. General CRMs used as Raiser\u2019s Edge alternatives  \nIf you\u2019re open to non\u2011nonprofit\u2011specific CRMs:\n\n- **HubSpot CRM**  \n  - Great for integrated marketing + CRM.  \n  - Strong automation, email, landing pages; free core CRM.  \n  - Needs nonprofit\u2011specific configuration and usually an online giving tool (e.g., Donately) on top.\n\n- **Copper / Insightly / Salesforce Nonprofit Cloud**  \n  - Copper/Insightly: good for small teams, simple pipelines, and Google\u2011centric workflows.  \n  - Salesforce Nonprofit Cloud: extremely customizable and scalable, but heavier lift to implement.\n\n---\n\n## How to choose among them (3 quick questions)\n\nIf you tell me:\n\n1. Approximate annual revenue and donor count  \n2. Key priorities (e.g., \u201conline giving,\u201d \u201cmajor gifts,\u201d \u201cautomation,\u201d \u201cmembership/events,\u201d \u201ckeep costs low\u201d)  \n3. Whether you have in\u2011house IT/ops capacity\n\nI can:\n\n- Recommend 2\u20133 best alternatives specifically for your situation, and  \n- Flag any migration concerns coming from Raiser\u2019s Edge (data model, gift history, recurring gifts, etc.).",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 1158,
+  "estimated_cost_usd": 0.0224,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.knack.com/blog/blackbaud-alternatives/",
+      "https://virtuous.org/compare/blackbaud/",
+      "https://www.donately.com/blog/blackbaud-raisers-edge-competitors",
+      "https://stratuslive.com/guides/blackbaud-alternatives/",
+      "https://www.socialimpactsolutions.com/raisers-edge-competitor/",
+      "https://sumble.com/tech/blackbaud",
+      "https://www.softwareadvice.com/nonprofit/the-raisers-edge-profile/alternatives/"
+    ]
+  }
+}

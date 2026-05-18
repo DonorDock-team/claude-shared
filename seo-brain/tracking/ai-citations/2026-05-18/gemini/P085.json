@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P085",
+  "prompt_text": "Best donor CRM for advocacy organizations",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898418+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for an advocacy organization involves looking beyond just fundraising and considering robust features for constituent engagement, legislative tracking, campaign management, and grassroots organizing.\n\nHere are the top contenders, categorized by their strengths:\n\n---\n\n### Top Recommendations for Comprehensive Advocacy & Fundraising\n\nThese systems offer strong fundraising capabilities alongside significant features or integrations for advocacy work.\n\n1.  **Salesforce Nonprofit Success Pack (NPSP) with Advocacy Integrations**\n    *   **Strengths:**\n        *   **Highly Customizable:** Salesforce's biggest advantage. You can tailor it precisely to your unique advocacy model.\n        *   **Extensive Ecosystem:** The AppExchange offers countless integrations, including powerful advocacy-specific tools (e.g., ActionKit, Hustle for peer-to-peer texting, CiviCRM for some functions).\n        *   **Robust Data Management:** Excellent for tracking donor profiles, supporter engagement, legislative contacts, and campaign participation in one place.\n        *   **Scalability:** Perfect for organizations of all sizes, from small to very large.\n        *   **Reporting & Analytics:** Unparalleled ability to generate complex reports on fundraising, advocacy actions, and supporter journeys.\n    *   **Considerations:**\n        *   **Learning Curve:** Can be complex and requires dedicated admin staff or consulting support for initial setup and ongoing customization.\n        *   **Cost:** While NPSP is heavily discounted for nonprofits, implementation and ongoing app costs can add up.\n    *   **Why it's great for Advocacy:** Its flexibility allows you to build out custom objects for legislative tracking, tie advocacy actions to donor records, and integrate with best-in-class advocacy platforms. Many advocacy organizations use Salesforce as their core system and integrate it with specialized advocacy tools.\n\n2.  **Neon One (NeonCRM / Neon Engage / Neon Action)**\n    *   **Strengths:**\n        *   **Purpose-Built for Nonprofits:** Combines donor management, membership, events, and *advocacy* features in an integrated suite.\n        *   **Native Advocacy Tools:** Offers online action forms, petitions, email-to-legislator tools, and segmented communications for advocacy campaigns.\n        *   **User-Friendly:** Generally easier to set up and use than Salesforce for many standard nonprofit functions.\n        *   **Good Value:** Often a strong balance of features and cost for mid-sized organizations.\n        *   **Integrated Suite:** Less need",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 512,
+  "estimated_cost_usd": 0.001282,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

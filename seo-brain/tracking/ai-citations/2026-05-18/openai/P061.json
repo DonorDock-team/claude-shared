@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P061",
+  "prompt_text": "Best donor CRM for monthly giving programs",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.897898+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM (Customer Relationship Management) software for monthly giving programs depends on several factors, including your organization's size, budget, and specific needs. However, some CRMs are generally well-regarded in the nonprofit sector for their features tailored to recurring donations and monthly giving programs. Here are a few popular options:\n\n1. **Salesforce Nonprofit Success Pack (NPSP):** \n   - **Pros:** Highly customizable, robust reporting and analytics, strong integration options.\n   - **Cons:** May require significant setup and customization, can be complex for smaller organizations.\n\n2. **Bloomerang:**\n   - **Pros:** User-friendly interface, strong donor retention tools, good for small to mid-sized nonprofits.\n   - **Cons:** Limited advanced functionality compared to larger CRMs.\n\n3. **Neon CRM:**\n   - **Pros:** Comprehensive features including email marketing and event management, great customer support.\n   - **Cons:** Can be expensive as you scale up in features.\n\n4. **DonorPerfect:**\n   - **Pros:** Easy tracking of recurring donations, good customer service, mobile-friendly.\n   - **Cons:** The interface can feel a bit dated, extra costs for additional features.\n\n5. **Little Green Light:**\n   - **Pros:** Affordable, intuitive, integrates well with other software.\n   - **Cons:** Less robust in terms of advanced features, suited more for small to medium organizations.\n\n6. **Kindful:**\n   - **Pros:** Strong integration capabilities, good donor management features, modern interface.\n   - **Cons:** Pricing can increase with added contacts and additional features.\n\n7. **Funraise:**\n   - **Pros:** Built-in fundraising tools, modern interface, caters well to online giving.\n   - **Cons:** May not be as comprehensive for organizations with complex needs.\n\nWhen evaluating CRMs, consider trialing the software to see how well it integrates with your existing processes and how it can handle recurring donations effectively. Also, consider the level of customer support provided, as this can be invaluable during setup and as your needs evolve.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 423,
+  "estimated_cost_usd": 0.004265,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

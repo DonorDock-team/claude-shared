@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P047",
+  "prompt_text": "Best donor CRM for community foundations",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898300+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a community foundation is highly dependent on its specific size, complexity, budget, and existing tech stack. Community foundations have unique needs that go beyond typical nonprofit donor management, primarily due to their **multi-fund structure, donor-advised funds (DAFs), and grantmaking operations.**\n\nHere are the top contenders and key features to look for:\n\n## Top Recommendations for Community Foundations\n\n1.  **Salesforce (with NPSP + specialized AppExchange apps/customization)**\n    *   **Why it's strong:** Salesforce is incredibly powerful and flexible. While the Nonprofit Success Pack (NPSP) provides a strong fundraising base, its true strength for community foundations comes from its vast AppExchange ecosystem and its ability to be heavily customized. Many CFs build custom solutions on Salesforce or leverage apps specifically designed for DAF and grant management.\n    *   **Pros:**\n        *   **Extreme Customization:** Can be tailored to perfectly fit unique fund structures, DAF rules, and grantmaking workflows.\n        *   **Scalability:** Grows with your foundation, from small to very large and complex.\n        *   **Robust Reporting:** Unparalleled reporting and analytics capabilities.\n        *   **Integration Powerhouse:** Integrates with virtually any other system (financial, marketing, payment processing, etc.).\n        *   **Vast Ecosystem:** Thousands of apps available for specific needs, including grant management, planned giving, and fund accounting.\n    *   **Cons:**\n        *   **Complexity:** Can have a steep learning curve and requires dedicated administrators or external consultants.\n        *   **Cost:** While NPSP offers free licenses for nonprofits, the cost of specialized apps, custom development, and ongoing administration",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 359,
+  "estimated_cost_usd": 0.000899,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P094",
+  "prompt_text": "Hidden costs of Bloomerang",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898906+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Bloomerang\n\nWhile Bloomerang advertises transparent pricing, several hidden or unexpected costs can emerge:\n\n## 1. **Email Send Limits & Overages**\n- Plans include limited email sends per month\n- Additional emails cost extra (typically $0.50-$1.00 per 1,000 emails)\n- Can add up quickly for organizations with large lists\n\n## 2. **Payment Processing Fees**\n- Credit card processing: ~2.9% + $0.30 per transaction\n- ACH fees may apply\n- These are separate from subscription costs\n\n## 3. **Integration Costs**\n- Some third-party integrations require paid middleware (like Zapier)\n- Custom integrations may need developer time\n- API access limitations on lower tiers\n\n## 4. **Data Migration**\n- Import assistance may cost extra\n- Data cleaning/formatting often requires staff time or consultant fees\n- Historical data migration can be complex\n\n## 5. **Training & Onboarding**\n- Advanced training beyond basics may cost extra\n- Staff time for learning the system\n- Potential need for external consultants\n\n## 6. **Add-On Features**\n- Advanced reporting capabilities\n- Additional user seats beyond plan limits\n- Premium support options\n\n## 7. **Annual Price Increases**\n- Subscription costs typically increase year-over-year\n- May not be clearly communicated upfront\n\n## 8. **Limited Customization**\n- May need to purchase additional tools for specific needs\n- Custom report development\n\n**Tip**: Always request a detailed quote and ask specifically about email limits, processing fees, and potential overage charges before committing.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 376,
+  "estimated_cost_usd": 0.005682,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

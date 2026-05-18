@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898425+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Keela Comparison\n\nBoth are cloud-based donor management systems designed for nonprofits, but they have different strengths:\n\n## **DonorDock**\n\n### Strengths:\n- **Simplicity & ease of use** - Very intuitive interface, minimal learning curve\n- **Relationship-focused** - Strong contact management and interaction tracking\n- **Affordable** - Generally lower pricing, good for smaller organizations\n- **Customer service** - Known for responsive, personal support\n- **Quick setup** - Can get up and running quickly\n\n### Best for:\n- Small to mid-sized nonprofits\n- Organizations wanting simple, straightforward donor management\n- Teams without dedicated tech staff\n\n## **Keela**\n\n### Strengths:\n- **AI-powered insights** - Predictive analytics for donor behavior and giving likelihood\n- **More robust features** - Includes email marketing, advanced reporting, task management\n- **Fundraising tools** - Built-in campaign management and peer-to-peer fundraising\n- **Customization** - More flexible for complex organizational needs\n- **Growth-oriented** - Better scalability for growing organizations\n\n### Best for:\n- Mid-sized nonprofits ready to scale\n- Data-driven organizations wanting analytics\n- Teams needing all-in-one functionality\n\n## **Key Differences:**\n\n| Feature | DonorDock | Keela |\n|---------|-----------|-------|\n| Complexity | Simpler | More robust |\n| Price | Generally lower | Higher tier pricing |\n| Analytics | Basic | Advanced (AI-powered) |\n| Learning curve | Minimal | Moderate |\n\n**Which should you choose?** \n- Choose **DonorDock** if you want simplicity and affordability\n- Choose **Keela** if you need advanced features and analytics\n\nWhat's your organization's size and primary needs?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 424,
+  "estimated_cost_usd": 0.006408,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

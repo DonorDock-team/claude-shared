@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P071",
+  "prompt_text": "Donor retention benchmarks for nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.898627+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Here are current donor retention benchmarks for nonprofits, based on recent sector reports and tools you referenced:\n\n---\n\n## 1. Overall donor retention (all donors, year over year)\n\nBecause different sources use different datasets, you\u2019ll see a range:\n\n- **Fundraising Effectiveness Project (FEP) / sector-wide averages**\n  - Overall donor retention: **~31\u201343%**\n    - Bloomerang citing FEP Q3 2025: **31.9%**\n    - 4aGoodCause citing FEP: **42.9%** (described as the typical range of **40\u201345%**)\n  - Interpretation: Most nonprofits **lose more donors than they keep** each year.\n\n- **Other benchmark sets (specific samples/clients)**\n  - Virtuous 2026 benchmark (771 mid-sized US nonprofits):  \n    - Overall: **54.73%**  \n    - Top quartile: **69.64%**\n  - CCS Fundraising (client base, last 5 years): **46%** average overall retention\n  - NextAfter (organizations with digital-first strategies): **~53%** overall\n\n**Rule of thumb:**  \n- Typical sector-wide: **around 40\u201345%**  \n- Strong performance: **50%+**  \n- Top-tier: **~65\u201370%+**\n\n---\n\n## 2. New vs. repeat donor retention\n\nMost sources separate **new donor** and **repeat donor** retention because they behave very differently.\n\n### New donor retention (first gift \u2192 next year)\n\n- FEP/4aGoodCause: **~14\u201319%**\n  - 4aGoodCause (FEP-based): **19.4%** average new donor retention\n  - Bloomerang (FEP Q3 2025): **14.0%** new donor retention\n  - Fundraising Report Card live benchmark: **~18\u201320%** (e.g., 19.63%)\n\n**Implication:** Roughly **4 out of 5 new donors don\u2019t give again** the following year in a typical program.\n\n### First-to-second gift conversion (shorter-term)\n\n- Virtuous 2026 benchmark:\n  - Overall: **25.84%**\n  - Top quartile: **37.86%**\n- This is often treated as the **single best early predictor** of long\u2011term retention.\n\n### Repeat donor retention (donors who have given before)\n\n- FEP/4aGoodCause:\n  - Repeat donor retention: **~44\u201369%**\n    - 4aGoodCause (FEP-based): **69.2%** repeat retention (with monthly donors up to **~90%**)\n    - Bloomerang (FEP Q3 2025): **43.6%** repeat retention year-to-date\n  - Fundraising Report Card live benchmark: **~54%** repeat retention (53.65%)\n\n**Implication:** Once someone has given more than once, keeping them is **far easier** than converting first-timers.\n\n---\n\n## 3. Gift frequency benchmarks\n\nHow often an average donor gives per year:\n\n- Virtuous 2026:\n  - Overall: **4.15 gifts per donor per year**\n  - Top quartile: **6.62 gifts per donor per year**\n- FEP data via Bloomerang (based on # of gifts):\n  - 1-time donors: **19.2%** retention\n  - 2-time donors: **38.5%**\n  - 3\u20136 gifts: **62.5%**\n  - 7+ gifts: **87.3%**\n\n**Takeaway:** Increasing **frequency** (e.g., monthly giving) strongly correlates with higher retention.\n\n---\n\n## 4. Segment benchmarks by gift size (FEP Q3 2025 via Bloomerang)\n\nYear\u2011to\u2011date retention by donor size segment:\n\n- Supersize donors ($50K+): **56.6%**\n- Major donors ($5K\u2013$50K): **52.0%**\n- Micro donors ($1\u2013$100): **21.3%** (lowest)\n\nSmaller, low-dollar donors are retained at **much lower rates** than mid/major donors.\n\n---\n\n## 5. What is a \u201cgood\u201d donor retention rate?\n\nUsing all of the above:\n\n- **If you\u2019re at or below ~35% overall:**  \n  Below most sector benchmarks; significant room to improve.\n- **Around 40\u201345% overall:**  \n  In line with typical FEP \u201caverage\u201d performance.\n- **50\u201355% overall:**  \n  Above average; comparable to strong digital\u2011focused or well\u2011managed programs.\n- **65\u201370%+ overall:**  \n  Top-quartile territory (per Virtuous 2026); considered excellent.\n\nFor **smaller nonprofits (<1,000 donors)**, 4aGoodCause suggests:\n- A realistic goal: **35\u201345%** overall retention.\n\n---\n\n## 6. Quick cheat sheet\n\n- Overall retention (typical): **~40\u201345%**\n- Overall retention (strong): **50%+**\n- Overall retention (top quartile, mid-sized sample): **~70%**\n- New donor retention: **~14\u201320%**\n- First-to-second gift conversion: **~26% (avg) / ~38% (top quartile)**\n- Repeat donor retention: **~44\u201370%** (up to **~90%** for recurring/monthly)\n- Major donor retention: **~50\u201357%**\n- Micro donor retention: **~20\u201321%**\n\n---\n\nIf you share your own numbers (overall, new, repeat, and total donor counts year over year), I can compare them directly to these benchmarks and suggest realistic improvement goals.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1212,
+  "estimated_cost_usd": 0.023201,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://virtuous.org/blog/understanding-donor-retention/",
+      "https://4agoodcause.com/the-importance-of-donor-retention-how-to-calculate-and-track/",
+      "https://www.donorsearch.net/resources/donor-retention/",
+      "https://bloomerang.com/blog/donor-retention/",
+      "https://www.nextafter.com/blog/donor-retention/",
+      "https://www.ccsfundraising.com/insights/donor-acquisition-and-retention-strategies/",
+      "https://fundraisingreportcard.com/benchmarks/",
+      "https://afpglobal.org/news/fundraising-effectiveness-project-data-q1-2025-shows-increases-dollars-raised-declining",
+      "https://www.blackbaud.com/industry-insights/glossary/donor-retention"
+    ]
+  }
+}

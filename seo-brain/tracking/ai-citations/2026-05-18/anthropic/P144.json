@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P144",
+  "prompt_text": "How to choose nonprofit fundraising software",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898663+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Choose Nonprofit Fundraising Software\n\n## Key Features to Look For\n\n**Essential capabilities:**\n- **Donation processing** - Online giving, recurring donations, mobile payments\n- **Donor management** - Contact database, giving history, engagement tracking\n- **Reporting & analytics** - Financial reports, campaign performance, donor insights\n- **Communication tools** - Email marketing, receipts, thank-you letters\n- **Integration** - Connects with your accounting, email, and other tools\n\n## Important Selection Criteria\n\n### 1. **Your Budget**\n- Consider setup fees, monthly costs, and transaction fees\n- Many offer nonprofit discounts (typically 15-50% off)\n- Calculate total cost of ownership, not just sticker price\n\n### 2. **Ease of Use**\n- Staff should be able to learn it quickly\n- Donors need a smooth giving experience\n- Look for intuitive interfaces and good support\n\n### 3. **Scalability**\n- Will it grow with your organization?\n- Can it handle increased donation volume?\n\n### 4. **Compliance & Security**\n- PCI-DSS compliance for payment processing\n- Data security and backup features\n- Tax receipt generation\n\n## Popular Options by Organization Size\n\n**Small nonprofits:** Donorbox, GiveWP, Kindful\n**Mid-size:** Bloomerang, Little Green Light, Neon CRM\n**Large organizations:** Blackbaud, Salesforce Nonprofit Cloud\n\n## Before You Decide\n\n- Request demos from 3-5 platforms\n- Ask about onboarding and training\n- Check user reviews from similar nonprofits\n- Test the donor-facing experience yourself\n\nWhat size is your organization? I can offer more specific recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 388,
+  "estimated_cost_usd": 0.005862,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

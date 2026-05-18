@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P016",
+  "prompt_text": "Alternative to DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898579+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorPerfect is a popular choice for nonprofit CRM and fundraising, but there are many excellent alternatives depending on your specific needs, budget, and organizational size.\n\nHere's a breakdown of top alternatives, categorized by their strengths and ideal users:\n\n---\n\n### **Direct Competitors / All-in-One Solutions (Similar Feature Set)**\n\nThese platforms offer a comprehensive suite of features comparable to DonorPerfect, often with a slightly different focus or user experience.\n\n1.  **Bloomerang**\n    *   **Strengths:** Highly praised for ease of use, intuitive interface, strong donor retention focus, excellent reporting, and integration with popular tools. Recently acquired Kindful, expanding their offerings.\n    *   **Best For:** Small to mid-sized nonprofits looking for a user-friendly, modern CRM with a strong emphasis on donor engagement and retention.\n    *   **Key Features:** Donor profiles, communication tools, email marketing, reporting, wealth screening, online fundraising pages, event management.\n\n2.  **Neon CRM (part of Neon One)**\n    *   **Strengths:** Very comprehensive, offering CRM, fundraising, event management, membership management, website content management, and peer-to-peer fundraising all within one platform. Good for organizations with diverse needs.\n    *   **Best For:** Mid-sized to larger nonprofits, particularly those with membership programs, complex events, or a need for an all-in-one solution that covers many operational aspects.\n    *   **Key Features:** Robust CRM, membership management, event registration, volunteer management, grants management, advocacy tools, website integration.\n\n3.  **Blackbaud (Raiser's Edge NXT, eTapestry)**\n    *   **Strengths:** Blackbaud is the largest player in the nonprofit software space.\n        *   **Raiser's Edge NXT:** Enterprise-grade solution with extensive features, deep analytics, and strong customization.\n        *   **eTapestry:** More affordable and simpler, designed for smaller to mid-sized organizations.\n    *   **Best For:**\n        *   **Raiser's Edge NXT:** Large, complex organizations with significant budgets and advanced fundraising needs.\n        *   **eTapestry:** Smaller to mid-sized organizations looking for a solid Blackbaud solution without the RE NXT price tag/complexity.\n    *   **Key Features:** Advanced fundraising, gift processing, donor management, prospect research, reporting, event management, grant management.\n\n4.  **Network for Good**\n    *   **Strengths:** Focuses on empowering small to mid-sized nonprofits with fundraising tools and personalized coaching. Offers a user-friendly platform and dedicated support.\n    *   **Best For:** Small to mid-sized organizations that value personalized support and coaching alongside their CRM and fundraising tools.\n    *   **Key Features:** Online giving pages, peer-to-peer fundraising, text-to-give, email marketing, event management, CRM.\n\n5.  **Little Green Light (LGL)**\n    *   **Strengths:** Very affordable for the features offered, robust, and praised for its customer support and data migration capabilities. Excellent value.\n    *   **Best For:** Small to mid-sized nonprofits looking for a powerful and comprehensive CRM solution on a tighter budget.\n    *   **Key Features:** Donor management, gift tracking, acknowledgments, pledges, campaigns, event management, volunteers, mail merge, customizable forms.\n\n---\n\n### **Comprehensive & Customizable (Often for Larger or Growing Orgs)**\n\nThese platforms offer immense flexibility and can be tailored to very specific needs, though they might have a steeper learning curve or higher initial setup costs.\n\n1.  **Salesforce Nonprofit Cloud (N",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One",
+    "Network for Good",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 777,
+  "estimated_cost_usd": 0.001944,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

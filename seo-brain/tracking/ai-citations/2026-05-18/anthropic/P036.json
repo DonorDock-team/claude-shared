@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P036",
+  "prompt_text": "Best donor management software for nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898653+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor Management Software for Nonprofits\n\nHere are the top options based on organization size and needs:\n\n## **Best Overall**\n- **Bloomerang** - Excellent retention tools, user-friendly interface, strong reporting\n- **DonorPerfect** - Comprehensive features, scalable, good customer support\n\n## **Best for Small Nonprofits**\n- **Little Green Light** - Affordable, intuitive, great for organizations under $2M budget\n- **Kindful** (by Bloomerang) - Simple interface, good automation features\n- **Donorbox** - Easy setup, low cost, integrated fundraising\n\n## **Best for Large Organizations**\n- **Blackbaud Raiser's Edge NXT** - Enterprise-level, extensive features, established platform\n- **Salesforce Nonprofit Cloud** - Highly customizable, powerful integrations\n\n## **Best Free/Budget Options**\n- **Bitrix24** - Free for unlimited users (limited features)\n- **CiviCRM** - Open-source, free but requires technical knowledge\n- **Kindful** - Free tier available for very small nonprofits\n\n## **Key Features to Consider:**\n- Online donation processing\n- Email marketing integration\n- Automated receipts and acknowledgments\n- Reporting and analytics\n- Volunteer management\n- Event management\n- Mobile access\n- Integration capabilities (QuickBooks, Mailchimp, etc.)\n\n**What size is your nonprofit?** Budget and staff size will help narrow down the best choice for your specific situation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorBox",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 348,
+  "estimated_cost_usd": 0.005265,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

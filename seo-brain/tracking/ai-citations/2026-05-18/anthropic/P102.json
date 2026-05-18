@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898321+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Free Alternatives to Salesforce Nonprofit Cloud\n\n## **Fully Free Options**\n\n### **1. CiviCRM**\n- **Best for:** Organizations comfortable with technical setup\n- **Features:** Donor management, event registration, email marketing, case management, membership tracking\n- **Platform:** Works with WordPress, Drupal, Joomla\n- **Note:** Free and open-source, but may require technical expertise or developer costs\n\n### **2. SuiteCRM**\n- **Best for:** Organizations wanting traditional CRM functionality\n- **Features:** Contact management, fundraising tracking, workflow automation, reporting\n- **Note:** Open-source fork of SugarCRM with active community support\n\n### **3. EspoCRM**\n- **Best for:** Smaller nonprofits with basic needs\n- **Features:** Contact management, task management, calendar, basic reporting\n- **Note:** Clean interface, easier learning curve than CiviCRM\n\n## **Free Plans with Limitations**\n\n### **4. HubSpot for Nonprofits**\n- **Free tier includes:** Contact management, email marketing (2,000 sends/month), forms, basic reporting\n- **Limitations:** Advanced features require paid plans\n- **Discount:** 40% off paid plans for eligible nonprofits\n\n### **5. Bitrix24**\n- **Free plan:** Up to 12 users\n- **Features:** CRM, project management, communication tools, document management\n- **Limitations:** Storage and feature caps on free tier\n\n### **6. Zoho CRM (Nonprofit Program)**\n- **Free plan:** Up to 3 users\n- **Discount:** 50% off paid plans for registered nonprofits\n- **Features:** Contact management, sales automation, analytics\n\n## **Considerations When Choosing**\n\n- **Technical capacity:** Open-source = more customization but requires tech skills\n- **User limits:** Many free plans restrict number of users\n- **Scalability:** Consider whether the platform can grow with you\n- **Support:** Free options often have community-only support\n- **Integration needs:** Check compatibility with existing tools\n\nWould you like more details about any specific option?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 486,
+  "estimated_cost_usd": 0.007338,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

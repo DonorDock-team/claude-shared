@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P022",
+  "prompt_text": "Best DonorPerfect alternatives",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898899+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best DonorPerfect Alternatives\n\nHere are top alternatives to DonorPerfect for nonprofit fundraising and donor management:\n\n## **Top Competitors**\n\n### **1. Bloomerang**\n- **Best for:** Donor retention focus\n- Strong reporting and donor engagement tools\n- Intuitive interface, easier learning curve\n- **Pricing:** Starts ~$125/month\n\n### **2. Little Green Light**\n- **Best for:** Small to mid-sized nonprofits\n- Affordable with robust features\n- Excellent customer support\n- **Pricing:** Starts ~$59/month\n\n### **3. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations needing customization\n- Highly scalable and feature-rich\n- Steeper learning curve\n- **Pricing:** Starts ~$36/user/month (discounted for nonprofits)\n\n### **4. Neon CRM**\n- **Best for:** All-in-one fundraising solution\n- Includes event management and email marketing\n- Good reporting capabilities\n- **Pricing:** Starts ~$99/month\n\n### **5. Kindful (by Bloomerang)**\n- **Best for:** Growing nonprofits\n- Strong integrations and automation\n- Modern interface\n- **Pricing:** Custom quotes\n\n### **6. Raiser's Edge NXT (Blackbaud)**\n- **Best for:** Enterprise-level organizations\n- Industry standard for large nonprofits\n- Comprehensive but expensive\n- **Pricing:** Custom (typically higher-end)\n\n## **Key Considerations**\n- Organization size and budget\n- Integration needs (accounting, email, etc.)\n- Reporting requirements\n- Team technical expertise\n\nWhat's your nonprofit's size and primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 402,
+  "estimated_cost_usd": 0.006075,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

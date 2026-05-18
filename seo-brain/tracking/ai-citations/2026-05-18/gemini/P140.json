@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898481+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Many donor CRMs integrate with QuickBooks Online (QBO), making financial reconciliation and donor tracking much more efficient for nonprofits. The level and type of integration can vary, from simple daily summaries to detailed transaction and constituent syncing.\n\nHere are some of the top donor CRMs known for their integration with QuickBooks Online:\n\n### Top Recommendations for Donor CRMs with QBO Integration\n\n1.  **Bloomerang:**\n    *   **Strengths:** Highly user-friendly, focus on donor retention, excellent reporting. Their QBO integration is robust and designed specifically for nonprofits.\n    *   **QBO Integration:** Syncs donations (as sales receipts or invoices), refunds, and donor information (as customers). You can map your CRM campaigns and funds to specific QBO income accounts. It can also sync individual gift details or aggregate daily totals.\n    *   **Best For:** Nonprofits of all sizes looking for a modern, intuitive CRM with strong financial syncing.\n\n2.  **Neon One (NeonCRM):**\n    *   **Strengths:** Comprehensive suite offering CRM, membership management, event registration, and fundraising tools.\n    *   **QBO Integration:** Offers a strong integration that syncs donations, pledges, membership fees, event registrations, and even constituent data. You can choose how transactions are posted (individually or batched) and map them to various QBO accounts.\n    *   **Best For:** Organizations needing an all-in-one solution for various types of revenue and constituent engagement.\n\n3.  **Virtuous:**\n    *   **Strengths:** Modern, AI-powered CRM with a strong emphasis on responsive fundraising, marketing automation, and donor journey mapping.\n    *   **QBO Integration:** Provides a seamless integration for syncing donations, pledges, and donor information. It's designed to ensure your financial records in QBO accurately reflect the detailed donor data in Virtuous.\n    *   **Best For:** Nonprofits focused on growth, personalized donor engagement, and advanced marketing automation.\n\n4.  **DonorPerfect:**\n    *   **Strengths:** Long-standing, feature-rich CRM with a comprehensive set of tools for fundraising, donor management, and reporting.\n    *   **QBO Integration:** Offers a dedicated integration that allows you to post donations, pledges, and other income directly to QBO, typically as sales receipts or invoices. You can map your DonorPerfect GL accounts to QBO accounts.\n    *   **Best For:** Established nonprofits needing a robust, proven system with extensive features.\n\n5.  **Little Green Light (LGL):**\n    *   **Strengths:** Affordable, powerful, and very flexible CRM, particularly good for smaller to medium-sized nonprofits. Excellent customer support.\n    *   **QBO Integration:** Provides a solid integration where you can export donations from LGL and import them into QBO, or use their direct integration to push gifts. You can map your LGL categories to QBO income accounts.\n    *   **Best For:** Budget-conscious organizations that still need powerful donor management and reliable QBO integration.\n\n6.  **Salesforce (with Nonprofit Success Pack - NPSP):**\n    *   **Strengths:** Incredibly powerful and customizable platform, free for up to 10 users for nonprofits. Can be tailored to almost any need.\n    *   **QBO Integration:** Salesforce NPSP itself doesn't have a",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "LGL",
+    "Little Green Light",
+    "Neon One",
+    "Salesforce NPSP",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 712,
+  "estimated_cost_usd": 0.001782,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

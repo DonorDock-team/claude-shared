@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P023",
+  "prompt_text": "What is replacing Kindful",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898960+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# What's Replacing Kindful\n\nKindful was sunset by Bloomerang after their acquisition. Here are the main alternatives nonprofits are migrating to:\n\n## Direct Replacements\n\n**Bloomerang** - The parent company encourages Kindful users to migrate to their platform, which offers similar donor management and fundraising features.\n\n## Popular Alternatives\n\n1. **DonorPerfect** - Comprehensive donor management with strong reporting\n2. **Little Green Light** - Affordable option for small to mid-sized nonprofits\n3. **Neon CRM** - Modern interface with integrated fundraising tools\n4. **Salsa Engage** - Good for advocacy and marketing alongside donor management\n5. **Keela** - AI-powered insights for donor engagement\n6. **Givebutter** - Free fundraising platform with CRM features\n7. **Network for Good** - Simple donor management and fundraising\n\n## What to Consider\n\n- **Size of your organization** - donor database size\n- **Budget** - pricing varies significantly\n- **Features needed** - event management, email marketing, peer-to-peer fundraising\n- **Integration requirements** - accounting software, email platforms, payment processors\n- **Data migration support** - how easy it is to move your existing data\n\nMany former Kindful users have moved to **Bloomerang** or **DonorPerfect** as they offer the most similar feature sets.\n\nWhat specific features are most important for your organization?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 332,
+  "estimated_cost_usd": 0.005019,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

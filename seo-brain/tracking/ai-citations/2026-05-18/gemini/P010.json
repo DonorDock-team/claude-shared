@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P010",
+  "prompt_text": "Does DonorDock have online giving",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898102+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Yes, DonorDock **does** have online giving capabilities.\n\nIt allows organizations to create customizable, branded donation pages and forms directly within the platform. Key features typically include:\n\n*   **Customizable Donation Pages:** Design pages that match your organization's branding.\n*   **One-Time & Recurring Donations:** Easily allow donors to choose between single gifts and automated recurring payments.\n*   **Mobile Responsiveness:** Ensure donation forms look good and are easy to use on any device.\n*   **Seamless Integration:** Data from online donations automatically flows back into your DonorDock CRM, updating donor records and campaign progress.\n*   **Payment Processor Integration:** Often connects with popular payment processors like Stripe for secure transaction handling.\n\nThis makes it a comprehensive tool for both managing donors and facilitating online fundraising.",
+  "donordock_mentioned": true,
+  "donordock_position": 5,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 164,
+  "estimated_cost_usd": 0.000412,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

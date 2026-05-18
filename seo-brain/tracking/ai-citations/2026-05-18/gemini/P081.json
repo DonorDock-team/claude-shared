@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P081",
+  "prompt_text": "Best donor CRM for community colleges",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898046+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a community college depends heavily on specific needs, budget, existing tech stack, and the size/sophistication of the development team. However, I can recommend some top contenders and outline the key features community colleges should prioritize.\n\n**Key Considerations for Community Colleges:**\n\n1.  **Budget:** Community colleges often have tighter budgets than major universities. Cost-effectiveness is paramount, including implementation and ongoing fees.\n2.  **Ease of Use:** Smaller development teams mean less time for complex training. An intuitive interface is crucial.\n3.  **Integration:** Needs to play nicely with existing student information systems (SIS), finance software, and marketing tools.\n4.  **Donor Base:** Community colleges often have a diverse donor base (alumni, local businesses, community members, foundations). The CRM needs to handle different donor types effectively.\n5.  **Scalability:** Can it grow with the college's fundraising efforts?\n6.  **Reporting:** Robust reporting for grant applications, board reports, and campaign analysis.\n7.  **Support & Training:** Accessible and responsive customer support, along with good training resources.\n\n---\n\n### Top Donor CRM Recommendations for Community Colleges:\n\nBased on these considerations, here are the leading options:\n\n1.  **Bloomerang:**\n    *   **Why it's great for Community Colleges:**\n        *   **User-Friendly:** Consistently praised for its intuitive interface, making it easy for smaller teams to adopt quickly.\n        *   **Donor Retention Focus:** Strong features for tracking donor engagement, health, and communication frequency, which is vital for cultivating a local donor base.\n        *   **Affordable:** Generally more budget-friendly than enterprise solutions like Blackbaud or Salesforce.\n        *   **Good Reporting & Analytics:** Provides actionable insights into fundraising performance.\n        *   **Excellent Support:** Known for responsive customer service.\n    *   **Considerations:** While powerful, it might not have the absolute deepest features for highly complex prospect research or multi-campus university systems that larger institutions might need, but it's typically more than sufficient for a community college.\n\n2.  **Blackbaud (Raiser's Edge NXT or FENXT):**\n    *   **Why it's great for Community Colleges:**\n        *   **Industry Standard:** Blackbaud is a dominant player in the education and non-profit space, meaning a vast ecosystem, many users, and deep feature sets.\n        *   **Comprehensive Features:** Offers robust tools for donor management, prospect research, grant management, events, and alumni relations. Raiser's Edge NXT is the modern cloud-based version. FENXT (Fundraising and Engagement with Microsoft Dynamics 365) is another strong option.\n        *   **Scalable:** Can handle growth from small to very large fundraising operations.\n    *   **Considerations:**\n        *   **Cost:** Tends to be one of the more expensive options, both in subscription and implementation.\n        *   **Learning Curve:** While NXT is more",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 641,
+  "estimated_cost_usd": 0.001604,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

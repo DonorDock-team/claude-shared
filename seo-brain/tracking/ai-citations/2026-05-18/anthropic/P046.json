@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P046",
+  "prompt_text": "Best donor CRM for arts and cultural nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898057+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Arts & Cultural Nonprofits\n\n## Top Recommendations\n\n### **1. PatronManager (by Salesforce)**\n- **Best for:** Performing arts organizations, museums, theaters\n- **Key features:** Built on Salesforce, integrates ticketing with fundraising, patron relationship tracking, campaign management\n- **Pricing:** Custom (typically $2,000-5,000+/year)\n- **Why it's good:** Purpose-built for arts organizations, tracks both ticket buyers and donors\n\n### **2. Tessitura**\n- **Best for:** Large museums, performing arts centers, cultural institutions\n- **Key features:** Enterprise-level ticketing + CRM, membership management, comprehensive patron data\n- **Pricing:** Expensive ($50,000+ implementation, ongoing fees)\n- **Why it's good:** Industry standard for major cultural institutions\n\n### **3. Blackbaud Altru**\n- **Best for:** Museums, zoos, aquariums, cultural attractions\n- **Key features:** Combines fundraising, membership, ticketing, and admissions\n- **Pricing:** Custom (mid to high range)\n- **Why it's good:** Specifically designed for cultural visitor-serving organizations\n\n### **4. Bloomerang**\n- **Best for:** Small to mid-sized arts nonprofits\n- **Key features:** Donor retention focus, easy to use, good reporting\n- **Pricing:** $125-500/month\n- **Why it's good:** Affordable, excellent donor engagement tools\n\n### **5. Little Green Light**\n- **Best for:** Budget-conscious smaller organizations\n- **Key features:** Full-featured CRM, grant tracking, reporting\n- **Pricing:** $39-99/month\n- **Why it's good:** Cost-effective with no setup fees\n\n## Key Considerations\n- **Ticketing integration** if you sell tickets/admissions\n- **Membership management** capabilities\n- **Event management** features\n- **Budget** and organization size\n\nWhat size is your organization and what's your primary need?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 464,
+  "estimated_cost_usd": 0.007014,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

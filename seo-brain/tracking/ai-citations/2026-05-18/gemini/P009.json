@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898039+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Givebutter serve overlapping but distinct needs for nonprofits. While both aim to help organizations raise money and manage donors, their primary focus, feature sets, and pricing models differ significantly.\n\nHere's a breakdown to help you decide which might be a better fit for your organization:\n\n## DonorDock vs. Givebutter: At a Glance\n\n| Feature                 | DonorDock                                         | Givebutter                                         |\n| :---------------------- | :------------------------------------------------ | :------------------------------------------------- |\n| **Primary Focus**       | Comprehensive Donor Relationship Management (CRM) | All-in-one Fundraising Platform                    |\n| **Core Strength**       | Donor data, segmentation, cultivation, reporting  | Diverse campaign types, easy setup, modern design  |\n| **Target Audience**     | Nonprofits needing robust donor CRM, growing       | Small-to-medium nonprofits, startups, event-heavy  |\n| **Pricing Model**       | Subscription-based (monthly/annual fees)          | Free to use (primarily relies on transaction fees) |\n| **Fundraising Tools**   | Donation forms, pledges, grant tracking           | Donation forms, P2P, crowdfunding, events, auctions, text-to-donate |\n| **Donor Management**    | **Robust CRM:** detailed profiles, interactions, segmentation, moves management, communication history | **Basic CRM:** donor profiles, transaction history, simple segmentation |\n| **Communication**       | Email marketing, letter generation, appeals       | Email automation (thank yous, receipts), basic outreach |\n| **Ease of Use**         | Moderate (more features means more complexity)    | Very easy for campaign creation and management     |\n| **Integrations**        | Often with accounting, email marketing, payment processors | With payment processors, some basic CRM/email marketing tools |\n\n---\n\n## Detailed Comparison\n\n### 1. Primary Purpose & Core Strength\n\n*   **DonorDock:** This platform is first and foremost a **Donor Relationship Management (CRM) system**. Its strength lies in helping nonprofits track, segment, and cultivate their donors over the long term. It's built for understanding donor behavior, managing interactions, and building strategic relationships. Fundraising tools are integrated, but the donor data is the star.\n*   **Givebutter:** Givebutter's core strength is being an **all-in-one fundraising platform**. It excels at providing a wide array of engaging and easy-to-use tools for various fundraising campaigns \u2013 from simple donation pages to complex events and peer-to-peer initiatives. While it has donor management features, they are secondary to its fundraising capabilities.\n\n### 2. Fundraising Capabilities\n\n*   **DonorDock:** Offers essential fundraising tools like online donation forms, pledge management, and often includes features for tracking grants and major gifts. Its forms might be more integrated with the CRM for immediate data capture and donor history updates. However, it generally doesn't offer the same breadth of campaign types (like crowdfunding or peer-to-peer) as Givebutter.\n*   **Givebutter:** Where Givebutter shines. It provides a comprehensive suite of fundraising tools including:\n    *   **Online Donation Pages:** Customizable and modern.\n    *   **Peer-to-Peer Fundraising:** Easy setup for individual fundraisers.\n    *   **Crowdfunding:** Dedicated campaign pages.\n    *   **Event Ticketing:** For gal",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 702,
+  "estimated_cost_usd": 0.001757,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

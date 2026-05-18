@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P143",
+  "prompt_text": "Donor CRM that does pledges and recurring",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898606+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRMs with Pledges & Recurring Donations\n\nHere are the top options that handle both pledge tracking and recurring donation processing:\n\n## **Best Overall**\n- **Salesforce Nonprofit Cloud** (NPSP)\n  - Robust pledge management and recurring donation schedules\n  - Highly customizable\n  - Requires more setup/expertise\n\n## **Best for Small-Medium Nonprofits**\n- **Bloomerang**\n  - Built-in pledge tracking and recurring gift management\n  - User-friendly interface\n  - Strong donor retention focus\n\n- **DonorPerfect**\n  - Comprehensive pledge and recurring donation features\n  - Integrated payment processing\n  - Good reporting capabilities\n\n## **Best Value**\n- **Little Green Light**\n  - Solid pledge and recurring donation tracking\n  - Affordable pricing\n  - Simple to use\n\n## **Other Strong Options**\n- **Kindful** (by Bloomerang) - Modern interface, good automation\n- **Blackbaud Raiser's Edge NXT** - Enterprise-level, extensive features\n- **Neon CRM** - All-in-one platform with strong recurring gifts\n- **Keela** - AI-powered insights, good for growth-focused orgs\n\n## **Key Questions to Consider:**\n- Organization size and budget?\n- Payment processor preferences?\n- Need for online donation forms?\n- Integration requirements (accounting, email, etc.)?\n\nWhat's your organization's size and primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 339,
+  "estimated_cost_usd": 0.005136,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

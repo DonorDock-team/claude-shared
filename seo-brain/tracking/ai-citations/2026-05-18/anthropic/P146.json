@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P146",
+  "prompt_text": "Best donor CRM with grant tracking",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898782+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs with Grant Tracking\n\n## Top Recommendations\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large nonprofits with complex needs\n- **Grant tracking:** Robust grant management, custom reporting, deadline tracking\n- **Pros:** Highly customizable, extensive integrations, scalable\n- **Cons:** Steep learning curve, requires dedicated admin\n- **Pricing:** ~$36+/user/month\n\n### **2. Bloomerang**\n- **Best for:** Small to mid-size nonprofits\n- **Grant tracking:** Basic grant tracking, foundation relationship management\n- **Pros:** User-friendly, excellent retention metrics, good support\n- **Cons:** Limited grant-specific features compared to specialized tools\n- **Pricing:** Starts ~$125/month\n\n### **3. DonorPerfect**\n- **Best for:** Organizations wanting all-in-one solution\n- **Grant tracking:** Grant module available, proposal tracking, reporting deadlines\n- **Pros:** Comprehensive features, good customer support\n- **Cons:** Interface feels dated to some users\n- **Pricing:** Custom quotes (typically $89+/month)\n\n### **4. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established nonprofits with larger budgets\n- **Grant tracking:** Strong grant management capabilities\n- **Pros:** Industry leader, comprehensive features\n- **Cons:** Expensive, complex implementation\n- **Pricing:** Premium pricing (contact for quote)\n\n### **5. Instrumentl** (Specialized Alternative)\n- Pure grant discovery and tracking tool that integrates with CRMs\n- Excellent for grant-focused organizations\n\n## Key Features to Look For\n- Grant deadline reminders\n- Document storage\n- Reporting requirements tracking\n- Foundation relationship history\n- Budget vs. actual tracking\n\n**Recommendation:** Start with **Bloomerang** for ease of use, or **Salesforce** if you have technical resources and complex needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 452,
+  "estimated_cost_usd": 0.006822,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

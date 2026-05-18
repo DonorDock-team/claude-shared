@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.898727+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor pledges effectively is crucial for managing fundraising campaigns and ensuring that pledged amounts are collected. Here\u2019s a step-by-step guide to help you track donor pledges:\n\n1. **Choose the Right Software:**\n   - Use a donor management system or CRM like Salesforce, DonorPerfect, Blackbaud, or Little Green Light to track pledges.\n   - Ensure the system can handle pledge tracking, reminders, and reporting.\n\n2. **Create Pledge Records:**\n   - Enter every donor\u2019s pledge into the system. Include information such as the donor\u2019s name, contact details, pledged amount, payment schedule, campaign name, and donation purpose.\n\n3. **Set Up Payment Schedules:**\n   - Define the payment intervals (e.g., monthly, quarterly, annually) for each pledge and enter them into your system.\n   - Include start and end dates for the pledge, if applicable.\n\n4. **Automate Reminders and Acknowledgments:**\n   - Set up automatic reminders for upcoming or overdue payments. Email notifications or calendar alerts can be effective.\n   - Send acknowledgments and thank you notes for each payment received to maintain good donor relations.\n\n5. **Monitor and Report:**\n   - Regularly review reports to monitor the status of pledges. Look into the total pledges received, upcoming payments, overdue payments, and fulfilled pledges.\n   - Use dashboards to visualize data for quick insights.\n\n6. **Communicate with Donors:**\n   - Keep open communication with donors regarding their pledges, providing updates about the impact of their contributions.\n   - Send newsletters or updates on the campaign\u2019s progress to maintain engagement.\n\n7. **Follow Up on Overdue Pledges:**\n   - Develop a follow-up plan for overdue pledges. This could include a series of emails or phone calls.\n   - Be tactful and courteous, understanding that circumstances may change.\n\n8. **Review and Adjust:**\n   - Periodically review your pledge tracking process for efficiency and accuracy.\n   - Adjust your strategies as needed based on performance and donor feedback.\n\n9. **Maintain Data Security:**\n   - Ensure donor information and financial data are secure. Use encryption and secure passwords to protect sensitive information.\n\n10. **Evaluate Campaign Performance:**\n    - After the campaign, analyze the pledge data to evaluate the performance. Identify trends and areas for improvement for future campaigns.\n\nBy following these steps and using the right tools, you can efficiently manage and track donor pledges, enhancing your organization\u2019s fundraising efforts and donor relationships.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "DonorPerfect",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 510,
+  "estimated_cost_usd": 0.005132,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

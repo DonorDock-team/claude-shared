@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P062",
+  "prompt_text": "Best nonprofit CRM with email and text messaging",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.897985+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" nonprofit CRM with email and text messaging depends heavily on your organization's specific needs, size, budget, and technical expertise. However, I can highlight the top contenders known for strong communication capabilities.\n\nHere are the leading nonprofit CRMs that excel in integrated email and text messaging:\n\n### Top Contenders for Nonprofit CRMs with Email & Text Messaging\n\n1.  **Bloomerang**\n    *   **Strengths:**\n        *   **User-Friendly:** Often praised for its intuitive interface and ease of use, making it quick for staff to adopt.\n        *   **Strong Donor Engagement Focus:** Features like the Engagement Meter help segment donors and predict future giving.\n        *   **Integrated Email:** Robust email builder, templates, segmentation, and tracking are built-in.\n        *   **Integrated SMS/Text Messaging:** Offers direct integration for sending text messages, often powered by partnerships (e.g., Twilio for direct SMS).\n        *   **Good Reporting:** Easy-to-understand reports on fundraising performance and donor engagement.\n        *   **Modern Feel:** Constantly updating with new features and a responsive design.\n    *   **Weaknesses:** Might not have the depth of customization or enterprise-level features for *extremely* large and complex organizations.\n    *   **Best For:** Small to medium-sized nonprofits that prioritize ease of use, strong donor engagement features, and integrated multi-channel communication without heavy technical lift.\n\n2.  **Neon One (NeonCRM)**\n    *   **Strengths:**\n        *   **All-in-One Solution:** Very comprehensive, often including donor management, fundraising, membership management, event registration, volunteer management, and grants.\n        *   **Robust Email & Text Messaging:** Native email marketing tools with segmentation and automation. Offers direct SMS functionality (often through add-ons or integrations).\n        *   **Powerful Reporting:** Extensive reporting capabilities across all modules.\n        *   **Scalable:** Can serve a wide range of nonprofit sizes.\n    *   **Weaknesses:** Can have a steeper learning curve due to its extensive feature set; the interface, while functional, might not be as \"sleek\" as Bloomerang for some.\n    *   **Best For:** Medium to large nonprofits that need a single, integrated platform for many different operational areas (fundraising, events, membership, volunteers) and robust communication.\n\n3.  **Salesforce Nonprofit Cloud**\n    *   **Strengths:**\n        *   **Unrivaled Customization & Scalability:** Built on the world's leading CRM platform, it's incredibly flexible and can be customized to fit any nonprofit's unique workflow, no matter how complex.\n        *   **Vast",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Neon One",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 573,
+  "estimated_cost_usd": 0.001435,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

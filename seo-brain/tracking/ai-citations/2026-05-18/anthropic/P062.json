@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P062",
+  "prompt_text": "Best nonprofit CRM with email and text messaging",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.897942+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Nonprofit CRMs with Email & Text Messaging\n\n## Top Recommendations\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- **Strengths:** Donor retention focus, email campaigns, text-to-give\n- **Pricing:** ~$125/month+\n- **Limitations:** SMS features require integrations\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger nonprofits with complex needs\n- **Strengths:** Highly customizable, robust email marketing, SMS via Marketing Cloud\n- **Pricing:** Free for 10 users (Power of Us program), paid plans from ~$36/user/month\n- **Note:** Steeper learning curve\n\n### **3. Kindful (by Bloomerang)**\n- **Best for:** Growing nonprofits\n- **Strengths:** Strong email tools, integrates with MailChimp/Constant Contact\n- **Pricing:** ~$100/month+\n- **SMS:** Via third-party integrations\n\n### **4. NeonCRM**\n- **Best for:** All-in-one solution seekers\n- **Strengths:** Built-in email marketing, event management, membership tools\n- **Pricing:** Starts ~$50/month\n- **SMS:** Available through add-ons\n\n### **5. Keela**\n- **Best for:** Budget-conscious organizations\n- **Strengths:** AI-powered insights, email campaigns included, SMS capabilities\n- **Pricing:** From ~$99/month\n\n## Key Considerations\n- **Native vs. Integration:** Some have built-in messaging; others require Twilio/SimpleTexting integration\n- **Volume needs:** Check SMS costs separately\n- **Compliance:** Ensure TCPA compliance for texting\n\n**What's your nonprofit's size and primary use case?** That would help narrow the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Keela",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 435,
+  "estimated_cost_usd": 0.006573,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

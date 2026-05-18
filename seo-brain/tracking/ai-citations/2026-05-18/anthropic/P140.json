@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898438+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRMs with QuickBooks Online Integration\n\nHere are top donor management systems that integrate with QuickBooks Online:\n\n## **Best Overall Options**\n\n### **1. Bloomerang**\n- Native QuickBooks Online integration\n- Excellent donor retention tracking\n- Automated gift acknowledgments\n- Price: ~$125-500+/month\n\n### **2. DonorPerfect**\n- Bi-directional QuickBooks sync\n- Comprehensive donor management\n- Grant tracking capabilities\n- Price: ~$89-500+/month\n\n### **3. Little Green Light**\n- QuickBooks Online integration via Zapier\n- User-friendly interface\n- Good for small-to-mid nonprofits\n- Price: ~$59-179/month\n\n## **Other Strong Contenders**\n\n### **4. Kindful (by Bloomerang)**\n- Direct QuickBooks integration\n- Modern interface\n- Email marketing included\n- Price: ~$100-400+/month\n\n### **5. Neon CRM**\n- QuickBooks sync available\n- All-in-one nonprofit platform\n- Event management included\n- Price: ~$50-300+/month\n\n### **6. Salsa CRM**\n- QuickBooks connector available\n- Strong advocacy tools\n- Price: Custom pricing\n\n## **Key Factors to Consider**\n\n- **Sync type**: One-way vs. bi-directional\n- **Frequency**: Real-time vs. scheduled syncs\n- **Data mapped**: Which fields sync (donations, contacts, etc.)\n- **Organization size**: Your donor database size\n- **Budget**: Setup fees + monthly costs\n\nWould you like specific recommendations based on your organization's size or needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 391,
+  "estimated_cost_usd": 0.005922,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

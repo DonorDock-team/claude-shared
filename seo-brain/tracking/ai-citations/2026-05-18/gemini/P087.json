@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P087",
+  "prompt_text": "Best donor CRM for refugee services",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898532+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for refugee services depends heavily on your organization's specific size, budget, complexity of programs, and existing tech stack.\n\nHowever, given the unique aspects of refugee services \u2013 often involving a mix of individual donors, grants, volunteers, and sometimes in-kind donations, alongside a deep commitment to impact \u2013 here are the top contenders and key considerations:\n\n**Key Considerations for Refugee Services:**\n\n1.  **Grant Management:** Many refugee services rely heavily on grants. A CRM with strong grant tracking, reporting, and pipeline management is crucial.\n2.  **Volunteer Management:** Volunteers are often the backbone of refugee support. Integration or robust features for tracking volunteer hours, skills, and communication are essential.\n3.  **In-Kind Donations:** Tracking non-monetary gifts (clothing, furniture, food) is common. The CRM should handle this effectively.\n4.  **Impact Reporting:** The ability to link donations to specific programs or outcomes (even if loosely, as a donor CRM won't be a case management system) helps tell your story.\n5.  **Ease of Use & Training:** Staff and volunteers might have varying tech literacy. A user-friendly interface is vital.\n6.  **Integration with Case Management (Separate System):** This is CRITICAL. A donor CRM is for fundraising and donor relations. It is **NOT** for managing sensitive client (refugee) data. You will likely need a separate, specialized case management system (like Apricot, Social Solutions, Penelope, Efforts to Outcomes, or even a customized Salesforce Service Cloud) and ideally, your donor CRM should be able to integrate with it for high-level reporting (e.g., \"donations supporting 100 families\" rather than individual client names).\n7.  **Budget & Scalability:** Non-profits need cost-effective solutions that can grow with them.\n\n---\n\n### Top Donor CRM Recommendations for Refugee Services:\n\n**1. Salesforce Nonprofit Cloud (NPSP)**\n\n*   **Pros:**\n    *   **Highly Customizable & Scalable:** Can handle immense complexity, perfect for organizations with diverse programs, large donor bases, and significant grant portfolios.\n    *   **Robust Grant Management:** Excellent for tracking grants, proposals, reporting deadlines, and financial disbursements.\n    *   **Comprehensive:** Manages individual donors, organizations, campaigns, events, volunteers, and can be extended for almost anything.\n    *   **Ecosystem:** Access to thousands of apps (AppExchange) for specific needs (e.g., advanced volunteer management, advocacy tools).\n    *   **Nonprofit Focus",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 544,
+  "estimated_cost_usd": 0.001362,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

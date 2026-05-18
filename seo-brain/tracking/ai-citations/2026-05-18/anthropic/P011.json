@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P011",
+  "prompt_text": "DonorDock vs Salesforce Nonprofit Cloud",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898117+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Salesforce Nonprofit Cloud\n\n## Quick Overview\n\n**DonorDock** is a lightweight, affordable donor management system designed specifically for small nonprofits.\n\n**Salesforce Nonprofit Cloud** is a comprehensive CRM platform built for nonprofits of all sizes with extensive customization capabilities.\n\n## Key Comparison\n\n| Feature | DonorDock | Salesforce Nonprofit Cloud |\n|---------|-----------|----------------------------|\n| **Best For** | Small nonprofits (< 50 staff) | Medium to large nonprofits |\n| **Starting Price** | ~$99/month | Free (10 licenses) or ~$36/user/month |\n| **Ease of Use** | Very easy, minimal training | Steeper learning curve |\n| **Setup Time** | Hours to days | Weeks to months |\n| **Customization** | Limited | Extremely robust |\n| **Technical Expertise Required** | None | Recommended |\n\n## DonorDock Strengths\n- \u2705 Intuitive, user-friendly interface\n- \u2705 Quick implementation\n- \u2705 Built-in donor communication tools\n- \u2705 Simple, predictable pricing\n- \u2705 Great for organizations just starting with CRM\n- \u2705 Responsive customer support\n\n## Salesforce Nonprofit Cloud Strengths\n- \u2705 Highly customizable to any workflow\n- \u2705 Powerful automation and reporting\n- \u2705 Scales with organizational growth\n- \u2705 Extensive app ecosystem (AppExchange)\n- \u2705 Manages programs, volunteers, grants beyond donations\n- \u2705 Industry standard with large community\n\n## Limitations\n\n**DonorDock:**\n- Limited customization options\n- Fewer integrations\n- May outgrow it as organization scales\n\n**Salesforce:**\n- Complex for small teams\n- Often requires administrator or consultant\n- Can become expensive with add-ons\n\n## Which Should You Choose?\n\n**Choose DonorDock if you:**\n- Have a small team with limited tech resources\n- Need something up and running quickly\n- Primarily focus on donor management\n- Have a tight budget\n\n**Choose Salesforce if you:**\n- Need extensive customization\n- Manage complex programs beyond fundraising\n- Have (or can hire) technical expertise\n- Plan for significant growth\n- Need advanced reporting and analytics\n\n**Bottom line:** DonorDock is the simpler, faster solution for small shops. Salesforce is the powerful enterprise option that requires more investment but offers far greater capabilities.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 587,
+  "estimated_cost_usd": 0.008862,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

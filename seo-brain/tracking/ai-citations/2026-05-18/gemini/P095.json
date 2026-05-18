@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P095",
+  "prompt_text": "Hidden costs of DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.899016+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorPerfect is a powerful CRM widely used by nonprofits, but like many comprehensive software solutions, its true cost can extend far beyond the initial subscription fee. Many \"hidden\" costs emerge during implementation, ongoing use, and when leveraging its full potential.\n\nHere's a breakdown of common hidden costs associated with DonorPerfect:\n\n1.  **Initial Setup & Implementation Costs:**\n    *   **Data Migration:** This is often the biggest hidden cost. Importing your historical donor data from spreadsheets or an old CRM can be complex. You might need to pay for:\n        *   **Data Cleaning & De-duplication:** Your old data is rarely perfect. Cleaning it before migration (or paying a service to do it) is crucial.\n        *   **Data Mapping:** Matching fields from your old system to DonorPerfect's structure.\n        *   **Migration Services:** While DonorPerfect offers migration tools, significant customization or complex data sets might require professional services (either from DP or a third-party consultant), which can be costly.\n    *   **Initial Configuration:** Setting up custom fields, user roles, security settings, report templates, and initial email/letter templates takes time and expertise. This is often staff time, but if you need help, it can be a paid service.\n    *   **Integration Setup:** Connecting DonorPerfect to your website forms, email marketing platform, accounting software, or payment gateway often requires initial setup work and potentially custom development if out-of-the-box integrations aren't sufficient or cost extra.\n\n2.  **Add-on Modules & Premium Features:**\n    *   DonorPerfect is modular. While the base subscription provides core CRM functionality, many features that seem standard in modern systems might be extra:\n        *   **Online Forms & Landing Pages (DP Online Forms):** While integrated, the level of customization or number of forms might have tiers.\n        *   **Email Marketing (DPMail):** Often an additional cost, or limits on emails.\n        *   **Text Messaging (DP Text):** A separate module, with usage costs.\n        *   **Event Management:** Basic event tracking might be included, but advanced features (ticketing, seating, sponsorship tracking) often come with an extra module or higher subscription tier.\n        *   **Peer-to-Peer Fundraising:** Definitely an add-on module.\n        *   **Volunteer Management:** While you can track volunteers, dedicated robust volunteer management features are often separate.\n        *   **Advanced Reporting/Dashboards:** While DP has strong reporting, highly customized or advanced analytics tools might be premium features.\n        *   **Donor Portals:** Giving donors access to their giving history, update contact info, etc., can be an add-on.\n\n3.  **",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 575,
+  "estimated_cost_usd": 0.001439,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

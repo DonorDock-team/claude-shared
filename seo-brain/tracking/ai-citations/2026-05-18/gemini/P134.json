@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P134",
+  "prompt_text": "Why nonprofits leave Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.897992+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a popular and generally well-regarded donor management CRM, especially for small to medium-sized nonprofits due to its ease of use, intuitive interface, and strong focus on donor retention. However, no software is a universal fit, and nonprofits do leave Bloomerang for a variety of reasons.\n\nHere are the most common reasons why nonprofits might leave Bloomerang:\n\n1.  **Scalability and Advanced Needs:**\n    *   **Complex Data Management:** As organizations grow, their data becomes more intricate. Bloomerang, while good for core donor data, might not offer the depth of customizability, advanced segmentation, or complex reporting needed for very large donor bases, intricate moves management, or multi-faceted program tracking.\n    *   **Sophisticated Fundraising Strategies:** Organizations running highly complex campaigns (e.g., advanced peer-to-peer, multi-year major gift pipelines with detailed task management, endowment management) might find Bloomerang's features too basic compared to enterprise-level solutions.\n    *   **Grant Management:** Bloomerang is primarily donor-centric. Organizations heavily reliant on grants may find its grant tracking capabilities insufficient and might need a dedicated grant management module or a CRM with more robust grant functionality.\n    *   **Program Management & Impact Tracking:** Bloomerang is not designed for program delivery or detailed impact tracking. Nonprofits that need to manage beneficiaries, services, outcomes, and program-specific data often need to integrate with another system or switch to a CRM that can handle both donor and program data.\n    *   **Volunteer Management:** While Bloomerang can track volunteers as constituents, it doesn't offer robust volunteer management features like scheduling, shift management, skills tracking, or communication portals that many organizations require.\n\n2.  **Cost-Benefit Analysis (as they grow):**\n    *   **Growing Costs:** Bloomerang's pricing is tiered, often based on the number of constituents. As a nonprofit's donor database grows, the monthly cost can increase significantly. At a certain point, a larger nonprofit might find that the cost of Bloomerang, combined with its feature limitations, makes a more powerful (and potentially more expensive) platform like Salesforce NPSP a better long-term investment, even if it has a higher upfront cost or learning curve.\n    *   **\"All-in-One\" Limitations:** Bloomerang offers integrated email, forms, and some website features. While convenient, these built-in tools might not be as robust or flexible as dedicated platforms (e.g., Mailchimp/Constant Contact for email, WordPress/Wix for websites, Typeform/JotForm for advanced forms). Nonprofits might find themselves paying for Bloomerang's features but still needing separate, more powerful tools, leading to redundant spending or a desire for a CRM that truly excels in all areas or integrates seamlessly with best-of-breed solutions.\n\n3.  **Customization Limitations:**\n    *   While Bloomerang allows for custom fields, it might not offer the deep structural customization that some organizations need to perfectly map their unique processes, relationships, or program data within the system. More flexible platforms (like Salesforce) allow for custom objects, workflows, and complex automation.\n\n4.  **Specific Integration Needs:**\n",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 666,
+  "estimated_cost_usd": 0.001667,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

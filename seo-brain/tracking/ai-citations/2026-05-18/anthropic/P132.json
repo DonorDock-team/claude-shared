@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P132",
+  "prompt_text": "Network for Good problems",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.897660+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Network for Good - Common Problems & Solutions\n\nI can help you troubleshoot issues with Network for Good. Here are the most common problems and their solutions:\n\n## **Donation Processing Issues**\n\n**Problem:** Donations not going through\n- Check credit card information is entered correctly\n- Verify billing address matches card on file\n- Try a different payment method\n- Clear browser cache/cookies or try a different browser\n- Disable browser extensions that might interfere\n\n**Problem:** Donation receipts not received\n- Check spam/junk folders\n- Verify email address was entered correctly\n- Allow up to 24-48 hours for receipt delivery\n- Contact the nonprofit or Network for Good support\n\n## **Account & Login Issues**\n\n- **Reset password** using \"Forgot Password\" link\n- Clear browser cache and cookies\n- Ensure JavaScript is enabled\n- Try incognito/private browsing mode\n\n## **For Nonprofits**\n\n**Dashboard/reporting problems:**\n- Refresh your browser\n- Check user permissions/access level\n- Contact support for missing data\n\n**Fund disbursement delays:**\n- Typical processing is 15-45 days\n- Verify bank account information is correct\n- Check for pending verification requirements\n\n## **Getting Help**\n\n- **Support Email:** support@networkforgood.org\n- **Phone:** 1-888-284-7978 (Mon-Fri, 9am-8pm ET)\n- **Help Center:** https://www.networkforgood.org/help/\n\n**What specific issue are you experiencing?** I can provide more targeted assistance.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [
+    "https://www.networkforgood.org/help/"
+  ],
+  "input_tokens": 11,
+  "output_tokens": 356,
+  "estimated_cost_usd": 0.005373,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

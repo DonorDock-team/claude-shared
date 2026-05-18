@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P068",
+  "prompt_text": "How to consolidate fundraising tools",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898431+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Consolidate Fundraising Tools\n\nConsolidating fundraising tools can streamline operations, reduce costs, and improve data management. Here's a step-by-step approach:\n\n## 1. **Audit Your Current Tools**\n- List all platforms you're using (CRM, email, donation processing, event management, etc.)\n- Identify overlapping features\n- Calculate total costs (subscriptions, transaction fees, staff time)\n- Note pain points and inefficiencies\n\n## 2. **Define Your Requirements**\n- Must-have features vs. nice-to-have\n- Integration needs with existing systems\n- User capacity and permissions\n- Reporting and analytics requirements\n- Budget constraints\n\n## 3. **Research Integrated Solutions**\nLook for all-in-one platforms that combine:\n- **Donor CRM** (contact management)\n- **Online donations** (payment processing)\n- **Email marketing**\n- **Event management**\n- **Peer-to-peer fundraising**\n- **Reporting/analytics**\n\nPopular options: Salesforce Nonprofit Cloud, Bloomerang, NeonCRM, Classy, Kindful, DonorPerfect\n\n## 4. **Plan Your Migration**\n- Create a timeline with milestones\n- Assign responsibilities to team members\n- Plan data migration strategy\n- Schedule training sessions\n- Develop a rollback plan if needed\n\n## 5. **Clean Your Data First**\n- Remove duplicates\n- Standardize formats\n- Update outdated information\n- Archive inactive records\n\n## 6. **Test Before Full Launch**\n- Run parallel systems temporarily\n- Test with a small user group\n- Verify data accuracy\n- Check integrations\n\n## 7. **Train Your Team**\n- Provide comprehensive training\n- Create documentation\n- Designate power users/champions\n- Offer ongoing support\n\n## 8. **Monitor and Optimize**\n- Track key metrics\n- Gather user feedback\n- Adjust workflows as needed\n- Review ROI regularly\n\n**Pro tip:** Don't try to consolidate everything at once. Prioritize the tools causing the most friction or expense first.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 482,
+  "estimated_cost_usd": 0.007272,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

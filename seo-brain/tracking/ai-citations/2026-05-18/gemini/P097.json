@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P097",
+  "prompt_text": "Hidden costs of Network for Good",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.897930+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Network for Good (NfG) is a popular fundraising platform, especially for small to medium-sized nonprofits, known for its ease of use and integrated features. While its advertised pricing might seem straightforward, like many software solutions, it comes with several \"hidden\" or less obvious costs that organizations should consider when evaluating its total value proposition.\n\nHere are some hidden costs of Network for Good:\n\n1.  **Per-Transaction Fees Beyond Payment Processing:**\n    *   **The \"Double Dip\":** All payment processors (Stripe, PayPal, etc.) charge a fee (e.g., 2.2% + $0.30 per transaction). However, Network for Good *often adds its own additional per-transaction fee* on top of what the payment processor charges. This might be a flat percentage (e.g., 3-5% for some plans) or a fixed amount per transaction. This can significantly eat into donations, especially for smaller gifts.\n    *   **Donor Cover Opt-Out:** While NfG allows donors to cover fees, not all donors choose to, and relying solely on this can be risky.\n\n2.  **Opportunity Costs of Missing Advanced Features:**\n    *   **Limited Segmentation & Personalization:** While NfG offers basic donor management, it might lack advanced segmentation tools, sophisticated A/B testing capabilities, or deep personalization features found in more specialized CRMs or marketing automation platforms. This could mean missing opportunities to optimize appeals and increase giving.\n    *   **Basic Peer-to-Peer Fundraising:** While they offer some P2P, it might not be as robust or customizable as dedicated P2P platforms, potentially limiting its effectiveness.\n    *   **Lack of Advanced Reporting & Analytics:** NfG's reporting might be sufficient for basic needs but could fall short for organizations seeking deep insights into donor behavior, campaign performance, or predictive analytics. This can hinder strategic decision-making.\n\n3.  **Time & Labor Costs:**\n    *   **Data Management & Cleanup:** While NfG provides a database, ensuring data accuracy, de-duplication, and proper tagging still requires significant staff time, especially if data is imported from other sources.\n    *   **Campaign Creation & Management:** Even with an intuitive interface, setting up donation forms, email campaigns, and event registrations takes time for design, copywriting, testing, and deployment.\n    *   **Staff Training:** Onboarding new staff or getting existing staff comfortable with all features takes time and internal resources.\n    *   **Workarounds for Missing Features:** If NfG doesn't have a specific feature you need, your team might spend time manually performing tasks or finding external tools, leading to inefficiencies.\n\n4.  **Data Portability & Vendor Lock-in:**\n    *   **Export Limitations:** While you can usually export donor data, the format, completeness, and ease of export can sometimes be challenging. This can make switching to another platform more difficult and time-consuming, incurring significant migration costs (both in money and staff hours).\n    *   **Proprietary Data Structures:** Data might be stored in a way that requires considerable cleanup or",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 652,
+  "estimated_cost_usd": 0.001632,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

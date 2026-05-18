@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.897999+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM with Text Messaging\n\nI'll help you understand donor CRM systems with text messaging capabilities. Here's what you need to know:\n\n## **Top Donor CRMs with Built-in SMS**\n\n### **1. Bloomerang**\n- Built-in texting features\n- Donor engagement tracking\n- Automated text campaigns\n- Best for: Small to mid-size nonprofits\n\n### **2. Kindful (by Bloomerang)**\n- SMS integration options\n- Donor management\n- Customizable messaging workflows\n\n### **3. NeonCRM**\n- Text-to-give functionality\n- Two-way SMS communication\n- Event reminders and updates\n- Best for: Growing nonprofits\n\n### **4. Salsa Engage**\n- Integrated SMS campaigns\n- Peer-to-peer texting\n- Advocacy and fundraising tools\n\n### **5. Network for Good**\n- Text donation capabilities\n- Donor communications\n- Event management\n\n## **Key Features to Look For**\n\n- \u2705 **Two-way messaging** (conversations, not just broadcasts)\n- \u2705 **Text-to-give/donate** functionality\n- \u2705 **Automated campaigns** (welcome series, receipts)\n- \u2705 **Segmentation** (target specific donor groups)\n- \u2705 **Compliance** (opt-in/opt-out management, TCPA)\n- \u2705 **Integration** with existing tools\n- \u2705 **Analytics** (delivery rates, engagement metrics)\n\n## **Integration Options**\n\nIf your CRM doesn't have native SMS, consider:\n- **Twilio** (developer-friendly)\n- **CallHub** (peer-to-peer texting)\n- **Hustle** (campaign-focused)\n- **Tatango** (mass texting)\n\n**What's your primary use case?** (donor updates, fundraising, event reminders, etc.) I can provide more specific recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 455,
+  "estimated_cost_usd": 0.006867,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

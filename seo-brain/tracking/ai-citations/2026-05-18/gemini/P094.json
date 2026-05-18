@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P094",
+  "prompt_text": "Hidden costs of Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898951+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a popular CRM for nonprofits, known for its user-friendly interface and focus on donor retention. However, like any software, there can be \"hidden\" costs beyond the advertised monthly subscription fee. These aren't necessarily deceptive, but rather common expenditures and resource drains that organizations often overlook when budgeting.\n\nHere are some potential hidden costs of Bloomerang (or any CRM, for that matter):\n\n1.  **The Data Migration Monster:**\n    *   **Data Cleanup:** Before migrating to Bloomerang, you'll almost certainly need to clean up your existing data. This involves identifying duplicates, standardizing addresses, fixing incorrect spellings, archiving old records, and filling in missing information. This is a *massive* time sink for staff, or an additional cost if you hire a consultant.\n    *   **Migration Services:** While Bloomerang offers assistance, complex migrations (especially from older, less structured systems) might require dedicated time from your staff or even a third-party consultant, which adds significant cost.\n    *   **Downtime & Disruption:** The actual migration process can cause temporary disruption to your operations as staff learn the new system and data is transferred.\n\n2.  **Implementation & Training Time:**\n    *   **Staff Learning Curve:** While Bloomerang is user-friendly, there's still a learning curve for all staff members who will use it. This means time spent in training sessions (provided by Bloomerang or internal), practicing, and troubleshooting. This is time they're *not* spending on direct fundraising or programming.\n    *   **Custom Configuration:** Setting up custom fields, reports, dashboards, and email templates takes significant staff time or can be an additional consulting cost if you need specialized assistance to optimize your instance.\n    *   **Ongoing Training:** New hires will need training, and existing staff may need refreshers or training on new features as Bloomerang updates.\n\n3.  **The Integration Tax:**\n    *   **Third-Party Subscriptions:** While Bloomerang integrates with many tools (e.g., Mailchimp, QuickBooks Online), you still need to pay for those separate subscriptions.\n    *   **Connector Fees/Development:** Sometimes, an integration might require a specific connector or a custom API integration, which can incur additional fees or development costs if you need to",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 480,
+  "estimated_cost_usd": 0.001202,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

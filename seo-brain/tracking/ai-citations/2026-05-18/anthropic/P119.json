@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P119",
+  "prompt_text": "AI to draft donor thank you letters",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898264+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# AI-Powered Donor Thank You Letter Generator\n\nI'll help you create personalized donor thank you letters using AI. Here's a comprehensive approach:\n\n## Quick Template System\n\n### **Basic Thank You Letter Structure**\n\n```\n[Organization Letterhead]\n[Date]\n\nDear [Donor Name],\n\n[Opening - Gratitude]\n[Body - Impact Statement]\n[Middle - Specific Details]\n[Closing - Future Connection]\n\nWith gratitude,\n[Signature]\n[Name & Title]\n```\n\n## AI Prompts for Different Donor Types\n\n### **For First-Time Donors**\n```\n\"Write a warm, welcoming thank you letter for a first-time donor who gave $[amount] to [organization]. Emphasize their impact, welcome them to the community, and make them feel their contribution matters. Tone: enthusiastic but sincere.\"\n```\n\n### **For Recurring Donors**\n```\n\"Create a thank you letter for a loyal donor who has given monthly for [duration]. Acknowledge their sustained commitment, share cumulative impact, and express deep appreciation. Tone: warm and relationship-focused.\"\n```\n\n### **For Major Donors**\n```\n\"Draft a personalized thank you letter for a major gift of $[amount]. Include specific project impact, recognition of their leadership, and invitation for deeper engagement. Tone: professional, respectful, and personalized.\"\n```\n\n### **For In-Kind Donations**\n```\n\"Write a thank you letter for someone who donated [specific items/services]. Explain how these will be used and the difference they'll make. Tone: appreciative and specific.\"\n```\n\n## Key Elements to Include\n\n\u2705 **Donor's name** (spelled correctly)\n\u2705 **Specific gift amount or item**\n\u2705 **Date of donation**\n\u2705 **Impact statement** (what their gift will do)\n\u2705 **Personal touch** (reference to past involvement if applicable)\n\u2705 **Tax information** (if applicable)\n\u2705 **No additional ask** (just gratitude)\n\n## Sample AI-Generated Letter\n\n**Example prompt:** \"Write a heartfelt thank you letter for Sarah Johnson who donated $500 to our youth literacy program.\"\n\n---\n\n*Dear Sarah,*\n\n*Thank you for your generous gift of $500 to our Youth Literacy Program. Your support truly makes a difference in the lives of children in our community.*\n\n*Your donation will provide reading materials for 20 students and fund two after-school tutoring sessions. Because of donors like you, we've seen reading levels improve by an average of two grade levels in just one year.*\n\n*We're honored to have you as part of our mission to ensure every child has the tools they need to succeed. Thank you for believing in our work and in these young readers.*\n\n*With sincere appreciation,*\n\n*[Name]*\n*Executive Director*\n\n---\n\n## Best Practices\n\n1. **Send within 48 hours** of receiving the donation\n2. **Personalize** - use AI but customize with specific details\n3. **Be specific** about impact\n4. **Keep it concise** (one page)\n5. **Proofread** carefully\n6. **Use quality stationery**\n7. **Include handwritten note** when possible for major gifts\n\n## Tools You Can Use\n\n- **ChatGPT/Claude** - For drafting personalized letters\n- **Grammarly** - For polishing\n- **Mail merge tools** - For batch processing\n- **DocuSign/Adobe** - For digital signatures\n\nWould you like me to draft a specific letter for you? Just provide:\n- Donor name\n- Donation amount/type\n- Your organization's mission\n- Any specific impact details",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 838,
+  "estimated_cost_usd": 0.012612,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

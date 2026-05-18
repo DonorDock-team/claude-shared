@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P149",
+  "prompt_text": "How to migrate from Excel to a nonprofit CRM",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.899021+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Migrating from Excel to a nonprofit CRM is one of the best investments a growing organization can make! It transforms scattered data into actionable insights, streamlines operations, and improves donor relationships.\n\nHere's a comprehensive, step-by-step guide to help you through the process:\n\n---\n\n## Why Migrate from Excel to a Nonprofit CRM?\n\nBefore diving in, it's good to remind yourself of the \"why\":\n\n*   **Centralized Data:** All donor, volunteer, grant, and program data in one place.\n*   **Improved Efficiency:** Automate tasks like thank-yous, reporting, and campaign segmentation.\n*   **Better Relationships:** Track interactions, preferences, and engagement history for personalized communication.\n*   **Enhanced Reporting:** Generate powerful reports on fundraising, donor retention, campaign performance, and more.\n*   **Data Security:** CRMs offer better security and access control than shared spreadsheets.\n*   **Scalability:** Grow your operations without outgrowing your data management system.\n\n---\n\n## The Migration Process: Step-by-Step\n\n### Phase 1: Preparation & Planning (The Most Crucial Phase)\n\n1.  **Define Your Goals & Requirements:**\n    *   What problems are you trying to solve with a CRM? (e.g., \"We can't track donor retention,\" \"We spend too much time manually sending thank-yous\").\n    *   What are your must-have features? (e.g., donor management, grant tracking, volunteer management, email integration, event management, peer-to-peer fundraising).\n    *   Who will be using the CRM, and for what tasks?\n\n2.  **Choose the Right Nonprofit CRM:**\n    *   This is *critical* and should happen *before* serious data cleanup. Your CRM's data model will dictate how you structure your Excel data.\n    *   **Popular Nonprofit CRMs:** Salesforce (Nonprofit Cloud), Blackbaud (Raiser's Edge NXT, eTapestry, Luminate CRM), HubSpot for Nonprofits, Bloomerang, DonorPerfect, NeonOne, Little Green Light, Kindful, Virtuous.\n    *   **Considerations:** Budget, ease of use, scalability, integrations, reporting capabilities, customer support, nonprofit-specific features.\n    *   *Tip:* Take advantage of free trials and demos. Talk to other nonprofits using the CRMs you're considering.\n\n3.  **Assemble Your Migration Team:**\n    *   **Project Manager:** Oversees the entire process.\n    *   **Data Owner/Expert:** Someone who intimately understands your current Excel data.\n    *   **CRM Admin/Future User:** Someone who will be responsible for the CRM post-migration and understands its structure.\n    *   **End-User Representatives:** Key staff who will be using the system daily.\n\n4.  **Inventory Your Current Data (Excel Workbooks):**\n    *   List *all* Excel files that contain relevant data (donors, donations, volunteers, grants, pledges, events, memberships, prospects, etc.).\n    *   Identify which tabs/sheets within those workbooks contain valuable information.\n\n### Phase 2: Data Cleanup & Standardization (The Most Time-Consuming, Yet Vital Phase)\n\nThis is where you make your data presentable for the new CRM. A CRM can't fix bad data, it just houses it!\n\n1.  **Identify Key Data Points:**\n    *   What information absolutely *must* be in the CRM? (e.g., Donor Name, Contact Info, Donation Date, Amount, Appeal, Fund).\n    *   What information is \"nice to have\" but not critical for initial migration?\n    *   What information is outdated or no longer relevant and can be archived?\n\n2.  **Remove Duplicates:**\n    *   This is paramount. Use Excel's \"Remove Duplicates\" feature, pivot tables, or advanced formulas to find and merge duplicate records (e.g., \"John Smith\" vs. \"J. Smith\").\n    *   Establish a \"master record\" for each entity and consolidate all relevant information into it.\n    *   *Tip:* Focus on unique identifiers like email address, phone number, or full mailing address to spot duplicates.\n\n3.  **Standardize Data Formats:**\n    *   **Names:**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Virtuous",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 915,
+  "estimated_cost_usd": 0.00229,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P081",
+  "prompt_text": "Best donor CRM for community colleges",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.898017+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM for community colleges involves considering factors such as integration capabilities, ease of use, cost, support, and specific features designed for educational institutions. Here are a few popular donor CRMs that are often well-suited for community colleges:\n\n1. **Blackbaud Raiser's Edge NXT**:\n   - **Features**: Comprehensive fundraising and donor management tools, cloud-based, advanced analytics, and reporting.\n   - **Pros**: Robust feature set, excellent for larger institutions with complex needs, integrates well with other Blackbaud products.\n   - **Cons**: Can be costly and may have a steeper learning curve.\n\n2. **Neon One**:\n   - **Features**: Customizable dashboards, built-in email communication tools, event management, and volunteer management.\n   - **Pros**: Flexible pricing, strong customer support, and easy-to-use interface.\n   - **Cons**: Might require customizations for very specific needs.\n\n3. **Bloomerang**:\n   - **Features**: Intuitive design, donor engagement tracking, comprehensive reporting, and robust analytics.\n   - **Pros**: User-friendly, focuses on donor retention strategies, good for engaging smaller donor bases.\n   - **Cons**: Might not have all the advanced features needed for very large institutions.\n\n4. **Kindful**:\n   - **Features**: Easy-to-use interface, integrates with a wide range of other tools, donor lifecycle tracking.\n   - **Pros**: Modern user interface, strong integration capabilities, great for smaller to mid-sized organizations.\n   - **Cons**: May lack some advanced features offered by more expensive solutions.\n\n5. **Salesforce Nonprofit Cloud**:\n   - **Features**: Customizable CRM, powerful analytics, scalable for institutions of various sizes.\n   - **Pros**: Highly customizable, powerful automation and reporting features, strong community support.\n   - **Cons**: Can be complex to set up, depending on customization needs, some features may come with additional costs.\n\n6. **Little Green Light**:\n   - **Features**: Donor management, event management, and email marketing capabilities.\n   - **Pros**: Affordable, easy to use, strong support for small to mid-sized organizations.\n   - **Cons**: Might not be suitable for very large organizations with complex requirements.\n\nWhen choosing a CRM, it's important for community colleges to define their specific needs, budget, and the level of support they require. Additionally, engaging with demos and trials can help decision-makers understand which system best suits their college\u2019s operations and donor engagement goals.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Kindful",
+    "Little Green Light",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 524,
+  "estimated_cost_usd": 0.005273,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

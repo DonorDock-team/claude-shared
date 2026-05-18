@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P133",
+  "prompt_text": "Givebutter limitations",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.897933+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Givebutter is a popular fundraising platform known for its user-friendly interface and \"free\" core features (relying on donor tips to cover its own costs). However, like any platform, it has limitations that might make it less ideal for certain organizations or specific needs.\n\nHere are some common limitations of Givebutter:\n\n1.  **Reliance on Donor Tips for \"Free\" Model:**\n    *   **Inconsistent Revenue:** While Givebutter's platform is free for nonprofits (they rely on a donor \"tip\" to cover their costs), these tips are optional for donors. If donors opt out, Givebutter doesn't generate revenue from that transaction, which could potentially impact the resources they can invest in development and support compared to platforms with mandatory subscription fees.\n    *   **Donor Perception:** Some donors might find the \"tip\" prompt confusing or feel pressured, even though it's optional.\n\n2.  **Transaction Processing Fees:**\n    *   While Givebutter itself doesn't charge a platform fee for its basic services, you are still subject to standard credit card processing fees (e.g., Stripe or PayPal fees, typically 2.2% - 2.9% + $0.30 per transaction). While donors can cover these, it's not guaranteed, and they can add up if not covered.\n\n3.  **Basic CRM Functionality:**\n    *   Givebutter's donor management features are good for tracking donations, campaigns, and basic donor info. However, it's not a full-fledged Constituent Relationship Management (CRM) system.\n    *   **Limited Segmentation & Reporting:** For advanced donor segmentation, wealth screening, relationship tracking, grant management, or complex stewardship processes, you'll likely need to integrate with a more robust CRM (like Salesforce, Raiser's Edge, DonorPerfect, etc.) or export data to manage it elsewhere.\n    *   **Lack of Deeper Donor Profiles:** It might not easily accommodate extensive notes, custom fields for unique donor attributes, or detailed interaction history beyond what's directly related to a campaign.\n\n4.  **Customization Limitations:**\n    *   While Givebutter allows for branding with logos, colors, and images, the overall design and layout of campaign pages and event tickets are template-driven.\n    *   **Less Flexibility for Unique Branding:** Organizations with very specific branding guidelines or a desire for highly customized layouts might find the options somewhat restrictive compared to platforms that offer more advanced design control (e.g., CSS/HTML access).\n\n5.  **Integrations May Require Paid Tiers or Third-Party Tools:**\n    *   Givebutter offers integrations with popular tools like Salesforce, Mailchimp, QuickBooks, and Zapier. However, the depth and availability of these integrations can sometimes depend on your Givebutter subscription tier (e.g., advanced CRM syncs might be in higher plans).\n    *   **Zapier Dependency:** For integrations not natively supported or for more complex workflows, you might rely heavily on Zapier, which can add another layer of cost and complexity.\n\n6.  **Advanced Event Management:**\n    *   Givebutter is great for basic event ticketing, registration, and virtual events. However",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect",
+    "Givebutter",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 3,
+  "output_tokens": 668,
+  "estimated_cost_usd": 0.001671,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

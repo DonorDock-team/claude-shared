@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P027",
+  "prompt_text": "Best rated donor CRM on G2",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898041+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "G2's ratings are dynamic and change quarterly based on user reviews, market presence, and satisfaction scores. There isn't a single \"best rated\" across all categories and segments at all times.\n\nTo find the *currently* best-rated donor CRM for *your specific needs* on G2, you should:\n\n1.  **Go to G2.com.**\n2.  **Search for relevant categories:**\n    *   \"Donor Management Software\"\n    *   \"Nonprofit CRM\"\n    *   \"Fundraising Software\"\n    *   \"CRM Software\" (and then filter for nonprofit)\n3.  **Use G2's Grid Reports:** G2 typically displays \"Grids\" which categorize products into Leaders, High Performers, Contenders, and Niche, based on their G2 Score (Satisfaction + Market Presence).\n4.  **Filter by Company Size:** Crucially, filter by your organization's size (Small-Business, Mid-Market, Enterprise) as different CRMs excel in different segments.\n5.  **Look at the \"Overall G2 Score,\" \"Satisfaction Score,\" and \"Market Presence\" for each.**\n6.  **Read Recent Reviews:** Pay attention to what users are saying, especially about features important to you (ease of use, integrations, reporting, support).\n\n**However, based on general trends and frequent appearances in the \"Leader\" or \"High Performer\" quadrant across various G2 reports for Donor Management and Nonprofit CRM, some consistently highly-rated platforms include:**\n\n*   **Bloomerang:** Often praised for its user-friendliness, focus on donor retention, and robust donor communication features.\n*   **NeonCRM (Neon One):** A comprehensive solution that frequently appears as a leader, offering strong donor management, event management, and fundraising tools.\n*   **DonorPerfect:** A long-standing player known for its comprehensive features, reporting, and fundraising capabilities, often highly rated for mid-market.\n*   **Virtuous:** Frequently highlighted for its modern interface, donor-centric approach, and intelligent fundraising automation.\n*   **Salesforce for Nonprofits (NPSP):** While requiring more customization, it's often a leader in the enterprise and mid-market categories for its immense power, flexibility, and extensive ecosystem.\n*   **Kindful (now part of Bloomerang):** Often shows up highly rated for its intuitive interface and integration capabilities.\n*   **Little Green Light:** Praised for its affordability and simplicity, often ranking high for small non-profits.\n\n**Key things to consider when evaluating G2 ratings for *your* organization:**\n\n*   **Your budget:** Some CRMs are more expensive than others.\n*   **Your organization's size and complexity:** A small startup has different needs than a large university.\n*   **Specific features you need:** Donor segmentation, email marketing, event management, peer-to-peer fundraising, grant tracking, volunteer management, etc.\n*   **Ease of use:** Will your staff adopt it readily?\n*   **Integrations:** Does it connect with your accounting software, email marketing, or other tools?\n*   **Customer support:** How do users rate the support experience?\n\nAlways visit G2.com and perform your own search with filters that match your organization's profile to get the most accurate and up-to-date \"best rated\" options for you.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon One",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 716,
+  "estimated_cost_usd": 0.001792,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

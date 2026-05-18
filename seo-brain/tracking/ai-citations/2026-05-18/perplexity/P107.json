@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.898632+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "You measure donor retention by tracking how many donors give again in a later period compared to an earlier one, using a simple percentage formula.\n\n**1. Basic Donor Retention Formula**\n\nChoose two matching periods (e.g., 2024 vs. 2025, or last 12 months vs. previous 12 months), then calculate:\n\n**Donor Retention Rate = (Number of donors who gave in both periods \u00f7 Number of donors who gave in the earlier period) \u00d7 100**\n\nExample:  \n- 2024: 2,000 donors  \n- 2025: 700 of those same people gave again  \nRetention = (700 \u00f7 2,000) \u00d7 100 = **35%**\n\nKey points:\n- Count **unique donors**, not gifts.\n- A \u201cretained\u201d donor is anyone who gave at least once in each period.\n\n---\n\n**2. Common Ways to Measure Retention**\n\nYou can apply that same formula to different views of your donors:\n\n1. **Overall annual retention**  \n   - All donors last year vs. how many of them gave again this year.  \n   - Benchmark: about **35\u201345%** is typical.\n\n2. **First-time donor retention**  \n   - Donors who gave for the *first time* last year vs. how many gave again this year.  \n   - Benchmark: around **19\u201329%**.\n\n3. **Repeat donor retention**  \n   - Donors who had already given before last year vs. how many gave again this year.  \n   - Benchmark: about **58\u201363%+** (higher is better).\n\n4. **Cohort retention**  \n   - Take a specific acquisition year (e.g., donors acquired in 2023) and track what percent are still giving in 2024, 2025, etc.\n\n5. **Rolling (12\u2011month) retention**  \n   - Donors who gave in the last 12 months and also in the prior 12 months (used for monthly or quarterly tracking).\n\n6. **Segmented retention**  \n   Apply the same formula but only for:\n   - Gift size segments (micro, small, midlevel, major donors)\n   - Channel (online vs. events vs. mail)\n   - Program/campaign (e.g., donors to your gala, capital campaign, etc.)\n\n---\n\n**3. Practical \u201cHow\u2011To\u201d Steps**\n\nIf you\u2019re doing this in a spreadsheet or CRM:\n\n1. **Define the periods**  \n   - Example: Prior year = 2024; Current year = 2025.\n\n2. **Export donor lists for each period**  \n   - Two lists of unique donor IDs or email addresses:  \n     - List A: all donors in 2024  \n     - List B: all donors in 2025\n\n3. **Find the overlap (retained donors)**  \n   - Use a matching function (e.g., `COUNTIF`/`VLOOKUP`/`MATCH`) or a \u201cduplicate\u201d tool to count how many donors appear in both lists.\n\n4. **Calculate the rate**  \n   - Retention = (Count of overlapping donors \u00f7 Count of donors in List A) \u00d7 100.\n\nMost donor CRMs (Blackbaud, DonorPerfect, Bloomerang, etc.) have a built-in **\u201cdonor retention\u201d** or **\u201crepeat donors\u201d** report that automates these steps.\n\n---\n\n**4. Other Helpful Metrics to Track Alongside Retention**\n\nTo make your retention number more actionable, also monitor:\n\n- **Lapse rate** = 100% \u2013 retention rate  \n- **Donor lifetime value (LTV)**  \n- **Average gift size** and how it changes  \n- **Giving frequency** (gifts per year)  \n- **Reactivation rate** (lapsed donors who come back)  \n- **Engagement indicators** (event attendance, email opens, volunteer activity)\n\nIf you tell me what data tools or CRM you\u2019re using, I can outline the exact clicks or an Excel/Sheets formula to calculate your donor retention.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 843,
+  "estimated_cost_usd": 0.017663,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.keela.co/blog/donor-retention",
+      "https://bloomerang.com/blog/donor-retention/",
+      "https://kindsight.io/resources/blog/a-guide-to-donor-retention-for-nonprofits/",
+      "https://www.boardeffect.com/blog/donor-retention-rate/",
+      "https://rallyup.com/blog/donor-retention-rate/",
+      "https://4agoodcause.com/the-importance-of-donor-retention-how-to-calculate-and-track/",
+      "https://www.sopact.com/use-case/donor-retention",
+      "https://kb.blackbaud.com/articles/Article/58594",
+      "https://www.donorperfect.com/video/what-is-the-donor-retention-metric/"
+    ]
+  }
+}

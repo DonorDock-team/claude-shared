@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P143",
+  "prompt_text": "Donor CRM that does pledges and recurring",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898649+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Most modern Donor CRMs are built to handle both pledges and recurring donations as core functionalities. The differences often lie in *how* they track, automate, report on, and integrate these features with other aspects of your donor management.\n\nHere's a breakdown of popular donor CRMs that excel in managing pledges and recurring donations, along with their general strengths:\n\n---\n\n### Top Donor CRMs for Pledges & Recurring Donations\n\n1.  **Salesforce (Nonprofit Cloud / NPSP)**\n    *   **Strengths:** Highly customizable, scalable for any size organization, vast ecosystem of apps, powerful reporting. NPSP (Nonprofit Success Pack) is specifically designed for non-profits and handles complex pledge schedules, recurring donation series (installments), and soft credits exceptionally well.\n    *   **Pledges & Recurring:** Extremely robust. You can define multi-year pledges, track payments against them, manage payment schedules, and automate recurring donation processing and reminders.\n    *   **Considerations:** Steep learning curve, often requires an administrator or consultant to set up and maintain, can get expensive with many add-ons.\n\n2.  **Blackbaud (Raiser's Edge NXT, eTapestry, Luminate CRM)**\n    *   **Strengths:** Blackbaud is a giant in the non-profit space, offering a range of products. Raiser's Edge NXT is their flagship and very comprehensive. eTapestry is a good option for smaller to mid-sized organizations, and Luminate CRM is for larger enterprises.\n    *   **Pledges & Recurring:** Core functionality. Raiser's Edge NXT offers sophisticated pledge tracking, payment plans, and robust recurring gift management with integrated payment processing. eTapestry is more streamlined but still very capable in these areas.\n    *   **Considerations:** Can be expensive, UI sometimes feels a bit traditional, customer service reputation can be mixed.\n\n3.  **Bloomerang**\n    *   **Strengths:** User-friendly interface, strong focus on donor retention and engagement, excellent reporting on donor loyalty, great customer support.\n    *   **Pledges & Recurring:** Handles both very well. Bloomerang is particularly good at showing the lifetime value of recurring donors and tracking pledge fulfillment with clear dashboards. Integrates easily with online giving forms.\n    *   **Considerations:** Might not have",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Raiser's Edge",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 495,
+  "estimated_cost_usd": 0.00124,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

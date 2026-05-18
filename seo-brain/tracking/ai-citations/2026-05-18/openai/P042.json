@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P042",
+  "prompt_text": "Best donor CRM for faith-based nonprofits",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.897828+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM for faith-based nonprofits involves considering specific needs such as ease of use, affordability, and features tailored for religious organizations. Here are a few options that are often highly regarded:\n\n1. **Kindful**: Known for its user-friendly interface and integrations with various platforms, Kindful is excellent for small to mid-sized nonprofits. It offers donor management, email marketing, and reporting features that can be valuable for faith-based organizations.\n\n2. **Neon CRM**: Neon CRM is robust and offers tools for donor management, online fundraising, and event planning. It can be particularly useful for larger faith-based organizations with more complex needs.\n\n3. **Bloomerang**: This CRM is known for its focus on donor retention and easy-to-understand interface. Bloomerang offers insight into donor engagement and provides tools to improve relationships with donors, a feature valuable for faith-based groups.\n\n4. **eTapestry**: A Blackbaud product, eTapestry is designed for small and growing nonprofits and offers comprehensive donor management tools. Its cloud-based platform is scalable, making it suitable for faith-based organizations planning to grow.\n\n5. **Salesforce Nonprofit Success Pack (NPSP)**: While Salesforce can be complex, the NPSP is specifically tailored for nonprofits, offering robust donor and volunteer management tools. With customization, it can be adapted to faith-based needs, though it might require a dedicated team to manage it.\n\n6. **DonorPerfect**: Known for its flexibility and ease of use, DonorPerfect offers a range of features like donor tracking, online giving, and event management. It's scalable for both small and large organizations.\n\nWhen choosing a CRM, consider factors like budget, scalability, specific features needed for donor engagement and management, ease of integration with other tools you're using, and the level of customer support offered. Some of these platforms offer discounts or special packages for faith-based organizations, so it's worth inquiring about such options.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 398,
+  "estimated_cost_usd": 0.004015,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P145",
+  "prompt_text": "Best donor CRM for capital campaigns",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898767+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a capital campaign depends heavily on the specific needs, size, complexity, and budget of your organization. However, a capital campaign demands robust features beyond standard donor management.\n\nHere are the top contenders, emphasizing features crucial for capital campaigns, followed by key features to look for.\n\n---\n\n### Top Recommendations for Capital Campaigns\n\n**1. Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack)**\n\n*   **Why it's great for Capital Campaigns:**\n    *   **Unrivaled Customization:** Salesforce is highly customizable. You can tailor data fields, workflows, and reports specifically to your campaign phases, goals, and pledge structures.\n    *   **Robust Moves Management:** Excellent for tracking every touchpoint and action for major gift prospects, from identification to cultivation, solicitation, and stewardship.\n    *   **Advanced Reporting & Dashboards:** Create detailed campaign dashboards to track progress against goals, pipeline health, solicitor performance, and pledge realization.\n    *   **Scalability:** Can handle campaigns of any size and complexity, growing with your organization.\n    *   **Vast AppExchange:** Integrates with thousands of third-party apps for wealth screening, prospect research, marketing automation, and more.\n*   **Ideal For:** Medium to large organizations, those with complex campaign structures, or organizations that anticipate significant growth and need a highly customizable, future-proof solution. Requires some technical expertise or a dedicated admin.\n\n**2. Blackbaud Raiser's Edge NXT (RENXT)**\n\n*   **Why it's great for Capital Campaigns:**\n    *   **Industry Standard for Large Nonprofits:** Blackbaud has long been a leader in major gift and campaign management. RENXT builds on this legacy with a more modern interface.\n    *   **Comprehensive Campaign Management:** Strong features for setting up campaign goals, managing pledges (multi-year, payment schedules), and tracking progress.\n    *   **Advanced Prospect Research & Wealth Screening:** Integrates deeply with Blackbaud's own prospect research tools, which are excellent for identifying and analyzing major gift potential.\n    *   **Solicitor Management:** Tools to assign prospects to solicitors, track their activity, and monitor their progress.\n    *   **Robust Reporting:** Excellent for creating campaign-specific reports, pledge summaries, and pipeline analyses.\n*   **Ideal For:** Established medium to",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 491,
+  "estimated_cost_usd": 0.001229,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

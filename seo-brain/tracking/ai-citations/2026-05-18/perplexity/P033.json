@@ -1,0 +1,38 @@
+{
+  "prompt_id": "P033",
+  "prompt_text": "Alternative to DonorBox",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.898514+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Here\u2019s a concise overview of strong alternatives to Donorbox, grouped by what usually matters most: cost, features, and tech stack.\n\n---\n\n## 1. Lowest-cost / no-fee options\n\n### Givebutter\n- **Best for:** Saving on platform fees with broad features.\n- **Key features:**  \n  - Donation forms, pages, crowdfunding, peer\u2011to\u2011peer, events/ticketing  \n  - Built\u2011in lightweight CRM  \n  - Text-to-give, embeddable widgets, recurring gifts\n- **Pricing:**  \n  - **$0 platform fee** (tip-based model) + standard payment processing  \n  - Donors can cover fees/tip the platform\n- **Why instead of Donorbox:**  \n  - If you\u2019re paying substantial Donorbox platform fees, this can be a major savings with comparable or better functionality.\n\n### GiveLively\n- **Best for:** 501(c)(3) nonprofits that want a truly free platform.\n- **Key features:**  \n  - Donation pages, P2P, events, text-to-give  \n  - Integrations with major CRMs and email tools\n- **Pricing:**  \n  - **No platform fee, no subscription** (must be a qualifying nonprofit)  \n  - You still pay processor fees (Stripe, etc.).\n- **Why instead of Donorbox:**  \n  - For eligible US nonprofits, it removes platform cost entirely.\n\n### Zeffy\n- **Best for:** Cost-conscious orgs in supported regions.\n- **Key features:**  \n  - Donation forms, events, memberships  \n  - Donor covers costs via optional tip\n- **Pricing:**  \n  - **0% platform + 0% processing** (funded by voluntary donor tips)\n- **Why instead of Donorbox:**  \n  - If available in your country, it can undercut both Donorbox platform and processing costs.\n\n---\n\n## 2. More advanced fundraising suites\n\n### RallyUp\n- **Best for:** Campaign variety beyond simple forms.\n- **Key features:**  \n  - Raffles, auctions, sweepstakes, a\u2011thons, galas, livestreaming  \n  - Donation pages, P2P, team fundraising\n- **Pricing:**  \n  - \u201cFree\u201d (tip-based) or Flex (2.9\u20136.9% depending on activity)  \n  - Custom pricing for big events/galas\n- **Why instead of Donorbox:**  \n  - If you want raffles/auctions/complex campaigns built-in, Donorbox is limited here.\n\n### Classy (GoFundMe)\n- **Best for:** Larger orgs with multiple campaigns and teams.\n- **Key features:**  \n  - Donation pages, P2P, crowdfunding, events  \n  - Branded microsites, team hierarchies, advanced analytics\n- **Pricing:**  \n  - Enterprise-level, custom quotes\n- **Why instead of Donorbox:**  \n  - If you\u2019ve outgrown Donorbox and need enterprise-scale multi\u2011campaign tools.\n\n### Fundraise Up\n- **Best for:** Optimizing conversion and average gift with AI.\n- **Key features:**  \n  - AI\u2011optimized forms, upsells, smart suggested amounts  \n  - Strong A/B testing and analytics\n- **Pricing:**  \n  - Platform fee (often around ~4.9%) + processing; custom quotes\n- **Why instead of Donorbox:**  \n  - If you\u2019re optimizing at scale and can justify higher cost for better conversion.\n\n### OneCause\n- **Best for:** Events, auctions, and in\u2011person + online hybrids.\n- **Key features:**  \n  - Auctions, galas, ticketing, mobile bidding  \n  - Text-to-give, event check\u2011in\n- **Pricing:**  \n  - PAYG and annual plans; tends to be mid\u2011to\u2011high price\n- **Why instead of Donorbox:**  \n  - For orgs whose fundraising is event\u2011heavy.\n\n---\n\n## 3. Strong CRM + fundraising platforms\n\n### Bloomerang\n- **Best for:** All\u2011in\u2011one CRM + giving platform.\n- **Key features:**  \n  - Full donor CRM, email, tasks, reporting  \n  - Donation forms, campaigns, recurring giving  \n  - Integrations (Mailchimp, Constant Contact, QuickBooks, DonorSearch, etc.)\n- **Pricing:**  \n  - Starts with a free or low\u2011tier giving option; scales with database size and features\n- **Why instead of Donorbox:**  \n  - If you want a robust donor database and engagement system, not just forms.  \n  - Better long\u2011term donor management than Donorbox\u2019s contact\u2011priced CRM.\n\n### Neon One, Bonterra Network for Good, Funraise, etc.\n- **Best for:** Growing orgs that want CRM + fundraising + comms in one.\n- **Why instead of Donorbox:**  \n  - They\u2019re more complete \u201coperating systems\u201d for fundraising; higher cost, more capability.\n\n---\n\n## 4. WordPress-native options\n\nIf your site runs on WordPress and you want tight integration:\n\n### GiveWP\n- **Best for:** WordPress sites wanting a full fundraising system inside WP.\n- **Key features:**  \n  - Native donation forms, campaigns, recurring, donor records  \n  - Add\u2011ons for gateways, receipts, tributes, etc.  \n  - Full template and theme control, hooks, custom code\n- **Pricing:**  \n  - Core plugin is free; paid add\u2011ons & bundles\n- **Why instead of Donorbox:**  \n  - Better control over design and data inside WordPress, often at lower long\u2011term cost.\n\n### Others: Paymattic, Donation for WooCommerce, YITH Donations\n- **Best for:** WooCommerce-heavy sites or specific WP workflows.\n- **Why instead of Donorbox:**  \n  - You keep everything inside WordPress/Shop, with fewer external platforms.\n\n---\n\n## 5. Lightweight, developer-friendly options\n\n### Donately\n- **Best for:** Teams who want simple forms plus strong API/customization.\n- **Key features:**  \n  - Clean embeddable forms  \n  - Good API, CSS customization\n- **Pricing:**  \n  - Low platform fee tiers + processing\n- **Why instead of Donorbox:**  \n  - If your devs want more flexibility than Donorbox\u2019s more opinionated setup.\n\n---\n\n## How to choose among these\n\nAsk yourself:\n\n1. **Is cost the main driver?**  \n   - Look at **Givebutter**, **GiveLively** (if 501(c)(3)), or **Zeffy** (if supported in your country).\n\n2. **Do you need more than simple donation forms?**  \n   - For raffles/auctions/complex campaigns: **RallyUp** or **OneCause**.  \n   - For AI optimization: **Fundraise Up**.\n\n3. **Do you want full CRM + fundraising in one?**  \n   - Consider **Bloomerang** (or similar like Neon One, Funraise).\n\n4. **Are you on WordPress?**  \n   - **GiveWP** is usually the top choice; consider others if you are heavily WooCommerce-based.\n\n---\n\nIf you share a bit about your organization (size, country, tech stack, annual online donations, and top priorities: cost vs growth vs events vs CRM), I can narrow this to 2\u20133 best-fit alternatives with specific pros/cons for your situation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorBox",
+    "Givebutter",
+    "Neon One",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 1562,
+  "estimated_cost_usd": 0.028448,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.teachfloor.com/blog/best-donorbox-alternatives",
+      "https://rallyup.com/blog/donorbox-alternatives/",
+      "https://bloomerang.com/alternative/donorbox/",
+      "https://www.raisely.com/alternatives/donorbox-vs-raisely",
+      "https://wpdiscounts.io/blog/best-donorbox-alternatives/",
+      "https://monkeypod.io/articles/435-comparing_the_top_nonprofit_fundraising_software_solutions",
+      "https://118group.com/research/we-reviewed-and-scored-8-online-giving-platforms-heres-how-they-compared/",
+      "https://wholewhale.com/tips/best-donation-platforms-nonprofits/",
+      "https://www.g2.com/products/donorbox/competitors/alternatives",
+      "https://donorbox.org/nonprofit-blog/fundraising-platforms"
+    ]
+  }
+}

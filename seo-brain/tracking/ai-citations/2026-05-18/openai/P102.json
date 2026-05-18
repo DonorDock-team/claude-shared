@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.898335+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "If you're looking for free or low-cost alternatives to Salesforce Nonprofit Cloud, there are several options available that can help manage nonprofit operations, donor relationships, and other organizational needs. Here are some popular ones:\n\n1. **CiviCRM**:\n   - An open-source CRM specifically designed for nonprofits, clubs, and associations.\n   - Integrates with popular content management systems like WordPress, Joomla, and Drupal.\n   - Provides modules for contact management, fundraising, event management, and more.\n\n2. **Bitrix24**:\n   - Offers a free cloud-based version for up to 12 users.\n   - Includes CRM, project management, tasks, team collaboration, and communication tools.\n   - Features such as lead generation, contact management, and reporting are included.\n\n3. **HubSpot CRM**:\n   - Although not specifically tailored for nonprofits, HubSpot CRM is a powerful tool with a free version.\n   - Includes features for contact management, deal tracking, and email marketing.\n   - Offers additional marketing, sales, and service tools that can be beneficial for nonprofit outreach.\n\n4. **Zoho CRM for Nonprofits**:\n   - Zoho offers a free version with essential CRM features.\n   - While the free plan is limited to three users, it supports contact management and automation.\n   - Nonprofits may access special pricing for more extensive tools on paid plans.\n\n5. **SuiteCRM**:\n   - An open-source CRM that offers a suite of sales, marketing, and service capabilities.\n   - Highly customizable and suitable for organizations that need tailored solutions.\n   - Supports integration with various third-party applications to expand capabilities.\n\n6. **NeonCRM**:\n   - While not entirely free, NeonCRM offers discounts for small nonprofits and a demo version.\n   - Features include donor and membership management, fundraising, and event registration.\n   - Provides customization and integration options to meet specific nonprofit needs.\n\n7. **Odoo**:\n   - An open-source ERP and CRM with a suite of business applications.\n   - The community version is free and includes CRM, sales, and other fundamental modules.\n   - Highly modular, allowing organizations to add apps and features as needed.\n\n8. **EspoCRM**:\n   - An open-source CRM that provides a free version suitable for small-to-medium-sized nonprofits.\n   - Offers features like contact management, sales automation, and customer support.\n   - Can be customized to fit unique nonprofit processes and workflows.\n\nWhen selecting a CRM, consider your specific organizational needs, technical expertise available, and the potential growth of your operations to ensure your choice can scale with your nonprofit's requirements.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 528,
+  "estimated_cost_usd": 0.005315,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

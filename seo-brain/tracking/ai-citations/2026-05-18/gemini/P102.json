@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898362+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding truly *free* and comprehensive alternatives to Salesforce Nonprofit Cloud can be challenging, as \"free\" often means either limited features, a steep learning curve, or requiring significant technical expertise and time investment. Salesforce NPSP offers a lot of functionality out-of-the-box, and replicating that for free takes effort.\n\nHowever, here are several excellent alternatives that are either completely free, have robust free tiers, or are open-source (meaning the software itself is free, but you might incur hosting/setup costs):\n\n---\n\n### 1. CiviCRM\n\n*   **Type:** Open-Source CRM\n*   **Pros:**\n    *   **Designed for Nonprofits:** CiviCRM is purpose-built for non-profits and civic sector organizations, offering features for donor management, fundraising, event management, membership management, peer-to-peer fundraising, case management, and more.\n    *   **No License Fees:** As open-source software, there are no licensing costs.\n    *   **Highly Customizable:** Extremely flexible and can be tailored to specific organizational needs.\n    *   **Integrates with CMS:** Works seamlessly with popular content management systems like WordPress, Drupal, and Joomla.\n    *   **Strong Community:** Large and active community for support and development.\n*   **Cons:**\n    *   **Technical Expertise Required:** Setting up, hosting, and maintaining CiviCRM usually requires technical knowledge or hiring a consultant/partner, which incurs costs.\n    *   **Hosting Costs:** You'll need to pay for web hosting to run CiviCRM.\n    *   **Learning Curve:** Can be complex for new users due to its extensive features.\n*   **Best for:** Organizations with some technical expertise or a budget for implementation support, who need a comprehensive, customizable solution without ongoing license fees.\n\n---\n\n### 2. Google Workspace for Nonprofits (and individual Google tools)\n\n*   **Type:** Suite of productivity and collaboration tools\n*   **Pros:**\n    *   **Free for Eligible Nonprofits:** Google provides its Workspace suite (Gmail, Drive, Docs, Sheets, Calendar, Meet, Forms) for free to eligible non-profit organizations.\n    *   **Familiar & User-Friendly:** Most people are already familiar with Google's interface.\n    *   **Excellent for Collaboration:** Real-time collaboration on documents, spreadsheets, etc.\n    *   **Can Build DIY CRM:** With Google Sheets, Forms, and Apps Script, you can create surprisingly powerful custom tracking systems for donors, volunteers, and programs.\n    *   **Google Ad Grants:** Free ad spend for eligible nonprofits to promote their mission.\n*   **Cons:**\n    *   **Not a Unified CRM:** You'll be stitching together various tools, which requires manual effort and doesn't offer the integrated workflows of a dedicated CRM.\n    *   **Scalability Issues:** While good for small to medium lists, managing",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce NPSP",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 615,
+  "estimated_cost_usd": 0.001539,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

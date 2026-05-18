@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898381+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Salesforce Nonprofit Cloud\n\nActually, **Salesforce itself** offers a nonprofit-specific version called **Salesforce Nonprofit Cloud** (formerly NPSP - Nonprofit Success Pack), which includes:\n\n- **10 free licenses** for qualifying nonprofits\n- Deep discounts on additional licenses\n- Fundraising and donor management tools\n- Grant tracking\n- Program management\n- Volunteer coordination\n\n# Other Nonprofit CRM Alternatives\n\nIf you're looking for alternatives to Salesforce, consider:\n\n## **Bloomerang**\n- Built specifically for nonprofits\n- Strong donor retention focus\n- More affordable and user-friendly\n\n## **Blackbaud/Raiser's Edge**\n- Industry standard for larger nonprofits\n- Comprehensive fundraising features\n\n## **NeonCRM**\n- All-in-one solution\n- Good for small to mid-size nonprofits\n- More affordable than Salesforce\n\n## **Little Green Light**\n- Budget-friendly\n- Easy to use\n- Good for smaller organizations\n\n## **DonorPerfect**\n- Long-established in nonprofit space\n- Strong reporting features\n\nMost nonprofits actually use **Salesforce Nonprofit Cloud** due to the free/discounted pricing and robust features. The learning curve is steeper, but the functionality is unmatched.\n\nWhat size is your nonprofit, and what's your primary use case?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 21,
+  "output_tokens": 313,
+  "estimated_cost_usd": 0.004758,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

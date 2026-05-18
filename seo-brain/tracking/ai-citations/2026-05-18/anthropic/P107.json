@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898603+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Measure Donor Retention\n\n## Key Retention Metrics\n\n### 1. **Overall Retention Rate**\n```\n(Number of donors who gave this year AND last year / Number of donors who gave last year) \u00d7 100\n```\n**Example:** 400 repeat donors \u00f7 1,000 prior year donors = 40% retention rate\n\n### 2. **First-Time Donor Retention**\n```\n(First-time donors from last year who gave again / Total first-time donors last year) \u00d7 100\n```\nThis is typically your lowest rate (often 15-30%) but most critical to improve.\n\n### 3. **Multi-Year Retention**\nTrack donors who've given 2, 3, 5+ consecutive years. These loyal donors have much higher retention (often 60-80%).\n\n## Additional Important Metrics\n\n- **Retention by giving level** (small vs. major donors)\n- **Retention by acquisition source** (event, online, direct mail)\n- **Retention by donor age/demographics**\n- **Average gift progression** (are retained donors giving more?)\n- **Lapsed donor rate** (didn't give this year but gave before)\n\n## When to Measure\n\n- **Annually** at fiscal year-end (standard)\n- **Quarterly** for trend monitoring\n- **Monthly** for large, sophisticated programs\n\n## Benchmarks\n\n- Overall retention: 40-45% (average)\n- First-time retention: 15-25%\n- Multi-year retention: 60-80%\n\n## Tools Needed\n\n- Donor database/CRM\n- Excel or reporting software\n- At least 2-3 years of clean data\n\n**Pro tip:** Track trends over time rather than obsessing over a single year's number.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 407,
+  "estimated_cost_usd": 0.006141,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

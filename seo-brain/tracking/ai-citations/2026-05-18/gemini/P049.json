@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P049",
+  "prompt_text": "Best donor CRM with unlimited contacts",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898415+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding the \"best\" donor CRM with \"unlimited contacts\" is a great goal, but it's important to understand how \"unlimited\" is often priced in the CRM world. Many CRMs that offer unlimited contacts do so by charging primarily for **user licenses** or offering it as part of a more comprehensive, higher-tier package.\n\nHere are the top contenders and considerations, keeping \"unlimited contacts\" as a priority:\n\n## Top Recommendations for Unlimited Contacts Donor CRMs\n\n1.  **Salesforce Nonprofit Success Pack (NPSP)**\n    *   **How it handles \"unlimited contacts\":** Salesforce NPSP is built on the Salesforce platform, which is generally priced by user licenses, not by the number of contacts. Nonprofits can get **10 free user licenses** and significant discounts on additional licenses. You can have millions of contacts without an additional cost for the *contact record itself*.\n    *   **Pros:**\n        *   **Scalability:** Unmatched in its ability to scale from small to very large organizations.\n        *   **Customization:** Extremely flexible and customizable to fit virtually any nonprofit's needs.\n        *   **Ecosystem:** Access to the vast Salesforce AppExchange for countless integrations and add-ons (event management, grant management, marketing automation, etc.).\n        *   **Comprehensive:** Manages donors, volunteers, grants, programs, communications, and more.\n        *   **Free Core Licenses:** 10 free user licenses for qualified nonprofits.\n    *   **Cons:**\n        *   **Learning Curve:** Can be complex and requires dedicated administrative knowledge.\n        *   **Implementation Cost:** While the software itself might be free for the first 10 users, setting it",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 361,
+  "estimated_cost_usd": 0.000904,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

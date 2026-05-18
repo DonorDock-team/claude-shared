@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P032",
+  "prompt_text": "Alternative to Givebutter for donor management",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898473+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Givebutter is popular for its \"all-in-one\" approach, combining donor management (CRM-lite) with various fundraising tools like online forms, peer-to-peer, events, and text-to-give. When looking for alternatives, consider what aspects of Givebutter you value most and what features you might need more or less of.\n\nHere are some excellent alternatives, categorized by their primary strengths:\n\n---\n\n## **1. All-in-One Platforms (Similar to Givebutter's Breadth)**\n\nThese platforms aim to provide a comprehensive suite of tools, often including CRM, fundraising, events, and communications.\n\n*   **Bloomerang:**\n    *   **Strengths:** Excellent, user-friendly CRM focusing on donor retention and engagement. Strong reporting, integrated online fundraising forms, email marketing, and often integrates with other tools for events/P2P.\n    *   **Good for:** Organizations prioritizing donor relationships, data-driven insights, and an intuitive CRM. Often considered a step up in CRM sophistication from Givebutter.\n    *   **Pricing:** Tiered based on donor records.\n\n*   **Neon CRM (formerly Neon One):**\n    *   **Strengths:** Comprehensive and modular platform offering CRM, fundraising, events, membership management, website integration, and volunteer management. Highly customizable.\n    *   **Good for:** Organizations needing a robust, scalable system that can handle memberships, events, and complex donor data alongside fundraising.\n    *   **Pricing:** Tiered based on features and donor records.\n\n*   **Classy:**\n    *   **Strengths:** Known for its beautiful, highly customizable fundraising pages, powerful peer-to-peer campaigns, crowdfunding, and event ticketing. Integrates with Salesforce and other CRMs. While it has some donor data capabilities, its strength is fundraising execution.\n    *   **Good for:** Organizations focused on creating impactful, branded campaigns, especially P2P and crowdfunding, and those who may already have a separate CRM.\n    *   **Pricing:** Often requires a custom quote, generally for medium to larger non-profits.\n\n*   **Donorbox:**\n    *   **Strengths:** Very popular for its simple, embeddable, and highly customizable donation forms. Offers recurring donations, peer-to-peer, text-to-give, crowdfunding, and basic donor management. Excellent for quick setup.\n    *   **Good for:** Organizations primarily needing robust donation processing and a user-friendly fundraising suite without the deep CRM features of other platforms. Very accessible for smaller organizations.\n    *   **Pricing:** A free basic plan with transaction fees; paid plans offer more features and lower fees.\n\n*   **Kindful (now Blackbaud Kindful):**\n    *   **Strengths:** Focuses on smart fundraising and strong CRM capabilities. Integrates well with a variety of third-party tools (email, accounting, advocacy). Good for analytics and donor insights.\n    *   **Good for:** Organizations looking for a modern, integrated CRM that can connect with their existing tech stack and provide valuable insights into donor behavior.\n    *   **Pricing:** Tiered based on donor records.\n\n*   **Qgiv:**\n    *   **Strengths:** Powerful fundraising",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "Givebutter",
+    "Kindful",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 677,
+  "estimated_cost_usd": 0.001695,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

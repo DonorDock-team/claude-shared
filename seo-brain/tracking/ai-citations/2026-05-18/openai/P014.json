@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "openai",
+  "timestamp": "2026-05-18T13:39:51.898441+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When comparing DonorDock and Keela, two popular donor management and fundraising platforms, there are several key features and aspects to consider. Both platforms are designed to help non-profits streamline their fundraising efforts, manage donor relationships, and improve overall operational efficiency. Here\u2019s a breakdown of their features, strengths, and potential differences:\n\n### DonorDock\n\n**Features:**\n1. **Donor Management:** Provides tools for tracking donor information, including contact details, donation history, and communication preferences.\n2. **Fundraising Tools:** Includes functionality for campaign management and event planning to encourage more donations.\n3. **Communication:** Offers integrated email marketing tools to manage and optimize outreach to donors.\n4. **Reporting and Analytics:** Provides dashboards and reports to analyze fundraising performance and donor behavior.\n5. **Integrations:** Can connect with other software and platforms to expand its capabilities.\n\n**Strengths:**\n- Focuses on simplicity and ease of use, making it accessible for smaller organizations or those with limited technical expertise.\n- Offers customizable options to tailor the platform to specific organizational needs.\n- Emphasizes donor engagement through integrated communication tools.\n\n### Keela\n\n**Features:**\n1. **CRM Capabilities:** Comprehensive donor management system that includes donor profiles, gift tracking, and communication logs.\n2. **Fundraising Management:** Tools for managing campaigns, online giving, and major gifts.\n3. **Project Management:** Offers features to manage non-profit projects and tasks alongside fundraising activities.\n4. **Artificial Intelligence:** AI-driven insights to help optimize fundraising efforts and donor relationships.\n5. **Custom Reporting:** Advanced reporting tools to create detailed performance analysis.\n\n**Strengths:**\n- Known for having a more robust set of features that cater to organizations with more complex needs.\n- The use of AI to provide actionable insights can help organizations make data-driven decisions.\n- Strong project management capabilities allow for overall operational coordination, not just fundraising.\n\n### Comparison\n\n- **Ease of Use:** DonorDock is often highlighted for its user-friendly interface, making it suitable for smaller organizations or those new to donor management software. Keela might have a steeper learning curve due to its comprehensive feature set.\n  \n- **Target Audience:** DonorDock might be a better fit for small to mid-sized non-profits looking for straightforward donor management and fundraising tools. Keela, with its advanced features, might appeal more to larger organizations with more complex operational needs.\n  \n- **Pricing:** Both platforms offer tiered pricing models based on the number of users and features. It\u2019s important to consider what specific tools and capabilities are included at each tier to determine which platform delivers the best value for your organization.\n  \n- **Integrations and Extensibility:** If integration with other systems is a priority, it\u2019s essential to review both platforms\u2019 capabilities in this area. Keela\u2019s broader feature set may include deeper integration options, whereas DonorDock might focus on essential tools that already cover the basics for many organizations.\n\nThe choice between DonorDock and Keela will largely depend on your organization\u2019s size, specific needs, and budget. It may be beneficial to take advantage of trial periods, if available, to evaluate which platform aligns best with your goals and operational style.",
+  "donordock_mentioned": true,
+  "donordock_position": 15,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 647,
+  "estimated_cost_usd": 0.006502,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

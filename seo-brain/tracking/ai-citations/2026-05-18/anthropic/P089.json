@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P089",
+  "prompt_text": "Best donor CRM for mental health nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.898599+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Mental Health Nonprofits\n\n## Top Recommendations\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized mental health organizations\n- **Key features:** Donor retention focus, engagement metrics, easy-to-use interface\n- **Mental health fit:** Strong reporting for tracking program impact and donor communications\n- **Pricing:** ~$125-$500/month\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with complex needs\n- **Key features:** Highly customizable, robust case management, program tracking\n- **Mental health fit:** Can integrate client services with fundraising; HIPAA-compliant options available\n- **Pricing:** Free for 10 licenses, then ~$36+/user/month\n\n### **3. DonorPerfect**\n- **Best for:** Organizations needing grant management\n- **Key features:** Strong reporting, integrated online giving, grant tracking\n- **Mental health fit:** Good for tracking restricted funds and program-specific donations\n- **Pricing:** ~$89-$289/month\n\n### **4. Little Green Light**\n- **Best for:** Small nonprofits with limited budgets\n- **Key features:** Affordable, intuitive, solid donor management basics\n- **Mental health fit:** Simple enough for small counseling centers or crisis lines\n- **Pricing:** ~$39-$59/month\n\n## Key Considerations for Mental Health Nonprofits\n\n- **Data separation:** Keep donor data separate from client data for privacy\n- **Grant tracking:** Many mental health nonprofits rely heavily on grants\n- **Restricted fund management:** Track program-specific donations\n- **Volunteer coordination:** Many use volunteers for hotlines/support groups\n\nWhat's your organization's size and primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 404,
+  "estimated_cost_usd": 0.006111,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

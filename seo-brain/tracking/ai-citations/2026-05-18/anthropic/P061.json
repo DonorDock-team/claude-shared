@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P061",
+  "prompt_text": "Best donor CRM for monthly giving programs",
+  "engine": "anthropic",
+  "timestamp": "2026-05-18T13:39:51.897884+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Monthly Giving Programs\n\nHere are the top CRM platforms specifically strong for managing recurring donations:\n\n## **Top Tier Options**\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits focused on retention\n- Built-in recurring giving management\n- Strong donor engagement scoring\n- Automated retention communications\n- **Price:** Starting ~$125/month\n\n### **2. Keela**\n- **Best for:** Organizations wanting automation + affordability\n- Excellent recurring donation workflows\n- Smart segmentation for sustainers\n- Payment processing integrated\n- **Price:** Starting ~$50/month\n\n### **3. Neon CRM**\n- **Best for:** Comprehensive monthly giving programs\n- Dedicated sustainer management tools\n- Payment failure recovery automation\n- Customizable donor journeys\n- **Price:** Starting ~$99/month\n\n## **Enterprise Options**\n\n### **4. Salesforce Nonprofit Cloud**\n- Most customizable for complex programs\n- Requires implementation investment\n- Best for organizations with IT resources\n- **Price:** ~$36/user/month + implementation costs\n\n### **5. Virtuous**\n- Responsive fundraising platform\n- Advanced automation for monthly donors\n- Strong analytics\n- **Price:** Custom pricing (typically $500+/month)\n\n## **Key Features to Look For:**\n- \u2705 Automated payment retry logic\n- \u2705 Sustainer-specific reporting\n- \u2705 Upgrade/downgrade workflows\n- \u2705 Failed payment notifications\n- \u2705 Integration with payment processors\n\n**What's your organization's size and budget?** That will help narrow the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Keela",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 383,
+  "estimated_cost_usd": 0.00579,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

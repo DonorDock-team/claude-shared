@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P130",
+  "prompt_text": "DonorPerfect downsides",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.898940+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Here are the main downsides of DonorPerfect, distilled from recent reviews and analyst write\u2011ups:\n\n1. Reliance on third\u2011party tools  \n   - Key functions like email, peer\u2011to\u2011peer fundraising, auctions, and some event tools often require separate add\u2011ons or integrations.  \n   - This can create data silos, syncing issues, and more tools to manage (sources [1], [3], [5], [6]).\n\n2. Complexity and learning curve  \n   - Powerful but not simple: new users report it feels overwhelming, especially without a dedicated CRM/IT person (sources [2], [3], [5]).  \n   - Reporting and filters are especially cited as \u201ccomprehensive but hard to use,\u201d taking months to years to fully master (sources [3], [4], [5]).\n\n3. Traditional, less-intuitive interface  \n   - The UI is often described as dated and less intuitive than newer CRMs, making daily tasks feel slower or cumbersome for staff used to modern apps (source [2]).  \n   - Usability gaps include: only 10 rows in batch gift entry, can\u2019t easily compare two donors in separate windows, multiple places to enter the same kind of data (sources [3], [4]).\n\n4. Limited customization in some key areas  \n   - Dashboards and some reports are less customizable than users want (source [1]).  \n   - Receipts, online forms, and some communication tools have constraints that lead to workarounds (sources [3], [5], [7]).  \n   - Forecasting and mass-contact tools are also cited as less flexible than desired (source [5]).\n\n5. Gaps around households, relationships, and donor self-service  \n   - Multiple reviewers mention poor or missing household/spouse linking and difficulty viewing giving at a household vs. individual level (sources [4], [5]).  \n   - Lack of a donor portal where donors can self-serve (view receipts, manage recurring gifts, etc.) is a recurring complaint (source [5]).\n\n6. Online forms and fundraising tools are weaker  \n   - Drag\u2011and\u2011drop forms are limited in functionality and sometimes require separate reporting workflows (sources [5], [7]).  \n   - Donation pages are criticized for weaker conversion design and limited options for growing monthly giving (source [6]).  \n   - No Zapier integration limits how easily orgs can connect DonorPerfect with other modern tools (source [6]).\n\n7. Performance issues and glitches  \n   - Users report lags when editing records, intermittent slowdowns, occasional crashes, and session timeouts (source [5]).  \n   - These can be particularly frustrating for high-volume data entry and busy gift processing periods.\n\n8. Pricing and fit for smaller nonprofits  \n   - Tiered pricing increases as you add records/features; many smaller orgs find it expensive relative to what they actually use (sources [2], [3], [5]).  \n   - Reviews consistently say it\u2019s not ideal for:  \n     - Volunteer\u2011run orgs  \n     - New nonprofits under ~\\$250K annual revenue  \n     - Teams without a dedicated CRM manager  \n   - Small orgs often feel they\u2019re paying for unused functionality (source [3]).\n\n9. Event and campaign management limitations  \n   - Event tools are described as limited, poorly integrated, and not sufficient for more complex event needs (source [5]).  \n   - Some organizations supplement with other event or ticketing systems, adding more integrations to manage.\n\n10. Support and onboarding inconsistency  \n    - Many users praise support and training resources, but others\u2014especially around onboarding, billing, or complex issues\u2014report inconsistent quality (sources [3], [5]).  \n    - For first\u2011time CRM adopters, initial implementation support is often called \u201cweak\u201d (source [5]).\n\nWhen DonorPerfect tends to be a poor fit  \n- Small, resource\u2011constrained orgs that need something simple and quick to implement.  \n- Teams very sensitive to cost or who won\u2019t use advanced features.  \n- Organizations that need highly modern UX, strong native online forms, or extensive automation via tools like Zapier.\n\nIf you share a bit about your org\u2019s size, tech comfort, and main use cases (e.g., \u201conline giving + email only\u201d vs. \u201cmajor gifts + events + grants\u201d), I can translate these downsides into a more specific \u201cgood fit / bad fit\u201d assessment for you.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 914,
+  "estimated_cost_usd": 0.018728,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://blog.charityengine.net/charityengine-vs-donorperfect",
+      "https://designbycosmic.com/guides/nonprofit-branding/donorperfect/",
+      "https://www.zeffy.com/blog/donorperfect-reviews",
+      "https://www.g2.com/products/donorperfect/reviews?qs=pros-and-cons",
+      "https://www.capterra.com/p/2698/DonorPerfect-Fundraising-Software/reviews/",
+      "https://4agoodcause.com/givebutter-vs-donorperfect/",
+      "https://www.softwareadvice.com/nonprofit/donorperfect-profile/reviews/",
+      "https://www.donorperfect.com/reviews-ratings/ratings/"
+    ]
+  }
+}

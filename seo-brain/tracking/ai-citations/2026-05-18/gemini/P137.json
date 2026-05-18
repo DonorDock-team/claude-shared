@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P137",
+  "prompt_text": "Little Green Light limitations",
+  "engine": "gemini",
+  "timestamp": "2026-05-18T13:39:51.898310+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Little Green Light (LGL) is a popular donor management system, particularly well-suited for small to medium-sized non-profits due to its affordability, ease of use, and robust core features. However, like any software, it has limitations, especially when compared to more expensive, enterprise-level CRM solutions.\n\nHere are some common limitations of Little Green Light:\n\n1.  **Scalability for Enterprise-Level Nonprofits:**\n    *   **High Volume Data:** While LGL handles a good amount of data, very large organizations with tens or hundreds of thousands of constituents and millions of transactions might find its performance or data management capabilities less optimized than systems designed for that scale (e.g., Salesforce NPSP, Blackbaud Raiser's Edge NXT).\n    *   **Complex Organizational Hierarchies:** Organizations with many departments, regional offices, or complex reporting structures might find LGL's native support for these hierarchies less robust.\n    *   **Concurrent Users:** While it supports multiple users, very large teams with hundreds of concurrent users might experience different performance or need more sophisticated user management features.\n\n2.  **Advanced Feature Depth:**\n    *   **Major Gift Moves Management:** LGL provides fields and tools to track major gift prospects, but it lacks the highly structured, workflow-driven moves management systems found in more sophisticated CRMs that guide fundraisers through specific steps and automate tasks.\n    *   **Comprehensive Grant Management:** While LGL allows you to track grants, it's not a full-fledged grant management system. It may lack deep features for managing complex grant cycles, intricate reporting requirements, budget allocations by grant, or detailed proposal tracking.\n    *   **Volunteer Management:** LGL can track volunteer activities and interests, but it doesn't offer a comprehensive volunteer management suite with features like volunteer portals, scheduling, hour tracking with approval workflows, or mass communication specific to volunteer roles.\n    *   **Event Management:** LGL integrates with event tools and can track attendees, but it doesn't have native, deep event management capabilities like ticketing, seating charts, complex registration flows, or integrated event promotion often",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "LGL",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 439,
+  "estimated_cost_usd": 0.001099,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

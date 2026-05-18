@@ -1,0 +1,37 @@
+{
+  "prompt_id": "P044",
+  "prompt_text": "Best donor CRM for food banks",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.897969+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Based on recent reviews and sector-specific guides, there isn\u2019t a single \u201cbest\u201d CRM for every food bank, but there are a few clear front\u2011runners depending on your size, budget, and tech capacity. Here\u2019s a concise breakdown to help you shortlist.\n\n---\n\n## 1. Best overall fit for many food banks\n\n### **Bloomerang**\n**Use if:** You\u2019re a small\u2013mid sized food bank focused on donor retention and long-term relationships.\n\n**Why it stands out:**\n- Strong donor retention tools and reporting (it\u2019s explicitly built around retention).\n- Easy-to-use interface for small teams.\n- Email marketing, engagement scoring, and good reporting out of the box.\n- Widely recommended across nonprofit CRM roundups and small\u2011nonprofit comparisons.\n\n**Potential downsides:**\n- Not a full \u201call\u2011in\u2011one\u201d operations system (you\u2019ll still need volunteer/warehouse tools).\n- Pricing may be high for very small food pantries, but solid value for mid-sized orgs.\n\n---\n\n## 2. Best if you want an **all\u2011in\u2011one small nonprofit platform**\n\n### **LiveImpact**\n**Use if:** You\u2019re a small food bank and want a single system for donors, programs, volunteers, and events.\n\n**Why it stands out:**\n- Frequently cited as best all\u2011in\u2011one value for small nonprofits.\n- Modules for donors, volunteers, events, and basic case/program management.\n- Reduces the need for multiple tools and complex integrations.\n\n**Potential downsides:**\n- Less specialized donor\u2011retention tooling than Bloomerang.\n- Interface and flexibility may not match larger enterprise CRMs.\n\n---\n\n## 3. Best if you want **donor CRM + strong online fundraising**\n\n### **GoFundMe Pro (formerly Classy) + CRM**\n**Use if:** You run a lot of online campaigns, peer\u2011to\u2011peer events, or emergency appeals.\n\n**Why it stands out:**\n- Widely used by hunger relief organizations for polished, high-conversion donation and campaign pages.\n- Strong tools for peer\u2011to\u2011peer fundraising, recurring giving, and events.\n- Usually paired with a CRM (e.g., Salesforce, Bloomerang, Raiser\u2019s Edge) via integration.\n\n**Potential downsides:**\n- It\u2019s fundraising/engagement software, not a full CRM by itself.\n- Costs and setup complexity can be overkill for small food banks.\n\n---\n\n## 4. Best for **larger or data\u2011mature food banks**\n\n### **Salesforce Nonprofit Cloud (NPSP)** or **Bonterra / Blackbaud products**\n**Use if:** You\u2019re a medium\u2013large regional food bank with IT support and complex needs.\n\n**Why they stand out:**\n- Highly configurable for complex donor pipelines, major gifts, grants, and multi\u2011program operations.\n- Large ecosystem of integrations (volunteer systems, online giving, accounting).\n- Strong for data consolidation across programs and fundraising.\n\n**Potential downsides:**\n- Higher implementation and maintenance demands.\n- Consulting costs likely; not ideal for small teams with limited tech expertise.\n\n---\n\n## 5. Budget\u2011friendly donor CRMs often used by smaller nonprofits\n\nThese aren\u2019t food\u2011bank\u2011specific but come up often as accessible options:\n\n- **Little Green Light** \u2013 Simple, affordable donor CRM; good for small shops starting to centralize donor data.\n- **DonorDock** \u2013 All\u2011in\u2011one donor CRM + email + online giving, aimed at small nonprofits.\n- **DonorPerfect** \u2013 Longstanding donor management system; sometimes recommended for food banks that don\u2019t need a heavy enterprise stack.\n\n---\n\n## 6. Food\u2011bank\u2011specific fundraising platforms\n\nSome tools are built with hunger relief in mind and can integrate with your CRM:\n\n- **Givecloud (for food banks)** \u2013 Online giving, symbolic gifts (e.g., \u201cfeed a family for a week\u201d), recurring giving, and CRM syncing, specifically marketed to hunger\u2011relief organizations.\n- These are strongest as **front\u2011end fundraising and donor experience layers**, not always full CRMs.\n\n---\n\n## How to choose: quick checklist for food banks\n\nWhen comparing vendors, make sure they can handle:\n\n1. **Core donor CRM needs**\n   - Household and organization records\n   - Recurring gifts, pledges, tribute gifts\n   - Offline + online gift entry and reporting\n2. **Food\u2011bank\u2011specific workflows**\n   - Easy segmentation by campaign (holiday, emergency, corporate drives, etc.)\n   - Integration with your online giving pages and email platform\n   - Ability to track corporate/faith\u2011based partners and in\u2011kind donors\n3. **Integrations**\n   - Accounting (QuickBooks, etc.)\n   - Volunteer management and event tools you already use\n   - Online fundraising platforms (e.g., GoFundMe Pro/Classy, Givecloud)\n4. **Usability and support**\n   - Can non\u2011technical staff run reports and create segments?\n   - Onboarding/training tailored to nonprofits (ideally food banks)\n5. **Budget and growth**\n   - Transparent pricing (contacts, users, and add\u2011ons)\n   - Will it still work if you double donors or staff in 3\u20135 years?\n\n---\n\nIf you tell me:\n- your annual revenue,\n- approximate number of donors,\n- staff size/tech comfort,\n- and what you use currently,\n\nI can narrow this down to 2\u20133 specific recommendations with pros/cons tailored to your food bank.",
+  "donordock_mentioned": true,
+  "donordock_position": 3097,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1130,
+  "estimated_cost_usd": 0.021971,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.galaxydigital.com/blog/best-donor-management-software-options-for-nonprofits",
+      "https://www.humanitru.com/blog/the-best-crms-data-and-fundraising-tools-for-food-banks",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://bloomerang.com/blog/nonprofit-crm",
+      "https://blog.charityengine.net/fundraising-software-food-banks",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://givecloud.com/industries/food-bank-fundraising/",
+      "https://www.donordock.com/articles/best-nonprofit-crm"
+    ]
+  }
+}

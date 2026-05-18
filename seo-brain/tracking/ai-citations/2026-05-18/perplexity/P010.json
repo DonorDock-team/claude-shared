@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P010",
+  "prompt_text": "Does DonorDock have online giving",
+  "engine": "perplexity",
+  "timestamp": "2026-05-18T13:39:51.898092+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Yes. DonorDock includes built-in online giving.\n\nKey points from DonorDock\u2019s own materials:\n\n- **Giving Pages / Online Giving Pages**  \n  - You can create unlimited branded donation pages and forms for campaigns, events, sponsorships, memberships, and general donations.  \n  - Gifts made through these pages are **automatically created in DonorDock** and tied to donor records.  \n  - You can configure amounts, frequencies (one-time or recurring), designations, and gift types (Donation, Event Ticket, Membership).  \n  - Pages can be shared by direct link, QR code, text-to-donate, or embedded on your website.  \n  - Supports tracking/segmentation (contact badges, gift tags, marketing lists) for follow-up and automation.\n\n- **Payment processing & integrations**  \n  - Uses **Stripe Connect** (recommended to access all features), plus support for **PayPal**.  \n  - Integrates with **Chariot** for DAF (Donor-Advised Fund) giving.  \n  - Integrates with **Double the Donation** for employer matching gifts.\n\n- **Fees**  \n  - DonorDock **does not charge mandatory platform fees** on online gifts.  \n  - Donors can optionally choose to cover a **5% + $0.30** \u201cdonor-funded platform fee,\u201d which helps cover both processing and DonorDock costs.  \n  - If the donor does not cover fees, your organization pays only the normal **Stripe processing fees**, and **no DonorDock platform fee**.\n\n- **Related features**  \n  - Recurring gifts management and tracking.  \n  - Automated receipts and follow-up emails.  \n  - Donor profiles and campaign progress update instantly.\n\nSo yes\u2014DonorDock provides a full online giving solution built into its CRM, centered around customizable Giving Pages.",
+  "donordock_mentioned": true,
+  "donordock_position": 5,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 384,
+  "estimated_cost_usd": 0.010784,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.youtube.com/watch?v=teCdtRyPaas",
+      "https://helpcenter.donordock.com/kb/en/online-giving-146301",
+      "https://helpcenter.donordock.com/kb/guide/en/donordock-and-online-giving-fees-FF6iCEKSlh/Steps/1935110",
+      "https://helpcenter.donordock.com/kb/guide/en/online-giving-overview-oigm9umSjA/Steps/1116318",
+      "https://www.donordock.com/articles/improving-nonprofit-events-with-online-giving",
+      "https://helpcenter.donordock.com/kb/guide/en/online-giving-overview-oigm9umSjA/Steps/1116318,1408128,1317598",
+      "https://www.donordock.com/lp/online-giving",
+      "https://helpcenter.donordock.com/kb/guide/en/understanding-online-giving-fields-3UhHtm7CRu/Steps/1710134",
+      "https://www.donordock.com/pricing"
+    ]
+  }
+}
