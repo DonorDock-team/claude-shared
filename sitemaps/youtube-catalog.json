@@ -1,19 +1,19 @@
 {
   "youtube": {
-    "scraped_at": "2026-05-15T16:06:31.739849Z",
-    "total_videos": 137,
+    "scraped_at": "2026-05-22T16:06:54.118710Z",
+    "total_videos": 141,
     "channels": {
       "donordock": {
         "name": "DonorDock",
         "handle": "@donordock",
         "url": "https://www.youtube.com/@donordock",
-        "video_count": 72
+        "video_count": 74
       },
       "fundraisinglab": {
         "name": "Fundraising Lab",
         "handle": "@FundraisingLab",
         "url": "https://www.youtube.com/@FundraisingLab",
-        "video_count": 65
+        "video_count": 67
       },
       "external": {
         "name": "External appearances",
@@ -35,6 +35,60 @@
     ]
   },
   "videos": [
+    {
+      "id": "hMvxx3SVBsg",
+      "title": "Automations - Feature Highlight",
+      "description": "Discover how Automations in DonorDock help your nonprofit save time, reduce manual work, and create more efficient donor engagement workflows. In this feature highlight, we walk through how to build c",
+      "channel": "donordock",
+      "published_at": "2026-05-22T11:31:00Z",
+      "type": "video",
+      "duration_seconds": 413,
+      "category": "feature-highlight",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=hMvxx3SVBsg",
+      "thumbnail": "https://i.ytimg.com/vi/hMvxx3SVBsg/hqdefault.jpg"
+    },
+    {
+      "id": "5viyp5U9rt8",
+      "title": "How to Run a Fundraising Campaign That Actually Works",
+      "description": "Most nonprofit fundraising campaigns don't fail because of effort. They fail because the pieces don't connect. The email, the giving page, the follow-up, the thank you, the next ask. None of it moves ",
+      "channel": "donordock",
+      "published_at": "2026-05-20T20:35:47Z",
+      "type": "video",
+      "duration_seconds": 3851,
+      "category": "the-focused-fundraiser",
+      "people": [
+        "Matt Bitzegaio"
+      ],
+      "url": "https://www.youtube.com/watch?v=5viyp5U9rt8",
+      "thumbnail": "https://i.ytimg.com/vi/5viyp5U9rt8/hqdefault.jpg"
+    },
+    {
+      "id": "KKnwz99g2Ek",
+      "title": "How One Nonprofit Added $2M+ in Planned Gifts in 9 Months",
+      "description": "🚨 New Episode 🚨 Retention went from 33% to 51%. Their supporter base grew from 500 to 3,200 a few short years. And in the last nine months alone, they added over $2M in planned gift commitments.\n\nThis",
+      "channel": "fundraisinglab",
+      "published_at": "2026-05-19T19:45:03Z",
+      "type": "video",
+      "duration_seconds": 315,
+      "category": "the-focused-fundraiser",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=KKnwz99g2Ek",
+      "thumbnail": "https://i.ytimg.com/vi/KKnwz99g2Ek/hqdefault.jpg"
+    },
+    {
+      "id": "RPyLwoAbFYs",
+      "title": "From 500 to 3,200 Donors: Stewardship, Retention & Planned Giving with Andrew Kerr",
+      "description": "Andrew Kerr shares how he grew the Georgia Conservancy's donor base from 500 to 3,200 donors, lifted retention from 33% to 51%, and built a planned giving program with 25 estate commitments totaling o",
+      "channel": "fundraisinglab",
+      "published_at": "2026-05-19T14:00:35Z",
+      "type": "video",
+      "duration_seconds": 1405,
+      "category": "the-focused-fundraiser",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=RPyLwoAbFYs",
+      "thumbnail": "https://i.ytimg.com/vi/RPyLwoAbFYs/hqdefault.jpg"
+    },
     {
       "id": "R9cJdbXC2JQ",
       "title": "Batch Management - Feature Highlight",
