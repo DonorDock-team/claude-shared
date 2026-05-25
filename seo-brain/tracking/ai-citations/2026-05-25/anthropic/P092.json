@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306159+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for International NGOs\n\nHere are the top options based on international NGO needs:\n\n## **Top Recommendations**\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large international NGOs with complex needs\n- **Strengths:** \n  - Multi-currency & multi-language support\n  - Highly customizable\n  - Strong global infrastructure\n  - Excellent reporting/analytics\n- **Considerations:** Requires technical expertise, higher cost\n\n### **2. Microsoft Dynamics 365 (Nonprofit Accelerator)**\n- **Best for:** Organizations already using Microsoft ecosystem\n- **Strengths:**\n  - Multi-currency/language native support\n  - Strong integration with Office 365\n  - Good for distributed teams\n- **Considerations:** Complex setup, technical resources needed\n\n### **3. Blackbaud Raiser's Edge NXT**\n- **Best for:** Fundraising-focused organizations\n- **Strengths:**\n  - Purpose-built for nonprofits\n  - Strong donor management features\n  - Cloud-based with global access\n- **Considerations:** Can be expensive, less flexible than Salesforce\n\n### **4. CiviCRM**\n- **Best for:** Budget-conscious NGOs with technical capacity\n- **Strengths:**\n  - Open-source (free)\n  - Multi-currency support\n  - Customizable\n  - Strong community\n- **Considerations:** Requires technical setup/maintenance\n\n### **5. Kindful (by Bloomerang)**\n- **Best for:** Small to mid-sized NGOs\n- **Strengths:**\n  - User-friendly\n  - Good reporting\n  - Affordable\n- **Considerations:** Limited international features compared to enterprise options\n\n## **Key Features to Evaluate**\n- Multi-currency processing\n- Multi-language interface\n- GDPR/data privacy compliance\n- Regional payment gateway integrations\n- Time zone management\n- Grant management capabilities\n\n**What's your organization's size and primary geographic focus?** This would help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 469,
+  "estimated_cost_usd": 0.00708,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

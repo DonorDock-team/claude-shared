@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P078",
+  "prompt_text": "Best donor CRM for Jewish nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306595+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Jewish Nonprofits\n\nHere are the top CRM options specifically suited for Jewish organizations:\n\n## **1. Kindful (by Bloomerang)**\n- Clean interface with strong donor management\n- Good for small to mid-sized organizations\n- Affordable pricing tiers\n- Easy online donation integration\n\n## **2. Bloomerang**\n- Excellent donor retention focus\n- Strong reporting on engagement metrics\n- User-friendly for smaller teams\n- Many Jewish nonprofits use it successfully\n\n## **3. Salesforce Nonprofit Cloud**\n- Most powerful and customizable\n- Power of Sales (nonprofit-specific Salesforce app) has Jewish nonprofit templates\n- Free for up to 10 users through Nonprofit Success Pack\n- Steeper learning curve but highly scalable\n\n## **4. DonorPerfect**\n- Popular among synagogues and Jewish day schools\n- Membership management features\n- Yahrzeit tracking capabilities (important for Jewish orgs)\n- Hebrew name field support\n\n## **5. ShulCloud** *(Synagogue-specific)*\n- Built specifically for synagogues\n- Handles membership, donations, yahrzeits, events\n- Jewish calendar integration\n- Best for congregations rather than general nonprofits\n\n## **Key Features to Look For:**\n- Hebrew character support\n- Yahrzeit/memorial date tracking\n- Jewish calendar integration\n- High Holiday seating management (for synagogues)\n- Tribute/honor donation tracking\n\n**What's your organization's size and primary needs?** That would help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 358,
+  "estimated_cost_usd": 0.005418,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

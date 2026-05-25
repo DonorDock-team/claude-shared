@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P146",
+  "prompt_text": "Best donor CRM with grant tracking",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306370+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM with grant tracking depends heavily on your organization's specific needs, size, budget, and desired complexity. There's no one-size-fits-all answer, but here are the top contenders, categorized by the type of organization they best serve:\n\n## Top Donor CRMs with Grant Tracking\n\n### 1. Salesforce Nonprofit Cloud (NPSP) + AppExchange Solutions\n*   **Best For:** Large, complex organizations, those with unique or evolving needs, organizations with dedicated tech staff or budget for consultants, and those who need ultimate flexibility.\n*   **Pros:**\n    *   **Unrivaled Customization:** Salesforce is a platform, not just a product. You can tailor it precisely to your grant lifecycle, data points, and workflows.\n    *   **Scalability:** Grows with your organization indefinitely.\n    *   **Vast Ecosystem:** The Salesforce AppExchange offers numerous dedicated grant management applications (e.g., Propel, Grants for Salesforce by Exponent Partners) that can seamlessly integrate with NPSP.\n    *   **Powerful Reporting:** Sophisticated dashboards and reports for every aspect of grants.\n    *   **Up to 10 Free Licenses (NPSP):** Salesforce offers 10 free licenses for Nonprofits via the Nonprofit Success Pack (NPSP).\n*   **Cons:**\n    *   **Steep Learning Curve:** Can be overwhelming for new users without a Salesforce admin.\n    *   **Implementation Costs:** Requires significant time, expertise, and potentially consultant fees to set up effectively, especially with custom grant tracking.\n    *   **AppExchange Costs:** While NPSP is free, many advanced grant management apps on the AppExchange come with their own licensing fees.\n*",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 363,
+  "estimated_cost_usd": 0.000909,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

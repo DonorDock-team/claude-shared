@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P043",
+  "prompt_text": "Best donor CRM for human services nonprofits",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.306687+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM (Customer Relationship Management) system for human services nonprofits depends on the organization's specific needs, budget, and existing processes. However, several CRM solutions are widely regarded for their utility in the nonprofit sector. Here are some of the top options:\n\n1. **Salesforce Nonprofit Cloud**:\n   - **Features**: Comprehensive donor management, fundraising tools, and customizable reports.\n   - **Benefits**: Highly customizable with numerous third-party integrations. Offers the Nonprofit Success Pack (NPSP) designed specifically for nonprofits.\n   - **Considerations**: Can be complex to set up and may require technical expertise.\n\n2. **Bloomerang**:\n   - **Features**: Focuses on donor retention with built-in email marketing and communication tools.\n   - **Benefits**: User-friendly interface with a strong emphasis on donor engagement and retention analytics.\n   - **Considerations**: Primarily targets small to mid-sized nonprofits.\n\n3. **EveryAction**:\n   - **Features**: Comprehensive suite for fundraising, advocacy, and organizing efforts.\n   - **Benefits**: Integrates well with other tools and provides robust reporting and analytics.\n   - **Considerations**: Geared towards organizations with multi-faceted engagement strategies.\n\n4. **Neon CRM**:\n   - **Features**: Offers features for donor management, event planning, and membership management.\n   - **Benefits**: Inclusive of all-in-one solutions tailored for nonprofits with various needs.\n   - **Considerations**: Interface may be less intuitive for some users.\n\n5. **Kindful**:\n   - **Features**: Integrates with various platforms and provides tools for donor tracking and engagement.\n   - **Benefits**: Known for its ease of use and integration capabilities.\n   - **Considerations**: Less customizable compared to options like Salesforce.\n\n6. **DonorPerfect**:\n   - **Features**: Tracks donors, volunteers, and constituents with comprehensive management tools.\n   - **Benefits**: Offers a wide range of functionalities designed specifically for nonprofits with strong support.\n   - **Considerations**: User experience might feel dated to some users.\n\n7. **Network for Good**:\n   - **Features**: User-friendly donor management software with integrated communication and marketing tools.\n   - **Benefits**: Designed for small nonprofits looking for all-in-one solutions.\n   - **Considerations**: May lack advanced features required by larger organizations.\n\nWhen choosing a CRM, consider factors such as the size of your organization, specific feature requirements, ease of use, and budget. It often helps to start by identifying the essential functionalities that align with your strategic goals, and then compare the solutions that fit those criteria. Testing demos and seeking recommendations from similar organizations can also provide valuable insights.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM",
+    "Network for Good",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 561,
+  "estimated_cost_usd": 0.005645,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

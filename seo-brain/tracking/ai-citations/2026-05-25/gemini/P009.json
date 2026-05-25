@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306858+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Givebutter serve distinct but often overlapping needs for nonprofits. Understanding their core strengths and limitations is key to choosing the right platform for your organization.\n\nHere's a breakdown to help you decide:\n\n---\n\n## DonorDock vs. Givebutter: At a Glance\n\n| Feature/Category       | DonorDock                               | Givebutter                                  |\n| :--------------------- | :-------------------------------------- | :------------------------------------------ |\n| **Core Focus**         | Comprehensive Donor Relationship Management (CRM) | All-in-one Fundraising Platform             |\n| **Primary Goal**       | Centralize donor data, build relationships, track interactions, long-term stewardship | Facilitate diverse fundraising campaigns, events, and online giving |\n| **CRM Depth**          | **High:** Detailed donor profiles, segmentation, reporting, communication logs | **Moderate:** Basic donor profiles, transaction history, exportable data |\n| **Fundraising Tools**  | **Moderate:** Online giving forms, campaign tracking, integrates with external tools for full execution | **High:** Crowdfunding, peer-to-peer, events, ticketing, text-to-give, live stream, auctions |\n| **Pricing Model**      | Subscription-based (monthly/annual) typically tiered by contacts, plus transaction fees for processing | Transaction-fee based (often donor-covered via \"tip jar\"), no monthly subscription for basic features |\n| **Ease of Use**        | Moderate learning curve for full CRM functionality | High ease of use, intuitive for campaign setup |\n| **Target Audience**    | Nonprofits prioritizing donor data, long-term stewardship, and detailed reporting | Nonprofits of all sizes needing modern, flexible, and accessible fundraising tools |\n\n---\n\n## Detailed Comparison\n\n### 1. Core Philosophy & Focus\n\n*   **DonorDock:** At its heart, DonorDock is a **Donor Relationship Management (CRM) system**. Its primary purpose is to help nonprofits manage all aspects of their donor relationships \u2013 from initial contact to long-term stewardship. It centralizes donor data, communication history, giving patterns, and interactions to build stronger, more personalized relationships.\n*   **Givebutter:** Givebutter is an **all-in-one fundraising platform**. Its core mission is to make it easy for nonprofits to raise money through various modern channels. It's built for creating engaging campaigns, managing events, and facilitating online donations with a strong emphasis on user experience for both the fundraiser and the donor.\n\n### 2. CRM & Donor Management\n\n*   **DonorDock:**\n    *   **Strengths:** This is its bread and butter. Offers robust donor profiles, segmentation, wealth screening integrations, grant management features, comprehensive reporting, and tools to track every interaction (emails, calls, meetings). It's designed for long-term donor strategy and detailed data analysis.\n    *   **Limitations:** While it has tools to manage campaigns, its strength is in tracking the *donors* behind the campaigns, not necessarily the front-end creation and execution of diverse fundraising *types* like peer-to-peer or event ticketing.\n*   **Givebutter:**\n    *   **Strengths:** Offers a built-in \"CRM\" that tracks donor contact information, giving history, and campaign participation *for donations made through Givebutter*. It's sufficient for basic donor tracking related to campaigns. Data is easily exportable.\n    *   **Limitations:** Its CRM capabilities are simpler compared to a dedicated platform like DonorDock.",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 719,
+  "estimated_cost_usd": 0.001799,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

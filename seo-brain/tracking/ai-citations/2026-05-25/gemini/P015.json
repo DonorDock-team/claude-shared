@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P015",
+  "prompt_text": "Alternative to Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.305846+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a popular donor management and fundraising CRM for non-profits, known for its user-friendliness and focus on donor retention. However, depending on your organization's specific needs, budget, size, or desired features, many excellent alternatives exist.\n\nHere's a breakdown of Bloomerang alternatives, categorized by their strengths and typical use cases:\n\n---\n\n### **I. Direct Competitors (Donor Management & Fundraising CRMs)**\nThese platforms offer a similar core set of features to Bloomerang, focusing on donor profiles, fundraising campaigns, communication, and reporting.\n\n1.  **Neon CRM:**\n    *   **Strengths:** Highly customizable, modular (choose what you need: CRM, fundraising, events, membership, volunteers), strong reporting.\n    *   **Best for:** Organizations needing a flexible system that can grow with them, or those with specific membership/event management needs.\n    *   **Considerations:** Can be more complex to set up than Bloomerang.\n\n2.  **DonorPerfect:**\n    *   **Strengths:** Long-standing, robust, comprehensive features including donor management, online fundraising, event management, grant tracking, and strong reporting.\n    *   **Best for:** Mid-sized to larger non-profits looking for a very established, feature-rich system.\n    *   **Considerations:** Interface can feel a bit dated compared to newer platforms; pricing can scale quickly.\n\n3.  **Kindful (now part of Bonterra):**\n    *   **Strengths:** Modern interface, strong integrations (especially with QuickBooks), good for fundraising automation and donor engagement.\n    *   **Best for:** Organizations prioritizing integrations with other tools and a clean user experience for fundraising.\n    *   **Considerations:** Pricing can be a factor, especially as you grow.\n\n4.  **Little Green Light (LGL):**\n    *   **Strengths:** Very affordable, comprehensive donor database, online giving, reporting, event management. Excellent value for the price.\n    *   **Best for:** Small to medium-sized non-profits on a tight budget who still need robust donor management.\n    *   **Considerations:** Interface might not be as polished as some higher-priced options.\n\n5.  **eTapestry (by Blackbaud):**\n    *   **Strengths:** Blackbaud's offering for smaller non-profits, offering core donor management, online fundraising, and reporting.\n    *   **Best for:** Organizations that want to be within the Blackbaud ecosystem but aren't ready for Raiser's Edge NXT.\n    *   **Considerations:** Can be more expensive than some direct competitors, and integration with other Blackbaud products might be the main draw.\n\n---\n\n### **II. All-in-One Fundraising & Engagement Platforms**\nThese often prioritize fundraising campaigns, peer-to-peer, events, and online giving, with CRM capabilities built-in or via integration.\n\n1.  **Givebutter:**\n    *   **Strengths:** \"Free\" core platform (they charge processing fees/tips), modern design, all-in-one for online fundraising, events, peer-to-peer, texting, and basic CRM.\n    *   **Best for:** Non-profits looking for a modern, cost-effective platform to manage all their online fundraising efforts with basic donor tracking.\n    *   **Considerations:** While \"free,\" processing fees apply. The CRM is less robust than dedicated donor management systems.\n\n2.  ",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Givebutter",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 737,
+  "estimated_cost_usd": 0.001844,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

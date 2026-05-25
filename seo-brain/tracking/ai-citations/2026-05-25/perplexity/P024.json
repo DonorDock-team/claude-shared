@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P024",
+  "prompt_text": "How much does nonprofit donor CRM cost",
+  "engine": "perplexity",
+  "timestamp": "2026-05-25T11:48:02.306629+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Nonprofit donor CRMs range from **free (with payment processing fees)** to about **$40\u2013$150/month on the low end** and **$500+/month for robust, all\u2011in\u2011one systems**, with typical small nonprofits paying **around $1,200\u2013$3,600 per year** for a mid\u2011tier subscription.[1][10]\n\nHere\u2019s how the costs usually break down:\n\n### 1. Typical price ranges\n\n- **Free CRMs**\n  - Some platforms offer a **free core CRM** funded by transaction fees or optional paid tiers.[2]  \n  - \u201cFree\u201d often means you or your donors cover **payment processing fees**; if donors don\u2019t opt to cover them, the nonprofit pays.[1][2]\n\n- **Entry\u2011level / small nonprofit CRMs**\n  - Budget donor\u2011management\u2011only tools can be **well under $100/month**.[5]  \n  - Many named nonprofit CRMs start **around $40\u2013$150/month** for basic tiers.[1][3][7]  \n    - Example: Bloomerang Fundraising starts at **$40/month**, and Bloomerang CRM starts at **$125/month**, billed annually.[3]\n\n- **Mid\u2011tier systems (typical for small\u2013mid orgs)**\n  - Most small nonprofits end up paying **$1,200\u2013$3,600 per year** (about **$100\u2013$300/month**) for a mid\u2011tier CRM subscription, excluding setup and add\u2011ons.[10]  \n  - CharityEngine notes **all\u2011in\u2011one systems** (donor management + fundraising tools, etc.) often **start around $500/month**.[1]\n\n- **Larger / enterprise\u2011grade CRMs**\n  - Platforms with advanced functionality, integrations, or per\u2011user pricing can run **hundreds to thousands per month**, especially at higher user counts or contact volumes.[8][9]  \n  - Per\u2011user pricing is often **$25\u2013$100 per user per month**.[9]  \n  - Some enterprise plans hit **$60\u2013$100 per user per month**, with nonprofit discounts and some free licenses.[8]\n\n### 2. What drives the price up or down\n\nKey factors that affect your CRM cost:\n\n- **Size of your database / contacts**\n  - Many vendors price based on **number of records/contacts**, so more donors = higher tier.[3][10]  \n  - Annual fundraising revenue can also determine your tier in some systems.[1]\n\n- **Number of users**\n  - Some tools include **unlimited users** at a flat rate; others charge per user.[3][9]  \n  - Per\u2011user models scale cost quickly as your team grows.[9]\n\n- **Feature set**\n  - **Donor\u2011management\u2011only** systems are cheaper.[5]  \n  - **All\u2011in\u2011one platforms** (events, email marketing, online giving, automation, peer\u2011to\u2011peer, etc.) start higher (often **$500+/month**).[1]\n\n- **Implementation and setup**\n  - Most CRMs charge a **one\u2011time implementation/setup fee**, which can scale with the complexity and size of your org.[1][10]  \n  - Implementation typically includes training, configuration, data migration planning, and testing.[1]\n\n- **Add\u2011ons and integrations**\n  - Extra modules (e\u2011commerce, auctions, advanced automation, etc.) are often **add\u2011on fees**.[1][10]  \n  - Some \u201cfree\u201d CRMs monetize via **paid advanced features** (e.g., an upgraded \u201cPlus\u201d plan on a sliding scale).[2]\n\n### 3. Budget benchmarks by nonprofit size (rough)\n\nThese are ballpark annual software\u2011only figures (not counting staff time):\n\n- **Very small or new org (<1,000 contacts)**\n  - Range: **$0\u2013$1,200/year**  \n  - Free or low\u2011cost tools under $100/month are common.[2][5]\n\n- **Small to mid\u2011sized org (a few thousand contacts)**\n  - Typical: **$1,200\u2013$3,600/year** for a solid mid\u2011tier CRM subscription.[10]\n\n- **Mid to large org (tens of thousands of contacts, multiple teams)**\n  - Common: **$3,600\u2013$10,000+/year**, depending on users, modules, and support level.[1][8][9]\n\n### 4. Non\u2011subscription costs to remember\n\nIn addition to the monthly/annual license:\n\n- **Implementation / onboarding fees** (often required).[1][10]  \n- **Training costs** beyond initial onboarding (if charged separately).[1][10]  \n- **Payment processing fees** on donations (even in \u201cfree\u201d systems).[1][2]  \n- **Data migration and cleanup**\u2014sometimes DIY, sometimes billable.[1]  \n- **Integrations or third\u2011party apps**, if the CRM doesn\u2019t provide specific functionality.[1][10]\n\nIf you share your approximate number of contacts, annual fundraising revenue, and must\u2011have features (email, events, peer\u2011to\u2011peer, grants, etc.), I can narrow this to a more specific cost range and vendor type tailored to your situation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 1098,
+  "estimated_cost_usd": 0.021494,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://blog.charityengine.net/nonprofit-crm-cost",
+      "https://givebutter.com/donor-management-crm",
+      "https://bloomerang.com/pricing",
+      "https://www.donorperfect.com/fundraising-software/pricing-guide/",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://www.galaxydigital.com/blog/best-donor-management-software-options-for-nonprofits",
+      "https://www.liveimpact.org/blog/nonprofit-crm-pricing"
+    ]
+  }
+}

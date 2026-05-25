@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306001+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Measuring donor retention is a critical metric for any nonprofit organization, as it reflects the health of your donor relationships and the long-term sustainability of your fundraising efforts. It's generally much cheaper to retain an existing donor than to acquire a new one.\n\nHere's how to measure donor retention, including the basic formula and important nuances:\n\n---\n\n## The Basic Donor Retention Formula\n\nDonor retention measures the percentage of donors who gave in a previous period and gave again in the current period.\n\n**Formula:**\n\n```\nDonor Retention Rate = (Number of Retained Donors / Total Donors from Previous Period) * 100\n```\n\nWhere:\n\n*   **Number of Retained Donors:** The number of unique donors who made a gift in both the \"previous period\" AND the \"current period.\"\n*   **Total Donors from Previous Period:** The total number of unique donors who made a gift in the \"previous period.\"\n\n---\n\n## Step-by-Step Calculation Guide\n\nLet's use an annual timeframe, which is the most common.\n\n**Scenario:** Measuring annual donor retention from 2022 to 2023.\n\n1.  **Define Your \"Previous Period\":** This is the period you're comparing *from*.\n    *   *Example:* All unique donors who made a gift between January 1, 2022, and December 31, 2022.\n\n2.  **Define Your \"Current Period\":** This is the period you're comparing *to*.\n    *   *Example:* All unique donors who made a gift between January 1, 2023, and December 31, 2023.\n\n3.  **Identify \"Total Donors from Previous Period\":**\n    *   Count all unique individuals or entities who made a gift in the previous period.\n    *   *Example:* You had **1,000 unique donors** in 2022.\n\n4.  **Identify \"Number of Retained Donors\":**\n    *   From the list of unique donors in the \"previous period\" (2022), identify how many of *those exact same donors* also made a gift in the \"current period\" (2023).\n    *   *Example:* Out of the 1,000 donors from 2022, you find that **450 of them also gave in 2023**.\n\n5.  **Apply the Formula:**\n    *   `Donor Retention Rate = (450 / 1,000) * 100`\n    *   `Donor Retention Rate = 0.45 * 100`\n    *   `Donor Retention Rate = 45%`\n\n---\n\n## Important Considerations and Nuances\n\nWhile the basic formula is straightforward, real-world application requires attention to detail:\n\n1.  **Unique Donors:** Always count *unique donors*, not the number of gifts. If a donor gives multiple times in a year, they still count as one donor for that year.\n2.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 666,
+  "estimated_cost_usd": 0.001667,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

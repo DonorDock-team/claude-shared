@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P040",
+  "prompt_text": "Donor software with QuickBooks integration",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.306464+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for donor management software that integrates with QuickBooks, it\u2019s important to focus on solutions tailored to the needs of nonprofit organizations, allowing you to efficiently manage donations, track donor relationships, and streamline financial reporting in conjunction with your accounting tasks. Here are a few popular options:\n\n1. **Bloomerang**: Bloomerang is designed specifically for small to mid-sized nonprofits and offers a rich set of donor management features, including robust reporting and email marketing. Its integration with QuickBooks allows for seamless synchronization of donor and financial data, minimizing manual data entry.\n\n2. **Kindful**: Kindful provides a user-friendly interface and offers features like donor management, online fundraising, and reporting. Its two-way integration with QuickBooks allows you to easily manage your accounting entries and ensure that your financial records are always up-to-date.\n\n3. **Neon CRM**: Neon CRM supports a wide variety of nonprofit functions beyond donor management, such as events and membership management. The software integrates with QuickBooks to automatically sync donor data and financial transactions, providing a comprehensive view of your organization\u2019s finances and donor interactions.\n\n4. **DonorPerfect**: DonorPerfect is another popular option that excels in donor and fundraising management. It integrates with QuickBooks to help you manage financial data efficiently, allowing you to export transactions directly to your accounting software.\n\n5. **Aplos**: Aplos is an accounting software specifically geared towards nonprofits, offering features such as fund accounting and online giving. It integrates with QuickBooks, enabling nonprofits to manage their accounts and donor information effectively in one place.\n\n6. **Salesforce Nonprofit Success Pack (NPSP)**: While primarily a CRM platform, Salesforce NPSP can be extended with various apps to handle donor management. It includes integration options with QuickBooks through third-party connectors, allowing for robust financial data management and reporting.\n\nWhen selecting donor software, consider the specific needs of your organization, such as the size of your donor base, the complexity of your fundraising activities, and your budget. Most of these platforms offer free trials or demos, so you can test their features and integration capabilities with QuickBooks before making a decision.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 437,
+  "estimated_cost_usd": 0.004405,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

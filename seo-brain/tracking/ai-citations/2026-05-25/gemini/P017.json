@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P017",
+  "prompt_text": "Alternative to Neon CRM",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.305990+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Neon CRM is a comprehensive CRM solution specifically designed for nonprofits, associations, and higher education. It offers donor management, fundraising, membership, events, and reporting all in one platform.\n\nIf you're looking for an alternative, the best choice will depend on your specific needs, budget, organizational size, and desired features. Here are some excellent alternatives, categorized for easier navigation:\n\n---\n\n## Comprehensive Nonprofit CRMs (Direct Competitors to Neon CRM)\n\nThese platforms often provide similar all-in-one functionality tailored for the nonprofit sector.\n\n1.  **Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack)**\n    *   **Why it's an alternative:** The industry standard for many larger nonprofits. Highly customizable, scalable, and offers an extensive ecosystem of integrations. It's more of a platform you build on rather than an out-of-the-box solution like Neon.\n    *   **Best for:** Mid-to-large organizations, those needing deep customization, organizations with diverse programs, and those with dedicated IT staff or budget for implementation partners.\n    *   **Considerations:** Can be more complex and expensive to implement and maintain than Neon.\n\n2.  **Blackbaud (Raiser's Edge NXT, eTapestry, Luminate CRM)**\n    *   **Why it's an alternative:** Blackbaud is one of the oldest and largest players in the nonprofit technology space. They offer a suite of products designed for various sizes and needs.\n        *   **Raiser's Edge NXT:** A robust, cloud-based solution for larger organizations with sophisticated fundraising needs.\n        *   **eTapestry:** A more affordable, user-friendly option for small to mid-sized nonprofits.\n        *   **Luminate CRM:** Often used by larger, more complex organizations that need deep integration with other Blackbaud tools for marketing, advocacy, and peer-to-peer fundraising.\n    *   **Best for:** Organizations of all sizes, depending on the specific Blackbaud product. Established, traditional nonprofits often use Blackbaud.\n    *   **Considerations:** Can be pricey, and some find the user interface of certain products a bit dated.\n\n3.  **Bloomerang**\n    *   **Why it's an alternative:** Known for its user-friendly interface, focus on donor retention, and robust communication tools. It integrates donor management, email marketing, and online giving.\n    *   **Best for:** Small to mid-sized nonprofits looking for an intuitive system with a strong emphasis on donor engagement and retention.\n    *",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 536,
+  "estimated_cost_usd": 0.001341,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P147",
+  "prompt_text": "Best donor CRM with event management",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306438+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding the \"best\" donor CRM with event management capabilities depends heavily on your organization's specific needs, budget, size, and complexity of events. However, some platforms consistently stand out for their robust features in both areas.\n\nHere are the top contenders, categorized by their strengths:\n\n---\n\n### Top Recommendations:\n\n1.  **Neon CRM (by Neon One)**\n    *   **Why it's great:** Neon CRM is often cited for its excellent native event management capabilities, making it a strong all-in-one solution. It's designed to handle a wide range of events, from simple RSVPs to complex ticketed galas, conferences, and peer-to-peer fundraising events.\n    *   **Event Features:** Online registration, customizable event pages, ticketing tiers, attendee management, session tracking, fundraising thermometers for event-based campaigns, email automation for attendees, check-in apps, and seamless integration with donor records.\n    *   **CRM Strengths:** Robust donor management, fundraising tools, membership management, volunteer management, communication tools, and reporting.\n    *   **Best For:** Mid-sized to larger nonprofits that frequently run events (including membership-based events, workshops, galas, and peer-to-peer campaigns) and want a highly integrated, user-friendly system.\n\n2.  **DonorPerfect**\n    *   **Why it's great:** DonorPerfect is a long-standing and highly respected CRM in the nonprofit space, offering comprehensive fundraising and donor management with solid event capabilities built-in or through seamless integrations.\n    *   **Event Features:** Native event registration forms, ticketing, seating charts, attendee tracking, donation processing for event sponsorships or related appeals, email marketing tools to promote events, and integration with their mobile app for check-ins. They also integrate well with popular event platforms if you need advanced features.\n    *   **CRM Strengths:** Powerful donor database, robust reporting, gift processing, recurring donations, pledge management, comprehensive communication tools, and a strong user community.\n    *   **Best For:** Small to large nonprofits looking for a reliable, feature-rich CRM with good native event management and strong support.\n\n3.  **Salesforce Nonprofit Cloud (with AppExchange solutions)**\n    *   **Why it's great:** Salesforce is the most powerful and customizable CRM platform available. While Nonprofit Cloud provides the core CRM, true event management often comes from highly integrated AppExchange partners. This allows for unparalleled flexibility and scalability.\n    *   **Event Features:** This varies widely based on the chosen AppExchange solution (e.g., Fonteva, Blackthorn Events, Click & Pledge, Regpack, etc.). These apps offer everything from simple registrations to complex multi-track conferences, tiered ticketing, sponsorship management, mobile check-in, and full integration with donor records in Salesforce.\n    *   **CRM Strengths:** Unmatched customization, extensive reporting",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect",
+    "Neon CRM",
+    "Neon One",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 604,
+  "estimated_cost_usd": 0.001512,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

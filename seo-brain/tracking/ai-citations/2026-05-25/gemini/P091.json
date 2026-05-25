@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P091",
+  "prompt_text": "Best donor CRM for environmental nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306141+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for an environmental nonprofit depends heavily on your specific needs, budget, scale, and technical comfort. Environmental nonprofits often have unique requirements like:\n\n*   **Project Tracking:** Managing specific conservation projects, habitat restoration efforts, or advocacy campaigns.\n*   **Volunteer Management:** Crucial for cleanup events, tree planting, citizen science, or advocacy actions.\n*   **Membership Programs:** Many environmental groups rely on recurring memberships.\n*   **Grant Management:** Often a significant funding source, requiring robust tracking and reporting.\n*   **Advocacy/Lobbying:** Tracking constituents, communications for policy changes.\n*   **Impact Reporting:** Quantifying acres conserved, trees planted, species protected, etc.\n*   **GIS/Mapping Integration (less common for CRM, but useful):** For land trusts or groups managing specific parcels.\n\nHere are some of the top donor CRMs, along with how they might fit the needs of environmental nonprofits:\n\n---\n\n### Top Recommendations for Environmental Nonprofits\n\n1.  **Salesforce Nonprofit Cloud (NPSP)**\n    *   **Pros:**\n        *   **Highly Customizable:** Can be tailored to track almost anything, including specific projects, land parcels, species, volunteer hours for particular initiatives.\n        *   **Scalability:** Grows with your organization, from small to very large.\n        *   **Robust Grant Management:** Excellent for tracking grant lifecycles.\n        *   **Strong Reporting & Analytics:** Deep insights into fundraising, donor behavior, and program impact.\n        *   **Vast Ecosystem:** Thousands of apps and integrations (AppExchange) including tools for advocacy, email marketing, project management, and even GIS extensions.\n        *   **Generous Discount:** 10 free licenses for qualifying nonprofits.\n    *   **Cons:**\n        *   **Steep Learning Curve:** Requires significant time and effort to set up and manage, often needing a dedicated administrator or consultant.\n        *   **Cost:** While 10 licenses are free, additional licenses, advanced features, and extensive customization can become expensive.\n        *   **Complexity:** Can be overwhelming for smaller organizations with limited technical resources.\n    *   **Environmental Fit:** **Best for medium",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 466,
+  "estimated_cost_usd": 0.001167,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

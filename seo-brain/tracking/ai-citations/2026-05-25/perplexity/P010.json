@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P010",
+  "prompt_text": "Does DonorDock have online giving",
+  "engine": "perplexity",
+  "timestamp": "2026-05-25T11:48:02.306923+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Yes. **DonorDock does include built-in online giving**.\n\nKey details from DonorDock\u2019s own materials:\n\n- DonorDock offers **unlimited online giving pages** tied to campaigns, funds, or events.[4][8]  \n- It provides **free online giving pages** as part of its pricing bundles.[5]  \n- You can **accept donations online** via credit cards, ACH, Apple Pay, Google Pay, and PayPal, using Stripe and PayPal as processors.[1][4][6]  \n- Online giving pages are **customizable** (branding, images, text) and support **recurring giving**.[1][3][4]  \n- Pages can be **embedded on your website**, shared via **link**, **QR code**, or **text-to-donate keyword**.[1][2]  \n\nSo if your question is whether DonorDock can handle online donations directly: **yes, it has a full online giving feature set built in.**",
+  "donordock_mentioned": true,
+  "donordock_position": 7,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 203,
+  "estimated_cost_usd": 0.008069,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.youtube.com/watch?v=XTOubCt-w38",
+      "https://helpcenter.donordock.com/kb/guide/en/understanding-online-giving-fields-3UhHtm7CRu/Steps/1710134",
+      "https://www.donordock.com/features/in-kind-gifts",
+      "https://www.donordock.com/compare",
+      "https://www.donordock.com/pricing",
+      "https://www.donordock.com/faq",
+      "https://www.donordock.com",
+      "https://www.g2.com/products/donordock/reviews"
+    ]
+  }
+}

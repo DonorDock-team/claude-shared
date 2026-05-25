@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P094",
+  "prompt_text": "Hidden costs of Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306504+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a popular CRM for non-profits, known for its user-friendliness and focus on donor retention. While its upfront pricing is generally transparent, like any software, there are \"hidden\" or less obvious costs that can accumulate over time. These aren't necessarily malicious, but rather expenses that often aren't factored into the initial budget.\n\nHere are the hidden costs of Bloomerang:\n\n1.  **Data Migration & Cleanup:**\n    *   **Internal Staff Time:** Before migrating to Bloomerang, your team will spend significant hours cleaning, de-duplicating, and formatting your existing donor data. This can be a massive undertaking, especially for organizations with years of legacy data.\n    *   **Consulting/Professional Services:** If your data is very complex or messy, you might need to hire a consultant or Bloomerang's professional services to help with the migration. This is an additional fee beyond the subscription.\n    *   **Post-Migration Adjustments:** Even after a migration, there will inevitably be data points that need adjustment, re-categorization, or manual entry.\n\n2.  **Onboarding & Training (Beyond the Basics):**\n    *   **Staff Time:** While Bloomerang offers good training resources, the time your staff spends learning the system, attending webinars, and getting up to speed is a significant internal cost (lost productivity on other tasks).\n    *   **Advanced Training/Coaching:** For specific workflows or advanced features, you might want personalized coaching or more in-depth training, which could be an additional cost.\n    ",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 325,
+  "estimated_cost_usd": 0.000814,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

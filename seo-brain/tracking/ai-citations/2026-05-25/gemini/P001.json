@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P001",
+  "prompt_text": "What is DonorDock",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306936+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**DonorDock** is a **donor management and fundraising CRM (Customer Relationship Management) platform** designed specifically for **nonprofit organizations**.\n\nIts primary purpose is to help nonprofits manage their donor relationships, streamline fundraising efforts, and grow their impact by providing a centralized system for all donor-related activities.\n\nHere's a breakdown of what DonorDock typically offers:\n\n1.  **Centralized Donor Database (CRM):**\n    *   Stores comprehensive donor profiles, including contact information, giving history, communication preferences, relationships, and custom notes.\n    *   Provides a \"single source of truth\" for all donor data, eliminating the need for scattered spreadsheets.\n\n2.  **Donation Processing & Tracking:**\n    *   Facilitates online giving through customizable donation pages.\n    *   Records and tracks all types of donations (one-time, recurring, pledges, in-kind, grants).\n    *   Manages recurring gift schedules and payment processing.\n\n3.  **Fundraising Campaign Management:**\n    *   Helps plan, execute, and track the performance of various fundraising campaigns (annual appeals, events, capital campaigns, peer-to-peer).\n    *   Allows for segmentation of donors for targeted outreach.\n\n4.  **Communication & Engagement Tools:**\n    *   Supports email marketing capabilities for sending newsletters, appeals, and thank-you messages.\n    *   Helps automate personalized donor acknowledgments and receipts.\n    *   May include tools for managing direct mail campaigns.\n\n5.  **Reporting & Analytics:**\n    *   Provides insights into donor trends, campaign performance, giving patterns, and financial summaries.\n    *   Generates reports to help organizations understand their fundraising health and make data-driven decisions.\n\n6.  **Event Management (often integrated):**\n    *   Sometimes includes features for managing event registrations, ticketing, and attendee communication.\n\n7.  **Integrations:**\n    *   Often integrates with other essential nonprofit tools like accounting software (e.g., QuickBooks), payment processors, and email platforms.\n\n**In essence, DonorDock aims to help nonprofits:**\n*   Move beyond spreadsheets and manual processes.\n*   Build stronger relationships with their donors.\n*   Raise more money more efficiently.\n*   Gain a deeper understanding of their donor base.\n*   Automate routine administrative tasks.\n\nIt competes with other nonprofit CRMs like Bloomerang, NeonCRM, Little Green Light, and the nonprofit editions of larger CRMs like Salesforce.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 520,
+  "estimated_cost_usd": 0.001301,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

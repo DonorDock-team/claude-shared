@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P144",
+  "prompt_text": "How to choose nonprofit fundraising software",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306023+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Choose Nonprofit Fundraising Software\n\nSelecting the right fundraising software is crucial for your nonprofit's success. Here's a practical guide to help you make the best choice:\n\n## 1. **Assess Your Needs First**\n- Size of your donor database\n- Types of fundraising (events, peer-to-peer, recurring gifts, major gifts)\n- Integration requirements (email, accounting, CRM)\n- Team size and technical expertise\n- Budget constraints\n\n## 2. **Essential Features to Consider**\n\n**Core Functionality:**\n- Online donation processing\n- Donor management and tracking\n- Receipt generation and tax reporting\n- Reporting and analytics\n- Mobile responsiveness\n\n**Advanced Features:**\n- Peer-to-peer fundraising tools\n- Event management\n- Email marketing integration\n- Recurring donation management\n- Grant tracking\n- Volunteer management\n\n## 3. **Evaluate Integration Capabilities**\n- Does it work with your existing tools (website, email, accounting software)?\n- API availability for custom integrations\n- Import/export capabilities\n\n## 4. **Consider Costs Carefully**\n- Monthly subscription fees\n- Transaction/processing fees\n- Setup and training costs\n- Hidden fees for support or updates\n- Cost per user/contact\n\n## 5. **Check Ease of Use**\n- Intuitive interface for staff and donors\n- Training resources available\n- Quality of customer support\n- Mobile app availability\n\n## 6. **Research and Compare**\n- Read reviews from similar-sized nonprofits\n- Request demos from 3-5 vendors\n- Ask for references\n- Test the donation experience yourself\n- Check security and compliance standards (PCI-DSS)\n\n## 7. **Popular Options by Organization Size**\n\n**Small nonprofits:** Donorbox, GiveWP, PayPal Giving Fund\n\n**Medium nonprofits:** Bloomerang, Little Green Light, Kindful\n\n**Large nonprofits:** Blackbaud, Salesforce Nonprofit Cloud, Classy\n\n## 8. **Questions to Ask Vendors**\n- What's included in customer support?\n- How long does implementation take?\n- What's your average customer retention rate?\n- Can we scale up/down easily?\n- What happens to our data if we leave?\n\n## Final Tip\nStart with a clear prioritized list of your must-have features versus nice-to-haves. This will help you avoid paying for unnecessary bells and whistles while ensuring you get what truly matters for your mission.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 562,
+  "estimated_cost_usd": 0.008472,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

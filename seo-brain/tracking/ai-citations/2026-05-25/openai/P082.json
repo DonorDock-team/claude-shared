@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.306906+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM (Customer Relationship Management) system for hospitals depends on several factors, including the specific needs of your hospital, budget, integration capabilities, and user-friendliness. However, there are a few donor CRM systems that are generally well-regarded in the healthcare sector:\n\n1. **Blackbaud Raiser\u2019s Edge NXT**: Widely used across the non-profit sector, including healthcare, Raiser\u2019s Edge NXT offers robust donor management features, analytics, and reporting tools. It's known for its comprehensive capabilities and integration options.\n\n2. **Bloomerang**: Known for its user-friendly interface, Bloomerang focuses on donor retention and engagement. It offers features such as reporting, dashboards, and communication tools that are helpful for hospital fundraising efforts.\n\n3. **Salesforce.org's Philanthropy Cloud**: Built on the Salesforce platform, this CRM provides customization options and scalability, making it suitable for larger hospital systems. It supports multi-channel fundraising and integrates well with other Salesforce products.\n\n4. **DonorPerfect**: This system offers flexible pricing and a wide range of features like donation processing, reporting, and donor communications. It\u2019s a popular choice for smaller to mid-sized hospitals.\n\n5. **NeonCRM**: Known for its robust feature set and ease of use, NeonCRM offers tools for donor management, communications, and event planning. It\u2019s ideal for hospitals that need an all-in-one solution.\n\n6. **Kindful**: Offers strong integrations and detailed donor profiles, which help hospitals streamline their donation management processes. It\u2019s especially useful for organizations looking for a seamless experience with third-party tools.\n\nWhen choosing a CRM for your hospital, consider the following:\n\n- **Cost**: Evaluate the total cost of ownership, including setup fees, subscription fees, and any additional integration costs.\n- **Integration**: Ensure the CRM can integrate with existing hospital systems (e.g., electronic health records) and other tools.\n- **Support & Training**: Consider the availability of customer support and training resources to ensure smooth implementation and user adoption.\n- **Scalability**: Choose a system that can grow with your hospital\u2019s fundraising needs.\n\nIt\u2019s often beneficial to request demos and trial periods to ensure the CRM meets your hospital's specific requirements before making a decision.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 462,
+  "estimated_cost_usd": 0.00465,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

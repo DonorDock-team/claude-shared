@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.307152+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For nonprofits seeking a CRM solution similar to Salesforce, there are several options specifically tailored to their needs. One of the most prominent is **Salesforce.org Nonprofit Success Pack (NPSP)**, which is essentially Salesforce customized for nonprofit organizations. However, if you're looking for alternatives outside of Salesforce, consider the following:\n\n1. **Blackbaud**: Known for its focus on nonprofit organizations, Blackbaud offers a suite of tools designed to manage fundraising, financials, and donor relationships.\n\n2. **Bloomerang**: This CRM is specifically targeted at small to mid-sized nonprofits, focusing on donor management and engagement.\n\n3. **Neon CRM**: Neon One offers a comprehensive suite of tools for nonprofit management, including CRM capabilities that focus on fundraising, memberships, events, and more.\n\n4. **Kindful**: Now part of Bloomerang, Kindful provides a user-friendly CRM platform designed to enhance donor relationships and manage fundraising efforts.\n\n5. **DonorPerfect**: This is another popular choice among nonprofits, offering robust donor management tools and communication features.\n\n6. **EveryAction**: This CRM includes features for fundraising, advocacy, and organizing, with a particular emphasis on nonprofit needs.\n\nEach of these options provides unique features that cater to various aspects of nonprofit management, such as donor engagement, fundraising campaigns, and volunteer management. It's important for organizations to consider their specific needs and budget when evaluating these tools.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 288,
+  "estimated_cost_usd": 0.00292,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

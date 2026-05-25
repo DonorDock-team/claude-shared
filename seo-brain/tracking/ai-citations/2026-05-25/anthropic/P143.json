@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P143",
+  "prompt_text": "Donor CRM that does pledges and recurring",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.305952+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRMs with Pledges & Recurring Donations\n\nHere are the top options that handle both pledge tracking and recurring donations:\n\n## **Best Overall**\n- **Bloomerang** - Excellent pledge management + recurring gift tracking, automated reminders for unfulfilled pledges\n- **Little Green Light** - Strong pledge workflows, recurring gift automation, great for small-mid size nonprofits\n\n## **Enterprise Level**\n- **Blackbaud Raiser's Edge NXT** - Comprehensive pledge campaigns, sophisticated recurring gift management\n- **Salesforce Nonprofit Cloud** - Highly customizable pledge and recurring donation functionality (requires setup)\n\n## **Mid-Market**\n- **DonorPerfect** - Robust pledge tracking with payment schedules, integrated recurring donation processing\n- **Kindful** (by Bloomerang) - Clean interface for pledge management and recurring gifts\n- **Neon CRM** - Good pledge reminder automation, recurring donation management included\n\n## **Budget-Friendly**\n- **Donorbox** - Simple recurring donation setup, basic pledge tracking\n- **GiveWP** (WordPress plugin) - Recurring donations built-in, pledge tracking via add-ons\n\n## Key Features to Look For:\n- Automated pledge payment reminders\n- Installment scheduling\n- Failed payment retry logic for recurring gifts\n- Reporting on pledge fulfillment rates\n- Integration with payment processors\n\n**What's your organization size and budget range?** That will help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 339,
+  "estimated_cost_usd": 0.005136,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

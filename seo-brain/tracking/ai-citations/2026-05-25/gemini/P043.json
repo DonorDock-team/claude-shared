@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P043",
+  "prompt_text": "Best donor CRM for human services nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306721+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For human services nonprofits, the \"best\" donor CRM isn't a one-size-fits-all answer. It heavily depends on your organization's specific needs, budget, size, existing tech stack, and the complexity of your programs and fundraising efforts.\n\nHowever, based on common needs for human services \u2013 which often include managing not just donors but also volunteers, program participants, grants, and events \u2013 here are the top contenders, along with their strengths and weaknesses in this context:\n\n---\n\n## Top Donor CRMs for Human Services Nonprofits\n\n### 1. Salesforce Nonprofit Cloud (NPSP)\n\n*   **Strengths:**\n    *   **Highly Customizable & Scalable:** The most powerful and flexible option. You can tailor it to track virtually any data point \u2013 donor interactions, volunteer hours, program attendance, client touchpoints (with appropriate security and data separation), grant lifecycles, and more.\n    *   **Integrated Ecosystem:** The Salesforce platform has a vast app exchange, allowing you to integrate with dedicated case management systems, volunteer management tools (e.g., VolunteerForce, HandsOn Connect), marketing automation, accounting, and more, creating a truly unified system.\n    *   **Robust Reporting:** Excellent for detailed reporting on fundraising, program outcomes, and constituent engagement for funders and internal analysis.\n    *   **Community Support:** Huge user community, extensive documentation, and a strong network of consultants.\n*   **Weaknesses:**\n    *   **Complexity & Learning Curve:** Can be overwhelming for new users and requires dedicated administrative staff or external consultants for setup and ongoing maintenance.\n    *   **Cost:** While the first 10 licenses are free for nonprofits, additional licenses and implementation/customization costs can be significant.\n*   **Best For:** Medium to large human services nonprofits with complex data needs, diverse programs, the ability to invest in implementation, and a desire for a highly integrated, scalable solution.\n\n### 2. Bloomerang\n\n*   **Strengths:**\n    *   **User-Friendly Interface:** Known for its modern, intuitive design, making it easy for staff to learn and use without extensive training.\n    *   **Donor Retention Focus:** Strong emphasis on donor engagement and retention, with built",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 464,
+  "estimated_cost_usd": 0.001162,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P064",
+  "prompt_text": "Donor CRM with email marketing built in",
+  "engine": "perplexity",
+  "timestamp": "2026-05-25T11:48:02.306918+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Several nonprofit CRMs include **built-in email marketing**, so you can manage donors and send campaigns in one system without separate tools.\n\nHere are strong options to evaluate:\n\n1. **Donorbox CRM**  \n   - All\u2011in\u2011one **nonprofit CRM with built\u2011in Email Marketing**; no separate email platform needed.[1]  \n   - Features: donor database, segmentation, smart email tools, templates, automation, scheduling, reporting, and engagement tracking in one place.[1][5]  \n   - Good fit if you already use Donorbox forms/donations or want fundraising + CRM + email together.\n\n2. **Givingtech CRM**  \n   - **Free nonprofit CRM** with fully integrated **email marketing and fundraising**.[3]  \n   - Workflow: import contacts \u2192 segment groups \u2192 send targeted email campaigns \u2192 donations sync instantly back into the CRM.[3]  \n   - Automations: birthday and anniversary emails, lapsed donor alerts, auto-convert leads to donors when they give.[3]  \n   - Pricing: CRM is free; you pay only a small transaction fee per donation if you fundraise through them.[3]\n\n3. **Bloomerang**  \n   - Full donor CRM with **nonprofit marketing & engagement tools built in**, including email marketing, automation, and AI writing.[6]  \n   - Features: dynamic segmentation, automated donor journeys, thank\u2011you workflows, engagement scores, and brandable email templates.[6]  \n   - Good for orgs that want advanced donor journeys and data\u2011driven engagement inside a single system.\n\n4. **DonorDock**  \n   - Donor CRM with **built\u2011in email campaigns** for newsletters and appeals, keeping all email data in the CRM.[8]  \n   - Focus on sending targeted emails to the right donors using CRM data.[8]  \n   - A simpler, SMB\u2011friendly option if you want integrated campaigns without a complex marketing suite.\n\n5. **DonorPerfect (with integrated Constant Contact)**  \n   - DonorPerfect itself relies on a deep **integration with Constant Contact**, which they bundle as part of their fundraising suite.[2]  \n   - From a user standpoint, it behaves like a unified system: donor data and email lists sync automatically, you can track engagement and donations in one place, and automate journeys.[2]  \n   - Consider if you like Constant Contact\u2019s email tools but want them tightly tied to your donor database.\n\n---\n\n**How to choose among them**\n\nKey factors to compare:\n\n- **Budget & pricing model**  \n  - Lowest software cost: **Givingtech** (free CRM; pay per donation if you use their fundraising).[3]  \n  - **Donorbox, Bloomerang, DonorDock, DonorPerfect** are paid CRMs; pricing varies by contacts/features.\n\n- **Email sophistication**  \n  - For richer automation/journeys and segmentation: **Bloomerang** and **Donorbox CRM**.[1][6]  \n  - For simpler integrated campaigns: **DonorDock** or **Givingtech**.[3][8]\n\n- **Fundraising integration**  \n  - Tightest CRM + donations + email in one: **Givingtech**, **Donorbox**.[1][3]  \n  - DonorPerfect offers this via its Constant Contact bundle.[2]\n\nIf you share your org size, budget range, and must\u2011have features (e.g., automation, SMS, events, free/low-cost), I can narrow this to 1\u20132 best\u2011fit recommendations.",
+  "donordock_mentioned": true,
+  "donordock_position": 1456,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 728,
+  "estimated_cost_usd": 0.015947,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://donorbox.org/explore/nonprofit-crm",
+      "https://www.donorperfect.com/integrations/email-marketing/constant-contact/",
+      "https://givingtech.org/crm",
+      "https://www.sequenzy.com/email-marketing-for/nonprofits",
+      "https://donorbox.zendesk.com/hc/en-us/articles/32926570790548-How-to-Use-Donorbox-Email-Marketing",
+      "https://bloomerang.com/features/marketing-and-engagement",
+      "https://virtuous.org/blog/best-email-marketing-platforms-for-nonprofits/",
+      "https://www.donordock.com/features/email-campaigns"
+    ]
+  }
+}

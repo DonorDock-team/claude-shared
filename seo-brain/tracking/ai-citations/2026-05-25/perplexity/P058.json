@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P058",
+  "prompt_text": "Donor CRM with online giving forms",
+  "engine": "perplexity",
+  "timestamp": "2026-05-25T11:48:02.306481+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "If you want a **donor CRM with online giving forms**, these platforms in the results explicitly bundle or integrate both capabilities: **GivingFuel**, **Blackbaud CRM + Online Giving**, **DonorPerfect**, **Donorbox**, **Bloomerang**, and **Givecloud**.[1][2][4][7][8][9]\n\nA quick comparison:\n\n| Platform | Donor CRM | Online giving forms | Notable details |\n|---|---|---|---|\n| **GivingFuel** | Yes | Yes | Lets staff initiate new gifts from previous donors using stored payment methods.[1] |\n| **Blackbaud CRM** | Yes | Yes | Donation forms connect gifts into Blackbaud CRM, with donor matching and automated daily batch processing.[2] |\n| **DonorPerfect** | Yes | Yes | Online forms flow gift information directly into donor records for acknowledgment and reporting.[4] |\n| **Donorbox** | Yes | Yes | AI-powered CRM plus hosted donation pages.[7] |\n| **Bloomerang** | Yes | Yes | Fundraising tools and CRM work together in the Bloomerang Giving Platform.[8] |\n| **Givecloud** | Yes/integrates CRM | Yes | Donation forms connect to existing CRM, marketing tools, and payment processors.[9] |\n\nIf your priority is a **single system** rather than a form tool that *connects* to a CRM, **Donorbox**, **Bloomerang**, and **GivingFuel** are presented as all-in-one fundraising/CRM platforms.[1][7][8] If you already use a larger enterprise CRM, **Blackbaud CRM** is the most explicit about deep form-to-CRM syncing and constituent matching.[2]\n\nIf you want, I can narrow this to the **best option for nonprofits under a specific budget**, or compare them on **pricing, ease of use, recurring gifts, and customization**.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 397,
+  "estimated_cost_usd": 0.010979,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.givingfuel.com/features/donormanagement-overview",
+      "https://webfiles-sc1.blackbaud.com/files/support/helpfiles/tcs/content/og-bbcrm-tutorial.html",
+      "https://www.donorperfect.com/fundraising-software/integrated-online-forms/",
+      "https://www.donorperfect.com",
+      "https://www.donorperfect.com/video/how-to-set-up-your-online-donation-forms/",
+      "https://www.funraise.org/features/donation-forms",
+      "https://donorbox.org",
+      "https://bloomerang.com",
+      "https://givecloud.com",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/"
+    ]
+  }
+}

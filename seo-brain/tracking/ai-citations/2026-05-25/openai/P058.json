@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P058",
+  "prompt_text": "Donor CRM with online giving forms",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.306466+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Creating a Donor CRM with online giving forms is an excellent way to streamline fundraising efforts, manage donor relations, and enhance the giving experience for donors. Here's a concise guide on how you can achieve this:\n\n### Key Components to Include:\n\n1. **Donor Database:**\n   - **Contact Information:** Store names, addresses, emails, and phone numbers.\n   - **Donation History:** Track past donations, amounts, and dates.\n   - **Engagement Details:** Record interactions, event attendance, and volunteer activity.\n   - **Notes:** Add personalized notes or reminders about donor preferences.\n\n2. **Online Giving Forms:**\n   - **Customizable Templates:** Create forms that match the branding of your organization.\n   - **Recurring Donations:** Enable options for donors to set up monthly or yearly contributions.\n   - **Payment Processing:** Integrate with secure payment gateways (e.g., PayPal, Stripe) for credit card and ACH transactions.\n   - **Funds Designation:** Allow donors to specify which fund or campaign their donation should go to.\n\n3. **Integration Capabilities:**\n   - **Email Platforms:** Sync with email marketing tools for newsletters and campaigns.\n   - **Social Media:** Share updates and donation appeals via social platforms.\n   - **Accounting Systems:** Connect with financial software for seamless bookkeeping.\n\n4. **Donor Communication and Engagement:**\n   - **Automated Thank You Messages:** Send immediate acknowledgments after donations.\n   - **Segmented Campaigns:** Target specific donor groups with tailored messages.\n   - **Event Management:** Manage invitations, RSVPs, and follow-ups for fundraising events.\n\n5. **Data Analytics:**\n   - **Donation Trends:** Analyze patterns and peak giving times.\n   - **Donor Retention:** Track and improve donor loyalty over time.\n   - **Campaign Performance:** Measure the success of fundraising campaigns and appeals.\n\n6. **Security and Compliance:**\n   - **Data Encryption:** Ensure donor information is secure and encrypted.\n   - **PCI Compliance:** Meet standards for credit card processing.\n   - **Privacy Policies:** Clearly communicate how donor data is used and protected.\n\n### Implementation Steps:\n\n1. **Choose a Platform:**\n   - Select a CRM platform that fits your organization's needs (e.g., Salesforce Nonprofit Cloud, Bloomerang, Little Green Light).\n\n2. **Design Custom Giving Forms:**\n   - Use the CRM\u2019s tools to create and embed giving forms on your website.\n\n3. **Integrate with Existing Tools:**\n   - Connect the CRM with your current software solutions to ensure a cohesive system.\n\n4. **Train Your Team:**\n   - Provide training for staff on how to use the CRM and interpret donor data.\n\n5. **Regularly Update and Maintain:**\n   - Keep donor information current and regularly audit the database for accuracy.\n\n6. **Monitor and Evaluate:**\n   - Use analytics tools to monitor performance and make informed decisions based on data insights.\n\nBy integrating these components and steps, you can effectively manage donor relationships and optimize your fundraising strategy through a Donor CRM with online giving forms.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 620,
+  "estimated_cost_usd": 0.006235,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

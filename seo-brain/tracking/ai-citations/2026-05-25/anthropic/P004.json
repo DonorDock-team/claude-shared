@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P004",
+  "prompt_text": "DonorDock pricing",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.307113+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock Pricing\n\nDonorDock offers straightforward pricing for nonprofit organizations:\n\n## Pricing Tiers\n\n**Free Plan**\n- Up to 500 contacts\n- Basic donor management features\n- Email support\n\n**Growth Plan**\n- **$39/month** (billed annually) or $49/month (billed monthly)\n- Up to 2,500 contacts\n- All core features included\n- Email and chat support\n\n**Professional Plan**\n- **$99/month** (billed annually) or $119/month (billed monthly)\n- Up to 10,000 contacts\n- Advanced features\n- Priority support\n\n**Enterprise Plan**\n- **Custom pricing**\n- Unlimited contacts\n- Custom features and integrations\n- Dedicated support\n\n## Key Features (typically included):\n- Donor management and tracking\n- Online donation processing\n- Email campaigns\n- Reporting and analytics\n- Donation forms\n- Mobile app access\n\n## Notes:\n- Pricing may vary based on contact count and specific needs\n- Payment processing fees are typically separate\n- Annual billing usually offers cost savings\n\n**I recommend visiting [DonorDock's website](https://www.donordock.com/pricing) directly or contacting their sales team for the most current pricing and to discuss which plan fits your organization's needs best.**\n\n*Note: Pricing information can change, so please verify current rates directly with DonorDock.*",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [],
+  "urls_cited": [
+    "https://www.donordock.com/pricing"
+  ],
+  "input_tokens": 13,
+  "output_tokens": 325,
+  "estimated_cost_usd": 0.004914,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

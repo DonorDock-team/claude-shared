@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.306470+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking soft credits in a donor CRM (Customer Relationship Management) system involves recording contributions that are attributed to a donor as a result of their influence or connection, rather than their direct donation. Here's how you can effectively track soft credits:\n\n1. **Understand the Role of Soft Credits**:\n   - Soft credits acknowledge contributors who influence donations but aren\u2019t the primary donors, like board members or corporate gift match programs.\n\n2. **CRM Setup**:\n   - **Check Functionality**: Ensure your CRM has the capability to track soft credits. Most donor CRMs like Salesforce, Bloomerang, and DonorPerfect have built-in soft credit tracking features.\n   - **Configure Settings**: Enable the soft credit feature in your CRM settings. This might include customizing fields to differentiate between hard (direct) and soft (indirect) credits.\n\n3. **Data Entry Process**:\n   - **Detailed Records**: When entering a donation, specify the primary donor for hard credit and include an additional entry or field for the soft credit recipient.\n   - **Custom Fields**: Create fields that capture the nature and source of the soft credit \u2013 e.g., \u201cRelationship to Hard Donor\u201d, \u201cPercentage of Credit\u201d.\n   - **Automate**: Use automation tools within the CRM to auto-assign soft credits based on certain criteria like relationship type or donation source.\n\n4. **Accurate Attribution**:\n   - **Link Related Contacts**: Ensure that individuals or entities being soft credited are linked to the direct donor record. This ensures transparency and clarity about the relationship between the two.\n   - **Notes and Tags**: Use notes or tags to further explain the context or reason for the soft credit if necessary.\n\n5. **Reporting and Analysis**:\n   - **Create Reports**: Set up standardized reports to analyze total contributions including soft credits. This helps in understanding the broader influence network of your supporters.\n   - **Track Trends**: Use these reports to identify patterns or trends in soft credits which could inform future fundraising strategies.\n\n6. **Donor Communication**:\n   - **Acknowledge Soft Creditors**: Send tailored acknowledgments to those who receive soft credits, recognizing their role in facilitating donations.\n   - **Regular Updates**: Provide these donors with updates about how their influence is benefiting the organization.\n\n7. **Staff Training**:\n   - **Provide Training**: Ensure your team understands how to accurately enter, manage, and report soft credits. Regular training sessions can help maintain data integrity.\n\n8. **Review and Audit**:\n   - **Regular Reviews**: Conduct periodic audits of your CRM data to ensure soft credits are appropriately tracked and attributed.\n   - **Feedback Loop**: Use feedback from staff on the ground to refine processes for capturing and utilizing soft credit data.\n\nBy effectively utilizing your CRM system and maintaining robust processes for tracking soft credits, you can ensure comprehensive donor recognition and more nuanced fundraising strategies.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 588,
+  "estimated_cost_usd": 0.005918,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

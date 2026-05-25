@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "perplexity",
+  "timestamp": "2026-05-25T11:48:02.307087+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The main truly free alternatives to Salesforce Nonprofit Cloud are **Zeffy**, **CiviCRM**, and the **free tiers** of tools like **HubSpot CRM** and **Bloomerang**, each with different trade\u2011offs in features and required technical expertise.[1]  \n\nBelow is a concise comparison focused on *no- or very-low-cost* options that can cover at least donor management and basic fundraising.\n\n### 1. Zeffy (purpose-built, 100% free fundraising + light CRM)\n\n- **Cost model:** Zeffy is **100% free** for nonprofits, with **no platform or transaction fees**; it is funded entirely through *optional* donor tips at checkout.[1]  \n- **Features:**  \n  - Donor management and basic CRM-style tracking[1]  \n  - Online donations, forms, and campaigns[1]  \n  - Event registration and ticketing tools[1]  \n  - Recurring giving and receipts  \n- **Best for:** Small to mid-sized nonprofits that want an integrated fundraising + donor management tool with no fees and minimal setup.[1]  \n- **Main limitations vs. Salesforce Nonprofit Cloud:** Less extensible as a full organizational CRM (e.g., complex program tracking, case management, or large-scale automation).\n\n### 2. CiviCRM (open-source nonprofit CRM)\n\n- **Cost model:** **Open-source and free to use**; you pay only for hosting, implementation, and support if you don\u2019t do it in\u2011house.[1]  \n- **Features:**  \n  - Full CRM for nonprofits: contacts, households, organizations  \n  - Contributions, memberships, events, email marketing  \n  - Extensible with many community extensions  \n- **Best for:** Organizations with access to technical skills (internal or via a partner) that want Salesforce\u2011like flexibility without license fees.  \n- **Main limitations:**  \n  - Requires more technical setup and ongoing maintenance than a hosted SaaS like Salesforce or Zeffy.[1]  \n  - User experience and interface can feel dated compared to commercial CRMs.\n\n### 3. HubSpot CRM (general CRM with free tier)\n\n- **Cost model:** **Free core CRM** with optional paid sales/marketing hubs; free plan is perpetual but limited.[1]  \n- **Features (free tier):**  \n  - Contact and company records  \n  - Basic pipelines and tasks  \n  - Email logging, some marketing tools  \n- **Best for:** Small nonprofits that primarily need **lightweight donor/contact tracking** and email follow\u2011up, and are comfortable adapting a business\u2011oriented CRM to nonprofit needs.[1]  \n- **Main limitations:**  \n  - No native nonprofit data model (donor\u2011specific fields, households, soft credits, etc.).  \n  - More advanced automation and reporting are paywalled.\n\n### 4. Bloomerang \u2013 Free or low-cost tier\n\n- **Cost model:** Has a **limited free plan for small organizations**.[1]  \n- **Features (varies by tier):**  \n  - Donor database and basic CRM  \n  - Online giving forms  \n  - Email and engagement tracking  \n- **Best for:** Very small nonprofits needing a donor-focused CRM that is simpler than Salesforce but still nonprofit-native.[1]  \n- **Main limitations:**  \n  - Free tier usually caps records or features; you may need to upgrade as you grow.  \n  - Less general CRM flexibility than Salesforce.\n\n### 5. Niche nonprofit/mission tools sometimes cheaper than Salesforce\n\nSeveral products position themselves as **simpler or cheaper alternatives** to Salesforce Nonprofit Cloud for specific use cases like case management or membership:\n\n- **Case Management Hub:** Marketed as a better alternative for many nonprofits, social service agencies, and community organizations needing case management.[6]  \n- **Orgo:** Focuses on **membership organizations** with dues management, multi\u2011chapter coordination, and governance tools as an alternative to Salesforce Nonprofit Cloud for associations.[8]  \n\nThese are not generally free, but they can be lower-cost or more focused than Salesforce and may replace part of what you would use Nonprofit Cloud for.\n\n### 6. Salesforce\u2019s own \u201cfree\u201d option for context\n\nEven though you asked for alternatives, it helps to know Salesforce\u2019s baseline:\n\n- Through the **Power of Us Program**, eligible nonprofits get **10 Nonprofit Cloud (or Sales/Service Cloud) licenses free**.[2][4]  \n- Beyond those, Nonprofit Cloud pricing starts around **$60/user/month**, and NPSP around **$36/user/month**, plus implementation and support costs.[4]  \n\nIf you are very small and can stay within 10 users, Salesforce itself can function as a \u201cfree\u201d core CRM, but implementation and admin time are significant.\n\n---\n\n### How to choose among free/low-cost options\n\nIf you share 3\u20135 details (size of your contact list, staff tech skills, primary use cases like fundraising vs. programs, and budget ceiling), I can map you to a short list such as:\n\n- \u201cUse **Zeffy** + light spreadsheets\u201d  \n- \u201cStand up **CiviCRM** with a low-cost host\u201d  \n- \u201cStart with **HubSpot free CRM** and layer on donation tools\u201d  \n\nand outline a simple migration path from Salesforce or from spreadsheets.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 1092,
+  "estimated_cost_usd": 0.021404,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.zeffy.com/blog/salesforce-for-nonprofits",
+      "https://www.salesforce.com/nonprofit/",
+      "https://www.softwareadvice.com/nonprofit/salesforce-org-profile/alternatives/",
+      "https://xebia.com/blog/salesforce-nonprofit-cloud-versus-npsp-nonprofit-success-pack-which-one-is-right-for-your-organization/",
+      "https://vrpconsulting.com/blog/technologies/salesforce-for-nonprofits-cost/",
+      "https://casemanagementhub.org/salesforce-nonprofit-cloud-alternatives/",
+      "https://theirstack.com/en/technology/salesforce-nonprofit-cloud",
+      "https://orgo.space/alternatives/salesforce-nonprofit-cloud/"
+    ]
+  }
+}

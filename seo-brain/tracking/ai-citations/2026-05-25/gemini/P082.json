@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306947+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a hospital is a significant decision, as hospitals often have complex fundraising needs, large donor bases, multi-layered giving programs (major gifts, grateful patient programs, annual fund, capital campaigns, planned giving, research funding), and unique integration requirements.\n\nThere isn't a single \"best\" solution for every hospital, as needs vary based on size, budget, existing tech stack, and specific development goals. However, here are the top contenders, along with crucial factors to consider:\n\n---\n\n### Top Donor CRM Contenders for Hospitals\n\n1.  **Blackbaud (Raiser's Edge NXT / Blackbaud CRM)**\n    *   **Why it's a strong choice:** Blackbaud has historically been the dominant player in the non-profit and healthcare fundraising space.\n        *   **Raiser's Edge NXT:** A cloud-based evolution of their flagship product, offering strong core fundraising features, donor management, gift processing, reporting, and some level of moves management and analytics. It's often familiar to fundraising professionals.\n        *   **Blackbaud CRM:** Their enterprise-level solution, designed for very large and complex organizations (like major university hospitals or healthcare systems). It offers deep customization, sophisticated analytics, and robust constituent management across various giving types.\n    *   **Pros:** Deep fundraising functionality, industry standard, strong analytics, large user community, specific modules for healthcare fundraising.\n    *   **Cons:** Can be expensive, UI/UX can feel dated to some compared to newer platforms, integration with non-Blackbaud systems can sometimes be challenging or require third-party tools.\n\n2.  **Salesforce Nonprofit Cloud (NPSP)**\n    *   **Why it's a strong choice:** Salesforce is a highly customizable and scalable platform that leverages its market-leading CRM capabilities for the non-profit sector.\n        *   **Nonprofit Success Pack (NPSP):** A free, open-source package built on Salesforce's core platform that provides a foundational data model for managing individual donors, households, organizations, donations, and relationships.\n        *   **Pardot/Marketing Cloud:** For sophisticated marketing automation and donor journey mapping.\n        *   **AppExchange:** A vast marketplace for third-party apps that extend functionality (e.g., event management, wealth screening, payment processing).\n    *   **Pros:** Unparalleled customization and scalability, robust reporting, extensive integration capabilities (AppExchange), strong ecosystem of partners and developers, modern interface, can unify various departments (volunteers, grants, programs).\n    *   **Cons:** Requires significant configuration and often an experienced implementation partner, can be complex to set up and manage without internal Salesforce expertise, licensing costs can add up.\n\n3.  **Virtuous**\n    *   **Why it's a strong choice:** Virtuous is a newer, modern platform gaining significant traction, particularly with mid-to-large non-profits looking for a more personalized and automated approach to fundraising.\n    *   **Pros:** Excellent user experience, strong focus on donor journey automation and personalization, good for creating multi-channel campaigns, robust analytics and AI-driven insights, responsive customer support.\n    *   **Cons:** While growing in features, it might not have the sheer depth of specialized, niche fundraising features that Blackbaud has accumulated over decades for every possible scenario. May not be ideal for the absolute largest, most",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 710,
+  "estimated_cost_usd": 0.001777,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

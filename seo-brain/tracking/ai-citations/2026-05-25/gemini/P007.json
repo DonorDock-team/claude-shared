@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P007",
+  "prompt_text": "DonorDock vs Network for Good",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306717+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Network for Good are both platforms designed to help nonprofits manage donors and raise funds, but they approach these tasks with different philosophies, feature sets, and target audiences.\n\nHere's a breakdown to help you compare them:\n\n## DonorDock\n\n**Main Focus:** A modern, streamlined donor management system with integrated fundraising tools, emphasizing clean data, automation, and ease of use for the core CRM functions.\n\n**Key Characteristics:**\n\n*   **Modern CRM:** Strong focus on the donor database itself \u2013 managing contacts, gift history, interactions, segmentation, and reporting. It aims to be an intuitive, central hub for donor data.\n*   **Intuitive Interface:** Designed with a clean, user-friendly interface that prioritizes ease of navigation and data entry.\n*   **Integrated Fundraising:** Offers tools for online donation pages, event management, and potentially peer-to-peer (though perhaps less emphasis on this than NFG). The fundraising tools are tightly integrated with the donor database.\n*   **Automation & Efficiency:** Aims to automate tasks where possible, such as gift acknowledgment, recurring donation management, and data hygiene.\n*   **Integrations:** Likely offers integrations with popular third-party tools like email marketing platforms (e.g., Mailchimp), accounting software (e.g., QuickBooks), and payment processors.\n*   **Target Audience:** Nonprofits looking for a modern, user-friendly donor CRM that also provides solid fundraising capabilities, often appreciated by organizations that value clean data and efficient operations.\n\n**Pros of DonorDock:**\n*   **Modern UI/UX:** Often praised for its intuitive and clean design, making it pleasant to use.\n*   **Strong CRM Core:** Excellent for organizing and managing donor data effectively.\n*   **Data-Driven Focus:** Good reporting and segmentation tools to understand your donor base.\n*   **Integrated:** Fundraising and donor management are well-connected.\n*   **Potentially Better for Data-Savvy Orgs:** If you prioritize a robust, clean database, DonorDock is strong.\n\n**Cons of DonorDock:**\n*   **Newer Player:** May not have the breadth of long-standing features or market share as Network for Good.\n*   **Less \"Guided\" Fundraising:** While it has tools, it might not offer the same level of coaching or templates specifically focused on optimizing fundraising strategy as NFG.\n*   **Might be less focused on \"network\" benefits:** As the name implies, it's more about your specific donor data.\n\n## Network for Good\n\n**Main Focus:** An \"all-in-one\" fundraising and donor management platform, with a strong emphasis on guided fundraising, coaching, and making it easy for small-to-medium nonprofits to get started and grow their fundraising efforts.\n\n**Key Characteristics:**\n\n*   **All-in-One Platform:** Combines online fundraising (donation pages, peer-to-peer, events, text-to-give), email marketing, and donor management into a",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 622,
+  "estimated_cost_usd": 0.001557,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

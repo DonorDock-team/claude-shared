@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P027",
+  "prompt_text": "Best rated donor CRM on G2",
+  "engine": "perplexity",
+  "timestamp": "2026-05-25T11:48:02.306843+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The **highest-rated donor CRM on G2 right now is Givebutter**, which appears as a top \u201cBest Nonprofit CRM Software\u201d product with a **4.7/5 rating from 2,000+ reviews** and is positioned as a category leader for donor CRM plus fundraising.[2][1]\n\nHere\u2019s the essential context:\n\n- **Givebutter (Nonprofit CRM category)**  \n  - Rating: **4.7/5** from **2,071+ reviews**.[2]  \n  - Positioned by G2 as a leading option for **free fundraising campaigns with built\u2011in donor CRM**.[2]  \n  - Also highlighted as a **Leader** in G2\u2019s \u201cBest Nonprofit CRM Software for Small Business\u201d list.[1]\n\n- **Other strong donor CRM contenders on G2 (but with fewer reviews or in related categories)**  \n  - **Donorbox** \u2013 4.6/5 from 1,400+ reviews in the Nonprofit CRM small\u2011business list, strong for embeddable donation forms.[1]  \n  - **DonorDock** \u2013 well\u2011reviewed donor management/CRM tool; G2 reviews emphasize ease of donor management and efficiency, but it has fewer total reviews than Givebutter or Donorbox.[4][8]\n\nIf you tell me your org size (small nonprofit vs mid\u2011size/enterprise) and budget (free, <$100/month, etc.), I can narrow this to the best\u2011fit top\u2011rated donor CRM options for your specific situation.",
+  "donordock_mentioned": true,
+  "donordock_position": 817,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 316,
+  "estimated_cost_usd": 0.009764,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.g2.com/categories/nonprofit-crm/small-business",
+      "https://www.g2.com/categories/nonprofit-crm",
+      "https://www.g2.com/categories/fundraising",
+      "https://www.g2.com/products/donordock/reviews",
+      "https://www.donordock.com/compare",
+      "https://bloomerang.com/blog/donor-management-software",
+      "https://www.g2.com/categories/donor-management/small-business?order=g2_score&page=3",
+      "https://www.g2.com/categories/fundraising/resources",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306084+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Track Donor Pledges\n\n## 1. **Choose Your Tracking Method**\n\n### Spreadsheet (Simple & Free)\n- **Excel or Google Sheets** with columns for:\n  - Donor name and contact info\n  - Pledge amount\n  - Payment schedule (one-time, monthly, annual)\n  - Date pledged\n  - Amount paid to date\n  - Balance remaining\n  - Payment due dates\n  - Notes/restrictions\n\n### Donor Management Software\n- **Bloomerang**\n- **DonorPerfect**\n- **Little Green Light**\n- **Salesforce Nonprofit Cloud**\n- **Kindful**\n\n## 2. **Essential Information to Record**\n\n- \u2705 Donor details (name, address, email, phone)\n- \u2705 Pledge date and amount\n- \u2705 Payment schedule and terms\n- \u2705 Purpose/designation of funds\n- \u2705 Written pledge confirmation\n- \u2705 Payment history\n- \u2705 Communication log\n\n## 3. **Best Practices**\n\n### Documentation\n- Get **written confirmation** of all pledges\n- Send thank-you letters immediately\n- Provide regular pledge reminders (before due dates)\n\n### Regular Updates\n- Review weekly or monthly\n- Mark payments as received\n- Flag overdue pledges\n- Update contact information\n\n### Communication\n- Send **gentle reminders** 2-4 weeks before due dates\n- Provide year-end statements\n- Acknowledge each payment received\n- Follow up on missed payments professionally\n\n## 4. **Simple Tracking Template**\n\nCreate columns for:\n```\n| Donor Name | Pledge Date | Total Pledge | Payment Schedule | Amount Paid | Balance | Next Due | Status |\n```\n\nWould you like help setting up a specific tracking system for your organization?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 419,
+  "estimated_cost_usd": 0.006324,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

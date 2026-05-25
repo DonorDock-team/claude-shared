@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P143",
+  "prompt_text": "Donor CRM that does pledges and recurring",
+  "engine": "perplexity",
+  "timestamp": "2026-05-25T11:48:02.305988+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Several donor CRMs handle **both pledges and recurring donations** well. The right choice depends on your budget, complexity (campaigns vs simple online giving), and whether you need deep accounting-style pledge reporting.\n\nHere are good options to look at first:\n\n**1. DonorPerfect** \u2013 strong for orgs that need robust pledge + recurring  \n- Full donor CRM with **pledge campaigns** (fixed and open-ended/\u201crecurring\u201d pledges) and rich reporting: total pledged, paid to date, past due, schedules, reminders, forecasting, etc.[5]  \n- Built\u2011in **recurring donation** processing: automatically processes recurring gifts, updates card info, and auto-acknowledges via email.[4]  \n- Good fit if you run capital campaigns, multi\u2011year pledges, and a monthly giving program and need accounting-friendly reports.\n\n**2. Virtuous CRM** \u2013 clear separation of pledges vs recurring gifts  \n- Natively supports both **Pledges** (specific total by a date with a schedule and past\u2011due tracking)[6] and **Recurring Gifts** (open\u2011ended, no total commitment).[6]  \n- Automatically matches incoming gifts to expected pledge or recurring schedules in gift entry.[6]  \n- Strong if you want modern CRM + marketing automation and precise handling of both instruments.\n\n**3. DonorSnap** \u2013 pledge-centric nonprofit CRM  \n- Full CRM that **simplifies pledge management**, with a pledge tab on each donor, tracking total pledged, frequency, due dates, and automated reminders.[7]  \n- Explicitly distinguishes pledges from recurring payments and handles accounting implications and reporting.[7]  \n- Good for small\u2011to\u2011mid nonprofits that care a lot about pledge tracking but don\u2019t need the heaviest enterprise stack.\n\n**4. CauseVox (fundraising platform with CRM)** \u2013 pledges + installments + recurring  \n- Has a built\u2011in CRM keeping each **pledge donor\u2019s history and installment details** in one profile.[9]  \n- Can **create pledge forms**, automatically charge installments, send receipts, manage failed payments, and provide a donor portal for pledge management.[9]  \n- Also supports recurring donations and general online fundraising. Strong if you\u2019re focused on online campaigns and want pledges + recurring in one lightweight system.\n\n**5. GivingFuel** \u2013 donation & recurring-focused CRM  \n- Positions itself explicitly as a **donor CRM** with strong recurring management: centralizes all recurring donors and lets you manage intervals, payment methods, and amounts.[3]  \n- Can initiate new gifts from prior donors using stored payment methods.[3]  \n- Good if recurring is your main need and you want a simpler, lower\u2011cost platform; check directly how they handle true multi\u2011installment pledges vs just recurring.\n\n---\n\nIf you tell me:\n- size of your org,\n- average annual revenue,\n- whether you do capital/multi\u2011year campaigns,\n- required integrations (QuickBooks, Mailchimp, etc.),\n\nI can narrow this to 2\u20133 best-fit systems and suggest an evaluation checklist tailored to you.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 630,
+  "estimated_cost_usd": 0.014477,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.pledgeit.org/solutions/recurring-giving",
+      "https://idealistconsulting.com/blog/pledges-vs-recurring-donations",
+      "https://www.givingfuel.com/features/donormanagement-overview",
+      "https://www.donorperfect.com/fundraising-software/pledge-collection/",
+      "https://www.donorperfect.com/video/managing-pledges-donorperfect/",
+      "https://support.virtuous.org/hc/en-us/articles/6265003339661-Matching-Recurring-Gift-and-Pledge-Payments-in-Gift-Entry",
+      "https://donorsnap.com/blog/pledge-tracking-with-a-nonprofit-crm/",
+      "https://www.pledge.to/features/donor-data-and-management",
+      "https://www.causevox.com/blog/donation-pledges-nonprofit/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P061",
+  "prompt_text": "Best donor CRM for monthly giving programs",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306723+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for monthly giving programs depends heavily on your nonprofit's size, budget, technical expertise, and specific needs. However, a few CRMs consistently stand out for their robust recurring giving features.\n\n**Key Features to Look For in a CRM for Monthly Giving:**\n\n1.  **Seamless Recurring Gift Setup:** Easy for donors to sign up for monthly donations, ideally directly on your website.\n2.  **Automated Payment Processing:** Integrates with payment gateways (Stripe, PayPal, etc.) and handles various payment types (credit card, ACH).\n3.  **Dunning Management (Payment Failure Management):** This is CRITICAL. The CRM should automatically retry failed payments, notify donors of expired cards or payment issues, and ideally provide a self-service portal for donors to update their information.\n4.  **Donor Portal/Self-Service Options:** Allows monthly donors to manage their recurring gifts (change amount, update payment info, pause/cancel) themselves, reducing administrative burden.\n5.  **Automated Communications:** Sending timely, personalized receipts, thank-you messages, and updates on payment statuses.\n6.  **Robust Reporting & Analytics:** Track key metrics like monthly donor retention, average gift size, lifetime value, payment success rates, and identify at-risk donors.\n7.  **Integration Capabilities:** Connects with your website forms, email marketing tools, and accounting software.\n8.  **Segmentation & Personalization:** Ability to segment monthly donors for targeted communications and engagement.\n9.  **User-Friendly Interface:** For both your staff and your donors.\n\n---\n\n### Top CRM Recommendations for Monthly Giving Programs:\n\nHere are some of the leading CRMs, categorized by their strengths:\n\n1.  **Bloomerang:**\n    *   **Why it's great for monthly giving:** Bloomerang",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 384,
+  "estimated_cost_usd": 0.000962,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

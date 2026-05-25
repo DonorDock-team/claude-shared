@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P006",
+  "prompt_text": "DonorDock vs DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306646+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and DonorPerfect are both powerful CRM (Constituent Relationship Management) systems designed for non-profits, but they cater to slightly different needs, philosophies, and organizational sizes.\n\nHere's a detailed comparison to help you decide:\n\n## DonorDock vs. DonorPerfect: A Head-to-Head Comparison\n\n| Feature/Aspect         | DonorDock                                  | DonorPerfect                                   |\n| :--------------------- | :----------------------------------------- | :--------------------------------------------- |\n| **Overall Philosophy** | Modern, intuitive, streamlined, automation-focused. Emphasizes ease of use and a clean interface. | Comprehensive, robust, all-in-one, traditional. Focuses on deep functionality and a wide array of modules. |\n| **Target Audience**    | Small to medium-sized non-profits, startups, those prioritizing ease of use, modern UI, and automation. | Mid-sized to large non-profits, those with complex needs, established organizations, and a larger budget. |\n| **User Interface (UI)**| Clean, modern, intuitive, user-friendly. Designed for quick adoption and minimal training. | Functional, but can feel more traditional or somewhat dated to some users. Powerful but can have a steeper learning curve. |\n| **Core Features**      | - Donor CRM (segmentation, profiles)<br>- Online Fundraising (forms, pages)<br>- Email & SMS Marketing<br>- Event Management (basic)<br>- Donation Tracking & Processing<br>- Reporting & Dashboards<br>- Peer-to-Peer (often via integration) | - Comprehensive Donor CRM<br>- Online Fundraising (diverse forms)<br>- Event Management (advanced, ticketing)<br>- Volunteer Management<br>- Grant Management<br>- Planned Giving<br>- Reporting & Analytics (highly customizable)<br>- Accounting Integrations<br>- Mobile App |\n| **Automation**         | Strong focus on workflow automation, automated email/SMS sequences, task management based on donor behavior. | Offers automation features, but might require more manual setup or be part of specific modules. |\n| **Reporting**          | Good standard reports, customizable dashboards, focused on actionable insights. | Extremely robust and customizable reporting tools. Can generate highly detailed and specific reports. |\n| **Integrations**       | Integrates with popular tools (e.g., QuickBooks Online, Mailchimp, Zapier for broader connections). | Wide range of native integrations with accounting software (QuickBooks Desktop/Online, Sage), payment processors, and other non-profit tools. |\n| **Pricing**            | Generally more transparent and often more affordable for smaller organizations, often tiered by donor records or contacts. | Can be more expensive,",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 555,
+  "estimated_cost_usd": 0.001389,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

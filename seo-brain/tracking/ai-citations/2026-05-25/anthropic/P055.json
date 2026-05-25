@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P055",
+  "prompt_text": "Best CRM for a 2 person fundraising team",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306082+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best CRM Options for a 2-Person Fundraising Team\n\nFor a small fundraising team, you'll want something affordable, easy to use, and purpose-built for nonprofits. Here are the top options:\n\n## **Top Recommendations**\n\n### **1. Bloomerang** \u2b50 Best Overall\n- **Why:** Designed specifically for small nonprofits, incredibly user-friendly\n- **Price:** ~$125/month\n- **Strengths:** Donor retention focus, excellent support, minimal learning curve\n- **Best for:** Teams wanting nonprofit-specific features without complexity\n\n### **2. Donorbox CRM**\n- **Why:** Free tier available, built-in donation processing\n- **Price:** Free up to 1,000 contacts; paid plans from $99/month\n- **Strengths:** Integrated payment processing, simple interface\n- **Best for:** Budget-conscious teams or those just starting\n\n### **3. Little Green Light**\n- **Why:** Affordable, designed by fundraisers for fundraisers\n- **Price:** $59/month (flat rate)\n- **Strengths:** Great value, solid reporting, no per-user fees\n- **Best for:** Maximum features at minimum cost\n\n### **4. Keela**\n- **Price:** ~$119/month\n- **Strengths:** Modern interface, AI insights, donor management\n- **Best for:** Tech-savvy teams wanting data-driven insights\n\n## **What to Avoid**\n- **Salesforce/Blackbaud:** Overkill for 2 people, expensive, steep learning curve\n- **Generic CRMs** (HubSpot, Zoho): Lack nonprofit-specific features like gift tracking\n\n**Quick tip:** Most offer free trials\u2014test 2-3 options with your actual data before committing.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "Keela",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 416,
+  "estimated_cost_usd": 0.006297,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

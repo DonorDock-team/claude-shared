@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.306104+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor pledges effectively is crucial for maintaining a healthy fundraising program and ensuring that pledged contributions are received. Here are some steps and best practices for tracking donor pledges:\n\n1. **Choose the Right System:**  \n   - Use a donor management system (DMS), customer relationship management (CRM) software, or a dedicated fundraising platform. Popular options include Salesforce, DonorPerfect, Bloomerang, or NeonCRM. Ensure the system can handle pledges and reminders.\n\n2. **Record Pledge Details:**  \n   - Enter detailed information about each pledge into your system, including donor name, contact information, pledge amount, payment schedule, and any specific terms or restrictions associated with the pledge.\n\n3. **Set Up Reminders and Alerts:**  \n   - Configure automatic reminders and alerts for both you and the donor. This helps ensure that payments are made on time and any overdue payments are followed up promptly.\n\n4. **Segment and Categorize Pledges:**  \n   - Organize pledges by type, size, or donor category. This can help in generating reports and in tailoring communication to specific donor groups.\n\n5. **Monitor Cash Flow:**  \n   - Regularly review reports to track cash flow projections based on expected pledge payment dates. This helps in financial planning and ensures that funds are available when needed.\n\n6. **Regular Follow-ups:**  \n   - Establish a system for regular follow-up with donors, either through automated emails or personal calls, to thank them, remind them of their pledge, and provide updates on the impact of their contributions.\n\n7. **Acknowledge Payments Promptly:**  \n   - Send immediate acknowledgments once a pledge payment is received. This can be a tax receipt and a thank-you note, reinforcing the donor\u2019s decision to support your cause.\n\n8. **Generate Reports:**  \n   - Use your system to generate regular reports on pledge activity, overdue pledges, and upcoming payments. These reports are useful for accounting purposes and strategic planning.\n\n9. **Communicate Impact:**  \n   - Regularly communicate to donors about the impact of their pledges and how they are facilitating your organization\u2019s mission. This reinforces their commitment and may encourage future contributions.\n\n10. **Evaluate and Adjust:**  \n    - Periodically assess your pledge tracking process and make adjustments as necessary to improve efficiency and accuracy.\n\nBy integrating these steps, you can effectively manage and track donor pledges, ensuring that funds are collected as promised and fostering a positive relationship with your donors.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 499,
+  "estimated_cost_usd": 0.005023,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

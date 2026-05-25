@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P032",
+  "prompt_text": "Alternative to Givebutter for donor management",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.307259+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Givebutter is a popular choice for many nonprofits due to its modern interface, comprehensive fundraising tools (donation forms, peer-to-peer, events, text-to-give), and its \"free with optional donor tipping\" model. However, it might not be the best fit for everyone, especially if you have very specific donor management needs, desire deeper CRM functionalities, or are looking for different pricing structures.\n\nHere are some excellent alternatives to Givebutter for donor management, categorized by their strengths:\n\n---\n\n### **All-in-One Fundraising & Donor Management (Most Direct Competitors)**\n\nThese platforms offer a similar blend of fundraising tools and donor database management, often with varying strengths in each area.\n\n1.  **Bloomerang:**\n    *   **Strengths:** Highly regarded for its focus on donor retention, robust reporting, and intuitive CRM. Excellent for understanding donor engagement and communication. It acquired Kindful, consolidating offerings.\n    *   **Best for:** Nonprofits of all sizes looking for strong donor cultivation features and user-friendly data management.\n    *   **Pricing:** Tiered based on database size, generally competitive.\n\n2.  **DonorPerfect:**\n    *   **Strengths:** A long-standing, comprehensive solution with powerful reporting, gift processing, and donor segmentation. It offers a wide array of modules for various fundraising activities (events, pledges, recurring gifts).\n    *   **Best for:** Medium to large nonprofits that need a robust, scalable system with deep customization and reporting capabilities.\n    *   **Pricing:** Tiered, can be more expensive than Givebutter's free tier, but offers more power.\n\n3.  **Neon CRM (formerly NeonOne):**\n    *   **Strengths:** A comprehensive suite that includes donor management, fundraising, events, membership management, and even website integration. Strong analytics and automation features.\n    *   **Best for:** Nonprofits, associations, and museums looking for an all-in-one solution that can handle various aspects of their operations beyond just donations.\n    *   **Pricing:** Modular and tiered based on features and contacts.\n\n4.  **Little Green Light (LGL):**\n    *   **Strengths:** Very affordable and powerful, especially for smaller to mid-sized nonprofits. It offers excellent donor management, robust reporting, campaign tracking, and gift processing. Known for its simplicity and great support.\n    *   **Best for:** Budget-conscious nonprofits that need strong core donor management without extensive bells and whistles.\n    *   **Pricing:** Very competitive, tiered by contact count.\n\n5.  **CauseVox:**\n    *   **Strengths:** Similar to Givebutter, CauseVox focuses on modern, user-friendly digital fundraising campaigns (crowdfunding, peer-to-peer, events, giving pages). It also includes donor management features.\n    *   **Best for:** Nonprofits prioritizing digital campaign effectiveness and sleek donor experiences.\n    *   **Pricing",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 617,
+  "estimated_cost_usd": 0.001545,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

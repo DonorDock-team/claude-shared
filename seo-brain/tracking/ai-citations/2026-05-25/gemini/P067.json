@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.307182+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor relationships effectively across a team is crucial for successful fundraising, donor retention, and preventing miscommunication or missed opportunities. It requires a combination of technology, clear processes, and a collaborative team culture.\n\nHere's a comprehensive approach:\n\n## 1. Implement a Centralized Constituent Relationship Management (CRM) System\n\nThis is the absolute foundation. A CRM is a specialized database designed to manage all interactions and information related to your donors and constituents.\n\n**Key Features Your CRM Should Offer for Team Tracking:**\n\n*   **Comprehensive Donor Profiles:**\n    *   **Contact Information:** Names, addresses, phone numbers, emails, social media handles.\n    *   **Communication History:** Logs of every email, phone call, meeting, text message, and direct mail sent/received. This is critical for avoiding duplicate outreach and understanding past interactions.\n    *   **Donation History:** Dates, amounts, campaigns, designations, payment methods.\n    *   **Interests & Preferences:** What causes they care about, preferred communication channels, event attendance.\n    *   **Relationships:** Connections to other donors, board members, corporations, family members.\n    *   **Donor Tiers/Segments:** Major donor, monthly donor, prospect, lapsed donor, volunteer.\n    *   **Wealth Screening Data:** If applicable, any relevant financial indicators.\n*   **Activity & Task Management:**\n    *   **Assigned Tasks:** Ability to assign follow-up calls, emails, meetings, or research tasks to specific team members with due dates.\n    *   **Activity Logging:** Every team member can log their interactions and activities with a donor.\n    *   **Reminders & Notifications:** Alert team members to upcoming tasks or important donor milestones.\n*   **Team Collaboration Features:**\n    *   **Internal Notes:** Private notes only visible to the team, allowing for strategy discussions or sensitive information sharing without going directly to the donor.\n    *   **User Permissions:** Control who can view, edit, or delete specific data.\n    *   **Shared Calendars/Queues:** For managing outreach efforts across multiple team members.\n*   **Reporting & Analytics:**\n    *   Track team activity, donor engagement trends, fundraising progress, and identify top donors or at-risk donors.\n*   **Integration Capabilities:** With email marketing platforms, accounting software, event management tools, etc.\n\n**Popular CRM Options for Nonprofits:**\n\n*   **Salesforce NPSP (Nonprofit Success Pack):** Highly customizable, robust, and scalable, but can be complex.\n*   **Blackbaud Raiser's Edge NXT:** A long-standing industry leader, comprehensive.\n*   **Bloomerang:** User-friendly, strong focus on donor retention and engagement.\n*   **DonorPerfect:** Feature-rich, good for small to mid-sized organizations.\n*   **NeonCRM:** All-in-one solution for fundraising, events, and membership.\n*   **Little Green Light:** Affordable, good for smaller nonprofits.\n*   **SalsaLabs:** Combines CRM with advocacy and marketing tools.\n\n## 2. Establish Clear Processes and Protocols\n\nA CRM is only as good as the data entered and the rules governing its use.\n\n*   **Define Roles and Responsibilities (Donor Ownership):**\n    *   **Primary Relationship Manager/Solicitor:** Clearly assign one person as the main contact for key donors or donor segments. This avoids duplicate asks or inconsistent messaging.\n    *   **Secondary Contacts:** Identify others who might interact with the donor (e.g., event manager, program staff) but ensure the primary manager is aware and looped in.\n    *   **Lead Assignment Rules:** How are new donors or prospects assigned to team members?\n*   **Standardized Data Entry:**\n    *   **Naming Conventions:** Consistent use of titles, abbreviations, and spellings.\n    *   **Mandatory Fields:** Require essential information (e.g., source of donation, communication preferences) to be filled out.\n    *   **Categorization/Tagging:** Use consistent tags for interests, segments, campaigns, etc.\n    *   **Detailed Activity Logging:** Train staff to log *every* interaction: date, type of interaction (call, email,",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 888,
+  "estimated_cost_usd": 0.002222,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

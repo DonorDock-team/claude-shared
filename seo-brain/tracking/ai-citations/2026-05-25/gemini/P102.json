@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.307107+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Salesforce Nonprofit Cloud is a powerful, comprehensive platform, but its full features come with a cost beyond the initial 10 free licenses provided by the Power of Us program (which we'll start with).\n\nIf you're looking for genuinely free alternatives, you'll often trade off some features, ease of setup, or scalability. Here are some excellent free alternatives, ranging from dedicated open-source solutions to adaptable general-purpose CRMs:\n\n---\n\n### 1. Salesforce Power of Us Program (10 Free Licenses)\n\n**This is arguably the *best* free alternative, as it *is* Nonprofit Cloud.**\n*   **What it is:** Salesforce offers 10 free \"Nonprofit Cloud Starter\" licenses to eligible non-profits and higher education institutions. This gives you access to the full NPSP (Nonprofit Success Pack) functionality, which is the foundation of Nonprofit Cloud.\n*   **Pros:**\n    *   It's the actual Nonprofit Cloud, so it's purpose-built for non-profits (donor management, grants, programs, volunteers, etc.).\n    *   Extremely robust and scalable.\n    *   Massive community, app exchange, and support resources.\n    *   You can often get significant discounts on additional licenses beyond the free 10.\n*   **Cons:**\n    *   Can have a steep learning curve and requires administrative time.\n    *   Implementation and ongoing customization might require some technical expertise or a consulting budget (though many resources are free).\n    *   The 10 free licenses might not be enough for larger organizations.\n*   **Best for:** Any non-profit that qualifies, especially those who want the full power and scalability of Salesforce without the initial license cost.\n\n---\n\n### 2. CiviCRM\n\n*   **What it is:** A powerful, open-source constituent relationship management (CRM) system specifically designed for non-profits and other civic-sector organizations. It runs on top of popular content management systems (CMS) like WordPress, Drupal, or Joomla.\n*   **Pros:**\n    *   **Truly free software:** No license fees.\n    *   Designed for non-profits: Includes donor management, event management, membership management, peer-to-peer fundraising, advocacy tools, case management,",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 481,
+  "estimated_cost_usd": 0.001204,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

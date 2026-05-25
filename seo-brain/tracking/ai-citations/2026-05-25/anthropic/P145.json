@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P145",
+  "prompt_text": "Best donor CRM for capital campaigns",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306095+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Capital Campaigns\n\nFor capital campaigns, you need robust relationship management, pledge tracking, and major gift tools. Here are the top options:\n\n## **Top Tier Options**\n\n### **1. Blackbaud Raiser's Edge NXT**\n- **Best for:** Large organizations ($5M+ budgets)\n- **Strengths:** Comprehensive campaign management, wealth screening, sophisticated reporting\n- **Considerations:** Expensive, steeper learning curve\n- **Price:** ~$10K-50K+ annually\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Organizations wanting customization and scalability\n- **Strengths:** Highly customizable, excellent for complex campaigns, strong integrations\n- **Considerations:** Requires configuration/consultant help\n- **Price:** ~$3K-30K+ annually (depending on setup)\n\n## **Mid-Tier Options**\n\n### **3. Bloomerang**\n- **Best for:** Small-to-mid-size organizations ($500K-$5M)\n- **Strengths:** Excellent donor retention focus, user-friendly, campaign tracking\n- **Price:** ~$1,500-5,000/year\n\n### **4. DonorPerfect**\n- **Best for:** Organizations needing flexible campaign management\n- **Strengths:** Strong pledge tracking, good reporting, reasonable price\n- **Price:** ~$1,500-6,000/year\n\n### **5. Virtuous**\n- **Best for:** Modern, growth-focused organizations\n- **Strengths:** Automation, responsive fundraising approach, good UX\n- **Price:** ~$3,000-12,000/year\n\n## **Key Features to Prioritize**\n\n- \u2705 Multi-year pledge tracking\n- \u2705 Campaign hierarchy (phases, funds, appeals)\n- \u2705 Major gift officer assignment and tracking\n- \u2705 Wealth screening integration\n- \u2705 Robust reporting and dashboards\n- \u2705 Proposal and contact report tracking\n\n**Which would work best for your organization's size and budget?**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 483,
+  "estimated_cost_usd": 0.007287,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

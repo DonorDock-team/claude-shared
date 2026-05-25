@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P012",
+  "prompt_text": "DonorDock vs Virtuous",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.307094+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Virtuous are both powerful CRM (Customer Relationship Management) and fundraising platforms designed for nonprofits, but they cater to slightly different needs and organizational sizes/philosophies.\n\nHere's a breakdown to help you compare them:\n\n## DonorDock\n\n**Core Philosophy:** Simplicity, affordability, and ease of use for small to mid-sized nonprofits. It aims to provide essential fundraising tools without unnecessary complexity.\n\n**Best For:**\n*   **Small to Mid-sized Nonprofits:** Organizations with smaller teams and budgets that need core CRM and fundraising functionalities.\n*   **Organizations Prioritizing Ease of Use:** Teams that want to get up and running quickly without a steep learning curve.\n*   **Budget-Conscious Nonprofits:** Generally more affordable than Virtuous.\n*   **Nonprofits Needing Core Functionality:** Donor management, online giving, event management, communications, and basic reporting.\n\n**Key Features & Strengths:**\n*   **Intuitive User Interface:** Designed to be straightforward and easy to navigate, even for those new to CRM systems.\n*   **Affordable Pricing:** Generally offers a more accessible price point.\n*   **Core Donor Management:** Tracks donor information, giving history, interactions, and relationships.\n*   **Online Giving Pages:** Easy setup for donation forms.\n*   **Event Management:** Tools for managing attendees, tickets, and donations related to events.\n*   **Email & Letter Communications:** Built-in tools for sending thank-yous, appeals, and newsletters.\n*   **Basic Reporting & Dashboards:** Provides essential insights into fundraising performance.\n*   **Good Support:** Often praised for responsive and helpful customer service.\n\n**Potential Limitations (compared to Virtuous):**\n*   **Less Advanced Automation:** May not have the deep, multi-channel automation capabilities of Virtuous.\n*   **Fewer AI-Powered Insights:** Lacks the predictive analytics and AI-driven recommendations.\n*   **Less Sophisticated Segmentation:** While capable, it might not offer the extremely granular and dynamic segmentation options.\n*   **May Not Scale as Easily for Very Large/Complex Orgs:** While good for growing, it might eventually be outgrown by very large, enterprise-level organizations with highly complex needs.\n\n## Virtuous\n\n**Core Philosophy:** \"Responsive Fundraising\" \u2013 leveraging technology, data, and automation to create highly personalized, meaningful, and proactive donor experiences that lead to deeper engagement and increased generosity.\n\n**Best For:**\n*   **Medium to Large Nonprofits:** Organizations with more complex fundraising strategies, larger donor bases, and dedicated fundraising/marketing teams.\n*   **Growth-Oriented Nonprofits:** Those looking to scale their impact significantly through advanced automation and personalization.\n*   **Organizations Investing in Technology:** Nonprofits willing to invest more in a robust, feature-rich platform.\n*   **Nonprofits Focused on Donor Journeys:** Teams that want to map out, automate, and personalize every touchpoint with a donor.\n\n**Key Features & Strengths:**\n*   **Advanced Automation Engine:** Highly customizable workflows for personalized email, SMS, and direct mail campaigns triggered by donor behavior.\n*   **AI & Predictive Analytics:** Uses AI to identify major gift prospects, predict donor churn, and suggest optimal communication strategies.\n*   **Comprehensive CRM:** Robust donor profiles, household management, volunteer management, grant tracking, and more.\n*   **Peer-to-Peer Fundraising:** Strong tools for launching and managing P2P campaigns.\n*   **Sophisticated",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 735,
+  "estimated_cost_usd": 0.001839,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

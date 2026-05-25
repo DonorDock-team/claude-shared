@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P101",
+  "prompt_text": "DonorPerfect total cost of ownership",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.307028+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Understanding the Total Cost of Ownership (TCO) for DonorPerfect is crucial for any nonprofit considering or currently using the platform. TCO goes beyond just the monthly subscription fee to include all direct and indirect costs associated with acquiring, implementing, maintaining, and using the software over its lifespan.\n\nDonorPerfect is a Software-as-a-Service (SaaS) solution, which means many traditional IT costs (like server hardware, software licensing, and extensive in-house IT support) are absorbed by the vendor. However, other significant costs remain.\n\nHere's a breakdown of the typical TCO components for DonorPerfect:\n\n---\n\n### 1. Direct Costs (Usually Invoiced by DonorPerfect or its Partners)\n\n*   **Subscription Fees:**\n    *   **Tiered Pricing:** DonorPerfect's pricing is primarily based on the number of *constituents* (donors, prospects, volunteers, etc.) in your database. They offer various tiers (e.g., Essential, Professional, Enterprise) with different feature sets and contact limits.\n    *   **Monthly/Annual:** Fees are typically paid monthly or annually, with annual payments sometimes offering a discount.\n    *   **Example Range:** While highly variable, expect monthly fees to range from **$99 for very small organizations to $500+ for mid-sized, and significantly more for large enterprises**.\n*   **Implementation & Data Migration Fees:**\n    *   **One-time Cost:** This is a significant upfront cost for getting your database set up, configuring fields, and migrating existing donor data from spreadsheets, old CRMs, or other systems.\n    *   **Data Cleanup:** The amount of data cleanup required for your existing data heavily influences this cost.\n    *   **Professional Services:** DonorPerfect offers implementation services, or you might choose a third-party consultant.\n    *   **Example Range:** Can range from **$1,000 to $10,000+**, depending on complexity and data volume.\n*   **Add-on Modules & Premium Features:**\n    *   **DonorPerfect Payments (DPM):** Their integrated payment processor. While it simplifies processing, there are transaction fees (see below).\n    *   **Online Forms & Pages:** Included in some tiers, but advanced features or additional forms might incur costs.\n    *   **Text-to-Give:** An additional service for many organizations.\n    *   **DonorPerfect Mobile:** Accessing the CRM on the go.\n    *   **Integrations:** While many integrations are standard, some might require premium versions of the integrated software (e.g., Constant Contact premium features) or specific setup fees.\n*   **Payment Processing Fees:**\n    *   **Transaction Fees:** If you use DonorPerfect Payments (DPM) or integrate with another processor (e.g., Stripe, PayPal, Authorize.net), you'll pay a percentage + a per-transaction fee on all donations processed through online forms, virtual terminals, or recurring gifts.\n    *   **Monthly Gateway Fees:** Some processors also have a small monthly fee for the gateway itself.\n    *   **Example Range:** Typically **2.2% - 3.5% + $0.30 per transaction**, but this varies based on processor, card type, and your organization's volume/negotiated rates. This can be a substantial ongoing cost.\n*   **Training Fees (Optional/Additional):**\n    *   While basic onboarding and extensive online resources (knowledge base, webinars) are usually included, personalized or advanced training sessions, workshops, or bootcamps might be extra.\n\n---\n\n### 2. Indirect & Hidden Costs (Often Overlooked",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 776,
+  "estimated_cost_usd": 0.001942,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.307257+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Keela are both popular nonprofit software solutions, but they cater to slightly different needs and philosophies. Here's a breakdown to help you decide:\n\n## DonorDock\n\n**Overall Philosophy:** DonorDock aims to be a modern, intuitive, and easy-to-use donor management system for small to medium-sized nonprofits. It focuses on core CRM and fundraising functionalities with a clean interface.\n\n**Key Features:**\n\n*   **Donor CRM:** Centralized profiles, contact history, giving history, notes, tasks.\n*   **Fundraising:** Online donation forms (customizable), peer-to-peer fundraising (newer feature), event registration, basic campaign management.\n*   **Communication:** Email integrations (e.g., Mailchimp), built-in email composer, communication tracking.\n*   **Reporting & Analytics:** Standard reports on giving, donors, campaigns. Basic dashboards.\n*   **Integrations:** QuickBooks Online, Mailchimp, payment processors (Stripe, PayPal).\n*   **User Interface:** Praised for its modern, clean, and user-friendly design.\n*   **Data Migration:** Offers assistance with data import.\n\n**Pros of DonorDock:**\n\n*   **Ease of Use:** Highly intuitive, modern interface with a relatively low learning curve.\n*   **Modern Design:** A fresh, clean look and feel compared to some older systems.\n*   **Affordability:** Generally more budget-friendly, especially for smaller organizations, with transparent pricing often based on donor records.\n*   **Focused:** Excels at core donor management and online fundraising without overwhelming features.\n*   **Good Support:** Generally receives positive feedback for customer service.\n\n**Cons of DonorDock:**\n\n*   **Less Comprehensive:** Lacks some advanced features found in all-in-one solutions (e.g., advanced marketing automation, sophisticated grant management, volunteer management).\n*   **Limited AI/Predictive Tools:** Doesn't offer the advanced AI-driven insights that Keela emphasizes.\n*   **Newer Player:** While robust, it's a newer entrant compared to some, which means some advanced features might still be on the roadmap.\n\n## Keela\n\n**Overall Philosophy:** Keela positions itself as an \"Intelligent CRM\" and an all-in-one nonprofit management solution. It aims to provide a comprehensive suite of tools, powered by AI, to streamline fundraising, communications, and operations for growing organizations.\n\n**Key Features:**\n\n*   **Intelligent CRM:** Robust donor profiles, detailed segmentation, AI-powered insights (e.g., propensity to give, churn risk), wealth screening.\n*   **Fundraising:** Online donation forms, peer-to-peer, crowdfunding, event management, grant management, prospect research, pledges.\n*   **Communication & Marketing:** Advanced email marketing (segmentation, automation), SMS messaging, integrated communication tracking.\n*   **Reporting & Analytics:** Comprehensive dashboards, customizable reports, AI-driven predictive analytics.\n*   **Volunteer Management:** Track volunteers, manage shifts, communicate.\n*   **Grant Management:** Track grant applications, deadlines, and reporting.\n*   **Integrations:** Broader range, including Zapier for extensive custom integrations, payment processors, and accounting software.\n*   **User Interface:** Feature-rich, generally well-designed, but can feel more complex due to the",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 702,
+  "estimated_cost_usd": 0.001757,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

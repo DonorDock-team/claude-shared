@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P116",
+  "prompt_text": "Best AI tool for nonprofit donor outreach",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306802+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "There isn't a single \"best\" AI tool, as the ideal choice depends heavily on your nonprofit's specific needs, budget, existing tech stack, and the scale of your operations.\n\nHowever, the most effective AI tools for nonprofit donor outreach generally fall into a few key categories, often with overlap. Many CRMs and fundraising platforms are now integrating AI features directly.\n\nHere's a breakdown of the best AI tools and approaches, along with what to consider:\n\n## Top AI Categories & Tools for Nonprofit Donor Outreach\n\n**1. AI-Powered CRM & Fundraising Platforms (Most Comprehensive)**\n\nThese are often your best bet as they integrate AI directly into your donor data and outreach workflows.\n\n*   **Salesforce for Nonprofits (NPSP) + Salesforce Einstein AI:**\n    *   **Why it's good:** If you're already on Salesforce, Einstein AI offers powerful predictive analytics, personalized content recommendations, and smart segmentation. It can help identify donors most likely to give, upgrade, or lapse. Highly customizable.\n    *   **AI Features:** Predictive scoring (likelihood to donate, churn), automated personalization for emails, smart segmentation, insights into donor behavior.\n    *   **Considerations:** Can be complex and expensive to implement and maintain, but extremely powerful for larger organizations.\n*   **Blackbaud (especially Raiser's Edge NXT with its AI features):**\n    *   **Why it's good:** A long-standing leader in nonprofit tech, Blackbaud is heavily investing in AI. RE NXT offers integrated analytics and insights to help identify key donors and optimize appeals.\n    *   **AI Features:** Predictive analytics for gift likelihood, donor retention scores, wealth screening integration, personalized content suggestions, automated segmentation.\n    *   **Considerations:** Geared towards mid-sized to large nonprofits; can be a significant investment.\n*   **Bloomerang (Emerging AI):**\n    *   **Why it's good:** Known for its user-friendliness and focus on donor retention. Bloomerang is integrating AI features, particularly around communication and donor insights.\n    *   **AI Features:** Sentiment analysis on donor interactions, personalized communication suggestions, automated follow-ups based on donor behavior, basic predictive analytics.\n    *   **Considerations:** Excellent for small to medium-sized nonprofits. AI features might be less robust than enterprise solutions but are evolving quickly.\n*   **NeonOne (NeonCRM):**\n    *   **Why it's good:** Offers a comprehensive suite of tools for nonprofits, with growing AI capabilities focused on automation and insights.\n    *   **",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 542,
+  "estimated_cost_usd": 0.001357,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

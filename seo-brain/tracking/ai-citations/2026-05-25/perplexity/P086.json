@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P086",
+  "prompt_text": "Best donor CRM for homeless services",
+  "engine": "perplexity",
+  "timestamp": "2026-05-25T11:48:02.307246+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For **homeless services**, the best donor CRM is usually one that can handle both **donor management** and **case/program management** in the same system. Based on the options in the results, **LiveImpact** is the strongest fit if you need client/services tracking alongside fundraising, while **Salesforce for Nonprofit** is the most scalable enterprise option and **DonorPerfect** is a simpler donor-focused choice.[3][4][1]\n\n- **Best overall for homeless services:** **LiveImpact** \u2014 the result specifically describes it as best for nonprofits that want **donor management, case management, and fundraising in a single platform**.[3]\n- **Best for larger or more complex organizations:** **Salesforce for Nonprofit** \u2014 positioned as a leading nonprofit platform for **fundraising, marketing, program management, grantmaking, and volunteer management**.[4]\n- **Best straightforward donor CRM:** **DonorPerfect** \u2014 a cloud-based nonprofit CRM with **donation tracking, batch processing, and reporting**.[1]\n\nIf you want, I can narrow this to the **best 3 options for homeless shelters**, **best low-cost options**, or **best CRMs that include case management and housing outcomes tracking**.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 251,
+  "estimated_cost_usd": 0.008786,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://forums.techsoup.org/t/searching-for-a-good-donor-crm-for-years-that-fit-our-ministries-needs/7478",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://www.salesforce.com/nonprofit/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://aamnationcare.org/best-crm-for-non-profits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/"
+    ]
+  }
+}

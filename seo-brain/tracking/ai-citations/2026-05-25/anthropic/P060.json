@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306592+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM with Recurring Giving\n\nI'll help you understand donor CRMs with recurring giving capabilities. Here's what you need to know:\n\n## **Top Donor CRMs with Recurring Giving**\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- Strong retention tracking\n- Automated recurring gift processing\n- Donor engagement scoring\n- **Pricing:** ~$125-$500/month\n\n### **2. DonorPerfect**\n- Robust recurring donation management\n- Customizable payment schedules\n- Automated acknowledgment letters\n- Integration with major payment processors\n- **Pricing:** Custom, typically $89+/month\n\n### **3. Kindful (by Bloomerang)**\n- User-friendly interface\n- Automated recurring gift workflows\n- Built-in online donation forms\n- Real-time reporting\n- **Pricing:** ~$100-$400/month\n\n### **4. Little Green Light**\n- Affordable for smaller organizations\n- Flexible recurring gift tracking\n- Payment processing integration\n- Custom reporting\n- **Pricing:** $39-$119/month\n\n### **5. Salesforce Nonprofit Cloud**\n- Enterprise-level solution\n- Highly customizable\n- Advanced automation\n- Requires more technical expertise\n- **Pricing:** $36+/user/month (implementation costs extra)\n\n## **Key Features to Look For**\n\n\u2705 **Automated processing** of recurring donations  \n\u2705 **Failed payment notifications** and retry logic  \n\u2705 **Flexible schedules** (monthly, quarterly, annually)  \n\u2705 **Donor portal** for self-service updates  \n\u2705 **Tax receipt automation**  \n\u2705 **Integration** with payment gateways (Stripe, PayPal, etc.)  \n\u2705 **Reporting** on recurring vs. one-time giving  \n\u2705 **Upgrade/downgrade paths** for donors\n\n## **What specific features are most important for your organization?**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 462,
+  "estimated_cost_usd": 0.006972,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

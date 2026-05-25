@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P121",
+  "prompt_text": "AI for donor research",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.307188+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "AI for donor research is a powerful application of artificial intelligence and machine learning technologies to enhance and streamline the process of identifying, qualifying, cultivating, and stewarding potential and existing donors for non-profit organizations.\n\nIt moves beyond traditional, manual prospect research by leveraging algorithms to process vast amounts of data, identify patterns, and make predictions, ultimately leading to more efficient and effective fundraising efforts.\n\nHere's a breakdown of how AI is used in donor research:\n\n## Key Applications of AI in Donor Research:\n\n1.  **Prospect Identification & Segmentation:**\n    *   **How it works:** AI algorithms can scan public databases (SEC filings, real estate records, news articles, social media, professional networks like LinkedIn) to identify individuals with high net worth, philanthropic indicators, and relevant professional backgrounds.\n    *   **Benefit:** Automates the discovery of new potential donors, creating \"lookalike\" models based on existing major donors, and segmenting them based on estimated capacity, affinity, and engagement likelihood.\n\n2.  **Capacity Assessment (Wealth Screening):**\n    *   **How it works:** AI integrates data from various sources (property records, stock holdings, corporate affiliations, executive salaries, foundation giving) to estimate an individual's financial capacity to give.\n    *   **Benefit:** Provides more accurate and dynamic estimations of giving potential, helping organizations prioritize prospects and tailor ask amounts.\n\n3.  **Affinity & Inclination (Interest Matching):**\n    *   **How it works:** Using Natural Language Processing (NLP) and machine learning, AI can analyze past donations to similar causes, board memberships, volunteer activities, news mentions, and even social media sentiment to determine a prospect's passion for a particular mission or program.\n    *   **Benefit:** Matches prospects with the most relevant programs or campaigns, increasing the likelihood of engagement and donation.\n\n4.  **Relationship Mapping:**\n    *   **How it works:** AI can map connections between potential donors, existing donors, board members, and staff by analyzing shared affiliations (e.g., universities, companies, non-profit boards).\n    *   **Benefit:** Identifies warm introduction paths, making initial outreach more effective and personal.\n\n5.  **Engagement & Stewardship Personalization:**\n    *   ",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 468,
+  "estimated_cost_usd": 0.001171,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

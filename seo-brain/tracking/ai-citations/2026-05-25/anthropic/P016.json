@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P016",
+  "prompt_text": "Alternative to DonorPerfect",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.305864+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Alternatives to DonorPerfect\n\nHere are some popular alternatives to DonorPerfect for nonprofit fundraising and donor management:\n\n## **Top Alternatives**\n\n### **1. Bloomerang**\n- Strong donor retention focus\n- Intuitive interface\n- Built-in engagement metrics\n- Good for small to mid-sized nonprofits\n\n### **2. Little Green Light**\n- Affordable pricing\n- User-friendly\n- Good reporting capabilities\n- Popular with smaller organizations\n\n### **3. Salesforce Nonprofit Cloud**\n- Highly customizable\n- Robust features\n- Scales well with growth\n- Steeper learning curve\n\n### **4. Blackbaud Raiser's Edge NXT**\n- Comprehensive fundraising suite\n- Strong for larger organizations\n- Advanced analytics\n- Higher price point\n\n### **5. Kindful (by Bloomerang)**\n- Modern interface\n- Good integration options\n- Affordable\n- Cloud-based\n\n### **6. Neon CRM**\n- All-in-one platform\n- Event management included\n- Membership features\n- Mid-range pricing\n\n### **7. Keela**\n- AI-powered insights\n- Canadian company (good for Canadian nonprofits)\n- Affordable\n- Growing feature set\n\n## **What to Consider**\n- Organization size\n- Budget\n- Required features (events, memberships, grant tracking)\n- Integration needs\n- Technical expertise of staff\n\nWould you like more details about any specific alternative?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 340,
+  "estimated_cost_usd": 0.005145,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

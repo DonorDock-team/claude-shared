@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P085",
+  "prompt_text": "Best donor CRM for advocacy organizations",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.307184+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for an advocacy organization depends heavily on your specific needs, budget, scale, and technical expertise. Unlike traditional non-profits that focus solely on donations, advocacy organizations need robust tools for managing activists, tracking actions (petitions, calls to legislators), managing campaigns, and communicating effectively with a diverse base that may or may not be donors.\n\nHere's a breakdown of the top contenders, categorized by their strengths:\n\n---\n\n### Top Recommendations for Advocacy Organizations\n\n**1. EveryAction / SalsaLabs (Often considered the gold standard for advocacy)**\n\n*   **Who it's for:** Medium to large advocacy organizations, political campaigns, and non-profits with significant advocacy work. Organizations that need powerful field organizing, legislative tracking, and multi-channel engagement.\n*   **Pros:**\n    *   **Advocacy-First:** Built from the ground up for political and advocacy campaigns.\n    *   **Comprehensive Suite:** Includes robust tools for email marketing, online fundraising, event management, volunteer management, phone banking, legislative tracking, and constituent relationship management (CRM).\n    *   **Action Tracking:** Excellent for tracking constituent actions (petitions, emails to reps, calls), legislative issues, and campaign performance.\n    *   **Segmentation & Targeting:** Extremely powerful segmentation capabilities based on demographics, actions, donations, and more.\n    *   **Field Organizing:** Strong tools for canvassing, phone banking, and managing campaign staff/volunteers.\n    *   **Integrations:** Offers a broad range of integrations for a comprehensive ecosystem.\n*   **Cons:**\n    *   **Cost:** Can be significantly more expensive than other options, especially for smaller organizations.\n    *   **Complexity:** Features can be extensive, requiring a learning curve and potentially dedicated staff.\n    *   **Implementation:** May require professional services for initial setup and customization.\n\n**2. Salesforce Nonprofit Success Pack (NPSP) + Advocacy Apps**\n\n*   **Who it's for:** Organizations that need ultimate flexibility, customization, and scalability, and have the budget/resources for implementation and ongoing management. Ideal for complex data models and unique workflows.\n*   **Pros:**\n    *   **Unrivaled Customization:** Salesforce is a platform, not just a product. NPSP provides the non-profit data model, and you can customize almost anything.\n    *   **Vast Ecosystem:** Salesforce AppExchange offers thousands of integrations and add-ons for specific advocacy needs (e.g., legislative tracking, mass texting, deeper email marketing).\n    *   **Scalability:**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 538,
+  "estimated_cost_usd": 0.001347,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

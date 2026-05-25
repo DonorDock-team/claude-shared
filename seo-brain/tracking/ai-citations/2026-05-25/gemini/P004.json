@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P004",
+  "prompt_text": "DonorDock pricing",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.307173+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock offers subscription-based pricing that primarily scales with the number of **active contacts** you manage and the **features** you need.\n\nHere's a general overview of their plans as of my last update (it's always best to check their official website for the most current and detailed information):\n\n1.  **Starter Plan:**\n    *   **Best for:** Smaller organizations with a limited number of donors.\n    *   **Price:** Typically starts around **$79 per month** (when billed annually).\n    *   **Includes:** Up to a certain number of active contacts (e.g., 1,000 or 1,500), basic donor profiles, donation tracking, communications tools, standard reporting, and core integrations.\n    *   **Users:** Usually includes a set number of user seats (e.g., 3 users).\n\n2.  **Growth Plan:**\n    *   **Best for:** Growing organizations needing more advanced features and contact capacity.\n    *   **Price:** Typically starts around **$149 per month** (when billed annually).\n    *   **Includes:** Everything in Starter, plus a higher number of active contacts (e.g., up to 5,000), more user seats (e.g., 5 users), advanced reporting, custom forms, SMS messaging capabilities, peer-to-peer fundraising, and recurring gift management.\n\n3.  **Enterprise Plan:**\n    *   **Best for:** Large organizations with extensive donor bases and complex needs.\n    *   **Price:** **Custom pricing.**\n    *   **Includes:** Everything in Growth, plus 5,000+ active contacts, potentially unlimited users, dedicated support, advanced security, custom integrations, and specialized onboarding.\n\n**Key things to remember about DonorDock pricing:**\n\n*   **Active Contacts:** Your pricing tier will largely depend on the number of unique, active donor records you have in the system.\n*   **Billing Cycle:** Prices are often quoted as a monthly rate but require annual billing to get that specific price. Monthly billing might be available at a slightly higher rate.\n*   **Features:** Higher tiers unlock more advanced features like custom reports, SMS, peer-to-peer, and more user seats.\n*   **Free Demo:** DonorDock typically offers a free demo, which is a great way to see the software in action and discuss your specific needs for a tailored quote.\n\n**To get the most accurate and up-to-date pricing for your specific organization, I highly recommend visiting the official DonorDock website or contacting their sales team directly.**",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 3,
+  "output_tokens": 550,
+  "estimated_cost_usd": 0.001376,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

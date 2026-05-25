@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P132",
+  "prompt_text": "Network for Good problems",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306601+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Network for Good Problems\n\nI can help you troubleshoot issues with Network for Good. Here are the most common problems and solutions:\n\n## **Donation Processing Issues**\n\n- **Payment declined** - Check card details, billing address match, and sufficient funds\n- **Duplicate donations** - Contact support immediately; don't resubmit\n- **Receipt not received** - Check spam folder; receipts send automatically within 24 hours\n\n## **Account Access Problems**\n\n- **Can't log in** - Use password reset feature or clear browser cache/cookies\n- **Account locked** - Contact support after multiple failed login attempts\n- **Two-factor authentication issues** - Ensure correct time on your device\n\n## **Reporting & Data Issues**\n\n- **Missing donations in reports** - Check date filters and export settings\n- **Donor data not syncing** - Verify integration settings with your CRM\n- **Reconciliation errors** - Compare transaction IDs between platforms\n\n## **Nonprofit-Specific Issues**\n\n- **Funds not received** - Deposits typically process within 3-5 business days\n- **Fee questions** - Review your pricing plan (typically 3-5% platform fee)\n- **Campaign not appearing** - Check publication status and preview settings\n\n## **Getting Help**\n\n- **Support:** 1-888-284-7978 or support@networkforgood.com\n- **Hours:** Monday-Friday, 9 AM - 8 PM ET\n- **Help Center:** https://support.networkforgood.com\n\n**What specific issue are you experiencing?** I can provide more targeted help if you share details.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [
+    "https://support.networkforgood.com"
+  ],
+  "input_tokens": 11,
+  "output_tokens": 364,
+  "estimated_cost_usd": 0.005493,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

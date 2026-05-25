@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P010",
+  "prompt_text": "Does DonorDock have online giving",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306938+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "No, **DonorDock itself does not have native, built-in online giving functionality** in the sense of providing its own payment processing and giving forms.\n\nInstead, DonorDock is a church CRM that **integrates with dedicated online giving platforms**.\n\nTheir primary and most tightly integrated partner for online giving is **Pushpay**.\n\nHere's how it works:\n\n1.  **Giving Platform:** Your church uses a platform like Pushpay (or potentially others that can integrate via API or Zapier) for donors to make online contributions.\n2.  **Integration:** When a donor gives through Pushpay, that giving data (donor information, amount, fund, date, etc.) is automatically synced and sent over to DonorDock.\n3.  **DonorDock's Role:** DonorDock then stores this giving history as part of the donor's comprehensive profile. This allows you to:\n    *   Track all donations (online, in-person, check) in one place.\n    *   Generate giving statements and reports.\n    *   Segment donors based on giving patterns.\n    *   Use giving data for communication and stewardship.\n\nSo, while DonorDock doesn't *provide* the online giving forms, it is designed to be the central hub for *managing* all your online giving data when integrated with a partner like Pushpay.",
+  "donordock_mentioned": true,
+  "donordock_position": 6,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 279,
+  "estimated_cost_usd": 0.000699,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

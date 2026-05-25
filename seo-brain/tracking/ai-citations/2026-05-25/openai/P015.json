@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P015",
+  "prompt_text": "Alternative to Bloomerang",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.305792+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "If you're looking for alternatives to Bloomerang, a popular donor management and fundraising software, there are several options available with varying features. Here are a few to consider:\n\n1. **DonorPerfect**: This software offers donor management, online fundraising, and reporting tools. It's known for its user-friendly interface and customization options.\n\n2. **Blackbaud Raiser\u2019s Edge NXT**: A comprehensive fundraising and relationship management software that\u2019s often used by larger nonprofits. It offers in-depth reporting and analytic features.\n\n3. **Kindful**: Known for its ease of use and clean interface, Kindful provides donor management features, as well as integrations with other platforms that nonprofits frequently use.\n\n4. **NeonCRM**: This is a cloud-based CRM that offers a wide range of features for managing donors, events, and volunteers. It's known for its flexibility and scalability.\n\n5. **Little Green Light**: An affordable option for small to mid-sized nonprofits, it offers robust donor management, event planning, and reporting solutions.\n\n6. **Salesforce Nonprofit Cloud**: Though it can be complex, Salesforce offers a highly customizable platform with powerful donor and relationship management capabilities.\n\n7. **DonorSnap**: This is a cost-effective option with features for managing donor relationships, creating online forms, and tracking fundraising efforts.\n\n8. **Wild Apricot**: Mostly known for membership management, it also offers tools for accepting donations and managing events, which can be valuable for nonprofits.\n\n9. **Network for Good**: Offers a donor management system along with fundraising tools and communication capabilities tailored for small to medium-sized nonprofits.\n\nWhen choosing an alternative, consider your organization\u2019s specific needs, budget, and the types of features that are most important for your operations. It\u2019s also beneficial to take advantage of free trials when available to get a hands-on sense of how well a particular system will work for you.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Network for Good",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 384,
+  "estimated_cost_usd": 0.00387,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.307067+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "There are several free alternatives to Salesforce Nonprofit Cloud, each offering a range of features tailored for nonprofit organizations. Here are some popular ones:\n\n1. **CiviCRM**: An open-source constituent relationship management software designed specifically for nonprofits, NGOs, and advocacy organizations. It integrates with popular content management systems like WordPress, Joomla, and Drupal.\n\n2. **Wild Apricot (Free Plan)**: Wild Apricot offers a free plan for small organizations with up to 50 contacts. It includes membership management, event registration, and basic CRM functionalities.\n\n3. **Bitrix24 (Free Plan)**: Bitrix24 offers a robust free plan that provides a variety of tools, including CRM features, project management, and communication tools. The free version is limited in terms of users and features but can still be beneficial for small nonprofits.\n\n4. **SuiteCRM**: Another open-source CRM that can be customized to meet the needs of nonprofit organizations. It offers a comprehensive set of features, including contact management and fundraising modules.\n\n5. **HubSpot CRM**: HubSpot offers a free CRM solution that includes basic contact management, email marketing, and lead management \u2013 useful for small to medium-sized nonprofit organizations.\n\n6. **Zoho CRM (Free Plan)**: Zoho CRM provides a free plan for up to 3 users, which includes contact management, lead tracking, and basic reporting features.\n\n7. **Apptivo**: Offers a free starter plan which is suitable for small nonprofits. It includes basic CRM functionalities, such as contact management, email integration, and task management.\n\n8. **Odoo CRM (Community Edition)**: Odoo offers a free open-source edition that can be tailored to fit nonprofit needs with various add-on modules.\n\nWhen choosing a CRM, consider factors like the size and specific needs of your organization, the technical expertise available, and the potential for scaling up as your nonprofit grows.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 385,
+  "estimated_cost_usd": 0.003885,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

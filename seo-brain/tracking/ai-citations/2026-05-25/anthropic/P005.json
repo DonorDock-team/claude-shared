@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P005",
+  "prompt_text": "DonorDock vs Bloomerang",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.307193+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Bloomerang Comparison\n\nBoth are popular donor management systems, but they serve different organizational needs. Here's a breakdown:\n\n## **DonorDock**\n\n**Best for:** Small nonprofits and churches with limited budgets\n\n**Strengths:**\n- **Affordable pricing** - Starts around $39/month\n- Simple, intuitive interface\n- Quick setup and easy to learn\n- Good for basic donor tracking and communications\n- Solid customer support\n\n**Limitations:**\n- Fewer advanced features\n- Less robust reporting capabilities\n- Smaller integration ecosystem\n- May outgrow it as organization scales\n\n## **Bloomerang**\n\n**Best for:** Small to mid-sized nonprofits ready to invest in retention\n\n**Strengths:**\n- **Donor retention focus** - Built-in engagement metrics and retention tools\n- Excellent reporting and analytics\n- Comprehensive email marketing features\n- Wealth screening capabilities\n- Larger library of integrations\n- Strong training resources and support\n\n**Limitations:**\n- Higher cost (~$125+/month)\n- Steeper learning curve\n- May be overkill for very small organizations\n\n## **Key Decision Factors**\n\nChoose **DonorDock** if you:\n- Have a tight budget (<$500/year)\n- Need something simple to start quickly\n- Have basic CRM needs\n\nChoose **Bloomerang** if you:\n- Can invest $1,500+/year\n- Need robust reporting and analytics\n- Want donor retention tools built-in\n- Plan to scale your fundraising\n\n**Bottom line:** DonorDock is the budget-friendly starter option; Bloomerang is the more comprehensive tool for growth-focused organizations.\n\nWhat's your organization's size and primary needs?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 399,
+  "estimated_cost_usd": 0.006036,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

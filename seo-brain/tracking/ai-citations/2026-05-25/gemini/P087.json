@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P087",
+  "prompt_text": "Best donor CRM for refugee services",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.305855+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for refugee services involves a unique set of considerations beyond just tracking donations. You need a system that can handle sensitive data, integrate with potential case management systems, and support a wide range of relationships (donors, volunteers, community partners, and sometimes even a simplified view of clients without violating privacy).\n\nHere are the top recommendations, along with critical features to consider:\n\n## Top Donor CRM Recommendations for Refugee Services\n\n### 1. Salesforce Nonprofit Success Pack (NPSP)\n\n*   **Pros:**\n    *   **Unrivaled Customization & Scalability:** Salesforce is incredibly flexible. NPSP provides a pre-built framework for nonprofits, which can then be heavily customized to track donors, grants, volunteers, and even integrate with or build out lightweight case management functionalities (though a dedicated CMS is often better for complex client data).\n    *   **Robust Data Security:** Salesforce has enterprise-grade security, essential for sensitive data.\n    *   **Extensive Ecosystem (AppExchange):** Thousands of apps (some free, some paid) can extend functionality for volunteer management, grant tracking, event management, and more.\n    *   **Grant Management Capabilities:** Can track grant applications, awards, reporting deadlines, and budgets.\n    *   **Nonprofit Discounts:** Salesforce offers significant discounts and free licenses for qualifying nonprofits.\n*   **Cons:**\n    *   **Steep Learning Curve:** Powerful but complex. Requires dedicated admin time or external consultants for initial setup and ongoing customization.\n    *   **Cost:** While discounted, add-ons and advanced features can become expensive.\n*   **Best For:** Organizations with complex needs, larger budgets, and a willingness to invest in customization and training. Ideal if you envision growing into a comprehensive relationship management system beyond just donors.\n\n### 2. Bloomerang\n\n*   **Pros:**\n    *   **User-Friendly Interface:**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 395,
+  "estimated_cost_usd": 0.000989,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

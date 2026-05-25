@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P020",
+  "prompt_text": "Cheaper alternative to Blackbaud",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306150+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Cheaper Alternatives to Blackbaud\n\nHere are cost-effective alternatives to Blackbaud's nonprofit software:\n\n## **All-in-One Nonprofit Platforms**\n\n1. **Bloomerang** ($125-$500/month)\n   - Donor management & fundraising\n   - Better pricing than Raiser's Edge\n   - Strong retention tools\n\n2. **DonorPerfect** (~$89/month starting)\n   - Comprehensive donor database\n   - Integrated online giving\n   - Good for small-mid size organizations\n\n3. **Little Green Light** ($59-$199/month)\n   - CRM & fundraising tools\n   - Transparent flat-rate pricing\n   - Great for smaller nonprofits\n\n## **Budget-Friendly Options**\n\n4. **Kindful** (by Bloomerang) (~$100/month)\n   - Simple donor management\n   - Good reporting features\n\n5. **Neon CRM** ($50-$200/month)\n   - CRM, fundraising, & membership\n   - Pay-as-you-grow pricing\n\n## **Free/Low-Cost Solutions**\n\n6. **CiviCRM** (Free, open-source)\n   - Fully featured nonprofit CRM\n   - Requires technical setup\n   - Good community support\n\n7. **HubSpot for Nonprofits** (Free-$20/month discounted)\n   - CRM with marketing tools\n   - Nonprofit discounts available\n\n**What Blackbaud product are you looking to replace specifically?** (Raiser's Edge, Financial Edge, Altru, etc.) I can give more targeted recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 380,
+  "estimated_cost_usd": 0.005745,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

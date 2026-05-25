@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P047",
+  "prompt_text": "Best donor CRM for community foundations",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306962+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Community Foundations\n\nCommunity foundations have unique needs\u2014managing multiple funds, grantmaking, donor-advised funds, and complex reporting. Here are the top options:\n\n## **Top Tier Solutions**\n\n### **1. Foundant GLM (Grant Lifecycle Manager)**\n- **Best for:** Mid to large community foundations\n- **Strengths:** Purpose-built for foundations, integrated grantmaking + donor management, scholarship management\n- **Considerations:** Higher cost, may be overkill for smaller foundations\n\n### **2. Blackbaud Raiser's Edge NXT**\n- **Best for:** Larger community foundations with complex needs\n- **Strengths:** Robust reporting, strong integration ecosystem, fund accounting capabilities\n- **Considerations:** Expensive, steeper learning curve\n\n### **3. Salesforce Nonprofit Cloud**\n- **Best for:** Tech-savvy foundations wanting customization\n- **Strengths:** Highly customizable, excellent integration options, scalable\n- **Considerations:** Requires implementation partner, ongoing customization costs\n\n## **Mid-Market Options**\n\n### **4. Bloomerang**\n- **Best for:** Small to mid-sized foundations\n- **Strengths:** User-friendly, strong donor retention focus, good reporting\n- **Considerations:** Less foundation-specific features\n\n### **5. DonorPerfect**\n- **Best for:** Budget-conscious foundations\n- **Strengths:** Affordable, solid core features, fund tracking\n- **Considerations:** Interface feels dated to some users\n\n## **Key Features to Prioritize**\n- Fund accounting and multiple fund management\n- Donor-advised fund (DAF) tracking\n- Grant management integration\n- Legacy/planned giving tools\n- Customizable reporting for board/stakeholders\n\n**What's your foundation's size and primary pain points?** That would help narrow the recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 422,
+  "estimated_cost_usd": 0.006372,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}
