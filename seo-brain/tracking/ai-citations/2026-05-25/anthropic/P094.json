@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P094",
+  "prompt_text": "Hidden costs of Bloomerang",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306450+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Bloomerang\n\nWhile Bloomerang is transparent about its base pricing, nonprofits should be aware of potential hidden or additional costs:\n\n## **Payment Processing Fees**\n- **Credit card transactions**: ~2.9% + $0.30 per transaction\n- **ACH fees**: Additional charges apply\n- These fees add up quickly for organizations processing many donations\n\n## **Add-On Features**\n- **Email sends beyond plan limits**: Overage charges apply\n- **Additional user seats**: May require plan upgrades\n- **SMS texting**: Not included in base plans\n- **Advanced integrations**: Some require higher-tier plans\n\n## **Implementation Costs**\n- **Data migration**: Time-intensive to import existing donor data\n- **Staff training**: Learning curve requires staff time investment\n- **Customization**: May need outside help for complex setups\n- **Legacy data cleanup**: Preparing data for import can be costly\n\n## **Third-Party Integration Expenses**\n- **Accounting software sync**: May require paid middleware (e.g., Zapier)\n- **Event management tools**: Additional platforms needed for complex events\n- **Wealth screening**: Requires separate subscription\n- **Online fundraising pages**: Limited without higher-tier plans\n\n## **Scaling Costs**\n- **Contact limit increases**: Jumping pricing tiers can be significant\n- **Storage limits**: Additional document storage may cost extra\n- **Report customization**: Advanced reporting may require upgrades\n\n## **Opportunity Costs**\n- **Limited website integration**: May need separate donation platform\n- **Volunteer management**: Not robust; may need another tool\n- **Grant tracking**: Basic features may require supplemental software\n\n## **Tips to Minimize Hidden Costs**\n\u2713 Carefully estimate your contact count before selecting a plan\n\u2713 Ask about all fees during demos\n\u2713 Budget for at least one tier above your current needs\n\u2713 Factor in staff time for setup and training\n\nWould you like specific pricing comparisons or alternatives?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 446,
+  "estimated_cost_usd": 0.006732,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P047",
+  "prompt_text": "Best donor CRM for community foundations",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.306981+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When considering a donor CRM (Customer Relationship Management) system for community foundations, it\u2019s important to choose one that specifically addresses the unique needs of these organizations. Community foundations typically need to manage relationships with donors, track grant applications, and maintain detailed records of donations and funds. Here are a few CRM options that are well-regarded in the nonprofit sector and may suit community foundations:\n\n1. **Blackbaud Raiser\u2019s Edge NXT**  \n   - **Strengths:** Comprehensive donor management, robust reporting and analytics, and extensive integration capabilities with other Blackbaud products.\n   - **Considerations:** Can be complex and expensive, but it offers powerful tools for larger foundations.\n\n2. **Salesforce Nonprofit Success Pack (NPSP)**  \n   - **Strengths:** Highly customizable platform built on the robust Salesforce architecture; strong ecosystem of apps and integrations.\n   - **Considerations:** May require more initial setup and customization, but provides flexibility and scalability.\n\n3. **Bloomerang**  \n   - **Strengths:** User-friendly interface, focus on donor retention, and strong customer support.\n   - **Considerations:** May lack some advanced features needed for very large organizations.\n\n4. **DonorPerfect**  \n   - **Strengths:** Easy to use with strong donor management and reporting features; scalable for different sizes of organizations.\n   - **Considerations:** Specific integrations might be needed for grant tracking and management.\n\n5. **Neon CRM**  \n   - **Strengths:** Comprehensive suite of tools for donor management, event registration, and online fundraising.\n   - **Considerations:** Some learning curve may be involved due to the wide range of features.\n\n6. **Kindful** (now part of Bloomerang)  \n   - **Strengths:** Intuitive design, strong integrations with other platforms like QuickBooks and Mailchimp.\n   - **Considerations:** Better suited for small to medium-sized organizations.\n\n7. **Foundation Connect by Salesforce**  \n   - **Strengths:** Specifically designed for grant management, allowing seamless connection between grants management and donor management within the Salesforce ecosystem.\n   - **Considerations:** Suitable for foundations deeply invested in the Salesforce platform.\n\nWhen selecting a CRM, foundations should consider factors such as budget, scalability, ease of use, specific feature needs (e.g., grant management, donor communication tools), and integration capabilities with other systems. A thorough needs assessment and product demos can help in making an informed decision. Additionally, engaging with other community foundations to learn about their experiences with different CRMs can provide valuable insights.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 514,
+  "estimated_cost_usd": 0.005173,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

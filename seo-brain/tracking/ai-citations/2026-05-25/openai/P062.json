@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P062",
+  "prompt_text": "Best nonprofit CRM with email and text messaging",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.306759+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When considering a CRM for nonprofits that includes email and text messaging capabilities, you'll want to evaluate options based on features, ease of use, integration capabilities, and cost. Here are some popular choices that are well-regarded in the nonprofit sector:\n\n1. **Salesforce Nonprofit Cloud**:\n   - **Features**: Salesforce is highly customizable and offers extensive features through its Nonprofit Success Pack (NPSP). It supports email and can be integrated with third-party apps for text messaging.\n   - **Pros**: Highly flexible, extensive library of integrations, and a large support community.\n   - **Cons**: Can be complex to set up and requires training.\n\n2. **Neon CRM**:\n   - **Features**: Designed specifically for nonprofits, offering built-in email marketing and integrations for text messaging.\n   - **Pros**: User-friendly interface, strong donor management features, and built-in automation.\n   - **Cons**: Pricing can add up with additional features.\n\n3. **Bloomerang**:\n   - **Features**: Provides email marketing and integrates with platforms like Twilio for text messaging.\n   - **Pros**: Focuses on donor retention, easy-to-use interface, and strong customer support.\n   - **Cons**: Limited integrations compared to larger CRMs.\n\n4. **Kindful**:\n   - **Features**: Offers email marketing integrations and text messaging via third-party apps.\n   - **Pros**: Clean interface, good integration capabilities, and robust donor management tools.\n   - **Cons**: Some features require integration with other software.\n\n5. **Keela**:\n   - **Features**: Built specifically for nonprofits, includes native email marketing and partnerships for text messaging.\n   - **Pros**: Designed with smaller nonprofits in mind, affordable pricing, and good analytics.\n   - **Cons**: Limited customization compared to more extensive platforms.\n\n6. **Little Green Light**:\n   - **Features**: Includes email communications and offers options for integrating text messaging.\n   - **Pros**: Affordable, intuitive interface, and good donor management.\n   - **Cons**: Less robust integration options.\n\n7. **EveryAction**:\n   - **Features**: Comprehensive tools for email and text marketing designed for advocacy and engagement.\n   - **Pros**: Strong analytics, good for fundraising, and advocacy features.\n   - **Cons**: Pricing can be higher, especially for smaller organizations.\n\nEach of these CRMs has its strengths and trade-offs, so the best choice will depend on the specific needs and budget of your nonprofit. It's a good idea to take advantage of free trials and demos to see which system best fits your organization's workflow and user comfort.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 546,
+  "estimated_cost_usd": 0.005497,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

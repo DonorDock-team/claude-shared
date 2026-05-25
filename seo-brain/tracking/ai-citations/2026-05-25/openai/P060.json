@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.306614+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When selecting a donor CRM (Customer Relationship Management) system with a focus on recurring giving, it\u2019s essential to consider features and capabilities that facilitate the management of recurring donations efficiently. Here are some key aspects and potential solutions you might look into:\n\n### Key Features to Consider:\n\n1. **Recurring Donation Management:**\n   - Ability to set up, modify, and cancel recurring donations easily.\n   - Flexible donation schedules (e.g., weekly, monthly, annually).\n   - Automated renewal notifications and confirmations for donors.\n\n2. **Payment Processing:**\n   - Reliable and secure payment gateway integrations (e.g., Stripe, PayPal).\n   - Support for multiple payment methods (credit/debit cards, ACH, etc.).\n\n3. **Donor Engagement:**\n   - Automated thank-you emails and receipts for donations.\n   - Personalization options for communication with donors.\n   - Donor portal for self-service management of donation preferences.\n\n4. **Reporting and Analytics:**\n   - Robust reporting tools to track recurring giving metrics and trends.\n   - Dashboards for visualizing donor activity and financial forecasts.\n   - Segmentation options for targeted communication and campaigns.\n\n5. **Integration Capabilities:**\n   - Seamless integration with existing systems and platforms (e.g., accounting software, email marketing tools).\n   - API access for custom integrations if necessary.\n\n6. **User Experience:**\n   - Intuitive user interface for both administrators and donors.\n   - Mobile-friendly design for donors accessing their accounts on mobile devices.\n\n7. **Data Security:**\n   - Compliance with data protection regulations (e.g., GDPR, PCI-DSS).\n   - Secure data storage and transfer protocols.\n\n### Popular Donor CRM Solutions:\n\n1. **Bloomerang:**\n   - Focuses on donor retention and engagement, with a strong emphasis on recurring donations.\n  \n2. **DonorPerfect:**\n   - Offers comprehensive fundraising management including recurring gifts, event management, and custom reporting.\n  \n3. **Salesforce Nonprofit Success Pack (NPSP):**\n   - Highly customizable CRM built on the Salesforce platform, with robust tools for managing donor relationships and recurring giving.\n\n4. **Kindful:**\n   - User-friendly interface with tools for managing donations, tracking donor interactions, and integrating with other applications.\n\n5. **NeonCRM:**\n   - Provides tools for donor management, email marketing, and online fundraising, including robust recurring giving features.\n\n6. **Little Green Light:**\n   - Offers a wide range of features for managing fundraising and development activities, suitable for small to mid-sized nonprofits.\n\n### Evaluating and Selecting a CRM:\n\n- **Define Your Needs:** Clearly identify your organization's specific requirements, such as budget, number of donors, and desired features.\n- **Demo and Trial:** Take advantage of free trials or demos to explore the usability and functionality of different systems.\n- **Reviews and Case Studies:** Look for user reviews and case studies to understand how other organizations have benefitted from the system.\n- **Customer Support:** Assess the availability and quality of customer support, as reliable assistance is crucial for resolving issues quickly.\n\nBy focusing on these aspects, you can select a donor CRM that effectively supports recurring giving and enhances your organization's fundraising efforts.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 650,
+  "estimated_cost_usd": 0.006533,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

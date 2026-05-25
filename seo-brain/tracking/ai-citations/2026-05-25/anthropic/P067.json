@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.307123+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Tracking Donor Relationships Across a Team\n\n## 1. **Choose a CRM System**\n\n**Nonprofit-specific options:**\n- **Bloomerang** - Great for small-mid size nonprofits\n- **Salesforce Nonprofit Cloud** - Robust, scalable\n- **DonorPerfect** - User-friendly, good reporting\n- **Little Green Light** - Budget-friendly\n- **Kindful** - Modern interface, good for growing orgs\n\n**Key features to look for:**\n- Contact management & interaction tracking\n- Task assignments & reminders\n- Shared notes & activity history\n- Email integration\n- Reporting dashboards\n\n## 2. **Establish Clear Protocols**\n\n**Documentation standards:**\n- Log ALL meaningful interactions (calls, emails, meetings, events)\n- Use consistent formatting and categories\n- Record next steps and follow-up dates\n- Tag team members responsible for actions\n\n**Assignment rules:**\n- Define primary relationship owners\n- Clarify when to loop in others (major asks, events, etc.)\n- Set protocols for handoffs or transitions\n\n## 3. **Create Communication Rhythms**\n\n**Regular sync meetings:**\n- Weekly 15-min stand-ups for urgent updates\n- Monthly donor strategy reviews\n- Quarterly portfolio assessments\n\n**Shared visibility:**\n- Donor pipeline dashboard\n- Upcoming touchpoint calendar\n- Recent interaction feed\n\n## 4. **Practical Workflows**\n\n**Before donor meetings:**\n- Review full interaction history\n- Check for any pending items from colleagues\n- Note any organizational updates to share\n\n**After interactions:**\n- Log within 24 hours while fresh\n- Tag relevant team members\n- Set follow-up reminders\n\n## 5. **Simple Starting Point (If No CRM Yet)**\n\n- **Shared Google Sheet** with tabs for active donors, tracking log, and tasks\n- **Shared Google Drive folder** with donor sub-folders\n- **Weekly email digest** of donor activities\n- *Then migrate to proper CRM when ready*\n\n**Pro tip:** The best system is one your team actually uses. Start simple and build complexity as needed.\n\nWhat size is your team and donor base? I can give more specific recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 495,
+  "estimated_cost_usd": 0.00747,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

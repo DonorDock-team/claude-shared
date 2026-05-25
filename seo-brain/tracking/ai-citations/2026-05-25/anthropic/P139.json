@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.307132+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Top CRM Options for Nonprofits\n\n## **Salesforce Nonprofit Cloud**\nSalesforce itself offers a **nonprofit-specific version** with:\n- Free for up to 10 users (via Power of Us program)\n- Deeply discounted licenses after that\n- Built specifically for nonprofits with donor management, program tracking, and grant management\n\n## **Similar Alternatives**\n\n### **Bloomerang**\n- Purpose-built for nonprofits\n- Strong donor retention focus\n- Easier to use than Salesforce\n- Integrated email and reporting\n\n### **NeonCRM**\n- All-in-one nonprofit CRM\n- Membership management, event registration, fundraising\n- More affordable than Salesforce\n- Good for small-to-midsize organizations\n\n### **Kindful** (now Bloomerang)\n- Donor management focused\n- Integrates with fundraising tools\n- User-friendly interface\n\n### **DonorPerfect**\n- Long-standing nonprofit CRM\n- Comprehensive fundraising features\n- Good reporting capabilities\n\n## **Best Choice?**\n- **Small budget/simple needs**: NeonCRM or Bloomerang\n- **Growing organization**: Salesforce Nonprofit Cloud (free tier, then scales)\n- **Enterprise nonprofit**: Salesforce Nonprofit Cloud\n\nMost nonprofits start with **Salesforce Nonprofit Cloud** because of the free licenses and scalability, even though there's a learning curve.\n\nWhat's your organization's size and primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 21,
+  "output_tokens": 341,
+  "estimated_cost_usd": 0.005178,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

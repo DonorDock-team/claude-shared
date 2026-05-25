@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306362+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For international NGOs, choosing the \"best\" donor CRM means prioritizing flexibility, scalability, multi-currency and multi-language support, global compliance, and robust integration capabilities. Given these demanding requirements, **Salesforce Nonprofit Cloud (with NPSP)** consistently emerges as the strongest contender.\n\nHowever, a few others deserve consideration depending on your specific scale, existing tech stack, and budget.\n\nHere's a breakdown:\n\n---\n\n### **Top Recommendation: Salesforce Nonprofit Cloud (with Nonprofit Success Pack - NPSP)**\n\n**Why it's usually the best for International NGOs:**\n\n1.  **Unparalleled Customization & Scalability:** Salesforce is a platform, not just a product. NPSP is a highly regarded package built on this platform specifically for nonprofits. This means it can be customized to an incredible degree to fit the unique needs of diverse global operations, different donor segments, and complex program structures. It scales from small to very large organizations with ease.\n2.  **Multi-Currency & Multi-Language Support:** Salesforce inherently supports multiple currencies and languages at various levels (data entry, reporting, user interface translations via AppExchange apps or custom development). This is crucial for international fundraising and financial reporting.\n3.  **Global Payment Gateway Integration:** While Salesforce doesn't process payments directly, its vast AppExchange offers integrations with numerous international payment gateways (Stripe, PayPal, Adyen, Worldpay, various regional banks, etc.), allowing you to accept donations from almost anywhere in the world.\n4.  **Robust Reporting & Analytics:** Its reporting capabilities are incredibly powerful, allowing you to track fundraising performance across different regions, currencies, campaigns, and donor types. You can gain insights into global giving trends and program impact.\n5.  **Data Privacy & Compliance:** Salesforce provides tools and features that help NGOs comply with global data privacy regulations like GDPR, CCPA, and others, which is non-negotiable for international operations.\n6.  **Extensive Ecosystem (AppExchange):** Need to integrate with an ERP, accounting software, marketing automation, advocacy tools, or project management specific to certain regions? The Salesforce AppExchange has thousands of solutions, many with global reach.\n7.  **Strong Community & Support:** A massive global user base means plenty of resources, consultants, and a vibrant community for troubleshooting and sharing",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 477,
+  "estimated_cost_usd": 0.001194,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

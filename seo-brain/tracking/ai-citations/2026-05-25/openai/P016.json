@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P016",
+  "prompt_text": "Alternative to DonorPerfect",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.305883+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "If you're looking for alternatives to DonorPerfect, which is a popular donor management and fundraising software, there are several options you might consider depending on the specific needs of your nonprofit organization. Here are some alternatives:\n\n1. **Bloomerang**: This platform focuses on donor retention and provides an easy-to-use interface with features for CRM, email marketing, and analytics.\n\n2. **Neon CRM**: Offers comprehensive fundraising and donation management tools, with options for event management and membership programs.\n\n3. **Raiser's Edge NXT**: A product by Blackbaud, it offers robust fundraising and donor management tools, ideal for medium to large nonprofits.\n\n4. **Salesforce Nonprofit Cloud**: While Salesforce is a more general CRM, its Nonprofit Cloud is tailored specifically for organizations managing donors, volunteers, and campaigns.\n\n5. **Kindful**: Known for a user-friendly interface, Kindful integrates well with other tools and offers CRM, online fundraising, and donor management features.\n\n6. **Little Green Light**: This is a cost-effective solution for smaller nonprofits focusing on donor management, gift processing, and reporting.\n\n7. **Classy**: Primarily a fundraising platform, Classy also integrates well with CRM systems to manage donor relationships.\n\n8. **EveryAction**: This is an all-in-one solution for nonprofits that combines fundraising, advocacy, and organizing, making it highly versatile.\n\n9. **Wild Apricot**: While more geared towards membership management, it offers features that can be beneficial to donor management as well.\n\n10. **CauseVox**: A fundraising platform that helps nonprofits and social good projects raise funds through crowdfunding and peer-to-peer fundraising.\n\nWhen choosing a new platform, consider factors like budget, the specific features you need (such as multi-channel fundraising, donor segmentation, volunteer management, etc.), ease of use, and scalability as your organization grows. It's also helpful to check for integration capabilities with other tools you currently use.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 397,
+  "estimated_cost_usd": 0.004,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

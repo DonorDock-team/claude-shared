@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P081",
+  "prompt_text": "Best donor CRM for community colleges",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306816+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Community Colleges\n\n## Top Recommendations\n\n### **1. Salesforce Nonprofit Cloud (NPSP)**\n- **Best for:** Larger community colleges with complex needs\n- **Pros:** Highly customizable, robust reporting, integrates with many tools\n- **Cons:** Steeper learning curve, may require administrator\n- **Pricing:** 10 free licenses through Power of Us program, then discounted rates\n\n### **2. Bloomerang**\n- **Best for:** Smaller community college foundations\n- **Pros:** User-friendly, excellent donor retention focus, strong reporting\n- **Cons:** Less customization than enterprise solutions\n- **Pricing:** ~$125-$500/month based on contacts\n\n### **3. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established foundations with significant fundraising\n- **Pros:** Industry standard in education, comprehensive features\n- **Cons:** Expensive, can be complex\n- **Pricing:** Custom (typically $10K+ annually)\n\n### **4. DonorPerfect**\n- **Best for:** Mid-sized community college foundations\n- **Pros:** Education-focused features, good support, scalable\n- **Cons:** Interface feels dated to some users\n- **Pricing:** Starting ~$89/month\n\n### **5. Givebutter**\n- **Best for:** Colleges just starting organized fundraising\n- **Pros:** Free option available, modern interface, includes fundraising pages\n- **Cons:** Less robust for major gift tracking\n- **Pricing:** Free or tips-based model\n\n## Key Features to Look For\n- Alumni tracking integration\n- Scholarship fund management\n- Event management\n- Grant tracking\n- Student worker access levels\n- Integration with your SIS (Student Information System)\n\nWhat's your foundation's current fundraising volume and staff size? That would help narrow the recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 433,
+  "estimated_cost_usd": 0.006537,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

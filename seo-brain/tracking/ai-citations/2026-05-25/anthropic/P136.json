@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P136",
+  "prompt_text": "Salesforce Nonprofit Cloud problems",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306893+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Salesforce Nonprofit Cloud Problems\n\n## 1. **Implementation & Adoption Challenges**\n\n- **Steep learning curve** - Complex system requires significant training\n- **User resistance** - Staff may struggle with change management\n- **Data migration issues** - Difficult moving from legacy systems\n- **Customization complexity** - Over-customization can create maintenance nightmares\n\n## 2. **Cost Concerns**\n\n- **Licensing fees** - Can be expensive even with nonprofit discounts\n- **Hidden costs** - Implementation, training, consultants, and ongoing maintenance\n- **AppExchange add-ons** - Additional tools often needed, increasing expenses\n- **Resource requirements** - Need dedicated staff or consultants\n\n## 3. **Technical Issues**\n\n- **Performance/speed** - Can be slow with large data volumes\n- **Reporting limitations** - Out-of-box reports may not meet all needs\n- **Integration challenges** - Connecting with other systems (email, accounting, etc.)\n- **Mobile app limitations** - Not all features work well on mobile\n\n## 4. **Nonprofit-Specific Problems**\n\n- **NPSP complexity** - Nonprofit Success Pack can be overwhelming\n- **Household accounting** - Managing family/household relationships is tricky\n- **Grant management** - May need additional tools beyond base functionality\n- **Volunteer management** - Limited native functionality\n- **Program management** - Requires significant customization\n\n## 5. **Data Management**\n\n- **Duplicate records** - Common problem without proper governance\n- **Data quality** - Garbage in, garbage out\n- **Storage limits** - Can hit limits with large contact databases\n\n## Solutions?\n\nWhat specific problem are you experiencing? I can provide more targeted advice.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 387,
+  "estimated_cost_usd": 0.005847,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

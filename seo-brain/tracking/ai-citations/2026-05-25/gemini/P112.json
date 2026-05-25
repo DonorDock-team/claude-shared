@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306506+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking soft credits in a donor CRM is crucial for understanding the full scope of a donor's influence, recognizing key supporters, and accurately assessing fundraising efforts. A soft credit is the acknowledgement of a gift's influence given to someone other than the legal donor (the one who gets the tax receipt).\n\nHere's a comprehensive guide on how to track soft credits in a donor CRM:\n\n---\n\n### What is a Soft Credit?\n\nBefore diving into \"how,\" let's quickly define \"what\":\n\n*   **Hard Credit:** The legal donor who made the gift and receives the tax receipt. This is usually the primary financial record.\n*   **Soft Credit:** An individual or organization who influenced the gift, but isn't the legal donor. They don't receive the tax receipt, but you want to give them \"credit\" for their role.\n\n**Common Soft Credit Scenarios:**\n\n*   **Spouses/Partners:** One spouse writes the check, but both are considered donors to the household.\n*   **Matching Gift Companies:** An employer matches an employee's gift. The employee gets hard credit, the company gets soft credit for the match.\n*   **Board Members/Volunteers:** A board member solicits a gift from an acquaintance. The acquaintance gets hard credit, the board member gets soft credit for the solicitation.\n*   **Foundation Program Officers:** A program officer at a foundation approves a grant. The foundation gets hard credit, the program officer might get soft credit for their influence.\n*   **Individuals associated with Corporate Gifts:** A specific executive champions a corporate gift. The corporation gets hard credit, the executive gets soft credit.\n\n---\n\n### How to Track Soft Credits in Your Donor CRM (General Steps)\n\nMost modern donor CRMs (like Salesforce NPSP, Bloomerang, DonorPerfect, Raiser's Edge, Kindful, Virtuous, etc.) have specific features for soft credits, or allow you to configure them using relationships.\n\n**Here's the general process:**\n\n#### Step 1: Ensure All Involved Parties are in the CRM\n\nBefore you can link anything, make sure both the primary donor (hard credit) and the individual/organization receiving the soft credit are records in your CRM. If they're not, create them.\n\n#### Step 2: Record the Primary Donation (Hard Credit)\n\nCreate the donation record as you normally would, attributing the full gift amount to the legal donor who made the payment. This is the **hard credit**.\n\n#### Step 3: Attach the Soft Credit to the Donation Record\n\nThis is the core step and can vary slightly by CRM:\n\n1.  **Dedicated \"Soft Credit\" Feature (Most Common & Best Practice):**\n    *   Many CRMs have a dedicated section or tab on the donation record itself, often labeled \"Soft Credits,\" \"Related Contacts,\" or \"Associated Donors.\"\n    *   You'll click an \"Add Soft Credit\" button or similar.\n    *   You'll then **search for and select the soft credit recipient** (e.g., the spouse, the board member, the matching gift company).\n    *   You'll specify the **Soft Credit Type** (see Step 4 for more on this).\n    *   You'll specify the **Soft Credit Amount** (usually the full amount of the primary gift, or a portion if applicable).\n    *   You'll save this association.\n\n2.  **Using \"Relationships\" or \"Associations\" Features:**\n    *   If your CRM doesn't have a specific \"soft credit\" object, you might use its general relationship management tools.\n    *   On the donation record, you'd create a \"relationship\" to the soft credit recipient.\n    *   You'd define the **relationship type** as \"Soft Credit For,\" \"Influenced By,\" \"Solicited By,\" \"Matching Gift From,\" etc.\n    *   You'd still typically want to specify an amount and date.\n    *   **Limitation:** This method can sometimes be harder to report on specifically as \"soft credit revenue\" versus other types of relationships.\n\n3.  **Custom Fields on the Donation Record (Least Ideal, for Simple Cases):**\n    *   In very basic CRMs, you *might* create custom lookup fields on the donation record for \"Solicited By\" or \"Matching Company.\"\n    *   **Limitation:** This makes it difficult to",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce NPSP",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 931,
+  "estimated_cost_usd": 0.00233,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

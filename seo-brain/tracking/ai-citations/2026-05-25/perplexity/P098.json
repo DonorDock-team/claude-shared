@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P098",
+  "prompt_text": "Hidden costs of Virtuous",
+  "engine": "perplexity",
+  "timestamp": "2026-05-25T11:48:02.306783+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Virtuous CRM\u2019s main hidden or less-obvious costs come from its **pricing structure, add\u2011ons, and support fees**, plus the indirect costs of complexity and onboarding compared with some competitors.\n\nHere are the key \u201chidden\u201d or non\u2011obvious cost areas based on available comparisons and marketing materials from competitors:\n\n1. **Base subscription cost (higher starting price)**\n   - Several competitors position Virtuous as **relatively expensive at the entry level**:\n     - DonorPerfect characterizes Virtuous as having \u201c**high costs and hidden fees**.\u201d[2]\n     - Keela\u2019s comparison page states Keela \u201cstarts at **$144 CAD/month, no hidden fees**\u201d while Virtuous \u201c**starts at $400/month**,\u201d implying a higher minimum commitment and potential add\u2011ons.[7]\n   - The exact Virtuous price tiers are quote-based, so smaller nonprofits may not see total cost clearly until late in the sales process.\n\n2. **Customer support as an extra cost**\n   - DonorPerfect explicitly claims that **Virtuous charges additional costs for customer support**, while DonorPerfect includes support in every plan.[2]\n   - If that is accurate, you should factor:\n     - Per\u2011user or per\u2011case support costs.\n     - Potential \u201cpremium\u201d support tiers for faster response or strategic consulting.\n\n3. **Add\u2011ons and integrations for events, auctions, and ticketing**\n   - Zeffy\u2019s comparison notes that **Virtuous \u201cneeds add\u2011ons for events, auctions, and ticketing\u201d**, whereas Zeffy includes donations, ticketing, raffles, auctions, and peer\u2011to\u2011peer in one platform.[4]\n   - That implies:\n     - Additional subscription or per\u2011event fees for separate event/auction software.\n     - Possible integration or connector costs, plus staff time to maintain integrations.\n   - Zeffy explicitly frames these as \u201cadditional fees and manual data syncing between systems\u201d when using Virtuous for events.[4]\n\n4. **Payment processing and transaction-related costs**\n   - Zeffy highlights that on **$10K raised**, Virtuous would cost about **$2,778/year** (calculated as **$199/month + processing fees**).[4]\n   - The \u201chidden\u201d aspect here is:\n     - You pay both a **monthly platform fee** and **card/transaction fees** through your processor.\n     - Total cost scales with your online giving volume; many teams see only the subscription price and underestimate transaction costs over a year.\n\n5. **Implementation, onboarding, and training time**\n   - Zeffy\u2019s comparison states \u201c**Virtuous requires onboarding, training, and setup time**.\u201d[4]\n   - Even where not explicitly billed as line items, you should budget for:\n     - Staff hours for data migration, configuration, and workflow design.\n     - Learning curve time before you achieve full productivity.\n   - If you purchase professional services for implementation, that becomes a direct cost; if you choose to self\u2011implement, it becomes an internal labor cost.\n\n6. **Feature coverage vs. separate tools (tool sprawl)**\n   - Virtuous Raise (their online giving platform) markets itself as having \u201c**unlimited forms, pages, and admins with no feature gating or hidden fees**.\u201d[5]  \n     That suggests Raise itself tries to avoid nickel\u2011and\u2011diming, but:\n     - Some nonprofits will still need **separate tools** for advanced events, auctions, or other functions that aren\u2019t fully covered in core Virtuous, as noted above.[4]\n   - Tool sprawl generates:\n     - Multiple subscriptions.\n     - Extra reconciliation work between systems.\n     - More complex data governance and training needs.\n\n7. **Indirect/organizational costs versus alternatives**\n   - Virtuous\u2019s own blog stresses that *other* CRMs can have significant \u201cunseen organizational costs\u201d via **inefficiencies, bad data, duplicate records, and limited access for team members**.[1]  \n     The implication is that Virtuous tries to reduce these; however, if:\n     - Your team does not fully adopt the platform, or\n     - You under-license users to save money, or\n     - You still run parallel systems (spreadsheets, other apps),\n     \n     you can incur similar indirect costs:\n     - Staff time spent fixing/merging records.\n     - Lost fundraising opportunities from incomplete or siloed data.\n     - Extra administrative overhead from partial adoption.\n\n8. **Scaling and growth costs**\n   - Because Virtuous pricing is tiered and quote-based (and competitors highlight higher starting prices), growth may trigger:\n     - Higher subscription tiers (more contacts, features, or users).\n     - More paid seats for staff, especially if you want broad organizational access.\n   - If you plan to grow online giving significantly, the combination of higher tiers plus cumulative transaction fees can become substantial over several years.[4]\n\n---\n\nIf you share your organization size, current tools, and main use cases (e.g., online giving only vs. complex events and major gifts), I can outline a simple cost model to estimate your **3\u2011year total cost of ownership for Virtuous** and compare it to one or two alternatives.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect",
+    "Keela",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 1077,
+  "estimated_cost_usd": 0.021173,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://virtuous.org/blog/five-ways-your-nonprofit-crm-is-costing-you-too-much-money/",
+      "https://www.donorperfect.com/fundraising-software/compare-donor-management-systems/virtuous/",
+      "https://www.virtue-accountants.co.uk/blog/the-hidden-costs-of-happiness-exploring-luxury-taxes-in-everyday-life",
+      "https://www.zeffy.com/compare/zeffy-vs-virtuous",
+      "https://explore.raisedonors.com/pricing/",
+      "https://www.youtube.com/watch?v=JwszxFIzIQ4",
+      "https://www.keela.co/landing/keela-vs-virtuous-ca"
+    ]
+  }
+}

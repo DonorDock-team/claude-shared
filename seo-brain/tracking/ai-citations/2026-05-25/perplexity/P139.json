@@ -1,0 +1,40 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-05-25T11:48:02.307171+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The closest analog to Salesforce for nonprofits is **Salesforce Nonprofit Cloud** itself, but if you mean \u201ca powerful, general-purpose CRM platform similar to Salesforce that has a strong nonprofit focus,\u201d the most comparable option is **Microsoft Dynamics 365 for nonprofits**, with other strong nonprofit\u2011specific CRMs including **Bloomerang**, **Bonterra/EveryAction**, **Neon CRM**, and others.[2][4][6][7][8]\n\nTo give you concrete options, here are the main categories and tools:\n\n### 1. \u201cSalesforce\u2011like\u201d enterprise platforms for nonprofits\n\nThese are broad, highly configurable CRMs used across industries, with dedicated nonprofit offerings\u2014closest in spirit to Salesforce.\n\n- **Salesforce Nonprofit Cloud / Nonprofit Success Pack (NPSP)**\n  - Salesforce has its own **nonprofit\u2011focused configuration** (Nonprofit Cloud + NPSP) used by over **40,000 nonprofit institutions**.[2]\n  - Supports **fundraising, marketing, program management, grantmaking, and volunteer management** on one platform.[2][3]\n  - Very flexible and powerful, but can be complex and may require implementation help or admin capacity.[1][2][3]\n\n- **Microsoft Dynamics 365 for Nonprofits**\n  - Often evaluated directly **against Salesforce for nonprofits**; comparisons note that each has distinct strengths rather than a single winner.[7]\n  - Similar concept: a robust enterprise CRM with nonprofit solutions and accelerators (fundraising, constituent management, etc.).\n  - Makes sense if you are already a Microsoft shop (Office 365, Azure, etc.).\n\nIf by \u201csimilar to Salesforce\u201d you primarily mean *enterprise\u2011grade, extensible platform*, these two are the closest peers.\n\n### 2. Nonprofit\u2011specific CRMs (simpler than Salesforce)\n\nThese are built specifically for nonprofits rather than sold across industries. They tend to be easier to learn and implement than Salesforce, but less extensible.\n\nCommonly recommended options include:\n\n- **Bloomerang**\n  - Frequently listed among the **top nonprofit CRMs** for donor management and retention.[4][6][8]\n  - Designed for nonprofits with a strong focus on **donor engagement and retention metrics**, not general corporate sales pipelines.[8]\n  - Good fit if your main need is fundraising and donor stewardship rather than complex program management.\n\n- **Bonterra / EveryAction / Network for Good** (depending on specific product line)\n  - Included in lists of leading **nonprofit fundraising CRMs**.[6]\n  - Emphasizes fundraising, advocacy, email, and digital engagement.\n\n- **Neon CRM, Little Green Light, LiveImpact, DonorPerfect, Kindful, Virtuous, etc.**\n  - Reviews of \u201cbest CRM for small nonprofits\u201d and \u201cbest nonprofit CRMs\u201d consistently mention these tools as strong **donor and fundraising CRMs**.[5][6]\n  - Typically easier and cheaper than Salesforce; often good for small to mid\u2011sized organizations with limited tech staff.[5][6]\n\nThese are *not* \u201cSalesforce clones,\u201d but if what you really want is \u201csomething like Salesforce that\u2019s popular and well\u2011supported in the nonprofit space, without Salesforce\u2019s complexity,\u201d these are the main options.\n\n### 3. Free / open\u2011source or low\u2011cost options\n\nIf budget is the main concern, there are tools that give basic CRM capabilities for nonprofits:\n\n- **CiviCRM**\n  - An open\u2011source CRM widely used by nonprofits; appears on lists of the **best CRMs for nonprofits**.[4]\n  - Integrates with CMSs like WordPress and Drupal, and can be customized if you have technical resources.\n\n- **HubSpot CRM (with nonprofit use cases)**\n  - Listed as one of the \u201cfive of the best CRMs for nonprofits,\u201d though it is not nonprofit\u2011specific.[4]\n  - Strong for marketing and basic contact management; true nonprofit functionality usually requires paid add\u2011ons and customization.\n\n- **Bitrix24**\n  - Also cited among nonprofit CRM options, though more general\u2011purpose and less specialized for fundraising.[4]\n\n### How to choose among them\n\nWhen you say \u201csimilar to Salesforce but for nonprofits,\u201d it helps to clarify:\n\n- If you want:\n  - **Salesforce\u2011like power and flexibility:**  \n    - Look at **Salesforce Nonprofit Cloud** or **Microsoft Dynamics 365 for Nonprofits**.[2][3][7]\n  - **Nonprofit\u2011specific, easier and lighter than Salesforce:**  \n    - Start with **Bloomerang**, **Neon CRM**, **EveryAction/Bonterra**, **Little Green Light**, or **LiveImpact**.[5][6][8]\n  - **Low\u2011budget or open source:**  \n    - Consider **CiviCRM**, or using **HubSpot CRM** with nonprofit\u2011oriented configuration.[4]\n\nIf you share your organization\u2019s size, main goals (fundraising vs. programs vs. volunteers), and whether you have in\u2011house tech/admin capacity, I can narrow this down to 2\u20133 best\u2011fit options and suggest which is *most* like Salesforce for your specific situation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "CiviCRM",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Network for Good",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 1063,
+  "estimated_cost_usd": 0.020975,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://cloud4good.com/industries/nonprofit/",
+      "https://www.accountingseed.com/resource/blog/is-salesforce-a-good-crm-for-nonprofits/",
+      "https://www.salesforce.com/nonprofit/",
+      "https://www.ohack.org/about/faq/five-of-the-best-crms-for-nonprofits",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://stratuslive.com/blog/salesforce-vs-dynamics-for-nonprofits/",
+      "https://bloomerang.com/blog/nonprofit-crm"
+    ]
+  }
+}

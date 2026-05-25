@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P089",
+  "prompt_text": "Best donor CRM for mental health nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.305999+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a mental health nonprofit depends heavily on your specific needs, budget, team size, and complexity of operations. However, I can recommend some top contenders known for their robust features, user-friendliness, and suitability for nonprofits, along with crucial considerations for mental health organizations.\n\n**CRITICAL NOTE FOR MENTAL HEALTH NONPROFITS:**\n**A donor CRM is NOT a client management system or an electronic health record (EHR). You should NEVER store sensitive client health information, protected health information (PHI), or therapy notes in a donor CRM due to HIPAA compliance issues and general data security best practices. Donor CRMs are for donor cultivation, fundraising, and communication. Client data should be managed in a separate, specialized, HIPAA-compliant system.**\n\n---\n\n### Top Donor CRM Recommendations:\n\n1.  **Bloomerang**\n    *   **Pros:**\n        *   **Extremely user-friendly interface:** Often praised for its modern, intuitive design, making it easy for staff to learn and use.\n        *   **Strong focus on donor retention:** Features like donor engagement meters, wealth screening, and personalized communication tools help foster stronger donor relationships.\n        *   **Excellent reporting & analytics:** Provides insightful data on donor behavior and campaign performance.\n        *   **Good for small to medium-sized nonprofits:** Scalable as you grow.\n        *",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 286,
+  "estimated_cost_usd": 0.000717,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

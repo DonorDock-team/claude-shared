@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P096",
+  "prompt_text": "Hidden costs of Neon CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306597+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Neon CRM\n\nWhile Neon CRM advertises transparent pricing, organizations often encounter unexpected expenses. Here are the hidden costs to watch for:\n\n## 1. **Implementation & Setup**\n- **Data migration fees** - importing existing donor data may require paid professional services\n- **Custom field setup** - complex configurations often need consultant assistance\n- **Initial training** - advanced training beyond basic onboarding may cost extra\n\n## 2. **Add-On Features**\n- **Neon Pay** (payment processing) - transaction fees of 2.2% + $0.30 per transaction\n- **Text-to-give** - additional monthly fees\n- **Peer-to-peer fundraising** - may require higher-tier plans\n- **Event management advanced features** - some capabilities locked behind upgrades\n\n## 3. **Integration Costs**\n- **Third-party integrations** - tools like Mailchimp, QuickBooks, or Salesforce may require premium connectors\n- **API access limitations** - advanced API usage may require enterprise plans\n- **Zapier or middleware** - connecting to non-native integrations\n\n## 4. **User & Contact Limits**\n- **Additional user seats** - costs increase per staff member\n- **Contact database limits** - upgrading tiers as your database grows\n- **Email sending limits** - exceeding monthly email quotas\n\n## 5. **Support & Maintenance**\n- **Premium support** - priority support may cost extra\n- **Customization requests** - custom reports or workflows\n- **Annual price increases** - standard renewal rate hikes\n\n## 6. **Staff Time**\n- **Learning curve** - staff training time\n- **Workarounds** - time spent on manual processes for missing features\n- **Report building** - creating custom reports can be time-intensive\n\n## Tips to Minimize Hidden Costs:\n\u2705 Get detailed pricing in writing before signing\n\u2705 Clarify what's included in your tier\n\u2705 Ask about typical upgrade paths\n\u2705 Request a full feature comparison chart\n\u2705 Factor in payment processing fees separately",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 475,
+  "estimated_cost_usd": 0.00717,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

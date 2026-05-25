@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P137",
+  "prompt_text": "Little Green Light limitations",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.306992+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Little Green Light (LGL) is a donor management and constituent relationship management (CRM) software designed for nonprofit organizations. While it offers many beneficial features, there are some limitations and potential considerations for organizations thinking about adopting it:\n\n1. **Scalability**: While LGL is suitable for small to medium-sized nonprofits, very large organizations with extensive databases might find it less capable of handling complex data management needs.\n\n2. **Customization**: Although LGL offers some level of customization, it may not be as flexible as some larger, more expensive CRM solutions. Organizations with very specific or complex customization requirements might find this limiting.\n\n3. **Advanced Features**: Some advanced fundraising and donor management features present in higher-end CRMs might be absent or less developed in LGL. This includes things like advanced analytics, predictive modeling, and integrated marketing automation tools.\n\n4. **Reporting**: While LGL provides reporting tools, users might find them lacking in flexibility or depth compared to more robust CRMs. Complex reporting needs might require exporting data and further manipulation in external tools.\n\n5. **Integration Limitations**: Although LGL integrates with several popular services (like Mailchimp, QuickBooks, and others), the range of third-party integrations might be narrower compared to larger platforms. Organizations relying on a wide variety of tools might need additional workarounds.\n\n6. **Data Migration**: Transitioning to LGL from another system may involve complex data migration. While LGL provides support and resources, the process can still be challenging depending on the state and complexity of the existing data.\n\n7. **Mobile Functionality**: The mobile experience may not be as robust or feature-rich as the desktop version. This could be a limitation for organizations needing strong mobile access for their workflows.\n\n8. **User Interface**: Some users find the interface less intuitive compared to other platforms. This could potentially result in a steeper learning curve for staff who are unfamiliar with the software.\n\n9. **Customer Support**: While most reviews are positive about LGL's customer support, the level of support might not meet the needs of organizations requiring 24/7 assistance or immediate on-call support.\n\n10. **Cost**: Although generally considered affordable, nonprofits with very tight budgets might find even modest software subscription costs a challenge.\n\nOrganizations considering LGL should carefully evaluate their needs, potentially leveraging trial periods and thorough demos to ensure the system aligns with their requirements.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 11,
+  "output_tokens": 488,
+  "estimated_cost_usd": 0.004908,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

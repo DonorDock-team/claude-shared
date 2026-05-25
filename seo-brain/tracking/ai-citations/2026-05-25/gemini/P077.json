@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P077",
+  "prompt_text": "How to track major donor moves management",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306574+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking major donor moves management is crucial for building strong relationships, ensuring accountability, forecasting revenue, and ultimately maximizing philanthropic support. It involves systematically monitoring and guiding a donor or prospect through the cultivation cycle.\n\nHere's how to effectively track major donor moves management:\n\n## 1. Choose the Right Tool\n\nThe foundation of effective tracking is a robust system.\n\n*   **Donor Relationship Management (DRM) or CRM Software (Highly Recommended):** This is the gold standard. Tools like Salesforce NPSP, Blackbaud Raiser's Edge NXT, Virtuous, DonorPerfect, Bloomerang, Neon CRM, and many others are designed specifically for this purpose.\n    *   **Why CRMs are superior:** Centralized data, detailed record-keeping, activity logging, pipeline management, reporting, task management, team collaboration, and historical data.\n*   **Spreadsheets (for very small organizations or starting out):** While feasible, they quickly become unwieldy, lack real-time updates, security features, and robust reporting. Use only as a temporary solution.\n*   **Project Management Tools (e.g., Asana, Trello):** Can be adapted for tracking tasks and deadlines related to donor moves, but lack the donor-centric data structure of a CRM.\n\n## 2. Define Your Moves Management Stages\n\nStandardize your process so everyone on your team understands and tracks progress consistently. A common framework includes:\n\n1.  **Identification/Prospecting:** Identifying potential major donors.\n2.  **Qualification:** Researching and determining their capacity, inclination, and connection to your mission.\n3.  **Cultivation:** Building a relationship, engaging them with your mission, and demonstrating impact. This often involves multiple steps.\n4.  **Solicitation:** Making the specific ask for support.\n5.  **Stewardship:** Acknowledging the gift, reporting on impact, and maintaining the relationship.\n\n## 3. What to Track for Each Donor/Prospect\n\nFor each major donor or prospect, your system should capture the following key information:\n\n**A. Donor/Prospect Information:**\n*   **Basic Contact Info:** Name, title, organization, contact details (phone, email, address).\n*   **Demographics:** Age, family, interests, affiliations (board member, volunteer, alumni, etc.).\n*   **Giving History:** Past gifts (amounts, dates, designations).\n*   **Wealth Screening Data:** Estimated capacity to give, assets, real estate.\n*   **Relationship Information:** Spouse/partner, key contacts, relationships to other donors/staff.\n*   **Communication Preferences:** Preferred contact method, frequency.\n\n**B. Moves Management Pipeline Data:**\n*   **Current Stage:** (e.g., Qualification, Cultivation - Stage 2, Solicitation - Pending). This should be a clear, single field.\n*   **Assigned Fundraiser:** Who \"owns\" the relationship and is responsible for the next steps.\n*   **Target Ask Amount:** The anticipated gift size.\n*   **Target Ask Date:** When you plan to make the solicitation.\n*   **Likelihood to Give:** A percentage or qualitative rating (e.g., High, Medium, Low).\n*   **Primary Project/Fund:** The specific initiative or fund they are being cultivated for.\n*   **Last Interaction Date:** When did you last connect?\n",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce NPSP",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 706,
+  "estimated_cost_usd": 0.001767,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

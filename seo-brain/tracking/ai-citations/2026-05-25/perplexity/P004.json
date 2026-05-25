@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P004",
+  "prompt_text": "DonorDock pricing",
+  "engine": "perplexity",
+  "timestamp": "2026-05-25T11:48:02.307154+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock\u2019s own materials indicate **three paid CRM tiers starting at about $90/month, with a popular mid\u2011tier around $250/month**, plus optional online giving that uses **donor\u2011funded fees of 5% + $0.30 per transaction** rather than a mandatory platform fee.[4][3]\n\nKey points from current public info:\n\n- **Core CRM pricing**\n  - DonorDock describes \u201cthree paid tiers\u201d with pricing **starting at $90/month**, and notes that **the most popular plan is $250/month**.[4]\n  - Pricing is marketed as *no hidden fees*, with **training and support included** and **no price increase based on contact records**.[4][8]\n  - Their marketing page emphasizes **unlimited contact records**, **no contracts**, and a **90\u2011day money\u2011back guarantee**.[6][8]\n\n- **Online giving / transaction fees**\n  - DonorDock\u2019s Giving Pages use **donor\u2011funded platform fees**: donors can choose to cover **5% + $0.30 per transaction**.[3]\n  - If the donor *covers* fees: your nonprofit receives the full intended gift; Stripe takes its card processing fee; DonorDock gets the remainder of the 5% + $0.30.[3]\n  - If the donor *does not* cover fees: your nonprofit pays **only Stripe\u2019s standard processing fee**; **DonorDock waives its platform fee**.[3]\n  - DonorDock emphasizes it does **not charge mandatory platform fees** on donations, unlike some competitors.[3][4]\n\n- **Trials and guarantees**\n  - DonorDock advertises a **14\u2011day free trial** and a **90\u2011day money\u2011back guarantee**, with **no long\u2011term contracts**.[5][6]\n\n- **Conflicting external listing**\n  - G2 currently lists DonorDock with **one edition starting at $500 (likely per month)** and mentions a free tier on its own pricing table.[2]\n  - This conflicts with DonorDock\u2019s own article stating **three tiers from $90\u2013$250/month**.[4]\n  - When in doubt, use **DonorDock\u2019s official pricing page** for the most accurate, up\u2011to\u2011date numbers.[1][5]\n\nBecause DonorDock can change prices or run promotions, the safest move is to check the **official DonorDock pricing page** and, if you\u2019re a specific nonprofit size, I can help you interpret which tier and fee structure will likely apply.",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 528,
+  "estimated_cost_usd": 0.012935,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/pricing",
+      "https://www.g2.com/products/donordock/pricing",
+      "https://helpcenter.donordock.com/kb/guide/en/donordock-and-online-giving-fees-FF6iCEKSlh/Steps/1935110",
+      "https://www.donordock.com/articles/growing-nonprofits-crm",
+      "https://www.donordock.com/articles/growing-nonprofit-crm-donordock",
+      "https://www.donordock.com/lp/donation-management",
+      "https://www.softwareadvice.com/nonprofit/donordock-profile/",
+      "https://www.donordock.com/faq",
+      "https://www.donordock.com"
+    ]
+  }
+}

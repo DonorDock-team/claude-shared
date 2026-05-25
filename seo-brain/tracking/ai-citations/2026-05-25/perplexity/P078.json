@@ -1,0 +1,38 @@
+{
+  "prompt_id": "P078",
+  "prompt_text": "Best donor CRM for Jewish nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-05-25T11:48:02.306635+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The best donor CRM for a Jewish nonprofit depends mainly on where you operate (US vs. Israel/global), your size, and whether you need deep integration with Jewish/Israel-focused giving platforms. There is no single \u201cJewish-only\u201d CRM leader, but a few options stand out for Jewish nonprofits in practice.\n\n### 1. If you are an Israeli or Israel-focused nonprofit\n\n**IsraelGives CRM** is the most specifically tailored option.\n\n- Built specifically for **nonprofits in Israel**, with IsraelGives as a major online giving platform in the local ecosystem.[7]  \n- **Free for nonprofits**, with **unlimited contacts** and full donation history tracking.[7]  \n- Includes **dynamic donor segments**, lead management, and automated donor conversion tools, functioning as a full donor CRM.[7]  \n\nThis is especially strong if:\n- You process a lot of donations via IsraelGives or Israel-based payment methods.\n- You want Hebrew support and Israel-specific compliance and receipting.\n- Budget is tight and you need free or low-cost software.\n\n### 2. If you are a US / global Jewish nonprofit (synagogue, school, federation, etc.)\n\nMost Jewish organizations in the US use **general nonprofit CRMs** that work well for faith-based or religious nonprofits, and then configure them for their Jewish context. Top contenders:\n\n#### DonorPerfect (strong for religious nonprofits)\n\n- Marketed explicitly to **religious organizations and ministries**, including churches and faith-based nonprofits.[3][5]  \n- Cloud-based CRM designed for **donor management, donation tracking, batch processing, and reporting**.[3][5]  \n- Includes tools for recurring gifts, pledge tracking, event management, and communications, which are all common needs for synagogues and Jewish schools.[3]  \n- Offers **nonprofit discounts** and is widely used by small-to-midsize faith-based organizations.[5]  \n\nThis is a good fit if:\n- You want something battle-tested for religious/fundraising patterns (membership, appeals, High Holidays, campaigns for schools and camps).\n- You prefer a traditional CRM with strong reporting and donor history.\n\n#### Virtuous (for more sophisticated, scalable fundraising)\n\n- Described as **\u201cresponsive fundraising\u201d software**, focused on improving the donor experience and increasing generosity.[1][6]  \n- Designed to help nonprofits **personalize donor communication at scale**, track engagement, and automate touchpoints.[1][6]  \n- Frequently listed among top **nonprofit CRMs** for organizations that want modern automation, segmentation, and multi-channel campaigns.[6]  \n\nThis is better if:\n- You are a **larger Jewish nonprofit, federation, or network** with complex campaigns and major gifts.\n- You want advanced marketing automation and integrated fundraising tools.\n\n#### Other strong general nonprofit CRMs to consider\n\nMultiple comparative lists of nonprofit CRMs highlight these as top options for fundraising and donor management:[2][4][6][8]\n\n- **Bloomerang** \u2013 Strong focus on donor retention, simple interface; popular with small\u2013mid sized nonprofits.[2][4]  \n- **Neon One (Neon CRM)** \u2013 All-in-one suite (CRM, events, membership, forms), often used by associations and faith-based groups.[2][4]  \n- **Bonterra / EveryAction** \u2013 More enterprise-level, broad suite for advocacy, email, and development.[2][4]  \n- **Givebutter** \u2013 Modern CRM plus fundraising pages, events, and donation forms in one platform.[4]  \n\nThese are not Jewish-specific but can be customized with:\n- Custom fields for Hebrew names, aliyot honors, yahrzeits, synagogue membership, etc.\n- Segmentation for High Holiday appeals, Israel missions, school tuition assistance, etc.\n\n### 3. How to choose specifically for a Jewish nonprofit\n\nUse these criteria to pick among the above:\n\n1. **Location & payment ecosystem**  \n   - Based in Israel or raising heavily in Israel \u2192 strongly consider **IsraelGives CRM**.[7]  \n   - US/Canada/UK-based \u2192 look at **DonorPerfect, Virtuous, Bloomerang, Neon**, or **Givebutter**.[2][3][4][6][8]  \n\n2. **Organization type**  \n   - Synagogue or religious community: software marketed to **religious nonprofits** like **DonorPerfect** is often easier to adapt.[3][5]  \n   - Day school, camp, or federation: may benefit from **Virtuous**, **Neon**, or **Bonterra** for more complex campaigns and donor pipelines.[1][2][4][6]  \n\n3. **Budget and staff capacity**  \n   - Low/no budget, small team: **IsraelGives CRM** (if relevant) or a simpler CRM like **Bloomerang** or **Givebutter**.[4][7]  \n   - Larger development staff and need for automation: **Virtuous**, **Neon**, or **Bonterra**.[1][2][4][6]  \n\n4. **Features that often matter for Jewish nonprofits**  \n   Make sure the CRM can handle:\n   - Recurring donations and pledges for annual campaigns and memberships.[3][4]  \n   - Event and ticketing for dinners, galas, and holiday events.[3][4][8]  \n   - Segmentation by household, school family, synagogue member, alumni, etc.[1][6]  \n   - Automated email sequences for lifecycle events (new donor welcome, pre\u2013High Holiday appeal, post-event follow-up).[1][6]  \n\n### 4. Practical short list by scenario\n\n- **Small synagogue / community kollel (US):**  \n  - Primary candidates: **DonorPerfect**, **Bloomerang**, **Givebutter**.[3][4][5]  \n\n- **Mid-sized Jewish school or camp (US):**  \n  - Primary candidates: **DonorPerfect**, **Neon**, **Virtuous**, **Bloomerang**.[1][2][3][4][6]  \n\n- **Large federation / multi-branch Jewish nonprofit:**  \n  - Primary candidates: **Virtuous**, **Bonterra/EveryAction**, **Neon**, possibly Salesforce Nonprofit Cloud (not in search results but widely used enterprise CRM).  \n\n- **Israeli amutah or Israel-based NGO:**  \n  - Primary candidate: **IsraelGives CRM** due to local focus and free pricing.[7]  \n\nIf you share a bit about your organization (country, size, type: synagogue/school/federation/advocacy, and budget level), I can narrow this down to 2\u20133 concrete recommendations with pros/cons and a suggested implementation path.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Givebutter",
+    "Neon CRM",
+    "Neon One",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1383,
+  "estimated_cost_usd": 0.025766,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://virtuous.org/blog/fundraising-crm-software-2/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.donorperfect.com/nonprofits/religious-fundraising-software/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://forums.techsoup.org/t/searching-for-a-good-donor-crm-for-years-that-fit-our-ministries-needs/7478",
+      "https://www.jotform.com/nonprofit/crm-for-nonprofits/",
+      "https://www.israelgives.org/crm",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P097",
+  "prompt_text": "Hidden costs of Network for Good",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306727+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Network for Good (NfG) is a popular platform for nonprofits offering online fundraising, CRM, and donor management tools. While their direct transaction fees and subscription costs are usually clear, there can be several \"hidden\" or less obvious costs that organizations should consider when evaluating the platform:\n\n1.  **Staff Time and Training Investment:**\n    *   **Onboarding & Setup:** Even with good support, migrating existing data, setting up donation forms, campaigns, and integrating with other systems takes significant staff time.\n    *   **Ongoing Management:** Learning the platform's quirks, generating reports, managing campaigns, and customer support interactions can consume valuable staff hours.\n    *   **Training New Staff:** As staff changes, new employees will need to be trained, which is an ongoing time cost.\n\n2.  **Data Migration & Export Challenges:**\n    *   **Initial Data Import:** While NfG offers import tools, preparing your existing donor data (cleaning, formatting, de-duplicating) to be compatible can be a time-intensive and potentially costly process if you need professional help.\n    *   **Data Export Limitations:** If you ever decide to switch platforms, exporting your data from NfG might not always be as straightforward or comprehensive as you'd like. Getting all your custom fields, notes, and activity logs in a perfectly usable format for another system can require significant cleanup or even professional services, creating a \"vendor lock-in\" effect.\n\n3.  **Integration Gaps and Manual Workarounds:**\n    *   **Limited Ecosystem:** While NfG integrates with some popular tools, it might not integrate seamlessly with *all* your existing systems (e.g., specific accounting software, email marketing platforms, volunteer management systems, or your primary CRM if NfG isn't it).\n    *   **Manual Data Transfer:** Lack of direct integrations means staff will spend time manually transferring data between systems (e.g., inputting NfG donations into QuickBooks, or manually updating donor profiles in another CRM). This is prone to errors and takes time.\n    *   **Cost of Middleware:** If integrations are crucial, you might need to invest in third-party middleware or custom API development to bridge gaps, which can be an unexpected expense.\n\n4.  **Branding and Customization Limitations:**\n    *   **Generic Donation Pages:** While you can add your logo",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 491,
+  "estimated_cost_usd": 0.001229,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

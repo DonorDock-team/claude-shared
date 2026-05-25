@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.307190+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for a CRM similar to Salesforce but specifically tailored for nonprofits, the most direct answer is **Salesforce itself, configured with the Nonprofit Success Pack (NPSP).**\n\nHowever, if you're looking for *other* platforms that offer similar comprehensive features, scalability, and robust capabilities for nonprofits, here are the top contenders:\n\n---\n\n### 1. Salesforce with Nonprofit Success Pack (NPSP)\n\n*   **Why it's similar (and often superior):** NPSP *is* Salesforce. It's built directly on the Salesforce platform, leveraging its core strengths in customization, reporting, and a vast app ecosystem (AppExchange). Salesforce.org (the nonprofit arm of Salesforce) provides 10 free Enterprise Edition licenses to qualified nonprofits, making it highly accessible.\n*   **Key Nonprofit Features:** Robust donor management (individual & household accounts, recurring donations, pledges), grant management, volunteer management, program management, event management, marketing automation integrations, and extensive reporting.\n*   **Pros:** Highly customizable, scalable, large user community, extensive integrations, 10 free licenses.\n*   **Cons:** Can have a steep learning curve, often requires an implementation partner for complex setups, ongoing administration can be complex.\n\n---\n\n### Other Leading CRMs for Nonprofits (Direct Competitors to NPSP):\n\nThese platforms aim to provide an all-in-one solution for fundraising, donor management, and often other nonprofit operations.\n\n2.  **Blackbaud (Raiser's Edge NXT & eTapestry)**\n    *   **Similarities to Salesforce:** Blackbaud is the largest player in nonprofit technology, offering a comprehensive suite of products. Raiser's Edge NXT is their flagship cloud-based fundraising and relationship management solution, often considered the enterprise-level choice for larger nonprofits. eTapestry is a simpler, more affordable cloud-based option for small to mid-sized organizations.\n    *   **Key Nonprofit Features:** Advanced donor segmentation, wealth screening, moves management, grant management, event management, integrated accounting, robust reporting.\n    *   **Pros:** Very comprehensive, market leader, strong support, tailored for nonprofits.\n    *   **Cons:** Can be very expensive, some interfaces can feel dated (especially older Blackbaud products), can be complex.\n\n3.  **EveryAction (now part of Bonterra)**\n    *   **Similarities to Salesforce:** EveryAction offers a powerful, unified platform for fundraising, advocacy, organizing, and communication. It's known for its robust features across many nonprofit functions.\n    *   **Key Nonprofit Features:** Fundraising (online forms, peer-to-peer), email marketing, advocacy tools, volunteer management, event management, sophisticated segmentation, and targeting. Strong for political campaigns and advocacy groups.\n    *   **Pros:** All-in-one solution, strong for advocacy and organizing, unified database.\n    *   **Cons:** Can be expensive, some users find the interface less intuitive than newer platforms.\n\n4.  **Virtuous**\n    *   **Similarities to Salesforce:** Virtuous is a newer, modern platform focused on \"responsive fundraising\" and donor retention. It offers a very clean, intuitive interface and strong automation capabilities, similar to what Salesforce aims for with its marketing automation tools.\n    *   **Key Nonprofit Features:** Donor management, automated gratitude and follow-up, marketing automation, email & landing page builder, volunteer management, project/program management. Strong emphasis on personalized donor journeys.\n    *   **Pros:** Modern UI/UX, strong automation, focus on donor retention, good integrations.\n    *   **Cons:** Can be more expensive for smaller nonprofits, still growing its market share compared to Blackbaud.\n\n5.  **DonorPerfect**\n    *   **Similarities to Salesforce:** DonorPerfect is a long-standing and popular donor management system known",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bonterra",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Virtuous",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 805,
+  "estimated_cost_usd": 0.002015,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

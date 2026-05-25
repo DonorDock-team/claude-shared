@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P100",
+  "prompt_text": "What does Bloomerang really cost",
+  "engine": "perplexity",
+  "timestamp": "2026-05-25T11:48:02.306928+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang\u2019s software typically starts around **$40\u2013$125 per month (billed annually)** for core products, but the *real* cost depends on which modules you need, your database size, and payment processing fees.\n\nHere\u2019s how the pricing breaks down based on current public information:\n\n**1. Core software pricing (list prices from Bloomerang)**  \nBloomerang prices are modular; you can buy one product or several together.[3]\n\n- **Bloomerang Fundraising** \u2013 starts at **$40/month**, billed annually[3].  \n- **Bloomerang CRM** \u2013 starts at **$125/month**, billed annually[3].  \n- **Bloomerang Volunteer** \u2013 starts at **$119/month**, billed annually[3].  \n\nBloomerang uses a **constituent-based pricing model**, meaning higher donor/record counts increase the price, so larger databases pay more than these entry tiers[3][2].\n\n**2. What users report it \u201creally\u201d costs**\n\n- TrustRadius notes that reviewers often cite a **base cost around $300 per year** (roughly $25/month) for very small organizations on low tiers, and that prices are viewed as **affordable but not the cheapest** option[1].  \n- Other reviewers note that **\u201cpricing can be on the higher side, particularly for small nonprofits\u201d** and that cost increases as your **number of records grows**[2].  \n- Capterra data summarized by Zeffy indicates the **popular CRM functionality begins at $125/month**, matching Bloomerang\u2019s own pricing page[2][3].  \n\nTaken together, a typical small nonprofit that wants a **full CRM + fundraising** stack should plan for something closer to the **$125+/month range**, not the bare $40/month entry price. Adding Volunteer or other add-ons increases that.\n\n**3. Fees beyond subscription price**\n\nEven once you pick a plan, there are additional costs to consider:\n\n- **Payment processing fees:** Online gifts and transactions processed through Bloomerang (or its payment partners) are subject to typical card fees around **2.2% + $0.30 per transaction**[2]. These are on top of your subscription, although donors can sometimes be asked to cover them[2].  \n- **More records = higher subscription cost:** Because pricing scales with **number of constituents/donor records**, growing your list can push you into higher pricing bands over time[2][3].  \n- **Implementation/training:** Bloomerang states that proposals include onboarding and training and emphasize \u201cno surprise add\u2011ons for core features,\u201d but the exact onboarding cost is quote-based and can vary by organization size and complexity[3].  \n\n**4. Ballpark monthly budget scenarios (approximate)**\n\nThese are rough, based on the published starting prices and user reports (actual quotes can differ):\n\n- **Very small nonprofit (few thousand records, basic needs):**  \n  - Possibly near **$40\u2013$60/month** for Fundraising alone, but many will want CRM, pushing closer to **$125/month**[3][1].  \n\n- **Small\u2013mid nonprofit (growing database, needs CRM + Fundraising):**  \n  - Realistically budget **$125\u2013$200+/month**, depending on record count and options[2][3].  \n\n- **Adding Volunteer management:**  \n  - Add at least **$119/month** to whatever you are paying for CRM/Fundraising[3].  \n\n**5. Free trial or free version?**\n\n- Public listings and TrustRadius indicate **no free version or free trial** for Bloomerang CRM itself[1].  \n\nIf you share your approximate number of donor records and which features you need (CRM, online giving, events, volunteers), I can estimate a narrower cost range you should expect from a Bloomerang quote.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 798,
+  "estimated_cost_usd": 0.016994,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.trustradius.com/products/bloomerang/pricing",
+      "https://www.zeffy.com/blog/bloomerang-reviews",
+      "https://bloomerang.com/pricing",
+      "https://www.fast-growing-trees.com/products/bloomerang-lilac-tree",
+      "https://provenwinnersdirect.com/products/bloomerang-dark-purple-reblooming-lilac",
+      "https://www.softwareadvice.com/nonprofit/bloomerang-profile/"
+    ]
+  }
+}

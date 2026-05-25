@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.305871+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Automate Donor Thank You Letters\n\n## Quick Start Options\n\n### **1. Email Automation Tools**\n- **Mailchimp** - Free for up to 500 contacts\n- **Constant Contact** - Nonprofit discounts available\n- **Bloomerang** - Donor management with built-in thank you automation\n\n### **2. Donor Management Software**\n- **DonorPerfect**\n- **Little Green Light**\n- **Kindful**\n- **Salesforce Nonprofit Cloud**\n\n## Step-by-Step Automation Process\n\n### **Set Up Triggers**\n- Donation received (any amount)\n- Donation threshold (e.g., $100+)\n- First-time donor\n- Recurring donation milestone\n\n### **Create Email Templates**\nInclude these elements:\n- \u2705 Donor's name (personalized)\n- \u2705 Specific donation amount\n- \u2705 Date of gift\n- \u2705 Impact statement\n- \u2705 Tax receipt information\n- \u2705 Sincere gratitude\n\n### **Timing Rules**\n- **Immediate**: Automated receipt (within minutes)\n- **24-48 hours**: Personalized thank you\n- **30 days**: Impact update\n- **Annual**: Year-end summary\n\n## Best Practices\n\n\u26a0\ufe0f **Don't fully automate everything** - Major donors deserve personal touches\n\n**Segment your audiences:**\n- First-time donors\n- Recurring donors\n- Major gifts ($1,000+)\n- Legacy donors\n\n**Add personal touches:**\n- Board member signature for larger gifts\n- Handwritten notes for gifts over $500\n- Phone calls for major donors\n\n## Simple DIY Solution\n\nIf you're just starting:\n1. Use **Google Forms** to collect donations\n2. Connect to **Zapier** (free tier)\n3. Auto-send thank you via **Gmail**\n4. Log in **Google Sheets**\n\nWould you like specific recommendations based on your organization's size?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 462,
+  "estimated_cost_usd": 0.006975,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

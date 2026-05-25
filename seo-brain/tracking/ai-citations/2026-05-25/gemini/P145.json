@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P145",
+  "prompt_text": "Best donor CRM for capital campaigns",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306148+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When selecting a donor CRM for a capital campaign, you need more than just basic donor management. Capital campaigns require sophisticated tools for pipeline management, pledge tracking, major gift cultivation, detailed reporting, and deep donor insights.\n\nThere isn't a single \"best\" CRM, as the ideal choice depends on your organization's size, budget, existing tech stack, staff capacity, and the complexity of your campaign. However, here are the top contenders, categorized by their strengths:\n\n---\n\n### Key Features a Capital Campaign CRM MUST Have:\n\nBefore diving into specific CRMs, ensure any platform you consider offers these critical features:\n\n1.  **Moves Management:** Robust tools to track donor cultivation stages (identification, qualification, cultivation, solicitation, stewardship) for major gifts.\n2.  **Pledge Management:** Ability to track multi-year pledges, payment schedules, outstanding balances, and payment reminders.\n3.  **Campaign & Goal Tracking:** Clear dashboards to monitor campaign progress against overall goals, individual gift officer goals, and fund designations.\n4.  **Pipeline Management:** Visual tools to see your prospective major gift donors, their gift asks, and their stage in the cultivation process.\n5.  **Relationship Tracking:** Detailed records of interactions, communication history, household relationships, and influence networks.\n6.  **Wealth Screening Integration:** Ability to integrate with or offer built-in tools for wealth screening to identify high-potential donors.\n7.  **Advanced Reporting & Analytics:** Customizable reports on campaign progress, donor giving history, pipeline health, forecasts, and gift officer performance.\n8.  **Task Management & Reminders:** Tools to assign tasks to gift officers, set deadlines, and receive automated reminders for follow-ups.\n9.  **Security & Permissions:** Granular control over who can access and modify sensitive donor data.\n10. **Customization:** The flexibility to adapt fields, workflows, and reports to your specific campaign needs.\n\n---\n\n### Top Recommendations for Capital Campaign CRMs:\n\n**1. Salesforce Nonprofit Cloud (NPSP)**\n\n*   **Pros:**\n    *   **Unparalleled Customization:** Highly adaptable to fit virtually any campaign strategy, moves management process, or reporting need. You can design custom objects for proposals, grant cycles, and specific campaign initiatives.\n    *   **Scalability:** Perfect for organizations of all sizes, from growing nonprofits to the largest institutions with multi-billion dollar campaigns.\n    *   **Vast Ecosystem:** Access to thousands of apps on the AppExchange (many free or discounted for nonprofits) for wealth screening, marketing automation, event management, and more.\n    *   **Robust Reporting:** Powerful, real-time reporting and dashboard capabilities.\n    *   **Community Support:** Huge user community and extensive documentation.\n*   **Cons:**\n    *   **Steep Learning Curve:** Can be complex and requires significant initial setup and ongoing administration, often needing a dedicated Salesforce administrator or consultant.\n    *   **Cost:** While the NPSP itself is free for 10 users (with some caveats), additional licenses, apps, and implementation/admin costs can add up.\n    *   **Initial Implementation Time:** Can take longer to get fully configured than out-of-the-box solutions.\n*   **Best For:** Medium to large organizations with complex needs, a tech-savvy team, a willingness to invest in customization, and a long-term vision for a powerful, integrated CRM.\n\n**2. Blackbaud (Raiser'",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 727,
+  "estimated_cost_usd": 0.001819,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

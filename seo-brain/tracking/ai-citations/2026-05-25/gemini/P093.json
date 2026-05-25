@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P093",
+  "prompt_text": "Cheapest nonprofit CRM with online giving",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306432+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for the *cheapest* nonprofit CRM with online giving, you're often balancing \"free\" (which usually means relying on donor-covered fees or transaction fees) with low-cost subscriptions that offer more robust features.\n\nHere are the top contenders, categorized by their pricing model:\n\n---\n\n## **1. \"Free\" (Donor-Covered Fees / Transaction Fee Model)**\n\nThese platforms often have no monthly subscription fee for the nonprofit, relying instead on transaction fees or asking donors to cover processing costs.\n\n### **a) Givebutter**\n*   **Cost:** Free for nonprofits. Relies on donors covering the processing fees (standard 2.9% + $0.30 per transaction), or the nonprofit pays if the donor opts out.\n*   **Online Giving:** Fully integrated. Robust online giving forms, peer-to-peer, crowdfunding, text-to-give, event ticketing.\n*   **CRM Features:** Built-in, surprisingly comprehensive for a \"free\" platform. Contact management, donor profiles, donation tracking, segmentation, basic reporting.\n*   **Pros:**\n    *   Truly free monthly cost for the nonprofit.\n    *   All-in-one solution: CRM, online giving, events, peer-to-peer.\n    *   Modern interface, easy to use.\n    *   Good for small to mid-sized organizations.\n*   **Cons:**\n    *   Relies heavily on donors",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 306,
+  "estimated_cost_usd": 0.000767,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

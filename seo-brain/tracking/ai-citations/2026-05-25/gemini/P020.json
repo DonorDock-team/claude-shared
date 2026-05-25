@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P020",
+  "prompt_text": "Cheaper alternative to Blackbaud",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306353+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Blackbaud offers a wide range of solutions, from donor management and fundraising to financial management, school administration, and peer-to-peer fundraising. To recommend the *cheapest* and *best* alternative, it helps to know which specific Blackbaud product you're looking to replace (e.g., Raiser's Edge NXT, Financial Edge NXT, Blackbaud CRM, Altru, K-12 solutions, etc.).\n\nHowever, I can provide a comprehensive list of alternatives that are generally considered more affordable than Blackbaud's enterprise solutions, categorized by their primary function:\n\n---\n\n### General Purpose & Donor Management (Alternatives to Raiser's Edge NXT, Blackbaud CRM)\n\nThese are great for managing donors, donations, campaigns, and communications.\n\n1.  **Salesforce (with Nonprofit Success Pack - NPSP):**\n    *   **Pros:** The NPSP is free for the first 10 users for qualifying nonprofits, making it incredibly powerful and scalable. It's highly customizable, has a massive app exchange, and can handle almost any nonprofit function.\n    *   **Cons:** Steep learning curve, often requires an experienced admin or consultant to set up and maintain effectively. Add-ons and extensive customizations can increase costs.\n    *   **Best for:** Nonprofits of all sizes looking for a robust, flexible, and scalable solution, especially those with tech-savvy staff or budget for external help.\n\n2.  **Bloomerang:**\n    *   **Pros:** Known for its user-friendly interface, strong focus on donor retention, excellent reporting, and integration with popular tools like QuickBooks and Stripe. Generally well-regarded for customer support.\n    *   **Cons:** May not have the depth of features for very large, complex organizations compared to Salesforce or Blackbaud's enterprise options.\n    *   **Best for:** Small to medium-sized nonprofits prioritizing ease of use, donor relationship management, and good reporting.\n\n3.  **DonorPerfect:**\n    *   **Pros:** Established player, offers a comprehensive suite of features including donor management, online fundraising, event management, and grant tracking. Good for organizations that need a lot of integrated features.\n    *   **Cons:** Interface can feel a bit dated compared to newer platforms. Pricing can escalate for larger databases or more advanced features.\n    ",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 482,
+  "estimated_cost_usd": 0.001207,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P100",
+  "prompt_text": "What does Bloomerang really cost",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306889+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Bloomerang Pricing Breakdown\n\nBloomerang doesn't publish pricing publicly, but here's what it **actually costs** based on user reports and industry data:\n\n## Typical Pricing (2024)\n\n**Base pricing ranges:**\n- **Small nonprofits** (under 1,000 contacts): ~$125-$150/month\n- **Mid-size organizations** (1,000-10,000 contacts): ~$200-$400/month\n- **Larger databases**: Custom pricing (can exceed $500/month)\n\nPricing is typically based on:\n- Number of constituent records\n- Features needed\n- Annual vs. monthly payment (annual = ~10-15% discount)\n\n## What's Included\n\nStandard plans typically include:\n- Donor database & CRM\n- Email marketing\n- Online donation forms\n- Engagement tracking & retention scoring\n- Reporting and analytics\n- Mobile app\n\n## Additional Costs to Consider\n\n- **Setup/onboarding fee**: Sometimes $500-$1,500 (often waived)\n- **Data migration**: May cost extra depending on complexity\n- **Training**: Group training usually included; custom training may cost more\n- **Payment processing**: Separate fees if using their payment processor\n\n## Best Way to Get Accurate Pricing\n\nContact Bloomerang directly for a quote based on your specific needs. They typically offer:\n- Free demo\n- Custom quote based on your database size\n- Sometimes discounts for multi-year commitments\n\n**Budget tip:** Many users report the actual cost runs 15-25% higher than initial quotes once you add necessary features.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 360,
+  "estimated_cost_usd": 0.005445,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

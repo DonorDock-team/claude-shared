@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P135",
+  "prompt_text": "Why nonprofits leave DonorPerfect",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306822+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Reasons Nonprofits Leave DonorPerfect\n\nBased on user feedback and industry reports, here are the main reasons organizations switch from DonorPerfect:\n\n## **Cost Concerns**\n- **Price increases** over time, especially for growing organizations\n- Additional fees for features that are standard in competing platforms\n- Per-user pricing can become expensive as teams expand\n\n## **User Experience Issues**\n- **Outdated interface** that feels less intuitive than modern alternatives\n- Steeper learning curve for staff and volunteers\n- Mobile experience lags behind competitors\n\n## **Technical Limitations**\n- **Reporting constraints** - customization can be difficult without technical expertise\n- Limited native integrations compared to newer platforms\n- Database structure feels rigid for organizations with complex needs\n- Performance issues with larger databases\n\n## **Customer Support Frustrations**\n- Inconsistent support quality\n- Slow response times for technical issues\n- Additional charges for certain support services\n\n## **Outgrowing the Platform**\n- Organizations seeking more sophisticated:\n  - Marketing automation\n  - Peer-to-peer fundraising tools\n  - Event management capabilities\n  - Grant management features\n\n## **Popular Alternatives**\nOrganizations typically migrate to:\n- **Bloomerang** (better retention focus)\n- **Salesforce Nonprofit Cloud** (more scalability)\n- **NeonCRM** (modern interface)\n- **Little Green Light** (simpler, cost-effective)\n\n**Note:** Despite these issues, many organizations remain satisfied with DonorPerfect, particularly smaller nonprofits that value its comprehensive donor management features and longevity in the market.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 366,
+  "estimated_cost_usd": 0.005544,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

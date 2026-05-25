@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P101",
+  "prompt_text": "DonorPerfect total cost of ownership",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.306987+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Determining the total cost of ownership (TCO) for DonorPerfect, or any software solution, involves considering a range of factors beyond just the subscription price. Here's a breakdown of components typically involved in calculating TCO:\n\n1. **Subscription Fees:** DonorPerfect offers several pricing tiers, which vary based on features, number of users, and database records. Make sure to select the tier that fits your organization's needs.\n\n2. **Implementation Costs:** This includes initial setup costs, data migration from existing systems, and any customization that may be necessary to tailor the software to your organization's specific operations.\n\n3. **Training Costs:** Depending on your team's familiarity with donor management systems, you might need to invest in training sessions for effective use of DonorPerfect. This can be facilitated through webinars, workshops, or on-site training.\n\n4. **Support and Maintenance:** While basic support might be included, advanced or priority support services could incur additional fees. This also covers any ongoing maintenance needed to keep the software running smoothly.\n\n5. **Hardware/Infrastructure Costs:** If your organization doesn't already have the necessary hardware (e.g., computers, servers), you might need to purchase or upgrade equipment.\n\n6. **IT Staff or Services:** Depending on your internal capabilities, you may need to hire additional IT staff or contract external services to manage the software.\n\n7. **Integration Costs:** If DonorPerfect needs to integrate with other systems your organization uses (like accounting, email marketing, or CRM systems), additional costs might arise to ensure seamless operation between platforms.\n\n8. **Opportunity Costs:** Consider the time spent by staff learning and using a new system, which could otherwise be devoted to other productive efforts.\n\n9. **Upgrades:** Future upgrades might be included in your subscription, but it's worth confirming if there are any additional costs associated with significant updates or new feature releases.\n\nWhen calculating TCO, it's essential to look at these costs over the expected life of the system, often five to seven years for software solutions. Comparing these costs with the expected benefits, such as improved efficiency, better donor management, and increased fundraising capacity, can help determine if DonorPerfect is a cost-effective solution for your nonprofit organization.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 441,
+  "estimated_cost_usd": 0.004445,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

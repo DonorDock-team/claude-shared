@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P044",
+  "prompt_text": "Best donor CRM for food banks",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306794+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a food bank depends heavily on its size, budget, specific needs (e.g., heavy reliance on volunteers, extensive in-kind donations, complex grant management), and technical capabilities.\n\nHowever, here are the top recommendations, broken down by typical food bank profiles, along with critical features to look for:\n\n---\n\n### Top Recommendations for Food Bank Donor CRMs\n\n**1. Salesforce Nonprofit Success Pack (NPSP)**\n*   **Best For:** Medium to large food banks with complex needs, multiple programs, significant grant funding, and a willingness to invest in customization and training (or have a tech-savvy team/consultant).\n*   **Pros:**\n    *   **Highly Customizable:** Can track virtually anything \u2013 cash donations, in-kind food donations (by type, weight, expiry), volunteer hours, grant applications, pantry visitors, etc.\n    *   **Scalable:** Grows with your organization indefinitely.\n    *   **Robust Reporting:** Powerful analytics for grant reporting, impact measurement, and donor insights.\n    *   **Integrations:** Vast ecosystem of integrations for email marketing, accounting, event management, and more.\n    *   **10 Free Licenses:** Salesforce offers 10 free licenses for qualifying nonprofits, making the software itself very affordable, though setup and ongoing administration may require a budget.\n*   **Cons:**\n    *   **Steep Learning Curve:** Can be complex to set up and administer without prior Salesforce experience.\n    *   **Implementation Costs:** Often requires professional services for initial setup and customization.\n*   **Food Bank Specific Fit:** Ideal for managing intricate relationships, reporting on diverse types of impact (meals served, volunteer hours, food pounds distributed), and streamlining operations across many departments.\n\n**2. Bloomerang**\n*   **Best For:** Small to medium-sized food banks looking for a user-friendly, modern, and donor-retention focused CRM.\n*   **Pros:**\n    *   **Intuitive Interface:** Easy for staff and volunteers to learn and use.\n    *   **Strong Donor Engagement Tools:** Focus on donor retention, including engagement scores and communication tracking.\n    *   **Integrated Email & Communications:** Built-in email marketing and letter generation.\n    *   **Good Reporting:** Easy-to-understand reports on donor trends and fundraising performance.\n    *   **Responsive Support:** Generally well-regarded customer service.\n*   **Cons:**\n    *   **Less Customizable:** May not handle highly specific in-kind tracking or complex program management as robustly as Salesforce without workarounds.\n    *   **Pricing:** Can become more expensive as your donor database grows.\n*   **Food Bank",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 566,
+  "estimated_cost_usd": 0.001417,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

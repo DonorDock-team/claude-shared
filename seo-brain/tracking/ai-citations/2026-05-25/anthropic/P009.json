@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306807+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Givebutter Comparison\n\nBoth are donor management platforms, but they serve different niches and have distinct strengths.\n\n## **Givebutter**\n\n### Strengths:\n- **Free for basic use** (only payment processing fees)\n- **Modern, user-friendly interface**\n- **Strong fundraising campaign tools** (crowdfunding, peer-to-peer, events)\n- **Built-in donation forms** with excellent design\n- **Great for smaller organizations** or those just starting\n- **Social fundraising features**\n- **Quick setup** - can launch campaigns rapidly\n\n### Limitations:\n- Less robust CRM functionality\n- Limited reporting/analytics compared to dedicated CRMs\n- Better for campaigns than comprehensive donor management\n- May outgrow it as organization scales\n\n## **DonorDock**\n\n### Strengths:\n- **True donor CRM** with deeper relationship management\n- **Better for established nonprofits** with existing donor bases\n- **More comprehensive reporting** and data analysis\n- **Task management and workflows**\n- **Better donor communication tracking**\n- **More customization options**\n- **Affordable pricing** (typically $39-99/month)\n\n### Limitations:\n- Monthly subscription cost\n- Steeper learning curve\n- Less focused on campaign/event fundraising\n- Interface not as modern as Givebutter\n\n## **Which to Choose?**\n\n**Choose Givebutter if:**\n- You need to launch fundraising campaigns quickly\n- Budget is extremely tight\n- You're a smaller org (under $100k revenue)\n- Peer-to-peer/event fundraising is primary need\n\n**Choose DonorDock if:**\n- You need serious donor relationship management\n- You have an existing donor database to manage\n- Reporting and analytics are important\n- You're ready to invest in a proper CRM\n\n**Or consider using both:** Some orgs use Givebutter for campaigns and DonorDock for CRM management.\n\nWhat's your primary need - campaign fundraising or donor management?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 462,
+  "estimated_cost_usd": 0.006981,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

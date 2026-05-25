@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P016",
+  "prompt_text": "Alternative to DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.305918+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorPerfect is a comprehensive donor management and fundraising software solution. When looking for alternatives, it's important to consider what specific features are most critical for your organization, your budget, and your team's technical comfort level.\n\nHere's a breakdown of excellent alternatives to DonorPerfect, categorized by their strengths and target audience:\n\n## Comprehensive All-in-One Solutions (Direct Competitors)\n\nThese platforms aim to provide a similar breadth of features as DonorPerfect, covering donor CRM, fundraising, events, and reporting.\n\n1.  **Blackbaud (Raiser's Edge NXT, eTapestry, Luminate CRM)**\n    *   **Strengths:** The largest player in the non-profit tech space. Offers a wide range of products for different sizes and needs. Raiser's Edge NXT is a powerful, enterprise-level solution for larger organizations, while eTapestry is generally more suitable for small to mid-sized non-profits. Luminate CRM is built on Salesforce.\n    *   **Best For:** Organizations of all sizes, depending on the specific Blackbaud product chosen. Larger non-profits with complex needs often use Raiser's Edge NXT.\n    *   **Considerations:** Can be expensive and have a steep learning curve, especially Raiser's Edge.\n\n2.  **Salesforce NPSP (Nonprofit Success Pack)**\n    *   **Strengths:** Highly customizable and scalable. Built on the world's leading CRM platform, it offers unparalleled flexibility and integration possibilities. NPSP provides a pre-configured data model and features specifically for non-profits.\n    *   **Best For:** Mid-sized to large non-profits, or any organization with complex data needs that wants a highly customizable solution and has the resources (either in-house or consulting) for initial setup and ongoing management.\n    *   **Considerations:** Requires significant initial setup and ongoing administration; can be complex without dedicated staff or consultants.\n\n3.  **Bloomerang**\n    *   **Strengths:** Focuses heavily on donor engagement and retention with an intuitive user interface. Offers strong email marketing, robust reporting, donor timelines, and proactive suggestions for engaging donors. Integrates Kindful's strengths.\n    *   **Best For:** Small to mid-sized non-profits that prioritize donor relationships, ease of use, and data-driven engagement strategies.\n    *   **Considerations:** While comprehensive, it might not have the same depth in specific areas (like complex grant management) as some enterprise solutions.\n\n4.  **Neon One (NeonCRM)**\n    *   **Strengths:** A",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce NPSP",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 546,
+  "estimated_cost_usd": 0.001366,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

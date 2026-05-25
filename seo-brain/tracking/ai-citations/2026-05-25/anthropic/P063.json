@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306813+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM with Text Messaging\n\nI'll help you understand donor CRM systems with SMS capabilities. Here are the key options:\n\n## **Top Donor CRMs with Built-in SMS**\n\n### **1. Bloomerang**\n- Native SMS messaging for donor engagement\n- Automated text campaigns\n- Two-way texting capabilities\n- Best for: Small to mid-sized nonprofits\n\n### **2. Kindful (by Bloomerang)**\n- Integrated text messaging\n- Donor segmentation for targeted SMS\n- Mobile-friendly interface\n\n### **3. Salsa Engage**\n- SMS advocacy and fundraising tools\n- Peer-to-peer texting\n- Text-to-donate features\n\n### **4. Keela**\n- Built-in SMS functionality\n- Automated donor communications\n- Good for Canadian nonprofits\n\n## **CRMs with SMS Integrations**\n\n### **Popular Integration Options:**\n- **DonorPerfect** + Twilio\n- **Little Green Light** + SMS add-ons\n- **Salesforce Nonprofit Cloud** + SMS apps\n- **Bloomerang** + EZ Texting\n\n## **Key Features to Look For**\n\n\u2705 **Two-way messaging** (donors can respond)\n\u2705 **Automated campaigns** (birthday wishes, thank-yous)\n\u2705 **Segmentation** (target specific donor groups)\n\u2705 **Compliance tools** (opt-in/opt-out management)\n\u2705 **Text-to-donate** capabilities\n\u2705 **Delivery tracking** and analytics\n\n## **What's your nonprofit's size and budget?**\n\nI can provide more specific recommendations based on your needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 392,
+  "estimated_cost_usd": 0.005922,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

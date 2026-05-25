@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P033",
+  "prompt_text": "Alternative to DonorBox",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.305849+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorBox is a popular online fundraising platform, especially for non-profits, known for its customizable donation forms, recurring donations, peer-to-peer campaigns, and text-to-give features.\n\nIf you're looking for alternatives, consider these platforms, depending on your specific needs (e.g., pricing, features, target audience, ease of use):\n\n---\n\n### All-in-One Fundraising Platforms (Most Similar to DonorBox)\n\nThese platforms often offer a comprehensive suite of tools including donation forms, peer-to-peer, events, and CRM integrations.\n\n1.  **Givebutter:**\n    *   **Strengths:** Often touted as a \"free-first\" alternative (operating on an optional donor tip model). It's an all-in-one platform for donations, peer-to-peer, events, auctions, text-to-give, and donor management. User-friendly interface.\n    *   **Best For:** Non-profits of all sizes looking for a comprehensive, cost-effective solution with modern features.\n    *   **Pricing:** Free (optional donor tips cover processing fees), or 2.9% + $0.30 per transaction if no tip.\n\n2.  **Classy:**\n    *   **Strengths:** A powerful, enterprise-grade fundraising platform known for its robust features for campaign pages, peer-to-peer, events, and recurring giving. Excellent analytics and integrations.\n    *   **Best For:** Mid-to-large non-profits needing a sophisticated, scalable platform with advanced reporting and CRM capabilities.\n    *   **Pricing:** Custom quotes, generally higher-tier plans.\n\n3.  **Qgiv:**\n    *   **Strengths:** Offers a broad range of features including custom donation forms, peer-to-peer, event registration, text-to-give, and auction tools. Known for strong customer support.\n    *   **Best For:** Non-profits looking for a flexible platform with good support and a wide array of fundraising tools.\n    *   **Pricing:** Tiered plans based on features, plus transaction fees.\n\n4.  **Funraise:**\n    *   **Strengths:** A powerful fundraising and donor management platform designed for growth. Offers advanced campaign pages, peer-to-peer, events, and a built-in CRM. Strong focus on data and automation.\n    *   **Best For:** Growing non-profits that need a robust, scalable platform with integrated CRM capabilities.\n    *   **Pricing:** Custom quotes, generally subscription-based with transaction fees.\n\n5.  **Neon One (Neon Fundraise / Neon CRM):**\n    *   **Strengths:** A suite of products including Neon Fundraise (for campaigns, events, P2P) and Neon CRM (for donor management). Integrates well across its own ecosystem.\n    *   **Best For:** Non-profits looking for a tightly integrated fundraising and CRM solution.\n    *   **Pricing:** Various packages and transaction fees.\n\n---\n\n### Payment Processors with Donation Features\n\nThese are more basic, often focusing just on processing payments but can be adapted for donations.\n\n6.  **PayPal Giving Fund / PayPal Donate Button:**\n    *   **Strengths:** Ubiquitous, easy to set up, trusted by donors. PayPal Giving",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 697,
+  "estimated_cost_usd": 0.001744,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

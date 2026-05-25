@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.305965+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Measuring donor retention is crucial for understanding the effectiveness of your fundraising efforts and ensuring the long-term sustainability of your organization. Here are the steps and key metrics you can use to measure donor retention:\n\n1. **Define the Time Period**:\n   - Decide on the period you want to analyze for donor retention, such as annually, biannually, or quarterly.\n\n2. **Identify Repeat Donors**:\n   - A repeat donor is someone who has given at least once in the current period and had also given in a previous period.\n\n3. **Calculate Donor Retention Rate**:\n   - Use the formula:\n     \\[\n     \\text{Donor Retention Rate} = \\left(\\frac{\\text{Number of Donors Who Gave Again}}{\\text{Number of Donors in the Previous Period}}\\right) \\times 100\n     \\]\n   - For example, if 100 donors gave in the previous period and 60 of them gave again in the current period, your retention rate is 60%.\n\n4. **Segment Your Donors**: \n   - Analyze retention rates by different donor segments, such as new vs. recurring donors, major vs. minor donors, or by demographics. This helps to identify which groups have higher or lower retention rates.\n\n5. **Assess Donor Lapse**:\n   - Calculate the reverse, known as the donor lapse or attrition rate, to see how many donors from the previous period did not donate again:\n     \\[\n     \\text{Donor Attrition Rate} = 100 - \\text{Donor Retention Rate}\n     \\]\n\n6. **Analyze Lifetime Value**:\n   - Consider the donor lifetime value (LTV) by assessing the total donations expected from a donor over the entire relationship. A higher LTV often correlates with higher retention.\n\n7. **Track Engagement Metrics**:\n   - Beyond monetary contributions, track engagement indicators (e.g., event attendance, volunteerism, newsletter sign-ups) to understand how engaged donors are with your organization.\n\n8. **Use Feedback Mechanisms**:\n   - Implement surveys or feedback forms to understand the reasons behind donor retention or lapse. This can provide valuable insights into your organization\u2019s strengths and areas for improvement.\n\n9. **Benchmark Against Industry Standards**:\n   - Compare your retention rates with industry benchmarks to gauge where your organization stands relative to others in the sector.\n\n10. **Implement a CRM System**:\n    - Use a Customer Relationship Management (CRM) system to track donor interactions, giving history, and retention metrics efficiently.\n\n11. **Regularly Report and Review**:\n    - Continuously review these metrics to identify trends over time and report them to your stakeholders to inform strategic decisions.\n\nBy consistently monitoring and analyzing these aspects of donor retention, your organization can develop strategies to improve donor loyalty and overall fundraising success.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 578,
+  "estimated_cost_usd": 0.00581,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P137",
+  "prompt_text": "Little Green Light limitations",
+  "engine": "perplexity",
+  "timestamp": "2026-05-25T11:48:02.307013+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Little Green Light (LGL) is a solid, affordable donor CRM for small and mid-sized nonprofits, but it has notable limitations in depth of features, online fundraising, marketing automation, and scalability for very complex organizations.[1][2]\n\nHere are the key limitations, grouped by area:\n\n**1. \u201cJack of all trades\u201d but limited depth in specialized features**\n\n- LGL is an **all-in-one donor CRM**, not a set of best\u2011in\u2011class point solutions.[1]  \n- Its features are broad but often **less advanced** than specialized tools (e.g., dedicated email automation platforms like ActiveCampaign).[1]  \n- As your organization\u2019s needs become more sophisticated, you may find certain functions (email, automation, complex workflows) too basic and need external tools.[1]\n\n**2. Online giving and forms (LGL Forms)**\n\n- **Online donation capability is minimal** and not designed to rival full fundraising platforms.[2]  \n- LGL Forms behaves more like a **generic form builder** than a conversion\u2011optimized donation or campaign page.[2]  \n- Reviews note that LGL Forms **break several best practices** for high conversion fundraising pages and are \u201cnot easy to use.\u201d[2]  \n- There is only a basic **recurring giving** implementation (essentially a field on a form, not a full recurring program toolkit).[2]  \n- Payment options are **limited to Stripe and PayPal**, and enabling Apple Pay/Google Pay requires separate Stripe configuration, which can be challenging for small teams.[2]  \n\n**3. Email and communications**\n\n- Email tools are **basic** compared with dedicated email marketing systems.[1][8]  \n- According to user reviews, you **cannot schedule emails** to send at a specific time, and **branding/graphics customization is challenging**.[8]  \n- For sophisticated email automation, audience segmentation, or multi\u2011step journeys, nonprofits typically need to integrate LGL with external tools (e.g., Mailchimp).[1][2]\n\n**4. Integrations and ecosystem**\n\n- LGL does integrate with common tools (Mailchimp, Stripe, PayPal, QuickBooks), but building a **truly seamless ecosystem requires careful planning and technical capacity**.[1]  \n- If you **cannot build or maintain integrations well**, it can pose challenges for entering and syncing gifts and other data.[3]  \n- The platform is not positioned as a heavily extensible enterprise CRM; integrations are helpful but not as deep or numerous as larger systems.\n\n**5. Scalability and complexity of operations**\n\n- LGL is **designed for small and mid\u2011sized nonprofits**.[1][7]  \n- Larger organizations with **multiple departments, complex workflows, or intricate grant/program management** may outgrow it and need more customization and enterprise\u2011level power.[1]  \n- There is a **hard cap of 200,000 constituent records** per account.[6][7] For very large databases, this is a structural limit.\n\n**6. Peer\u2011to\u2011peer, crowdfunding, and campaign extras**\n\n- LGL does **not support crowdfunding or peer\u2011to\u2011peer fundraising** directly.[9]  \n- It lacks extras such as a **campaign thermometer widget** for real\u2011time public progress display.[9]  \n- For campaign\u2011centric online fundraising, organizations often pair LGL with a dedicated fundraising platform.[2][9]\n\n**7. User experience and learning curve**\n\n- Some users report a **steeper learning curve**, especially for staff who are new to CRMs.[2]  \n- Interface and workflow can be less intuitive than newer, campaign\u2011focused platforms, which can slow adoption for non\u2011technical staff.[2]\n\n**8. Mobile and on\u2011the\u2011go use**\n\n- LGL **does not have a dedicated mobile app**.[9]  \n- This limits on\u2011the\u2011go access and may be a drawback for teams that need mobile tools for events, visits, or field work.[9]\n\n**9. Education and support content**\n\n- While there is documentation and a blog, reviewers note that **ongoing educational content is relatively minimal** compared with larger platforms that offer rich training libraries and strategy resources.[2]  \n\n**10. Form limits and event inventory nuances**\n\n- LGL Forms allows you to **cap the number of total submissions or set an end date**, but the cap is a **\u201cblunt tool\u201d**\u2014it closes the entire form once the limit is reached.[4]  \n- If you need different inventory limits for different ticket types, you must use **multiple Amount fields**, and doing so **prevents the form from collecting recurring gifts**.[4]  \n- This makes complex ticketing and inventory scenarios more cumbersome to manage.[4]\n\nIf you share what size your organization is and what you most need (e.g., online campaigns vs. donor database vs. automation), I can map which of these limitations are likely to matter most and suggest possible workarounds or companion tools.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 1020,
+  "estimated_cost_usd": 0.020315,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://designbycosmic.com/guides/nonprofit-branding/little-green-light/",
+      "https://4agoodcause.com/givebutter-vs-little-green-light/",
+      "https://www.capterra.com/p/123954/Little-Green-Light/",
+      "https://help.littlegreenlight.com/article/442-limit-how-many-submissions-youll-accept-on-a-form",
+      "https://www.littlegreenlight.com/why-lgl/",
+      "https://www.littlegreenlight.com/pricing/",
+      "https://www.littlegreenlight.com",
+      "https://www.softwareadvice.com/nonprofit/little-green-light-profile/reviews/",
+      "https://www.smartthoughts.net/post/the-little-green-light-crm-donor-management-software-review"
+    ]
+  }
+}

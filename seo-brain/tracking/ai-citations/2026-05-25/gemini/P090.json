@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P090",
+  "prompt_text": "Best donor CRM for youth development",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306069+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for youth development depends heavily on your organization's specific size, budget, complexity of programs, and existing tech stack. However, here are some top contenders and key features to look for, tailored to the unique needs of youth development organizations:\n\n## Top Donor CRMs for Youth Development\n\n### 1. Salesforce for Nonprofits (NPSP - Nonprofit Success Pack)\n*   **Best For:** Medium to large organizations, those with complex programs, grant management needs, and a desire for extensive customization and scalability.\n*   **Why it's Good for Youth Development:**\n    *   **Program Management:** Highly customizable to track participant enrollment, attendance, progress, outcomes, and impact metrics.\n    *   **Volunteer Management:** Robust tools for tracking mentors, coaches, and other volunteers, their hours, skills, and assignments.\n    *   **Grant Tracking:** Excellent for managing grant applications, reporting requirements, and deadlines.\n    *   **Integrations:** Connects with virtually any other software (e.g., accounting, marketing, specific program tools).\n    *   **Free Licenses:** 10 free user licenses for nonprofits, making it initially affordable, though implementation and ongoing admin can be an investment.\n*   **Considerations:** Steep learning curve, often requires a dedicated administrator or consultant for setup and ongoing maintenance.\n\n### 2. Bloomerang\n*   **Best For:** Small to medium-sized organizations prioritizing ease of use, strong donor communication, and intuitive reporting.\n*   **Why it's Good for Youth Development:**\n    *   **User-Friendly:** Very intuitive interface, making it easy for staff and volunteers to adopt.\n    *   **Donor Engagement:** Excellent tools for cultivating relationships, tracking donor interactions, and segmenting communications.\n    *   **Email Marketing & Analytics:** Built-in email tools and strong reporting help measure engagement and campaign effectiveness.\n    *   **Integrations:** Connects well with other tools for event management, accounting, and more.\n    *   **Modern Interface:** Clean, modern design.\n*   **Considerations:** While strong on donor management, its core functionality for in-depth program tracking might require creative workarounds or integrations with other tools.\n\n### 3. DonorPerfect\n*   **Best For:** Small to medium-large",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 486,
+  "estimated_cost_usd": 0.001217,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

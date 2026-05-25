@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P068",
+  "prompt_text": "How to consolidate fundraising tools",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.307264+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Consolidating fundraising tools is a fantastic goal that can lead to increased efficiency, better data, improved donor experiences, and significant cost savings. The process involves strategic planning, careful selection, and thorough implementation.\n\nHere's a step-by-step guide on how to consolidate your fundraising tools:\n\n---\n\n## The Goal: A Unified Fundraising Ecosystem\n\nThe ultimate aim is to move from disparate tools that don't communicate to a centralized system (often a robust CRM) that acts as the single source of truth for all donor data and interactions, with other tools either integrated or replaced.\n\n---\n\n## Step 1: Audit Your Current Landscape\n\nBefore you can consolidate, you need to know exactly what you're working with.\n\n1.  **List All Current Tools:**\n    *   Donor Database/CRM (e.g., Excel, Salesforce, DonorPerfect, Bloomerang)\n    *   Online Giving Forms (e.g., Classy, Givebutter, PayPal, custom forms)\n    *   Email Marketing (e.g., Mailchimp, Constant Contact, Marketing Cloud)\n    *   Event Management (e.g., Eventbrite, custom registration)\n    *   Peer-to-Peer Fundraising (e.g., JustGiving, GoFundMe, custom platforms)\n    *   Text-to-Give/Mobile Giving\n    *   Auction Software\n    *   Volunteer Management\n    *   Grant Management\n    *   Wealth Screening Services\n    *   Payment Processors (e.g., Stripe, PayPal, Authorize.net)\n    *   Communication Tools (e.g., SMS platforms, direct mail tools)\n    *   Reporting & Analytics Tools (beyond what your CRM offers)\n\n2.  **Identify Overlaps & Gaps:**\n    *   Where do you have multiple tools doing the same thing? (e.g., two different online giving platforms).\n    *   Where are there manual processes or missing functionalities that a new system could address?\n\n3.  **Assess Costs & Contracts:**\n    *   What is the annual/monthly cost for each tool?\n    *   When do contracts expire? This can influence your consolidation timeline.\n\n4.  **Interview Stakeholders:**\n    *   Talk to staff who use these tools daily. What are their pain points? What features do they love? What do they wish they had?\n    *   Understand how data flows (or doesn't flow) between systems currently.\n\n5.  **Define Your Goals:**\n    *   What do you hope to achieve with consolidation? (e.g., save money, improve data accuracy, enhance donor experience, streamline reporting, reduce staff workload).\n\n---\n\n## Step 2: Define Your Core Needs & Priorities\n\nBased on your audit, identify what your consolidated system *must* do.\n\n1.  **Centralized Donor Database (CRM):** This will be the anchor. It needs to store:\n    *   Contact information\n    *   Donation history\n    *   Communication history (emails, calls, meetings)\n    *   Event attendance\n    *   Volunteer activities\n    *   Grant information\n    *   Relationships (household, corporate, board)\n\n2.  **Key Fundraising Functions:** Which of these are essential to be integrated or natively supported?\n    *   Online Giving (customizable forms, recurring donations, upsells)\n    *   Email Marketing (segmentation, automation)\n    *   Event Management (registration, ticketing, check-in)\n    *   Peer-to-Peer Fundraising (campaign creation, individual fundraising pages)\n",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 755,
+  "estimated_cost_usd": 0.001889,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

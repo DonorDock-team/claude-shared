@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P119",
+  "prompt_text": "AI to draft donor thank you letters",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.306990+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Donor thank you letters are a meaningful way to express gratitude and maintain a positive relationship with contributors. Below is a customizable template you can use to draft donor thank you letters:\n\n---\n\n[Your Organization\u2019s Letterhead]  \n[Date]\n\n[Donor's Name]  \n[Donor's Address]  \n[City, State, ZIP Code]  \n\nDear [Donor's Name],\n\nI hope this letter finds you well. On behalf of [Your Organization's Name], I would like to extend our heartfelt gratitude for your generous contribution of [Donation Amount] on [Date of Donation]. Your support is invaluable to us and truly makes a difference.\n\nThanks to your kindness, [Briefly Explain How the Donation Will Be Used: for example, we are able to provide meals to families in need, advance groundbreaking research, support educational programs, etc.]. Your gift plays a critical role in helping us achieve our mission of [State Your Organization's Mission].\n\nWe are deeply grateful for your commitment and partnership in our efforts to [Mention Specific Goals or Outcomes]. It is supporters like you who fuel our impact and inspire us to continue our important work.\n\nAs a token of our appreciation, [Optional: mention if you're offering something like a membership, a small gift, or an invitation to a donor event]. We also invite you to stay updated on our progress and initiatives by [Include How They Can Stay Involved: following us on social media, signing up for newsletters, attending upcoming events, etc.].\n\nOnce again, thank you for your generous support. We are incredibly fortunate to have you as part of our community. If you have any questions or would like to learn more about our work, please feel free to contact us at [Phone Number] or [Email Address].\n\nWith warm regards,\n\n[Your Name]  \n[Your Position]  \n[Your Organization's Name]  \n[Contact Information]  \n\n---\n\nRemember to personalize the letter with specific details about the donor and the impact of their donation. This shows genuine appreciation and helps build a lasting relationship.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 409,
+  "estimated_cost_usd": 0.004125,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

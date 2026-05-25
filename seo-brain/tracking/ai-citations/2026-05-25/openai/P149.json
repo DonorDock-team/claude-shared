@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P149",
+  "prompt_text": "How to migrate from Excel to a nonprofit CRM",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.306546+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Migrating from Excel to a nonprofit Customer Relationship Management (CRM) system is a crucial step for organizations looking to improve efficiency, data management, and engagement strategies. Here\u2019s a structured approach to ensure a smooth transition:\n\n### 1. Define Objectives and Requirements\n- **Identify Needs**: Clarify why your organization needs a CRM. Set specific goals, such as improved donor management, enhanced communication, better reporting, etc.\n- **List Requirements**: Determine what features are necessary (e.g., email integration, reporting capabilities, donation tracking) and consider future scaling needs.\n\n### 2. Choose the Right CRM\n- **Research Options**: Look into CRM options specifically designed for nonprofits such as Salesforce Nonprofit Success Pack (NPSP), DonorPerfect, Bloomerang, or Little Green Light.\n- **Evaluate Features**: Compare features, pricing, scalability, user interface, and support services.\n- **Consider Budget**: Take advantage of nonprofit discounts or grants some CRMs offer and ensure the cost aligns with your budget.\n\n### 3. Plan Your Migration\n- **Create a Timeline**: Set milestones for each phase of the migration process.\n- **Assign Responsibilities**: Designate a project manager and involve relevant staff in planning and implementing the migration.\n\n### 4. Prepare Your Data\n- **Data Cleaning**: Review existing Excel data. Remove duplicates, update incomplete records, and ensure consistency.\n- **Data Mapping**: Identify how Excel fields will map to CRM fields to ensure all critical data is transferred.\n- **Backup Data**: Always create backups to prevent data loss during migration.\n\n### 5. Set Up Your CRM\n- **Customization**: Customize the CRM to suit your needs. Set up fields, tags, categories, and other necessary elements.\n- **Integration**: Ensure it integrates with other essential tools like email marketing platforms or fundraising tools.\n\n### 6. Migrate the Data\n- **Test Migration**: Conduct a test migration with a small subset of data to identify potential issues.\n- **Full Data Migration**: Use built-in import tools or migration software to transfer data, verifying accuracy in the CRM afterward.\n\n### 7. Staff Training\n- **Training Programs**: Organize training sessions to familiarize your team with the new CRM and its features.\n- **Documentation**: Provide resources and documentation for future reference.\n\n### 8. Testing and Feedback\n- **Run Tests**: Test CRM functionality comprehensively to ensure everything works as expected.\n- **Gather Feedback**: Collect feedback from users and make necessary adjustments.\n\n### 9. Go Live\n- **Launch**: Once confident, transition fully from Excel to the CRM.\n- **Monitor Usage**: Regularly check for issues and areas of improvement.\n\n### 10. Ongoing Support and Review\n- **Technical Support**: Ensure ongoing technical support from the CRM provider.\n- **Regular Reviews**: Periodically review the CRM\u2019s effectiveness and make adjustments as needed.\n\nBy following these steps, your organization can effectively transition to a CRM, enhancing your capacity to manage relationships and run campaigns more efficiently.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 628,
+  "estimated_cost_usd": 0.00632,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

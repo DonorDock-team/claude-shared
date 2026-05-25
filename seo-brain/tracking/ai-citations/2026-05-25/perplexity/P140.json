@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "perplexity",
+  "timestamp": "2026-05-25T11:48:02.307253+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Several nonprofit-focused **donor CRMs offer native integrations with QuickBooks Online**, so your choice comes down to your size, workflow, and how detailed you want the sync to be.\n\nHere are some of the stronger options, with how they integrate:\n\n---\n\n### 1. DonorPerfect\n\n**Type:** Established nonprofit CRM with built\u2011in **QuickBooks Online** integration.\n\n- DonorPerfect integrates with **QuickBooks Online and QuickBooks Desktop** via a one\u2011direction API, pushing gifts from DonorPerfect into QuickBooks so you avoid double entry.[1]  \n- Gifts in DonorPerfect post to QuickBooks Online **as journal entries**, and you can choose posting method: **individual gifts**, **daily summary**, or **monthly summary** journal entries.[3]  \n- You can **map DonorPerfect general ledger codes to QuickBooks income accounts** and optionally map QuickBooks classes.[3]  \n- Integration is managed from within DonorPerfect (Apps menu \u2192 QuickBooks), where you connect using an Intuit admin login and step through bank account selection, posting options, and GL mapping.[3]  \n\nBest for:  \n- Small to mid\u2011size nonprofits that want a mature donor CRM and are comfortable with **summary or journal\u2011entry based** posting rather than ultra\u2011granular transaction syncing.\n\n---\n\n### 2. CharityEngine\n\n**Type:** All\u2011in\u2011one nonprofit CRM and fundraising platform with a strong QuickBooks Online sync.\n\n- CharityEngine offers **direct integration with QuickBooks Online and QuickBooks Enterprise**, with data syncing \u201cwithout uploads or manual entry.\u201d[2]  \n- It supports **two sync modes**:  \n  - **Detailed Sync (Donor Records):** For smaller orgs that want individual donor detail visible in QuickBooks.[2]  \n  - **Batch Sync:** For larger orgs that prefer reconciliation\u2011level summaries (gross deposits) rather than many line items.[2]  \n- Designed to handle **gross deposit reconciliation, fees, and returns**, improving accuracy of both financial and donor data.[2]  \n\nBest for:  \n- Orgs that care a lot about **reconciliation accuracy** and want flexibility between **detailed donor-level syncing** and **batch deposit syncing** as they grow.\n\n---\n\n### 3. Other tools + QuickBooks Online (via integrations)\n\nSome giving / fundraising platforms integrate to QuickBooks Online and can work alongside a CRM:\n\n- **OnlineGiving.org** integrates with **QuickBooks Online and Desktop** to create deposits from closed giving batches, including **per\u2011fund account mapping, classes, refunds, and cover\u2011the\u2011fee splitting**.[4]  \n- They position Salesforce and Aegis as CRM partners, so in practice you might use **Salesforce Nonprofit Cloud or Aegis CRM** as your donor CRM, with OnlineGiving handling the QuickBooks deposit automation layer.[4]  \n\nBest for:  \n- Organizations already using **Salesforce, Aegis, or another CRM**, wanting to add a **QuickBooks\u2011connected online giving platform** instead of changing their entire CRM.\n\n---\n\n### 4. Shortlist from software directories\n\nSoftware comparison tools (like GetApp) list multiple **fundraising / donor management CRMs marked as integrated with QuickBooks Online**.[6] These often include systems such as DonorSnap, Little Green Light, Bloomerang, and others, though integration depth varies (direct API vs. file export).[6]  \n\nBest for:  \n- If your requirements are flexible and you want to compare **price, usability, and QuickBooks Online compatibility** across many vendors.\n\n---\n\n### How to narrow it down\n\nTo recommend a specific product, the key questions are:\n\n- Approximate **number of donors and annual transactions**?\n- Do you want **every donation** visible in QuickBooks, or are **daily/monthly summaries** enough?\n- Who is your **\u201csystem of record\u201d for donations**\u2014the CRM or QuickBooks?\n- Do you need **classes, funds, programs, or multi\u2011entity** support in QuickBooks?\n\nIf you share those details, I can suggest a more tailored short list (for example: \u201cbest fit if you want detailed donor sync and robust online giving\u201d vs. \u201cbest fit if you only need clean summaries into QuickBooks and a simple donor database\u201d).",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 875,
+  "estimated_cost_usd": 0.018155,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donorperfect.com/integrations/financial-accounting/quickbooks/",
+      "https://blog.charityengine.net/quickbooks-integration",
+      "https://www.donorperfect.com/video/donorperfect-and-quickbooks/",
+      "https://www.onlinegiving.org/support/quickbooks-integration",
+      "https://www.donorperfect.com/video/donorperfect-integration-quickbooks-accounting-software/",
+      "https://www.getapp.com/nonprofit-software/fundraising/w/quickbooks-online-edition/",
+      "https://parse.gl/prompts/p/what-crm-offers-the-best-integration-with-quickbooks-for-non-profits-to-reconcile-donations--90507076-8a45-4bd1-b0b0-539283671622"
+    ]
+  }
+}

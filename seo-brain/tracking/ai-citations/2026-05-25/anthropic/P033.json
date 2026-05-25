@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P033",
+  "prompt_text": "Alternative to DonorBox",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.304328+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Alternatives to DonorBox\n\nHere are some popular alternatives to DonorBox for online fundraising and donation management:\n\n## **Top Alternatives**\n\n### 1. **Givebutter**\n- Free platform with optional tip model\n- Modern, user-friendly interface\n- Good for peer-to-peer fundraising\n- Strong social media integration\n\n### 2. **Zeffy**\n- 100% free for nonprofits (donors cover fees)\n- No platform fees\n- Good for smaller organizations\n- Simple setup\n\n### 3. **Give Lively**\n- Completely free platform\n- No monthly fees or platform charges\n- Clean donation forms\n- Good reporting tools\n\n### 4. **PayPal Fundraising/Charitable Giving**\n- Low transaction fees (1.99% + $0.49)\n- Familiar platform\n- Quick setup\n- Limited customization\n\n### 5. **Donorbox** (keeping for comparison)\n- Starting at 1.5% platform fee\n- Recurring donations\n- Good integration options\n\n### 6. **Kindful** (by Bloomerang)\n- Donor management + CRM\n- More comprehensive but pricier\n- Better for established nonprofits\n\n### 7. **Classy**\n- Enterprise-level solution\n- Extensive customization\n- Higher cost\n- Best for larger organizations\n\n## **What to Consider**\n- **Transaction fees** - compare platform + payment processing fees\n- **Features needed** - recurring donations, event ticketing, P2P fundraising\n- **Organization size** - some platforms better for small vs. large nonprofits\n- **Integration requirements** - CRM, email marketing, accounting software\n\nWhat specific features are most important to you?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Givebutter",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 396,
+  "estimated_cost_usd": 0.005979,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

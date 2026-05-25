@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P077",
+  "prompt_text": "How to track major donor moves management",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306512+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Major Donor Moves Management Tracking\n\n## Essential Tracking Components\n\n### 1. **Contact Information Database**\n- Personal/professional contact details\n- Communication preferences\n- Key relationships and connections\n- Wealth indicators and giving capacity\n- Past giving history\n\n### 2. **Qualification Stage**\nTrack where each donor falls:\n- **Identification** - Potential major donor identified\n- **Qualification** - Capacity and interest confirmed\n- **Cultivation** - Building relationship\n- **Solicitation** - Ask prepared/made\n- **Stewardship** - Post-gift engagement\n\n### 3. **Key Metrics to Monitor**\n- Date of last contact\n- Number of touches (meetings, calls, emails)\n- Stage duration (time in each phase)\n- Officer assignments\n- Next planned action and date\n- Proposal amount/status\n- Likelihood to close\n\n## Tracking Tools\n\n### **CRM/Database Options**\n- **Raiser's Edge** - Industry standard\n- **Salesforce Nonprofit Cloud**\n- **Bloomerang**\n- **DonorPerfect**\n- **Little Green Light** (smaller organizations)\n- **Spreadsheet** (only for very small shops)\n\n### **Contact Reports**\nDocument every interaction:\n- Date and type of contact\n- Who attended\n- Discussion summary\n- Next steps identified\n- Follow-up deadline\n\n## Best Practices\n\n\u2705 **Set visit goals** (e.g., 10-15 visits/month per officer)  \n\u2705 **Schedule next step before leaving** each meeting  \n\u2705 **Log contacts within 24 hours**  \n\u2705 **Review pipeline weekly**  \n\u2705 **Track velocity** through stages  \n\u2705 **Assign clear ownership** of relationships  \n\u2705 **Create tickler systems** for follow-up  \n\n**What size donor pool are you managing?** This affects which system makes most sense.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 440,
+  "estimated_cost_usd": 0.006642,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

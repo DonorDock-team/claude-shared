@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P084",
+  "prompt_text": "Best donor CRM for theaters",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.307105+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a theater really depends on its size, budget, complexity of operations, and specific priorities. The most crucial factor for theaters, unlike many other non-profits, is the **seamless integration between ticketing and donor management**. Your patrons are often your donors, and understanding that relationship is key.\n\nHere's a breakdown of top contenders, categorized by common theater needs:\n\n---\n\n### **Tier 1: Comprehensive Arts & Ticketing Platforms (Best for Mid-to-Large Theaters)**\n\nThese systems are built from the ground up for arts organizations and offer robust, native integration between ticketing, fundraising, membership, and marketing.\n\n1.  **Tessitura:**\n    *   **Pros:** The industry gold standard for large, complex arts organizations. Unparalleled integration of ticketing, fundraising, marketing, and operations. Extremely powerful analytics and reporting. Highly customizable.\n    *   **Cons:** Very expensive, high barrier to entry (requires dedicated IT staff or consultants), steep learning curve. Not suitable for small theaters.\n    *   **Best For:** Large regional theaters, Broadway houses, opera companies, multi-venue arts centers with complex programming and significant fundraising needs.\n\n2.  **AudienceView (AVenture/AudienceView Professional):**\n    *   **Pros:** Comprehensive platform offering ticketing, fundraising, marketing, and patron management. Scalable for various sizes. Cloud-based and often more user-friendly than Tessitura, with good analytics.\n    *   **Cons:** Can still be pricey for smaller organizations. Some users report specific features can be less robust than standalone best-in-class solutions for certain functions.\n    *   **Best For:** Mid-to-large theaters looking for a powerful all-in-one solution that's slightly less daunting than Tessitura.\n\n3.  **Spektrix:**\n    *   **Pros:** Modern, cloud-native platform with strong emphasis on data analytics and marketing automation. Excellent for understanding patron behavior and optimizing campaigns. Good integration of ticketing, CRM, and marketing. Increasingly popular.\n    *   **Cons:** While growing, its market share is still smaller than Tessitura/AudienceView, particularly in the US. Some advanced features might require custom work.\n    *   **Best For:** Mid-size theaters that are data-driven, value modern interfaces, and want to leverage insights for both ticket sales and fundraising.\n\n4.  **PatronManager (built on Salesforce):**\n    *   **Pros:** Leverages the power and flexibility of Salesforce (the world's leading CRM) with specific enhancements for arts organizations, including ticketing. Highly customizable, extensive app ecosystem. Great for those who want long-term scalability and robust reporting.\n    *   **Cons:** Can be complex",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 580,
+  "estimated_cost_usd": 0.001452,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

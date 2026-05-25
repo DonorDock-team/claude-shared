@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306865+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A **Donor CRM with text messaging** is a Customer Relationship Management system specifically designed for nonprofit organizations that includes the functionality to send and receive SMS (text) messages to and from donors.\n\nThis integration allows nonprofits to leverage the direct and immediate nature of text messaging for various donor engagement and fundraising activities.\n\n### Why Text Messaging is Powerful for Donor Engagement:\n\n*   **High Open Rates:** Texts have significantly higher open rates compared to email (often 90%+ within minutes).\n*   **Immediacy:** Ideal for urgent appeals, event reminders, or time-sensitive communications.\n*   **Direct Engagement:** Creates a more personal and direct line of communication.\n*   **Reach:** Most people carry their phones constantly.\n*   **Convenience:** Easy for donors to respond or take action (e.g., click a donation link).\n\n### Key Features to Look For:\n\nWhen evaluating Donor CRMs with text messaging capabilities, consider these features:\n\n1.  **Native Integration vs. Third-Party Integration:**\n    *   **Native:** The texting feature is built directly into the CRM. Often more seamless.\n    *   **Third-Party Integration:** The CRM connects with a separate SMS platform (like Twilio, SendGrid, etc.). This can still be very effective if the integration is robust.\n2.  **Two-Way Communication:** Can you only send texts, or can donors reply, and can those replies be tracked and managed within the CRM? This is crucial for true engagement.\n3.  **Segmentation:** The ability to send targeted texts to specific donor segments (e.g., major donors, first-time donors, event attendees, lapsed donors).\n4.  **Personalization:** Use donor data from the CRM (name, last donation, event attended) to personalize text messages.\n5.  **Automation:** Set up automated text messages based on triggers (e.g., a \"thank you\" text after a donation, an event reminder x days before).\n6.  **Opt-in/Opt-out Management:** Crucial for compliance (TCPA, CTIA guidelines). The system should easily manage donor consent and allow them to opt-out.\n7.  **Reporting & Analytics:** Track delivery rates, open rates, click-through rates (for links), and campaign performance within the CRM.\n8.  **Link Tracking:** Automatically shorten and track clicks on links embedded in text messages (e.g., donation forms, event registration).\n9.  **Keyword Campaigns:** Allow donors to text a specific keyword to a shortcode to subscribe, get information, or donate.\n10. **Templates:** Pre-written message templates to save time and ensure consistent messaging.\n11. **Cost Management:** Understand the per-message cost and how it integrates into your overall CRM budget.\n\n### Popular Donor CRMs (or those with strong integrations) that Offer Text Messaging:\n\nMany modern donor CRMs either have native SMS features or robust integrations with leading SMS platforms. Here are some examples:\n\n1.  **Bloomerang:** A popular nonprofit CRM that focuses on donor retention. While not always native, it integrates well with messaging platforms like Text-to-Engage (part of Kindful, now also Bloomerang) or other SMS services, allowing for personalized, segmented text messaging.\n2.  **Neon One (NeonCRM):** Offers native SMS messaging capabilities for campaigns, appeals, and engagement, allowing for two-way communication and automation.\n3.  **DonorPerfect:** Integrates with various SMS providers to allow for direct texting from the CRM, managing opt-ins, and tracking campaigns.\n4.  **Salesforce Nonprofit Cloud:** Being a highly customizable platform, Salesforce requires specific AppExchange partners for robust SMS functionality (e.g., **Mogli SMS**, **Twilio** integrations are very common). This provides incredibly powerful and automated texting.\n5.  **Kindful (now part of Bloomerang):** Known for its strong integration capabilities, it offers or integrates with robust text messaging tools for various campaigns.\n6.  **Virtuous:** A modern CRM that emphasizes responsive fundraising. It includes powerful marketing automation features that often incorporate SMS as a key channel for personalized donor journeys.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon One",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 878,
+  "estimated_cost_usd": 0.002197,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

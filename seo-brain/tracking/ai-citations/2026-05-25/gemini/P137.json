@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P137",
+  "prompt_text": "Little Green Light limitations",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.307032+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Little Green Light (LGL) is a popular donor management system for nonprofits, particularly known for its affordability, ease of use, and strong customer support. However, like any software, it has limitations that might make it a less ideal fit for certain organizations or specific needs.\n\nHere are some common limitations of Little Green Light:\n\n1.  **Limited Advanced CRM Functionality for Very Large/Complex Organizations:**\n    *   While LGL scales well for many, very large organizations with complex, multi-layered donor relationships, multiple departments, or highly specific internal workflows might find it less robust than enterprise-level CRMs like Salesforce NPSP.\n    *   It may lack the deep customization options for fields, objects, and workflows that highly complex organizations require.\n\n2.  **Less Emphasis on Advanced Marketing Automation:**\n    *   LGL integrates with email marketing platforms like Mailchimp or Constant Contact, but it doesn't have native, sophisticated marketing automation features (e.g., advanced drip campaigns, A/B testing within LGL, complex segmentation triggers based on detailed donor behavior within LGL). You'll typically manage these outside LGL.\n\n3.  **Basic Reporting & Analytics Compared to Dedicated BI Tools:**\n    *   LGL offers strong reporting capabilities for donor data, gifts, campaigns, and pledges. However, for highly visual dashboards, predictive analytics, or very complex multi-dimensional data analysis, it might not be as powerful as dedicated Business Intelligence (BI) tools or more advanced CRMs.\n    *   Custom report building, while flexible, can sometimes require a bit of a learning curve to get exactly what you want.\n\n4.  **No Native Wealth Screening/Prospect Research:**\n    *   LGL doesn't have built-in wealth screening or advanced prospect research tools. It allows for integration with third-party services (which incur additional costs), but the functionality isn't native to the platform itself.\n\n5.  **Less Robust Event Management for Complex Events:**\n    *   LGL handles basic event registration and ticketing well. For very complex events (e.g., multi-track conferences, tiered sponsorships with intricate",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 445,
+  "estimated_cost_usd": 0.001114,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

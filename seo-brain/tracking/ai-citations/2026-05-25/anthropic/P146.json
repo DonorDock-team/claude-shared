@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P146",
+  "prompt_text": "Best donor CRM with grant tracking",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306165+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs with Grant Tracking\n\n## Top Recommendations\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large nonprofits with complex needs\n- Robust grant management module\n- Tracks full grant lifecycle (prospecting \u2192 reporting)\n- Customizable dashboards and reporting\n- **Pricing:** ~$36-$150/user/month\n\n### **2. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- Intuitive interface with built-in grant tracking\n- Strong donor retention focus\n- Email integration and reporting\n- **Pricing:** Starts ~$125/month\n\n### **3. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established nonprofits\n- Comprehensive grant management features\n- Fundraising analytics\n- Industry standard (though can be expensive)\n- **Pricing:** Custom (typically $10K+/year)\n\n### **4. Neon CRM**\n- **Best for:** Budget-conscious organizations\n- Grant tracking included in all plans\n- Event management and membership tools\n- Good reporting capabilities\n- **Pricing:** ~$50-$200/month\n\n### **5. Foundant GLM (GrantsConnect)**\n- **Best for:** Grant-focused organizations\n- Purpose-built for grant lifecycle management\n- Application tracking and reporting\n- Integrates with donor databases\n- **Pricing:** Custom quotes\n\n## Key Features to Look For\n- \u2705 Grant application tracking\n- \u2705 Deadline reminders\n- \u2705 Reporting requirement tracking\n- \u2705 Document storage\n- \u2705 Funder relationship management\n- \u2705 Budget tracking per grant\n\n**What's your organization's size and budget?** That'll help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 415,
+  "estimated_cost_usd": 0.006267,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

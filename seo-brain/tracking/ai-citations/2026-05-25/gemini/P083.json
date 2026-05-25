@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P083",
+  "prompt_text": "Best donor CRM for museums",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.307025+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a museum really depends on the museum's size, budget, specific needs (e.g., heavy emphasis on membership, large-scale events, extensive grant tracking), and existing tech stack.\n\nHowever, based on features, scalability, and suitability for cultural institutions, here are the top contenders, broken down by their strengths:\n\n---\n\n### Top Tier & Museum-Specific Solutions\n\n1.  **Blackbaud Altru:**\n    *   **Why it's great for museums:** This is arguably the *most purpose-built* solution for cultural institutions. Altru is an all-in-one system designed to manage ticketing, memberships, fundraising, retail, education programs, and visitor services. It provides a unified view of every interaction a visitor or donor has with your museum.\n    *   **Strengths:**\n        *   Deep integration of ticketing/admissions with membership and donor data.\n        *   Robust membership management (tiers, benefits, renewals).\n        *   Comprehensive fundraising tools.\n        *   Event management for museum programs and galas.\n        *   POS integration for gift shops.\n        *   Strong reporting across all operational areas.\n    *   **Considerations:** Can be a significant investment, requires dedicated training, and its interface can feel a bit dated to some users.\n\n2.  **Tessitura:**\n    *   **Why it's great for museums:** Similar to Altru, Tessitura is a powerful enterprise-level system specifically designed for cultural institutions (performing arts, museums, zoos, etc.). It offers unparalleled integration across ticketing, CRM, fundraising, marketing, and more.\n    *   **Strengths:**\n        *   Extremely comprehensive for visitor engagement, fundraising, and marketing.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 370,
+  "estimated_cost_usd": 0.000927,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

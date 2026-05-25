@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P066",
+  "prompt_text": "Donor CRM with campaign and appeal tracking",
+  "engine": "openai",
+  "timestamp": "2026-05-25T11:48:02.307062+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "To effectively manage donor relationships and track campaigns and appeals, you would benefit from using a dedicated Donor CRM (Customer Relationship Management) system with robust features tailored for non-profit organizations. Here's an outline of key features and considerations for such a system:\n\n### Key Features of a Donor CRM with Campaign and Appeal Tracking:\n\n1. **Donor Management:**\n   - **Comprehensive Donor Profiles:** Store detailed information on donors, including contact details, donation history, preferences, and interactions.\n   - **Segmentation and Targeting:** Ability to segment donors based on various criteria such as donation size, frequency, recency, and interests.\n\n2. **Campaign Management:**\n   - **Campaign Creation and Planning:** Tools to design and execute fundraising campaigns with specific goals and timelines.\n   - **Multi-Channel Outreach:** Support for email, direct mail, phone, and social media campaigns.\n   - **Budgeting and Expense Tracking:** Track costs associated with individual campaigns to assess ROI.\n\n3. **Appeals Tracking:**\n   - **Appeal Design and Management:** Develop specific appeals under larger campaigns, with distinct goals and target audiences.\n   - **Response Tracking:** Monitor responses to each appeal to evaluate effectiveness and donor engagement.\n\n4. **Analytics and Reporting:**\n   - **Donation Tracking and Reporting:** Real-time tracking of donations, pledges, and recurring gifts with detailed reporting dashboards.\n   - **KPIs and Performance Metrics:** Metrics such as donor retention rates, average gift size, and appeal conversion rates to measure success.\n   - **Custom Reports and Data Export:** Capability to generate custom reports for deeper insights and to export data for further analysis.\n\n5. **Automations and Workflows:**\n   - **Automated Thank Yous and Acknowledgements:** Automatic generation and sending of thank-you emails or letters post-donation.\n   - **Workflow Automation:** Automate routine tasks like data entry, donor outreach scheduling, and reminders for follow-up.\n\n6. **Integrations:**\n   - **Integration with Marketing Tools:** Seamless integration with email marketing platforms, social media, and event management tools.\n   - **Payment Processing Integration:** Secure integration with payment gateways for processing online donations.\n\n7. **Security and Compliance:**\n   - **Data Security:** Ensure the protection of donor information with robust security protocols.\n   - **Compliance Features:** Tools to help comply with relevant regulations such as GDPR or CAN-SPAM.\n\n### Considerations for Choosing a Donor CRM:\n\n- **Scalability:** Choose a system that can grow with your organization and handle increasing amounts of data and donors.\n- **Ease of Use:** A user-friendly interface is crucial for ensuring that your team can effectively use the CRM without extensive training.\n- **Support and Training:** Look for a CRM provider that offers strong customer support and training resources.\n- **Cost vs. Features:** Evaluate pricing structures to ensure they align with your budget and organizational needs, taking both initial and ongoing costs into account.\n\n### Popular Donor CRM Solutions:\n\n- **Salesforce Nonprofit Cloud:** Known for its flexibility and powerful features, suitable for larger organizations.\n- **Bloomerang:** Focuses on donor retention and provides easy-to-use tools for small to mid-sized nonprofits.\n- **Blackbaud Raiser\u2019s Edge NXT:** Comprehensive features for nonprofits with advanced fundraising needs.\n- **Neon One CRM:** Offers integrated solutions for CRM, fundraising, and event management.\n- **Little Green Light:** An affordable and user-friendly option for small nonprofits.\n\nBy implementing an effective Donor CRM system that includes these features and considerations, your organization can enhance donor relationships, streamline campaigns, and ultimately improve fundraising outcomes.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Little Green Light",
+    "Neon One",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 735,
+  "estimated_cost_usd": 0.007387,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P050",
+  "prompt_text": "Best donor CRM for community nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.307199+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Community Nonprofits\n\nHere are the top options based on size and needs:\n\n## **Best Overall for Small-Medium Nonprofits**\n\n**Bloomerang** ($125+/month)\n- Excellent donor retention focus\n- User-friendly interface\n- Strong engagement tracking\n- Good reporting for the price\n\n## **Best Free/Low-Cost Options**\n\n**Little Green Light** ($59+/month)\n- Designed specifically for small nonprofits\n- Affordable with full features\n- Good customer support\n\n**Kindful** (now part of Bloomerang)\n- Simple, clean interface\n- Good for beginners\n- Integrates with QuickBooks\n\n**Bitrix24** (Free tier available)\n- Free for unlimited users\n- Basic CRM functionality\n- Good for very small budgets\n\n## **Best for Growing Organizations**\n\n**Salesforce Nonprofit Cloud** (Free for 10 licenses, then paid)\n- Extremely powerful and scalable\n- Steeper learning curve\n- Large community and resources\n\n**NeonCRM** ($50+/month)\n- All-in-one solution\n- Includes event management\n- Good value for features\n\n## **Key Factors to Consider**\n- **Budget**: Annual costs range from free to $3,000+\n- **Ease of use**: Staff technical comfort level\n- **Integration needs**: Email, accounting, website\n- **Support**: Training and customer service quality\n\n**My recommendation**: Start with **Bloomerang** or **Little Green Light** for best balance of features, ease, and cost.\n\nWhat's your budget and team size?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 372,
+  "estimated_cost_usd": 0.005628,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

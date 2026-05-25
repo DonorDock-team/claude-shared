@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P013",
+  "prompt_text": "DonorDock vs Little Green Light",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.307175+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Both DonorDock and Little Green Light (LGL) are excellent donor management systems designed for non-profits, but they approach the task with slightly different philosophies, feature sets, and target audiences.\n\nHere's a breakdown to help you compare them:\n\n## DonorDock vs. Little Green Light\n\n| Feature                 | DonorDock                                            | Little Green Light (LGL)                                |\n| :---------------------- | :--------------------------------------------------- | :------------------------------------------------------ |\n| **Core Philosophy**     | All-in-one, modern CRM for consolidating tools. Emphasizes workflow, automation, and a clean UI. | Robust, user-friendly, and cost-effective donor management. Focuses on strong data management, reporting, and ease of use. |\n| **Target Audience**     | Small to medium non-profits looking for a comprehensive, modern system with integrated marketing/fundraising. | Small to medium non-profits, especially those migrating from spreadsheets or seeking an affordable yet powerful solution. |\n| **User Interface (UI)** | Very modern, clean, intuitive, dashboard-centric. Designed for a streamlined workflow. | Functional, straightforward, and easy to navigate. Less \"flashy\" than DonorDock but highly effective. |\n| **Core Donor Management** | Excellent. Contact profiles, gift tracking, pledges, recurring gifts, segmentation, donor histories. | Excellent. Comprehensive contact profiles, gift tracking, pledges, recurring gifts, robust segmentation, relationship tracking. |\n| **Online Fundraising**  | Built-in donation forms, campaign pages, peer-to-peer (often in higher tiers). | LGL Forms (separate but tightly integrated product) for donation forms, event registrations, and general data collection. |\n| **Email Marketing**     | Built-in email campaign tools, segmentation, and automation features. | Integration with popular email marketing platforms like Mailchimp, Constant Contact, etc. (no native bulk email sending). |\n| **Event Management**    | Often more robust built-in event management, ticketing, and attendee tracking. | Basic event tracking, LGL Forms can handle registrations and payments. |\n| **Volunteer Management** | Often built-in, allowing tracking of hours, roles, and communications. | Basic tracking of volunteer activities and hours. |\n| **Grant Management**    | Often more integrated tools for tracking grant applications, deadlines, and reports. | Can track grants as gifts, use custom fields for deadlines, and link to organizations. |\n| **Reporting & Analytics** | Strong, customizable dashboards, visual reports, detailed insights into donor behavior and campaigns. | Very strong, highly customizable reports, powerful filtering, export options. Excellent for detailed data analysis. |\n| **Integrations**        | Good for common tools (Stripe, QuickBooks, Mailchimp, etc.). | Excellent. Known for robust integrations (Stripe, PayPal, QuickBooks, Mailchimp, Zapier) and easy data import/export. |\n| **Pricing**             | Typically subscription-based, tiered by",
+  "donordock_mentioned": true,
+  "donordock_position": 5,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 627,
+  "estimated_cost_usd": 0.001569,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P083",
+  "prompt_text": "Best donor CRM for museums",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306966+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Museums\n\nHere are the top donor management systems well-suited for museums:\n\n## **Top Recommendations**\n\n### **1. Blackbaud Raiser's Edge NXT**\n- **Best for:** Large museums with complex needs\n- Industry standard for arts/culture organizations\n- Robust fundraising, membership, and event management\n- Strong reporting and analytics\n- **Downside:** Expensive, steep learning curve\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Museums wanting customization\n- Highly customizable to museum-specific needs\n- Integrates with ticketing and retail systems\n- Excellent for constituent relationship management\n- **Downside:** Requires setup expertise, can be pricey\n\n### **3. Altru (by Blackbaud)**\n- **Best for:** Mid-to-large museums\n- **Purpose-built for museums** - handles donations, memberships, ticketing, programs, and retail in one system\n- Strong constituent management\n- **Downside:** Significant investment required\n\n### **4. NeonCRM**\n- **Best for:** Small to mid-sized museums\n- Affordable, user-friendly\n- Good membership management features\n- Decent reporting capabilities\n- **Downside:** Less robust than enterprise solutions\n\n### **5. Bloomerang**\n- **Best for:** Smaller museums focused on donor retention\n- Strong donor retention tools and engagement scoring\n- Intuitive interface\n- Good value for price\n- **Downside:** Limited customization\n\n## **Key Features to Consider**\n- Membership tier management\n- Integration with ticketing systems\n- Event management for galas/exhibitions\n- Volunteer tracking\n- Grant management\n- Planned giving tools\n\n**What's your museum's size and budget range?** That would help narrow the recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 412,
+  "estimated_cost_usd": 0.006219,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

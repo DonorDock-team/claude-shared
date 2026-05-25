@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P019",
+  "prompt_text": "Alternative to Blackbaud Raisers Edge",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306131+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Blackbaud Raiser's Edge (RE) has been a long-standing CRM for nonprofits, but many organizations find themselves looking for alternatives due to factors like cost, user interface, complexity, specific feature gaps, or a desire for a more modern cloud-native solution.\n\nHere's a breakdown of excellent alternatives, categorized to help you navigate:\n\n---\n\n## Top Alternatives to Blackbaud Raiser's Edge\n\n### 1. Salesforce Ecosystem (Highly Customizable & Scalable)\n\n*   **Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack):**\n    *   **Pros:** Extremely powerful, highly customizable, vast AppExchange (integrations), excellent for complex needs, strong reporting. Can manage fundraising, programs, marketing, volunteers, grants, and more. Strong community and partner ecosystem.\n    *   **Cons:** Can be complex to set up and maintain without expertise. Implementation costs can be significant. The out-of-the-box NPSP is a framework; requires tailoring.\n    *   **Best For:** Mid-to-large nonprofits with diverse needs, organizations that value customization and scalability, and those already using other Salesforce products.\n    *   **Related:** Many products are built *on* Salesforce, offering more specialized or out-of-the-box solutions like **Affinaquest**, **roundCause**, or solutions from various Salesforce consulting partners.\n\n### 2. Modern Cloud-Native Nonprofit CRMs (Often User-Friendly & Integrated)\n\nThese are often direct competitors designed specifically for nonprofits.\n\n*   **Bloomerang:**\n    *   **Pros:** Very user-friendly interface, strong focus on donor retention and engagement, built-in email marketing and wealth screening tools, good reporting, excellent customer support. Integrates with Kindful (which they acquired).\n    *   **Cons:** May not have the depth of customization for extremely complex program management needs compared to Salesforce.\n    *   **Best For:** Small to mid-size organizations seeking an intuitive, engaging platform focused on fundraising and donor relationships.\n\n*   **DonorPerfect:**\n    *   **Pros:** Long-standing, robust feature set covering donor management, fundraising, event management, and reporting. Good balance of features and ease of use. Strong support and training.\n    *   **Cons:** UI can feel a bit dated compared to newer platforms for some users.\n    *   **Best For:** Small to mid-size nonprofits looking for a comprehensive, proven solution with a strong track record.\n\n*   **Virtuous:**\n    *   **Pros:** Modern, visually appealing interface with a focus on \"responsive fundraising\" and personalized donor journeys. Strong automation, marketing, and predictive analytics capabilities. Good for multi-channel engagement.\n    *   **Cons:** Can be more expensive than some entry-level options. Requires a shift in fundraising strategy to leverage its full potential.\n    *   **Best For:** Mid-to-large nonprofits focused on modern, data-driven, personalized donor engagement and sophisticated marketing automation.\n\n*   **NeonOne (formerly NeonCRM):**\n    *   **Pros:** Offers a comprehensive suite of tools including CRM, fundraising, event management, membership management, website integration, and peer-to-peer functionality. Scalable and flexible.\n    *   **Cons:** Can feel like a collection of tools rather than a completely seamless single platform. Some features might have a steeper learning curve.\n    *   **Best For:** Nonprofits with diverse needs, particularly those managing memberships, events, and a variety of fundraising campaigns.\n\n*   **EveryAction (NGP VAN):**\n    *   **Pros:** Very strong in advocacy, organizing, and political campaigns, but",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 768,
+  "estimated_cost_usd": 0.001922,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

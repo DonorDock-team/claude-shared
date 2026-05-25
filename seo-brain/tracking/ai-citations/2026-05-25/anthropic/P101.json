@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P101",
+  "prompt_text": "DonorPerfect total cost of ownership",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306968+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorPerfect Total Cost of Ownership\n\nThe total cost of ownership (TCO) for DonorPerfect varies significantly based on your organization's size and needs. Here's a breakdown:\n\n## **Pricing Structure**\n\n### Base Subscription Costs\n- **Starting price**: ~$89/month (billed annually)\n- **Typical range**: $1,000 - $10,000+ annually depending on:\n  - Number of records in database\n  - Number of users\n  - Features/modules needed\n  - Payment processing volume\n\n### Common Add-On Costs\n- **DonorPerfect Online (DPOL)** - Online donation forms: $25-50+/month\n- **Constant Contact integration**: $20+/month\n- **Additional user licenses**: Variable pricing\n- **Mobile app access**: May require higher tier\n- **Advanced reporting tools**: Additional fees\n- **API access**: May require premium plan\n\n## **Implementation & Setup Costs**\n\n- **Data migration**: $500 - $3,000+ (depending on complexity)\n- **Training**: \n  - Basic training often included\n  - Advanced training: $100-200/hour\n  - Group sessions available\n- **Customization**: Variable, based on needs\n\n## **Ongoing Costs**\n\n- **Payment processing fees**: 2.2% - 3.5% + per-transaction fees\n- **Support**: Premium support packages available\n- **Annual maintenance**: Included in subscription\n- **Updates**: Included\n\n## **Hidden/Potential Costs**\n\n- Staff time for learning and administration\n- Data cleanup/preparation\n- Custom integrations\n- Additional storage for large databases\n\n## **Typical Annual TCO Estimates**\n\n- **Small nonprofits** (<5,000 contacts): $1,500 - $3,000/year\n- **Mid-sized** (5,000-25,000 contacts): $3,000 - $8,000/year\n- **Larger organizations**: $8,000 - $20,000+/year\n\n**Best practice**: Request a customized quote from DonorPerfect based on your specific requirements for the most accurate TCO estimate.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 498,
+  "estimated_cost_usd": 0.007521,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P046",
+  "prompt_text": "Best donor CRM for arts and cultural nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-25T11:48:02.306882+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Arts & Cultural Nonprofits\n\n## Top Recommendations\n\n### **1. PatronManager (by Salesforce)**\n- **Best for:** Performing arts organizations, theaters, museums\n- **Key features:** Built on Salesforce specifically for arts orgs, integrates ticketing with donor management, tracks patron engagement across events\n- **Pricing:** Custom (typically starts ~$3,000-5,000/year)\n\n### **2. Blackbaud Altru**\n- **Best for:** Museums, zoos, aquariums, cultural institutions\n- **Key features:** Combines CRM, ticketing, membership, and fundraising in one system\n- **Pricing:** Custom (enterprise-level pricing)\n\n### **3. Bloomerang**\n- **Best for:** Small to mid-sized arts organizations\n- **Key features:** User-friendly, strong retention metrics, excellent donor engagement tools\n- **Pricing:** Starting at ~$125/month\n\n### **4. Little Green Light**\n- **Best for:** Budget-conscious small arts nonprofits\n- **Key features:** Affordable, solid reporting, tracks donations and relationships\n- **Pricing:** Starting at $39/month\n\n### **5. Tessitura**\n- **Best for:** Large performing arts centers, museums with complex needs\n- **Key features:** Industry standard for major arts institutions, robust ticketing integration\n- **Pricing:** Enterprise-level (significant investment)\n\n## Key Considerations for Arts Organizations\n- Integration with ticketing systems\n- Event attendance tracking\n- Membership management\n- Campaign tracking for galas/exhibitions\n- Volunteer coordination\n\n**What size is your organization and what's your budget range?** This will help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 391,
+  "estimated_cost_usd": 0.005919,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P081",
+  "prompt_text": "Best donor CRM for community colleges",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306867+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a community college depends heavily on specific needs, budget, team size, and existing tech infrastructure. However, community colleges generally benefit from CRMs that offer a good balance of features, ease of use, affordability, and the ability to manage diverse donor types (alumni, local businesses, community members, foundations).\n\nHere are some of the top contenders, along with their pros and cons specifically for community colleges:\n\n---\n\n### Top Recommendations for Community Colleges\n\n1.  **Bloomerang**\n    *   **Why it's great for CCs:** Bloomerang is known for its modern, user-friendly interface and strong focus on donor engagement and retention. It's often praised for being intuitive, making it easier for smaller teams or those with limited dedicated IT support to get up and running.\n    *   **Pros:**\n        *   **User-friendly:** Easy to learn and navigate, reducing training time.\n        *   **Strong Engagement Tools:** Built-in email marketing, communication tracking, and wealth screening integrations.\n        *   **Good Reporting:** Robust reporting features that help track donor behavior and campaign effectiveness.\n        *   **Affordable:** Tiered pricing that can scale with your needs and budget.\n        *   **Integrations:** Connects well with online giving platforms, accounting software (like QuickBooks), and email tools.\n        *   **Focus on Retention:** Features designed to help improve donor loyalty.\n    *   **Cons:**\n        *   While comprehensive, it might not have the absolute deepest major gift tracking capabilities of an enterprise-level system like Raiser's Edge NXT.\n        *   Advanced customization options may be more limited compared to Salesforce.\n\n2.  **Salesforce (with Nonprofit Success Pack - NPSP)**\n    *   **Why it's great for CCs:** Salesforce is incredibly powerful and customizable. With NPSP, it's tailored for non-profits (including educational institutions) and often offers discounted or free licenses for qualifying organizations. It's excellent for colleges that need extreme flexibility and have some technical expertise or budget for implementation partners.\n    *   **Pros:**\n        *   **Highly Customizable:** Can be tailored to fit almost any unique process or data tracking need.\n        ",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 471,
+  "estimated_cost_usd": 0.001179,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

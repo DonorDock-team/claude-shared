@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P024",
+  "prompt_text": "How much does nonprofit donor CRM cost",
+  "engine": "gemini",
+  "timestamp": "2026-05-25T11:48:02.306648+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The cost of a nonprofit donor CRM (Customer Relationship Management) system varies **significantly** based on several factors, including the size of your organization, the features you need, the number of contacts/donors you manage, and the level of support required.\n\nIt's rarely a one-time purchase; most CRMs are offered as a Software-as-a-Service (SaaS) with recurring monthly or annual subscription fees, plus potential one-time setup costs.\n\nHere's a breakdown of the typical cost components and price ranges:\n\n---\n\n### Key Cost Components:\n\n1.  **Subscription/Licensing Fees:**\n    *   This is the core recurring cost, usually paid monthly or annually.\n    *   Often tiered based on:\n        *   **Number of Contacts/Donors:** The most common pricing model.\n        *   **Number of Users:** How many staff members need access.\n        *   **Feature Set:** Basic vs. advanced functionality.\n        *   **Transaction Volume/Revenue Processed:** Less common for core CRM, but can be a factor for integrated payment processing.\n\n2.  **Setup/Implementation Fees:**\n    *   One-time costs to get the system up and running.\n    *   Can include configuration, initial training, and data migration assistance.\n    *   Some providers waive these fees for simpler plans.\n\n3.  **Data Migration:**\n    *   The process of transferring your existing donor data from spreadsheets or an old system into the new CRM.\n    *   Can be done in-house (time-consuming) or with vendor assistance (potentially an extra fee).\n\n4.  **Training & Support:**\n    *   Basic training is often included, but advanced or personalized training might be an extra cost.\n    *   Ongoing support (phone, email, chat) is usually part of the subscription, but premium support tiers can exist.\n\n5.  **Add-ons & Integrations:**\n    *   Connecting your CRM to other tools (email marketing, accounting software like QuickBooks, event platforms, wealth screening tools).\n    *   Some integrations are free or built-in, others require separate subscriptions or one-time setup fees.\n\n6.  **Customization:**\n    *   If your organization has unique needs that require custom fields, workflows, or reports, this can incur additional development costs, especially with highly flexible platforms like Salesforce.\n\n7.  **Payment Processing Fees:**\n    *   While not strictly CRM costs, if you process online donations through the CRM's integrated tools, you'll pay transaction fees (typically 2.2% - 3.5% + $0.30 per transaction).\n\n---\n\n### Typical Price Ranges:\n\n**1. Free / Very Low Cost (for very small or new nonprofits):**\n*   **Cost:** $0 - $50 per month\n*   **Features:** Basic contact management, donation tracking, simple reporting. May have limited contacts or users.\n*   **Examples:** Some basic versions of platforms like Givebutter (free for core features, relies on tips), Little Green Light (very affordable tiers), CiviCRM (open source, but requires technical expertise for setup/hosting), Salesforce NPSP (10 free licenses for qualified nonprofits, but significant implementation costs can apply).\n\n**2. Small to Medium-Sized Nonprofits (growing needs):**\n*   **Cost:** $50 - $300 per month (plus potential setup fees of $500 - $2,000+)\n*   **Features:** More robust donor profiles, segmentation, email marketing integration, online donation forms, basic event management, more comprehensive reporting, increased contact limits.\n*   **Examples:** Bloomerang, Kindful (now part of Bloomerang), DonorPerfect, Neon One (NeonCRM), Little Green Light, some tiers of Salesforce NPSP with paid add-ons.\n\n**3. Medium to Large Nonprofits (complex operations):**\n*   **Cost:** $300 - $1,000+ per month (plus potential setup fees of $2,000 - $10,000+)\n*   **Features:** Advanced segmentation, marketing automation, peer-to-peer fundraising, grant management, volunteer",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Givebutter",
+    "Kindful",
+    "Little Green Light",
+    "Neon One",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 901,
+  "estimated_cost_usd": 0.002255,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}
