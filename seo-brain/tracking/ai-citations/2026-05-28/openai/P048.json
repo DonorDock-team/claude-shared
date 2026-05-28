@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P048",
+  "prompt_text": "Donor CRM for nonprofits outgrowing their current tools",
+  "engine": "openai",
+  "timestamp": "2026-05-28T11:41:22.284952+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "As nonprofits grow, their needs for donor management and engagement become more complex, often necessitating a switch to a more robust Customer Relationship Management (CRM) system. Here\u2019s a guide to some donor CRMs that are well-suited for organizations outgrowing their current tools:\n\n### 1. **Salesforce Nonprofit Success Pack (NPSP)**\n- **Overview**: A highly customizable CRM solution built on the Salesforce platform, specifically tailored for nonprofits.\n- **Features**: Donation tracking, donor management, engagement tools, and comprehensive reporting.\n- **Pros**: Highly customizable, scalable as an organization grows, extensive community and support.\n- **Cons**: Can have a steep learning curve and may require technical expertise to customize.\n\n### 2. **Bloomerang**\n- **Overview**: Designed specifically for small to medium-sized nonprofits, Bloomerang focuses on donor retention.\n- **Features**: Donor management, engagement tracking, reporting and analytics, and email automation.\n- **Pros**: User-friendly interface, strong focus on donor engagement and retention metrics.\n- **Cons**: Limited customization compared to more extensive platforms; may not scale as well for very large organizations.\n\n### 3. **Blackbaud Raiser\u2019s Edge NXT**\n- **Overview**: A comprehensive donor management solution popular among mid-sized to large nonprofits.\n- **Features**: Donor management, fundraising, financial management, analytics, and reporting.\n- **Pros**: Robust features catered toward managing complex fundraising operations.\n- **Cons**: Higher cost and complexity; learning curve for new users.\n\n### 4. **Neon CRM**\n- **Overview**: A cloud-based CRM designed for growing nonprofits, focusing on a broad range of organizational needs.\n- **Features**: Fundraising, membership management, event management, and email marketing.\n- **Pros**: Versatile and all-in-one solution with strong customer support; integration with a wide range of applications.\n- **Cons**: Can become expensive as the organization scales and needs more advanced features.\n\n### 5. **Kindful**\n- **Overview**: Comprehensive CRM known for its user-friendly interface and integrations.\n- **Features**: Donor management, fundraising tools, reporting, and integrations with platforms like QuickBooks and Mailchimp.\n- **Pros**: Intuitive interface; good integration options.\n- **Cons**: May lack some advanced features needed by larger organizations.\n\n### 6. **DonorPerfect**\n- **Overview**: Offers a versatile set of tools designed for nonprofits of various sizes.\n- **Features**: Donor management, online forms, reporting, and dashboards.\n- **Pros**: Flexible pricing and features, strong reporting capabilities.\n- **Cons**: Interface can feel outdated compared to newer platforms.\n\n### Considerations When Choosing a CRM:\n- **Budget**: Assess both upfront costs and ongoing expenses.\n- **Scalability**: Ensure the CRM can grow with your organization.\n- **Ease of Use**: Consider the learning curve and training required.\n- **Integration**: Evaluate how well the CRM integrates with your existing tools and workflows.\n- **Customer Support**: Access to reliable and comprehensive support can impact user experience.\n\nBefore making a decision, it's often helpful to take advantage of free trials or demos to better understand each CRM's functionality and how it aligns with your nonprofit's specific needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 685,
+  "estimated_cost_usd": 0.006895,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

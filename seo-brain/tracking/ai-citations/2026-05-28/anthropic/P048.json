@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P048",
+  "prompt_text": "Donor CRM for nonprofits outgrowing their current tools",
+  "engine": "anthropic",
+  "timestamp": "2026-05-28T11:41:22.284337+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM Solutions for Growing Nonprofits\n\nIf your nonprofit is outgrowing spreadsheets or basic donor management tools, here are the top CRM options to consider:\n\n## **Best Overall: Bloomerang**\n- **Best for:** Mid-size nonprofits ($500K-$10M revenue)\n- **Strengths:** Donor retention focus, excellent reporting, intuitive interface\n- **Pricing:** ~$125-200/month\n- **Key features:** Engagement scoring, wealth screening, email marketing\n\n## **Most Comprehensive: Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations needing customization\n- **Strengths:** Highly scalable, robust integrations, program management\n- **Pricing:** 10 free licenses, then ~$36/user/month\n- **Consider if:** You have/can hire technical expertise\n\n## **Best Value: Kindful (by Bloomerang)**\n- **Best for:** Small-to-mid size transitioning from basic tools\n- **Strengths:** Affordable, easy adoption, online giving integration\n- **Pricing:** ~$100-150/month\n- **Key features:** Donor profiles, task management, simple reporting\n\n## **Best for Comprehensive Fundraising: NeonCRM**\n- **Best for:** Event-heavy organizations\n- **Strengths:** All-in-one platform, membership management, peer-to-peer\n- **Pricing:** ~$50-200/month based on contacts\n- **Key features:** Event registration, volunteer tracking, integrated payments\n\n## **Best for Data-Driven Orgs: Blackbaud Raiser's Edge NXT**\n- **Best for:** Established nonprofits ($5M+ revenue)\n- **Strengths:** Industry standard, powerful analytics, major gift tracking\n- **Pricing:** Custom (typically $10K+/year)\n- **Note:** Steeper learning curve\n\n## **Key Questions to Ask Before Choosing:**\n\n1. **What's your budget?** (Include implementation + training costs)\n2. **How many donor records?** (Pricing often scales with database size)\n3. **What integrations do you need?** (Email, accounting, online giving, etc.)\n4. **Do you have technical staff?** (Affects implementation complexity)\n5. **What's your primary use case?** (Major gifts, events, monthly giving, grants?)\n\n## **Migration Tips:**\n\n- **Clean your data first** - Don't migrate messy data\n- **Plan 3-6 months** for proper implementation\n- **Budget for training** - User adoption is critical\n- **Start with core features** - Don't overwhelm staff initially\n- **Request demos** from 2-3 finalists with your actual use cases\n\n**Most nonprofits in growth phase find success with Bloomerang or NeonCRM** - they offer the right balance of features, usability, and cost.\n\nWhat's your organization's annual budget and primary fundraising focus? I can provide a more specific recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 21,
+  "output_tokens": 686,
+  "estimated_cost_usd": 0.010353,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

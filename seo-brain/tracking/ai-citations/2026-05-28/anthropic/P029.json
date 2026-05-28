@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P029",
+  "prompt_text": "Best nonprofit CRM with fast implementation",
+  "engine": "anthropic",
+  "timestamp": "2026-05-28T11:41:22.284962+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Nonprofit CRMs with Fast Implementation\n\n## **Top Quick-to-Deploy Options:**\n\n### **1. Bloomerang** \u2b50 Best Overall for Speed\n- **Implementation: 1-2 weeks**\n- Purpose-built for nonprofits\n- Intuitive interface, minimal training needed\n- Strong donor management and engagement tools\n- Pricing: ~$125/month\n\n### **2. Donorbox**\n- **Implementation: Days**\n- Best for small nonprofits needing donation processing\n- Very simple setup\n- Integrated fundraising + basic CRM\n- Pricing: Platform fee on donations (1.5%)\n\n### **3. Kindful (by Bloomerang)**\n- **Implementation: 1-2 weeks**\n- Cloud-based, easy onboarding\n- Good integration with fundraising tools\n- Pricing: ~$100/month+\n\n### **4. Little Green Light**\n- **Implementation: 1-2 weeks**\n- Designed for small-to-mid nonprofits\n- Simple, straightforward setup\n- Pricing: $39-$59/month (very affordable)\n\n### **5. Keela**\n- **Implementation: 2-3 weeks**\n- AI-powered donor insights\n- Growing Canadian option with US presence\n- Pricing: ~$119/month\n\n## **Quick Comparison:**\n\n| CRM | Setup Time | Best For | Starting Price |\n|-----|------------|----------|----------------|\n| Bloomerang | 1-2 weeks | Most nonprofits | $125/mo |\n| Donorbox | Days | Tiny orgs | 1.5% fee |\n| Little Green Light | 1-2 weeks | Budget-conscious | $39/mo |\n\n**What's your nonprofit's size and primary need?** (donor management, volunteer tracking, fundraising campaigns?)",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Keela",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 431,
+  "estimated_cost_usd": 0.006507,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

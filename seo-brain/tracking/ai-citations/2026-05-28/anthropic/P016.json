@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P016",
+  "prompt_text": "Alternative to DonorPerfect",
+  "engine": "anthropic",
+  "timestamp": "2026-05-28T11:41:22.285019+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Alternatives to DonorPerfect\n\nHere are some popular alternatives to DonorPerfect for nonprofit donor management:\n\n## **Top Alternatives**\n\n### **1. Bloomerang**\n- Strong donor retention focus\n- Intuitive interface\n- Built-in engagement metrics\n- Good for small to mid-sized nonprofits\n\n### **2. Little Green Light**\n- Affordable pricing\n- User-friendly\n- Good reporting capabilities\n- Ideal for smaller organizations\n\n### **3. Salesforce Nonprofit Cloud**\n- Highly customizable\n- Scalable for large organizations\n- Robust features\n- Steeper learning curve\n\n### **4. Kindful (now Bloomerang)**\n- Clean, modern interface\n- Good automation features\n- Merged with Bloomerang in 2020\n\n### **5. NeonCRM**\n- All-in-one solution\n- Membership management\n- Event registration\n- Good for growing nonprofits\n\n### **6. Blackbaud Raiser's Edge**\n- Industry standard for large nonprofits\n- Comprehensive features\n- Higher price point\n- Cloud (NXT) and on-premise versions\n\n### **7. Givebutter**\n- Free for nonprofits\n- Modern, easy-to-use\n- Good for fundraising campaigns\n- Limited advanced features\n\n## **What to Consider**\n- Organization size and budget\n- Required features (events, memberships, grants)\n- Integration needs\n- User technical expertise\n- Reporting requirements\n\nWhat specific features are most important for your organization?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 356,
+  "estimated_cost_usd": 0.005385,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

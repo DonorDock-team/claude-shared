@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P020",
+  "prompt_text": "Cheaper alternative to Blackbaud",
+  "engine": "openai",
+  "timestamp": "2026-05-28T11:41:22.284985+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Blackbaud is a prominent provider of cloud software solutions tailored for non-profits, especially focusing on fundraising, financial management, and donor management. If you're looking for a cheaper alternative, there are several options to consider that offer similar functionalities. Here are a few alternatives:\n\n1. **Bloomerang**: Known for its user-friendly interface and strong customer support, Bloomerang is designed to help non-profits manage donors and track fundraising efforts. It's more affordable for smaller organizations.\n\n2. **NeonCRM**: This platform offers a comprehensive set of tools for donor management, event planning, and email marketing. It is often praised for its customization capabilities and integration options at a competitive price.\n\n3. **Little Green Light**: A cloud-based donor management system that is budget-friendly, offering tools for contact management, fundraising, and reporting. It's intuitive and well-suited for small to medium-sized non-profits.\n\n4. **DonorPerfect**: Provides a range of features for fundraising, donor management, and reporting. It's scalable, making it suitable for both small and growing organizations.\n\n5. **Kindful**: Focuses on providing an integrated platform for donor management and online fundraising, with user-friendly features and a sleek interface.\n\n6. **CiviCRM**: An open-source solution that can be customized to meet specific needs. It's particularly cost-effective, though it might require more technical expertise for setup and maintenance.\n\n7. **Sumac**: Offers a modular approach, allowing organizations to choose the specific features they need, from donor management to volunteer coordination.\n\n8. **Wild Apricot**: Known primarily for membership management, it also offers tools for donations and event management, making it useful for certain non-profits.\n\nWhen selecting an alternative, it's important to consider the specific needs of your organization, such as the size of your donor base, the level of customization required, and integration with other systems you currently use. Additionally, many of these platforms offer free trials or demos, which can be helpful in assessing their suitability for your organization.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 413,
+  "estimated_cost_usd": 0.004163,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

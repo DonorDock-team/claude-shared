@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P007",
+  "prompt_text": "DonorDock vs Network for Good",
+  "engine": "anthropic",
+  "timestamp": "2026-05-28T11:41:22.285017+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Network for Good Comparison\n\nBoth are nonprofit fundraising platforms, but they serve different needs and organization sizes.\n\n## **DonorDock**\n\n### Strengths\n- **Affordable pricing** - Starts around $99/month, better for small nonprofits\n- **User-friendly interface** - Clean, modern, intuitive design\n- **Strong donor management** - Excellent contact management and relationship tracking\n- **Good customer support** - Known for responsive, personal service\n- **Task management** - Built-in features for tracking donor interactions and follow-ups\n\n### Limitations\n- Fewer integrations than larger platforms\n- Less robust reporting compared to enterprise solutions\n- Smaller feature set overall\n- Newer platform (less established)\n\n### Best for\nSmall to mid-sized nonprofits ($500K-$5M budget) wanting affordable, straightforward donor CRM\n\n---\n\n## **Network for Good**\n\n### Strengths\n- **All-in-one platform** - Fundraising, email marketing, donor management combined\n- **Fundraising pages** - Easy donation page creation\n- **Payment processing included** - Integrated donation processing\n- **More established** - Longer track record\n- **Coaching/support options** - Offers fundraising coaching services\n\n### Limitations\n- **Higher cost** - Typically more expensive, especially with transaction fees\n- **Transaction fees** - Often 3-5% on donations plus processing fees\n- **Less flexible** - More rigid platform structure\n- **Customer service concerns** - Mixed reviews on support responsiveness\n\n### Best for\nSmall nonprofits wanting an all-in-one solution and willing to pay transaction fees for simplicity\n\n---\n\n## **Key Decision Factors**\n\n**Choose DonorDock if:**\n- Budget-conscious with limited monthly revenue\n- Want strong donor relationship management\n- Prefer flat monthly fee over transaction fees\n- Value customer support quality\n\n**Choose Network for Good if:**\n- Want everything bundled (fundraising + CRM + email)\n- Need fundraising coaching/support\n- Don't mind transaction fee model\n- Want established platform with proven track record\n\n**Budget consideration:** DonorDock typically cheaper for organizations raising $50K+/year due to transaction fee differences.\n\nWhat's your organization's annual fundraising revenue? That would help narrow the recommendation.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 521,
+  "estimated_cost_usd": 0.007863,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}
