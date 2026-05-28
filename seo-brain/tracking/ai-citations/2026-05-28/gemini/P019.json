@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P019",
+  "prompt_text": "Alternative to Blackbaud Raisers Edge",
+  "engine": "gemini",
+  "timestamp": "2026-05-28T11:41:22.284925+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Blackbaud Raiser's Edge (RE) has long been a dominant player in the nonprofit CRM space, but its complexity, cost, and sometimes dated interface lead many organizations to seek alternatives. The market is now rich with modern, cloud-based solutions offering a range of features, price points, and user experiences.\n\nHere are some of the top alternatives to Blackbaud Raiser's Edge, categorized by their general approach and target audience:\n\n---\n\n### Cloud-Based All-in-One Solutions (Direct Competitors)\n\nThese platforms aim to provide comprehensive donor management, fundraising, and communication tools, often with a more modern interface and approach than RE.\n\n1.  **Bloomerang:**\n    *   **Strengths:** Highly intuitive, user-friendly interface, strong focus on donor retention and engagement, excellent reporting tools, robust email marketing, wealth screening integration, and good customer support. Often cited for its ease of use.\n    *   **Best for:** Small to mid-sized nonprofits looking for a modern, engaging, and easy-to-use system with a strong emphasis on donor retention.\n    *   *(Note: Bloomerang acquired Kindful, so Kindful users will eventually migrate or already have access to Bloomerang's core features.)*\n\n2.  **Virtuous:**\n    *   **Strengths:** Modern, proactive fundraising approach, strong automation capabilities, robust reporting and analytics, integrated marketing tools (email, SMS), good for multi-channel fundraising. Focuses on \"responsive fundraising.\"\n    *   **Best for:** Mid-to-large nonprofits looking for a data-driven, automated, and personalized approach to donor engagement.\n\n3.  **DonorPerfect:**\n    *   **Strengths:** Long-standing and comprehensive solution, strong for donor management, fundraising, event management, and grant tracking. Offers robust features for organizations of varying sizes. Good integrations with payment processors and other tools.\n    *   **Best for:** Small to large nonprofits needing a proven, all-in-one system with a wide range of features and scalability.\n\n4.  **Neon CRM (formerly Neon One):**\n    *   **Strengths:** Comprehensive suite including CRM, fundraising, event management, membership management, peer-to-peer, and volunteer management. Highly customizable and offers robust integrations.\n    *   **Best for:** Nonprofits that need an integrated solution for multiple aspects of their operations beyond just donor management (e.g., museums, zoos, membership organizations).\n\n5.  **Little Green Light (LGL):**\n    *   **Strengths:** Affordable, user-friendly, and very capable for its price point. Strong donor management, email, reporting, and online giving forms. Excellent customer support.\n    *   **Best for:** Small to mid-sized nonprofits or those with budget constraints who still need powerful, core CRM functionality without overwhelming complexity.\n\n6.  **EveryAction (part of Bonterra, which also includes NGP VAN):**\n    *   **Strengths:** Extremely powerful and comprehensive, especially strong in advocacy, political campaigns, and large-scale outreach. Integrates fundraising, advocacy,",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One",
+    "Raiser's Edge",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 655,
+  "estimated_cost_usd": 0.00164,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

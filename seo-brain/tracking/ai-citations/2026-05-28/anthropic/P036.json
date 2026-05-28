@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P036",
+  "prompt_text": "Best donor management software for nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-05-28T11:41:22.285022+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor Management Software for Nonprofits\n\nHere are the top donor management platforms based on organization size and needs:\n\n## **Best Overall Options**\n\n### **Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- **Strengths:** Excellent donor retention tools, intuitive interface, strong reporting\n- **Pricing:** Starts ~$125/month\n\n### **Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with complex needs\n- **Strengths:** Highly customizable, robust features, scalable\n- **Pricing:** Free for 10 users (Power of Us program), then varies\n\n### **DonorPerfect**\n- **Best for:** Growing nonprofits\n- **Strengths:** Comprehensive features, good integrations, reliable\n- **Pricing:** Starts ~$89/month\n\n## **Budget-Friendly Options**\n\n### **Little Green Light**\n- Simple, affordable (~$59/month)\n- Great for smaller organizations\n\n### **Kindful** (now Bloomerang)\n- User-friendly interface\n- Good online donation integration\n\n## **Specialized Options**\n\n- **Givebutter** - Free with transaction fees; great for small nonprofits\n- **Keela** - AI-powered insights for data-driven organizations\n- **Blackbaud Raiser's Edge NXT** - Enterprise-level for large institutions\n\n## **Key Features to Consider**\n- Online donation processing\n- Email marketing integration\n- Reporting and analytics\n- Grant tracking\n- Event management\n- Ease of use\n\n**What's your organization's size and primary needs?** I can provide a more specific recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 382,
+  "estimated_cost_usd": 0.005775,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P024",
+  "prompt_text": "How much does nonprofit donor CRM cost",
+  "engine": "gemini",
+  "timestamp": "2026-05-28T11:41:22.284996+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The cost of a nonprofit donor CRM (Constituent Relationship Management) system can vary dramatically, ranging from **completely free** to **tens of thousands of dollars per year**, depending on the size of your organization, the features you need, the number of users, and the complexity of your operations.\n\nIt's not just about the software subscription; there are several components that contribute to the total cost.\n\n### General Cost Ranges (Annual)\n\nHere's a rough breakdown by nonprofit size and need:\n\n1.  **Small/Startup Nonprofits (Under $100K annual budget, 1-2 users):**\n    *   **Cost Range:** $0 - $1,200 per year ($0 - $100/month)\n    *   **What you get:** Basic contact management, donation tracking, email integration, simple reporting. Often relies on free tiers, highly affordable specialized tools, or basic versions of larger platforms.\n    *   **Examples:** Spreadsheets (free, but not a CRM), Little Green Light, Bloomerang Starter, free tiers of Salesforce NPSP (for very small orgs), or other basic systems.\n    *   **One-time setup:** Likely self-setup, minimal cost.\n\n2.  **Medium-Sized Nonprofits ($100K - $1M annual budget, 3-10 users):**\n    *   **Cost Range:** $1,200 - $6,000 per year ($100 - $500/month)\n    *   **What you get:** More robust donor profiles, event management, volunteer management, basic major gift tracking, deeper email marketing integration, improved reporting, some automation.\n    *   **Examples:** Bloomerang, DonorPerfect, NeonOne, SalsaLabs, Classy (often an add-on), Salesforce NPSP (requires more setup for medium orgs), Virtuous (entry-level plans).\n    *   **One-time setup:** $500 - $3,000 (for basic implementation, data migration support, and initial training).\n\n3.  **Large/Enterprise Nonprofits ($1M+ annual budget, 10+ users, complex needs):**\n    *   **Cost Range:** $6,000 - $36,000+ per year ($500 - $3,000+ per month)\n    *   **What you get:** Comprehensive donor management, advanced segmentation, major gift pipeline management, grant tracking, campaign management, robust reporting and analytics, sophisticated automation, multi-departmental use, deep integrations with other systems (accounting, advocacy, marketing automation), custom development capabilities.\n    *   **Examples:** Salesforce NPSP (with significant customization), Blackbaud Raiser's Edge NXT, Virtuous, Microsoft Dynamics 365.\n    *   **One-time setup:** $5,000 - $50,000+ (for extensive implementation, data migration from multiple",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce NPSP",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 636,
+  "estimated_cost_usd": 0.001592,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

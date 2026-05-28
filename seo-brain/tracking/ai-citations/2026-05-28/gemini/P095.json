@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P095",
+  "prompt_text": "Hidden costs of DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-05-28T11:41:22.285003+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorPerfect, like many comprehensive CRM and fundraising platforms, can have \"hidden costs\" that aren't immediately apparent from the base subscription price. These typically fall into categories beyond the core monthly or annual fee. Here's a breakdown:\n\n1.  **Tiered Pricing & Contact Limits:**\n    *   **Exceeding Contact Tiers:** DonorPerfect's pricing is often based on the number of active constituents (donors, volunteers, prospects) in your database. If your database grows beyond your current tier, you'll automatically move to a higher, more expensive tier. This can be a surprise if not budgeted for.\n    *   **Email Sending Limits:** Many tiers also include limits on the number of emails you can send per month. Exceeding these can incur additional per-email charges or require an upgrade.\n\n2.  **Add-on Modules & Integrations (The Marketplace):**\n    *   **Separate Modules:** While DonorPerfect offers a robust core, many advanced features are often available as separate add-on modules that come with additional fees. Examples might include:\n        *   Advanced reporting and analytics tools.\n        *   Peer-to-peer fundraising.\n        *   Auction software integration.\n        *   Advanced event management.\n        *   Specific accounting software integrations beyond basic exports.\n        *   Text-to-give or SMS messaging services (often usage-based fees).\n        *   Direct mail services if you use their print/mail functionality.\n    *   **Third-Party Integrations:** While DonorPerfect integrates with many platforms, the *cost of the third-party service itself* (e.g., Constant Contact, Mailchimp, specific payment gateways like Stripe/PayPal if not using DonorPerfect Payments, grant management tools) is separate. Sometimes, the integration connector itself might have a fee.\n\n3.  **Payment Processing Fees:**\n    *   **Per-Transaction Fees:** If you use DonorPerfect Payments (or integrate with another gateway), there will be a percentage fee and often a small per-transaction fee deducted from each donation. These fees significantly impact the net amount received by your organization.\n    *   **Chargeback Fees:** If a donor disputes a charge, you'll incur a chargeback fee from the payment processor, regardless of the outcome.\n    *   **PCI Compliance Fees:** While often bundled, sometimes there are separate annual fees related to maintaining Payment Card Industry (PCI) compliance for secure transaction processing.\n\n4.  **Implementation & Setup Costs:**\n    *   **Data Migration:** While DonorPerfect provides tools, the process of cleaning, formatting, and migrating your existing donor data from spreadsheets or an old CRM can be extremely time-consuming for your staff. If you hire a consultant to assist, that's a direct cost.\n    *   **Customization:** Setting up custom fields, reports, donation forms, and thank-you letter templates tailored to your organization takes significant staff time or professional service fees.\n    *   **Training:** While basic training might be included, thorough onboarding for all staff, especially those less tech-savvy, requires internal time and resources. You might also opt for additional paid training sessions.\n\n5.  **Staff Time & Productivity:**\n    *   **Learning Curve:** Any new software has a learning curve. Staff time spent learning the system, troubleshooting minor issues, and adapting workflows is a significant hidden cost.\n    *   **Data Entry & Maintenance:** Ongoing data entry, keeping records clean, running reports, and managing campaigns all require dedicated",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 737,
+  "estimated_cost_usd": 0.001844,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P040",
+  "prompt_text": "Donor software with QuickBooks integration",
+  "engine": "perplexity",
+  "timestamp": "2026-05-28T11:41:22.285012+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Several **donor / fundraising CRMs integrate directly with QuickBooks**, so you can track donors and campaigns while keeping accounting in sync and avoiding double entry.\n\nHere are strong options, all designed for nonprofits:\n\n| Tool | Type | QuickBooks version | Key integration features |\n|------|------|--------------------|--------------------------|\n| **DonorSnap** | Donor management / CRM | **Online + Desktop** | Direct integration at no extra cost; map DonorSnap accounting codes and payment methods to QB income and asset accounts; send selected transactions in batches to QB GL.[1] |\n| **DonorPerfect** | Donor management / CRM | **Online** | Automatic sync of gift data and expenses; post to existing GL; map gifts to bank accounts, income accounts, and classes; map donors to QB customers; QuickBooks Online can be purchased via DonorPerfect.[3][4] |\n| **Bloomerang** | Donor CRM | **Online + Desktop** | Sync donor transactions from Bloomerang to QB; map donations to specific accounts and fields; supports automatic sync with QBO and IIF export tools for QB Desktop.[5] |\n| **Funraise** | Online fundraising platform | **Online** | Send donation and donor data to QBO; create Sales Receipts and Customers; customize fee reporting; map Account, Class, Product/Service fields.[2] |\n| **Donorbox** | Donation form / fundraising | **Online** | Automatically sync one\u2011time & recurring donations, ticket sales, and other transactions from Donorbox into QBO.[8] |\n| **OnlineGiving.org** | Online giving platform | **Online + Desktop** | Integration for batch deposits, account & class mapping, cover\u2011the\u2011fee handling, OAuth authentication.[9] |\n| **DonorDock (via Zapier)** | Donor management / CRM | **Online (via Zapier)** | Uses Zapier connector to push data to QBO; no extra fee from DonorDock, but requires a (usually paid) Zapier plan.[7] |\n\n### How to choose among them\n\nConsider:\n\n- **Do you need a full donor CRM or just donation \u2192 QuickBooks sync?**  \n  - Full CRMs: **DonorSnap, DonorPerfect, Bloomerang, DonorDock**.[1][3][5][7]  \n  - Primarily fundraising / forms with sync: **Funraise, Donorbox, OnlineGiving.org**.[2][8][9]\n\n- **QuickBooks flavor**  \n  - Need **QuickBooks Desktop** support: look at **DonorSnap** (direct), **Bloomerang** (IIF export), or **OnlineGiving.org**.[1][5][9]  \n  - If you use **QuickBooks Online only**, all of the above will work.\n\n- **Depth of accounting mapping**  \n  - For more granular financial control (accounts, classes, bank accounts), look at **DonorPerfect** and **Bloomerang** (rich mapping), plus **Funraise** and **OnlineGiving.org** for detailed field mapping.[2][3][5][9]\n\n- **Cost and setup complexity**  \n  - DonorSnap\u2019s QB integration is included \u201cfor no extra cost.\u201d[1]  \n  - DonorDock uses Zapier (added Zapier subscription for more robust zaps).[7]  \n  - Others bundle QB integration into mid\u2011 or upper\u2011tier plans; specifics depend on current pricing.\n\n### Practical next step\n\nIf you tell me:\n- whether you\u2019re on **QuickBooks Online or Desktop**,  \n- approximate **donor database size**,  \n- whether you want **online giving pages / events** built\u2011in,  \n\nI can narrow this down to 2\u20133 best\u2011fit recommendations and outline how the sync would work day\u2011to\u2011day for your situation.",
+  "donordock_mentioned": true,
+  "donordock_position": 1657,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 798,
+  "estimated_cost_usd": 0.016994,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://donorsnap.com/quickbooks-integration/",
+      "https://www.funraise.org/integrations/quickbooks",
+      "https://www.donorperfect.com/factsheets/quickbooks-online/",
+      "https://www.donorperfect.com/video/donorperfect-and-quickbooks/",
+      "https://bloomerang.com/integrations/quickbooks",
+      "https://www.youtube.com/watch?v=KXuMYR4_MAU",
+      "https://www.donordock.com/articles/donordock-and-quickbooks-a-nonprofit-software-dream-team",
+      "https://donorbox.org/explore/quickbooks-integration/",
+      "https://www.onlinegiving.org/support/quickbooks-integration"
+    ]
+  }
+}

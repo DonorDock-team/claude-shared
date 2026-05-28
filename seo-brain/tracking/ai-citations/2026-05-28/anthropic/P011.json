@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P011",
+  "prompt_text": "DonorDock vs Salesforce Nonprofit Cloud",
+  "engine": "anthropic",
+  "timestamp": "2026-05-28T11:41:22.284958+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Salesforce Nonprofit Cloud\n\n## Quick Overview\n\n**DonorDock** is a simple, affordable donor management system built specifically for small nonprofits.\n\n**Salesforce Nonprofit Cloud** is an enterprise-grade CRM platform with extensive customization capabilities for larger organizations.\n\n## Key Comparison\n\n| Feature | DonorDock | Salesforce Nonprofit Cloud |\n|---------|-----------|---------------------------|\n| **Best For** | Small nonprofits (< 50 staff) | Medium to large nonprofits |\n| **Pricing** | $99-299/month (unlimited users) | Free for 10 users, then $36+/user/month |\n| **Setup Time** | Minutes to hours | Weeks to months |\n| **Learning Curve** | Easy, intuitive | Steep, requires training |\n| **Customization** | Limited but sufficient | Extremely flexible |\n| **Support** | Direct, personalized | Community + paid tiers |\n\n## DonorDock Strengths\n- \u2705 Simple, clean interface\n- \u2705 Quick implementation\n- \u2705 Affordable flat-rate pricing\n- \u2705 Built-in donor management essentials\n- \u2705 Good for teams without tech expertise\n\n## Salesforce Nonprofit Cloud Strengths\n- \u2705 Highly customizable\n- \u2705 Scalable for growth\n- \u2705 Extensive integrations\n- \u2705 Advanced reporting & analytics\n- \u2705 Manages complex programs & grants\n- \u2705 Enterprise-level automation\n\n## Which Should You Choose?\n\n**Choose DonorDock if:**\n- You have < 5,000 donors\n- Budget is tight\n- You need something working quickly\n- You have limited tech resources\n\n**Choose Salesforce if:**\n- You have complex operational needs\n- You need extensive customization\n- You have (or can hire) technical expertise\n- You're managing multiple programs/grants\n- You plan significant growth\n\n**Bottom line:** DonorDock is the straightforward, affordable option. Salesforce is the powerful, complex solution that requires greater investment but offers far more capabilities.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 499,
+  "estimated_cost_usd": 0.007542,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}
