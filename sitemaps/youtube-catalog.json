@@ -1,19 +1,19 @@
 {
   "youtube": {
-    "scraped_at": "2026-05-22T16:06:54.118710Z",
-    "total_videos": 141,
+    "scraped_at": "2026-05-29T16:06:17.701542Z",
+    "total_videos": 144,
     "channels": {
       "donordock": {
         "name": "DonorDock",
         "handle": "@donordock",
         "url": "https://www.youtube.com/@donordock",
-        "video_count": 74
+        "video_count": 75
       },
       "fundraisinglab": {
         "name": "Fundraising Lab",
         "handle": "@FundraisingLab",
         "url": "https://www.youtube.com/@FundraisingLab",
-        "video_count": 67
+        "video_count": 69
       },
       "external": {
         "name": "External appearances",
@@ -35,6 +35,47 @@
     ]
   },
   "videos": [
+    {
+      "id": "kT2tQSOoICg",
+      "title": "GoFundMe Pro Integration - Feature Highlight",
+      "description": "From syncing giving history to improving attribution reporting and donor engagement, the DonorDock + GoFundMe Pro integration helps nonprofits build a more connected and efficient fundraising ecosyste",
+      "channel": "donordock",
+      "published_at": "2026-05-28T16:35:38Z",
+      "type": "video",
+      "duration_seconds": 275,
+      "category": "feature-highlight",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=kT2tQSOoICg",
+      "thumbnail": "https://i.ytimg.com/vi/kT2tQSOoICg/hqdefault.jpg"
+    },
+    {
+      "id": "snndt7R84lw",
+      "title": "Fundraising Isn't Charity. It's an Ecosystem.",
+      "description": "🚨 New Episode 🚨 Fundraising Isn't Charity. It's an Ecosystem.\n\nThis episode of The Focused Fundraiser is with Terrence, who runs Educ8 in Zimbabwe. They finance students at 50+ schools, run feeding pr",
+      "channel": "fundraisinglab",
+      "published_at": "2026-05-26T15:16:03Z",
+      "type": "video",
+      "duration_seconds": 322,
+      "category": "the-focused-fundraiser",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=snndt7R84lw",
+      "thumbnail": "https://i.ytimg.com/vi/snndt7R84lw/hqdefault.jpg"
+    },
+    {
+      "id": "2vMN6Ix9dnc",
+      "title": "Fundraising as Ecosystem Building: Lessons from Zimbabwe with Terrence Mugova",
+      "description": "What if you thought about fundraising the way a farmer thinks about soil, not just what you can extract, but what you're building over time?\n\nTerrence Mugova joins Rob Burke from Bulawayo, Zimbabwe, w",
+      "channel": "fundraisinglab",
+      "published_at": "2026-05-26T14:00:02Z",
+      "type": "video",
+      "duration_seconds": 1223,
+      "category": "the-focused-fundraiser",
+      "people": [
+        "Rob Burke"
+      ],
+      "url": "https://www.youtube.com/watch?v=2vMN6Ix9dnc",
+      "thumbnail": "https://i.ytimg.com/vi/2vMN6Ix9dnc/hqdefault.jpg"
+    },
     {
       "id": "hMvxx3SVBsg",
       "title": "Automations - Feature Highlight",
