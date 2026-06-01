@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P083",
+  "prompt_text": "Best donor CRM for museums",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502362+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Museums\n\nHere are the top CRM systems specifically suited for museums:\n\n## **Top Recommendations**\n\n### **1. Blackbaud Altru**\n- **Best for:** Mid to large museums\n- Purpose-built for cultural institutions (museums, zoos, aquariums)\n- Integrates fundraising, membership, ticketing, and visitor management\n- Robust reporting and analytics\n- **Downside:** Higher cost, steeper learning curve\n\n### **2. Tessitura**\n- **Best for:** Large museums with complex needs\n- Industry standard for major cultural organizations\n- Comprehensive CRM covering ticketing, development, membership, retail\n- Excellent for institutions with performing arts components\n- **Downside:** Expensive, requires significant implementation time\n\n### **3. Bloomerang**\n- **Best for:** Small to mid-sized museums\n- Excellent donor retention focus\n- User-friendly interface\n- Strong email marketing and engagement tools\n- More affordable option\n- **Downside:** Less museum-specific features\n\n### **4. Little Green Light**\n- **Best for:** Small museums with limited budgets\n- Simple, cloud-based solution\n- Good for basic fundraising tracking\n- Affordable pricing\n- **Downside:** Limited advanced features\n\n### **5. Salesforce with Nonprofit Success Pack (NPSP)**\n- **Best for:** Museums wanting customization\n- Highly customizable\n- Can integrate with ticketing/membership systems\n- Scalable as organization grows\n- **Downside:** Requires setup expertise, can be complex\n\n## **Key Features to Look For**\n- Membership management integration\n- Event/ticketing system compatibility\n- Major gift tracking\n- Grant management\n- Volunteer coordination\n- Email marketing capabilities\n\n**What size is your museum?** That would help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 417,
+  "estimated_cost_usd": 0.006294,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

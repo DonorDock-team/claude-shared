@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P093",
+  "prompt_text": "Cheapest nonprofit CRM with online giving",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.503011+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding the *absolute cheapest* nonprofit CRM with online giving often means balancing a very low (or free) monthly cost with the standard payment processing fees.\n\nHere are the top contenders for the cheapest options, ranging from truly free to very affordable:\n\n---\n\n### Top Recommendation: Givebutter\n\n*   **CRM Cost:** **FREE** (for their core CRM, fundraising pages, P2P, and events).\n*   **Online Giving:** Integrated, modern forms.\n    *   **Option 1 (Free):** Donors are prompted to cover the processing fees (typically 2.9% + $0.30 per transaction). If donors cover it, **it's free for your nonprofit.**\n    *   **Option 2 (Nonprofit pays):** If donors *don't* cover the fee, your nonprofit pays the standard processing fees.\n*   **Pros:**\n    *   **Truly free for most organizations** if donors cover fees.\n    *   Modern, user-friendly interface.\n    *   Excellent for online campaigns, peer-to-peer fundraising, events, and ticketing.\n    *   Robust features for a free platform.\n*   **Cons:**\n    *   CRM features, while growing, might not be as deep or robust as dedicated, higher-priced CRMs for very complex donor management.\n    *   Relies on donors covering fees to be truly \"free\" of transaction costs.\n\n---\n\n### Other Strong & Affordable Contenders:\n\n2.  **Little Green Light (LGL)**\n    *   **CRM Cost:** Starts at **$39/month** for up to 2,500 constituents. Tiers up based on contact volume.\n    *   **Online Giving:** Has its own integrated online giving forms that connect to Stripe, PayPal, and others (standard payment processing fees apply).\n    *   **Pros:**\n        *   Very comprehensive CRM features for the price.\n        *   Excellent reporting and data management.\n        *   Highly regarded for customer support.\n        *   Great value for a true donor database.\n    *   **Cons:**\n        *   Interface can feel a bit more traditional compared to newer,",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Givebutter",
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 465,
+  "estimated_cost_usd": 0.001165,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

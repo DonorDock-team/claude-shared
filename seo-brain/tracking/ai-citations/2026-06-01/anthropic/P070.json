@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502674+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Automate Donor Thank You Letters\n\n## Best Approaches\n\n### 1. **CRM/Donor Management Software**\nMost nonprofit CRMs have built-in automation:\n- **Bloomerang** - automated thank you workflows\n- **DonorPerfect** - customizable email templates\n- **Little Green Light** - triggered acknowledgments\n- **Salesforce Nonprofit Cloud** - advanced automation flows\n- **Network for Good** - instant email receipts\n\n### 2. **Email Marketing Platforms**\n- **Mailchimp** - free tier available, easy automation\n- **Constant Contact** - nonprofit discounts\n- **ActiveCampaign** - sophisticated segmentation\n\n### 3. **All-in-One Fundraising Platforms**\n- **Givebutter**, **Donorbox**, **GiveWP** - send automated thank yous immediately after donation\n\n## Steps to Set Up Automation\n\n1. **Choose your trigger**: Donation received, amount threshold, first-time vs. repeat donor\n2. **Segment donors**: Different messages for different donation levels/types\n3. **Create templates**: Personalize with merge tags (name, amount, date, campaign)\n4. **Set timing**: Immediate receipt + follow-up thank you within 48 hours\n5. **Test thoroughly**: Send test donations to verify\n\n## Best Practices\n\n\u2705 **Personalize beyond \"Dear [First Name]\"** - reference specific campaign or amount  \n\u2705 **Send quickly** - ideally within 24 hours  \n\u2705 **Include tax receipt** - meet IRS requirements  \n\u2705 **Add personal touches** - CEO signature, impact story  \n\u2705 **Consider handwritten notes** for major gifts (services like **Thankview** or **Handwrytten** can automate these)\n\n## Cost-Effective Options\n\n- **Free tier**: Mailchimp (up to 500 contacts)\n- **Low-cost**: Start with your donation platform's built-in tools\n- **DIY**: Zapier to connect donation forms to email tools\n\nWould you like specific recommendations based on your organization's size or budget?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Givebutter",
+    "Little Green Light",
+    "Network for Good",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 491,
+  "estimated_cost_usd": 0.00741,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

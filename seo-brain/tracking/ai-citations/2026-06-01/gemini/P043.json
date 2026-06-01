@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P043",
+  "prompt_text": "Best donor CRM for human services nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502019+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for human services nonprofits depends heavily on the organization's specific needs, budget, size, and technical capabilities. However, several CRMs stand out due to their robust features, integration possibilities, and suitability for the unique demands of human services.\n\nHuman services nonprofits often need more than just donor tracking; they also need to manage volunteers, track program participation, manage grants, and sometimes even integrate with client case management systems.\n\nHere are some of the best donor CRMs for human services nonprofits, categorized to help you decide:\n\n---\n\n### Top Picks for Integrated Functionality & Scalability\n\nThese options are powerful and can often handle complex needs beyond just donor management, making them excellent for growing or larger human services organizations.\n\n1.  **Salesforce Nonprofit Cloud (with NPSP)**\n    *   **Why it's great for Human Services:**\n        *   **Highly Customizable:** The Nonprofit Success Pack (NPSP) offers a flexible data model that can be adapted to manage not just donors, but also volunteers, program participants, grants, and even basic client interactions (though dedicated case management might be separate, it can integrate well).\n        *   **Vast Ecosystem:** Salesforce's AppExchange offers thousands of integrations for almost any need \u2013 volunteer management, case management, marketing automation, accounting, etc.\n        *   **Scalability:** Grows with your organization, from small to enterprise-level.\n        *   **Reporting & Analytics:** Extremely powerful reporting capabilities for fundraising, program impact, and grant reporting.\n        *   **Donation:** 10 free user licenses for nonprofits, making the core platform highly affordable to start.\n    *   **Considerations:** Steep learning curve, requires an administrator (internal or consultant), can get expensive with advanced add-ons or custom development.\n\n2.  **Neon One (NeonCRM)**\n    *   **Why it's great for Human Services:**\n        *   **All-in-One Suite:** Designed specifically for nonprofits, NeonCRM offers integrated solutions for donor management, volunteer management, events, memberships, grants, and basic program tracking. This holistic approach is ideal for human services.\n        *   **User-Friendly:** Generally easier to set up and use than Salesforce for many common nonprofit tasks.\n        *   **Strong Volunteer Management:** Critical for many human services organizations that rely heavily on volunteers for program delivery (e.g., food banks, shelters).\n        *   **Affordable:** Competitive pricing models for",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Neon One",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 519,
+  "estimated_cost_usd": 0.0013,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

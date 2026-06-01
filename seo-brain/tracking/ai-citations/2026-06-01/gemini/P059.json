@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P059",
+  "prompt_text": "Nonprofit CRM with donation forms",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.503122+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A **Nonprofit CRM (Customer Relationship Management)** system designed for nonprofits helps manage all interactions and data related to donors, volunteers, grants, campaigns, and other constituents. The \"with donation forms\" aspect is crucial, meaning the CRM either *has built-in online donation forms* or *integrates seamlessly with popular donation form providers* to capture donor information directly into the database.\n\nHere are some of the top Nonprofit CRMs that either include or have strong integrations for online donation forms:\n\n---\n\n### Top Nonprofit CRMs with Donation Forms\n\n1.  **Bloomerang**\n    *   **Overview:** Highly regarded for its user-friendliness and focus on donor retention. Bloomerang offers a robust CRM with excellent reporting and built-in fundraising tools.\n    *   **Donation Forms:** Has its own native, customizable, mobile-responsive online donation forms. These forms are tightly integrated, capturing all donor data, transaction details, and even tracking website activity directly into the CRM.\n    *   **Ideal for:** Small to medium-sized nonprofits prioritizing ease of use, donor engagement, and retention strategies.\n\n2.  **Salesforce Nonprofit Success Pack (NPSP)**\n    *   **Overview:** While Salesforce is a massive enterprise CRM, the NPSP is a free (for up to 10 users) open-source package designed specifically for nonprofits. It's incredibly powerful and customizable.\n    *   ",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 292,
+  "estimated_cost_usd": 0.000732,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

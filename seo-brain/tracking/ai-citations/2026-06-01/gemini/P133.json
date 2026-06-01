@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P133",
+  "prompt_text": "Givebutter limitations",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502028+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Givebutter is a powerful and versatile fundraising platform, especially for its \"free\" model (relying on donor-covered fees). However, like any platform, it has limitations, particularly when compared to more specialized or enterprise-level solutions. Here are some of the key limitations:\n\n1.  **Limited CRM Depth for Large/Complex Organizations:**\n    *   While Givebutter has basic donor management (contact info, giving history, notes, tags), it's not a full-fledged Constituent Relationship Management (CRM) system like Salesforce NPSP, Blackbaud Raiser's Edge, or Bloomerang.\n    *   It may lack advanced features for complex segmentation, wealth screening, prospect research, detailed household management, or highly customized data fields needed by larger organizations with millions of constituents.\n\n2.  **Not a Full-Fledged Website CMS:**\n    *   Givebutter provides beautiful campaign pages and event sites, but it's not designed to be your organization's primary website content management system (CMS) like WordPress, Squarespace, or Wix. You'd typically embed Givebutter forms/widgets or link to Givebutter pages from your main site.\n\n3.  **Limited Advanced Marketing Automation:**\n    *   It offers email and SMS capabilities, but it doesn't have the sophisticated marketing automation workflows, A/B testing, multi-channel drip campaigns, or deep analytics found in dedicated marketing platforms (e.g., HubSpot, Pardot, Mailchimp's advanced tiers).\n\n4.  **No Native Accounting/Bookkeeping Features:**\n    *   Givebutter handles transactions, but it doesn't integrate with your general ledger or provide full accounting functionality. You'll need to export data or integrate (e.g., via Zapier) with your accounting software (QuickBooks, Xero, etc.) for reconciliation.\n\n5.  **Reliance on Donor-Covered Fees:**\n    *   While \"free\" is a huge advantage, it relies on donors opting to cover transaction fees. If a significant percentage of donors opt out, your organization will incur the standard credit card processing fees (typically 2.9% + $0.30 per transaction), which can add up and impact net revenue.\n\n6.  **Limited Deep Customization:**\n    *   You can customize branding, colors, and content on your Givebutter pages. However, deep customization of the underlying form logic, database structure, or highly specific user experiences beyond the provided templates can be limited compared to open-source solutions or enterprise platforms with extensive API access.\n\n7.  **No Grant Management Tools:**\n    *   Givebutter is focused on individual and event fundraising. It doesn't offer features for managing grant applications, tracking grant cycles, reporting on grant progress, or managing relationships with foundations.\n\n8.  **Limited Volunteer Management:**\n    *   While you can use it for event registration, Givebutter isn't a dedicated volunteer management system. It lacks features for scheduling volunteers, tracking hours, communicating with different volunteer groups, or managing volunteer skill sets.\n\n9.  **Advanced Reporting and Analytics:**\n    *   Givebutter offers good standard reports and dashboards for campaigns and donors. However, for highly complex cross-campaign analysis, predictive analytics, multi-channel attribution modeling, or deeply customizable data visualization, you might need to export data and use external BI tools.\n\n10. **Integration Limitations:**\n    *   Givebutter offers a good number of direct integrations and Zapier support. However, for highly specific or niche integrations with legacy systems, or if you require real-time, bidirectional sync with complex enterprise tools, you might encounter limitations.\n\nIn summary, Givebutter excels for grassroots organizations, event-based fundraising, peer-to-peer campaigns, and organizations that need",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Givebutter",
+    "Raiser's Edge",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 3,
+  "output_tokens": 784,
+  "estimated_cost_usd": 0.001961,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

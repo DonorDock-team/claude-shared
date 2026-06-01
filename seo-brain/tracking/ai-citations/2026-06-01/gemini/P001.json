@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P001",
+  "prompt_text": "What is DonorDock",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502201+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**DonorDock** is a donor management and fundraising software solution specifically designed for non-profit organizations.\n\nIts key differentiator is that it is built entirely on the **Microsoft Dynamics 365** platform. This means it leverages the power, flexibility, and familiarity of Microsoft's business applications ecosystem to help non-profits manage their donor relationships and fundraising activities more effectively.\n\nHere's a breakdown of what DonorDock is and what it aims to do:\n\n**Core Purpose:**\n\nDonorDock aims to provide non-profits with a comprehensive platform to:\n1.  **Manage Donor Relationships (CRM):** Keep track of all donor information, interactions, preferences, and giving history in one central location.\n2.  **Streamline Fundraising Efforts:** Plan, execute, and track fundraising campaigns, appeals, events, and pledges.\n3.  **Improve Communication:** Facilitate personalized and targeted communication with donors.\n4.  **Gain Insights:** Provide reporting and analytics to understand donor behavior and measure fundraising performance.\n\n**Key Features and Capabilities:**\n\n*   **Donor & Contact Management:** Detailed donor profiles, relationship tracking, communication history, segmentation.\n*   **Gift & Pledge Management:** Record one-time donations, recurring gifts, pledges, soft credits, in-kind gifts.\n*   **Campaign & Appeal Management:** Plan and track fundraising campaigns, appeals, and initiatives.\n*   **Event Management:** Track event attendees, registrations, and related donations.\n*   **Volunteer Management:** Log volunteer hours, skills, and activities.\n*   **Communication Tools:** Facilitate email marketing, direct mail segmenting, and personalized outreach.\n*   **Reporting & Analytics:** Dashboards, custom reports, and data visualization to track key performance indicators.\n*   **Automation & Workflows:** Automate routine tasks and donor stewardship processes.\n*   **Integrations:** Connects with various payment processors, accounting software (often through Dynamics 365 integrations), and other tools.\n*   **Constituent Engagement:** Provides tools to understand and improve donor engagement levels.\n\n**Who is it for?**\n\nDonorDock is primarily for **non-profit organizations** of various sizes, particularly those looking for:\n*   A robust, scalable, and feature-rich donor management system.\n*   A solution built on a familiar and widely-used enterprise platform like Microsoft Dynamics 365.\n*   A centralized system to manage all aspects of their fundraising and donor relations.\n\nIn essence, DonorDock provides non-profits with a powerful CRM and fundraising tool, leveraging the underlying technology of Microsoft Dynamics 365 to help them build stronger donor relationships and achieve their mission.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 553,
+  "estimated_cost_usd": 0.001384,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

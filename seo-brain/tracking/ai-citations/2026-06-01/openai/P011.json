@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P011",
+  "prompt_text": "DonorDock vs Salesforce Nonprofit Cloud",
+  "engine": "openai",
+  "timestamp": "2026-06-01T13:25:21.502371+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When comparing DonorDock and Salesforce Nonprofit Cloud, it's important to consider your organization's specific needs, budget, and technical capacity. Here's an overview of both platforms to help you make an informed decision:\n\n### DonorDock\n\n**Overview:**\nDonorDock is a fundraising and donor management platform specifically designed for small to medium-sized nonprofits. It offers a simplified, user-friendly experience for organizations that need to manage donor relationships, track donations, and coordinate fundraising efforts.\n\n**Key Features:**\n- **Donor Management:** Track donor interactions, donations, and engagement history.\n- **Fundraising Tools:** Campaign management, online donation pages, and event management.\n- **Reporting and Analytics:** Generate reports to analyze fundraising performance and donor metrics.\n- **Communication Tools:** Email marketing integration and personalized communication with donors.\n- **Affordability:** Generally more affordable for smaller organizations compared to larger CRM systems.\n\n**Pros:**\n- Intuitive and easy to use.\n- Cost-effective for smaller nonprofits.\n- Quick setup with minimal training required.\n- Strong customer support and continuous updates.\n\n**Cons:**\n- Limited scalability for larger organizations with complex needs.\n- Fewer advanced features compared to Salesforce.\n\n### Salesforce Nonprofit Cloud\n\n**Overview:**\nSalesforce Nonprofit Cloud is a comprehensive, customizable CRM solution that offers robust tools for managing all aspects of a nonprofit's operations. It's suitable for medium to large nonprofits that need advanced features and integration capabilities.\n\n**Key Features:**\n- **Comprehensive CRM:** Manage all aspects of donor relationships, fundraising, and program management.\n- **Customization:** Highly customizable to suit specific organizational needs.\n- **Integration:** Extensive integration capabilities with various applications and services.\n- **Analytics and Reporting:** Advanced data analytics tools and customizable reporting.\n- **Community and Volunteer Management:** Tools to engage and manage volunteers and community interactions.\n\n**Pros:**\n- Highly scalable and flexible.\n- Extensive third-party integrations.\n- Wide range of advanced features.\n- Strong community support and resources.\n\n**Cons:**\n- Can be costly for smaller organizations.\n- Requires more time for setup and staff training.\n- Complexity can be overwhelming for organizations with limited technical expertise.\n\n### Considerations:\n\n- **Budget:** DonorDock is generally more budget-friendly, especially for smaller nonprofits. Salesforce may require a larger investment but offers more advanced capabilities.\n- **Scalability:** Salesforce is better suited for larger organizations with plans for growth, while DonorDock caters to smaller nonprofits.\n- **Ease of Use:** DonorDock is more intuitive and easier to navigate for users with no technical background, whereas Salesforce may require a steeper learning curve.\n- **Customization Needs:** If your organization requires extensive customization and integration, Salesforce is the preferred choice.\n\nUltimately, the choice between DonorDock and Salesforce Nonprofit Cloud should be based on your organization\u2019s size, budget, technical capacity, and specific needs. It's recommended to take advantage of demos or trials, if available, to see which platform aligns best with your operational goals.",
+  "donordock_mentioned": true,
+  "donordock_position": 15,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 601,
+  "estimated_cost_usd": 0.006047,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

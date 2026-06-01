@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P046",
+  "prompt_text": "Best donor CRM for arts and cultural nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502156+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Arts & Cultural Nonprofits\n\n## Top Recommendations\n\n### **1. PatronManager (by Salesforce)**\n- **Best for:** Theaters, performing arts, museums\n- **Key features:** Built specifically for arts organizations, integrates ticketing with donor data, tracks patron engagement across events and donations\n- **Pricing:** Custom (typically starts ~$300/month)\n\n### **2. Blackbaud Altru**\n- **Best for:** Museums, zoos, cultural institutions\n- **Key features:** Combined CRM, ticketing, and membership management; robust analytics\n- **Pricing:** Custom (enterprise-level)\n\n### **3. Tessitura**\n- **Best for:** Large arts organizations (opera, symphony, major museums)\n- **Key features:** Industry standard for major institutions, comprehensive ticketing + CRM\n- **Pricing:** Enterprise (significant investment)\n\n### **4. Bloomerang**\n- **Best for:** Small-to-midsize arts nonprofits\n- **Key features:** User-friendly, strong retention metrics, affordable\n- **Pricing:** Starting ~$125/month\n\n### **5. DonorPerfect**\n- **Best for:** Budget-conscious organizations needing flexibility\n- **Key features:** Customizable, integrates with many ticketing systems\n- **Pricing:** Starting ~$89/month\n\n## Key Considerations\n- **Integration with ticketing** (critical for performing arts)\n- **Membership management** capabilities\n- **Event tracking** across multiple programs\n- **Grant management** if applicable\n\n**What's your organization's size and primary need** (ticketing integration, membership, major gifts)?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 379,
+  "estimated_cost_usd": 0.005739,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

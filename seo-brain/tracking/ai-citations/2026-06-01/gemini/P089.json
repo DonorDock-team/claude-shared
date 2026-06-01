@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P089",
+  "prompt_text": "Best donor CRM for mental health nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502778+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a mental health nonprofit depends on several factors, including your organization's size, budget, specific needs, and technical comfort level. However, given the unique aspects of mental health organizations (data sensitivity, focus on impact, often reliance on grants and volunteers), certain CRMs stand out.\n\nHere's a breakdown of top contenders, with considerations specific to mental health nonprofits:\n\n## Key Considerations for Mental Health Nonprofits:\n\n1.  **Data Security & Privacy:** While donor data isn't HIPAA-regulated, the *culture* of a mental health organization demands high privacy standards. Ensure robust security features, role-based access, and clear data policies.\n2.  **Impact Reporting:** You need to effectively demonstrate how donations translate into services, programs, and positive outcomes for mental health. The CRM should facilitate tracking and reporting on these metrics.\n3.  **Grant Management:** Many mental health organizations rely heavily on grants. A CRM with strong grant tracking, reporting, and application management features is crucial.\n4.  **Volunteer Management:** Volunteers are often critical for outreach, support groups, and events. Integration or strong volunteer management features are a plus.\n5.  **Sensitive Communications:** The ability to segment donors and tailor communications with sensitivity and discretion is vital.\n6.  **Ease of Use:** Your staff likely has a primary focus on program delivery, not IT. A user-friendly interface reduces training time and increases adoption.\n7.  **Integration:** Seamless integration with accounting software, email marketing platforms, and potentially program management tools is important.\n8.  **Scalability:** Choose a CRM that can grow with your organization.\n\n## Top Donor CRM Recommendations:\n\n### 1. Bloomerang\n\n**Why it's great for Mental Health Nonprofits:**\n*   **Strengths:** Highly user-friendly, excellent focus on donor retention and engagement metrics, strong reporting capabilities, integrated email marketing, robust donor segmentation. It's designed to help you build lasting relationships. Now includes Kindful, expanding its feature set.\n*   **Impact Reporting:** Easy to track donor activity and link it to campaigns or initiatives that represent specific programs or outcomes.\n*   **Communications:** Its donor engagement tools help craft personalized and sensitive communications, nurturing relationships thoughtfully.\n*   **Security:** Good security protocols appropriate for donor data.\n*   **Ease of Use:** Widely praised for its intuitive interface, making it easy for non-technical staff to pick up.\n*   **Considerations:** While strong, its grant management features are more basic compared to dedicated grant software or highly customizable platforms like Salesforce.\n\n### 2. Salesforce NPSP (Nonprofit Success Pack)\n\n**Why it's great for Mental Health Nonprofits:**\n*   **",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 576,
+  "estimated_cost_usd": 0.001442,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

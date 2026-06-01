@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P004",
+  "prompt_text": "DonorDock pricing",
+  "engine": "perplexity",
+  "timestamp": "2026-06-01T13:25:21.502517+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**DonorDock** appears to have a **flat starting price of $500/month** for its paid plan, with a **free trial** available.[2][3] DonorDock also markets **free online giving pages** and states there are **no contracts**.[1][8]\n\nA few pricing-related details from DonorDock\u2019s materials:\n\n- **Paid plan:** G2 and GetApp both list pricing as **starting at $500 per month**.[2][3]\n- **Free trial:** Both G2 and GetApp indicate a **free trial** is available.[2][3]\n- **Online giving fees:** DonorDock says donor-facing giving pages use a **donor-funded platform fee option** of **5% + $0.30 per transaction** when donors choose to cover fees; if they do not, DonorDock says it charges **no platform fee**, and only the payment processor\u2019s standard fees apply.[4][7]\n- **Unlimited contacts:** DonorDock\u2019s comparison pages state **unlimited contacts** are included.[5][6]\n- **No contracts / cancel anytime:** DonorDock says there are **no contracts** and that you can **cancel anytime**.[5][8]\n\nIf you want, I can also break down **DonorDock vs. Bloomerang**, **DonorDock vs. Network for Good**, or summarize the **total cost for a typical nonprofit** based on donation volume.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 296,
+  "estimated_cost_usd": 0.009455,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/pricing",
+      "https://www.g2.com/products/donordock/pricing",
+      "https://www.getapp.com/nonprofit-software/a/donordock/",
+      "https://helpcenter.donordock.com/kb/guide/en/donordock-and-online-giving-fees-FF6iCEKSlh/Steps/1935110",
+      "https://www.donordock.com/compare/bloomerang-vs-donordock",
+      "https://www.donordock.com/compare/network-for-good-vs-donordock",
+      "https://helpcenter.donordock.com/kb/guide/en/donors-covering-processing-fees-n6LwYO7xqb/Steps/2705524",
+      "https://www.donordock.com/lp/donation-management",
+      "https://www.softwareadvice.com/nonprofit/donordock-profile/",
+      "https://www.donordock.com"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502611+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding a Donor CRM that seamlessly integrates with QuickBooks Online (QBO) is a common and crucial need for many non-profits. The goal is to avoid manual data entry, ensure financial accuracy, and streamline donor management with accounting.\n\nHere's a breakdown of top options and key considerations:\n\n## Key Integration Features to Look For\n\nBefore diving into specific CRMs, consider what you need from the integration:\n\n1.  **What data syncs?**\n    *   Donations/Contributions (amount, date, fund)\n    *   Donor Information (name, contact details, payment method)\n    *   Pledges and Pledge Payments\n    *   Refunds/Voided Transactions\n    *   Campaigns/Funds/Programs (mapped to QBO Classes, Customers, Projects, or Products/Services)\n    *   Membership dues\n    *   Event registrations\n2.  **One-way or Two-way Sync?**\n    *   Most commonly, CRM to QBO (CRM is the source of truth for donor data and donations).\n    *   Occasionally, some donor info might flow back, but less common.\n3.  **Automation Level:**\n    *   **Manual Export/Import:** Least efficient, prone to errors.\n    *   **Automated Sync (API):** Best option, real-time or scheduled, reduces errors.\n    *   **Middleware (e.g., Zapier):** Can connect systems that don't have native integration, but adds a layer of complexity and cost.\n4.  **Mapping Options:** Can you easily map CRM fields (e.g., specific funds, campaigns) to QBO accounts, classes, customers, and items?\n5.  **Error Handling:** How does the system notify you of errors during sync and help you resolve them?\n6.  **Historical Data:** How does the integration handle existing data in both systems when you first set it up?\n\n---\n\n## Top Donor CRMs with QuickBooks Online Integration\n\nHere are some of the most popular and well-regarded donor CRMs that offer direct or strong integration with QuickBooks Online:\n\n### 1. Bloomerang\n\n*   **Overview:** Bloomerang is known for its user-friendly interface, focus on donor retention, and robust reporting.\n*   **QBO Integration:** One of the most praised integrations in the non-profit space. It offers a direct, native integration that allows you to:\n    *   Automatically push donations, pledges, and payments from Bloomerang into QBO.\n    *   Map Bloomerang funds, campaigns, and appeals to QBO's chart of accounts, classes, and customers.\n    *   Create sales receipts, invoices, or journal entries in QBO based on your CRM data.\n*   **Best For:** Small to mid-sized non-profits prioritizing donor engagement and an intuitive user experience.\n\n### 2. Neon CRM (by Neon One)\n\n*   **Overview:** Neon CRM is a comprehensive platform offering solutions for donor management, membership, events, volunteers, and websites.\n*   **QBO Integration:** Provides a robust, native integration that syncs:\n    *   Donations, memberships, event registrations, and store purchases.\n    *   New constituents as customers in QBO.\n    *   Detailed mapping options for GL accounts, classes, and items.\n*   **Best For:** Growing non-profits that need an all-in-one solution beyond just donor management, including event management and memberships.\n\n### 3. DonorPerfect\n\n*   **Overview:** DonorPerfect is a long-standing and powerful donor management system known for its comprehensive features and reporting capabilities.\n*   **QBO Integration:** Offers a dedicated integration that allows you to:\n    *   Export gifts directly into",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 793,
+  "estimated_cost_usd": 0.001985,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

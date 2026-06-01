@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P066",
+  "prompt_text": "Donor CRM with campaign and appeal tracking",
+  "engine": "openai",
+  "timestamp": "2026-06-01T13:25:21.502441+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Implementing a Donor Customer Relationship Management (CRM) system with campaign and appeal tracking can significantly enhance the efficiency and effectiveness of your fundraising efforts. Here\u2019s how you can structure such a system, either by customizing an existing CRM software or by building one tailored to your organization's needs:\n\n### Key Features of a Donor CRM with Campaign and Appeal Tracking\n\n1. **Donor Profile Management:**\n   - **Comprehensive Profiles:** Store essential information such as contact details, donation history, communication preferences, and engagement metrics.\n   - **Segmentation:** Categorize donors based on various criteria like giving history, demographics, or engagement level.\n\n2. **Campaign Management:**\n   - **Campaign Creation:** Set up new fundraising campaigns with specific goals, timelines, and target audiences.\n   - **Budget and ROI Tracking:** Manage campaign budgets and analyze return on investment.\n   - **Performance Metrics:** Track key performance indicators such as conversion rates, average donation size, and donor retention.\n\n3. **Appeal Tracking:**\n   - **Appeal Creation:** Design and send specific fundraising appeals within broader campaigns.\n   - **Personalization Options:** Tailor appeals based on donor segments to increase effectiveness.\n   - **Response Monitoring:** Track how donors respond to each appeal, including donations, event participation, and engagement levels.\n\n4. **Communication Tools:**\n   - **Integrated Email and SMS:** Send personalized communications directly from the CRM, with the ability to track opens and responses.\n   - **Automated Follow-Ups:** Set up automated messages for thanking donors, reminders, and updates on campaign progress.\n\n5. **Analytics and Reporting:**\n   - **Dashboard Views:** Customizable dashboards that provide real-time insights into campaign and appeal performance.\n   - **Detailed Reports:** Generate reports to analyze donor behavior, campaign success, appeal effectiveness, and overall fundraising performance.\n\n6. **Integration Capabilities:**\n   - **Third-party Tools:** Integrate with other platforms such as email marketing tools, payment gateways, and social media for a seamless workflow.\n   - **Data Import/Export:** Easy import and export of data to ensure consistency across various tools and reports.\n\n7. **Security and Compliance:**\n   - **Data Protection:** Ensure that donor information is securely stored and compliant with legal standards like GDPR or CCPA.\n   - **Access Controls:** Define user roles and permissions to safeguard sensitive information.\n\n8. **Event Management:**\n   - **Event Tracking:** Include features to manage and track fundraising events, participation, and donations associated with events.\n   - **Online Registration:** Provide tools for donors to register for events and activities directly through the CRM.\n\n### Steps to Implement a Donor CRM\n\n1. **Needs Assessment:**\n   - Evaluate your organization\u2019s specific needs and identify which features are most important for you.\n   \n2. **Select or Build a CRM:**\n   - Choose between adapting an off-the-shelf CRM solution like Salesforce, DonorPerfect, Blackbaud, or creating a custom solution.\n   \n3. **Customization and Integration:**\n   - Tailor the CRM to fit your workflow and integrate it with existing systems to ensure data consistency.\n\n4. **Data Migration:**\n   - Plan and execute a migration strategy for existing donor data to the new system.\n\n5. **Training and Adoption:**\n   - Train your team on how to use the CRM effectively and promote adoption across the organization.\n\n6. **Continuous Improvement:**\n   - Regularly review and update the system to adapt to changing needs and incorporate new technologies or features.\n\nImplementing a donor CRM with campaign and appeal tracking will not only streamline your operations but also enhance your ability to build long-lasting relationships with your donors, ultimately boosting your fundraising success.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 748,
+  "estimated_cost_usd": 0.007517,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

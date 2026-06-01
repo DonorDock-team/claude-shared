@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P011",
+  "prompt_text": "DonorDock vs Salesforce Nonprofit Cloud",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502404+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When comparing DonorDock and Salesforce Nonprofit Cloud (which includes the Nonprofit Success Pack, or NPSP, and more recently, Nonprofit Cloud), you're looking at two very different philosophies and ecosystems designed for distinct segments of the nonprofit market.\n\nHere's a detailed breakdown to help you decide:\n\n---\n\n### DonorDock\n\n**Overview:** DonorDock is designed as an intuitive, all-in-one donor management and fundraising solution primarily for small to medium-sized nonprofits. It focuses on simplicity, ease of use, and providing core functionalities without the overwhelming complexity or cost of enterprise-level systems.\n\n**Key Characteristics:**\n\n*   **Target Audience:** Small to medium-sized nonprofits, those new to CRM, or organizations seeking a more straightforward, user-friendly solution.\n*   **Philosophy:** Simplicity, ease of use, affordability, quick setup, all-in-one core features.\n*   **Core Features:**\n    *   **Donor Management:** Profiles, donation history, communication logs, relationships.\n    *   **Fundraising:** Campaigns, appeals, online giving forms, recurring donations.\n    *   **Communication:** Email marketing, direct mail merge tools, segmentation for outreach.\n    *   **Reporting:** Standard reports, basic dashboards, donor analytics.\n    *   **Task Management:** Simple tools to track donor outreach and follow-ups.\n    *   **Integrations:** Typically integrates with popular tools like Stripe, Mailchimp, QuickBooks (for accounting export).\n*   **Customization:** Limited. What you see is largely what you get. Fields and workflows are generally predefined.\n*   **Scalability:** Good for its target",
+  "donordock_mentioned": true,
+  "donordock_position": 15,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 343,
+  "estimated_cost_usd": 0.000859,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

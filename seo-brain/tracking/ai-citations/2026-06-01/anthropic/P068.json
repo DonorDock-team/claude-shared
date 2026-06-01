@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P068",
+  "prompt_text": "How to consolidate fundraising tools",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502557+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Consolidate Fundraising Tools\n\nConsolidating your fundraising tools can streamline operations, reduce costs, and improve donor experience. Here's a step-by-step approach:\n\n## 1. **Audit Your Current Tools**\n- List all platforms you're using (CRM, email, payment processors, event management, peer-to-peer, etc.)\n- Document costs, features, and who uses each tool\n- Identify overlapping functionalities and gaps\n\n## 2. **Define Your Requirements**\n- Essential features you can't lose\n- Integration needs with existing systems\n- User access requirements (staff, volunteers, board)\n- Reporting and analytics needs\n- Budget constraints\n\n## 3. **Research All-in-One Solutions**\nConsider platforms that combine multiple functions:\n- **Donor management CRMs** (Salesforce, Bloomerang, DonorPerfect)\n- **Comprehensive platforms** (Classy, Givebutter, Keela)\n- **Marketing + fundraising** (HubSpot for Nonprofits, Virtuous)\n\n## 4. **Evaluate Integration Options**\nIf one platform isn't feasible:\n- Use tools that integrate well together\n- Consider Zapier or similar connectors\n- Prioritize open APIs\n\n## 5. **Plan Your Migration**\n- Start with a pilot program or single campaign\n- Clean and export data from old systems\n- Train staff incrementally\n- Run parallel systems temporarily if needed\n\n## 6. **Key Consolidation Wins**\n- Unified donor database\n- Single sign-on for staff\n- Integrated reporting dashboards\n- Reduced vendor management\n- Better donor journey tracking\n\n**Pro tip:** Don't consolidate just for the sake of it\u2014ensure the new solution actually improves efficiency and donor experience.\n\nWhat specific tools are you currently using?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Keela",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 418,
+  "estimated_cost_usd": 0.006312,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

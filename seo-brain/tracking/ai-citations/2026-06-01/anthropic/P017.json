@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P017",
+  "prompt_text": "Alternative to Neon CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502728+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Alternatives to Neon CRM\n\nHere are some popular alternatives to Neon CRM, depending on your organization's needs:\n\n## **Top Competitors**\n\n### **1. Salesforce Nonprofit Cloud**\n- Most comprehensive, enterprise-level solution\n- Highly customizable with extensive integrations\n- Steeper learning curve and higher cost\n\n### **2. Bloomerang**\n- Strong focus on donor retention\n- Excellent reporting and engagement tools\n- User-friendly interface\n\n### **3. DonorPerfect**\n- Robust fundraising features\n- Good for mid-sized nonprofits\n- Strong reporting capabilities\n\n### **4. Little Green Light**\n- Affordable option for small to mid-sized organizations\n- Simple, intuitive interface\n- Good donor management features\n\n### **5. Kindful (by Bloomerang)**\n- Modern interface\n- Strong integration with other tools\n- Good for growing nonprofits\n\n### **6. Blackbaud Raiser's Edge NXT**\n- Industry leader for large nonprofits\n- Comprehensive feature set\n- Higher price point\n\n### **7. Keela**\n- AI-powered insights\n- User-friendly and modern\n- Good value for small-mid sized orgs\n\n## **What to consider:**\n- Organization size and budget\n- Specific features needed (events, memberships, volunteers)\n- Integration requirements\n- Ease of use vs. customization needs\n\n**What's most important for your organization?** That would help me recommend the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 345,
+  "estimated_cost_usd": 0.005217,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P121",
+  "prompt_text": "AI for donor research",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502544+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "AI for donor research involves using artificial intelligence (specifically machine learning, natural language processing, and predictive analytics) to analyze vast amounts of data to identify, understand, and engage with potential and existing donors more effectively.\n\nIt transforms traditional, often manual, prospect research into a more data-driven, efficient, and predictive process.\n\n### How AI is Used in Donor Research:\n\n1.  **Prospect Identification & Qualification:**\n    *   **Automated Data Gathering:** AI systems can scan and aggregate information from public records (real estate, company filings, political contributions), news articles, social media, philanthropic databases, and open-source data.\n    *   **Look-alike Modeling:** By analyzing the characteristics of an organization's most successful donors, AI can identify other individuals or organizations with similar profiles (wealth indicators, interests, giving history) who are likely to support the cause.\n    *   **Affinity Matching:** AI can identify an individual's philanthropic interests and passions by analyzing their past donations (to other organizations), board memberships, volunteer activities, professional affiliations, and even statements made in public forums.\n\n2.  **Wealth & Capacity Assessment:**\n    *   AI algorithms can integrate various financial indicators (e.g., estimated net worth, stock holdings, property values, executive compensation, private company valuations) to provide a more accurate and nuanced assessment of an individual's capacity to give.\n    *   It can update these assessments dynamically as new public information becomes available.\n\n3.  **Philanthropic Inclination & Engagement Prediction:**\n    *   **Predictive Analytics:** AI can predict who is most likely to make a donation, what their potential giving level might be, and even which specific initiatives they are most inclined to support.\n    *   **Churn Prediction:** Identify donors who are at risk of lapsing or reducing their giving, allowing fundraisers to intervene proactively.\n    *   **Next Best Ask:** Suggests the optimal ask amount and timing for a specific donor, maximizing the chances of a gift.\n\n4.  **Donor Segmentation & Personalization:**\n    *   Beyond basic demographic segmentation, AI can create highly granular \"micro-segments\" based on complex patterns of behavior, interests, and potential.\n    *   This allows for hyper-personalized communication strategies, ensuring donors receive messages relevant to their specific interests and giving patterns.\n\n5.  **Operational Efficiency & Automation:**\n    *",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 497,
+  "estimated_cost_usd": 0.001244,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

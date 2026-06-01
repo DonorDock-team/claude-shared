@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502780+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Measuring donor retention is a crucial metric for any nonprofit organization. It tells you how successful you are at keeping your existing supporters engaged and giving. A higher retention rate generally means more stable revenue, lower fundraising costs, and a stronger donor base.\n\nHere's a comprehensive guide on how to measure donor retention:\n\n## 1. Understand the Core Concept\n\nDonor retention measures the percentage of donors who gave to your organization in one period (e.g., Year 1) who also gave in the subsequent period (e.g., Year 2).\n\n## 2. The Basic Formula\n\nThe most common formula for overall donor retention is:\n\n**Donor Retention Rate = (Number of Donors in Current Period who also Gave in Previous Period / Total Number of Donors in Previous Period) x 100**\n\nLet's break down the components:\n\n*   **Previous Period:** This is your baseline. Typically, it's the prior fiscal year (e.g., all donors who gave between Jan 1, 2022 - Dec 31, 2022).\n*   **Current Period:** This is the period you're evaluating (e.g., all donors who gave between Jan 1, 2023 - Dec 31, 2023).\n*   **Number of Donors in Current Period who also Gave in Previous Period:** This is the count of *unique* individuals or entities who made at least one gift in *both* the previous period *and* the current period.\n*   **Total Number of Donors in Previous Period:** This is the count of *all unique* individuals or entities who made at least one gift in the previous period.\n\n### Example:\n\nLet's say:\n*   In **2022**, you had **1,000 unique donors**. (This is your \"Total Donors in Previous Period\")\n*   In **2023**, you had **750 unique donors** who also gave in 2022. (This is your \"Number of Donors in Current Period who also Gave in Previous Period\")\n\n**Donor Retention Rate = (750 / 1,000) x 100 = 75%**\n\nThis means you retained 75% of your 2022 donors in 2023.\n\n## 3. Important Considerations and Advanced Metrics\n\nWhile the basic formula is a great starting point, you'll want to dig deeper.\n\n### a. Defining \"Donor\"\n\n*   **Unique Donors:** Ensure you're counting unique individuals or households, not just individual gifts. A donor who gives five times in a year is still one donor for retention purposes.\n*   **Gift Threshold:** Do you count very small gifts (e.g., $1)? Most organizations include all gifts, but some might set a minimum to focus on more substantive donors.\n\n### b. Cohort-Based Retention\n\nThis is where you segment your donors for more actionable insights.\n\n*   **First-Time Donor Retention:** This is critical! How many new donors",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 660,
+  "estimated_cost_usd": 0.001651,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

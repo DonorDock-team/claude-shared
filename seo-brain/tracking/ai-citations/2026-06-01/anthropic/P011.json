@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P011",
+  "prompt_text": "DonorDock vs Salesforce Nonprofit Cloud",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502353+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Salesforce Nonprofit Cloud\n\n## Quick Overview\n\n**DonorDock** is a simple, affordable donor management system built specifically for small nonprofits.\n\n**Salesforce Nonprofit Cloud** is a comprehensive, enterprise-level CRM platform with extensive customization capabilities.\n\n## Key Comparisons\n\n### **Best For**\n\n| DonorDock | Salesforce Nonprofit Cloud |\n|-----------|---------------------------|\n| Small nonprofits (1-10 staff) | Medium to large nonprofits |\n| Organizations with simple needs | Organizations needing complex workflows |\n| Limited technical resources | Dedicated IT staff/admins |\n| Budget under $2,000/year | Budget $10,000+/year |\n\n### **Pricing**\n\n- **DonorDock**: $99-$149/month (flat rate, unlimited users)\n- **Salesforce**: Free for 10 licenses, then ~$36-$120/user/month + implementation costs ($10,000-$50,000+)\n\n### **Ease of Use**\n\n- **DonorDock**: Very user-friendly, minimal training needed, quick setup\n- **Salesforce**: Steep learning curve, requires significant training and often a dedicated admin\n\n### **Features**\n\n| Feature | DonorDock | Salesforce |\n|---------|-----------|------------|\n| Donor management | \u2705 Basic | \u2705 Advanced |\n| Contact tracking | \u2705 | \u2705 |\n| Online donations | \u2705 Built-in | \u2705 Via apps |\n| Email marketing | \u2705 Basic | \u2705 Advanced (Marketing Cloud) |\n| Grant tracking | \u2705 Basic | \u2705 Advanced |\n| Volunteer management | \u274c | \u2705 |\n| Program management | \u274c Limited | \u2705 Extensive |\n| Custom reporting | \u2705 Limited | \u2705 Extensive |\n| Integrations | \u2705 ~30 | \u2705 Hundreds |\n| Customization | \u274c Limited | \u2705 Highly customizable |\n\n### **Support**\n\n- **DonorDock**: Direct email/chat support, responsive customer service\n- **Salesforce**: Community forums, paid support tiers, extensive partner network\n\n## Pros & Cons\n\n### DonorDock Pros\n- \u2705 Affordable and transparent pricing\n- \u2705 Easy to learn and use\n- \u2705 Quick implementation (days, not months)\n- \u2705 All-in-one solution for basics\n- \u2705 Good for donor-centric organizations\n\n### DonorDock Cons\n- \u274c Limited customization\n- \u274c Fewer integrations\n- \u274c May outgrow it as organization scales\n- \u274c Basic reporting capabilities\n\n### Salesforce Pros\n- \u2705 Extremely powerful and scalable\n- \u2705 Highly customizable\n- \u2705 Comprehensive ecosystem\n- \u2705 Industry standard with large community\n- \u2705 Handles complex organizational needs\n\n### Salesforce Cons\n- \u274c Expensive (hidden costs in implementation/customization)\n- \u274c Requires technical expertise\n- \u274c Can be overwhelming for small teams\n- \u274c Time-intensive to set up and maintain\n\n## Decision Framework\n\n**Choose DonorDock if you:**\n- Have fewer than 5,000 contacts\n- Need something up and running quickly\n- Have limited technical staff\n- Want all-inclusive pricing\n- Focus primarily on donor relationships and fundraising\n\n**Choose Salesforce if you:**\n- Have complex program management needs\n- Need extensive customization\n- Have (or can hire) a Salesforce administrator\n- Manage multiple programs/grants/initiatives\n- Plan significant growth and need scalability\n- Require advanced reporting and analytics\n\n## Bottom Line\n\nDonorDock is like buying a reliable car\u2014it does what you need affordably and simply. Salesforce is like buying a custom vehicle\u2014incredibly powerful but requires investment in building and maintaining it.\n\nFor most small nonprofits, **DonorDock offers better value and usability**. For growing or complex organizations with resources to invest, **Salesforce provides unmatched power and flexibility**.\n\nWould you like help determining which is better for your specific situation?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 1014,
+  "estimated_cost_usd": 0.015267,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

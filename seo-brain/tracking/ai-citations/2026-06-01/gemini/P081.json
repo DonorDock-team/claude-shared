@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P081",
+  "prompt_text": "Best donor CRM for community colleges",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502142+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a community college involves balancing features, ease of use, budget, and scalability. Unlike large universities with massive alumni networks and complex research funding, community colleges often focus on local community support, corporate partnerships, and engaged alumni.\n\nHere are the top recommendations, considering the typical needs of a community college:\n\n---\n\n### Top Recommendations for Community Colleges\n\n1.  **Bloomerang**\n    *   **Why it's Great for Community Colleges:** Bloomerang is consistently praised for its user-friendliness, modern interface, and strong focus on donor retention. It's designed specifically for nonprofits and fundraising, offering intuitive features for managing contacts, tracking giving history, segmenting donors, and automating communications.\n    *   **Pros:**\n        *   **Excellent User Experience:** Very easy to learn and use, reducing training time.\n        *   **Strong Donor Engagement Focus:** Features like engagement meters and suggested actions help build relationships.\n        *   **Integrated Marketing Tools:** Built-in email marketing, online giving forms, and basic website integration.\n        *   **Robust Reporting:** Easy-to-understand dashboards and customizable reports.\n        *   **Good Customer Support:** Highly rated support and resources.\n        *   **Affordable:** Competitive pricing often fits community college budgets better than enterprise solutions.\n    *   **Cons:**\n        *   May lack some niche, highly advanced features found in enterprise systems like Raiser's Edge NXT or a fully customized Salesforce.\n        *   Event management is present but might not be as robust as a dedicated event platform.\n\n2.  **DonorPerfect**\n    *   **Why it's Great for Community Colleges:** DonorPerfect is a long-standing, comprehensive solution that offers a solid set of features for fundraising management. It's highly scalable and can grow with your college's development efforts.\n    *   **Pros:**\n        *   **Comprehensive Features:** Covers donor management, gift processing, pledges, recurring gifts, event management, grant tracking, and online fundraising.\n        *   **Strong Reporting & Analytics:** Powerful segmentation and customizable reports.\n        *   **Good Integrations:** Connects with many third-party tools (payment processors, email marketing, wealth screening).\n        *   **Scalable:** Can serve small teams up to larger development operations.\n    *   **Cons:**\n        *   Interface can feel a bit dated compared to newer platforms like Bloomerang.\n        *   Steeper learning curve than Bloomerang for some",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 526,
+  "estimated_cost_usd": 0.001317,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

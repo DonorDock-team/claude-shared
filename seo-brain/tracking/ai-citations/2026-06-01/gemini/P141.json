@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P141",
+  "prompt_text": "Easy donor database for fundraisers",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502667+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for an \"easy\" donor database, you're generally seeking something intuitive, cloud-based, and specifically designed with fundraisers in mind, rather than a complex enterprise CRM.\n\nHere are some excellent options, ranging from super simple to slightly more robust but still very user-friendly:\n\n---\n\n### **1. The Absolute Basics (Free / Very Low Cost - Great Starting Point)**\n\n*   **Google Sheets / Microsoft Excel:**\n    *   **Pros:** Free, universally understood, highly flexible for basic contact info and donation tracking. Great for very small organizations just starting out with a handful of donors.\n    *   **Cons:** Not a true database \u2013 prone to data entry errors, difficult to generate complex reports, no automation, no built-in communication tools, collaboration can get messy quickly.\n    *   **Best for:** Organizations with < 50-100 donors, just getting started, or with very minimal fundraising activity.\n\n---\n\n### **2. Excellent \"Easy\" Dedicated Donor Databases**\n\nThese are purpose-built for nonprofits and prioritize ease of use.\n\n*   **Bloomerang:**\n    *   **Why it's easy:** Widely praised for its extremely intuitive interface and focus on donor retention. It's designed to be used by fundraisers, not IT professionals. Features like engagement meters and clear donor profiles make it easy to understand your donors at a glance.\n    *   **Key Features:** Donor profiles, donation tracking, recurring gifts, email marketing, reporting, wealth screening integration, online giving pages.\n    *   **Best for:** Small to medium-sized nonprofits looking for a user-friendly system with strong communication and retention tools.\n    *   **Pricing:** Tiered based on the number of constituents, starts affordably.\n\n*   **Little Green Light (LGL):**\n    *   **Why it's easy:** Offers a comprehensive feature set at a very competitive price, with a clean and logical interface. Many users find it easy to get started with and manage day-to-day operations.\n    *   **Key Features:** Constituent management, gift tracking (one-time, recurring, pledges, in-kind), event management, grant tracking, acknowledgments, reporting, mail merge, email integration.\n    *   **Best for:** Small to medium-sized nonprofits that need robust features without breaking the bank and appreciate a straightforward",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 498,
+  "estimated_cost_usd": 0.001246,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

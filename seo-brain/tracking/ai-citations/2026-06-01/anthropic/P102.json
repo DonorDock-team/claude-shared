@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502429+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Free Alternatives to Salesforce Nonprofit Cloud\n\nHere are some solid free options for nonprofit organizations:\n\n## **Fully Free CRM Options**\n\n### **1. Salesforce Nonprofit Success Pack (NPSP)**\n- Free 10 licenses for eligible nonprofits through Salesforce.org\n- Full CRM with donation tracking, program management, and reporting\n- Requires technical setup but offers robust features\n- Additional licenses available at discounted rates\n\n### **2. CiviCRM**\n- 100% free and open-source\n- Built for nonprofits with donor management, event registration, email marketing\n- Integrates with WordPress, Drupal, and Joomla\n- Requires technical knowledge or hosting costs\n\n### **3. Odoo Community Edition**\n- Open-source ERP/CRM platform\n- Includes contact management, pipeline tracking, and basic features\n- Modular design allows customization\n- Free to self-host\n\n## **Freemium Options (Free for Small Teams)**\n\n### **4. HubSpot CRM**\n- Free forever for unlimited users\n- Contact management, email tracking, basic reporting\n- Limited nonprofit-specific features but very user-friendly\n\n### **5. Bitrix24**\n- Free for up to 12 users\n- CRM, project management, communication tools\n- Cloud-based with mobile apps\n\n### **6. Zoho CRM**\n- Free for up to 3 users\n- Contact management, lead tracking, basic automation\n- Good mobile app\n\n## **Nonprofit-Specific Free Tools**\n\n### **7. Little Green Light**\n- Discounted/free plans for very small nonprofits\n- Donor management focused\n- Check eligibility requirements\n\n### **8. Kindful** (by Bloomerang)\n- Sometimes offers free plans for small organizations\n- Donation tracking and donor management\n\n## **Recommendation**\nFor most nonprofits, **Salesforce NPSP** (if you qualify) or **CiviCRM** (if you have technical resources) offer the most comprehensive free solutions.\n\nWould you like more details about any of these options?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce NPSP",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 485,
+  "estimated_cost_usd": 0.007323,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

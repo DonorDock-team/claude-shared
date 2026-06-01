@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "perplexity",
+  "timestamp": "2026-06-01T13:25:21.502002+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "You are looking for a **donor CRM that does not charge per user** (i.e., flat subscription pricing or unlimited users). Based on current info, good options to evaluate are:\n\n- **DonorDock** \u2013 donor CRM with **unlimited users** on each paid tier (no per\u2011seat fees).  \n  - A recent nonprofit CRM buyers\u2019 guide notes that DonorDock \u201cincludes **unlimited users (no per\u2011seat charges)**\u201d and instead prices based on contact volume, with a plan \u201capproximately **$225/month for 2,500 contacts**.\u201d[7]  \n  - A Givebutter review confirms DonorDock has **no platform fees** (you still pay standard payment processing fees) and that access is via **paid tiers only**, not per user.[8]  \n  - This matches what most nonprofits mean by \u201cflat rate pricing / no per user fees\u201d: one org\u2011level subscription, freely shared among staff.\n\n- **Fundraising platforms with built\u2011in CRM and no user pricing**  \n  If you are open to a fundraising platform that includes a usable donor database/CRM rather than a standalone CRM-only tool, these are worth a look:\n  - **Mightycause** \u2013 includes a built\u2011in **donor CRM (\u201cContacts\u201d) at $0/month**; revenue comes from **transaction/platform fees**, not per\u2011user licenses.[3]  \n    - The article describes Mightycause as an \u201call\u2011in\u2011one fundraising platform with an integrated CRM\u201d and \u201c$0/month subscription\u201d with a capped platform fee per transaction.[3]  \n  - **Givebutter** \u2013 offers **$0/month** core plan with a full fundraising suite and donor tools; no per-user charge is mentioned, revenue is via transaction fees and optional tips.[3][5]  \n    - Advanced CRM features require **Givebutter Plus**, which is priced as an annual subscription (hundreds per year), again *not* per user.[3]  \n  - **Some \u201czero\u2011fee\u201d platforms** (e.g., Zeffy, Give Lively) provide donor databases with **no subscription fee** and rely on optional donor tips, so there is no per\u2011user pricing at all, though details vary.[4][5]\n\n- **How this differs from per\u2011user CRMs**  \n  - Aha Impact, for example, explicitly uses a **per\u2011user/month** model (e.g., \u201c$65 per user / month\u201d for donor management) and emphasizes that it *doesn\u2019t* charge by number of contacts, but **it still charges per user**, which is exactly what you want to avoid.[1]  \n  - Flat\u2011rate CRM models, by contrast, \u201ccharge one monthly or annual fee regardless of how many users access the system.\u201d[6]\n\nIf you tell me:\n- Approximate **contact count** (e.g., 2,000 vs. 50,000 donors),\n- Expected **online donation volume** (low/medium/high),\n- Whether you need **advanced features** (events, peer\u2011to\u2011peer, email, automation),\n\nI can narrow this down further and suggest 1\u20132 best\u2011fit platforms with a rough cost estimate under a flat or unlimited\u2011user model.",
+  "donordock_mentioned": true,
+  "donordock_position": 178,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 669,
+  "estimated_cost_usd": 0.015071,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://ahaapps.com/pricing/",
+      "https://www.donorperfect.com/fundraising-software/pricing-guide/",
+      "https://blog.mightycause.com/best-fundraising-platforms-for-nonprofits-2026/",
+      "https://www.givelively.org/blog/how-much-do-nonprofit-fundraising-platforms-actually-cost",
+      "https://blog.givecentral.org/best-donor-management-software-for-small-nonprofits-in-2026/",
+      "https://www.liveimpact.org/blog/nonprofit-crm-pricing",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://givebutter.com/blog/best-free-crm-for-nonprofits"
+    ]
+  }
+}

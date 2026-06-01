@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P129",
+  "prompt_text": "Bloomerang limitations",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502971+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Bloomerang Limitations\n\nBloomerang is a popular donor management system for nonprofits, but it has several notable limitations:\n\n## **Key Limitations**\n\n### **1. Reporting & Customization**\n- Limited custom report builder compared to competitors\n- Report customization can be restrictive\n- Difficulty creating complex, multi-layered reports\n- Export options may not meet all organizational needs\n\n### **2. Email & Communications**\n- Basic email marketing features compared to dedicated platforms\n- Limited email template customization\n- No A/B testing capability\n- Email deliverability can sometimes be an issue\n\n### **3. Integration Challenges**\n- Fewer third-party integrations than competitors like Salesforce\n- API limitations for custom integrations\n- Some popular nonprofit tools may not integrate seamlessly\n- Website integration can require technical expertise\n\n### **4. Grant Management**\n- Limited grant tracking functionality\n- Not ideal for organizations heavily dependent on grants\n- May need separate grant management software\n\n### **5. Event Management**\n- Basic event registration features\n- Limited ticketing options\n- May need external event management tools for complex events\n\n### **6. Pricing**\n- Can become expensive as database grows\n- Costs increase with contact volume\n- Additional fees for certain features\n\n### **7. User Interface**\n- Some users find navigation less intuitive\n- Learning curve for new users\n- Mobile app functionality is limited\n\n### **8. Advanced Features**\n- Limited wealth screening capabilities (compared to dedicated tools)\n- Basic volunteer management\n- Limited pledge tracking complexity\n\n## **Best Suited For**\nSmall to mid-sized nonprofits with straightforward donor management needs rather than large, complex organizations requiring extensive customization.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 378,
+  "estimated_cost_usd": 0.005706,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

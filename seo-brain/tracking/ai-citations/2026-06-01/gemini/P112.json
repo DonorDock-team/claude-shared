@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.503067+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking soft credits in your donor CRM is crucial for understanding the full scope of your relationships, proper donor stewardship, and accurate fundraising analysis. While soft credits don't represent direct revenue from the individual, they acknowledge their influence on a donation.\n\nHere's a comprehensive guide on how to track soft credits:\n\n## What are Soft Credits?\n\nA soft credit acknowledges a donor's influence or connection to a donation, even if they didn't directly provide the funds themselves. The **hard credit** (the financial transaction) always goes to the entity that actually writes the check or makes the transfer (e.g., a foundation, a company, a donor-advised fund). The **soft credit** goes to the individual(s) who influenced that gift.\n\n**Examples of Soft Credits:**\n\n*   **Donor-Advised Funds (DAF):** The *fund* gets the hard credit, but the *individual advisor* who recommended the grant gets the soft credit.\n*   **Corporate Matching Gifts:** The *company* gets the hard credit, but the *employee* who initiated the match gets the soft credit.\n*   **Family Foundations:** The *foundation* gets the hard credit, but the *family members* who direct the giving get soft credit.\n*   **Spousal Giving:** If one spouse makes a donation from a joint account, both spouses might receive soft credit (or in some CRMs, the gift is attributed to the household, and both get credit).\n*   **Giving Circles/Groups:** The *group* gets the hard credit, but individual *members* might get soft credit for their portion or influence.\n*   **Board Member Pledges:** A board member pledges personally, but a gift arrives from their family foundation or company. The board member gets soft credit for the gift, and the foundation/company gets hard credit.\n\n## Why Track Soft Credits?\n\n1.  **Accurate Stewardship & Recognition:** Ensures you thank the right people for their influence, even if they weren't the direct source of funds.\n2.  **Relationship Management:** Helps you understand who influences giving decisions and identify potential major donors or advocates.\n3.  **Fundraising Metrics:** Gives a more complete picture of a donor's \"value\" or engagement beyond direct contributions.\n4.  **Major Donor Prospecting:** An individual who consistently influences DAF gifts or corporate matches might be a good candidate for a direct major gift ask.\n5.  **Board Participation:** Accurately tracks board member \"give/get\" contributions.\n6.  **Avoid Double Counting Revenue:** Soft credits are *not* counted as revenue from the soft-credited individual in financial reports. They are strictly for internal relationship management.\n\n## How CRMs Handle Soft Credits (General Approaches)\n\nMost modern donor CRMs (e.g., Salesforce NPSP, Raiser's Edge NXT, Bloomerang, Virtuous, NeonOne, Kindful) have built-in functionality for soft credits. If yours doesn't, you might need",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce NPSP",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 631,
+  "estimated_cost_usd": 0.00158,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

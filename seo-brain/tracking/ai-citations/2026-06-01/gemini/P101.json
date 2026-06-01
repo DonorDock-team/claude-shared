@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P101",
+  "prompt_text": "DonorPerfect total cost of ownership",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502412+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Understanding the Total Cost of Ownership (TCO) for DonorPerfect (or any CRM/fundraising software) goes far beyond just the monthly or annual subscription fee. It includes all direct and indirect costs associated with acquiring, implementing, using, and maintaining the system over its lifespan.\n\nDonorPerfect is a comprehensive cloud-based solution, so some traditional IT costs (like server maintenance) are eliminated, but others emerge.\n\nHere's a breakdown of the typical components of DonorPerfect's TCO:\n\n---\n\n### Core Components of DonorPerfect TCO\n\n1.  **Subscription Fees (Direct Cost)**\n    *   **Base Package:** DonorPerfect's pricing is typically tiered based on the number of active constituents/donors in your database and the features included. Larger databases or organizations needing more advanced features will pay more.\n    *   **Included Features:** The base subscription usually includes core CRM, donor management, basic reporting, and some online giving functionality.\n    *   **Tier Structure:** Be aware of different tiers (e.g., Starter, Growth, Enterprise) and what each includes. Moving up a tier due to growth or feature needs will increase your subscription cost.\n\n2.  **Implementation & Setup Costs (Direct, One-Time/Initial Cost)**\n    *   **Initial Setup Fee:** DonorPerfect often charges an upfront implementation or setup fee. This can vary based on the complexity of your organization and the level of assistance required.\n    *   **Onboarding:** This fee usually covers the initial configuration of your account, basic user setup, and possibly some introductory training sessions.\n\n3.  **Data Migration (Direct & Indirect Costs)**\n    *   **Assisted Migration:** If DonorPerfect assists with migrating your existing donor data from spreadsheets or another system, there might be an additional fee, especially for complex or very large datasets.\n    *   **Self-Migration (Indirect Cost):** If you handle the data migration yourself, the cost comes in the form of significant staff time spent on:\n        *   Data cleanup (deduplication, standardization, filling missing fields).\n        *   Exporting data from old systems.\n        *   Mapping fields to DonorPerfect's structure.\n        *   Importing data and verifying accuracy.\n        *   *This can be one of the most time-consuming and underestimated costs.*\n\n4.  **Add-ons & Integrations (Direct, Ongoing Costs)**\n    *   **DonorPerfect's Own Add-ons:** Many valuable features are optional add-ons that incur extra monthly/annual fees. Examples include:\n        *   **Payment Processing Fees:** This is HUGE. While you use DonorPerfect's integrated payment processor (SafeSave Payments), you'll pay transaction fees (percentage + per-transaction fee) for every donation processed. This can be a significant ongoing cost.\n        *   **DPMassMailer:** For advanced email marketing.\n        *   **DP Text",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 614,
+  "estimated_cost_usd": 0.001537,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

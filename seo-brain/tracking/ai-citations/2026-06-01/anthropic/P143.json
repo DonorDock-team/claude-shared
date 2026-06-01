@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P143",
+  "prompt_text": "Donor CRM that does pledges and recurring",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502742+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Top Donor CRMs with Pledges & Recurring Donations\n\n## **Best Overall Options**\n\n### **Bloomerang**\n- Strong pledge tracking with payment schedules\n- Automated recurring donation processing\n- Pledge reminders and follow-ups\n- ~$125+/month\n\n### **Little Green Light**\n- Robust pledge management\n- Recurring gift tracking\n- Customizable payment schedules\n- ~$49+/month\n\n### **DonorPerfect**\n- Comprehensive pledge campaigns\n- Automated recurring billing\n- Payment plan management\n- ~$89+/month\n\n## **Budget-Friendly**\n\n### **Kindful** (merged with Bloomerang)\n- Simple recurring gift setup\n- Basic pledge tracking\n- ~$100+/month\n\n### **Neon CRM**\n- Pledge management included\n- Recurring donation automation\n- ~$50+/month\n\n## **Enterprise Level**\n\n### **Salesforce Nonprofit Cloud**\n- Advanced pledge workflows\n- Complex recurring gift logic\n- Requires setup/customization\n- ~$36+/user/month\n\n## **Key Features to Compare**\n- Automatic payment reminders\n- Failed payment retry logic\n- Pledge vs. actual reporting\n- Integration with payment processors (Stripe, PayPal, etc.)\n\n**What's your organization's size and budget?** I can narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 319,
+  "estimated_cost_usd": 0.004836,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

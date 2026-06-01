@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P015",
+  "prompt_text": "Alternative to Bloomerang",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502613+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Alternatives to Bloomerang\n\nHere are some popular alternatives to Bloomerang for donor management and fundraising:\n\n## **Top Competitors**\n\n### **1. DonorPerfect**\n- Comprehensive donor management\n- Strong reporting and analytics\n- Good for small to large nonprofits\n- Similar price range to Bloomerang\n\n### **2. Little Green Light**\n- User-friendly interface\n- Affordable for small nonprofits\n- Good reporting features\n- Strong customer support\n\n### **3. Salesforce Nonprofit Cloud**\n- Highly customizable\n- Scalable for growing organizations\n- More complex/expensive\n- Powerful for larger nonprofits\n\n### **4. Kindful (by Bloomerang)**\n- Actually owned by Bloomerang now\n- Simple, intuitive interface\n- Good for small to mid-size nonprofits\n\n### **5. Neon CRM**\n- All-in-one fundraising platform\n- Event management included\n- Membership management features\n- Competitive pricing\n\n### **6. Blackbaud Raiser's Edge**\n- Industry standard for large nonprofits\n- Very comprehensive\n- Higher price point\n- Steeper learning curve\n\n## **What to consider:**\n- Organization size\n- Budget\n- Specific features needed (events, memberships, grants)\n- Integration requirements\n- User-friendliness\n\n**What specific features are most important to you?** That would help narrow down the best option.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 336,
+  "estimated_cost_usd": 0.005079,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

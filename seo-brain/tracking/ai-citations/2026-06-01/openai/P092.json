@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "openai",
+  "timestamp": "2026-06-01T13:25:21.502923+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM (Customer Relationship Management) system for international NGOs depends on various factors, including the organization's size, specific needs, budget, and technical capacity. However, several CRM systems are highly regarded for their effectiveness in the nonprofit sector, particularly for international NGOs. Here are some of the top options:\n\n1. **Salesforce.org Nonprofit Cloud**: Salesforce is one of the most popular CRMs globally, offering a Nonprofit Cloud designed specifically for nonprofit organizations. It provides tools for donor management, fundraising, program management, and more. Its flexibility and scalability make it suitable for international NGOs.\n\n2. **Bloomerang**: Known for its user-friendly interface, Bloomerang helps nonprofits with donor management and engagement. It provides fundraising tools, reporting, and analytics, making it a good choice for NGOs focused on building and maintaining strong donor relationships.\n\n3. **Blackbaud Raiser\u2019s Edge NXT**: This is a comprehensive fundraising and donor management solution. It's widely used by larger organizations due to its robust features, including online fundraising, donor analytics, and integrated communication tools.\n\n4. **HubSpot CRM**: While traditionally known as a sales and marketing platform, HubSpot offers free CRM tools that can be tailored for nonprofit use. It\u2019s beneficial for organizations looking for strong communication and inbound marketing features.\n\n5. **Kindful**: Kindful integrates well with other tools and provides features like donor management, online fundraising, and tracking donor interactions. It's designed to provide insights into donor data to help enhance fundraising strategies.\n\n6. **DonorPerfect**: This CRM is favored for its flexibility and scalability, offering an array of features including donor management, reporting, and customizable communication tools. It's suitable for organizations of all sizes.\n\n7. **Neon CRM**: Neon One offers a variety of tools for nonprofits, including CRM features specific to donor management, event planning, and membership management. It's designed to help streamline engagement strategies.\n\n8. **Little Green Light**: This CRM is known for its simplicity and cost-effectiveness, making it suitable for smaller international NGOs. It offers donor management, reporting, and communication features.\n\n9. **CiviCRM**: An open-source CRM system, CiviCRM offers extensive customization options and can be a cost-effective solution for NGOs willing to manage their own technical setup and support.\n\nWhen choosing a donor CRM, international NGOs should consider factors such as:\n\n- **Multi-currency and multi-language support**: Essential for organizations operating in multiple countries.\n- **Integration capabilities**: The ability to integrate with other systems and tools you already use.\n- **Ease of use**: User-friendly interfaces can enhance adoption and operational efficiency.\n- **Support and training**: Access to reliable customer support and user training resources.\n- **Scalability**: The CRM should grow with your organization and adapt to changing needs.\n\nIt's advisable for NGOs to conduct a thorough needs assessment and potentially request demos or trials of a few CRMs before making a final decision.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 604,
+  "estimated_cost_usd": 0.006072,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

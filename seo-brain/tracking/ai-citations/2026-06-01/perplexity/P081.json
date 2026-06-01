@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P081",
+  "prompt_text": "Best donor CRM for community colleges",
+  "engine": "perplexity",
+  "timestamp": "2026-06-01T13:25:21.502128+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The **best donor CRM for community colleges** is usually a **higher-ed CRM with alumni and donor fundraising tools**, not a generic nonprofit donor CRM. For most community colleges, the strongest starting point is **Ellucian CRM** for institutions already in the Ellucian ecosystem, while **Salesforce Education Cloud** is a strong alternative if you want broader customization and a unified view of students, alumni, donors, and partners.[4][7]\n\nWhat to prioritize for a community college donor CRM:\n- **Alumni + donor records in one system** so advancement can track relationships across students, graduates, and donors.[7]\n- **Fundraising and donation tracking** for pledges, recurring gifts, campaign management, and major-gift pipelines.[1][7]\n- **Marketing automation and segmentation** for targeted outreach to alumni and community supporters.[1][7]\n- **Integration with SIS, finance, email, and event tools** so advancement data is not siloed.[1][7]\n- **Customization** for fields, workflows, and reporting specific to your college\u2019s advancement structure.[1][4]\n\nA practical short list by fit:\n- **Ellucian CRM** \u2014 best if your college already uses Ellucian systems and wants a campus-focused higher-ed platform.[4]\n- **Salesforce Education Cloud** \u2014 best if you need high flexibility, strong ecosystem integration, and can support a more complex implementation.[7]\n- **DonorPerfect** \u2014 best if your team wants a donor-first nonprofit CRM that is integration-friendly, but it is less specifically higher-ed oriented than the two above.[3]\n- **Bloomerang / Virtuous / Bonterra / Kindful / other nonprofit CRMs** \u2014 good for smaller advancement shops, but they are generally positioned as nonprofit donor CRMs rather than community-college-specific systems.[2][8]\n\nIf you want the simplest rule of thumb:\n- Choose **Ellucian** if you want the most college-native fit.\n- Choose **Salesforce Education Cloud** if you want the most flexible enterprise option.\n- Choose a **nonprofit CRM** only if your advancement needs are relatively simple and your college does not need deep student-alumni integration.[4][7][8]\n\nIf you want, I can give you a **ranked shortlist for small, mid-sized, or large community colleges** or a **feature-by-feature comparison table**.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Kindful",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 488,
+  "estimated_cost_usd": 0.012341,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.youtube.com/watch?v=XYEI2Jmm4U4",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://element451.com/blog/crm-for-higher-education",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://www.edvisorly.com/university-insights/guide-on-crm-for-higher-education",
+      "https://www.salesforce.com/education/crm/",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/"
+    ]
+  }
+}

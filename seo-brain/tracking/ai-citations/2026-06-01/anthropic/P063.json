@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502096+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM with Text Messaging\n\nI'll help you understand donor CRM systems with SMS capabilities. Here are the key options:\n\n## **Top Donor CRMs with Built-in Texting**\n\n### **1. Bloomerang**\n- SMS campaigns and automated texts\n- Donor management and engagement tracking\n- Best for: Small to mid-size nonprofits\n- Price: ~$125+/month\n\n### **2. Kindful (by Bloomerang)**\n- Two-way text messaging\n- Donor database and online giving\n- Integration with major platforms\n- Price: ~$100+/month\n\n### **3. Salsa Engage**\n- SMS fundraising and peer-to-peer texting\n- Comprehensive donor management\n- Best for: Advocacy and political organizations\n- Price: Custom pricing\n\n### **4. Qgiv**\n- Text-to-give functionality\n- Donor database included\n- Event management\n- Price: ~$99+/month\n\n## **CRMs with SMS Integrations**\n\nMany popular donor CRMs integrate with texting platforms:\n\n- **DonorPerfect** + Trumpia/SimpleTexting\n- **Salesforce Nonprofit Cloud** + Twilio\n- **Little Green Light** + third-party SMS tools\n- **Neon CRM** + CallHub or Tatango\n\n## **What to Look For**\n\n\u2705 Two-way messaging capability  \n\u2705 Automated text campaigns  \n\u2705 Donation tracking from SMS  \n\u2705 Segmentation for targeted messaging  \n\u2705 Compliance tools (opt-in/opt-out)  \n\u2705 Mobile-friendly donor pages\n\n**What's your organization's size and primary need?** I can recommend the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 407,
+  "estimated_cost_usd": 0.006147,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

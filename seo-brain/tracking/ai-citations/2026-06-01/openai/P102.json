@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "openai",
+  "timestamp": "2026-06-01T13:25:21.502445+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "If you're looking for free alternatives to Salesforce Nonprofit Cloud, there are several options that can suit the needs of nonprofit organizations. Here are some popular free or open-source alternatives to consider:\n\n1. **CiviCRM**:\n   - An open-source CRM specifically designed for nonprofits, NGOs, and advocacy organizations.\n   - It offers features such as contact management, event management, member management, and contribution tracking.\n   - CiviCRM can be integrated with popular content management systems like WordPress, Drupal, and Joomla.\n\n2. **Odoo**:\n   - An open-source suite of business applications that includes CRM functionality.\n   - The community edition is free and can be customized for nonprofit use.\n   - Offers modules for sales, human resources, marketing, and more.\n\n3. **SuiteCRM**:\n   - An open-source CRM that evolved from SugarCRM\u2019s last open-source version.\n   - Offers features such as a 360-degree view of donor profiles, campaign management, and reporting tools.\n\n4. **Bitrix24**:\n   - Provides a free version with a range of features including CRM, project management, and communication tools.\n   - The free version offers generous limits for small teams and is suitable for managing donors and contacts.\n\n5. **Zoho CRM**:\n   - While not entirely free, Zoho CRM offers a free plan for up to 3 users.\n   - Provides basic CRM functionalities and limited features that may be sufficient for small nonprofit operations.\n\n6. **HubSpot CRM**:\n   - Offers a free version with basic CRM features like contact management, task management, and email tracking.\n   - It\u2019s robust and easy to integrate with other HubSpot tools or third-party applications.\n\n7. **ERPNext**:\n   - An open-source ERP platform with CRM capabilities that can be adapted for nonprofit needs.\n   - Offers features such as donor management, event management, and volunteer tracking.\n\nWhen selecting a CRM solution, consider your organization's specific needs, technical expertise, and the ability to customize and maintain the system. While these options offer free versions, some may require technical skills for setup and customization, especially the open-source solutions.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 434,
+  "estimated_cost_usd": 0.004375,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

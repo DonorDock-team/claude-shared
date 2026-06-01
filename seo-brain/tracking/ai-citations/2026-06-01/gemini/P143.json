@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P143",
+  "prompt_text": "Donor CRM that does pledges and recurring",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502783+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for a Donor CRM that handles **pledges** and **recurring donations**, you're touching on two of the most fundamental and critical aspects of donor management for most non-profits.\n\nPledges allow donors to commit to a future gift, often paid in installments over time, while recurring donations (or sustaining gifts) are automatic, ongoing contributions, usually monthly or annually. Both require robust tracking, payment processing integration, and communication features within a CRM.\n\nHere are some of the top Donor CRMs that excel in these areas, catering to different organization sizes and needs:\n\n---\n\n### Top Donor CRMs with Pledge & Recurring Donation Capabilities\n\n1.  **Bloomerang**\n    *   **Strengths:** Very user-friendly interface, strong focus on donor retention and engagement metrics, integrated email marketing, and robust reporting. Excellent for tracking donor engagement levels.\n    *   **Pledges/Recurring:** Fully supports both, with clear dashboards to see payment schedules for pledges and manage recurring gift subscriptions. It integrates well with various payment processors.\n    *   **Best for:** Small to medium-sized non-profits that prioritize ease of use, donor engagement, and modern design.\n\n2.  **DonorPerfect**\n    *   **Strengths:** A long-standing and comprehensive solution with robust reporting, strong payment processing capabilities (SafeSave Payments), and extensive customization options. It's an all-in-one system.\n    *   **Pledges/Recurring:** Excellent for managing complex pledge schedules, partial payments, and recurring donation processing. You can automate reminders and track payment statuses meticulously.\n    *   **Best for:** Medium to large non-profits that need a powerful, feature-rich system with deep financial tracking and reporting.\n\n3.  **Salesforce Nonprofit Cloud (NPSP)**\n    *   **Strengths:** Incredibly powerful, highly customizable, and scalable for organizations of any size. Benefits from the vast Salesforce ecosystem and integrations. NPSP (Nonprofit Success Pack) is a free, open-source package built on Salesforce that adapts it for non-profits.\n    *   **Pledges",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 443,
+  "estimated_cost_usd": 0.00111,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

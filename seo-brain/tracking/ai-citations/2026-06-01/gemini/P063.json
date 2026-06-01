@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502140+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Many modern donor CRMs have integrated text messaging capabilities, or offer robust integrations with SMS providers, to help non-profits engage with donors, manage events, send urgent updates, and facilitate text-to-give campaigns.\n\nHere are some of the top donor CRMs that offer text messaging functionality:\n\n### Donor CRMs with Built-in or Strong Text Messaging Integrations:\n\n1.  **Bloomerang:**\n    *   **Features:** Bloomerang is known for its focus on donor retention. It offers integrated text-to-give and peer-to-peer texting capabilities, allowing you to engage donors directly through SMS for donations, event reminders, and updates.\n    *   **Ideal for:** Small to mid-sized nonprofits looking for an intuitive CRM with strong donor engagement tools.\n\n2.  **Neon CRM (by Neon One):**\n    *   **Features:** Neon CRM provides a comprehensive suite of tools, including robust text messaging for various purposes: text-to-give, mass text communications (campaigns, announcements), and event notifications. They aim for an all-in-one platform experience.\n    *   **Ideal for:** Mid-sized nonprofits needing an integrated solution for fundraising, event management, membership, and communications.\n\n3.  **DonorPerfect:**\n    *   **Features:** A long-standing player in the nonprofit space, DonorPerfect offers integrated text messaging through features like MobileCause (which they acquired), providing text-to-give, mobile bidding, peer-to-peer fundraising, and general SMS communications.\n    *   **Ideal for:** Nonprofits of all sizes, from small to large, looking for a comprehensive and mature solution.\n\n4.  **Virtuous:**\n    *   **Features:** Virtuous focuses on \"responsive fundraising\" and multi-channel engagement. Their platform includes robust SMS capabilities for personalized donor outreach, automated workflows, text-to-give, and segmented messaging, aiming for a highly personalized donor experience.\n    *   **Ideal for:** Growth-focused nonprofits looking for sophisticated automation, personalization, and multi-channel engagement.\n\n5.  **Salesforce Nonprofit Cloud:**\n    *   **Features:** While Salesforce itself doesn't have native mass SMS functionality built into its core, the Nonprofit Cloud leverages its vast AppExchange ecosystem. You can integrate powerful SMS apps like **Mogli SMS**, **Twilio**, or **360dialog** directly into your Salesforce instance, enabling highly customized and automated text messaging campaigns, emergency alerts, and two-way conversations.\n    *   **Ideal for:** Larger, more complex nonprofits that need highly customizable solutions and have the resources for implementation and ongoing management.\n\n6.  **Blackbaud (Raiser's Edge NXT, Luminate Online, etc.):**\n    *   **Features:** Blackbaud offers various products, and many now incorporate or integrate with SMS. Raiser's Edge NXT, for instance, can be paired with their marketing automation tools (like Blackbaud Marketing) that include SMS. They also offer text-to-give solutions and various mobile engagement features across their ecosystem.\n    *   **Ideal for:** Large, established nonprofits and institutions that need robust, enterprise",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Neon CRM",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 659,
+  "estimated_cost_usd": 0.001649,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

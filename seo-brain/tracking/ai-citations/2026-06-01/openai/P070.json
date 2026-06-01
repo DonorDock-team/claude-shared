@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "openai",
+  "timestamp": "2026-06-01T13:25:21.502689+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Automating donor thank you letters can streamline your workflow and ensure that your donors are promptly acknowledged, which can help to maintain and strengthen donor relationships. Here's a general process you can follow to automate the creation and distribution of donor thank you letters:\n\n### 1. **Choose the Right Tools**\n   - **CRM System**: Use a Customer Relationship Management (CRM) system that can track donations and donor information. Popular options include Salesforce Nonprofit Cloud, Blackbaud, Bloomerang, NeonCRM, and DonorPerfect.\n   - **Email Marketing Platform**: Tools like Mailchimp, Constant Contact, or SendGrid can help automate email thank you notes.\n   - **Word Processor and Mail Merge**: For physical letters, you can use Microsoft Word or Google Docs with a mail merge feature.\n\n### 2. **Develop a Template**\n   - **Personalized Content**: Create a thank you letter template that can be customized with each donor\u2019s name, donation amount, and specific program or campaign they donated to.\n   - **Consistent Branding**: Ensure your letter includes your organization's branding, such as logo, font, and color scheme.\n   - **Legal Compliance**: Include necessary legal language for tax purposes if applicable.\n\n### 3. **Segment Your Donors**\n   - **Custom Messages**: Segment your donor list to customize messages for first-time donors, repeat donors, major donors, or other relevant segments.\n   - **Data Segmentation**: Use your CRM to automatically segment donors based on criteria like donation amount, frequency, or recency.\n\n### 4. **Automate the Process**\n   - **Email Automation**: Set up automated email campaigns in your email marketing platform to send thank you emails immediately after a donation is received.\n   - **Scheduled Batch Uploads**: For physical letters, regularly export donor data from your CRM and use mail merge to print and send personalized letters.\n\n### 5. **Setup Triggers and Workflows**\n   - **Donation Triggers**: Configure your CRM or donation platform to trigger a thank you letter every time a donation is recorded.\n   - **Follow-Up Workflows**: Design a series of follow-up messages or activities (e.g., updates on projects they funded) which are sent after the initial thank you.\n\n### 6. **Review and Optimize**\n   - **Monitor Responses**: Track open rates, response rates, and feedback from your thank you messages to determine effectiveness.\n   - **A/B Testing**: Experiment with different messaging or design elements to optimize engagement.\n\n### 7. **Integration and Maintenance**\n   - **System Integration**: Ensure that your CRM, email platform, and any other tools you use are well-integrated to allow seamless data flow.\n   - **Regular Updates**: Regularly update your donor templates and automation processes based on changes in your organization\u2019s branding, messaging, or donor base.\n\n### 8. **Feedback and Improvement**\n   - **Seek Feedback**: Ask for feedback from donors to improve your thank you correspondence.\n   - **Continuous Improvement**: Regularly review and refine your process for efficiency, personalization, and alignment with donor expectations.\n\nBy employing these steps, you can effectively automate your donor thank you letters, ensuring timely, personalized, and meaningful communication with supporters.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 665,
+  "estimated_cost_usd": 0.006685,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

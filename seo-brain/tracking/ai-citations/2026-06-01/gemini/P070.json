@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502719+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Automating donor thank you letters is a fantastic way to improve efficiency, ensure timely acknowledgement, and maintain consistency in your donor communications. However, it's crucial to balance automation with personalization to avoid sounding generic or insincere.\n\nHere's a step-by-step guide to automating donor thank you letters, along with key considerations:\n\n## Why Automate Donor Thank You Letters?\n\n*   **Timeliness:** Donors appreciate prompt acknowledgement. Automated systems can send thank-yous within minutes or hours, significantly improving response time.\n*   **Efficiency:** Frees up staff time from repetitive manual tasks, allowing them to focus on more strategic donor relations.\n*   **Consistency:** Ensures every donor receives a thank you that adheres to your organization's branding, messaging, and tone.\n*   **Accuracy:** Reduces human error in data entry and personalized details.\n*   **Tracking:** Easier to log and track communications within your donor database.\n\n## Prerequisites for Automation\n\nBefore you dive into automation, you need a solid foundation:\n\n1.  **Robust Donor Management System (CRM):** This is the heart of your automation. It must accurately store donor data (name, address, email, donation amount, date, campaign, designation, recurring gift status, etc.). Examples: Salesforce NPSP, Blackbaud (Raiser's Edge, NXT), Bloomerang, DonorPerfect, NeonCRM, Kindful.\n2.  **Well-Crafted Thank You Letter Templates:** You'll need more than one! These templates should have merge fields (placeholders for donor-specific data).\n    *   **Standard Thank You:** For general donations.\n    *   **First-Time Donor:** Special welcome and impact emphasis.\n    *   **Recurring Donor:** Acknowledging ongoing support.\n    *   **Large Gift/Major Donor:** Often requires more personalized follow-up, but an initial automated acknowledgment is good.\n    *   **Campaign-Specific:** Thanking donors for a specific appeal (e.g., Giving Tuesday, year-end).\n    *   **In-Kind Gift:** Acknowledging non-monetary contributions.\n    *   **Memorial/Honorary Gift:** Specific phrasing for these sensitive donations.\n3.  **Defined Triggers:** What event initiates a thank you? (e.g., a new donation is entered, a recurring payment is processed, a donation is received through an online form).\n\n## Step-by-Step Guide to Automating Donor Thank You Letters\n\n### 1. Choose Your Platform(s)\n\n*   **Integrated CRM:** Many modern CRMs have built-in automation for thank you emails and even print letters. This is often the most seamless option.\n*",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 566,
+  "estimated_cost_usd": 0.001417,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

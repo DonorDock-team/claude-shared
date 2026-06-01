@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P017",
+  "prompt_text": "Alternative to Neon CRM",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502771+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Neon CRM is a popular choice for non-profits, offering a comprehensive suite for donor management, fundraising, events, and more. If you're looking for an alternative, the best option depends on your specific needs, budget, organization size, and desired features.\n\nHere are some excellent alternatives, categorized for easier comparison:\n\n---\n\n### Top Non-Profit Specific CRMs (Direct Competitors)\n\nThese are designed with non-profits in mind, offering similar core functionalities to Neon CRM.\n\n1.  **Salesforce for Nonprofits (NPSP - Nonprofit Success Pack):**\n    *   **Pros:** Highly customizable, incredibly powerful, massive ecosystem of integrations, extensive reporting, often offers significant discounts or free licenses for non-profits.\n    *   **Cons:** Can have a steep learning curve, setup and ongoing administration can require technical expertise or a consultant.\n    *   **Best for:** Medium to large non-profits, or smaller ones with complex needs and a willingness to invest in customization.\n\n2.  **Blackbaud (Raiser's Edge NXT, eTapestry, Luminate CRM):**\n    *   **Pros:** The largest player in the non-profit space, offers a range of products for different sizes/needs. Raiser's Edge NXT is very robust for fundraising, donor management, and analytics. eTapestry is a simpler, more affordable cloud-based option.\n    *   **Cons:** Can be expensive, some products have an older interface, can feel complex.\n    *   **Best for:** Organizations of all sizes, from small (eTapestry) to enterprise-level (Raiser's Edge NXT, Luminate CRM).\n\n3.  **DonorPerfect:**\n    *   **Pros:** Very comprehensive all-in-one solution, user-friendly interface, strong for donor management, fundraising, event registration, and reporting. Good customer support.\n    *   **Cons:** Can be pricier for smaller organizations, some advanced features might require add-ons.\n    *   **Best for:** Small to medium-sized non-profits looking for an integrated solution without extreme customization.\n\n4.  **Bloomerang:**\n    *   **Pros:** Focuses heavily on donor retention and engagement, modern and intuitive interface, good analytics, strong email marketing and communication tools.\n    *   **Cons:** Might be less robust for very complex volunteer management or grant tracking compared to some competitors.\n    *   **Best for:** Small to medium-sized non-profits prioritizing donor engagement, user-friendliness, and data-driven fundraising.\n\n5.  **Kindful (now part of Classy):**\n    *   **Pros:** Modern, intuitive design, excellent online fundraising and donation processing, strong integrations with other tools. Good for streamlining donor communications.\n    *   **Cons:** While improving, it might not have the depth of features in *every* area compared to a legacy system like Blackbaud for very large orgs.\n    *   **Best for:** Small to medium non-profits focused on online fundraising, modern design, and ease of use.\n\n6.  **Little Green Light (LGL):**\n    *   **Pros:** Affordable, straightforward, and easy to use. Great for core donor management, gift processing, and basic communications. Excellent customer support.\n    *   **Cons:** Less advanced features for complex event management or marketing automation compared to larger systems.\n    *   **Best for:** Small non-profits with limited budgets and straightforward donor management needs.\n\n7.  **Network for Good:**\n    *   **Pros:** Simple, all-in-one fundraising software with a focus on ease of use for smaller non-profits. Includes donor management, email, events, and peer-to-peer.\n    *   **Cons:** May lack the depth and customization options for larger, more complex organizations.\n    *   **Best for:** Small non-profits and startups looking for a user-friendly, integrated solution to get started.\n\n8.  **CiviCRM:**\n    *   **Pros:** Open-source and free (though hosting/implementation costs apply), highly customizable, supports a wide range of functions (donors, members, events, volunteers, grants).\n    *   **Cons:** Requires technical expertise to set up and maintain (often needs a developer or hosting partner), less \"out-of-the-box\" polished than SaaS solutions.\n    *   **Best for:** Non-profits with technical resources, tight budgets, or very specific customization needs.\n\n---\n\n### General CRMs Adaptable for Non-Profits\n\nThese are general-purpose CRMs that can be configured to manage non-profit operations, especially if your needs extend beyond just fundraising.\n\n1.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Network for Good",
+    "Raiser's Edge",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 999,
+  "estimated_cost_usd": 0.002499,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

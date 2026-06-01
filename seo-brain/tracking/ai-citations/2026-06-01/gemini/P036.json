@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P036",
+  "prompt_text": "Best donor management software for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502829+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "There isn't a single \"best\" donor management software, as the ideal choice depends heavily on your nonprofit's unique needs, size, budget, and specific goals. However, I can provide a breakdown of top contenders, categorized to help you find the right fit, along with key factors to consider.\n\n## Key Factors to Consider When Choosing Donor Management Software:\n\n1.  **Budget:** What can you realistically afford monthly or annually? Some offer free plans for small organizations, while others charge based on contact records, users, or features.\n2.  **Organization Size & Type:**\n    *   **Small/Startup:** Might prioritize ease of use, affordability, and core CRM features.\n    *   **Medium/Growing:** Needs more robust features, integrations, and scalability.\n    *   **Large/Enterprise:** Requires comprehensive features, deep customization, advanced reporting, and potentially dedicated support.\n3.  **Essential Features:**\n    *   **Donor Database/CRM:** Centralized contact management, giving history, communication logs.\n    *   **Fundraising Tools:** Online donation forms, recurring gifts, peer-to-peer, event registration, crowdfunding.\n    *   **Communication:** Email marketing, segmentation, direct mail integration.\n    *   **Reporting & Analytics:** Track campaigns, donor retention, financial performance.\n    *   **Payment Processing:** Securely accept donations.\n    *   **Integrations:** With accounting software (QuickBooks, Xero), email marketing (Mailchimp), website builders, etc.\n    *   **Ease of Use:** Intuitive interface for your staff.\n    *   **Scalability:** Can it grow with your organization?\n    *   **Customer Support & Training:** Availability and quality of help resources.\n    *   **Other specific needs:** Grant tracking, volunteer management, membership management.\n\n---\n\n## Top Donor Management Software Recommendations:\n\nHere are some of the most highly-rated and widely-used options:\n\n### 1. Best Overall / Most Comprehensive (Often for Medium to Large Nonprofits)\n\n*   **Salesforce NPSP (Nonprofit Success Pack):**\n    *   **Pros:** Incredibly powerful, highly customizable, scalable to any size, extensive app ecosystem via AppExchange, free initial licenses for many nonprofits.\n    *   **Cons:** Steep learning curve, requires significant administrative expertise, can become expensive with add-ons and advanced configurations.\n    *   **Best for:** Organizations with complex data needs, large budgets (for implementation and ongoing admin), and those needing a highly integrated ecosystem.\n\n*   **Blackbaud (Raiser's Edge NXT, eTapestry, Luminate CRM):**\n    *   **Pros:** The industry giant, offering a range of products for different needs. Raiser's Edge NXT is comprehensive and powerful for fundraising, eTapestry is a more affordable cloud-based option. Strong analytics and reporting.\n    *   **Cons:** Can be expensive, some interfaces can feel dated depending on the product, customer support can be mixed.\n    *   **Best for:** Large, established nonprofits (Raiser's Edge NXT) or medium-sized organizations looking for robust features and scalability (eTapestry).\n\n### 2. Best for Small to Medium Nonprofits (Growing Organizations)\n\n*   **Bloomerang:**\n    *   **Pros:** User-friendly interface, strong focus on donor retention and engagement, excellent reporting and analytics (especially for donor retention), good email marketing tools, solid integrations.\n    *   **Cons:** Can be slightly more expensive than entry-level options for very small nonprofits, some advanced features might require add-ons.\n    *   **Best for:** Nonprofits focused on building strong donor relationships, good for those looking for an intuitive CRM with strong engagement tools.\n\n*   **Kindful (now part of EveryAction/Bonterra):**\n    *   **Pros:** Modern interface, good integrations (especially with popular payment processors and accounting software), strong online fundraising features, good reporting.\n    ",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce NPSP",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 844,
+  "estimated_cost_usd": 0.002112,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

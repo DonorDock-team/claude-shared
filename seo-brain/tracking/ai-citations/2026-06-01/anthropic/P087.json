@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P087",
+  "prompt_text": "Best donor CRM for refugee services",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502621+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Refugee Services\n\nHere are the top CRM options well-suited for refugee service organizations:\n\n## **Top Recommendations**\n\n### 1. **Salesforce Nonprofit Cloud**\n- **Best for:** Large organizations with complex needs\n- **Strengths:** Comprehensive case management + donor tracking, highly customizable\n- **Considerations:** Steeper learning curve, requires staff training\n- **Cost:** Free for 10 licenses (Nonprofit Success Pack), then tiered pricing\n\n### 2. **Bloomerang**\n- **Best for:** Small-to-medium nonprofits focused on donor retention\n- **Strengths:** Excellent retention tools, user-friendly, strong reporting\n- **Cost:** ~$125-$500/month depending on contacts\n- **Limitation:** Less robust case management features\n\n### 3. **Little Green Light**\n- **Best for:** Budget-conscious organizations\n- **Strengths:** Affordable, good donor management, grant tracking\n- **Cost:** $39-$119/month\n- **Consideration:** May need separate case management system\n\n### 4. **Blackbaud Raiser's Edge NXT**\n- **Best for:** Established organizations with significant fundraising\n- **Strengths:** Industry standard, comprehensive features\n- **Cost:** Higher investment (custom pricing)\n\n## **Key Features to Look For:**\n- Donor segmentation and communication tracking\n- Grant management capabilities\n- Volunteer coordination\n- Integration with case management systems\n- Multi-language support\n- Custom fields for refugee-specific data\n- Strong data security/privacy protections\n\n**Recommendation:** Most refugee service organizations benefit from **Salesforce** due to its dual capacity for donor management AND client services tracking.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 391,
+  "estimated_cost_usd": 0.005907,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

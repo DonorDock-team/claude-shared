@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P019",
+  "prompt_text": "Alternative to Blackbaud Raisers Edge",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502886+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Blackbaud Raiser's Edge has long been a dominant player in nonprofit CRM and donor management, but many organizations seek alternatives due to various reasons like cost, complexity, user interface, or specific feature needs.\n\nHere's a breakdown of excellent alternatives, categorized by their typical strengths and target organizations:\n\n## Key Considerations When Choosing an Alternative:\n\nBefore diving into specific platforms, think about:\n\n1.  **Organization Size & Budget:** Are you a small, medium, or large nonprofit? Your budget will heavily influence your options.\n2.  **Specific Needs:**\n    *   Donor management (basic vs. complex segmentation, wealth screening)\n    *   Fundraising campaigns (peer-to-peer, crowdfunding, major gifts)\n    *   Event management\n    *   Membership management\n    *   Grant tracking\n    *   Volunteer management\n    *   Email marketing/communications\n    *   Reporting and analytics capabilities\n    *   Accounting integration\n3.  **Ease of Use & Training:** How quickly can your team adopt a new system? What level of training and support will you need?\n4.  **Integrations:** Does the platform integrate with your website, email marketing, accounting software (e.g., QuickBooks), payment processors, etc.?\n5.  **Cloud-Based vs. On-Premise:** Most modern alternatives are cloud-based (SaaS).\n6.  **Data Migration:** How easy will it be to move your existing data?\n\n---\n\n## Top Alternatives to Blackbaud Raiser's Edge:\n\n### 1. Salesforce for Nonprofits (Nonprofit Cloud / NPSP)\n\n*   **What it is:** Salesforce is the world's leading CRM platform, and its Nonprofit Cloud (formerly NPSP - Nonprofit Success Pack) is a highly customizable version designed specifically for nonprofits.\n*   **Strengths:**\n    *   **Unparalleled Customization:** Can be tailored to almost any nonprofit's unique workflow and data needs.\n    *   **Vast Ecosystem:** Access to thousands of apps on the AppExchange for extended functionality (e.g., event management, grant management, peer-to-peer fundraising, marketing automation).\n    *   **Scalability:** Grows with your organization, from small startups to global enterprises.\n    *   **Robust Reporting:** Powerful, customizable reporting and dashboard capabilities.\n*   **Ideal For:** Medium to large nonprofits, or those with complex needs, who are willing to invest",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 513,
+  "estimated_cost_usd": 0.001285,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

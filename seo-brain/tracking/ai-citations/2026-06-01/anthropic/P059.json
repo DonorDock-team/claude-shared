@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P059",
+  "prompt_text": "Nonprofit CRM with donation forms",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.503078+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Nonprofit CRM with Donation Forms\n\nHere are the top CRM solutions designed for nonprofits with integrated donation capabilities:\n\n## **Best Overall Options**\n\n### **1. Bloomerang**\n- **Best for:** Small to medium nonprofits\n- **Key features:**\n  - Built-in online donation forms\n  - Donor retention tracking\n  - Email marketing tools\n  - Wealth screening\n- **Pricing:** Starting at ~$125/month\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with complex needs\n- **Key features:**\n  - Highly customizable\n  - Program management\n  - Grant tracking\n  - Robust reporting\n- **Pricing:** 10 free licenses, then paid plans\n\n### **3. DonorPerfect**\n- **Best for:** Comprehensive fundraising management\n- **Key features:**\n  - Integrated donation forms\n  - Event management\n  - Peer-to-peer fundraising\n  - Recurring donations\n- **Pricing:** Starting at ~$89/month\n\n## **Budget-Friendly Options**\n\n### **4. Little Green Light**\n- Simple interface\n- Online donation forms included\n- Starting at $59/month\n\n### **5. Kindful (by Bloomerang)**\n- Affordable for small nonprofits\n- Customizable donation forms\n- Good reporting tools\n\n## **Key Features to Look For**\n- \u2705 Customizable donation forms\n- \u2705 Recurring gift management\n- \u2705 Donor communication tools\n- \u2705 Tax receipt automation\n- \u2705 Integration with payment processors\n- \u2705 Reporting and analytics\n\nWould you like specific recommendations based on your organization's size or budget?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 401,
+  "estimated_cost_usd": 0.006057,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

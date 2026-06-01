@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P132",
+  "prompt_text": "Network for Good problems",
+  "engine": "perplexity",
+  "timestamp": "2026-06-01T13:25:21.501951+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Network for Good\u2019s main problems reported by nonprofits cluster around **pricing and fees, post-acquisition changes/support issues, and specific product limitations/quirks in the CRM and volunteer tools**.[2][7]\n\nHere are the key problem areas, based on user discussions and reviews:\n\n1. **Pricing, fees, and transparency (especially after Bonterra acquisition)**  \n   - Many small nonprofits report frustration with **pricing clarity**, including feeling locked into contracts, unexpected increases, or confusing terms after Network for Good was acquired by Bonterra.[3][4][7]  \n   - Reviews aggregated by Zeffy show **high satisfaction with ease of use but lower satisfaction with pricing transparency and value**, especially compared with lower-cost or free competitors.[7]  \n\n2. **Post\u2011acquisition experience and changes**  \n   - Network for Good\u2019s for\u2011profit disbursement platform was acquired by **Bonterra in 2022**, and the original nonprofit has since rebranded as **For Good**.[3]  \n   - Reviews and forums indicate some users feel the **customer experience changed after the acquisition**\u2014including concerns about responsiveness, platform direction, and migration to Bonterra-branded ecosystems.[3][7]  \n\n3. **CRM/data management limitations and annoyances**  \n   From Bonterra\u2019s own Network for Good community, users flag recurring pain points in daily use of the software:[2]  \n   - **Inactive/archiving records:** There is *no true archive/inactive* feature for donors/contacts; users work around this by deleting addresses so records do not appear in mailings.[2]  \n   - **Old campaigns cluttering dropdowns:** Campaign dropdowns show many **inactive/old campaigns** with no apparent archive/hide option, which makes data entry messy.[2]  \n   - **Household / co\u2011donor handling:** When two donors are linked as **co\u2011donors**, the relationship only applies to **future donations**; there is *no automatic retroactive linking* of past gifts, which adds manual cleanup.[2]  \n   - **Payment method options:** Some common payment types (e.g., specific online processors) do not exist as distinct payment methods, forcing users to choose \u201cOther\u201d and document details in notes.[2]  \n   - **Letter dates in records:** When viewing a previously sent letter, the system displays the **current date instead of the original send date**, which undermines accurate communication history.[2]  \n\n4. **Volunteer management quirks**  \n   - Users report issues with entering **volunteer hours**: the system returns date/time errors unless they mark opportunities as *multi\u2011day*, even when the hours fall within the specified range.[2]  \n   - This makes accurate single\u2011day or precisely timed volunteer reporting more cumbersome.[2]  \n\n5. **Accessing help resources and support friction**  \n   - Some users report **blank screens** when trying to access Bonterra Academy or certain in\u2011app help links.[2]  \n   - Officially, support is available via **email, in\u2011app chat, and an AI bot (\u201cBonnie\u201d)** on weekdays.[5] While many users do get help this way, others note delays or difficulty getting to a human agent, especially post\u2011acquisition.[5][7]  \n\n6. **Donation flow and stewardship complications (for checks and pass\u2011through gifts)**  \n   Separate from the CRM product, nonprofits sometimes struggle with **donations that arrive via Network for Good as an intermediary**:  \n   - Donations made on partner sites or via the Network for Good giving system are batched and **disbursed only once a month**, which can delay when the nonprofit sees the funds.[1][6]  \n   - Donor contact data comes through Network for Good/GuideStar; if the nonprofit\u2019s **GuideStar profile is incomplete or outdated**, the organization may not have correct addresses and may fail to send timely thank\u2011yous.[1]  \n   - Some donors can choose **not to share** their contact information, making stewardship and follow\u2011up harder.[1]  \n\n7. **General sentiment: strong usability, but trade\u2011offs**  \n   - Bonterra markets Network for Good as **simple, all\u2011in\u2011one fundraising software with coaching**, aimed at small and midsize nonprofits.[4]  \n   - User reviews commonly praise its **ease of use and integrated tools**, but criticism centers on **cost, contract flexibility, and some missing or awkward CRM features** relative to competitors.[4][7]  \n\nIf you tell me whether you\u2019re:  \n- evaluating Network for Good vs. alternatives, or  \n- already using it and running into specific issues  \n\nI can map these problem areas to concrete next steps (e.g., configuration workarounds, questions to ask sales, or criteria for selecting another platform).",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bonterra",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 987,
+  "estimated_cost_usd": 0.01982,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.nonprofitmarketingguide.com/why-you-must-work-with-network-for-good-and-how-to-follow-up-with-donors/",
+      "https://community.bonterratech.com/network-for-good-q-a-295",
+      "https://thenonprofittimes.com/npt_articles/network-for-good-rebrands-as-for-good/",
+      "https://www.bonterratech.com/product/network-for-good",
+      "https://intercom.help/networkforgood/en/articles/403987-getting-help-and-contacting-support",
+      "https://www.networkforgood.org/npo/about/contact.aspx",
+      "https://www.zeffy.com/blog/network-for-good-reviews"
+    ]
+  }
+}

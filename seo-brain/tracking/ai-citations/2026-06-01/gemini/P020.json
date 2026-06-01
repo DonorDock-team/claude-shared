@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P020",
+  "prompt_text": "Cheaper alternative to Blackbaud",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502945+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Blackbaud offers a wide range of solutions, from CRM and fundraising to financial management, so a \"cheaper alternative\" really depends on *which* Blackbaud product or functionality you're looking to replace.\n\nTo give you the best recommendations, I need a little more information, but I can provide a general overview of common, more affordable alternatives categorized by their primary function.\n\n**Before you choose, consider:**\n\n1.  **What specific Blackbaud product/functionality are you currently using or looking to replace?** (e.g., Raiser's Edge NXT, Financial Edge NXT, Luminate Online, Grantmaking, etc.)\n2.  **What are your must-have features?** (e.g., donor management, online giving, event registration, peer-to-peer fundraising, grant tracking, accounting, email marketing, reporting, automation).\n3.  **What is your organization's size and budget?** (Small non-profit, mid-sized, large, complex needs?)\n4.  **How tech-savvy is your team?** (Do you need something super intuitive, or can you handle more customization?)\n5.  **Do you need an all-in-one solution, or are you okay with integrating several best-of-breed tools?**\n\n---\n\nHere are some popular and generally more affordable alternatives to various Blackbaud offerings:\n\n### I. All-in-One Non-Profit CRM & Fundraising (Alternatives to Raiser's Edge NXT, eTapestry, NGO Connect)\n\nThese platforms often combine donor management, fundraising tools, communications, and reporting.\n\n1.  **Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack):**\n    *   **Why cheaper:** Salesforce offers 10 free licenses to qualified non-profits and significant discounts on additional licenses and apps. It's highly customizable.\n    *   **Pros:** Extremely powerful, scalable, vast ecosystem of apps, robust CRM.\n    *   **Cons:** Can have a steeper learning curve, may require implementation partners for complex setups (which adds cost).\n    *   **Best for:** Organizations of all sizes willing to invest time in setup for a highly flexible and powerful platform.\n\n2.  **Neon One (NeonCRM):**\n    *   **Why cheaper:** Often more straightforward pricing than Blackbaud, with various tiers for different organizational sizes.\n    *   **Pros:** User-friendly, good for small to mid-sized organizations, includes CRM, fundraising, memberships, events, and reporting. Good support.\n    *   **Cons:** Not as deeply customizable as Salesforce.\n    *   **Best for:** Small to mid-sized non-profits looking for an integrated, easy-to-use solution.\n\n3.  **Bloomerang:**\n    *   **Why cheaper:** Competitive pricing often based on donor records, specifically designed for donor retention.\n    *   **Pros:** Excellent focus on donor engagement and retention, intuitive interface, strong reporting, integrated email marketing.\n    *   **Cons:** Might not have all the robust features for complex events or grant management that larger Blackbaud products offer.\n    *   **Best for:** Non-profits prioritizing donor relationships and retention, especially smaller to mid-sized ones.\n\n4.  **DonorPerfect:**\n    *   **Why cheaper:** A long-standing player with a range of features at competitive price points.\n    *   **Pros:** Comprehensive",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 721,
+  "estimated_cost_usd": 0.001804,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

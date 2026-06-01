@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P005",
+  "prompt_text": "DonorDock vs Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502600+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Bloomerang are both popular donor management systems, but they cater to different needs, budgets, and technical environments. The fundamental difference lies in their underlying architecture and philosophy.\n\nHere's a breakdown to help you decide:\n\n---\n\n### Bloomerang\n\n**Core Philosophy:** Bloomerang is built from the ground up as a donor-centric CRM focused on ease of use, donor retention, and engagement. It's designed to be intuitive and provides tools specifically tailored for fundraising and relationship building.\n\n**Key Features:**\n*   **Donor CRM:** Robust constituent profiles, activity tracking, custom fields.\n*   **Online Giving:** Customizable donation forms, recurring gifts, peer-to-peer fundraising.\n*   **Email Marketing:** Built-in email tools for newsletters, appeals, acknowledgements.\n*   **Reporting & Analytics:** Strong reporting, especially for donor retention metrics, dashboards.\n*   **Engagement Scores:** Unique feature that helps identify at-risk donors and high-potential supporters.\n*   **Constituent Timeline:** Visual representation of donor interactions.\n*   **Volunteer Management:** Basic tracking for volunteers.\n*   **Event Management:** Simple event registration and tracking.\n*   **Integrations:** Connects with popular tools like QuickBooks Online, Mailchimp, Constant Contact, Zapier.\n\n**Pros:**\n*   **Extremely User-Friendly:** Known for its clean, intuitive interface and ease of onboarding.\n*   **Donor-Centric:** Strong focus on donor retention and engagement with unique features like the engagement score.\n*   **Excellent Reporting:** Provides actionable insights, especially for fundraising performance.\n*   **All-in-One (for many NPOs):** Offers CRM, online giving, and email marketing in one package.\n*   **Strong Support & Resources:** Good customer support and educational content.\n*   **Transparent Pricing:** Clear, tiered pricing based on the number of constituent records.\n\n**Cons:**\n*   **Limited Customization:** While flexible, it may not offer the deep level of customization required by very large or complex organizations.\n*   **Scalability for Enterprise:** While it scales well for small to medium-large organizations, it might not suit the most complex, multi-national enterprise needs.\n*   **Integrations:** While good, it may not integrate natively with every niche tool, sometimes relying on Zapier.\n\n**Best For:** Small to medium-sized non-profits, organizations that prioritize ease of use and donor retention, those looking for an all-in-one solution without extensive IT support, and budget-conscious organizations.\n\n---\n\n### DonorDock (Built on Microsoft Dynamics 365)\n\n**Core Philosophy:** DonorDock is built *on* Microsoft Dynamics 365, which means it leverages a powerful, enterprise-grade business application platform and customizes it for non-profit",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 596,
+  "estimated_cost_usd": 0.001491,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P038",
+  "prompt_text": "Best fundraising software for nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502902+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Fundraising Software for Nonprofits\n\nHere are the top options based on organization size and needs:\n\n## **Best Overall**\n- **Bloomerang** - Excellent donor management + fundraising tools, great for retention tracking\n- **Donorbox** - User-friendly, affordable, strong recurring donation features\n\n## **Best by Organization Size**\n\n### Small Nonprofits (< $500K budget)\n- **GiveWP** (WordPress plugin) - Free/low-cost option\n- **Donorbox** - Simple setup, low fees\n- **Givebutter** - Free platform with optional tips\n\n### Mid-Size Organizations\n- **Classy** - Comprehensive peer-to-peer and event fundraising\n- **Qgiv** - All-in-one with events, auctions, text-to-give\n- **Kindful** - Strong CRM integration\n\n### Large Organizations\n- **Blackbaud Raiser's Edge NXT** - Enterprise-level, comprehensive\n- **Salesforce Nonprofit Cloud** - Highly customizable CRM\n\n## **Best for Specific Needs**\n\n- **Peer-to-peer fundraising**: Classy, Mightycause\n- **Events & auctions**: OneCause, Greater Giving\n- **Monthly giving**: Donorbox, Zeffy\n- **Text-to-give**: Qgiv, GiveLively\n- **Low/no fees**: Zeffy (0% platform fees), GiveLively\n\n## **Key Factors to Consider**\n- Transaction fees (typically 2-5%)\n- Integration with your existing tools\n- Donor management capabilities\n- Reporting features\n- Ease of use\n\nWhat's your organization's size and primary fundraising focus? I can provide more specific recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "Givebutter",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 410,
+  "estimated_cost_usd": 0.006195,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

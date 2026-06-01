@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "perplexity",
+  "timestamp": "2026-06-01T13:25:21.502596+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Several nonprofit-focused **donor CRMs offer native, automatic integrations with QuickBooks Online**, so you can avoid double entry and keep donor and accounting data in sync. Here are some of the stronger options to consider:\n\n### 1. DonorPerfect + QuickBooks Online\n\n**What it is:** Full-featured nonprofit **donor CRM** with a built-in QuickBooks Online integration.[4][6]\n\n**Key QuickBooks Online integration features:**\n\n- Automatically **send gifts from DonorPerfect to QuickBooks Online** in one click.[4][6]  \n- **Post gifts as individual, daily, or monthly summaries** as journal entries.[4][5][6]  \n- **Map gifts to bank accounts, income accounts, and classes** in QuickBooks Online.[4][6]  \n- Option to **map donors to QuickBooks customers**.[4][6]  \n- Send transactions to **multiple bank accounts** and customize formatting of posted data.[4][6]  \n\n**Good fit if:**  \nYou want a mature donor CRM that treats QuickBooks Online as the accounting system of record and lets you control detailed posting rules and summary vs. individual gift posting.\n\n---\n\n### 2. DonorDock + QuickBooks Online\n\n**What it is:** Donor management/CRM designed for small\u2013mid-sized nonprofits, with a **native QuickBooks Online integration**.[1]\n\n**Key QuickBooks Online integration features:**\n\n- **Automatic sync of new gifts** entered in DonorDock to QuickBooks Online as **Sales Receipts**.[1]  \n- Designed specifically to **eliminate double entry** and keep books up to date.[1]  \n- Focused on the **accounting side** (it does not process payments itself, but syncs donation records).[1]  \n\n**Good fit if:**  \nYou want a simpler, lower-overhead donor CRM where every gift you enter becomes a Sales Receipt in QuickBooks Online with minimal configuration.\n\n---\n\n### 3. Donorbox + QuickBooks Online\n\n**What it is:** Online fundraising and donor management platform with **native QuickBooks Online integration** as a paid add\u2011on.[2]\n\n**Key QuickBooks Online integration features:**\n\n- Automatically sync **one-time and recurring donations, ticket sales, and other transactions** from Donorbox into QuickBooks Online.[2]  \n- Can sync transactions as **Sales Receipts or Invoice + Payment** records.[2]  \n- Includes a **setup wizard** and **field mapping** to connect campaigns to specific income accounts, products/services, and custom fields in QuickBooks Online.[2]  \n- Lets you monitor transaction status (synced, pending, failed) from a dedicated dashboard.[2]  \n\n**Cost note:** QuickBooks integration is an **add\u2011on (~$50/month)** on top of your Donorbox plan.[2]\n\n**Good fit if:**  \nA lot of your fundraising is online (donation forms, tickets, etc.) and you want those transactions to flow straight into QuickBooks Online with decent mapping flexibility.\n\n---\n\n### 4. Funraise + QuickBooks Online\n\n**What it is:** Fundraising and donor management platform aimed at growing nonprofits, with a **QuickBooks Online integration**.[3]\n\n**Key QuickBooks Online integration features:**\n\n- Send **donor and donation data** from Funraise to QuickBooks Online.[3]  \n- **Create Customers for donors** in QuickBooks Online.[3]  \n- **Create Sales Receipts for donations**.[3]  \n- Map Account, Class, and Product/Service fields and customize fee reporting.[3]  \n\n**Good fit if:**  \nYou need a modern fundraising suite (events, online giving, etc.) with a more advanced mapping layer for QuickBooks Online and automatic Customer creation.\n\n---\n\n### 5. OnlineGiving.org + QuickBooks Online\n\n**What it is:** Online giving platform (not a full CRM) with **QuickBooks Online and Desktop integration**.[7]\n\n- Automates **deposit creation from closed giving batches** in QuickBooks Online and Desktop.[7]  \n\n**Good fit if:**  \nYou primarily need online giving + automated deposit posting, and you already have or plan to add a separate donor CRM.\n\n---\n\n### How to choose among them\n\nIf your priority is:\n\n- **Robust donor CRM first, accounting second:**  \n  - Consider **DonorPerfect** (most configurable, especially for GL/class mapping and summary posting).[4][5][6]\n\n- **Simple donor tracking with straightforward QuickBooks Online sync:**  \n  - Consider **DonorDock** (new gifts \u2192 Sales Receipts, less setup complexity).[1]\n\n- **Online fundraising-first with donor management and strong QBO sync:**  \n  - Consider **Donorbox** (if you\u2019re fine with the integration add\u2011on fee) or **Funraise** for more advanced mapping.[2][3]\n\nIf you tell me your nonprofit\u2019s size, number of users, and whether you prefer summary or per\u2011donation posting in QuickBooks, I can narrow this list to 1\u20132 best-fit CRMs and suggest specific evaluation questions to ask each vendor.",
+  "donordock_mentioned": true,
+  "donordock_position": 1072,
+  "competitors_mentioned": [
+    "DonorBox",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 1048,
+  "estimated_cost_usd": 0.02075,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/integrations/quickbooks-online",
+      "https://donorbox.org/explore/quickbooks-integration",
+      "https://www.funraise.org/integrations/quickbooks",
+      "https://www.donorperfect.com/factsheets/quickbooks-integration/",
+      "https://www.donorperfect.com/video/donorperfect-and-quickbooks/",
+      "https://www.donorperfect.com/factsheets/quickbooks-online/",
+      "https://www.onlinegiving.org/support/quickbooks-integration"
+    ]
+  }
+}

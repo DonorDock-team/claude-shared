@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P032",
+  "prompt_text": "Alternative to Givebutter for donor management",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502603+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Givebutter is a popular all-in-one fundraising and donor management platform, known for its modern interface, comprehensive features (fundraising pages, CRM, email, text, events, peer-to-peer), and flexible pricing often starting with a free tier and transaction fees.\n\nHowever, depending on your specific needs, budget, and desired level of sophistication, several excellent alternatives exist. When choosing, consider:\n\n*   **Your Budget:** Are you looking for free/freemium, transaction-fee-based, or a monthly/annual subscription?\n*   **Key Features:** Do you prioritize CRM depth, event management, peer-to-peer, email marketing, or simple donation forms?\n*   **Ease of Use:** How tech-savvy is your team?\n*   **Scalability:** Do you anticipate significant growth?\n*   **Integrations:** Does it play well with other tools you use (accounting, email, etc.)?\n*   **Support:** What level of customer service do you need?\n\nHere are some top alternatives, categorized by their general strengths:\n\n---\n\n### All-in-One Platforms (Similar to Givebutter, comprehensive features)\n\nThese platforms often offer a strong blend of fundraising tools and donor management, with varying strengths.\n\n1.  **Bloomerang:**\n    *   **Strengths:** Excellent donor retention focus, user-friendly CRM, strong reporting and segmentation, good email marketing integration.\n    *   **Features:** Donor CRM, online giving, email marketing, letter templates, reporting, integrations with various fundraising tools (like Kindful, which is now part of Bloomerang).\n    *   **Ideal for:** Nonprofits of all sizes looking for a robust CRM with good fundraising capabilities, especially those focused on donor retention.\n    *   **Pricing:** Tiered monthly subscription based on database size, plus processing fees for donations.\n\n2.  **DonorPerfect:**\n    *   **Strengths:** Long-standing, comprehensive solution with deep CRM, powerful reporting, and a wide array of fundraising tools. Good for organizations needing a full suite.\n    *   **Features:** Donor CRM, online giving, events, auctions, peer-to-peer, direct mail, pledges, grant management, volunteers, accounting integrations.\n    *   **Ideal for:** Established and growing nonprofits needing a robust, scalable, and feature-rich system.\n    *   **Pricing:** Tiered monthly subscription based on database size and usage.\n\n3.  **Neon One (Neon CRM):**\n    *   **Strengths:** A suite of products (CRM, fundraising, events, memberships, peer-to-peer) that integrate well. Offers a lot of flexibility and powerful features.\n    *   **Features:** Constituent Relationship Management (CRM), online donation forms, event registration, membership management, peer-to-peer, volunteer management, email marketing.\n    *   **Ideal for:** Nonprofits looking for an integrated suite that can handle various aspects of their operations beyond just fundraising, particularly those with memberships or events.\n    *   **Pricing:** Tiered monthly subscription.\n\n4.  **Classy:**\n    *   **Strengths:** Modern, sophisticated fundraising platform known for beautiful campaign",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Kindful",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 671,
+  "estimated_cost_usd": 0.00168,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

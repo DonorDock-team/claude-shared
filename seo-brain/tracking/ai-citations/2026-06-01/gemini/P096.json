@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P096",
+  "prompt_text": "Hidden costs of Neon CRM",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.501963+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Neon CRM, like any comprehensive software solution, can have \"hidden costs\" that aren't immediately apparent in the base subscription price. These aren't necessarily malicious charges, but rather expenses that arise from implementation, ongoing use, customization, and specific organizational needs.\n\nHere's a breakdown of potential hidden costs with Neon CRM:\n\n1.  **Initial Setup & Implementation Costs:**\n    *   **Professional Services:** While Neon offers self-guided onboarding, many organizations (especially larger or more complex ones) opt for Neon's paid professional services for data migration, system configuration, custom reporting setup, and workflow optimization. This can be a significant upfront cost.\n    *   **Internal Staff Time:** The most common hidden cost. Your team will spend considerable hours on:\n        *   **Data Cleaning & Preparation:** Before migrating to Neon, existing donor data, event data, etc., often needs extensive cleaning, de-duplicating, and formatting. This is highly time-consuming.\n        *   **Project Management:** Designating a project lead and team members to oversee the implementation, make decisions, and coordinate with Neon's team.\n        *   **System Configuration:** Setting up custom fields, forms, donation pages, email templates, and reporting dashboards to match your organization's specific needs.\n        *   **Testing:** Thoroughly testing all functionalities before going live.\n    *   **Legacy Data Export Fees:** In rare cases, if you're migrating from a very old or proprietary system, your previous vendor might charge a fee to export your data in a usable format.\n\n2.  **Ongoing Operational & Maintenance Costs:**\n    *   **Internal Staff Time for Administration:** Even after implementation, staff will dedicate time to:\n        *   **Data Entry & Management:** Maintaining data quality, merging duplicates, updating records.\n        *   **Reporting & Analytics:** Generating reports, analyzing data, and customizing dashboards.\n        *   **Campaign Management:** Setting up fundraising campaigns, events, communications within Neon.\n        *   **User Management:** Adding/removing users, adjusting permissions.\n    *   **Data Storage Overages:** While Neon typically includes generous storage, very large organizations or those storing extensive files might incur additional costs if they exceed included limits.\n    *   **Email Send Limits:** Similar to storage, some tiers may have limits on the number of emails you can send through Neon. Exceeding these could incur extra charges or require an upgrade.\n\n3.  **Feature & Scale-Related Costs:**\n    *   **Tier Upgrades:** As your organization grows or its needs evolve, you might find essential features locked behind higher subscription tiers (e.g., advanced automation, specific integrations, higher user counts, more advanced reporting).\n    *   **Add-on Modules/Features:**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 581,
+  "estimated_cost_usd": 0.001454,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

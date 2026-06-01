@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P033",
+  "prompt_text": "Alternative to DonorBox",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502657+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Donorbox is a popular and effective fundraising platform, but depending on your specific needs, budget, and desired features, there are many excellent alternatives.\n\nTo help you choose, consider what's most important to you:\n\n*   **Pricing/Fees:** Transaction fees, monthly subscriptions, platform fees.\n*   **Features:** Recurring donations, peer-to-peer (P2P) fundraising, text-to-give, event ticketing, crowdfunding, donor CRM, integrations (CRM, email, accounting).\n*   **Ease of Use:** For both administrators and donors.\n*   **Customization:** Branding options for forms and pages.\n*   **Customer Support:** Availability and quality.\n*   **Niche:** Are you a small non-profit, a large organization, an individual, or a creative project?\n\nHere are some of the best alternatives, categorized for easier comparison:\n\n---\n\n## All-in-One Fundraising Platforms (Most Similar to Donorbox)\n\nThese platforms offer a comprehensive suite of tools for various fundraising activities.\n\n1.  **Givebutter:**\n    *   **Why it's popular:** Known for its \"truly free\" model (donors can optionally cover fees) and modern, user-friendly interface.\n    *   **Key Features:** Donation forms, fundraising pages, event ticketing, peer-to-peer, text-to-give, auctions, live streams, basic CRM, email/SMS tools.\n    *   **Best for:** Small to medium-sized non-profits looking for a robust, modern, and cost-effective solution.\n\n2.  **Classy:**\n    *   **Why it's popular:** A more robust, enterprise-level platform with powerful tools for scaling fundraising.\n    *   **Key Features:** Online donation forms, fundraising campaigns, event registration, peer-to-peer, recurring giving, integrations with Salesforce and other CRMs.\n    *   **Best for:** Medium to large non-profits and organizations seeking sophisticated campaign management and strong CRM integration.\n\n3.  **Funraise:**\n    *   **Why it's popular:** Modern, intuitive platform with strong reporting and automation features.\n    *   **Key Features:** Donation forms, campaign sites, peer-to-peer, events, text-to-give, integrations (Salesforce, Mailchimp, etc.), advanced reporting.\n    *   **Best for:** Growing non-profits that value a modern user experience, strong analytics, and automation.\n\n4",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 524,
+  "estimated_cost_usd": 0.001311,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502017+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding a donor CRM with true flat-rate pricing and no per-user fees can be a bit challenging, as many platforms scale either by the number of contacts/records or by user count. However, there are excellent options that prioritize unlimited users and scale differently, or are completely free.\n\nHere are some top donor CRMs known for having **no per-user fees**, focusing on how their pricing *does* scale instead:\n\n1.  **Zeffy (100% Free - Forever)**\n    *   **Pricing Model:** Completely free for nonprofits. Zeffy makes its revenue by asking donors to add an optional tip at checkout.\n    *   **No Per-User Fees:** Absolutely. Unlimited users.\n    *   **Scaling:** Doesn't scale. It's free regardless of your size or transaction volume.\n    *   **Pros:** Truly free, includes donation forms, peer-to-peer, ticketing, basic CRM, email marketing, and payment processing.\n    *   **Cons:** CRM features are good for basics but might not be as robust or customizable as paid, dedicated CRMs. Data migration could be manual if coming from a complex system.\n\n2.  **Little Green Light (LGL)**\n    *   **Pricing Model:** Flat monthly fee based on the number of *active constituents* (donors, volunteers, prospects, etc.) in your database.\n    *   **No Per-User Fees:** Confirmed - all plans include unlimited users.\n    *   **Scaling:** By active constituent count (e.g., up to 2,500, up to 10,000, etc.).\n    *   **Pros:** Very popular for small to medium-sized nonprofits. Comprehensive features for donor management, gift processing, campaigns, reporting, acknowledgements, and integrations. Great value.\n    *   **Cons:** Interface can feel a bit dated to some, but it's highly functional.\n\n3.  **Bloomerang**\n    *   **Pricing Model:** Flat monthly fee based on the number of *constituent records* in your database.\n    *   **No Per-User Fees:** Confirmed - all plans include unlimited users.\n    *   **Scaling:** By constituent record count (e.g., up to 1,000, up to 5,000, up to 15,000, etc.).\n    *   **Pros:** Modern interface, strong focus on donor retention and engagement, excellent reporting and donor communication tools, integrated email marketing.\n    *   **Cons:** Can get more expensive than LGL as your database grows. Some users report that certain advanced customization options can be limited.\n\n4.  **Neon CRM (formerly Neon One)**\n    *   **Pricing Model:** Flat monthly fee based on the number of *contacts* in your database.\n    *   **No Per-User Fees:** Confirmed - all plans include unlimited users.\n    *   **Scaling:** By contact count (e.g., up to 2,000, up to 5,000, up to 10,000, etc.).\n    *   **Pros:** Very comprehensive, offering modules for memberships, events, grants, volunteers, and peer-to-peer fundraising in addition to core donor management. Good for organizations with diverse needs.\n    *   **Cons:** Can be more complex to",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 725,
+  "estimated_cost_usd": 0.001816,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

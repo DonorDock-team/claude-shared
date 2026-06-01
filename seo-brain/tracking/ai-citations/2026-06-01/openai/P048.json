@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P048",
+  "prompt_text": "Donor CRM for nonprofits outgrowing their current tools",
+  "engine": "openai",
+  "timestamp": "2026-06-01T13:25:21.502439+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When nonprofits experience growth, their donor management needs become more complex, which may necessitate transitioning to a more robust Customer Relationship Management (CRM) system. Here are several options that are highly regarded and particularly suitable for nonprofits outgrowing basic tools:\n\n1. **Salesforce for Nonprofits:**\n   - **Features**: Customizable, constituent management, donation tracking, reporting and analytics, and integration with a wide range of apps.\n   - **Pros**: Highly scalable, strong community support, Nonprofit Success Pack (NPSP) tailored for nonprofit needs, grants available through Salesforce.org.\n   - **Cons**: Can be complex to set up and require ongoing administration.\n\n2. **Blackbaud Raiser\u2019s Edge NXT:**\n   - **Features**: Fundraising and donor management, analytics, integrated email marketing, and event management.\n   - **Pros**: Designed specifically for nonprofits, robust reporting, and analytics, excellent support for users.\n   - **Cons**: Generally higher cost compared to other platforms.\n\n3. **Neon One (Neon CRM):**\n   - **Features**: Donor management, online fundraising, membership management, event registration, and volunteer management.\n   - **Pros**: Easy-to-use interface, comprehensive feature set, strong customer support.\n   - **Cons**: May have limitations with very complex requirements or high-volume data needs.\n\n4. **Bloomerang:**\n   - **Features**: Donor retention focus, fundraising automation, email marketing, and reporting.\n   - **Pros**: User-friendly, budget-friendly for smaller to mid-sized organizations, great donor engagement features.\n   - **Cons**: Some limitations on customizability and integration compared to larger CRMs.\n\n5. **DonorPerfect:**\n   - **Features**: Donor management, online donation processing, event and volunteer management.\n   - **Pros**: Adaptable for various organization sizes, robust feature set for donor engagement.\n   - **Cons**: Reporting functionality can be complex for beginners.\n\n6. **Little Green Light:**\n   - **Features**: Contact management, gift management, mailings, and email communications.\n   - **Pros**: Very affordable, great for smaller to mid-sized nonprofits, simple interface.\n   - **Cons**: Somewhat limited in advanced features compared to bigger players.\n\n7. **Kindful:**\n   - **Features**: Donor management, online fundraising tools, and integrations with other platforms.\n   - **Pros**: Good integration capabilities, user-friendly, visually appealing interface.\n   - **Cons**: Pricing can increase with more advanced features.\n\n### Considerations for Choosing a CRM:\n- **Budget**: Ensure the CRM fits within your financial resources while considering the costs of migration, training, and maintenance.\n- **Scalability**: Choose a CRM that can grow with your organization\u2019s expanding needs.\n- **Ease of Use**: Platform should be intuitive to encourage regular use by your team.\n- **Integration**: Look for a CRM that integrates well with your existing tools and platforms.\n- **Support and Training**: Adequate support and training resources are crucial for a smooth transition and operational efficiency.\n\nWhen selecting a CRM, it's essential for a nonprofit to thoroughly assess its needs, including number of users, data migration capabilities, and the specific features required to support organizational goals. Conducting product demos and seeking feedback from other nonprofits with similar needs can also be very helpful in making an informed decision.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 709,
+  "estimated_cost_usd": 0.007135,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

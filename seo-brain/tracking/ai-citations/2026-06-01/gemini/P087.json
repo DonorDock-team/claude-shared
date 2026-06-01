@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P087",
+  "prompt_text": "Best donor CRM for refugee services",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502662+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for refugee services involves a few unique considerations beyond standard non-profit needs, primarily due to the sensitive nature of the work and the diverse support required. You'll want a CRM that can handle:\n\n1.  **Grant Management:** Many refugee services rely heavily on grants (government, foundations).\n2.  **Volunteer Management (often integrated):** Volunteers are crucial for resettlement, language support, mentorship, etc.\n3.  **In-Kind Donations:** Clothing, furniture, food, etc., need to be tracked and valued.\n4.  **Program-Specific Giving:** Donors often want to support specific programs (e.g., \"housing,\" \"legal aid,\" \"youth programs\").\n5.  **Robust Reporting:** To demonstrate impact to donors and grantors.\n6.  **Integration Capabilities:** With accounting software, email marketing, and potentially client management systems (though donor CRMs typically *don't* store sensitive client data directly for privacy reasons).\n7.  **Data Security:** Given the sensitivity, this is paramount for *donor* data, and you'll want to ensure any chosen system meets high standards.\n\nHere are some of the best donor CRMs, categorized by their strengths, with a focus on how they fit refugee service organizations:\n\n---\n\n### Top Recommendations for Refugee Services\n\n#### 1. Salesforce Nonprofit Success Pack (NPSP)\n\n*   **Why it's great for refugee services:**\n    *   **Unrivaled Customization & Scalability:** Salesforce NPSP is built for complex, growing organizations. You can tailor it to track specific grant requirements, detailed program designations, and complex donor relationships.\n    *   **Robust Grant Management:** Excellent for",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 360,
+  "estimated_cost_usd": 0.000902,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

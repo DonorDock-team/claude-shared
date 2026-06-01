@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P146",
+  "prompt_text": "Best donor CRM with grant tracking",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502914+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs with Grant Tracking\n\n## Top Recommendations\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large nonprofits with complex needs\n- **Grant tracking:** Robust grant management with custom workflows\n- **Key features:** Full lifecycle tracking, reporting, integration ecosystem\n- **Pricing:** ~$36+/user/month\n\n### **2. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- **Grant tracking:** Integrated grant tracking and reporting\n- **Key features:** Donor retention focus, excellent support, easy to use\n- **Pricing:** Starting ~$125/month\n\n### **3. Foundant (GrantHub)**\n- **Best for:** Grant-focused organizations\n- **Grant tracking:** Purpose-built grant management tools\n- **Key features:** Deadline tracking, compliance, funder research\n- **Pricing:** Starting ~$79/month\n\n### **4. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established nonprofits with significant fundraising\n- **Grant tracking:** Comprehensive grant module\n- **Key features:** Enterprise-level features, wealth screening\n- **Pricing:** Custom (typically $10K+/year)\n\n### **5. Neon CRM**\n- **Best for:** Growing nonprofits wanting all-in-one solution\n- **Grant tracking:** Built-in grant management\n- **Key features:** Membership, events, donor management combined\n- **Pricing:** Starting ~$50/month\n\n## Key Features to Look For\n- Deadline reminders and calendar\n- Application and reporting workflows\n- Budget tracking and financials\n- Funder relationship management\n- Custom reporting\n\n**What's your organization's size and budget?** That will help narrow the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 407,
+  "estimated_cost_usd": 0.006147,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

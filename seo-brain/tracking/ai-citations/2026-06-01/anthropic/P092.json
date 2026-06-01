@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502908+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRM for International NGOs\n\nHere are the top options based on international NGO needs:\n\n## **Top Recommendations**\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large international NGOs with complex needs\n- **Strengths:** Highly customizable, multi-currency, robust reporting, integrates with most tools\n- **Considerations:** Requires technical expertise, higher cost\n- **Pricing:** Starting ~$36/user/month (nonprofit discount available)\n\n### **2. Microsoft Dynamics 365 (with Nonprofit Accelerator)**\n- **Best for:** Organizations already using Microsoft ecosystem\n- **Strengths:** Powerful, multi-language support, good for global operations\n- **Considerations:** Complex setup, technical resources needed\n- **Pricing:** Discounted/donated licenses available through TechSoup\n\n### **3. Kindful (by Bloomerang)**\n- **Best for:** Mid-sized NGOs wanting ease of use\n- **Strengths:** User-friendly, good donor management, reasonable pricing\n- **Considerations:** Less robust for very complex international operations\n- **Pricing:** Starting ~$100/month\n\n### **4. CiviCRM**\n- **Best for:** Budget-conscious organizations with tech capacity\n- **Strengths:** Open-source (free), customizable, multi-currency capable\n- **Considerations:** Requires technical setup and maintenance\n- **Pricing:** Free (hosting and support costs extra)\n\n### **5. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established international NGOs with significant fundraising\n- **Strengths:** Comprehensive features, built for nonprofits\n- **Considerations:** Expensive, can be complex\n- **Pricing:** Custom quotes (typically higher-end)\n\n## **Key Features to Look For**\n- Multi-currency support\n- Multi-language capabilities\n- GDPR compliance\n- Integration with international payment processors\n- Consolidated global reporting\n- Grant management tools\n\n**What's your organization's size and primary geographic focus?** That would help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 477,
+  "estimated_cost_usd": 0.0072,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

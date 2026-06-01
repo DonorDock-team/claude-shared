@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P135",
+  "prompt_text": "Why nonprofits leave DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502147+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorPerfect has been a long-standing and popular donor management system for nonprofits, particularly smaller to mid-sized organizations. It offers a solid foundation for tracking donors, gifts, and basic fundraising activities.\n\nHowever, many nonprofits eventually choose to leave DonorPerfect for a variety of reasons, often driven by their growth, evolving needs, or the availability of newer, more specialized solutions. Here are the most common reasons:\n\n1.  **Scalability and Complexity:**\n    *   **Growing Needs:** As an organization grows, its fundraising efforts become more sophisticated. They might need more advanced segmentation, complex major donor moves management, grant tracking, multi-channel campaign management, and peer-to-peer fundraising. DonorPerfect, while capable of some of these, can start to feel clunky or require workarounds for very complex scenarios.\n    *   **Data Overload:** With more data and more users, the system can sometimes feel slower or less intuitive for managing large datasets or highly specific queries.\n\n2.  **User Interface (UI) and User Experience (UX):**\n    *   **Outdated Feel:** Compared to newer, cloud-native CRM solutions, DonorPerfect's interface can sometimes be perceived as less modern, intuitive, or visually appealing. This can lead to a steeper learning curve for new staff or frustration for power users.\n    *   **Workflow Efficiency:** Some users find that common tasks require more clicks or navigation than they would prefer, impacting daily efficiency.\n\n3.  **Integrations and Ecosystem:**\n    *   **Limited Deep Integrations:** While DonorPerfect offers various integrations, nonprofits often find they need deeper, more seamless, two-way integrations with other best-in-breed tools like:\n        *   Advanced email marketing platforms (e.g., Mailchimp, Constant Contact, Marketing Cloud)\n        *   Accounting software (e.g., QuickBooks, NetSuite)\n        *   Event management platforms\n        *   Peer-to-peer fundraising tools\n        *   Wealth screening services\n        *   Grant management systems\n    *   **Data Silos:** A lack of robust integrations can lead to manual data entry, data discrepancies, and siloed information, making a unified view of constituents difficult.\n\n4.  **Reporting and Analytics Limitations:**\n    *   **Customization Challenges:** While DonorPerfect offers good standard reports, creating highly customized or complex analytical reports can sometimes be challenging or require exporting data to another tool (like Excel) for manipulation.\n    *   **Data Visualization:** Newer CRMs often offer more dynamic dashboards and data visualization tools that make it easier to interpret trends and performance at a glance.\n\n5.  **Cost-Effectiveness (as needs grow):**\n    *   **Add-on Features:** While often affordable for basic use, as organizations require more advanced features, they may need to purchase various add-on modules. The cumulative cost of these add-ons can sometimes approach or exceed the cost of more comprehensive, all-in-one solutions from competitors.\n    *   **Hidden Costs:** Training, implementation consultants, and workarounds for missing features can also add to the total cost of ownership.\n\n6.  **Modern Fundraising Features:**\n    ",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 662,
+  "estimated_cost_usd": 0.001656,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

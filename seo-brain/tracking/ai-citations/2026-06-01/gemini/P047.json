@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P047",
+  "prompt_text": "Best donor CRM for community foundations",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502407+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For community foundations, choosing the \"best\" donor CRM is uniquely challenging because they operate in a hybrid space: they are both fundraisers (attracting donors and building funds) and grantmakers (distributing funds to other nonprofits). This requires robust capabilities for fund management (including donor-advised funds), grant management, donor relations, and often, scholarship management.\n\nGeneral-purpose nonprofit CRMs often fall short in the specialized fund accounting and integrated grantmaking required by CFs.\n\nHere are the top contenders, along with their strengths and weaknesses for community foundations:\n\n## Top Recommendations for Community Foundations\n\n### 1. Foundant CommunitySuite\n\n**Why it's often the \"best fit\" for many CFs:**\nFoundant is arguably the leader in solutions *specifically designed* for community foundations. They started with grant management and have expanded to encompass the entire CF operation.\n\n*   **Strengths:**\n    *   **Built for CFs:** Designed from the ground up to handle donor-advised funds (DAFs), endowments, scholarship funds, and various other fund types.\n    *   **Integrated:** Offers a truly integrated system for Donor Management, Fund Management, Grant Management, and Scholarship Management.\n    *   **DAF Portals:** Excellent donor portals for DAF holders to recommend grants, view fund statements, and engage with the foundation.\n    *   **Scholarship Management:** Robust tools for managing scholarship applications, reviews, and disbursements.\n    *   **User-Friendly:** Generally considered to have a more modern and intuitive interface than some legacy systems.\n    *   **Strong Support:** Known for good customer service and a community of CF users.\n    *   **Reporting:** Comprehensive reporting tailored to CF needs.\n\n*   **Weaknesses:**\n    *   **Scalability for Very Large CFs:** While robust, extremely large CFs with highly complex, custom requirements might find it slightly less flexible than a heavily customized Salesforce implementation.\n    *   **Cost:** Can be a significant investment, but often seen as a good value for the integrated functionality.\n    *   **Accounting Integration:** While it handles fund accounting principles, it still needs to integrate with a separate general ledger accounting system (e.g., QuickBooks, Sage",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 462,
+  "estimated_cost_usd": 0.001157,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

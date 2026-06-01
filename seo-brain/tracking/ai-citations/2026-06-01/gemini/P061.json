@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P061",
+  "prompt_text": "Best donor CRM for monthly giving programs",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502021+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for monthly giving programs depends heavily on your organization's specific needs, size, budget, and desired level of complexity. However, some CRMs consistently stand out due to their robust features for managing recurring donations, fostering donor retention, and automating key processes.\n\nHere are the top contenders and what makes them excellent for monthly giving programs:\n\n## Key Features to Look For in a CRM for Monthly Giving:\n\nBefore diving into specific CRMs, ensure any system you consider offers these critical functionalities:\n\n1.  **Seamless Recurring Gift Processing:**\n    *   Easy setup for donors (online forms).\n    *   Support for various payment methods (credit card, ACH, PayPal).\n    *   Automatic tokenization for PCI compliance.\n    *   Ability for staff to easily set up, edit, or cancel recurring gifts.\n2.  **Payment Method Updates & Dunning Management:**\n    *   **Donor Self-Service Portal:** Crucial for donors to update their own credit card information, billing addresses, or change gift amounts without contacting staff.\n    *   **Automated Dunning:** System automatically attempts to re-process failed payments and notifies donors when cards are expiring or declined.\n3.  **Automation & Communication:**\n    *   Automated welcome series for new monthly donors.\n    *   Automated",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 279,
+  "estimated_cost_usd": 0.0007,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

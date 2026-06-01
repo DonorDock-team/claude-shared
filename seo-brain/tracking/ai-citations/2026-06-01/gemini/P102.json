@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502478+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding *truly free* alternatives that offer the comprehensive functionality and scalability of Salesforce Nonprofit Cloud (NPSP) is challenging. NPSP itself provides 10 free licenses to eligible nonprofits, and heavily discounted additional licenses. Often, \"free\" means:\n\n1.  **Open Source:** You host and maintain it, requiring technical expertise.\n2.  **Freemium Tiers:** Limited functionality or user count, with paid upgrades.\n3.  **Piecing Together Tools:** Using multiple free tools that don't seamlessly integrate.\n4.  **Manual/Spreadsheet-Based:** For very small organizations.\n\nHere are some of the best free or very low-cost alternatives, categorized by their approach:\n\n---\n\n### I. Open Source CRM Solutions (Require Hosting & Technical Skills)\n\nThese offer the most robust \"free\" CRM experience, but you bear the cost and effort of hosting, installation, maintenance, and potentially development.\n\n1.  **CiviCRM**\n    *   **What it is:** The most prominent open-source CRM specifically designed for nonprofits, associations, and advocacy groups. It runs as an add-on to content management systems like WordPress, Drupal, and Joomla.\n    *   **Key Features:** Constituent management, fundraising (donations, memberships, pledges), event management, mass email, peer-to-peer fundraising, case management, volunteer management.\n    *   **Pros:** Highly customizable, comprehensive feature set, strong community support, no license fees.\n    *   **Cons:** Requires technical expertise for setup, hosting, and maintenance. Can be complex to learn. No dedicated support (you rely on community or pay for a partner).\n    *   **Best For:** Nonprofits with some technical savvy or a budget to hire a CiviCRM implementer/host. It's often the closest feature-set competitor to NPSP in the \"free\" space.\n\n2.  **SuiteCRM / SugarCRM Community Edition**\n    *   **What it is:** Open-source forks of the original SugarCRM Community Edition. They are general-purpose CRMs but can be adapted for nonprofit use.\n    *   **Key Features:** Contact management, sales/opportunity management (can be adapted for fundraising), marketing automation, customer service.\n    *   **Pros:** Flexible, extensive feature set for a general CRM, large community.\n    *   **Cons:** Not purpose-built for nonprofits, so requires significant customization to track nonprofit-specific data (donations, grants, programs). Requires technical expertise for hosting and maintenance.\n    *   **Best For:** Nonprofits willing to heavily customize a general CRM and have the technical resources to do so.\n\n---\n\n### II. Freemium CRM / Database Solutions (Free Tiers with Limitations)\n\nThese tools offer a free plan, but you'll likely hit limitations on users, records, or advanced features as your organization grows.\n\n1.  **HubSpot CRM (Free Tier)**\n    *   **What it is:** A popular CRM known for its marketing and sales focus. The free tier is quite generous.\n    *   **Key Features:** Contact management, task management, basic email marketing, forms, live chat, reporting dashboards.\n    *   **Pros:** Very user-friendly",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 684,
+  "estimated_cost_usd": 0.001712,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}
