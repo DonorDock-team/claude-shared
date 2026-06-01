@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502091+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Givebutter Comparison\n\nBoth are modern donor management platforms, but they serve different niches and have distinct strengths.\n\n## **Givebutter**\n\n### Strengths:\n- **Free platform** (no monthly fees, optional 1-5% tip model)\n- **Fundraising-focused** with beautiful campaign pages\n- Excellent for **peer-to-peer** and **event fundraising**\n- Modern, user-friendly interface\n- Built-in ticketing, auctions, and crowdfunding tools\n- Strong social media integration\n- Great for **smaller nonprofits** and **quick campaigns**\n\n### Limitations:\n- Less robust CRM/donor management features\n- Limited reporting compared to traditional CRMs\n- Basic email tools\n- Not ideal for complex donor tracking needs\n\n---\n\n## **DonorDock**\n\n### Strengths:\n- **True donor CRM** with comprehensive contact management\n- Relationship tracking and donor portfolios\n- Task management and move management tools\n- Better for **major gift fundraising**\n- More detailed reporting and analytics\n- Email integration and communication tracking\n- Affordable ($99-299/month typically)\n\n### Limitations:\n- Not free (monthly subscription required)\n- Fewer flashy fundraising campaign tools\n- Less focused on peer-to-peer/events\n- Steeper learning curve\n\n---\n\n## **Which to Choose?**\n\n**Choose Givebutter if you:**\n- Need a free solution\n- Focus on campaigns, events, or peer-to-peer fundraising\n- Want quick setup with minimal training\n- Are a smaller organization (<$500k budget)\n\n**Choose DonorDock if you:**\n- Need robust donor relationship management\n- Have major donors requiring cultivation tracking\n- Want comprehensive reporting\n- Need task/workflow management for fundraising staff\n- Have budget for a dedicated CRM\n\n**Consider both?** Some organizations use Givebutter for campaigns and DonorDock for donor management!\n\nWhat's your primary fundraising focus?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 457,
+  "estimated_cost_usd": 0.006906,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

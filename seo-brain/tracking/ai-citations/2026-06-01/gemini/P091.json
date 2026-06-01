@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P091",
+  "prompt_text": "Best donor CRM for environmental nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502893+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for an environmental nonprofit depends heavily on your organization's specific needs, budget, size, and technical capacity. However, several platforms stand out for their flexibility, features, and suitability for organizations that often rely on volunteers, events, and project-based fundraising.\n\nHere are the top contenders, categorized to help you find the best fit:\n\n---\n\n### Top Recommendations for Environmental Nonprofits\n\n#### 1. Salesforce Nonprofit Cloud (NPSP)\n\n*   **Best For:** Larger environmental organizations, those with complex data tracking needs (e.g., land parcels, species, policy wins), or groups willing to invest in customization.\n*   **Why it's Great for Environmental Nonprofits:**\n    *   **Unparalleled Customization:** You can track virtually *anything* \u2013 beyond donations, you can manage volunteer hours, specific project outcomes (acres protected, trees planted, water quality metrics), grant applications tied to environmental projects, and advocacy campaigns.\n    *   **Robust Reporting:** Generate detailed reports on fundraising, program impact, volunteer engagement, and more.\n    *   **AppExchange Ecosystem:** Access thousands of integrations for things like volunteer management, advocacy platforms, mapping tools (GIS integrations might be possible with custom development or specific apps), and event management.\n    *   **Free Licenses:** Salesforce offers 10 free licenses to eligible nonprofits, significantly reducing the initial cost.\n*   **Considerations:**\n    *   **Steep Learning Curve:** Requires significant setup and ongoing administration. You'll likely need an in-house Salesforce admin or a consultant.\n    *   **Complexity:** Can be overwhelming for smaller organizations with limited technical staff.\n\n#### 2. Bloomerang\n\n*   **Best For:** Small to medium-sized environmental nonprofits looking for an intuitive, user-friendly CRM with a strong focus on donor retention and engagement.\n*   **Why",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 392,
+  "estimated_cost_usd": 0.000982,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P134",
+  "prompt_text": "Why nonprofits leave Bloomerang",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502045+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Reasons Nonprofits Leave Bloomerang\n\nWhile Bloomerang is generally well-regarded in the nonprofit CRM space, organizations do switch away for various reasons:\n\n## **1. Outgrowing the Platform**\n- Limited customization options for complex needs\n- Insufficient features for larger organizations with multiple programs or chapters\n- Need for more advanced grant management or program tracking\n\n## **2. Cost Concerns**\n- Pricing can become expensive as database size grows\n- Annual price increases\n- Better value proposition from competitors for similar features\n\n## **3. Integration Limitations**\n- Limited native integrations with other tools\n- Difficulty connecting with existing accounting, email, or event management systems\n- Need for more robust API capabilities\n\n## **4. Reporting Constraints**\n- Standard reports may not meet specific organizational needs\n- Limited ability to create highly customized reports\n- Difficulty extracting data in desired formats\n\n## **5. Feature Gaps**\n- Limited event management capabilities\n- Weak volunteer management tools\n- Insufficient membership management features\n- Limited peer-to-peer fundraising options\n\n## **6. User Experience Issues**\n- Learning curve for staff\n- Interface not intuitive for specific workflows\n- Mobile functionality limitations\n\n## **7. Support Challenges**\n- Response times not meeting expectations\n- Need for more hands-on implementation assistance\n- Desire for dedicated account management\n\nOrganizations typically migrate to platforms like Salesforce Nonprofit Cloud, Little Green Light, DonorPerfect, or Kindful depending on their specific needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 341,
+  "estimated_cost_usd": 0.005163,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

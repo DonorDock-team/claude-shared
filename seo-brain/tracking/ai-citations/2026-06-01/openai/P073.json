@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "openai",
+  "timestamp": "2026-06-01T13:25:21.502864+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor pledges is crucial for managing fundraising efforts and maintaining strong relationships with donors. Here are some steps and tools you can use to effectively track pledges:\n\n1. **Choose a Tracking System**:\n   - **CRM Software**: Implement a Customer Relationship Management (CRM) system designed for nonprofit organizations, like Salesforce Nonprofit Success Pack, Bloomerang, or Blackbaud.\n   - **Spreadsheets**: If you're a smaller organization or prefer a simpler solution, a spreadsheet program like Excel or Google Sheets can be used to track pledges manually.\n\n2. **Set Up a Database**:\n   - Create fields for essential donor information such as name, contact information, pledge amount, payment schedule, and pledge status.\n   - Include sections for recording any communication with the donor, notes, and any specific conditions or purposes of the pledge.\n\n3. **Record Pledges**:\n   - As pledges are made, input them into your system promptly. Ensure accuracy by double-checking data entries.\n   - Include details about the campaign associated with the pledge, the intended use of the funds, and the timeline for payments.\n\n4. **Monitor Payments**:\n   - Keep track of incoming pledge payments. Note the date and amount of each payment.\n   - Set up alerts or reminders for when payments are due. This can be automated in most CRM systems or manually set in calendar applications.\n\n5. **Acknowledge and Thank Donors**:\n   - Send acknowledgments after each pledge and payment. Tailor communication to make donors feel appreciated and informed about the impact of their contributions.\n   - Regularly update donors on the progress of projects or campaigns related to their pledges.\n\n6. **Analyze Data**:\n   - Periodically analyze your pledge data to identify trends, such as the most successful campaigns or preferred payment schedules.\n   - Use this analysis to refine your fundraising strategies and improve donor retention.\n\n7. **Maintain Communication**:\n   - Keep donors engaged with regular updates, newsletters, or impact reports.\n   - Solicit feedback and encourage repeat donations by fostering strong relationships.\n\n8. **Follow Up**:\n   - For late payments, follow up respectfully and courteously. This can be a phone call, email, or a gentle reminder through your tracking system.\n   - Ensure that you have a clear policy for managing pledged funds that are not fulfilled.\n\n9. **Review and Update**:\n   - Regularly review your tracking processes to ensure efficiency and accuracy. Update systems or methods as needed to adapt to growth or new technological solutions.\n\nBy systematically tracking donor pledges, you ensure accountability and build trust with your donors, enhancing your organization's ability to achieve its mission successfully.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 542,
+  "estimated_cost_usd": 0.005452,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

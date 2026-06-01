@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P040",
+  "prompt_text": "Donor software with QuickBooks integration",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.503060+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding donor software with robust QuickBooks integration is crucial for nonprofits to streamline their accounting and donor management processes. The type and depth of integration can vary, so it's important to understand your specific needs (QuickBooks Desktop vs. Online, what data needs to sync, frequency, etc.).\n\nHere are some popular donor management software options known for their QuickBooks integration:\n\n## Top Donor Software with QuickBooks Integration\n\n### 1. Kindful (now Bonterra)\n*   **Overview:** Kindful is highly regarded for its modern interface and strong emphasis on integrations, especially with QuickBooks Online. It's designed to automate tasks and provide insightful donor data.\n*   **QuickBooks Integration:**\n    *   **Type:** Native, direct integration with QuickBooks Online (QBO).\n    *   **Functionality:** Syncs donation and donor data from Kindful directly into QBO, often creating invoices, sales receipts, or journal entries, and categorizing income by fund, campaign, or donor. It aims to reduce manual data entry significantly.\n    *   **Key Feature:** Often cited as one of the best out-of-the-box QBO integrations in the nonprofit space.\n\n### 2. Bloomerang\n*   **Overview:** Bloomerang is known for its focus on donor retention, user-friendly interface, and comprehensive communication tools.\n*   **QuickBooks Integration:**\n    *   **Type:** Native integration with QuickBooks Online, and strong export features for QuickBooks Desktop.\n    *   **Functionality:** Syncs donation data to QBO, allowing you to map Bloomerang accounts (funds, campaigns) to QuickBooks classes or accounts. For Desktop users, it provides detailed reports and export files that can be easily imported into QuickBooks.\n    *   **Key Feature:** Excellent reporting tools that facilitate reconciliation and ensure accuracy between donor data and financial records.\n\n### 3. DonorPerfect\n*   **Overview:** A long-standing and comprehensive donor management system offering a wide range of features for fundraising, reporting, and communication.\n*   **QuickBooks Integration:**\n    *   **Type:** Offers both direct integration with QuickBooks Online and robust export capabilities for QuickBooks Desktop (via IIF files or CSV).\n    *   **Functionality:** Allows you to map your funds and general ledger accounts in DonorPerfect to QuickBooks. Donations, grants, and other revenue can be transferred directly to QBO or exported for Desktop.\n    *   **Key Feature:** Its flexibility and long history mean it's well-equipped to handle various accounting needs.\n\n### 4. NeonCRM (NeonOne)\n*   **Overview:** NeonOne offers an all-in-one nonprofit software suite that includes CRM, fundraising, event management,",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 561,
+  "estimated_cost_usd": 0.001404,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

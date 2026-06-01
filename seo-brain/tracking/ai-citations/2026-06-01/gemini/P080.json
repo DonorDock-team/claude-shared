@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P080",
+  "prompt_text": "Best donor CRM for private K-12 schools",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502084+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a private K-12 school depends heavily on the school's specific needs, budget, size, existing tech stack, and the sophistication of its development team. Private K-12 schools have unique relationship management requirements, often needing to track multi-generational families (alumni parents, current parents, grandparents), student enrollment statuses, and integrate with Student Information Systems (SIS).\n\nHere are the top donor CRM options, with considerations specific to private K-12 schools:\n\n## Top Donor CRM Options for Private K-12 Schools\n\n### 1. Blackbaud Raiser's Edge NXT (BBRENXT)\n*   **Why it's a Top Choice for K-12:** Blackbaud is a behemoth in the education and nonprofit space. Raiser's Edge NXT is specifically designed for sophisticated fundraising operations and is widely used by schools and universities.\n    *   **Pros for K-12:**\n        *   **Deep Education Focus:** Blackbaud understands the education donor lifecycle better than almost anyone. Many K-12 schools already use Blackbaud's K-12 ON products (SIS, LMS, Enrollment Management), making integration seamless.\n        *   **Robust Relationship Management:** Excellent for tracking complex relationships (parents, grandparents, alumni, students, faculty, board members, foundations, corporations).\n        *   **Powerful Reporting & Analytics:** Advanced segmentation, donor analytics, and campaign performance tracking.\n        *   **Comprehensive Fundraising Tools:** Supports annual funds, capital campaigns, planned giving, major gifts, pledges, and grant management.\n        *   **Scalability:** Can handle large and complex donor databases as the school grows.\n    *   **Cons for K-12:**\n        *   **Cost:** Can",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 371,
+  "estimated_cost_usd": 0.000931,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P006",
+  "prompt_text": "DonorDock vs DonorPerfect",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.496372+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs DonorPerfect Comparison\n\nBoth are donor management/CRM platforms for nonprofits, but they serve different market segments:\n\n## **DonorDock**\n\n### Best For\n- Small to mid-sized nonprofits\n- Organizations wanting modern, simple software\n- Budget-conscious organizations\n\n### Key Strengths\n- **Modern, intuitive interface** - clean, easy to learn\n- **Affordable pricing** - typically lower cost\n- **Strong donor relationships focus** - emphasizes tracking interactions\n- **Good customer support** - known for responsiveness\n- **Quick setup** - faster implementation\n\n### Limitations\n- Fewer advanced features\n- Smaller ecosystem/integrations\n- Less robust reporting than enterprise solutions\n- Newer company (less established)\n\n---\n\n## **DonorPerfect**\n\n### Best For\n- Small to large nonprofits\n- Organizations needing extensive features\n- Those wanting deep customization\n\n### Key Strengths\n- **Comprehensive features** - very full-featured platform\n- **Extensive integrations** - connects with many tools\n- **Robust reporting** - advanced analytics and custom reports\n- **Established platform** - 30+ years in business\n- **Scalable** - grows with your organization\n- **Online fundraising tools** included\n\n### Limitations\n- **Steeper learning curve** - can be complex\n- **Interface feels dated** to some users\n- **Higher cost** - more expensive, especially with add-ons\n- **Implementation time** - can take longer to set up\n\n---\n\n## **Quick Decision Guide**\n\nChoose **DonorDock** if you:\n- Want simplicity and ease of use\n- Have a smaller budget\n- Need to get up and running quickly\n- Have basic to moderate CRM needs\n\nChoose **DonorPerfect** if you:\n- Need advanced reporting and analytics\n- Require extensive integrations\n- Want a proven, long-established platform\n- Need to scale significantly\n- Have complex fundraising operations\n\n**Budget range:** DonorDock typically starts around $99/month, while DonorPerfect typically starts around $89/month but costs rise with features and contacts.\n\nWhat's your organization's size and primary needs?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 506,
+  "estimated_cost_usd": 0.007647,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

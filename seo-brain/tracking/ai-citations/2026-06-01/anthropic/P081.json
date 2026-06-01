@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P081",
+  "prompt_text": "Best donor CRM for community colleges",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502098+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Community Colleges\n\nHere are the top CRM options well-suited for community college fundraising:\n\n## **Top Recommendations**\n\n### **1. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established programs with larger budgets\n- Industry standard in education fundraising\n- Strong alumni tracking and engagement tools\n- Robust reporting and analytics\n- **Consideration:** Higher cost, may be overkill for smaller operations\n\n### **2. Salesforce Nonprofit Cloud (Education Data Architecture)**\n- **Best for:** Growing programs wanting scalability\n- Highly customizable for community college needs\n- Strong integration ecosystem\n- Excellent for tracking student-to-donor pipelines\n- More affordable with nonprofit pricing\n\n### **3. Bloomerang**\n- **Best for:** Small to mid-sized advancement offices\n- User-friendly interface with minimal training needed\n- Strong donor retention focus\n- Affordable pricing ($125-$500/month)\n- Good reporting without complexity\n\n### **4. DonorPerfect**\n- **Best for:** Budget-conscious colleges\n- Specifically designed for smaller nonprofits/education\n- Online giving integration\n- Reasonable learning curve\n- Good email marketing tools included\n\n### **5. Ellucian Advance** (formerly Benefactor)\n- **Best for:** Colleges already using Ellucian student systems\n- Seamless integration with student records\n- Built specifically for higher education\n- Can track students through alumni lifecycle\n\n## **Key Features to Prioritize**\n- Student information system integration\n- Scholarship tracking\n- Event management (galas, alumni events)\n- Planned giving tools\n- Grant management capabilities\n\n**Budget consideration:** Most community colleges find success in the $3,000-$15,000/year range depending on donor database size.\n\nWhat's your current donor database size and annual fundraising goals?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 425,
+  "estimated_cost_usd": 0.006417,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

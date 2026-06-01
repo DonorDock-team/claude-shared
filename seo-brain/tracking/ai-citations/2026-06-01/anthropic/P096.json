@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P096",
+  "prompt_text": "Hidden costs of Neon CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.501454+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Neon CRM\n\nWhile Neon CRM advertises transparent pricing, organizations often encounter unexpected expenses. Here are the commonly reported hidden costs:\n\n## 1. **Implementation & Setup Costs**\n- **Data migration fees** - importing existing donor data can require paid professional services\n- **Custom configuration** - complex workflows may need consultant support ($100-150/hour)\n- **Staff training time** - learning curve can temporarily reduce productivity\n\n## 2. **Transaction Fees**\n- **Payment processing fees** (2.2% + $0.30 per transaction typical)\n- **ACH fees** for recurring donations\n- **International transaction surcharges**\n- These add up quickly for high-volume organizations\n\n## 3. **Add-On Features**\n- **Neon Pay** (their payment processor) - while integrated, fees may exceed third-party options\n- **Additional user licenses** beyond base package\n- **Text messaging credits** for SMS campaigns\n- **Advanced reporting** features on higher tiers\n\n## 4. **Integration Costs**\n- **Third-party integrations** may require:\n  - Separate subscriptions (Mailchimp, QuickBooks, etc.)\n  - Middleware tools like Zapier ($20-600+/month)\n  - Custom API development\n\n## 5. **Storage & Volume Limits**\n- **Email send limits** - exceeding monthly allowances\n- **Database size overages** for large contact lists\n- **File storage** for documents and attachments\n\n## 6. **Ongoing Expenses**\n- **Annual price increases** (typically 3-5%)\n- **Consultant fees** for ongoing optimization\n- **Staff time** for system maintenance and troubleshooting\n\n## \ud83d\udca1 **Tips to Minimize Hidden Costs:**\n- Get detailed quotes including all anticipated fees\n- Ask about data migration assistance included in plans\n- Negotiate transaction rates if you have high donation volume\n- Clarify upgrade paths and associated costs\n- Request trial period to assess actual needs\n\nWould you like specific information about any of these cost areas?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 470,
+  "estimated_cost_usd": 0.007095,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

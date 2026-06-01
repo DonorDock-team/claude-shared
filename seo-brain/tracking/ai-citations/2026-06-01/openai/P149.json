@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P149",
+  "prompt_text": "How to migrate from Excel to a nonprofit CRM",
+  "engine": "openai",
+  "timestamp": "2026-06-01T13:25:21.503100+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Migrating from Excel to a nonprofit customer relationship management (CRM) system is a significant step towards improving your organization\u2019s efficiency and effectiveness in managing donor relationships, tracking interactions, and fundraising. The process involves several key steps to ensure a smooth transition. Here\u2019s a guide to help you through the process:\n\n### 1. **Define Your Needs and Goals**\n   - **Assess Your Requirements**: Determine what you need from your CRM. Consider features like donor management, email marketing, reporting, event management, and integration capabilities.\n   - **Set Migration Goals**: Clearly define what you hope to achieve with the CRM, such as improved data accuracy, enhanced donor engagement, or streamlined operations.\n\n### 2. **Select the Right CRM**\n   - **Research Options**: Look at CRM solutions designed for nonprofits, such as Salesforce Nonprofit Success Pack, Bloomerang, DonorPerfect, or NeonCRM.\n   - **Demo Solutions**: Participate in demos and trials to evaluate user interfaces, functionalities, and ease of use.\n   - **Check Compatibility**: Ensure the CRM can integrate with existing tools and systems your organization uses.\n\n### 3. **Cleanse and Prepare Your Data**\n   - **Audit Your Data**: Review your existing Excel data for accuracy and completeness. Identify duplicates, outdated information, and errors.\n   - **Standardize Data**: Decide on a consistent format for names, addresses, phone numbers, etc., to ensure uniformity.\n   - **Segment Data**: Organize data into logical categories like donors, volunteers, and partners for easier import and management.\n\n### 4. **Plan the Migration Process**\n   - **Develop a Migration Strategy**: Decide on a migration timeline. Plan whether you will migrate all data at once or in phases.\n   - **Backup Data**: Ensure all your Excel data is backed up to prevent loss during the migration.\n   - **Map Fields**: Identify how Excel columns correspond to fields in the CRM. Work with your CRM provider if necessary to ensure proper alignment.\n\n### 5. **Import Data into the CRM**\n   - **Perform a Test Migration**: Conduct a trial import with a small sample of data to identify any issues early on.\n   - **Resolve Issues**: If problems arise during the test, make necessary adjustments before importing the entire dataset.\n   - **Complete the Import**: Once satisfied with the test, import all data into the CRM.\n\n### 6. **Verify and Validate Data**\n   - **Check for Accuracy**: Ensure all data was migrated correctly. Check for misplaced, missing, or incorrect entries.\n   - **Resolve Discrepancies**: Fix any issues discovered during the validation step.\n\n### 7. **Training and Adoption**\n   - **Train Your Team**: Provide training sessions for staff and volunteers on how to use the new CRM effectively.\n   - **Create Resources**: Develop guides, FAQs, and support documents to assist with ongoing training and troubleshooting.\n   - **Encourage Adoption**: Foster an organizational culture that embraces data-driven decision making and continuous use of the CRM.\n\n### 8. **Continuous Improvement**\n   - **Monitor Use**: Regularly review how the CRM is being used and identify areas for improvement.\n   - **Gather Feedback**: Solicit input from staff on CRM functionality and any issues they encounter.\n   - **Update and Optimize**: Continuously refine processes and settings in the CRM to maximize efficiency and effectiveness.\n\nBy carefully planning and executing each of these steps, you can transition from Excel to a nonprofit CRM smoothly and set your organization up for better management of your relationships and data.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 735,
+  "estimated_cost_usd": 0.00739,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

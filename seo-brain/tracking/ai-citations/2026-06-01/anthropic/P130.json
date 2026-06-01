@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P130",
+  "prompt_text": "DonorPerfect downsides",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.503028+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorPerfect Downsides\n\nBased on user feedback and reviews, here are the main drawbacks:\n\n## **User Interface & Usability**\n- **Outdated interface** - Many users find it looks dated and isn't intuitive\n- **Steep learning curve** - Can be difficult for new users to navigate\n- **Clunky workflow** - Tasks often require multiple steps that could be simplified\n\n## **Reporting & Data**\n- **Complex report building** - Creating custom reports can be challenging without technical knowledge\n- **Limited customization** - Standard reports may not meet specific organizational needs\n- **Data export limitations** - Getting data out in desired formats can be cumbersome\n\n## **Technical Issues**\n- **Slow performance** - System can lag, especially with large databases\n- **Frequent updates** - Regular updates sometimes cause temporary disruptions\n- **Mobile functionality** - Mobile app/experience is limited compared to desktop\n\n## **Cost Considerations**\n- **Add-on expenses** - Many useful features require additional paid modules\n- **Price increases** - Costs can escalate as organization grows\n- **Training costs** - May need to invest in training due to complexity\n\n## **Customer Support**\n- **Response times** - Support can be slow during peak periods\n- **Inconsistent quality** - Support experience varies depending on representative\n- **Limited self-service resources** - Documentation could be more comprehensive\n\n## **Integration**\n- **Limited native integrations** - May require third-party tools or custom development\n- **API limitations** - Developer resources are somewhat restricted\n\n**Best suited for:** Established nonprofits willing to invest time in learning the system.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 367,
+  "estimated_cost_usd": 0.005553,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P085",
+  "prompt_text": "Best donor CRM for advocacy organizations",
+  "engine": "openai",
+  "timestamp": "2026-06-01T13:25:21.502509+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the best donor CRM (Customer Relationship Management) system for advocacy organizations depends on various factors including the size of the organization, specific features needed, budget, and integration capabilities with existing tools. However, a few CRMs are particularly popular among advocacy organizations due to their robust features tailored to the non-profit sector:\n\n1. **EveryAction**: Known for its robust advocacy and digital engagement tools, EveryAction offers features like online fundraising, email marketing, and targeted communications. It's designed to help manage donors and campaigns effectively.\n\n2. **Nimble AMS**: This is a comprehensive solution built on Salesforce and offers extensive customization options. It is particularly suited for organizations looking for a more personalized CRM experience.\n\n3. **Salesforce Nonprofit Cloud**: While it requires some setup and customization, Salesforce provides a powerful and flexible platform with a vast range of features, including donor management and campaign tracking. Many nonprofits use it due to its scalability and the extensive ecosystem of third-party apps.\n\n4. **Neon CRM**: Known for its user-friendly interface, Neon CRM provides a comprehensive suite of tools for fundraising, donor management, and communication. It also offers features to manage events and memberships.\n\n5. **Bloomerang**: This CRM focuses on donor retention and includes features like email marketing, social listening, and reporting. It's particularly beneficial for organizations aiming to improve donor engagement.\n\n6. **Kindful**: Integrating well with other platforms, Kindful offers a clean interface and automation features. It's particularly advantageous for organizations looking to streamline their operations with integration capabilities.\n\n7. **DonorPerfect**: This CRM provides comprehensive fundraising and donor management tools, including features for event coordination and grant tracking. It is known for its flexibility and scalability.\n\n8. **Raiser\u2019s Edge NXT**: A product from Blackbaud, Raiser\u2019s Edge NXT, offers advanced fundraising and analytics tools suitable for larger organizations with more complex needs.\n\nWhen selecting a CRM, consider assessing the specific needs of your organization, such as ease of use, cost, specific features like advocacy tools or integrations, and scalability. It may also be beneficial to take advantage of free trials or demos offered by these providers to gain a better understanding of their capabilities.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 449,
+  "estimated_cost_usd": 0.004522,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

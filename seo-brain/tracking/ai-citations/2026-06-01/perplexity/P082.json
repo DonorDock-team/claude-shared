@@ -1,0 +1,37 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "perplexity",
+  "timestamp": "2026-06-01T13:25:21.502194+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For most hospitals and health systems, the best donor CRM options are **healthcare-focused platforms** like Virtuous and DonorPerfect, followed by strong general nonprofit CRMs such as Bloomerang, Blackbaud Raiser\u2019s Edge NXT, Neon CRM, and Salesforce Nonprofit Cloud.[3][4][5][6][7]  \n\nBelow is a concise, hospital-specific view so you can narrow quickly.\n\n---\n\n### 1. CRMs built specifically for healthcare/hospital fundraising\n\n**Virtuous (Healthcare Foundations solution)**  \n- Designed explicitly for **healthcare foundations** and **grateful patient programs**.[4]  \n- Features:  \n  - Patient-giving pages and journeys tailored to hospital workflows.[4]  \n  - AI-driven donor insights and segmentation to identify grateful patients and major gift prospects.[4]  \n  - Marketing automation (email, SMS, workflows) tied to donor behavior.[4]  \n- Best for: Mid\u2011to\u2011large hospital foundations aiming to scale grateful patient fundraising, with modern automation and analytics.\n\n**DonorPerfect**  \n- A top nonprofit CRM with a strong footprint in **healthcare nonprofits and hospital foundations**.[6][7]  \n- Features:  \n  - Central donor profiles, gift tracking, moves management, grants, and events.[6]  \n  - Integrations for online giving, email, receipts, and reporting.[6]  \n  - Healthcare-focused use cases: one source reports healthcare nonprofits using DonorPerfect raised **171% more funds in 3 years** after implementation (vendor claim, but widely cited).[7]  \n- Best for: Small to mid\u2011sized hospital foundations wanting a mature, donor-centric CRM with extensive nonprofit features and healthcare references.\n\n---\n\n### 2. Leading general nonprofit CRMs suitable for hospitals\n\nThese are not healthcare\u2011exclusive, but are widely used by large nonprofits and can work very well in hospital contexts, especially if you have internal IT support or a partner to configure them.\n\n**Blackbaud Raiser\u2019s Edge NXT** (noted in several nonprofit CRM roundups)[3][5]  \n- Long\u2011standing leader for large nonprofits, universities, and hospital foundations.[3][5]  \n- Strengths: robust major-gifts and campaigns, complex reporting, and integrations with hospital and finance systems (via partners or APIs).  \n- Best for: Large hospital systems with complex gift accounting, multiple entities, and sophisticated advancement teams.\n\n**Bloomerang**  \n- Frequently ranked as a top **donor management CRM** for nonprofits.[1][3][5]  \n- Features:  \n  - Easy-to-use donor database, strong retention and engagement tracking, email, events, and online giving.[5]  \n  - Focus on donor retention metrics and simple, visual dashboards.[5]  \n- Best for: Community hospitals or smaller health systems that want a **simple, user-friendly** donor CRM without heavy IT overhead.\n\n**Neon CRM, Kindful, Salsa, etc.**  \n- These appear in many \u201cbest nonprofit CRM\u201d lists as modern, cloud-based platforms with online giving, events, and communications baked in.[1][2][3][5][8]  \n- Best for: Mid\u2011sized organizations that need strong online fundraising and marketing but do not require deeply specialized healthcare features.\n\n**Salesforce Nonprofit Cloud (Nonprofit Success Pack)**  \n- Often listed among top nonprofit CRMs, particularly for organizations needing **high customization and integrations**.[3][8]  \n- Pros:  \n  - Very flexible data model, strong reporting and automation (Flows), and ecosystem of apps and consultants.  \n  - Can integrate with EMR/ERP systems via middleware if you have IT resources.  \n- Cons: Requires more implementation effort and ongoing admin than a turnkey nonprofit CRM.  \n- Best for: Large health systems with strong IT/CRM teams or a budget for a Salesforce implementation partner.\n\n---\n\n### 3. How to choose \u201cbest\u201d for your hospital (key criteria)\n\nWhen evaluating donor CRMs for a hospital, focus on:\n\n- **Grateful patient fundraising support**  \n  - Ability to handle patient lists compliantly, import from EMR/registration systems, and segment by service lines or physicians.[4][7]  \n  - Automation of follow\u2011ups after discharge or major procedures.\n\n- **Compliance & security**  \n  - HIPAA-aware workflows and clear data boundaries between clinical and fundraising data (even if full HIPAA compliance is not strictly required for all donor data, hospitals must be especially cautious).  \n  - Audit trails, role-based permissions, and secure integrations.\n\n- **Major gifts & planned giving tools**  \n  - Moves management, contact reports, pipelines, and prospect research fields.[3][5][6]  \n\n- **Online and omnichannel fundraising**  \n  - Native online giving pages, peer-to-peer campaigns, events, email/SMS campaigns.[2][5][8]  \n\n- **Reporting that finance trusts**  \n  - Pledge, soft credit, tribute/honor gifts, campaign and fund-level reporting compatible with your finance/GL structure.[6][7]  \n\n- **Integrations**  \n  - Ability to connect with:  \n    - EMR or patient systems (typically via secure export/middleware).  \n    - Email platforms and marketing tools.  \n    - Accounting systems.\n\n---\n\n### 4. Practical recommendations by hospital size\n\n- **Small hospital / local hospital foundation (few FTEs in development):**  \n  - Consider **Bloomerang** or **DonorPerfect** for ease of use, lower complexity, and strong donor management features.[5][6][7]  \n\n- **Mid\u2011sized hospital or regional health system:**  \n  - **Virtuous (Healthcare Foundations)** or **DonorPerfect** if you want grateful patient focus with modern automation.[4][6][7]  \n  - **Neon CRM** / **Kindful** if your priority is online giving and digital campaigns over deep healthcare specialization.[1][2][3]  \n\n- **Large health system / academic medical center:**  \n  - **Blackbaud Raiser\u2019s Edge NXT** or **Salesforce Nonprofit Cloud** for complex gift accounting, enterprise integrations, and robust major gift management.[3][5][8]  \n  - **Virtuous** as a modern alternative if you want strong automation and healthcare-specific tooling and are okay with a newer ecosystem.[4]  \n\n---\n\nIf you share your hospital\u2019s approximate size (beds or annual fundraising) and main priorities (grateful patient vs major gifts vs digital fundraising), I can narrow this to a short, tailored shortlist with pros/cons for your exact context.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 1376,
+  "estimated_cost_usd": 0.025658,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://virtuous.org/solutions-healthcare/",
+      "https://bloomerang.com/blog/donor-management-software",
+      "https://www.donorperfect.com",
+      "https://blog.charityengine.net/fundraising-software-healthcare-nonprofits",
+      "https://onlinedegrees.sandiego.edu/donor-management-software/"
+    ]
+  }
+}

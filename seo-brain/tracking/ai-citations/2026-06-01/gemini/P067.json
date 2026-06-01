@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502539+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor relationships effectively across a team is crucial for maintaining strong relationships, avoiding duplication of effort, and ensuring a consistent, positive donor experience. The key is to implement a **centralized system** combined with clear protocols.\n\nHere's a comprehensive approach:\n\n## 1. Implement a Centralized Donor Relationship Management (DRM) System\n\nThis is the most critical step. A **Constituent Relationship Management (CRM) system** designed for nonprofits (or adaptable for them) provides a single source of truth for all donor interactions and data.\n\n**Key Features to Look For in a DRM/CRM:**\n\n*   **Comprehensive Donor Profiles:**\n    *   Contact information (phone, email, address)\n    *   Personal details (birthdays, anniversaries, spouse/family info)\n    *   Employer/company details\n    *   Interests and preferences (programs they care about, communication methods)\n    *   Wealth screening data (if applicable, for major gifts)\n*   **Interaction Logs:**\n    *   **Date and Time:** When the interaction occurred.\n    *   **Type of Interaction:** Phone call, email, meeting, event attendance, mailing sent, social media engagement, thank you letter.\n    *   **Person Involved (Team Member):** Who on your team interacted.\n    *   **Summary/Notes:** Key takeaways from the interaction.\n    *   **Outcome:** Was there a clear result? (e.g., agreed to meeting, declined, expressed interest in X program).\n    *   **Next Steps/Tasks:** Action items created from the interaction (e.g., \"Send follow-up email,\" \"Schedule call for Q3\").\n*   **Donation History:**\n    *   All gifts (date, amount, type, designation, campaign)\n    *   Pledge commitments and payment schedules\n    *   Recurring gift details\n    *   Soft credits (gifts made by others in honor of/influenced by a donor)\n*   **Relationship Management:**\n    *   **Assigned Relationship Manager (RM):** Clearly designate one primary team member responsible for cultivating each major donor.\n    *   **Connections:** Link donors to other contacts (family, board members, volunteers, corporate partners).\n    *   **Communication Preferences:** Opt-in/out for specific channels or types of communication.\n*   **Tasks & Workflow Management:**\n    *   Assign tasks to specific team members with deadlines.\n    *   Create automated reminders for follow-ups.\n    *   Develop pipelines for different donor types (e.g., major gifts, corporate sponsorships).\n*   **Reporting & Analytics:**\n    *   Dashboards to see team activity, donor engagement, and fundraising progress.\n    *   Ability to segment donors for targeted communications.\n    *   Track key performance indicators (KPIs) related to donor retention, upgrades, etc.\n\n**Popular DRM/CRM Options for Nonprofits:**\n\n*   **Salesforce NPSP (Nonprofit Success Pack):** Highly customizable, robust, but can have a steep learning curve and be costly for smaller organizations.\n*   **Blackbaud (Raiser's Edge NXT, eTapestry, Luminate CRM):** Industry giants, offer various solutions for different scales.\n*   **NeonOne (NeonCRM):** All-in-one solution for fundraising, events, memberships.\n*   **Bloomerang:** User-friendly, focused on donor retention and engagement.\n",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Raiser's Edge",
+    "Salesforce NPSP",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 725,
+  "estimated_cost_usd": 0.001815,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

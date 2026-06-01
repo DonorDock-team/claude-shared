@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502547+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "That's a great question, as many nonprofits need the power and flexibility of a platform like Salesforce but tailored to their specific needs.\n\nSalesforce itself has a dedicated offering for nonprofits called **Salesforce Nonprofit Cloud** (formerly Salesforce.org and built on the Nonprofit Success Pack - NPSP). In many cases, this *is* the most similar option because it *is* Salesforce, configured and extended for the nonprofit sector. It leverages the same powerful platform, customization options, and vast app ecosystem.\n\nHowever, if you're looking for other comprehensive CRM platforms that offer similar breadth, depth, and flexibility to Salesforce, but specifically for nonprofits, here are the top contenders:\n\n1.  **Blackbaud (e.g., Raiser's Edge NXT, Blackbaud CRM):**\n    *   **Why it's similar:** Blackbaud is the largest and most established player in nonprofit technology, much like Salesforce is in the commercial space. Their flagship products like Raiser's Edge NXT are robust, comprehensive, and cover a wide range of nonprofit functions from fundraising and donor management to marketing, events, and grant management. Blackbaud CRM is their enterprise-level solution for very large organizations, offering immense customization and integration capabilities.\n    *   **Key Features:** Donor management, fundraising campaigns, grant tracking, event management, volunteer management, accounting integrations, reporting and analytics.\n    *   **Considerations:** Can be complex and has a significant learning curve, and pricing can be substantial, especially for Raiser's Edge NXT or Blackbaud CRM.\n\n2.  **Microsoft Dynamics 365 for Nonprofits:**\n    *   **Why it's similar:** If Salesforce is a powerful, customizable platform, then Microsoft Dynamics 365 is its direct competitor from Microsoft. It offers similar levels of customization, integration capabilities (especially within the Microsoft ecosystem like Office 365), and scalability. Many partners have built specific nonprofit solutions on top of the Dynamics platform.\n    *   **Key Features:** Donor and constituent relationship management, fundraising, marketing, program management, volunteer management, case management, financial management (through integration).\n    *   **Considerations:** Like Salesforce, it's a powerful platform that often requires expertise for implementation and customization. Best suited for organizations already invested in Microsoft technologies.\n\n3.  **Neon CRM (formerly Neon One):**\n    *   **Why it's similar:** While perhaps not as deeply customizable at the platform level as Salesforce or Dynamics, Neon CRM offers a very comprehensive, all-in-one solution that covers many of the same functionalities a nonprofit would use Salesforce for. It's known for being robust and offering a wide range of integrated tools.\n    *   **Key Features:** Donor management, fundraising, event registration, membership management, volunteer management, peer-to-peer fundraising, grant management, reporting, website integration.\n    *   **Considerations:** Strong all-in-one solution, often praised for ease of use compared to the sheer complexity of Salesforce or Blackbaud, but might have limitations for highly unique customization needs.\n\n4.  **DonorPerfect:**\n    *   **Why it's similar:** DonorPerfect is a long-standing and very popular CRM for nonprofits, known for its extensive fundraising and donor management capabilities. It's comprehensive and offers a wide array of features that often require multiple apps or extensive configuration in other systems.\n    *   **Key Features:** Donor management, fundraising campaigns, online fundraising forms, event management, reporting, integrated email and direct mail tools, volunteer management, accounting integrations.\n    *   **Considerations:** Very strong in",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "DonorPerfect",
+    "Neon CRM",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 752,
+  "estimated_cost_usd": 0.001883,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

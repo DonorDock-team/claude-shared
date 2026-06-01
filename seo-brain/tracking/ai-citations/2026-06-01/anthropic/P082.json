@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502160+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Hospitals\n\nHere are the top CRM platforms designed for healthcare fundraising:\n\n## **Top Recommendations**\n\n### **1. Blackbaud Raiser's Edge NXT**\n- **Best for:** Large hospital systems\n- Industry standard for healthcare nonprofits\n- Robust reporting and analytics\n- Integration with wealth screening tools\n- Higher cost but comprehensive features\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Hospitals wanting customization\n- Highly customizable for healthcare needs\n- Strong integration capabilities (EHR systems possible)\n- Scalable from small to large organizations\n- Requires implementation expertise\n\n### **3. Bloomerang**\n- **Best for:** Mid-size hospitals and healthcare foundations\n- User-friendly interface\n- Strong donor retention focus\n- Excellent engagement metrics\n- More affordable than enterprise options\n\n### **4. NeonCRM**\n- **Best for:** Small to mid-size healthcare nonprofits\n- All-in-one fundraising platform\n- Good membership management\n- Event management included\n- Reasonable pricing\n\n### **5. DonorPerfect**\n- **Best for:** Healthcare organizations needing reliability\n- HIPAA-compliant options available\n- Strong donor communication tools\n- Established track record in healthcare\n- Good support and training\n\n## **Key Features to Look For:**\n- HIPAA compliance capabilities\n- Grateful patient program management\n- Planned giving tracking\n- Integration with foundation databases\n- Event management for galas/walks\n- Grant management\n\n**What's your hospital size and primary fundraising focus?** That will help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 372,
+  "estimated_cost_usd": 0.005619,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

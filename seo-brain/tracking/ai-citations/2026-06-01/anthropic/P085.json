@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P085",
+  "prompt_text": "Best donor CRM for advocacy organizations",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502492+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Advocacy Organizations\n\nHere are the top options tailored for advocacy groups that need integrated fundraising, organizing, and campaign tools:\n\n## **Top Recommendations**\n\n### **1. EveryAction (NGP VAN)**\n- **Best for:** Progressive advocacy organizations\n- **Strengths:** Combines donor management, volunteer organizing, email campaigns, and advocacy tools in one platform\n- **Pricing:** Custom (typically $3,000+/year)\n- **Note:** Industry standard for political/progressive organizations\n\n### **2. Action Network**\n- **Best for:** Grassroots organizing with fundraising\n- **Strengths:** Free tier available, easy petitions/events, good for coalitions\n- **Pricing:** Free - $100+/month based on list size\n- **Note:** Very user-friendly for smaller groups\n\n### **3. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations needing customization\n- **Strengths:** Highly customizable, integrates advocacy tools via apps\n- **Pricing:** 10 free licenses, then ~$36/user/month\n- **Note:** Steeper learning curve but powerful\n\n### **4. NationBuilder**\n- **Best for:** Organizations prioritizing community building\n- **Strengths:** Website + CRM + advocacy in one, strong supporter tracking\n- **Pricing:** $29-149+/month\n\n### **5. Bloomerang**\n- **Best for:** Small-to-midsize nonprofits focused on donor retention\n- **Strengths:** Excellent reporting, retention focus, good support\n- **Pricing:** $125-500+/month\n\n## **Key Selection Factors**\n- Organization size and budget\n- Integration with advocacy tools (petitions, email, SMS)\n- Volunteer management needs\n- Technical capacity of your team\n\nWhat's your organization's size and primary focus? That would help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 439,
+  "estimated_cost_usd": 0.006627,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

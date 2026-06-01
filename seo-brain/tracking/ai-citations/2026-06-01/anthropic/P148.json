@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P148",
+  "prompt_text": "Donor management vs CRM what's the difference",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.503030+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor Management vs CRM: Key Differences\n\n## **Donor Management Software**\nPurpose-built specifically for nonprofits and fundraising organizations.\n\n**Key Features:**\n- Donation tracking and receipting\n- Donor cultivation and stewardship tools\n- Grant management\n- Pledge tracking\n- Campaign management\n- Nonprofit-specific reporting (e.g., donor retention, lifetime value)\n- Tax receipt generation\n- Built-in fundraising best practices\n\n**Examples:** Bloomerang, DonorPerfect, Raiser's Edge\n\n## **CRM (Customer Relationship Management)**\nGeneral business software designed to manage any customer/client relationships.\n\n**Key Features:**\n- Contact management\n- Sales pipeline tracking\n- Marketing automation\n- Customer service tools\n- General reporting and analytics\n- Email integration\n- Task management\n\n**Examples:** Salesforce, HubSpot, Microsoft Dynamics\n\n## **The Bottom Line**\n\n**Donor Management = CRM + Nonprofit-Specific Features**\n\nMany donor management systems are essentially CRMs customized for nonprofit needs. Some organizations use general CRMs (like Salesforce Nonprofit Cloud) and configure them for fundraising, while others prefer dedicated donor management platforms with built-in nonprofit functionality.\n\n**Which to choose?** \n- Small nonprofits \u2192 Dedicated donor management software (easier to use)\n- Large organizations with complex needs \u2192 Enterprise CRM with nonprofit configuration",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 317,
+  "estimated_cost_usd": 0.004806,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502491+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Tracking Donor Relationships Across a Team\n\n## 1. **Use a Centralized CRM System**\n\n**Top options for nonprofits:**\n- **Bloomerang** - Built for donor retention\n- **Salesforce Nonprofit Cloud** - Highly customizable\n- **DonorPerfect** - User-friendly\n- **Little Green Light** - Great for small teams\n- **NeonCRM** - Affordable, solid features\n\n**Key features to use:**\n- Contact notes and interaction history\n- Task assignments and reminders\n- Custom fields for relationship stages\n- Email integration\n- Reporting dashboards\n\n## 2. **Establish Clear Processes**\n\n**Create documentation for:**\n- When to log interactions (ideally within 24 hours)\n- What information to capture (date, method, summary, next steps)\n- Who \"owns\" each donor relationship\n- Handoff procedures when staff transitions occur\n- Privacy and confidentiality protocols\n\n## 3. **Implement Regular Communication Rhythms**\n\n- **Weekly team huddles** - Quick updates on major donor contacts\n- **Monthly donor reviews** - Deep dive on key relationships\n- **Shared calendar** - Mark donor meetings, calls, and events\n- **Email protocols** - CC team members or forward key communications\n\n## 4. **Use Contact Notes Effectively**\n\n**Structure notes with:**\n- Date and type of contact\n- Who participated\n- Key discussion points\n- Donor interests/concerns\n- Action items and follow-ups\n- Personal details (family, hobbies, preferences)\n\n## 5. **Define Relationship Ownership**\n\n- Assign primary and secondary contacts for each donor\n- Create tiered responsibility (board, major gifts officer, program staff)\n- Establish clear escalation paths\n- Document relationship \"hand-raising\" for cross-team coordination\n\n## 6. **Create Dashboards & Reports**\n\n**Track metrics like:**\n- Last contact date\n- Interaction frequency\n- Relationship stage/pipeline status\n- Outstanding tasks\n- Giving history and trends\n\n## 7. **Low-Tech Backup Options**\n\nIf a full CRM isn't feasible:\n- **Shared Google Sheet/Airtable** with standardized columns\n- **Shared Drive folder** with donor files\n- **Slack/Teams channel** for quick updates\n- **Regular email summaries** to the team\n\n## 8. **Don't Forget the Human Element**\n\n- Schedule regular check-ins about relationship health\n- Celebrate wins together\n- Encourage cross-training\n- Create a culture of documentation (not just hoarding knowledge)\n\n**The goal:** Any team member should be able to pick up a relationship and know the full history within minutes.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 613,
+  "estimated_cost_usd": 0.00924,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

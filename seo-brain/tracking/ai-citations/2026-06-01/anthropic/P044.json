@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P044",
+  "prompt_text": "Best donor CRM for food banks",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502034+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Food Banks\n\nHere are the top options tailored for food banks' unique needs:\n\n## **1. Bloomerang**\n- **Best for:** Small to mid-sized food banks\n- **Strengths:** User-friendly, excellent donor retention tools, affordable\n- **Pricing:** Starting around $125/month\n- **Key features:** Donor engagement scoring, automated thank-you emails, reporting\n\n## **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger food banks with complex needs\n- **Strengths:** Highly customizable, robust reporting, integrates with everything\n- **Pricing:** Free for up to 10 users (Power of Us program), then scales up\n- **Key features:** Volunteer management, grant tracking, program management\n\n## **3. DonorPerfect**\n- **Best for:** Food banks wanting all-in-one functionality\n- **Strengths:** Built specifically for nonprofits, strong support\n- **Pricing:** Starting around $89/month\n- **Key features:** Online giving integration, donor communications, event management\n\n## **4. Little Green Light**\n- **Best for:** Budget-conscious smaller organizations\n- **Strengths:** Affordable, straightforward, good reporting\n- **Pricing:** Starting around $45/month\n- **Key features:** Gift tracking, email marketing, custom fields\n\n## **Key Considerations for Food Banks:**\n- Integration with food distribution software (Link2Feed, Oasis, etc.)\n- Volunteer management capabilities\n- In-kind donation tracking (beyond just monetary gifts)\n- Grant management features\n- Budget and staff technical capacity\n\n**Recommendation:** Start with **Bloomerang** or **Little Green Light** for ease of use and affordability, or **Salesforce** if you have tech resources and need extensive customization.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 414,
+  "estimated_cost_usd": 0.006252,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

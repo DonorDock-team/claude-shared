@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502135+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Givebutter are both powerful platforms for nonprofits, but they serve different primary functions and cater to somewhat different needs. Think of it like comparing a general-purpose truck (Givebutter) to a specialized cargo management system (DonorDock) \u2013 both deal with \"moving things,\" but in different ways and with different levels of detail.\n\nHere's a detailed comparison:\n\n---\n\n## DonorDock\n\n**Primary Focus:** A comprehensive **donor management system (CRM)** designed to help nonprofits track, cultivate, and engage with their donors effectively over the long term. Its core strength lies in managing donor data, communications, and relationships.\n\n**Key Features:**\n\n*   **Robust Donor CRM:** Detailed donor profiles, gift history, communication logs, pledge tracking, grant management, volunteer tracking.\n*   **Segmentation & Querying:** Advanced tools to segment your donor base for targeted appeals and communications.\n*   **Communication Tools:** Built-in email functionality, merge tags, ability to track physical mail.\n*   **Online Giving Pages:** Customizable forms for accepting one-time and recurring donations.\n*   **Gift & Pledge Management:** Efficiently record and track all financial contributions.\n*   **Reporting & Analytics:** Powerful, customizable reports on fundraising performance, donor retention, campaign effectiveness, etc.\n*   **Integrations:** Connects with payment processors (Stripe, PayPal), QuickBooks, Mailchimp, Constant Contact, and Zapier for broader connectivity.\n*   **Automation:** Automate tasks like donor acknowledgments.\n\n**Target Audience:**\n\n*   Nonprofits that are serious about **donor stewardship and long-term relationship building.**\n*   Organizations that need a **centralized, robust database** to track all donor interactions.\n*   Nonprofits that need **advanced segmentation and reporting** capabilities.\n*   Growing organizations looking to move beyond spreadsheets or basic contact managers.\n\n**Pricing Model:** Subscription",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 394,
+  "estimated_cost_usd": 0.000986,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

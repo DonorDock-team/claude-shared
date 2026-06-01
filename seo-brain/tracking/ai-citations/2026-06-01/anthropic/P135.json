@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P135",
+  "prompt_text": "Why nonprofits leave DonorPerfect",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502105+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Reasons Nonprofits Leave DonorPerfect\n\nBased on user feedback and reviews, here are the main reasons organizations switch away from DonorPerfect:\n\n## **Cost Concerns**\n- **Price increases** over time, especially as database grows\n- **Add-on fees** for features that competitors include as standard\n- Better value found with competitors for similar functionality\n\n## **User Interface Issues**\n- **Outdated, non-intuitive interface** that feels clunky\n- Steep learning curve for staff\n- Not as modern or user-friendly as newer platforms\n- Difficult navigation and workflow\n\n## **Reporting Limitations**\n- **Inflexible reporting tools** that require workarounds\n- Difficulty creating custom reports without technical expertise\n- Reports don't always pull data as expected\n- Limited visualization options\n\n## **Technical Challenges**\n- **Customer support issues** - slow response times or unhelpful solutions\n- Integration problems with other tools\n- System can be slow or experience glitches\n- Database structure feels rigid and hard to customize\n\n## **Growing Out of the System**\n- Organization's needs become too complex\n- Need more sophisticated fundraising tools\n- Require better donor engagement features\n- Want more robust online giving capabilities\n\n## **Migration to Modern Alternatives**\nMany switch to platforms like:\n- **Bloomerang** (better UI, donor retention focus)\n- **Salesforce Nonprofit Cloud** (more powerful, scalable)\n- **NeonCRM** (more modern interface)\n- **Little Green Light** (simpler, more affordable)\n\n## **When DonorPerfect Still Works Well**\nIt's worth noting many organizations stay satisfied if they:\n- Have simpler needs\n- Invested heavily in training\n- Use it primarily for basic donor management\n\nWould you like recommendations for alternatives based on specific needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 415,
+  "estimated_cost_usd": 0.006279,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

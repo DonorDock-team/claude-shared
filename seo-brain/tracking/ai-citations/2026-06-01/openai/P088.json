@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P088",
+  "prompt_text": "Best donor CRM for food security organizations",
+  "engine": "openai",
+  "timestamp": "2026-06-01T13:25:21.502690+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When selecting a donor CRM (Customer Relationship Management) system for food security organizations, it's crucial to choose a solution that meets the specific needs of nonprofit operations, including managing donations, grants, volunteers, and constituents. While there are many CRM systems available, here are some of the most recommended ones tailored for nonprofit organizations, including those focusing on food security:\n\n1. **Salesforce Nonprofit Success Pack (NPSP)**:\n   - **Pros**: Highly customizable, extensive support for nonprofits, strong ecosystem with numerous integrations, powerful reporting and analytics.\n   - **Cons**: Can be complex to set up and manage without technical expertise, might require additional cost for certain customizations.\n\n2. **Bloomerang**:\n   - **Pros**: User-friendly interface, strong focus on donor retention features, good customer support, easy to implement.\n   - **Cons**: May lack some advanced customization options, targeted primarily at small to mid-sized nonprofits.\n\n3. **Blackbaud Raiser\u2019s Edge NXT**:\n   - **Pros**: Comprehensive donor management features, well-established in the nonprofit sector, good support for complex fundraising strategies.\n   - **Cons**: Can be expensive, might require a dedicated team to manage effectively.\n\n4. **Neon CRM**:\n   - **Pros**: Integrated platform covering donations, memberships, events, and communications; scalable for growing organizations.\n   - **Cons**: Some users may find the interface less intuitive, potential learning curve for newcomers.\n\n5. **DonorPerfect**:\n   - **Pros**: Versatile and highly customizable, good support for donor management and fundraising events, strong reporting features.\n   - **Cons**: UI might be considered outdated by some users, pricing structure might be complex.\n\n6. **Kindful**:\n   - **Pros**: Excellent integration capabilities, user-friendly design, robust donor management features focused on engagement.\n   - **Cons**: Some limitations in automation and advanced features compared to larger systems.\n\n7. **Little Green Light**:\n   - **Pros**: Affordable and straightforward, strong in basic reporting and donor management, cloud-based and easy to use.\n   - **Cons**: Limited in advanced CRM functionality, best for smaller organizations.\n\n8. **Virtuous CRM**:\n   - **Pros**: Focuses heavily on increasing donor engagement and relationships, offers comprehensive donor data insights and predictive analytics.\n   - **Cons**: Newer on the market, so it may not have the depth of features as more established platforms.\n\nWhen choosing the best CRM for a food security organization, consider factors like budget, technical capacity, the size of your donor base, and the specific features you need (e.g., volunteer management, event fundraising, reporting). Additionally, many of these providers offer free trials or demos, allowing you to test out the features before committing.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 577,
+  "estimated_cost_usd": 0.005805,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

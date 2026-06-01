@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P097",
+  "prompt_text": "Hidden costs of Network for Good",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.501981+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Network for Good\n\nNetwork for Good is a popular fundraising platform for nonprofits, but several hidden or less obvious costs can add up:\n\n## Transaction & Processing Fees\n\n**Layered Fee Structure:**\n- **Platform fee**: 3% of donations\n- **Credit card processing**: 2.2% + $0.30 per transaction\n- **Total**: ~5.2% + $0.30 per transaction (higher than advertised)\n- ACH/bank transfers have lower fees but aren't always default\n\n## Subscription Costs\n\n- Monthly platform fees ($99-$179+) for donor management features\n- Higher tiers required for essential features like custom branding\n- Costs scale with organization size and needs\n\n## Donor-Covered Fee Issues\n\n- When donors \"cover fees,\" there may still be processing costs on that additional amount\n- Not all donors opt to cover fees, leaving you with the full cost\n\n## Disbursement Delays\n\n- Funds typically disbursed monthly (not immediately)\n- Can create cash flow issues for time-sensitive needs\n- Early disbursement may incur additional fees\n\n## Data & Donor Limitations\n\n- **Donor data access** may be limited compared to self-hosted solutions\n- Difficulty exporting complete donor history if you leave\n- Limited integration with some CRM systems\n\n## Additional Hidden Costs\n\n- **Customer support**: Premium support may cost extra\n- **Training time**: Staff learning curve\n- **Customization limits**: May need additional tools for advanced functionality\n- **Recurring donation fees**: Same percentage applies monthly (compounds over time)\n\n## Best Practices\n\n- Calculate total effective cost (all fees combined)\n- Compare with alternatives like Donorbox, Givebutter, or Stripe-based solutions\n- Consider long-term data portability needs\n\nWould you like comparisons with specific alternative platforms?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 417,
+  "estimated_cost_usd": 0.006294,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

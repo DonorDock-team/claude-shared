@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P095",
+  "prompt_text": "Hidden costs of DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.503126+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorPerfect, like most comprehensive CRM and fundraising platforms, has a transparent base subscription cost. However, many organizations overlook or underestimate the \"hidden\" or less obvious costs that can accumulate over time. These aren't necessarily deceptive, but rather common aspects of implementing and maintaining a complex software system.\n\nHere are some of the hidden costs associated with DonorPerfect:\n\n1.  **Tiered Pricing & Upgrades:**\n    *   **Contact/Record Limits:** The base subscription often has a limit on the number of constituent records. As your database grows, you'll need to upgrade to a higher, more expensive tier.\n    *   **User Limits:** Similarly, the number of users (staff members accessing the system) is often tiered. Adding more staff means increasing your monthly subscription.\n    *   **Feature Modules:** While many features are standard, specific advanced modules (e.g., advanced event management, grant management, peer-to-peer fundraising, enhanced online forms) might be add-ons with their own separate fees.\n\n2.  **Payment Processing Fees:**\n    *   This is a crucial one. While DonorPerfect itself doesn't charge for *processing* donations, you will pay transaction fees to the payment processor (whether it's DonorPerfect Payment Services (DPPS) or an integrated third-party like Stripe, Authorize.net, or PayPal). These typically include:\n        *   A percentage of the transaction amount.\n        *   A per-transaction fee.\n        *   Potential monthly gateway fees if using a separate gateway.\n    *   These fees are often overlooked when budgeting for the software itself, but they are a significant operational cost.\n\n3.  **Add-on Integrations & Third-Party Tools:**\n    *   DonorPerfect integrates with many other platforms, but those integrations often come with their own subscription costs. Examples include:\n        *   **Email Marketing:** While DP has basic email, many organizations integrate with Mailchimp, Constant Contact, or other advanced marketing platforms.\n        *   **Wealth Screening/Prospect Research:** Services like Wealth Engine, DonorSearch, etc., require separate subscriptions.\n        *   **Accounting Software:** While data can be exported, direct integrations (if available) might cost extra, or you might pay for middleware.\n        *   **Advanced Online Fundraising/Peer-to-Peer:** While DP has its own tools, some organizations use specialized platforms that integrate.\n        *   **Text-to-Give/Mobile Giving:** Often a separate service.\n\n4.  **Implementation, Data Migration & Setup:**\n    *   **Your Staff's Time:** This is perhaps the biggest hidden cost. Migrating data from an old system, cleaning it, mapping fields, and configuring DonorPerfect to your specific workflows requires significant staff hours. If staff are paid, this is a direct cost; if not, it's an opportunity cost (time not spent on other tasks).\n    *   **",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 616,
+  "estimated_cost_usd": 0.001541,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P120",
+  "prompt_text": "AI for nonprofit grant writing",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502431+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# AI Tools for Nonprofit Grant Writing\n\nAI can significantly help nonprofits with grant writing. Here's what you need to know:\n\n## **Best AI Tools for Grant Writing**\n\n### **General Purpose AI**\n- **ChatGPT** - Draft proposals, edit content, brainstorm ideas\n- **Claude** - Long-form writing, research synthesis\n- **Gemini** - Free option from Google\n\n### **Grant-Specific AI Tools**\n- **Grantable** - AI specifically for grant writing\n- **GrantAI** - Automated grant matching and writing assistance\n- **Instrumentl** - Grant discovery with AI-powered matching\n- **Proposify** - Proposal templates and automation\n\n## **How AI Can Help**\n\n1. **First Drafts** - Quickly generate initial proposal text\n2. **Research** - Summarize background information and statistics\n3. **Editing** - Improve clarity, grammar, and tone\n4. **Customization** - Adapt proposals for different funders\n5. **Needs Statements** - Articulate community problems clearly\n6. **Budget Narratives** - Explain budget line items\n\n## **Best Practices**\n\n\u2705 **DO:**\n- Use AI as a starting point, not the final product\n- Verify all facts and statistics independently\n- Personalize with your organization's authentic voice\n- Have humans review everything before submission\n\n\u274c **DON'T:**\n- Submit AI-generated content without editing\n- Include fabricated data or citations\n- Lose your organization's unique story\n\n## **Sample Prompt**\n\n*\"Draft a 250-word needs statement for a literacy program serving low-income elementary students in [city]. Include the importance of early reading skills and local statistics.\"*\n\nWould you like help with a specific grant writing task?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 408,
+  "estimated_cost_usd": 0.006156,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

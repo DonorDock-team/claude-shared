@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P055",
+  "prompt_text": "Best CRM for a 2 person fundraising team",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502889+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For a 2-person fundraising team, you need a CRM that is **affordable, easy to use, and specifically designed for fundraising**, rather than a general sales CRM. You won't have the time or resources for extensive customization or training on overly complex systems.\n\nHere are the top recommendations, categorized by their strengths:\n\n---\n\n### Top Recommendations for a 2-Person Fundraising Team\n\n**1. Bloomerang**\n*   **Why it's great for you:** Often considered the gold standard for small to medium non-profits.\n    *   **Ease of Use:** Extremely user-friendly interface, intuitive for anyone new to CRMs.\n    *   **Fundraising Focus:** Built from the ground up for donor management, retention, and engagement. It speaks \"fundraising language.\"\n    *   **Donor Retention Focus:** Strong analytics and tools specifically designed to help you improve donor retention rates, which is crucial for small teams.\n    *   **Communication Tools:** Good for segmenting donors and sending targeted communications.\n    *   **Affordable:** Tiered pricing that scales well for smaller organizations, often starting at a very reasonable monthly fee for fewer constituents.\n*   **Potential Cons:** While excellent, if you have *extremely* complex event management needs or highly customized reporting requirements, you might eventually need more advanced tools (but unlikely for a 2-person team).\n*   **Best for:** Teams prioritizing ease of use, donor retention, and straightforward fundraising management.\n\n**2. Little Green Light (LGL)**\n*   **Why it's great for you:** Incredible value for its price, packed with features.\n    *   **Affordability:** One of the most budget-friendly options, making it very attractive for small teams.\n    *   **Feature-Rich:** Don't let the price fool you; LGL offers robust donor management, gift tracking, appeals, events, grant management, and volunteer tracking.\n    *   **Customization:** Surprisingly flexible with custom fields and reporting, allowing you to tailor it to your specific needs.\n    *   **Data Migration:** Good support for importing existing data.\n*   **Potential Cons:** The user interface can feel a bit dated compared to Bloomerang or Kindful, and the learning curve might be slightly steeper initially, but it's still manageable.\n*   **Best for:** Teams on a tight budget who need a comprehensive feature set and are comfortable with a slightly less polished interface.\n\n**3. Kindful (by Classy)**\n*   **Why it's great for you:** Modern, clean interface with strong integration capabilities.\n    *   **User Experience:** Very modern and intuitive design, making it pleasant to use.\n    *   **Integrations:** Excellent integration with popular payment processors (Stripe, PayPal), online giving platforms, and accounting software (QuickBooks).\n    *   **Online Fundraising:** Strong capabilities for online donations, peer-to-peer campaigns, and event registration.\n    *   **Reporting:** Clean and easy-to-understand reports.\n*   **Potential Cons:** Can be slightly more expensive than LGL, especially as you add more constituents. Some users might find its focus more on online giving than deep donor engagement strategies (like Bloomerang).\n*   **Best for:** Teams who value a modern interface, strong online fundraising capabilities, and seamless integration",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 704,
+  "estimated_cost_usd": 0.001763,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

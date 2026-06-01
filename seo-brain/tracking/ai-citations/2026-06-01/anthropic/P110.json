@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P110",
+  "prompt_text": "How to segment your donor list",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502909+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Segment Your Donor List\n\nEffective donor segmentation helps you communicate more personally and increase engagement. Here are the key ways to segment:\n\n## **Basic Segmentation Methods**\n\n### 1. **Giving Level**\n- Major donors ($10,000+)\n- Mid-level donors ($1,000-$9,999)\n- Regular donors ($100-$999)\n- Small donors (under $100)\n\n### 2. **Giving Frequency**\n- Monthly/recurring donors\n- Annual donors\n- Multi-year donors\n- Lapsed donors (haven't given in 12-24+ months)\n- First-time donors\n\n### 3. **Recency**\n- Gave in last 3 months\n- Gave in last 6-12 months\n- Gave 12-24 months ago\n- Lapsed (24+ months)\n\n### 4. **Engagement Level**\n- Volunteers\n- Event attendees\n- Email openers/clickers\n- Social media followers\n- Program participants\n\n## **Advanced Segmentation**\n\n- **Demographics**: Age, location, wealth indicators\n- **Donor lifecycle stage**: Prospects, new, loyal, at-risk\n- **Giving motivation**: Mission area, program interest, campaign responses\n- **Communication preferences**: Email, mail, phone, text\n- **Relationship**: Board members, alumni, corporate partners, foundations\n\n## **Getting Started**\n\nStart simple with 3-5 segments based on what data you have. Test different messages with each group and refine over time.\n\nWhat's your current donor database situation?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 363,
+  "estimated_cost_usd": 0.005484,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

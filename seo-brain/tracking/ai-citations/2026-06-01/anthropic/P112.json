@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.503027+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Tracking Soft Credits in Donor CRM\n\nSoft credits acknowledge individuals who facilitated a donation without being the legal donor. Here's how to track them effectively:\n\n## **What Are Soft Credits?**\n\nSoft credits recognize:\n- Spouses/partners of donors\n- Board members who solicited gifts\n- Staff members who secured donations\n- Household members\n- Corporate employees (when company donates)\n\n## **Best Practices for Tracking**\n\n### 1. **Define Your Soft Credit Rules**\n- Document when soft credits apply\n- Establish standard percentages (typically 100% of gift amount)\n- Clarify primary vs. soft credit distinctions\n\n### 2. **Standard Setup in Most CRMs**\n```\nPrimary Donor (Hard Credit) \u2192 John Smith - $1,000\nSoft Credit \u2192 Jane Smith (spouse) - $1,000\nSoft Credit \u2192 Board Member Tom - $1,000\n```\n\n### 3. **Key Fields to Track**\n- Soft credit recipient name\n- Relationship type to donor\n- Credit amount/percentage\n- Role in solicitation\n- Campaign/fund designation\n\n### 4. **Common Soft Credit Scenarios**\n\n| Scenario | Hard Credit | Soft Credit |\n|----------|-------------|-------------|\n| Joint gift | Both spouses equally | Each other |\n| Corporate match | Company | Employee |\n| Solicited gift | Donor | Solicitor |\n| Donor advised fund | DAF | Fund advisors |\n\n## **CRM-Specific Features**\n\nMost major platforms (Salesforce, Raiser's Edge, Bloomerang, etc.) offer:\n- Automatic household soft crediting\n- Custom relationship-based rules\n- Soft credit reporting capabilities\n- Recognition credit tracking\n\n**Pro tip:** Regularly audit soft credits to ensure accurate reporting and proper donor recognition!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 420,
+  "estimated_cost_usd": 0.006348,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

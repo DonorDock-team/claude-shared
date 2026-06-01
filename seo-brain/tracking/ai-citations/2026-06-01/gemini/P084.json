@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P084",
+  "prompt_text": "Best donor CRM for theaters",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502475+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a theater depends heavily on your specific needs, budget, size, and existing ticketing system. The ideal solution often integrates ticketing, donor management, and patron engagement into one cohesive system.\n\nHere are the top contenders, categorized by their approach:\n\n## Top Recommendations for Theaters:\n\n### 1. Unified Arts Management Systems (Ticketing + CRM) - **Often the Best Fit**\n\nThese systems are built from the ground up for arts organizations, understanding that ticket buyers are potential donors and donors are patrons.\n\n*   **PatronManager (Built on Salesforce):**\n    *   **Pros:** Highly customizable, built on the robust Salesforce platform, comprehensive for both ticketing and fundraising, excellent patron segmentation, powerful reporting, great for tracking all interactions (tickets, donations, memberships, volunteers). Designed specifically for arts organizations.\n    *   **Cons:** Can be more complex to set up and manage than simpler systems, requires some Salesforce knowledge or dedicated staff, can be more expensive, especially for smaller organizations.\n    *   **Best for:** Mid-to-large-sized theaters, those needing extreme flexibility and powerful reporting, or those already familiar with Salesforce.\n\n*   **Spektrix:**\n    *   **Pros:** A true unified system for ticketing, marketing, and fundraising. Known for its powerful data analytics, dynamic pricing capabilities, and excellent customer service. Strong focus on data-driven decision-making. Increasingly popular in the US.\n    *   **Cons:** Pricing can be higher than some others, might have a steeper learning curve for advanced features.\n    *   **Best for:** Theaters of all sizes looking for a truly integrated system with a strong emphasis on data, dynamic pricing, and marketing automation.\n\n*   **AudienceView (including OvationTix and Artsman):**\n    *   **Pros:** Comprehensive suite that covers ticketing, fundraising, marketing, and often facility management. Scalable from small to very large organizations. Many different products under the AudienceView umbrella (AV Professional, AV Unlimited, OvationTix, Artsman) so you can find a fit.\n    *   **Cons:** User interface can sometimes feel a bit dated depending on the specific product, implementation can be complex, and some users report less intuitive fundraising modules compared to dedicated CRMs.\n    *   **Best for:** Theaters looking for an all-in-one solution, especially those with complex ticketing needs or multiple venues.\n\n### 2. Dedicated Nonprofit CRMs (with Strong Integration Capabilities)\n\nIf you have a separate, strong ticketing system you love, these CRMs can be excellent fundraising tools that integrate.\n\n*   **Bloomerang:**\n    *   **Pros:** User-friendly interface, excellent donor communication tools (email marketing built-in), strong focus on donor retention, robust reporting. Good integrations with many popular tools (including some ticketing platforms via Zapier or",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 604,
+  "estimated_cost_usd": 0.001512,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

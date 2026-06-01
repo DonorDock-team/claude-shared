@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P119",
+  "prompt_text": "AI to draft donor thank you letters",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502366+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# AI-Powered Donor Thank You Letter Generator\n\nI'll help you create personalized, heartfelt donor thank you letters. Here's how we can approach this:\n\n## What I Need From You\n\nTo draft effective thank you letters, please provide:\n\n1. **Donor Information:**\n   - Donor name\n   - Donation amount\n   - Date of donation\n   - Type of donation (one-time, monthly, in-kind, etc.)\n   - Any previous giving history (new vs. returning donor)\n\n2. **Organization Details:**\n   - Your organization's name\n   - Mission/cause\n   - Specific program/project the donation supports\n   - Recent impact or success stories\n\n3. **Tone Preference:**\n   - Formal or casual\n   - Brief or detailed\n   - Any specific messaging priorities\n\n## Sample Template\n\nHere's a customizable template to get started:\n\n---\n\n**[Date]**\n\nDear [Donor Name],\n\nThank you for your generous gift of [amount] to [Organization Name]. Your support means the world to us and the [community/cause] we serve.\n\n[PERSONALIZED IMPACT PARAGRAPH - specific to donation/program]\n\nThanks to donors like you, we've been able to [recent accomplishment]. Your contribution will help us [specific future goal].\n\nWe're grateful to have you as part of our [organization] family. \n\nWith sincere appreciation,\n\n[Signature]\n[Name, Title]\n\n---\n\n**Would you like me to:**\n- Draft a specific letter with your details?\n- Create multiple templates for different donor segments?\n- Suggest personalization strategies?\n- Provide best practices for donor acknowledgment?\n\nJust share the information and I'll create compelling thank you letters!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 387,
+  "estimated_cost_usd": 0.005847,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

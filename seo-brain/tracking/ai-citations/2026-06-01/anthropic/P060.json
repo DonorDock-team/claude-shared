@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.501122+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM with Recurring Giving\n\nI'll help you understand donor CRMs that support recurring giving programs. Here's what you need to know:\n\n## **Top Donor CRMs with Recurring Giving Features**\n\n### **Best Overall Options**\n\n1. **Bloomerang**\n   - Strong recurring gift management\n   - Automated payment processing\n   - Donor retention focus\n   - Mid-sized nonprofits ($99-399/mo)\n\n2. **Salesforce Nonprofit Cloud**\n   - Highly customizable\n   - Robust recurring donation tracking\n   - Enterprise-level features\n   - Requires more setup/expertise\n\n3. **DonorPerfect**\n   - Built-in recurring gift management\n   - Payment gateway integration\n   - Comprehensive reporting\n   - $89-149/month base pricing\n\n4. **Kindful** (by Bloomerang)\n   - User-friendly interface\n   - Automated recurring donations\n   - Good for small-to-medium orgs\n   - Starting at $100/month\n\n### **Budget-Friendly Options**\n\n- **Little Green Light** - $39-79/mo\n- **Donorbox** - Payment processing with CRM features\n- **Givebutter** - Free platform with CRM capabilities\n\n## **Key Features to Look For**\n\n\u2705 Automated payment processing (credit card, ACH)  \n\u2705 Customizable giving frequencies (monthly, quarterly, annual)  \n\u2705 Failed payment recovery  \n\u2705 Donor communication automation  \n\u2705 Reporting on recurring revenue  \n\u2705 Payment gateway integrations (Stripe, PayPal, etc.)  \n\u2705 Tax receipt generation  \n\n## **What specific features are most important for your organization?**\n\n- Organization size/budget?\n- Current donor database size?\n- Integration needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Givebutter",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 423,
+  "estimated_cost_usd": 0.006387,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

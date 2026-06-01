@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P062",
+  "prompt_text": "Best nonprofit CRM with email and text messaging",
+  "engine": "openai",
+  "timestamp": "2026-06-01T13:25:21.502052+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When choosing a nonprofit CRM that includes email and text messaging capabilities, several options stand out due to their features tailored to the needs of nonprofits. Here are some of the best:\n\n1. **Salesforce Nonprofit Success Pack (NPSP):**\n   - **Overview:** Salesforce is a robust CRM platform with a specific package for nonprofits. It offers comprehensive tools for donor management, campaign management, and constituent engagement.\n   - **Email and Text Messaging:** Integrations with tools like Pardot for email marketing and third-party apps from the Salesforce AppExchange for SMS/text messaging.\n   - **Pros:** Highly customizable, scalable, vast app ecosystem.\n   - **Cons:** Potentially high learning curve and implementation costs.\n\n2. **Bloomerang:**\n   - **Overview:** Designed specifically for nonprofits, Bloomerang focuses on donor retention and engagement strategies.\n   - **Email and Text Messaging:** Built-in email marketing tools and options for text messaging through integrations.\n   - **Pros:** User-friendly interface, excellent customer support, strong donor retention features.\n   - **Cons:** Limited advanced features compared to larger CRMs.\n\n3. **EveryAction:**\n   - **Overview:** EveryAction offers a unified CRM platform that combines fundraising, digital, and organizing tools.\n   - **Email and Text Messaging:** Includes robust email capabilities and integrated text messaging features.\n   - **Pros:** Comprehensive toolset for activism-focused nonprofits, seamless integrations.\n   - **Cons:** Can be expensive for smaller organizations.\n\n4. **Neon CRM:**\n   - **Overview:** Provides an all-in-one solution for managing donors, memberships, and events.\n   - **Email and Text Messaging:** Integrated email marketing and text messaging features for communications.\n   - **Pros:** Tailored for nonprofits, flexible pricing tiers, user-friendly.\n   - **Cons:** Some users report a need for more advanced reporting features.\n\n5. **DonorPerfect:**\n   - **Overview:** A powerful donor management system focused on fundraising growth and efficiency.\n   - **Email and Text Messaging:** Offers email marketing and can integrate with third-party services for SMS.\n   - **Pros:** Strong accounting and reporting features, customizable fields and workflows.\n   - **Cons:** Interface may feel dated to some users.\n\n6. **Kindful (part of Bloomerang):**\n   - **Overview:** Provides intuitive donor-centric communication and management tools.\n   - **Email and Text Messaging:** Integrates with Mailchimp for emails and features options for SMS via integrations.\n   - **Pros:** Seamless integrations with popular apps, user-friendly, excellent for donor tracking.\n   - **Cons:** Some advanced features require additional integrations or services.\n\nWhen selecting a CRM, consider factors like your organization's size, budget, and specific needs regarding donor management and communication. It's often beneficial to request demonstrations or trials to see how well each system meets your organization's requirements.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 580,
+  "estimated_cost_usd": 0.005837,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

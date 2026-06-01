@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P012",
+  "prompt_text": "DonorDock vs Virtuous",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502420+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Virtuous Comparison\n\nBoth are cloud-based donor management systems, but they target different organizational sizes and needs.\n\n## **DonorDock**\n\n### Best For\n- Small to mid-sized nonprofits\n- Organizations with limited budgets\n- Teams wanting simplicity and ease of use\n\n### Key Strengths\n- **Affordability** - Generally lower cost entry point\n- **User-friendly interface** - Intuitive, minimal learning curve\n- **Quick setup** - Can get started faster\n- **Core features** - Covers essential donor management needs well\n- **Personal support** - Known for responsive customer service\n\n### Limitations\n- Fewer advanced features\n- Less robust reporting capabilities\n- Smaller integration ecosystem\n- May require upgrading as organization grows\n\n## **Virtuous**\n\n### Best For\n- Mid to large nonprofits\n- Organizations with sophisticated fundraising needs\n- Teams ready to invest in comprehensive technology\n\n### Key Strengths\n- **Responsive Fundraising** - AI-powered automation and personalization\n- **Marketing automation** - Advanced email/communication tools\n- **Comprehensive reporting** - Deep analytics and insights\n- **Volunteer management** - Built-in capabilities\n- **Integrations** - Broader third-party connections\n- **Scalability** - Grows with larger organizations\n\n### Limitations\n- Higher price point\n- Steeper learning curve\n- May be overkill for very small organizations\n- Implementation takes longer\n\n## **Quick Decision Guide**\n\n**Choose DonorDock if you:**\n- Have a budget under $100/month\n- Need simple donor tracking and communication\n- Want to get up and running quickly\n- Have a small team with limited tech experience\n\n**Choose Virtuous if you:**\n- Need advanced automation and segmentation\n- Want integrated marketing and fundraising tools\n- Have budget for $300+/month\n- Require sophisticated reporting and analytics\n\nWould you like details on pricing, specific features, or help deciding which fits your organization?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 449,
+  "estimated_cost_usd": 0.006783,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

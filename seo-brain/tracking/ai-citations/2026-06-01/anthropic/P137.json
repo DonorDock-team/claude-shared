@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P137",
+  "prompt_text": "Little Green Light limitations",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502368+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Little Green Light Limitations\n\nLittle Green Light (LGL) is a popular cloud-based donor management system, but it has several limitations to consider:\n\n## **Technical Limitations**\n\n- **Reporting flexibility** - While it offers standard reports, custom reporting can be somewhat limited compared to enterprise solutions\n- **No native mobile app** - Access is browser-based only\n- **Email marketing** - Built-in email tools are basic; many users integrate with dedicated email platforms\n- **Customization constraints** - Field customization exists but has boundaries compared to fully customizable CRMs\n- **API limitations** - API exists but may not be as robust as larger platforms\n\n## **Functional Limitations**\n\n- **Volunteer management** - Not as strong as dedicated volunteer management systems\n- **Event management** - Basic event tracking, but limited compared to specialized event software\n- **Grant management** - Has capabilities but not as comprehensive as dedicated grant management tools\n- **Complex workflows** - Better suited for straightforward processes; complex automation may require workarounds\n\n## **Scale Considerations**\n\n- **Best for small to mid-sized organizations** - Very large nonprofits may outgrow its capabilities\n- **Performance** - Can slow down with extremely large databases (100,000+ records)\n\n## **Integration**\n\n- **Third-party integrations** - Growing but more limited than platforms like Salesforce\n- **Data import/export** - Possible but can require careful mapping\n\nWould you like specific information about any of these limitations or how they might affect your organization?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 11,
+  "output_tokens": 337,
+  "estimated_cost_usd": 0.005088,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

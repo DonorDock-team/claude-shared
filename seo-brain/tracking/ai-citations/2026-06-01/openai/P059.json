@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P059",
+  "prompt_text": "Nonprofit CRM with donation forms",
+  "engine": "openai",
+  "timestamp": "2026-06-01T13:25:21.503092+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When you're looking for a CRM (Customer Relationship Management) system for a nonprofit, especially one that includes features like donation forms, it's important to consider solutions specifically designed for the unique needs of nonprofits. Here are a few popular nonprofit CRMs that offer donation form capabilities:\n\n1. **Salesforce Nonprofit Success Pack (NPSP)**:\n   - **Features**: A robust CRM tailored for nonprofits. It provides tools for donor management, volunteer tracking, and fundraising. With the use of Salesforce's AppExchange, you can integrate donation form solutions.\n   - **Pros**: Highly customizable and scalable.\n   - **Cons**: Requires some technical know-how to set up and maintain.\n\n2. **Bloomerang**:\n   - **Features**: Focuses on donor retention and offers built-in donation forms. It provides donor management, email marketing, and reporting tools.\n   - **Pros**: User-friendly interface and strong focus on donor engagement.\n   - **Cons**: Might not be as feature-rich for larger organizations compared to some competitors.\n\n3. **Neon One (Neon CRM)**:\n   - **Features**: Offers donation processing, event registration, and membership management. Donors can give through customizable donation pages.\n   - **Pros**: Integrated suite of tools for various nonprofit needs.\n   - **Cons**: Some users may find it less intuitive than other options.\n\n4. **DonorPerfect**:\n   - **Features**: Includes donation forms, donor management, and reporting capabilities. Supports online giving and crowdfunding.\n   - **Pros**: Comprehensive tools for donor management and multiple levels of support.\n   - **Cons**: Interface can be dated compared to newer platforms.\n\n5. **Little Green Light**:\n   - **Features**: Provides online donation forms, donor management, and event tracking. Good for small to medium-sized nonprofits.\n   - **Pros**: Affordable and easy to use.\n   - **Cons**: May lack some advanced features needed by larger organizations.\n\n6. **Kindful**:\n   - **Features**: Seamlessly integrates with other popular applications and offers easy-to-use donation forms, donor management, and reporting tools.\n   - **Pros**: Known for its integrations and user-friendly design.\n   - **Cons**: Pricing can be a bit higher depending on the organization's size.\n\n7. **Givebutter**:\n   - **Features**: Focuses on modern fundraising features, including donation forms, ticketing, and peer-to-peer fundraising. Offers a user-friendly design.\n   - **Pros**: Free to start; fees are taken from donations instead of upfront costs.\n   - **Cons**: Fees might accumulate with higher transaction volumes.\n\nWhen choosing a CRM, consider factors like budget, ease of use, integration capabilities, scalability, and the specific needs of your organization. Additionally, many of these platforms offer free trials or demos, so you can test their features before making a commitment.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 599,
+  "estimated_cost_usd": 0.006023,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

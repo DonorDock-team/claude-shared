@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P053",
+  "prompt_text": "Best donor CRM for a 10 person fundraising team",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502774+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a 10-person fundraising team involves balancing powerful features with ease of use, collaboration capabilities, and cost. At this team size, you're beyond simple spreadsheets but not yet at the enterprise level requiring custom Salesforce builds from scratch.\n\nHere are the top contenders, categorized by their strengths, along with key considerations for a 10-person team:\n\n---\n\n## Top Donor CRM Recommendations for a 10-Person Team:\n\n**1. Bloomerang**\n*   **Why it's great for 10 people:**\n    *   **User-Friendly Interface:** Consistently praised for its intuitive and modern design, making it easy for all team members to get up to speed quickly.\n    *   **Donor Engagement Focus:** Built-in tools like engagement meters, wealth screening integration, and communication tracking help your team identify and prioritize high-potential donors.\n    *   **Strong Reporting & Analytics:** Easy to generate insights into donor trends, campaign performance, and team activity.\n    *   **Excellent Support & Resources:** Known for good customer service and a wealth of educational content.\n    *   **Email & Marketing Integration:** Good native email capabilities and integrations with popular marketing platforms.\n    *   **Collaboration:** Easy to assign tasks, log interactions, and see a full donor history.\n*   **Potential Considerations:** Can become more expensive as your donor database grows significantly. Some very niche advanced features might require integrations.\n*   **Best For:** Teams that prioritize ease of use, strong donor engagement features, and clear analytics to drive fundraising strategy.\n\n**2. Neon One (Neon CRM)**\n*   **Why it's great for 10 people:**\n    *   **Comprehensive Suite:** Offers a robust all-in-one solution that includes not just CRM, but also membership management, event management, grant tracking, and peer-to-peer fundraising.\n    *   **Scalable:** Grows well with your organization, offering modules as your needs evolve.\n    *   **Flexible Reporting:** Powerful reporting engine allows for detailed analysis.\n    *   **Integrations:**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 11,
+  "output_tokens": 445,
+  "estimated_cost_usd": 0.001116,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

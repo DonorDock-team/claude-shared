@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P053",
+  "prompt_text": "Best donor CRM for a 10 person fundraising team",
+  "engine": "openai",
+  "timestamp": "2026-06-01T13:25:21.502747+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the best donor CRM for a small fundraising team involves considering factors like ease of use, functionality, scalability, integration capabilities, and cost. Here are a few CRM systems that are popular and well-suited for a 10-person fundraising team:\n\n1. **Bloomerang**: Known for its user-friendly interface and donor retention features, Bloomerang offers powerful reporting tools and integration capabilities. It's particularly good for small to medium-sized nonprofits focused on building lasting donor relationships.\n\n2. **DonorPerfect**: This CRM is versatile and scalable, providing robust reporting options, donor management features, and integration with other fundraising tools. It\u2019s a popular choice among small to mid-sized fundraising teams.\n\n3. **Little Green Light**: An affordable option that\u2019s easy to implement and use, Little Green Light offers contact management, event planning, and donation tracking. It\u2019s a great choice for smaller teams focusing on ease of use and cost-effectiveness.\n\n4. **Neon CRM**: Offers a comprehensive suite of tools for donor management, email marketing, event planning, and reporting. It's known for its flexibility and integration options, making it suitable for growing teams.\n\n5. **Kindful**: This CRM is designed to enhance donor relationships and improve fundraising outcomes. Kindful integrates well with other platforms and offers features like donor lifecycle tracking and comprehensive analytics.\n\n6. **Salesforce Nonprofit Success Pack (NPSP)**: Although slightly more complex, Salesforce NPSP offers extensive customization capabilities and scalability, allowing nonprofits to tailor the CRM to their specific needs as they grow.\n\n7. **Raiser\u2019s Edge NXT**: A robust option from Blackbaud, offering comprehensive donor management features and artificial intelligence insights. It may be more expensive than other options but provides powerful tools for larger-scale fundraising efforts.\n\nIt's important for your team to evaluate these options based on your specific needs, budget, and existing workflows. Consider starting with a demo or trial period to test each CRM's functionality and ensure it aligns with your team\u2019s objectives.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 407,
+  "estimated_cost_usd": 0.004112,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

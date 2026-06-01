@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502738+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Measure Donor Retention\n\n## Key Retention Metrics\n\n### 1. **Overall Donor Retention Rate**\n```\n(Number of donors who gave again this year / Number of donors who gave last year) \u00d7 100\n```\n**Example:** 400 returning donors \u00f7 1,000 last year's donors = 40% retention rate\n\n### 2. **First-Time Donor Retention Rate**\nTrack what percentage of first-time donors give a second gift\u2014typically the lowest retention rate but most critical to improve.\n\n### 3. **Multi-Year Retention Rate**\nMeasures donors who've given for 2+ consecutive years (these are your most loyal supporters).\n\n### 4. **Retention by Donor Segment**\nBreak down retention by:\n- Donation size\n- Acquisition source\n- Age/demographics\n- Giving frequency\n- Campaign type\n\n## Additional Useful Metrics\n\n- **Donor Attrition Rate:** 100% - Retention Rate\n- **Donor Lifetime Value:** Average donation \u00d7 retention rate \u00d7 average donor lifespan\n- **Repeat Donation Rate:** Percentage of donors who give multiple times in one year\n- **Upgrade/Downgrade Rates:** Track changes in giving levels\n\n## Best Practices\n\n\u2713 **Measure annually** (comparing same periods year-over-year)\n\u2713 **Track cohorts** (e.g., \"2023 first-time donors\")\n\u2713 **Benchmark** against sector averages (nonprofit average \u2248 43-45%)\n\u2713 **Identify drop-off points** in the donor journey\n\u2713 **Monitor trends** over multiple years\n\n## Industry Benchmarks\n- Overall retention: ~45%\n- First-time donors: ~20-25%\n- Repeat donors: ~60-65%\n\nWhat specific retention challenge are you trying to address?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 432,
+  "estimated_cost_usd": 0.006516,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "openai",
+  "timestamp": "2026-06-01T13:25:21.501988+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for a donor CRM (Customer Relationship Management) system with flat rate pricing and no per user fees, it's important to focus on platforms that offer predictable costs which can help with budgeting for non-profit organizations. Here are a few options you might consider:\n\n1. **Bloomerang**:\n   - **Overview**: Bloomerang is known for its user-friendly interface and features designed specifically for non-profits.\n   - **Pricing**: Typically offers pricing based on the number of records rather than the number of users, which might fit the description of flat-rate pricing if the organization has many users and fewer records.\n\n2. **Neon CRM**:\n   - **Overview**: Neon One is another robust solution aimed at non-profits with various tools for donor management, fundraising, and more.\n   - **Pricing**: Neon offers plans that focus on the functionality and database size rather than user counts.\n\n3. **Kindful**:\n   - **Overview**: Offers a variety of integrations and features that help track donor interactions and campaigns effectively.\n   - **Pricing**: Known for not charging per user, and you pay based on the overall features and database size.\n\n4. **Little Green Light**:\n   - **Overview**: Ideal for small to mid-sized non-profits, it offers a variety of tools for donor management.\n   - **Pricing**: Charges are based on the size of the database, not the number of users, making it a good option for flat-rate needs.\n\n5. **DonorPerfect**:\n   - **Overview**: A comprehensive and flexible donor management platform.\n   - **Pricing**: Offers packages that focus on data volume and features, not users, making it scalable in terms of team size.\n\nWhen selecting a CRM, consider the following aspects as well:\n\n- **Features**: Ensure the CRM has all the necessary features your organization needs like donation tracking, email marketing, event management, etc.\n- **Ease of Use**: The more intuitive and user-friendly, the better adoption rates you'll have among your team.\n- **Integrations**: Verify if the CRM integrates with other tools your organization currently uses.\n- **Customer Support**: Reliable support is crucial for solving any issues that arise.\n- **Data Migration and Import**: If switching systems or starting fresh, the ease of importing your data is a key factor.\n\nBefore proceeding, be sure to reach out to the providers to discuss pricing details to ensure you clearly understand what is covered under \"flat-rate\" and confirm there are indeed no additional fees for users.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 519,
+  "estimated_cost_usd": 0.005235,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

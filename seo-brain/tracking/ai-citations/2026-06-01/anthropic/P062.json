@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P062",
+  "prompt_text": "Best nonprofit CRM with email and text messaging",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502038+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Nonprofit CRMs with Email & Text Messaging\n\n## Top Recommendations\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- **Features:** Built-in email marketing, donor management, excellent retention focus\n- **Text messaging:** Via integrations (Tatango, SimpleTexting)\n- **Pricing:** ~$125/month+\n\n### **2. Salsa Engage (formerly Salsa CRM)**\n- **Best for:** Advocacy and engagement-focused nonprofits\n- **Features:** Native email, SMS, peer-to-peer fundraising, advocacy tools\n- **Text messaging:** Built-in\n- **Pricing:** ~$400/month+ (includes marketing tools)\n\n### **3. NeonCRM**\n- **Best for:** Growing nonprofits needing all-in-one solution\n- **Features:** Email marketing included, event management, fundraising\n- **Text messaging:** Via integrations (Twilio)\n- **Pricing:** ~$50/month - $200/month\n\n### **4. Kindful (by Bloomerang)**\n- **Best for:** Budget-conscious smaller nonprofits\n- **Features:** Email campaigns, donor management\n- **Text messaging:** Via integrations\n- **Pricing:** ~$100/month+\n\n### **5. monday.com for Nonprofits**\n- **Best for:** Customization and flexibility\n- **Features:** Email integrations (Mailchimp, SendGrid), workflow automation\n- **Text messaging:** Via Twilio integration\n- **Pricing:** 50% nonprofit discount available\n\n## Key Considerations\n- **Budget:** What can you afford monthly/annually?\n- **Database size:** How many contacts?\n- **Primary use case:** Fundraising, volunteer management, or advocacy?\n\nWhat's your nonprofit's size and primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 425,
+  "estimated_cost_usd": 0.006423,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

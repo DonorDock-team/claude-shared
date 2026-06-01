@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P013",
+  "prompt_text": "DonorDock vs Little Green Light",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502485+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Little Green Light\n\nBoth are donor management/CRM systems for nonprofits. Here's a comparison:\n\n## **DonorDock**\n\n**Strengths:**\n- Modern, intuitive interface\n- Strong focus on donor relationships and engagement tracking\n- Unlimited users on all plans\n- Good mobile app\n- Task management and pipeline features\n- Simpler pricing structure\n- Better for smaller organizations wanting ease of use\n\n**Limitations:**\n- Fewer advanced features than LGL\n- Less reporting customization\n- Newer platform (less established)\n- More limited integration options\n\n**Pricing:** Starts around $99/month\n\n## **Little Green Light**\n\n**Strengths:**\n- Highly customizable fields and reports\n- Robust reporting capabilities\n- Event management included\n- Email marketing built-in\n- Volunteer tracking\n- Better for complex organizational needs\n- More established (since 2010)\n\n**Limitations:**\n- Steeper learning curve\n- Interface feels more dated\n- Per-user pricing can get expensive\n- Can feel overwhelming for small organizations\n\n**Pricing:** Starts around $59/month (for 2 users)\n\n## **Bottom Line**\n\n- **Choose DonorDock** if you want user-friendly software, have multiple staff needing access, and prefer simplicity\n- **Choose Little Green Light** if you need deep customization, robust reporting, or have complex data needs\n\nBoth offer free trials\u2014I'd recommend testing each to see which fits your workflow better.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 341,
+  "estimated_cost_usd": 0.005163,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

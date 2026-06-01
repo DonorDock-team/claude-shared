@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P133",
+  "prompt_text": "Givebutter limitations",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.501985+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Givebutter Limitations\n\nHere are the main limitations to be aware of when using Givebutter:\n\n## **Pricing & Fees**\n- **Platform fee**: 0% platform fee, but payment processing fees still apply (2.9% + $0.30 per transaction for credit cards)\n- **Tipping model**: Relies on optional donor tips to support the platform (can create donor confusion)\n- **Premium features**: Some advanced features require paid plans\n\n## **Functionality Limitations**\n- **Peer-to-peer fundraising**: Less robust than specialized P2P platforms\n- **CRM capabilities**: Limited compared to dedicated nonprofit CRM systems\n- **Reporting**: Basic analytics compared to enterprise fundraising platforms\n- **Customization**: Template-based design with limited deep customization options\n- **Event management**: Simpler than dedicated event platforms (better for small-medium events)\n\n## **Integration Issues**\n- **Limited native integrations**: Fewer connections than competitors like Classy or GoFundMe Charity\n- **API access**: More limited for custom integrations\n- **Database sync**: Can be challenging to sync with existing donor databases\n\n## **Scale Constraints**\n- Best suited for **small to medium nonprofits**\n- May not handle extremely high-volume campaigns as well as enterprise solutions\n- Support response times may vary during peak periods\n\n## **Other Considerations**\n- Relatively newer platform (less track record than established competitors)\n- International features more limited than some alternatives\n- Recurring donation management less sophisticated than some platforms\n\n**Best for**: Small-medium nonprofits wanting an affordable, user-friendly solution\n**Not ideal for**: Large organizations needing enterprise-level features and integrations",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 381,
+  "estimated_cost_usd": 0.005751,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

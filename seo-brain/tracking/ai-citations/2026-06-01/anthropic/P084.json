@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P084",
+  "prompt_text": "Best donor CRM for theaters",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502427+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Theaters\n\nHere are the top CRM options specifically suited for theater organizations:\n\n## **Top Recommendations**\n\n### **1. PatronManager (by Salesforce)**\n- **Best for:** Mid to large theaters\n- Purpose-built for performing arts organizations\n- Integrates ticketing + donations seamlessly\n- Tracks patron attendance, giving history, and engagement\n- **Drawback:** Higher cost, steeper learning curve\n\n### **2. Tessitura**\n- **Best for:** Large arts institutions\n- Industry standard for major theaters and opera houses\n- Comprehensive ticketing, fundraising, and CRM in one\n- Extremely robust but requires significant investment\n- **Drawback:** Expensive, complex implementation\n\n### **3. Blackbaud Altru**\n- **Best for:** Mid-sized theaters\n- Built for arts and cultural organizations\n- Combines ticketing, memberships, and fundraising\n- Good reporting capabilities\n- **Drawback:** Can be pricey\n\n### **4. Bloomerang**\n- **Best for:** Small to mid-sized theaters on a budget\n- User-friendly interface\n- Strong donor retention focus\n- Affordable pricing\n- **Drawback:** Less theater-specific features\n\n### **5. DonorPerfect**\n- **Best for:** Small theaters\n- Easy to use\n- Good fundraising tools\n- Integrates with many ticketing systems\n- **Drawback:** Will need separate ticketing solution\n\n## **Key Consideration**\nChoose based on whether you need **integrated ticketing + CRM** (PatronManager, Tessitura) or can use **separate systems** (Bloomerang + a ticketing platform).\n\nWhat's your theater's size and budget range?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 399,
+  "estimated_cost_usd": 0.006024,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

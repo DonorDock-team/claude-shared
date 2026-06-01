@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502601+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Both DonorDock and Keela are popular CRM (Constituent Relationship Management) and fundraising software solutions designed for non-profit organizations. They both aim to help non-profits manage their donors, track donations, and streamline fundraising efforts, but they approach this with different philosophies and feature sets.\n\nHere's a breakdown to help you compare them:\n\n## DonorDock vs. Keela: A Comparative Overview\n\n| Feature Category        | DonorDock                                         | Keela                                                          |\n| :---------------------- | :------------------------------------------------ | :------------------------------------------------------------- |\n| **Ideal User**          | Small to medium non-profits; value simplicity, modern UI, core CRM, and fundraising. | Small to large non-profits; value an all-in-one solution, advanced features, AI-powered insights, and automation. |\n| **Core Philosophy**     | Modern, intuitive, user-friendly interface focused on core donor management and fundraising. | \"Intelligent\" non-profit software; comprehensive suite with AI, automation, and project management. |\n| **Key Differentiators** | Simplicity, modern aesthetic, strong core CRM, focus on ease of use. | AI-powered insights, predictive analytics, robust marketing automation, grant management, project management. |\n| **Donor Management (CRM)** | Strong core donor profiles, gift tracking, interaction logs, segmentation. | Comprehensive donor profiles, detailed gift tracking, pledges, recurring gifts, wealth screening integrations, smart segmentation. |\n| **Fundraising**         | Online donation forms, campaigns, peer-to-peer (via integrations). | Online donation forms, robust campaign management, peer-to-peer, crowdfunding, event management. |\n| **Communications**      | Email integration (e.g., Mailchimp), basic direct email sending, segmentation for outreach. | Advanced email marketing platform, marketing automation workflows, segmentation, personalized communication. |\n| **Reporting & Analytics** | Customizable dashboards, standard reports on donations, donors, campaigns. | Advanced customizable reports, dashboards, predictive analytics (donor propensity, churn risk), AI-driven insights. |\n| **Integrations**        | QuickBooks, Mailchimp, payment processors (Stripe, PayPal), others via Zapier. | Wide range including payment processors, accounting (QuickBooks, Xero), email marketing, Zapier, specific integrations for grant databases. |\n| **Ease of Use**         | Generally considered very high; clean, intuitive interface. | Good, but with a broader feature set, there might be a slightly steeper learning curve initially for some advanced features. |\n| **Pricing**             | Often competitive, value-focused, typically tiered by the number of active donors. | Generally higher, reflecting the broader feature set and advanced capabilities, typically tiered by the number of contacts. |\n| **Support**             | Good, responsive customer support.               | Comprehensive support, onboarding, dedicated success managers for larger plans. |\n| **Other Notable Features** | Modern UI, responsive design.                   | Grant management, project management, volunteer management, revenue forecasting. |\n\n---\n\n## Deeper Dive & Key Considerations:\n\n### DonorDock\n\n**Strengths:**\n1.  **Ease of Use & Modern UI:** DonorDock is often praised for its clean, intuitive, and modern interface. It's designed to be easy to pick up and use, even for those less tech-savvy.\n2.  **Core CRM Excellence:** It excels at fundamental donor management \u2013 tracking gifts, interactions, and donor profiles effectively.\n3.  **Affordability:**",
+  "donordock_mentioned": true,
+  "donordock_position": 5,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 738,
+  "estimated_cost_usd": 0.001847,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

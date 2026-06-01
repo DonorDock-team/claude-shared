@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P044",
+  "prompt_text": "Best donor CRM for food banks",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502080+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For food banks, choosing the \"best\" donor CRM often comes down to balancing robust donor management with specific needs like **in-kind donation tracking**, **volunteer management**, and **affordability**. Many food banks also need excellent tools for *communication* and *grant tracking*.\n\nHere are some of the best donor CRMs for food banks, with their strengths and considerations:\n\n## Top Recommendations for Food Banks:\n\n1.  **Bloomerang**\n    *   **Why it's great for Food Banks:**\n        *   **User-Friendly Interface:** Very intuitive, making it easy for staff and volunteers to learn and use.\n        *   **Strong Donor Engagement Focus:** Excellent tools for donor retention, tracking engagement scores, and personalized communication.\n        *   **Good In-Kind Donation Tracking:** Handles non-cash gifts well, allowing you to track item details, quantities, and assign a fair market value for reporting and tax receipts.\n        *   **Integrated Volunteer Tracking (via Kindful):** Bloomerang acquired Kindful, and their combined offering provides solid volunteer management features directly within or tightly integrated with the CRM.\n        *   **Robust Reporting:** Easy to generate reports on donor trends, campaign performance, and overall fundraising.\n        *   **Affordable for Many:** Pricing tiers scale with your database size, making it accessible for small to medium-sized food banks.\n    *   **Considerations:** While great, very large or complex organizations might eventually need more advanced customization than it offers out-of-the-box.\n\n2.  **DonorPerfect**\n    *   **Why it's great for Food Banks:**\n        *   **Comprehensive Features:** DonorPerfect has been around for a long time and offers a very extensive suite of features for fundraising, donor management, and reporting.\n        *   **Excellent Volunteer Management:** Known for its robust volunteer tracking, scheduling, and communication tools, which is critical for food",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 402,
+  "estimated_cost_usd": 0.001007,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

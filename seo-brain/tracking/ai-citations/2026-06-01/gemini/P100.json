@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P100",
+  "prompt_text": "What does Bloomerang really cost",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502211+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang's cost **varies significantly** based on a few key factors, primarily the **size of your constituent database**. While they offer transparent tier-based pricing, understanding the \"real\" cost involves looking beyond just the monthly subscription fee.\n\nHere's a breakdown of what Bloomerang really costs:\n\n---\n\n### The Core Bloomerang Pricing Model\n\nBloomerang's base pricing is primarily determined by the **number of constituent records** (donors, prospects, volunteers, etc.) in your database.\n\n*   **Tiered Pricing:** They have different tiers (e.g., 0-1,000 records, 1,001-5,000 records, 5,001-10,000 records, and so on). As your database grows, you move into higher tiers with a higher monthly cost.\n*   **Unlimited Users:** A significant benefit of Bloomerang is that all tiers include **unlimited users**. You don't pay extra per staff member who needs access.\n*   **Core Features Included:** The base tiers typically include core CRM functionality, donor management, reporting, email marketing, and often some basic online forms.\n\n---\n\n### Key Factors Influencing Your Bloomerang Cost\n\n1.  **Database Size (Constituent Records):**\n    *   This is the **most significant driver** of your monthly subscription fee.\n    *   **Typical Ranges (as of late 2023/early 2024, subject to change):**\n        *   **Small Nonprofits (0-1,000 constituents):** Roughly $99 - $150 per month.\n        *   **Medium Nonprofits (5,001-10,000 constituents):** Roughly $300 - $500 per month.\n        *   **Larger Nonprofits (25,000+ constituents):** Can be $1,000 - $2,000+ per month.\n    *   **Important:** Your cost will increase as your database grows",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 443,
+  "estimated_cost_usd": 0.001109,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

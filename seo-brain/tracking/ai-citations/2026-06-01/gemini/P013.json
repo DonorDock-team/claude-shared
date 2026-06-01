@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P013",
+  "prompt_text": "DonorDock vs Little Green Light",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502533+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Little Green Light (LGL) are both popular donor management systems designed for nonprofits, but they cater to slightly different needs and offer distinct approaches. Here's a breakdown to help you compare them:\n\n## DonorDock\n\nDonorDock is a newer, cloud-based donor management system that emphasizes **simplicity, ease of use, and actionable insights**. It often appeals to nonprofits looking for a clean, intuitive interface that helps them manage donors and track fundraising efforts without overwhelming complexity.\n\n**Key Characteristics & Features:**\n\n*   **Focus:** Core donor relationship management, gift tracking, and communication tools. Designed to be user-friendly and quick to adopt.\n*   **User Interface (UI):** Generally modern, clean, and intuitive. Aims to minimize clicks and streamline workflows.\n*   **Donor Profiles:** Comprehensive contact information, giving history, communication logs, and custom fields.\n*   **Gift Tracking:** Records one-time gifts, recurring gifts, and pledges.\n*   **Communication:** Tools for sending emails, tracking interactions, and segmenting donors for targeted outreach.\n*   **Reporting & Dashboards:** Focus on presenting key fundraising metrics and donor insights in an easy-to-understand format.\n*   **Integrations:** Integrates with common tools like payment processors (Stripe), email marketing platforms (Mailchimp), and potentially accounting software.\n*   **Learning Curve:** Generally low due to its straightforward design.\n*   **Scalability:** Good for small to growing mid-sized organizations that prioritize simplicity.\n\n## Little Green Light (LGL)\n\nLittle Green Light is a long-standing, robust, and highly flexible donor management system known for its **comprehensive feature set, powerful customization options, and affordability**. It's often chosen by nonprofits who need deep functionality and control over their data.\n\n**Key Characteristics & Features:**\n\n*   **Focus:** Comprehensive donor management, fundraising, events, volunteer management, and constituent tracking for a wide range of nonprofit activities.\n*   **User Interface (UI):** Functional and efficient, though some might find it less visually \"modern\" than newer platforms. It prioritizes functionality and data access.\n*   **Donor/Constituent Profiles:** Extremely detailed, with extensive fields for all types of constituents (donors, volunteers, board members, prospects, etc.), relationships, custom fields, and detailed activity logs.\n*   **Gift Tracking:** Very powerful, handles pledges, recurring gifts, gifts-in-kind, soft credits, grant tracking, and more.\n*   **Campaigns & Appeals:** Robust tools for managing multiple fundraising campaigns and tracking the effectiveness of appeals.\n*   **Event Management:** Comprehensive features for managing attendees, RSVPs, tickets, and payments for events.\n*   **Volunteer Management:** Track volunteer hours, interests, and availability.\n*   **Reporting & Analytics:** Extremely powerful and customizable reporting engine, allowing users to build almost any report imaginable. Includes built-in dashboards.\n*   **Communications:** Built-in email tools (basic), mailing list generation, and robust integrations with external email marketing (Mailchimp, Constant Contact).\n*   **Integrations:** Excellent integrations with payment processors (Stripe, PayPal, Author",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 668,
+  "estimated_cost_usd": 0.001672,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

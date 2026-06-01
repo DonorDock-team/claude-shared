@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P015",
+  "prompt_text": "Alternative to Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502655+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a popular choice for nonprofit CRM, especially known for its user-friendliness, focus on donor retention, and robust reporting. However, depending on your organization's specific needs, budget, size, and desired features, several excellent alternatives are available.\n\nHere are some top alternatives, categorized by their strengths:\n\n---\n\n### Comprehensive All-in-Ones (Similar to Bloomerang)\n\nThese platforms offer a similar breadth of features to Bloomerang, focusing on donor management, fundraising, and communication.\n\n1.  **Neon CRM (formerly Neon One):**\n    *   **Strengths:** Very comprehensive, offering donor management, event management, membership management, volunteer management, and even website integration. Highly customizable.\n    *   **Best for:** Growing nonprofits that need an all-in-one solution and want flexibility across various operational areas.\n    *   **Why choose this:** If you need more than just donor management and want to consolidate multiple tools (events, membership, volunteers) into one platform.\n\n2.  **DonorPerfect:**\n    *   **Strengths:** A long-standing and robust solution with extensive features for donor management, fundraising, events, and reporting. Known for its strong customization options and integrations.\n    *   **Best for:** Mid-sized to larger nonprofits that need a powerful, customizable CRM and have complex reporting needs.\n    *   **Why choose this:** If you need deep customization, have a large donor database, or require specific integrations with other software.\n\n3.  **Little Green Light (LGL):**\n    *   **Strengths:** Often lauded for its affordability and ease of use, LGL provides solid donor management, gift processing, communication tools, and basic event/volunteer tracking. Good for data importing.\n    *   **Best for:** Smaller to mid-sized nonprofits looking for an affordable, user-friendly, and comprehensive donor database without excessive complexity.\n    *   **Why choose this:** If Bloomerang feels a bit too expensive or you're looking for a simpler, yet effective, donor CRM.\n\n4.  **Kindful (now Bonterra):**\n    *   **Strengths:** Modern interface, strong focus on integrations with other popular tools (like QuickBooks, Mailchimp, various fundraising platforms), excellent for tracking donor relationships and fundraising campaigns.\n    *   **Best for:** Nonprofits that rely heavily on integrated third-party tools for their operations and appreciate modern UI/UX.\n    *   **Why choose this:** If you have an existing ecosystem of tools you want your CRM to seamlessly integrate with, and you value clean design.\n\n---\n\n### Robust & Enterprise Solutions (For Growth/Complexity)\n\nThese options are often more powerful, scalable, and customizable, suitable for larger organizations or those with unique, complex needs.\n\n5.  **Salesforce Nonprofit Success Pack (NPSP):**\n    *   **Strengths:** Unparalleled customization and scalability. Salesforce is the world's leading CRM, and NPSP adapts it for nonprofits, offering robust donor management, program management, grant tracking, and more. Free for the first 10 licenses.\n    *   **Best for:** Mid-sized to large nonprofits with complex data management needs, multiple programs, or those requiring highly tailored solutions. Requires some technical expertise (or a consultant).\n    *   **",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 698,
+  "estimated_cost_usd": 0.001746,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

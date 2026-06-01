@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P136",
+  "prompt_text": "Salesforce Nonprofit Cloud problems",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502166+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Salesforce Nonprofit Cloud Problems\n\n## 1. **Implementation & Adoption Challenges**\n\n- **Complexity for small organizations** - Can be overwhelming for nonprofits with limited tech resources\n- **Staff training requirements** - Steep learning curve for non-technical users\n- **Low user adoption** - Staff reverting to spreadsheets or old systems\n- **Customization overload** - Over-customizing leading to maintenance nightmares\n\n## 2. **Cost Issues**\n\n- **Hidden costs** - Implementation, consulting, training, and ongoing maintenance expenses\n- **License fees** - 10 free licenses run out quickly; additional seats add up\n- **AppExchange add-ons** - Necessary integrations cost extra\n- **Consultant dependency** - Needing expensive help for changes\n\n## 3. **Technical Problems**\n\n- **Data migration difficulties** - Moving legacy data is complex and error-prone\n- **Integration challenges** - Connecting with donation platforms, email tools, etc.\n- **Performance issues** - Slow load times with large data volumes\n- **Report complexity** - Difficult to create meaningful reports without training\n\n## 4. **Data Management**\n\n- **Duplicate records** - Contact/account duplicates despite merge tools\n- **Data quality issues** - Incorrect or incomplete information\n- **Household account confusion** - Complex relationship structures hard to manage\n- **Lost historical data** - Information gaps during migration\n\n## 5. **Functional Limitations**\n\n- **Email marketing constraints** - Limited compared to dedicated tools\n- **Event management gaps** - Often requires third-party solutions\n- **Volunteer management** - Basic functionality may not meet needs\n- **Grant management** - May need additional apps or customization\n\n## Solutions to Consider\n\n- Start with NPSP basics before heavy customization\n- Invest in proper training and change management\n- Use a qualified Nonprofit Cloud consultant\n- Regularly clean and maintain data\n- Consider Pro Bono consulting through Salesforce.org programs\n\n**Are you experiencing a specific issue I can help with?**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 458,
+  "estimated_cost_usd": 0.006912,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

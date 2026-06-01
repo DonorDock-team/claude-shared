@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P010",
+  "prompt_text": "Does DonorDock have online giving",
+  "engine": "perplexity",
+  "timestamp": "2026-06-01T13:25:21.502187+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Yes\u2014**DonorDock does have online giving**. DonorDock\u2019s Online Giving pages let organizations collect donations online, and gifts submitted through those pages are automatically recorded in DonorDock.[1][2]\n\nIt also supports **branded giving pages**, **embedded donation forms**, and **standalone donation pages** for campaigns, events, memberships, and general giving.[1][5][8]\n\nIf you want, I can also tell you whether it supports **recurring donations**, **Stripe/PayPal**, or **website embedding**.",
+  "donordock_mentioned": true,
+  "donordock_position": 6,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 110,
+  "estimated_cost_usd": 0.006674,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/online-giving",
+      "https://helpcenter.donordock.com/kb/guide/en/online-giving-overview-oigm9umSjA/Steps/1116318",
+      "https://helpcenter.donordock.com/kb/en/online-giving-146301",
+      "https://helpcenter.donordock.com/kb/guide/en/donordock-and-online-giving-fees-FF6iCEKSlh/Steps/1935110",
+      "https://www.donordock.com/articles/improving-nonprofit-events-with-online-giving",
+      "https://helpcenter.donordock.com/kb/guide/en/membership-online-giving-pages-pk35D79839/Steps/4099656",
+      "https://www.donordock.com/lp/online-giving",
+      "https://helpcenter.donordock.com/kb/guide/en/understanding-online-giving-fields-3UhHtm7CRu/Steps/1710134"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P005",
+  "prompt_text": "DonorDock vs Bloomerang",
+  "engine": "perplexity",
+  "timestamp": "2026-06-01T13:25:21.502583+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock is generally the better fit if you want **one simple, all-in-one nonprofit CRM** with **unlimited contacts**, bundled email/text/online giving, and action-oriented task guidance. Bloomerang is usually the stronger choice if you want **deeper retention analytics**, built-in data quality tools, and broader nonprofit ecosystem features, even though pricing can scale with contacts and some modules may be separate. [1][7]\n\n| Category | DonorDock | Bloomerang |\n|---|---|---|\n| Best for | Smaller/lean nonprofits that want simplicity and daily action focus | Nonprofits that prioritize retention analytics and donor intelligence |\n| Pricing model | One plan with unlimited contacts, no contracts [1][2] | Pricing scales with contacts; some modules/add-ons are separate [1][7] |\n| Core strengths | CRM, email, text messaging, online giving, project boards, AI assistant in one plan [1] | Donor engagement scoring, wealth screening, address verification, deceased suppression, data hygiene [7] |\n| Workflow style | ActionBoard/Smart Nudges focus on \u201cwhat to do today\u201d [1] | Focuses more on reporting, scoring, and analytics [1][7] |\n| Volunteer tools | More limited; can integrate with a dedicated volunteer platform for more advanced needs [7] | More robust native volunteer management, though priced separately in some cases [7] |\n\nA few practical takeaways:\n\n- Choose **DonorDock** if your team is small, wants fewer system decisions, and values straightforward day-to-day execution over advanced analytics. [1][7]\n- Choose **Bloomerang** if donor retention, engagement scoring, and data hygiene are central to your fundraising strategy. [1][7]\n- If your database is growing quickly, Bloomerang\u2019s contact-based pricing may become more expensive over time, while DonorDock\u2019s unlimited-contact pricing stays predictable. [1][2]\n\nIf you want, I can also give you a **\u201cwhich one should we pick?\u201d recommendation** based on your nonprofit\u2019s size, budget, and must-have features.",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 433,
+  "estimated_cost_usd": 0.011519,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/compare/bloomerang-vs-donordock",
+      "https://www.trustradius.com/compare-products/bloomerang-vs-donordock",
+      "https://sourceforge.net/software/compare/Bloomerang-vs-DonorDock/",
+      "https://www.rfp.wiki/specialty-industries/nonprofit-associations/bloomerang/donordock",
+      "https://www.zeffy.com/compare/bloomerang-vs-donordock",
+      "https://www.g2.com/compare/bloomerang-crm-vs-donordock",
+      "https://rooted.software/blog/best-ministry-crm",
+      "https://www.capterra.com/compare/131207-184187/Bloomerang-vs-DonorDock",
+      "https://www.softwareadvice.com/nonprofit/bloomerang-profile/vs/donordock/",
+      "https://bloomerang.com/blog/donor-management-software"
+    ]
+  }
+}

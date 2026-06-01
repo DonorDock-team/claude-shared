@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502952+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for an international NGO is complex, as it depends heavily on the NGO's specific needs, budget, technical capacity, and geographic footprint. However, certain CRMs stand out due to their scalability, flexibility, multi-currency/multi-language capabilities, and robust feature sets.\n\nHere are the top contenders, categorized to help you decide:\n\n---\n\n### Key Considerations for International NGOs:\n\nBefore diving into specific CRMs, an international NGO must prioritize these features:\n\n1.  **Multi-Currency Support:** Ability to process donations, manage pledges, and report in multiple currencies, including real-time exchange rate conversions.\n2.  **Multi-Language Interface & Communication:** CRM interface available in different languages, and the ability to send communications (emails, letters, receipts) in donors' preferred languages.\n3.  **Global Payment Gateway Integrations:** Support for a wide range of international payment processors (e.g., Stripe, PayPal, regional bank transfers, mobile money).\n4.  **Compliance & Data Sovereignty:** Adherence to data privacy regulations like GDPR, CCPA, and potentially country-specific laws. Understanding where data is hosted.\n5.  **Time Zone Management:** Scheduling communications and events across different time zones.\n6.  **Distributed Team Collaboration:** Cloud-based access, robust user permissions, and collaboration tools for teams spread across the globe.\n7.  **Scalability:** Ability to grow with your organization, adding new regions, currencies, and users without major overhauls.\n8.  **Reporting & Analytics:** Comprehensive reporting that can segment by region, currency, campaign, and donor type globally.\n9.  **Integration Ecosystem:** Connectivity with international accounting software, marketing automation tools, and other essential systems.\n10. **Local Support & Partner Network:** Availability of implementation partners and customer support in different regions.\n\n---\n\n### Top Recommendations:\n\n#### 1. Salesforce (with Nonprofit Success Pack - NPSP)\n\n*   **Why it's great for International NGOs:**\n    *   **Unrivaled Scalability & Customization:** Can handle organizations of any size, from small to massive global enterprises. Highly adaptable to unique international processes.\n    *   **Robust Multi-Currency & Multi-Language:** Native support for multiple currencies and multi-language user interfaces. You can tailor communications and reports by language.\n    *   **Global Ecosystem:** Salesforce has a massive global presence, an extensive AppExchange (marketplace for integrations), and a vast network of consulting partners worldwide.\n    *   **Powerful Reporting & Analytics:** Deep insights into global fundraising performance.\n    *   **Cloud-Native:** Accessible from anywhere with an internet connection.\n    *   **NPSP Advantage:** NPSP (free for up to 10 users for eligible nonprofits) provides a robust nonprofit data model out-of-the-box, making it easier to manage donors, households, and organizations.\n*   **Considerations:**\n    *   **Complexity:** Can have a steep learning curve and often requires an implementation partner or dedicated admin, especially for complex international setups.\n    *   **Cost:** While NPSP offers free licenses, additional users, advanced features, and extensive customization can become expensive.\n\n#### 2. Blackbaud (Raiser'",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 686,
+  "estimated_cost_usd": 0.001717,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

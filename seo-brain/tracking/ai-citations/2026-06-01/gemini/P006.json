@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P006",
+  "prompt_text": "DonorDock vs DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.501954+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When comparing DonorDock and DonorPerfect, you're looking at two very capable fundraising and donor management platforms, but they come from different philosophies and are built on different foundations.\n\nHere's a breakdown to help you understand their differences:\n\n---\n\n## DonorDock vs. DonorPerfect: A Comprehensive Comparison\n\n| Feature             | DonorDock                                       | DonorPerfect                                   |\n| :------------------ | :---------------------------------------------- | :--------------------------------------------- |\n| **Foundation**      | Built on **Microsoft Dynamics 365**             | Proprietary, long-standing platform            |\n| **Target Audience** | Mid-sized to larger nonprofits; those seeking deep integration with Microsoft ecosystem; data-driven organizations. | Small to large nonprofits; those needing a comprehensive, proven solution; broad feature set. |\n| **User Interface**  | Modern, intuitive (inherits Dynamics 365 UI), highly customizable dashboards. | Functional, can feel traditional; many menus and modules. |\n| **Core Strength**   | **Deep CRM capabilities, automation, AI-driven insights (via Dynamics), native Microsoft integration, high customizability.** | **Broad feature set, established history, robust donor management, gift processing, event management, volunteer management.** |\n| **Integrations**    | Native with Microsoft 365, Power BI, Azure. Extensive ecosystem via Dynamics 365 platform. | Many popular nonprofit tools (QuickBooks, Mailchimp, Payment Processors), often via specific connectors. |\n| **Learning Curve**  | Can be moderate to high if unfamiliar with Dynamics 365, but very powerful once mastered. | Moderate to steep due to feature depth and historical interface. |\n| **Customization**   | Highly customizable due to Dynamics 365 platform; can tailor fields, workflows, dashboards extensively. | Customizable fields and reports; generally less flexible for fundamental workflow changes than Dynamics. |\n| **Reporting**       | Powerful, customizable dashboards and reports, leveraging Power BI capabilities for advanced analytics. | Robust, detailed reporting features; strong predefined reports and custom report builder. |\n| **Pricing**         | Often includes Dynamics 365 licensing plus DonorDock subscription. Can be competitive for the power, but potentially higher entry point. | Tiered pricing based on donor records/features. Can scale significantly with add-ons. |\n| **Scalability**     | Enterprise-grade scalability due to Microsoft Dynamics 365 foundation. | Highly scalable for growing organizations within its ecosystem. |\n| **Online Fundraising** | Customizable forms, donation pages, peer-to-peer (built on Dynamics capabilities). | Comprehensive online forms, donation pages, event registration, peer-to-peer. |\n\n---\n\n### DonorDock: The Modern, Dynamics-Powered Solution\n\n**What it is:** DonorDock is a modern fundraising and donor management solution specifically built *on top of* Microsoft Dynamics 365. This is its defining characteristic. It leverages the robust CRM and business application framework of Dynamics to provide nonprofit-specific",
+  "donordock_mentioned": true,
+  "donordock_position": 15,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 631,
+  "estimated_cost_usd": 0.001579,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

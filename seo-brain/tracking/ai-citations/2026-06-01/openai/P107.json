@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "openai",
+  "timestamp": "2026-06-01T13:25:21.502752+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Measuring donor retention is an essential aspect of nonprofit management, helping organizations understand how well they are maintaining relationships with their supporters. Here\u2019s how you can measure donor retention:\n\n1. **Define the Measurement Period:**  \n   Decide the time frame you will use to measure retention. Common periods include annual retention (year-over-year) or monthly/quarterly retention.\n\n2. **Calculate Donor Retention Rate:**  \n   The donor retention rate is the percentage of last year's donors who continue to donate this year. The formula is:\n\n   \\[\n   \\text{Donor Retention Rate} = \\left(\\frac{\\text{Number of Donors This Year who gave Last Year}}{\\text{Number of Donors Last Year}}\\right) \\times 100\n   \\]\n\n   For example, if you had 1,000 donors last year and 600 of them donated again this year, your retention rate would be 60%.\n\n3. **Segment Donors:**  \n   Analyze retention rates across different donor segments for deeper insights. Segments can include first-time donors, repeat donors, major donors, monthly donors, etc. Understanding which segments have higher or lower retention can guide targeted engagement efforts.\n\n4. **Use a Donor Database or CRM:**  \n   To accurately track and calculate retention rates, use a reliable donor management system. This software can automate much of the work, helping to track giving patterns, segment donors, and calculate retention rates.\n\n5. **Analyze Giving Patterns:**  \n   Look at patterns such as the frequency and average gift size to identify trends. Understand whether the frequency of giving or the average gift size correlates with better retention.\n\n6. **Assess Engagement Efforts:**  \n   Track engagement efforts like newsletters, event participation, and personal outreach in connection with retention rates. Higher engagement often leads to higher retention.\n\n7. **Benchmark Against Industry Standards:**  \n   Comparing your retention rate to industry benchmarks can provide context for your results. For example, a typical donor retention rate for nonprofits hovers around 40-45%, but it can vary widely by sector and organization size.\n\n8. **Conduct Surveys or Feedback:**  \n   Regularly gather feedback from donors to understand their motivations and dissatisfaction if any. This can provide qualitative data to pair with quantitative retention metrics.\n\n9. **Track Long-Term Retention:**  \n   Consider tracking retention over multiple years for more comprehensive insights into long-term donor relationships.\n\n10. **Evaluate Strategies:**  \n    Evaluate the strategies you employ to improve retention, like thank you programs, recognition events, and personalized communications, to see what effectively boosts donor retention rates.\n\nBy systematically measuring and analyzing donor retention, nonprofits can develop strategies to enhance donor loyalty and increase the effectiveness of their fundraising efforts.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 551,
+  "estimated_cost_usd": 0.00554,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

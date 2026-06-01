@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P086",
+  "prompt_text": "Best donor CRM for homeless services",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502559+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Homeless Services\n\nHere are top options tailored for homeless services organizations:\n\n## **Top Recommendations**\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized homeless services nonprofits\n- **Strengths:** Donor retention focus, intuitive interface, strong reporting\n- **Price:** Starting ~$125/month\n- **Why it fits:** Simple enough for lean teams, built-in engagement tools\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations or those needing case management integration\n- **Strengths:** Highly customizable, can combine donor management + client services tracking\n- **Price:** Discounted/free for qualifying nonprofits (10 licenses), then ~$36/user/month\n- **Why it fits:** Can track both donors AND clients receiving services in one system\n\n### **3. Little Green Light**\n- **Best for:** Budget-conscious organizations\n- **Price:** Starting ~$59/month\n- **Strengths:** Affordable, solid donor management basics, grants tracking\n- **Why it fits:** Good value for organizations with tight budgets\n\n### **4. Kindful (by Bloomerang)**\n- **Best for:** Organizations wanting marketing automation included\n- **Strengths:** Built-in email marketing, online donation forms\n- **Price:** Starting ~$100/month\n\n## **Key Features to Prioritize**\n\nFor homeless services specifically, look for:\n- \u2705 Grant management capabilities (foundation funding is critical)\n- \u2705 Event management (for fundraising events)\n- \u2705 Volunteer tracking\n- \u2705 Recurring donation management\n- \u2705 Integration with accounting software\n- \u2705 Impact reporting for funders\n\n**What's your organization's size and budget?** I can narrow down the recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 422,
+  "estimated_cost_usd": 0.006372,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P146",
+  "prompt_text": "Best donor CRM with grant tracking",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502957+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for the \"best\" donor CRM with grant tracking, you're essentially seeking a system that excels in both core donor relationship management *and* the specialized needs of managing the full grant lifecycle (prospecting, application, submission, reporting, disbursement tracking, and relationship with foundations).\n\nHere's a breakdown of the top contenders, categorized by their strengths:\n\n---\n\n### Top Picks for Robust Grant Tracking & Donor Management\n\nThese options offer the most comprehensive features for both managing donors and the intricate process of grant management.\n\n1.  **Salesforce Nonprofit Cloud (NPSP) with Grants Management for Nonprofits**\n    *   **Pros:**\n        *   **Unmatched Customization:** Salesforce's biggest strength. You can tailor it precisely to your unique grant processes, reporting needs, and donor relationships.\n        *   **Scalability:** Grows with your organization, from small to enterprise-level.\n        *   **Ecosystem:** Access to thousands of apps on the AppExchange, including dedicated grant management solutions (like the free \"Grants Management for Nonprofits\" package from Salesforce Labs, or more advanced paid options).\n        *   **Powerful Reporting & Analytics:** Create highly detailed reports on grant pipeline, success rates, requirements, and donor engagement.\n        *   **Comprehensive Donor Management:** Robust features for individual giving, major gifts, campaigns, and communications.\n    *   **Cons:**\n        *   **Steep Learning Curve:** Can be complex to set up and requires ongoing administration, often needing a dedicated Salesforce admin or consultant.\n        *   **Cost:** While NPSP offers free licenses for 10 users, implementation, additional apps, and advanced features can be costly.\n        *   **Out-of-the-Box Experience:** Less \"plug and play\" than other CRMs; requires configuration to meet specific needs.\n    *   **Grant Tracking Specifics:** Tracks entire grant lifecycle (prospecting, proposal, application, requirements, reporting deadlines, disbursements, contacts). Highly configurable to match your specific grant-seeking strategy.\n\n2.  **Neon One (NeonCRM)**\n    *   **Pros:**\n        *   **All-in-One Suite:** Offers a broad range of features beyond just CRM and grants, including event management, memberships, volunteers, and websites.\n        *   **Dedicated Grant Management Module:** Specifically designed to manage grants from proposal to fulfillment.\n        *   **User-Friendly:** Generally easier to implement and use out-of-the-box compared to Salesforce.\n        *   **Good Integrations:** Integrates well with other tools.\n        *   **",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Neon One",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 548,
+  "estimated_cost_usd": 0.001372,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

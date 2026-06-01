@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P149",
+  "prompt_text": "How to migrate from Excel to a nonprofit CRM",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.503131+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Migrating from Excel to a nonprofit CRM is a significant step that can revolutionize your organization's efficiency, donor relationships, and fundraising efforts. It moves you from scattered data to a centralized, actionable database.\n\nHere's a comprehensive guide to help you through the process:\n\n---\n\n## Why Migrate from Excel to a Nonprofit CRM?\n\nBefore diving into the \"how,\" it's good to remember the \"why\":\n*   **Centralized Data:** All donor, volunteer, grant, and program data in one place.\n*   **Improved Donor Relationships:** Better tracking of interactions, preferences, and giving history allows for personalized communication.\n*   **Streamlined Fundraising:** Easier campaign management, grant tracking, and major gift cultivation.\n*   **Enhanced Reporting & Analytics:** Gain insights into donor trends, campaign performance, and organizational impact.\n*   **Automation:** Automate repetitive tasks like thank you notes, donation receipts, and recurring gift reminders.\n*   **Collaboration:** Multiple team members can access and update information simultaneously and securely.\n*   **Scalability:** CRMs grow with your organization.\n\n---\n\n## The Migration Process: Step-by-Step\n\nMigrating is more than just moving data; it's an opportunity to clean house and establish better data practices.\n\n### Phase 1: Planning & Preparation (The Most Crucial Phase)\n\n1.  **Form a Migration Team:**\n    *   **Project Lead:** Someone to oversee the entire process.\n    *   **Data Expert:** Someone who understands your current Excel data inside and out.\n    *   **End-User Representative:** Someone who uses the data daily (e.g., development director, program manager).\n    *   **IT/Tech Support (if available):** For technical guidance and support.\n\n2.  **Define Your Needs & Goals:**\n    *   What problems are you trying to solve with a CRM?\n    *   What key features are absolutely essential (e.g., donor management, volunteer tracking, grant management, email integration, event management, accounting integration)?\n    *   What reports do you need to generate regularly?\n    *   What processes do you want to automate?\n    *   What is your budget (for the CRM itself, implementation, and ongoing costs)?\n    *   What is your timeline?\n\n3.  **Research & Select a Nonprofit CRM:**\n    This is a critical decision. Consider:\n    *   **Nonprofit Focus:** Does it have features specifically for nonprofits (e.g., gift types, campaigns, appeals, pledges)?\n    *   **Ease of Use:** How intuitive is the interface? Will your team adopt it easily?\n    *   **Scalability:** Can it grow with your organization?\n    *   **Integrations:** Does it integrate with your accounting software (QuickBooks, Xero), email marketing (Mailchimp, Constant Contact), or event platforms?\n    *   **Support & Training:** What kind of support, documentation, and training do they offer?\n    *   **Pricing Structure:** Understand initial costs, monthly/annual fees, and costs per user or record count.\n    *   **Popular Options for Nonprofits:**\n        *   **Salesforce Nonprofit Cloud (NPSP):** Very powerful, highly customizable, often free/discounted for nonprofits (requires significant setup).\n        *   **Bloomerang:** User-friendly, strong focus on donor retention and engagement.\n        *   **Little Green Light (LGL):** Affordable, good for smaller to mid-sized nonprofits, strong reporting.\n        *   **Kindful (now Classy for Salesforce):** Integrates well with fundraising tools, focused on online giving.\n        *   **Virtuous:** Modern, donor-centric, strong automation capabilities.\n        *   **Neon CRM:** Comprehensive, covers many aspects from fundraising to events and memberships.\n        *   **Raiser's Edge NXT (Blackbaud):** Enterprise-level solution, very comprehensive but can be complex and costly.\n\n4.  **Audit Your Existing Excel Data:**\n    *   **Locate All Data Sources:** Where are all your relevant Excel files (and potentially other sources like Google Sheets, Access databases, old",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 884,
+  "estimated_cost_usd": 0.002213,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

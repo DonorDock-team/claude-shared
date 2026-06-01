@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P129",
+  "prompt_text": "Bloomerang limitations",
+  "engine": "perplexity",
+  "timestamp": "2026-06-01T13:25:21.502999+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang\u2019s main limitations are that it is optimized for small\u2013mid sized nonprofits, is not an all\u2011in\u2011one marketing/operations suite, and has some constraints in customization and reporting compared with more enterprise CRMs.[1][8]\n\nKey limitations to understand:\n\n- **Best fit for small\u2013mid sized organizations**  \n  Bloomerang\u2019s strength is its *simplicity*; very large, complex nonprofits needing deep program management, case management, or sophisticated advocacy tools may outgrow it and prefer highly customizable platforms like Salesforce or Blackbaud.[1][6]\n\n- **Not an \u201call\u2011in\u2011one\u201d system**  \n  Bloomerang is primarily a **donor CRM and fundraising** platform, not a full marketing automation or operations hub.[1][4]  \n  You will typically still need separate tools (integrated via connectors) for:\n  - Advanced email marketing and automation  \n  - Social media management  \n  - Some website / CMS functions  \n  This \u201cbest\u2011of\u2011breed\u201d approach adds integration setup and ongoing tool management.[1]\n\n- **Customization and reporting constraints**  \n  User reviews note limitations around:\n  - **Custom fields and profile fields** (how flexible they are and how they can be structured)[8]  \n  - **Reporting filters and column setup** (less flexible or intuitive than advanced/enterprise CRMs)[8]  \n  If your team is very report\u2011driven or used to highly customized dashboards and complex queries, you may find Bloomerang\u2019s reporting layer somewhat restrictive.\n\n- **Not designed as a full program or case management system**  \n  Compared with platforms oriented to both fundraising and detailed program delivery, Bloomerang\u2019s feature set is centered on donors, volunteers, and fundraising workflows, not on complex service\u2011delivery tracking or case notes.[1][6]\n\n- **Cost relative to \u201cfree\u201d tools**  \n  Pricing is record\u2011based, starting at a paid tier; there is no true long\u2011term free plan.[1][2]  \n  For very small or early\u2011stage nonprofits used to free spreadsheets or free CRMs, the recurring cost can feel high, even though it is competitively priced versus other nonprofit CRMs.[1]\n\n- **Feature gaps vs. enterprise competitors**  \n  Comparisons with Blackbaud and others highlight that while Bloomerang covers core CRM and fundraising well, it may lack some advanced modules (e.g., highly specialized events, sophisticated grant management, or complex multi\u2011entity accounting integrations) that large institutions expect out of the box.[6]\n\nIf you share your organization\u2019s size, complexity (e.g., number of programs, data/reporting needs), and current tools, I can map these limitations to whether Bloomerang is likely to be a good fit or where you might hit friction.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 577,
+  "estimated_cost_usd": 0.013673,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://designbycosmic.com/guides/nonprofit-branding/bloomerang/",
+      "https://bloomerang.com/pricing",
+      "https://bloomerang.com/experience/impact",
+      "https://bloomerang.com",
+      "https://www.capterra.com/p/131207/Bloomerang/",
+      "https://4agoodcause.com/blackbaud-vs-bloomerang/",
+      "https://bloomerang.com/faq",
+      "https://www.softwareadvice.com/nonprofit/bloomerang-profile/reviews/"
+    ]
+  }
+}

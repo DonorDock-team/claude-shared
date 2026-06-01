@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P034",
+  "prompt_text": "Best nonprofit CRM for growing organizations",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502671+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Nonprofit CRMs for Growing Organizations\n\nHere are the top options based on scalability, features, and nonprofit-specific needs:\n\n## **Top Recommendations**\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Mid-to-large growing nonprofits\n- **Strengths:** Highly scalable, extensive customization, robust fundraising tools\n- **Pricing:** 10 free licenses, then discounted rates (~$36/user/month)\n- **Considerations:** Steeper learning curve, may need implementation support\n\n### **2. Bloomerang**\n- **Best for:** Small-to-midsize organizations focused on donor retention\n- **Strengths:** Excellent donor engagement tools, intuitive interface, strong reporting\n- **Pricing:** Starting ~$125/month\n- **Considerations:** Less customizable than Salesforce\n\n### **3. NeonCRM**\n- **Best for:** Organizations wanting all-in-one functionality\n- **Strengths:** Membership management, event registration, email marketing included\n- **Pricing:** Starting ~$50/month\n- **Considerations:** Good balance of features and affordability\n\n### **4. Kindful (by Bloomerang)**\n- **Best for:** Fast-growing organizations needing integrations\n- **Strengths:** Modern interface, integrates with many fundraising tools\n- **Pricing:** ~$100/month+\n\n### **5. DonorPerfect**\n- **Best for:** Organizations prioritizing donor management\n- **Strengths:** Comprehensive fundraising features, good support\n- **Pricing:** Custom pricing\n\n## **Key Selection Factors**\n- Current budget and anticipated growth\n- Integration needs (website, email, accounting)\n- Team technical expertise\n- Specific features (grant tracking, volunteer management, etc.)\n\nWhat's your organization's size and primary CRM needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 425,
+  "estimated_cost_usd": 0.006417,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

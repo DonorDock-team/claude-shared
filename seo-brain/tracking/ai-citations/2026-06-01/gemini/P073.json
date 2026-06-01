@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502891+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor pledges is a critical part of fundraising, allowing organizations to forecast income, manage cash flow, and maintain strong donor relationships. It's distinct from tracking immediate donations, as pledges represent a *promise* to give, often over time.\n\nHere's a comprehensive guide on how to track donor pledges:\n\n## 1. Key Information to Capture for Each Pledge\n\nFor effective tracking, you need to record specific details about each pledge. This forms the foundation of your system:\n\n*   **Donor Information:**\n    *   Donor Name (Individual/Organization)\n    *   Contact Information (Email, Phone, Address)\n    *   Stewardship/Relationship Manager (if applicable)\n*   **Pledge Details:**\n    *   **Pledge Date:** When the donor made the commitment.\n    *   **Pledge Amount:** The total amount committed.\n    *   **Pledge Type:** (e.g., Cash, Stock, In-kind - though cash is most common for pledges)\n    *   **Purpose/Fund:** To which specific program, campaign, or fund the pledge is designated (e.g., \"New Building Fund,\" \"Annual Fund,\" \"Scholarship Endowment\").\n    *   **Campaign/Appeal:** Which specific fundraising effort prompted the pledge.\n*   **Payment Schedule:**\n    *   **Installment Amount:** How much is due per payment.\n    *   **Payment Frequency:** (e.g., monthly, quarterly, annually, one-time)\n    *   **Start Date:** When the first payment is due.\n    *   **End Date:** When the final payment is due.\n    *   **Individual Due Dates:** A list of all scheduled payment dates.\n*   **Tracking & Status:**\n    *   **Total Payments Received to Date:** Sum of all payments made towards this pledge.\n    *   **Balance Due:** Total Pledge Amount - Total Payments Received.\n    *   **Next Payment Due Date:** The upcoming installment date.\n    *   **Pledge Status:**\n        *   **Active:** Pledge is ongoing.\n        *   **Fulfilled:** All payments have been received.\n        *   **Delinquent/Overdue:** A payment was missed.\n        *   **Canceled/Adjusted:** Pledge was modified or rescinded (requires documentation).\n    *   **Acknowledgment Status:** Has the initial pledge commitment been thanked?\n    *   **Notes:** Any specific conditions, conversations, or reminders related to the pledge.\n\n## 2. Methods and Tools for Tracking Pledges\n\nThe right tool depends on your organization's size, budget, and complexity.\n\n### A. Spreadsheets",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 565,
+  "estimated_cost_usd": 0.001414,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

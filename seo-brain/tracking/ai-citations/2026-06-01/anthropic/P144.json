@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P144",
+  "prompt_text": "How to choose nonprofit fundraising software",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.502798+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Choose Nonprofit Fundraising Software\n\nSelecting the right fundraising software is crucial for your nonprofit's success. Here's a practical guide to help you make an informed decision:\n\n## 1. **Assess Your Needs**\n- **Organization size** and number of donors\n- Types of fundraising (events, peer-to-peer, recurring donations, major gifts)\n- Current pain points in your donation process\n- Staff technical expertise\n- Integration requirements with existing tools\n\n## 2. **Key Features to Consider**\n\n**Essential Features:**\n- Online donation forms and payment processing\n- Donor database/CRM\n- Donation tracking and receipting\n- Reporting and analytics\n- Email marketing capabilities\n\n**Advanced Features:**\n- Peer-to-peer fundraising\n- Event management\n- Membership management\n- Grant tracking\n- Volunteer management\n- Mobile optimization\n\n## 3. **Evaluate Costs**\n- Monthly/annual subscription fees\n- Transaction/processing fees\n- Setup and implementation costs\n- Training expenses\n- Hidden fees for support or additional users\n\n## 4. **Technical Considerations**\n- **Cloud-based vs. on-premise**\n- Ease of use for staff and donors\n- Mobile responsiveness\n- Integration capabilities (accounting software, email platforms, social media)\n- Data security and compliance (PCI-DSS, GDPR)\n\n## 5. **Research and Compare**\n- Read reviews on sites like Capterra, G2, or TechSoup\n- Request demos from 3-5 vendors\n- Ask for references from similar organizations\n- Test donor experience with trial accounts\n\n## 6. **Popular Options by Organization Size**\n\n**Small nonprofits:** Donorbox, GiveWP, PayPal Giving Fund\n**Mid-size:** Bloomerang, DonorPerfect, Kindful\n**Large organizations:** Blackbaud Raiser's Edge, Salesforce Nonprofit Cloud\n\n## 7. **Questions to Ask Vendors**\n- What's included in customer support?\n- How long does implementation take?\n- Can we export our data if we leave?\n- What integrations are available?\n- How often do you release updates?\n\n## Final Tips\n- **Start with your must-haves** rather than nice-to-haves\n- **Think long-term** \u2013 choose software that can grow with you\n- **Involve key stakeholders** in the decision\n- **Don't rush** \u2013 a wrong choice can be costly to fix\n\nThe best software is one that fits your specific needs, budget, and technical capacity while making it easy for donors to give.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 588,
+  "estimated_cost_usd": 0.008862,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

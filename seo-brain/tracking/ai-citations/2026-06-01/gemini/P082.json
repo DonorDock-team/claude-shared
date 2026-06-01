@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502210+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For hospitals, choosing the \"best\" donor CRM isn't just about standard fundraising features; it's heavily influenced by unique factors like **HIPAA compliance, integration with Electronic Health Records (EHR/EMR), managing grateful patient programs, and handling complex philanthropic relationships (doctors, researchers, board members, corporate partners).**\n\nGiven these specialized needs, the top contenders generally narrow down to solutions that are robust, highly customizable, and have a proven track record in the healthcare and large non-profit sectors.\n\nHere are the top recommendations, along with key considerations for hospitals:\n\n---\n\n## Top Contenders for Hospital Donor CRMs\n\n### 1. Salesforce Nonprofit Success Pack (NPSP) with Health Cloud Integration (or similar custom build)\n\n**Why it's often the #1 choice for hospitals:**\n\n*   **Unparalleled Customization & Scalability:** Salesforce is a platform, not just a product. This means it can be tailored to an extreme degree to fit a hospital's specific workflows, data models, and integration needs.\n*   **Healthcare Industry Focus:** Salesforce has a dedicated \"Health Cloud\" which means they understand the unique data, security, and integration challenges of healthcare organizations. While NPSP handles the fundraising, the underlying platform's capabilities are crucial.\n*   **Robust Integration Capabilities:** Salesforce has a vast ecosystem of third-party apps and powerful APIs, making it easier (though still complex) to integrate with EHR/EMR systems, finance software, marketing automation, and more. This is critical for grateful patient programs.\n*   **Complex Relationship Management:** Excellent for tracking intricate relationships between patients, family members, doctors, researchers, board members, corporate partners, and foundations.\n*   **Advanced Analytics & Reporting:** Highly capable of segmenting donors, tracking campaign performance, managing major gift pipelines, and providing deep insights.\n*   **Large Partner Ecosystem:** Many implementation partners specialize in Salesforce for healthcare and non-profits, which is vital for successful deployment.\n\n**Considerations for Hospitals:**\n\n*   **Complexity & Cost:** Salesforce can be expensive, both in licensing and implementation. It often requires dedicated administrators or an ongoing relationship with a consulting partner.\n*   **Implementation Time:** Due to its customizability, a full implementation can be lengthy and requires significant internal resources.\n*   **HIPAA Compliance:** While Salesforce can be configured",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 488,
+  "estimated_cost_usd": 0.001221,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

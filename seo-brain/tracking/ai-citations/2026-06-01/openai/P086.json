@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P086",
+  "prompt_text": "Best donor CRM for homeless services",
+  "engine": "openai",
+  "timestamp": "2026-06-01T13:25:21.502574+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the best donor CRM for homeless services involves considering factors like ease of use, customization, cost, and specific features that align with the needs of nonprofits working in this sector. Here are some popular options:\n\n1. **Salesforce Nonprofit Cloud**: Highly customizable and scalable, Salesforce offers a powerful tool for managing donor relationships and data. It can be tailored to suit the specific needs of homeless services, including tracking donations, client services, and volunteer management.\n\n2. **Bloomerang**: Known for its user-friendly interface and focus on donor retention, Bloomerang offers features like engagement tracking and social media integration. Its simplicity and effective reporting tools make it a good option for smaller organizations.\n\n3. **NeonCRM**: This comprehensive CRM is designed specifically for nonprofits and includes robust features for fundraising, membership management, and communication. NeonCRM is known for its affordability and strong customer support.\n\n4. **DonorPerfect**: Offers a wide array of features, including donation tracking, event management, and customizable reports. Known for its ease of use, DonorPerfect can be a good fit for organizations of varying sizes.\n\n5. **Kindful**: Integrates seamlessly with other tools and platforms, and is known for its clean user interface and excellent customer support. Kindful is particularly strong in online fundraising and donor management.\n\n6. **Little Green Light**: This is a cost-effective and versatile option that supports donor tracking, membership management, and event planning. It is well-suited for small to medium-sized organizations.\n\nWhen selecting a CRM, consider a free trial or demo to see how the software fits with your organization's workflow and whether it provides the necessary tools to effectively manage donor relationships and other nonprofit activities.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 347,
+  "estimated_cost_usd": 0.003502,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

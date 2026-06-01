@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P062",
+  "prompt_text": "Best nonprofit CRM with email and text messaging",
+  "engine": "gemini",
+  "timestamp": "2026-06-01T13:25:21.502082+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" nonprofit CRM with email and text messaging depends heavily on your organization's specific needs, budget, size, and complexity. However, I can highlight the top contenders and explain their strengths and weaknesses regarding these features.\n\nHere are the leading nonprofit CRMs that excel in donor management and offer robust integrated or deeply integrated email and text messaging capabilities:\n\n---\n\n## Top Nonprofit CRMs with Email & Text Messaging\n\n### 1. Bloomerang (Highly Recommended for Ease of Use & Donor Retention)\n\n*   **Best For:** Small to mid-sized nonprofits, those prioritizing donor retention, user-friendliness, and clean analytics.\n*   **Email & Text Messaging:**\n    *   **Email:** Excellent native email marketing tools. Easy drag-and-drop editor, robust segmentation, automation capabilities for welcome series, lapsed donor appeals, and newsletters. Strong reporting on email performance.\n    *   **Text (SMS):** Integrated SMS messaging for campaigns, alerts, and donor engagement. You can send one-off messages or include SMS in automated workflows.\n*   **Pros:**\n    *   Extremely intuitive user interface, easy to learn and use.\n    *   Strong focus on donor retention metrics and engagement.\n    *   Great customer support and extensive knowledge base.\n    *   Modern, clean design and reporting.\n    *   Comprehensive donor profiles, fundraising, and communication tools.\n*   **Cons:**\n    *   May not have the deepest customization options for very large, complex organizations compared to Salesforce.\n    *   Reporting can be powerful but might take some learning for advanced queries.\n*   **Overall:** Bloomerang is often a top choice for organizations looking for a powerful yet accessible solution that seamlessly integrates email and text messaging into their donor engagement strategy.\n\n### 2. Salesforce Nonprofit Cloud (NPSP) (Most Powerful & Customizable)\n\n*   **Best For:** Medium to large nonprofits, organizations with complex data needs, diverse programs, and those that need extreme customization.\n*   **Email & Text Messaging:**\n    *   **Email:** While Salesforce NPSP itself doesn't have a native email *marketing* tool (it can send individual emails), it integrates seamlessly with powerful platforms like **Salesforce Marketing Cloud**, Pardot, or third-party AppExchange solutions (e.g., Mailchimp, Constant Contact, Marketing Cloud Account Engagement). This provides enterprise-level email automation, segmentation, A/B testing, and personalization.\n    *   **Text (SMS):** Similarly, SMS capabilities come from **Salesforce",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Salesforce NPSP",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 533,
+  "estimated_cost_usd": 0.001335,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

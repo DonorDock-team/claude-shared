@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P058",
+  "prompt_text": "Donor CRM with online giving forms",
+  "engine": "anthropic",
+  "timestamp": "2026-06-01T13:25:21.503021+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM with Online Giving Forms\n\nI'll outline the key components for building a donor CRM system with integrated online giving capabilities.\n\n## Core Features\n\n### 1. **Donor Management**\n- Contact database with donor profiles\n- Donation history tracking\n- Donor segmentation (major donors, recurring, lapsed, etc.)\n- Custom fields and tags\n- Relationship tracking\n- Communication preferences\n\n### 2. **Online Giving Forms**\n- Customizable donation forms\n- One-time and recurring donation options\n- Multiple payment methods (credit card, ACH, PayPal, etc.)\n- Mobile-responsive design\n- Tribute/memorial giving options\n- Custom donation amounts\n- Donation campaigns tracking\n\n### 3. **Payment Processing**\n- Secure PCI-compliant payment gateway integration\n- Support for major processors (Stripe, PayPal, Authorize.net)\n- Automated recurring billing\n- Failed payment retry logic\n- Refund management\n\n### 4. **Donor Communications**\n- Automated thank-you emails\n- Tax receipts generation\n- Email campaign tools\n- Newsletter management\n- Event invitations\n- Personalized messaging\n\n### 5. **Reporting & Analytics**\n- Donation trends and metrics\n- Donor retention rates\n- Campaign performance\n- Revenue forecasting\n- Donor lifetime value\n- Custom report builder\n- Export capabilities\n\n## Popular Solutions\n\n### **All-in-One Platforms**\n- **Bloomerang** - User-friendly with strong retention focus\n- **DonorPerfect** - Comprehensive features for mid-size nonprofits\n- **Blackbaud Raiser's Edge NXT** - Enterprise-level solution\n- **Salesforce Nonprofit Cloud** - Highly customizable\n- **Kindful** - Modern interface with automation\n\n### **Affordable Options**\n- **Donorbox** - Simple, embedded donation forms\n- **GiveWP** (WordPress plugin) - Self-hosted solution\n- **Little Green Light** - Budget-friendly full CRM\n- **Keela** - AI-powered insights at accessible pricing\n\n## Technical Considerations\n\n### **Integration Requirements**\n- Website embedding (iFrame or JavaScript)\n- Accounting software (QuickBooks, Xero)\n- Email marketing platforms (Mailchimp, Constant Contact)\n- Wealth screening tools\n- Event management systems\n\n### **Security & Compliance**\n- PCI DSS compliance\n- SSL certificates\n- Data encryption\n- GDPR compliance\n- Regular security audits\n- Backup and disaster recovery\n\n## Implementation Best Practices\n\n1. **Data Migration** - Clean existing donor data before importing\n2. **Form Optimization** - Keep donation forms simple (3-5 fields max)\n3. **Mobile Testing** - 50%+ of donations now come via mobile\n4. **Thank You Process** - Immediate confirmation and follow-up\n5. **Training** - Ensure staff understand system capabilities\n6. **Regular Updates** - Keep donor information current\n\n## Key Metrics to Track\n\n- **Donor Retention Rate**\n- **Average Gift Size**\n- **Cost per Dollar Raised**\n- **Conversion Rate** (form visitors to donors)\n- **Recurring Donor Percentage**\n- **Donor Lifetime Value**\n\nWould you like specific recommendations based on your organization's size, budget, or particular needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 764,
+  "estimated_cost_usd": 0.011505,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}
