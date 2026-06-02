@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Data Moat · DonorDock Leadership Strategy</title>
+<style>
+  /* ---- Silka (brand font) ---- */
+  @font-face { font-family:'Silka'; src:url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Regular.otf') format('opentype'); font-weight:400; font-style:normal; font-display:swap; }
+  @font-face { font-family:'Silka'; src:url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Medium.otf') format('opentype'); font-weight:500; font-style:normal; font-display:swap; }
+  @font-face { font-family:'Silka'; src:url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-SemiBold.otf') format('opentype'); font-weight:600; font-style:normal; font-display:swap; }
+  @font-face { font-family:'Silka'; src:url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Bold.otf') format('opentype'); font-weight:700; font-style:normal; font-display:swap; }
+  @font-face { font-family:'Silka'; src:url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Black.otf') format('opentype'); font-weight:900; font-style:normal; font-display:swap; }
+
+  :root{
+    --navy:#303034; --gray:#56565D; --cream:#FFFCF5; --lblue:#F7F9F9; --lav:#F5F6FF; --white:#FFFFFF; --dark:#0C050E;
+    --purple:#8C2CBF; --blue:#0F8FED; --green:#4BBE71; --yellow:#FBBF4C; --orange:#DD4E07;
+    --sh1:0 4px 20px rgba(0,0,0,.08); --sh2:0 2px 8px rgba(0,0,0,.06); --sh3:0 8px 32px rgba(0,0,0,.12);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{height:100%;}
+  body{font-family:'Silka',Arial,sans-serif; color:var(--navy); background:var(--dark); overflow:hidden; -webkit-font-smoothing:antialiased;}
+
+  .deck{height:100vh; width:100vw; position:relative;}
+  .slide{position:absolute; inset:0; display:none; flex-direction:column; justify-content:center;
+         padding:6vh 7vw; overflow:hidden; animation:fade .45s ease;}
+  .slide.active{display:flex;}
+  @keyframes fade{from{opacity:0; transform:translateY(8px);} to{opacity:1; transform:none;}}
+
+  /* backgrounds */
+  .bg-cream{background:var(--cream);} .bg-lblue{background:var(--lblue);}
+  .bg-lav{background:var(--lav);} .bg-white{background:var(--white);}
+  .bg-dark{background:var(--dark); color:var(--cream);}
+  .bg-dark .sub,.bg-dark .body{color:#CFC9D4;}
+  .bg-purplegrad{background:linear-gradient(135deg,#8C2CBF 0%,#5B1C7D 100%); color:var(--cream);}
+  .bg-purplegrad .sub{color:#EBD9F5;}
+
+  /* type */
+  .kicker{font-size:14px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:var(--purple); margin-bottom:18px;}
+  .bg-dark .kicker,.bg-purplegrad .kicker{color:#D9B6F0;}
+  h1{font-size:clamp(40px,6vw,82px); font-weight:700; line-height:1.04; letter-spacing:-2px;}
+  h2{font-size:clamp(30px,4.2vw,54px); font-weight:700; line-height:1.08; letter-spacing:-1.5px; margin-bottom:8px;}
+  h3{font-size:clamp(18px,1.6vw,24px); font-weight:700; line-height:1.2; letter-spacing:-.5px;}
+  .sub{font-size:clamp(17px,1.7vw,22px); font-weight:400; color:var(--gray); line-height:1.5; max-width:60ch; margin-top:14px;}
+  .body{font-size:clamp(14px,1.05vw,17px); color:var(--gray); line-height:1.55;}
+  .accent-p{color:var(--purple);} .accent-b{color:var(--blue);} .accent-g{color:var(--green);}
+  .accent-y{color:var(--yellow);} .accent-o{color:var(--orange);}
+  em.hl{font-style:normal; font-weight:700; color:var(--navy);}
+  .bg-dark em.hl,.bg-purplegrad em.hl{color:var(--cream);}
+
+  /* pills */
+  .pill{display:inline-flex; align-items:center; gap:8px; border-radius:100px; padding:10px 22px;
+        font-weight:600; font-size:15px; color:var(--navy); background:var(--lblue);
+        border:1.5px solid rgba(0,0,0,.07); box-shadow:var(--sh2);}
+  .pill.sm{padding:6px 15px; font-size:12.5px;}
+  .pill.lg{padding:13px 30px; font-size:17px;}
+  .pill .dot{width:9px; height:9px; border-radius:50%; background:var(--purple);}
+  .bg-dark .pill,.bg-purplegrad .pill{background:rgba(255,255,255,.1); border:1.5px solid rgba(255,255,255,.18); color:var(--cream);}
+  .pill.b{border-color:rgba(15,143,237,.35);} .pill.b .dot{background:var(--blue);}
+  .pill.g{border-color:rgba(75,190,113,.4);} .pill.g .dot{background:var(--green);}
+  .pill.y{border-color:rgba(251,191,76,.5);} .pill.y .dot{background:var(--yellow);}
+  .pill.o{border-color:rgba(221,78,7,.35);} .pill.o .dot{background:var(--orange);}
+  .pill.p{border-color:rgba(140,44,191,.35);} .pill.p .dot{background:var(--purple);}
+
+  .frost{background:rgba(255,255,255,.78); border:1.5px solid rgba(0,0,0,.08); border-radius:12px; padding:2px 12px; display:inline-block;}
+  .bg-dark .frost,.bg-purplegrad .frost{background:rgba(255,255,255,.14); border-color:rgba(255,255,255,.2);}
+
+  /* cards */
+  .card{background:var(--white); border-radius:20px; box-shadow:var(--sh1); padding:30px 32px;}
+  .card .body{margin-top:8px;}
+  .nested{background:var(--lblue); border-radius:14px; box-shadow:var(--sh2); padding:18px 20px; border:1px solid rgba(0,0,0,.04);}
+  .bg-dark .card{background:#190F1F; box-shadow:none; border:1px solid rgba(255,255,255,.08);}
+  .bg-dark .card h3{color:var(--cream);} .bg-dark .card .body{color:#CFC9D4;}
+  .bg-dark .nested{background:#221428; border-color:rgba(255,255,255,.07);}
+
+  .grid{display:grid; gap:22px; margin-top:30px;}
+  .g2{grid-template-columns:1fr 1fr;} .g3{grid-template-columns:repeat(3,1fr);} .g4{grid-template-columns:repeat(4,1fr);}
+
+  .ic{width:46px; height:46px; border-radius:13px; display:flex; align-items:center; justify-content:center; font-size:22px; margin-bottom:14px;}
+  .ic.p{background:rgba(140,44,191,.12);} .ic.b{background:rgba(15,143,237,.12);}
+  .ic.g{background:rgba(75,190,113,.14);} .ic.y{background:rgba(251,191,76,.18);} .ic.o{background:rgba(221,78,7,.12);}
+
+  .stat{font-size:clamp(30px,3.4vw,46px); font-weight:900; letter-spacing:-1.5px; line-height:1;}
+  .stat .u{font-size:.42em; font-weight:700; color:var(--gray); letter-spacing:0;}
+  .lbl{font-size:13px; font-weight:600; color:var(--gray); margin-top:8px; line-height:1.3;}
+
+  .confirm{display:inline-flex; align-items:center; gap:5px; font-size:11px; font-weight:700; letter-spacing:.3px;
+           color:var(--orange); background:rgba(221,78,7,.08); border:1px dashed rgba(221,78,7,.5);
+           border-radius:6px; padding:1px 7px; vertical-align:middle; text-transform:uppercase;}
+  .src{font-size:12px; color:var(--gray); opacity:.8; margin-top:4px;}
+  .bg-dark .src{color:#9A92A0;}
+  .future{display:flex; align-items:flex-start; gap:14px; background:rgba(0,0,0,.02); border:1.5px dashed rgba(0,0,0,.18);
+          border-radius:14px; padding:13px 18px; opacity:.62;}
+  .future .ftag{flex:none; font-size:11px; font-weight:800; letter-spacing:.8px; text-transform:uppercase; color:var(--gray);
+          background:rgba(0,0,0,.05); border-radius:100px; padding:4px 11px; white-space:nowrap;}
+  .future .ft{font-size:13.5px; color:var(--gray); line-height:1.45;}
+
+  /* flywheel */
+  .wheel{position:relative; width:min(46vh,460px); height:min(46vh,460px); margin:10px auto 0;}
+  .wheel .ring{position:absolute; inset:8%; border:2px dashed rgba(140,44,191,.4); border-radius:50%;}
+  .wheel .core{position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:42%; height:42%;
+        background:linear-gradient(135deg,#8C2CBF,#5B1C7D); border-radius:50%; color:var(--cream);
+        display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;
+        box-shadow:0 10px 30px rgba(140,44,191,.4); padding:10px;}
+  .wheel .core b{font-size:clamp(15px,1.5vw,19px); font-weight:800; line-height:1.1;}
+  .wheel .node{position:absolute; transform:translate(-50%,-50%); background:var(--white); border-radius:100px;
+        padding:8px 16px; font-size:13px; font-weight:700; color:var(--navy); box-shadow:var(--sh1); white-space:nowrap;}
+  .wheel .node span{display:block; font-weight:500; font-size:11px; color:var(--gray);}
+  .n1{top:2%; left:50%;} .n2{top:33%; left:97%;} .n3{top:90%; left:78%;}
+  .n4{top:90%; left:22%;} .n5{top:33%; left:3%;}
+
+  /* layer stack */
+  .stack{display:flex; flex-direction:column; gap:12px; margin-top:8px;}
+  .layer{display:flex; align-items:center; gap:22px; border-radius:16px; padding:18px 26px; box-shadow:var(--sh1);}
+  .layer .tag{font-size:13px; font-weight:800; letter-spacing:1px; opacity:.85; min-width:34px;}
+  .layer .nm{font-size:clamp(17px,1.7vw,22px); font-weight:700; letter-spacing:-.5px; min-width:230px;}
+  .layer .ds{font-size:14.5px; line-height:1.4; flex:1;}
+  .layer.l3{background:linear-gradient(135deg,#8C2CBF,#5B1C7D); color:var(--cream);}
+  .layer.l3 .ds{color:#EBD9F5;}
+  .layer.l2{background:rgba(15,143,237,.12);}
+  .layer.l1{background:rgba(75,190,113,.14);}
+  .layer.l0{background:var(--white);}
+  .layer.l0 .ds{color:var(--gray);}
+
+  /* horizon columns */
+  .hz{position:relative;}
+  .hz .htag{display:inline-block; font-size:12px; font-weight:800; letter-spacing:1px; text-transform:uppercase;
+        padding:5px 12px; border-radius:100px; margin-bottom:12px;}
+  .hz.h1 .htag{background:rgba(75,190,113,.16); color:#2c8049;}
+  .hz.h2 .htag{background:rgba(15,143,237,.14); color:#0b6fc0;}
+  .hz.h3 .htag{background:rgba(140,44,191,.14); color:var(--purple);}
+  .hz ul{list-style:none; margin-top:6px;}
+  .hz li{font-size:14px; color:var(--gray); line-height:1.4; padding:7px 0 7px 20px; position:relative; border-top:1px solid rgba(0,0,0,.05);}
+  .hz li:first-child{border-top:none;}
+  .hz li:before{content:''; position:absolute; left:2px; top:14px; width:7px; height:7px; border-radius:50%;}
+  .hz.h1 li:before{background:var(--green);} .hz.h2 li:before{background:var(--blue);} .hz.h3 li:before{background:var(--purple);}
+  .hz li b{color:var(--navy); font-weight:700;}
+
+  /* table */
+  .tbl{width:100%; border-collapse:collapse; margin-top:24px; font-size:14.5px;}
+  .tbl th,.tbl td{text-align:left; padding:14px 16px; border-bottom:1px solid rgba(0,0,0,.07); vertical-align:top;}
+  .tbl th{font-size:12px; text-transform:uppercase; letter-spacing:.6px; color:var(--gray); font-weight:700;}
+  .tbl td:first-child{font-weight:700; color:var(--navy); white-space:nowrap;}
+  .tbl .why{color:var(--gray); line-height:1.4;}
+  .tbl tr.us td{background:rgba(140,44,191,.07);}
+  .tbl tr.us td:first-child{color:var(--purple);}
+
+  .rec{display:flex; gap:18px; align-items:flex-start; padding:16px 0; border-top:1px solid rgba(0,0,0,.07);}
+  .rec:first-of-type{border-top:none;}
+  .rec .num{flex:none; width:38px; height:38px; border-radius:50%; background:var(--purple); color:#fff; font-weight:800; display:flex; align-items:center; justify-content:center; font-size:17px;}
+  .rec .rt b{font-size:17px; font-weight:700; color:var(--navy);}
+  .rec .rt p{font-size:14px; color:var(--gray); line-height:1.4; margin-top:3px;}
+
+  .two{display:grid; grid-template-columns:1fr 1fr; gap:26px; align-items:center;}
+  .lead{font-size:clamp(22px,2.4vw,32px); font-weight:700; line-height:1.25; letter-spacing:-1px;}
+  .lead .frost{padding:2px 14px;}
+
+  /* nav + chrome */
+  .nav{position:fixed; bottom:22px; right:26px; display:flex; align-items:center; gap:12px; z-index:50;}
+  .nav button{width:42px; height:42px; border-radius:50%; border:none; cursor:pointer; background:rgba(140,44,191,.12);
+        color:var(--purple); font-size:18px; display:flex; align-items:center; justify-content:center; transition:.2s;}
+  .nav button:hover{background:var(--purple); color:#fff; box-shadow:0 4px 12px rgba(140,44,191,.3);}
+  .counter{font-size:13px; font-weight:700; color:var(--gray); min-width:50px; text-align:center;}
+  .brandmark{position:fixed; top:24px; left:30px; z-index:50; font-weight:800; letter-spacing:-.5px; font-size:17px; color:var(--navy); display:flex; align-items:center; gap:8px;}
+  .brandmark .sq{width:16px; height:16px; border-radius:5px; background:var(--purple);}
+  .slide.bg-dark ~ .nav, .bg-dark .brandmark{}
+  .progress{position:fixed; top:0; left:0; height:4px; background:var(--purple); z-index:60; transition:width .35s ease;}
+  .hint{position:fixed; bottom:24px; left:30px; z-index:50; font-size:12px; color:var(--gray); opacity:.7;}
+
+  .notes{position:fixed; left:0; right:0; bottom:0; max-height:42vh; overflow:auto; background:#190F1F; color:#E7E1EC;
+        padding:22px 30px; box-shadow:0 -10px 40px rgba(0,0,0,.4); z-index:70; display:none; font-size:14px; line-height:1.55;}
+  .notes.show{display:block;} .notes b{color:#D9B6F0;}
+  .notes .nh{font-size:11px; text-transform:uppercase; letter-spacing:1px; color:#9A92A0; margin-bottom:8px; font-weight:700;}
+
+  @media print{
+    body{overflow:visible; background:#fff;}
+    .slide{display:flex !important; position:relative; inset:auto; height:auto; min-height:92vh; page-break-after:always; border-bottom:1px solid #eee;}
+    .nav,.hint,.notes,.progress,.brandmark{display:none !important;}
+  }
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="brandmark"><span class="sq"></span>DonorDock</div>
+
+<div class="deck" id="deck">
+
+  <!-- 1. TITLE -->
+  <section class="slide bg-dark active">
+    <div class="kicker">Leadership strategy memo · June 2, 2026</div>
+    <h1>The data moat.</h1>
+    <h1 style="color:#D9B6F0;">Building DonorDock's <span class="frost" style="color:#fff;">walled garden</span></h1>
+    <h1 style="font-weight:400; color:#CFC9D4; font-size:clamp(26px,3.4vw,46px); letter-spacing:-1px; margin-top:6px;">in community fundraising.</h1>
+    <p class="sub" style="margin-top:30px; max-width:64ch;">How DonorDock turns the data it already holds into a moat, and a layered model that grows revenue with the sector it serves.</p>
+    <div style="display:flex; gap:12px; margin-top:34px; flex-wrap:wrap;">
+      <span class="pill"><span class="dot"></span>The asset</span>
+      <span class="pill b"><span class="dot"></span>The walled garden</span>
+      <span class="pill g"><span class="dot"></span>The flywheel</span>
+      <span class="pill y"><span class="dot"></span>The model</span>
+      <span class="pill p"><span class="dot"></span>The guardrail</span>
+    </div>
+  </section>
+
+  <!-- 2. TL;DR THESIS -->
+  <section class="slide bg-cream">
+    <div class="kicker">The argument in one slide</div>
+    <h2>Features get copied. <span class="accent-p">Data compounds.</span></h2>
+    <div class="lead" style="margin-top:18px; max-width:52ch;">
+      DonorDock's edge is the <em class="hl">proprietary giving data</em> it has been accumulating for eight years, and the chance to be <em class="hl">first to productize it</em>. The endgame is a <span class="frost"><em class="hl">consent-based donor graph</em></span> built for the community-funded segment. We build on the data in three layers.
+    </div>
+    <div class="grid g3" style="margin-top:36px;">
+      <div class="card"><div class="ic g">⬡</div><h3>1 · Smarter core</h3><p class="body">Aggregate-trained AI and benchmarks make the platform stickier and prove ROI. The foundation everything builds on.</p></div>
+      <div class="card"><div class="ic b">◷</div><h3>2 · Intelligence</h3><p class="body">Benchmarks, scoring, and enrichment sold as the first expansion-revenue layer.</p></div>
+      <div class="card"><div class="ic p">❖</div><h3>3 · Donor network</h3><p class="body">Premium graph access, prospect intelligence, and capacity scoring: the category-defining walled garden.</p></div>
+    </div>
+  </section>
+
+  <!-- 3. WHY NOW / THREAT -->
+  <section class="slide bg-white">
+    <div class="kicker">Why now</div>
+    <h2>The data layer is being claimed. <span class="accent-p">Not in our segment.</span></h2>
+    <p class="sub">The pieces of a giving-data moat are being assembled by others, but no one has built it for community-funded nonprofits. That is the opening.</p>
+    <div class="grid g3" style="margin-top:30px;">
+      <div class="card">
+        <div class="ic b">✦</div>
+        <h3>Generic AI is not a moat</h3>
+        <p class="body">Every CRM ships an AI assistant now. A model wrapper is not a differentiator. What the model is trained on is, and proprietary giving data is the input no competitor can borrow.</p>
+      </div>
+      <div class="card">
+        <div class="ic y">◆</div>
+        <h3>The wealth layer is taken</h3>
+        <p class="body">Wealth engines like iWave and DonorSearch already own the capacity-and-wealth layer, and sell it back to nonprofits for $4,000 to $4,900 a year. They do not see giving behavior or relationships. We do.</p>
+        <p class="src">iWave, DonorSearch pricing, 2026</p>
+      </div>
+      <div class="card">
+        <div class="ic p">◴</div>
+        <h3>The behavioral layer is open</h3>
+        <p class="body">The Fundraising Effectiveness Project proves orgs will share giving data and that aggregated giving intelligence is valuable. But it is given away, not gated. No one has productized a behavioral giving graph for our segment.</p>
+        <p class="src">Fundraising Effectiveness Project</p>
+      </div>
+    </div>
+    <div style="margin-top:26px;"><span class="pill p"><span class="dot"></span>The opening: gate and productize the behavioral giving data others give away or cannot see</span></div>
+  </section>
+
+  <!-- 4. THE ASSET -->
+  <section class="slide bg-lav">
+    <div class="kicker">The asset</div>
+    <h2>We sit on data <span class="accent-p">a single nonprofit can never see.</span></h2>
+    <p class="sub">As a multi-tenant platform, DonorDock holds the giving behavior of a whole segment in one place. That is the raw material of the moat.</p>
+    <div class="grid g4" style="margin-top:30px;">
+      <div class="card"><div class="stat accent-p">~1,000</div><div class="lbl">nonprofit organizations on the platform</div></div>
+      <div class="card"><div class="stat accent-b">$6B+</div><div class="lbl">in giving tracked across all tenants</div></div>
+      <div class="card"><div class="stat accent-g">8+ <span class="u">years</span></div><div class="lbl">of giving data, accumulated since 2017</div></div>
+      <div class="card"><div class="stat accent-y">1 graph</div><div class="lbl">the same donors give to many of our orgs: a latent giving graph</div></div>
+    </div>
+    <div class="card" style="margin-top:22px; background:rgba(255,255,255,.7);">
+      <p class="body" style="font-size:16px;"><em class="hl">The honest version:</em> some incumbents hold bigger datasets than we do. Our edge is not size. It is that our data is proprietary, unified in one modern platform, and ours to productize, while no one has turned this segment's giving behavior into a graph. <em class="hl">Being first matters more than being biggest.</em></p>
+    </div>
+  </section>
+
+  <!-- 5. THE WALLED GARDEN -->
+  <section class="slide bg-dark">
+    <div class="kicker">The endgame</div>
+    <h2 style="color:#fff;">The walled garden is a <span style="color:#D9B6F0;">donor graph.</span></h2>
+    <p class="sub" style="max-width:60ch;">Turn the latent giving graph into a living network. Each capability below is impossible without cross-organizational data, and each one makes leaving DonorDock more costly.</p>
+    <div class="grid g3" style="margin-top:28px;">
+      <div class="card"><h3 style="color:#fff;">Prospect intelligence</h3><p class="body">"This new contact is an active, generous donor to three peer orgs near you." Warm prospects, surfaced from real behavior.</p></div>
+      <div class="card"><h3 style="color:#fff;">Behavior-based capacity</h3><p class="body">A privacy-first alternative to wealth screening, scored on actual giving, not just public wealth markers.</p></div>
+      <div class="card"><h3 style="color:#fff;">Shared signal</h3><p class="body">Sector-wide suppression, address updates, and deceased flags that keep every org's data clean.</p></div>
+      <div class="card"><h3 style="color:#fff;">Lookalike growth</h3><p class="body">Find new donors who resemble your best supporters, drawn from the whole network.</p></div>
+      <div class="card"><h3 style="color:#fff;">Win-back signals</h3><p class="body">Know when a lapsed donor starts giving to a peer org, so you can reach out and re-engage. Recovery powered by the network.</p></div>
+      <div class="card" style="background:linear-gradient(135deg,#8C2CBF,#5B1C7D); border:none;"><h3 style="color:#fff;">The lock-in</h3><p class="body" style="color:#EBD9F5;">Leave DonorDock and you lose the graph and your peer benchmarks. That is the wall around the garden.</p></div>
+    </div>
+  </section>
+
+  <!-- 6. THE FLYWHEEL -->
+  <section class="slide bg-lblue">
+    <div class="kicker">Why it is defensible</div>
+    <h2>A compounding asset, <span class="accent-b">if we move first.</span></h2>
+    <div class="two" style="margin-top:18px;">
+      <div class="wheel">
+        <div class="ring"></div>
+        <div class="core"><b>Data network<br>effect</b></div>
+        <div class="node n1">More nonprofits join<span>more data in</span></div>
+        <div class="node n2">Denser graph &amp; tighter benchmarks<span></span></div>
+        <div class="node n3">Better AI &amp; more GMV<span></span></div>
+        <div class="node n4">Better fundraising outcomes<span></span></div>
+        <div class="node n5">Stronger reason to join<span></span></div>
+      </div>
+      <div>
+        <p class="body" style="font-size:16px; margin-bottom:18px;">Every new organization makes our graph denser, our benchmarks tighter, and our AI sharper. Incumbents hold more raw data, but none has productized it as a graph or network for this segment. The advantage is not size. It is being first to spin the flywheel, and staying focused where they are not.</p>
+        <div class="nested" style="background:#fff; margin-bottom:12px;"><p class="body"><em class="hl">Veeva</em> holds clinical data for most of pharma. <em class="hl">Procore</em> holds project data across tens of thousands of job sites. The pattern is proven in vertical software.</p></div>
+        <div class="nested" style="background:#fff; margin-bottom:12px;"><p class="body"><em class="hl">Toast</em> holds years of transaction history across 164,000 restaurants, the kind of proprietary dataset a general AI model cannot replicate.</p></div>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <span class="pill b sm"><span class="dot"></span>"The data moat is the AI moat"</span>
+          <span class="pill p sm"><span class="dot"></span>Proprietary-data SaaS trades ~220% above peers</span>
+        </div>
+        <p class="src">Sources: vertical SaaS data-moat analysis, 2026; Toast FY2025</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. MONETIZATION LAYERS -->
+  <section class="slide bg-white">
+    <div class="kicker">The model</div>
+    <h2>Monetize in <span class="accent-y">layers.</span></h2>
+    <p class="sub">Every layer is built on the data, and each sits on the one below. Together they turn one flat fee into compounding, data-driven revenue.</p>
+    <div class="stack" style="margin-top:24px;">
+      <div class="layer l3">
+        <span class="tag">L2</span><span class="nm">Donor network</span>
+        <span class="ds">Consent-based graph access, prospect intelligence, and capacity scoring offered as a premium capability. The category-defining layer and the deepest moat.</span>
+      </div>
+      <div class="layer l1">
+        <span class="tag">L1</span><span class="nm">Intelligence add-on</span>
+        <span class="ds">Benchmarks, AI scoring, and enrichment sold on top of the plan. Gate and productize the aggregated giving intelligence FEP gives away, and recapture the $4,000 to $4,900 a year orgs send to wealth-screening vendors.</span>
+      </div>
+      <div class="layer l0">
+        <span class="tag">L0</span><span class="nm">Core subscription</span>
+        <span class="ds">Today's all-in mid-market plan. The access ticket to the platform, and to the data that powers everything above.</span>
+      </div>
+    </div>
+    <p class="src" style="margin-top:18px;">Wealth-screening pricing: DonorSearch ~$4,000/yr, iWave ~$4,900/yr, 2026.</p>
+  </section>
+
+  <!-- 8. HORIZONS -->
+  <section class="slide bg-cream">
+    <div class="kicker">The path to the walled garden</div>
+    <h2>Start safe. <span class="accent-p">Build toward the network.</span></h2>
+    <p class="sub">Every near-term move ships value on its own and quietly builds the data infrastructure the graph will need.</p>
+    <div class="grid g3" style="margin-top:26px; align-items:start;">
+      <div class="card hz h1">
+        <span class="htag">Horizon 1 · now · low risk</span>
+        <ul>
+          <li><b>Benchmarks in-product:</b> "how am I doing vs. peers like me," a reason to stay.</li>
+          <li><b>"State of Donor Stewardship" report:</b> a benchmark built from our aggregated behavioral data, retention, lapse, and engagement, that FEP and the big studies do not cover. Authority, PR, and lead-gen.</li>
+          <li><b>Aggregate-trained AI</b> in Otto: lapse risk, next best action, suggested ask.</li>
+        </ul>
+      </div>
+      <div class="card hz h2">
+        <span class="htag">Horizon 2 · medium</span>
+        <ul>
+          <li><b>Intelligence tier:</b> package benchmarks, scoring, and enrichment as paid expansion.</li>
+          <li><b>Opt-in cross-org signals:</b> for each org that opts in, surface prospect and capacity insights drawn from the wider network. The first live pilots of the graph.</li>
+          <li><b>Behavior-based enrichment</b> that recaptures wealth-screening spend.</li>
+        </ul>
+      </div>
+      <div class="card hz h3">
+        <span class="htag">Horizon 3 · the walled garden</span>
+        <ul>
+          <li><b>Consent-based donor graph:</b> prospect intelligence and capacity scoring drawn from the whole network, offered as a premium capability.</li>
+          <li><b>Network data services:</b> shared suppression, address, and deceased flags that keep every org's data clean.</li>
+          <li><b>Win-back signals:</b> alert orgs when a lapsed donor gives to a peer, so they can re-engage.</li>
+        </ul>
+      </div>
+    </div>
+    <div style="margin-top:22px;"><span class="pill g"><span class="dot"></span>The benchmark report is the visible first move: low risk, high authority, and it seeds the graph</span></div>
+  </section>
+
+  <!-- 9. AVID AI -->
+  <section class="slide bg-lblue">
+    <div class="kicker">A decision to surface</div>
+    <h2>Own the layer, <span class="accent-p">don't feed it.</span></h2>
+    <p class="sub">Today the DonorDock + Avid AI integration is a one-way export of our donor data into a partner's "fundraising operating system." That is worth examining.</p>
+    <div class="two" style="margin-top:24px; align-items:stretch;">
+      <div class="card" style="border-top:4px solid var(--orange);">
+        <h3>The risk</h3>
+        <p class="body">If our crown-jewel data becomes the fuel for someone else's intelligence layer, we risk being relegated to the system of record while the partner owns the relationship, the insight, and the upsell.</p>
+      </div>
+      <div class="card" style="border-top:4px solid var(--green);">
+        <h3>The recommendation</h3>
+        <p class="body">Be the system of record <em class="hl">and</em> the intelligence layer. Let partners integrate with DonorDock while we own the data and the donor relationship. Partnerships sit at the edges; the data layer stays ours.</p>
+      </div>
+    </div>
+    <div style="margin-top:22px;"><span class="pill p"><span class="dot"></span>Keep good partnerships. Keep the data layer ours.</span></div>
+  </section>
+
+  <!-- 10. TRUST GUARDRAIL -->
+  <section class="slide bg-purplegrad">
+    <div class="kicker">The foundation</div>
+    <h2 style="color:#fff;">Trust is the moat. <span style="color:#F3E3FB;">Protect it first.</span></h2>
+    <p class="sub" style="max-width:62ch;">Donor data is sacred, and our brand is built on warmth and trust. The data strategy only works if it strengthens that trust rather than spending it.</p>
+    <div class="grid g3" style="margin-top:26px;">
+      <div class="card" style="background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.18);">
+        <h3 style="color:#fff;">Never sell donor data</h3><p class="body" style="color:#EBD9F5;">Full stop. The moment we monetize donors instead of serving them, the brand and the moat both break.</p>
+      </div>
+      <div class="card" style="background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.18);">
+        <h3 style="color:#fff;">Opt-in and aggregated</h3><p class="body" style="color:#EBD9F5;">Cross-org features are consent-based and aggregated by default. This is the AFP Donor Bill of Rights, not a constraint we invented.</p>
+      </div>
+      <div class="card" style="background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.18);">
+        <h3 style="color:#fff;">Collective intelligence</h3><p class="body" style="color:#EBD9F5;">Frame it as a member benefit for the sector, never as surveillance. Trust architecture ships before the graph does.</p>
+      </div>
+    </div>
+    <p class="src" style="color:#EBD9F5; margin-top:18px;">AFP Donor Bill of Rights (1993) and eDonor Bill of Rights (2019): donors may opt out of shared lists and must be told what is collected and how it is used.</p>
+  </section>
+
+  <!-- 11. COMPETITIVE -->
+  <section class="slide bg-white">
+    <div class="kicker">The competitive opening</div>
+    <h2>Where we <span class="accent-b">can win.</span></h2>
+    <table class="tbl">
+      <tr><th>Player</th><th>What they hold</th><th>Where the gap is</th></tr>
+      <tr><td>Incumbents (Bloomerang, Bonterra, Blackbaud)</td><td>Larger raw datasets</td><td class="why">Fragmented across acquired systems and not productized as a graph or network. Size without a product.</td></tr>
+      <tr><td>Wealth engines (iWave, DonorSearch)</td><td>Wealth and capacity data</td><td class="why">Own the wealth layer, but not the giving behavior or relationships that live in a CRM. A different dataset than ours.</td></tr>
+      <tr><td>FEP and sector aggregators</td><td>Aggregated giving data</td><td class="why">Prove the demand, but give the data away. No gating, no product, no network.</td></tr>
+      <tr><td>Givebutter</td><td>Payments and a light CRM</td><td class="why">Strong on payments, thin on longitudinal donor data. Little to aggregate.</td></tr>
+      <tr class="us"><td>DonorDock</td><td>Behavioral giving data, unified</td><td class="why">Proprietary giving behavior for an underserved segment, in one modern platform. First-mover advantage if we productize now.</td></tr>
+    </table>
+    <div style="margin-top:20px;"><span class="pill"><span class="dot"></span>We will not have the biggest dataset. We can be first to turn ours into a product.</span></div>
+  </section>
+
+  <!-- 12. RECOMMENDATION -->
+  <section class="slide bg-lav">
+    <div class="kicker">Recommendation &amp; next steps</div>
+    <h2>Five decisions for <span class="accent-p">leadership.</span></h2>
+    <div class="two" style="margin-top:18px; align-items:start;">
+      <div>
+        <div class="rec"><div class="num">1</div><div class="rt"><b>Treat data as strategic infrastructure</b><p>Fund the pipeline and team that turn multi-tenant data into benchmarks, scores, and the graph.</p></div></div>
+        <div class="rec"><div class="num">2</div><div class="rt"><b>Ship the benchmark report</b><p>The visible, low-risk first move, and what FEP will not do: gate it. Authority, leads, and the seed of the data layer.</p></div></div>
+        <div class="rec"><div class="num">3</div><div class="rt"><b>Productize the intelligence layer</b><p>Package benchmarks, scoring, and enrichment into a paid tier. The first expansion revenue, and the bridge to the graph.</p></div></div>
+      </div>
+      <div>
+        <div class="rec"><div class="num">4</div><div class="rt"><b>Set the trust architecture now</b><p>Consent, privacy, and terms designed before any cross-org feature ships. Non-negotiable.</p></div></div>
+        <div class="rec"><div class="num">5</div><div class="rt"><b>Revisit the Avid AI relationship</b><p>Own the intelligence layer. Reposition partners to build on us, not to absorb our data.</p></div></div>
+        <div class="nested" style="background:#fff; margin-top:14px;">
+          <p class="body"><em class="hl">What it requires:</em> data engineering, a privacy and legal partner, and product focus. Modest investment against a category-defining payoff.</p>
+        </div>
+      </div>
+    </div>
+    <p class="src" style="margin-top:18px;">Sources: Givebutter pricing 2026 &middot; DonorSearch &amp; iWave pricing 2026 &middot; M+R Benchmarks 2026 &amp; Fundraising Effectiveness Project &middot; vertical SaaS data-moat analysis &amp; Toast FY2025 &middot; AFP Donor Bill of Rights.</p>
+  </section>
+
+
+</div>
+
+<!-- speaker notes -->
+<div class="notes" id="notes"><div class="nh">Presenter notes (press N to toggle)</div><div id="notesBody"></div></div>
+
+<div class="nav">
+  <span class="counter"><span id="cur">1</span> / <span id="tot">13</span></span>
+  <button id="prev" aria-label="Previous">‹</button>
+  <button id="next" aria-label="Next">›</button>
+</div>
+<div class="hint">← → to navigate · N for notes · F for fullscreen</div>
+
+<script>
+  const slides=[...document.querySelectorAll('.slide')];
+  const tot=slides.length; let i=0;
+  document.getElementById('tot').textContent=tot;
+  const notesText=[
+    "Set the frame: this is a strategy memo, not a feature list. The question is how DonorDock wins durably.",
+    "The whole deck in one line. Features get copied; data compounds. The three data layers are the spine of everything that follows.",
+    "Reframe the opening honestly. The data layer is being assembled by others: wealth engines own capacity data, FEP aggregates giving data but gives it away. No one has gated a behavioral giving graph for our segment. That is the opening.",
+    "The asset, honestly stated. $6B+ tracked over 8+ years across ~1,000 orgs. We are not the biggest dataset, and we should say so. The edge is being first to productize, not size.",
+    "Lead here. The donor graph is the endgame. Walk each capability and tie it back to lock-in.",
+    "Defensibility through first-mover, not raw scale. Incumbents have more data but no product. Use Veeva, Procore, Toast as proof the pattern works. 'The data moat is the AI moat' is the line to land.",
+    "The business model, kept purely about data. Three layers: today's subscription, a paid intelligence tier (benchmarks, scoring, enrichment that recaptures wealth-screening spend), and the donor network. Payments was removed to keep the focus on the data moat.",
+    "Sequencing. Nothing here is reckless. H1 ships value and seeds the graph. The benchmark report is the move to greenlight first, and it does what FEP will not: gate it.",
+    "A real decision. The Avid relationship is a one-way data export today. Recommend owning the intelligence layer and repositioning partners to build on us.",
+    "The most important slide for our brand. Trust is the foundation of the moat. AFP Donor Bill of Rights, not a self-imposed limit. Never sell data; opt-in; collective intelligence.",
+    "Where we can win, stated honestly. We will not have the biggest dataset. We can be first to turn behavioral giving data into a product. This is the answer to 'can we still play here?'",
+    "Close on decisions, not vision. Five asks. Modest investment against a category-defining payoff. Sources are footnoted on this slide."
+  ];
+  function render(){
+    slides.forEach((s,n)=>s.classList.toggle('active',n===i));
+    document.getElementById('cur').textContent=i+1;
+    document.getElementById('progress').style.width=((i+1)/tot*100)+'%';
+    document.getElementById('notesBody').innerHTML='<b>Slide '+(i+1)+'.</b> '+notesText[i];
+  }
+  function go(d){ i=Math.max(0,Math.min(tot-1,i+d)); render(); }
+  document.getElementById('next').onclick=()=>go(1);
+  document.getElementById('prev').onclick=()=>go(-1);
+  document.addEventListener('keydown',e=>{
+    if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){e.preventDefault();go(1);}
+    else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();go(-1);}
+    else if(e.key==='Home'){i=0;render();} else if(e.key==='End'){i=tot-1;render();}
+    else if(e.key.toLowerCase()==='n'){document.getElementById('notes').classList.toggle('show');}
+    else if(e.key.toLowerCase()==='f'){ if(!document.fullscreenElement){document.documentElement.requestFullscreen();} else {document.exitFullscreen();} }
+  });
+  render();
+</script>
+</body>
+</html>
