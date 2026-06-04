@@ -101,6 +101,8 @@ curl -s "https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/sit
 | `skills/ff-article-pipeline/SKILL.md` | Focused Fundraiser article generation pipeline | Rob | 2026-03-17 |
 | `skills/ff-article-pipeline/references/cms-schema.md` | Webflow CMS collection schemas, IDs, and tags | Rob | — |
 | `skills/frontend-design/SKILL.md` | Frontend design guidelines for distinctive UI work | Rob | — |
+| `skills/donordock-video/SKILL.md` | DonorDock motion-graphics video production with Remotion | Rob | 2026-06-04 |
+| `skills/remotion-video-graphics/SKILL.md` | Remotion video graphics for DonorDock branded motion content | Rob | 2026-06-04 |
 | `sales-enablement/README.md` | Setup instructions for the Sales Brain Claude Project | Rob | 2026-03-19 |
 | `sales-enablement/system-prompt.md` | System prompt — paste into Claude Project Instructions | Rob | 2026-03-19 |
 | `sales-enablement/competitor-battlecards.md` | Side-by-side positioning vs. Bloomerang, NfG, DonorPerfect, Givebutter, Neon CRM | Rob | 2026-03-19 |
