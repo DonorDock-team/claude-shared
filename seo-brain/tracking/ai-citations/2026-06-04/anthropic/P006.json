@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P006",
+  "prompt_text": "DonorDock vs DonorPerfect",
+  "engine": "anthropic",
+  "timestamp": "2026-06-04T11:13:59.478342+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs DonorPerfect Comparison\n\n## Overview\n\n**DonorDock** - Modern, user-friendly donor management platform designed for small to mid-sized nonprofits\n**DonorPerfect** - Established, comprehensive fundraising software with extensive features for organizations of all sizes\n\n## Key Differences\n\n### **Pricing**\n- **DonorDock**: Starting around $99-149/month; transparent, simpler pricing tiers\n- **DonorPerfect**: Starting around $89/month but can increase significantly with add-ons; pricing less transparent\n\n### **Ease of Use**\n- **DonorDock**: Modern, intuitive interface; minimal learning curve; cloud-native design\n- **DonorPerfect**: More complex interface; steeper learning curve; can feel dated to some users\n\n### **Best For**\n- **DonorDock**: Small to mid-sized nonprofits (typically under $5M budget); organizations wanting simplicity\n- **DonorPerfect**: Mid to large nonprofits; organizations needing extensive customization and integrations\n\n### **Features**\n\n| Feature | DonorDock | DonorPerfect |\n|---------|-----------|--------------|\n| Donor Management | \u2713 Streamlined | \u2713 Comprehensive |\n| Online Giving | \u2713 Built-in | \u2713 Built-in |\n| Reporting | \u2713 Good basics | \u2713 Advanced/customizable |\n| Email Marketing | \u2713 Basic | \u2713 More robust |\n| Event Management | \u2713 Limited | \u2713 Extensive |\n| Integrations | \u2713 Growing list | \u2713 100+ integrations |\n| Mobile App | \u2713 Yes | \u2713 Yes |\n\n### **Support**\n- **DonorDock**: Known for responsive, personal customer service\n- **DonorPerfect**: Various support tiers; extensive documentation and training resources\n\n## Which Should You Choose?\n\n**Choose DonorDock if:**\n- You're a smaller nonprofit seeking simplicity\n- You want quick implementation\n- You prefer modern, clean interfaces\n- Budget predictability is important\n\n**Choose DonorPerfect if:**\n- You need extensive customization\n- You have complex reporting requirements\n- You require many third-party integrations\n- You have dedicated staff for database management\n\nBoth are solid choices\u2014your decision should depend on your organization's size, complexity, and technical comfort level.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 581,
+  "estimated_cost_usd": 0.008772,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}
