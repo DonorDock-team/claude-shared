@@ -1,0 +1,272 @@
+# AEO Citation Run — 2026-06-04
+
+**Priority filter:** `top-50`
+**Total runs:** 232  (successes 9, errors 223)
+**DonorDock citation rate:** **44.4%**  (4/9)
+**Total estimated cost:** $0.0432
+
+## By engine
+| Engine | Runs | OK | Errors | DD hits | Citation % | Cost |
+|---|---|---|---|---|---|---|
+| gemini | 58 | 2 | 56 | 2 | 100.0% | $0.0016 |
+| anthropic | 58 | 4 | 54 | 1 | 25.0% | $0.0276 |
+| openai | 58 | 3 | 55 | 1 | 33.3% | $0.0139 |
+| perplexity | 58 | 0 | 58 | 0 | 0.0% | $0.0 |
+
+## Competitor mentions (across all engines)
+
+- DonorPerfect: 6
+- Bloomerang: 5
+- Kindful: 3
+- Little Green Light: 3
+- Network for Good: 3
+- Givebutter: 2
+- Keela: 2
+- Salesforce Nonprofit Cloud: 2
+- Blackbaud: 2
+- Neon CRM: 1
+- CiviCRM: 1
+- Raiser's Edge: 1
+- DonorBox: 1
+- eTapestry: 1
+
+## Wins (DonorDock cited)
+
+- [gemini] **P010** (early) — Does DonorDock have online giving
+- [gemini] **P001** (early) — What is DonorDock
+- [anthropic] **P006** (early) — DonorDock vs DonorPerfect
+- [openai] **P006** (early) — DonorDock vs DonorPerfect
+
+## Misses (no DonorDock mention) — opportunities
+
+- [anthropic] **P015** — Alternative to Bloomerang  _(competitors cited: Bloomerang, DonorPerfect, Keela, Kindful, Little Green Light)_
+- [anthropic] **P024** — How much does nonprofit donor CRM cost  _(competitors cited: Blackbaud, Bloomerang, CiviCRM, DonorPerfect, Keela)_
+- [anthropic] **P035** — Best all-in-one fundraising platform for nonprofits  _(competitors cited: Bloomerang, DonorBox, Givebutter, Network for Good)_
+- [openai] **P015** — Alternative to Bloomerang  _(competitors cited: Blackbaud, Bloomerang, DonorPerfect, Kindful, Little Green Light)_
+- [openai] **P024** — How much does nonprofit donor CRM cost  _(competitors cited: Bloomerang, DonorPerfect, Network for Good)_
+
+## Errors
+
+- [anthropic] **P048** — ReadTimeout: 
+- [anthropic] **P095** — ReadTimeout: 
+- [gemini] **P019** — ReadTimeout: 
+- [gemini] **P028** — ReadTimeout: 
+- [gemini] **P039** — ReadTimeout: 
+- [openai] **P048** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P095** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P002** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P011** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P020** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P029** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P040** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P057** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P129** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P006** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P015** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P024** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P035** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P039** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P048** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P095** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P002** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P011** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P020** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P029** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P040** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P057** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P129** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P006** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P015** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P024** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P035** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P048** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P056** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P095** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P002** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P011** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P020** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P029** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P040** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P057** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P129** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P007** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P016** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P025** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P036** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P049** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P115** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P124** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P019** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P002** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P011** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P020** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P029** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P040** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P057** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P129** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P007** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P016** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P025** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P036** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P049** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P115** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P003** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P012** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P021** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P030** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P041** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P074** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P130** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P007** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P016** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P025** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P036** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P049** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P115** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P003** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P012** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P021** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P030** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P041** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P074** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P130** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P007** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P016** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P025** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P036** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P049** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P115** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P003** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P012** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P021** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P030** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P041** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P074** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P130** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P008** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P017** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P026** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P037** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P051** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P116** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P012** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P003** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P021** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P030** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P041** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P074** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P130** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P008** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P017** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P026** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P037** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P051** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P116** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P004** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P013** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P022** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P031** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P042** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P076** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P134** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P008** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P017** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P001** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P026** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P037** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P051** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P116** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P004** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P013** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P022** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P031** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P042** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P076** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P134** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P008** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P017** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P026** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P037** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P051** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P116** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P004** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P013** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P022** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P031** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P042** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P076** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P134** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P009** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P018** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P027** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P038** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P052** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P123** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P004** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P013** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P022** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P031** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P042** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P076** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P134** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P009** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P018** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P027** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P038** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P052** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P123** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P005** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P014** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P023** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P034** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P043** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P094** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P009** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P018** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P027** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P038** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P052** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P123** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P005** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P014** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P023** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P034** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P043** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P094** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P009** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P018** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P027** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P038** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P052** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P123** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P005** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P014** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P023** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P034** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P043** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P094** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P001** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P010** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P019** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P028** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P039** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P056** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [anthropic] **P124** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P005** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P014** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P023** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P034** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P043** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P094** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P001** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P010** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P019** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P028** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P039** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P056** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [openai] **P124** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [perplexity] **P010** — ConnectError: [Errno 8] nodename nor servname provided, or not known
+- [gemini] **P056** — ReadTimeout: 
+- [gemini] **P124** — ReadTimeout: 
+- [perplexity] **P028** — ReadError: 
+- [openai] **P035** — ConnectError: 

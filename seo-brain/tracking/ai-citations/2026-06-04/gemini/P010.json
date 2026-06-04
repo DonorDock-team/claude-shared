@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P010",
+  "prompt_text": "Does DonorDock have online giving",
+  "engine": "gemini",
+  "timestamp": "2026-06-04T11:13:59.483698+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "No, DonorDock does **not** have its own native, built-in online giving platform or donation pages where donors can directly give through DonorDock itself.\n\nInstead, DonorDock is designed to **integrate** with various third-party online giving platforms. This means:\n\n1.  **You use a separate online giving platform** (e.g., Stripe, PayPal, Qgiv, Classy, Fundraise Up, Givebutter, etc.) to create your donation forms, process payments, and manage recurring gifts.\n2.  **That platform then syncs the donor and donation data** back into DonorDock. This ensures that all your donor records, giving history, and communications are centralized in DonorDock, even though the actual transaction happened elsewhere.\n\nThis approach allows organizations to choose the best-of-breed online giving tool that fits their specific needs while still having a robust CRM (DonorDock) to manage all their donor relationships.",
+  "donordock_mentioned": true,
+  "donordock_position": 4,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 192,
+  "estimated_cost_usd": 0.000482,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}
