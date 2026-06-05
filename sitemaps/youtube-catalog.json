@@ -1,19 +1,19 @@
 {
   "youtube": {
-    "scraped_at": "2026-05-29T16:06:17.701542Z",
-    "total_videos": 144,
+    "scraped_at": "2026-06-05T20:34:30.775218Z",
+    "total_videos": 146,
     "channels": {
       "donordock": {
         "name": "DonorDock",
         "handle": "@donordock",
         "url": "https://www.youtube.com/@donordock",
-        "video_count": 75
+        "video_count": 76
       },
       "fundraisinglab": {
         "name": "Fundraising Lab",
         "handle": "@FundraisingLab",
         "url": "https://www.youtube.com/@FundraisingLab",
-        "video_count": 69
+        "video_count": 70
       },
       "external": {
         "name": "External appearances",
@@ -35,6 +35,32 @@
     ]
   },
   "videos": [
+    {
+      "id": "L7hsdOtY-1A",
+      "title": "OneCause Integration - Feature Highlight",
+      "description": "When something makes your work simpler, and produces a tangible ROI, it's hard not to be excited about it.\n\nDiscover how the OneCause integration in DonorDock helps nonprofits streamline event fundrai",
+      "channel": "donordock",
+      "published_at": "2026-06-05T12:00:34Z",
+      "type": "video",
+      "duration_seconds": 168,
+      "category": "feature-highlight",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=L7hsdOtY-1A",
+      "thumbnail": "https://i.ytimg.com/vi/L7hsdOtY-1A/hqdefault.jpg"
+    },
+    {
+      "id": "X7pxB4RL4rM",
+      "title": "Relationship Mapping, Grant Transparency & the Biases Costing You Donors | Tori Tishman",
+      "description": "Tori Tishman has fundraised across education, healthcare, and political campaigns, and she came out of it with strong opinions about what the sector gets wrong.\n\nIn this episode, Rob and Tori dig into",
+      "channel": "fundraisinglab",
+      "published_at": "2026-06-02T14:00:11Z",
+      "type": "video",
+      "duration_seconds": 1232,
+      "category": "the-focused-fundraiser",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=X7pxB4RL4rM",
+      "thumbnail": "https://i.ytimg.com/vi/X7pxB4RL4rM/hqdefault.jpg"
+    },
     {
       "id": "kT2tQSOoICg",
       "title": "GoFundMe Pro Integration - Feature Highlight",
