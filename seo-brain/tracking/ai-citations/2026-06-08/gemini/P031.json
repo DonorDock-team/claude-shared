@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P031",
+  "prompt_text": "Alternative to Little Green Light",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563289+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Little Green Light (LGL) is a popular choice for small to medium-sized non-profits due to its affordability and focus on donor management. However, there are many excellent alternatives depending on your specific needs, budget, and desired feature set.\n\nHere's a breakdown of alternatives, categorized by their primary strengths:\n\n---\n\n### I. Direct Competitors & Non-Profit Specific CRMs\n\nThese platforms offer similar core functionalities to LGL, focusing on donor management, fundraising, and constituent relationship management (CRM) for non-profits.\n\n1.  **Bloomerang:**\n    *   **Strengths:** Highly regarded for its user-friendly interface, robust donor retention features, engagement scores, and good reporting. Includes email marketing and online giving. Recently acquired Kindful.\n    *   **Best For:** Non-profits prioritizing donor retention and ease of use.\n    *   **Pricing:** Tiered based on constituent records.\n\n2.  **DonorPerfect:**\n    *   **Strengths:** A long-standing player with comprehensive features including donor management, fundraising, event management, and payment processing. Very scalable.\n    *   **Best For:** Growing non-profits needing a robust, all-in-one solution that can handle complexity.\n    *   **Pricing:** Tiered based on constituent records and features.\n\n3.  **Neon One (formerly NeonCRM):**\n    *   **Strengths:** Offers a suite of tools including CRM, fundraising, event management, membership management, and even website integration. Good for organizations with diverse needs.\n    *   **Best For:** Non-profits that need a truly integrated solution for membership, events, and fundraising alongside donor management.\n    *   **Pricing:** Tiered, often more feature-rich at various levels.\n\n4.  **Virtuous:**\n    *   **Strengths:** A more modern platform focused on \"responsive fundraising\" through automation, personalized communication, and robust analytics. Excellent for engagement and major gift cultivation.\n    *   **Best For:** Non-profits looking to modernize their fundraising, automate outreach, and deeply understand donor behavior.\n    *   **Pricing:** Often at a higher price point due to advanced automation.\n\n5.  **Blackbaud (eTapestry, Raiser's Edge NXT):**\n    *   **Strengths:** Blackbaud is the largest provider of non-profit software.\n        *   **eTapestry:** A good cloud-based option for small to medium non-profits, offering core donor management, online fundraising, and reporting.\n        *   **Raiser's Edge NXT:** A comprehensive, enterprise-level solution for larger, more complex organizations with extensive fundraising and constituent management needs.\n    *   **Best For:** eTapestry for growth; Raiser's Edge for large, established non-profits with complex needs and budget.\n    *   **Pricing:** Varies significantly by product and scale; can be quite expensive for RE NXT.\n\n---\n\n### II. Salesforce-Based Solutions\n\nSalesforce is a powerful, highly customizable CRM platform, and its \"Nonprofit Cloud\" offers specific tools and discounts for non-profits.\n\n1.  **Salesforce Nonprofit Cloud:**\n    *   **Strengths:** Extremely flexible and scalable. Offers the Nonprofit Success Pack (NPSP) which is free/heavily discounted for eligible non-profits (often 10 free licenses). Can be customized for virtually any non-profit process (fundraising, programs, volunteers, advocacy).\n    *   **Weaknesses:** Steep learning curve; often requires an implementation partner or dedicated admin, which can add cost and complexity.\n    *   **Best For:** Non-profits with complex, evolving needs, those with tech-savvy staff, or those anticipating significant growth.\n\n2.  **Causeview:**\n    *   **Strengths",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 810,
+  "estimated_cost_usd": 0.002027,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

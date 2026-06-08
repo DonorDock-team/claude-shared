@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563616+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Automate Donor Thank You Letters\n\n## Quick Start Options\n\n**1. Email Automation Tools**\n- **Mailchimp** - Free for up to 500 contacts\n- **Constant Contact** - Good for nonprofits\n- **Donorbox/GiveWP** - Built-in thank you features\n\n**2. CRM/Donor Management Software**\n- **Bloomerang**\n- **DonorPerfect**\n- **Little Green Light**\n- **Salesforce Nonprofit Cloud**\n\n**3. Mail Merge (Budget-Friendly)**\n- Google Docs + Sheets\n- Microsoft Word + Excel\n\n## Basic Automation Setup\n\n### Step 1: Collect Data\nCapture in your system:\n- Donor name\n- Email/mailing address\n- Donation amount\n- Date\n- Designation (what they gave to)\n- Communication preferences\n\n### Step 2: Create Templates\nInclude:\n- Personalized greeting\n- Specific donation amount\n- Impact statement\n- Tax information\n- Sincere gratitude\n\n### Step 3: Set Up Triggers\n- Immediate: Auto-send within 24-48 hours\n- Segmented: Different messages by donation level\n- Scheduled: Follow-up communications\n\n## Sample Workflow\n\n```\nDonation received \u2192 \nData enters system \u2192 \nTrigger activated \u2192 \nTemplate populated \u2192 \nThank you sent automatically \u2192 \nRecord updated\n```\n\n## Best Practices\n\n\u2705 **Keep it personal** - Use merge fields beyond just name\n\u2705 **Send quickly** - Within 48 hours\n\u2705 **Be specific** - Reference their exact gift\n\u2705 **Add human touch** - Include signature, personal P.S.\n\u2705 **Test everything** - Preview before automating\n\n**What's your current donor volume?** That will help determine the best solution for you.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 432,
+  "estimated_cost_usd": 0.006525,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

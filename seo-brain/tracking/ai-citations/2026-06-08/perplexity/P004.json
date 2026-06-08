@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P004",
+  "prompt_text": "DonorDock pricing",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.563245+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock currently uses a flat-rate SaaS model for its CRM plus a donor-funded model for online giving fees.\n\n**1. Core software pricing (CRM & fundraising platform)**  \nPublic review sites consistently list **DonorDock ONE at about \\$500 per month, flat rate** with **unlimited contacts** and **no contracts**.[3][7] This plan includes the full feature set: nonprofit CRM, online giving pages, reporting, email marketing, donor outreach, automations, volunteer and grant tracking, event tickets, templates, support, and a **90\u2011day money\u2011back guarantee**.[3][7]  \nIndependent listings also mention:  \n\n- **Starting price: \\$500/month, flat rate**[2][3]  \n- **Free trial available** (no permanent free tier)[2][3]  \n\nSome DonorDock marketing content aimed at \u201cgrowing nonprofits\u201d mentions **three paid tiers starting around \\$90/month, with a popular tier around \\$250/month**.[5] That article appears to reference older or promotional pricing and conflicts with the more current flat \\$500/month \u201cONE\u201d plan reported across review platforms and comparison pages.[3][7] In practice, you should treat DonorDock\u2019s own **pricing page** as the source of truth and check it for any updated tiers or promos.[1]\n\n**2. Online giving / transaction fees**\n\nFor donations made through DonorDock giving pages, the structure is:\n\n- **Credit card processing (Stripe)**: standard Stripe processing fees apply to each transaction; these go to Stripe, not DonorDock.[4]  \n- **Donor-funded platform fees (Tip/TipBack model)**:  \n  - Donors are *offered* the option to cover platform/processing costs via a **5% + \\$0.30** add-on to their gift.[4]  \n  - If the donor chooses to cover fees, Stripe takes its processing fee, and DonorDock receives the remaining portion of the 5% + \\$0.30; the nonprofit receives the **full intended donation amount**.[4]  \n  - If the donor does **not** cover fees, **DonorDock waives its platform fee**, and the nonprofit only pays Stripe\u2019s standard processing fee.[4]  \n- DonorDock emphasizes that, unlike many platforms, it does **not charge mandatory platform fees on every donation**; the donor contribution is optional.[4][6]  \n\nSome comparison material on DonorDock\u2019s site also references a **1% platform fee** versus competitors\u2019 3% fees.[7] That appears in a specific comparison page and may reflect an alternate or older structure; the primary help article states the 5% + \\$0.30 donor-funded contribution model.[4]\n\n**3. Key commercial terms**\n\n- **Unlimited contacts** on the main plan; your price does not increase as your database grows.[3][7]  \n- **No contracts**, cancel anytime, with a **90\u2011day money\u2011back guarantee**.[3][7][8]  \n- **Support, training, and data migration assistance** included at the flat rate.[3]  \n\nBecause there are some inconsistencies between marketing pages (tiered pricing, 1% fee) and the current \u201cONE at \\$500/month\u201d listings, the safest move is to:\n\n- Verify the latest **subscription price and any tiers** directly on DonorDock\u2019s pricing page.[1]  \n- Ask sales to confirm the **exact transaction-fee structure** (5% + \\$0.30 donor-funded vs 1% platform fee) for your account type.",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 739,
+  "estimated_cost_usd": 0.0161,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/pricing",
+      "https://www.g2.com/products/donordock/pricing",
+      "https://www.capterra.com/p/184187/DonorDock/",
+      "https://helpcenter.donordock.com/kb/guide/en/donordock-and-online-giving-fees-FF6iCEKSlh/Steps/1935110",
+      "https://www.donordock.com/articles/growing-nonprofits-crm",
+      "https://helpcenter.donordock.com/kb/guide/en/how-tips-help-keep-donordock-affordable-KzUmaQrJr2/Steps/2097070",
+      "https://www.donordock.com/compare/network-for-good-vs-donordock",
+      "https://www.donordock.com/lp/donation-management",
+      "https://www.donordock.com",
+      "https://www.softwareadvice.com/nonprofit/donordock-profile/"
+    ]
+  }
+}

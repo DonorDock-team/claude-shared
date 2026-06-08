@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P064",
+  "prompt_text": "Donor CRM with email marketing built in",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.562535+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Yes, absolutely! Many modern Donor CRMs (Constituent Relationship Management) now come with robust email marketing capabilities built directly into the platform, allowing you to manage donor data, segment lists, send targeted communications, and track engagement all from one place.\n\nThis integration is incredibly powerful for non-profits as it enables:\n*   **Personalization:** Use donor history, giving levels, and engagement data to send highly relevant emails.\n*   **Automation:** Set up automated welcome series for new donors, lapsed donor appeals, or event follow-ups.\n*   **Segmentation:** Easily create specific lists based on giving history, interests, event attendance, and more.\n*   **Tracking & Reporting:** See who opened, clicked, and donated directly from your emails, linking it back to their donor record.\n*   **Efficiency:** No need to export/import data between systems.\n\nHere are some of the top Donor CRMs that excel in this area:\n\n### Top Donor CRMs with Built-in Email Marketing:\n\n1.  **Bloomerang:**\n    *   **Strengths:** Known for its focus on donor retention and engagement. It has excellent, intuitive email marketing built directly into the CRM. You can build segments, design emails with a drag-and-drop editor, schedule sends, and view engagement directly on donor profiles. It also offers email automation.\n    *   **Ideal For:** Small to mid-sized non-profits prioritizing donor relationships and ease of use.\n\n2.  **DonorPerfect:**\n    *   **Strengths:** A long-standing player with comprehensive features. Its \"Constant Contact from DonorPerfect\" integration is deep, allowing you to segment lists from your CRM, send emails, and track opens/clicks/donations back to individual records. While it uses Constant Contact's engine, it's deeply integrated and often perceived as \"built-in.\" They also have their own email module.\n    *   **Ideal For:** Mid-sized to larger non-profits needing a robust, all-in-one solution.\n\n3.  **Neon One (NeonCRM):**\n    *   **Strengths:** A powerful, comprehensive platform that includes extensive email marketing capabilities. You can create campaigns, design templates, segment audiences, and automate emails based on donor actions or data points within the CRM. It also handles events, memberships, and more.\n    *   **Ideal For:** Mid-sized to larger non-profits with diverse needs (membership, events, fundraising).\n\n4.  **Kindful:**\n    *   **Strengths:** Modern, cloud-based, and user-friendly. Kindful offers strong built-in email functionality for sending newsletters, appeals, and thank-you messages. Its segmentation tools are powerful, allowing you to target very specific groups of donors.\n    *   **Ideal For:** Small to mid-sized non-profits looking for a modern interface and strong reporting.\n\n5.  **Little Green Light (LGL):**\n    *   **Strengths:** A more affordable and straightforward option, LGL includes basic but functional built-in email capabilities. You can create simple campaigns, send mass emails, and track basic engagement. It's a great choice for organizations that don't need highly sophisticated automation but want everything in one place.\n    *   **Ideal For:** Small non-profits with budget constraints and simpler email needs.\n\n6.  **Salesforce (with NPSP and Add-ons):**\n    *   **Strengths:** While Salesforce NPSP (Nonprofit Success Pack) itself doesn't have native email marketing, it's highly customizable and integrates seamlessly with Salesforce's own marketing tools like Marketing Cloud Account Engagement (Pardot) or third-party apps available on the AppExchange. This provides unparalleled power",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon One",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 789,
+  "estimated_cost_usd": 0.001975,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

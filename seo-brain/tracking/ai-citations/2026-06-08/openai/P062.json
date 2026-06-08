@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P062",
+  "prompt_text": "Best nonprofit CRM with email and text messaging",
+  "engine": "openai",
+  "timestamp": "2026-06-08T12:30:34.562166+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for a nonprofit CRM with robust email and text messaging capabilities, it's important to consider a platform that can handle donor management, event planning, and communication seamlessly. Here are some of the best options as of the latest information:\n\n1. **Salesforce Nonprofit Cloud**\n   - Salesforce offers a Nonprofit Success Pack that integrates well with various communication tools. It provides powerful CRM features and can be customized for email and text messaging through the use of integrations and third-party apps like Pardot or Marketing Cloud for email, and solutions like Twilio for text messaging.\n\n2. **Bloomerang**\n   - Bloomerang is designed specifically for nonprofits and includes built-in email communication tools. While text messaging is not native, integrations with services like Twilio are available to extend its capabilities.\n\n3. **Neon CRM**\n   - Neon CRM offers comprehensive donor management with integrated email marketing tools. Text messaging can be added through integration options. It's particularly favored for its ease of use and strong support structure.\n\n4. **Kindful**\n   - Kindful focuses on donor management and integrates with other communication platforms to enhance email and texting capabilities. It is known for its user-friendly interface and seamless integration with apps like Mailchimp and Twilio.\n\n5. **Keela**\n   - Keela is a nonprofit-specific CRM with built-in email marketing features. It supports automated and manual email campaigns. For text messaging, you would need an integration, but it\u2019s designed to be easily expandable.\n\n6. **Engaging Networks**\n   - This is a versatile platform with strong email marketing features built in, often used by larger nonprofits for its robust campaigning capabilities. Text messaging can be integrated to complement your strategy.\n\nWhen selecting a CRM, consider the specific needs of your nonprofit, including the size of your donor base, existing technology stack, and budget. Many of these platforms offer demos or trial periods, so it's wise to test out a few to see which best suits your organization's requirements.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Keela",
+    "Kindful",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 395,
+  "estimated_cost_usd": 0.003987,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P055",
+  "prompt_text": "Best CRM for a 2 person fundraising team",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.564013+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best CRMs for a 2-Person Fundraising Team\n\nFor a small fundraising team, you need something affordable, easy to use, and donor-focused. Here are the top options:\n\n## **Best Overall: Bloomerang**\n- **Price:** ~$125/month\n- **Why:** Built specifically for fundraising, excellent donor retention focus\n- **Pros:** Intuitive interface, great reporting, donor engagement scoring\n- **Cons:** Limited customization compared to enterprise options\n\n## **Best Budget Option: Little Green Light**\n- **Price:** ~$50/month\n- **Why:** Nonprofit-specific, very affordable\n- **Pros:** Easy to learn, good donor management, built-in reporting\n- **Cons:** Less modern interface\n\n## **Best Free Option: HubSpot CRM (Free)**\n- **Price:** Free (paid tiers available)\n- **Why:** Powerful free tier with email integration\n- **Pros:** No cost, scales well, email tracking\n- **Cons:** Not nonprofit-specific, learning curve\n\n## **Best for Small Nonprofits: DonorPerfect**\n- **Price:** ~$100/month\n- **Why:** Comprehensive donor management\n- **Pros:** Online donation integration, good support\n- **Cons:** Can feel overwhelming for very small teams\n\n## **Quick Recommendation**\n- **Tight budget?** Start with **HubSpot Free** or **Little Green Light**\n- **Ready to invest?** Go with **Bloomerang** for best fundraising-specific features\n\nWhat's your approximate budget and primary fundraising method (grants, individual donors, events)?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 373,
+  "estimated_cost_usd": 0.005652,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

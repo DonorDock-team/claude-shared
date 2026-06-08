@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P036",
+  "prompt_text": "Best donor management software for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563977+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor management software for a nonprofit depends heavily on its specific needs, size, budget, and technological comfort level. There isn't a single \"best\" solution, but rather a range of excellent options that excel in different areas.\n\nHere's a breakdown of top contenders, categorized to help you identify the best fit:\n\n## Top Donor Management Software for Nonprofits\n\n### 1. Salesforce NPSP (Nonprofit Success Pack)\n\n*   **Best for:** Large, rapidly growing, or complex organizations that need extreme customization, scalability, and integrate with a vast ecosystem of tools.\n*   **Pros:**\n    *   **Highly Customizable:** Built on the world's leading CRM platform, it can be tailored to almost any unique workflow or reporting need.\n    *   **Scalability:** Grows seamlessly with your organization, from managing a few hundred donors to millions.\n    *   **Extensive Ecosystem:** Access to thousands of apps on the AppExchange for integrations (marketing automation, event management, accounting, etc.).\n    *   **Nonprofit Discounts:** Salesforce offers significant discounts and free licenses for nonprofits, making the platform itself highly affordable (though customization and ongoing administration can incur costs).\n    *   **Robust Reporting:** Powerful analytics and dashboard capabilities.\n*   **Cons:**\n    *   **Steep Learning Curve:** Requires a dedicated administrator or consultant, especially for initial setup and complex customizations.\n    *   **Implementation Costs:** While the software itself is discounted, setting it up and maintaining it often requires professional services.\n    *   **Complexity:** Can be overkill for very small organizations with simple needs.\n\n### 2. Bloomerang\n\n*   **Best for:** Small to mid-sized nonprofits that prioritize ease of use, donor engagement, and robust reporting.\n*   **Pros:**\n    *   **User-Friendly Interface:** Known for its intuitive design and ease of navigation, making it quick to adopt.\n    *   **Donor Engagement Focus:** Features an \"engagement meter\" and wealth screening integration to help identify and cultivate major donors.\n    *   **Strong Reporting:** Excellent, easy-to-understand reporting and dashboards.\n    *   **Good Customer Support:** Highly rated for responsive and helpful support.\n    *   **Integrated Communication Tools:** Email marketing and letter templates built-in.\n*   **Cons:**\n    *   **Scalability Limits:** While good for mid-sized, it might not handle the extreme complexity or customization needs of the largest organizations.\n    *   **Pricing:**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 529,
+  "estimated_cost_usd": 0.001324,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

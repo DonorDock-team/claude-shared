@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P046",
+  "prompt_text": "Best donor CRM for arts and cultural nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562419+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Arts & Cultural Nonprofits\n\n## Top Recommendations\n\n### **1. Blackbaud Altru**\n- **Best for:** Mid-to-large arts organizations\n- **Key features:** \n  - Built specifically for arts/cultural sector\n  - Integrates ticketing, fundraising, membership, and marketing\n  - Strong reporting for both contributed and earned revenue\n- **Cons:** Higher cost, steeper learning curve\n\n### **2. PatronManager (Salesforce-based)**\n- **Best for:** Performing arts organizations\n- **Key features:**\n  - Combines CRM with ticketing\n  - Built on Salesforce platform\n  - Excellent for tracking patron engagement across departments\n- **Cons:** Requires Salesforce expertise\n\n### **3. Bloomerang**\n- **Best for:** Small-to-mid sized organizations\n- **Key features:**\n  - User-friendly interface\n  - Strong donor retention focus\n  - Affordable pricing\n  - Good email marketing tools\n- **Cons:** Less arts-specific features\n\n### **4. Little Green Light**\n- **Best for:** Budget-conscious small organizations\n- **Key features:**\n  - Affordable monthly pricing\n  - Customizable for arts needs\n  - Good reporting capabilities\n- **Cons:** Less robust than enterprise solutions\n\n## Key Considerations\n- **Integration needs:** Does it work with your ticketing system?\n- **Budget:** Range from $100/month to $50K+ annually\n- **Staff capacity:** Consider training time and technical expertise\n- **Size:** Match the system to your database size and complexity\n\nWhat's your organization's size and primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 379,
+  "estimated_cost_usd": 0.005739,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

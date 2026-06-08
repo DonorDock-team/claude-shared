@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P149",
+  "prompt_text": "How to migrate from Excel to a nonprofit CRM",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.564785+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Migrating from Excel to a nonprofit CRM is mostly a **data-cleanup and mapping project**: inventory your spreadsheets, standardize and deduplicate the data, match Excel columns to CRM fields, then import in the right order and verify the results.[1][2]\n\nA practical migration process looks like this:\n\n- **Inventory every data source** first, including every workbook, tab, and any other system that holds donor, volunteer, program, event, or fundraising data.[1][4]\n- **Export full datasets** rather than filtered reports, and keep each data type in its own file with the original column headers preserved so you can trace problems later.[1][2]\n- **Clean the data in Excel before import** by removing duplicates, standardizing names and formats, and making sure each person or organization has a unique record.[1][2]\n- **Map your columns to CRM fields** using the new system\u2019s import template or field structure; nonprofit CRM templates are designed to make this mapping easier.[1][3]\n- **Separate data by type** so contacts, donations, recurring gifts, notes, tags, and custom fields are handled as distinct imports when required.[1][2]\n- **Import in the correct order**, usually contacts first, then gift history, then recurring gifts, then tags/custom fields, so linked records have something to attach to.[2]\n- **Back up everything** in at least two places before importing, and keep the old spreadsheet or system active until you confirm the migration is accurate.[2]\n- **Spot-check records after import** by comparing a small sample against the source Excel files to confirm names, gift amounts, dates, and contact details match.[2]\n\nA few nonprofit-specific tips matter:\n\n- If your Excel file contains mixed data types in one sheet, split them before import; most CRMs work best with one dataset per file.[1]\n- If some columns do not fit the new CRM, decide whether to create custom fields, convert the data into notes, or archive it separately.[1][5]\n- Train a small group of power users first, then expand to the rest of the team after the core workflows are working.[2]\n- Set up basics like donation acknowledgments, thank-you emails, and recurring automations before launch so the CRM is usable on day one.[2]\n\nIf you want, I can also give you a **step-by-step Excel-to-CRM migration checklist** or a **sample CSV column map for nonprofit donor data**.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 507,
+  "estimated_cost_usd": 0.012635,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.giveffect.com/nonprofit-resource-center/nonprofit-crm-data-migration-checklist/",
+      "https://www.donordock.com/articles/nonprofit-crm-migration-checklist",
+      "https://www.keela.co/glossary/nonprofit-crm-csv-import-template",
+      "https://charityengine.net/resources/nonprofit-guide-changing-crms/",
+      "https://bloomerang.com/blog/7-decisions-nonprofits-will-face-during-donor-data-migration",
+      "https://www.youtube.com/watch?v=rzvxGXHPkEk",
+      "https://donorsnap.com/blog/why-your-nonprofit-should-upgrade-from-spreadsheets-to-a-crm/",
+      "https://www.donorperfect.com/video/donor-database-conversion/",
+      "https://forums.techsoup.org/t/when-to-switch-from-spreadsheets-to-crm-software-the-never-ending-discussion/17936"
+    ]
+  }
+}

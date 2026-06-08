@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P053",
+  "prompt_text": "Best donor CRM for a 10 person fundraising team",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563756+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for a 10-Person Fundraising Team\n\nFor a team your size, here are the top options:\n\n## **Top Recommendations**\n\n### **1. Bloomerang** \u2b50 Best Overall\n- **Sweet spot** for 10-person teams\n- Excellent donor retention focus and engagement metrics\n- Intuitive interface with minimal training needed\n- **Price:** ~$125-200/month\n- Strong email integration and reporting\n\n### **2. Salsa CRM (Engage)**\n- Great for teams doing both fundraising + advocacy\n- Robust email/marketing automation\n- Good peer-to-peer fundraising tools\n- **Price:** ~$400-600/month\n- Steeper learning curve but powerful\n\n### **3. DonorPerfect**\n- Very customizable for your specific workflows\n- Strong reporting capabilities\n- Active user community\n- **Price:** ~$89-149/month base + modules\n- May require more setup time\n\n### **4. Kindful (by Bloomerang)**\n- Simpler than full Bloomerang\n- Modern interface, good for younger teams\n- Strong online donation integration\n- **Price:** ~$100-175/month\n\n## **Budget Alternative**\n**Little Green Light** (~$59/month) - Surprising features for the price, but less polished UI\n\n## **Key Questions to Consider:**\n- Current database size?\n- Online donation platform preferences?\n- Email marketing needs (built-in vs. integration)?\n- Event management importance?\n\nWhat's your annual fundraising volume? That might shift the recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 20,
+  "output_tokens": 365,
+  "estimated_cost_usd": 0.005535,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

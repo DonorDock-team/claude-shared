@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P005",
+  "prompt_text": "DonorDock vs Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563442+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Both DonorDock and Bloomerang are excellent fundraising CRM platforms designed to help nonprofits manage donors, track donations, and streamline their fundraising efforts. However, they cater to slightly different needs and preferences, with distinct strengths.\n\nHere's a detailed comparison to help you decide:\n\n## DonorDock vs. Bloomerang: Side-by-Side Comparison\n\n| Feature/Aspect         | Bloomerang                                           | DonorDock                                                |\n| :--------------------- | :--------------------------------------------------- | :------------------------------------------------------- |\n| **Key Focus**          | Donor retention, engagement, modern user experience. | Streamlined donor management, ease of use, affordability. |\n| **Target Org Size**    | Small to large (very scalable)                       | Small to medium-sized nonprofits                         |\n| **Ease of Use**        | Very high; intuitive, clean, modern UI.              | High; designed for simplicity and quick adoption.        |\n| **Core CRM Features**  | Comprehensive donor profiles, giving history, tasks, notes, relationships, custom fields. | Comprehensive donor profiles, giving history, tasks, notes, relationships, custom fields. |\n| **Donor Retention Tools** | **Excellent.** Engagement meters, timelines, personalized thank-you prompts, donor feedback surveys. | Strong. Segmentation for targeted appeals, communication tracking, task reminders for stewardship. |\n| **Email Marketing**    | Built-in email tool, templates, segmentation.        | Built-in email tool, templates, segmentation.            |\n| **Online Giving**      | Customizable forms, recurring giving, branded pages. | Customizable forms, recurring giving, branded pages.     |\n| **Reporting/Analytics** | Robust, customizable dashboards, standard reports, advanced segmentation for deep insights. | Clear dashboards, standard reports, good data visualization, basic segmentation. |\n| **Event Management**   | Basic event registration forms. Often integrates with dedicated event software for complex events. | Basic event registration and attendee tracking.           |\n| **Integrations**       | Wide range",
+  "donordock_mentioned": true,
+  "donordock_position": 5,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 419,
+  "estimated_cost_usd": 0.001049,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

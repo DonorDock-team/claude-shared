@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.562381+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Many Donor CRM systems now offer integrated text messaging capabilities, either natively or through seamless third-party integrations. This combination is powerful for nonprofits looking to engage donors quickly, effectively, and personally.\n\nHere's a breakdown of what to look for, key features, and some popular platforms that offer this functionality:\n\n## Why Text Messaging in a Donor CRM?\n\n*   **High Engagement:** Text messages have significantly higher open rates (often 90%+) and read rates than email.\n*   **Immediacy:** Ideal for urgent appeals, event reminders, and real-time updates.\n*   **Personalization:** Send targeted, personalized messages to specific donor segments.\n*   **Direct Communication:** A more direct and personal way to connect with donors.\n*   **Stewardship:** Quick thank yous, impact updates, and birthday wishes.\n*   **Event Management:** Remind attendees, provide day-of logistics.\n*   **Text-to-Donate:** Streamline mobile giving campaigns.\n\n## Key Features to Look For:\n\n1.  **Native vs. Integrated:**\n    *   **Native:** Text messaging is built directly into the CRM, offering the most seamless experience.\n    *   **Integrated:** The CRM connects with a dedicated SMS platform (e.g., Twilio, MessageMedia) via an API. This can still be very powerful and offer more advanced SMS features.\n\n2.  **Contact & Segment Management:**\n    *   Ability to text individual donors directly from their profile.\n    *   Send mass texts to lists or segments created within the CRM (e.g., donors who gave to a specific campaign, event registrants, lapsed donors).\n\n3.  **Opt-in/Opt-out Management:**\n    *   **Crucial for compliance (TCPA in the US, GDPR in Europe, etc.):** The system must manage consent, allowing donors to easily opt-in and opt-out of text communications.\n    *   Automatic handling of \"STOP\" keywords.\n\n4.  **Two-Way Messaging:**\n    *   Allow donors to reply to your messages, fostering deeper engagement and conversation.\n    *   Track replies within the donor's CRM record.\n\n5.  **Personalization & Merge Fields:**\n    *   Use donor data (name, last donation amount, event details) to personalize messages.\n\n6.  **Automated Workflows & Journeys:**\n    *   Trigger texts based on donor actions (e.g., automated thank you text after a donation, event reminder",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 533,
+  "estimated_cost_usd": 0.001334,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

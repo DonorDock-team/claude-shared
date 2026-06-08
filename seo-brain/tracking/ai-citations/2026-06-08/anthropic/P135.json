@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P135",
+  "prompt_text": "Why nonprofits leave DonorPerfect",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562301+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Reasons Nonprofits Leave DonorPerfect\n\nBased on user feedback and migration patterns, here are the main reasons nonprofits switch from DonorPerfect:\n\n## **Cost Concerns**\n- **Price increases over time** - Many users report significant price hikes, especially as databases grow\n- **Add-on costs** - Essential features often require paid add-ons\n- **Better value elsewhere** - Competitors offer similar or better features at lower price points\n\n## **User Experience Issues**\n- **Outdated interface** - The system feels dated compared to modern alternatives\n- **Steep learning curve** - Staff find it difficult to train new users\n- **Clunky navigation** - Common tasks require too many clicks\n\n## **Technical Limitations**\n- **Reporting constraints** - Limited customization and inflexible report building\n- **Integration challenges** - Difficulty connecting with other tools (email platforms, accounting software)\n- **Data export problems** - Complications when trying to extract or migrate data\n- **Speed/performance** - Slow loading times, especially with larger databases\n\n## **Feature Gaps**\n- **Limited online fundraising tools** - Weak peer-to-peer and event fundraising capabilities\n- **Email marketing** - Basic or outdated compared to specialized platforms\n- **Mobile functionality** - Poor mobile experience for staff and donors\n- **Automation** - Lacks robust workflow automation\n\n## **Support & Service**\n- **Inconsistent customer support** - Long wait times or unhelpful responses\n- **Implementation difficulties** - Challenging initial setup process\n\n## **Growth Constraints**\n- Organizations outgrow the platform as their needs become more sophisticated\n\nWould you like recommendations for alternatives or tips for migrating away from DonorPerfect?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 393,
+  "estimated_cost_usd": 0.005949,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

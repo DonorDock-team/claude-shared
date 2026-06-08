@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "openai",
+  "timestamp": "2026-06-08T12:30:34.562316+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Implementing a donor CRM (Customer Relationship Management) system with text messaging capabilities can be an effective way to manage and engage with donors. Here are some key steps and considerations to help you set up such a system:\n\n1. **Select a Suitable CRM Platform**:\n   - Choose a CRM that supports donor management and integrates seamlessly with text messaging functionalities. Examples include Salesforce (with Nonprofit Success Pack), Bloomerang, DonorPerfect, Kindful, or NeonCRM.\n   - Ensure the CRM can track donor interactions, donations, event participation, and communication history.\n\n2. **Integration with Text Messaging**:\n   - Use a CRM that offers built-in text messaging features or can integrate with SMS platforms like Twilio, TextMagic, or SimpleTexting.\n   - Integration should allow you to send personalized messages and automate communication workflows.\n\n3. **Collect Permission from Donors**:\n   - Obtain explicit consent from donors to receive text messages. This is crucial to comply with regulations like GDPR or TCPA (Telephone Consumer Protection Act).\n   - Provide an easy opt-in process and always offer a straightforward opt-out option in every message.\n\n4. **Segment Your Donor Base**:\n   - Use the CRM to segment donors based on criteria such as donation history, engagement level, interests, and personal preferences.\n   - Segmentation helps in tailoring messages to specific groups, improving engagement rates.\n\n5. **Craft Engaging Messages**:\n   - Keep messages concise and relevant. Personalization can greatly increase engagement.\n   - Use the messages to thank donors, provide updates on campaigns, share impact stories, or remind them of upcoming events and donation opportunities.\n\n6. **Automate Workflows**:\n   - Set up automated workflows for common interactions, such as welcome messages to new donors, reminders for recurring donations, and acknowledgments after donations.\n   - Automation saves time and ensures timely communication.\n\n7. **Analyze and Optimize**:\n   - Regularly analyze the performance of your text messaging campaigns through CRM analytics.\n   - Monitor metrics such as open rates, response rates, and conversion rates, and adjust your strategies to improve effectiveness.\n\n8. **Ensure Data Security and Privacy**:\n   - Implement robust security measures to protect donor data within the CRM.\n   - Ensure compliance with relevant data protection regulations and provide donors with clear privacy policies.\n\n9. **Train Your Team**:\n   - Provide adequate training for your team on using the CRM and best practices for donor communication.\n   - Encourage staff to regularly update donor records and track interactions.\n\nBy effectively combining CRM with text messaging, you can enhance donor relationships, improve engagement, and ultimately increase donations for your organization.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 533,
+  "estimated_cost_usd": 0.005363,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

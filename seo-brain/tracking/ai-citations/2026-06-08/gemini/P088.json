@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P088",
+  "prompt_text": "Best donor CRM for food security organizations",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563728+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a food security organization depends heavily on your specific size, budget, internal tech expertise, and unique operational needs. Food security organizations often have particular requirements, such as robust volunteer management, tracking recurring donations for predictable food supplies, and reporting on impact (e.g., meals provided, families served).\n\nHere's a breakdown of top contenders, categorized to help you find the best fit:\n\n---\n\n### Key Considerations for Food Security Organizations:\n\nBefore diving into options, think about these specific needs:\n\n1.  **Volunteer Management:** Is volunteer scheduling, tracking hours, and communication integrated or easily integrated? Many food banks rely heavily on volunteers.\n2.  **Recurring Donations:** Food security often benefits from predictable, recurring gifts. How well does the CRM handle recurring giving, payment processing, and donor communication for these programs?\n3.  **Campaign & Program Tracking:** Can you easily track donations to specific programs (e.g., \"Holiday Meal Drive,\" \"Kids' Backpack Program,\" \"Senior Food Boxes\")?\n4.  **Grant Management:** Do you need features to track grant applications, deadlines, reporting requirements, and funder relationships?\n5.  **Impact Reporting:** Can you link donor contributions to real-world outcomes (e.g., \"Your $50 provided 150 meals\")? This often requires integration with other systems or robust custom fields.\n6.  **Inventory/Recipient Tracking:** While not typically a core CRM function, consider how your donor CRM might integrate with systems that manage food inventory, distribution, or recipient data if you need to connect the dots for impact reporting.\n7.  **Ease of Use:** Staff and volunteer turnover can be high; a user-friendly interface is crucial.\n8.  **Integrations:** How well",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 374,
+  "estimated_cost_usd": 0.000937,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

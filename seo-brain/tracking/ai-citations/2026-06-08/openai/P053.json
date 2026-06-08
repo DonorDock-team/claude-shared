@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P053",
+  "prompt_text": "Best donor CRM for a 10 person fundraising team",
+  "engine": "openai",
+  "timestamp": "2026-06-08T12:30:34.563790+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM (Customer Relationship Management) system for a 10-person fundraising team involves considering budget, ease of use, scalability, and the specific features needed by your organization. Here are a few CRM options that are popular among small to medium-sized nonprofit organizations:\n\n1. **Bloomerang**:\n   - **Pros**: User-friendly interface, designed specifically for nonprofits, strong focus on donor retention, excellent customer support, and detailed constituent profiles.\n   - **Cons**: May be less customizable for complex needs, can be relatively expensive as the number of records grows.\n\n2. **Neon CRM**:\n   - **Pros**: Comprehensive features including donation tracking, membership management, event management, and volunteer coordination. Offers good customization and integration options.\n   - **Cons**: Learning curve due to its comprehensive feature set, might be more than what's needed for very small organizations.\n\n3. **Kindful**:\n   - **Pros**: Easy integration with platforms like QuickBooks, Mailchimp, and Eventbrite; intuitive interface; strong focus on donor management and communication.\n   - **Cons**: Not as feature-rich in terms of event management or complex reporting as some other platforms.\n\n4. **Little Green Light**:\n   - **Pros**: Cost-effective, straightforward, suitable for small to medium-sized organizations, good donor and event management features.\n   - **Cons**: Limited integrations compared to larger CRMs, basic interface design.\n\n5. **Salesforce Nonprofit Cloud**:\n   - **Pros**: Highly customizable and scalable, comprehensive reporting and analytics, large ecosystem of third-party integrations.\n   - **Cons**: Can be complex and overwhelming for smaller teams without dedicated IT support, potentially high customization costs.\n\n6. **DonorPerfect**:\n   - **Pros**: Flexible pricing plans, good for growing organizations, strong donor management features, and good support.\n   - **Cons**: Interface can be a bit dated, some features require additional purchase.\n\n7. **EveryAction**:\n   - **Pros**: Integrated digital marketing tools, strong advocacy features, designed specifically for nonprofits.\n   - **Cons**: Higher price point, might have a steeper learning curve.\n\n8. **Network for Good**:\n   - **Pros**: Built-in fundraising tools, easy to use, comprehensive donor records, great for donor communication.\n   - **Cons**: Pricing can be on the higher side for smaller teams, limited integrations.\n\nWhen choosing a CRM, it's essential to assess the specific needs of your team, such as the importance of integration with other tools you use, the level of customization required, and your budget. It's also beneficial to have trial periods or demonstrations with a few options before making a final decision.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Network for Good",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 556,
+  "estimated_cost_usd": 0.005602,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

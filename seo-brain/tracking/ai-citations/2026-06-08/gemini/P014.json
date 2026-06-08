@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563446+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Both DonorDock and Keela are popular choices for nonprofit organizations seeking donor management and fundraising software. They both aim to streamline operations, engage donors, and help organizations raise more funds, but they have different philosophies and strengths.\n\nHere's a breakdown to help you compare them:\n\n## DonorDock vs. Keela: A Comprehensive Comparison\n\n| Feature             | DonorDock                                       | Keela                                                |\n| :------------------ | :---------------------------------------------- | :--------------------------------------------------- |\n| **Core Philosophy** | Modern, streamlined, focused on core donor management and fundraising, strong UI/UX. | All-in-one suite, trying to cover many nonprofit needs in one platform. |\n| **Target Audience** | Small to mid-sized nonprofits looking for a modern, user-friendly, and efficient CRM. | Small to mid-sized nonprofits wanting a comprehensive solution without many separate tools. |\n| **Donor CRM**       | **Strong:** Comprehensive donor profiles, gift tracking, interaction logs, segmentation. | **Strong:** Detailed donor profiles, gift tracking, interactions, segmentation. |\n| **Fundraising**     | **Strong:** Online donation pages, recurring gifts, campaign management, peer-to-peer. | **Strong:** Online donation forms, recurring gifts, campaign tracking, fundraising pages. |\n| **Email Marketing** | **Integrates:** Primarily via Mailchimp or other third-party tools. No built-in email sender. | **Built-in:** Has its own email marketing tool for newsletters, appeals, acknowledgements. |\n| **Reporting & Analytics** | **Strong:** Intuitive dashboards, customizable reports, real-time insights. | **Strong:** Dashboards, various report types (fundraising, donor retention), customizable options. |\n| **Event Management** | Basic event registration and tracking, often relies on integrations for complex events. | Decent event registration, ticketing, and attendee management capabilities. |\n| **Volunteer Management** | Limited/Basic. Focus is not on volunteer tracking. | Basic volunteer tracking, tasks, and communication. Not as robust as dedicated VM tools. |\n| **Grant Management** | Limited. Can track grant opportunities and outcomes in a general sense. | Basic grant management features for tracking applications and status. |\n| **Integrations**    | Good with payment processors (Stripe, PayPal), Mailchimp, QuickBooks, Microsoft ecosystem. | Good with payment processors (Stripe, PayPal), QuickBooks, Mailchimp (though has built-in email). |\n| **Ease of Use/UI**  | **Excellent:** Modern, clean, intuitive interface, often praised for user experience. | **Very Good:** Generally user-friendly, intuitive navigation, designed for quick adoption. |\n| **Pricing**         | Tiered, often based on the number of active contacts or annual revenue. | Tiered, primarily based on the number of contacts in your database. |\n| **Customer Support**| Generally well-regarded, responsive. | Generally good, but can vary by tier and complexity of issue. |\n| **Key Differentiators** | Focus on modern",
+  "donordock_mentioned": true,
+  "donordock_position": 5,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 647,
+  "estimated_cost_usd": 0.001619,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

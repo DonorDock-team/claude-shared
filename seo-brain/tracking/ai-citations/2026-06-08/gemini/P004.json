@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P004",
+  "prompt_text": "DonorDock pricing",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563281+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock uses a **tiered, subscription-based pricing model** that primarily scales with the **number of active donors/constituents** you manage.\n\nWhile specific pricing can change, here's a general overview of what you can expect and the typical tiers:\n\n1.  **Starter Plan:**\n    *   Designed for smaller organizations.\n    *   Includes core donor management, donation processing, basic email marketing, and reporting.\n    *   Pricing usually starts at a lower monthly rate for a specific number of constituents (e.g., up to 1,000 or 2,500). The price increases incrementally as your donor count grows within this tier.\n\n2.  **Professional Plan:**\n    *   Aimed at growing non-profits needing more features and capacity.\n    *   Includes everything in Starter, plus more advanced features like enhanced email marketing, more robust reporting, potentially advanced integrations (like QuickBooks Online), and increased support.\n    *   Pricing is higher than Starter and also scales significantly with the number of constituents (e.g., for 5,000, 10,000, or more).\n\n3.  **Enterprise Plan:**\n    *   For larger organizations with complex needs.\n    *   Offers all features, dedicated support, custom integrations, advanced event management, and often includes features like multi-user roles, custom fields, and more.\n    *   This tier typically requires a **custom quote** as pricing will depend heavily on your specific needs and a very large number of constituents.\n\n**Key things to remember about DonorDock pricing:**\n\n*   **Constituent Count is Key:** Your total number of active donors, volunteers, and other contacts in the system is the primary driver of your monthly cost.\n*   **Monthly vs. Annual:** They often offer a discount if you pay annually instead of monthly.\n*   **Features Vary by Tier:** Higher tiers unlock more advanced features, integrations, and support levels.\n*   **Free Trial/Demo:** They typically offer a free demo to see the software in action before committing.\n\n**To get the most accurate and up-to-date pricing for your specific organization, you should always visit the official DonorDock website's pricing page or contact their sales team directly.**",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 3,
+  "output_tokens": 478,
+  "estimated_cost_usd": 0.001196,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

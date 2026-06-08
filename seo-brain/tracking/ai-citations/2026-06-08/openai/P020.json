@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P020",
+  "prompt_text": "Cheaper alternative to Blackbaud",
+  "engine": "openai",
+  "timestamp": "2026-06-08T12:30:34.564324+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "If you're looking for a cost-effective alternative to Blackbaud for managing non-profit operations, donations, and fundraising campaigns, here are some options to consider:\n\n1. **Bloomerang**: Known for its user-friendly interface and focus on donor retention, Bloomerang offers a variety of tools for managing donor relationships and tracking fundraising efforts.\n\n2. **NeonCRM**: This platform provides comprehensive tools for managing donor data, email marketing, and event management. It's tailored for small to mid-sized non-profits.\n\n3. **DonorPerfect**: A flexible fundraising software that offers customizable management tools for fundraising, reporting, and CRM functionalities.\n\n4. **Little Green Light**: This is a cloud-based donor management system focusing on simplicity and affordability, suitable for smaller non-profits.\n\n5. **Kindful**: Offers an intuitive platform with integrations for accounting, email marketing, and online giving, aimed at streamlining fundraising processes.\n\n6. **Wild Apricot**: Primarily focused on membership management, it also includes features for fundraising and event management.\n\n7. **CiviCRM**: An open-source solution that can be customized to fit the specific needs of your organization. It can be more technical to set up but offers flexibility and cost savings in the long run.\n\n8. **Flipcause**: Provides a comprehensive platform for managing donations, events, and volunteers, with flexible pricing structures.\n\n9. **Salsa CRM**: Offers donor management, fundraising, and advocacy tools, designed to help non-profits engage supporters effectively.\n\nWhen considering alternatives, it's important to evaluate the specific features and integrations that your organization needs most, as well as the total cost of ownership, including any implementation and training expenses.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 345,
+  "estimated_cost_usd": 0.003482,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P149",
+  "prompt_text": "How to migrate from Excel to a nonprofit CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.564712+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Migrating from Excel to a Nonprofit CRM\n\n## Pre-Migration Steps\n\n### 1. **Assess Your Current Data**\n- Audit all Excel files (donors, donations, volunteers, programs)\n- Identify duplicate records\n- Standardize data formats (dates, phone numbers, addresses)\n- Clean up incomplete or outdated information\n\n### 2. **Choose the Right CRM**\nPopular nonprofit CRMs include:\n- **Bloomerang** (donor-focused)\n- **Salesforce Nonprofit Cloud** (comprehensive)\n- **DonorPerfect** (fundraising-focused)\n- **Little Green Light** (budget-friendly)\n- **Neon CRM** (all-in-one)\n\n## Migration Process\n\n### 3. **Prepare Your Data**\n- Create a master spreadsheet with all contacts\n- Map Excel columns to CRM fields (e.g., \"Name\" \u2192 \"Contact Name\")\n- Add unique IDs to prevent duplicates\n- Separate data into categories (contacts, donations, interactions)\n\n### 4. **Set Up Your CRM**\n- Configure custom fields needed for your organization\n- Set up donation forms and giving levels\n- Create user accounts and permissions\n- Establish naming conventions and data entry standards\n\n### 5. **Import Data**\n- Start with a small test batch (10-20 records)\n- Verify accuracy before full import\n- Import in stages: contacts first, then donations/history\n- Use CRM's import tools or CSV files\n\n### 6. **Verify and Clean**\n- Check for duplicate records\n- Verify relationships (donors to donations)\n- Confirm all critical data transferred correctly\n\n## Post-Migration\n\n### 7. **Train Your Team**\n- Schedule hands-on training sessions\n- Create documentation for common tasks\n- Designate a CRM administrator\n- Start with basic features before advanced ones\n\n### 8. **Best Practices Going Forward**\n- Enter data consistently from day one\n- Run regular reports to catch errors early\n- Back up your CRM data regularly\n- Keep Excel as archive only (don't maintain both)\n\n## Common Pitfalls to Avoid\n- Rushing without cleaning data first\n- Not testing the import process\n- Insufficient staff training\n- Trying to migrate everything at once\n\n**Timeline estimate:** 4-8 weeks for most small to mid-sized nonprofits\n\nWould you like specific guidance on any of these steps?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 551,
+  "estimated_cost_usd": 0.008316,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

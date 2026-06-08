@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "openai",
+  "timestamp": "2026-06-08T12:30:34.564055+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor pledges effectively involves several key steps to ensure accurate record-keeping and follow-up. Here\u2019s a guide to help you:\n\n1. **Choose a System**:\n   - **Software**: Use donor management software or customer relationship management (CRM) systems specifically designed for nonprofits, such as Salesforce Nonprofit Cloud, Bloomerang, or DonorPerfect.\n   - **Spreadsheets**: For smaller organizations or those with fewer pledges, spreadsheets like Google Sheets or Excel can be sufficient.\n\n2. **Create a Tracking Template**:\n   - Include fields for donor information (name, contact details), pledge amount, pledge date, payment schedule, and status of the pledge (paid, pending, overdue).\n\n3. **Input Data**:\n   - Enter all relevant donor information as soon as the pledge is made. Ensure that all details are accurate and complete.\n\n4. **Set Reminders**:\n   - For each pledge, set reminders for when payments are due. Automated reminders through your CRM can help ensure follow-ups are timely.\n\n5. **Regular Updates**:\n   - Update the status of the pledge each time a payment is received. Ensure that any changes in donor information or payment schedules are recorded.\n\n6. **Communication**:\n   - Send regular updates to donors about their pledge status. Personalize communications to include thank-you messages and impact reports.\n\n7. **Reporting**:\n   - Generate regular reports to review the status of all pledges. Identify trends, delayed payments, and potential issues needing attention.\n\n8. **Reconciliation**:\n   - Regularly reconcile your records with actual bank deposits to ensure that all pledges are being fulfilled as expected.\n\n9. **Acknowledgment**:\n   - Acknowledge all payments when received. Send receipts and thank-you notes promptly to maintain donor goodwill.\n\n10. **Policy and Procedure**:\n    - Establish clear internal policies for managing pledges, including handling overdue or canceled pledges.\n\nBy following these steps and maintaining accurate and comprehensive records, you can effectively track donor pledges and maintain strong relationships with your donors.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 420,
+  "estimated_cost_usd": 0.004233,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

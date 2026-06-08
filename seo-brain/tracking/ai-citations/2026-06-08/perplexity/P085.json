@@ -1,0 +1,37 @@
+{
+  "prompt_id": "P085",
+  "prompt_text": "Best donor CRM for advocacy organizations",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.563265+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The **best donor CRM for advocacy organizations** is usually a nonprofit-focused CRM that balances **donor management, campaign tracking, segmentation, and supporter communication**. Based on the available reviews and product descriptions, the strongest options are **Virtuous**, **Bloomerang**, **DonorPerfect**, **Salesforce Nonprofit Cloud**, and **CiviCRM**, with the best choice depending on your budget, technical capacity, and advocacy workflow[5][6][1][7][9].\n\nFor most advocacy organizations, the best fit is often:\n\n- **Virtuous** if you want a donor-centric CRM built around relationships and fundraising workflows[5].\n- **Bloomerang** if your top priority is **donor retention** and straightforward nonprofit donor management[6].\n- **DonorPerfect** if you want a classic nonprofit CRM with broad donor-management functionality[1].\n- **Salesforce Nonprofit Cloud** if you need a highly flexible, enterprise-grade system that can manage donors, volunteers, grants, and programs together[9].\n- **CiviCRM** if you want an **open-source** platform used by more than 14,000 nonprofits and need greater customization/control[7].\n\nA practical way to choose:\n\n| Need | Best fit |\n|---|---|\n| Relationship-centered fundraising | Virtuous[5] |\n| Donor retention and ease of use | Bloomerang[6] |\n| Broad nonprofit donor CRM | DonorPerfect[1] |\n| Maximum flexibility and scale | Salesforce Nonprofit Cloud[9] |\n| Open-source and customization | CiviCRM[7] |\n| Free/unlimited contacts emphasis | Givebutter[8] |\n\nIf your advocacy organization runs **campaigns, recurring supporter outreach, and issue-based mobilization**, the most important CRM features are:\n- **Supporter segmentation**\n- **Donation and pledge tracking**\n- **Email and communication history**\n- **Campaign and event tracking**\n- **Automation for follow-up**\n- **Volunteer or membership management**, if applicable\n\nIf you want, I can narrow this to the **best CRM for a small advocacy nonprofit**, **mid-size advocacy org**, or **enterprise advocacy campaign team**.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Givebutter",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 447,
+  "estimated_cost_usd": 0.011726,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.springly.org/en-us/blog/nonprofit-crm-advantages/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://mailchimp.com/resources/customer-relationship-management-for-nonprofits/",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/",
+      "https://bloomerang.com/blog/nonprofit-crm",
+      "https://civicrm.org/home",
+      "https://givebutter.com/donor-management-crm",
+      "https://www.goodera.com/blog/best-crms-for-nonprofits-the-complete-guide-for-nonprofit-organizations"
+    ]
+  }
+}

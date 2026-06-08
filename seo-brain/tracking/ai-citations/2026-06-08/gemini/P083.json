@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P083",
+  "prompt_text": "Best donor CRM for museums",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.562995+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a museum depends heavily on its size, budget, specific needs (e.g., heavy emphasis on membership, events, or major gifts), and existing tech stack.\n\nMuseums have unique requirements that differentiate them from general nonprofits, such as:\n\n*   **Membership Management:** Tiered memberships, renewals, benefits tracking, member cards.\n*   **Event Management:** Ticketing, exhibition openings, galas, workshops, education programs, facility rentals.\n*   **Volunteer Management:** Recruitment, scheduling, hour tracking, communications.\n*   **Gift Shop/Admissions Integration:** Though not always part of the CRM, seamless data flow is a plus.\n*   **Grant Tracking:** Managing applications, reporting, and funding sources.\n*   **Collection Management Integration:** While CRMs don't manage collections, knowing a donor's interest in specific collection areas is valuable.\n*   **Audience Segmentation:** Differentiating between donors, members, visitors, volunteers, and prospects.\n\nHere are some of the top donor CRMs often considered by museums, categorized by their strengths:\n\n---\n\n### **Top Recommendations for Museums:**\n\n1.  **Blackbaud (Altru & Raiser's Edge NXT)**\n    *   **Pros:**\n        *   **Altru:** Specifically designed for cultural institutions (museums, zoos, aquariums). It offers robust features for ticketing, admissions, memberships, gift shop POS, fundraising, and visitor services all in one platform.\n        *   **Raiser's Edge NXT (RENXT):** The industry standard for large nonprofits, offering incredibly deep fundraising capabilities, prospect research, grant management, and robust reporting. Can integrate with other Blackbaud products or third-party solutions for museum-specific functions.\n        *   **Scalability:** Can handle the most complex needs of very large institutions.\n    *   **Cons:**\n        *   **Cost:** One of the more expensive options.\n        *   **Learning Curve:** Can be complex to learn and implement, especially RENXT",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 428,
+  "estimated_cost_usd": 0.001071,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

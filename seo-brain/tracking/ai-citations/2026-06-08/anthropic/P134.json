@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P134",
+  "prompt_text": "Why nonprofits leave Bloomerang",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562150+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Reasons Nonprofits Leave Bloomerang\n\nWhile Bloomerang is popular among small to mid-sized nonprofits, organizations do leave for various reasons:\n\n## **Pricing & Budget**\n- **Cost increases** as organizations grow and need more contacts/features\n- **Better value elsewhere** - competitors may offer more features at similar price points\n- Budget cuts requiring cheaper alternatives\n\n## **Feature Limitations**\n- **Limited customization** compared to enterprise-level CRMs\n- **Basic reporting** insufficient for data-driven organizations\n- **Event management** capabilities less robust than specialized platforms\n- **Grant management** features may not meet complex needs\n- **Integration limitations** with other software systems\n\n## **Organizational Growth**\n- **Outgrowing the platform** as complexity increases\n- Need for more sophisticated **major gifts** or **campaign management**\n- Requiring enterprise-level features (complex workflows, advanced automation)\n\n## **Technical Issues**\n- **User interface** not intuitive for some teams\n- **Performance or reliability** concerns\n- **Data migration challenges** when importing existing records\n- **Mobile app limitations**\n\n## **Support & Service**\n- Insufficient customer support response times\n- Training needs not being met\n- Implementation difficulties\n\n## **Strategic Changes**\n- Mergers requiring consolidated systems\n- Moving to **all-in-one platforms** (like Salesforce Nonprofit Cloud)\n- Organization-wide technology standardization\n\nMost departures happen during growth transitions or when specialized needs emerge that Bloomerang wasn't designed to address.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 343,
+  "estimated_cost_usd": 0.005193,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

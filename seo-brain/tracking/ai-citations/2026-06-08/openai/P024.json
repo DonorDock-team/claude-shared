@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P024",
+  "prompt_text": "How much does nonprofit donor CRM cost",
+  "engine": "openai",
+  "timestamp": "2026-06-08T12:30:34.561847+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The cost of a nonprofit donor CRM can vary widely depending on several factors, including the size of the organization, the number of users, specific features required, and whether the CRM is cloud-based or on-premises. Here are some general pricing guidelines:\n\n1. **Basic CRMs**: Some CRM platforms offer free versions with limited features that might suffice for very small nonprofits. Examples include HubSpot CRM and Zoho CRM's free plan.\n\n2. **Mid-range CRMs**: These generally have more features tailored to the needs of nonprofits, such as donor management, event management, and email marketing. Pricing can range from $50 to $200 per month for a moderate number of users. Examples include Bloomerang, NeonCRM, and Little Green Light.\n\n3. **Enterprise-level CRMs**: Larger nonprofits or those with complex needs might opt for more robust solutions like Salesforce Nonprofit Success Pack (NPSP) or Blackbaud. These CRMs can cost several hundred to several thousand dollars per month, depending on the scale and customization required.\n\n4. **Additional Costs**: Remember to account for potential setup fees, training, customization, and ongoing support costs, which can add up.\n\nMost CRM providers offer tiered pricing based on the number of contacts or users, so it's essential to assess your organization's specific needs and budget constraints when choosing a CRM. It's also a good idea to take advantage of free trials and demos to ensure the CRM is a good fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 296,
+  "estimated_cost_usd": 0.002995,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

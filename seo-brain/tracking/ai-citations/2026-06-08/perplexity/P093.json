@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P093",
+  "prompt_text": "Cheapest nonprofit CRM with online giving",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.564503+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The lowest-cost option that still gives you both a usable **nonprofit CRM and online giving** is typically a **\u201cfree + payment-processing\u201d all\u2011in\u2011one platform** like **Givebutter**, with a few other low-cost contenders depending on your needs.\n\nBelow is a concise breakdown of the *cheapest practical choices*, focusing on:  \n- built\u2011in online giving,  \n- real CRM (not just a contact spreadsheet),  \n- and total cost (subscription + payment/transaction fees).\n\n---\n\n### 1. **Givebutter** \u2013 Free CRM + Online Giving (you pay only processing/optional tips)\n\n- **Core cost:** The CRM and core fundraising/marketing tools are **free**, with **unlimited contacts**.[1]  \n- **What you get:**\n  - Donor CRM (profiles, history, segmentation).[1][5]\n  - Online donation pages, campaigns, events, ticketing, peer\u2011to\u2011peer, etc.[5]\n  - Email and text tools for donor engagement.[1][5]\n- **How they make money:**  \n  - Standard card/ACH processing fees on donations.  \n  - Optional \u201ctipping\u201d model where donors can cover platform fees; you can often keep your *subscription* cost at $0 and only pay unavoidable payment processing.\n- **When it\u2019s cheapest:**  \n  - For small and mid\u2011size nonprofits that want *modern pages + CRM* without a monthly fee, and are okay with standard processing fees and/or donor tips.  \n\nFor \u201ccheapest nonprofit CRM with online giving,\u201d Givebutter is usually the **lowest cash outlay** option because there is **no license fee**; you only pay per transaction.\n\n---\n\n### 2. **Springly** \u2013 Free CRM, but online payments may add cost\n\n- **Core cost:** Springly\u2019s CRM is advertised as **free, cloud\u2011based** and targeted to nonprofits, with a paid \u201centerprise\u201d tier for more features.[2]  \n- **What you get for free:**\n  - Basic nonprofit CRM (contacts, members, donors, volunteers).[2]\n- **Online giving:**  \n  - Springly supports online payments and donations, but those features typically involve processing fees and may require upgrading, so the \u201call\u2011in\u201d cost can be higher than Givebutter even if the CRM itself is free.[2]\n- **When it\u2019s cheapest:**  \n  - If you mainly need **membership management + light fundraising** and their free tier covers your use case, but you should confirm any gateway or add\u2011on fees.\n\n---\n\n### 3. **Low\u2011cost dedicated nonprofit CRMs with online giving add\u2011ons**\n\nIf you are willing to pay a modest monthly fee for a more traditional CRM (and still get online giving), these are often among the cheapest paid options:\n\n- **Little Green Light**  \n  - Designed for **smaller nonprofits**, marketed as **simple and affordable**.[4]  \n  - Integrates with online giving tools, but online donation processing may be through partners (so factor in that cost).\n\n- **Bloomerang Giving Platform**  \n  - Starts at **$125/month** and includes unlimited users, unlimited online forms for giving and events, and email marketing tools.[6]  \n  - This is more expensive than \u201cfree\u201d platforms but low compared with enterprise systems like Salesforce.\n\nThese are \u201ccheap\u201d compared with enterprise CRMs, but not cheaper than a free platform like Givebutter once you include subscription fees.\n\n---\n\n### 4. Large/enterprise options (usually not \u201ccheapest\u201d)\n\n- **Salesforce for Nonprofits**  \n  - Very powerful, but configuration and add\u2011ons for online giving usually make it **more expensive and complex** than the options above, especially for smaller orgs.[3]\n\nThese are worth considering only if you have complex multi\u2011program needs and a larger budget.\n\n---\n\n### Practical recommendation\n\nIf your priority is **absolute lowest cost** while still getting **a real CRM and online giving in one system**:\n\n1. **Start with Givebutter** for free CRM + online donation pages/events + email/text, and accept standard processing/optional tip model.[1][5]  \n2. Compare to **Springly** only if you need more association/membership\u2011style features and are willing to dig into their payment/add\u2011on costs.[2]  \n3. Consider **Little Green Light** or **Bloomerang** if you can afford a monthly fee and need more traditional CRM depth or specific workflows.[4][6]\n\nIf you share your approximate contact count, monthly online donations, and must\u2011have features (e.g., events, memberships, text-to-give), I can help estimate actual monthly costs and suggest which platform will be functionally \u201ccheapest\u201d for your situation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Givebutter",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 986,
+  "estimated_cost_usd": 0.019814,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://givebutter.com/donor-management-crm",
+      "https://www.springly.org/en-us/free-crm-nonprofit/",
+      "https://www.salesforce.com/nonprofit/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://bloomerang.com/blog/free-nonprofit-software",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P044",
+  "prompt_text": "Best donor CRM for food banks",
+  "engine": "openai",
+  "timestamp": "2026-06-08T12:30:34.562162+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM for food banks involves considering several key factors, including ease of use, features tailored to nonprofit needs, integration capabilities, and cost. Here are some popular CRM options that are well-regarded in the nonprofit sector, particularly for food banks and similar organizations:\n\n1. **Salesforce Nonprofit Success Pack (NPSP)**:\n   - **Pros**: Highly customizable, robust features, strong integration capabilities, and offers discounts for nonprofits.\n   - **Cons**: Can be complex to set up and may require additional customization or consulting.\n\n2. **Bloomerang**:\n   - **Pros**: User-friendly interface, excellent donor engagement tools, and provides a good donor retention dashboard.\n   - **Cons**: Limited customization and reporting features compared to more robust options.\n\n3. **Neon CRM**:\n   - **Pros**: Comprehensive features including event management, volunteer management, and email marketing. Customizable and integrates well with other tools.\n   - **Cons**: Can be overwhelming for smaller teams due to the breadth of features.\n\n4. **Kindful**:\n   - **Pros**: Intuitive interface, good integration with other tools like QuickBooks and Mailchimp, and strong donor management features.\n   - **Cons**: May lack advanced features of larger systems like Salesforce.\n\n5. **Little Green Light**:\n   - **Pros**: Cost-effective, user-friendly, and includes comprehensive fundraising features. Good customer support.\n   - **Cons**: Reporting can be limited compared to more advanced CRMs.\n\n6. **DonorPerfect**:\n   - **Pros**: Scalable solution with strong donor management capabilities. Good for tracking donor lifecycle and engagement.\n   - **Cons**: The interface might be considered less modern compared to newer platforms.\n\n7. **CharityEngine**:\n   - **Pros**: All-in-one solution including fundraising, events, and direct mail integration.\n   - **Cons**: Can be more costly, and smaller organizations might not need all features offered.\n\n8. **Network for Good**:\n   - **Pros**: Designed for small to mid-sized nonprofits with a focus on ease of use and donor communications.\n   - **Cons**: Limited customization options compared to larger CRMs.\n\nWhen selecting a CRM, consider your specific organizational needs, the size of your database, budget constraints, and whether you have the resources required for implementation and maintenance. It may also be beneficial to request demos or trials whenever possible to explore the CRM's functionalities and see how they align with your workflow.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 517,
+  "estimated_cost_usd": 0.005202,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

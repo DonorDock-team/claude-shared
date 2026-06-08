@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.564120+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor pledges is a critical aspect of fundraising and financial management for any nonprofit organization. It allows you to forecast revenue, manage cash flow, and ensure proper stewardship of your donors.\n\nHere's a comprehensive guide on how to track donor pledges:\n\n## 1. What Information to Track for Each Pledge\n\nAccurate and detailed data is the foundation of effective pledge tracking. For every pledge, you should capture the following:\n\n*   **Donor Information:**\n    *   Full Name (Individual or Organization)\n    *   Contact Information (Address, Email, Phone Number)\n    *   Donor ID (if using a system)\n    *   Associated Solicitor/Staff Member (if applicable)\n*   **Pledge Details:**\n    *   **Pledge Amount:** The total amount the donor has committed.\n    *   **Pledge Date:** The date the pledge was made/committed.\n    *   **Pledge Type:** (e.g., Capital Campaign, Annual Fund, Restricted, Unrestricted, Event Sponsorship)\n    *   **Purpose/Designation:** Specific program or fund the pledge is for.\n    *   **Pledge Start Date:** (If different from Pledge Date, often for multi-year pledges)\n    *   **Pledge End Date:** The date by which the full pledge is expected to be paid.\n    *   **Payment Schedule/Frequency:**\n        *   Lump Sum\n        *   Monthly\n        *   Quarterly\n        *   Annually\n        *   Custom (specify dates and amounts)\n    *   **Expected Payment Dates & Amounts:** List out each scheduled installment.\n    *   **Pledge Status:**\n        *   Active\n        *   Completed\n        *   Overdue\n        *   Cancelled/Written Off\n        *   On Hold\n*   **Payment Tracking:**\n    *   **Total Amount Paid to Date:** Sum of all payments received for this pledge.\n    *   **Outstanding Balance:** Pledge Amount - Total Amount Paid.\n    *   **Last Payment Date:**\n    *   **Next Expected Payment Date:**\n*   **Administrative Details:**\n    *   **Acknowledgment Status:** Has the pledge been formally acknowledged? Date acknowledged.\n    *   **Pledge Agreement:** Is there a signed pledge form or written agreement? Where is it stored?\n    *   **Internal Notes:** Any specific conditions, conversations, or follow-ups needed.\n\n## 2. Tools for Tracking Donor Pledges\n\nThe method you choose depends on the size and complexity of your organization.\n\n### a) Spreadsheets (Excel, Google Sheets) - For Smaller Organizations\n\n**Pros:**\n*   Inexpensive/Free\n*   Easy to set up initially\n*   Flexible for basic customization\n\n**Cons:**\n*   **Manual:** Highly prone to human error in data entry and calculations.\n*   **Scalability:** Becomes unwieldy quickly with more donors/pledges.\n*   **Limited Reporting:** Requires manual aggregation and analysis.\n*   **No Automation:** No automated reminders, acknowledgments, or overdue alerts.\n*   **Data Silos:** Doesn't integrate with other donor data (communications, event attendance).\n*   **Security & Collaboration:** Can be difficult to manage permissions and track changes with multiple users.\n\n**Spreadsheet Setup Example:**\n*   **Tab 1: Pledges:** Columns for all pledge details listed above (Donor Name, Pledge Amount, Pledge Date, Schedule, etc.)\n*   **Tab 2: Payments:** Columns for Payment ID, Donor Name, Pledge ID (to link to Tab 1), Payment Date, Payment Amount, Payment Method. Use `SUMIF` or `VLOOKUP` to update",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 785,
+  "estimated_cost_usd": 0.001964,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

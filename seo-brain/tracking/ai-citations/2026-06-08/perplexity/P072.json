@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P072",
+  "prompt_text": "How to manage recurring donors for your nonprofit",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.563953+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "To manage recurring donors well, focus on **simple giving, consistent stewardship, and automated follow-up**. The strongest patterns across nonprofit fundraising guidance are: make enrollment easy, communicate regularly, reduce failed payments, and give donors control over their gifts.[2][3][4]\n\n- **Make sign-up frictionless**: Keep the recurring donation form short, offer preset amounts, and provide multiple payment options so donors can commit quickly.[3][8]\n- **Set clear giving tiers**: Tie monthly amounts to specific impact examples, which helps donors understand what their ongoing gift accomplishes.[3]\n- **Use automation for administration**: Implement a donor portal where supporters can update payment details, change donation amounts, and access receipts without staff intervention.[3][6]\n- **Send timely acknowledgments**: Thank donors when they start a recurring gift and continue with personalized acknowledgments, renewal reminders, and update notifications.[2][4][5]\n- **Show ongoing impact**: Share regular updates, photos, stories, and reports that connect the donor\u2019s recurring support to concrete outcomes.[1][4][5]\n- **Reduce churn proactively**: Monitor failed payments and cancellations, send card-expiration reminders, and use automated payment retries and dunning messages to recover revenue.[2][3][5]\n- **Segment donors in your CRM**: Group recurring donors by giving history, interests, or engagement level so you can personalize messaging and retention efforts.[1][2][5]\n- **Offer upgrade opportunities**: Periodically invite loyal recurring donors to increase their monthly gift, ideally through low-friction prompts in receipts or donor portal messages.[3][6]\n- **Track program performance**: Review retention rate, churn, average gift size, failed payments, and upgrades so you can refine the program over time.[2][4]\n\nIf you want, I can also turn this into a **step-by-step recurring donor management workflow** or a **sample communication calendar** for your nonprofit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 393,
+  "estimated_cost_usd": 0.010922,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://momentivesoftware.com/blog/recurring-donations/",
+      "https://www.bonterratech.com/training/salsa-labs/managing-recurring-donations",
+      "https://stripe.com/resources/more/how-to-handle-recurring-donations-in-nonprofit-payments",
+      "https://www.double.giving/blog/post/5-factors-to-successfully-incorporate-recurring-giving-into-your-fundraising-program",
+      "https://nla1.org/engaging-recurring-donors/",
+      "https://donorbox.org/explore/recurring-donations",
+      "https://4agoodcause.com/10-simple-ways-to-retain-monthly-donors-and-reduce-churn/",
+      "https://rallyup.com/blog/recurring-donations/",
+      "https://www.donorperfect.com/monthly-giving/"
+    ]
+  }
+}

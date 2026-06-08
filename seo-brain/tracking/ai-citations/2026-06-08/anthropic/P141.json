@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P141",
+  "prompt_text": "Easy donor database for fundraisers",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563505+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Easy Donor Database Options for Fundraisers\n\nHere are user-friendly donor database solutions organized by organization size and needs:\n\n## **Best for Small Nonprofits/Beginners**\n\n### **1. Donorbox**\n- Very intuitive interface\n- Built-in donation forms\n- Basic donor management\n- Free plan available\n- Great for organizations just starting out\n\n### **2. Little Green Light**\n- Designed specifically for small nonprofits\n- Simple contact management\n- Donation tracking\n- Affordable ($39/month)\n- Excellent customer support\n\n### **3. Bloomerang**\n- User-friendly dashboard\n- Donor retention focus\n- Email integration\n- Good reporting tools\n- Starting at $125/month\n\n## **Best Free/Low-Cost Options**\n\n### **4. Bitrix24**\n- Free for up to 12 users\n- CRM functionality\n- Contact management\n- Task tracking\n\n### **5. Google Sheets/Airtable**\n- Completely free (Google) or free tier (Airtable)\n- Customizable templates\n- Good for very small operations\n- Requires manual setup\n\n## **Best Mid-Sized Solution**\n\n### **6. Kindful (by Bloomerang)**\n- Clean interface\n- Strong reporting\n- Integration with other tools\n- Growing with your organization\n\n## **What to Consider:**\n- **Your budget**: $0-500+/month\n- **Number of donors**: <100, 100-1000, 1000+\n- **Technical comfort level**\n- **Need for online donation processing**\n\n**What's your organization size and primary needs?** I can give more specific recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 383,
+  "estimated_cost_usd": 0.005787,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

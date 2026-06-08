@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P048",
+  "prompt_text": "Donor CRM for nonprofits outgrowing their current tools",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563144+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "It's an exciting (and sometimes daunting) phase when a nonprofit outgrows its current donor management tools! This usually means they need more robust features for fundraising, stewardship, volunteer management, reporting, and integration.\n\nHere are the top donor CRM options for nonprofits transitioning beyond basic tools, along with their strengths and ideal use cases:\n\n---\n\n### Top Donor CRMs for Growing Nonprofits\n\n1.  **Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack)**\n    *   **Strengths:**\n        *   **Unrivaled Scalability & Customization:** Can handle virtually any complexity and scale to the largest organizations.\n        *   **Vast Ecosystem:** Thousands of app integrations (AppExchange) for everything from marketing automation to grant management.\n        *   **Robust Reporting & Analytics:** Deep insights into donor behavior, campaign performance, and trends.\n        *   **Community Support:** Huge user community, extensive documentation, and a network of consultants.\n        *   **Generous Pricing Model:** Salesforce offers 10 free licenses for qualifying nonprofits, significantly reducing initial software costs.\n    *   **Considerations:**\n        *   **Steep Learning Curve:** Can be complex to set up and manage, often requiring a dedicated administrator or consultant.\n        *   **Implementation Costs:** While licenses can be free, the cost of setup, customization, and ongoing admin can be substantial.\n    *   **Best For:** Ambitious, growing nonprofits with complex needs, diverse programs, a large donor base, and the potential for a dedicated tech-savvy staff member or budget for implementation partners. It's a long-term investment.\n\n2.  **Bloomerang**\n    *   **Strengths:**\n        *   **User-Friendly & Intuitive:** Known for its clean interface and ease of use, making it quick for staff to adopt.\n        *   **Strong Focus on Donor Retention:** Features like constituent engagement scores, giving summaries, and communication tools are designed to help build lasting donor relationships.\n        *   **Integrated Marketing Tools:** Email marketing, website forms, and social media integration built-in.\n        *   **Excellent Support & Resources:** Highly rated customer service and educational content.\n        *   **Affordable for Mid-Size:** Pricing is often competitive for organizations with growing donor files.\n    *   **Considerations:**\n        *   **Less Robust for Program Management:** While great for fundraising and donor engagement, it's not a full-fledged program management tool.\n        *   **Limited Customization:** While user-friendly, it offers less deep customization than Salesforce.\n    *   **Best For:** Nonprofits prioritizing donor retention, ease of use, strong fundraising analytics, and integrated communication without needing overly complex program tracking or extensive customization.\n\n3.  **Neon CRM (part of Neon One)**\n    *   **Strengths:**\n        *   **All-in-One Solution:** Comprehensive platform covering fundraising, events, memberships, volunteers, and often basic program management.\n        *   **Modern Interface:** User-friendly and aesthetically pleasing.\n        *   **Strong for Membership & Events:** Excellent features for managing recurring members, processing renewals, and coordinating events.\n        *   **Good Integrations:** Plays well with many common nonprofit",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Neon CRM",
+    "Neon One",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 685,
+  "estimated_cost_usd": 0.001715,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

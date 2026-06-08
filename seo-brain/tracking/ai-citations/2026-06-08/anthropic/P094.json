@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P094",
+  "prompt_text": "Hidden costs of Bloomerang",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.564571+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Bloomerang\n\nWhile Bloomerang advertises transparent pricing, there are several hidden or additional costs to consider:\n\n## 1. **Initial Setup & Data Migration**\n- **Data import fees** - Complex data migrations may require paid professional services\n- **Time investment** - Staff hours needed for initial setup and configuration\n- **Data cleaning** - You may need to clean existing data before migration\n\n## 2. **Integration Costs**\n- **Third-party app fees** - Many integrations require separate subscriptions (QuickBooks, Mailchimp, etc.)\n- **API access limitations** - Some integrations only available on higher tiers\n- **Zapier costs** - If using Zapier for integrations, additional monthly fees apply\n\n## 3. **Training & Support**\n- **Advanced training** - Beyond basic onboarding may incur extra charges\n- **Consulting services** - Custom reporting or complex setup assistance\n- **Staff turnover** - Retraining costs when employees leave\n\n## 4. **Feature Limitations by Tier**\n- **Email sending limits** - May need to upgrade or use external email service\n- **User limits** - Additional users may require tier upgrades\n- **Custom fields/reports** - Limited on lower tiers\n\n## 5. **Payment Processing Fees**\n- **Transaction fees** - 2-3% + per transaction when using integrated payment processors\n- **Monthly gateway fees** - Some payment processors charge monthly fees\n\n## 6. **Scalability Costs**\n- **Contact database limits** - Growing beyond your tier's limit requires upgrades\n- **Storage limitations** - Large file attachments may require higher plans\n\n## 7. **Add-on Services**\n- **Custom development** - Any customization beyond standard features\n- **Premium support** - Priority support may cost extra\n- **On-site training** - Travel and consulting fees\n\n**Tip:** Request a detailed cost breakdown during demos and factor in your organization's growth projections.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 445,
+  "estimated_cost_usd": 0.006717,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

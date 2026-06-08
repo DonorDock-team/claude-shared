@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P049",
+  "prompt_text": "Best donor CRM with unlimited contacts",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563294+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding the \"best\" donor CRM is always a balance of features, ease of use, support, and price. When you add the critical requirement of **unlimited contacts**, it narrows down the field significantly, as many CRMs tier their pricing based on the number of constituents you manage.\n\nHere are the top donor CRMs that either truly offer unlimited contacts or have pricing models that effectively make contact limits a non-issue, making them excellent choices for growing non-profits:\n\n---\n\n### Top Recommendations for Unlimited Contacts:\n\n1.  **Salesforce for Nonprofits (NPSP)**\n    *   **How it handles \"unlimited contacts\":** Salesforce NPSP (Nonprofit Success Pack) itself does not explicitly limit the number of contact records you can store. While there are data storage limits within Salesforce, these are generally very generous for contact records, and additional storage can be purchased if truly needed, but it's rarely a concern just for contact records. The main constraint for NPOs is the number of licensed users.\n    *   **Pros:**\n        *   **Extremely Powerful & Customizable:** The most robust and flexible platform available, capable of managing every aspect of your operations.\n        *   **Ecosystem:** Access to the vast Salesforce AppExchange for countless integrations and add-ons.\n        *   **10 Free Licenses:** Salesforce offers 10 free enterprise-level licenses to qualifying non-profits, making it incredibly cost-effective for smaller teams.\n        *   **Scalability:** Grows with your organization, from small startups to global",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 322,
+  "estimated_cost_usd": 0.000807,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

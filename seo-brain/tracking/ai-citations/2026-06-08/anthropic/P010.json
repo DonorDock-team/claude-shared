@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P010",
+  "prompt_text": "Does DonorDock have online giving",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562407+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock Online Giving\n\nYes, **DonorDock does offer online giving capabilities** through their platform. Here are the key features:\n\n## Online Donation Features\n\n- **Donation forms** that can be embedded on your website\n- **Customizable donation pages** to match your organization's branding\n- **Recurring donation options** for supporters who want to give regularly\n- **Mobile-responsive forms** so donors can give from any device\n- **Integration with payment processors** to accept credit cards and ACH transfers\n\n## Additional Features\n\n- Automatic donor data syncing with your CRM\n- Donation receipts sent automatically\n- Campaign-specific donation tracking\n- Real-time donation notifications\n\nDonorDock positions itself as an all-in-one donor management system that includes both the CRM/database side and the online fundraising tools, making it easier for smaller nonprofits to manage everything in one place.\n\nIf you're evaluating DonorDock, I'd recommend requesting a demo to see their online giving features in action and confirm they meet your specific needs.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 240,
+  "estimated_cost_usd": 0.003648,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

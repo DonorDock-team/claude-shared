@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.564400+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For international NGOs (INGOs), selecting a donor CRM requires a robust solution that can handle complexity, scale globally, manage multi-currency transactions, comply with various regulations, and support diverse fundraising strategies across different cultures and languages.\n\nThe \"best\" often depends on the INGO's specific size, budget, existing tech stack, and internal capacity for customization. However, a few platforms consistently rise to the top for their comprehensive features and ability to meet the unique demands of international operations.\n\nHere are the top contenders, along with their strengths and considerations for INGOs:\n\n---\n\n### Top Recommendations for International NGOs\n\n1.  **Salesforce Nonprofit Cloud (with Nonprofit Success Pack - NPSP)**\n    *   **Why it's great for INGOs:**\n        *   **Unrivaled Customization & Scalability:** Salesforce is incredibly flexible. NPSP provides a strong foundation for donor management, and the platform can be customized to handle complex program management, grant tracking, volunteer management, and advocacy efforts across multiple countries.\n        *   **Multi-Currency & Multi-Language:** Native support for multiple currencies and languages (both UI and data). Essential for global fundraising and reporting.\n        *   **Global Ecosystem:** The largest AppExchange marketplace means integrations with almost any tool imaginable (payment gateways, marketing automation, accounting, etc.) are readily available, including those specific to certain regions.\n        *   **Reporting & Analytics:** Powerful reporting tools allow for consolidated global reports as well as granular regional or country-specific analysis.\n        *   **Community & Support:** A massive global community of users, developers, and consultants, ensuring widespread support.\n        *   **Flexibility for Diverse Donors:** Excellent for tracking individual donors, major donors, foundations, corporate partners, and government grants.\n    *   **Considerations:**\n        *   **Complexity & Cost:** Can be the",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 390,
+  "estimated_cost_usd": 0.000977,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

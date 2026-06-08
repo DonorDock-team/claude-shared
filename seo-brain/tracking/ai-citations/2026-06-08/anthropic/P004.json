@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P004",
+  "prompt_text": "DonorDock pricing",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563168+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock Pricing\n\nDonorDock offers straightforward pricing for nonprofit organizations:\n\n## Current Pricing Structure\n\n**$99/month** (billed annually at $1,188/year)\n\n### What's Included:\n- **Unlimited users** - no per-seat fees\n- **Unlimited donors** - no contact limits\n- **Unlimited data storage**\n- Full donor management (CRM)\n- Online donation forms\n- Email campaigns\n- Donor portal\n- Task management\n- Reporting and analytics\n- Mobile app access\n- Customer support\n\n## Key Features:\n- **No setup fees**\n- **No transaction fees** on donations (payment processing fees still apply from Stripe)\n- **Simple flat-rate pricing** - no tiered plans or hidden costs\n- **30-day free trial** available\n\n## Notes:\n- Payment processing fees (Stripe) are separate: typically 2.9% + $0.30 per transaction\n- Pricing may have changed since my last update, so I recommend visiting **donordock.com** or contacting their sales team directly for the most current pricing\n\nThis pricing model is particularly attractive for small to mid-sized nonprofits that want predictable costs without worrying about scaling fees as their donor base grows.\n\nWould you like to know how DonorDock compares to other nonprofit CRM options?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 308,
+  "estimated_cost_usd": 0.004659,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

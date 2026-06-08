@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P007",
+  "prompt_text": "DonorDock vs Network for Good",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.561978+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Network for Good Comparison\n\nBoth are nonprofit fundraising platforms, but they serve different organizational needs:\n\n## **DonorDock**\n\n**Best for:** Small to midsize nonprofits wanting affordable, modern donor management\n\n**Key Strengths:**\n- **Pricing:** More affordable ($99-299/month typically)\n- **User interface:** Modern, intuitive, easy to learn\n- **Donor management:** Strong relationship tracking and communication tools\n- **Customer service:** Known for responsive, personalized support\n- **Setup:** Quick implementation\n\n**Limitations:**\n- Fewer integrations than enterprise solutions\n- Less robust for complex grant management\n- Smaller feature set overall\n\n## **Network for Good**\n\n**Best for:** Organizations wanting an all-in-one solution with fundraising coaching\n\n**Key Strengths:**\n- **Fundraising tools:** Integrated donation pages, peer-to-peer, events\n- **Support & training:** Includes fundraising coaching and strategy resources\n- **Comprehensive:** CRM + donation processing + website tools in one\n- **Reporting:** More extensive analytics and benchmarking\n\n**Limitations:**\n- **Pricing:** More expensive (typically $999-2,500+/year plus processing fees)\n- **Complexity:** Steeper learning curve\n- **Flexibility:** Less customizable than some alternatives\n\n## **Bottom Line**\n\n- Choose **DonorDock** if you want straightforward donor management at a lower price point\n- Choose **Network for Good** if you need a full-service solution with fundraising support and have the budget\n\nWhat's your organization's size and primary need?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 366,
+  "estimated_cost_usd": 0.005538,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

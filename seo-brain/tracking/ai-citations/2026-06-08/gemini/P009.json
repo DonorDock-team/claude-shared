@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.562368+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When comparing DonorDock and Givebutter, you're essentially looking at two powerful tools for non-profits, but with very different primary focuses and strengths.\n\n**DonorDock is primarily a robust Donor Relationship Management (CRM) system**, while **Givebutter is an all-in-one modern fundraising platform** with integrated CRM capabilities.\n\nHere's a detailed breakdown to help you decide:\n\n---\n\n## DonorDock vs. Givebutter: Head-to-Head\n\n| Feature/Category         | DonorDock                                       | Givebutter                                               |\n| :----------------------- | :---------------------------------------------- | :------------------------------------------------------- |\n| **Primary Focus**        | Comprehensive Donor CRM & Management            | All-in-one Fundraising Platform                          |\n| **Core Strength**        | Detailed donor data, segmentation, relationships | Modern campaign pages, events, peer-to-peer, ease of use |\n| **Fundraising Pages**    | Basic forms; *integrates* with other platforms. | **Excellent** - beautiful, customizable, modern designs   |\n| **Campaigns & Events**   | Manages donor data for campaigns/events         | **Excellent** - P2P, ticketing, auctions, live display   |\n| **Donor CRM Depth**      | **Very Robust** - profiles, giving history, notes, tasks, pledges, detailed segmentation, communication tracking | Moderate - donor profiles, giving history, basic notes   |\n| **Communication Tools**  | Targeted email, direct mail merges, task mgmt   | Email receipts, basic email blasts, SMS                  |\n| **Reporting & Analytics**| **Advanced** - donor retention, segmentation, pledges, pipeline, custom reports | Standard fundraising reports, campaign performance       |\n| **Pricing Model**        | Subscription-based (tiered, based on donor records/features) | \"Free\" core platform (donors cover fees); optional premium features/support |\n| **Ease of Use**          | Moderate (due to feature depth), professional UI | **Very Easy** & intuitive, modern drag-and-drop          |\n| **Target Audience**      | Non-profits focused on long-term donor relationships, sophisticated segmentation, growing their donor base strategically, medium to large orgs. | Small to medium non-profits, start-ups, event-focused organizations, those prioritizing modern digital fundraising and cost-effectiveness. |\n| **Integrations**         | Payment processors (Stripe), email, accounting   | Payment processors, CRMs (Salesforce), Zapier, Mailchimp, etc. |\n| **Mobile App**           | Limited / Web-based                               | Good mobile experience for donors & admins               |\n\n---\n\n## DonorDock: Deep Dive\n\n**Strengths:**\n\n1.  **Robust CRM:** DonorDock excels at managing your donor data. It offers detailed donor profiles, comprehensive giving history, pledge management, wealth screening integrations, and powerful segmentation tools.\n",
+  "donordock_mentioned": true,
+  "donordock_position": 15,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 609,
+  "estimated_cost_usd": 0.001524,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P062",
+  "prompt_text": "Best nonprofit CRM with email and text messaging",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562133+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Nonprofit CRMs with Email & Text Messaging\n\n## Top Recommendations\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-size nonprofits\n- **Key features:** Built-in email marketing, donor engagement scoring, wealth screening\n- **SMS:** Via integrations (Zapier)\n- **Pricing:** ~$125/month+\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger nonprofits with complex needs\n- **Key features:** Highly customizable, robust email automation, extensive integrations\n- **SMS:** Available through Marketing Cloud or add-ons\n- **Pricing:** 10 free licenses, then ~$36/user/month (discounted for nonprofits)\n\n### **3. Kindful (by Bloomerang)**\n- **Best for:** Growing nonprofits\n- **Key features:** Native email campaigns, donation tracking, online giving forms\n- **SMS:** Via integrations\n- **Pricing:** ~$100/month+\n\n### **4. NeonCRM**\n- **Best for:** All-in-one solution seekers\n- **Key features:** Email marketing included, event management, membership tools, text-to-give\n- **SMS:** Built-in text messaging capabilities\n- **Pricing:** ~$50/month (Essentials) to $200+/month\n\n### **5. Keela**\n- **Best for:** Budget-conscious small nonprofits\n- **Key features:** Email automation, AI-powered insights, donor segmentation\n- **SMS:** Available in higher tiers\n- **Pricing:** Starts ~$50/month\n\n## Quick Comparison\n\n| CRM | Native Email | Native SMS | Best Pricing |\n|-----|--------------|------------|--------------|\n| NeonCRM | \u2705 | \u2705 | $$$ |\n| Salesforce | \u2705 | Via add-on | $$ |\n| Bloomerang | \u2705 | Via integration | $$$ |\n| Keela | \u2705 | \u2705 (higher tiers) | $ |\n\n**My recommendation:** Start with **NeonCRM** if you need both email and SMS out of the box, or **Keela** if budget is tight.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Keela",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 523,
+  "estimated_cost_usd": 0.007893,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

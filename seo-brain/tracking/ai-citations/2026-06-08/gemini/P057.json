@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P057",
+  "prompt_text": "Best donor CRM with online giving built in",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.564527+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM with online giving built-in depends heavily on your organization's specific needs, budget, size, and desired features. However, several platforms stand out for their robust combination of CRM capabilities and integrated online fundraising tools.\n\nHere are some of the top contenders, categorized to help you find the best fit:\n\n---\n\n### Top Overall Contenders (Strong CRM + Excellent Built-in Online Giving)\n\nThese platforms generally offer a comprehensive suite of features suitable for most growing and established nonprofits.\n\n1.  **Bloomerang**\n    *   **Why it's great:** Bloomerang is known for its user-friendly interface, strong focus on donor retention, and excellent native online giving forms. The forms are highly customizable, mobile-responsive, and integrate seamlessly with your donor database, automatically tracking donations and creating new donor records. Their \"engagement meter\" helps identify donors at risk or ripe for cultivation.\n    *   **Pros:** Intuitive UI, powerful donor retention tools, great reporting, excellent support, robust online forms, email marketing.\n    *   **Cons:** Can become pricey as your donor count grows significantly; less robust for *very* complex enterprise-level needs than Salesforce.\n    *   **Best for:** Small to mid-sized nonprofits prioritizing donor engagement, ease of use, and strong reporting.\n\n2.  **DonorPerfect**\n    *   **Why it's great:** A long-standing player, DonorPerfect offers a comprehensive suite of tools, including highly capable online forms, peer-to-peer fundraising, event management, and robust reporting. Their forms are secure, customizable, and feed directly into the CRM, making reconciliation straightforward.\n    *   **Pros:** Comprehensive feature set, good customer support, robust reporting, strong online forms, integrated peer-to-peer and event tools, scalable.\n    *   **Cons:** The interface can feel a bit dated to some users; can have a steeper learning curve than Bloomerang.\n    *   **Best for:** Mid-sized to larger nonprofits looking for a full-featured, reliable system with a proven track record.\n\n3.  **Neon CRM (part of Neon One)**\n    *   **Why it's great:** Neon CRM is incredibly versatile, especially for organizations with diverse needs beyond just fundraising (memberships, events, volunteers). Its online forms are very powerful, allowing for donations, event registrations, membership sign-ups, and more, all flowing directly into the CRM.\n    *   **Pros:** All-in-one solution (CRM, fundraising, events, memberships, volunteers), powerful and flexible",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 542,
+  "estimated_cost_usd": 0.001357,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

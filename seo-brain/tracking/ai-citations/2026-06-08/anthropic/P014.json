@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563329+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Keela Comparison\n\nBoth are modern donor management systems designed for nonprofits, but they have different strengths:\n\n## **DonorDock**\n\n### Strengths\n- **Simple, intuitive interface** - Very user-friendly, minimal learning curve\n- **Relationship-focused** - Built around tracking donor interactions and engagement\n- **Affordable pricing** - Generally lower cost for small to mid-size nonprofits\n- **Good for smaller teams** - Less complex, easier to implement quickly\n- **Strong contact management** - Emphasizes personal donor relationships\n\n### Best For\n- Small to medium nonprofits (typically under $5M budget)\n- Organizations prioritizing donor relationships over complex analytics\n- Teams wanting simplicity and ease of use\n\n## **Keela**\n\n### Strengths\n- **AI-powered insights** - Predictive analytics for donor behavior and giving likelihood\n- **More comprehensive features** - Robust reporting, email marketing, volunteer management\n- **Smart automation** - Intelligent task suggestions and workflow automation\n- **Advanced segmentation** - Sophisticated donor categorization and targeting\n- **Canadian-friendly** - Strong support for Canadian nonprofits (though works globally)\n\n### Best For\n- Growing nonprofits ready for more sophisticated tools\n- Organizations wanting data-driven fundraising insights\n- Teams that need integrated email marketing and automation\n\n## **Key Differences**\n\n| Feature | DonorDock | Keela |\n|---------|-----------|-------|\n| **Complexity** | Simple | More robust |\n| **AI Features** | Limited | Strong |\n| **Price Point** | Lower | Moderate |\n| **Learning Curve** | Minimal | Steeper |\n| **Analytics** | Basic | Advanced |\n\n## **Bottom Line**\n\n- Choose **DonorDock** if you want simplicity and relationship tracking\n- Choose **Keela** if you want AI insights and more comprehensive features\n\nBoth offer free trials - I'd recommend testing each with your specific workflow.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 451,
+  "estimated_cost_usd": 0.006813,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

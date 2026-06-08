@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P033",
+  "prompt_text": "Alternative to DonorBox",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563576+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Donorbox is a great platform, but there are many excellent alternatives depending on your specific needs, budget, and desired features. Here's a breakdown of options, categorized to help you find the best fit:\n\n---\n\n### **Direct Competitors & Feature-Rich Alternatives**\n\nThese platforms offer similar core functionalities to Donorbox (online forms, recurring donations, text-to-give, peer-to-peer) and often expand on them.\n\n1.  **Givebutter:**\n    *   **Why it's a good alternative:** Often cited as the most direct competitor. Givebutter offers a truly **free platform** (no platform fees) by encouraging donors to cover the processing fees with a \"tip.\" It's incredibly comprehensive, offering donation forms, fundraising pages, event ticketing, text-to-give, peer-to-peer, auctions, and a basic CRM.\n    *   **Best for:** Organizations looking for an all-in-one, user-friendly, and truly free fundraising platform.\n    *   **Cost:** Free platform (standard payment processing fees apply, usually covered by donor tips).\n\n2.  **Zeffy:**\n    *   **Why it's a good alternative:** Zeffy stands out as the **only 100% free fundraising platform**, meaning **no platform fees AND no transaction fees** for organizations. They monetize through optional donor contributions at checkout. They offer donation forms, event ticketing, peer-to-peer, raffles, and membership management.\n    *   **Best for:** Any non-profit, especially smaller ones, that wants to maximize every dollar received without any fees.\n    *   **Cost:** 100% Free (no platform fees, no transaction fees).\n\n3.  **Qgiv:**\n    *   **Why it's a good alternative:** Qgiv is a very robust and comprehensive platform offering a wide range of fundraising tools including customizable donation forms, event registration, peer-to-peer, text-to-give, kiosks, and auctions. It's known for its excellent customer support and scalability.\n    *   **Best",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 445,
+  "estimated_cost_usd": 0.001114,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

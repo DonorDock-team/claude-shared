@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P077",
+  "prompt_text": "How to track major donor moves management",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.564801+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking major donor moves management is crucial for effective fundraising, ensuring that every interaction brings the donor closer to a significant gift and sustained engagement. It provides a structured approach, accountability, and valuable insights into your fundraising pipeline.\n\nHere's a comprehensive guide on how to track major donor moves management:\n\n## 1. Understand Moves Management Stages\n\nFirst, standardize your moves management stages. A common framework includes:\n\n1.  **Identification:** Discovering potential major donors (prospects).\n2.  **Qualification:** Assessing a prospect's capacity (ability to give) and inclination (desire to give) to become a major donor.\n3.  **Cultivation:** Building a relationship, educating the donor about your mission, and demonstrating impact.\n4.  **Solicitation:** Making the ask for a specific gift amount and purpose.\n5.  **Stewardship:** Acknowledging the gift, demonstrating its impact, and continuing to build the relationship for future engagement.\n\nEach of these stages will have specific \"moves\" or actions associated with them.\n\n## 2. Leverage a Constituent Relationship Management (CRM) System\n\nA robust CRM is the most essential tool for tracking moves management. It centralizes all donor data and provides the functionality needed for effective tracking. Popular fundraising CRMs include Salesforce (with Nonprofit Cloud), Blackbaud (Raiser's Edge NXT, eTapestry), DonorPerfect, Bloomerang, Little Green Light, and many others.\n\n**Key CRM Features for Moves Management:**\n\n*   **Donor Profiles:** Comprehensive records for each donor/prospect, including contact info, wealth screening data, interests, past giving, communication preferences, and family/business relationships.\n*   **Relationship Tracking:** Assigning a \"Relationship Manager\" (fundraiser) to each major donor prospect.\n*   **Contact Reports/Notes:** Detailed logs of every interaction (phone calls, emails, meetings, events attended). This is critical for context and continuity.\n*   **Tasks & Activities:** Scheduling and tracking specific next steps (e.g., \"Schedule discovery call,\" \"Send impact report,\" \"Draft proposal\") with due dates and assigned staff.\n*   **Opportunity/Pipeline Management:** This is the core of moves management tracking. For each potential major gift, you'll create an \"Opportunity\" record that includes:\n    *   **Current Stage:** (Identification, Qualification, Cultivation, Solicitation, Stewardship)\n    *   **Expected Ask Amount:**\n    *   **Probability:** (e.g., 25% for Cultivation, 75% for Solicitation)\n    *   **Expected Close Date:**\n    *   **Gift Purpose/Designation:** (e.g., Capital Campaign, Endowment, Program X)\n    *   **Next Step:** (Crucial for keeping the process moving)\n    *   **Last Activity Date:**\n*   **Custom Fields:** To track specific data points unique to your organization (e.g., specific affinity areas, volunteer roles, major donor capacity ratings).\n*   **Communication History:** A consolidated view of all email, mail, and other communication.\n*   **Gift History:** All past donations, pledges, and payments.\n\n## 3. Essential Data Points to Track for Each Donor/Prospect\n\nBeyond the basic contact information, ensure your CRM tracks:\n\n*   **Fundraiser Assigned:** Who is responsible for this relationship?\n*   **Current Moves Management Stage:** Where are they in the pipeline?\n*   **Last Interaction Date:** When was the last meaningful contact?\n*   **Next Planned Interaction:** What's the very next step, and when is it due?\n*   **Interaction Details:** Summaries of calls, meetings, emails (logged as contact reports).\n*   **Donor Interests & Motivations:** What causes or programs are they passionate about?\n*   **Capacity Rating:** An estimated range of their potential giving.\n*   **Inclination Rating:** How likely are they to support your organization?\n*   **Connections/Referrals:** Who introduced them? Who else",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 851,
+  "estimated_cost_usd": 0.00213,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

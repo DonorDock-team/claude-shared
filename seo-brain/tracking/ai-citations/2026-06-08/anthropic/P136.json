@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P136",
+  "prompt_text": "Salesforce Nonprofit Cloud problems",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562440+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Salesforce Nonprofit Cloud Problems\n\n## 1. **Implementation & Setup Issues**\n- **Complex configuration** - Requires significant customization for each organization's needs\n- **Data migration challenges** - Moving from legacy systems (Excel, other CRMs) can be messy\n- **Steep learning curve** - Staff may struggle with adoption\n- **Resource intensive** - Requires dedicated admin time/expertise\n\n## 2. **Cost Concerns**\n- **Licensing expenses** - Can be prohibitive for smaller nonprofits (even with discounts)\n- **Hidden costs** - AppExchange add-ons, consultants, training, ongoing maintenance\n- **10 free licenses limitation** - Growth beyond this becomes expensive\n\n## 3. **Technical Challenges**\n- **Performance issues** - Slow load times with large data volumes\n- **Customization limitations** - Sometimes needs complex workarounds\n- **Integration problems** - Connecting with other tools (payment processors, email platforms)\n- **Report complexity** - Creating useful reports requires technical knowledge\n- **Mobile experience** - App functionality can be limited\n\n## 4. **User Experience**\n- **Overwhelming interface** - Too many features can confuse non-technical users\n- **Clunky volunteer management** - Not as intuitive as specialized tools\n- **Donation tracking gaps** - May need additional apps for comprehensive donor management\n- **Case management limitations** - Not always ideal for service delivery tracking\n\n## 5. **Nonprofit-Specific Issues**\n- **Grant management** - Often requires third-party apps\n- **Program outcome tracking** - Can be difficult to configure properly\n- **Volunteer coordination** - Basic functionality may not meet complex needs\n- **Multi-currency challenges** - For international organizations\n\n## Alternatives to Consider\n- **Bloomerang** - Donor-focused\n- **Little Green Light** - Smaller nonprofits\n- **Kindful** - Mid-size organizations\n- **Blackbaud/Raiser's Edge** - Large institutions\n\n**Are you experiencing a specific issue I can help troubleshoot?**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 467,
+  "estimated_cost_usd": 0.007047,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

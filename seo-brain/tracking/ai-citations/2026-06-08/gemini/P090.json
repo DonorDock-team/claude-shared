@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P090",
+  "prompt_text": "Best donor CRM for youth development",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563988+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for youth development isn't a one-size-fits-all answer, as it heavily depends on your organization's specific size, budget, complexity, and unique needs.\n\nHowever, based on the common requirements of youth development organizations \u2013 which often include tracking volunteers, managing programs, engaging various constituent types (youth, parents, mentors, donors), and telling impact stories \u2013 here are the top recommendations, along with their strengths and weaknesses for this specific sector:\n\n---\n\n## Top Recommendations for Youth Development CRMs\n\n### 1. Salesforce Nonprofit Success Pack (NPSP)\n\n*   **Best For:** Medium to large organizations, those with complex program structures, high volunteer involvement, or long-term growth ambitions.\n*   **Why it's Great for Youth Development:**\n    *   **Unparalleled Customization:** NPSP is incredibly flexible. You can easily configure it to track youth participants, their program enrollment, attendance, progress, mentors, guardians, and their relationships to donors.\n    *   **Robust Volunteer Management:** Salesforce has excellent native and AppExchange solutions for tracking volunteer hours, skills, availability, and assignments (critical for mentorship programs).\n    *   **Comprehensive Constituent Management:** Beyond donors, you can manage every stakeholder: youth, parents, school contacts, corporate partners, etc., all linked.\n    *   **Impact Tracking:** Ability to build custom objects and reports to measure program outcomes and impact on youth, which is vital for grant reporting and storytelling.\n    *   **Scalability:** Grows with your organization, no matter how complex your needs become.\n    *   **Generous NPO Discount:** 10 free licenses for qualifying nonprofits.\n*   **Considerations:**\n    *   **Steep Learning Curve:** Requires a dedicated administrator or significant training.\n    *   **Implementation Cost:** While licenses can be free, setup and ongoing customization often require external expertise, which can be costly.\n    *   **Complexity:** Can be overkill for very small organizations with simple needs.\n\n### 2. Bloomerang\n\n*   **Best For:** Small to medium-sized organizations prioritizing ease of use, strong",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 449,
+  "estimated_cost_usd": 0.001124,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

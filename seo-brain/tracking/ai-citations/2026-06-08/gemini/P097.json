@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P097",
+  "prompt_text": "Hidden costs of Network for Good",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.562105+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Network for Good (NfG) is a popular fundraising platform designed to help nonprofits manage donations, campaigns, and donor relationships. While it offers a user-friendly experience and generally transparent pricing for its subscription tiers and transaction fees, there are several \"hidden\" costs that organizations might not fully anticipate during their initial assessment.\n\nThese hidden costs often relate to time, integration, limitations, and future scalability:\n\n1.  **Staff Time and Effort (The Biggest Hidden Cost):**\n    *   **Setup and Customization:** Even user-friendly platforms require time to brand donation pages, set up campaigns, import existing donor data, and configure settings. This takes valuable staff hours away from other tasks.\n    *   **Ongoing Management:** Managing campaigns, processing donations, generating reports, acknowledging donors, and troubleshooting issues all consume staff time.\n    *   **Training:** While NfG is intuitive, staff (and potentially volunteers) need to be trained on how to effectively use all features, especially if multiple people are involved in fundraising.\n    *   **Data Entry and Cleanup:** If not fully integrated with other systems, staff might spend time manually entering data, correcting errors, or cleaning up duplicates.\n\n2.  **Limited CRM Functionality & Integration Challenges:**\n    *   **Not a Full-Fledged CRM:** While NfG includes donor management features, it's generally not as robust as dedicated CRM systems like Salesforce, Bloomerang, or Raiser's Edge. If your organization has complex donor segmentation, stewardship workflows, or major gift tracking needs, NfG might fall short.\n    *   **Manual Data Transfer:** If you use a separate, more advanced CRM or an accounting system (like QuickBooks), you might need to manually export data from NfG and import it into your other systems. This process is time-consuming, prone to errors, and can lead to data inconsistencies.\n    *   **Lack of Deeper Integrations:** NfG offers integrations with some popular tools, but you might find it lacks direct, seamless integrations with *all* the other software your organization uses (e.g., specific marketing automation platforms, event management tools, volunteer management systems). This",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Network for Good",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 447,
+  "estimated_cost_usd": 0.001119,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

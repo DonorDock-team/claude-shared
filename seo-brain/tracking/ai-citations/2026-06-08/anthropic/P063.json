@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562267+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM with Text Messaging\n\nI'll outline solutions for nonprofits looking to combine donor management with SMS capabilities:\n\n## **All-in-One CRM Platforms with SMS**\n\n### **1. Bloomerang**\n- Built-in texting features\n- Donor management & engagement tracking\n- Good for small-to-midsize nonprofits\n- ~$125-300+/month\n\n### **2. Kindful (by Bloomerang)**\n- Integrated SMS campaigns\n- Donor database & online giving\n- Email & text automation\n- Similar pricing tier\n\n### **3. Keela**\n- SMS messaging included\n- AI-powered insights\n- Donor segmentation\n- ~$119-300+/month\n\n## **CRMs with SMS Integrations**\n\n### **4. Little Green Light**\n- Integrates with Trumpia, SimpleTexting\n- Strong donor tracking\n- Budget-friendly (~$49+/month)\n\n### **5. DonorPerfect**\n- Partners with SMS providers\n- Comprehensive donor management\n- Scalable for growing orgs\n\n### **6. Salesforce Nonprofit Cloud**\n- Integrates with Twilio, TextUs\n- Highly customizable\n- Best for larger organizations\n\n## **Key Features to Look For**\n\n\u2705 **Two-way messaging** (not just broadcasts)  \n\u2705 **Merge fields** (personalization)  \n\u2705 **Automated campaigns** (thank yous, reminders)  \n\u2705 **Compliance tools** (opt-in/out management)  \n\u2705 **Segmentation** (target specific donor groups)  \n\u2705 **Integration** with donation forms\n\n## **Budget Considerations**\n\n- **CRM costs**: $50-300/month typically\n- **SMS costs**: $0.01-0.04 per message\n- Some platforms include message credits\n\n**What's your organization's size and primary use case?** I can provide more specific recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 457,
+  "estimated_cost_usd": 0.006897,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

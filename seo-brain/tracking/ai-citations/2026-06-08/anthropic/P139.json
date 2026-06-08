@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563204+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# CRMs Similar to Salesforce for Nonprofits\n\n## **Salesforce Nonprofit Cloud**\nFirst, it's worth noting that **Salesforce itself offers a nonprofit version** called **Nonprofit Cloud (formerly NPSP - Nonprofit Success Pack)**. Nonprofits get 10 free licenses and heavily discounted pricing.\n\n## **Top Alternatives:**\n\n### **1. Bloomerang**\n- Built specifically for nonprofits\n- Strong donor management and retention focus\n- More affordable and easier to use than Salesforce\n\n### **2. Blackbaud (Raiser's Edge NXT)**\n- Industry leader for large nonprofits\n- Comprehensive fundraising tools\n- Similar enterprise-level capabilities\n\n### **3. NeonCRM**\n- Nonprofit-specific CRM\n- All-in-one fundraising, communications, and membership\n- More budget-friendly\n\n### **4. DonorPerfect**\n- Dedicated nonprofit donor management\n- Good for small to mid-sized organizations\n- Simpler learning curve\n\n### **5. Kindful (by Bloomerang)**\n- Modern interface\n- Strong integration capabilities\n- Good middle-ground option\n\n## **Best Choice Depends On:**\n- Organization size\n- Budget\n- Technical capabilities of your team\n- Specific needs (fundraising, programs, volunteers, etc.)\n\nWould you like recommendations based on your organization's specific size or needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 21,
+  "output_tokens": 322,
+  "estimated_cost_usd": 0.004893,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

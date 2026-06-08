@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P041",
+  "prompt_text": "Best donor CRM for mid-sized nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.564793+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a mid-sized nonprofit really depends on your specific needs, budget, existing tech stack, and long-term goals. However, I can provide a breakdown of the top contenders that consistently rank well for this segment, along with their strengths and weaknesses.\n\n**Key Considerations for Mid-Sized Nonprofits:**\n\nBefore diving into specific CRMs, consider these factors:\n\n1.  **Budget:** Not just the monthly/annual fee, but also implementation costs, training, and potential add-ons.\n2.  **Ease of Use & Learning Curve:** Will your staff adopt it easily, or will it require extensive training and a dedicated administrator?\n3.  **Features:**\n    *   **Core CRM:** Donor profiles, history, segmentation.\n    *   **Fundraising:** Online donation forms, peer-to-peer, recurring giving, pledge management.\n    *   **Communication:** Email marketing, direct mail integration, acknowledgments.\n    *   **Event Management:** Ticketing, registration, attendee tracking.\n    *   **Reporting & Analytics:** Customizable dashboards, impact reporting, donor retention metrics.\n    *   **Integrations:** With accounting software (QuickBooks, NetSuite), email marketing (Mailchimp), wealth screening, payment processors.\n    *   **Grant Management:** Tracking applications, deadlines, reporting.\n4.  **Scalability:** Can it grow with you as your donor base and needs expand?\n5.  **Customer Support & Community:** What kind of support is available? Is there an active user community?\n6.  **Implementation Time:** How quickly can you get up and running?\n\n---\n\n**Top Donor CRM Recommendations for Mid-Sized Nonprofits:**\n\nHere are the leading platforms, often recommended for their balance of features, scalability, and user-friendliness for organizations of your size:\n\n### 1. Bloomerang\n\n*   **Best For:** Nonprofits prioritizing donor retention, user-friendliness, and a modern interface.\n*   **Description:** Bloomerang is highly regarded for its intuitive design and focus on donor retention and engagement. It offers smart reports that give you insights into donor loyalty and potential.\n*   **Pros:**\n    *   **Excellent User Interface:** Very intuitive and easy to navigate, reducing the learning curve.\n    *   **Strong Donor Retention Focus:** Built-in tools and metrics to help improve donor loyalty (engagement meter, retention scores).\n    *   **Integrated Communication Tools:** Robust email marketing capabilities, letter generation, and online giving forms.\n    *   **Good Reporting:** Easy-to-understand dashboards and customizable reports.\n    *   **Responsive Customer Support:** Generally well-regarded.\n*   **Cons:**\n    *   **Event Management:** While it has basic event features, complex events might require integration with a third-party tool.\n    *   **Advanced Customization:** Less flexible than Salesforce for highly specific, complex workflows.\n    *   **Pricing:** Can become a significant investment as your donor base grows, though it offers good value for its features.\n*   **Key Features:** Donor database, online giving, email marketing, letter generation, reporting, engagement meter, recurring giving, wealth screening integration.\n\n### 2. Salesforce Nonprofit Success Pack (NPSP)",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 690,
+  "estimated_cost_usd": 0.001727,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

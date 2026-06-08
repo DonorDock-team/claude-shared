@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563769+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Measure Donor Retention\n\n## Key Metrics\n\n### 1. **Donor Retention Rate**\nThe primary metric showing the percentage of donors who give again.\n\n**Formula:**\n```\n(Number of donors who gave in both Year 1 AND Year 2) \u00f7 (Total donors in Year 1) \u00d7 100\n```\n\n**Example:** If you had 100 donors in 2023 and 60 of them gave again in 2024, your retention rate is 60%.\n\n### 2. **First-Time Donor Retention Rate**\nTracks how many new donors give a second gift.\n\n**Formula:**\n```\n(First-time donors from Year 1 who gave again in Year 2) \u00f7 (Total first-time donors in Year 1) \u00d7 100\n```\n\nThis is typically lower (often 15-30%) but critical to monitor.\n\n### 3. **Multi-Year Retention Rate**\nMeasures loyalty over longer periods (3, 5, or 10 years).\n\n## Additional Retention Metrics\n\n- **Repeat Donor Rate:** % of total donors who have given before\n- **Donor Lifetime Value:** Total expected giving from a donor\n- **Lapsed Donor Rate:** % who haven't given in 13-24 months\n- **Attrition Rate:** 100% minus retention rate\n\n## Benchmarks\n\n- **Overall retention:** 40-45% (average)\n- **First-time donors:** 15-30%\n- **Repeat donors:** 60-65%\n\n## Best Practices\n\n1. **Track cohorts** - Group donors by acquisition year\n2. **Segment analysis** - Compare retention by gift size, channel, campaign\n3. **Measure regularly** - Monthly or quarterly, not just annually\n4. **Use donor database software** for automated tracking\n\nWould you like help calculating retention for your specific organization?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 437,
+  "estimated_cost_usd": 0.006591,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

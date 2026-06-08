@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P044",
+  "prompt_text": "Best donor CRM for food banks",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562129+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Food Banks\n\nHere are the top CRM options specifically suited for food banks:\n\n## **Top Recommendations**\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized food banks\n- **Key features:** Donor retention focus, built-in engagement metrics, email integration\n- **Pricing:** ~$125/month starting\n- **Why it works:** User-friendly, strong reporting for grant requirements\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger food banks with complex needs\n- **Key features:** Highly customizable, volunteer management, program tracking\n- **Pricing:** Free for up to 10 users (Nonprofit Success Pack), then tiered pricing\n- **Why it works:** Scalable, integrates with food banking software\n\n### **3. Little Green Light**\n- **Best for:** Budget-conscious organizations\n- **Key features:** Grant tracking, donor communications, reporting\n- **Pricing:** ~$59/month starting\n- **Why it works:** Affordable with solid features for fundraising\n\n### **4. DonorPerfect**\n- **Best for:** Food banks needing integrated online giving\n- **Key features:** Donation processing, email campaigns, volunteer tracking\n- **Pricing:** ~$89/month starting\n- **Why it works:** Good balance of features and cost\n\n## **Key Features to Prioritize**\n- \u2713 Grant management and reporting\n- \u2713 Volunteer tracking (many food banks rely heavily on volunteers)\n- \u2713 In-kind donation tracking (food donations)\n- \u2713 Integration with food banking software (Link2Feed, Primarius)\n- \u2713 Recurring donation management\n\n**Pro tip:** Many food banks qualify for nonprofit discounts or free tiers\u2014always ask!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 414,
+  "estimated_cost_usd": 0.006252,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

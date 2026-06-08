@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563042+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Free Alternatives to Salesforce Nonprofit Cloud\n\nHere are the best free options for nonprofit organizations:\n\n## **Fully Free Solutions**\n\n### **1. CiviCRM**\n- **Cost:** Completely free and open-source\n- **Best for:** Small to medium nonprofits with technical capacity\n- **Features:** Donor management, event management, email marketing, case management, grant tracking\n- **Note:** Requires hosting and technical setup (WordPress, Drupal, or Joomla)\n\n### **2. SuiteCRM**\n- **Cost:** Free and open-source\n- **Best for:** Nonprofits needing a full CRM with customization\n- **Features:** Contact management, campaigns, project management, reporting\n- **Note:** Self-hosted, similar interface to Salesforce\n\n## **Free Tiers (Limited)**\n\n### **3. HubSpot for Nonprofits**\n- **Cost:** Free tier available (paid plans discounted for nonprofits)\n- **Best for:** Marketing and donor engagement\n- **Features:** Contact management, email marketing, forms, basic reporting\n- **Limits:** 1 million contacts on free tier\n\n### **4. Zoho CRM (Nonprofit Discount)**\n- **Cost:** Free for up to 3 users\n- **Features:** Contact management, deal tracking, workflow automation\n- **Nonprofit discount:** Up to 50% off paid plans\n\n### **5. Bitrix24**\n- **Cost:** Free for unlimited users (with limitations)\n- **Features:** CRM, project management, communication tools\n- **Limits:** 5GB storage, limited features\n\n## **Nonprofit-Specific Free Options**\n\n### **6. Little Green Light**\n- Free plan for very small organizations\n- Donor management and fundraising tools\n\n### **7. Kindful (by Bloomerang)**\n- Sometimes offers free trials or plans for small nonprofits\n- Check current offerings\n\n## **Recommendation**\nFor most nonprofits, **CiviCRM** offers the most comprehensive free solution if you have technical support, while **HubSpot's free tier** is easiest to start with immediately.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 491,
+  "estimated_cost_usd": 0.007413,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

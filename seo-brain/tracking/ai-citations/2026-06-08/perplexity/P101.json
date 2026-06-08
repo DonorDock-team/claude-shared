@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P101",
+  "prompt_text": "DonorPerfect total cost of ownership",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.562962+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorPerfect\u2019s **total cost of ownership (TCO)** is typically more than its advertised monthly price because it can include **subscription fees, payment processing fees, implementation/setup, training, and customization**.[1][2][3]\n\nFor a rough estimate, one source calculates that a nonprofit raising **$100,000/year** could pay about **$4,078/year** in total\u2014roughly **$2,890** in transaction fees plus at least **$1,188/year** in subscription cost\u2014while smaller organizations could still face around **$1,938/year** at **$25,000** raised and **$2,663/year** at **$50,000** raised.[1]\n\nA second source estimates DonorPerfect\u2019s **3-year TCO** can range from **$5,000 to $20,000**, depending on organization size and needs, and notes additional one-time costs such as **implementation ($500\u2013$5,000)**, **customization ($1,000\u2013$10,000)**, **training ($500\u2013$2,000)**, and **data migration/setup assistance ($500\u2013$2,000)**.[2]\n\nDonorPerfect\u2019s own pricing page says plans **start at $99/month**, with tailored quotes for larger organizations.[3]\n\nIf you want, I can also break this into a **low / medium / high TCO model** by donor volume or compare DonorPerfect\u2019s TCO with another CRM.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 303,
+  "estimated_cost_usd": 0.009569,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.zeffy.com/blog/donorperfect-reviews",
+      "https://pricingnow.com/question/donorperfect-cost/",
+      "https://www.donorperfect.com/fundraising-software/pricing-guide/",
+      "https://www.trustradius.com/products/donorperfect/pricing",
+      "https://www.donorperfect.com/fundraising-software/compare-donor-management-systems/givebutter/",
+      "https://www.donorperfect.com/nonprofit-technology-blog/donorperfect/monthly-giving-reports/",
+      "https://www.donorperfect.com/video/retain-unlock-the-power-of-monthly-giving/",
+      "https://www.donorperfect.com/nonprofit-technology-blog/fundraising-software/report-on-year-end-success/",
+      "https://www.donorperfect.com/video/donorperfects-new-pricing/"
+    ]
+  }
+}

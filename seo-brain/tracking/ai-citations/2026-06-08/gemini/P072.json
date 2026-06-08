@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P072",
+  "prompt_text": "How to manage recurring donors for your nonprofit",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563985+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Managing recurring donors effectively is one of the most impactful strategies for nonprofit sustainability. These donors provide predictable, steady income, increase donor lifetime value, and often become your most loyal advocates.\n\nHere's a comprehensive guide to managing recurring donors for your nonprofit:\n\n---\n\n## The Foundation: Setting Up for Success\n\nBefore diving into management, ensure you have these core elements in place:\n\n1.  **Robust CRM (Donor Database):** This is non-negotiable. Your CRM must be able to:\n    *   Track recurring gift details (amount, frequency, start date, payment method, next billing date).\n    *   Segment recurring donors from one-time donors.\n    *   Store communication history.\n    *   Set reminders for donor anniversaries, payment issues, etc.\n    *   Integrate with your payment processor.\n    *   Examples: Salesforce NPSP, Blackbaud, Bloomerang, DonorPerfect, NeonOne.\n2.  **Reliable Payment Processor:** Choose one that securely handles recurring payments, offers automatic retry logic for failed payments, and provides easy ways for donors to update their payment information.\n    *   Examples: Stripe, PayPal, Classy, Virtuous (many CRMs have built-in options).\n3.  **Dedicated Recurring Gift Program Name:** Give your program a clear, inspiring name (e.g., \"Sustaining Partners,\" \"Monthly Champions,\" \"Impact Circle\"). This creates identity and community.\n4.  **Clear & Easy Sign-Up:** A dedicated landing page on your website with a simple, mobile-friendly recurring donation form. Clearly articulate the *impact* of monthly giving.\n\n---\n\n## The Lifecycle of a Recurring Donor: Management Strategies\n\nManaging recurring donors is a continuous process that spans their entire journey with your organization.\n\n### 1. The Welcome Journey (Crucial for Retention!)\n\nThe first few weeks are critical for setting the tone and reducing early churn.\n\n*   **Immediate Confirmation & Thank You (Automated):**\n    *   **Email:** A warm, branded email confirming their gift, reiterating the program name, and expressing sincere gratitude. Include a link to",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Salesforce NPSP",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 448,
+  "estimated_cost_usd": 0.001122,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

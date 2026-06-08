@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P137",
+  "prompt_text": "Little Green Light limitations",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562891+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Little Green Light Limitations\n\nLittle Green Light (LGL) is a popular cloud-based fundraising CRM, but it has several notable limitations:\n\n## **Technical Limitations**\n\n- **No mobile app** - Only accessible via web browser\n- **Limited offline access** - Requires internet connection to function\n- **Reporting constraints** - Report builder can be less flexible than enterprise solutions\n- **Customization limits** - Some fields and workflows have restrictions\n- **Integration options** - Fewer native integrations compared to larger platforms like Salesforce\n\n## **Functional Limitations**\n\n- **Email capabilities** - Basic email tools; many organizations use external platforms (Mailchimp, Constant Contact) for sophisticated campaigns\n- **Event management** - Basic ticketing/event features; complex events may need supplementary tools\n- **Volunteer management** - Limited compared to dedicated volunteer platforms\n- **Grant tracking** - Present but less robust than specialized grant management software\n- **Pledge/recurring gift management** - Can be more manual than some competitors\n\n## **User Experience**\n\n- **Learning curve** - Interface can feel dated to some users\n- **Speed** - Can be slower with very large databases\n- **Bulk operations** - Some batch processes are more cumbersome than desired\n\n## **Best For**\n\nLGL works well for small-to-medium nonprofits with straightforward needs, but organizations with complex requirements, large volumes, or specialized workflows may outgrow it.\n\nWhat specific functionality are you evaluating?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 11,
+  "output_tokens": 330,
+  "estimated_cost_usd": 0.004983,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

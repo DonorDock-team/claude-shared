@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P133",
+  "prompt_text": "Givebutter limitations",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.562113+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Givebutter is a popular and very capable fundraising platform, especially for its core strengths like crowdfunding, peer-to-peer fundraising, and event management. However, like any platform, it has certain limitations depending on an organization's specific needs and scale.\n\nHere are some common limitations of Givebutter:\n\n1.  **Reliance on Donor-Covered Fees:**\n    *   **The \"Free\" Model:** Givebutter is \"free\" for organizations if donors opt to cover the processing fees (Stripe/PayPal fees + Givebutter's platform fee). If donors opt *not* to cover these fees, the organization pays them, which means 100% of the intended donation doesn't reach the organization.\n    *   **Donor Opt-Out Rate:** While many donors *do* cover fees, the opt-out rate can vary. Organizations cannot guarantee they won't incur these costs.\n\n2.  **Built-in CRM vs. Dedicated Solutions:**\n    *   **Functional, Not Enterprise-Grade:** Givebutter includes a CRM, which is excellent for tracking donors, campaigns, and interactions *within* the Givebutter ecosystem. However, it's generally less robust and feature-rich than dedicated CRMs (like Salesforce, Raiser's Edge, Blackbaud CRM, Bloomerang, DonorPerfect) that offer deeper segmentation, more complex reporting, legacy data management, and extensive integration ecosystems.\n    *   **Limited Custom Fields/Workflows:** Organizations with highly specific data tracking needs or complex internal workflows might find the built-in CRM's customization options limited.\n\n3.  **Advanced Reporting and Analytics:**\n    *   **Good for Basics:** Givebutter provides good dashboards and reports for campaign performance, donor lists, and financial summaries.\n    *   **Less Depth for Advanced Analysis:** For very sophisticated data analysis, predictive modeling, detailed donor journey mapping, or highly customized reporting across multiple data sources, organizations might need to export data and use external tools or rely on a more powerful CRM/BI solution.\n\n4.  **Integrations:**\n    *   **Key Integrations Present:** Givebutter integrates with popular tools like Mailchimp, Salesforce (via Zapier or direct), and QuickBooks (via Zapier).\n    *   **Reliance on Zapier:** For many integrations beyond the direct ones, organizations need to use Zapier, which can add an extra layer of complexity, cost, and potential points of failure if not set up carefully.\n    *   **Niche System Gaps:** Organizations using very specific or niche accounting, marketing automation, or CRM systems might find direct integrations unavailable, requiring custom development or manual data handling.\n\n5.  **Highly Complex Event Management:**\n    *   **Excellent for Most Events:** Givebutter excels at social events, galas, virtual events, and peer-to-peer events with good ticketing, sponsorship, and guest management features.\n    *   **Limitations for Highly Complex Logistics:** For extremely complex events requiring intricate seating charts with specific table assignments, multi-tiered ticket packages with complex rule sets, extensive merchandise sales with inventory management, or very advanced silent auction bidding features (beyond listing items), a specialized event management platform might",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 3,
+  "output_tokens": 661,
+  "estimated_cost_usd": 0.001653,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

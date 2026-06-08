@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563156+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Salesforce Nonprofit Cloud (NPSP) is a powerful, comprehensive solution, but its cost can be a barrier for many organizations. When looking for \"free\" alternatives, it's important to understand the trade-offs:\n\n*   **\"Free\" often means:**\n    *   **Open-Source:** Free license, but requires technical expertise for hosting, setup, customization, and maintenance. Total Cost of Ownership (TCO) can still be significant.\n    *   **Freemium Models:** Offers a free basic tier with limited features, users, or contacts. Advanced features, more users, or larger databases will incur costs.\n    *   **DIY Solutions:** Piecing together various free tools (spreadsheets, forms, email marketing) which require manual effort and lack true integration.\n    *   **Nonprofit Programs:** Some companies offer significant discounts or free basic versions to qualifying nonprofits.\n\nHere's a breakdown of free and very low-cost alternatives, categorized by their approach:\n\n---\n\n### I. Open-Source CRM Solutions (Requires Technical Expertise)\n\nThese are truly \"free\" in terms of software license, but you'll need to factor in costs for hosting, setup, maintenance, and potentially development support.\n\n1.  **CiviCRM:**\n    *   **What it is:** The most prominent open-source CRM specifically designed for nonprofits, associations, and civic sector organizations. It's highly customizable.\n    *   **Key Features:** Contact management, fundraising, event management, membership management, peer-to-peer fundraising, case management, grant management, mass email.\n    *   **Integration:** Integrates natively with popular content management systems (CMS) like WordPress, Drupal, and Joomla.\n    *   **Pros:** Very comprehensive, designed for nonprofits, large community support.\n    *   **Cons:** Requires technical knowledge for installation, hosting, and ongoing maintenance. Steep learning curve for configuration.\n    *   **Best for:** Organizations with some technical staff or a budget for a CiviCRM implementation partner, who need deep customization and full data ownership.\n\n2.  **Odoo (Community Edition):**\n    *   **What it is:** A suite of open-source business management tools, including a robust CRM module.\n    *   **Key Features:** CRM (lead management, sales",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 486,
+  "estimated_cost_usd": 0.001217,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

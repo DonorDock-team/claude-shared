@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "openai",
+  "timestamp": "2026-06-08T12:30:34.563225+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor relationships across a team effectively involves systems and practices that ensure information is organized, accessible, and up-to-date. Here are some strategies and tools you can use:\n\n1. **Use a Donor Management System (DMS) or CRM**:\n   - Implement a Customer Relationship Management (CRM) system specifically designed for nonprofit organizations, like Salesforce Nonprofit Success Pack, Bloomerang, or DonorPerfect.\n   - Ensure that the CRM integrates with other tools your organization uses, like email marketing platforms or accounting software.\n\n2. **Centralize Donor Information**:\n   - Keep all donor contact information, communication history, donation records, and personal notes in one central database.\n   - Ensure all team members have access to this database and understand how to enter and retrieve information.\n\n3. **Regular Updates and Data Maintenance**:\n   - Designate team members or schedule regular intervals for updating donor information to keep the database accurate and complete.\n   - Implement protocols for data hygiene, such as removing duplicates and standardizing entries.\n\n4. **Assign Relationship Managers**:\n   - Assign specific team members to manage relationships with particular donors or donor segments. This creates accountability and personalizes the communication.\n   - Ensure these managers maintain and update interaction history within the system.\n\n5. **Set Communication Protocols**:\n   - Develop and implement communication guidelines that outline how and when team members should contact donors.\n   - Schedule regular check-ins with key donors and use tools like shared calendars or project management software to keep track of these.\n\n6. **Facilitate Team Communication**:\n   - Use collaboration tools like Slack, Microsoft Teams, or Asana to ensure all team members can easily communicate about donor-related activities and updates.\n   - Schedule regular meetings to discuss donor strategies and share updates or insights across the team.\n\n7. **Reporting and Insights**:\n   - Utilize the reporting features within your CRM to track donor engagement and history, analyze patterns, and make strategic decisions.\n   - Share these insights regularly with your team to align efforts and refine approaches.\n\n8. **Training and Support**:\n   - Provide regular training on using the CRM and understanding donor engagement strategies to ensure all team members are proficient.\n   - Offer support and resources so staff can troubleshoot issues and continue improving their relationship management skills.\n\n9. **Security and Privacy**:\n   - Ensure the system you use is secure and complies with relevant data protection regulations to protect donor information.\n   - Restrict access based on roles to minimize the risk of data breaches while ensuring team members have the information they need.\n\n10. **Feedback Mechanism**:\n    - Encourage your team to provide feedback on the system and processes in place. This can help identify areas for improvement and foster a culture of continuous improvement.\n\nBy implementing these strategies, your team can effectively manage donor relationships, resulting in stronger donor engagement and increased support for your organization\u2019s mission.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 580,
+  "estimated_cost_usd": 0.005837,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

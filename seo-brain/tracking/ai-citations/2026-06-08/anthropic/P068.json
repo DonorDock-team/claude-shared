@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P068",
+  "prompt_text": "How to consolidate fundraising tools",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563342+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Consolidate Fundraising Tools\n\nConsolidating your fundraising tools can streamline operations, reduce costs, and improve data accuracy. Here's a step-by-step approach:\n\n## 1. **Audit Your Current Tools**\n- List all platforms you're using (CRM, email, payment processors, event management, etc.)\n- Document what each tool does and costs\n- Identify overlapping features\n- Note integration pain points\n\n## 2. **Define Your Requirements**\n- Essential features you can't live without\n- Team size and technical capabilities\n- Budget constraints\n- Reporting and analytics needs\n- Integration requirements (accounting, email, etc.)\n\n## 3. **Research All-in-One Solutions**\nPopular consolidated platforms include:\n- **Salesforce Nonprofit Cloud** - Enterprise-level\n- **Bloomerang** - Donor management focused\n- **Givebutter** - Free with transaction fees\n- **Keela** - Mid-size nonprofits\n- **Kindful** - User-friendly CRM\n- **Classy** - Fundraising campaigns\n\n## 4. **Plan Your Migration**\n- Create a timeline (typically 3-6 months)\n- Clean your data before transferring\n- Map data fields between old and new systems\n- Plan for training periods\n- Keep old systems temporarily during transition\n\n## 5. **Execute the Consolidation**\n- Start with a pilot/test group\n- Migrate historical data carefully\n- Set up integrations with remaining tools\n- Train staff thoroughly\n- Document new processes\n\n## 6. **Optimize Post-Consolidation**\n- Monitor for issues in first 90 days\n- Gather team feedback\n- Eliminate redundant tools\n- Measure efficiency gains\n\n**Key Tip:** Don't consolidate for consolidation's sake\u2014ensure the new solution truly meets your needs better than separate tools.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Givebutter",
+    "Keela",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 423,
+  "estimated_cost_usd": 0.006387,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

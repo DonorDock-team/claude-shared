@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P147",
+  "prompt_text": "Best donor CRM with event management",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.564550+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding the \"best\" donor CRM with event management depends heavily on your organization's specific needs, size, budget, and technical savviness. However, I can highlight several top contenders known for their robust donor management and strong, integrated event capabilities.\n\nHere are the leading options, categorized to help you find the best fit:\n\n---\n\n### Top Contenders for Donor CRM with Event Management\n\n#### 1. Salesforce Nonprofit Cloud (NPSP)\n\n*   **Best For:** Medium to large nonprofits, or those expecting significant growth, with complex needs and a budget for customization and potential third-party apps.\n*   **Donor Management:** Unparalleled flexibility and customization. Tracks every aspect of donor relationships, gifts, campaigns, and appeals.\n*   **Event Management:** While not purely native, Salesforce's strength lies in its ecosystem. You can integrate powerful event management apps from the AppExchange (e.g., **Blackthorn Events**, **Cvent**, **Eventbrite Connector**, **Soapbox Engage**) that leverage your donor data directly within Salesforce. This allows for highly customized registration forms, attendee tracking, fundraising during events, and post-event follow-up.\n*   **Pros:**\n    *   Extremely scalable and customizable.\n    *   Vast ecosystem of integrated apps for every need.\n    *   Robust reporting and analytics.\n    *   Can grow with your organization indefinitely.\n*   **Cons:**\n    *   Steep learning curve and often requires dedicated admin resources.\n    *   Can become expensive quickly",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 319,
+  "estimated_cost_usd": 0.000799,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

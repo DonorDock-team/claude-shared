@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P052",
+  "prompt_text": "Best CRM for a new development director",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563612+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best CRMs for a New Development Director\n\nAs a new development director, you'll want a CRM that's **fundraising-focused, intuitive, and scales with your organization**. Here are the top options:\n\n## **Top Recommendations**\n\n### **1. Bloomerang** \u2b50 Best Overall for Small-Medium Nonprofits\n- **Why:** Built specifically for donor retention\n- Intuitive interface, minimal learning curve\n- Strong engagement metrics and donor insights\n- ~$125-150/month\n- **Best if:** You're at a smaller nonprofit (under $5M budget) and need something user-friendly\n\n### **2. Salesforce Nonprofit Cloud** - Best for Growth\n- **Why:** Most powerful and scalable\n- Highly customizable\n- 10 free licenses through Power of Us program\n- Steeper learning curve but extensive resources\n- **Best if:** You plan to grow significantly or need complex reporting\n\n### **3. DonorPerfect** - Best for Mid-Size Organizations\n- Strong reporting capabilities\n- Good integration ecosystem\n- Moderate learning curve\n- ~$89-149/month\n- **Best if:** You need robust features without Salesforce complexity\n\n### **4. Little Green Light** - Best Budget Option\n- Simple, affordable ($39-59/month)\n- Good for basics: contacts, donations, reports\n- **Best if:** Very small shop with limited budget\n\n## **Key Questions to Ask Yourself:**\n- Organization size and budget?\n- Current database (migration needed)?\n- Event management needs?\n- Email marketing integration requirements?\n- Technical comfort level of your team?\n\n**My advice:** Start with a free trial of Bloomerang AND Salesforce to compare. Most new development directors find Bloomerang easier initially, but Salesforce offers more long-term value.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 412,
+  "estimated_cost_usd": 0.006225,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

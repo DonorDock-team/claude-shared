@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P047",
+  "prompt_text": "Best donor CRM for community foundations",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562867+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Community Foundations\n\n## Top Recommendations\n\n### **1. Foundant GLM (Grants Lifecycle Manager)**\n- **Best for:** Community foundations seeking all-in-one solution\n- **Key features:**\n  - Grant management + donor management integrated\n  - Fund accounting capabilities\n  - Donor portal and online applications\n  - Purpose-built for community foundations\n- **Cons:** Can be pricey for smaller foundations\n\n### **2. Bloomerang**\n- **Best for:** Donor retention focus\n- **Key features:**\n  - Excellent donor engagement metrics\n  - Intuitive interface\n  - Strong reporting on donor retention\n  - Good for foundations under $5M in assets\n- **Cons:** Limited grant management features\n\n### **3. DonorPerfect**\n- **Best for:** Customization needs\n- **Key features:**\n  - Highly customizable\n  - Strong fundraising tools\n  - Good integration options\n  - Scalable pricing\n- **Cons:** Steeper learning curve\n\n### **4. Salesforce Nonprofit Cloud**\n- **Best for:** Larger foundations with complex needs\n- **Key features:**\n  - Extremely powerful and customizable\n  - Excellent for managing complex donor relationships\n  - Strong ecosystem of nonprofit apps\n- **Cons:** Requires dedicated admin; higher cost\n\n## Key Considerations\n- **Integration with grant management** systems\n- **Fund accounting** compatibility\n- **Donor portal** functionality\n- **Legacy/planned giving** tracking capabilities\n- **Board reporting** tools\n\nWhat's your foundation's asset size? That would help narrow the recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 373,
+  "estimated_cost_usd": 0.005637,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

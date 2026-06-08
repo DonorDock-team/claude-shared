@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.562087+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding a Donor CRM with truly flat-rate pricing and no per-user fees can be a bit tricky, as many CRMs base their pricing on a combination of factors (number of contacts, number of users, features, transaction volume). However, some platforms do offer models where the number of users is either unlimited or very generous within a tiered structure based primarily on *other* metrics, thus effectively removing the \"per-user\" penalty.\n\nHere are some excellent options that lean heavily towards flat-rate pricing based on your donor/contact count, rather than per-user fees:\n\n1.  **Little Green Light (LGL):**\n    *   **Pricing Model:** Primarily based on the number of constituent records (contacts) you have. Each tier includes **unlimited users**.\n    *   **Strengths:** Very user-friendly, robust donor management, gift processing, reporting, email integration, online giving forms. It's often praised for being intuitive and powerful for its price point.\n    *   **Why it Fits:** This is one of the strongest fits, as \"unlimited users\" is a core part of their model.\n\n2.  **WildApricot:**\n    *   **Pricing Model:** Based on the number of contacts/members in your database. All plans include **unlimited administrators/users**.\n    *   **Strengths:** While primarily a membership management system, it has strong donor management features, event management, website builder, email marketing, and payment processing.\n    *   **Why it Fits:** Explicitly states \"unlimited administrators\" across all plans. It's great if your organization also manages memberships.\n\n3.  **DonorSnap:**\n    *   **Pricing Model:** Based on the number of *active constituents* (donors, volunteers, members, etc.). All plans include **unlimited users**.\n    *   **Strengths:** Comprehensive donor management, gift processing, acknowledgements, pledge tracking, event management, volunteer management, and email integration.\n    *   **Why it Fits:** Another excellent fit with a clear \"unlimited users\" policy tied to database size.\n\n4.  **CiviCRM (Open Source):**\n    *   **Pricing Model:** The software itself is **free**. There are no per-user fees. Your costs will come from hosting, implementation, customization, and ongoing support/maintenance (either self-managed or through a CiviCRM partner).\n    *   **Strengths:** Extremely powerful and flexible, highly customizable, comprehensive for fundraising, event management, membership management, case management, and peer-to-peer campaigns.\n    *   **Why it Fits:** As open-source, the licensing model inherently means no per-user fees from the software vendor. It requires more technical capacity or budget for a partner, but offers ultimate control.\n\n5.  **Aplos:**\n    *   **Pricing Model:** Tends to be based on features, number of contacts, and transaction volume, but generally includes a generous number of users without explicit per-user charges, or unlimited users on higher tiers.\n    *   **Strengths:** Combines donor management with nonprofit accounting, which can be a huge benefit for smaller organizations looking to consolidate systems. Includes online giving, pledge tracking, and reporting.\n    *   **Why it Fits:** While you might select a tier based on other factors, their",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 705,
+  "estimated_cost_usd": 0.001765,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563724+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Automating donor thank you letters is a fantastic way to ensure timely appreciation, free up staff time, and maintain a professional image. However, the key is to automate *efficiently* while still making the letters feel *personal* and *impactful*.\n\nHere's a step-by-step guide to automating donor thank you letters, along with best practices and tool recommendations:\n\n---\n\n## The Core Principle: Data-Driven Personalization\n\nAutomation doesn't mean sacrificing personalization. It means using your donor data to automatically populate templates with relevant, specific information.\n\n---\n\n## Steps to Automate Donor Thank You Letters:\n\n### Step 1: Lay the Foundation \u2013 Your CRM and Data\n\nThis is the most critical step. Your donor database (CRM - Constituent Relationship Management) is the brain of your automation.\n\n1.  **Choose a Robust CRM:** If you don't have one, invest in a nonprofit-specific CRM. Popular options include:\n    *   Salesforce NPSP (Nonprofit Success Pack)\n    *   DonorPerfect\n    *   Blackbaud (Raiser's Edge NXT, eTapestry, FIMS)\n    *   NeonOne\n    *   Kindful\n    *   Little Green Light\n    *   Bloomerang\n\n2.  **Ensure Data Integrity:** Your automation is only as good as your data. Make sure your CRM accurately captures:\n    *   Donor Full Name (and preferred salutation)\n    *   Mailing Address\n    *   Email Address\n    *   Donation Amount\n    *   Donation Date\n    *   Campaign/Fund/Designation (e.g., \"Annual Fund,\" \"Building Project,\" \"Emergency Relief\")\n    *   Payment Method (e.g., \"online,\" \"check\")\n    *   First-time or Recurring Donor status\n    *   Soft Credit information (if applicable)\n\n### Step 2: Craft Compelling Letter Templates\n\nYou'll likely need multiple templates to ensure relevance.\n\n1.  **Identify Key Scenarios:**\n    *   **General/One-Time Donation:** The most common.\n    *   **First-Time Donor:** Special welcome and impact message.\n    *   **Recurring Donor:** Acknowledge their ongoing support.\n    *   **Major",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce NPSP",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 483,
+  "estimated_cost_usd": 0.00121,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

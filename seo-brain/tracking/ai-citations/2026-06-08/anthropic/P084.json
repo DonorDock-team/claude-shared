@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P084",
+  "prompt_text": "Best donor CRM for theaters",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563038+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best CRM Options for Theaters\n\n## Top Specialized Choices\n\n### **PatronManager** (by Salesforce)\n- **Best for:** Mid to large theaters\n- Purpose-built for performing arts organizations\n- Integrates ticketing, donations, and patron management\n- Strong reporting for campaigns and audience segmentation\n- Higher cost but comprehensive features\n\n### **Tessitura**\n- **Best for:** Large theaters and performing arts centers\n- Industry standard for major venues\n- Enterprise-level ticketing + fundraising + marketing\n- Significant investment required ($$$$)\n- Steep learning curve but extremely powerful\n\n## Budget-Friendly Options\n\n### **Bloomerang**\n- Great donor retention tools\n- Affordable for small-mid theaters\n- Good reporting and communication features\n- ~$125+/month\n\n### **Little Green Light**\n- Simple, affordable (~$39+/month)\n- Good for smaller theaters\n- Basic fundraising tracking\n- Easy to learn\n\n## All-in-One Solutions\n\n### **Blackbaud Altru**\n- Combines CRM, ticketing, and fundraising\n- Built for arts/cultural organizations\n- Mid-range pricing\n\n### **Salesforce Nonprofit Cloud**\n- Highly customizable\n- Can integrate with various ticketing systems\n- Requires more setup/expertise\n- Free for qualifying nonprofits (10 licenses)\n\n## Key Consideration\nMost theaters need **integrated ticketing + donor management**. Your choice depends on:\n- Budget\n- Theater size\n- Technical expertise\n- Ticketing system requirements\n\nWhat's your theater's size and budget range?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 363,
+  "estimated_cost_usd": 0.005484,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P017",
+  "prompt_text": "Alternative to Neon CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563748+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Alternatives to Neon CRM\n\nHere are some popular alternatives to Neon CRM, organized by category:\n\n## **Full-Featured Nonprofit CRMs**\n\n1. **Salesforce Nonprofit Cloud**\n   - Enterprise-level solution with extensive customization\n   - Powerful but requires technical expertise\n   - Offers significant discounts for nonprofits\n\n2. **Bloomerang**\n   - Focus on donor retention\n   - User-friendly interface\n   - Strong reporting and analytics\n\n3. **DonorPerfect**\n   - Comprehensive fundraising tools\n   - Good for small to mid-sized organizations\n   - Integrated online donation forms\n\n4. **Little Green Light**\n   - Affordable for smaller nonprofits\n   - Intuitive interface\n   - Strong customer support\n\n## **Budget-Friendly Options**\n\n5. **Kindful** (now part of Bloomerang)\n   - Modern, clean interface\n   - Good automation features\n   - Affordable pricing\n\n6. **CiviCRM**\n   - Open-source and free\n   - Highly customizable\n   - Requires technical knowledge to implement\n\n## **All-in-One Platforms**\n\n7. **Blackbaud Raiser's Edge NXT**\n   - Industry leader for larger nonprofits\n   - Comprehensive feature set\n   - Higher price point\n\n8. **Keela**\n   - AI-powered insights\n   - Good for growing organizations\n   - Modern interface\n\n## **What to Consider**\n- Organization size and budget\n- Required features (fundraising, volunteer management, email marketing)\n- Technical expertise available\n- Integration needs\n\nWhat specific features are most important for your organization?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 386,
+  "estimated_cost_usd": 0.005832,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

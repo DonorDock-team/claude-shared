@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P136",
+  "prompt_text": "Salesforce Nonprofit Cloud problems",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.562515+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Salesforce Nonprofit Cloud is a broad platform, but common problems include **integration gaps**, **missing or hard-to-access objects in third-party tools**, **migration complexity**, and **compatibility issues with existing apps**.[1][2][7]\n\nThe most directly documented issue in your results is that some users cannot see all **Nonprofit Cloud objects** when connecting Salesforce to Zapier, which points to connector or API-support limitations rather than a problem with Salesforce itself.[1] Another recurring concern is that **third-party app compatibility** can be uneven, so vendors may need to confirm whether their products support Nonprofit Cloud and Person Accounts correctly.[2]\n\nOther frequently reported concerns include:\n- **Migration effort** from NPSP to Nonprofit Cloud, which is described as an org migration that can be complex and time-consuming.[2]\n- **Admin complexity**, with several sources noting that Nonprofit Cloud is more complex to administer and may require additional expertise.[2][7]\n- **Feature gaps or differences** versus NPSP, such as the need to evaluate whether program, case management, grantmaking, and fundraising features fit an organization\u2019s needs.[2]\n- **Reporting limitations**, since one source says there are no out-of-the-box report types with Nonprofit Cloud.[2]\n\nIf you want, I can turn this into a more specific troubleshooting list for:\n- **Zapier / integrations**\n- **migration from NPSP**\n- **admin/setup problems**\n- **reporting and objects missing**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 303,
+  "estimated_cost_usd": 0.009566,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://community.zapier.com/troubleshooting-99/not-able-to-see-all-salesforce-nonprofit-cloud-objects-40570",
+      "https://idealistconsulting.com/blog/your-nonprofit-cloud-questions-answered",
+      "https://www.salesforce.com/nonprofit/cloud/",
+      "https://prosupport.gofundme.com/hc/en-us/articles/37288754104475-Salesforce-Agentforce-Nonprofit-Cloud-NPC-integration-release-notes",
+      "https://teamheller.com/resources/blog/shedding-light-on-three-concerns-about-the-salesforce-nonprofit-cloud",
+      "https://www.salesforceben.com/the-state-of-nonprofits-on-salesforce-in-2025-challenges-and-the-road-ahead/",
+      "https://twistellar.com/blog/salesforce-nonprofit-cloud-vs-npsp",
+      "https://trailhead.salesforce.com/trailblazer-community/feed/0D54V00007X70ViSAJ"
+    ]
+  }
+}

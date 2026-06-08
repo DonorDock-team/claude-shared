@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P132",
+  "prompt_text": "Network for Good problems",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.561932+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Network for Good (now **Bonterra Network for Good**) is generally viewed as easy-to-use fundraising software for small nonprofits, but users report recurring **problems** around high/opaque fees, limited reporting and data flexibility, rebrand confusion, and inconsistent customer support.[1][9]\n\nKey issues nonprofits commonly report:\n\n1. **Fees and pricing problems**  \n   - **Transaction fees up to ~4.75%** on every donation, *on top of* a monthly subscription, are the most frequent complaint.[1]  \n   - For a nonprofit raising $100,000/year, that fee load alone can reach about **$4,750** before subscription costs are included.[1]  \n   - The newer plan tiers (Essentials, Pro, Enterprise) require **custom quotes**, and many users describe pricing as **opaque** and higher than expected after Network for Good was absorbed into Bonterra.[1]  \n   - Some event tools add extra per-ticket costs (e.g., \u201cafter selling 50 tickets, NFG takes $1 per ticket sold\u201d), which can add up quickly for small orgs.[1]  \n   - Several reviewers on platforms like GreatNonprofits and software review sites describe it as **\u201cVERY expensive and not worth the cost\u201d** when you factor in all fees.[1][9]\n\n2. **Reporting and data limitations**  \n   - Built\u2011in reports handle **basic summaries**, but anything beyond that (board reports, grant reports, multi-fund tracking, soft credits, etc.) often requires **exporting to Excel and manual rework**.[1]  \n   - Users mention **awkward, unintuitive reporting** and say it is difficult to pull accurate data due to limited soft\u2011credit options and lack of robust custom fields.[1]  \n   - One nonprofit review notes: \u201cthere are no reporting options\u2026 you can\u2019t do global changes and the options for custom fields are not robust\u2026 MANY better, cheaper options\u2026 if the main thing you need is quality data management and reporting.\u201d[1]\n\n3. **Usability gaps and missing / misrepresented features**  \n   - While overall usability scores are relatively high, some users find parts of the **UI clunky and unintuitive**.[1]  \n   - A recurring issue is **features mentioned during sales demos not actually existing in the product**\u2014for example, promised social media integration for emails that was not present.[1] This creates a trust issue for some nonprofits.  \n   - As organizations grow, they report that the platform stops fitting well: pricing scales with contact count while data and reporting needs outgrow what Network for Good easily supports.[1]\n\n4. **Rebrand confusion (Network for Good \u2192 Bonterra)**  \n   - After the acquisition and rebrand, users report **confusion about product names, plan types, and what features are included in each tier**.[1]  \n   - Several reviews mention feeling **uncertain about what they were actually paying for** post-transition and experiencing changes in pricing or support.[1]\n\n5. **Customer support complaints**  \n   - Although Bonterra markets Network for Good as pairing software with **expert coaching** and guidance for small nonprofits,[4] some third\u2011party reviews describe **poor customer service**, slow or unresolved issues, and difficulty getting clear answers about billing or technical problems.[9]  \n   - On review sites, phrases like \u201cissues never resolved timely or properly\u201d and \u201cterrible customer service\u201d appear in negative reviews.[9] Experiences are mixed: some customers are satisfied, but dissatisfaction is strong enough to show a pattern.\n\n6. **Donation processing / donor experience issues (for charities using NFG as a processor)**  \n   - For nonprofits that receive pass\u2011through donations via Network for Good\u2019s donor-advised fund or partner sites, some find the system **cumbersome** as a donation channel compared to their preferred processor.[2]  \n   - There can be a **lag between when the donor gives and when the nonprofit receives the funds**, since NFG often disburses on a batch/periodic schedule (e.g., monthly), which can delay internal attribution and stewardship.[2]  \n   - Donor contact information is only shared if the donor opts in, so organizations can end up with **\u201canonymous\u201d donors** or incomplete data, complicating follow\u2011up.[2]  \n   - Network for Good sends an **automated receipt** but not a personalized thank\u2011you; nonprofits must build separate processes to ensure timely acknowledgments despite the payment lag.[2]\n\n7. When Network for Good tends to be a poor fit  \n   Reviews and syntheses of 1,300+ user opinions suggest it becomes problematic when:[1]  \n   - Your donors give **lots of small gifts** ($5\u2013$25): percentage and per\u2011transaction fees consume a noticeable share of each donation.  \n   - You need **advanced reporting**, segmented analytics, or complex grant/board-ready data without heavy Excel work.  \n   - Your database is **growing quickly**, pushing you into higher, less transparent pricing tiers.  \n   - You run a **grassroots or very lean organization**, where combined subscription + transaction + event fees create too much overhead for your budget.\n\nIf you share more about what specific \u201cproblems\u201d you\u2019re facing (fees, data, donor visibility, support, etc.), I can map them to these patterns and suggest targeted workarounds or alternative platforms better suited to your situation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bonterra",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 1113,
+  "estimated_cost_usd": 0.02171,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.zeffy.com/blog/network-for-good-reviews",
+      "https://www.nonprofitmarketingguide.com/why-you-must-work-with-network-for-good-and-how-to-follow-up-with-donors/",
+      "https://www.networkforgood.org/about/",
+      "https://www.bonterratech.com/product/network-for-good",
+      "https://fconline.foundationcenter.org/fdo-grantmaker-profile?key=NETW414",
+      "https://www.forgood.org",
+      "https://epic.networkforgood.com/admins/sign_in",
+      "https://www.networkforgood.org/profile/login.aspx",
+      "https://greatnonprofits.org/org/network-for-good-inc"
+    ]
+  }
+}

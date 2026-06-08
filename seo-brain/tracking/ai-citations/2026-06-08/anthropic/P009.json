@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562255+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Givebutter Comparison\n\nBoth are modern donor management platforms, but they serve slightly different niches. Here's how they compare:\n\n## **Givebutter**\n\n### Strengths\n- **100% free** for basic fundraising (optional tipping model)\n- Excellent for **campaigns & events** (peer-to-peer, crowdfunding, auctions)\n- Beautiful, modern fundraising pages\n- Strong social fundraising features\n- Great for smaller nonprofits or one-off campaigns\n- Easy to use with minimal learning curve\n\n### Limitations\n- Less robust CRM/donor management features\n- Limited advanced reporting\n- Better for fundraising *campaigns* than comprehensive donor relationships\n\n---\n\n## **DonorDock**\n\n### Strengths\n- True **donor CRM** focused on relationship management\n- Better for tracking long-term donor engagement\n- More comprehensive reporting and analytics\n- Task management and workflow features\n- Better for **managing major donors** and ongoing relationships\n- Email integration and communication tracking\n\n### Limitations\n- **Paid plans only** (starts ~$59/month)\n- Less flashy campaign/event tools compared to Givebutter\n- Smaller user base (less community support)\n\n---\n\n## **Which to Choose?**\n\n**Choose Givebutter if you:**\n- Need free or low-cost solution\n- Focus on events, campaigns, peer-to-peer fundraising\n- Want beautiful public-facing donation pages\n- Are a smaller organization with simpler needs\n\n**Choose DonorDock if you:**\n- Need robust donor relationship management\n- Want deeper analytics and reporting\n- Manage major donors with complex relationships\n- Can budget for paid software (~$700+/year)\n\n**Alternative:** Some organizations use **both**\u2014Givebutter for campaigns and DonorDock for donor management.\n\nWhat's your primary use case?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 424,
+  "estimated_cost_usd": 0.006411,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

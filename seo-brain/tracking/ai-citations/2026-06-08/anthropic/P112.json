@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.564575+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Tracking Soft Credits in Donor CRM\n\n## What Are Soft Credits?\n\nSoft credits acknowledge individuals who influenced a donation without being the direct donor (e.g., board members who solicited gifts, spouses of donors, or corporate executives whose company gave).\n\n## Best Practices for Tracking\n\n### 1. **Establish Clear Policies**\n- Define when soft credits are awarded\n- Document credit types (solicitor, household member, influencer)\n- Set percentage rules if splitting credit\n\n### 2. **Common Soft Credit Scenarios**\n\n- **Household giving**: Credit both spouses when one makes a gift\n- **Solicitation credit**: Credit the volunteer/board member who asked\n- **Corporate matching**: Credit the employee who triggered the match\n- **Tribute gifts**: Credit the person being honored\n- **Grant writing**: Credit staff who secured foundation grants\n\n### 3. **CRM Setup**\n\nMost donor CRMs have built-in soft credit features:\n\n**In Salesforce/NPSP:**\n- Use Partial Soft Credits or Contact Roles\n- Configure on Opportunity object\n- Set up soft credit reports\n\n**In Bloomerang/DonorPerfect/Raiser's Edge:**\n- Add soft credit relationships to each gift\n- Tag credit type/role\n- Assign percentage (typically 100%)\n\n### 4. **Key Fields to Track**\n- Soft credit recipient name\n- Relationship type (solicitor, spouse, etc.)\n- Credit amount/percentage\n- Date\n- Campaign/appeal\n\n### 5. **Reporting Tips**\n- Run separate reports for hard vs. soft credits\n- Don't double-count in total revenue reports\n- Use soft credits for recognition and relationship tracking\n- Track solicitor effectiveness over time\n\n**What CRM system are you using?** I can provide more specific guidance.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 415,
+  "estimated_cost_usd": 0.006273,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

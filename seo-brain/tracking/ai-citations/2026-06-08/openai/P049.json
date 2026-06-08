@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P049",
+  "prompt_text": "Best donor CRM with unlimited contacts",
+  "engine": "openai",
+  "timestamp": "2026-06-08T12:30:34.563221+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for a donor CRM (Customer Relationship Management) system that offers unlimited contacts, it's essential to consider a few key features like donation tracking, communication tools, reporting, and integration capabilities. While there are several options available, some of the best donor CRMs that are often recommended for their robust features include:\n\n1. **Bloomerang**: Known for its user-friendly interface and strong focus on donor retention, Bloomerang offers robust reporting and communication tools, though their pricing tiers may depend on the number of records.\n\n2. **Kindful**: Now part of Bloomerang, Kindful provides seamless integration with other tools, which is great for managing donor relationships and fundraising efforts.\n\n3. **NeonCRM**: Offers a comprehensive suite of features, including donor management, event management, and online fundraising tools. It's scalable and suitable for growing organizations.\n\n4. **Salsa CRM**: Provides a broad range of tools for donor management, with a focus on engagement and advocacy. Their software can handle various nonprofit needs, from fundraising to marketing.\n\n5. **DonorPerfect**: Known for its flexibility and scalability, DonorPerfect offers multiple features essential for managing donors, although access to unlimited contacts may require specific plans.\n\n6. **CiviCRM**: An open-source CRM solution that can be particularly cost-effective. It allows for unlimited customization and is often used by organizations with technical expertise available in-house.\n\n7. **Little Green Light**: Offers an all-in-one platform for donor management, with tiered pricing that doesn't limit the number of contacts but considers the total value managed.\n\nIt's crucial to verify the current pricing plans and features, as these can change over time. Some CRMs may initially offer unlimited contacts as part of promotional packages or come with certain conditions. Therefore, it's always advisable to contact the vendor directly to discuss your organization's specific needs and confirm that their offerings align with your requirements.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 386,
+  "estimated_cost_usd": 0.003893,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

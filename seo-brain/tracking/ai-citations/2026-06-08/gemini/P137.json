@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P137",
+  "prompt_text": "Little Green Light limitations",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563007+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Little Green Light (LGL) is a popular and very capable donor management system, particularly for small to medium-sized nonprofits due to its affordability and robust core features. However, like any software, it has limitations, especially when compared to more expensive, enterprise-level solutions.\n\nHere are some common limitations of Little Green Light:\n\n1.  **Scalability for Large, Complex Organizations:**\n    *   **Enterprise Features:** While LGL can scale to a decent size, very large nonprofits with complex hierarchies, multiple departments requiring highly granular permissions, or extremely high transaction volumes might find it lacks some of the sophisticated enterprise-level features (e.g., multi-entity management, deeply integrated budgeting across departments, very advanced security protocols).\n    *   **Performance with Massive Datasets:** While generally good, organizations with millions of constituent records and transactions might eventually experience slower reporting or data processing compared to systems specifically engineered for that scale.\n\n2.  **User Interface (UI) & User Experience (UX):**\n    *   **Modernity:** LGL's interface is functional and clean, but some users find it less \"modern,\" visually appealing, or intuitive compared to newer, sleeker CRM designs. It prioritizes functionality over cutting-edge aesthetics.\n    *   **Learning Curve:** While powerful, some advanced features (like custom reporting or building complex LGL Forms) can have a steeper learning curve for new users not familiar with database concepts.\n\n3.  **Advanced Marketing & Communication Automation:**\n    *   **Integrated Marketing:** LGL integrates well with tools like Mailchimp for email marketing. However, it doesn't have deeply integrated, advanced marketing automation features itself (e.g., complex drip campaigns based on specific donor behavior within LGL, A/B testing within the LGL platform, landing page builders beyond basic forms). For this, you still rely on separate, integrated tools.\n\n4.  **Specialized Modules & Deep Functionality:**\n    *   **Volunteer Management:** While you can track volunteers in LGL, it's not a full-fledged volunteer management system with advanced features like volunteer recruitment portals, scheduling, hours tracking, skill matching, or comprehensive communication tools dedicated solely to volunteers.\n    *   **Grant Management:** LGL allows you to track grants, applications, and awards. However, it doesn't offer the deep, workflow-driven grant management features found in specialized grant software (e.g., complex budget tracking per grant, specific reporting requirements for various funders, internal approval workflows for",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 522,
+  "estimated_cost_usd": 0.001306,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.563277+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For a **Salesforce\u2011style CRM built specifically for nonprofits**, the closest equivalents are **Blackbaud (esp. Raiser\u2019s Edge NXT)** and **Microsoft Dynamics 365 for Nonprofits**, along with several lighter-weight nonprofit CRMs like **Bloomerang**, **Neon One**, and **DonorPerfect**.[5][6][8]\n\nTo make this practical, here\u2019s how to think about \u201csimilar to Salesforce but for nonprofits\u201d:\n\n### 1. Enterprise\u2011grade, Salesforce\u2011like platforms\n\nThese are most similar in **power, customization, integrations, and ecosystem**.\n\n- **Microsoft Dynamics 365 for Nonprofits**\n  - Very close to Salesforce in being a broad, configurable business platform with nonprofit accelerators and templates.[8]\n  - Strong for organizations that already use Microsoft (Office 365, Azure, Power BI).\n  - Often used by **mid\u2011large nonprofits** that might otherwise pick Salesforce.[8]\n\n- **Blackbaud Raiser\u2019s Edge NXT**\n  - One of the most widely known **nonprofit\u2011specific CRMs**; often compared with Salesforce Nonprofit Cloud as a top-tier option.[5][6]\n  - Built for **fundraising and donor management**, with extensive nonprofit functionality out of the box.[5][6]\n  - Tends to fit **larger or fundraising\u2011heavy nonprofits**.\n\nThese two are the best matches if you like the **robustness and extensibility** of Salesforce but want something built for nonprofits from day one.\n\n### 2. Mid\u2011range nonprofit CRMs (simpler than Salesforce)\n\nIf by \u201csimilar\u201d you mostly mean \u201cfull CRM focused on donors, campaigns, and reporting\u201d but **easier to use** than Salesforce:\n\n- **Bloomerang**\n  - Designed specifically as a **donor management system** for nonprofits, focused on donor retention and fundraising.[1][5][6]\n  - Much simpler than Salesforce; good for **small to mid\u2011sized nonprofits** that do not need deep, custom platform\u2011level features.[1][5]\n\n- **Neon CRM (Neon One)**\n  - Nonprofit\u2011specific CRM that covers **donors, events, memberships, and online forms**.[5][6]\n  - More all\u2011in\u2011one than Bloomerang for many small/mid organizations.[6]\n\n- **DonorPerfect**\n  - Long\u2011standing nonprofit CRM focused on **fundraising and donor management**.[5][6]\n  - Similar \u201cpurpose\u2011built nonprofit CRM\u201d tier as Bloomerang and Neon.[5][6]\n\nThese are \u201cSalesforce\u2011like\u201d in that they are **true CRMs**, but they trade Salesforce\u2019s breadth and custom development for **simplicity and nonprofit\u2011ready features**.\n\n### 3. All\u2011in\u2011one association / small\u2011org tools\n\nIf you\u2019re a **small nonprofit** and Salesforce feels far too big:\n\n- **Springly**\n- **WildApricot**\n- **Fundly**\n- **Salsa CRM**\n\nAll are listed among top nonprofit CRMs and combine CRM with things like websites, email, or membership management, but they are **less like Salesforce as a general-purpose platform** and more like all\u2011in\u2011one tools.[5][6][7]\n\n---\n\nIf you share your size (contacts/donors), budget range, and whether you need more than fundraising (e.g., programs, case management, volunteers), I can narrow this down to 2\u20133 best\u2011fit \u201cSalesforce\u2011like for nonprofits\u201d options.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Neon CRM",
+    "Neon One",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 730,
+  "estimated_cost_usd": 0.01598,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://cube84.com/blog/bloomerang-vs-salesforce-nonprofit-cloud-vs-npsp-which-crm-is-best-for-your-nonprofit",
+      "https://cloud4good.com/industries/nonprofit/",
+      "https://www.accountingseed.com/resource/blog/is-salesforce-a-good-crm-for-nonprofits/",
+      "https://www.salesforce.com/nonprofit/",
+      "https://www.springly.org/en-us/blog/nonprofit-crm-advantages/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://stratuslive.com/blog/salesforce-vs-dynamics-for-nonprofits/"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P146",
+  "prompt_text": "Best donor CRM with grant tracking",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.564412+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for the \"best\" donor CRM with robust grant tracking, you're seeking a platform that not only manages individual donors and donations but also handles the entire grant lifecycle\u2014from prospecting and application submission to award management, reporting, and stewardship.\n\nHere are the top contenders, categorized by their strengths:\n\n---\n\n### Top Tier: Most Comprehensive & Customizable (Best for larger or growing orgs with complex needs)\n\n1.  **Salesforce NPSP (Nonprofit Success Pack) + Grant Management Apps**\n    *   **Why it's \"Best\":** Salesforce is the most powerful and customizable CRM platform available. NPSP adapts Salesforce for nonprofits, and its vast AppExchange ecosystem offers numerous dedicated grant management solutions (e.g., FPM Grant Management, Grantsforce, or even custom configurations within NPSP itself). This allows for highly detailed tracking of every stage of the grant lifecycle, complex reporting, and integration with virtually anything.\n    *   **Grant Tracking Strengths:**\n        *   **Full Lifecycle:** Tracks prospecting, letter of intent (LOI), application components, submission, review, award, payment schedules, reporting deadlines, and stewardship.\n        *   **Customization:** Create custom fields, objects, and workflows to match your exact grant processes.\n        *   **Reporting:** Unparalleled reporting capabilities for forecasting, tracking success rates, and compliance.\n        *   **Integrations:** Connects with financial software, document management, and other tools.\n        *   **Scalability:** Grows with your organization indefinitely.\n    *   **Considerations:**\n        *   **Learning Curve:** Steepest among all options. Requires dedicated admin time or a consultant for setup and ongoing management.\n        *   **Cost:** While NPSP itself is free for up to 10 users, implementation, additional apps, and ongoing support/consulting can be significant investments.\n\n2.  **Blackbaud Raiser's Edge NXT**\n    *   **Why it's \"Best\":** Blackbaud is a giant in the nonprofit tech space, and Raiser's Edge NXT is their flagship product. It's incredibly powerful and comprehensive, often used by large, established nonprofits with complex fundraising operations, including significant grant portfolios.\n    *   **Grant Tracking Strengths:**\n        *   **Integrated Grant Module:** Robust functionality for managing grant applications, proposals, awards, payments, and reporting requirements.\n        *   **Compliance:** Designed to help with compliance tracking and fund",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 516,
+  "estimated_cost_usd": 0.001292,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P093",
+  "prompt_text": "Cheapest nonprofit CRM with online giving",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.564433+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Cheapest Nonprofit CRM Options with Online Giving\n\n## **Free Options**\n\n1. **Bitrix24**\n   - **Cost:** Free for unlimited users\n   - **Online giving:** Integrates with payment processors\n   - **Best for:** Small nonprofits just starting out\n\n2. **Sumac (Free Edition)**\n   - **Cost:** Free for up to 500 contacts\n   - **Online giving:** Basic donation pages\n   - **Best for:** Very small organizations\n\n## **Budget-Friendly Paid Options**\n\n3. **Little Green Light**\n   - **Cost:** $39/month (billed annually)\n   - **Online giving:** Included with donation forms\n   - **Best for:** Small to medium nonprofits\n\n4. **Donorbox**\n   - **Cost:** Free (1.5% platform fee on donations)\n   - **Online giving:** Excellent donation tools\n   - **Best for:** Organizations prioritizing fundraising over full CRM\n\n5. **Kindful** (by Bloomerang)\n   - **Cost:** ~$100/month\n   - **Online giving:** Integrated donation pages\n   - **Best for:** Growing organizations\n\n## **My Recommendation**\n\nFor most small nonprofits, start with **Donorbox** (free with transaction fees) or **Little Green Light** ($39/month) depending on whether you need full CRM features or primarily online fundraising.\n\n**What size is your organization?** This will help me narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 345,
+  "estimated_cost_usd": 0.005223,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

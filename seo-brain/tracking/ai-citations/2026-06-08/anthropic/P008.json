@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P008",
+  "prompt_text": "DonorDock vs Neon CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562121+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Neon CRM Comparison\n\nBoth are cloud-based donor management systems, but they target different nonprofit segments and have distinct approaches.\n\n## **DonorDock**\n\n### Best For\n- Small nonprofits and ministries\n- Organizations wanting simplicity and ease of use\n- Teams needing quick implementation\n\n### Key Strengths\n- **Simple, intuitive interface** - minimal learning curve\n- **Relationship-focused** - emphasizes donor connections over transactions\n- **Affordable pricing** - typically $39-99/month\n- **Quick setup** - can be running in days\n- **Good customer support** - personalized service\n\n### Limitations\n- Fewer advanced features\n- Limited customization options\n- Smaller ecosystem/fewer integrations\n- Less robust reporting compared to enterprise solutions\n\n## **Neon CRM**\n\n### Best For\n- Small to mid-sized nonprofits\n- Organizations needing comprehensive features\n- Teams wanting all-in-one functionality\n\n### Key Strengths\n- **Feature-rich** - includes membership, events, email marketing, volunteer management\n- **Strong reporting** - customizable dashboards and analytics\n- **More integrations** - connects with many third-party tools\n- **Scalable** - grows with your organization\n- **Neon One ecosystem** - can add fundraising and website tools\n\n### Limitations\n- Steeper learning curve\n- More expensive ($99-149+/month typically)\n- Can feel overwhelming for very small organizations\n- Setup takes longer\n\n## **Quick Decision Guide**\n\n**Choose DonorDock if you:**\n- Have <500 contacts\n- Want to start tracking donors quickly\n- Prioritize simplicity over features\n- Have limited budget\n\n**Choose Neon CRM if you:**\n- Need comprehensive functionality\n- Manage events, memberships, or volunteers\n- Want detailed reporting\n- Plan to scale significantly\n\nWould you like me to dive deeper into any specific feature comparison?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 441,
+  "estimated_cost_usd": 0.006669,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}
