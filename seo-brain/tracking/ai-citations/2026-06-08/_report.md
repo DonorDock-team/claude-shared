@@ -152,5 +152,5 @@
 - [anthropic] **P006** — ReadTimeout: 
 - [anthropic] **P060** — ReadTimeout: 
 - [anthropic] **P042** — ReadTimeout: 
-- [gemini] **P068** — HTTPStatusError: Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyCMG7SgQT4t1X-oJer38DFrMqZx_h8z-iE'
+- [gemini] **P068** — HTTPStatusError: Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=REDACTED'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503

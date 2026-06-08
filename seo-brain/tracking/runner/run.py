@@ -56,6 +56,26 @@ TRACKING_DIR = RUNNER_DIR.parent
 PROMPTS_PATH = TRACKING_DIR / "prompts.json"
 RESULTS_ROOT = TRACKING_DIR / "ai-citations"
 
+
+def redact_secrets(s: str) -> str:
+    """Strip API keys from any string before it is persisted or committed.
+
+    Error messages from httpx include the full request URL, and the Gemini
+    endpoint carries the API key as a ``?key=`` query param, so a raw error
+    string can leak a live key into the public repo. Scrub it here.
+    """
+    import re
+    if not s:
+        return s
+    # key/token query params, e.g. ...generateContent?key=AIza...
+    s = re.sub(r'([?&](?:key|api_key|apikey|access_token|token)=)[^&\s\'"]+',
+               r'\1REDACTED', s, flags=re.IGNORECASE)
+    # bare provider key tokens (defensive)
+    s = re.sub(r'AIzaSy[A-Za-z0-9_\-]{20,}', 'REDACTED', s)   # Google
+    s = re.sub(r'sk-[A-Za-z0-9_\-]{20,}', 'REDACTED', s)      # OpenAI / Anthropic
+    s = re.sub(r'pplx-[A-Za-z0-9_\-]{20,}', 'REDACTED', s)    # Perplexity
+    return s
+
 # ---------------------------------------------------------------------------
 # Key sources (in priority order)
 #
@@ -375,7 +395,7 @@ async def run_one(client: httpx.AsyncClient, prompt: dict, engine: str, key: str
                 engine=engine,
                 timestamp=ts,
                 success=False,
-                error=f"{type(e).__name__}: {e}",
+                error=redact_secrets(f"{type(e).__name__}: {e}"),
                 response_text="",
                 donordock_mentioned=False,
                 donordock_position=None,
