@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P071",
+  "prompt_text": "Donor retention benchmarks for nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.563825+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For most nonprofits in the U.S., a **\u201ctypical\u201d overall donor retention rate** currently falls around the **low- to mid\u201140% range**, with **new donor retention often in the mid\u2011teens and repeat donor retention in the 40\u201360%+ range**, depending on channel and donor type.[1][2][8][9]\n\nBelow are the main benchmarks you can use to compare your organization.\n\n---\n\n### 1. Overall donor retention benchmarks\n\nRecent sector\u2011wide data and summaries show:\n\n- **Overall donor retention (all donors, all channels)**  \n  - Around **42.9% on average for 2025\u20132026**.[8]  \n  - Many summaries cite **\u201caround 45%\u201d** as the typical nonprofit average.[9]  \n  - Fundraising Effectiveness Project (FEP) data cited by Bloomerang shows Q3 2025 retention at **31.9%** in their panel (this is a specific dataset and tends to be lower).[2]\n\nBecause methodologies and panels differ, you\u2019ll often see a **range of ~35\u201345% overall** as \u201cnormal.\u201d[2][3][8][9]\n\n**How to use this:**  \nIf your overall annual retention is:\n- **Below ~35%** \u2192 cause for concern; strong opportunity for improvement.  \n- **~40\u201345%** \u2192 roughly on par with sector norms.  \n- **Above 50%** \u2192 you are outperforming typical benchmarks.\n\n---\n\n### 2. New vs. repeat donor retention\n\nBenchmarks consistently show a large gap between first\u2011time and repeat donors:\n\n- **New donor retention**\n  - FEP data via Bloomerang: about **14%** year\u2011to\u2011date for new donors.[2]  \n  - Many practitioners summarize that new donor retention **\u201coften hovers below 30%.\u201d**[1]\n\n- **Repeat donor retention**\n  - FEP data via Bloomerang: about **43.6%** year\u2011to\u2011date for repeat donors.[2]  \n  - Other practitioners note repeat donor retention can **climb above 60%**.[1]\n\n**How to use this:**\n- If your **new donor retention** is **>20\u201325%**, you\u2019re doing better than many.  \n- If your **repeat donor retention** is **>50\u201360%**, you\u2019re strong in donor stewardship.\n\n---\n\n### 3. Retention by donor size / frequency\n\nFrom FEP data summarized by Bloomerang:[2]\n\n- By **gift frequency**:\n  - **1\u2011time donors:** ~19.2% retained  \n  - **2\u2011time donors:** ~38.5% retained  \n  - **3\u20136\u2011time donors:** ~62.5% retained  \n  - **7+\u2011time donors:** ~87.3% retained  \n\n- By **donor size (YTD)**:\n  - **Micro donors ($1\u2013$100):** ~21.3% retained  \n  - **Major donors ($5K\u2013$50K):** ~52.0% retained  \n  - **Supersize donors ($50K+):** ~56.6% retained  \n\n**Implication:** getting a **second and third gift** is the key inflection point; retention and lifetime value rise sharply after that.[2][3]\n\n---\n\n### 4. Channel-specific benchmarks (online focus)\n\nFor **online one\u2011time donors**:\n\n- M+R Benchmarks report **48% overall online retention** (new + prior donors combined) in a recent year.[5]\n\nThis is often **higher than overall organizational retention**, because it reflects only donors who gave online and then gave online again, not across all channels.\n\n---\n\n### 5. How to calculate your donor retention rate\n\nStandard formula (used by Bloomerang and Blackbaud):[2][3]\n\n\\[\n\\text{Donor Retention Rate} = \\frac{\\text{Number of donors who gave last year AND this year}}{\\text{Number of donors who gave last year}} \\times 100\n\\]\n\nExample:  \nIf 300 donors gave last year, and 159 of those gave again this year:\n\n\\[\n159 / 300 \\times 100 = 53\\% \\text{ retention}\n\\][2][3]\n\nYou can similarly calculate **new donor retention** by looking only at first\u2011time donors from last year and seeing how many gave again this year.[2]\n\n---\n\n### 6. Setting internal benchmarks\n\nGiven the ranges above, a practical stair\u2011step for many small\u2013mid nonprofits is:\n\n- **Year 1 goal:**  \n  - Overall retention **\u2265 40%**  \n  - New donor retention **\u2265 20%**  \n  - Repeat donor retention **\u2265 50%**\n\n- **Next 2\u20133 years:**  \n  - Overall retention **45\u201350%+**  \n  - New donor retention **25\u201330%+**  \n  - Repeat donor retention **60%+**\n\nUse your own past 2\u20133 years as the primary baseline, and compare to sector benchmarks only as a secondary reference.[1][4][8][9]\n\n---\n\nIf you share your current numbers (overall, new, and repeat), I can help you see exactly how they stack up against these benchmarks and suggest specific target ranges for the next year.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1120,
+  "estimated_cost_usd": 0.021821,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://mediacause.com/donor-retention-strategies-nonprofits-2025/",
+      "https://bloomerang.com/blog/donor-retention",
+      "https://www.blackbaud.com/industry-insights/glossary/donor-retention",
+      "https://blog.instil.io/how-to-calculate-and-track-donor-retention-benchmarks",
+      "https://mrbenchmarks.com/fundraising/",
+      "https://afpglobal.org/news/fundraising-effectiveness-project-data-q1-2025-shows-increases-dollars-raised-declining",
+      "https://www.donorsearch.net/resources/donor-retention/",
+      "https://4agoodcause.com/the-importance-of-donor-retention-how-to-calculate-and-track/",
+      "https://benchmarks.nextafter.com"
+    ]
+  }
+}

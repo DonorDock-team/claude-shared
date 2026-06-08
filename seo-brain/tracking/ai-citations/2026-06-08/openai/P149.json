@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P149",
+  "prompt_text": "How to migrate from Excel to a nonprofit CRM",
+  "engine": "openai",
+  "timestamp": "2026-06-08T12:30:34.564747+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Migrating from Excel to a nonprofit CRM (Customer Relationship Management) system can be a transformative step for an organization. It can significantly enhance your ability to manage donor relationships, track fundraising activities, and analyze data effectively. Here\u2019s a structured approach to facilitate this migration:\n\n### 1. Assess Your Needs\n- **Identify Objectives:** Understand why you need a CRM. Common objectives include improved data management, enhanced reporting, better communication, and more efficient processes.\n- **Involve Stakeholders:** Engage key team members early to gather input and ensure the system meets diverse needs.\n\n### 2. Select the Right CRM\n- **Research Options:** Evaluate CRM solutions designed for nonprofits such as Salesforce Nonprofit Success Pack, Bloomerang, NeonCRM, or others tailored to the sector.\n- **Evaluate Features vs. Needs:** Ensure the CRM supports your goals, whether it's managing donor relations, event tracking, volunteer management, or grant tracking.\n- **Consider Usability and Support:** Choose a system that is intuitive and provides robust support and training resources.\n\n### 3. Prepare Your Excel Data\n- **Clean Data:** Review and clean your Excel data to correct errors, fill in missing information, and ensure consistency.\n- **Structure Data:** Organize your data in a structured format that aligns with the new CRM\u2019s fields and data import requirements.\n- **De-duplicate:** Remove duplicate records to ensure a smoother migration process.\n\n### 4. Map Data Fields\n- **Map Current to CRM Fields:** Align your Excel columns with the corresponding fields in the CRM, which may include fields like first name, last name, email, phone number, donation history, etc.\n- **Consider Custom Fields:** Identify any necessary custom fields needed in the CRM that don\u2019t exist in your Excel data.\n\n### 5. Export and Backup\n- **Export Data:** Export your cleaned Excel data into a compatible format for your CRM, such as CSV or Excel.\n- **Backup Data:** Create backups of your Excel files before migrating to safeguard against potential data loss.\n\n### 6. Import Data into CRM\n- **Use Import Tools:** Utilize the CRM's built-in tools or seek assistance for data import. Many CRMs offer step-by-step import wizards.\n- **Test Import with a Sample:** Start with a small set of data to ensure that everything is imported correctly and fields are mapped properly.\n\n### 7. Verify Data Integrity\n- **Check Completeness:** Ensure all data has been imported and is complete and accurate.\n- **Test CRM Functionality:** Verify that reports, workflows, and integrations are functioning as expected with the newly imported data.\n\n### 8. Train Your Team\n- **Provide Training:** Offer comprehensive training sessions for your team to understand how to use the new CRM effectively.\n- **Develop Documentation:** Create user guides or documentation specific to your organization\u2019s workflows within the CRM.\n\n### 9. Go Live and Monitor\n- **Launch the CRM:** Transition fully to the CRM system once you are confident in the data integrity and team readiness.\n- **Monitor Use:** Keep track of how the CRM is being used and gather feedback for any adjustments or additional training needed.\n\n### 10. Continuous Improvement\n- **Collect Feedback:** Regularly gather feedback to identify areas for improvement.\n- **Review and Update:** Continually update the CRM as your organization\u2019s needs evolve, adding features or adjusting processes as necessary.\n\nMigrating to a CRM is an investment in your nonprofit\u2019s capacity to manage and expand its operations. By planning carefully and leveraging the CRM\u2019s capabilities, your organization can improve efficiency, foster better relationships with donors, and ultimately better fulfill its mission.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 733,
+  "estimated_cost_usd": 0.00737,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

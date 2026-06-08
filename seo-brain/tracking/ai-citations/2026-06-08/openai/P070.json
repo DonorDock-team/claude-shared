@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "openai",
+  "timestamp": "2026-06-08T12:30:34.563649+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Automating donor thank you letters can be an efficient way to ensure timely and consistent acknowledgment of donors, while saving time and reducing errors. Here are some steps to automate the process:\n\n1. **Select a CRM or Donor Management System:**\n   - Use a CRM (Customer Relationship Management) or donor management software that supports automation. Examples include Salesforce, Bloomerang, DonorPerfect, NeonCRM, etc.\n\n2. **Integrate Email Marketing Tools:**\n   - Integrate with email marketing platforms like Mailchimp, Constant Contact, or others that allow you to automate and personalize email campaigns.\n\n3. **Create a Template:**\n   - Design a thank you letter template. Ensure it is adaptable for both email and print (if needed). Personalize the template by including placeholders for donor names, donation amounts, and specific projects or campaigns.\n\n4. **Segment Your Donors:**\n   - Segment your donor list based on criteria such as donation amount, frequency of donations, campaigns, first-time donors, major donors, etc. This helps in personalizing the thank you messages further.\n\n5. **Set Up Triggers:**\n   - Establish triggers for sending out thank you letters. Triggers could be set up based on the event, such as when a donation is received. These should be integrated within your CRM or donor management system.\n\n6. **Automate the Process:**\n   - Use your CRM\u2019s workflow features to automate the sending of thank you letters. Set it up so that once a donation is recorded, a thank you email is automatically generated and sent according to the segment and template designated.\n\n7. **Personalize and Customize:**\n   - Ensure the automated letters are personalized by including the donor\u2019s name and specific details about their donation, such as the amount and the impact it\u2019s making.\n\n8. **Consider Sending Physical Letters:**\n   - For major donors or specific campaigns, consider automating the generation of letters for physical mailing. Services like Lob or Click2Mail can automate the printing and mailing of letters if integrated with your CRM.\n\n9. **Continuous Updates:**\n   - Regularly update your donor database to ensure all information is current. This ensures that your automated messages remain accurate and relevant.\n\n10. **Monitor and Improve:**\n    - Review the performance of your thank you letters. Monitor open rates, response rates, and donor feedback to optimize and improve your templates and processes.\n\n11. **Data Security and Privacy:**\n    - Ensure that you comply with data protection regulations such as GDPR or CCPA when automating communications and handling donor data.\n\nBy carefully designing an automated process, you can enhance donor relationships and maintain engagement through timely and thoughtful thank you letters.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 544,
+  "estimated_cost_usd": 0.005475,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

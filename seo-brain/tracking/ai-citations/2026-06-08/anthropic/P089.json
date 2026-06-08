@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P089",
+  "prompt_text": "Best donor CRM for mental health nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563765+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Mental Health Nonprofits\n\n## Top Recommendations\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized mental health organizations\n- **Key features:** Donor retention focus, engagement metrics, easy-to-use interface\n- **Why for mental health:** Strong privacy controls, excellent for tracking donor relationships sensitively\n- **Pricing:** Starts ~$125/month\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with complex needs\n- **Key features:** Highly customizable, program management, case management integration\n- **Why for mental health:** Can integrate client services with fundraising (keeping data separate), robust security\n- **Pricing:** Discounted/free for qualifying nonprofits\n\n### **3. Little Green Light**\n- **Best for:** Budget-conscious small nonprofits\n- **Key features:** Comprehensive features at lower cost, grant tracking, customizable fields\n- **Why for mental health:** Good privacy settings, can track restricted/sensitive designations\n- **Pricing:** Starts ~$59/month\n\n### **4. Neon CRM**\n- **Best for:** Growing organizations needing event management\n- **Key features:** All-in-one platform, membership management, peer-to-peer fundraising\n- **Why for mental health:** Good for awareness campaigns and fundraising events\n- **Pricing:** Starts ~$99/month\n\n## Key Considerations for Mental Health Nonprofits\n\n- **HIPAA compliance** if integrating with clinical systems (most donor CRMs aren't HIPAA-compliant alone)\n- **Data separation** between donor info and client/patient data\n- **Privacy controls** for sensitive designations (memorial gifts, etc.)\n- **Grant tracking** for government and foundation funding common in mental health\n\nWhat's your organization's size and primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 423,
+  "estimated_cost_usd": 0.006396,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

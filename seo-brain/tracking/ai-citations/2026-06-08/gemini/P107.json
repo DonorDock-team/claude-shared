@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563865+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Measuring donor retention is a critical exercise for any nonprofit or fundraising organization. It tells you what percentage of your donors from a previous period gave again in a subsequent period. This metric is a strong indicator of donor loyalty, satisfaction, and the long-term sustainability of your fundraising efforts.\n\nHere's a comprehensive guide on how to measure donor retention:\n\n---\n\n## The Core Formula for Donor Retention\n\nThe basic formula for donor retention is:\n\n$$ \\text{Donor Retention Rate} = \\frac{\\text{Number of Donors who Gave in Both Period 1 and Period 2}}{\\text{Total Number of Donors in Period 1}} \\times 100 $$\n\nLet's break down each component:\n\n1.  **Period 1 (P1):** This is your baseline period. It's usually a previous calendar year, fiscal year, or a specific campaign period.\n2.  **Period 2 (P2):** This is the current or subsequent period you're comparing against P1. It must be the same length as P1 (e.g., if P1 is a calendar year, P2 must also be a calendar year).\n3.  **Total Number of Donors in Period 1:** This is every unique individual or entity that made a gift during Period 1.\n4.  **Number of Donors who Gave in Both Period 1 and Period 2:** This is the count of unique individuals or entities that appeared on *both* donor lists (i.e., they gave at least once in P1 and at least once in P2).\n\n---\n\n## Step-by-Step Calculation Guide\n\nLet's assume you want to calculate your calendar year 2023 donor retention rate, using 2022 as your baseline.\n\n1.  **Define Your Periods:**\n    *   **Period 1 (P1):** January 1, 2022 \u2013 December 31, 2022\n    *   **Period 2 (P2):** January 1, 2023 \u2013 December 31, 2023\n\n2.  **Identify All Unique Donors in Period 1:**\n    *   Generate a list of every unique donor who made a gift between Jan 1, 2022, and Dec 31, 2022.\n    *   Let's say you had **1,000 unique donors in 2022.**\n\n3.  **Identify All Unique Donors in Period 2:**\n    *   Generate a list of every unique donor who made a gift between Jan 1, 2023, and Dec 31, 2023.\n    *   Let's say you had **900 unique donors in 2023.** (Note: This number is *not* the denominator for the retention calculation.)\n\n4.  **Identify \"Retained\" Donors (Donors who Gave in Both P1 & P2):**\n    *   Compare the list from Step 2 with the list from Step 3. Find all the donors who appear on *both* lists.\n    *   Your donor database (CRM) should be able to do this. You're looking for donors who gave *at least one gift* in P1 AND *at least one gift* in P2.\n    *   Let's say you found **600 donors who gave in both 2022 and 2023.**\n\n5.  **Apply the Formula:**\n\n    $$ \\text{Donor Retention Rate} = \\frac{600}{1,000} \\times 100 = 0.60 \\times 100 = \\textbf{60",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 811,
+  "estimated_cost_usd": 0.002029,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

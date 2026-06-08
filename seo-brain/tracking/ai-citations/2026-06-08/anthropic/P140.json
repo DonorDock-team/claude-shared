@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563359+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Top Donor CRM Options for QuickBooks Online Integration\n\nHere are the best donor/nonprofit CRMs with QuickBooks Online integration:\n\n## **1. Bloomerang**\n- **Native QBO integration** via their marketplace\n- Purpose-built for nonprofits\n- Syncs donations, donors, and financial data\n- **Best for:** Small to mid-sized nonprofits\n\n## **2. DonorPerfect**\n- Direct QuickBooks Online integration\n- Exports donation data automatically\n- Strong fundraising and reporting tools\n- **Best for:** Established nonprofits needing comprehensive features\n\n## **3. Little Green Light**\n- Built-in QBO sync\n- Affordable for smaller organizations\n- Good reporting and donor management\n- **Best for:** Budget-conscious small nonprofits\n\n## **4. Kindful (by Bloomerang)**\n- Integrates with QBO through Zapier or native connection\n- User-friendly interface\n- Online giving tools included\n- **Best for:** Nonprofits wanting ease of use\n\n## **5. Salesforce Nonprofit Cloud**\n- Connects via third-party apps (DBSync, Coupler.io)\n- Highly customizable\n- Most powerful option\n- **Best for:** Larger nonprofits with technical resources\n\n## **Key Integration Features to Look For:**\n- \u2705 Two-way sync (donations & donor info)\n- \u2705 Automated data transfer\n- \u2705 Gift/pledge tracking\n- \u2705 Revenue recognition alignment\n- \u2705 Reconciliation tools\n\n**What's your organization's size and budget?** I can provide a more specific recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 381,
+  "estimated_cost_usd": 0.005772,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

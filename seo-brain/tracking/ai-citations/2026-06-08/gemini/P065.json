@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P065",
+  "prompt_text": "Donor CRM with pledge tracking",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.562991+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A **Donor CRM with pledge tracking** is an essential tool for nonprofit organizations that receive multi-year commitments, recurring donations, or gifts paid in installments. It allows you to manage not just one-time donations, but also the more complex process of tracking promises of future giving.\n\nHere's a breakdown of what that means, key features, and popular options:\n\n### What is Pledge Tracking in a Donor CRM?\n\nPledge tracking involves recording a donor's commitment to donate a specific amount over a defined period, usually in installments. It's distinct from a one-time gift because the money hasn't been received yet, but the organization relies on that promised income.\n\n### Key Features of Pledge Tracking in a Donor CRM:\n\n1.  **Pledge Creation & Management:**\n    *   Record the total pledge amount.\n    *   Specify the pledge date, start date, and end date.\n    *   Associate the pledge with a specific donor, campaign, fund, or appeal.\n    *   Define the frequency of installments (e.g., monthly, quarterly, annually).\n    *   Ability to add notes or attachments related to the pledge agreement.\n\n2.  **Automated Installment Scheduling:**\n    *   Automatically generate a schedule of expected payments based on the pledge amount and frequency.\n    *   Each installment has a due date and an expected amount.\n\n3.  **Payment Application:**\n    *   Easily link incoming payments to specific pledge installments.\n    *   Mark installments as paid, partially paid, or overdue.\n    *   Track the payment method for each installment.\n\n4.  **Balance Tracking:**\n    *   Clearly show the total original pledge amount.\n    *   Display the amount paid to date.\n    *   Indicate the remaining balance due on the pledge.\n    *   Show how many installments are outstanding and how many are overdue.\n\n5.  **Reminders & Notifications:**\n    *   Automated email or mail reminders to donors for upcoming or overdue installments.\n    *   Internal notifications for staff when pledges are overdue or reach specific milestones.\n\n6.  **Reporting & Analytics:**\n    *   **Pledge Summary Reports:** Total outstanding pledges, pledges by campaign, fund, or donor.\n    *   **Pledge Aging Reports:** See how many pledges are current, 30 days overdue, 60 days overdue, etc.\n    *   **Cash Flow Forecasting:** Project future income based on expected pledge payments.\n    *   **Donor Giving History:** Incorporate pledge payments into a comprehensive view of a donor's total giving.\n\n7.  **Pledge Adjustments & Cancellations:**\n    *   Ability to modify pledge amounts, schedules, or even cancel pledges if circumstances change.\n\n### General CRM Features that Complement Pledge Tracking:\n\n*   **Donor Profiles:** Comprehensive records of contact information, communication history, giving history (including pledges and payments), interests, and relationships.\n*   **Communication & Segmentation:** Tools for",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 631,
+  "estimated_cost_usd": 0.001579,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

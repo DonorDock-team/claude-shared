@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P061",
+  "prompt_text": "Best donor CRM for monthly giving programs",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.561992+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Monthly Giving Programs\n\nHere are the top options specifically strong for recurring/sustainer programs:\n\n## **Top Tier**\n\n### **1. Bloomerang**\n- **Best for:** Small-to-midsize nonprofits focused on retention\n- Built-in recurring gift management with lapsed payment alerts\n- Engagement scoring helps identify monthly donor prospects\n- Strong retention analytics\n- **Price:** ~$125-$500/month\n\n### **2. Virtuous**\n- **Best for:** Growing organizations wanting automation\n- Sophisticated recurring gift workflows\n- Automated payment failure handling\n- Excellent segmentation for sustainer communications\n- **Price:** ~$500-$1,500+/month\n\n### **3. Keela**\n- **Best for:** Budget-conscious orgs wanting modern features\n- Clean recurring donor dashboards\n- Automated thank-you sequences for sustainers\n- Smart prompts to upgrade one-time to monthly\n- **Price:** ~$100-$300/month\n\n## **Enterprise Level**\n\n### **4. Salesforce Nonprofit Cloud**\n- Ultimate flexibility for complex programs\n- Requires customization but can track everything\n- **Price:** $$$$ (+ implementation costs)\n\n## **Key Features to Look For:**\n- \u2705 Automated payment retry logic\n- \u2705 Dedicated sustainer dashboards\n- \u2705 Easy upgrade paths (increase monthly amount)\n- \u2705 Separate communication workflows\n- \u2705 Lapsed/failed payment alerts\n- \u2705 Lifetime value tracking\n\n**What's your organization size and budget range?** I can narrow this down further.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Keela",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 377,
+  "estimated_cost_usd": 0.0057,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

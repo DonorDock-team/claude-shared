@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P002",
+  "prompt_text": "Is DonorDock good",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562852+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock Overview\n\nDonorDock is a donor management and fundraising CRM designed primarily for **small to mid-sized nonprofits**. Here's a balanced assessment:\n\n## Strengths\n- **Affordable pricing** - Generally more budget-friendly than competitors like Bloomerang or Little Green Light\n- **User-friendly interface** - Clean, intuitive design that's easy to learn\n- **Good core features** - Donor tracking, online giving, email campaigns, reporting\n- **Responsive customer support** - Users often praise their support team\n- **All-in-one solution** - Integrates donation processing with CRM features\n\n## Potential Drawbacks\n- **Limited advanced features** - May lack depth for larger organizations with complex needs\n- **Fewer integrations** - Doesn't connect with as many third-party tools as some competitors\n- **Reporting limitations** - Some users find customization options restrictive\n- **Smaller user community** - Less peer support/resources compared to established platforms\n\n## Best For:\n- Small nonprofits (budgets under $1M)\n- Organizations new to donor management software\n- Groups wanting simplicity over extensive features\n\n## Consider Alternatives If:\n- You need extensive customization\n- You require robust grant management\n- You have complex multi-campaign tracking needs\n\n**Bottom line**: DonorDock is a solid, affordable option for smaller nonprofits prioritizing ease of use, but may feel limiting as organizations grow in complexity.\n\nWould you like comparisons with specific alternatives?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 342,
+  "estimated_cost_usd": 0.005172,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

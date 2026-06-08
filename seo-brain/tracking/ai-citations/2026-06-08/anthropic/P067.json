@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563184+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Tracking Donor Relationships Across a Team\n\n## 1. **Use a CRM (Constituent Relationship Management) System**\n\n### Popular options:\n- **Bloomerang** - User-friendly, designed for small-mid nonprofits\n- **Salesforce Nonprofit Cloud** - Robust, highly customizable\n- **DonorPerfect** - Good for donor management focus\n- **Raiser's Edge (Blackbaud)** - Enterprise-level solution\n- **HubSpot** - Free tier available, good integrations\n\n### Key features to use:\n- Contact history logs\n- Task assignments\n- Interaction tracking\n- Custom fields for preferences\n- Shared calendars\n- Email integration\n\n## 2. **Establish Clear Protocols**\n\n**Document everything:**\n- After every call, meeting, or significant email\n- Include date, team member, interaction type, and key takeaways\n- Note next steps and who's responsible\n\n**Create ownership rules:**\n- Assign primary relationship owners\n- Define when handoffs occur\n- Establish backup contacts\n\n## 3. **Regular Team Communication**\n\n- **Weekly sync meetings** - Review major donor activities\n- **Shared dashboards** - Real-time visibility into donor pipeline\n- **Internal notes system** - Flag sensitive information (keep separate from donor-visible fields)\n- **Slack/Teams channels** - Quick updates on donor interactions\n\n## 4. **Create a Moves Management System**\n\nTrack donors through stages:\n- Identification \u2192 Qualification \u2192 Cultivation \u2192 Solicitation \u2192 Stewardship\n\nAssign clear next actions with deadlines and owners.\n\n## 5. **Best Practices**\n\n\u2705 One source of truth (avoid multiple spreadsheets)  \n\u2705 Mobile access for team members  \n\u2705 Set reminders for follow-ups  \n\u2705 Track giving capacity and interests  \n\u2705 Regular data hygiene reviews  \n\u2705 Respect confidentiality levels\n\nWhat size team and donor base are you working with? I can give more specific recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 464,
+  "estimated_cost_usd": 0.007005,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

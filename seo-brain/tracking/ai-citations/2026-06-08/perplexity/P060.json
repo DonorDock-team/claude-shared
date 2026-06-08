@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.561912+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A **donor CRM with recurring giving** is software that lets a nonprofit track donor relationships and manage automatic repeat donations in one place.[1][2][3] The main value is **predictable revenue**, better donor retention, and less manual admin work through automation like receipts, reminders, and personalized follow-up.[1][5][7]\n\nCommon recurring-giving CRM features include:\n\n- **Recurring gift tracking** across donation history and payment intervals.[1][2][3]\n- **Automated acknowledgments** such as thank-you emails and receipts.[1][5][8]\n- **Donor self-service** for updating payment details, changing frequency, or canceling a plan.[2][3][7]\n- **Failed-payment handling** and card-expiration management to reduce missed gifts.[2][5]\n- **Segmentation and reporting** so you can identify recurring donors and tailor outreach.[3][5][8]\n- **Integration with your main CRM/database** so recurring and one-time gifts sit in a complete donor record.[4]\n\nIf you\u2019re evaluating platforms, useful examples in the results include **DonorDock**, **GivingFuel**, **Donorbox**, **Bonterra/Salsa**, **DonorPerfect**, and integration tools like **Omatic** for syncing donation data into Salesforce or Blackbaud systems.[1][2][3][4][5][8]\n\nIf you want, I can also help you compare the best options for:\n- **small nonprofits**\n- **churches**\n- **higher-volume fundraising**\n- **Salesforce/Blackbaud users**",
+  "donordock_mentioned": true,
+  "donordock_position": 1032,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bonterra",
+    "DonorBox",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 322,
+  "estimated_cost_usd": 0.009851,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/articles/recurring-donations",
+      "https://www.givingfuel.com/features/donormanagement-overview",
+      "https://donorbox.org/explore/recurring-donations",
+      "https://help.omaticsoftware.com/integration-solutions-by-activity/nonprofit-online-giving",
+      "https://www.bonterratech.com/training/salsa-labs/managing-recurring-donations",
+      "https://givingusa.org/building-a-resilient-nonprofit-the-impact-of-recurring-donors-explained/",
+      "https://www.blackbaud.com/industry-insights/glossary/a-guide-to-recurring-donations-from-one-time-gifts-to-lifelong-supporters",
+      "https://www.donorperfect.com",
+      "https://4agoodcause.com/10-simple-ways-to-retain-monthly-donors-and-reduce-churn/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/"
+    ]
+  }
+}

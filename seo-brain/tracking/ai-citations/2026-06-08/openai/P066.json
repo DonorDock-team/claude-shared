@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P066",
+  "prompt_text": "Donor CRM with campaign and appeal tracking",
+  "engine": "openai",
+  "timestamp": "2026-06-08T12:30:34.563071+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A Donor CRM (Customer Relationship Management) system optimized for campaign and appeal tracking is essential for nonprofit organizations to effectively manage their fundraising efforts, donor relationships, and communications. Here\u2019s an overview of how such a system could be structured:\n\n### Key Features:\n\n1. **Contact Management:**\n   - Maintain detailed donor profiles including contact information, donation history, communication preferences, and engagement activities.\n   - Categorize donors by types, such as individual, corporate, foundation, etc.\n\n2. **Campaign Management:**\n   - Create and manage campaigns with specific goals, timelines, target audiences, and budgets.\n   - Track performance metrics such as total raised, number of donors, average donation amount, and comparisons against targets.\n\n3. **Appeal Tracking:**\n   - Develop and track multiple appeal letters or other outreach strategies under each campaign.\n   - Monitor the effectiveness of different appeals through response rates and engagement levels.\n\n4. **Donation Management:**\n   - Accept and process donations through various channels: online, offline, recurring, and one-time.\n   - Issue receipts and acknowledgments automatically.\n\n5. **Segmentation and Targeting:**\n   - Segment donors based on giving history, engagement level, demographics, or customized tags.\n   - Target specific donor segments with relevant messages or campaigns for enhanced personalization.\n\n6. **Analytics and Reporting:**\n   - Generate detailed reports on campaign performance, appeal effectiveness, donor retention rates, and more.\n   - Visualize data through dashboards and analytics tools to gain insights and inform strategy.\n\n7. **Automated Communication:**\n   - Draft and automate thank-you messages, follow-up emails, and campaign updates.\n   - Schedule communications for birthdays, anniversaries, or significant milestones in the donor\u2019s relationship.\n\n8. **Volunteer and Event Management:**\n   - Organize and track volunteer involvement in campaigns and events.\n   - Manage event registration, attendance, and post-event feedback.\n\n9. **Integration Capabilities:**\n   - Sync with other software solutions such as email marketing platforms (e.g., Mailchimp), accounting tools (e.g., QuickBooks), or payment processors (e.g., PayPal).\n   - Ensure data consistency and reduce manual entry through seamless integration with the organization\u2019s existing technology stack.\n\n10. **Security and Privacy:**\n    - Ensure data security with encryption, secure access controls, and data privacy compliance (e.g., GDPR).\n    - Regular audits and backup protocols to protect donor information.\n\n### Implementation Tips:\n\n- **Customization:** Choose a CRM that allows for customization to fit the unique needs of your organization.\n- **Training and Support:** Ensure staff receive adequate training and have access to ongoing support.\n- **Scalability:** Select a system that can grow with your organization, handling increased donor numbers or expanded campaign plans.\n\n### Popular Donor CRM Options:\n\n- **Blackbaud Raiser\u2019s Edge NXT**\n- **Salesforce Nonprofit Cloud**\n- **Bloomerang**\n- **Neon CRM**\n- **DonorPerfect**\n\nSelecting the right CRM depends on your organization's specific needs, budget, and technological capabilities. It\u2019s important to evaluate multiple options and possibly take advantage of free trials to determine what works best.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 641,
+  "estimated_cost_usd": 0.006448,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

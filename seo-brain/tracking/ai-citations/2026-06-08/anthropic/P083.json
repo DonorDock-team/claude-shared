@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P083",
+  "prompt_text": "Best donor CRM for museums",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562877+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Museums\n\n## Top Recommendations\n\n### **1. Blackbaud Altru**\n- **Best for:** Medium to large museums\n- **Key features:** Built specifically for museums and cultural institutions, integrates ticketing, memberships, fundraising, and donor management\n- **Pros:** Industry-specific, comprehensive solution\n- **Cons:** Expensive, steep learning curve\n\n### **2. Tessitura**\n- **Best for:** Large museums and performing arts organizations\n- **Key features:** Enterprise-level CRM with ticketing, development, marketing, and education modules\n- **Pros:** Extremely robust, highly customizable\n- **Cons:** Very expensive, requires dedicated staff\n\n### **3. DonorPerfect**\n- **Best for:** Small to mid-sized museums\n- **Key features:** Donor tracking, online fundraising, reporting, gift processing\n- **Pros:** User-friendly, affordable, good customer support\n- **Cons:** Less museum-specific features\n\n### **4. Bloomerang**\n- **Best for:** Small museums focused on donor retention\n- **Key features:** Engagement tracking, retention metrics, automated communications\n- **Pros:** Intuitive interface, strong retention focus\n- **Cons:** Limited ticketing integration\n\n### **5. NeonCRM**\n- **Best for:** Small to medium museums\n- **Key features:** Membership management, event registration, online fundraising\n- **Pros:** All-in-one solution, reasonable pricing\n- **Cons:** Reporting could be more robust\n\n## Key Considerations\n- **Budget:** Enterprise solutions (Altru, Tessitura) vs. affordable options\n- **Integration needs:** Ticketing, email marketing, accounting software\n- **Staff capacity:** Technical expertise available\n- **Museum size:** Visitor volume and donor base\n\nWhat's your museum's size and primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 426,
+  "estimated_cost_usd": 0.006429,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

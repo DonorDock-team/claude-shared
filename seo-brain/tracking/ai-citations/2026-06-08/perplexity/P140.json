@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.563434+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Several nonprofit-focused **donor CRMs offer native integrations with QuickBooks Online**, so you can avoid double entry and keep accounting and fundraising data in sync. The best fit depends on your budget, size, and how deep you need the sync to be.\n\nHere are leading options, all with **QuickBooks Online integration**:\n\n1. **DonorPerfect**  \n   - Full-featured nonprofit **donor CRM + fundraising platform** with a native QuickBooks Online integration.[5]  \n   - Key integration features:  \n     - Automatically **sync gifts from DonorPerfect to QuickBooks Online**.[5]  \n     - Map gifts to **bank accounts, income accounts, and classes**; supports posting to multiple bank accounts.[5]  \n     - Choose **detailed vs. summary posting** (individual gifts, daily, or monthly summaries).[5]  \n     - Option to **map donors to QuickBooks customers** for contact-level tracking.[5]  \n   - Designed for orgs that want a robust CRM and flexible accounting mappings, and are okay with an add\u2011on integration cost.[4][5]  \n\n2. **Donorbox**  \n   - Donation platform with lightweight CRM features, good for organizations focused heavily on **online giving forms, recurring donations, and ticketing**.  \n   - QuickBooks Online integration:  \n     - Native integration that **automatically syncs one-time and recurring donations, ticket sales, and other transactions** to QuickBooks Online.[2]  \n     - Transactions can sync as **Sales Receipts or Invoices + Payments**.[2]  \n     - Uses a **setup wizard and field mapping** to connect campaigns to the correct income accounts, products/services, and custom fields in QuickBooks.[2]  \n     - Integration is an **add\u2011on (~$50/month)** on top of the Donorbox plan.[2]  \n   - Good if you mainly need modern donation tools plus automated posting into QuickBooks Online.\n\n3. **DonorDock**  \n   - Donor management and fundraising CRM aimed at small to mid\u2011sized nonprofits.  \n   - QuickBooks Online integration:  \n     - **Native, automatic sync** of donations and transactions from DonorDock into QuickBooks Online, reducing manual entry.[1]  \n     - New gifts entered in DonorDock are **automatically tracked in QuickBooks as sales receipts**.[1]  \n   - Appropriate if you want a simpler, more affordable CRM with \u201cset it and forget it\u201d syncing to QBO.\n\n4. **CharityEngine**  \n   - All\u2011in\u2011one nonprofit CRM (donors, events, email, online giving) used by growing and larger nonprofits.  \n   - QuickBooks integration:  \n     - Supports **QuickBooks Online and QuickBooks Enterprise**.[3]  \n     - Two sync modes:  \n       - **Detailed sync** (donor-level detail into QuickBooks) for smaller orgs that want individual donor data in accounting.[3]  \n       - **Batch sync** for larger orgs that primarily need summarized data for reconciliation.[3]  \n     - Data syncs automatically on a schedule, no manual file uploads.[3]  \n   - Best for organizations with more complex volume and reporting needs who want flexible sync depth.\n\n5. **Kindful (now part of Bloomerang)**  \n   - Donor CRM with strong online giving and reporting, historically targeted at small\u2013mid nonprofits.  \n   - QuickBooks Online integration:  \n     - **Two\u2011way sync with QuickBooks** for **real-time updating, contact management, and financial reporting**.[7]  \n     - Designed so gifts, donations, and expenses can be managed without entering data in multiple systems.[7]  \n   - Good if you want an easy\u2011to\u2011use donor CRM with modern UI and tight QBO linkage.\n\n---\n\nIf you share your approximate budget, organization size, and whether you need detailed donor-level data in QuickBooks or just summary entries, I can narrow this down to 1\u20132 best\u2011fit systems and suggest what to prioritize in a demo (posting method, classes, multi\u2011fund or multi\u2011bank support, etc.).",
+  "donordock_mentioned": true,
+  "donordock_position": 1813,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 849,
+  "estimated_cost_usd": 0.017765,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/integrations/quickbooks-online",
+      "https://donorbox.org/explore/quickbooks-integration",
+      "https://blog.charityengine.net/quickbooks-integration",
+      "https://www.donorperfect.com/video/donorperfect-and-quickbooks/",
+      "https://www.donorperfect.com/factsheets/quickbooks-online/",
+      "https://www.donorperfect.com/video/donorperfect-integration-quickbooks-accounting-software/",
+      "https://kindful.com/blog/quickbooks-for-nonprofits/"
+    ]
+  }
+}

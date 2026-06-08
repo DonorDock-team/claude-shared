@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.564083+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "To **track donor pledges**, use a system that records each pledge as a commitment, then matches incoming gifts against that commitment so you can see the **remaining balance**, **payment progress**, and any **overdue amounts**.[1][3][4]\n\nCommon ways to do this in nonprofit software include:\n\n- Create a **pledge record** on the donor\u2019s profile with the pledged amount, payment schedule, and due dates.[1][4]\n- Apply each **donation payment** to the outstanding pledge so the system updates the remaining balance automatically.[1][3]\n- Use **pledge reports** or a **pledge dashboard** to review all active pledges, outstanding totals, and aging balances.[1][2][6]\n- Set up **reminders** or confirmation emails for donors when pledges are entered or payments are due.[1][4][7]\n- Track key fields such as **fulfilled amount**, **outstanding amount**, **frequency**, and **last donation date** to monitor progress.[2][3][6]\n\nIf you are using a CRM, the exact workflow depends on the platform:\n\n- **Planning Center**: enter pledges in a pledge campaign, then view individual progress from the donor\u2019s **Pledges** tab and overall campaign progress from the campaign page.[3]\n- **DonorSnap**: create a pledge from the contact\u2019s **Pledge** tab, then apply donations to the pledge and review the outstanding balance in pledge details or reports.[1][4]\n- **ISPolitical**: track pledge aging on the dashboard and review each record\u2019s **Fulfilled Amount** and **Outstanding** fields.[2]\n- **DonorPerfect**: record the pledge, schedule payments, send reminders, and use reports to forecast income and monitor remitted amounts.[6][7]\n\nA simple manual process also works if you do not have software:\n- Keep a pledge log with donor name, pledge amount, date pledged, payment schedule, payments received, and remaining balance.\n- Reconcile it monthly against your donation records.\n- Flag overdue pledges and follow up with reminders.\n\nIf you want, I can also give you a **spreadsheet template** for tracking pledges or a **step-by-step workflow** for a specific CRM.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 454,
+  "estimated_cost_usd": 0.011828,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://donorsnap.com/pledge-tracking/",
+      "https://ispolitical.com/how-do-i-track-pledges/",
+      "https://help.planningcenter.com/en/138392-pledge-campaigns.html",
+      "https://donorsnap.com/blog/pledge-tracking-with-a-nonprofit-crm/",
+      "https://www.keela.co/glossary/nonprofit-pledge-tracking",
+      "https://www.donorperfect.com/video/managing-pledges-donorperfect/",
+      "https://www.donorperfect.com/nonprofit-technology-blog/fundraising-software/pledge-management/",
+      "https://www.pledge.to/features/donor-data-and-management",
+      "https://www.bonterratech.com/training/network-for-good/using-pledges-to-track-gift-commitments",
+      "https://donortracker.org"
+    ]
+  }
+}

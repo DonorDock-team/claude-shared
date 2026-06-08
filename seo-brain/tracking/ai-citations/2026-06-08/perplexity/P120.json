@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P120",
+  "prompt_text": "AI for nonprofit grant writing",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.563123+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For **nonprofit grant writing**, AI is best used to **speed up research, summarize funder requirements, draft outlines, and refine language**\u2014but it should not replace human review, especially for compliance, strategy, and accuracy.[1][7][8]\n\nThe strongest pattern in the sources is a split between two kinds of tools:\n\n- **Purpose-built nonprofit grant tools**: These are designed for the grant lifecycle and can help with opportunity discovery, RFP analysis, proposal drafting, and compliance checks.[1][3][4][5][9]\n- **General-purpose AI writing tools**: ChatGPT, Claude, and Gemini can help with brainstorming, summarizing documents, and comparing text, but they require close oversight because they can generate incorrect or off-target content.[1][7][8]\n\nWhat AI can do well for grant writing:\n\n- **Find and prioritize opportunities** by matching grants to your organization and mission.[1][2][3][4][9]\n- **Extract requirements** from RFPs or guidelines and identify required sections.[1][4][6]\n- **Draft first versions** of narrative answers, project descriptions, and proposal sections.[1][3][4][5][6]\n- **Improve clarity and consistency** by refining language to fit funder expectations or your organization\u2019s voice.[1][5][9]\n- **Support structured proposal building** around elements like need, goal, objectives, activities, evaluation, budget, sustainability, and dissemination.[6]\n\nWhat AI should *not* do alone:\n\n- **Make the final compliance decisions** about eligibility, formatting, or required attachments.[1][4][7]\n- **Invent organizational facts, outcomes, or data**; human verification is essential.[7][8]\n- **Replace strategic judgment** about whether a grant is worth pursuing or how to frame the case for support.[1][7][8]\n\nIf you are choosing a tool, the practical question is which part of the workflow you want to streamline:\n\n- If you need **end-to-end grant support**, consider a nonprofit-focused platform such as Grant Assistant, Grantboost, Granted AI, Vee\u2019s Grant, or similar purpose-built products.[1][2][4][5][9]\n- If you mainly need **drafting help**, a general AI tool can work well, provided you supply strong context and edit the output carefully.[1][7][8]\n\nA useful operating model is:\n\n- Use AI for **research and rough drafting**.\n- Use staff expertise for **strategy, facts, funder fit, and final approval**.\n- Review every output for **accuracy, tone, and compliance** before submission.[1][7][8]\n\nIf you want, I can also give you:\n- a **recommended AI tool shortlist** for nonprofits,\n- a **grant-writing workflow using AI**,\n- or **ready-to-use prompts** for drafting grant sections.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 592,
+  "estimated_cost_usd": 0.013898,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.grantassistant.ai/resources/articles/the-best-ai-grant-writing-tools-for-nonprofits-in-2026",
+      "https://www.vee.com/grant",
+      "https://guides.library.ttu.edu/grant",
+      "https://grantedai.com",
+      "https://www.grantboost.io",
+      "https://www.grantwatch.com/ai-grant-writing-tool.php",
+      "https://medicine.stanford.edu/news/stories/2024/03/ai-for-grant-writing.html",
+      "https://www.youtube.com/watch?v=hMCmcIMkI8U",
+      "https://www.nonprofits.freewill.com/resources/blog/ai-grant-writing-tools"
+    ]
+  }
+}

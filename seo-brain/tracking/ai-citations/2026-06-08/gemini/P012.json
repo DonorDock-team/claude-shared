@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P012",
+  "prompt_text": "DonorDock vs Virtuous",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563131+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Virtuous are both Donor Relationship Management (DRM) or CRM systems designed for nonprofits, but they cater to different needs, organization sizes, and philosophies.\n\nHere's a breakdown to help you compare them:\n\n## DonorDock vs. Virtuous: A Comparative Overview\n\n| Feature/Aspect         | DonorDock                                       | Virtuous                                                               |\n| :--------------------- | :---------------------------------------------- | :--------------------------------------------------------------------- |\n| **Target Audience**    | Small to Mid-sized Nonprofits                   | Mid-to-Large Nonprofits, growing organizations                         |\n| **Core Philosophy**    | Simplicity, ease of use, essential donor management, affordability. | Responsive Fundraising, donor-centricity, marketing automation, holistic engagement. |\n| **Key Strengths**      | User-friendly, affordable, clean interface, focused on core CRM. | Comprehensive, powerful automation, advanced analytics, modern fundraising tools, highly scalable. |\n| **Key Features**       | Donor profiles, donation tracking, communication logs, basic online giving forms, simple reporting, event management (basic). | Advanced CRM, marketing automation (email, SMS, direct mail), wealth screening, responsive fundraising tools, volunteer management, project management, robust analytics, peer-to-peer, online giving. |\n| **Ease of Use**        | Generally considered very easy to learn and navigate. | Modern UI, but can have a steeper learning curve due to depth and feature set. |\n| **Integration**        | Essential integrations (e.g., payment processors, basic email marketing). | Robust API, extensive native integrations (payment, accounting, peer-to-peer, marketing automation). |\n| **Reporting & Analytics** | Solid for standard needs, basic dashboards.      | Very strong, customizable dashboards, deep insights into donor behavior, segmentation. |\n| **Automation**         | Limited, mostly for routine tasks like thank yous. | Extensive for communication, cultivation, segmentation, and personalized outreach. |\n| **Pricing**            | More affordable, often tiered based on donor records. | Premium pricing, significant investment, often custom quotes based on features and donor base. |\n| **Scalability**        | Good for growing *within* the small to mid-size range, might be outgrown by very complex needs. | Highly scalable, designed to grow with large, complex organizations. |\n| **Support**            | Generally responsive, online/email based.         | Good, often includes dedicated success managers for larger clients.      |\n\n---\n\n## Detailed Comparison\n\n### 1. Target Audience & Philosophy\n\n*   **DonorDock:** Aims to provide a streamlined, intuitive experience for organizations that are outgrowing spreadsheets or older, clunkier systems. It's built for those who need reliable core donor management without overwhelming complexity or a huge budget. Its philosophy is about making donor management accessible and efficient.\n*   **Virtuous:** Targets more ambitious, growth-oriented nonprofits that want to adopt modern \"responsive fundraising\" strategies. Its philosophy revolves around treating donors as individuals, personalizing every interaction, and using automation to build deeper, more meaningful relationships at scale. It's for organizations ready to",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 661,
+  "estimated_cost_usd": 0.001654,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P132",
+  "prompt_text": "Network for Good problems",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.561969+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Network for Good (NFG) is a popular fundraising and donor management platform, especially for small to medium-sized nonprofits. Like any software, it has its strengths and weaknesses, and users can encounter various problems or challenges.\n\nHere's a breakdown of common issues or areas where nonprofits might experience problems with Network for Good:\n\n1.  **Reporting and Data Management Limitations:**\n    *   **Difficulty Customizing Reports:** Users often report that NFG's reporting tools can be somewhat rigid. It can be challenging to pull very specific data sets or create highly customized reports beyond the standard templates.\n    *   **Limited Data Visualization:** While it provides data, some users find the visualization tools less robust compared to dedicated analytics platforms.\n    *   **Exporting Data Issues:** Sometimes, exporting data for use in other software (like advanced CRMs or accounting systems) can be clunky or require significant manipulation after export.\n    *   **Duplicate Records:** While NFG has some deduplication features, managing duplicates, especially when importing data from various sources, can still be a challenge.\n\n2.  **User Interface and Usability:**\n    *   **Steep Learning Curve (for some):** While generally considered user-friendly, some new users or those less tech-savvy might find the initial setup and navigation a bit overwhelming.\n    *   **Dated Interface (perception):** Some users feel the interface, while functional, might not always feel as modern or intuitive as newer competitors.\n    *   **Workflow Challenges:** Certain multi-step processes might feel less streamlined than desired.\n\n3.  **Pricing and Fees:**\n    *   **Bundled Pricing Complexity:** NFG often operates on a subscription model that bundles various features. While this can be convenient, some organizations find it hard to discern the true cost-effectiveness if they only use a subset of the features.\n    *   **Transaction Fees:** Like most platforms, NFG charges transaction fees for donations. While competitive, these add up, and organizations always need to factor them into their budget. (Note: Many platforms offer a \"donor covers fee\" option, which helps mitigate this).\n\n4.  **Integrations with Other Software:**\n    *   **Limited Direct Integrations:** While NFG integrates with popular tools, organizations using less common CRMs, accounting software, or niche marketing platforms might find direct integrations lacking, requiring manual data entry or third-party connectors.\n    *   **API Access:** For organizations needing deeper, custom integrations, the API access might not be as extensive or well-documented as some competitors.\n\n5.  **Email Marketing and Communication Features:**\n    *   **Basic Functionality:** NFG includes email marketing tools, but they are often considered basic compared to dedicated email marketing platforms (like Mailchimp, Constant Contact, HubSpot). Nonprofits looking for advanced segmentation, A/B testing, or sophisticated automation might find NFG's capabilities limiting.\n    *   **Template Customization:** Customization options for email templates might not be as flexible as desired for strong branding.\n\n6.  **Customer Support:**\n    *   **Response Times:** Like many software companies, customer support response times can vary, sometimes leading to frustration during critical campaign periods.\n    *   **Tiered Support:** The level of support received might depend on the organization's subscription tier.\n\n7.  **CRM Capabilities (for advanced users):**\n    *   **Less Robust for Large Organizations:** While NFG's CRM is excellent for managing donor relationships for small to medium-sized nonprofits, very large organizations with complex donor segments, major gift strategies, or intricate moves management processes might find it less comprehensive",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 762,
+  "estimated_cost_usd": 0.001906,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

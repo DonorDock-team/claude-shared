@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.562054+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Several donor CRMs now use **flat / no per\u2011user pricing**\u2014you pay either nothing or a single platform/transaction fee, not a seat license for each staff member.\n\nHere are strong options that match what you described:\n\n### 1. Givingtech \u2013 full donor CRM, **no monthly or per\u2011user fees**\n\n- **Pricing model:**  \n  - **$0/month**, **$0 setup**, **$0 per user**, **$0 CRM fee**.[1]  \n  - You only pay **transaction fees on donations**, and donors can choose to cover those fees; Givingtech reports an average effective fee of **~1.6%** because 64% of donors opt to cover fees.[1]  \n- **What you get:**  \n  - **Full donor & lead CRM** with unlimited contacts, donation history, donor insights, segments, and relationship tracking.[1]  \n  - Campaigns, forms, email marketing, recurring donations, grant management, and more, all included.[1]  \n- **Key point:** You can even use it purely as a **standalone CRM without processing donations** and pay **nothing at all**.[1]  \n- **Best fit:** Organizations wanting a genuinely free, modern donor CRM with no per\u2011user cost, and who are fine with a transaction\u2011fee model when they do fundraise.\n\n---\n\n### 2. Fundraise Up \u2013 modern giving + unlimited users, no subscription\n\n- **Pricing model:**  \n  - **No monthly subscription**, **no contracts**, **no per\u2011user limits**.[2]  \n  - Charges a **4% transaction fee** on donations, plus Stripe or PayPal processing (e.g., ~2.2% + $0.30 via Stripe).[2]  \n  - They state **unlimited access to all features and users** under this fee model.[2]  \n- **What you get:**  \n  - Optimized donation forms, multiple payment methods, and fundraising tools; functions more as a **fundraising layer with donor data** than a deep standalone CRM.  \n- **Best fit:** Nonprofits focused on maximizing online donation conversion, okay with a higher transaction fee in exchange for no fixed or per\u2011user costs.\n\n---\n\n### 3. Mightycause \u2013 integrated CRM, **no monthly fee**, capped platform fee\n\nFrom an independent 2026 comparison of fundraising platforms:[3]\n\n- **Pricing model:**  \n  - **$0/month subscription.**[3]  \n  - Platform fees capped at **1.99% + $0.30 per transaction**, with reported average around **~0.95% + $0.30**.[3]  \n  - No mention of per\u2011user licensing for the built\u2011in CRM; it is presented as part of the core platform at no monthly cost.[3]  \n- **What you get:**  \n  - All\u2011in\u2011one fundraising with a built\u2011in donor CRM (\u201cContacts\u201d) for donor tracking, segmentation, and engagement.[3]  \n- **Best fit:** Small to mid\u2011sized nonprofits wanting an all\u2011in\u2011one fundraising + CRM platform with predictable, capped transaction fees instead of per\u2011user or monthly CRM pricing.\n\n---\n\n### 4. \u201cZero\u2011fee\u201d fundraising platforms with donor management\n\nAn industry overview notes a trend toward **zero\u2011fee platforms** like **Give Lively, Zeffy, Givebutter, Every.org, BetterWorld**, which often:[4]  \n\n- Charge **no platform/subscription fee**, instead relying on **optional donor tips** or limited tech fees.[4]  \n- Provide fundraising pages, events, and some donor management tools without software rental costs.[4]  \n\nHowever, depth of CRM varies, and some (e.g., Givebutter) put **advanced CRM features behind paid plans**.[3][6] So they can work as a light donor CRM with flat/non\u2011per\u2011user pricing but may not replace a dedicated CRM for complex needs.\n\n---\n\n### 5. Flat\u2011rate CRM concept (for context)\n\nA nonprofit CRM pricing guide explains that **flat\u2011rate pricing** for CRMs means a single **monthly or annual fee regardless of users, records, or modules**, explicitly **\u201cno per\u2011user fees, no contact record tiers\u201d**.[5] Many legacy CRMs still charge per user, but newer tools or nonprofit\u2011focused platforms increasingly move to this model.\n\n---\n\n### How to choose among these\n\nIf your priority is **no per\u2011user fees and minimal fixed cost**:\n\n- **Want a full donor CRM, free to run even with multiple staff:**  \n  - Start with **Givingtech**.[1]\n\n- **Want conversion\u2011optimized online giving and can treat this as a fundraising layer plus donor data:**  \n  - Consider **Fundraise Up** for its unlimited users and strong donation tooling.[2]\n\n- **Want an all\u2011in\u2011one fundraising platform with an integrated CRM and no monthly fee, but okay with per\u2011transaction costs:**  \n  - Evaluate **Mightycause**.[3]\n\nIf you share your approximate **annual online donation volume** and whether you need **deep CRM (moves management, grants, etc.) or mostly online giving + basic donor tracking**, I can narrow this to a short recommended list and estimate your likely total annual cost for each.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 1095,
+  "estimated_cost_usd": 0.021461,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://givingtech.org/pricing",
+      "https://fundraiseup.com/pricing/",
+      "https://blog.mightycause.com/best-fundraising-platforms-for-nonprofits-2026/",
+      "https://www.givelively.org/blog/how-much-do-nonprofit-fundraising-platforms-actually-cost",
+      "https://www.liveimpact.org/blog/nonprofit-crm-pricing",
+      "https://givebutter.com/blog/best-free-crm-for-nonprofits",
+      "https://bloomerang.com/blog/free-nonprofit-software",
+      "https://www.fiftyandfifty.org/blog/best-nonprofit-crms"
+    ]
+  }
+}

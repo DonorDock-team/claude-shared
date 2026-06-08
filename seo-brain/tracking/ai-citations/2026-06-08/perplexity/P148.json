@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P148",
+  "prompt_text": "Donor management vs CRM what's the difference",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.564646+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A **donor management system** is a fundraising-focused database built specifically for nonprofits to track donations and steward donors, while a broader **CRM** (customer/constituent relationship management) system is a more general relationship database used to manage all types of contacts and interactions (not just donors) across functions like programs, membership, advocacy, and marketing.[1][2]\n\nHere\u2019s the practical difference in plain terms:\n\n| Aspect | Donor Management Software | CRM (Customer/Constituent Relationship Management) |\n| --- | --- | --- |\n| Primary purpose | **Fundraising & donor stewardship**: track gifts, pledges, donor communications, campaigns | **Holistic relationship management**: manage all supporters/customers and interactions across the organization |\n| Who it tracks | Mainly **donors and prospects** | All **supporters/customers**: donors, volunteers, members, clients, advocates, partners, etc.[2] |\n| Core data | Donations, pledges, tribute gifts, soft credits, event giving, gift acknowledgments, tax receipts[1][2][3] | Contact info, touchpoints, sales or engagement activities, memberships, program participation, service history[1][2] |\n| Typical features | Online donation processing, gift entry, tribute/in\u2011kind/pledge tracking, acknowledgments, tax receipting, fundraising/event tools, donor-focused reports[1][2][3] | Pipelines, sales/engagement tracking, email and other communication tools, automation, segmentation, analytics for marketing/sales/engagement[1][2][3] |\n| Reporting focus | Donor retention, LYBUNT/SYBUNT, campaign performance, fundraising ROI, major gift pipeline[1][3] | Conversion rates, engagement metrics, lifecycle analytics, customer or supporter journey reporting[1][2] |\n| Breadth vs depth | **Deep** fundraising functionality; narrower scope | **Broad** relationship scope; may lack fundraising-specific depth unless it\u2019s a nonprofit CRM[1][2] |\n| Typical use case | Small\u2013mid nonprofits or teams focused mainly on fundraising and donor stewardship | Larger or more complex orgs needing one system for donors + members + program participants + advocates, etc.[2] |\n\n### How they relate\n\n- A **donor management system is essentially a donation-specific CRM**: it\u2019s a CRM specialized for nonprofit fundraising workflows.[1][3]  \n- In nonprofits, a **\u201cnonprofit CRM\u201d or \u201cconstituent relationship manager\u201d** often combines both: it stores all supporter data *and* includes donor management features.[1][2][6]  \n- Some platforms market themselves as a **CRM with built-in donor management** or as \u201cdonor management CRM,\u201d blurring the terminology but reflecting that both capabilities live in one tool.[2][5][6]\n\n### When to choose which\n\nYou would typically lean toward:\n\n- **Donor management software** if:\n  - Your main need is **fundraising and donor stewardship** (gifts, pledges, acknowledgments, campaigns, events).\n  - You don\u2019t have complex membership, program, or advocacy tracking needs.\n  - You want nonprofit-specific donation tools out of the box and simpler implementation.[1][2][3]\n\n- **CRM (especially a nonprofit/constituent CRM)** if:\n  - You need one **central database for all supporters**, not just donors (volunteers, clients, partners, advocates, etc.).[2][6]\n  - Multiple teams (fundraising, programs, comms, advocacy, membership) need to work from the same system.\n  - You care about **organization-wide analytics** and coordinated engagement, not only fundraising metrics.[1][2]\n\nIf you share a bit about your organization (size, types of supporters you track, and your main pain points), I can map those specifics to whether a donor management tool, a nonprofit CRM, or a combined platform is likely the better fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 804,
+  "estimated_cost_usd": 0.01709,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://blog.techsoup.org/en-us/posts/donor-management-system-vs.-constituent-relationship-manager",
+      "https://momentivesoftware.com/faq/whats-the-difference-between-donor-management-software-and-a-crm/",
+      "https://www.business-software.com/blog/tradtitional-crm-vs-donor-management-software-differences-matter/",
+      "https://jetpackcrm.com/managing-donor-relationships-a-crm-guide-for-nonprofit-organizations/",
+      "https://givebutter.com/donor-management-crm",
+      "https://doublethedonation.com/nonprofit-crm-buyers-guide/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.donordock.com/articles/constituent-relationship-management",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit"
+    ]
+  }
+}

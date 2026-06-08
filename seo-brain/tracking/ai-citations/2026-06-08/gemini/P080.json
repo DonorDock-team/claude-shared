@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P080",
+  "prompt_text": "Best donor CRM for private K-12 schools",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.562238+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For private K-12 schools, selecting the \"best\" donor CRM often comes down to balancing robust fundraising capabilities with the unique complexities of managing relationships across parents, alumni, grandparents, faculty, and prospective families.\n\nHere's a breakdown of the top contenders, along with the key factors to consider:\n\n## Top Donor CRMs for Private K-12 Schools\n\n### 1. Blackbaud Raiser's Edge NXT (and Blackbaud K-12 Solutions)\n\n*   **Why it's often the best fit:** Blackbaud is the dominant player in the K-12 independent school market. Their **Raiser's Edge NXT** fundraising CRM integrates seamlessly with their broader **Blackbaud K-12 Solutions** suite (which includes Admissions, Enrollment Management, Student Information System (SIS), Learning Management System (LMS), and Financial Aid). This ecosystem approach means you can have a unified view of constituents from inquiry to alumni.\n*   **Pros:**\n    *   **Deep Integration:** Unparalleled integration with other school systems (SIS, admissions, billing) if you're using Blackbaud K-12. This is a HUGE advantage for K-12 schools.\n    *   **Comprehensive Features:** Robust for annual giving, capital campaigns, planned giving, events, major gifts, prospect research, and alumni relations.\n    *   **Scalability:** Suitable for schools of all sizes, from small to large, well-endowed institutions.\n    *   **Industry Standard:** Many fundraising professionals in education are familiar with Blackbaud.\n    *   **Reporting & Analytics:** Powerful reporting tools tailored for educational fundraising.\n*   **Cons:**\n    *   **Cost:** Can be one of the more expensive options.\n    *   **Learning Curve:** Can be complex and requires dedicated training for new users.\n    *   **Interface:** While NXT is more modern, some users still find parts of it less intuitive than newer CRMs.\n    *   **Vendor Lock-in:** Opting for the full Blackbaud K-12 suite can make it harder to switch individual components later.\n\n### 2. Salesforce Nonprofit Cloud (NPSP)\n\n*   **Why it's a strong contender:** Salesforce is incredibly powerful and flexible. The Nonprofit Success Pack (NPSP) provides a strong foundation for donor management, and its vast AppExchange offers countless integrations and",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 496,
+  "estimated_cost_usd": 0.001243,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.562539+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for hospitals is a critical decision, as it needs to blend sophisticated fundraising capabilities with the unique requirements of a healthcare environment, particularly around data security, patient privacy, and integration with clinical systems.\n\nThere isn't a single \"best\" solution for every hospital, as needs vary based on size, existing tech stack, budget, and specific fundraising goals. However, certain platforms stand out for their ability to meet the complex demands of healthcare philanthropy.\n\nHere are the top contenders, along with key considerations for hospitals:\n\n---\n\n### Key Considerations for Hospitals When Choosing a CRM:\n\n1.  **HIPAA Compliance & Data Security:** Absolutely paramount. The CRM must be able to handle sensitive donor data securely and, if any patient data (even de-identified or with consent) is involved, it must adhere to HIPAA regulations. Ensure the vendor signs a Business Associate Agreement (BAA).\n2.  **EHR/EMR Integration (Grateful Patient Programs):** This is a huge differentiator. The ability to integrate, even in a limited and secure way, with your Electronic Health Record (EHR) or Electronic Medical Record (EMR) system is crucial for identifying and managing grateful patient prospects. This usually involves robust APIs and careful data governance.\n3.  **Grateful Patient Program Management:** The CRM needs features to track grateful patient referrals, manage the cultivation process, segment by service line, physician relationship, and track patient journeys.\n4.  **Major Gift & Capital Campaign Management:** Hospitals often run large capital campaigns and cultivate significant major gifts for specific departments, research, or new facilities. The CRM needs robust tools for pipeline management, pledge tracking, proposal management, and moves management.\n5.  **Wealth Screening & Prospect Research:** Essential for identifying potential donors among grateful patients and the broader community. Integration with services like Blackbaud Target Analytics, iWave, or DonorSearch is highly valuable.\n6.  **Volunteer Management:** Many hospitals rely heavily on volunteers (auxiliaries, patient support). A CRM with integrated volunteer management can be a big plus.\n7.  **Grant Management:** For research hospitals",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 442,
+  "estimated_cost_usd": 0.001107,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

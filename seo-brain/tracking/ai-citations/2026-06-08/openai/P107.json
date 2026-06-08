@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "openai",
+  "timestamp": "2026-06-08T12:30:34.563801+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Measuring donor retention is essential for understanding the effectiveness of a nonprofit organization's fundraising strategies and ensuring long-term sustainability. Here are some steps to measure donor retention:\n\n1. **Define the Time Period**:\n   - Determine the time frame you want to measure, such as annually, bi-annually, or quarterly. Annual retention rates are common.\n\n2. **Identify Your Donor Base**:\n   - Compile a list of unique donors who contributed in the specified baseline period. This list will include anyone who made a gift during your chosen starting period.\n\n3. **Track Repeat Donors**:\n   - Look for donors from your baseline group who have made another contribution during the subsequent period.\n\n4. **Calculate Retention Rate**:\n   - Use the formula:\n     \\[\n     \\text{Donor Retention Rate} = \\left( \\frac{\\text{Number of Repeat Donors}}{\\text{Number of Donors in the Baseline Period}} \\right) \\times 100\n     \\]\n   - For example, if you had 1,000 donors in Year 1 and 600 of those donated again in Year 2, your donor retention rate would be \\(60\\%\\).\n\n5. **Segment and Analyze**:\n   - Segment donors by characteristics such as first-time vs. repeat donors, donation size, or communication preference to better understand retention dynamics.\n   - Analyze retention rates for different segments to identify patterns or areas needing improvement.\n\n6. **Benchmarking and Comparison**:\n   - Compare your donor retention rate to industry benchmarks or your organization\u2019s historical data to assess performance.\n   - The average donor retention rate is often around 45%, but this can vary widely depending on the sector.\n\n7. **Use CRM or Fundraising Software**:\n   - Utilize customer relationship management (CRM) systems or specific nonprofit fundraising software to automate tracking and reporting on donor retention.\n\n8. **Track Lapsed Donors**:\n   - Identify lapsed donors (those who haven't given in a specific time frame) and design strategies to re-engage them.\n\n9. **Evaluate Engagement Strategies**:\n   - Review engagement strategies such as follow-ups, thank-you notes, newsletters, and events to gauge their impact on donor retention.\n\n10. **Feedback and Adaptation**:\n    - Gather feedback from donors about their experiences and identify potential areas for improvement.\n    - Adapt your fundraising strategies based on retention data to enhance donor engagement and retention efforts.\n\nBy following these steps, organizations can gain a clearer understanding of their donor retention rates and make informed decisions to improve them.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 519,
+  "estimated_cost_usd": 0.00522,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

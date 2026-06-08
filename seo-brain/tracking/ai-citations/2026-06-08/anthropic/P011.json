@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P011",
+  "prompt_text": "DonorDock vs Salesforce Nonprofit Cloud",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562857+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Salesforce Nonprofit Cloud\n\n## Quick Overview\n\n**DonorDock** is a simple, affordable donor management system designed specifically for small nonprofits and churches.\n\n**Salesforce Nonprofit Cloud** is an enterprise-grade CRM platform built on Salesforce, designed for medium to large nonprofits with complex needs.\n\n## Key Comparison\n\n| Feature | DonorDock | Salesforce Nonprofit Cloud |\n|---------|-----------|---------------------------|\n| **Best For** | Small nonprofits, churches (< 50 staff) | Medium to large nonprofits (50+ staff) |\n| **Pricing** | $99-$179/month (unlimited users) | $36/user/month minimum (10 licenses required) |\n| **Setup Time** | Hours to days | Weeks to months |\n| **Technical Expertise** | None required | Administrator/developer often needed |\n| **Customization** | Limited but intuitive | Highly customizable |\n| **Learning Curve** | Easy | Steep |\n\n## DonorDock Strengths\n- \u2705 Extremely user-friendly\n- \u2705 Affordable flat-rate pricing\n- \u2705 Quick implementation\n- \u2705 Good customer support\n- \u2705 Unlimited users included\n- \u2705 Built for fundraising basics\n\n## DonorDock Limitations\n- \u274c Limited reporting complexity\n- \u274c Fewer integrations\n- \u274c Less scalable for large organizations\n- \u274c Basic program tracking\n- \u274c Limited automation capabilities\n\n## Salesforce Nonprofit Cloud Strengths\n- \u2705 Extremely powerful and customizable\n- \u2705 Comprehensive program management\n- \u2705 Advanced reporting and analytics\n- \u2705 Thousands of integrations\n- \u2705 Scales with organization growth\n- \u2705 Full constituent relationship management\n- \u2705 Grant and case management\n\n## Salesforce Nonprofit Cloud Limitations\n- \u274c Expensive (especially with add-ons)\n- \u274c Requires dedicated staff/training\n- \u274c Complex setup and maintenance\n- \u274c Can be overwhelming for small teams\n- \u274c Often needs consultant support ($$$)\n\n## Which Should You Choose?\n\n### Choose **DonorDock** if you:\n- Have a small team or budget under $100k annually\n- Need something simple that staff can use immediately\n- Have basic donor management needs\n- Don't have technical staff\n- Want to avoid per-user costs\n\n### Choose **Salesforce Nonprofit Cloud** if you:\n- Have complex program tracking needs\n- Manage multiple funding streams and grants\n- Have budget for implementation and training\n- Need extensive reporting and analytics\n- Plan significant growth\n- Have or can hire technical administrators\n\n## Middle Ground Alternative?\nIf you're between these two, consider: **Bloomerang**, **Neon CRM**, or **Little Green Light** \u2013 they offer more features than DonorDock with less complexity than Salesforce.\n\n**What's your organization's size and primary needs?** I can provide more specific guidance.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 726,
+  "estimated_cost_usd": 0.010947,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

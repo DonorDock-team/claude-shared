@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P038",
+  "prompt_text": "Best fundraising software for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.564388+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "There's no single \"best\" fundraising software for all nonprofits, as the ideal choice depends heavily on your organization's size, budget, specific needs, and technical capabilities.\n\nHowever, I can break down the top contenders and what makes them suitable for different types of nonprofits.\n\n### Key Factors to Consider When Choosing:\n\n1.  **Your Budget:** Software can range from free (with transaction fees) to tens of thousands per year.\n2.  **Nonprofit Size & Complexity:** A small startup needs something different from a large university or hospital foundation.\n3.  **Primary Needs:**\n    *   **Donor Relationship Management (CRM):** Tracking donors, gifts, interactions.\n    *   **Online Fundraising:** Donation pages, peer-to-peer campaigns, crowdfunding.\n    *   **Event Management:** Ticketing, registration, silent auctions.\n    *   **Email Marketing & Communications:** Newsletters, appeals.\n    *   **Volunteer Management:** Tracking volunteers, shifts.\n    *   **Membership Management:** For membership-based organizations.\n    *   **Grant Management:** Tracking grant applications and reports.\n4.  **Ease of Use & Learning Curve:** How tech-savvy is your team?\n5.  **Integrations:** Does it connect with your accounting software (QuickBooks, NetSuite), email marketing (Mailchimp), wealth screening tools, etc.?\n6.  **Reporting & Analytics:** Can you easily get the insights you need?\n7.  **Customer Support:** What kind of support do they offer?\n\n---\n\n### Top Fundraising Software Options for Nonprofits:\n\nHere are some of the most popular and highly-regarded platforms, categorized by who they're generally best for:\n\n**1. For Small to Medium-Sized Nonprofits (User-Friendly & Comprehensive):**\n\n*   **Bloomerang**\n    *   **Best For:** Nonprofits prioritizing donor retention, user-friendliness, and effective communication.\n    *   **Strengths:** Highly intuitive interface, strong focus on donor retention metrics (donor loyalty, engagement, giving capacity), excellent reporting, integrated email and communications tools. Recently acquired Kindful, expanding its reach.\n    *   **Potential Limitations:** Can get pricey as your donor database grows. Some very niche advanced features might be less robust than enterprise solutions.\n\n*   **Neon CRM (by Neon",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 495,
+  "estimated_cost_usd": 0.001239,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

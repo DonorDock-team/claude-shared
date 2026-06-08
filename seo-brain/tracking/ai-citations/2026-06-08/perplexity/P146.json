@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P146",
+  "prompt_text": "Best donor CRM with grant tracking",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.564380+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The best donor CRMs with **built\u2011in grant tracking** for most nonprofits are **LiveImpact**, **DonorPerfect**, and (for more complex grantmaking) **Fluxx**, with options like Bloomerang and Neon CRM requiring integrations or workarounds for full grant management.[4][5][8]\n\nBelow is a concise breakdown so you can pick based on your size, budget, and how sophisticated your grant tracking needs are.\n\n---\n\n### 1. All\u2011in\u2011one donor + grant tracking (strong options)\n\n**LiveImpact** \u2013 very strong for small to mid\u2011sized nonprofits  \n- **What it is:** Nonprofit platform with **donor management, fundraising, case management, and grant management** in one system.[8]  \n- **Grant features (from vendor overview):**  \n  - Track **grant deadlines, tasks, and deliverables**.  \n  - Store funder profiles, proposals, budgets, and reports.  \n  - Connect grants to donors, programs, and outcomes so you can see the full picture.  \n- **Best for:**  \n  - Small or growth\u2011oriented nonprofits that want *one* system rather than separate donor CRM + grant tool.[8]  \n  - Teams without a dedicated IT person (simpler setup than enterprise systems).  \n- **Why it stands out:** Specifically called out as best for **small nonprofits wanting donor + grant management in one place**.[8]\n\n---\n\n**DonorPerfect** \u2013 established donor CRM with grants module  \n- **What it is:** Mature **donor CRM** with an add\u2011on **Grants Management** module.[4]  \n- **Grant features:**  \n  - Track **grant requests**, funders, submission and reporting dates.[4]  \n  - Track **status** (planned, submitted, approved, declined), award amounts, and payments.[4]  \n  - Link grants to campaigns, funds, and donor records.  \n- **Best for:**  \n  - Mid\u2011sized organizations that already fundraise heavily from individuals and want structured grant tracking integrated with donor data.  \n- **Why it stands out:** Grants tracking is part of the core product line, not an afterthought.[4]\n\n---\n\n### 2. Grant\u2011centric platforms (pair with or instead of a donor CRM)\n\nThese excel at **grant management**; some have light CRM capabilities but are not primarily built as donor CRMs.\n\n**Fluxx**  \n- **What it is:** **Grant management software** used by foundations, nonprofits, and government agencies.[5]  \n- **Strengths:**  \n  - Designed for complex grant lifecycles, workflows, and reporting.[5]  \n  - Very strong if you manage many incoming or outgoing grants with complex requirements.  \n- **Trade\u2011off:**  \n  - Fluxx explicitly notes it is **not a donor CRM**, so you typically pair it with a separate donor database.[5]  \n- **Best for:**  \n  - Large nonprofits, intermediaries, or foundations managing many grants and needing advanced workflows.\n\nIf you choose something like Fluxx, you would likely use a separate donor CRM (e.g., Bloomerang, Neon CRM, or Salesforce Nonprofit Cloud) and connect them via integration or exports.\n\n---\n\n### 3. Donor CRMs that can support grants (with some configuration)\n\nThese are great **donor CRMs** where grant tracking is possible but may be lighter or require custom fields or integrations.\n\n**Bloomerang, Bonterra/EveryAction, Neon CRM, Ascend, etc.**  \n- These are frequently listed among the **top nonprofit CRMs** for donor management and fundraising.[1][2][7]  \n- Typical grant\u2011tracking approach:  \n  - Treat **foundations** and institutional funders as donor accounts.  \n  - Use **custom fields** and tasks to track proposal deadlines, award amounts, and reporting.  \n  - Sometimes integrate with dedicated grant tools (e.g., GrantHub, Instrumentl).  \n- **Best for:**  \n  - Organizations that are primarily individual\u2011donor focused with a modest number of grants.  \n- **Limitation:**  \n  - Less purpose\u2011built grant reporting and workflow compared with LiveImpact, DonorPerfect\u2019s grants module, or Fluxx.\n\n---\n\n### 4. Other options worth noting\n\n**TechSoup catalog**  \n- TechSoup lists **donor and grants management products** (often at nonprofit discounts), including tools that can handle both donor and grant tracking.[3]  \n- This is useful if budget is a major concern or you want to compare options in one place.[3]\n\n**Givebutter**  \n- Free **donor management CRM** and fundraising platform.[6]  \n- Excellent for donations and campaigns; grants can be tracked with custom fields and notes, but it is **not a dedicated grants system**.[6]  \n- Good if you need low\u2011cost donor CRM and have only a few simple grants to track.\n\n---\n\n### How to choose (quick guidance)\n\nUse this as a decision shortcut:\n\n| If you\u2026 | Best fit to evaluate first |\n| --- | --- |\n| Are a **small or mid\u2011sized nonprofit** wanting *one* system for donors + grants | **LiveImpact**[8] |\n| Already use or like DonorPerfect and want structured grant tracking | **DonorPerfect + Grants Management module**[4] |\n| Manage **complex grant portfolios** or act like a funder / intermediary | **Fluxx** (plus a donor CRM)[5] |\n| Focus mainly on **individual donors** and only have a handful of grants | Bloomerang / Neon / similar CRMs with customized grant fields[1][2][7] |\n| Are **very budget\u2011constrained** | Givebutter for donor CRM + manual grant tracking, or discounted tools via **TechSoup**[3][6] |\n\nIf you share your organization\u2019s size, budget range, and roughly how many grants you track per year, I can narrow this down to 2\u20133 concrete recommendations and suggest specific evaluation criteria.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Givebutter",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1253,
+  "estimated_cost_usd": 0.023816,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.techsoup.org/donor-and-grants-management",
+      "https://www.donorperfect.com/nonprofits/grants-management-software/",
+      "https://www.fluxx.io/blog/the-best-nonprofit-management-software",
+      "https://givebutter.com/donor-management-crm",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit"
+    ]
+  }
+}

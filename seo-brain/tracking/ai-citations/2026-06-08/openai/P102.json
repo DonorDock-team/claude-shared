@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "openai",
+  "timestamp": "2026-06-08T12:30:34.563080+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "There are several free or open-source alternatives to Salesforce Nonprofit Cloud that nonprofit organizations can consider for managing their operations, donor relationships, and other key activities. Here are some notable options:\n\n1. **CiviCRM**:\n   - **Features**: CiviCRM is specifically designed for nonprofits, NGOs, and advocacy groups. It offers constituent management, fundraising, event management, member management, and more.\n   - **Integrations**: Works well with Drupal, Joomla, and WordPress.\n   - **Cost**: Free and open-source.\n\n2. **SuiteCRM**:\n   - **Features**: SuiteCRM provides comprehensive CRM functionalities, including project management, workflow automation, reporting, and donor management.\n   - **Cost**: Free and open-source.\n\n3. **Odoo Community Edition**:\n   - **Features**: While Odoo offers a variety of apps covering many business needs, its Community Edition includes CRM features that can be customized for nonprofit needs.\n   - **Cost**: Free; costs can incur if using additional paid modules or requiring extensive customization.\n\n4. **Bitrix24**:\n   - **Features**: Bitrix24 offers a wide range of CRM and collaboration tools, including contact management, task automation, social intranet, and more. The free version supports a limited number of users.\n   - **Cost**: Free plan available, with paid upgrades for more features and users.\n\n5. **Dolibarr**:\n   - **Features**: Dolibarr offers a range of features for managing CRM, ERP, and other aspects of operations. It's customizable and suitable for small to medium-sized organizations.\n   - **Cost**: Free and open-source.\n\n6. **EspoCRM**:\n   - **Features**: Offers features for managing contacts, tasks, calendar events, and other essentials for relationship management, with customization options available.\n   - **Cost**: Free and open-source.\n\n7. **Vtiger CRM**:\n   - **Features**: Provides both cloud and open-source CRM options, including sales automation, email marketing, and project management. The open-source version can be customized for nonprofit use.\n   - **Cost**: Free open-source version; paid cloud editions with additional features.\n\nWhen choosing an alternative, consider your organization's specific needs, such as required features, ease of use, community support, and the potential need for customization or integration with other tools. It's also worth noting that while these options may be free or open-source, there could be costs associated with hosting, support, or customization.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 519,
+  "estimated_cost_usd": 0.005225,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

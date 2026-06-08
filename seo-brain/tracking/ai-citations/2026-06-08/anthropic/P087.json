@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P087",
+  "prompt_text": "Best donor CRM for refugee services",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563492+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Refugee Services\n\nFor refugee service organizations, you'll want a CRM that balances donor management with case management capabilities. Here are the top options:\n\n## **Top Recommendations**\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large organizations with complex needs\n- **Strengths:** Highly customizable, integrates case management with donor tracking, robust reporting\n- **Considerations:** Steeper learning curve, may require implementation support\n- **Pricing:** Free for 10 users (Power of Us program), then discounted rates\n\n### **2. Bloomerang**\n- **Best for:** Small to mid-size organizations prioritizing donor retention\n- **Strengths:** Excellent donor engagement tools, intuitive interface, strong retention metrics\n- **Pricing:** Starting ~$125/month\n- **Note:** Strong on donor side, but limited case management\n\n### **3. Kindful (by Bloomerang)**\n- **Best for:** Organizations wanting simplicity with good integrations\n- **Strengths:** User-friendly, good email marketing integration, solid reporting\n- **Pricing:** Starting ~$100/month\n\n### **4. Little Green Light**\n- **Best for:** Smaller organizations with tight budgets\n- **Strengths:** Affordable, good core features, responsive support\n- **Pricing:** Starting ~$59/month\n\n## **Key Features to Look For**\n\n- Multi-language support for diverse donor/client base\n- Grant tracking capabilities (crucial for refugee services)\n- Volunteer management\n- Integration with accounting software\n- Custom fields for tracking specific refugee program metrics\n\n**What's your organization's size and budget range?** I can provide more specific guidance.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 386,
+  "estimated_cost_usd": 0.005832,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

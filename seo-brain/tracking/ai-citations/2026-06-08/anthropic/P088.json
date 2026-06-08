@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P088",
+  "prompt_text": "Best donor CRM for food security organizations",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563621+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Food Security Organizations\n\nHere are the top options tailored for food banks, pantries, and food security nonprofits:\n\n## **Top Recommendations**\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized food security orgs\n- **Strengths:** Donor retention focus, easy-to-use, excellent reporting\n- **Price:** ~$125-200/month\n- **Why for food security:** Strong volunteer management integration, tracks in-kind donations\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with complex needs\n- **Strengths:** Highly customizable, powerful analytics, scalable\n- **Price:** 10 free licenses, then ~$36/user/month\n- **Why for food security:** Can track food distribution, partner networks, and donors in one system\n\n### **3. DonorPerfect**\n- **Best for:** Organizations prioritizing ease of use\n- **Strengths:** Intuitive interface, strong customer support, online fundraising tools\n- **Price:** ~$89-149/month\n- **Why for food security:** Good for tracking both monetary and in-kind donations\n\n### **4. Little Green Light**\n- **Best for:** Budget-conscious smaller organizations\n- **Strengths:** Affordable, no setup fees, unlimited users\n- **Price:** ~$59-89/month\n- **Why for food security:** Simple tracking for recurring donors and corporate partnerships\n\n## **Key Features to Prioritize**\n\n- **In-kind donation tracking** (critical for food donations)\n- **Volunteer management** integration\n- **Grant management** capabilities\n- **Reporting** for USDA/TEFAP compliance\n- **Corporate partnership** tracking\n\n**Which size organization are you?** That would help me narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 419,
+  "estimated_cost_usd": 0.00633,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

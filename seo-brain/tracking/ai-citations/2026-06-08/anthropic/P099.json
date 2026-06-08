@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P099",
+  "prompt_text": "Best value donor CRM under $500 per month",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562281+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Value Donor CRMs Under $500/Month\n\n## Top Recommendations\n\n### **1. Bloomerang** (~$125-$400/month)\n- **Best for:** Small to mid-sized nonprofits\n- **Strengths:** Excellent donor retention tools, engagement scoring, clean interface\n- **Pricing:** Starts at ~$125/month for up to 1,000 contacts\n- **Why it's great value:** Purpose-built for nonprofits with strong reporting\n\n### **2. Donorbox** (~$0-$299/month)\n- **Best for:** Organizations prioritizing fundraising\n- **Strengths:** Free tier available, excellent donation forms, peer-to-peer fundraising\n- **Pricing:** Free for basic features; paid plans based on transaction volume\n- **Why it's great value:** Can start free and scale affordably\n\n### **3. Little Green Light** (~$59-$195/month)\n- **Best for:** Budget-conscious small nonprofits\n- **Strengths:** Unlimited users, solid core features, good support\n- **Pricing:** Flat monthly rate based on number of records\n- **Why it's great value:** No per-user fees, straightforward pricing\n\n### **4. Kindful (by Bloomerang)** (~$100-$300/month)\n- **Best for:** Growing nonprofits needing integrations\n- **Strengths:** Good third-party integrations, online giving tools\n- **Pricing:** Custom based on contact count\n- **Why it's great value:** Strong feature set for the price\n\n## Key Decision Factors\n- **Database size** - pricing usually scales with contacts\n- **Users needed** - some charge per seat\n- **Essential features** - email marketing, online giving, reporting\n- **Integration needs** - QuickBooks, Mailchimp, etc.\n\n**Pro tip:** Most offer free trials\u2014test 2-3 before committing!",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 443,
+  "estimated_cost_usd": 0.006699,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

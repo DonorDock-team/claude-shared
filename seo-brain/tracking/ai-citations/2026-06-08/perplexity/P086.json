@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P086",
+  "prompt_text": "Best donor CRM for homeless services",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.563422+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For **homeless services**, the best donor CRM depends on whether you need primarily **donor management** or a combined **case management + fundraising** system. If your priority is donor CRM only, **Bloomerang** or **Salesforce for Nonprofit** are the strongest general nonprofit options; if you need software built around homeless-service workflows, a housing/homelessness platform such as **Case Management Hub** is more directly aligned with the program side of the work.[1][3][4][6]\n\nA practical way to choose:\n\n- **Best for donor retention and simpler fundraising:** **Bloomerang** is commonly recommended among nonprofit CRMs for donor management and retention-focused fundraising.[6]\n- **Best for a more customizable, enterprise-scale setup:** **Salesforce for Nonprofit** is positioned as a leading nonprofit CRM with fundraising, marketing, program management, grantmaking, and volunteer management.[3]\n- **Best if you need homeless-services operations, not just donors:** **Case Management Hub** is designed specifically for homelessness, transitional housing, and housing support programs.[4]\n- **Best lower-complexity all-in-one option for smaller nonprofits:** **LiveImpact** is presented as a strong all-in-one value for small nonprofits.[6]\n- **Best lightweight donor CRM:** **Donorbox CRM** emphasizes donor history and recurring donation management without a complex setup.[8]\n\nIf you are choosing for a homeless-services organization, I\u2019d usually narrow it to this rule:\n\n- Choose **Bloomerang** if donor fundraising is the main need and your program tracking is handled elsewhere.[6]\n- Choose **Salesforce** if you have staff/admin capacity and want a highly flexible platform that can grow with fundraising and program needs.[3]\n- Choose **Case Management Hub** if your real operational pain point is client services, housing programs, and service coordination rather than donor CRM.[4]\n\nIf you want, I can also give you a **shortlist by nonprofit size**: small shelter, mid-size housing nonprofit, or citywide provider.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 414,
+  "estimated_cost_usd": 0.011231,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.salesforce.com/nonprofit/",
+      "https://casemanagementhub.org/homelessness-transitional-housing-support-software/",
+      "https://www.youtube.com/watch?v=lBirCTrGhEs",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://donorbox.org/explore/nonprofit-crm"
+    ]
+  }
+}

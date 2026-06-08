@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P056",
+  "prompt_text": "Best donor CRM to consolidate multiple fundraising tools",
+  "engine": "openai",
+  "timestamp": "2026-06-08T12:30:34.564332+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM to consolidate multiple fundraising tools depends on your organization's specific needs, but several platforms are commonly recommended for their comprehensive features and integration capabilities. Here are some of the top options:\n\n1. **Salesforce Nonprofit Success Pack (NPSP):**\n   - **Pros:** Highly customizable and scalable, with a wide array of integrations and robust reporting features. It supports a variety of nonprofit activities including fundraising, donor management, and volunteer management.\n   - **Cons:** May require significant setup and customization, which could lead to higher costs and a longer implementation time.\n\n2. **Bloomerang:**\n   - **Pros:** User-friendly interface with strong donor management features such as donor retention insights and powerful reporting tools. It integrates well with other fundraising tools.\n   - **Cons:** Limited advanced customization options compared to some other platforms.\n\n3. **Neon CRM:**\n   - **Pros:** Offers integrated tools for donor management, email marketing, event management, and more. It includes features for managing memberships and volunteers.\n   - **Cons:** The interface can be less intuitive for some users, and pricing can increase with additional features.\n\n4. **Raiser's Edge NXT:**\n   - **Pros:** Specifically designed for nonprofits, it provides powerful analytics and a comprehensive suite of tools for donor management, event planning, and communications.\n   - **Cons:** Can be relatively expensive, and some users find the interface less modern than other options.\n\n5. **DonorPerfect:**\n   - **Pros:** Known for its strong focus on donor management and fundraising with customizable dashboards and reporting. It provides good integration capabilities and mobile access.\n   - **Cons:** Some users report a learning curve with advanced features and customization.\n\n6. **Kindful:**\n   - **Pros:** Offers seamless integration with a wide range of fundraising tools. It provides an intuitive user interface and strong donor management capabilities.\n   - **Cons:** Less customizable compared to larger CRMs like Salesforce.\n\n7. **Little Green Light:**\n   - **Pros:** Affordable and user-friendly, with a strong focus on donor management and event tracking. It provides substantial online support and resources.\n   - **Cons:** Not as feature-rich as some of the larger platforms, which could limit scalability for larger organizations.\n\nWhen choosing a CRM, consider the following criteria:\n- Compatibility with existing tools you\u2019re using.\n- Scale and customization needs of your organization.\n- Budget constraints.\n- User-friendliness and training available.\n\nIt\u2019s also beneficial to take advantage of demos and trials offered by these platforms to ensure they meet your specific needs and integrate well with your existing tools. Additionally, consulting with stakeholders who will use the CRM can provide valuable insights into which features are most critical for your organization.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 555,
+  "estimated_cost_usd": 0.005587,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

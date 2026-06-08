@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P036",
+  "prompt_text": "Best donor management software for nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563881+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor Management Software for Nonprofits\n\nHere are the top options based on organization size and needs:\n\n## **Best Overall**\n- **Bloomerang** - Excellent retention tools, intuitive interface, strong reporting ($125+/month)\n- **Salesforce Nonprofit Cloud** - Highly customizable, scalable, comprehensive (Free for 10 users, then paid)\n\n## **Best for Small Nonprofits**\n- **DonorPerfect** - User-friendly, affordable, good support ($89+/month)\n- **Little Green Light** - Simple, budget-friendly ($39+/month)\n- **Kindful** - Clean interface, good automation ($100+/month)\n\n## **Best for Mid-Size Organizations**\n- **Blackbaud Raiser's Edge NXT** - Industry standard, robust features (custom pricing)\n- **NeonCRM** - All-in-one platform, event management included ($50+/month)\n\n## **Best Free/Low-Cost Options**\n- **HubSpot for Nonprofits** - Free CRM with paid upgrades\n- **Bitrix24** - Free up to 12 users\n- **CiviCRM** - Open-source (requires technical setup)\n\n## **Key Features to Consider**\n- Donation tracking & receipting\n- Email marketing integration\n- Reporting & analytics\n- Online fundraising tools\n- Volunteer management\n- Grant tracking\n- Mobile accessibility\n\n**What's your nonprofit's size and primary needs?** I can provide more specific recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 356,
+  "estimated_cost_usd": 0.005385,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "openai",
+  "timestamp": "2026-06-08T12:30:34.562464+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM (Customer Relationship Management) system for hospitals involves considering several factors, including ease of use, integration capabilities, features specific to healthcare and fundraising, scalability, and cost. Here are some popular donor CRM systems that are often well-suited for hospitals and healthcare organizations:\n\n1. **Blackbaud Raiser\u2019s Edge NXT**: This is a widely used donor management system in the nonprofit sector, including hospitals. It offers features like donor tracking, fundraising analytics, and multi-channel campaign management, and is designed to handle the complexities of fundraising in healthcare.\n\n2. **Salesforce Nonprofit Cloud**: While Salesforce is a general CRM, its Nonprofit Cloud is tailored to the needs of nonprofit organizations, including healthcare. It provides tools for donor management, fundraising, and engagement, and offers the flexibility to be customized for specific needs.\n\n3. **DonorPerfect**: Known for its ease of use and affordability, DonorPerfect is ideal for hospitals looking for comprehensive donor management, online forms, and reporting capabilities. It\u2019s well-suited for small to mid-sized organizations but can scale for larger needs as well.\n\n4. **Bloomerang**: This CRM focuses on retention and engagement, helping hospitals keep track of donor interactions and improve relationships through intuitive reporting and email marketing features. It's known for its user-friendly interface and powerful retention tools.\n\n5. **Neon CRM**: Neon CRM is versatile, offering solutions for donor management, event planning, and communications. It\u2019s great for hospitals seeking to integrate various fundraising channels into a single platform.\n\n6. **Kindful**: Kindful by Bloomerang provides intuitive donor management features, enabling easy tracking of donor interactions and data integration across platforms. It's suitable for smaller healthcare organizations looking for robust reporting and tracking.\n\n7. **Little Green Light**: This is a cost-effective, cloud-based CRM that offers a range of tools for donor management, event planning, and reporting. It's particularly appealing to smaller hospital foundations due to its simplicity and powerful features.\n\nWhen choosing a donor CRM, it\u2019s crucial to evaluate the specific requirements of your hospital's fundraising and outreach efforts, ensuring the selected system integrates well with existing medical and business systems and is adaptable to future needs. Additionally, consider seeking feedback from other similar organizations on their experiences with these platforms.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 464,
+  "estimated_cost_usd": 0.00467,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

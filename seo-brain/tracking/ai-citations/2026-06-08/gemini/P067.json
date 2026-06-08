@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563298+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor relationships effectively across a team is crucial for maximizing fundraising efforts, ensuring consistent communication, and building strong, lasting connections. This requires a combination of the right tools, clear processes, and a collaborative team culture.\n\nHere's a breakdown of how to achieve this:\n\n## I. The Core Tool: Donor Management Software (CRM)\n\nThis is the absolute cornerstone for team-based donor relationship tracking. A robust Constituent Relationship Management (CRM) system, specifically designed for nonprofits (often called Donor Management Software), centralizes all donor information.\n\n**Key Features to Look For:**\n\n1.  **Centralized Donor Profiles:** A single, comprehensive record for each donor, accessible by the entire team.\n2.  **Contact Information:** All basic contact details (name, address, phone, email).\n3.  **Gift History:** Records of all donations, pledges, grant applications, and in-kind gifts.\n4.  **Communication & Interaction Logs:** This is vital for a team. Every phone call, email, meeting, note, and mailing should be logged with:\n    *   Date and time\n    *   Type of interaction (call, email, meeting, event, etc.)\n    *   Team member who interacted\n    *   Summary of the interaction\n    *   Outcome or next steps\n    *   Attachments (emails, meeting minutes, proposals)\n5.  **Tasks & Activities:** Ability to assign tasks to team members with due dates (e.g., \"Call John re: annual appeal,\" \"Send thank you note to Jane\").\n6.  **Relationship Management:** Track relationships between donors (e.g., family members, board members, employer, co-workers).\n7.  **Segmentation & Tagging:** Categorize donors based on interests, giving levels, engagement, etc.\n8.  **Reporting & Analytics:** Generate reports on donor engagement, fundraising performance, major gift pipeline, etc.\n9.  **User Permissions:** Control who can view, edit, or delete specific data.\n10. **Custom Fields:** Tailor the system to track unique information relevant to your organization.\n\n**Popular Donor Management CRMs:**\n\n*   **Salesforce for Nonprofits (NPSP):** Highly customizable and powerful, but can have a steep learning curve.\n*   **Blackbaud (Raiser's Edge NXT, eTapestry):** Industry standard, robust, but can be complex and costly.\n*   **Bloomerang:** Known for its user-friendliness, focus on donor retention, and strong communication tools.\n*   **NeonOne (NeonCRM):** Comprehensive solution for various nonprofit needs, including fundraising, events, and memberships.\n*   **Little Green Light (LGL):** Often praised for affordability, ease of use, and good reporting for smaller to mid-sized nonprofits.\n*   **DonorPerfect:** A long-standing solution with a wide range of features.\n*   **Kindful:** User-friendly, good for online fundraising integration.\n\n## II. Key Information to Track (Beyond the Basics)\n\nTo build strong relationships, you need more than just transactional data:\n\n*   **Donor Preferences:** How do they prefer to be contacted (email, phone, mail)? What causes or",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Raiser's Edge",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 680,
+  "estimated_cost_usd": 0.001702,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

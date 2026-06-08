@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P139",
+  "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563318+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When looking for a CRM similar to Salesforce but specifically tailored for nonprofits, the first and most direct answer is **Salesforce itself, utilizing the Nonprofit Success Pack (NPSP)**.\n\nHowever, if you're looking for *other* robust, comprehensive platforms that offer similar power, scalability, and breadth of features (donor management, fundraising, program management, volunteer tracking, reporting) to Salesforce, here are some top contenders:\n\n### 1. Salesforce Nonprofit Success Pack (NPSP)\n\n*   **Why it's similar (and often preferred):** NPSP is built *on* the Salesforce platform. This means you get the same underlying architecture, customization capabilities, ecosystem of apps (AppExchange), and scalability. It's essentially Salesforce configured and enhanced with nonprofit-specific data models and features (household accounts, recurring donations, soft credits, affiliations).\n*   **Key Features:** Comprehensive donor management, fundraising campaigns, grant management, program management, volunteer management, robust reporting and dashboards.\n*   **Pricing:** Salesforce offers 10 free licenses of NPSP to qualified nonprofits, with discounted rates for additional licenses. However, implementation and ongoing customization/administration can incur significant costs.\n\n### Other Strong Alternatives:\n\nThese CRMs often provide an \"out-of-the-box\" nonprofit focus, sometimes with a steeper learning curve than NPSP's raw platform but often with more built-in, specific functionality.\n\n2.  **Blackbaud (e.g., Raiser's Edge NXT, Luminate CRM)**\n    *   **Why it's similar:** Blackbaud is arguably the oldest and largest player in nonprofit technology. Raiser's Edge NXT is a very comprehensive, enterprise-level solution for fundraising and donor management, often compared to Salesforce in terms of breadth and depth. Luminate CRM is also very powerful for larger organizations, especially those focused on digital fundraising and advocacy.\n    *   **Key Features:** Highly sophisticated donor segmentation, robust fundraising tools, grant management, prospect research, event management, and a vast ecosystem of integrated products.\n    *   **Considerations:** Can be expensive and have a significant learning curve. Best suited for medium to large nonprofits with complex needs.\n\n3.  **Neon One (NeonCRM)**\n    *   **Why it's similar:** NeonCRM is an all-in-one, cloud-based platform designed specifically for nonprofits. It aims to provide a comprehensive solution similar to how Salesforce can be configured, covering many facets of nonprofit operations.\n    *   **Key Features:** Donor management, online fundraising, event registration, membership management, volunteer management, grant tracking, email marketing, and robust reporting.\n    *   **Considerations:** Generally considered user-friendly and good for small to medium-sized nonprofits looking for an integrated solution without heavy customization.\n\n4.  **Bloomerang**\n    *   **Why it's similar:** While perhaps a bit less broad than a fully customized NPSP or Raiser's Edge NXT, Bloomerang excels in its focus on donor retention and engagement. It offers a very intuitive user interface and powerful insights that make it comparable in effectiveness for its target audience.\n    *   **Key Features:** Donor database, email marketing, fundraising campaigns, wealth screening integration, communication tracking, and a strong focus on analytics to improve donor retention.\n    *   **Considerations:** Often praised for ease of use and its dashboard features. Great for small to medium-sized nonprofits prioritizing donor relationships.\n\n5.  **Virtuous**\n    *   **Why it's similar:** Virtuous is a modern, responsive platform built for nonprofits",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Neon One",
+    "Raiser's Edge",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 749,
+  "estimated_cost_usd": 0.001875,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P019",
+  "prompt_text": "Alternative to Blackbaud Raisers Edge",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.564107+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Blackbaud Raiser's Edge has long been a dominant player in the non-profit CRM space, but many organizations seek alternatives for various reasons, including cost, complexity, user interface, specific feature needs, or dissatisfaction with Blackbaud's ecosystem.\n\nHere's a breakdown of excellent alternatives, categorized by their general strengths:\n\n---\n\n### **Comprehensive All-in-One Solutions (Similar Scope to Raiser's Edge)**\n\nThese platforms aim to cover donor management, fundraising, events, reporting, and more.\n\n1.  **Salesforce Nonprofit Cloud:**\n    *   **Strengths:** Highly customizable, vast ecosystem (AppExchange for integrations), powerful reporting, scalable for any size organization. It's built on the world's leading CRM platform.\n    *   **Considerations:** Can be complex to set up and requires ongoing administration, often benefits from experienced consultants. While the core NPSP (Nonprofit Success Pack) is free/discounted for non-profits, advanced features and integrations can add significant cost.\n    *   **Best for:** Organizations that need extreme flexibility, have complex data requirements, or want to integrate deeply with other business processes.\n\n2.  **DonorPerfect:**\n    *   **Strengths:** Established, robust, user-friendly for day-to-day tasks, good customer support, strong reporting, includes online forms and payment processing. Offers a wide range of features for mid-sized non-profits.\n    *   **Considerations:** Interface might feel a little less modern than some newer platforms.\n    *   **Best for:** Mid-sized to larger non-profits looking for a reliable, comprehensive, and well-supported solution without the complexity of Salesforce.\n\n3.  **Neon CRM (by Neon One):**\n    *   **Strengths:** True all-in-one with strong modules for membership management, events, peer-to-peer fundraising, volunteer management, and donor cultivation. Modern interface and good support.\n    *   **Considerations:** Can be feature-rich, so onboarding and training are important.\n    *   **Best for:** Organizations that manage memberships, host many events, or rely heavily on volunteers, in addition to fundraising.\n\n4.  **Virtuous:**\n    *   **Strengths:** Modern, AI-driven, highly automated, donor-centric approach, robust reporting and analytics, strong focus on \"responsive fundraising\" and donor journeys.\n    *   **Considerations:** Newer to the market than some, so its long-term stability and ecosystem are still growing. Can be on the higher end of the price spectrum.\n    *   **Best for:** Forward-thinking organizations that want to leverage automation, data analytics, and modern communication tools for proactive fundraising.\n\n---\n\n### **User-Friendly & Modern Solutions (Focus on Donor Retention & Engagement)**\n\nThese often prioritize ease of use, clean interfaces, and features aimed at improving donor relationships.\n\n5.  **Bloomerang:**\n    *   **Strengths:** Exceptionally user-friendly, strong focus on donor retention metrics and engagement, intuitive interface, excellent customer support, integrated email and communication tools.\n    *   **Considerations:** May not have the same depth of features for extremely complex grant management or very niche use cases as some enterprise solutions.\n    *   **Best for:** Small to mid-sized non-profits prioritizing ease of use, donor engagement, and effective communication, particularly those focused on improving donor retention rates. (Note: Bloomerang acquired Kindful, another popular alternative, integrating its best features.)\n\n6.  **Little Green Light (LGL):",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 753,
+  "estimated_cost_usd": 0.001885,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

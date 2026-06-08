@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.561983+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM Options with Flat-Rate Pricing\n\nHere are CRM platforms designed for nonprofits that offer flat-rate pricing without per-user fees:\n\n## **Top Recommendations**\n\n### **1. Bloomerang**\n- **Pricing:** Flat monthly rate starting around $125/month\n- **Features:** Donor retention focus, engagement metrics, email marketing, reporting\n- **Best for:** Small to mid-sized nonprofits prioritizing donor retention\n\n### **2. Kindful (by Bloomerang)**\n- **Pricing:** Flat-rate plans (around $100-$150/month)\n- **Features:** Online donations, donor management, wealth screening integration\n- **Best for:** Growing nonprofits needing comprehensive features\n\n### **3. DonorPerfect**\n- **Pricing:** Flat monthly fee based on features, not users\n- **Features:** Fundraising tools, accounting integration, event management\n- **Best for:** Established nonprofits with multiple team members\n\n### **4. Little Green Light**\n- **Pricing:** ~$59/month flat rate for unlimited users\n- **Features:** Contact management, gift tracking, reporting, email campaigns\n- **Best for:** Budget-conscious small to medium nonprofits\n\n### **5. Sumac**\n- **Pricing:** One-time purchase or annual flat fee (non-subscription option available)\n- **Features:** Donor management, case management, volunteer tracking\n- **Best for:** Nonprofits wanting to avoid monthly subscriptions\n\n## **Key Questions to Ask:**\n- What's your donor database size?\n- Do you need integrated online giving?\n- Required integrations (accounting, email marketing)?\n- Level of reporting complexity needed?\n\nWould you like specific recommendations based on your organization's size or needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 404,
+  "estimated_cost_usd": 0.006117,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

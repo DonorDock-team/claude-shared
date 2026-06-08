@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P040",
+  "prompt_text": "Donor software with QuickBooks integration",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.564654+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding donor management software that integrates well with QuickBooks is a common need for nonprofits looking to streamline their accounting and fundraising efforts. The goal is typically to automatically or easily transfer donation and donor data from the CRM/donor software into QuickBooks for accurate financial reporting.\n\nHere are some excellent donor software options with QuickBooks integration, along with details about their capabilities:\n\n## Top Donor Software with QuickBooks Integration\n\n### 1. Bloomerang\n\n*   **Description:** Bloomerang is a popular, modern, and user-friendly donor management platform known for its focus on donor retention, communication tools, and ease of use.\n*   **QuickBooks Integration:**\n    *   **Type:** Robust, direct integration, primarily for **QuickBooks Online (QBO)**, but also supports **QuickBooks Desktop** via a sync tool.\n    *   **Data Transferred:** Automatically posts donation data (individual transactions, campaigns, funds, appeals) to QuickBooks as sales receipts or journal entries. You can map Bloomerang funds/campaigns to QuickBooks accounts/classes.\n    *   **Benefits:** Reduces manual data entry, ensures accuracy between fundraising and financial records, provides real-time insights into revenue.\n\n### 2. NeonOne (NeonCRM)\n\n*   **Description:** NeonCRM is a comprehensive, all-in-one nonprofit software platform offering donor management, fundraising, events, memberships, and more.\n*   **QuickBooks Integration:**\n    *   **Type:** Advanced QuickBooks integration for both **QuickBooks Online** and **QuickBooks Desktop**.\n    *   **Data Transferred:** Facilitates the creation of General Ledger (GL) entries from donation and other financial transactions (e.g., event registrations, membership fees) in NeonCRM. You can map your NeonCRM accounts and funds directly to your QuickBooks",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 369,
+  "estimated_cost_usd": 0.000924,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

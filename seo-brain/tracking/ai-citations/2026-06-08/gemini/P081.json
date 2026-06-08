@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P081",
+  "prompt_text": "Best donor CRM for community colleges",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.562385+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a community college depends heavily on specific needs, budget, team size, and existing tech infrastructure. However, based on the typical characteristics of community colleges (focus on local donors, scholarships, workforce development, often smaller development teams, budget consciousness), here are the top contenders and key factors to consider:\n\n## Top Recommended Donor CRMs for Community Colleges:\n\n### 1. Bloomerang\n*   **Why it's a great fit:** Bloomerang is incredibly user-friendly and focuses heavily on donor retention and engagement. It has a modern interface, excellent customer support, and robust features for segmentation, communication, and reporting. Its \"engagement meter\" helps identify at-risk donors and opportunities for deeper connection.\n*   **Pros for CCs:**\n    *   **Ease of Use:** Quick for smaller teams to learn and implement.\n    *   **Donor Engagement Tools:** Helps cultivate relationships with alumni and local businesses.\n    *   **Affordable:** Generally competitive pricing, especially for smaller to medium donor bases.\n    *   **Strong Reporting:** Easy to track fundraising progress and demonstrate impact.\n    *   **Email & Marketing Integration:** Built-in email tools and good integrations.\n*   **Potential Cons:** Might not have the deepest enterprise-level features of Blackbaud or Salesforce for extremely complex operations, but usually more than sufficient for CCs.\n\n### 2. Salesforce Nonprofit Cloud\n*   **Why it's a great fit:** If your community college is looking for a highly customizable, scalable, and powerful solution, Salesforce Nonprofit Cloud (NPSP) is a strong contender. Nonprofits can get 10 free licenses, and the ecosystem of apps (AppExchange) is vast.\n*   **Pros for CCs:**\n    *   **Highly Customizable:** Can be tailored precisely to your college's unique processes and data.\n    *   **Scalability:** Grows with your institution's fundraising efforts.\n    *   **Extensive Ecosystem:** Integrates with virtually any other system",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 422,
+  "estimated_cost_usd": 0.001057,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

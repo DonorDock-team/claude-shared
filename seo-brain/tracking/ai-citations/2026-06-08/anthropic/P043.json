@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P043",
+  "prompt_text": "Best donor CRM for human services nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.561987+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Human Services Nonprofits\n\n## Top Recommendations\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized human services organizations\n- **Strengths:** Donor retention focus, intuitive interface, strong reporting\n- **Pricing:** Starts ~$125/month\n- **Why for human services:** Easy to use, great for tracking client-donors and volunteers\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with complex needs\n- **Strengths:** Highly customizable, integrates program management + fundraising\n- **Pricing:** 10 free licenses, then ~$36/user/month\n- **Why for human services:** Can track both donors AND clients/program participants in one system\n\n### **3. Little Green Light**\n- **Best for:** Budget-conscious small nonprofits\n- **Strengths:** Affordable, solid core features, good support\n- **Pricing:** Starts ~$39/month\n- **Why for human services:** Simple, cost-effective for basic donor tracking\n\n### **4. Neon CRM**\n- **Best for:** Growing organizations needing all-in-one solution\n- **Strengths:** Donor management + event management + membership\n- **Pricing:** Starts ~$50/month\n- **Why for human services:** Good balance of features and affordability\n\n### **5. DonorPerfect**\n- **Best for:** Established organizations with diverse revenue streams\n- **Strengths:** Robust reporting, grant tracking capabilities\n- **Pricing:** Custom (typically $89+/month)\n\n## Key Features to Prioritize\n- Grant tracking (critical for human services funding)\n- Volunteer management integration\n- Reporting for multiple stakeholders\n- Ability to segment corporate vs. individual donors\n\n**What's your organization's size and budget?** I can provide a more specific recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 436,
+  "estimated_cost_usd": 0.006591,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

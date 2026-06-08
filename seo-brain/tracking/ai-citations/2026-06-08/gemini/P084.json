@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P084",
+  "prompt_text": "Best donor CRM for theaters",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563152+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a theater really depends on its size, budget, specific needs (e.g., how deep the ticketing integration needs to be), and existing technology stack. However, there are several top contenders that excel in managing the unique blend of ticketing, membership, and donor relations common in the performing arts.\n\nHere's a breakdown of the best options, categorized by their strengths:\n\n---\n\n### Top Recommendations (Arts-Specific & Integrated)\n\nThese systems are often designed with cultural organizations in mind, providing seamless integration between ticketing, donor management, and marketing.\n\n1.  **Spektrix**\n    *   **Why it's great for theaters:** Spektrix is arguably one of the most powerful and comprehensive solutions specifically built for performing arts organizations. It offers a single, unified platform for ticketing, CRM (donor management), marketing, and analytics.\n    *   **Key Features:**\n        *   **Unified Data:** All patron data (ticket purchases, donations, memberships, communication history) lives in one place, providing a 360-degree view.\n        *   **Real-time Analytics:** Powerful reporting tools help understand audience behavior and donor potential.\n        *   **Sophisticated Marketing:** Tools for segmentation, email marketing, and dynamic pricing.\n        *   **Membership Management:** Handles season subscriptions, memberships, and donor benefits.\n        *   **Excellent Support:** Known for strong customer service and ongoing innovation.\n    *   **Considerations:** Can be a significant investment, making it more suitable for medium to large theaters or those prioritizing a fully integrated solution.\n\n2.  **PatronManager (Powered by Salesforce)**\n    *   **Why it's great for theaters:** Built on the robust Salesforce platform, PatronManager is tailored specifically for arts and cultural organizations. It leverages Salesforce's power while providing industry-specific features for ticketing, fundraising, and marketing.\n    *   **Key Features:**\n        *   **Salesforce Power:** Highly customizable, scalable, and benefits from the vast Salesforce ecosystem.\n        *   **Integrated Ticketing & CRM:** Manages single tickets, subscriptions, donations, and memberships from a unified database.\n        *   **Fundraising Tools:** Donor profiles, gift tracking, pledge management, grant tracking.\n        *   **Marketing & Communications:** Email marketing, audience segmentation, event promotion.\n        *   **Comprehensive Reporting:** Robust analytics capabilities.\n    *   **Considerations:** While powerful, Salesforce (and by extension PatronManager) can have",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 527,
+  "estimated_cost_usd": 0.001319,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

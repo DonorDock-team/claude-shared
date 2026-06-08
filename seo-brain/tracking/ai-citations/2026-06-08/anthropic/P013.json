@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P013",
+  "prompt_text": "DonorDock vs Little Green Light",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563172+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Little Green Light\n\nBoth are cloud-based donor management systems for nonprofits, but they serve slightly different audiences and have distinct strengths.\n\n## **DonorDock**\n\n**Best for:** Small to mid-sized nonprofits wanting simplicity and modern UX\n\n**Strengths:**\n- Clean, intuitive interface (easier learning curve)\n- Strong relationship tracking and donor engagement tools\n- Good mobile experience\n- Responsive customer support\n- More affordable pricing structure\n- Built-in text messaging\n- Modern design and user experience\n\n**Limitations:**\n- Fewer advanced features than LGL\n- Less robust reporting customization\n- Smaller user community\n- Newer platform (less established)\n\n## **Little Green Light**\n\n**Best for:** Organizations needing robust reporting and customization\n\n**Strengths:**\n- Extensive customization options\n- Powerful, flexible reporting tools\n- Strong grant tracking capabilities\n- Established platform with large user base\n- Comprehensive feature set\n- Good email integration\n- Detailed constituent management\n\n**Limitations:**\n- Steeper learning curve\n- Interface feels more dated\n- Can be overwhelming for basic needs\n- Reporting complexity may require training\n\n## **Key Differences**\n\n| Feature | DonorDock | Little Green Light |\n|---------|-----------|-------------------|\n| **Ease of Use** | \u2b50\u2b50\u2b50\u2b50\u2b50 | \u2b50\u2b50\u2b50 |\n| **Reporting** | \u2b50\u2b50\u2b50 | \u2b50\u2b50\u2b50\u2b50\u2b50 |\n| **Customization** | \u2b50\u2b50\u2b50 | \u2b50\u2b50\u2b50\u2b50\u2b50 |\n| **Price** | Generally lower | Mid-range |\n| **Interface** | Modern | Functional but dated |\n\n## **Choose DonorDock if:**\n- You want something easy to implement quickly\n- Your team isn't highly technical\n- You prioritize user experience\n- You need basic to intermediate functionality\n\n## **Choose Little Green Light if:**\n- You need complex, customized reporting\n- You have specific workflow requirements\n- You manage grants extensively\n- You have staff who can handle complexity\n\n**Bottom line:** DonorDock wins on usability and modern design; Little Green Light wins on power and flexibility.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 548,
+  "estimated_cost_usd": 0.008268,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

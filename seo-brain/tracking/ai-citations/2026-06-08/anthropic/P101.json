@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P101",
+  "prompt_text": "DonorPerfect total cost of ownership",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562882+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorPerfect Total Cost of Ownership\n\nThe total cost of ownership (TCO) for DonorPerfect varies based on your organization's size and needs. Here's a breakdown:\n\n## **Core Pricing Components**\n\n### 1. **Subscription Fees**\n- **Starting price**: ~$89/month (annual commitment)\n- **Typical range**: $89-$500+/month depending on:\n  - Number of users\n  - Number of donor records\n  - Feature tier selected\n\n### 2. **Implementation & Setup**\n- **Data migration**: $500-$2,500+\n- **Initial training**: Often included, but advanced training may cost extra\n- **Setup assistance**: $500-$1,500 (optional)\n\n### 3. **Add-on Modules** (Optional)\n- **Online donation forms** (DP Online): $25-$50/month\n- **Email marketing**: $20-$40/month\n- **Text-to-give**: Variable pricing\n- **Advanced reporting**: May require higher tier\n- **Integration tools**: Some free, some paid\n\n### 4. **Ongoing Costs**\n- **Payment processing fees**: 2.5-3% + $0.30/transaction (if using their processor)\n- **Additional user licenses**: $10-$30/user/month\n- **Technical support**: Usually included in subscription\n- **Annual increases**: Typically 3-5%\n\n## **Estimated Annual TCO Examples**\n\n| Organization Size | Annual Cost Range |\n|-------------------|-------------------|\n| Small (1-2 users, basic features) | $1,500-$3,000 |\n| Medium (3-5 users, some add-ons) | $3,000-$8,000 |\n| Large (6+ users, multiple modules) | $8,000-$15,000+ |\n\n## **Hidden/Additional Costs to Consider**\n- Staff time for learning and administration\n- Custom report development\n- Third-party integrations\n- Extra storage for large databases\n\n**Tip**: Request a detailed quote based on your specific needs, as pricing can be negotiated.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 492,
+  "estimated_cost_usd": 0.007431,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

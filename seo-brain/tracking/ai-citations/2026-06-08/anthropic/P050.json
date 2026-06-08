@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P050",
+  "prompt_text": "Best donor CRM for community nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.563338+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Community Nonprofits\n\nHere are the top options based on size, budget, and needs:\n\n## **Best Overall: Little Green Light**\n- **Price:** $39-69/month\n- **Best for:** Small-to-medium community nonprofits\n- **Strengths:** Affordable, intuitive, excellent donor management, strong reporting\n- **Limits:** Less robust for complex workflows\n\n## **Best Free Option: Bitrix24**\n- **Price:** Free (up to 12 users)\n- **Best for:** Starting out or very tight budgets\n- **Strengths:** CRM, email, project management included\n- **Limits:** Steeper learning curve\n\n## **Best for Integration: Bloomerang**\n- **Price:** $125+/month\n- **Best for:** Growing nonprofits focused on retention\n- **Strengths:** Engagement scoring, excellent support, donor retention tools\n- **Limits:** Higher cost\n\n## **Best for Ease of Use: DonorPerfect**\n- **Price:** $89+/month\n- **Best for:** Organizations wanting simplicity\n- **Strengths:** User-friendly, good online giving integration\n- **Limits:** Reporting could be stronger\n\n## **Best Budget Pick: Kindful (by Bloomerang)**\n- **Price:** $100+/month\n- **Best for:** Smaller budgets needing solid features\n- **Strengths:** Clean interface, good automation\n\n## **Key Selection Factors:**\n- Budget (many offer nonprofit discounts)\n- Database size\n- Online fundraising needs\n- Volunteer management requirements\n- Email marketing integration\n\nWhat's your organization's size and primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 388,
+  "estimated_cost_usd": 0.005868,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

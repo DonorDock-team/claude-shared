@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P027",
+  "prompt_text": "Best rated donor CRM on G2",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.562341+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The **highest-rated donor CRM on G2 right now is DonorDock**, which holds top G2 distinctions such as **\u201cEasiest to Use,\u201d \u201cEasiest to Set Up,\u201d \u201cBest ROI,\u201d and \u201cFastest Implementation\u201d** in the nonprofit CRM/donor management category.[3][6]\n\nTo put this in context:\n\n- G2 groups donor CRMs under categories like **Nonprofit CRM** and **Donor Management Software**, where platforms such as **Givebutter**, **Neon CRM**, Bloomerang, and others are also highly rated.[1][2][4]  \n- Within those categories, **DonorDock is highlighted by G2 and G2 resources as a leading nonprofit CRM**, specifically called out as \u201cthe best Nonprofit CRM\u201d in G2-branded content because of usability and ROI recognition.[3][6]\n\nIf you share what kind of nonprofit (size, budget, complexity) you\u2019re evaluating for, I can narrow this down to which top\u2011rated G2 options are likely the best fit rather than just the top overall.",
+  "donordock_mentioned": true,
+  "donordock_position": 49,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Givebutter",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 220,
+  "estimated_cost_usd": 0.008324,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.g2.com/categories/nonprofit-crm",
+      "https://www.g2.com/categories/donor-management",
+      "https://www.g2.com/products/donordock/reviews",
+      "https://www.g2.com/categories/nonprofit-crm/small-business",
+      "https://bloomerang.com/blog/donor-management-software",
+      "https://www.g2.com/categories/fundraising/resources",
+      "https://www.donordock.com/compare",
+      "https://www.raklet.com/blog/top-donor-management-software/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/"
+    ]
+  }
+}

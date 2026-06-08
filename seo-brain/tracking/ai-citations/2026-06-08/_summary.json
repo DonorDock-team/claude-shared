@@ -1,0 +1,65 @@
+{
+  "run_date": "2026-06-08",
+  "priority_filter": "full",
+  "total_runs": 600,
+  "successes": 591,
+  "errors": 9,
+  "donordock_hits": 79,
+  "donordock_citation_rate_pct": 13.4,
+  "total_estimated_cost_usd": 5.4484,
+  "by_engine": {
+    "anthropic": {
+      "total": 150,
+      "ok": 142,
+      "errors": 8,
+      "donordock_hits": 14,
+      "cost_usd": 1.0124,
+      "citation_rate_pct": 9.9
+    },
+    "openai": {
+      "total": 150,
+      "ok": 150,
+      "errors": 0,
+      "donordock_hits": 15,
+      "cost_usd": 0.7005,
+      "citation_rate_pct": 10.0
+    },
+    "perplexity": {
+      "total": 150,
+      "ok": 150,
+      "errors": 0,
+      "donordock_hits": 35,
+      "cost_usd": 3.5156,
+      "citation_rate_pct": 23.3
+    },
+    "gemini": {
+      "total": 150,
+      "ok": 149,
+      "errors": 1,
+      "donordock_hits": 15,
+      "cost_usd": 0.2199,
+      "citation_rate_pct": 10.1
+    }
+  },
+  "competitor_mentions": {
+    "Bloomerang": 311,
+    "DonorPerfect": 225,
+    "Little Green Light": 167,
+    "Kindful": 157,
+    "Neon CRM": 134,
+    "Blackbaud": 126,
+    "Salesforce Nonprofit Cloud": 122,
+    "Givebutter": 82,
+    "Raiser's Edge": 68,
+    "Virtuous": 63,
+    "DonorBox": 61,
+    "Network for Good": 48,
+    "Neon One": 47,
+    "Bonterra": 44,
+    "LGL": 32,
+    "Keela": 31,
+    "CiviCRM": 18,
+    "Salesforce NPSP": 15,
+    "eTapestry": 12
+  }
+}

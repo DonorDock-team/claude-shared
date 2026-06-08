@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P015",
+  "prompt_text": "Alternative to Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563572+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a popular donor management and fundraising CRM, especially favored by small to medium-sized non-profits for its user-friendliness, focus on donor retention, and good customer support. However, it might not be the perfect fit for everyone due to pricing, specific feature needs, or integration requirements.\n\nHere are some excellent alternatives to Bloomerang, categorized by their strengths and typical use cases:\n\n---\n\n### **Direct Competitors / Similar Philosophy (Focus on SMBs, User-Friendliness)**\n\nThese options offer a similar range of features (donor management, fundraising, communications) and often target a similar market segment as Bloomerang.\n\n1.  **Little Green Light (LGL)**\n    *   **Strengths:** Often lauded as a more affordable, yet very powerful, alternative. Excellent for organizations that need robust donor management, reporting, and event management without the higher price tag. Very customizable.\n    *   **Best For:** Small to medium non-profits, organizations on a budget that still need comprehensive features.\n    *   **Potential Downsides:** UI might feel slightly less modern than Bloomerang for some users.\n\n2.  **DonorPerfect**\n    *   **Strengths:** A long-standing and very robust solution. Offers comprehensive donor management, fundraising tools, online forms, events, grant management, and strong reporting. Good integrations.\n    *   **Best For:** Growing non-profits, those needing a mature, feature-rich system that can scale.\n    *   **Potential Downsides:** Can be more expensive than Bloomerang depending on usage; the interface might have a steeper learning curve for some new users.\n\n3.  **Neon One (NeonCRM)**\n    *   **Strengths:** An \"all-in-one\" platform that includes CRM, fundraising, events, membership management, volunteer management, and websites. Known for its strong reporting and automation capabilities.\n    *   **Best For:** Non-profits looking for a truly integrated solution for various aspects of their operations, especially those with memberships or significant event schedules.\n    *   **Potential Downsides:** Can feel overwhelming with the sheer number of features if you only need basic donor management. Pricing can add up for all modules.\n\n4.  **Kindful (by EveryAction)**\n    *   **Strengths:** Modern interface, strong focus on integrations with other popular tools (QuickBooks, Mailchimp, etc.). Offers good online fundraising tools and donor engagement features.\n    *   **Best For:** Non-profits that rely heavily on a connected tech stack, value a clean UI, and want effective online fundraising.\n    *   **Potential Downsides:** Integrations are a strong point, but the core CRM might feel less deep than some other dedicated CRMs for complex data needs.\n\n5.  **Virtuous**\n    *   **Strengths:** A newer player with a strong focus on modern donor engagement, marketing automation, and personalized communication. Uses AI to help identify donor opportunities.\n    *   **Best For:** Non-profits looking to innovate their donor relations, leverage marketing automation, and move beyond traditional donor management.\n    *   **Potential Downsides:** Can be pricier than Bloomerang; might be more feature-rich than needed for very small, simple organizations.\n\n---\n\n### **Robust / Enterprise Solutions (For Larger Orgs or Complex Needs)**\n\nThese are often more powerful, customizable, and capable of handling larger datasets and more complex operations, but usually come with a higher cost and steeper learning curve.\n\n6.  **Salesforce Nonprofit Success Pack (NPSP)**\n    *   **Strengths:** Unparalleled customization and scalability. As the leading CRM platform, it can integrate with virtually anything and grow with your organization indefinitely. A huge ecosystem of apps and partners. Free for the first 10 licenses for non-profits",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon One",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 800,
+  "estimated_cost_usd": 0.002001,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

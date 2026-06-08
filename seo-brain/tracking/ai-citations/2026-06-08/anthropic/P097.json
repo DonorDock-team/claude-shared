@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P097",
+  "prompt_text": "Hidden costs of Network for Good",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.562003+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Network for Good\n\nNetwork for Good is a popular donation platform for nonprofits, but several hidden or less-obvious costs can add up:\n\n## **Primary Hidden Costs**\n\n### 1. **Payment Processing Fees (Beyond the Platform Fee)**\n- Platform fee: 3% is advertised\n- **But** credit card processing adds another ~2.2% + $0.30 per transaction\n- **Total actual cost**: ~5%+ per donation (not the 3% often emphasized in marketing)\n\n### 2. **Donor Covers Fee Option Limitations**\n- When donors \"cover fees,\" not all fees may be covered\n- Some transaction costs still pass through to the nonprofit\n\n### 3. **Monthly Subscription Costs**\n- Fundraising pages and tools require paid subscriptions ($99-$179+/month)\n- Basic donation processing alone doesn't include many features nonprofits expect\n\n### 4. **ACH/Check Processing Delays**\n- Lower-fee payment methods have longer settlement times\n- Cash flow impact can be significant for small organizations\n\n### 5. **Limited Integration Costs**\n- Exporting data to your CRM may require manual work\n- API access or premium integrations cost extra\n- Staff time for data management adds hidden labor costs\n\n### 6. **Year-End Tax Receipt Complications**\n- Network for Good issues receipts in their name (as the intermediary)\n- This can confuse donors and require additional stewardship communication\n\n### 7. **Donor Data Ownership Issues**\n- Limited access to full donor contact information\n- May not \"own\" the donor relationship completely\n\n## **Bottom Line**\nThe effective total cost often ranges from **5-7%** of donations, not the advertised 3%, plus potential monthly fees depending on features needed.\n\nWould you like recommendations for alternative platforms?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 415,
+  "estimated_cost_usd": 0.006264,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

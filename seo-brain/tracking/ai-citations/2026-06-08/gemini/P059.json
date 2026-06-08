@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P059",
+  "prompt_text": "Nonprofit CRM with donation forms",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.564797+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding the right Nonprofit CRM with integrated donation forms is crucial for efficient fundraising and donor management. Many excellent platforms offer this functionality, varying in price, complexity, and specific features.\n\nHere's a breakdown of some top contenders, categorized by their typical strengths:\n\n---\n\n## Top Nonprofit CRMs with Integrated Donation Forms\n\n### 1. **Bloomerang**\n*   **Strengths:** Known for its user-friendly interface and strong focus on donor retention. Offers beautifully designed, mobile-responsive donation forms that integrate seamlessly with your donor database. Excellent for segmenting donors and tracking engagement.\n*   **Donation Forms:** Highly customizable, recurring gift options, tribute gifts, pre-filled forms for returning donors, direct integration with the CRM.\n*   **Best For:** Small to mid-sized nonprofits looking for an intuitive, modern CRM that prioritizes donor engagement and ease of use.\n\n### 2. **DonorPerfect**\n*   **Strengths:** A long-standing, robust, and comprehensive solution. It's an all-in-one system with strong capabilities for donor management, fundraising, events, and payment processing.\n*   **Donation Forms:** Highly customizable forms with options for recurring donations, tribute gifts, payment plan flexibility, and secure processing. Integrates directly into your DonorPerfect database.\n*   **Best For:** Mid-sized to larger nonprofits that need a comprehensive, established system with strong reporting and a wide range of features.\n\n### 3. **Salesforce for Nonprofits (NPSP) + Donation Form App**\n*   **Strengths:** Salesforce is the most powerful and customizable CRM platform. NPSP (Nonprofit Success Pack) is a free, open-source package built on Salesforce, offering core nonprofit functionalities. While NPSP doesn't have native donation forms out-of-the-box, it integrates with numerous AppExchange partners (like Classy, Blackthorn, Click & Pledge, or even form builders like FormAssembly or Jotform with Salesforce connectors) to provide seamless donation form experiences.\n*   **Donation Forms:** Requires a third-party app or custom development, but this allows for ultimate flexibility, branding, and advanced fundraising capabilities (e.g., peer-to-peer, crowdfunding, events).\n*   **Best For:** Mid-sized to large, growing, or complex nonprofits that need extreme flexibility, scalability, and are willing to invest in customization and integration.\n\n### 4. **Neon One (Neon CRM)**\n*   **Strengths:** An all-in-one nonprofit software solution that excels in",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Neon CRM",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 533,
+  "estimated_cost_usd": 0.001334,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

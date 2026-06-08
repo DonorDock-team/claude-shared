@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.564020+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Track Donor Pledges\n\n## 1. **Choose a Tracking System**\n\n### Spreadsheet Option (Simple)\n- **Excel or Google Sheets** with columns for:\n  - Donor name and contact info\n  - Pledge amount\n  - Pledge date\n  - Payment schedule (one-time, monthly, annual)\n  - Amount paid to date\n  - Outstanding balance\n  - Payment method\n  - Campaign/purpose\n\n### Donor Management Software (Recommended)\n- **Bloomerang**\n- **DonorPerfect**\n- **Salesforce Nonprofit**\n- **Little Green Light**\n- **Kindful**\n- **Blackbaud** (for larger organizations)\n\n## 2. **Essential Information to Record**\n\n- Donor details (name, address, phone, email)\n- Pledge amount and date\n- Payment terms and schedule\n- Restrictions or designations\n- Acknowledgment letters sent\n- Tax receipts issued\n- Follow-up reminders needed\n\n## 3. **Best Practices**\n\n### Communication\n- Send pledge confirmations immediately\n- Provide regular pledge statements (quarterly or semi-annually)\n- Send payment reminders before due dates\n- Thank donors promptly for each payment\n\n### Organization\n- Create pledge agreements for larger gifts\n- Set up automated payment options when possible\n- Maintain clear documentation\n- Reconcile pledges monthly\n\n### Reporting\n- Generate aging reports (30/60/90 days overdue)\n- Track fulfillment rates\n- Monitor multi-year pledges\n- Report to board regularly\n\n## 4. **Follow-up Schedule**\n\n- **30 days before due:** Friendly reminder\n- **At due date:** Invoice/statement\n- **30 days past due:** Follow-up call\n- **60+ days past due:** Personal outreach\n\nWould you like specific templates or recommendations for your organization's size?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 433,
+  "estimated_cost_usd": 0.006534,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

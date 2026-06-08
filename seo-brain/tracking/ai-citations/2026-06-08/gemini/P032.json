@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P032",
+  "prompt_text": "Alternative to Givebutter for donor management",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563450+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Givebutter is popular for its all-in-one fundraising platform that includes donor management, fundraising pages, event ticketing, and peer-to-peer campaigns, often with a focus on ease of use and affordability for small to medium-sized nonprofits.\n\nIf you're looking for an alternative for donor management, here are some excellent options, categorized by their strengths:\n\n---\n\n### **All-in-One & Comprehensive (Similar to Givebutter, but often deeper CRM or specific features)**\n\n1.  **Bloomerang**\n    *   **Strengths:** Excellent donor retention focus, user-friendly interface, robust donor profiles, sophisticated segmentation, good reporting, integrates well with other tools. Strong emphasis on communication and building relationships.\n    *   **Ideal For:** Nonprofits prioritizing donor engagement and retention, who want a modern, intuitive CRM.\n    *   **Considerations:** Can be pricier than Givebutter, especially at higher donor counts, but offers deeper CRM functionality.\n\n2.  **Neon One (NeonCRM)**\n    *   **Strengths:** A comprehensive suite that includes CRM, online fundraising, events, membership management, and even website integration. Highly scalable and flexible for diverse nonprofit needs.\n    *   **Ideal For:** Organizations that need an integrated solution for memberships, events, and fundraising alongside robust donor management.\n    *   **Considerations:** Can have a steeper learning curve due to its extensive features; pricing can vary widely based on modules chosen.\n\n3.  **Kindful (now part of Bonterra)**\n    *   **Strengths:** Modern, clean interface with strong integrations (e.g., with QuickBooks, Mailchimp, various fundraising tools). Excellent for tracking donor interactions and gifts, good reporting.\n    *   **Ideal For:** Nonprofits that value seamless integration with their existing tech stack and a clean, modern user experience.\n    *   **Considerations:** Pricing can be a bit more premium, especially after the Bonterra acquisition, and some users might find certain features less customizable than dedicated CRMs.\n\n4.  **DonorPerfect**\n    *   **Strengths:** A long-standing and very comprehensive donor management system with robust features for gift processing, reporting, acknowledgments, and online fundraising forms. Highly scalable.\n    *   **Ideal For:** Growing nonprofits that need a powerful, established system with extensive capabilities for managing a large donor database.\n    *   **Considerations:** The interface can feel a bit traditional compared to newer platforms, and it might have a slightly steeper learning curve initially.\n\n---\n\n### **Affordable & User-Friendly (Great for smaller organizations)**\n\n5.  **Little Green Light (LGL)**\n    *   **Strengths:** Very affordable, easy to use, excellent for core donor management (tracking gifts, contacts, appeals, reporting). Focuses on getting the essentials right without unnecessary complexity. Good for small teams.\n    *   **Ideal For:** Smaller nonprofits on a budget who need solid, straightforward donor management without all the bells and whistles of an all-in-one fundraising platform.\n    *   **Considerations:** Online fundraising forms and event management are simpler and might require integrations for more advanced features.\n\n6.  **Donorbox**\n    *   **Strengths:** Primarily known for its easy-to-embed donation forms and recurring giving features. It offers a basic but functional donor management system for",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorBox",
+    "DonorPerfect",
+    "Givebutter",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon One"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 707,
+  "estimated_cost_usd": 0.00177,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

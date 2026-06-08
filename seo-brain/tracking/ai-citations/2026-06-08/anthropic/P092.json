@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.564303+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for International NGOs\n\n## Top Recommendations\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large international NGOs with complex needs\n- **Key features:** Multi-currency, multi-language, highly customizable, robust reporting\n- **Pricing:** ~$36-$150+/user/month\n- **Pros:** Scalable, extensive integrations, global presence\n- **Cons:** Steep learning curve, requires implementation support\n\n### **2. Raiser's Edge NXT (Blackbaud)**\n- **Best for:** Established organizations with significant fundraising operations\n- **Key features:** Global fundraising tools, wealth screening, event management\n- **Pricing:** Custom (typically $10K+/year)\n- **Pros:** Industry standard, comprehensive features\n- **Cons:** Expensive, can be complex\n\n### **3. CiviCRM**\n- **Best for:** Budget-conscious NGOs with technical capacity\n- **Key features:** Open-source, multi-currency, customizable\n- **Pricing:** Free (hosting/support costs apply)\n- **Pros:** Cost-effective, flexible, no licensing fees\n- **Cons:** Requires technical expertise, DIY approach\n\n### **4. Kindful (Bloomerang)**\n- **Best for:** Small to mid-sized NGOs\n- **Key features:** User-friendly, donor engagement tracking, integrations\n- **Pricing:** ~$100-$500+/month\n- **Pros:** Intuitive interface, good support\n- **Cons:** Less robust for very large databases\n\n### **5. DonorPerfect**\n- **Best for:** Mid-sized organizations seeking balance\n- **Key features:** Multi-currency, online giving, grant tracking\n- **Pricing:** ~$89-$239+/month\n- **Pros:** Affordable, comprehensive features\n- **Cons:** Interface feels dated\n\n## Key Considerations for International NGOs\n- **Multi-currency support**\n- **Multi-language capabilities**\n- **Data compliance** (GDPR, local regulations)\n- **Integration** with international payment processors\n- **Cloud-based** for global team access\n- **Reporting** across countries/regions\n\nWhat's your organization's size and primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 519,
+  "estimated_cost_usd": 0.00783,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

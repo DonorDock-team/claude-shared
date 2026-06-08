@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P016",
+  "prompt_text": "Alternative to DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.563708+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorPerfect is a popular non-profit CRM, but there are many excellent alternatives depending on your organization's specific needs, budget, and desired features. Here's a breakdown of some of the top contenders, categorized to help you find the best fit:\n\n---\n\n### All-in-One Powerhouses & Comprehensive Platforms (Direct Competitors)\n\nThese offer a broad range of features similar to DonorPerfect, often with different strengths in usability, integrations, or specific modules.\n\n1.  **Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack):**\n    *   **Pros:** The industry standard for scalability and customization. Extremely powerful, vast app exchange, 10 free licenses for non-profits.\n    *   **Cons:** Can have a steep learning curve and often requires an administrator or consultant for setup and ongoing maintenance.\n    *   **Best for:** Growing non-profits, organizations with complex data needs, those who need extensive customization, and those with tech-savvy staff or budget for consultants.\n\n2.  **Bloomerang:**\n    *   **Pros:** Highly user-friendly interface, strong focus on donor retention and engagement, excellent reporting and donor insights, integrated email marketing.\n    *   **Cons:** May lack some of the deeper functionality for very large, complex organizations compared to Salesforce or Blackbaud.\n    *   **Best for:** Small to mid-sized organizations prioritizing donor relationships, ease of use, and data-driven donor retention strategies.\n\n3.  **Neon One (Neon CRM):**\n    *   **Pros:** Comprehensive all-in-one platform with robust modules for membership management, events, fundraising, and donor management. Good integrations.\n    *   **Cons:** Can be a bit pricier than some entry-level options, and the interface, while functional, might not be as modern as Bloomerang or Virtuous for some users.\n    *   **Best for:** Non-profits with diverse needs, especially those heavily involved in membership, events, or education programs alongside fundraising.\n\n4.  **Virtuous:**\n    *   **Pros:** Modern interface, strong focus on donor journey automation and \"responsive fundraising.\" Excellent marketing automation, robust reporting, and AI-driven insights.\n    *   **Cons:** Generally more expensive than Bloomerang or Little Green Light, targeting mid-sized to larger organizations.\n    *   **Best for:** Growth-oriented non-profits looking for sophisticated marketing automation, personalized donor experiences, and advanced analytics.\n\n5.  **Blackbaud Products (Raiser's Edge NXT, eTapestry, Luminate CRM):**\n    *   **Pros:** Blackbaud is a giant in the non-profit space, offering a range of products catering to different sizes and needs. Raiser's Edge NXT is a very powerful, comprehensive solution. eTapestry is a simpler, cloud-based option.\n    *   **Cons:** Can be complex and expensive, especially for Raiser's Edge. Customer service can be",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 627,
+  "estimated_cost_usd": 0.001569,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

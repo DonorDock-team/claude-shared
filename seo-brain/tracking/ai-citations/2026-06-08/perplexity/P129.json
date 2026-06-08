@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P129",
+  "prompt_text": "Bloomerang limitations",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.564511+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang\u2019s main limitations include being best suited to small\u2013mid sized nonprofits, not functioning as a true all\u2011in\u2011one system, some constraints in customization and reporting, and cost/fees that can be significant depending on your budget and payment volume.[2][6][7]\n\nKey limitations to be aware of:\n\n- **Best fit for small\u2013mid sized organizations**  \n  Bloomerang is designed around simplicity and donor retention, which works very well for many small and mid-sized nonprofits, but **very large or highly complex organizations** (multi-program, complex advocacy, heavy custom workflows) may outgrow its capabilities and prefer more extensible platforms like Salesforce.[2]\n\n- **Not an \u201call\u2011in\u2011one\u201d platform**  \n  It is primarily a **donor CRM and fundraising tool**, not a full marketing or operations suite.[2]  \n  - You will typically still need separate tools for advanced email automation, social media management, or complex marketing journeys, even though Bloomerang provides integrations.[2]  \n  - This means more systems to configure, manage, and pay for if you want a single integrated tech stack.[2]\n\n- **Customization and reporting constraints**  \n  User reviews note **limitations in custom fields, profile fields, and report configuration**.[7]  \n  - Some organizations find they cannot set up every field or relationship exactly as they\u2019d like.  \n  - Reports can be restricted in how filters and columns are built and filtered, which can frustrate power users who need very granular or highly customized analytics.[7]\n\n- **Cost and pricing considerations**  \n  - Subscription cost scales with the number of records (contacts) and is a real infrastructure investment; some smaller or early\u2011stage nonprofits may perceive it as expensive compared to \u201cfree\u201d tools.[2][4]  \n  - While Bloomerang emphasizes transparent, record\u2011based pricing and unlimited users, the total cost of ownership can rise as your database grows and as you add complementary tools for things it does not handle natively.[2][4]\n\n- **Payment processing lock\u2011in and fees**  \n  A comparison review notes that you are **locked into Bloomerang\u2019s payment processing**, with typical **2.9% + $0.30 per transaction plus an additional 1% for peer\u2011to\u2011peer fundraising**.[6]  \n  - This reduces flexibility to choose alternative processors that might offer different fee structures or negotiated rates.  \n  - For high\u2011volume organizations, these fees can add up significantly.\n\n- **Fundraising/CRM separation for some features**  \n  Bloomerang Fundraising (formerly Qgiv) processes certain transactions separately from the core CRM, and those **cannot be refunded inside the CRM interface**.[3]  \n  - Staff need to understand which system handles which part of the workflow (e.g., refunds, detailed recurring schedule management), which adds some operational complexity.[3]\n\n- **Specific feature incompatibilities and edge\u2011case constraints**  \n  Documentation highlights some **product\u2011level limitations**, for example:  \n  - **Multi\u2011Restriction Giving is not compatible with Smart Amounts** on donation forms\u2014you must choose one or the other.[1]  \n  - Kiosk donation forms **do not support donor\u2011written sub\u2011restrictions**, limiting flexibility for in\u2011person giving.[1]  \n\nIf you share your organization\u2019s size, complexity, and must\u2011have features, I can map which of these limitations are likely to matter most in your situation and suggest workarounds or alternative tools.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 724,
+  "estimated_cost_usd": 0.015878,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://help.bloomerang.com/en/articles/13382454-donation-forms-form-settings-restrictions",
+      "https://designbycosmic.com/guides/nonprofit-branding/bloomerang/",
+      "https://help.bloomerang.com/en/articles/12632870-bloomerang-fundraising-basics",
+      "https://bloomerang.com/pricing",
+      "https://bloomerang.com/experience/impact",
+      "https://4agoodcause.com/blackbaud-vs-bloomerang/",
+      "https://www.softwareadvice.com/nonprofit/bloomerang-profile/reviews/"
+    ]
+  }
+}

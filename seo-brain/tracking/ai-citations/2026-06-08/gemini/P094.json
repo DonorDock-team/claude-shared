@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P094",
+  "prompt_text": "Hidden costs of Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.564666+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a popular CRM for nonprofits, often praised for its user-friendliness and strong focus on donor engagement. However, like any software, there are \"hidden costs\" that aren't immediately apparent on the pricing page. These primarily revolve around the investment of **time, staff resources, and the need for complementary tools or services.**\n\nHere are some of the common hidden costs associated with Bloomerang (and many other CRMs):\n\n1.  **Data Migration & Cleanup:**\n    *   **Time & Effort:** Moving your existing donor data (from spreadsheets, old databases, etc.) into Bloomerang is a significant undertaking. This involves cleaning duplicates, standardizing formats, filling in missing information, and mapping fields.\n    *   **Consultant Fees:** If your data is complex or extensive, you might need to hire a data migration specialist or a consultant familiar with Bloomerang to ensure a smooth transition, which adds a significant upfront cost.\n\n2.  **Initial Setup & Customization:**\n    *   **Configuration Time:** Setting up custom fields, appeals, funds, campaigns, user roles, and dashboards to perfectly match your organization's unique needs takes time and strategic planning from your staff.\n    *   **Integration Setup:** Connecting Bloomerang with your website forms, email marketing tools (if not using Bloomerang's built-in email), accounting software, or other platforms can require setup time and potentially the use of middleware like Zapier (which has its own subscription cost).\n\n3.  **Staff Training & Onboarding:**\n    *   **Lost Productivity:** While Bloomerang is intuitive, there's still a learning curve for staff. Time spent in training sessions, watching tutorials, and practicing within the system is time not spent on direct fundraising or program activities.\n    *   **Ongoing Training:** As new staff join or Bloomerang releases updates, continuous training is needed.\n\n4.  **Ongoing Data Management & Maintenance:**\n    *   **Data Entry & Hygiene:** Maintaining clean and up-to-date data is an ongoing process.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 424,
+  "estimated_cost_usd": 0.001061,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

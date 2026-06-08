@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P077",
+  "prompt_text": "How to track major donor moves management",
+  "engine": "anthropic",
+  "timestamp": "2026-06-08T12:30:34.564682+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Major Donor Moves Management Tracking\n\n## Core System Components\n\n### 1. **Identification & Qualification**\n- Wealth screening scores\n- Capacity ratings ($10K, $50K, $100K+)\n- Propensity to give (interest level)\n- Connection strength to your mission\n\n### 2. **The Moves Management Cycle**\n\nTrack each donor through these stages:\n\n- **Identification** - Prospect identified\n- **Qualification** - Capacity/interest verified\n- **Cultivation** - Building relationship\n- **Solicitation** - Ask made\n- **Stewardship** - Thank and engage\n- **Re-cultivation** - Prepare for next ask\n\n### 3. **Essential Tracking Fields**\n\n**Contact Information:**\n- Stage in moves management cycle\n- Assigned officer/relationship manager\n- Giving capacity estimate\n- Lifetime giving total\n\n**Activity Tracking:**\n- Last contact date and type\n- Next planned action and date\n- Number of touches (goal: 7-12 annually)\n- Meeting notes and outcomes\n\n**Strategy:**\n- Cultivation plan/strategy\n- Interests and affinities\n- Ask amount and timing\n- Preferred communication methods\n\n## Tracking Tools\n\n### **CRM/Database Options:**\n- **Salesforce** (with Nonprofit Success Pack)\n- **Bloomerang**\n- **DonorPerfect**\n- **Raiser's Edge/NXT**\n- **Excel/Google Sheets** (for smaller portfolios)\n\n### **Simple Spreadsheet Approach:**\n\n| Donor Name | Stage | Officer | Capacity | Last Contact | Next Action | Action Date | Notes |\n|------------|-------|---------|----------|--------------|-------------|-------------|-------|\n\n## Best Practices\n\n### **Portfolio Management**\n- Major gift officers: 75-150 active prospects\n- Frontline fundraisers: 20-50 prospects\n- Board members: 5-10 prospects each\n\n### **Activity Goals**\n- 7-12 meaningful touches per year\n- Face-to-face visits: quarterly for top prospects\n- Track days since last contact\n- Set automatic reminders for follow-up\n\n### **Regular Reviews**\n- **Weekly:** Review upcoming activities\n- **Monthly:** Portfolio progress meetings\n- **Quarterly:** Strategic reassessment\n- **Annually:** Portfolio realignment\n\n## Key Metrics to Monitor\n\n1. **Pipeline metrics:**\n   - Number at each stage\n   - Average time in each stage\n   - Conversion rates between stages\n\n2. **Activity metrics:**\n   - Visits completed\n   - Proposals submitted\n   - Asks made\n\n3. **Results:**\n   - Dollars raised\n   - Average gift size\n   - Retention rate\n\n## Red Flags to Watch\n\n- \u26a0\ufe0f No contact in 90+ days\n- \u26a0\ufe0f Stuck in same stage >6 months\n- \u26a0\ufe0f Repeated \"next steps\" never completed\n- \u26a0\ufe0f Declining engagement\n\n## Quick Start Action Plan\n\n1. **Week 1:** List all prospects with $1K+ giving potential\n2. **Week 2:** Assign stage and officer to each\n3. **Week 3:** Schedule next action for each prospect\n4. **Week 4:** Set up tracking system and weekly review process\n\n**Remember:** The best system is the one you'll actually use consistently. Start simple and build complexity as needed.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 783,
+  "estimated_cost_usd": 0.011787,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

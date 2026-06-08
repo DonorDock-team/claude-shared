@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P095",
+  "prompt_text": "Hidden costs of DonorPerfect",
+  "engine": "perplexity",
+  "timestamp": "2026-06-08T12:30:34.564773+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The main \u201chidden\u201d costs of **DonorPerfect** are not in the base subscription, but in **payment processing fees, paid add-ons/modules, implementation (data migration), and some support/training and integration needs**.[1][3]\n\nHere are the key areas to watch:\n\n1. **Payment processing (DP Payments)**\n   - DonorPerfect\u2019s integrated processor (DP Payments / SafeSave) typically charges **2.89%\u20133.39% + $0.30 per credit/debit card transaction** and **0.75% + $0.35 for ACH** in the US.[1][3][6]  \n   - These fees are **on top of** your software subscription and scale with your fundraising volume.  \n     - Example from a verified breakdown: on **$500,000** processed at 2.89% + $0.30, your processing bill is about **$14,600/year**; at higher effective rates it can reach **$14,450\u2013$16,950/year**.[1]  \n   - Compared with nonprofit rates from Stripe or other processors, this can be **0.7\u20131.2 percentage points higher**, costing an extra **$3,450\u2013$5,950 per year on $500,000 raised**.[1]  \n   - You are effectively **locked into their processor** if you want full integration; alternative platforms sometimes let you plug in your own processor instead.[3]\n\n2. **Feature-based tiers and add-ons**\n   - DonorPerfect does **not publish fixed prices by tier**; you must \u201cget a quote,\u201d which makes it harder to predict the total when you need advanced features.[1][7]  \n   - Several capabilities are **not included in lower tiers** and may require higher plans or paid modules, for example:  \n     - **Peer\u2011to\u2011peer fundraising, events, auctions, and some ticketing tools** often require higher\u2011tier plans or third\u2011party integrations.[3]  \n     - **Advanced analytics (SmartAnalytics), custom API access, texting (DP Text), and premium support add-ons** carry additional, unpublished pricing and require conversations with sales.[1]  \n   - User reviews cited in independent analyses mention **opacity and cost of add-ons** as a recurring frustration.[1]\n\n3. **Data migration and implementation**\n   - DonorPerfect advertises **no setup fee** on some comparison sites, but **data migration is not fully free**.[1]  \n   - Third\u2011party estimates place **data migration** at about **$500\u2013$2,000 one\u2011time**, depending on record volume and data complexity.[1]  \n   - If your existing data needs cleaning, field mapping, or custom imports, you can expect additional consulting time (often not obvious in initial quotes).\n\n4. **Training and support beyond the basics**\n   - DonorPerfect includes a **new user webinar series, knowledge base, and some CFRE\u2011certified webinars at no cost**.[1]  \n   - However, **training beyond standard webinars** (e.g., organization\u2011specific workshops, tailored onboarding) is **billable and varies by scope**.[1]  \n   - For some lower tiers (Core/Plus), **phone and email support can be an upgrade**, and pricing for enhanced support is **not published**.[1]\n\n5. **Growth-driven price jumps**\n   - Pricing is **based on constituent count (size of your database), not number of users**.[1]  \n   - As your donor file grows, you may be moved into a higher band and potentially a **higher tier** to get features like advanced reporting, moves management, or accounting integrations (e.g., QuickBooks), which increases the monthly rate even if your staff count hasn\u2019t changed.[1]  \n   - Because list\u2011size bands and prices are not public, this growth cost is hard to calculate in advance.\n\n6. **Integrations and complementary tools**\n   - Some functions you might assume are \u201cbuilt\u2011in\u201d may require either:\n     - **Paid add\u2011ons**, or  \n     - **Third\u2011party tools** (with their own subscription and/or processing costs).  \n   - Examples: certain event/auction features, text\u2011to\u2011give, and more advanced marketing automations often rely on outside vendors or upper\u2011tier bundles.[1][3]  \n   - DonorPerfect\u2019s own marketing frequently frames \u201chidden fees\u201d as a problem with competing platforms like Virtuous or Givebutter, but from a buyer perspective, DonorPerfect\u2019s **bundling and add\u2011on structure can itself function as hidden TCO** if you only price the base license.[2][4]\n\n7. **Illustrative total cost of ownership (TCO) for year 1**\n   Independent breakdowns for a typical mid\u2011sized nonprofit show something like:[1]  \n   - **Base subscription** (3rd\u2011party reported): ~**$119/month** \u2192 **~$1,428/year**.  \n   - **Payment processing** at 2.89% + $0.30:\n     - On **$100,000 raised**: ~**$2,900+** in fees.  \n     - On **$500,000 raised**: ~**$14,600+** in fees.[1]  \n   - **Data migration (one\u2011time)**: roughly **$500\u2013$2,000**.[1]  \n   - **Optional training / add\u2011ons / premium support**: variable; can add thousands depending on what you adopt.  \n   - A realistic **year\u2011one range** for a mid\u2011size org processing ~$500k online can end up around **$16,000\u2013$20,000+**, mainly driven by processing and implementation rather than the subscription alone.[1]\n\nIf you tell me your approximate donor count and annual online donation volume, I can map these numbers to a more specific DonorPerfect cost estimate for your situation and highlight which add-ons are most likely to affect you.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect",
+    "Givebutter",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1248,
+  "estimated_cost_usd": 0.023741,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://checkthat.ai/brands/donorperfect/pricing",
+      "https://www.donorperfect.com/fundraising-software/compare-donor-management-systems/givebutter/",
+      "https://www.zeffy.com/compare/zeffy-vs-donorperfect",
+      "https://www.donorperfect.com/fundraising-software/compare-donor-management-systems/virtuous/",
+      "https://www.vardot.com/en/ideas/blog/donation-platform-fees-hidden-costs-nonprofits-cant-afford-ignore",
+      "https://www.donorperfect.com/video/the-ins-and-outs-of-monthly-giving-webinar/",
+      "https://www.donorperfect.com/fundraising-software/pricing-guide/",
+      "https://www.donorperfect.com/video/donorperfects-new-pricing/",
+      "https://www.donorperfect.com/nonprofit-technology-blog/fundraising-software/donation-and-credit-card-processing-for-nonprofits/",
+      "https://www.shareservices.co/blog/hidden-costs-donor-platforms"
+    ]
+  }
+}

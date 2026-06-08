@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P134",
+  "prompt_text": "Why nonprofits leave Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-06-08T12:30:34.562250+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a popular donor management and fundraising software known for its user-friendliness, focus on donor retention, and strong customer support. For many small to mid-sized nonprofits, it's an excellent fit.\n\nHowever, nonprofits sometimes leave Bloomerang, usually not because the software is \"bad,\" but because their needs evolve or they discover a better fit for their specific and growing complexity. Here are the most common reasons:\n\n1.  **Scalability and Advanced Feature Needs:** This is by far the most frequent reason.\n    *   **Complex Fundraising:** As organizations grow, they might need more sophisticated tools for major gift tracking, planned giving, complex grant management workflows, or advanced campaign segmentation that Bloomerang's core functionality doesn't fully support.\n    *   **Event Management:** While Bloomerang has basic event capabilities, larger organizations with complex events (multi-tier ticketing, table assignments, sponsorship tracking, check-in apps, etc.) often find it insufficient and need dedicated event software or a CRM with more robust built-in event features.\n    *   **Volunteer Management:** Bloomerang isn't designed as a comprehensive volunteer management system. Nonprofits relying heavily on volunteers may need a separate system or a CRM that integrates volunteer tracking more deeply.\n    *   **Accounting Integration:** While Bloomerang integrates with QuickBooks and offers data exports, organizations with more complex accounting needs might require deeper, two-way integration with their specific ERP or accounting software that Bloomerang might not provide.\n    *   **Reporting & Analytics:** For organizations that require highly customized dashboards, complex data visualizations, predictive analytics, or integration with external business intelligence tools, Bloomerang's reporting might not offer the depth or flexibility they need.\n\n2.  **Integration Challenges:**\n    *   While Bloomerang has a good API and integrates with many popular tools (Mailchimp, Constant Contact, QuickBooks, Zapier, etc.), some nonprofits have unique tech stacks or require deeper, more customized integrations with specific niche software that Bloomerang doesn't natively support, or where a custom integration might be too costly.\n\n3.  **Cost vs. Value for Larger/Complex Orgs:**\n    *   As an organization grows and requires more advanced features or higher tiers of Bloomerang, the cost can sometimes approach that of more robust enterprise-level CRMs. At this point, some nonprofits evaluate whether the additional investment in Bloomerang (or add-ons) provides the same value as switching to a platform designed for greater complexity.\n\n4.  **Desire for Greater Customization:**\n    *   Some nonprofits have very specific workflows, data fields, or database structures that they want to implement directly within their CRM. While Bloomerang offers custom fields, it might not provide the level of granular customization or unique architectural flexibility found in platforms like Salesforce.\n\n5.  **Organizational Growth or Change:**\n    *   **Mergers/",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 598,
+  "estimated_cost_usd": 0.001497,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}
