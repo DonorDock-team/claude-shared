@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P001",
+  "prompt_text": "What is DonorDock",
+  "engine": "gemini",
+  "timestamp": "2026-06-11T11:13:47.310638+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**DonorDock** is a cloud-based **Donor Relationship Management (DRM) software specifically designed for non-profit organizations.**\n\nThink of it as a central hub where non-profits can manage all aspects of their fundraising, donor interactions, and administrative tasks related to their supporters.\n\nHere's a breakdown of what DonorDock typically does:\n\n1.  **Donor Management:**\n    *   **Centralized Database:** Stores comprehensive donor profiles, including contact information, communication history, giving history, interests, and relationships.\n    *   **Segmentation:** Allows organizations to segment donors into different groups (e.g., major donors, first-time donors, volunteers) for targeted communication.\n    *   **Relationship Tracking:** Helps staff track interactions, pledges, and important notes about each donor to build stronger relationships.\n\n2.  **Fundraising Tools:**\n    *   **Online Donation Pages:** Creates customizable, mobile-friendly online forms for one-time and recurring donations.\n    *   **Campaign Management:** Helps track the progress and performance of different fundraising campaigns.\n    *   **Pledge Management:** Records and tracks donor pledges.\n    *   **Event Management (Basic):** Can assist with managing registrations and attendee information for events.\n\n3.  **Communication & Engagement:**\n    *   **Email Marketing:** Integrates with email tools or has built-in features for sending newsletters, campaign updates, and personalized appeals.\n    *   **Automated Acknowledgments:** Automatically sends personalized thank-you emails and tax receipts after donations are made.\n    *   **Direct Mail Support:** Helps generate mailing lists for physical appeals.\n\n4.  **Reporting & Analytics:**\n    *   **Dashboards:** Provides visual overviews of fundraising performance, donor retention, and other key metrics.\n    *   **Custom Reports:** Allows organizations to generate detailed reports on donations, campaigns, and donor demographics to inform strategic decisions.\n\n5.  **Payment Processing:**\n    *   **Integration with Payment Gateways:** Often integrates seamlessly with popular payment processors like Stripe to securely handle online donations.\n\n**In essence, DonorDock aims to help non-profits:**\n*   **Increase fundraising efficiency and effectiveness.**\n*   **Build stronger, more lasting relationships with their donors.**\n*   **Streamline administrative tasks.**\n*   **Gain insights into their donor base to make data-driven decisions.**\n\nIt's particularly popular among **small to medium-sized non-profits** looking for an all-in-one, user-friendly, and often more affordable solution than some of the larger, more complex CRM systems.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 542,
+  "estimated_cost_usd": 0.001356,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

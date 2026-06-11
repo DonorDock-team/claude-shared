@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P048",
+  "prompt_text": "Donor CRM for nonprofits outgrowing their current tools",
+  "engine": "anthropic",
+  "timestamp": "2026-06-11T11:13:47.310342+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM Solutions for Growing Nonprofits\n\nWhen your nonprofit outgrows basic tools like spreadsheets or entry-level software, here are the top CRM options to consider:\n\n## **Top-Tier Options**\n\n### **Salesforce Nonprofit Cloud**\n- **Best for:** Mid to large organizations with complex needs\n- **Strengths:** Highly customizable, robust reporting, extensive integrations\n- **Considerations:** Steeper learning curve, may require dedicated admin\n- **Pricing:** 10 free licenses, then discounted nonprofit rates\n\n### **Bloomerang**\n- **Best for:** Orgs focused on donor retention\n- **Strengths:** Excellent retention analytics, user-friendly, strong support\n- **Ideal size:** Small to mid-sized nonprofits\n- **Pricing:** ~$125-$500/month depending on contacts\n\n### **NeonCRM**\n- **Best for:** All-in-one solution seekers\n- **Strengths:** Fundraising, events, membership, email marketing integrated\n- **Great for:** Organizations wanting to consolidate tools\n- **Pricing:** Starting ~$50/month\n\n## **Mid-Range Powerhouses**\n\n### **DonorPerfect**\n- Comprehensive fundraising features\n- Strong reporting capabilities\n- ~$89+/month\n\n### **Kindful (by Bloomerang)**\n- Modern interface\n- Good for online fundraising focus\n- Integration with popular tools\n\n### **Little Green Light**\n- Affordable but powerful\n- Excellent customer service\n- ~$39+/month\n\n## **What to Evaluate**\n\n**Before choosing, assess:**\n- Current database size & growth trajectory\n- Required integrations (email, accounting, website)\n- Reporting needs\n- Staff technical capacity\n- Budget for implementation + ongoing costs\n- Need for event management, email marketing, peer-to-peer fundraising\n\n**Questions I can help with:**\n- What's your current donor database size?\n- What specific features are you missing now?\n- What's your budget range?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 21,
+  "output_tokens": 466,
+  "estimated_cost_usd": 0.007053,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

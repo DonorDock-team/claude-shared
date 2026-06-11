@@ -1,0 +1,33 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "perplexity",
+  "timestamp": "2026-06-11T11:13:47.311066+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Several donor CRMs offer **flat-rate (or no) pricing with no per\u2011user fees**. The main differences are whether they charge a **fixed subscription** vs. **only transaction fees** and how robust the CRM tools are.\n\n### 1. Completely free CRM, no per\u2011user, no subscription  \nThese work as donor CRMs and fundraising platforms and only charge **transaction fees** (often covered by donors):\n\n- **Givingtech**  \n  - **Pricing:** $0/month, **no per\u2011user fees**, no setup, no feature tiers.[1]  \n  - **CRM:** Full **donor & lead CRM**, unlimited contacts, donation history, segments, relationship tracking.[1]  \n  - **Fees:** Platform is free; you only pay a small fee on donations, and they report an average effective fee of **1.6%** because many donors cover fees.[1]  \n  - Can be used as a standalone CRM even if you never process donations through them.[1]  \n\n- **Fundraise Up**  \n  - **Pricing:** No subscription, **no per\u2011user limits**, all features included; they describe it as a \u201cstraightforward flat\u2011rate fee\u201d model based on performance.[2]  \n  - **CRM:** Primarily a high\u2011conversion fundraising platform with unlimited users and integrations; can function as part of a donor\u2011data stack.[2]  \n  - **Fees:** **4% transaction fee** + Stripe/PayPal processing, with ~80% of donors covering the fee.[2]  \n\nThese two match \u201cflat rate / no per\u2011user\u201d most closely if you\u2019re comfortable with a **pay\u2011per\u2011donation** model instead of a fixed monthly bill.\n\n### 2. Traditional CRMs with flat\u2011rate (fixed) pricing, no per\u2011user  \nSome nonprofit CRMs sell on a **flat monthly/annual rate** that doesn\u2019t change with user count:\n\n- **LiveImpact** (example of category)  \n  - Describes **flat\u2011rate pricing** as one monthly/annual fee regardless of users or records, specifically highlighting \u201cno per\u2011user\u201d as a key model.[4]  \n  - In a separate comparison, LiveImpact notes that for small nonprofits, \u201cpricing is flat\u2011rate, meaning you pay one price regardless of how many users you have,\u201d which is aimed at encouraging growth without adding user fees.[8]  \n  - You would need to check their current tiers for exact dollar amounts, but the structure is explicitly flat\u2011rate, not per\u2011user.[4][8]  \n\nMany other CRMs (Bloomerang, Little Green Light, Neon, etc.) often charge **per user** or scale by contacts, so you\u2019d need to screen them carefully; review articles point out that per\u2011user or per\u2011contact pricing is still common in this space.[7]\n\n### 3. \u201cZero\u2011fee\u201d / donor\u2011tipping fundraising platforms with CRM features  \nThese can double as light CRMs, often with **no subscription or per\u2011user fees**, and rely on tips or processing fees:\n\n- A 2025 overview of nonprofit platforms cites **Give Lively, Zeffy, Givebutter, Every.org, BetterWorld** as \u201czero\u2011fee fundraising platforms\u201d that remove platform/subscription fees and often rely on optional **donor tips**.[3]  \n- They usually include basic donor management (contact records, giving history), which is enough for many small\u2013mid\u2011sized nonprofits, and the article notes this model is often **most cost\u2011effective for small to mid\u2011sized orgs**.[3]  \n- You\u2019d still pay standard payment processing of ~**2.2% + $0.30** per transaction in many cases (or have donors cover it).[3][6]  \n\n### How to choose among them\n\nIf your priority is **no per\u2011user fees and minimal fixed cost**:\n\n- For a **full CRM + fundraising** with no subscription and no per\u2011user:\n  - Start with **Givingtech** if you want an all\u2011in\u2011one donor CRM and campaigns platform with essentially no fixed cost.[1]  \n  - Consider **Fundraise Up** if you care more about high\u2011conversion online giving and are okay with a higher per\u2011transaction fee but unlimited users and features.[2]  \n\n- For a **fixed, predictable bill with no per\u2011user charges**:\n  - Look at **flat\u2011rate CRMs** like **LiveImpact**, which explicitly markets one price regardless of users.[4][8]  \n  - Ask any vendor directly: \u201cIs your pricing per\u2011user, per\u2011contact, or truly flat per org?\u201d\n\n- For **very small or budget\u2011constrained orgs**:\n  - Evaluate the \u201czero\u2011fee\u201d platforms (Give Lively, Zeffy, Givebutter, etc.) listed in the nonprofit pricing analysis\u2014these provide donor management plus fundraising with no platform fee and optional donor tips covering costs.[3]  \n\nIf you share your approximate contact count, online giving volume, and must\u2011have features (e.g., email, events, grants, pledges), I can narrow this down to 1\u20132 best\u2011fit options.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Givebutter",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 1080,
+  "estimated_cost_usd": 0.021236,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://givingtech.org/pricing",
+      "https://fundraiseup.com/pricing/",
+      "https://www.givelively.org/blog/how-much-do-nonprofit-fundraising-platforms-actually-cost",
+      "https://www.liveimpact.org/blog/nonprofit-crm-pricing",
+      "https://givebutter.com/blog/best-free-crm-for-nonprofits",
+      "https://bloomerang.com/blog/free-nonprofit-software",
+      "https://www.fiftyandfifty.org/blog/best-nonprofit-crms",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "gemini",
+  "timestamp": "2026-06-11T11:13:47.311260+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Givebutter are both powerful tools for nonprofits, but they serve different primary purposes. Understanding these differences is key to choosing the right platform for your organization.\n\n**The Short Answer:**\n\n*   **DonorDock:** Primarily a **Donor Relationship Management (CRM)** system with integrated fundraising tools. It's designed for managing your donor data, tracking relationships, and streamlining communications over the long term.\n*   **Givebutter:** Primarily an **online fundraising platform** focused on creating engaging campaigns, events, and peer-to-peer efforts. It excels at collecting donations and facilitating various types of fundraising initiatives.\n\nThink of it this way:\n\n*   **DonorDock is your central hub for ALL donor data and relationship management.**\n*   **Givebutter is your dynamic front-end for running specific fundraising campaigns.**\n\n---\n\n### DonorDock vs. Givebutter: A Detailed Comparison\n\n| Feature                 | DonorDock                                                | Givebutter                                                      |\n| :---------------------- | :------------------------------------------------------- | :-------------------------------------------------------------- |\n| **Primary Purpose**     | **Donor Relationship Management (CRM)**, Gift Tracking, Communication, Reporting, Segmentation | **Online Fundraising Campaigns**, Event Management, Peer-to-Peer, Ticketing, Crowdfunding |\n| **Core Functionality**  | - Comprehensive donor profiles<br>- Gift & pledge tracking<br>- Communication tools (email, mail merge)<br>- Segmentation & reporting<br>- Grant tracking<br>- Online donation forms<br>- Task & activity management<br>- Prospect research                                        | - Crowdfunding pages<br>- Peer-to-peer fundraising<br>- Event ticketing & registration<br>- Text-to-give<br>- Live stream fundraising<br>- Auction tools<br>- Basic donor profiles (tied to campaigns)<br>- Team fundraising                                                |\n| **Target Audience**     | Nonprofits of all sizes needing robust donor data management, long-term relationship building, and comprehensive reporting. | Nonprofits, schools, and individuals looking for modern, engaging, and easy-to-use tools for specific fundraising campaigns and events. |\n| **Pricing Model**       | **Subscription-based.** Tiered pricing usually based on the number of active donors or records, offering varying features. You pay a monthly or annual fee. | **\"Free\" platform** with optional donor tipping. They primarily make money through payment processing fees (e.g., 2.9% + $0.30 per transaction), which donors often cover (tip). There might be premium features or specific pricing for advanced tools. |\n| **Donor Management**    ",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 541,
+  "estimated_cost_usd": 0.001354,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

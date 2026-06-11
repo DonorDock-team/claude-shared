@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "gemini",
+  "timestamp": "2026-06-11T11:13:47.311294+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Both DonorDock and Keela are popular choices for nonprofit organizations seeking to streamline their donor management, fundraising, and communication efforts. While they share core functionalities, they have different strengths and philosophies that make them suitable for different types of organizations.\n\nHere's a breakdown to help you decide:\n\n---\n\n## DonorDock\n\n**Core Philosophy:** Modern, intuitive donor management and fundraising software designed to provide actionable insights and improve donor engagement, particularly strong in its CRM and reporting.\n\n**Key Strengths:**\n\n1.  **Exceptional Donor CRM:** Often praised for its user-friendly interface and comprehensive donor profiles, making it easy to track interactions, giving history, and segment donors.\n2.  **Actionable Insights & Reporting:** DonorDock excels at providing clear, understandable dashboards and reports that help organizations identify trends, predict giving, and understand donor behavior. This is a big differentiator.\n3.  **Modern User Interface (UI):** Generally considered very clean, modern, and easy to navigate, leading to a quicker onboarding process and less frustration for staff.\n4.  **Streamlined Fundraising Tools:** Offers robust online donation forms, campaign management, and pledge tracking, all integrated seamlessly with the CRM.\n5.  **Focus on Donor Engagement:** Designed to help you not just manage donors, but truly understand and engage with them more effectively.\n6.  **Transparent Pricing:** Often offers straightforward, tiered pricing models that are easy to understand.\n\n**Potential Considerations:**\n\n*   **Less \"All-in-One\":** While strong in CRM and fundraising, it might not offer the same breadth of integrated features as Keela (e.g., dedicated volunteer management or extensive grant tracking). You might need to integrate with other tools for these functions.\n*   **Newer Player:** While rapidly gaining traction, it's a newer platform compared to some older systems, though this often means a more modern tech stack.\n\n**Best For:**\n\n*   Small to mid-sized nonprofits whose primary focus is **excellent donor relationship management and data-driven fundraising**.\n*   Organizations that prioritize a **modern, intuitive, and easy-to-use interface**.\n*   Teams that want **actionable insights and clear reporting** to make better fundraising decisions.\n*   Organizations that are comfortable integrating with other specialized tools (e.g., a separate volunteer management system) if those needs are extensive.\n\n---\n\n## Keela\n\n**Core Philosophy:** An \"all-in-one\"",
+  "donordock_mentioned": true,
+  "donordock_position": 5,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 511,
+  "estimated_cost_usd": 0.001279,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

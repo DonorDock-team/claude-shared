@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P094",
+  "prompt_text": "Hidden costs of Bloomerang",
+  "engine": "anthropic",
+  "timestamp": "2026-06-11T11:13:47.311239+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Bloomerang\n\nWhile Bloomerang advertises transparent pricing, here are potential hidden or additional costs to consider:\n\n## 1. **Implementation & Setup**\n- Data migration from your old CRM (can be complex and time-consuming)\n- Staff training time and learning curve\n- Custom field setup and configuration\n\n## 2. **Add-On Features**\n- **Email marketing beyond limits** - Basic plans have sending restrictions\n- **Additional user seats** - Costs increase per user\n- **SMS/text messaging** - Separate fees apply\n- **Wealth screening** - Premium feature, not included in base plans\n- **Advanced reporting** - Some sophisticated reports may require higher tiers\n\n## 3. **Integration Costs**\n- Payment processor fees (Stripe, PayPal, etc.)\n- Third-party integration tools (Zapier subscriptions if needed)\n- Accounting software sync features may have limitations\n- Event management integrations\n\n## 4. **Transaction Fees**\n- Online donation processing fees (typically 2-3% + per transaction)\n- ACH/credit card processing costs\n- International transaction fees\n\n## 5. **Support Limitations**\n- Priority support may only be available on higher tiers\n- Limited phone support on basic plans\n- Custom development/consulting services cost extra\n\n## 6. **Scaling Costs**\n- Price increases as contact database grows\n- Additional storage for documents/attachments\n- Advanced segmentation features on higher tiers\n\n## 7. **Time Investment**\n- Staff hours for system maintenance\n- Regular data cleaning and updates\n- Report generation and customization\n\n**Pro Tip**: Always request a detailed quote and ask specifically about limitations on your intended plan tier before committing.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 388,
+  "estimated_cost_usd": 0.005862,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

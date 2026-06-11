@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "anthropic",
+  "timestamp": "2026-06-11T11:13:47.311200+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Givebutter Comparison\n\nBoth are modern donor management platforms, but they serve different niches and have distinct strengths.\n\n## **Givebutter**\n\n### Strengths:\n- **Free for most features** - Pay-what-you-want model (suggested 1-5%)\n- **Excellent for fundraising campaigns** - Peer-to-peer, events, auctions\n- **Beautiful donation forms** - Modern, mobile-optimized\n- **Strong social fundraising tools** - Easy sharing and engagement\n- **Great for smaller organizations** getting started\n- **Built-in livestream fundraising** and event ticketing\n\n### Limitations:\n- Less robust CRM capabilities\n- Basic reporting compared to traditional donor databases\n- Better for campaigns than comprehensive donor management\n- Limited customization for complex needs\n\n## **DonorDock**\n\n### Strengths:\n- **Full-featured CRM** built specifically for nonprofits\n- **Relationship tracking** - Comprehensive donor histories\n- **Task management** and donor engagement workflows\n- **More affordable than traditional CRMs** like Bloomerang\n- **Better for ongoing donor stewardship**\n- **Stronger reporting** for donor analytics\n- **Email integration** and communication tracking\n\n### Limitations:\n- Monthly subscription cost (~$99-149/month)\n- Less flashy fundraising campaign tools\n- Smaller platform with fewer integrations\n- Not as established as legacy systems\n\n## **Which to Choose?**\n\n**Choose Givebutter if you:**\n- Run regular fundraising campaigns or events\n- Have a tight budget\n- Need beautiful, shareable donation pages\n- Are a smaller organization (<$500K budget)\n\n**Choose DonorDock if you:**\n- Need comprehensive donor relationship management\n- Want to track donor interactions and tasks\n- Require detailed reporting and analytics\n- Focus on major gifts and donor cultivation\n\n**Consider both:** Some organizations use Givebutter for campaigns and DonorDock for donor management!\n\nWhat's your organization's primary need?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 460,
+  "estimated_cost_usd": 0.006951,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

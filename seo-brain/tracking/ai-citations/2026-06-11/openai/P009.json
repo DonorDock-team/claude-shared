@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "openai",
+  "timestamp": "2026-06-11T11:13:47.311220+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Givebutter are both platforms designed to assist non-profit organizations with their fundraising efforts, but they offer different features and services tailored to different needs. Below is a comparison of the two:\n\n### DonorDock:\n\n**Features:**\n- **Donor Management:** DonorDock provides robust CRM (Customer Relationship Management) capabilities, helping organizations manage donor relationships, track contributions, and streamline communication.\n- **Fundraising Tools:** Offers tools to manage campaigns, events, and pledges. Users can set up donation pages, track campaign performance, and integrate with other platforms.\n- **Automation:** Features automation for thank-you emails, receipts, and reminders for recurring donations.\n- **Reporting and Analytics:** Provides detailed reports on donor history, campaign performance, and financial metrics.\n- **Integration:** Integrates with popular tools like QuickBooks, MailChimp, and Google Suite for streamlined operations.\n\n**User Experience:**\n- Generally user-friendly, though it may require some initial setup to customize according to an organization\u2019s specific needs.\n\n**Pricing:**\n- Typically subscription-based with various tiers depending on the features and the size of the donor database.\n\n### Givebutter:\n\n**Features:**\n- **Donation Forms & Pages:** Provides custom, embeddable donation forms and pages that can be tailored to fit the brand of the organization.\n- **Campaign Flexibility:** Supports peer-to-peer fundraising, events, and crowdfunding. It's particularly known for its user-friendly interface for organizing various types of campaigns.\n- **Payment Options:** Offers multiple payment options, including Venmo, PayPal, and credit card payments, which can enhance donor participation.\n- **Live Streaming & Ticketing:** Unique features include live-streaming capabilities for virtual events and an integrated ticketing system for event management.\n- **Social and Sharing Tools:** Strong emphasis on social sharing and engagement, making it easy to promote campaigns across social media platforms.\n\n**User Experience:**\n- Known for its ease of use and modern interface. Features are intuitive, which can be beneficial for organizations with limited technical resources.\n\n**Pricing:**\n- Offers a free tier with limited features and a transaction-based pricing model. There are usually fees on transactions, but these can sometimes be covered by donors.\n\n### Key Considerations:\n\n- **Type of Fundraising Platform Needed:** Organizations should consider what type of fundraising activities they plan to focus on. DonorDock may be more suitable for organizations that need a comprehensive CRM system in addition to fundraising tools, while Givebutter may appeal more to those looking for versatile campaign options and social fundraising.\n  \n- **Budget:** Givebutter can often be more cost-effective for organizations with a smaller budget due to its freemium model, but DonorDock offers robust integration and management solutions at various price points.\n\n- **Feature Prioritization:** Consider which features are non-negotiable (e.g., CRM capabilities, live streaming events, integration needs) to gauge which platform better aligns with the organization\u2019s goals.\n\n- **Technology Integration:** Evaluate existing tools within the organization and how well they can integrate with each platform.\n\nUltimately, the choice between DonorDock and Givebutter will depend on an organization\u2019s specific needs, budget constraints, and technical capacities. It\u2019s advisable for organizations to request demos and take advantage of trial periods when possible to make a more informed decision.",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 670,
+  "estimated_cost_usd": 0.006735,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

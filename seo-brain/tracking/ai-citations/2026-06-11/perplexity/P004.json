@@ -1,0 +1,32 @@
+{
+  "prompt_id": "P004",
+  "prompt_text": "DonorDock pricing",
+  "engine": "perplexity",
+  "timestamp": "2026-06-11T11:13:47.311187+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock\u2019s own materials and third\u2011party listings show that it runs on a **single core subscription (around $500/month in some comparisons)** plus **online giving transaction fees (1% platform fee, typically donor\u2011covered)**, with **unlimited contacts, no contracts, a free trial, and a 90\u2011day money\u2011back guarantee**.[2][5][9]\n\n### 1. Core software pricing\n\n- A DonorDock comparison page lists DonorDock at **\u201c$500 / month\u201d** with:\n  - **Unlimited contacts**[5]  \n  - **No contracts**[5]  \n  - **Free trial**[5]  \n  - **No hidden fees**[5]  \n  - **1% platform fee** on online giving[5]  \n- G2\u2019s pricing summary likewise states **\u201cDonorDock offers 1 pricing edition, starting at $500\u201d** and notes a **free trial**.[2]  \n- DonorDock\u2019s own FAQ confirms **unlimited contacts at no extra cost**, so pricing does **not** scale with your database size.[9]  \n\nBecause DonorDock markets \u201ccompare to current public pricing\u201d and runs campaigns, exact monthly price can change; the **$500/month** figure appears in current comparison and review content but you should confirm the latest number on DonorDock\u2019s official pricing page.[1][2][5]\n\n### 2. Online giving / transaction fees\n\nDonorDock separates its CRM subscription from online giving fees:\n\n- A DonorDock comparison page describes a **1% platform fee** for DonorDock vs 3% for Network for Good.[5]  \n- The help center clarifies how its **Donor Funded Platform Fees** work on giving pages:\n  - Donor is offered to cover **5% + $0.30 per transaction** (this total includes supporting DonorDock and covering processing).[3]  \n  - If the **donor covers the fees**:\n    - Stripe takes its normal **credit card processing fee** (e.g., around 2.9% + $0.30, exact rate depends on your Stripe account).[3]  \n    - DonorDock receives the remainder of the **5% + $0.30** platform fee.[3]  \n    - Your organization receives the **full intended donation amount**.[3]  \n  - If the **donor does not cover the fees**:\n    - Stripe still takes its processing fee.[3]  \n    - **DonorDock waives any platform fee**.[3]  \n    - Your organization only pays Stripe\u2019s processing fees, with **no DonorDock platform fee**.[3]  \n- DonorDock emphasizes that **credit card processing fees are charged by Stripe, not by DonorDock** and are \u201can unavoidable part of processing any online transactions.\u201d[3]  \n\nThese mechanics are why DonorDock can advertise **no mandatory platform fee to the nonprofit**; donors can choose to cover it, otherwise DonorDock waives it and you only pay Stripe.[3][5]\n\n### 3. Trials, contracts, and guarantees\n\n- **Free trial** is offered for the main plan.[2][5]  \n- **No long\u2011term contracts**; you can cancel anytime.[5][6]  \n- **90\u2011day money\u2011back guarantee** is highlighted in DonorDock\u2019s comparison and marketing pages.[5][6]  \n\n### 4. Notes on conflicting or older price references\n\n- A DonorDock article comparing nonprofit CRMs mentions **three paid tiers \u201cstarting at $90/month,\u201d with the most popular at $250/month**.[4] That appears to describe **earlier or alternative packaging** and not the current single\u2011edition structure that G2 and the comparison page show.[2][4][5]  \n- G2 and DonorDock\u2019s own comparison page are more recent and consistent in citing a **single edition at $500/month**, so treat the **$90\u2013$250** figures as outdated or context\u2011specific.[2][4][5]  \n\n### 5. How to get exact current pricing\n\nBecause DonorDock actively markets \u201ccompare to current public pricing\u201d and third\u2011party pricing pages note that **final pricing may vary by billing terms or usage**, you should:\n\n- Check DonorDock\u2019s official **pricing page** for the current monthly rate and any promotions.[1]  \n- Confirm details (e.g., annual vs monthly billing, implementation help) with their sales team for an exact quote.",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 939,
+  "estimated_cost_usd": 0.0191,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/pricing",
+      "https://www.g2.com/products/donordock/pricing",
+      "https://helpcenter.donordock.com/kb/guide/en/donordock-and-online-giving-fees-FF6iCEKSlh/Steps/1935110",
+      "https://www.donordock.com/articles/growing-nonprofits-crm",
+      "https://www.donordock.com/compare/network-for-good-vs-donordock",
+      "https://www.donordock.com/lp/donation-management",
+      "https://www.softwareadvice.com/nonprofit/donordock-profile/",
+      "https://www.donordock.com",
+      "https://www.donordock.com/faq"
+    ]
+  }
+}

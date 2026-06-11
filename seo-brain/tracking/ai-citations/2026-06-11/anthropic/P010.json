@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P010",
+  "prompt_text": "Does DonorDock have online giving",
+  "engine": "anthropic",
+  "timestamp": "2026-06-11T11:13:47.311282+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock Online Giving\n\nYes, **DonorDock does offer online giving capabilities**. Here are the key features:\n\n## What's Included\n\n- **Donation forms** that can be embedded on your website\n- **Customizable branding** to match your organization\n- **Recurring giving** options for donors\n- **Mobile-responsive** forms\n- **Payment processing** through integrated payment processors\n\n## Important Notes\n\n- DonorDock is primarily a **donor management/CRM system**\n- Online giving is part of their platform, but they integrate with payment processors (you'll need to connect a merchant account)\n- Pricing typically includes the CRM features plus transaction fees for processing donations\n\n## Consider\n\nIf online giving is your primary need, you might want to compare DonorDock with dedicated fundraising platforms. However, if you want an **all-in-one solution** that combines donor management with online giving, DonorDock could be a good fit.\n\nWould you like to know more about their specific features or pricing for online donations?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 237,
+  "estimated_cost_usd": 0.003603,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

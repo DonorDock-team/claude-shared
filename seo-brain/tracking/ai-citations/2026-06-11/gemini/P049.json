@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P049",
+  "prompt_text": "Best donor CRM with unlimited contacts",
+  "engine": "gemini",
+  "timestamp": "2026-06-11T11:13:47.311093+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding a donor CRM that offers truly **unlimited contacts** without a significant jump in pricing or some form of tiering is surprisingly challenging. Most SaaS CRMs, especially those built for nonprofits, base their pricing on contact limits, user count, or a combination.\n\nHowever, there are solutions that effectively handle very large numbers of contacts or don't use contacts as the primary pricing metric, making them the \"best\" in this context.\n\nHere are the top recommendations, emphasizing options that best fit the \"unlimited contacts\" criteria:\n\n---\n\n### Top Recommendations for \"Unlimited Contacts\"\n\n**1. Salesforce Nonprofit Success Pack (NPSP)**\n\n*   **Why it fits \"Unlimited Contacts\":** Salesforce offers 10 free Enterprise Edition licenses to qualified nonprofits. While there are data storage limits, the number of *contacts* you can store isn't typically the primary cost driver for most organizations under these free licenses. You can store millions of contact records without directly incurring a \"per contact\" fee beyond the initial setup and ongoing admin costs.\n*   **Pros:**\n    *   **Extremely Powerful & Customizable:** The most robust and flexible platform available, capable of managing every aspect of a nonprofit's operations.\n    *   **Vast Ecosystem:** Thousands of apps and integrations available on the AppExchange.\n    *   **Scalability:** Grows with your organization, from small to enterprise-level.\n    *   **Industry Standard:** Widely used and understood, making it easier to find administrators and consultants.\n    *   **Free Licenses:** The initial 10 free licenses are a huge benefit.\n*   **Cons:**\n    *   **Steep Learning Curve:** Can be complex and requires dedicated administration.\n    *   **Implementation Costs:** Often requires significant upfront investment in consulting for setup and customization.\n    *   **Ongoing Admin:** Requires ongoing management and potential development.\n    *   **Additional Licenses:** If you need more than 10 users, additional licenses can be expensive.\n*   **Best For:** Nonprofits looking for the most powerful, customizable, and scalable solution, who have (or can acquire) technical expertise to manage it.\n\n**2. CiviCRM (Open Source)**\n\n*   **Why it fits \"Unlimited Contacts\":** CiviCRM is open-source and self-hosted (or hosted by",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 489,
+  "estimated_cost_usd": 0.001224,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

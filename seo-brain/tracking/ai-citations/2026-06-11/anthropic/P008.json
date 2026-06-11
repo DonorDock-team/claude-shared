@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P008",
+  "prompt_text": "DonorDock vs Neon CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-06-11T11:13:47.311110+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Neon CRM Comparison\n\n## **DonorDock**\n\n### Best For\n- Small nonprofits and churches\n- Organizations with limited budgets\n- Teams wanting simple, intuitive software\n\n### Key Strengths\n- **Ease of use** - Clean, modern interface with minimal learning curve\n- **Affordable pricing** - Lower cost entry point\n- **Donor-focused** - Emphasizes relationship management and donor journeys\n- **Great support** - Known for responsive customer service\n- **Quick setup** - Can get started faster\n\n### Limitations\n- Fewer advanced features than enterprise solutions\n- Less robust reporting capabilities\n- Smaller integration ecosystem\n- May lack scalability for larger organizations\n\n---\n\n## **Neon CRM**\n\n### Best For\n- Small to medium-sized nonprofits\n- Organizations needing comprehensive features\n- Groups prioritizing event management and membership\n\n### Key Strengths\n- **Feature-rich** - Includes event management, membership tracking, email marketing\n- **All-in-one platform** - Reduces need for multiple tools\n- **Robust reporting** - More advanced analytics and custom reports\n- **Established platform** - Longer track record in the nonprofit space\n- **Integration options** - Connects with more third-party tools\n\n### Limitations\n- Steeper learning curve\n- Can feel overwhelming for very small teams\n- Higher price point for full feature access\n- Some users report interface feels dated\n\n---\n\n## **Quick Decision Guide**\n\nChoose **DonorDock** if you:\n- Have a small team or are just starting out\n- Want simplicity over extensive features\n- Need to get up and running quickly\n- Have a tighter budget\n\nChoose **Neon CRM** if you:\n- Need event management and membership features\n- Want comprehensive reporting\n- Require extensive integrations\n- Have staff who can handle more complexity\n\n**Would you like me to compare specific features like pricing, reporting, or integrations in more detail?**",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 448,
+  "estimated_cost_usd": 0.006774,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

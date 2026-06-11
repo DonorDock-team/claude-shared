@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P031",
+  "prompt_text": "Alternative to Little Green Light",
+  "engine": "gemini",
+  "timestamp": "2026-06-11T11:13:47.311214+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Little Green Light (LGL) is a popular Constituent Relationship Management (CRM) system specifically designed for non-profits, known for its affordability and comprehensive features for donor management, fundraising, events, and volunteers.\n\nIf you're looking for alternatives, the best choice depends on your specific needs, budget, organizational size, and desired features. Here are several categories of alternatives, ranging from direct competitors to broader CRM solutions:\n\n---\n\n### I. Non-Profit Specific CRMs (Direct Competitors)\n\nThese platforms are built from the ground up for non-profits and offer similar functionalities to LGL.\n\n1.  **Bloomerang:**\n    *   **Strengths:** Highly focused on donor retention, user-friendly interface, strong communication tools, robust reporting, integrates well with other tools.\n    *   **Best for:** Organizations looking to improve donor engagement and retention with an intuitive system.\n    *   **Pricing:** Tiered based on database size, competitive with LGL.\n\n2.  **DonorPerfect:**\n    *   **Strengths:** A well-established, comprehensive system offering donor management, fundraising tools, event management, and grant tracking. Good for mid-sized to larger non-profits.\n    *   **Best for:** Organizations needing a robust, all-in-one solution with a long history in the non-profit space.\n    *   **Pricing:** Tiered based on database size and features.\n\n3.  **Neon CRM (part of NeonOne):**\n    *   **Strengths:** Offers a broad suite including CRM, membership management, fundraising, event registration, and peer-to-peer. Very strong for organizations with memberships.\n    *   **Best for:** Membership-based organizations or those needing a comprehensive suite beyond just donor management.\n    *   **Pricing:** Tiered based on features and contacts.\n\n4.  **Kindful (now part of EveryAction/Bonterra):**\n    *   **Strengths:** Modern interface, strong integrations with popular tools (QuickBooks, Mailchimp, etc.), good for online fundraising and donor engagement.\n    *   **Best for:** Organizations looking for a modern, integration-friendly platform with good online giving capabilities.\n    *   **Pricing:** Tiered based on features and donation volume/contacts.\n\n5.  **SalsaLabs (part of Bonterra):**\n    *   **Strengths:** Combines CRM, online fundraising, advocacy, and marketing automation. Strong for organizations focused on advocacy and engaging supporters through multiple channels.\n    *   **Best for:** Non-profits that need to manage advocacy campaigns in addition to fundraising and donor management.\n    *   **Pricing:** Contact for custom quote.\n\n6.  **Virtuous",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 574,
+  "estimated_cost_usd": 0.001437,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

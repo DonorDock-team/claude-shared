@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P012",
+  "prompt_text": "DonorDock vs Virtuous",
+  "engine": "openai",
+  "timestamp": "2026-06-11T11:13:47.311077+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Both DonorDock and Virtuous are nonprofit software solutions designed to help organizations manage donors, fundraising, and engagement more effectively. Each platform offers a variety of features tailored to the needs of nonprofit organizations, but they have different focuses and strengths. Here\u2019s a general comparison:\n\n### DonorDock\n\n**Strengths:**\n- **Ease of Use:** DonorDock is known for its user-friendly interface, which makes it easy for nonprofits to set up and start using the system without extensive training.\n- **Affordability:** It is generally considered more budget-friendly, especially for small to mid-sized organizations looking for essential CRM and fundraising features.\n- **Core Features:** Includes donor management, online giving, email marketing, and reporting. It often covers the basics needed for a nonprofit to manage its donor relationships effectively.\n\n**Limitations:**\n- **Scalability:** While great for smaller organizations, DonorDock may lack some of the advanced features and integrations that larger nonprofits might require.\n- **Customization:** It may offer fewer customization options compared to more robust platforms, which may be a limitation for organizations with unique needs.\n\n### Virtuous\n\n**Strengths:**\n- **Comprehensive Features:** Virtuous offers a robust set of features including CRM, marketing automation, donor analytics, and relationship management, making it suitable for larger organizations with complex needs.\n- **Integrations and API:** Known for its strong integration capabilities with other software tools and platforms, Virtuous can be a good choice for organizations that need to connect various systems.\n- **Focus on Relationships:** Emphasizes donor-centered fundraising, using data and insights to help organizations build stronger relationships with their constituents.\n- **Scalability:** More suitable for larger organizations or those anticipating growth. The platform can handle complex campaigns and extensive donor databases.\n\n**Limitations:**\n- **Cost:** Typically more expensive than DonorDock, which can be a consideration for smaller nonprofits.\n- **Complexity:** The extensive features and capabilities can mean a steeper learning curve and the need for more training to fully utilize the system.\n\n### Decision Factors\n\n- **Size and Budget:** Smaller nonprofits with limited budgets may find DonorDock more accessible, whereas larger organizations with more resources could benefit from the comprehensive features of Virtuous.\n- **Feature Needs:** If your nonprofit needs advanced marketing automation and analytics, Virtuous might be the better choice. For basic donor management and fundraising, DonorDock could suffice.\n- **Growth Plans:** Consider the scalability of the platform in relation to your organization's growth plans. Virtuous may offer more room for growth compared to DonorDock.\n\nUltimately, the best choice depends on your specific needs, budget, and the features that are most critical to your organization\u2019s operations and strategy.",
+  "donordock_mentioned": true,
+  "donordock_position": 5,
+  "competitors_mentioned": [
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 551,
+  "estimated_cost_usd": 0.005542,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

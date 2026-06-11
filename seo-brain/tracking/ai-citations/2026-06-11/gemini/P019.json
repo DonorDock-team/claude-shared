@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P019",
+  "prompt_text": "Alternative to Blackbaud Raisers Edge",
+  "engine": "gemini",
+  "timestamp": "2026-06-11T11:13:47.310931+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Blackbaud Raiser's Edge (and its modern cloud version, Raiser's Edge NXT) has been a dominant player in the nonprofit CRM and fundraising space for a long time. However, many organizations seek alternatives for various reasons, including cost, complexity, user interface, specific feature needs, or dissatisfaction with support.\n\nHere's a breakdown of excellent alternatives, categorized by typical organizational needs and priorities:\n\n**Key Considerations When Choosing an Alternative:**\n\nBefore diving into specific platforms, think about your organization's:\n\n1.  **Budget:** What's your monthly or annual budget for software?\n2.  **Size & Complexity:** Are you a small startup, a growing mid-sized organization, or a large institution with complex needs?\n3.  **Core Features:** What are your absolute must-have features (donor management, gift processing, grant tracking, event management, volunteer management, peer-to-peer fundraising, accounting integration, etc.)?\n4.  **Ease of Use:** Do you need something intuitive with a low learning curve, or do you have staff comfortable with more complex systems?\n5.  **Integrations:** What other software do you need it to connect with (email marketing, accounting, website CMS, payment processors)?\n6.  **Reporting & Analytics:** How sophisticated do your reporting needs to be?\n7.  **Support:** What level of customer support do you expect?\n8.  **Scalability:** Can the software grow with your organization?\n9.  **Data Migration:** How difficult will it be to move your data from Raiser's Edge?\n\n---\n\n**Top Alternatives to Blackbaud Raiser's Edge:**\n\n1.  **Salesforce Nonprofit Success Pack (NPSP)**\n    *   **Best For:** Organizations of all sizes, especially those with complex needs, who value customization, a vast ecosystem, and want a future-proof platform.\n    *   **Pros:** Highly customizable, incredibly powerful, huge app exchange for integrations, robust reporting, scalable to any size, extensive community support.\n    *   **Cons:** Can have a steep learning curve, requires an administrator (or consultant) for setup and maintenance, can become expensive with added apps and custom development. Initial setup can be complex.\n    *   **Why it's an alternative:** It's a comprehensive CRM that can manage every aspect of your constituent relationships and fundraising, often surpassing Raiser's Edge's capabilities for many.\n\n2.  **Bloomerang**\n    *   **Best For:** Small to mid-sized nonprofits looking for an intuitive, modern, and donor-centric platform with strong communication tools.\n    *   **Pros:** User-friendly interface, excellent constituent engagement features (wealth screening, email marketing, social media integration), strong reporting, good customer support, focuses on donor retention.\n    *   **Cons:** May lack some of the deep customization and enterprise-level features of",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 612,
+  "estimated_cost_usd": 0.001532,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

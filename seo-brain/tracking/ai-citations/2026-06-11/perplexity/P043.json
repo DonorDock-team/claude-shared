@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P043",
+  "prompt_text": "Best donor CRM for human services nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-06-11T11:13:47.311278+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For **human services nonprofits**, the best donor CRM is usually **one that combines donor management with case management, grants, and program tracking**. Based on the results provided, **Salesforce Nonprofit Cloud** is the strongest all-around option if you need a broad platform that includes case management alongside fundraising and donor management, while **DonorPerfect** is a strong fit if your primary need is donor and grant management for a human services organization.[5][7]\n\nA practical way to choose:\n\n| Best fit | Why it stands out |\n|---|---|\n| **Salesforce Nonprofit Cloud** | Includes **case management**, fundraising, marketing, and donor management, which is especially useful for human services nonprofits that track clients and services in addition to donations.[5][2] |\n| **DonorPerfect** | Explicitly positioned for **human services organizations** and supports donors, grants, and campaigns.[7] |\n| **Virtuous** | Strong if you want a modern, donor-centric CRM built specifically for nonprofit fundraising and automation.[3] |\n| **Giveffect** | Good for organizations that want donor relationship management and contribution tracking in one nonprofit CRM.[1] |\n| **Bloomerang / Bonterra / Ascend** | Commonly listed among leading nonprofit CRMs, but the provided results do not show human-services-specific strengths as clearly as Salesforce or DonorPerfect.[4] |\n\nIf your nonprofit is **service-heavy** and needs to manage both **clients and donors**, I would start with **Salesforce Nonprofit Cloud**.[5] If your focus is mainly on **fundraising, grants, and donor stewardship** with a simpler nonprofit-specific setup, **DonorPerfect** is the more targeted choice for human services.[7]\n\nIf you want, I can also narrow this down by **budget, staff size, or whether you need case management**.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 382,
+  "estimated_cost_usd": 0.010754,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://www.salesforce.com/nonprofit/",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.liveimpact.org/blog/human-services-case-management-software",
+      "https://stratuslive.com/7-best-crms-for-healthcare-nonprofit-organizations-in-2026/",
+      "https://www.donorperfect.com/nonprofits/human-services/",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software"
+    ]
+  }
+}

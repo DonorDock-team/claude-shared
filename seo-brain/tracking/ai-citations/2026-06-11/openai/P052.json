@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P052",
+  "prompt_text": "Best CRM for a new development director",
+  "engine": "openai",
+  "timestamp": "2026-06-11T11:13:47.311227+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the best Customer Relationship Management (CRM) system for a new development director largely depends on the specific needs of the organization, its size, and its goals. However, here are some popular CRM systems that are often recommended, particularly for non-profit organizations or development directors:\n\n1. **Salesforce Nonprofit Success Pack (NPSP):**\n   - **Pros:** Highly customizable, strong community support, extensive range of features specifically tailored for nonprofits, and robust reporting tools.\n   - **Cons:** Can be complex and may require technical expertise for customization.\n\n2. **Bloomerang:**\n   - **Pros:** User-friendly, focuses on donor retention, excellent customer support, and visually appealing reporting.\n   - **Cons:** Limited customization compared to larger platforms, may not be suitable for very large organizations.\n\n3. **DonorPerfect:**\n   - **Pros:** Strong focus on non-profits, integrated email marketing, and event management tools, offers extensive training resources.\n   - **Cons:** The user interface may feel a bit dated, and certain features can be add-ons.\n\n4. **Raiser\u2019s Edge NXT by Blackbaud:**\n   - **Pros:** Comprehensive donor management features, excellent for mid to large-sized nonprofits, robust analytics and reporting capabilities.\n   - **Cons:** Can be expensive, with a steep learning curve for new users.\n\n5. **NeonCRM:**\n   - **Pros:** Affordable, integrated email tools, volunteer management features, and online forms.\n   - **Cons:** Reporting can be complex, and some users find the interface less intuitive.\n\n6. **Kindful:**\n   - **Pros:** Intuitive interface, strong donor management features, and integrates well with other apps like Mailchimp and QuickBooks.\n   - **Cons:** Less comprehensive than some other options, particularly regarding advanced features.\n\n7. **HubSpot for Nonprofits:**\n   - **Pros:** Offers free versions with essential CRM functionalities, has an extensive set of marketing tools, and easy integration options.\n   - **Cons:** Free tier might be limiting for larger non-profits, and expansion can be costly.\n\nWhen selecting a CRM, consider factors such as budget, ease of use, specific feature requirements (like donor management, volunteer tracking, and event management), scalability, and integration capabilities with other tools your organization already uses. Many CRM providers offer demos or free trials, which can be an excellent way to assess which platform best meets your needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 496,
+  "estimated_cost_usd": 0.004995,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P011",
+  "prompt_text": "DonorDock vs Salesforce Nonprofit Cloud",
+  "engine": "anthropic",
+  "timestamp": "2026-06-11T11:13:47.310963+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Salesforce Nonprofit Cloud Comparison\n\n## **Quick Overview**\n\n**DonorDock**: Affordable, user-friendly donor management built specifically for small nonprofits\n**Salesforce Nonprofit Cloud**: Enterprise-grade CRM with extensive customization for larger organizations\n\n---\n\n## **Key Differences**\n\n### **Best For**\n- **DonorDock**: Small to mid-size nonprofits (budgets under $5M)\n- **Salesforce**: Mid to large nonprofits with complex needs and technical resources\n\n### **Pricing**\n| Feature | DonorDock | Salesforce Nonprofit Cloud |\n|---------|-----------|---------------------------|\n| **Starting Price** | ~$99/month | Free for 10 users, then ~$36/user/month |\n| **Setup Costs** | Minimal | Often requires consultant ($5K-50K+) |\n| **Total First Year** | ~$1,200-3,000 | $5,000-50,000+ |\n\n### **Ease of Use**\n- **DonorDock**: \u2b50\u2b50\u2b50\u2b50\u2b50 Intuitive, minimal training needed\n- **Salesforce**: \u2b50\u2b50 Steep learning curve, often needs dedicated admin\n\n### **Core Features**\n\n| Feature | DonorDock | Salesforce |\n|---------|-----------|-----------|\n| Donor management | \u2705 Excellent | \u2705 Excellent |\n| Online donations | \u2705 Built-in | \u26a0\ufe0f Requires third-party integration |\n| Email marketing | \u2705 Included | \u26a0\ufe0f Requires add-on (Pardot/Marketing Cloud) |\n| Grant tracking | \u2705 Basic | \u2705 Advanced (with customization) |\n| Volunteer management | \u274c Limited | \u2705 Available |\n| Program tracking | \u26a0\ufe0f Basic | \u2705 Highly customizable |\n| Mobile app | \u2705 Yes | \u2705 Yes |\n| Reporting | \u2705 Good standard reports | \u2705 Extremely powerful/customizable |\n\n---\n\n## **Pros & Cons**\n\n### **DonorDock**\n**Pros:**\n- Quick setup (days, not months)\n- Affordable predictable pricing\n- Excellent customer support\n- All-in-one solution\n- No technical expertise required\n\n**Cons:**\n- Limited customization\n- Fewer integrations\n- May outgrow it as organization scales\n- Less robust for complex programs\n\n### **Salesforce Nonprofit Cloud**\n**Pros:**\n- Infinitely customizable\n- Massive integration ecosystem\n- Scales with organization growth\n- Powerful automation & reporting\n- Industry standard (easy to find talent)\n\n**Cons:**\n- Expensive total cost of ownership\n- Requires technical expertise\n- Overwhelming for small teams\n- Longer implementation time\n- Ongoing maintenance costs\n\n---\n\n## **Decision Framework**\n\n### **Choose DonorDock if you:**\n- Have fewer than 5,000 donors\n- Limited technical staff\n- Need to launch quickly\n- Have a tight budget\n- Want all-in-one simplicity\n\n### **Choose Salesforce if you:**\n- Manage 10,000+ constituents\n- Have complex program tracking needs\n- Can dedicate staff to administration\n- Need extensive customization\n- Have budget for implementation/support\n- Require enterprise-level integrations\n\n---\n\n## **The Verdict**\n\nNeither is universally \"better\"\u2014it depends on your organization's size, budget, and complexity. Many nonprofits start with **DonorDock** and migrate to **Salesforce** as they grow. Others find DonorDock meets all their needs long-term.\n\n**Rule of thumb**: If you're asking which to choose, you probably should start with DonorDock. Organizations that truly need Salesforce usually already know they need that level of power.\n\nWould you like me to elaborate on any specific feature or use case?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 943,
+  "estimated_cost_usd": 0.014202,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P129",
+  "prompt_text": "Bloomerang limitations",
+  "engine": "anthropic",
+  "timestamp": "2026-06-11T11:13:47.310972+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Bloomerang Limitations\n\nBloomerang is a popular donor management CRM for nonprofits, but users have reported several limitations:\n\n## **Reporting & Analytics**\n- Limited customization options for reports\n- Difficult to create complex custom reports without exporting data\n- Dashboard customization is restricted\n- Limited real-time reporting capabilities\n\n## **Integration Challenges**\n- Fewer native integrations compared to competitors (Salesforce, Blackbaud)\n- API limitations for custom integrations\n- Some accounting software integrations are basic\n- Limited payment processor options\n\n## **Email & Communications**\n- Email marketing features are basic compared to dedicated platforms\n- Limited email template customization\n- Segmentation capabilities could be more robust\n- No built-in SMS/text messaging\n\n## **Functionality Gaps**\n- Event management features are fairly basic\n- Limited grant management capabilities\n- Peer-to-peer fundraising tools are less developed\n- Volunteer management is minimal\n- No built-in auction or crowdfunding tools\n\n## **User Interface**\n- Learning curve for new users\n- Some workflows feel clunky\n- Mobile app has limited functionality\n- Interface can feel dated in some areas\n\n## **Pricing & Scalability**\n- Can become expensive as database grows\n- Costs increase with more contacts\n- May need to add third-party tools for advanced needs\n\n## **Best Fit**\nBloomerang works well for small-to-medium nonprofits focused on donor retention, but larger organizations or those needing complex features may outgrow it.\n\nWould you like comparisons with alternative platforms?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 357,
+  "estimated_cost_usd": 0.005391,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}
