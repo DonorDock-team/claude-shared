@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P016",
+  "prompt_text": "Alternative to DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-06-11T11:13:47.311088+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorPerfect is a popular fundraising and donor management software for nonprofits. However, there are many excellent alternatives available, each with its own strengths, features, and pricing models. The \"best\" alternative for you will depend on your organization's specific needs, budget, size, and complexity.\n\nHere's a breakdown of top alternatives, categorized for easier comparison:\n\n---\n\n### **I. All-in-One Comprehensive Solutions (Similar to DonorPerfect)**\n\nThese platforms aim to provide a full suite of features for donor management, fundraising, communications, and reporting.\n\n1.  **Bloomerang:**\n    *   **Known for:** A strong focus on donor retention and engagement. It offers tools for cultivation, stewardship, and segmenting donors based on their engagement levels.\n    *   **Key Features:** Donor database, email marketing, online fundraising pages, reporting, wealth screening integrations, volunteer management, event management.\n    *   **Best for:** Nonprofits of all sizes, especially those prioritizing building stronger donor relationships and improving retention rates.\n    *   *(Note: Kindful, another popular option, was acquired by Bloomerang and is now part of the Bloomerang suite, offering slightly different feature sets within the same family).*\n\n2.  **Neon CRM (by Neon One):**\n    *   **Known for:** A robust, all-in-one solution that's highly customizable and scalable. It integrates many aspects of nonprofit operations.\n    *   **Key Features:** Donor management, membership management, event registration, online fundraising, volunteer management, grant tracking, reporting, website integration.\n    *   **Best for:** Mid-sized to larger nonprofits that need a comprehensive system to manage diverse programs and activities, including memberships or events.\n\n3.  **Blackbaud (eTapestry / Raiser's Edge NXT):**\n    *   **Known for:** Blackbaud is the largest provider of software for nonprofits.\n        *   **eTapestry:** Often considered a competitor to DonorPerfect for small to mid-sized organizations, offering core fundraising and donor management.\n        *   **Raiser's Edge NXT:** A more enterprise-level solution for larger, more complex organizations with advanced fundraising needs.\n    *   **Key Features:** (Vary by product) Donor database, gift processing, online fundraising, email marketing, wealth screening, reporting, extensive integrations.\n    *   **Best for:**\n        *   eTapestry: Small to mid-sized organizations looking for a solid, established solution.\n        *   Raiser's Edge NXT: Large organizations with significant budgets and complex fundraising strategies.\n\n4.  **Virtuous:**\n    *   **Known for:** A modern, proactive fundraising platform that leverages automation and data insights to help nonprofits discover, nurture, and grow donor relationships. Strong focus on \"responsive fundraising.\"\n    *   **Key Features:** Donor CRM, marketing automation, online fundraising, giving pages, peer-to-peer, volunteer management, powerful analytics and segmentation.\n    *   **Best for:** Growing nonprofits seeking a more modern, data-driven approach to fundraising and donor engagement.\n\n5.  **Little Green Light (LGL):**\n    *   **Known for:** An affordable yet powerful solution that is particularly well-regarded for its data management capabilities and excellent customer support.\n    *   **Key Features:** Donor database, gift tracking, acknowledgments, online giving forms, email sending, event management, volunteer management, robust reporting.\n    *   ",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One",
+    "Raiser's Edge",
+    "Virtuous",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 732,
+  "estimated_cost_usd": 0.001831,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

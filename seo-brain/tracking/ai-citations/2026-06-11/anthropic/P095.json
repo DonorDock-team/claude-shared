@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P095",
+  "prompt_text": "Hidden costs of DonorPerfect",
+  "engine": "anthropic",
+  "timestamp": "2026-06-11T11:13:47.310495+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of DonorPerfect\n\nDonorPerfect is a popular nonprofit CRM, but several hidden or unexpected costs can emerge beyond the base subscription price:\n\n## **Common Hidden Costs**\n\n### 1. **Implementation & Setup**\n- Professional setup services ($1,000-$5,000+)\n- Data migration from previous systems\n- Custom field configuration\n- Training sessions beyond basic included training\n\n### 2. **Add-On Modules & Features**\n- **Online donation forms** (DonorPerfect Online/DPO)\n- **Email marketing** (ConstantContact integration)\n- **Event management** capabilities\n- **Wealth screening** tools\n- **Pledge reminders**\n- **Mobile app** access\n- **Advanced reporting** features\n\n### 3. **Transaction/Processing Fees**\n- Credit card processing fees (if using their payment gateway)\n- ACH/bank transfer fees\n- These are often higher than standalone payment processors\n\n### 4. **Integration Costs**\n- Connecting to accounting software (QuickBooks, etc.)\n- Website integration setup\n- Third-party app connections\n- API access for custom integrations\n\n### 5. **User Licenses**\n- Per-user pricing can escalate quickly as your team grows\n- Limited users on base plans\n\n### 6. **Support & Training**\n- Premium support packages\n- Advanced training sessions\n- Consulting hours for customization\n- Annual user conference attendance\n\n### 7. **Data & Storage**\n- Additional storage beyond included limits\n- Extra database capacity\n- Backup services\n\n### 8. **Ongoing Maintenance**\n- Annual price increases\n- Upgrading to access new features\n- Customization updates when system updates\n\n## **Questions to Ask Before Signing**\n\n- What's included in the base price vs. add-ons?\n- What are the true transaction fees?\n- What does implementation actually cost?\n- How many training hours are included?\n- What's the cost to add users later?\n\n**Budget tip**: Plan for 30-50% above the quoted base price to account for realistic total cost of ownership.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 482,
+  "estimated_cost_usd": 0.007278,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

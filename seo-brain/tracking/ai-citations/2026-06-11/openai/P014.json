@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "openai",
+  "timestamp": "2026-06-11T11:13:47.311252+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Keela are both fundraising and donor management software platforms designed to help non-profits streamline their operations, manage relationships with donors, and increase fundraising efficiency. Here's a general comparison of the two:\n\n### DonorDock\n\n**Features:**\n- **Donor Management:** Allows organizations to track donor information, giving history, and interactions.\n- **Email Marketing:** Integrated tools for creating and sending donor communications and campaigns.\n- **Fundraising Tools:** Provides functionalities for campaign tracking, online donations, and event management.\n- **Reporting and Analytics:** Offers insights into fundraising performance and donor engagement.\n- **Integrations:** Can integrate with other software solutions, such as QuickBooks and Zapier, to enhance functionality.\n\n**Strengths:**\n- User-friendly interface that is easy to navigate for users of all tech-savviness levels.\n- Good for small to medium-sized non-profits looking for an affordable and straightforward solution.\n- Offers educational resources and customer support to assist with implementation and ongoing use.\n\n### Keela\n\n**Features:**\n- **Donor Management:** Advanced tools for tracking donor data, engagement history, and segmentation.\n- **CRM Capabilities:** Robust constituent relationship management features focusing on engagement tracking and relationship building.\n- **Automation:** Automates donor communications, task reminders, and workflow processes to save time.\n- **Fundraising and Campaign Management:** Tools for online donations, peer-to-peer fundraising, and campaign analytics.\n- **Reporting and Insights:** Advanced data analytics for deep insights into fundraising efforts and donor behavior.\n- **Integrations:** Integrates with a variety of platforms such as Mailchimp, QuickBooks, and payment processors.\n\n**Strengths:**\n- Strong focus on personalized donor engagement through CRM features and communication automation.\n- Suitable for non-profits of varying sizes, especially those looking for enhanced CRM capabilities.\n- Offers a more comprehensive analysis of fundraising campaigns and donor behavior.\n\n### Considerations for Choosing Between Them\n\n- **Budget:** DonorDock may be more cost-effective for smaller organizations, while Keela might offer more value for larger non-profits looking for advanced features.\n- **Features:** Evaluate the specific features your organization needs; for example, if advanced CRM and automation are priorities, Keela might be the better option.\n- **Ease of Use:** Consider which platform your team will find easier to adopt based on their technological proficiency.\n- **Scalability:** Consider future needs and whether the platform can scale with your organization's growth.\n- **Integration Needs:** Check if the platforms can seamlessly integrate with your existing tools.\n\nUltimately, the choice between DonorDock and Keela should be based on your organization's specific needs, priorities, and budget constraints. It may also be helpful to take advantage of any free trials or demos offered by the platforms to get a better feel for which one would suit your organization best.",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 570,
+  "estimated_cost_usd": 0.005732,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "openai",
+  "timestamp": "2026-06-11T11:13:47.311044+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "If you're looking for a donor CRM with flat-rate pricing and no per-user fees, there are a few options on the market that cater to nonprofits of various sizes. It's important to evaluate your organization's specific needs, but here are some platforms that offer flat-rate pricing models:\n\n1. **Little Green Light**: This is a popular choice for small to mid-sized nonprofits. It offers a flat monthly fee based on the number of constituents in your database, rather than charging per user. This makes it a cost-effective option if you have a team that needs access to the CRM.\n\n2. **Bloomerang**: Bloomerang offers plans that scale with your donor count, but they tend to stick to a more straightforward pricing model compared to some other CRMs. They are known for their ease of use and focus on donor retention.\n\n3. **Keela**: Keela provides a robust CRM with flat-rate pricing based on the number of contacts, not users. They focus on offering tools to help streamline fundraising and manage donor relationships efficiently.\n\n4. **NeonCRM**: NeonCRM offers scalable pricing based largely on the number of records rather than users. They provide a suite of tools for donor management, online fundraising, event planning, and more.\n\n5. **Kindful**: Kindful, now part of Bloomerang, offers transparent pricing based on contact tiers without charging per user, which is an attractive option for organizations looking to avoid user-based fees.\n\nWhen selecting a CRM, it's important to consider factors like ease of use, integration capabilities, customer support, and the specific features that will benefit your organization's fundraising and management efforts. Be sure to reach out to each provider for any current promotions, detailed pricing, and a demonstration of the platform to ensure it meets your needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Keela",
+    "Kindful",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 359,
+  "estimated_cost_usd": 0.003635,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

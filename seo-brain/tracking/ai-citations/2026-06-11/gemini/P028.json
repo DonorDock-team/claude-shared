@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P028",
+  "prompt_text": "Alternative to Network for Good",
+  "engine": "gemini",
+  "timestamp": "2026-06-11T11:13:47.310937+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Network for Good is a popular fundraising and donor management platform for nonprofits. When looking for alternatives, you're likely seeking similar features such as online donation forms, donor CRM, email marketing, peer-to-peer fundraising, event management, and potentially coaching/support.\n\nHere's a breakdown of excellent alternatives, categorized by their primary strengths or target audience:\n\n---\n\n### **Comprehensive All-in-One Fundraising & CRM Platforms (Direct Competitors)**\n\nThese platforms aim to provide a similar breadth of features to Network for Good, often focusing on ease of use for small to medium-sized nonprofits.\n\n1.  **Bloomerang:**\n    *   **Strengths:** Highly regarded for its user-friendly interface, robust donor CRM (focused on donor retention), email marketing, and simple online fundraising tools. They also acquired Kindful, integrating its strengths.\n    *   **Best for:** Nonprofits prioritizing donor retention and a clean, intuitive user experience.\n    *   **Pricing:** Tiered based on donor records.\n\n2.  **Neon One (NeonCRM, NeonPay, etc.):**\n    *   **Strengths:** A comprehensive suite of tools including CRM, online fundraising, event registration, membership management, peer-to-peer, and volunteer management. Known for its strong integrations and flexibility.\n    *   **Best for:** Growing nonprofits needing an integrated solution across various operational areas beyond just fundraising.\n    *   **Pricing:** Tiered based on donor records and modules.\n\n3.  **DonorPerfect:**\n    *   **Strengths:** A long-standing and very comprehensive platform with strong CRM, robust reporting, online fundraising, event management, and grant tracking. Offers extensive customization options.\n    *   **Best for:** Nonprofits that need a deep, feature-rich CRM and reporting capabilities, willing to invest time in setup.\n    *   **Pricing:** Tiered based on donor records and modules.\n\n4.  **Givebutter:**\n    *   **Strengths:** Very popular freemium platform offering online donation forms, peer-to-peer, event ticketing, auction tools, and basic CRM. Known for its modern interface and \"tip-based\" model for covering platform fees.\n    *   **Best for:** Small to medium-sized nonprofits looking for a cost-effective, modern, and engaging platform for various fundraising campaigns.\n    *   **Pricing:** Primarily free with optional donor tips or flat fees for advanced features.\n\n5.  **Classy:**\n    *   **Strengths:** Excellent for peer-to-peer fundraising, crowdfunding, and event fundraising (including virtual events). Offers beautiful, customizable campaign pages and strong reporting. Also includes a CRM.\n    *   **Best for:**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Kindful",
+    "Neon One",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 570,
+  "estimated_cost_usd": 0.001427,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

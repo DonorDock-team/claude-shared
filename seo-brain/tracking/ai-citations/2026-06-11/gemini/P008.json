@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P008",
+  "prompt_text": "DonorDock vs Neon CRM",
+  "engine": "gemini",
+  "timestamp": "2026-06-11T11:13:47.311178+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Neon CRM are both excellent choices for non-profit organizations looking to manage their donor relationships and fundraising efforts. However, they cater to slightly different needs and organizational profiles.\n\nHere's a detailed comparison to help you decide:\n\n---\n\n## DonorDock vs. Neon CRM: A Comprehensive Comparison\n\n| Feature/Category      | DonorDock                                              | Neon CRM                                                           |\n| :-------------------- | :----------------------------------------------------- | :----------------------------------------------------------------- |\n| **Best For**          | Small to mid-sized non-profits prioritizing ease of use, modern UI, and core fundraising efficiency.   | Mid to large non-profits needing an all-in-one, highly customizable, and robust solution with extensive features. |\n| **Ease of Use**       | **High.** Intuitive, modern interface, minimal learning curve.                                   | **Moderate to High.** Feature-rich, but can have a steeper learning curve due to its depth and breadth. |\n| **Core Focus**        | Streamlined donor management, modern online fundraising, clear insights.                   | Comprehensive non-profit management (donors, members, volunteers, events, grants).     |\n| **User Interface**    | Clean, modern, visually appealing, easy to navigate.   | Functional, powerful, but can feel a bit more traditional or dated to some users.      |\n| **Donor Management**  | Robust profiles, gift tracking, segmentation, communication history.                       | Highly detailed profiles, extensive gift tracking, complex segmentation, wealth screening (add-on). |\n| **Fundraising Tools** | Modern online giving pages, recurring donations, campaigns, peer-to-peer (via integration). | Comprehensive campaigns, pledges, online forms, peer-to-peer, crowdfunding, grant management. |\n| **Event Management**  | Basic event tracking, often relies on integrations for complex registrations.               | Robust event registration, ticketing, attendee management, sponsorship tracking.     |\n| **Volunteer Mgt.**    | Basic tracking and communication.                      | Dedicated volunteer portal, scheduling, shift management, hours tracking. |\n| **Membership Mgt.**   | Not a primary focus, can track membership status as a custom field.                               | **Strong.** Dedicated membership levels, renewals, portals, benefits tracking.      |\n| **Communications**    | Email marketing, mail merge, segmentation, templating. | Advanced email marketing, letter generation, SMS (add-on), constituent portal.       |\n| **Reporting**         | Clear, visual dashboards, easy-to-understand reports for common metrics.                     | Highly customizable reports, advanced analytics, dashboards, custom report builder.   |\n| **Integrations**      | Growing list, including accounting (QuickBooks, Xero), Zapier, mail services.                  | Extensive, including QuickBooks, Mailchimp, wealth screening, payment processors, Zapier, open API. |\n| **Pricing**           | Often more transparent, typically based on contacts/users, generally more affordable for smaller orgs. | Tiered pricing based on database size, users, and feature sets; can get expensive as you scale. |\n| **Scalability**       | Excellent for growing small-to-medium non-profits. May eventually need integrations for complex needs",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 680,
+  "estimated_cost_usd": 0.001702,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

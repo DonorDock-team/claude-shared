@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P095",
+  "prompt_text": "Hidden costs of DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-06-11T11:13:47.311003+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "While DonorPerfect provides transparent pricing for its core subscription tiers, many organizations discover additional, less obvious costs as they implement and use the system. These \"hidden costs\" aren't necessarily deceptive, but they often aren't fully accounted for in initial budgeting.\n\nHere's a breakdown of common hidden costs associated with DonorPerfect:\n\n1.  **Tiered Features and Modules:**\n    *   **The \"Upgrade\" Trap:** DonorPerfect, like many CRMs, offers different subscription tiers (e.g., Basic, Advanced, Enterprise). Lower tiers might seem affordable but often lack crucial features like advanced reporting, sophisticated donor segmentation, marketing automation tools, or specific integrations. As your needs grow, you might find yourself needing to upgrade to a more expensive tier.\n    *   **Add-on Modules:** Specific functionalities are often available as separate add-on modules that incur additional monthly or annual fees. Examples might include:\n        *   **DP Auction:** For managing fundraising auctions.\n        *   **DP Online Forms:** While basic forms are usually included, advanced features or higher limits might require an upgrade.\n        *   **Event Management:** For ticket sales and event registration beyond simple donation forms.\n        *   **Volunteer Management:** To track and manage volunteers within the system.\n\n2.  **Payment Processing Fees (SafeSave Payments):**\n    *   DonorPerfect heavily promotes its integrated payment processor, SafeSave Payments. While convenient, the transaction fees (percentage per transaction + per-transaction fee) can add up significantly, especially for organizations processing a high volume of donations.\n    *   **PCI Compliance Fees:** There's often an annual or monthly fee associated with maintaining PCI compliance for your merchant account, which is a requirement for securely processing credit card payments.\n    *   **Batch Fees/Minimums:** Some payment processors have monthly minimum fees or per-batch fees, even if you don't process many transactions.\n    *   **Chargeback Fees:** If a donor disputes a charge, you'll likely incur a chargeback fee from the payment processor, regardless of the outcome.\n    *   *Hidden aspect:* While these are payment processing costs and not directly from DonorPerfect's subscription, they are an *essential* and often substantial cost of using DP for online fundraising that can be overlooked in initial software budgeting.\n\n3.  **Data Migration & Cleanup:**\n    *   **Professional Services:** If your existing data is complex or messy, you might need to pay DonorPerfect's professional services team (or a third-party consultant) to assist with the data migration process. This can be costly but might be necessary to ensure your new system is populated correctly.\n    *   **Internal Staff Time:** Even if you do it yourself, the time spent by your staff on cleaning, formatting, and importing data from old systems (spreadsheets, old databases) into DonorPerfect is a significant internal cost. This can be hundreds of hours, diverting staff from other essential tasks.\n\n4.  **Training & Implementation:**\n    *   **Advanced Training:** While basic onboarding and support are usually included, personalized, in-depth training for specific modules, advanced reporting, or staff turnover often comes at an additional cost (e.g., webinars, workshops, one-on-one sessions).\n    *   **Customization:** Getting DonorPerfect configured exactly how you need it (custom fields, workflows, dashboards, specific reports) requires significant staff time or can necessitate hiring professional services for complex setups.\n\n5.  **Integrations with Other Software",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 734,
+  "estimated_cost_usd": 0.001837,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

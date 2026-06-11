@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P024",
+  "prompt_text": "How much does nonprofit donor CRM cost",
+  "engine": "gemini",
+  "timestamp": "2026-06-11T11:13:47.310998+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The cost of a nonprofit donor CRM varies widely, typically ranging from **$0 (for very basic tools or free tiers) to several thousand dollars per month** for comprehensive enterprise-level solutions.\n\nThe price depends on several key factors:\n\n1.  **Number of Contacts/Donors:** This is often the primary pricing driver for nonprofit CRMs.\n2.  **Number of Users:** How many staff members need access to the system.\n3.  **Features Required:** Basic donor tracking vs. advanced features like event management, peer-to-peer fundraising, grant management, volunteer management, marketing automation, etc.\n4.  **Implementation & Support:** Setup fees, data migration, training, and ongoing premium support.\n5.  **Integrations:** Connecting with accounting software, email marketing, payment processors, etc.\n6.  **Subscription Model:** Monthly vs. annual payments (annual is often cheaper).\n7.  **Nonprofit Discounts:** Many providers offer special pricing for nonprofits.\n\nHere's a breakdown by typical nonprofit size and need:\n\n---\n\n### 1. Free or Low-Cost (Startups, Very Small Nonprofits, Under 1,000 Donors)\n\n*   **Cost Range:** $0 - $100 per month\n*   **What you get:**\n    *   Basic donor contact management.\n    *   Simple donation tracking.\n    *   Basic reporting.\n    *   Often limited contacts, users, and features.\n*   **Examples:**\n    *   **HubSpot for Nonprofits:** Offers a free CRM tier for unlimited users and contacts with basic sales/marketing features. Nonprofits can get significant discounts on paid tiers.\n    *   **Mailchimp:** While primarily email marketing, its basic tiers can act as a very simple donor list manager.\n    *   **Airtable/Google Sheets:** Not CRMs, but can be used as a free, very manual database.\n    *   **Bloomerang (Starter Plan):** Often has a very low entry point for a limited number of constituents.\n    *   **DonorPerfect (Essentials Plan):** Similar to Bloomerang, a lower-cost starting plan for small organizations.\n\n---\n\n### 2. Small to Medium Nonprofits (1,000 - 10,000 Donors)\n\n*   **Cost Range:** $100 - $500 per month\n*   **What you get:**\n    *   Comprehensive donor profiles and segmentation.\n    *   Campaign and appeal management.\n    *   Email marketing integration.\n    *   Basic event management.\n    *   Robust reporting and analytics.\n    *   Often includes online donation forms and payment processing (with associated fees).\n    *   More users typically included.\n*   **Examples:**\n    *   **Bloomerang:** Very popular for its user-friendly interface and strong donor retention features. Pricing is based on the number of constituents.\n    *   **DonorPerfect:** A long-standing solution with robust features for managing donations, appeals, and basic events. Pricing is based on contacts/records.\n    *   **Little Green Light:** Known for being feature-rich and affordable for small-to-medium nonprofits. Pricing is based on database size.\n    *   **NeonOne (NeonCRM):** Offers a comprehensive suite of tools, often tiered by modules and contacts.\n    *   **Salsa Labs:** Provides an all-in-one platform for fundraising, advocacy, and marketing.\n\n---\n\n### 3. Large or Enterprise Nonprofits (",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 756,
+  "estimated_cost_usd": 0.001892,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

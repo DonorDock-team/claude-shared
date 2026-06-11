@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P056",
+  "prompt_text": "Best donor CRM to consolidate multiple fundraising tools",
+  "engine": "anthropic",
+  "timestamp": "2026-06-11T11:13:47.311289+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Consolidating Fundraising Tools\n\n## **Top All-in-One Solutions**\n\n### **1. Bloomerang**\n- **Best for:** Small to midsize nonprofits seeking simplicity\n- **Key consolidation features:**\n  - Email marketing built-in\n  - Online donation forms\n  - Donor engagement tracking\n  - Volunteer management\n  - Event registration\n- **Pricing:** Starts ~$125/month\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with complex needs\n- **Key consolidation features:**\n  - Extensive integration ecosystem (1,000+ apps)\n  - Marketing automation (Pardot/Marketing Cloud)\n  - Grants management\n  - Program tracking\n  - Customizable workflows\n- **Pricing:** Starts ~$36/user/month (10 free licenses for nonprofits)\n\n### **3. Kindful (by Bloomerang)**\n- **Best for:** Growing nonprofits\n- **Key consolidation features:**\n  - Native payment processing\n  - Email campaigns\n  - Wealth screening\n  - Integrates with QuickBooks, Mailchimp, etc.\n- **Pricing:** Starts ~$100/month\n\n### **4. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established organizations with major gift programs\n- **Key consolidation features:**\n  - Comprehensive donor management\n  - Peer-to-peer fundraising\n  - Event management\n  - Grant tracking\n  - Wealth analytics\n- **Pricing:** Custom (typically $10K+/year)\n\n## **Key Considerations**\n\n**Before consolidating:**\n- List all tools currently used\n- Identify must-have integrations\n- Consider data migration complexity\n- Evaluate team's technical capacity\n- Calculate total cost of ownership\n\n**What to consolidate:**\n- Donation processing\n- Email marketing\n- Event management\n- Volunteer coordination\n- Reporting/analytics\n\nWould you like specific recommendations based on your organization's size or budget?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 475,
+  "estimated_cost_usd": 0.007179,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

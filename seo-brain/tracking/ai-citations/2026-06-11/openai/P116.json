@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P116",
+  "prompt_text": "Best AI tool for nonprofit donor outreach",
+  "engine": "openai",
+  "timestamp": "2026-06-11T11:13:47.311140+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best AI tool for nonprofit donor outreach depends on your specific needs and resources. However, several AI-driven tools have gained popularity in the nonprofit sector for enhancing donor engagement and outreach:\n\n1. **Gravyty**: This AI-powered platform helps nonprofits by suggesting actions for donor engagement, prioritizing outreach, and personalizing communication. It integrates with existing CRM systems to optimize donor engagement strategies.\n\n2. **Salesforce Nonprofit Cloud**: While not exclusively an AI tool, Salesforce\u2019s Nonprofit Cloud offers AI capabilities through Salesforce Einstein. It can help with predictive analytics, donor segmentation, and personalized communication strategies.\n\n3. **Kindful + Fundraising Report Card**: Kindful\u2019s integration with Fundraising Report Card uses AI insights to help understand donor data better, identify trends, and make outreach more effective through informed strategies.\n\n4. **Bloomerang**: This donor management software includes AI tools for donor retention and engagement. Its analytics features can assist in identifying which donors are most likely to contribute and how best to engage them.\n\n5. **Blackbaud Raiser\u2019s Edge NXT**: Known for its comprehensive donor management capabilities, it includes AI-driven analytics to predict donor behavior, manage relationships, and improve fundraising strategies.\n\n6. **Keela**: An AI-powered donor management tool that helps with automating tasks, organizing donor data, and providing insights to optimize fundraising efforts through smart suggestions.\n\nThese tools offer a variety of features to assist nonprofits in streamlining their donor outreach efforts. It\u2019s important to evaluate them based on factors like integration with existing systems, ease of use, support services, and budget to determine which is the best fit for your organization.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Keela",
+    "Kindful",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 335,
+  "estimated_cost_usd": 0.003385,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

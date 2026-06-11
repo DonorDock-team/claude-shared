@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P019",
+  "prompt_text": "Alternative to Blackbaud Raisers Edge",
+  "engine": "anthropic",
+  "timestamp": "2026-06-11T11:13:47.311284+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Alternatives to Blackbaud Raiser's Edge\n\nHere are strong alternatives to consider, organized by organization size and needs:\n\n## **Top Competitors**\n\n### **Salesforce Nonprofit Cloud**\n- Highly customizable CRM built on Salesforce platform\n- Excellent for larger nonprofits with complex needs\n- Strong reporting and integration capabilities\n- Higher cost, steeper learning curve\n\n### **Bloomerang**\n- User-friendly interface with strong donor retention focus\n- Built-in engagement metrics and reporting\n- Good for small to mid-sized nonprofits\n- More affordable than Raiser's Edge\n\n### **DonorPerfect**\n- Comprehensive donor management features\n- Strong online fundraising tools\n- Good balance of features and affordability\n- Suitable for organizations of various sizes\n\n### **Neon CRM**\n- Cloud-based, modern interface\n- Includes membership and event management\n- Strong automation features\n- Good for growing nonprofits\n\n## **Budget-Friendly Options**\n\n- **Little Green Light** - Simple, affordable for smaller organizations\n- **Kindful** (now Bloomerang) - Good reporting, intuitive design\n- **Keela** - AI-powered insights, competitive pricing\n\n## **Specialized Options**\n\n- **Virtuous** - Focuses on responsive fundraising methodology\n- **EveryAction** - Strong for advocacy-focused organizations\n- **Giveffect** - All-in-one solution with volunteer management\n\n**What size is your organization and what are your primary needs?** This would help narrow down the best fit.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 358,
+  "estimated_cost_usd": 0.005424,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P040",
+  "prompt_text": "Donor software with QuickBooks integration",
+  "engine": "gemini",
+  "timestamp": "2026-06-11T11:13:47.311034+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Integrating donor management software with QuickBooks is a critical step for many non-profits to streamline their financial operations, ensure accurate reporting, and simplify reconciliation.\n\nThe ideal solution depends on your organization's size, budget, complexity of needs, and whether you use QuickBooks Online (QBO) or QuickBooks Desktop (QBD).\n\nHere's a breakdown of popular donor software options with QuickBooks integration:\n\n---\n\n### Key Considerations When Choosing:\n\n1.  **QuickBooks Version:** Confirm if the integration supports QuickBooks Online (QBO) or QuickBooks Desktop (QBD). Most new software prioritizes QBO.\n2.  **Depth of Integration:**\n    *   **What data syncs?** Donations, donor information (as customers), pledges, refunds, campaign/fund data (as classes/jobs/products).\n    *   **How does it sync?** Real-time, batch processing, manual export/import.\n    *   **Mapping:** Can you map your donor software's campaigns/funds to QuickBooks classes, jobs, or products/services?\n3.  **Automation:** How much manual work is eliminated? Is it a one-way sync (donor software to QB) or two-way?\n4.  **Ease of Setup & Use:** How user-friendly is the integration setup and ongoing management?\n5.  **Cost:** Integration features might be included in the base price, or they could be an add-on.\n6.  **Support:** What kind of support is available for the integration?\n\n---\n\n### Top Donor Software with QuickBooks Integration:\n\n1.  **Bloomerang**\n    *   **Integration:** Excellent and robust integration with **QuickBooks Online (QBO)**. It allows you to map donations, pledges, and refunds directly to QBO as sales receipts, sales invoices, or journal entries. You can map campaigns, funds, appeals, and purposes to QuickBooks Classes, Customers/Jobs, or Products/Services.\n    *   **Best for:** Small to medium-sized non-profits looking for a modern, user-friendly CRM with strong communication tools and deep QBO integration.\n    *   **Pros:** Intuitive interface, excellent donor retention tools, strong reporting, very popular.\n    *   **Cons:** Primarily QBO; QBD users might need a workaround or manual process.\n\n2.  **DonorPerfect**\n    *   **Integration:** Offers strong integration with both **QuickBooks Online (QBO) and QuickBooks Desktop (QBD)**. Their \"QuickBooks Link\" utility allows for detailed mapping of donations, pledges, refunds, and adjustments to various QuickBooks accounts, customers, jobs, and classes.\n    *   **Best for:** Growing non-profits that need a comprehensive, established solution",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 573,
+  "estimated_cost_usd": 0.001434,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

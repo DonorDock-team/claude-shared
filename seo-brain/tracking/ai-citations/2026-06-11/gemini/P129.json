@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P129",
+  "prompt_text": "Bloomerang limitations",
+  "engine": "gemini",
+  "timestamp": "2026-06-11T11:13:47.311037+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a highly regarded Donor Relationship Management (DRM) system, especially popular with small to mid-sized nonprofits for its focus on donor retention, user-friendly interface, and strong reporting. However, like any software, it has limitations that might make it less suitable for certain organizations or specific needs.\n\nHere are some common Bloomerang limitations:\n\n1.  **Limited Event Management Capabilities:**\n    *   Bloomerang offers basic event registration and ticketing features, but it's not a comprehensive event management platform.\n    *   It may lack advanced features like seating charts, complex multi-tier ticket pricing, sponsor management within events, multi-session registration, or sophisticated check-in/badge printing capabilities that larger events often require. Many organizations need to integrate with a dedicated event platform (like Eventbrite, Blackbaud Events, Cvent, etc.).\n\n2.  **Basic Grant Management:**\n    *   While Bloomerang allows you to track grants, grant applications, and payments, it's not a full-fledged grant management system.\n    *   It may lack advanced features for managing complex grant pipelines, multi-stage approval workflows, detailed budget tracking per grant, compliance reporting specific to funders, or generating complex grant proposals directly within the system.\n\n3.  **Less Robust Volunteer Management:**\n    *   You can track volunteer contact information, hours, and basic activities in Bloomerang.\n    *   However, it's not designed for advanced volunteer management like scheduling shifts, coordinating complex projects, managing volunteer applications and background checks, or robust communication tools specifically for volunteers.\n\n4.  **Not an Accounting Solution:**\n    *   Bloomerang integrates well with accounting software like QuickBooks Online, but it is not an accounting system itself.\n    *   It manages donor data, donations, and pledges, but it doesn't handle general ledger, accounts payable/receivable (beyond pledges), payroll, or full financial reporting.\n\n5.  **Limited Customization for Complex Workflows:**\n    *   Bloomerang is known for its out-of-the-box ease of use, which means it offers less deep customization than some other CRMs (like Salesforce or Blackbaud CRM).\n    *   While you can create custom fields, customizing the user interface, building complex automated workflows beyond basic donor communication, or creating entirely new custom objects is generally not possible or is very limited. This can be a drawback for organizations with highly unique or intricate operational processes.\n\n6.  **Scalability for Very Large, Enterprise-Level Nonprofits:**\n    *   While Bloomerang scales well for small to large mid-sized organizations, very large, complex, or enterprise-level nonprofits with multiple chapters",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 3,
+  "output_tokens": 556,
+  "estimated_cost_usd": 0.001391,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

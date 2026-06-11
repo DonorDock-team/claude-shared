@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P043",
+  "prompt_text": "Best donor CRM for human services nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-06-11T11:13:47.311237+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Human Services Nonprofits\n\n## Top Recommendations\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized human services organizations\n- **Strengths:** Donor retention focus, intuitive interface, excellent reporting\n- **Pricing:** Starting ~$125/month\n- **Why it fits:** Easy to use, strong engagement tools, good for organizations prioritizing relationships\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Larger organizations with complex needs\n- **Strengths:** Highly customizable, program management integration, case management capabilities\n- **Pricing:** 10 free licenses, then ~$36/user/month\n- **Why it fits:** Can track both donors AND clients/program participants in one system\n\n### **3. Little Green Light**\n- **Best for:** Budget-conscious smaller nonprofits\n- **Strengths:** Affordable, solid core features, good customer service\n- **Pricing:** Starting ~$59/month\n- **Why it fits:** Cost-effective without sacrificing essential functionality\n\n### **4. Kindful (by Bloomerang)**\n- **Best for:** Organizations wanting robust integrations\n- **Strengths:** Strong integration ecosystem, automated workflows\n- **Pricing:** Starting ~$100/month\n\n### **5. DonorPerfect**\n- **Best for:** Mid-sized organizations with grant management needs\n- **Strengths:** Comprehensive features, good reporting, grant tracking\n- **Pricing:** Custom pricing based on records\n\n## Key Considerations for Human Services Nonprofits\n\n- **Dual tracking needs:** Can it handle both donor and client data?\n- **Grant management:** Many human services orgs rely heavily on grants\n- **Reporting requirements:** Government/funder compliance reporting\n- **Integration:** Does it work with your program management software?\n\nWhat's your organization's size and primary needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 431,
+  "estimated_cost_usd": 0.006516,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

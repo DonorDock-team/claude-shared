@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "gemini",
+  "timestamp": "2026-06-11T11:13:47.311090+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding a Donor CRM with truly flat-rate pricing and absolutely no per-user fees can be challenging, as many CRMs (even those with \"nonprofit friendly\" pricing) will still tier based on number of users, contacts, or features.\n\nHowever, there are definitely options that prioritize **contact-based pricing** over user-based pricing, fitting your \"no per-user fees\" requirement. This means the price increases as your number of donor records grows, but not as your team grows.\n\nHere are some excellent options that fit this model:\n\n1.  **Little Green Light (LGL)**\n    *   **Pricing Model:** Excellent fit. Pricing is strictly based on the number of constituent records in your database. You can have unlimited users on any plan without additional cost.\n    *   **Key Features:** Comprehensive donor management, gift entry and tracking, communications (email, mail merge), reporting, pledges, volunteer management, event management, and integrations (e.g., Mailchimp, QuickBooks, various payment processors).\n    *   **Pros:** Very transparent, affordable, and purpose-built for nonprofits. Strong feature set for small to medium-sized organizations. Excellent support.\n    *   **Cons:** Interface can feel a little dated to some. Not as much automation as some higher-end systems.\n    *   **Suitability:** One of the best options if your primary goal is robust donor management without user count limitations.\n\n2.  **WildApricot**\n    *   **Pricing Model:** Pricing is based on the number of contacts in your database, not the number of users. Unlimited administrators/users on all plans.\n    *   **Key Features:** Primarily designed as a membership management system, but very capable of handling donor management. Includes website builder, event registration, email marketing, online payments, member database, and reporting.\n    *   **Pros:** All-in-one solution if you also manage members or events. Very user-friendly website builder and event tools. Flat-rate (contact-based) pricing.\n    *   **Cons:** While it can manage donors well, it's not exclusively a donor CRM, so",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 450,
+  "estimated_cost_usd": 0.001128,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

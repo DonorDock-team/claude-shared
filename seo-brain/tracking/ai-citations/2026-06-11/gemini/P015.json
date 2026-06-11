@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P015",
+  "prompt_text": "Alternative to Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-06-11T11:13:47.310996+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a popular choice for nonprofit CRM due to its ease of use, robust donor management, and focus on donor retention. However, it might not be the perfect fit for every organization.\n\nHere's a comprehensive list of alternatives to Bloomerang, categorized by their strengths and common use cases:\n\n## All-in-One Nonprofit CRMs (Most Direct Alternatives)\n\nThese platforms offer similar comprehensive donor management, fundraising, and communication features, often targeting small to mid-sized nonprofits.\n\n1.  **DonorPerfect:**\n    *   **Strengths:** Very established, comprehensive features, robust reporting, strong event management, often chosen for organizations needing more powerful segmentation and custom fields.\n    *   **Considerations:** Can have a steeper learning curve than Bloomerang, pricing can add up with add-ons.\n    *   **Best for:** Growing nonprofits needing detailed reporting, event management, and a powerful, customizable database.\n\n2.  **Little Green Light (LGL):**\n    *   **Strengths:** Highly cost-effective, straightforward interface, strong email and mailing list management, excellent customer support, flexible. Often seen as a simpler, more budget-friendly alternative to Bloomerang.\n    *   **Considerations:** Interface might feel less modern than some competitors, fewer built-in advanced marketing automation features.\n    *   **Best for:** Small to mid-sized nonprofits on a budget, those prioritizing ease of use and good value.\n\n3.  **Neon CRM (formerly Neon One):**\n    *   **Strengths:** All-in-one solution including membership management, event registration, website integration, and peer-to-peer fundraising. Good for organizations with diverse needs beyond just donor tracking.\n    *   **Considerations:** Can be feature-rich, leading to a longer setup and learning process.\n    *   **Best for:** Nonprofits managing memberships, events, and needing a tightly integrated ecosystem.\n\n4.  **Virtuous:**\n    *   **Strengths:** Modern interface, strong focus on \"responsive fundraising,\" marketing automation, and donor engagement. Excellent for organizations wanting to leverage data for personalized communication.\n    *   **Considerations:** Can be pricier, more suited for organizations ready to invest in advanced marketing and engagement strategies.\n    *   **Best for:** Nonprofits focused on modern, data-driven fundraising, marketing automation, and personalized donor journeys.\n\n5.  **Blackbaud eTapestry:**\n    *   **Strengths:** Part of the larger Blackbaud ecosystem, strong reporting, customizable fields, suitable for organizations that might grow into other Blackbaud products.\n    *   **Considerations:** Can feel a bit dated in its interface compared to",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One",
+    "Virtuous",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 565,
+  "estimated_cost_usd": 0.001414,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

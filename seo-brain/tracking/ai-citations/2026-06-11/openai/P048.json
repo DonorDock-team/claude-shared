@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P048",
+  "prompt_text": "Donor CRM for nonprofits outgrowing their current tools",
+  "engine": "openai",
+  "timestamp": "2026-06-11T11:13:47.310955+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "As nonprofits grow, their needs for managing donor information and relationships often outgrow basic tools like spreadsheets or entry-level donor management software. When this happens, it\u2019s important to consider more robust Donor CRM (Customer Relationship Management) systems designed to handle larger volumes of data, provide greater insights, and offer advanced features. Here are some CRM solutions that are particularly suitable for nonprofits experiencing growth:\n\n1. **Salesforce Nonprofit Success Pack (NPSP):**\n   - Salesforce offers a highly customizable CRM solution specifically tailored for nonprofits through their Nonprofit Cloud.\n   - It provides tools for donor management, fundraising, program management, and grants management.\n   - Salesforce\u2019s AppExchange provides additional apps and integrations to further extend its functionality.\n\n2. **Blackbaud Raiser\u2019s Edge NXT:**\n   - Specifically designed for nonprofits, Raiser\u2019s Edge NXT offers comprehensive fundraising and donor management features.\n   - It includes tools for donor acquisition, retention, engagement, and analytics.\n   - Integrated with Blackbaud\u2019s suite of products for a holistic nonprofit management solution.\n\n3. **NeonCRM:**\n   - NeonCRM is known for its user-friendly interface and comprehensive features.\n   - It offers built-in tools for fundraising, events, memberships, and email marketing.\n   - Provides robust reporting and data analytics features to help nonprofits make data-driven decisions.\n\n4. **Bloomerang:**\n   - Focuses on improving donor retention with tools for engagement and relationship-building.\n   - Offers a simple and intuitive user interface, making it accessible for smaller teams.\n   - Features include emails, surveys, and social media integrations.\n\n5. **Kindful:**\n   - Known for its seamless integrations with other nonprofit tools and platforms.\n   - Offers features for donor management, online fundraising, and donor communication.\n   - Provides visualization tools to track and optimize fundraising efforts.\n\n6. **DonorPerfect:**\n   - Provides a wide range of features for donor management, fundraising events, and online giving.\n   - Offers extensive reporting capabilities and customizable fields.\n   - Integrates well with other software systems essential for nonprofit operations.\n\n7. **EveryAction:**\n   - Part of the Bonterra portfolio, it combines CRM with advanced fundraising tools.\n   - Offers integrated tools for advocacy, digital marketing, and donor management.\n   - Allows for sophisticated segmentation and personalized donor communications.\n\nWhen selecting a CRM, nonprofits should consider factors such as the system\u2019s scalability, ease of use, integration capabilities, cost, and the level of customer support offered. It's also beneficial to involve key stakeholders in the decision-making process to ensure the chosen CRM meets the organization's specific needs. Additionally, it might be worth considering potential implementation challenges and the level of customization required to tailor the system to the nonprofit's workflows.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 556,
+  "estimated_cost_usd": 0.005605,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

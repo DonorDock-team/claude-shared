@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P036",
+  "prompt_text": "Best donor management software for nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-06-11T11:13:47.311022+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor Management Software for Nonprofits\n\n## Top Choices by Organization Size\n\n### **For Small Nonprofits (Budget-Friendly)**\n- **Donorbox** - Free plan available, simple to use, good for online donations\n- **Little Green Light** - $39/month, designed specifically for small nonprofits\n- **Bloomerang** - Starting ~$125/month, excellent donor retention focus\n\n### **For Mid-Size Nonprofits**\n- **Salesforce Nonprofit Cloud** - Powerful CRM, 10 free licenses for nonprofits\n- **NeonCRM** - $50-215/month, all-in-one solution with strong reporting\n- **Kindful** - $100+/month, intuitive interface with automation features\n\n### **For Large Nonprofits**\n- **Blackbaud Raiser's Edge NXT** - Industry leader, comprehensive but expensive\n- **DonorPerfect** - Scalable, robust reporting and integrations\n\n## Key Features to Consider\n- **Online donation processing**\n- **Donor communication tools** (email, receipts)\n- **Reporting and analytics**\n- **Integration** with accounting software, email platforms\n- **Fundraising campaign management**\n- **Event registration**\n- **Grant tracking**\n\n## Quick Recommendation\n**Start with Donorbox or Bloomerang** if you're new to donor management software - they offer the best balance of features, usability, and cost for most small-to-medium nonprofits.\n\nWould you like specific comparisons based on your organization's size or needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 367,
+  "estimated_cost_usd": 0.00555,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

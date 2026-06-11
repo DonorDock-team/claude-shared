@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P036",
+  "prompt_text": "Best donor management software for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-06-11T11:13:47.311091+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor management software for your nonprofit depends heavily on your organization's specific needs, budget, size, and long-term goals. There's no one-size-fits-all answer, but here's a breakdown of top contenders across different categories, along with crucial factors to consider.\n\n## Top Donor Management Software Options\n\nI'll categorize them to help you narrow down your search:\n\n---\n\n### Best for Overall Comprehensive Needs & Scalability (Medium to Large Nonprofits)\n\n1.  **Salesforce Nonprofit Cloud (NPSP)**\n    *   **Key Differentiator:** Built on the world's leading CRM platform, offering unparalleled customization and scalability. It's essentially Salesforce tailored for nonprofits.\n    *   **Pros:**\n        *   **Extremely Powerful & Customizable:** Can manage donors, volunteers, programs, grants, cases, marketing, and more.\n        *   **Vast Ecosystem:** Thousands of app integrations (AppExchange) for virtually any need.\n        *   **Scalable:** Grows with your organization, from small to enterprise-level.\n        *   **Strong Reporting & Analytics:** Deep insights into all your data.\n        *   **Nonprofit Discount:** Salesforce often provides free licenses for small nonprofits and significant discounts for larger ones.\n    *   **Cons:**\n        *   **Steep Learning Curve:** Can be complex to set up and requires ongoing administration, often needing a dedicated admin or consultant.\n        *   **Cost:** While licenses can be free/discounted, implementation and ongoing customization/support can be expensive.\n    *   **Best For:** Nonprofits that need a highly customizable, integrated solution for long-term growth, have complex operations, or a budget for implementation and ongoing administration.\n\n2.  **Blackbaud (Raiser's Edge NXT / eTapestry / Luminate CRM)**\n    *   **Key Differentiator:** A long-standing giant in the nonprofit tech space, offering a suite of products. Raiser's Edge NXT is their flagship comprehensive solution.\n    *   **Pros:**\n        *   **Industry Standard:** Widely used and recognized, especially by large institutions.\n        *   **Robust Features:** Excellent for major gift fundraising, complex campaigns, wealth screening, and comprehensive donor profiles.\n        *   **Integrated Ecosystem:** Offers various solutions for accounting, peer-to-peer, events, and more (though often as separate products/modules).\n        *   **Strong Analytics & Reporting:** Deep data analysis capabilities.\n    *   **Cons:**\n        *   **Can Be Expensive:** Especially Raiser's Edge NXT, and modular pricing can add up.\n        *   **Perceived as Less Modern UI:** Some users find the interface a bit dated compared to newer platforms (though NXT is an improvement).\n        *   **Learning Curve:** Can be complex to master, especially for new users.\n        *   **Customer Service:** Mixed reviews on responsiveness and quality.\n    *   **Best For:** Large, established nonprofits, universities, hospitals, and organizations with significant fundraising operations and major gift programs. eTapestry is a simpler, more affordable option for small to medium orgs.\n\n---\n\n### Best for Ease of Use & Modern Interface (Small to Medium Nonprofits)\n\n1.  **Bloomerang**\n    *   **Key Differentiator:** Known for its user-friendly interface, focus on donor retention, and robust reporting that helps nonprofits understand donor engagement. (Recently acquired Kindful, merging strengths).\n    *   **Pros:**\n        *   **Intuitive & Easy to Use:** Great for new users and volunteers; quick adoption.\n        *   **Donor Retention Focus:** Includes tools like generosity score, constituent timeline, and engagement meter.\n        *   **Strong Communication",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Kindful",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 800,
+  "estimated_cost_usd": 0.002002,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

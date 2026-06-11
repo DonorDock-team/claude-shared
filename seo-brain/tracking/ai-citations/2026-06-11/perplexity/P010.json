@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P010",
+  "prompt_text": "Does DonorDock have online giving",
+  "engine": "perplexity",
+  "timestamp": "2026-06-11T11:13:47.311313+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Yes. **DonorDock includes built-in online giving** through its own online giving pages.\n\nKey points:\n- DonorDock provides **online giving pages** that allow organizations to collect donations online, and gifts are automatically created in DonorDock.[1]  \n- It includes **unlimited online giving pages** with donation processing (including Apple Pay, Google Pay), recurring giving, and campaign-specific pages.[3][7]  \n- DonorDock\u2019s pricing explicitly includes **free online giving pages** as part of the platform.[6]  \n- Giving pages can be shared via links, QR codes, text-to-donate keywords, or embedded directly on your website.[2]",
+  "donordock_mentioned": true,
+  "donordock_position": 7,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 138,
+  "estimated_cost_usd": 0.007094,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://helpcenter.donordock.com/kb/guide/en/online-giving-overview-oigm9umSjA/Steps/1116318",
+      "https://helpcenter.donordock.com/kb/guide/en/understanding-online-giving-fields-3UhHtm7CRu/Steps/1710134",
+      "https://www.donordock.com/compare",
+      "https://www.donordock.com",
+      "https://www.donordock.com/faq",
+      "https://www.donordock.com/pricing",
+      "https://www.g2.com/products/donordock/reviews"
+    ]
+  }
+}

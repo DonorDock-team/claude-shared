@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "anthropic",
+  "timestamp": "2026-06-11T11:13:47.311232+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Keela Comparison\n\nBoth are cloud-based donor management systems for nonprofits, but they have different strengths:\n\n## **DonorDock**\n\n### Strengths:\n- **Simpler, more intuitive interface** - easier learning curve\n- **Strong relationship tracking** - focuses on donor relationships and interactions\n- **Better for small to mid-sized nonprofits**\n- **Competitive pricing** - generally more affordable\n- **Good donor communication tools**\n- **Solid mobile app**\n\n### Limitations:\n- Fewer advanced features\n- Less robust reporting compared to Keela\n- Smaller integration ecosystem\n\n---\n\n## **Keela**\n\n### Strengths:\n- **AI-powered insights** - predictive analytics for donor behavior\n- **More comprehensive feature set** - email marketing, event management, volunteer tracking\n- **Advanced reporting and dashboards**\n- **Better for data-driven organizations**\n- **Strong automation capabilities**\n- **Canadian company** - particularly strong in Canada\n\n### Limitations:\n- Steeper learning curve\n- Can be overkill for very small nonprofits\n- Higher price point\n\n---\n\n## **Which to Choose?**\n\n**Choose DonorDock if:**\n- You're a small nonprofit (under 1,000 contacts)\n- You want something simple and easy to implement\n- Budget is a primary concern\n- Relationship tracking is your main priority\n\n**Choose Keela if:**\n- You have more complex needs\n- You want AI-driven insights and predictions\n- You need robust marketing automation\n- You have staff capacity to learn a more feature-rich system\n\n**What's your nonprofit's size and primary needs?** I can provide more specific guidance.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 391,
+  "estimated_cost_usd": 0.005913,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

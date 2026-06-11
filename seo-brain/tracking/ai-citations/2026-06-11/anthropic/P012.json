@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P012",
+  "prompt_text": "DonorDock vs Virtuous",
+  "engine": "anthropic",
+  "timestamp": "2026-06-11T11:13:47.311054+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Virtuous Comparison\n\nBoth are cloud-based donor management systems, but they target different segments of the nonprofit market.\n\n## **DonorDock**\n\n### Strengths\n- **Simple & intuitive** interface - minimal learning curve\n- **Affordable pricing** - starts around $39-59/month for smaller nonprofits\n- **Good for small organizations** - designed for teams with limited tech experience\n- **Basic automation** - email workflows, task management\n- **Clean donor profiles** - easy to track relationships and interactions\n\n### Limitations\n- Fewer advanced features than enterprise solutions\n- Limited customization options\n- Smaller ecosystem/fewer integrations\n- Less sophisticated reporting\n\n### Best For\nSmall to mid-sized nonprofits ($100K-$5M in revenue) that need straightforward donor management without complexity.\n\n---\n\n## **Virtuous**\n\n### Strengths\n- **Responsive fundraising approach** - personalized donor engagement at scale\n- **Advanced automation** - sophisticated marketing automation and workflows\n- **Rich analytics** - predictive analytics, donor behavior insights\n- **Comprehensive features** - includes CRM, email marketing, online giving, volunteer management\n- **Modern interface** - polished user experience\n- **Strong integrations** - connects with many tools\n\n### Limitations\n- **Higher cost** - typically $500-1,000+/month depending on organization size\n- **Steeper learning curve** - more features = more complexity\n- **May be overkill** for very small organizations\n\n### Best For\nGrowing nonprofits ($1M-$50M+) that want sophisticated donor engagement and have the budget for robust software.\n\n---\n\n## **Quick Decision Guide**\n\nChoose **DonorDock** if you:\n- Have a tight budget\n- Need something simple to get started quickly\n- Have a small team or limited tech resources\n\nChoose **Virtuous** if you:\n- Need advanced marketing automation\n- Want predictive analytics and deeper insights\n- Have the budget and staff to leverage enterprise features\n- Are scaling your fundraising operations\n\n**Bottom line:** DonorDock is the budget-friendly, user-friendly option; Virtuous is the more powerful, feature-rich platform for organizations ready to invest in sophisticated fundraising technology.",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 507,
+  "estimated_cost_usd": 0.007653,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}
