@@ -2,8 +2,8 @@
   "help_center": {
     "name": "DonorDock Help Center",
     "base_url": "https://helpcenter.donordock.com",
-    "scraped_at": "2026-06-05T14:14:03Z",
-    "total_articles": 333,
+    "scraped_at": "2026-06-12T14:15:18Z",
+    "total_articles": 338,
     "total_categories": 27,
     "format": "compact"
   },
@@ -34,6 +34,9 @@
       "Deep Dive into Segmentation and Reporting"
     ],
     "Product Updates": [
+      "Product Updates 6.11.2026",
+      "Product Updates 6.10.2026",
+      "Product Updates 6.4.2026",
       "Product Updates 5.29.2026",
       "Product Updates 5.22.2026",
       "Product Updates 5.15.2026",
@@ -307,6 +310,8 @@
       "Page Anchors (Sections) in DonorDock Templates"
     ],
     "Topics > Integrations": [
+      "Meta Pixel with DonorDock",
+      "Feathr Super Pixel with DonorDock",
       "Integrations in DonorDock",
       "Google Analytics with DonorDock",
       "Integration Builder in DonorDock",
@@ -512,6 +517,24 @@
       "summary": "This Deep Dive video explores how to segment your contacts and make the most of DonorDock’s reporting tools. It walks through how to use badges, marketing lists, custom fields, and gift tags to..."
     },
     {
+      "title": "Product Updates 6.11.2026",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-6-11-2026-zSFeBPJega/Steps/5700667",
+      "category": "Product Updates",
+      "summary": "Product Updates 6.11.2026\nNew features & improvements\nAutomations triggered by signup form responses can now include a merge tag for the specific form submitted, making it easy to reference exactly..."
+    },
+    {
+      "title": "Product Updates 6.10.2026",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-6-10-2026-fSv45obBvX/Steps/5692212",
+      "category": "Product Updates",
+      "summary": "Product Updates 6.10.2026\nNew features & improvements\nEmbedded giving pages now support digital wallet payments, including Apple Pay, when your domain is registered with Stripe\nTo register your..."
+    },
+    {
+      "title": "Product Updates 6.4.2026",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-6-4-2026-Jy7dJsYFWW/Steps/5679953",
+      "category": "Product Updates",
+      "summary": "Product Updates 6.4.2026\nNew features & improvements\nAutomations can now be searched by title, making it faster to find the automation you need in a long list\nThe Family and Employment sections now..."
+    },
+    {
       "title": "Product Updates 5.29.2026",
       "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-5-29-2026-jKUFSPjioc/Steps/5655394",
       "category": "Product Updates",
@@ -593,7 +616,7 @@
       "title": "Marketing Lists Overview 💫",
       "url": "https://helpcenter.donordock.com/kb/guide/en/marketing-lists-overview-gf3R8r1qto/Steps/1360487",
       "category": "Topics > Contacts",
-      "summary": "Marketing Lists\nWhat is a Marketing List?\nMarketing Lists are a specific list of people that you want to communicate with for a particular reason. Contacts can be in multiple marketing lists at once."
+      "summary": "Marketing Lists\nMarketing Lists are specific lists of contacts that you want to communicate with for a particular reason. There is no limit to the number of Marketing Lists a contact can be on."
     },
     {
       "title": "Adding New Contacts to DonorDock",
@@ -1944,6 +1967,18 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/page-anchors-sections-in-donordock-templates-O0aO8EcbsU/Steps/4608770",
       "category": "Topics > Templates",
       "summary": "Page Anchors (Sections) in DonorDock Templates\nLong emails can feel like a long voyage for your readers. Page anchors give them a quick way to jump straight to the section they care about most."
+    },
+    {
+      "title": "Meta Pixel with DonorDock",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/meta-pixel-with-donordock-vkOk4j6ttZ/Steps/5691987",
+      "category": "Topics > Integrations",
+      "summary": "Meta Pixel with DonorDock\nThe Meta Pixel connects your DonorDock giving page to your Meta (Facebook and Instagram) ad account."
+    },
+    {
+      "title": "Feathr Super Pixel with DonorDock",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/feathr-super-pixel-with-donordock-b5QTVRtt0C/Steps/5691993",
+      "category": "Topics > Integrations",
+      "summary": "Feathr Super Pixel with DonorDock\nThe Feathr Super Pixel connects your DonorDock giving page to your Feathr account, so you can track campaign performance and retarget people who've engaged with..."
     },
     {
       "title": "Integrations in DonorDock",
