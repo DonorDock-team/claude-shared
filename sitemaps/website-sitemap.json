@@ -3,14 +3,14 @@
     "name": "DonorDock Website",
     "base_url": "https://www.donordock.com",
     "source": "https://www.donordock.com/sitemap.xml",
-    "scraped_at": "2026-06-05T15:19:33Z",
-    "total_pages": 529,
+    "scraped_at": "2026-06-12T15:20:04Z",
+    "total_pages": 538,
     "total_sections": 7
   },
   "section_index": {
-    "articles": 269,
+    "articles": 271,
     "compare": 9,
-    "core": 68,
+    "core": 75,
     "features": 64,
     "integrations": 59,
     "success-stories": 14,
@@ -582,6 +582,12 @@
       "section": "articles"
     },
     {
+      "url": "https://www.donordock.com/articles/ecosystem-fundraising",
+      "title": "Ecosystem Fundraising: Building Donor Relationships That Last",
+      "description": "Most fundraising still operates one transaction at a time. Ecosystem fundraising flips that, building attention, trust, value, and longevity into every donor relationship.",
+      "section": "articles"
+    },
+    {
       "url": "https://www.donordock.com/articles/effective-communication-through-donordock-email",
       "title": "Effective Communication Through DonorDock Email",
       "description": "This post focuses on email templates, which are there to serve the framework to get you started or simply spark inspiration in the communication you want to put together.",
@@ -783,6 +789,12 @@
       "url": "https://www.donordock.com/articles/hard-decisions-that-move-mission-forward",
       "title": "The Hard Decisions That Actually Move Mission Forward",
       "description": "Nonprofit leadership means carrying hard decisions alongside the hope. The organizations making real, lasting progress aren't the ones that avoid difficult calls. They're the ones that make them thoughtfully, consistently, and courageously.",
+      "section": "articles"
+    },
+    {
+      "url": "https://www.donordock.com/articles/hidden-fundraiser-bias-costing-major-gifts",
+      "title": "The Hidden Bias Costing Your Nonprofit Major Gifts",
+      "description": "Comfort and status bias steer fundraisers toward the same easy donors and away from the ones who could fund the strategic plan. Here is how to spot it.",
       "section": "articles"
     },
     {
@@ -1980,15 +1992,39 @@
       "section": "core"
     },
     {
+      "url": "https://www.donordock.com/solution/ai-for-fundraising",
+      "title": "AI for Nonprofit Fundraising | DonorDock + Otto",
+      "description": "Use AI to fundraise smarter, not harder. Otto in DonorDock drafts donor messages, surfaces next steps, and automates stewardship for lean nonprofit teams.",
+      "section": "core"
+    },
+    {
       "url": "https://www.donordock.com/solution/annual-fund",
       "title": "Annual Fund Management Software for Nonprofits | DonorDock",
-      "description": "Plan, track, and grow your annual fund with DonorDock. Campaign management, donor segmentation, and real-time dashboards built for small nonprofit teams.",
+      "description": "Plan, track, and grow your annual fund with DonorDock. Campaign management, donor segmentation, and real-time dashboards built for growing nonprofit teams.",
       "section": "core"
     },
     {
       "url": "https://www.donordock.com/solution/board-reporting",
       "title": "Nonprofit Board Reporting Software | DonorDock",
       "description": "Generate board-ready fundraising reports in minutes. DonorDock provides real-time dashboards and exportable reports built for nonprofit leadership.",
+      "section": "core"
+    },
+    {
+      "url": "https://www.donordock.com/solution/capital-campaigns",
+      "title": "Capital Campaign Software for Nonprofits | DonorDock",
+      "description": "Manage your capital campaign in DonorDock. Track prospects, asks, pledges, and progress in one place so growing nonprofit teams stay focused from quiet phase to goal.",
+      "section": "core"
+    },
+    {
+      "url": "https://www.donordock.com/solution/crm-migration",
+      "title": "Nonprofit CRM Migration, Done For You | DonorDock",
+      "description": "Switch to DonorDock without losing donor data. Our team migrates your gifts, contacts, and history white-glove, typically in under a week, with 90 days of guided onboarding.",
+      "section": "core"
+    },
+    {
+      "url": "https://www.donordock.com/solution/donor-communications",
+      "title": "Nonprofit Donor Communication Software | DonorDock",
+      "description": "Send email, text messages, and letters from one platform built for nonprofits. DonorDock connects donor outreach to your CRM so every message lands and gets tracked.",
       "section": "core"
     },
     {
@@ -2012,12 +2048,18 @@
     {
       "url": "https://www.donordock.com/solution/grant-management",
       "title": "Grant Management for Nonprofits | DonorDock",
-      "description": "Track grant applications, deadlines, restricted funds, and reporting requirements in one place. DonorDock simplifies grant management for small nonprofits.",
+      "description": "Track grant applications, deadlines, restricted funds, and reporting requirements in one place. DonorDock simplifies grant management for growing nonprofits.",
+      "section": "core"
+    },
+    {
+      "url": "https://www.donordock.com/solution/lapsed-donor-reactivation",
+      "title": "Lapsed Donor Reactivation Software | DonorDock",
+      "description": "Re-engage lapsed donors with DonorDock. Spot who has slipped away, automate win-back outreach, and recover gifts you already earned, built for growing nonprofit teams.",
       "section": "core"
     },
     {
       "url": "https://www.donordock.com/solution/major-gifts",
-      "title": "Major Gift Management for Small Nonprofits | DonorDock",
+      "title": "Major Gift Management for Growing Nonprofits | DonorDock",
       "description": "Identify, cultivate, and close major gifts with DonorDock. Prospect tracking, moves management, and relationship tools built for lean nonprofit teams.",
       "section": "core"
     },
@@ -2028,9 +2070,21 @@
       "section": "core"
     },
     {
+      "url": "https://www.donordock.com/solution/online-donation-pages",
+      "title": "Nonprofit Online Donation Pages | DonorDock",
+      "description": "Create branded, mobile-ready online donation pages with Apple Pay, recurring gifts, and instant receipts. DonorDock connects every gift to your donor data automatically.",
+      "section": "core"
+    },
+    {
       "url": "https://www.donordock.com/solution/project-management",
       "title": "Nonprofit Project Management Software | DonorDock",
       "description": "Manage nonprofit projects, tasks, and deadlines inside your CRM. DonorDock project boards keep fundraising campaigns, events, and initiatives organized without extra tools.",
+      "section": "core"
+    },
+    {
+      "url": "https://www.donordock.com/solution/recurring-giving",
+      "title": "Recurring Giving Software for Nonprofits | DonorDock",
+      "description": "Launch and grow recurring giving with DonorDock. Set up monthly donations, automate receipts and renewals, and steward sustainers built for growing nonprofit teams.",
       "section": "core"
     },
     {
