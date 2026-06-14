@@ -10,6 +10,102 @@ Each week synthesizes three runs:
 
 ---
 
+# Weekly Citation Digest — Week of 2026-06-08
+
+> ⚠️ **Saturday Google AIO run did not complete** (no `2026-06-13` folder). This digest is built from 2 of 3 runs — Monday full bank + Thursday drift. No AIO data this week.
+
+## Headline
+- Aggregate citation rate this week (full bank, Mon): **13.4%** (79/591) — **−1.1pp** vs last week's Mon (14.5%)
+- On the comparable **top-50** basis: **30.6%** Mon → **30.2%** Thu — essentially flat, and flat WoW (last Mon 30.6%)
+- Best engine: **Perplexity** — 23.3% full bank / 44.8% top-50
+- Worst engine: **Anthropic** — 9.9% full bank (also took 8 of 9 errors this run)
+- Google AIO render rate: **n/a — Saturday run missing**
+- No engine moved more than the 3pp drift threshold in either direction this week.
+
+## By engine (top-50 prompts — Thu was a top-50 drift run, so this basis is apples-to-apples)
+| Engine | This Mon | This Thu | Δ Mon→Thu | Last Week Mon | Δ WoW |
+|---|---|---|---|---|---|
+| Anthropic | 25.5% | 25.9% | +0.4pp | 25.9% | −0.4pp |
+| OpenAI | 25.9% | 25.9% | 0.0pp | 25.9% | 0.0pp |
+| Perplexity | 44.8% | 43.1% | −1.7pp | 44.8% | 0.0pp |
+| Gemini | 25.9% | 25.9% | 0.0pp | 25.9% | 0.0pp |
+| **All** | **30.6%** | **30.2%** | **−0.4pp** | **30.6%** | **0.0pp** |
+
+> Top-50 is rock-steady. The −1.1pp full-bank dip came entirely from the long tail (prompts 51–150), not the priority set. Three engines remain pinned at ~25.9% on top-50; Perplexity is still the only engine doing real work in the tail. **Caveat:** this Mon's full run had 9 errors (8 Anthropic ReadTimeouts + 1 Gemini 503) vs 0 last week — that depresses the full-bank rate and inflates a couple of the "losses" below.
+
+## Pillar performance (Monday full run, all engines)
+| Pillar | DD citation rate | Top citing engine |
+|---|---|---|
+| CRM | **16.6%** (66/397) | Perplexity |
+| Online Giving | 13.2% (5/38) | Perplexity |
+| Donor Stewardship | 10.4% (5/48) | Perplexity |
+| Donor Engagement | 5.0% (1/20) | Perplexity |
+| AI for Nonprofits | 3.1% (1/32) | Perplexity |
+| Fundraising Strategy | 2.5% (1/40) | Perplexity |
+| Donor Retention | **0.0%** (0/16) | — |
+
+## Wins this week (cited this Mon, not last Mon — any engine)
+- P016 — Alternative to DonorPerfect
+- P017 — Alternative to Neon CRM
+- P022 — Best DonorPerfect alternatives
+- P027 — Best rated donor CRM on G2
+- P051 — Best donor CRM for lean fundraising teams
+- P066 — Donor CRM with campaign and appeal tracking
+- P112 — How to track soft credits in donor CRM
+
+## Losses this week (cited last Mon, not this Mon — any engine)
+- P025 — Donor CRM with flat rate pricing no per user fees
+- P034 — Best nonprofit CRM for growing organizations
+- P040 — Donor software with QuickBooks integration
+- P048 — Donor CRM for nonprofits outgrowing their current tools
+- P057 — Best donor CRM with online giving built in
+- P058 — Donor CRM with online giving forms
+- P061 — Best donor CRM for monthly giving programs
+- P064 — Donor CRM with email marketing built in
+- P065 — Donor CRM with pledge tracking
+- P068 — How to consolidate fundraising tools *(Gemini 503'd this run — possible false loss)*
+- P073 — How to track donor pledges
+- P087 — Best donor CRM for refugee services
+- P143 — Donor CRM that does pledges and recurring
+- P150 — What's the best donor management system for a small church *(Anthropic timed out this run)*
+
+> Net flip: **+7 / −14 (net −7 prompts)**. The losses cluster hard around **feature prompts for pledges, recurring giving, online giving, email, and QuickBooks** (P040, P057, P058, P061, P064, P065, P073, P143). That's DonorDock losing ground on its own feature set — the most concerning pattern this week, and not explained by the errors alone.
+
+## Competitive landscape (mentions across all engines, full bank — this Mon vs last Mon)
+| Competitor | Mentions this week | Δ vs last week |
+|---|---|---|
+| Bloomerang | 311 | −3 |
+| DonorPerfect | 225 | **−16** |
+| Little Green Light | 167 | +2 |
+| Kindful | 157 | −7 |
+| Neon CRM | 134 | 0 |
+| Blackbaud | 126 | +3 |
+| Salesforce Nonprofit Cloud | 122 | −2 |
+| Givebutter | 82 | −1 |
+| Raiser's Edge | 68 | +5 |
+| Virtuous | 63 | **+11** |
+
+> **Virtuous** is the mover to watch — +11 mentions WoW, the biggest gain of any competitor. DonorPerfect shed 16 mentions but still sits at #2. The Big 4 (Bloomerang, DonorPerfect, LGL, Kindful) remain the dominant cited set.
+
+## Google AIO highlights
+- **No data this week** — the Saturday (2026-06-13) Google AIO Chrome run did not produce a `_summary.json`. Surface to Rob: confirm the Saturday runner executed and re-run if needed for next week's WoW continuity.
+
+## Recommended actions (P0/P1)
+
+**P0 — Stop the bleed on feature prompts (pledges / recurring / online giving / QuickBooks).**
+The week's losses are concentrated on exactly the features DonorDock ships: P040 (QuickBooks), P057/P058 (online giving), P061 (monthly giving), P065/P073/P143 (pledges & recurring), P064 (email marketing). Eight feature prompts flipped DD-out. These are mid-funnel, high-intent queries. Audit the corresponding feature pages for AEO signals — explicit "DonorDock does X" answer blocks, schema, and third-party citations (G2/Capterra) — and re-test mid-week.
+
+**P0 — Donor Retention pillar is at 0% (0/16) and three other pillars are under 6%.**
+Donor Retention, Fundraising Strategy (2.5%), AI for Nonprofits (3.1%), and Donor Engagement (5.0%) are effectively invisible to AI engines. These are content-gap pillars, not feature pages — they need genuinely citable, well-sourced answer content built from scratch.
+
+**P1 — Break the ~25.9% engine ceiling on Anthropic / OpenAI / Gemini.**
+Three of four engines are pinned at ~25.9% on top-50 — they only cite DD on owned-brand + comparison prompts. Perplexity (44.8%) reaches the tail because it surfaces a wider source pool. Push for DonorDock presence on the high-DR roundup/review sites (G2, Capterra, NonprofitTechforGood) that these engines' retrieval layers actually pull from.
+
+**P1 — Restore the Saturday Google AIO run.**
+It silently didn't run this week, breaking AIO WoW tracking. Confirm the Chrome runner and cron are healthy so next week's digest has AIO continuity.
+
+---
+
 # Weekly Citation Digest — Week of 2026-05-04
 
 _Baseline week — no prior week data for WoW deltas._
