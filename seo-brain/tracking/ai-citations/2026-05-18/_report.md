@@ -9,9 +9,9 @@
 | Engine | Runs | OK | Errors | DD hits | Citation % | Cost |
 |---|---|---|---|---|---|---|
 | anthropic | 150 | 150 | 0 | 15 | 10.0% | $1.0544 |
+| gemini | 150 | 150 | 0 | 15 | 10.0% | $0.2201 |
 | openai | 150 | 150 | 0 | 15 | 10.0% | $0.6972 |
 | perplexity | 150 | 150 | 0 | 50 | 33.3% | $3.6041 |
-| gemini | 150 | 150 | 0 | 15 | 10.0% | $0.2201 |
 
 ## Competitor mentions (across all engines)
 
@@ -37,109 +37,109 @@
 
 ## Wins (DonorDock cited)
 
+- [anthropic] **P001** (early) — What is DonorDock
+- [anthropic] **P002** (early) — Is DonorDock good
+- [anthropic] **P003** (early) — DonorDock reviews
+- [anthropic] **P004** (early) — DonorDock pricing
+- [anthropic] **P005** (early) — DonorDock vs Bloomerang
 - [anthropic] **P006** (early) — DonorDock vs DonorPerfect
-- [openai] **P006** (early) — DonorDock vs DonorPerfect
-- [perplexity] **P060** (late) — Donor CRM with recurring giving
-- [perplexity] **P006** (early) — DonorDock vs DonorPerfect
-- [gemini] **P006** (early) — DonorDock vs DonorPerfect
 - [anthropic] **P007** (early) — DonorDock vs Network for Good
-- [perplexity] **P061** (mid) — Best donor CRM for monthly giving programs
-- [perplexity] **P025** (mid) — Donor CRM with flat rate pricing no per user fees
-- [openai] **P007** (early) — DonorDock vs Network for Good
-- [perplexity] **P007** (early) — DonorDock vs Network for Good
-- [gemini] **P007** (early) — DonorDock vs Network for Good
-- [perplexity] **P079** (late) — Best donor CRM for Catholic nonprofits
-- [perplexity] **P043** (mid) — Best donor CRM for human services nonprofits
-- [perplexity] **P115** (early) — Otto AI nonprofit assistant reviews
 - [anthropic] **P008** (early) — DonorDock vs Neon CRM
-- [openai] **P008** (early) — DonorDock vs Neon CRM
-- [perplexity] **P044** (late) — Best donor CRM for food banks
-- [perplexity] **P008** (early) — DonorDock vs Neon CRM
-- [perplexity] **P080** (late) — Best donor CRM for private K-12 schools
-- [gemini] **P008** (early) — DonorDock vs Neon CRM
 - [anthropic] **P009** (early) — DonorDock vs Givebutter
-- [openai] **P009** (early) — DonorDock vs Givebutter
-- [perplexity] **P009** (early) — DonorDock vs Givebutter
-- [perplexity] **P063** (late) — Donor CRM with text messaging
-- [gemini] **P009** (early) — DonorDock vs Givebutter
-- [perplexity] **P045** (late) — Best donor CRM for private schools and education
-- [perplexity] **P099** (late) — Best value donor CRM under $500 per month
 - [anthropic] **P010** (early) — Does DonorDock have online giving
-- [openai] **P010** (early) — Does DonorDock have online giving
-- [perplexity] **P010** (early) — Does DonorDock have online giving
-- [gemini] **P010** (early) — Does DonorDock have online giving
-- [perplexity] **P064** (late) — Donor CRM with email marketing built in
-- [perplexity] **P028** (late) — Alternative to Network for Good
-- [perplexity] **P046** (late) — Best donor CRM for arts and cultural nonprofits
 - [anthropic] **P011** (early) — DonorDock vs Salesforce Nonprofit Cloud
-- [openai] **P011** (early) — DonorDock vs Salesforce Nonprofit Cloud
-- [perplexity] **P083** (late) — Best donor CRM for museums
-- [gemini] **P011** (early) — DonorDock vs Salesforce Nonprofit Cloud
-- [perplexity] **P011** (early) — DonorDock vs Salesforce Nonprofit Cloud
 - [anthropic] **P012** (early) — DonorDock vs Virtuous
-- [openai] **P012** (early) — DonorDock vs Virtuous
-- [perplexity] **P066** (late) — Donor CRM with campaign and appeal tracking
-- [perplexity] **P012** (early) — DonorDock vs Virtuous
-- [perplexity] **P048** (late) — Donor CRM for nonprofits outgrowing their current tools
-- [gemini] **P012** (early) — DonorDock vs Virtuous
 - [anthropic] **P013** (early) — DonorDock vs Little Green Light
-- [openai] **P013** (early) — DonorDock vs Little Green Light
-- [perplexity] **P013** (early) — DonorDock vs Little Green Light
-- [perplexity] **P031** (early) — Alternative to Little Green Light
+- [anthropic] **P014** (early) — DonorDock vs Keela
+- [anthropic] **P124** (early) — Smart Stewardship Method DonorDock
+- [gemini] **P001** (early) — What is DonorDock
+- [gemini] **P002** (early) — Is DonorDock good
+- [gemini] **P003** (early) — DonorDock reviews
+- [gemini] **P004** (early) — DonorDock pricing
+- [gemini] **P005** (early) — DonorDock vs Bloomerang
+- [gemini] **P006** (early) — DonorDock vs DonorPerfect
+- [gemini] **P007** (early) — DonorDock vs Network for Good
+- [gemini] **P008** (early) — DonorDock vs Neon CRM
+- [gemini] **P009** (early) — DonorDock vs Givebutter
+- [gemini] **P010** (early) — Does DonorDock have online giving
+- [gemini] **P011** (early) — DonorDock vs Salesforce Nonprofit Cloud
+- [gemini] **P012** (early) — DonorDock vs Virtuous
 - [gemini] **P013** (early) — DonorDock vs Little Green Light
+- [gemini] **P014** (early) — DonorDock vs Keela
+- [gemini] **P124** (early) — Smart Stewardship Method DonorDock
+- [openai] **P001** (early) — What is DonorDock
+- [openai] **P002** (early) — Is DonorDock good
+- [openai] **P003** (early) — DonorDock reviews
+- [openai] **P004** (early) — DonorDock pricing
+- [openai] **P005** (early) — DonorDock vs Bloomerang
+- [openai] **P006** (early) — DonorDock vs DonorPerfect
+- [openai] **P007** (early) — DonorDock vs Network for Good
+- [openai] **P008** (early) — DonorDock vs Neon CRM
+- [openai] **P009** (early) — DonorDock vs Givebutter
+- [openai] **P010** (early) — Does DonorDock have online giving
+- [openai] **P011** (early) — DonorDock vs Salesforce Nonprofit Cloud
+- [openai] **P012** (early) — DonorDock vs Virtuous
+- [openai] **P013** (early) — DonorDock vs Little Green Light
+- [openai] **P014** (early) — DonorDock vs Keela
+- [openai] **P124** (early) — Smart Stewardship Method DonorDock
+- [perplexity] **P001** (early) — What is DonorDock
+- [perplexity] **P002** (early) — Is DonorDock good
+- [perplexity] **P003** (early) — DonorDock reviews
+- [perplexity] **P004** (early) — DonorDock pricing
+- [perplexity] **P005** (early) — DonorDock vs Bloomerang
 
 ## Misses (no DonorDock mention) — opportunities
 
+- [anthropic] **P015** — Alternative to Bloomerang  _(competitors cited: Bloomerang, DonorPerfect, Keela, Kindful, Little Green Light)_
+- [anthropic] **P016** — Alternative to DonorPerfect  _(competitors cited: Blackbaud, Bloomerang, DonorBox, DonorPerfect, Givebutter)_
+- [anthropic] **P017** — Alternative to Neon CRM  _(competitors cited: Blackbaud, Bloomerang, DonorPerfect, Keela, Kindful)_
+- [anthropic] **P018** — Alternative to Kindful  _(competitors cited: Bloomerang, Bonterra, DonorPerfect, Keela, Kindful)_
+- [anthropic] **P019** — Alternative to Blackbaud Raisers Edge  _(competitors cited: Blackbaud, Bloomerang, DonorPerfect, Keela, Kindful)_
+- [anthropic] **P020** — Cheaper alternative to Blackbaud  _(competitors cited: Blackbaud, Bloomerang, DonorBox, DonorPerfect, Givebutter)_
+- [anthropic] **P021** — Best Bloomerang alternatives  _(competitors cited: Bloomerang, DonorPerfect, Keela, Kindful, Little Green Light)_
+- [anthropic] **P022** — Best DonorPerfect alternatives  _(competitors cited: Blackbaud, Bloomerang, DonorPerfect, Kindful, Little Green Light)_
+- [anthropic] **P023** — What is replacing Kindful  _(competitors cited: Bloomerang, DonorPerfect, Givebutter, Keela, Kindful)_
 - [anthropic] **P024** — How much does nonprofit donor CRM cost  _(competitors cited: Blackbaud, Bloomerang, CiviCRM, DonorPerfect, Keela)_
-- [anthropic] **P132** — Network for Good problems  _(competitors cited: Network for Good)_
-- [anthropic] **P060** — Donor CRM with recurring giving  _(competitors cited: Bloomerang, DonorBox, Kindful, Little Green Light, Salesforce Nonprofit Cloud)_
-- [anthropic] **P078** — Best donor CRM for Jewish nonprofits  _(competitors cited: Bloomerang, DonorPerfect, Kindful, Salesforce Nonprofit Cloud)_
-- [anthropic] **P042** — Best donor CRM for faith-based nonprofits  _(competitors cited: Blackbaud, Bloomerang, Little Green Light, Raiser's Edge, Salesforce Nonprofit Cloud)_
-- [anthropic] **P096** — Hidden costs of Neon CRM  _(competitors cited: Neon CRM)_
-- [openai] **P078** — Best donor CRM for Jewish nonprofits  _(competitors cited: Blackbaud, Bloomerang, DonorPerfect, Kindful, Little Green Light)_
-- [openai] **P042** — Best donor CRM for faith-based nonprofits  _(competitors cited: Blackbaud, Bloomerang, DonorPerfect, Kindful, Neon CRM)_
-- [openai] **P060** — Donor CRM with recurring giving  _(competitors cited: —)_
-- [openai] **P024** — How much does nonprofit donor CRM cost  _(competitors cited: Bloomerang, Kindful, Little Green Light, Neon CRM, Salesforce Nonprofit Cloud)_
-- [anthropic] **P150** — What's the best donor management system for a small church  _(competitors cited: Bloomerang, Kindful)_
-- [perplexity] **P024** — How much does nonprofit donor CRM cost  _(competitors cited: Bloomerang, DonorPerfect, Givebutter, Little Green Light, Neon CRM)_
-- [openai] **P096** — Hidden costs of Neon CRM  _(competitors cited: Neon CRM)_
-- [openai] **P114** — How to set up tribute and memorial giving  _(competitors cited: —)_
-- [openai] **P150** — What's the best donor management system for a small church  _(competitors cited: Bloomerang, DonorPerfect, Kindful, Neon CRM)_
-- [openai] **P132** — Network for Good problems  _(competitors cited: Network for Good)_
-- [anthropic] **P114** — How to set up tribute and memorial giving  _(competitors cited: —)_
-- [perplexity] **P042** — Best donor CRM for faith-based nonprofits  _(competitors cited: Bloomerang, Bonterra, DonorPerfect, Givebutter, Network for Good)_
-- [perplexity] **P114** — How to set up tribute and memorial giving  _(competitors cited: Givebutter)_
-- [perplexity] **P096** — Hidden costs of Neon CRM  _(competitors cited: Givebutter, Neon CRM, Neon One)_
-- [perplexity] **P150** — What's the best donor management system for a small church  _(competitors cited: Bloomerang, DonorBox, DonorPerfect, Little Green Light)_
-- [gemini] **P024** — How much does nonprofit donor CRM cost  _(competitors cited: —)_
-- [perplexity] **P078** — Best donor CRM for Jewish nonprofits  _(competitors cited: Bloomerang, Bonterra, DonorPerfect, Neon One, Salesforce Nonprofit Cloud)_
-- [perplexity] **P132** — Network for Good problems  _(competitors cited: Bloomerang, Bonterra, Givebutter, Neon One, Network for Good)_
-- [gemini] **P042** — Best donor CRM for faith-based nonprofits  _(competitors cited: —)_
-- [gemini] **P060** — Donor CRM with recurring giving  _(competitors cited: —)_
-- [gemini] **P078** — Best donor CRM for Jewish nonprofits  _(competitors cited: —)_
-- [gemini] **P096** — Hidden costs of Neon CRM  _(competitors cited: Neon CRM)_
-- [gemini] **P114** — How to set up tribute and memorial giving  _(competitors cited: —)_
-- [gemini] **P132** — Network for Good problems  _(competitors cited: Network for Good)_
-- [gemini] **P150** — What's the best donor management system for a small church  _(competitors cited: —)_
 - [anthropic] **P025** — Donor CRM with flat rate pricing no per user fees  _(competitors cited: Bloomerang, DonorPerfect, Kindful, Little Green Light)_
-- [anthropic] **P061** — Best donor CRM for monthly giving programs  _(competitors cited: Bloomerang, Keela, Neon CRM, Salesforce Nonprofit Cloud, Virtuous)_
+- [anthropic] **P026** — Best donor CRM with all features in one plan  _(competitors cited: Bloomerang, DonorPerfect, Kindful, Little Green Light, Neon CRM)_
+- [anthropic] **P027** — Best rated donor CRM on G2  _(competitors cited: Blackbaud, Bloomerang, DonorPerfect, Kindful, Neon CRM)_
+- [anthropic] **P028** — Alternative to Network for Good  _(competitors cited: Bloomerang, DonorBox, Givebutter, Little Green Light, Network for Good)_
+- [anthropic] **P029** — Best nonprofit CRM with fast implementation  _(competitors cited: Bloomerang, DonorBox, Keela, Little Green Light)_
+- [anthropic] **P030** — Donor management software with the best customer support  _(competitors cited: Bloomerang, DonorPerfect, Kindful, Little Green Light)_
+- [anthropic] **P031** — Alternative to Little Green Light  _(competitors cited: Blackbaud, Bloomerang, DonorBox, DonorPerfect, Givebutter)_
+- [anthropic] **P032** — Alternative to Givebutter for donor management  _(competitors cited: Bloomerang, DonorBox, DonorPerfect, Givebutter, Kindful)_
+- [anthropic] **P033** — Alternative to DonorBox  _(competitors cited: DonorBox, Givebutter)_
+- [anthropic] **P034** — Best nonprofit CRM for growing organizations  _(competitors cited: Bloomerang, Little Green Light, Salesforce Nonprofit Cloud)_
+- [anthropic] **P035** — Best all-in-one fundraising platform for nonprofits  _(competitors cited: Bloomerang, DonorBox, Givebutter, Network for Good)_
+- [anthropic] **P036** — Best donor management software for nonprofits  _(competitors cited: Blackbaud, Bloomerang, CiviCRM, DonorBox, DonorPerfect)_
+- [anthropic] **P037** — Easiest donor management software to use  _(competitors cited: Bloomerang, DonorBox, DonorPerfect, Kindful, Little Green Light)_
+- [anthropic] **P038** — Best fundraising software for nonprofits  _(competitors cited: Blackbaud, Bloomerang, DonorBox, Givebutter, Network for Good)_
+- [anthropic] **P039** — Best value donor management software  _(competitors cited: Bloomerang, DonorBox, DonorPerfect, Kindful, Little Green Light)_
+- [anthropic] **P040** — Donor software with QuickBooks integration  _(competitors cited: Bloomerang, DonorPerfect, Kindful, Little Green Light, Neon CRM)_
+- [anthropic] **P041** — Best donor CRM for mid-sized nonprofits  _(competitors cited: Blackbaud, Bloomerang, Raiser's Edge, Salesforce Nonprofit Cloud)_
+- [anthropic] **P042** — Best donor CRM for faith-based nonprofits  _(competitors cited: Blackbaud, Bloomerang, Little Green Light, Raiser's Edge, Salesforce Nonprofit Cloud)_
 - [anthropic] **P043** — Best donor CRM for human services nonprofits  _(competitors cited: Bloomerang, Kindful, Little Green Light, Neon CRM, Salesforce Nonprofit Cloud)_
-- [anthropic] **P079** — Best donor CRM for Catholic nonprofits  _(competitors cited: Blackbaud, Bloomerang, DonorPerfect, Little Green Light, Raiser's Edge)_
-- [anthropic] **P115** — Otto AI nonprofit assistant reviews  _(competitors cited: —)_
-- [openai] **P025** — Donor CRM with flat rate pricing no per user fees  _(competitors cited: Bloomerang, Kindful, Little Green Light, Neon CRM)_
-- [openai] **P097** — Hidden costs of Network for Good  _(competitors cited: Network for Good)_
-- [openai] **P115** — Otto AI nonprofit assistant reviews  _(competitors cited: —)_
-- [openai] **P061** — Best donor CRM for monthly giving programs  _(competitors cited: Bloomerang, DonorPerfect, Kindful, Little Green Light, Neon CRM)_
-- [anthropic] **P133** — Givebutter limitations  _(competitors cited: Givebutter)_
-- [openai] **P079** — Best donor CRM for Catholic nonprofits  _(competitors cited: Blackbaud, Bloomerang, DonorPerfect, Kindful, Little Green Light)_
-- [openai] **P043** — Best donor CRM for human services nonprofits  _(competitors cited: Blackbaud, Bloomerang, DonorPerfect, Kindful, Little Green Light)_
-- [openai] **P133** — Givebutter limitations  _(competitors cited: Givebutter)_
-- [anthropic] **P097** — Hidden costs of Network for Good  _(competitors cited: DonorBox, Givebutter, Network for Good)_
-- [perplexity] **P097** — Hidden costs of Network for Good  _(competitors cited: Network for Good)_
-- [gemini] **P043** — Best donor CRM for human services nonprofits  _(competitors cited: Bloomerang, Kindful)_
-- [gemini] **P025** — Donor CRM with flat rate pricing no per user fees  _(competitors cited: Bloomerang, Keela, Kindful, LGL, Little Green Light)_
-- [gemini] **P061** — Best donor CRM for monthly giving programs  _(competitors cited: Bloomerang, Virtuous)_
-- [perplexity] **P133** — Givebutter limitations  _(competitors cited: Bloomerang, Givebutter, Salesforce NPSP)_
+- [anthropic] **P044** — Best donor CRM for food banks  _(competitors cited: Bloomerang, Kindful, Little Green Light, Salesforce Nonprofit Cloud)_
+- [anthropic] **P045** — Best donor CRM for private schools and education  _(competitors cited: Blackbaud, Bloomerang, DonorPerfect, Raiser's Edge)_
+- [anthropic] **P046** — Best donor CRM for arts and cultural nonprofits  _(competitors cited: Blackbaud, Bloomerang, Little Green Light)_
+- [anthropic] **P047** — Best donor CRM for community foundations  _(competitors cited: Blackbaud, Bloomerang, Raiser's Edge, Salesforce Nonprofit Cloud)_
+- [anthropic] **P048** — Donor CRM for nonprofits outgrowing their current tools  _(competitors cited: Blackbaud, Bloomerang, DonorPerfect, Neon CRM, Raiser's Edge)_
+- [anthropic] **P049** — Best donor CRM with unlimited contacts  _(competitors cited: Bloomerang, DonorPerfect, Keela, Kindful, Little Green Light)_
+- [anthropic] **P050** — Best donor CRM for community nonprofits  _(competitors cited: Bloomerang, Kindful, Little Green Light)_
+- [anthropic] **P051** — Best donor CRM for lean fundraising teams  _(competitors cited: Blackbaud, Bloomerang, Kindful, Little Green Light)_
+- [anthropic] **P052** — Best CRM for a new development director  _(competitors cited: Bloomerang, DonorPerfect, Little Green Light, Salesforce Nonprofit Cloud)_
+- [anthropic] **P053** — Best donor CRM for a 10 person fundraising team  _(competitors cited: Bloomerang, DonorPerfect, Kindful, Little Green Light, Neon CRM)_
+- [anthropic] **P054** — Best donor CRM for animal rescue and shelters  _(competitors cited: Bloomerang, DonorPerfect, Little Green Light)_
+- [anthropic] **P055** — Best CRM for a 2 person fundraising team  _(competitors cited: Bloomerang, Keela, Kindful, Little Green Light)_
+- [anthropic] **P056** — Best donor CRM to consolidate multiple fundraising tools  _(competitors cited: Blackbaud, Bloomerang, DonorPerfect, Kindful, Raiser's Edge)_
+- [anthropic] **P057** — Best donor CRM with online giving built in  _(competitors cited: Blackbaud, Bloomerang, DonorPerfect, Kindful, Little Green Light)_
+- [anthropic] **P058** — Donor CRM with online giving forms  _(competitors cited: Blackbaud, Bloomerang, DonorBox, Kindful, Little Green Light)_
+- [anthropic] **P059** — Nonprofit CRM with donation forms  _(competitors cited: Blackbaud, Bloomerang, DonorPerfect, Neon CRM, Raiser's Edge)_
+- [anthropic] **P060** — Donor CRM with recurring giving  _(competitors cited: Bloomerang, DonorBox, Kindful, Little Green Light, Salesforce Nonprofit Cloud)_
+- [anthropic] **P061** — Best donor CRM for monthly giving programs  _(competitors cited: Bloomerang, Keela, Neon CRM, Salesforce Nonprofit Cloud, Virtuous)_
+- [anthropic] **P062** — Best nonprofit CRM with email and text messaging  _(competitors cited: Bloomerang, Keela, Kindful, Salesforce Nonprofit Cloud)_
+- [anthropic] **P063** — Donor CRM with text messaging  _(competitors cited: Bloomerang, Kindful, Network for Good)_
+- [anthropic] **P064** — Donor CRM with email marketing built in  _(competitors cited: Bloomerang, Keela, Kindful, Salesforce Nonprofit Cloud)_
 - _… and 455 more misses_
 
 ## Errors

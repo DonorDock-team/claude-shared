@@ -8,14 +8,6 @@
   "donordock_citation_rate_pct": 44.4,
   "total_estimated_cost_usd": 0.0432,
   "by_engine": {
-    "gemini": {
-      "total": 58,
-      "ok": 2,
-      "errors": 56,
-      "donordock_hits": 2,
-      "cost_usd": 0.0016,
-      "citation_rate_pct": 100.0
-    },
     "anthropic": {
       "total": 58,
       "ok": 4,
@@ -23,6 +15,14 @@
       "donordock_hits": 1,
       "cost_usd": 0.0276,
       "citation_rate_pct": 25.0
+    },
+    "gemini": {
+      "total": 58,
+      "ok": 2,
+      "errors": 56,
+      "donordock_hits": 2,
+      "cost_usd": 0.0016,
+      "citation_rate_pct": 100.0
     },
     "openai": {
       "total": 58,
@@ -47,14 +47,112 @@
     "Kindful": 3,
     "Little Green Light": 3,
     "Network for Good": 3,
-    "Givebutter": 2,
     "Keela": 2,
     "Salesforce Nonprofit Cloud": 2,
     "Blackbaud": 2,
+    "Givebutter": 2,
     "Neon CRM": 1,
     "CiviCRM": 1,
     "Raiser's Edge": 1,
     "DonorBox": 1,
     "eTapestry": 1
-  }
+  },
+  "by_pillar": {
+    "Online Giving": {
+      "prompts": 1,
+      "ok": 1,
+      "donordock_hits": 1,
+      "citation_rate_pct": 100.0,
+      "top_competitor": {
+        "name": "Givebutter",
+        "mentions": 1
+      }
+    },
+    "CRM": {
+      "prompts": 5,
+      "ok": 8,
+      "donordock_hits": 3,
+      "citation_rate_pct": 37.5,
+      "top_competitor": {
+        "name": "DonorPerfect",
+        "mentions": 6
+      }
+    }
+  },
+  "top_wins": [
+    {
+      "prompt_id": "P006",
+      "prompt_text": "DonorDock vs DonorPerfect",
+      "pillar": "CRM",
+      "engines": [
+        "anthropic",
+        "openai"
+      ],
+      "n_engines": 2,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P001",
+      "prompt_text": "What is DonorDock",
+      "pillar": "CRM",
+      "engines": [
+        "gemini"
+      ],
+      "n_engines": 1,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P010",
+      "prompt_text": "Does DonorDock have online giving",
+      "pillar": "Online Giving",
+      "engines": [
+        "gemini"
+      ],
+      "n_engines": 1,
+      "position": "early"
+    }
+  ],
+  "top_misses": [
+    {
+      "prompt_id": "P015",
+      "prompt_text": "Alternative to Bloomerang",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Kindful",
+        "Little Green Light",
+        "Keela"
+      ],
+      "n_competitors": 10,
+      "n_engines_missed": 2
+    },
+    {
+      "prompt_id": "P024",
+      "prompt_text": "How much does nonprofit donor CRM cost",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Blackbaud",
+        "CiviCRM",
+        "Keela"
+      ],
+      "n_competitors": 10,
+      "n_engines_missed": 2
+    },
+    {
+      "prompt_id": "P035",
+      "prompt_text": "Best all-in-one fundraising platform for nonprofits",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "DonorBox",
+        "Givebutter",
+        "Network for Good"
+      ],
+      "n_competitors": 4,
+      "n_engines_missed": 1
+    }
+  ]
 }

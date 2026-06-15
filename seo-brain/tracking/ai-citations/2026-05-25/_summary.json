@@ -16,6 +16,14 @@
       "cost_usd": 0.7665,
       "citation_rate_pct": 10.8
     },
+    "gemini": {
+      "total": 150,
+      "ok": 134,
+      "errors": 16,
+      "donordock_hits": 14,
+      "cost_usd": 0.2023,
+      "citation_rate_pct": 10.4
+    },
     "openai": {
       "total": 150,
       "ok": 123,
@@ -31,14 +39,6 @@
       "donordock_hits": 30,
       "cost_usd": 3.0353,
       "citation_rate_pct": 23.4
-    },
-    "gemini": {
-      "total": 150,
-      "ok": 134,
-      "errors": 16,
-      "donordock_hits": 14,
-      "cost_usd": 0.2023,
-      "citation_rate_pct": 10.4
     }
   },
   "competitor_mentions": {
@@ -61,5 +61,712 @@
     "Salesforce NPSP": 23,
     "CiviCRM": 13,
     "eTapestry": 13
-  }
+  },
+  "by_pillar": {
+    "CRM": {
+      "prompts": 101,
+      "ok": 334,
+      "donordock_hits": 54,
+      "citation_rate_pct": 16.2,
+      "top_competitor": {
+        "name": "Bloomerang",
+        "mentions": 218
+      }
+    },
+    "Online Giving": {
+      "prompts": 10,
+      "ok": 35,
+      "donordock_hits": 5,
+      "citation_rate_pct": 14.3,
+      "top_competitor": {
+        "name": "Bloomerang",
+        "mentions": 21
+      }
+    },
+    "Donor Engagement": {
+      "prompts": 5,
+      "ok": 18,
+      "donordock_hits": 2,
+      "citation_rate_pct": 11.1,
+      "top_competitor": {
+        "name": "Bloomerang",
+        "mentions": 11
+      }
+    },
+    "AI for Nonprofits": {
+      "prompts": 8,
+      "ok": 25,
+      "donordock_hits": 2,
+      "citation_rate_pct": 8.0,
+      "top_competitor": {
+        "name": "Bloomerang",
+        "mentions": 3
+      }
+    },
+    "Donor Stewardship": {
+      "prompts": 12,
+      "ok": 38,
+      "donordock_hits": 2,
+      "citation_rate_pct": 5.3,
+      "top_competitor": {
+        "name": "DonorPerfect",
+        "mentions": 8
+      }
+    },
+    "Donor Retention": {
+      "prompts": 4,
+      "ok": 11,
+      "donordock_hits": 0,
+      "citation_rate_pct": 0.0,
+      "top_competitor": null
+    },
+    "Fundraising Strategy": {
+      "prompts": 10,
+      "ok": 35,
+      "donordock_hits": 0,
+      "citation_rate_pct": 0.0,
+      "top_competitor": {
+        "name": "Bloomerang",
+        "mentions": 11
+      }
+    }
+  },
+  "top_wins": [
+    {
+      "prompt_id": "P001",
+      "prompt_text": "What is DonorDock",
+      "pillar": "CRM",
+      "engines": [
+        "anthropic",
+        "gemini",
+        "openai",
+        "perplexity"
+      ],
+      "n_engines": 4,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P002",
+      "prompt_text": "Is DonorDock good",
+      "pillar": "CRM",
+      "engines": [
+        "anthropic",
+        "gemini",
+        "openai",
+        "perplexity"
+      ],
+      "n_engines": 4,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P004",
+      "prompt_text": "DonorDock pricing",
+      "pillar": "CRM",
+      "engines": [
+        "anthropic",
+        "gemini",
+        "openai",
+        "perplexity"
+      ],
+      "n_engines": 4,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P010",
+      "prompt_text": "Does DonorDock have online giving",
+      "pillar": "Online Giving",
+      "engines": [
+        "anthropic",
+        "gemini",
+        "openai",
+        "perplexity"
+      ],
+      "n_engines": 4,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P011",
+      "prompt_text": "DonorDock vs Salesforce Nonprofit Cloud",
+      "pillar": "CRM",
+      "engines": [
+        "anthropic",
+        "gemini",
+        "openai",
+        "perplexity"
+      ],
+      "n_engines": 4,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P013",
+      "prompt_text": "DonorDock vs Little Green Light",
+      "pillar": "CRM",
+      "engines": [
+        "anthropic",
+        "gemini",
+        "openai",
+        "perplexity"
+      ],
+      "n_engines": 4,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P014",
+      "prompt_text": "DonorDock vs Keela",
+      "pillar": "CRM",
+      "engines": [
+        "anthropic",
+        "gemini",
+        "openai",
+        "perplexity"
+      ],
+      "n_engines": 4,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P003",
+      "prompt_text": "DonorDock reviews",
+      "pillar": "CRM",
+      "engines": [
+        "anthropic",
+        "gemini",
+        "perplexity"
+      ],
+      "n_engines": 3,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P005",
+      "prompt_text": "DonorDock vs Bloomerang",
+      "pillar": "CRM",
+      "engines": [
+        "anthropic",
+        "gemini",
+        "perplexity"
+      ],
+      "n_engines": 3,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P006",
+      "prompt_text": "DonorDock vs DonorPerfect",
+      "pillar": "CRM",
+      "engines": [
+        "gemini",
+        "openai",
+        "perplexity"
+      ],
+      "n_engines": 3,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P007",
+      "prompt_text": "DonorDock vs Network for Good",
+      "pillar": "CRM",
+      "engines": [
+        "gemini",
+        "openai",
+        "perplexity"
+      ],
+      "n_engines": 3,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P008",
+      "prompt_text": "DonorDock vs Neon CRM",
+      "pillar": "CRM",
+      "engines": [
+        "anthropic",
+        "gemini",
+        "perplexity"
+      ],
+      "n_engines": 3,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P012",
+      "prompt_text": "DonorDock vs Virtuous",
+      "pillar": "CRM",
+      "engines": [
+        "anthropic",
+        "gemini",
+        "perplexity"
+      ],
+      "n_engines": 3,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P009",
+      "prompt_text": "DonorDock vs Givebutter",
+      "pillar": "CRM",
+      "engines": [
+        "anthropic",
+        "gemini"
+      ],
+      "n_engines": 2,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P049",
+      "prompt_text": "Best donor CRM with unlimited contacts",
+      "pillar": "CRM",
+      "engines": [
+        "perplexity"
+      ],
+      "n_engines": 1,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P063",
+      "prompt_text": "Donor CRM with text messaging",
+      "pillar": "Donor Engagement",
+      "engines": [
+        "perplexity"
+      ],
+      "n_engines": 1,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P099",
+      "prompt_text": "Best value donor CRM under $500 per month",
+      "pillar": "CRM",
+      "engines": [
+        "perplexity"
+      ],
+      "n_engines": 1,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P115",
+      "prompt_text": "Otto AI nonprofit assistant reviews",
+      "pillar": "AI for Nonprofits",
+      "engines": [
+        "perplexity"
+      ],
+      "n_engines": 1,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P122",
+      "prompt_text": "Otto vs ChatGPT for nonprofits",
+      "pillar": "AI for Nonprofits",
+      "engines": [
+        "perplexity"
+      ],
+      "n_engines": 1,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P124",
+      "prompt_text": "Smart Stewardship Method DonorDock",
+      "pillar": "Donor Stewardship",
+      "engines": [
+        "perplexity"
+      ],
+      "n_engines": 1,
+      "position": "early"
+    },
+    {
+      "prompt_id": "P051",
+      "prompt_text": "Best donor CRM for lean fundraising teams",
+      "pillar": "CRM",
+      "engines": [
+        "perplexity"
+      ],
+      "n_engines": 1,
+      "position": "mid"
+    },
+    {
+      "prompt_id": "P087",
+      "prompt_text": "Best donor CRM for refugee services",
+      "pillar": "CRM",
+      "engines": [
+        "perplexity"
+      ],
+      "n_engines": 1,
+      "position": "mid"
+    },
+    {
+      "prompt_id": "P097",
+      "prompt_text": "Hidden costs of Network for Good",
+      "pillar": "CRM",
+      "engines": [
+        "perplexity"
+      ],
+      "n_engines": 1,
+      "position": "mid"
+    },
+    {
+      "prompt_id": "P027",
+      "prompt_text": "Best rated donor CRM on G2",
+      "pillar": "CRM",
+      "engines": [
+        "perplexity"
+      ],
+      "n_engines": 1,
+      "position": "late"
+    },
+    {
+      "prompt_id": "P037",
+      "prompt_text": "Easiest donor management software to use",
+      "pillar": "CRM",
+      "engines": [
+        "perplexity"
+      ],
+      "n_engines": 1,
+      "position": "late"
+    }
+  ],
+  "top_misses": [
+    {
+      "prompt_id": "P015",
+      "prompt_text": "Alternative to Bloomerang",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Little Green Light",
+        "Blackbaud",
+        "Kindful"
+      ],
+      "n_competitors": 17,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P016",
+      "prompt_text": "Alternative to DonorPerfect",
+      "pillar": "CRM",
+      "competitors": [
+        "Blackbaud",
+        "Bloomerang",
+        "DonorPerfect",
+        "Kindful",
+        "Little Green Light"
+      ],
+      "n_competitors": 17,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P031",
+      "prompt_text": "Alternative to Little Green Light",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Little Green Light",
+        "Kindful",
+        "Blackbaud"
+      ],
+      "n_competitors": 15,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P019",
+      "prompt_text": "Alternative to Blackbaud Raisers Edge",
+      "pillar": "CRM",
+      "competitors": [
+        "Blackbaud",
+        "Bloomerang",
+        "DonorPerfect",
+        "Salesforce Nonprofit Cloud",
+        "Kindful"
+      ],
+      "n_competitors": 14,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P139",
+      "prompt_text": "What CRM is similar to Salesforce but for nonprofits",
+      "pillar": "CRM",
+      "competitors": [
+        "DonorPerfect",
+        "Bloomerang",
+        "Kindful",
+        "Salesforce Nonprofit Cloud",
+        "Blackbaud"
+      ],
+      "n_competitors": 14,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P028",
+      "prompt_text": "Alternative to Network for Good",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "Little Green Light",
+        "Network for Good",
+        "DonorBox",
+        "Blackbaud"
+      ],
+      "n_competitors": 14,
+      "n_engines_missed": 3
+    },
+    {
+      "prompt_id": "P056",
+      "prompt_text": "Best donor CRM to consolidate multiple fundraising tools",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "Blackbaud",
+        "Keela",
+        "Raiser's Edge",
+        "Salesforce Nonprofit Cloud"
+      ],
+      "n_competitors": 13,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P036",
+      "prompt_text": "Best donor management software for nonprofits",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Kindful",
+        "Little Green Light",
+        "Blackbaud"
+      ],
+      "n_competitors": 13,
+      "n_engines_missed": 3
+    },
+    {
+      "prompt_id": "P020",
+      "prompt_text": "Cheaper alternative to Blackbaud",
+      "pillar": "CRM",
+      "competitors": [
+        "Blackbaud",
+        "Bloomerang",
+        "DonorPerfect",
+        "Little Green Light",
+        "Neon CRM"
+      ],
+      "n_competitors": 12,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P030",
+      "prompt_text": "Donor management software with the best customer support",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Little Green Light",
+        "Kindful",
+        "Blackbaud"
+      ],
+      "n_competitors": 12,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P038",
+      "prompt_text": "Best fundraising software for nonprofits",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Givebutter",
+        "Kindful",
+        "Network for Good"
+      ],
+      "n_competitors": 12,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P050",
+      "prompt_text": "Best donor CRM for community nonprofits",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "Kindful",
+        "Little Green Light",
+        "DonorPerfect",
+        "Salesforce Nonprofit Cloud"
+      ],
+      "n_competitors": 12,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P055",
+      "prompt_text": "Best CRM for a 2 person fundraising team",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "Little Green Light",
+        "Neon CRM",
+        "Blackbaud",
+        "DonorBox"
+      ],
+      "n_competitors": 12,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P141",
+      "prompt_text": "Easy donor database for fundraisers",
+      "pillar": "CRM",
+      "competitors": [
+        "DonorPerfect",
+        "Bloomerang",
+        "Kindful",
+        "Little Green Light",
+        "Neon CRM"
+      ],
+      "n_competitors": 12,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P018",
+      "prompt_text": "Alternative to Kindful",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Kindful",
+        "Little Green Light",
+        "Raiser's Edge"
+      ],
+      "n_competitors": 12,
+      "n_engines_missed": 2
+    },
+    {
+      "prompt_id": "P029",
+      "prompt_text": "Best nonprofit CRM with fast implementation",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "Kindful",
+        "Little Green Light",
+        "DonorPerfect",
+        "Neon CRM"
+      ],
+      "n_competitors": 11,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P092",
+      "prompt_text": "Best donor CRM for international NGOs",
+      "pillar": "CRM",
+      "competitors": [
+        "Salesforce Nonprofit Cloud",
+        "Bloomerang",
+        "Blackbaud",
+        "Kindful",
+        "DonorPerfect"
+      ],
+      "n_competitors": 11,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P017",
+      "prompt_text": "Alternative to Neon CRM",
+      "pillar": "CRM",
+      "competitors": [
+        "Blackbaud",
+        "Bloomerang",
+        "Neon CRM",
+        "Raiser's Edge",
+        "Salesforce Nonprofit Cloud"
+      ],
+      "n_competitors": 11,
+      "n_engines_missed": 2
+    },
+    {
+      "prompt_id": "P022",
+      "prompt_text": "Best DonorPerfect alternatives",
+      "pillar": "CRM",
+      "competitors": [
+        "Blackbaud",
+        "Bloomerang",
+        "DonorPerfect",
+        "Kindful",
+        "Little Green Light"
+      ],
+      "n_competitors": 11,
+      "n_engines_missed": 2
+    },
+    {
+      "prompt_id": "P045",
+      "prompt_text": "Best donor CRM for private schools and education",
+      "pillar": "CRM",
+      "competitors": [
+        "Blackbaud",
+        "Bloomerang",
+        "DonorPerfect",
+        "Little Green Light",
+        "Raiser's Edge"
+      ],
+      "n_competitors": 10,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P078",
+      "prompt_text": "Best donor CRM for Jewish nonprofits",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "DonorPerfect",
+        "Kindful",
+        "Salesforce Nonprofit Cloud",
+        "Neon CRM"
+      ],
+      "n_competitors": 10,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P091",
+      "prompt_text": "Best donor CRM for environmental nonprofits",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "Salesforce Nonprofit Cloud",
+        "DonorPerfect",
+        "Little Green Light",
+        "Kindful"
+      ],
+      "n_competitors": 10,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P145",
+      "prompt_text": "Best donor CRM for capital campaigns",
+      "pillar": "Fundraising Strategy",
+      "competitors": [
+        "Blackbaud",
+        "Bloomerang",
+        "DonorPerfect",
+        "Salesforce Nonprofit Cloud",
+        "Virtuous"
+      ],
+      "n_competitors": 10,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P146",
+      "prompt_text": "Best donor CRM with grant tracking",
+      "pillar": "Fundraising Strategy",
+      "competitors": [
+        "Bloomerang",
+        "Neon CRM",
+        "Salesforce Nonprofit Cloud",
+        "Blackbaud",
+        "DonorPerfect"
+      ],
+      "n_competitors": 10,
+      "n_engines_missed": 4
+    },
+    {
+      "prompt_id": "P034",
+      "prompt_text": "Best nonprofit CRM for growing organizations",
+      "pillar": "CRM",
+      "competitors": [
+        "Bloomerang",
+        "Salesforce Nonprofit Cloud",
+        "Neon One",
+        "Kindful",
+        "Blackbaud"
+      ],
+      "n_competitors": 10,
+      "n_engines_missed": 3
+    }
+  ]
 }

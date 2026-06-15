@@ -1,0 +1,37 @@
+{
+  "generated": "2026-06-15",
+  "based_on": "Through the 2026-06-15 full run (month-to-date vs the prior equal-length period)",
+  "headline": "Citation rate is holding at ~15.6% — branded queries are locked in, but competitors still own every \"alternative to\" comparison query.",
+  "items": [
+    {
+      "sentiment": "negative",
+      "title": "Perplexity, our strongest engine, is cooling",
+      "detail": "Perplexity still cites DonorDock far more than the others (26.2%), but that's down from ~29.4% the prior period. It also drives ~64% of run cost, so a sustained slide there moves the whole number. Worth watching week over week."
+    },
+    {
+      "sentiment": "positive",
+      "title": "GPT-4o and the cheaper engines are warming up",
+      "detail": "OpenAI's citation rate climbed from 9.4% to 12.0% (+2.6pp); Anthropic and Gemini each ticked up ~1pp. The engines that lagged Perplexity are slowly starting to surface DonorDock."
+    },
+    {
+      "sentiment": "recommendation",
+      "title": "Win the comparison queries — they're the biggest blind spot",
+      "detail": "\"Alternative to Bloomerang\" cited zero DonorDock across all 11 runs; \"Cheaper alternative to Blackbaud\" and \"Best donor management software for nonprofits\" are nearly as bad. These are high-intent, bottom-funnel questions competitors fully own. Comparison/alternative pages with strong schema are the highest-leverage content bet."
+    },
+    {
+      "sentiment": "recommendation",
+      "title": "Three pillars are effectively invisible to AI engines",
+      "detail": "Donor Retention (0%), Fundraising Strategy (1.7%), and AI for Nonprofits (3.9%) almost never get DonorDock cited. They have content but aren't structured to be quoted. Prioritize FAQ blocks, schema, and pillar-up interlinking on these three."
+    },
+    {
+      "sentiment": "positive",
+      "title": "Bottom-of-funnel AEO is solid",
+      "detail": "Branded questions — What is DonorDock, pricing, reviews, is it good — are cited across all four engines and early in the answer. When someone already knows the name, the engines describe us well. The work is upper-funnel discovery."
+    },
+    {
+      "sentiment": "neutral",
+      "title": "Bloomerang sets the pace; field is stable",
+      "detail": "Bloomerang is mentioned ~217×/run — roughly 3.5× DonorDock's citation volume — with DonorPerfect and Little Green Light next. Per-run share is roughly flat vs the prior period, so no competitor is making a sudden move; this is a steady gap to close, not a fire."
+    }
+  ]
+}

@@ -495,10 +495,29 @@ async def main_async(args) -> int:
     return 0
 
 
+_POSITION_RANK = {"early": 0, "mid": 1, "late": 2, "n/a": 3}
+
+
+def position_label(pos: int | None) -> str:
+    """Bucket a DonorDock character offset into early / mid / late."""
+    if pos is None:
+        return "n/a"
+    if pos < 200:
+        return "early"
+    if pos < 800:
+        return "mid"
+    return "late"
+
+
 def build_summary(results: list[PromptResult], config: dict, priority: str, run_date: str) -> dict:
     total = len(results)
     successes = [r for r in results if r.success]
     dd_hits = [r for r in successes if r.donordock_mentioned]
+
+    # Prompt-bank metadata (pillar + canonical text) keyed by prompt id.
+    pid_meta = {p["id"]: {"pillar": p.get("pillar", "Unknown"), "text": p.get("text", "")}
+                for p in config.get("prompts", [])}
+
     by_engine: dict[str, dict] = {}
     for r in results:
         e = r.engine
@@ -517,6 +536,71 @@ def build_summary(results: list[PromptResult], config: dict, priority: str, run_
         for c in r.competitors_mentioned:
             competitor_hits[c] = competitor_hits.get(c, 0) + 1
 
+    # Roll successes up per prompt: which engines cited DonorDock, which competitors
+    # showed up, best (earliest) DonorDock position, and how many engines answered.
+    by_prompt: dict[str, dict] = {}
+    for r in successes:
+        d = by_prompt.setdefault(r.prompt_id, {"cited": set(), "ok": set(), "comps": {}, "best_pos": None})
+        d["ok"].add(r.engine)
+        if r.donordock_mentioned:
+            d["cited"].add(r.engine)
+            if r.donordock_position is not None:
+                d["best_pos"] = r.donordock_position if d["best_pos"] is None else min(d["best_pos"], r.donordock_position)
+        for c in r.competitors_mentioned:
+            d["comps"][c] = d["comps"].get(c, 0) + 1
+
+    # Per-pillar citation rate + the competitor most cited inside that pillar's prompts.
+    pillar_agg: dict[str, dict] = {}
+    for r in successes:
+        pil = pid_meta.get(r.prompt_id, {}).get("pillar", "Unknown")
+        pa = pillar_agg.setdefault(pil, {"prompts": set(), "ok": 0, "hits": 0, "comps": {}})
+        pa["prompts"].add(r.prompt_id)
+        pa["ok"] += 1
+        if r.donordock_mentioned:
+            pa["hits"] += 1
+        for c in r.competitors_mentioned:
+            pa["comps"][c] = pa["comps"].get(c, 0) + 1
+    by_pillar = {}
+    for pil, pa in pillar_agg.items():
+        top_comp = max(pa["comps"].items(), key=lambda kv: kv[1]) if pa["comps"] else None
+        by_pillar[pil] = {
+            "prompts": len(pa["prompts"]),
+            "ok": pa["ok"],
+            "donordock_hits": pa["hits"],
+            "citation_rate_pct": round(100 * pa["hits"] / max(1, pa["ok"]), 1),
+            "top_competitor": ({"name": top_comp[0], "mentions": top_comp[1]} if top_comp else None),
+        }
+
+    # Top wins: prompts where DonorDock was cited, strongest first (most engines, earliest).
+    wins = []
+    for pid, d in by_prompt.items():
+        if d["cited"]:
+            wins.append({
+                "prompt_id": pid,
+                "prompt_text": pid_meta.get(pid, {}).get("text", ""),
+                "pillar": pid_meta.get(pid, {}).get("pillar", "Unknown"),
+                "engines": sorted(d["cited"]),
+                "n_engines": len(d["cited"]),
+                "position": position_label(d["best_pos"]),
+            })
+    wins.sort(key=lambda w: (-w["n_engines"], _POSITION_RANK[w["position"]], w["prompt_id"]))
+
+    # Top misses: prompts where DonorDock was cited by ZERO engines but competitors were —
+    # the most contested gaps come first (most distinct competitors, then most engines answering).
+    misses = []
+    for pid, d in by_prompt.items():
+        if not d["cited"] and d["comps"]:
+            comps_sorted = sorted(d["comps"].items(), key=lambda kv: -kv[1])
+            misses.append({
+                "prompt_id": pid,
+                "prompt_text": pid_meta.get(pid, {}).get("text", ""),
+                "pillar": pid_meta.get(pid, {}).get("pillar", "Unknown"),
+                "competitors": [c for c, _ in comps_sorted[:5]],
+                "n_competitors": len(d["comps"]),
+                "n_engines_missed": len(d["ok"]),
+            })
+    misses.sort(key=lambda m: (-m["n_competitors"], -m["n_engines_missed"], m["prompt_id"]))
+
     return {
         "run_date": run_date,
         "priority_filter": priority,
@@ -530,6 +614,9 @@ def build_summary(results: list[PromptResult], config: dict, priority: str, run_
                           "citation_rate_pct": round(100 * v["donordock_hits"] / max(1, v["ok"]), 1)}
                       for k, v in by_engine.items()},
         "competitor_mentions": dict(sorted(competitor_hits.items(), key=lambda kv: -kv[1])),
+        "by_pillar": dict(sorted(by_pillar.items(), key=lambda kv: -kv[1]["citation_rate_pct"])),
+        "top_wins": wins[:25],
+        "top_misses": misses[:25],
     }
 
 
@@ -584,15 +671,75 @@ def render_report(summary: dict, results: list[PromptResult]) -> str:
     return "\n".join(lines)
 
 
+# ---------------------------------------------------------------------------
+# Summary rebuild — regenerate _summary.json/_report.md for past runs from the
+# committed per-prompt JSON, using the current build_summary schema. Lets us
+# backfill new fields (by_pillar, top_wins, top_misses) into historical runs
+# without re-hitting any API. No keys or network required.
+# ---------------------------------------------------------------------------
+
+def reconstruct_results(run_dir: Path) -> list[PromptResult]:
+    """Load every per-prompt JSON under a run dir's engine folders into PromptResults."""
+    results: list[PromptResult] = []
+    for engine_dir in sorted(run_dir.iterdir()):
+        if not engine_dir.is_dir() or engine_dir.name not in ENGINES:
+            continue  # skip aio-chrome and other non-API engine folders
+        for f in sorted(engine_dir.glob("*.json")):
+            try:
+                data = json.loads(f.read_text())
+                # Tolerate older JSON that predates a field by filling dataclass defaults.
+                results.append(PromptResult(**{k: data.get(k) for k in PromptResult.__dataclass_fields__}))
+            except Exception as e:
+                print(f"[warn] could not load {f}: {e}", file=sys.stderr)
+    return results
+
+
+def rebuild_all_summaries(config: dict) -> int:
+    """Rewrite _summary.json + _report.md for every dated run dir found on disk."""
+    n = 0
+    for run_dir in sorted(RESULTS_ROOT.iterdir()):
+        if not run_dir.is_dir() or not re.match(r"\d{4}-\d{2}-\d{2}$", run_dir.name):
+            continue
+        results = reconstruct_results(run_dir)
+        if not results:
+            print(f"[skip] {run_dir.name}: no per-engine results (AIO-only or empty)")
+            continue
+        priority, run_date = "full", run_dir.name
+        existing = run_dir / "_summary.json"
+        if existing.exists():
+            try:
+                old = json.loads(existing.read_text())
+                priority = old.get("priority_filter", priority)
+                run_date = old.get("run_date", run_date)
+            except Exception:
+                pass
+        else:
+            priority = "full" if len({r.prompt_id for r in results}) > 80 else "top-50"
+        summary = build_summary(results, config, priority, run_date)
+        existing.write_text(json.dumps(summary, indent=2))
+        (run_dir / "_report.md").write_text(render_report(summary, results))
+        n += 1
+        print(f"[rebuilt] {run_dir.name}: {summary['donordock_citation_rate_pct']}% cite · "
+              f"{len(summary['top_wins'])} wins · {len(summary['top_misses'])} misses · "
+              f"{len(summary['by_pillar'])} pillars")
+    print(f"[done] rebuilt {n} run summaries")
+    return n
+
+
 def parse_args():
     p = argparse.ArgumentParser(description="DonorDock AEO Citation Runner")
     p.add_argument("--priority", choices=["top-50", "full", "aio"], default="full")
     p.add_argument("--engines", help="Comma-separated subset: claude,openai,perplexity,gemini")
     p.add_argument("--concurrency", type=int, default=8, help="Max concurrent in-flight requests")
     p.add_argument("--dry-run", action="store_true")
+    p.add_argument("--rebuild-summaries", action="store_true",
+                   help="Regenerate _summary.json/_report.md for all past runs from committed JSON (no API calls)")
     return p.parse_args()
 
 
 if __name__ == "__main__":
     args = parse_args()
+    if args.rebuild_summaries:
+        rebuild_all_summaries(load_prompts())
+        sys.exit(0)
     sys.exit(asyncio.run(main_async(args)))
