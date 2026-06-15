@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290984+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor CRM Systems with QuickBooks Online Integration\n\nHere are the top donor CRM platforms that integrate with QuickBooks Online:\n\n## **Best Overall Options**\n\n### **1. Bloomerang**\n- **Integration**: Native QuickBooks Online sync\n- **Best for**: Small to mid-sized nonprofits\n- **Key features**: Donor retention tracking, engagement metrics, automated receipting\n- **Pricing**: Starting around $125/month\n\n### **2. Little Green Light**\n- **Integration**: Built-in QuickBooks Online connector\n- **Best for**: Smaller nonprofits with tight budgets\n- **Key features**: Fundraising tracking, grant management, custom reporting\n- **Pricing**: Starting around $59/month\n\n### **3. DonorPerfect**\n- **Integration**: Two-way sync with QuickBooks Online\n- **Best for**: Growing organizations\n- **Key features**: Online donations, email marketing, event management\n- **Pricing**: Custom pricing (typically $89+/month)\n\n## **Other Strong Contenders**\n\n- **Kindful** (by Bloomerang) - Cloud-based, user-friendly\n- **Neon CRM** - All-in-one nonprofit solution\n- **Sumac** - Canadian option with strong accounting integration\n- **CharityEngine** - Enterprise-level solution\n\n## **What to Consider**\n\n- **Sync type**: One-way vs. two-way synchronization\n- **Data mapped**: Which fields transfer (donations, contacts, pledges)\n- **Frequency**: Real-time vs. scheduled syncing\n- **Support**: Implementation assistance and training\n\n**Would you like specific recommendations based on your organization's size or budget?**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 387,
+  "estimated_cost_usd": 0.005862,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

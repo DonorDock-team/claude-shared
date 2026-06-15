@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290879+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Salesforce Nonprofit Cloud (NPSP/NPC) is a powerful, comprehensive platform, and finding *truly free* alternatives with the exact same breadth of features and integrated ecosystem can be challenging. \"Free\" often means open-source requiring technical setup, DIY solutions, or freemium tiers with limitations.\n\nHowever, many nonprofits successfully manage their operations with these free or very low-cost alternatives:\n\n---\n\n### **1. Open-Source CRM (Requires Hosting & Technical Skill)**\n\nThis is the closest you'll get to a comprehensive, feature-rich alternative without licensing fees. The \"cost\" comes in setup, hosting, maintenance, and potentially hiring technical help.\n\n*   **CiviCRM**\n    *   **What it is:** A robust, open-source CRM specifically designed for nonprofits, associations, and civic sector organizations. It's often integrated with content management systems like WordPress, Drupal, or Joomla.\n    *   **Key Features:**\n        *   **Constituent Management:** Tracks donors, volunteers, members, clients, etc.\n        *   **Donor Management & Fundraising:** Donations, pledges, recurring gifts, campaigns, peer-to-peer.\n        *   **Membership Management:** For organizations with members.\n        *   **Event Management:** Registrations, ticketing, attendee tracking.\n        *   **Case Management:** For tracking services delivered to beneficiaries.\n        *   **Grant Management:** Tracking grant applications and awards.\n        *   **Email Marketing:** Basic email sending",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 313,
+  "estimated_cost_usd": 0.000784,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

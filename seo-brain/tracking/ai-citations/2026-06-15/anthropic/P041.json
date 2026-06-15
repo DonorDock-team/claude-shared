@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P041",
+  "prompt_text": "Best donor CRM for mid-sized nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291666+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Mid-Sized Nonprofits\n\nHere are the top options for organizations with ~$1M-$20M budgets:\n\n## **Top Recommendations**\n\n### **1. Bloomerang**\n- **Best for:** Donor retention focus\n- **Price:** ~$125-300/month\n- **Strengths:** Excellent retention tools, engagement metrics, intuitive interface\n- **Ideal size:** 500-10,000 contacts\n\n### **2. Salesforce Nonprofit Success Pack (NPSP)**\n- **Best for:** Growth-oriented orgs needing customization\n- **Price:** $36-120/user/month (10 free licenses)\n- **Strengths:** Highly scalable, extensive integrations, powerful reporting\n- **Note:** Requires implementation investment\n\n### **3. NeonCRM**\n- **Best for:** All-in-one functionality\n- **Price:** ~$149-499/month\n- **Strengths:** Event management, membership tools, email marketing included\n- **Ideal size:** 1,000-50,000 contacts\n\n### **4. DonorPerfect**\n- **Best for:** Comprehensive fundraising features\n- **Price:** ~$149-399/month\n- **Strengths:** Strong reporting, online forms, solid support\n- **Long-standing reputation**\n\n## **Key Selection Factors**\n- Current database size and growth trajectory\n- Integration needs (accounting, email, website)\n- Staff technical capacity\n- Specific features (events, grants, peer-to-peer, major gifts)\n\n**What's your organization's primary fundraising method?** That would help narrow recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 384,
+  "estimated_cost_usd": 0.005814,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

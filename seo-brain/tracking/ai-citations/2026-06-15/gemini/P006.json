@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P006",
+  "prompt_text": "DonorDock vs DonorPerfect",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290214+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When comparing DonorDock and DonorPerfect, you're looking at two strong contenders in the donor management software space, but with different philosophies, target audiences, and feature emphasis.\n\nHere's a breakdown to help you decide:\n\n## DonorDock vs. DonorPerfect: A Detailed Comparison\n\n| Feature/Aspect         | DonorDock                                                | DonorPerfect                                               |\n| :--------------------- | :------------------------------------------------------- | :--------------------------------------------------------- |\n| **Philosophy/Approach**  | Modern, intuitive, AI-driven, focused on automation and efficiency for growing nonprofits. Aims to streamline workflows and provide actionable insights. | Established, comprehensive, all-in-one solution with a vast feature set covering almost every aspect of fundraising. Built for robust, scalable operations. |\n| **User Interface (UI)**  | **Modern, clean, intuitive, and user-friendly.** Designed for ease of navigation and a positive user experience. Often praised for its fresh look and feel. | **Can be more complex and less intuitive** for new users due to its extensive features. While they have made updates, it can still feel a bit dated compared to newer platforms. |\n| **Key Features**         | - **Smart CRM:** AI-driven insights, donor profiles<br>- **Automated Workflows:** Nurture campaigns, task automation<br>- **Modern Communications:** Email, text messaging<br>- **Online Fundraising:** Forms, donation pages<br>- **Event Management:** Basic to moderate<br>- **Reporting & Analytics:** Dashboard, customizable reports<br>- **Volunteer Management:** Some capabilities | - **Robust CRM:** Detailed donor profiles, wealth screening integrations<br>- **Comprehensive Fundraising:** Online forms, peer-to-peer, crowdfunding, direct mail<br>- **Advanced Event Management:** Ticketing, registration, sponsorships<br>- **Grant Management:** Tracking, reporting<br>- **Volunteer & Membership Management:** Detailed modules<br>- **Extensive Reporting:** Highly customizable, segmenting, analytics<br>- **Accounting Integrations** |\n| **Automation & AI**      | **Strong emphasis on AI and automation.** Uses AI to surface donor insights (e.g., predicted next gift, engagement scores), automate tasks, and build sophisticated workflows. | Offers various automation tools (e.g., recurring gift processing, automated acknowledgments), but **less focused on AI-driven insights** within the core platform compared to DonorDock. More rule-based automation. |\n| **Ease of Use/Learning** | **High.** Users generally find it easy to get started, navigate, and adopt. Designed to reduce administrative burden. | **Moderate to High.** Can have a steeper learning curve due to the sheer volume of features and configuration options. Requires more training to unlock its full potential. |\n| **Scalability**          | **Excellent for small to mid-sized nonprofits** and those looking to grow efficiently. Can handle increasing donor bases and fundraising activities. | **Highly scalable, suitable for mid-sized to very large, complex organizations.** Can support vast donor databases and multi-faceted campaigns. |\n| **Pricing**              | Generally **transparent and competitive**, often based on features and donor records. Can be a",
+  "donordock_mentioned": true,
+  "donordock_position": 15,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 661,
+  "estimated_cost_usd": 0.001654,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

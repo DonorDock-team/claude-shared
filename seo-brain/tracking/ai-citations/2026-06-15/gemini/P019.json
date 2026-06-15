@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P019",
+  "prompt_text": "Alternative to Blackbaud Raisers Edge",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291393+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Blackbaud Raiser's Edge (and its cloud version, Raiser's Edge NXT) is a powerful, enterprise-level fundraising CRM, but it's often criticized for its cost, complexity, user interface, and sometimes its customer support. Many nonprofits seek alternatives for a variety of reasons.\n\nHere's a breakdown of excellent alternatives, categorized by common needs and organization sizes:\n\n---\n\n## Top Alternatives to Blackbaud Raiser's Edge\n\nThese are generally strong, comprehensive platforms that can serve as a full replacement:\n\n### 1. Salesforce for Nonprofits (NPSP - Nonprofit Success Pack)\n*   **Best For:** Medium to large organizations, those seeking ultimate customization and scalability, and those with dedicated IT or Salesforce administrators.\n*   **Pros:**\n    *   **Highly Customizable:** The most flexible platform, adaptable to almost any nonprofit workflow.\n    *   **Vast Ecosystem:** Access to thousands of apps on the AppExchange (integrations for everything from accounting to marketing automation).\n    *   **Scalability:** Grows with your organization, handling millions of constituents.\n    *   **Robust Reporting:** Extremely powerful and customizable reporting and dashboards.\n    *   **Nonprofit Discount:** Salesforce offers significant discounts and free licenses for nonprofits.\n*   **Cons:**\n    *   **Complexity:** Can have a steep learning curve and often requires significant setup and ongoing administration by a knowledgeable individual or consultant.\n    *   **Cost:** While licenses are discounted, implementation and additional apps can become expensive.\n\n### 2. Virtuous\n*   **Best For:** Mid-sized to large organizations looking for a modern, donor-centric platform with strong marketing automation and proactive fundraising tools.\n*   **Pros:**\n    *   **Modern UI/UX:** Clean, intuitive, and mobile-friendly interface.\n    *   **Marketing Automation:** Excellent built-in tools for personalized donor journeys, email marketing, and segmentation.\n    *   **Donor-Centric:** Focus on \"responsive fundraising\" and understanding donor intent.\n    *   **Strong Support:** Generally well-regarded customer service.\n    *   **Integrated Solutions:** Includes online giving forms, email, and social tools.\n*   **Cons:**\n    *   **Learning Curve:** While modern, it's still a robust system that takes time to master.\n    *   **Cost:** Can be on the higher end, but offers good value for its feature set.\n\n### 3. DonorPerfect\n*   **Best For:** Small to mid-sized organizations seeking an all-in-one, user-friendly, and well-established fundraising solution.\n*   **Pros:**\n    *   **Ease of Use:** Generally considered user-friendly with a good balance of features.\n    *   **Comprehensive:** Covers donor management, gift processing, online giving, reporting, event management,",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 600,
+  "estimated_cost_usd": 0.001502,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

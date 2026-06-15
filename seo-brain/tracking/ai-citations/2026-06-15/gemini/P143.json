@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P143",
+  "prompt_text": "Donor CRM that does pledges and recurring",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291258+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Yes, absolutely! Managing pledges and recurring donations is a core function of most modern donor CRMs. In fact, if a donor CRM doesn't handle these two crucial types of giving, it's likely not a suitable solution for most non-profits.\n\nHere's a breakdown of how donor CRMs typically manage pledges and recurring donations, and what features to look for:\n\n---\n\n## **Key CRM Features for Pledges**\n\nA pledge is a donor's commitment to give a specific amount of money over a set period, often in installments, but the payments are not automatically processed by the system.\n\n1.  **Pledge Creation & Tracking:**\n    *   **Record Pledge Details:** Ability to record the total pledge amount, the date the pledge was made, the start and end dates of the payment schedule, and the specific campaign/fund it's designated for.\n    *   **Payment Schedule:** Define a custom schedule for payments (e.g., $100/month for 12 months, $500 quarterly for 1 year, or one lump sum payment due on a future date).\n    *   **Soft Credits/Solicitation Tracking:** Associate staff members, board members, or other individuals with the \"solicitation\" of the pledge.\n2.  **Payment Application:**\n    *   **Apply Payments:** Easily apply individual donation payments directly against a specific pledge balance.\n    *   **Partial Payments:** Track partial payments and the remaining balance due.\n    *   **Overpayments/Underpayments:** Handle situations where a donor pays more or less than scheduled.\n3.  **Reminders & Communication:**\n    *   **Automated Reminders:** Set up automated email or mail reminders for upcoming pledge payments or overdue payments.\n    *   **Acknowledgment:** Generate pledge confirmation letters and payment receipts that show the remaining balance.\n4.  **Reporting & Analytics:**\n    *   **Outstanding Pledges:** Reports showing all active pledges, their current balance, and next payment due.\n    *   **Pledge Forecasts:** Project future revenue based on scheduled pledge payments.\n    *   **Pledge Performance:** Analyze pledge fulfillment rates and trends.\n    *   **Aging Reports:** See which pledges are overdue and by how much.\n5.  **Pledge Status:** Track statuses like \"Active,\" \"Fulfilled,\" \"Delinquent,\" \"Cancelled.\"\n\n---\n\n## **Key CRM Features for Recurring Donations**\n\nA recurring donation (sometimes called a \"sustainer gift\") is an ongoing, automated donation processed at a set frequency (e.g., monthly, quarterly, annually) using a donor's credit card or bank account.\n\n1.  **Automated Setup:**\n    *   **Online Giving Forms:** Integration with online forms where donors can easily set up recurring donations themselves, choosing frequency and amount.\n    *   **Admin-Initiated:** Ability for staff to set up recurring gifts on behalf of donors (e.g., after a phone call).\n2.  **Payment Processing Integration:**\n    *   **Gateway Integration:** Direct integration with payment gateways (Stripe, PayPal, Authorize.net, Square, etc.) to securely process recurring credit card or ACH/e",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 679,
+  "estimated_cost_usd": 0.0017,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

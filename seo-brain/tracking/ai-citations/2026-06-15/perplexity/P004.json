@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P004",
+  "prompt_text": "DonorDock pricing",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.291620+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock\u2019s public pricing appears to start at **$500/month billed annually** for its **ONE** plan.[1][2][7] DonorDock also offers **unlimited contacts**, and training/support are included.[1][6][8]\n\nA few additional pricing details show up in their materials:\n\n- **No contracts** and a **90-day money-back guarantee** are mentioned on DonorDock\u2019s site.[5]\n- DonorDock\u2019s **online giving** uses donor-funded fees of **5% + $0.30 per transaction** when donors choose to cover fees; if they do not, only the standard Stripe processing fee applies and DonorDock waives its platform fee.[3]\n- Third-party listings note a **free trial** and say some plans may require **custom pricing**.[2]\n\nIf you want, I can also break down **what\u2019s included in the $500/month plan** versus the online giving transaction fees.",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 194,
+  "estimated_cost_usd": 0.007925,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/pricing",
+      "https://www.g2.com/products/donordock/pricing",
+      "https://helpcenter.donordock.com/kb/guide/en/donordock-and-online-giving-fees-FF6iCEKSlh/Steps/1935110",
+      "https://www.donordock.com/articles/growing-nonprofits-crm",
+      "https://www.donordock.com/lp/donation-management",
+      "https://www.donordock.com",
+      "https://www.softwareadvice.com/nonprofit/donordock-profile/",
+      "https://www.donordock.com/faq"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P148",
+  "prompt_text": "Donor management vs CRM what's the difference",
+  "engine": "openai",
+  "timestamp": "2026-06-15T12:23:38.291616+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Donor management and Customer Relationship Management (CRM) systems both focus on managing relationships but are tailored to different types of interactions and entities.\n\n### Donor Management:\n1. **Purpose**: Specifically designed for non-profit organizations to manage interactions with donors.\n2. **Features**:\n   - Donation tracking: Keeps record of all donations received, including recurring contributions.\n   - Donor profiles: Detailed profiles with donation history, communication preferences, and engagement history.\n   - Fundraising tools: Features to manage campaigns, events, and create targeted fundraising appeals.\n   - Reporting: Tools to analyze fundraising efforts, donor retention, and financial reporting specific to non-profits.\n   - Stewardship and engagement: Helps organizations strategize around donor recognition and engagement.\n\n3. **Usage**: Used by non-profits, charities, and philanthropic organizations to cultivate and maintain donor relationships, and maximize fundraising success.\n\n4. **Examples**: Bloomerang, DonorPerfect, Kindful.\n\n### CRM (Customer Relationship Management):\n1. **Purpose**: Designed for businesses to manage interactions with customers and potential customers.\n2. **Features**:\n   - Sales tracking: Manages sales leads, opportunities, and pipelines.\n   - Customer profiles: Stores customer information, purchase history, and preferences.\n   - Marketing automation: Tools for running marketing campaigns, including email marketing and lead generation.\n   - Customer service: Provides support and service management tools for handling customer queries and issues.\n   - Analytics: Insight into sales performance, customer behavior, and market trends.\n\n3. **Usage**: Used by businesses across various industries to enhance customer satisfaction, improve sales, and optimize marketing strategies.\n\n4. **Examples**: Salesforce, HubSpot, Zoho CRM.\n\n### Key Differences:\n- **Focus**: Donor management systems focus on donors and fundraising, while CRMs are broader, dealing with customer interactions and sales.\n- **Customization**: Donor management systems include features specifically for non-profits, such as donation tracking, whereas CRM systems are more generalized.\n- **Community**: The donor management community consists mainly of non-profits, while CRMs are used by a vast range of businesses and industries.\n  \nIn summary, donor management systems are a specialized form of CRM designed explicitly to meet the needs of non-profit organizations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 463,
+  "estimated_cost_usd": 0.004667,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

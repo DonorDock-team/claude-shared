@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P118",
+  "prompt_text": "ChatGPT for nonprofits is it safe",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290507+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# ChatGPT Safety for Nonprofits\n\nChatGPT can be safe for nonprofits when used properly, but there are important considerations:\n\n## \u2705 **Safe Uses**\n\n- **General content creation** (blog posts, social media, newsletters)\n- **Brainstorming ideas** for campaigns or programs\n- **Drafting templates** for common communications\n- **Research assistance** and summarizing information\n- **Translation** of materials\n- **Creating training materials**\n\n## \u26a0\ufe0f **Key Safety Concerns**\n\n### Data Privacy\n- **Never input**: Donor information, beneficiary details, confidential strategic plans, or sensitive financial data\n- OpenAI may use conversations for training unless you opt out\n- ChatGPT Plus/Enterprise offers better privacy protections\n\n### Accuracy Issues\n- ChatGPT can generate false information (\"hallucinations\")\n- Always fact-check, especially for grant applications or compliance documents\n- Don't rely on it for legal or regulatory advice\n\n### Security Risks\n- Avoid sharing passwords, API keys, or access credentials\n- Be cautious with proprietary information about your nonprofit\n\n## \ud83d\udee1\ufe0f **Best Practices**\n\n1. **Use ChatGPT Enterprise or Team** if handling any organizational data (better privacy/security)\n2. **Establish clear policies** on what staff can/cannot input\n3. **Always review and verify** outputs before using them\n4. **Train staff** on appropriate use\n5. **Check OpenAI's terms** regarding nonprofit use\n\n**Bottom line**: ChatGPT is a useful tool for nonprofits but requires careful, informed use to protect your organization and those you serve.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 378,
+  "estimated_cost_usd": 0.005724,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

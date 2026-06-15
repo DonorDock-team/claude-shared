@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291122+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Automate Donor Thank You Letters\n\n## Quick Setup Options\n\n### 1. **CRM/Donation Platform Built-in Tools**\nMost platforms have automation features:\n- **Donorbox, Give Lively, ActBlue**: Automatic email receipts\n- **Bloomerang, DonorPerfect, Little Green Light**: Customizable automated workflows\n- **Mailchimp for Nonprofits**: Triggered email sequences\n\n### 2. **Email Marketing Automation**\n- Set up triggered emails based on donation amount\n- Create segments (first-time donors, recurring, major gifts)\n- Personalize with merge tags (name, amount, date)\n\n### 3. **Mail Merge for Physical Letters**\n- **Google Sheets + Google Docs**: Free mail merge add-ons\n- **Microsoft Word**: Built-in mail merge with Excel\n- **Handwrytten or Postable**: Automated handwritten-style letters\n\n## Best Practices\n\n\u2705 **Do automate:**\n- Initial receipts (legally required)\n- Standard acknowledgments under $500\n- Monthly recurring donor updates\n\n\u274c **Don't automate:**\n- Major gifts ($1,000+)\n- First-time donors (add personal touch)\n- Memorial/tribute gifts\n\n## Key Personalization Elements\n- Donor's name and gift amount\n- Specific program/fund they supported\n- Impact statement relevant to gift size\n- Personal signature (even if automated)\n\n## Recommended Workflow\n1. **Immediate**: Auto-receipt (within 24 hours)\n2. **Within 48 hours**: Personalized thank you\n3. **30-90 days**: Impact update on their contribution\n\n**Pro tip**: Even automated letters should feel personal\u2014avoid obvious template language and include specific impact details.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 412,
+  "estimated_cost_usd": 0.006225,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

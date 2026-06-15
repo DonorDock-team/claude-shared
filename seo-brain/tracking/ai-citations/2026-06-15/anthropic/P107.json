@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291197+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Measure Donor Retention\n\n## Key Retention Metrics\n\n### 1. **Overall Retention Rate**\n```\n(Number of donors who gave this year AND last year / Number of donors who gave last year) \u00d7 100\n```\n\n**Example:** 500 repeat donors \u00f7 1,000 previous donors = 50% retention rate\n\n### 2. **Cohort Retention Rate**\nTrack specific groups over time:\n- First-time donor retention (most critical - typically 15-30%)\n- Second-year donor retention\n- Multi-year donor retention\n- Major donor retention\n\n### 3. **Additional Important Metrics**\n\n- **Lapsed Donor Rate**: Donors who gave previously but not in the current period\n- **Repeat Donation Rate**: Percentage making multiple gifts per year\n- **Donor Lifetime Value**: Average total giving over a donor's relationship\n- **Upgrade/Downgrade Rates**: Changes in giving levels\n\n## How to Calculate\n\n### Step-by-Step Process:\n1. **Define your time period** (typically annually)\n2. **Identify your donor segments** (new, recurring, lapsed, etc.)\n3. **Pull donor data** from your CRM/database\n4. **Calculate retention by segment**\n5. **Track trends** over multiple years\n\n## Benchmarks to Compare\n\n- **Overall retention**: 40-45% (average nonprofit)\n- **First-time donors**: 15-30%\n- **Repeat donors**: 60-65%\n- **Online donors**: Often lower (20-30%)\n\n## Pro Tips\n\n- **Measure monthly or quarterly** for early warning signs\n- **Segment your data** - overall rates hide important details\n- **Track retention by channel** (events, direct mail, online, etc.)\n- Focus improvement efforts on **first-time donor retention** for biggest impact\n\nWhat specific donor segment are you most interested in tracking?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 438,
+  "estimated_cost_usd": 0.006606,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

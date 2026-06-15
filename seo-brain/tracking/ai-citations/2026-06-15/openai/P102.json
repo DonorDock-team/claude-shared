@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "openai",
+  "timestamp": "2026-06-15T12:23:38.290842+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "If you're looking for free alternatives to Salesforce Nonprofit Cloud, there are several options available that cater to non-profit organizations. While these alternatives may not offer the full feature set of Salesforce, they can still provide valuable tools for managing donor relationships, tracking donations, and handling other nonprofit operations. Here are some free alternatives:\n\n1. **CiviCRM**: This open-source CRM is specifically designed for nonprofits and civic-sector organizations. It offers features for contact management, fundraising, event planning, and more. It's highly customizable and integrates with content management systems like WordPress, Joomla, and Drupal.\n\n2. **NationBuilder**: While not entirely free, NationBuilder offers a free plan for small grassroots organizations. It includes tools for website creation, contact management, and basic email marketing. As organizations grow, they can explore paid plans.\n\n3. **SuiteCRM**: Another robust open-source CRM solution, SuiteCRM offers a range of features, including sales automation, customer support, and marketing capabilities. It can be a powerful tool for nonprofits looking to manage relationships and communications effectively.\n\n4. **Bitrix24**: This free business management suite provides CRM capabilities, task management, and communication tools. The free plan supports a limited number of users and storage, making it suitable for smaller teams or those starting out.\n\n5. **Zoho CRM**: Zoho offers a free version of its CRM software that supports up to three users. It provides essential features for managing contacts, leads, and deals, which can be beneficial for small nonprofits.\n\n6. **HubSpot CRM**: HubSpot offers a free version of its CRM software with unlimited users and up to a million contacts. It includes features for contact management, email tracking, and reporting, making it a popular choice among nonprofits.\n\n7. **Bloomerang**: While Bloomerang isn't entirely free, it offers a free version for small organizations with limited needs. Bloomerang concentrates on donor management and engagement, providing tools to improve donor retention and fundraising.\n\n8. **Tithe.ly Church Management**: Primarily designed for churches, Tithe.ly offers management features that can be useful for faith-based nonprofits. The free version includes giving tools, event management, and member management features.\n\nIt's important to evaluate each option to see which aligns best with your organization's needs in terms of functionality, scalability, and ease of use. Often, these platforms offer paid plans with advanced features, so consider potential future needs when making a choice.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 498,
+  "estimated_cost_usd": 0.005015,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

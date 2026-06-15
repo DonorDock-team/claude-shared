@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P024",
+  "prompt_text": "How much does nonprofit donor CRM cost",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.290189+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Most nonprofit donor CRMs cost roughly **$100\u2013$500/month** for a typical small\u2013mid sized organization, with low-end options starting around **$40\u2013$150/month** and more advanced or higher-volume systems running **$500/month and up**, plus one-time implementation and ongoing processing fees.[1][3][8]\n\nHere\u2019s how the pricing usually breaks down:\n\n### 1. Typical price ranges\n\n- **Entry-level / small nonprofit CRMs**\n  - About **$40\u2013$150/month** for basic donor management and simple online giving.[1][3][7]\n  - Example: Bloomerang\u2019s fundraising tools start at **$40/month**; its CRM starts at **$125/month, billed annually**.[3]\n  - These are usually limited by number of contacts/constituents or features.\n\n- **Mid-tier CRMs (most common for growing nonprofits)**\n  - Commonly **$100\u2013$300/month** for 1,000\u20135,000 contacts, depending on features.[1][2][3]\n  - LiveImpact reports that **most small nonprofits pay between $1,200 and $3,600/year** (about **$100\u2013$300/month**) for a mid-tier CRM subscription, excluding implementation or add-ons.[8]\n  - Example: DonorView\u2019s Evolve plan (promo pricing) is **$91/month** for up to 1,000 constituents and **$209/month** for up to 5,000, when paid annually.[2]\n\n- **All\u2011in\u2011one / higher-tier systems**\n  - Frequently **$500/month and up**, especially when they combine CRM, email marketing, events, membership, peer\u2011to\u2011peer, etc.[1]\n  - CharityEngine notes that \u201call-in-one systems\u2026can start at around **$500/month**.\u201d[1]\n  - For large databases (25,000+ records) or complex needs, pricing is often custom and can go well beyond this range.[1][2]\n\n### 2. Common pricing model components\n\nMost nonprofit CRMs are **SaaS subscriptions**, so you can expect several cost types:[1][3][8]\n\n- **Base subscription (monthly/annual)**\n  - Core CRM features: contact records, basic reporting, forms, and often some email capability.[1][3]\n  - Typically priced by:\n    - **Number of contacts/constituents** (e.g., 1,000 / 5,000 / 25,000 records).[2][3]\n    - Sometimes **annual fundraising revenue** or feature tier (Starter/Pro/Premier).[1][4]\n\n- **Implementation / setup fees (one-time)**\n  - For configuration, data migration, training, and testing.[1]\n  - Size and complexity of your org usually determine this cost; it can range from a few hundred to several thousand dollars (exact numbers vary by vendor).[1][4][8]\n\n- **Add-ons / modules**\n  - Examples: advanced email automation, events, online store, volunteer management, auctions, texting, or peer\u2011to\u2011peer fundraising.[1][8]\n  - Often an extra monthly charge per module or as part of a higher tier.\n\n- **Payment processing fees**\n  - Separate from the CRM license but crucial to your total cost.\n  - Many platforms that process donations online charge around **2.2%\u20132.9% + a per-transaction fee**.[5]\n  - \u201cFree\u201d fundraising tools often pass these fees to donors or to you, which can affect donor experience.[1][5]\n\n### 3. Key factors that change the price\n\n- **Number of contacts/donors** in your database.[1][2][3]\n- **Email volume** and marketing automation needs.[1]\n- **Annual fundraising revenue**, which some vendors use to determine tiers.[1]\n- **Complexity of your setup** (integrations, data migration difficulty, custom fields/reports).[1][4]\n- **Support level** (standard vs. premium/on-demand training).[1][8]\n\n### 4. Quick budget benchmarks\n\nIf you want a rough planning number:\n\n- Very small org, just getting started:\n  - Budget: **$500\u2013$1,500/year** for software, plus processing fees.\n- Small but growing org (1,000\u20135,000 donors/contacts):\n  - Budget: **$1,200\u2013$3,600/year** for CRM subscription, plus implementation and processing fees.[8]\n- Mid-sized org or complex needs:\n  - Budget: **$6,000/year and up** for more advanced, all\u2011in\u2011one systems.[1]\n\nIf you share your approximate donor count, online revenue, and must-have features, I can narrow this to a more specific expected monthly range.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 999,
+  "estimated_cost_usd": 0.020009,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://blog.charityengine.net/nonprofit-crm-cost",
+      "https://www.donorview.com/evolve-pricing",
+      "https://bloomerang.com/pricing",
+      "https://www.donorperfect.com/fundraising-software/pricing-guide/",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://kindful.com/nonprofit-glossary/nonprofit-crm/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.liveimpact.org/blog/nonprofit-crm-pricing"
+    ]
+  }
+}

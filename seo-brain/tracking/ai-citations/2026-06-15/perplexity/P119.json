@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P119",
+  "prompt_text": "AI to draft donor thank you letters",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.290785+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Yes\u2014AI can be used to **draft donor thank-you letters** quickly, and several nonprofit-focused tools and prompt templates are designed specifically for that purpose.[1][2][3]\n\nThe strongest pattern across the sources is to use AI for the **first draft**, then have a staff member review, personalize, and correct it before sending.[2][7] That review step matters because organizations using these tools still recommend checking for accuracy, authenticity, and fit with your cause.[2][1]\n\nA practical workflow looks like this:\n- Enter the donor\u2019s name, gift details, program supported, and any special context into an AI tool.[3][8]\n- Ask for a short, warm letter that emphasizes **impact**, gratitude, and the donor\u2019s role in the mission.[1][3][6]\n- Personalize the draft with relationship details, then send it promptly, ideally within **48 hours**.[3]\n\nGood prompts usually ask the model to:\n- Write in a **warm, upbeat tone**.[1]\n- Use **first-person** language like \u201cI\u201d and \u201cwe.\u201d[1]\n- Mention **how the gift will be used** and what the donor is helping achieve.[1][3]\n- Keep the letter **concise** and avoid overly formal fundraising jargon.[1]\n\nIf you want, I can also write:\n- a **ready-to-use AI prompt** for donor thank-you letters,\n- a **sample thank-you letter**,\n- or a version tailored to **major donors, monthly donors, event donors, or first-time donors**.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 319,
+  "estimated_cost_usd": 0.009809,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://gailperrygroup.com/use-ai-to-write-donor-thank-you-letters/",
+      "https://dataro.io/en-gb/blog/how-to-write-awesome-donation-thank-you-letters",
+      "https://rivereditor.com/tools/donor-thank-you-letter-writer",
+      "https://www.aiforeducation.io/prompts/write-a-donor-thank-you-letter",
+      "https://www.youtube.com/watch?v=q0pBLiWiV60",
+      "https://www.fundwriter.ai/blog/thank-you-note-writer",
+      "https://sofii.org/article/can-fundraisers-tell-the-difference-between-ai-and-human-written-thank-you-letters",
+      "https://willy.freewill.com/ty-notes",
+      "https://www.taskade.com/generate/nonprofit/donor-thank-you-letter"
+    ]
+  }
+}

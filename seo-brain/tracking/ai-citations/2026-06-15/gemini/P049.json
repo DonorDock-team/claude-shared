@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P049",
+  "prompt_text": "Best donor CRM with unlimited contacts",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290954+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding a donor CRM that truly offers \"unlimited contacts\" without pricing tiers based on volume can be a bit challenging, as many CRMs use contact count as a primary pricing metric.\n\nHowever, there are a couple of strong contenders that either inherently don't charge per contact or offer a model where contact limits are effectively non-existent for typical nonprofit use.\n\nHere are the best options, focusing on those that meet your \"unlimited contacts\" requirement:\n\n---\n\n### Top Recommendations for Donor CRMs with Effectively Unlimited Contacts\n\n1.  **Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack)**\n2.  **CiviCRM (Open Source)**\n\n---\n\n### 1. Salesforce Nonprofit Cloud (NPSP)\n\nSalesforce NPSP is the gold standard for many medium to large nonprofits, and often, smaller ones willing to invest in its power. While Salesforce has storage limits, the number of *contacts* you can store isn't typically a per-contact charge or a hard limit that nonprofits hit. Salesforce provides 10 free licenses to eligible nonprofits, and additional licenses are heavily discounted.\n\n**Why it fits \"Unlimited Contacts\":**\n*   **No Per-Contact Pricing:** Salesforce's pricing model is primarily based on user licenses, not the number of contacts in your database.\n*   **Massive Scalability:** Built on the robust Salesforce platform, it can handle millions of records.\n*   **Free Core Licenses:** Eligible nonprofits receive 10 free enterprise-level licenses, making the initial investment significantly lower.\n\n**Key Features:**\n*   **Comprehensive Donor Management:** Tracks relationships, donations, pledges, soft credits, giving history, and communications.\n*   **Constituent Management:** Manage individuals, households, and organizations with robust relationship mapping.\n*   **Fundraising & Grant Management:** Track campaigns, appeals, grants, and major donor pipelines.\n*   **Volunteer & Program Management:** While NPSP focuses on fundraising, the Salesforce platform can be extended with apps for these functions.\n*   **Reporting & Dashboards:** Powerful, customizable analytics to track fundraising performance and donor engagement.\n*   **Automation:** Automate tasks, workflows, and communications.\n*   **Vast Ecosystem:** Thousands of apps on the AppExchange extend functionality (e.g., email marketing, event management, accounting integrations).\n*   **Customization:** Highly customizable to fit unique organizational processes.\n\n**Who it's best for:**\n*   Nonprofits of all sizes looking for a powerful, flexible, and scalable solution.\n*   Organizations with complex data needs or multiple programs.\n*   Those who have (or are willing to hire) a Salesforce administrator or partner to help with setup and ongoing customization.\n*   Organizations that anticipate significant growth",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Salesforce NPSP",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 574,
+  "estimated_cost_usd": 0.001437,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

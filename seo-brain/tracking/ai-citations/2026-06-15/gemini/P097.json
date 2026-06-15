@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P097",
+  "prompt_text": "Hidden costs of Network for Good",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290312+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Network for Good (NfG) is a popular fundraising platform designed for nonprofits, offering a suite of tools including donor management (CRM), online fundraising pages, email marketing, and peer-to-peer campaigns. While they aim to simplify fundraising, like any platform, there can be \"hidden\" or less obvious costs beyond the advertised subscription and transaction fees.\n\nHere are some of the potential hidden costs associated with using Network for Good:\n\n1.  **Staff Time & Labor (The Biggest Hidden Cost):**\n    *   **Setup and Onboarding:** While NfG offers coaching, the actual work of migrating existing donor data, setting up new forms, customizing templates, and integrating with your website takes significant staff time. This isn't just during initial setup but whenever new campaigns or features are implemented.\n    *   **Ongoing Data Management:** Maintaining data quality (deduplication, updating records, tagging donors), running reports, and ensuring data accuracy within the CRM requires consistent administrative effort. If the interface isn't intuitive for all staff, this can consume even more time.\n    *   **Learning Curve:** Training staff, especially new hires, on how to effectively use all features of the platform takes time away from direct fundraising or program activities.\n    *   **Reconciliation:** Matching donations processed through NfG with your accounting software (e.g., QuickBooks) can involve manual effort if there isn't a seamless integration or if reports need customization.\n\n2.  **Effective Transaction Fees (Beyond the Advertised Rate):**\n    *   **Tiered Processing:** While NfG often advertises competitive transaction fees, ensure you understand the *effective* rate for all types of transactions (credit cards, ACH/bank transfers, recurring donations). Some platforms might have slightly higher rates for specific card types or international transactions.\n    *   **Platform Fees on Top of Processor Fees:** Some platforms add a small \"platform fee\" per transaction *in addition* to the credit card processor's fee. While NfG's",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 415,
+  "estimated_cost_usd": 0.001039,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

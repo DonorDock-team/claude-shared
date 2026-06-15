@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P101",
+  "prompt_text": "DonorPerfect total cost of ownership",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290801+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Understanding the Total Cost of Ownership (TCO) for DonorPerfect (or any CRM) goes beyond just the monthly subscription fee. It involves various direct and indirect costs that accumulate over time.\n\nHere's a breakdown of the typical components of DonorPerfect's TCO:\n\n---\n\n### I. Direct Costs (Paid to DonorPerfect or direct vendors)\n\n1.  **Subscription Fees (Core Product):**\n    *   **Basis:** DonorPerfect's pricing is primarily based on the number of constituent records in your database and the features/modules you need.\n    *   **Tiers:** They offer various plans (e.g., Starter, Professional, Enterprise) with different feature sets, support levels, and record limits.\n    *   **Add-ons:** Costs increase for additional modules like DonorPerfect Online Forms, DonorPerfect Payments, DPMail, Integrated Wealth Screening, etc., if not included in your base plan.\n    *   **Renewal:** These are recurring monthly or annual costs.\n\n2.  **Implementation/Setup Fees:**\n    *   **Initial Onboarding:** Many CRM providers, including DonorPerfect, charge an upfront fee for setting up your account, initial configuration, and guided onboarding.\n    *   **Data Migration Assistance:** If you need significant help transferring data from an old system (spreadsheets, another CRM), this might incur additional professional services fees.\n\n3.  **Training Costs:**\n    *   **Standard Training:** Basic webinars and self-guided resources are often included with your subscription.\n    *   **Advanced/Custom Training:** For in-depth, personalized training sessions for your team, or specific use cases, there might be additional fees, especially if you want on-site training or dedicated one-on-one consultation.\n\n4.  **Hardware/Peripherals (Minimal for SaaS):**\n    *   While DonorPerfect is cloud-based, you might need to invest in some hardware for specific functions:\n        *   **Computers/Tablets:** Decent internet-connected devices for staff.\n        *   **Printers:** For receipts, reports, mailings.\n        *   **Scanners:** For digitizing documents.\n        *   **Card Readers:** For in-person donations or event check-ins, if using DonorPerfect Payments with a physical device.\n\n---\n\n### II. Indirect/Hidden Costs (Often Overlooked)\n\n1.  **Internal Staff Time:** This is often the largest hidden cost.\n    *   **Learning Curve:** Time spent by staff learning the new system.\n    *   **Data Entry & Cleanup:** Ongoing time for accurate data entry and maintaining data hygiene.\n    *   **Reporting & Analysis:** Time spent creating and running reports, analyzing data.\n    *   **Database Administration:** Dedicating staff time to managing custom fields, users, security settings, and overall system health.\n    *   **Integration Management:** Time spent ensuring data flows correctly between DonorPerfect and other integrated systems.\n    *   **Training New Staff:** Ongoing internal training as staff turnover occurs.\n\n2.  **Data Migration (Your Effort):**\n    *   Even if you pay for professional migration assistance, your team will spend significant time:\n        *   **Data Cleanup:** Reviewing, standardizing, and deduplicating existing data *before* migration.\n        *   **Mapping:** Helping map old data fields to new DonorPerfect fields.\n        *   **Verification:** Reviewing migrated data for",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 727,
+  "estimated_cost_usd": 0.001819,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

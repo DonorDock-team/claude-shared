@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P096",
+  "prompt_text": "Hidden costs of Neon CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.289569+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Neon CRM\n\nWhile Neon CRM advertises transparent pricing, organizations often encounter unexpected expenses beyond the base subscription fee. Here are the key hidden costs to consider:\n\n## **Implementation & Setup**\n- **Data migration fees** - Importing existing donor data may require paid professional services\n- **Custom configuration** - Complex customization often needs paid implementation support\n- **Staff training time** - Learning curve can consume significant staff hours\n\n## **Integration Costs**\n- **Third-party app fees** - Many integrations require separate subscriptions (payment processors, email marketing tools, accounting software)\n- **API limitations** - Advanced integrations may require higher-tier plans\n- **Zapier or middleware costs** - Connecting non-native integrations often requires paid automation tools\n\n## **Payment Processing**\n- **Transaction fees** - Separate from Neon's fees (typically 2.2-2.9% + $0.30 per transaction)\n- **Monthly gateway fees** - Some payment processors charge additional monthly fees\n- **ACH/recurring donation fees** - May differ from one-time donation rates\n\n## **Advanced Features**\n- **Additional user licenses** - Costs increase per additional staff member\n- **Premium reporting** - Advanced analytics may require higher plan tiers\n- **Custom fields and workflows** - May be limited on lower-tier plans\n\n## **Ongoing Expenses**\n- **Annual price increases** - Subscription costs typically rise 3-10% annually\n- **Support upgrades** - Priority or phone support may cost extra\n- **Data storage limits** - Exceeding contact/storage limits triggers upgrade requirements\n\n## **Tips to Minimize Hidden Costs**\n- Request detailed pricing breakdown during demos\n- Clarify what's included vs. add-on costs\n- Budget for 20-30% above quoted subscription price\n- Negotiate multi-year contracts for rate locks\n\nWould you like specific information about any of these cost categories?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 432,
+  "estimated_cost_usd": 0.006525,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

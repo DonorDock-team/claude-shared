@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P020",
+  "prompt_text": "Cheaper alternative to Blackbaud",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291473+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Blackbaud offers a wide range of products, so the \"cheaper alternative\" really depends on *which* Blackbaud product you're looking to replace and what functionality is most critical for your organization.\n\nFor example, are you replacing:\n*   **Raiser's Edge NXT (Donor CRM & Fundraising)?**\n*   **eTapestry (Simpler Donor CRM)?**\n*   **Luminate Online (Online Fundraising & Engagement)?**\n*   **Financial Edge NXT (Nonprofit Accounting)?**\n*   **Academic solutions (K-12 or Higher Ed)?**\n\nAssuming you're primarily looking for a cheaper alternative for **Donor Management, Fundraising, and CRM**, here are some excellent options that are generally more budget-friendly than Blackbaud's flagship products:\n\n### Top Cheaper Alternatives for Donor CRM & Fundraising:\n\n1.  **Bloomerang:**\n    *   **Pros:** Very modern, user-friendly interface, strong focus on donor retention, excellent reporting and communication tools, good integrations. Often cited as a top alternative to Raiser's Edge for small to mid-sized nonprofits.\n    *   **Cons:** Less robust for very complex accounting or large-scale academic management compared to specialized Blackbaud products.\n    *   **Best for:** Organizations prioritizing donor engagement, intuitive CRM, and strong communications.\n\n2.  **DonorPerfect:**\n    *   **Pros:** Comprehensive all-in-one solution for donor management, fundraising, events, and reporting. Long-standing reputation, scalable for growing nonprofits. Good customer support.\n    *   **Cons:** Interface can feel a bit dated compared to newer options; customization can sometimes require add-ons.\n    *   **Best for:** Nonprofits needing a robust, all-in-one solution with a proven track record.\n\n3.  **Salesforce Nonprofit Cloud (NPSP - Nonprofit Success Pack):**\n    *   **Pros:** Extremely powerful and customizable platform. Salesforce offers 10 free licenses to nonprofits, making the core CRM potentially free. Vast ecosystem of apps and integrations.\n    *   **Cons:** Requires significant technical expertise for setup and ongoing administration. Can become costly if you need extensive customization, paid apps, or more than 10 licenses. Steep learning curve.\n    *   **Best for:** Organizations with internal technical resources or budget for a consultant, who need extreme flexibility and scalability, and want to leverage the broader Salesforce ecosystem.\n\n4.  **Little Green Light (LGL):**\n    *   **Pros:** Very affordable, intuitive, and feature-rich for its price point. Excellent for managing donors, gifts, campaigns, and communications for smaller and mid-sized nonprofits. Good data import tools.\n    *   **Cons:** Might lack some of the deep analytical or highly specialized features of more expensive platforms.\n    *   **Best for:** Smaller to mid-sized nonprofits looking for a cost-effective, easy-to-use, yet comprehensive CRM.\n\n5.  **Kindful (now Bonterra):**\n    *   **Pros:** Modern interface, strong focus on online fundraising and integrations with popular tools (e.g., QuickBooks, Mailchimp). Good for organizations with a strong digital presence.\n    *   **Cons:** Some users report less robust reporting than other platforms, and support can sometimes be slower.\n    *   **Best for:** Tech-forward nonprofits heavily focused on online giving, integrating with many third-party apps.\n\n6.  **Givebutter:**\n    *   **Pros:** Unique \"free\" model for many features",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Givebutter",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 749,
+  "estimated_cost_usd": 0.001874,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

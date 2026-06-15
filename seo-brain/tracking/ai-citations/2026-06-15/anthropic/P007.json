@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P007",
+  "prompt_text": "DonorDock vs Network for Good",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290235+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Network for Good Comparison\n\n## **DonorDock**\n\n### Best For\n- Small to mid-sized nonprofits\n- Organizations wanting affordable, straightforward donor management\n- Teams needing user-friendly CRM without complexity\n\n### Key Features\n- **Donor Management**: Contact database, donation tracking, donor profiles\n- **Communication Tools**: Email campaigns, task management, reminders\n- **Reporting**: Donation reports, donor insights, custom fields\n- **Integrations**: Limited but includes popular payment processors\n- **Pricing**: ~$99-$149/month (flat rate, unlimited contacts)\n\n### Pros\n- Intuitive, easy-to-use interface\n- Affordable flat-rate pricing\n- Good customer support\n- Quick setup and implementation\n- Strong donor relationship tracking\n\n### Cons\n- Fewer advanced features\n- Limited third-party integrations\n- Less robust for complex organizations\n- Smaller feature set compared to enterprise solutions\n\n---\n\n## **Network for Good**\n\n### Best For\n- Small to medium nonprofits\n- Organizations wanting all-in-one fundraising platform\n- Groups needing comprehensive donor engagement tools\n\n### Key Features\n- **Fundraising Tools**: Donation pages, peer-to-peer, event registration\n- **Donor Management**: CRM, constituent tracking, segmentation\n- **Marketing**: Email campaigns, social media integration\n- **Coaching**: Fundraising coaching and training included\n- **Reporting**: Comprehensive analytics and dashboards\n- **Pricing**: Starts ~$99/month + transaction fees (typically 3-5%)\n\n### Pros\n- Comprehensive fundraising suite\n- Built-in donation processing\n- Fundraising coaching/support included\n- Strong email marketing tools\n- Good reporting capabilities\n\n### Cons\n- Transaction fees can add up\n- Can be more expensive overall\n- Learning curve for all features\n- Some users report customer service inconsistencies\n\n---\n\n## **Key Differences**\n\n| Factor | DonorDock | Network for Good |\n|--------|-----------|------------------|\n| **Primary Focus** | Donor CRM/Management | Full fundraising platform |\n| **Pricing Model** | Flat monthly rate | Monthly fee + transaction fees |\n| **Fundraising Pages** | Limited/through integrations | Built-in, robust |\n| **Payment Processing** | Third-party integrations | Integrated |\n| **Support/Training** | Standard support | Includes coaching |\n| **Complexity** | Simpler, streamlined | More comprehensive |\n\n## **Which Should You Choose?**\n\n**Choose DonorDock if you:**\n- Want simple, affordable donor management\n- Already have fundraising tools in place\n- Prefer predictable, flat-rate pricing\n- Value ease of use over feature breadth\n\n**Choose Network for Good if you:**\n- Need comprehensive fundraising tools\n- Want donation pages and processing integrated\n- Value fundraising coaching/training\n- Process significant online donation volume\n\nBoth are solid choices for small-to-medium nonprofits\u2014your decision should be based on whether you need primarily donor management (DonorDock) or a complete fundraising platform (Network for Good).",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 711,
+  "estimated_cost_usd": 0.010713,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

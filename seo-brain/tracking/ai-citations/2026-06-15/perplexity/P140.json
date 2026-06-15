@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.291023+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "If you need a **donor CRM that integrates with QuickBooks Online**, the clearest matches in the results are **DonorDock**, **CharityEngine**, and **DonorPerfect**.[1][2][3]\n\n- **DonorDock** offers a native QuickBooks Online integration that automatically syncs donations and transactions into QuickBooks as **sales receipts**, reducing double entry.[1]\n- **CharityEngine** connects to QuickBooks Online and supports two sync styles: **detailed sync** for donor-level records and **batch sync** for reconciliation-focused workflows.[2]\n- **DonorPerfect** integrates with QuickBooks Online and can post gifts automatically, with setup through the apps/integrations area in the CRM.[3][4]\n\nIf you want a broader shortlist, a software directory also lists **Keela, DonorSnap, Donately, Bonterra Network for Good, Little Green Light, and DonorPerfect** as donation-management tools integrated with QuickBooks Online.[6]\n\nIf you want, I can narrow this to the **best option for small nonprofits, mid-sized teams, or accounting-heavy workflows**.",
+  "donordock_mentioned": true,
+  "donordock_position": 110,
+  "competitors_mentioned": [
+    "Bonterra",
+    "DonorPerfect",
+    "Keela",
+    "Little Green Light",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 228,
+  "estimated_cost_usd": 0.00845,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/integrations/quickbooks-online",
+      "https://blog.charityengine.net/quickbooks-integration",
+      "https://www.donorperfect.com/video/donorperfect-and-quickbooks/",
+      "https://www.donorperfect.com/video/donorperfect-integration-quickbooks-accounting-software/",
+      "https://quickbooks.intuit.com/app/apps/category/customer_management/en-us/",
+      "https://www.getapp.com/nonprofit-software/donation-management/w/quickbooks-online-edition/",
+      "https://www.facebook.com/groups/852691834840610/posts/24455474140802381/",
+      "https://parse.gl/prompts/p/what-crm-offers-the-best-integration-with-quickbooks-for-non-profits-to-reconcile-donations--90507076-8a45-4bd1-b0b0-539283671622"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P094",
+  "prompt_text": "Hidden costs of Bloomerang",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291588+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Bloomerang\n\nWhile Bloomerang advertises transparent pricing, several hidden or additional costs can catch nonprofits off guard:\n\n## **Additional User Fees**\n- Base plans include limited users (typically 3-5)\n- Each additional user costs **$30-50/month**\n- Can quickly add up for larger teams\n\n## **Payment Processing Fees**\n- Online donation processing: **2.2% + $0.30** per transaction (via Stripe)\n- These fees are separate from subscription costs\n- Can total thousands annually for active fundraising\n\n## **Premium Features & Add-ons**\n- **Email marketing beyond included limits** (overage fees)\n- **Text messaging/SMS campaigns** (separate charges)\n- **Advanced wealth screening** (additional cost)\n- **Custom reporting** or advanced analytics\n\n## **Data Migration & Setup**\n- Professional data import services: **$500-2,000+**\n- Custom field mapping and cleanup\n- Training sessions beyond basic onboarding\n\n## **Integration Costs**\n- Some third-party integrations require middleware or premium accounts\n- Zapier connections for advanced workflows\n- API access limitations on lower tiers\n\n## **Contract & Scaling Issues**\n- Annual contracts typically required for best pricing\n- Price increases when moving to higher tiers (based on constituent count)\n- Mid-contract upgrades may require new terms\n\n## **Support Limitations**\n- Phone support may be limited on basic plans\n- Priority support costs extra\n- Implementation consulting separate from subscription\n\n**Budget accordingly** by calculating total cost of ownership, not just the base subscription price.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 362,
+  "estimated_cost_usd": 0.005472,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

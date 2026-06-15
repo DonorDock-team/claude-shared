@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P053",
+  "prompt_text": "Best donor CRM for a 10 person fundraising team",
+  "engine": "openai",
+  "timestamp": "2026-06-15T12:23:38.291208+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM (Customer Relationship Management) system for a 10-person fundraising team depends on various factors, including budget, specific feature requirements, ease of use, and integration capabilities. However, several CRMs have been widely recognized for their suitability for small to medium-sized fundraising teams. Here are a few options you might consider:\n\n1. **Bloomerang**: Known for its user-friendly interface and robust analytics capabilities, Bloomerang is designed specifically for nonprofits. It offers donor management, email marketing, and social media tools, making it ideal for small teams.\n\n2. **Kindful**: Another intuitive platform, Kindful offers seamless integration with various third-party applications, making it easier to synchronize your fundraising data. It provides comprehensive donor profiles and reporting tools tailored for nonprofits.\n\n3. **Neon One (Neon CRM)**: With specific tools for volunteer management, event management, and fundraising, Neon CRM is a versatile option. It also integrates well with tools like QuickBooks and Mailchimp, which can enhance your team's efficiency.\n\n4. **DonorPerfect**: Known for its extensive customization options, DonorPerfect offers features like online gift processing, fundraising management, and detailed reporting, suitable for teams wanting tailored solutions.\n\n5. **Little Green Light**: This CRM is cost-effective and comes with features like donation tracking, event management, and mail merging. It is easy to set up and adapts well to the needs of small teams.\n\n6. **Salesforce Nonprofit Success Pack (NPSP)**: While more complex than some alternatives, Salesforce NPSP offers powerful customization and scalability options that can grow with your nonprofit organization.\n\n7. **Raiser's Edge NXT**: A product by Blackbaud, it's known for its powerful analytics, donor management tools, and comprehensive support. It might be a bit pricier, but it provides extensive functionalities.\n\nWhen choosing a CRM, it's essential to evaluate each option based on your organization's specific needs, such as budget constraints, must-have features, the potential learning curve for your team, and existing software integrations. Many of these platforms offer free trials or demos, which can be an excellent way for your team to test them out and determine what suits your requirements best.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One",
+    "Raiser's Edge",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 451,
+  "estimated_cost_usd": 0.004553,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

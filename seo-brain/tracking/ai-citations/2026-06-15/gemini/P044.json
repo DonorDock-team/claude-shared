@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P044",
+  "prompt_text": "Best donor CRM for food banks",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290395+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the best donor CRM for a food bank involves looking for specific features beyond just tracking monetary donations. Food banks have unique needs, especially around **in-kind donations (food, supplies)** and **volunteer management**.\n\nHere's a breakdown of top contenders and key features to look for:\n\n## Key Features for Food Bank CRMs:\n\n1.  **In-Kind Donation Tracking:** Absolutely critical. The CRM needs to track donated items (type, quantity, estimated value, source, date).\n2.  **Volunteer Management:** Food banks rely heavily on volunteers. Look for features like:\n    *   Volunteer profiles (skills, availability)\n    *   Shift scheduling and management\n    *   Hour tracking\n    *   Communication tools for volunteers\n    *   Ability to convert volunteers to donors (or vice-versa)\n3.  **Donor & Donation Management:**\n    *   Comprehensive donor profiles (contact info, giving history, communication history).\n    *   Tracking of one-time, recurring, and pledged donations.\n    *   Acknowledgement and receipt generation.\n    *   Grant management capabilities (for larger food banks).\n4.  **Communication & Engagement:**\n    *   Email marketing and segmentation tools.\n    *   Mail merge for physical mailings.\n    *   Ability to track interactions (calls, emails, meetings).\n5.  **Reporting & Analytics:**\n    *   Dashboards to visualize fundraising performance.\n    *   Customizable reports on donors, donations (monetary & in-kind), volunteers, campaigns.\n    *   Donor retention metrics.\n6.  **Ease of Use & Interface:** Especially important if you have a small team or rely on volunteers for data entry.\n7.  **Integrations:**\n    *   Payment processors (Stripe, PayPal, etc.)\n    *   Accounting software (QuickBooks, Xero)\n    *   Email marketing tools (Mailchimp, Constant Contact)\n    *   Website forms and online giving pages.\n8.  **Scalability:** Can it grow with your food bank?\n9.  **",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 441,
+  "estimated_cost_usd": 0.001104,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

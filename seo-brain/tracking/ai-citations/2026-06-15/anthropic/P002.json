@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P002",
+  "prompt_text": "Is DonorDock good",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291410+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock Overview\n\nDonorDock is a **donor management/CRM platform** designed specifically for small to mid-sized nonprofits. Here's a balanced assessment:\n\n## Strengths\n- **Affordable pricing** - Generally more budget-friendly than competitors like Bloomerang or Little Green Light\n- **User-friendly interface** - Known for being intuitive and easy to learn\n- **Good customer support** - Users often praise responsive service\n- **Core features included** - Donation tracking, donor communications, reporting, online giving forms\n- **No long-term contracts** - Month-to-month pricing available\n\n## Potential Limitations\n- **Fewer integrations** - Not as extensive as larger platforms\n- **Less robust** for complex needs - May not scale well for larger organizations\n- **Limited advanced features** - Event management and other modules aren't as comprehensive as specialized tools\n- **Reporting** - Some users find reporting capabilities more basic than desired\n\n## Best For\n- Small nonprofits (budgets under $1M)\n- Organizations transitioning from spreadsheets\n- Teams wanting simplicity over advanced features\n\n## Consider Alternatives If You Need\n- Extensive third-party integrations\n- Advanced peer-to-peer fundraising\n- Comprehensive event management\n- Complex grant tracking\n\n**Bottom line**: DonorDock is a solid choice for smaller nonprofits prioritizing ease of use and affordability over advanced functionality. Would you like comparisons with specific alternatives?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 329,
+  "estimated_cost_usd": 0.004977,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

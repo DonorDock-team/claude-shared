@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P010",
+  "prompt_text": "Does DonorDock have online giving",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290492+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock Online Giving\n\nYes, **DonorDock does offer online giving functionality** through their platform called **DonorDock Forms**.\n\n## Key Features:\n\n- **Customizable donation forms** that can be embedded on your website\n- **Recurring giving** options for donors\n- **Mobile-responsive** design\n- **Secure payment processing** (they integrate with Stripe)\n- **Donor data** automatically syncs with your DonorDock CRM\n- **Custom branding** to match your organization's look\n\n## Important Notes:\n\n- There are **payment processing fees** (typically around 2.9% + $0.30 per transaction through Stripe)\n- The forms integrate directly with their donor management system, so all donation information flows into one database\n- You can create different forms for various campaigns or purposes\n\nDonorDock positions itself as an **all-in-one solution** for smaller nonprofits, combining donor management (CRM) with online giving tools, so you don't need separate platforms for tracking donors and accepting donations.\n\nWould you like to know more about how DonorDock compares to other online giving platforms?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 263,
+  "estimated_cost_usd": 0.003993,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

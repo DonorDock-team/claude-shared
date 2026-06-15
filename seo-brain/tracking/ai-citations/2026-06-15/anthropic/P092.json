@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291422+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for International NGOs\n\nHere are the top donor management systems suited for international NGOs:\n\n## **Top Recommendations**\n\n### **1. Salesforce Nonprofit Cloud**\n- **Best for:** Large international NGOs with complex needs\n- **Strengths:** Highly customizable, multi-currency, robust reporting, integrates with most tools\n- **Considerations:** Requires technical expertise, higher cost\n- **Pricing:** Discounted/free for eligible nonprofits (10 licenses)\n\n### **2. Microsoft Dynamics 365 (Nonprofit Edition)**\n- **Best for:** Organizations already using Microsoft ecosystem\n- **Strengths:** Multi-language support, enterprise-grade, strong for grants management\n- **Considerations:** Complex implementation\n- **Pricing:** Heavily discounted for nonprofits\n\n### **3. Raiser's Edge NXT (Blackbaud)**\n- **Best for:** Mid-to-large NGOs with established fundraising programs\n- **Strengths:** Industry standard, cloud-based, multi-currency, global payment processing\n- **Considerations:** Can be expensive, steeper learning curve\n- **Pricing:** Custom quotes based on size\n\n### **4. CiviCRM**\n- **Best for:** Budget-conscious NGOs with technical capacity\n- **Strengths:** Open-source (free), highly customizable, multi-language, active community\n- **Considerations:** Requires technical setup/maintenance\n- **Pricing:** Free (hosting/support costs apply)\n\n### **5. Bloomerang**\n- **Best for:** Small-to-mid-sized international NGOs\n- **Strengths:** User-friendly, strong retention focus, good reporting\n- **Considerations:** Limited multi-currency features\n- **Pricing:** Starting ~$125/month\n\n## **Key Features to Consider**\n- Multi-currency support\n- Multi-language capabilities\n- GDPR compliance\n- International payment gateway integrations\n- Grant management\n- Reporting across regions\n\n**What's your organization's size and primary needs?** I can provide more specific recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 472,
+  "estimated_cost_usd": 0.007125,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290894+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Tracking Donor Relationships Across a Team\n\n## 1. **Use a Centralized CRM System**\n\n**Recommended platforms:**\n- **Bloomerang** - designed for nonprofits\n- **Salesforce Nonprofit Cloud** - robust, scalable\n- **DonorPerfect** - user-friendly\n- **Little Green Light** - affordable for small teams\n- **HubSpot** - free option with limitations\n\n**Key features to use:**\n- Contact history and interaction logging\n- Task assignments and reminders\n- Shared notes and activity feeds\n- Custom fields for donor preferences\n\n## 2. **Establish Clear Protocols**\n\n**Create documentation for:**\n- Who logs what information and when\n- Naming conventions for donors and activities\n- Required fields for each interaction type\n- Handoff procedures when donors change hands\n\n**Example protocol:**\n> \"All meaningful donor interactions (calls >5 min, meetings, emails about giving) must be logged within 24 hours with summary, next steps, and assignment.\"\n\n## 3. **Implement Regular Communication Rhythms**\n\n- **Weekly team huddles** - flag upcoming donor meetings, recent wins, concerns\n- **Donor portfolio reviews** - monthly or quarterly deep dives\n- **Shared calendar** - for donor events, meetings, follow-ups\n- **Slack/Teams channel** - quick updates and questions\n\n## 4. **Define Ownership & Visibility**\n\n**Assign clear roles:**\n- Primary relationship owner\n- Secondary contact\n- Executive involvement level\n\n**Set visibility rules:**\n- Who can view/edit donor records\n- When to loop in team members\n- Escalation pathways for major decisions\n\n## 5. **Track Key Metrics Together**\n\n**Monitor collaboratively:**\n- Touchpoint frequency per donor segment\n- Pipeline movement\n- Response times\n- Portfolio distribution across team\n\n**Use dashboards** that everyone can access for real-time visibility\n\n## 6. **Simple Alternative: Shared Spreadsheet**\n\nIf a CRM isn't feasible, create a shared Google Sheet with tabs for:\n- Donor master list (contact info, giving history)\n- Interaction log (date, staff, type, summary, next step)\n- Upcoming actions (who, what, when)\n- Portfolio assignments\n\n---\n\n**Pro tip:** The best system is the one your team will actually use. Start simple, build habits, then add complexity as needed.\n\nWhat size is your team and what's your current tracking method?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 560,
+  "estimated_cost_usd": 0.008445,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

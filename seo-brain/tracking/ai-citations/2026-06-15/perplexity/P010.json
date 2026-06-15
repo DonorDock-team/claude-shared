@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P010",
+  "prompt_text": "Does DonorDock have online giving",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.290533+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Yes. **DonorDock includes built-in online giving**, with unlimited, customizable online giving pages and embeddable donation forms.\n\nKey points from DonorDock\u2019s own materials:\n\n- DonorDock offers **Online Giving pages** that connect to Stripe and PayPal to process donations, and each gift is automatically recorded in your DonorDock account in real time.[1]  \n- You can **create unlimited giving pages** for campaigns, events, memberships, recurring giving, etc., and use them as standalone pages or embed the forms directly into your website.[1][2][6]  \n- DonorDock\u2019s pricing explicitly includes **\u201cFREE Online Giving pages\u201d** as part of the platform.[7]  \n- Donors can give via major cards, ACH, Apple Pay, Google Pay, and other methods depending on your payment processor setup.[1][6]  \n\nSo if you are asking whether DonorDock can handle **online donations directly** (not just CRM tracking), the answer is yes\u2014it has a full online giving feature set built in.",
+  "donordock_mentioned": true,
+  "donordock_position": 7,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 213,
+  "estimated_cost_usd": 0.008219,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/online-giving",
+      "https://www.donordock.com/articles/create-custom-donation-pages-with-donordock",
+      "https://www.donordock.com/compare/network-for-good-vs-donordock",
+      "https://www.donordock.com/project-management",
+      "https://www.donordock.com/integrations/planning-center",
+      "https://www.donordock.com/compare",
+      "https://www.donordock.com/pricing",
+      "https://www.donordock.com"
+    ]
+  }
+}

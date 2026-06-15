@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291173+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Automating donor thank you letters is a game-changer for nonprofits, saving time, ensuring timeliness, and maintaining a consistent, personalized voice. The key is to leverage technology to handle the repetitive tasks while still making the donor feel valued.\n\nHere's a step-by-step guide to automating donor thank you letters:\n\n## Key Principles Before You Start\n\n1.  **Personalization is Paramount:** Automation shouldn't mean generic. Use merge fields extensively.\n2.  **Timeliness:** Aim to send thank yous within 24-48 hours of a donation.\n3.  **Accuracy:** Ensure donor data and donation details are correct.\n4.  **Consistency:** Maintain your organization's brand voice and key messaging.\n5.  **Review & Approve:** Even automated letters should have a review process, especially initially.\n6.  **Track & Record:** Your system should log when a thank you was sent.\n\n## Essential Tools You'll Need\n\n1.  **Donor Management System (DMS) / CRM:** This is the heart of your automation. It stores donor data, donation history, and ideally, has built-in communication tools or robust integrations.\n    *   *Examples:* Salesforce NPSP, Bloomerang, DonorPerfect, NeonOne, Little Green Light, Raiser's Edge NXT, SalsaLabs.\n2.  **Email Marketing Platform (optional, if not built into CRM):** For sending personalized emails.\n    *   *Examples:* Mailchimp, Constant Contact, Campaign Monitor. (Many CRMs have this functionality built-in or integrate directly.)\n3.  **Word Processor / Template Builder:** To design your letter templates with merge fields.\n    *   *Examples:* Microsoft Word, Google Docs, or the template builder within your DMS.\n4.  **Integration Platform (optional):** If your DMS doesn't directly integrate with your email platform or other tools.\n    *   *Examples:* Zapier, Make (formerly Integromat).\n\n## Step-by-Step Automation Process\n\n### Step 1: Choose Your Core System (DMS/CRM)\n\nThis is the most critical decision. Your DMS should be able to:\n*   Store donor contact information (name, address, email).\n*   Record donation details (amount, date, campaign, fund).\n*   Generate reports and lists.\n*   Ideally, have built-in letter/email template capabilities with merge fields, OR integrate seamlessly with tools that do.\n\n### Step 2:",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 529,
+  "estimated_cost_usd": 0.001325,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

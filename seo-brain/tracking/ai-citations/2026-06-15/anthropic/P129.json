@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P129",
+  "prompt_text": "Bloomerang limitations",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291506+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Bloomerang Limitations\n\nBloomerang is a popular donor management CRM for nonprofits, but it has several notable limitations:\n\n## **Core Functionality Limitations**\n\n- **Limited customization** - Fewer custom fields and workflow options compared to competitors\n- **Basic reporting** - While improved, reporting capabilities are less robust than enterprise solutions\n- **No built-in accounting** - Requires integration with QuickBooks or other accounting software\n- **Limited event management** - Event features are basic; many organizations need third-party tools\n- **No grant management** - Doesn't include dedicated grant tracking functionality\n\n## **Technical Limitations**\n\n- **Integration constraints** - Fewer native integrations than platforms like Salesforce\n- **Email marketing** - Built-in email tools are functional but limited compared to dedicated platforms\n- **Mobile app functionality** - Mobile capabilities are more limited than desktop\n- **API limitations** - API access restricted to higher-tier plans\n\n## **Scalability Concerns**\n\n- **Better suited for small-to-mid-sized nonprofits** - Organizations with complex needs may outgrow it\n- **Large database performance** - Can slow down with very large contact databases\n- **Multi-entity management** - Challenging for organizations managing multiple affiliates\n\n## **Cost Considerations**\n\n- **Per-contact pricing** - Costs increase with database size\n- **Feature restrictions by tier** - Advanced features require higher-priced plans\n- **Add-on costs** - Some integrations and features cost extra\n\n## **User Experience**\n\n- **Learning curve** - Some users find the interface less intuitive initially\n- **Limited volunteer management** - Volunteer tracking features are basic\n\nWould you like specific comparisons with alternative platforms?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 382,
+  "estimated_cost_usd": 0.005766,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

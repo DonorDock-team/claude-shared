@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290957+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor relationships across a team is crucial for maintaining strong connections, avoiding miscommunication, and ensuring a consistent, positive donor experience. It requires a combination of the right tools, clear processes, and a collaborative team culture.\n\nHere's a comprehensive approach:\n\n---\n\n## **I. The Foundation: A Centralized System (CRM)**\n\nThe absolute cornerstone is a dedicated Constituent Relationship Management (CRM) system designed for nonprofits. Spreadsheets can work for very small teams with a handful of donors, but they quickly become unsustainable and prone to errors as your organization grows.\n\n**Key Features Your CRM Must Have:**\n\n1.  **Comprehensive Contact Profiles:**\n    *   **Basic Info:** Name, contact details (phone, email, address).\n    *   **Demographics:** Age, profession, affiliations, interests, preferred communication method.\n    *   **Relationship Mapping:** Connections to other donors, board members, volunteers, organizations.\n    *   **Custom Fields:** Ability to add specific data points relevant to your organization.\n\n2.  **Donation & Financial History:**\n    *   All past gifts (date, amount, type, designation).\n    *   Pledge tracking and payment schedules.\n    *   Recurring gift management.\n    *   Soft credit tracking (e.g., when a spouse gives).\n\n3.  **Communication & Interaction Logs:**\n    *   **Date & Type of Interaction:** Call, email, meeting, event, social media message.\n    *   **Summary/Notes:** Detailed notes from each interaction.\n    *   **Logged By:** Who recorded the interaction.\n    *   **Attachments:** Ability to attach relevant documents (letters, proposals, photos).\n\n4.  **Task Management & Next Steps:**\n    *   Ability to create, assign, and track tasks related to a donor (e.g., \"Send thank you,\" \"Schedule follow-up call,\" \"Prepare proposal\").\n    *   Due dates and reminders.\n\n5.  **Stewardship & Cultivation Tracking:**\n    *   **Relationship Manager:** Clearly indicate who is the primary contact person for each donor.\n    *   **Donor Stages:** Track where a donor is in the cultivation/stewardship cycle (e.g., Prospect, New Donor, Engaged Donor, Major Donor, Legacy Donor).\n    *   **Interests/Preferences:** Document what causes or programs they care about.\n\n6.  **Segmentation & Reporting:**\n    *   Ability to group donors based on criteria (giving level, interests, last gift date).\n    *   Robust reporting tools to analyze donor trends, campaign effectiveness, and team activity.\n\n7.  **Security & Permissions:**\n    *   Control who can access, edit, or delete donor data.\n\n**Popular Nonprofit CRM Options:**\n\n*   **Salesforce Nonprofit Cloud (NPSP):** Highly customizable, powerful, but can have a steep learning curve.\n*   **Blackbaud (Raiser's Edge NXT, eTapestry, Altru):** Industry standard for many years, various options for different organization sizes.\n*   **Bloomerang:** User-friendly, focused on donor retention and engagement.\n*   **DonorPerfect:** Comprehensive, robust reporting, good for mid-sized organizations.\n*   **Little Green Light:** Affordable, good for smaller organizations.\n*   **Neon CRM:** All-in-one solution for fundraising, events, memberships.\n\n---\n\n## **II. Establishing Clear Processes & Protocols**\n\nEven the best CRM is",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "eTapestry"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 740,
+  "estimated_cost_usd": 0.001852,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

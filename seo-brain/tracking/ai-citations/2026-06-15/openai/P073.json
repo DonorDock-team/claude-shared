@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "openai",
+  "timestamp": "2026-06-15T12:23:38.291357+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking donor pledges effectively is crucial for managing donor relationships and ensuring that pledged contributions are received. Here\u2019s a step-by-step guide on how to do it:\n\n1. **Choose the Right Tools:**\n   - **CRM System:** Utilize a Customer Relationship Management (CRM) system tailored for nonprofits, such as Salesforce Nonprofit Success Pack, Blackbaud, or DonorPerfect. These systems help in managing donor information and tracking pledges.\n   - **Spreadsheet Software:** If a CRM is not feasible, you can use spreadsheet software like Microsoft Excel or Google Sheets for smaller operations.\n\n2. **Data Entry:**\n   - Create a database or spreadsheet with essential fields: donor name, contact information, pledge amount, pledge date, payment schedule, payment methods, and any notes related to the pledge.\n\n3. **Categorize Donors:**\n   - Segment your donors based on pledge size, frequency, or donor type. This helps in personalizing communication and follow-ups.\n\n4. **Set Up Payment Schedules:**\n   - Record the agreed-upon payment schedule and set reminders in your system for when payments are due.\n\n5. **Automate Reminders:**\n   - Use your CRM to automate reminders for upcoming or overdue payments. For spreadsheets, set up calendar alerts in software like Google Calendar.\n\n6. **Track Payments:**\n   - Regularly update your records when payments are received. Note the date of receipt, amount, and any discrepancies.\n\n7. **Generate Reports:**\n   - Regularly generate reports to analyze your progress. These should include outstanding pledges, fulfilled pledges, and any at-risk of default.\n\n8. **Acknowledge Donations:**\n   - Send timely acknowledgments and thank-you notes for received payments. Personalize these messages to enhance donor relations.\n\n9. **Regular Communication:**\n   - Keep donors informed about how their contributions are making an impact. This can encourage timely payments and future donations.\n\n10. **Conduct Reviews:**\n    - Periodically review your tracking system, report accuracy, and donor satisfaction to identify any areas for improvement.\n\n11. **Training and Protocol:**\n    - Ensure that staff handling donor data are properly trained and that there is a clear protocol for managing pledges.\n\nBy staying organized and maintaining clear communication with donors, you can effectively manage and track donor pledges.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 471,
+  "estimated_cost_usd": 0.004743,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

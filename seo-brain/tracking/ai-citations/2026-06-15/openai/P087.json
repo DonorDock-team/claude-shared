@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P087",
+  "prompt_text": "Best donor CRM for refugee services",
+  "engine": "openai",
+  "timestamp": "2026-06-15T12:23:38.291072+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the right donor CRM (Customer Relationship Management) system for refugee services involves considering several specific needs such as tracking donations, managing volunteer information, engaging with stakeholders, and reporting on impact. Here are a few CRM systems that are often recommended for nonprofit organizations, including those focused on refugee services:\n\n1. **Salesforce.org Nonprofit Cloud**: Salesforce is highly customizable and has an excellent reputation in the nonprofit sector. The Nonprofit Success Pack (NPSP) can be tailored to manage donors, fundraising, and programs. Salesforce has a vast ecosystem and the capability to integrate with various other systems.\n\n2. **Bloomerang**: Known for its user-friendly interface and excellent customer support, Bloomerang helps nonprofits manage donor relationships and engagement. It offers tools for tracking donor retention, which is crucial for sustaining long-term support.\n\n3. **Blackbaud CRM**: Specifically designed for nonprofits and NGOs, Blackbaud offers a range of features to manage fundraising and donor relationships. It\u2019s particularly strong in analytics and reporting, which can help refugee services demonstrate their impact effectively.\n\n4. **DonorPerfect**: A comprehensive solution for smaller to mid-sized nonprofits, DonorPerfect offers simple campaign tracking, reporting, and analytics. It's also known for its robust donation processing capabilities.\n\n5. **Little Green Light**: An affordable option for small to medium-sized organizations, Little Green Light is easy to set up and aimed at managing and growing donor bases. It includes features for event management, email integration, and online giving.\n\n6. **Keela**: Keela is a newer entrant that caters to small and midsize nonprofits. It offers automation tools designed to increase efficiency, along with comprehensive reporting features and integrated email marketing.\n\nWhen selecting a CRM, consider the following:\n- **Integration**: Ensure the CRM can connect with other tools you use.\n- **Scalability**: As your service grows, your CRM should be able to scale with it.\n- **Ease of Use**: The system should be user-friendly, especially for volunteers and staff who may be less tech-savvy.\n- **Cost**: Evaluate the pricing model to ensure it fits within your budget.\n- **Support and Training**: Look for options that offer strong customer support and training resources.\n\nIt's also useful to request demos or trials to see how well a CRM fits with the specific workflow and needs of your organization.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 481,
+  "estimated_cost_usd": 0.004842,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

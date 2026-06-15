@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P102",
+  "prompt_text": "Free alternatives to Salesforce Nonprofit Cloud",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290822+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Free Alternatives to Salesforce Nonprofit Cloud\n\nHere are the best free CRM and management tools for nonprofits:\n\n## **Fully Free Options**\n\n### **1. Salesforce Nonprofit Success Pack (NPSP)**\n- Free for up to 10 users (Salesforce's own nonprofit offering)\n- Built on Salesforce platform with nonprofit-specific features\n- Donation tracking, volunteer management, grant management\n- **Best for:** Organizations wanting Salesforce features without the cost\n\n### **2. CiviCRM**\n- Open-source, completely free\n- Donor management, event registration, email campaigns\n- Integrates with WordPress, Drupal, Joomla\n- **Best for:** Tech-savvy organizations with development resources\n\n### **3. SuiteCRM**\n- Open-source alternative to Salesforce\n- Contact management, fundraising tracking, reporting\n- Self-hosted or cloud options\n- **Best for:** Organizations wanting customizable open-source solution\n\n## **Freemium Options (Free with Limitations)**\n\n### **4. HubSpot for Nonprofits**\n- Free CRM with unlimited users\n- Contact management, email tracking, forms\n- 40% discount on paid features for nonprofits\n- **Best for:** Marketing-focused nonprofits\n\n### **5. Bitrix24**\n- Free for up to 12 users\n- CRM, project management, communication tools\n- Cloud or self-hosted\n- **Best for:** Small teams needing all-in-one solution\n\n### **6. Zoho CRM (Nonprofit Program)**\n- Free for up to 3 users or discounts for nonprofits\n- Contact management, workflow automation\n- **Best for:** Very small organizations\n\n## **Specialized Nonprofit Tools**\n\n### **7. Little Green Light**\n- Discounted/free for very small nonprofits\n- Donor management focused\n- **Best for:** Fundraising-heavy organizations\n\n### **8. Kindful**\n- Some free tiers available\n- Donor management and online giving\n- **Best for:** Donation-focused nonprofits\n\n## **Key Considerations**\n\n- **Technical capacity:** Open-source = more flexibility but requires technical knowledge\n- **Support needs:** Free options typically have limited support\n- **Scalability:** Consider future growth\n- **Integration requirements:** Ensure compatibility with existing tools\n\nWould you like specific recommendations based on your nonprofit's size or needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "CiviCRM",
+    "Kindful",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 555,
+  "estimated_cost_usd": 0.008373,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

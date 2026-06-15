@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P023",
+  "prompt_text": "What is replacing Kindful",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291663+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# What's Replacing Kindful\n\nKindful was sunset by Bloomerang after they acquired it. Here are the main options organizations are migrating to:\n\n## Primary Replacement\n**Bloomerang** - The parent company has been actively migrating Kindful customers to their own platform, which offers similar donor management and fundraising tools.\n\n## Popular Alternatives\nOrganizations leaving Kindful have also moved to:\n\n- **Donorbox** - Affordable, user-friendly donation platform\n- **Givebutter** - Free fundraising platform with modern interface\n- **Neon CRM** - Comprehensive nonprofit CRM\n- **Little Green Light** - Donor management for small to mid-sized nonprofits\n- **Salesforce Nonprofit Cloud** - Enterprise-level solution\n- **DonorPerfect** - Established donor management system\n- **Keela** - AI-powered nonprofit CRM\n\n## What Happened?\nBloomerang acquired Kindful in 2020 and announced in 2022 that Kindful would be discontinued, encouraging customers to transition to Bloomerang's platform. The migration deadline has passed, so former Kindful users have either moved to Bloomerang or selected alternative platforms.\n\n**Need help choosing?** The best replacement depends on your organization's size, budget, and specific needs. Would you like recommendations based on your situation?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Givebutter",
+    "Keela",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 311,
+  "estimated_cost_usd": 0.004704,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

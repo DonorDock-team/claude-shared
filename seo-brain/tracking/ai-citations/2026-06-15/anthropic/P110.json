@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P110",
+  "prompt_text": "How to segment your donor list",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291424+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Segment Your Donor List\n\nDonor segmentation helps you send more relevant communications and improve fundraising results. Here are the most effective ways to segment:\n\n## **1. Giving History**\n- **Donation amount** (major, mid-level, small donors)\n- **Frequency** (monthly, annual, one-time, lapsed)\n- **Recency** (new, active, LYBUNT/SYBUNT*)\n- **Lifetime giving** (total contributed over time)\n- **Giving trends** (increasing, decreasing, consistent)\n\n## **2. Demographics**\n- Age/generation\n- Geographic location\n- Gender\n- Income level (if known)\n- Profession/industry\n\n## **3. Engagement Level**\n- Event attendance\n- Volunteer participation\n- Email open/click rates\n- Social media interaction\n- Survey responses\n\n## **4. Relationship Type**\n- Board members\n- Volunteers\n- Corporate sponsors\n- Foundation donors\n- Individual donors\n- Peer-to-peer fundraisers\n\n## **5. Motivation/Interest**\n- Specific programs they support\n- Campaign participation\n- Stated interests/preferences\n- How they were acquired\n\n## **6. Communication Preferences**\n- Channel (email, mail, phone, text)\n- Frequency preferences\n- Content interests\n\n## **Key Tips:**\n- Start simple with 3-5 segments\n- Use your CRM/database tools\n- Test different approaches with each segment\n- Review and refine quarterly\n- Ensure segments are actionable\n\n*LYBUNT = Last Year But Unfortunately Not This; SYBUNT = Some Years But Unfortunately Not This\n\nWould you like help creating specific segments for your organization?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 389,
+  "estimated_cost_usd": 0.005874,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290220+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Yes, absolutely! **Recurring giving management is a core feature of almost all modern donor CRMs.** It's a critical component for sustainable fundraising, so CRM providers prioritize it.\n\nHere are some of the top donor CRMs that excel in managing recurring giving, along with their general strengths:\n\n### Top Donor CRMs with Excellent Recurring Giving Capabilities:\n\n1.  **Bloomerang:**\n    *   **Strengths:** Very user-friendly interface, strong focus on donor retention, excellent reporting and analytics (including recurring donor trends), good email marketing integration. Their recurring giving tools are robust, allowing donors to manage their own payments easily.\n    *   **Recurring Giving Features:** Easy setup for donors, automated payment processing, smart alerts for expiring cards, customizable acknowledgment series, detailed recurring gift reports.\n    *   **Best For:** Small to mid-sized organizations prioritizing ease of use, donor retention, and intuitive reporting.\n\n2.  **DonorPerfect:**\n    *   **Strengths:** Long-standing, robust, comprehensive solution with integrated payment processing (SafeSave Payments). Handles all aspects of donor management, fundraising, and reporting.\n    *   **Recurring Giving Features:** Securely process recurring gifts (credit card, ACH), automated receipts, donor self-service portal, tools for managing failed payments and expiring cards.\n    *   **Best For:** Mid-sized organizations looking for a reliable, all-in-one solution with extensive features and good customer support.\n\n3.  **Salesforce NPSP (Nonprofit Success Pack):**\n    *   **Strengths:** Extremely powerful, highly customizable, and scalable platform. Offers vast integration possibilities and a huge ecosystem of apps. Salesforce provides 10 free licenses for non-profits.\n    *",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 363,
+  "estimated_cost_usd": 0.000909,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P100",
+  "prompt_text": "What does Bloomerang really cost",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.290539+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang\u2019s software pricing is **tiered by product and by number of records**, with starting prices (billed annually) of approximately **$40/month for Fundraising**, **$125/month for CRM**, and **$119/month for Volunteer** for the lowest tiers.[1]\n\nHere\u2019s what that means in practice:\n\n- **Bloomerang Fundraising**  \n  - **Starts at:** about **$40/month**, billed annually.[1]  \n  - Includes integrated fundraising tools and automated insights, with pricing based on your **constituent/record count** rather than number of users.[1][7]\n\n- **Bloomerang CRM**  \n  - **Starts at:** about **$125/month**, billed annually.[1]  \n  - Full donor management/CRM focused on increasing retention and major gifts, again priced by **records**.[1][7]\n\n- **Bloomerang Volunteer**  \n  - **Starts at:** about **$119/month**, billed annually.[1]  \n  - Volunteer recruitment and scheduling tools, also on a records-based, not per-user, model.[1]\n\n- **How their pricing model works**  \n  - **Constituent-based tiers:** Fees are grouped into tiers that correspond to ranges of records in your database; as you cross a records threshold, you move into a higher tier.[7]  \n  - **Unlimited users:** Adding more staff does not increase the subscription price.[1]  \n  - **Annual billing by default:** The published \u201cper month\u201d numbers assume annual billing; total annual cost is roughly 12\u00d7 the displayed monthly amount.[1]  \n  - **No extra \u2018core feature\u2019 add-ons:** Bloomerang emphasizes that core tools (fundraising, CRM, volunteer management, onboarding/training) are included in the quoted package, rather than charged as surprise add-ons later.[1]\n\nBecause pricing is tiered by the size of your database and by which products you select, the **\u201creal\u201d cost for your organization** could range from a few hundred dollars per year (small database, one product) to several thousand per year (larger database, multiple products). To know your exact cost, you must:\n\n1. Estimate or look up your **current number of constituent records**.  \n2. Decide which **products** (Fundraising, CRM, Volunteer) you need.  \n3. Use Bloomerang\u2019s **pricing page quote flow** or contact sales for a tailored proposal, since detailed tier-by-tier pricing is not fully listed publicly.[1][7]",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 527,
+  "estimated_cost_usd": 0.012929,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://bloomerang.com/pricing",
+      "https://www.fast-growing-trees.com/products/bloomerang-lilac-shrub",
+      "https://www.homedepot.com/p/PROVEN-WINNERS-1-Gal-Bloomerang-Dark-Purple-Reblooming-Lilac-Syringa-Live-Shrub-Purple-Flowers-SYRPRC1026101/205503434",
+      "https://reflourished.fandom.com/wiki/Bloomerang",
+      "https://provenwinnersdirect.com/products/bloomerang-dark-purple-reblooming-lilac",
+      "https://www.mckaynursery.com/bloomerang-purple",
+      "https://bloomerang.com/tac",
+      "https://warburgpincus.com/investments/bloomerang/"
+    ]
+  }
+}

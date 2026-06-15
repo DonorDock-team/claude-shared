@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P145",
+  "prompt_text": "Best donor CRM for capital campaigns",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291346+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Capital Campaigns\n\nThe ideal CRM for capital campaigns needs robust major gift tracking, pledge management, and campaign reporting. Here are the top options:\n\n## **Top Tier Solutions**\n\n### **1. Blackbaud Raiser's Edge NXT**\n- **Best for:** Large nonprofits and institutions\n- **Strengths:** Comprehensive capital campaign tools, multi-year pledge tracking, campaign hierarchies, wealth screening\n- **Consideration:** Higher cost, steeper learning curve\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Organizations wanting customization\n- **Strengths:** Highly configurable, excellent reporting, integrates with everything, scales well\n- **Consideration:** Requires setup expertise, can be complex\n\n## **Mid-Market Strong Performers**\n\n### **3. Bloomerang**\n- **Best for:** Small to mid-sized organizations\n- **Strengths:** User-friendly, good pledge management, strong engagement tracking, affordable\n- **Consideration:** Less robust for very complex campaigns\n\n### **4. NeonCRM**\n- **Best for:** Growing nonprofits\n- **Strengths:** Campaign tracking, pledge management, membership integration, reasonable pricing\n- **Consideration:** Reporting could be more flexible\n\n### **5. DonorPerfect**\n- **Best for:** Established nonprofits\n- **Strengths:** Solid pledge management, campaign segmentation, mature platform\n- **Consideration:** Interface feels dated to some users\n\n## **Key Features to Prioritize**\n\n- Multi-year pledge tracking and payment schedules\n- Campaign hierarchy (ability to track sub-campaigns)\n- Major donor relationship management\n- Robust reporting and dashboards\n- Proposal/solicitation tracking\n- Integration with wealth screening tools\n\n**My recommendation:** If budget allows, **Salesforce** or **Raiser's Edge NXT** for campaigns over $5M. For smaller campaigns, **Bloomerang** offers the best value-to-functionality ratio.\n\nWhat's your campaign size and current systems?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 464,
+  "estimated_cost_usd": 0.007002,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

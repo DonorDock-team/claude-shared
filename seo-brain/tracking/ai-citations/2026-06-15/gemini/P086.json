@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P086",
+  "prompt_text": "Best donor CRM for homeless services",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291034+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for homeless services involves looking beyond generic non-profit features to specific needs inherent in this type of work.\n\n**Key Considerations for Homeless Services Organizations (HSOs):**\n\nBefore diving into specific CRMs, let's highlight what makes an HSO's CRM needs unique:\n\n1.  **Client vs. Donor Data Separation (CRITICAL!):** Your CRM is for *donors*, not clients receiving services. Client data (case management, health, personal history) should be handled in a separate, secure system (often called HMIS - Homeless Management Information System, or a dedicated case management platform) due to privacy regulations (HIPAA, etc.) and different data models. While you might want to know if a *donor* has a connection to the services (e.g., a former client who is now giving back), their *client* data should never be in the donor CRM.\n2.  **In-Kind Donations:** HSOs often receive a high volume of physical goods (clothing, food, toiletries, shelter supplies). The CRM needs to efficiently track these, assign values, and generate acknowledgments.\n3.  **Volunteer Management:** Volunteers are the lifeblood of many HSOs. An integrated or tightly connected volunteer management module is crucial for tracking hours, shifts, skills, and communication.\n4.  **Grant Management:** Grants are a significant funding source. The CRM should help track grant applications, deadlines, reporting requirements, and fund disbursements.\n5.  **Impact Reporting",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 315,
+  "estimated_cost_usd": 0.000789,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

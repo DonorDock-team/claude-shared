@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P068",
+  "prompt_text": "How to consolidate fundraising tools",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290974+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Consolidate Fundraising Tools\n\nConsolidating your fundraising tools can streamline operations, reduce costs, and improve donor relationships. Here's a step-by-step approach:\n\n## 1. **Audit Your Current Tools**\n- List all platforms you're using (CRM, email, payment processing, event management, etc.)\n- Document costs, users, and primary functions\n- Identify overlapping features and gaps\n- Note integration issues or pain points\n\n## 2. **Define Your Requirements**\n- Essential features you can't lose\n- Nice-to-have capabilities\n- Team size and technical skill level\n- Budget constraints\n- Integration needs with accounting, website, etc.\n\n## 3. **Research All-in-One Solutions**\nConsider platforms that combine multiple functions:\n- **Donor management CRMs** (Salesforce, Bloomerang, DonorPerfect)\n- **Comprehensive fundraising platforms** (Classy, Givebutter, Funraise)\n- **Database + engagement tools** (NeonCRM, Little Green Light)\n\n## 4. **Plan Your Migration**\n- **Data cleanup** - Before moving, deduplicate and standardize data\n- **Migration timeline** - Phase the transition to minimize disruption\n- **Staff training** - Budget time for learning new systems\n- **Backup everything** - Maintain copies of all historical data\n\n## 5. **Test Before Full Implementation**\n- Run parallel systems initially\n- Test critical workflows (donation processing, receipting, reporting)\n- Get feedback from all team members\n\n## 6. **Common Consolidation Wins**\n- Payment processing + CRM + email marketing \u2192 One platform\n- Multiple databases \u2192 Single source of truth\n- Separate event/peer-to-peer tools \u2192 Integrated campaigns\n\n**Key tip:** Don't consolidate just to consolidate\u2014ensure the unified solution actually meets your needs better than separate tools.\n\nWhat specific tools are you currently using?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 440,
+  "estimated_cost_usd": 0.006642,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

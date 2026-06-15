@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P040",
+  "prompt_text": "Donor software with QuickBooks integration",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.291624+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Several donor management platforms offer **QuickBooks integration**, including **DonorSnap**, **Donorbox**, **DonorPerfect**, **CharityEngine**, **Bloomerang**, **DonorDock** (via Zapier), and **OnlineGiving.org**.[1][2][3][6][7][8][9]\n\nIf you want the most direct options, the main differences are:\n\n| Software | QuickBooks support | Notes |\n|---|---|---|\n| **DonorSnap** | QuickBooks Online and Desktop | Automatic transaction sync to the general ledger at no extra cost; can also link donor records to QuickBooks customers.[1] |\n| **Donorbox** | QuickBooks Online | Native integration that syncs donations, ticket sales, and transactions; listed as a $50/month add-on.[2] |\n| **DonorPerfect** | QuickBooks Online | Syncs gifts and expenses, supports posting to the general ledger, mapping to customers, classes, and bank accounts.[3][5] |\n| **CharityEngine** | QuickBooks Online and Enterprise | Offers detailed sync or batch sync; Enterprise users can export via IIF.[6] |\n| **Bloomerang** | QuickBooks Online and Desktop | Syncs donor transactions and supports mapping to accounts and fields.[7] |\n| **DonorDock** | QuickBooks Online | Integration is through Zapier, not native.[8] |\n| **OnlineGiving.org** | QuickBooks Online and Desktop | Supports batch deposits, account/class mapping, and OAuth authentication.[9] |\n\nIf you are choosing software based mainly on accounting workflow:\n- Choose **DonorSnap** or **Bloomerang** if you want **Online + Desktop** support.[1][7]\n- Choose **Donorbox** if you only need **QuickBooks Online** and want a native donation sync.[2]\n- Choose **DonorPerfect** or **CharityEngine** if you want more advanced nonprofit accounting mapping and reporting options.[3][6]\n- Choose **DonorDock** if you are comfortable using **Zapier** for the connection.[8]\n\nIf you want, I can also narrow this to:\n- the **cheapest** option,\n- the **best for small nonprofits**,\n- or the **best QuickBooks Online-only** choice.",
+  "donordock_mentioned": true,
+  "donordock_position": 163,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 474,
+  "estimated_cost_usd": 0.012134,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://donorsnap.com/quickbooks-integration/",
+      "https://donorbox.org/explore/quickbooks-integration",
+      "https://www.donorperfect.com/factsheets/quickbooks-online/",
+      "https://www.donorperfect.com/video/donorperfect-integration-quickbooks-accounting-software/",
+      "https://www.donorperfect.com/video/donorperfect-and-quickbooks/",
+      "https://blog.charityengine.net/quickbooks-integration",
+      "https://bloomerang.com/integrations/quickbooks",
+      "https://www.donordock.com/articles/donordock-and-quickbooks-a-nonprofit-software-dream-team",
+      "https://www.onlinegiving.org/support/quickbooks-integration"
+    ]
+  }
+}

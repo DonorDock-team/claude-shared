@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P093",
+  "prompt_text": "Cheapest nonprofit CRM with online giving",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291563+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Finding the *cheapest* nonprofit CRM that still offers robust online giving can be a balancing act. \"Cheapest\" can mean truly free, freemium (free with paid upgrades), or very low-cost monthly plans.\n\nHere are the top contenders, categorized to help you choose:\n\n---\n\n### **Truly Free / \"Freemium\" Options (Often relying on tips or transaction fees)**\n\nThese are often the *absolute cheapest* to get started, though they may rely on donors covering fees or have premium features behind a paywall.\n\n1.  **Givebutter**\n    *   **Why it's cheap:** Free platform for fundraising, CRM, and events. They make money by asking donors for a tip during checkout (which you can turn off) or through standard payment processing fees.\n    *   **Online Giving:** Excellent. Highly customizable donation forms, recurring giving, peer-to-peer, crowdfunding, text-to-give, event ticketing, auctions. Built-in payment processing.\n    *   **CRM:** Basic but functional. Tracks donor data, campaign performance, communications. Good for small to medium organizations.\n    *   **Pros:** Incredibly feature-rich for being free. User-friendly interface. Comprehensive online giving tools.\n    *   **Cons:** CRM features are less robust than dedicated paid CRMs. Relies on donor tips for sustainability.\n    *   **Best For:** Nonprofits of any size looking for the absolute lowest cost, especially those focused heavily on online fundraising and events.\n\n2.  **Donorbox**\n    *   **Why it's cheap:** Free for the Starter plan (up to $1,000 processed monthly, then 1.75% platform fee + standard payment processing). Their \"Donorbox CRM\" is a paid add-on, but the core donation forms come with basic donor management.\n    *   **Online Giving:** One of the best standalone online giving platforms. Customizable donation forms, recurring giving, text-to-give, peer-to-peer, crowdfunding, company matching.\n    *   **CRM:** The free tier includes basic donor profiles and transaction history. The \"Donorbox CRM\" add-on (starting around $59/month) provides more advanced features like donor segmentation, communication tools, and reporting.\n    *   **Pros:** Very easy to set up donation forms. Highly reliable. Great integrations with other CRMs (like Salesforce NPSP).\n    *   **Cons:** The full CRM features are a paid add-on. If you need a comprehensive CRM from day one, it might not be the most integrated solution on its own.\n    *   **Best For:** Organizations primarily needing robust online donation forms and basic donor tracking, with the option to upgrade to a more full-featured CRM later or integrate with another system.\n\n---\n\n### **Very Affordable (Low Monthly Cost Options)**\n\nThese solutions have a clear monthly fee but often start at a very accessible price point, offering a more complete CRM experience.\n\n3.  **Little Green Light (LGL)**\n    *   **Why it's cheap:** Extremely competitive pricing, starting as low as **$39/month** for up to 2,500 constituents, and scaling very affordably.\n    *   **Online Giving:** Yes, offers robust online giving forms (",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter",
+    "LGL",
+    "Little Green Light",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 701,
+  "estimated_cost_usd": 0.001755,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

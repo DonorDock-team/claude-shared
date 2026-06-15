@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P116",
+  "prompt_text": "Best AI tool for nonprofit donor outreach",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290408+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "There isn't a single \"best\" AI tool for nonprofit donor outreach, as the ideal solution depends heavily on your organization's size, budget, existing tech stack, and specific outreach goals.\n\nHowever, I can recommend the top categories of AI tools and specific examples that excel in different aspects of nonprofit donor outreach.\n\n---\n\n### Top Categories of AI Tools for Nonprofit Donor Outreach:\n\n1.  **Generative AI Writing Assistants (LLMs)**\n    *   **Purpose:** Drafting personalized messages, social media content, grant proposals, thank-you notes, appeal letters, subject lines, and even donor persona development.\n    *   **How it helps:** Saves immense time, helps overcome writer's block, generates variations for A/B testing, and ensures consistent messaging.\n    *   **Examples:**\n        *   **ChatGPT (OpenAI):** Excellent for general-purpose text generation, brainstorming, summarizing, and drafting personalized communications. Very versatile.\n        *   **Claude (Anthropic):** Known for its longer context window and ability to handle more complex, detailed documents (like grant proposals or lengthy reports). Often has a more \"human-like\" tone.\n        *   **Gemini (Google):** Google's offering, integrated with Google Workspace, can be powerful for those already in that ecosystem.\n        *   **Jasper.ai / Copy.ai:** More marketing-focused AI writers with specific templates for different types of outreach (e.g., email sequences, social media ads). Can be useful for more structured campaigns.\n\n2.  **AI-Powered CRM & Donor Management Systems**\n    *   **Purpose:** Segmenting donors, predicting giving behavior, identifying prospective donors, personalizing communication at scale, and automating donor journeys.\n    *   **How it helps:** Provides deeper insights into donor data, optimizes timing for appeals, and ensures donors receive relevant communications.\n    *   **Examples:**\n        *   **Salesforce Nonprofit Cloud (with Einstein AI):** A powerful, comprehensive solution for larger nonprofits. Einstein AI provides predictive analytics (e.g., likelihood to give, next best action), identifies patterns in donor behavior, and helps with hyper-personalization.\n        *   **Blackbaud (Raiser's Edge NXT, CRM with AI features):** A long-standing leader in the nonprofit space. Their solutions increasingly integrate AI for prospect research, segmentation, and personalized outreach recommendations.\n        *   **HubSpot for Nonprofits:** While more geared towards general marketing and sales, HubSpot's CRM has robust automation and reporting features that, combined with AI tools, can be very effective for inbound donor outreach and nurturing.\n        *   **Bloomerang / DonorPerfect (with some AI integrations):** These are popular for small to mid-sized nonprofits. While their *native* AI might be less developed than Salesforce or Blackbaud, they often integrate with other tools or use AI for features like wealth screening or donor retention predictions.\n\n3.  **Prospect Research & Wealth Screening Tools (AI-Enhanced)**\n    *   **Purpose:** Identifying potential major donors, understanding their philanthropic interests, and assessing their capacity to give.\n    *   **How it",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 662,
+  "estimated_cost_usd": 0.001657,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

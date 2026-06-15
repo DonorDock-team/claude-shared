@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P081",
+  "prompt_text": "Best donor CRM for community colleges",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290483+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For community colleges, selecting the \"best\" donor CRM involves balancing robust functionality with budget constraints, ease of use for smaller teams, and crucial integration needs, especially with student information systems (SIS).\n\nHere are the top donor CRM recommendations for community colleges, along with their strengths and considerations:\n\n## Top Recommendations for Community Colleges\n\n### 1. Salesforce with NPSP (Nonprofit Success Pack)\n\n*   **Why it's Great for Community Colleges:**\n    *   **Scalability & Customization:** Unmatched in its ability to grow with your institution and be customized to specific fundraising initiatives (scholarships, program support, capital campaigns).\n    *   **Integration Powerhouse:** As a platform, Salesforce integrates with virtually anything, including most SIS (e.g., Colleague, Banner \u2013 though custom integration work may be needed), accounting software, marketing automation, and event platforms.\n    *   **Free/Discounted Licenses:** Salesforce offers 10 free licenses to qualifying nonprofits, significantly reducing initial software costs.\n    *   **Vast Ecosystem:** A huge community of users, consultants, and app exchange partners means plenty of support and specialized solutions.\n*   **Considerations:**\n    *   **Steep Learning Curve:** Salesforce is incredibly powerful, but it requires significant training and often a dedicated administrator or consultant to set up and maintain effectively.\n    *   **Implementation Costs:** While licenses can be free, the initial setup, customization, and data migration often require a substantial investment in consulting services.\n    *   **Ongoing Administration:** Requires someone with technical aptitude to manage and optimize.\n*   **Best For:** Community colleges with a dedicated IT or advancement services team, a growing fundraising program, complex integration needs, and a willingness to invest in implementation to gain a highly flexible and powerful long-term solution.\n\n### 2. Bloomerang\n\n*   **Why it's Great for Community Colleges:**\n    *   **User-Friendly & Intuitive:** Known for its clean interface and ease of use, making it ideal for smaller teams or those without extensive technical expertise.\n    *   **Strong Focus on Donor Retention:** Built-in features like donor engagement meters, wealth screening integrations, and communication tools help community colleges cultivate relationships and encourage repeat giving.\n    *   **Excellent Reporting & Analytics:** Provides clear insights into donor",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 482,
+  "estimated_cost_usd": 0.001207,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

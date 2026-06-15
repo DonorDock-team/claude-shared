@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P035",
+  "prompt_text": "Best all-in-one fundraising platform for nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291187+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best All-in-One Fundraising Platforms for Nonprofits\n\n## Top Recommendations\n\n### **1. Bloomerang**\n- **Best for:** Small to mid-sized nonprofits\n- **Key features:** Donor management, online giving, email marketing, reporting\n- **Pricing:** Starting at ~$125/month\n- **Standout:** Excellent donor retention tools and user-friendly interface\n\n### **2. Classy**\n- **Best for:** Growing nonprofits with modern campaigns\n- **Key features:** Peer-to-peer, events, crowdfunding, recurring giving\n- **Pricing:** Custom (typically $$$)\n- **Standout:** Beautiful, mobile-optimized donation pages\n\n### **3. Givebutter**\n- **Best for:** Budget-conscious organizations\n- **Key features:** Free platform with optional tip model, events, auctions, peer-to-peer\n- **Pricing:** Free (donors can tip) or subscription plans\n- **Standout:** No platform fees on the free plan\n\n### **4. Fundraise Up**\n- **Best for:** Data-driven organizations\n- **Key features:** AI-powered donation optimization, recurring giving, analytics\n- **Pricing:** Custom pricing\n- **Standout:** Smart donation forms that increase conversion\n\n### **5. Donorbox**\n- **Best for:** Quick setup and simplicity\n- **Key features:** Recurring donations, crowdfunding, membership, events\n- **Pricing:** 1.5% platform fee or $139/month flat rate\n- **Standout:** Easy to embed, fast implementation\n\n## What to Consider\n- **Budget** - platform fees vs. monthly subscriptions\n- **Organization size** - scalability needs\n- **Technical capacity** - ease of use vs. customization\n- **Integration needs** - CRM, email, accounting software\n\nWhat's your organization's size and primary fundraising needs?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 20,
+  "output_tokens": 435,
+  "estimated_cost_usd": 0.006585,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

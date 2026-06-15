@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P129",
+  "prompt_text": "Bloomerang limitations",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.291548+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang\u2019s main **limitations** in the sources provided are that some features are plan- or package-dependent, and a few donation-form options are mutually exclusive or unsupported in specific contexts.[1][2]\n\nCommonly documented limitations include:\n\n- **Pricing scales by records/contacts**, so costs rise as your database grows, even though unlimited users are included.[1]\n- **Multi-Restriction Giving is not compatible with Smart Amounts**; you must use one or the other on a donation form.[2]\n- **Kiosks do not support donor-written sub-restrictions**.[2]\n- **Multi-Restriction Giving amounts and sub-restrictions are collapsed by default** until a donor selects a restriction, unless you change the display setting.[2]\n- **Some display options depend on your Bloomerang Fundraising package**, so not every account will see the same form-setting choices.[2]\n- A user-reported limitation is that **setting an online form to default to a recurring gift was not possible at the time of that review**.[4]\n\nIf you want, I can also give you a more practical breakdown of Bloomerang\u2019s limitations by category, such as **CRM**, **donation forms**, **reporting**, **integrations**, or **pricing**.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 263,
+  "estimated_cost_usd": 0.008963,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://bloomerang.com/pricing",
+      "https://help.bloomerang.com/en/articles/13382454-donation-forms-form-settings-restrictions",
+      "https://www.facebook.com/groups/852691834840610/posts/10069208786522156/",
+      "https://www.nonprofitfixer.com/nonprofit-fixer-blog/bloomerang-for-small-nonprofits",
+      "https://bloomerang.com/blog/nonprofit-donor-retention-problems-and-solutions",
+      "https://4agoodcause.com/blackbaud-vs-bloomerang/",
+      "https://help.bloomerang.com/en/collections/15296352-bloomerang-crm",
+      "https://www.capterra.com/p/131207/Bloomerang/"
+    ]
+  }
+}

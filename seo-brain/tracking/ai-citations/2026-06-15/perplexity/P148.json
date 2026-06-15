@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P148",
+  "prompt_text": "Donor management vs CRM what's the difference",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.291635+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The core difference is **scope and specialization**: *donor management software* is a fundraising\u2011focused, nonprofit\u2011specific type of CRM, while a *CRM* is a broader relationship management platform that can cover donors plus many other audiences and functions.[1][3][9]\n\nHere\u2019s how they compare in practice:\n\n| Aspect | Donor Management Software | CRM (Customer/Constituent Relationship Management) |\n|---|---|---|\n| Primary purpose | **Manage donors and fundraising**: gifts, pledges, acknowledgments, fundraising campaigns | **Manage all relationships**: donors, members, clients, volunteers, partners across many activities |\n| Typical users | Development/fundraising teams at nonprofits | Sales, marketing, service teams in businesses; multiple departments in larger nonprofits |\n| Core data focus | Donation history, pledge tracking, in\u2011kind gifts, event giving, tribute gifts, soft credits, grant records[1][2][3] | Leads, sales opportunities, customer service interactions, membership, program participation, advocacy, events[1][3] |\n| Key features | Online donation processing, receipting, tax acknowledgments, campaign & appeal tracking, donor segmentation, fundraising reports[1][2][3][9] | Contact management, pipeline/sales tracking, marketing automation, customer service, general communications and analytics[1][2][3] |\n| Audience breadth | Mainly **donors and prospects** (sometimes volunteers/advocates) | All **constituents/supporters**: donors, volunteers, clients, members, partners, etc., in one database[3][6] |\n| Reporting emphasis | Donor retention, gift totals, LYBUNT/SYBUNT, campaign ROI, major gifts pipeline[1][3] | Sales conversion, marketing performance, customer lifetime value, or\u2014in nonprofit CRMs\u2014overall engagement across programs[1][3][6] |\n| Customization | Pre\u2011built around nonprofit fundraising workflows; less configuration needed for gifts and campaigns[1][2][3] | Highly configurable for many use cases; fundraising features may need add\u2011ons or customization[1][2][3] |\n| Cost patterns | Often cheaper and simpler, aimed at nonprofit budgets[1][2] | Often more expensive, especially enterprise systems, reflecting wider functionality and for\u2011profit ROI expectations[1][2] |\n\n### How to think about the difference\n\n- A **donor management system (DMS)** is essentially a **donation\u2011specific CRM** built for nonprofits.[1][3][9]  \n  It is optimized for:\n  - Tracking gifts, pledges, and donation types (cash, in\u2011kind, tribute gifts, volunteer time, soft credits).[1][2][3]  \n  - Sending acknowledgments and **tax receipts**.[3]  \n  - Running **fundraising campaigns** and appeals, event giving, and grant management.[1][2][3]  \n  - Reporting on donor\u2011centric metrics like retention, average gift, and campaign performance.[1][3]\n\n- A **CRM**, in general, is a **broad relationship database** that tracks every interaction with each contact and supports multiple functions\u2014marketing, sales, service, programs, advocacy, and fundraising.[1][3][6]  \n  In nonprofit contexts, a CRM often serves as the **central database for all supporters, not just donors**.[3]\n\n### When you\u2019d pick one vs the other\n\n- You\u2019d lean toward **donor management software** if:\n  - Your primary need is **fundraising** (individual giving, events, appeals, grants).\n  - You want strong out\u2011of\u2011the\u2011box tools for **gift processing, donor acknowledgments, and fundraising reports**.[1][3]\n  - You have limited IT capacity and prefer nonprofit\u2011specific workflows with minimal configuration.[2][3]\n\n- You\u2019d lean toward a **nonprofit CRM** if:\n  - You need **one system** for donors, volunteers, members, program participants, and advocates.[3][6]\n  - You run complex operations (program delivery, membership, advocacy, services) in addition to fundraising.\n  - You want more flexible **automation and analytics** across all supporter touchpoints (not just donations).[1][3]\n\n### Overlap and hybrids\n\n- Functionally, donor management and CRM both **store contact data, track interactions, and support relationship\u2011building**.[1][2][3]  \n- Many modern platforms **combine both**, offering donor management as a module inside a larger nonprofit CRM or association management system.[3][5][6]  \n- Some vendors even use \u201cCRM\u201d and \u201cdonor management\u201d interchangeably for nonprofit tools, but under the hood the key questions are:\n  - Does it handle **all supporters** or mainly donors?\n  - Are features centered on **fundraising workflows** or on **broader engagement**?\n\nIf you tell me your org size, what you track besides donations (volunteers, programs, membership, etc.), and your budget range, I can map this to which type of system\u2014and which features\u2014will fit you best.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 10,
+  "output_tokens": 1044,
+  "estimated_cost_usd": 0.02069,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://blog.techsoup.org/en-us/posts/donor-management-system-vs.-constituent-relationship-manager",
+      "https://www.business-software.com/blog/tradtitional-crm-vs-donor-management-software-differences-matter/",
+      "https://momentivesoftware.com/faq/whats-the-difference-between-donor-management-software-and-a-crm/",
+      "https://jetpackcrm.com/managing-donor-relationships-a-crm-guide-for-nonprofit-organizations/",
+      "https://givebutter.com/donor-management-crm",
+      "https://doublethedonation.com/nonprofit-crm-buyers-guide/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://www.funraise.org/blog/what-is-donor-management-software-why-a-nonprofit-needs-it"
+    ]
+  }
+}

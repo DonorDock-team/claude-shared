@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P073",
+  "prompt_text": "How to track donor pledges",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291338+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# How to Track Donor Pledges\n\n## 1. **Choose Your Tracking System**\n\n### Spreadsheet (Simple)\n- **Google Sheets or Excel** - Best for small organizations\n- Create columns for:\n  - Donor name and contact info\n  - Pledge amount\n  - Pledge date\n  - Payment schedule\n  - Amount received\n  - Balance due\n  - Payment method\n  - Campaign/designation\n\n### Donor Management Software (Recommended)\n- **Bloomerang**\n- **DonorPerfect**\n- **Little Green Light**\n- **Salesforce Nonprofit Cloud**\n- **NeonCRM**\n\nThese typically include:\n- Automated reminders\n- Receipt generation\n- Reporting tools\n- Integration with accounting software\n\n## 2. **Essential Information to Record**\n\n- Donor's full name and contact details\n- Pledge amount (total)\n- Pledge date\n- Payment schedule (one-time, monthly, quarterly, annual)\n- Start and end dates\n- Purpose/restriction of gift\n- Payment method preference\n- Acknowledgment sent (date)\n\n## 3. **Best Practices**\n\n### Documentation\n- Get pledges in writing when possible\n- Send confirmation letters immediately\n- Keep all correspondence\n\n### Follow-up System\n- Send reminders 30 days before due date\n- Thank donors promptly for each payment\n- Update records immediately upon receiving payments\n\n### Reconciliation\n- Review pledge status monthly\n- Match payments to pledges regularly\n- Flag overdue pledges for follow-up\n\n## 4. **Reporting**\n\nTrack these metrics:\n- Total pledges outstanding\n- Pledge fulfillment rate\n- Aging report (30, 60, 90+ days overdue)\n- Expected vs. actual revenue\n\n**Would you like specific recommendations based on your organization's size or budget?**",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 422,
+  "estimated_cost_usd": 0.006369,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}
