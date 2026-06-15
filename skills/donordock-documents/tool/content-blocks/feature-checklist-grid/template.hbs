@@ -1,0 +1,88 @@
+{{!--
+  feature-checklist-grid — compact icon+label grid for one-pagers. Each cell
+  is a feature/capability with a small colored dot and a label. Use to
+  preview platform breadth on a single page where the proposal's 4-quadrant
+  layout is too tall.
+
+  Required slots: items
+  Optional slots: columns (3-5, default 4), title, accent_default
+--}}
+<div class="fcg">
+  {{#if title}}
+  <div class="fcg-title">{{title}}</div>
+  {{/if}}
+
+  <div class="fcg-grid fcg-grid--{{#if columns}}{{columns}}{{else}}4{{/if}}">
+    {{#each items}}
+    <div class="fcg-cell">
+      <span class="fcg-dot fcg-dot--{{#if this.accent}}{{this.accent}}{{else}}purple{{/if}}"></span>
+      <span class="fcg-label">{{this.label}}</span>
+    </div>
+    {{/each}}
+  </div>
+</div>
+
+<style>
+  .fcg-title {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text-primary);
+    margin-bottom: var(--space-sm);
+  }
+  .fcg-grid {
+    display: grid;
+    gap: var(--space-sm);
+  }
+  .fcg-grid--3 { grid-template-columns: repeat(3, 1fr); }
+  .fcg-grid--4 { grid-template-columns: repeat(4, 1fr); }
+  .fcg-grid--5 { grid-template-columns: repeat(5, 1fr); }
+  .fcg-cell {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-md);
+    min-height: 64px;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    background: var(--bg-white);
+    box-shadow: var(--shadow-sm);
+  }
+  .fcg-dot {
+    width: 28px;
+    height: 28px;
+    border-radius: var(--radius-sm);
+    flex: 0 0 auto;
+    position: relative;
+  }
+  .fcg-dot::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: currentColor;
+    opacity: 0.18;
+  }
+  .fcg-dot::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: currentColor;
+    transform: translate(-50%, -50%);
+  }
+  .fcg-dot--purple { color: var(--brand-purple); }
+  .fcg-dot--blue   { color: var(--brand-blue);   }
+  .fcg-dot--green  { color: var(--green);        }
+  .fcg-dot--orange { color: var(--orange);       }
+  .fcg-dot--yellow { color: var(--yellow);       }
+  .fcg-dot--coral  { color: var(--brand-coral);  }
+  .fcg-label {
+    font-size: var(--type-small-size);
+    color: var(--text-primary);
+    font-weight: 600;
+    line-height: 1.3;
+  }
+</style>

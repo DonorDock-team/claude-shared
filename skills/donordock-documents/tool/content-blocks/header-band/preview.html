@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>header-band — preview</title>
+  <link rel="stylesheet" href="../../tokens.css" />
+  <link rel="stylesheet" href="../../base.css" />
+  <style>
+    /* Screen viewing chrome — not present in PDF output */
+    body { background: #E5E7EB; padding: 2rem; }
+    .preview-frame {
+      max-width: 8.5in;
+      margin: 0 auto;
+      box-shadow: var(--shadow-lg);
+      background: var(--bg-white);
+    }
+    .preview-label {
+      max-width: 8.5in;
+      margin: 0 auto 1rem;
+      font-family: var(--font-primary);
+      font-size: 0.75rem;
+      color: #6B7280;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-label">Content block · header-band · rendered with sample-data.json</div>
+  <div class="preview-frame">
+    <div class="header-band">
+  <img
+    src="../../assets/logo/donordock-logo-dark.svg"
+    alt="DonorDock"
+    class="header-band-logo"
+  />
+  <div class="header-band-label ">
+    The Well Summit
+  </div>
+</div>
+
+<style>
+  .header-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .header-band-logo {
+    height: 26px;
+    width: auto;
+  }
+  .header-band-label {
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+  .header-band-label--light {
+    color: var(--text-on-dark);
+  }
+</style>
+
+  </div>
+</body>
+</html>

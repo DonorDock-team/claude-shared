@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "donordock-documents/content-blocks/header-band/slots.schema.json",
+  "title": "header-band slot schema",
+  "type": "object",
+  "required": ["prepared_for"],
+  "additionalProperties": false,
+  "properties": {
+    "prepared_for": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 40,
+      "description": "Customer name. Will be rendered in uppercase."
+    },
+    "variant": {
+      "type": "string",
+      "enum": ["dark", "light"],
+      "description": "Use 'light' only inside a dark-themed page."
+    }
+  }
+}

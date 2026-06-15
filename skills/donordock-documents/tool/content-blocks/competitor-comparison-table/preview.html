@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>competitor-comparison-table — preview</title>
+  <link rel="stylesheet" href="../../tokens.css" />
+  <link rel="stylesheet" href="../../base.css" />
+  <style>
+    /* Screen viewing chrome — not present in PDF output */
+    body { background: #E5E7EB; padding: 2rem; }
+    .preview-frame {
+      max-width: 8.5in;
+      margin: 0 auto;
+      box-shadow: var(--shadow-lg);
+      background: var(--bg-white);
+    }
+    .preview-label {
+      max-width: 8.5in;
+      margin: 0 auto 1rem;
+      font-family: var(--font-primary);
+      font-size: 0.75rem;
+      color: #6B7280;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-label">Content block · competitor-comparison-table · rendered with sample-data.json</div>
+  <div class="preview-frame">
+    <div class="cct">
+  <div class="cct-caption">How we compare</div>
+
+  <div class="cct-table">
+    <div class="cct-row cct-row--header">
+      <div class="cct-cell cct-cell--dim"></div>
+      <div class="cct-cell cct-cell--header cct-cell--donordock">DonorDock</div>
+      <div class="cct-cell cct-cell--header">Bloomerang</div>
+      <div class="cct-cell cct-cell--header">DonorPerfect</div>
+    </div>
+
+    <div class="cct-row">
+      <div class="cct-cell cct-cell--dim">Pricing</div>
+      <div class="cct-cell cct-cell--value cct-cell--donordock">$6,000 flat, unlimited contacts</div>
+      <div class="cct-cell cct-cell--value">Scales with contact volume</div>
+      <div class="cct-cell cct-cell--value">Tiered by number of records</div>
+    </div>
+    <div class="cct-row">
+      <div class="cct-cell cct-cell--dim">Migration</div>
+      <div class="cct-cell cct-cell--value cct-cell--donordock">White-glove, included</div>
+      <div class="cct-cell cct-cell--value">DIY or paid add-on</div>
+      <div class="cct-cell cct-cell--value">Add-on cost</div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .cct {
+    padding: var(--space-md);
+    background: var(--bg-cream);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+  }
+  .cct-caption {
+    font-size: var(--type-overline-size);
+    font-weight: 700;
+    letter-spacing: var(--type-overline-tracking);
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: var(--space-sm);
+  }
+  .cct-table {
+    display: flex;
+    flex-direction: column;
+  }
+  .cct-row {
+    display: flex;
+    align-items: stretch;
+    border-bottom: 1px solid var(--border-light);
+  }
+  .cct-row:last-child { border-bottom: none; }
+  .cct-cell {
+    flex: 1;
+    padding: var(--space-sm);
+    font-size: var(--type-small-size);
+    line-height: 1.4;
+    color: var(--text-secondary);
+  }
+  .cct-cell--dim {
+    flex: 0 0 130px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: var(--type-overline-tracking);
+    font-size: var(--type-overline-size);
+    color: var(--text-tertiary);
+    display: flex;
+    align-items: center;
+  }
+  .cct-cell--header {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: var(--type-overline-tracking);
+    font-size: var(--type-overline-size);
+    color: var(--text-primary);
+  }
+  .cct-cell--donordock {
+    color: var(--brand-purple);
+    font-weight: 700;
+  }
+</style>
+
+  </div>
+</body>
+</html>

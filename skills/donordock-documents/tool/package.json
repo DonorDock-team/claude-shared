@@ -1,0 +1,28 @@
+{
+  "name": "donordock-documents-tool",
+  "version": "0.1.0",
+  "description": "Rendering pipeline for DonorDock document templates. Compiles content blocks into PDFs via Handlebars + Puppeteer.",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "dd-build": "./build.js",
+    "dd-audit": "./audit.js",
+    "dd-preview": "./preview.js"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "audit": "node audit.js",
+    "preview": "node preview.js",
+    "test": "node tests/diff.js"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "handlebars": "^4.7.9",
+    "pixelmatch": "^6.0.0",
+    "pngjs": "^7.0.0",
+    "puppeteer": "^23.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

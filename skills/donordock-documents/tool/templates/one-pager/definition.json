@@ -1,0 +1,14 @@
+{
+  "name": "one-pager",
+  "version": "0.1.0",
+  "description": "Single-page DonorDock summary. Header band + before/after migration story + capability grid + compact pricing strip + footer band. Designed to fit on one Letter page.",
+  "spine": [
+    {
+      "compose": [
+        { "content_block": "before-after-chips", "optional": true, "default": true },
+        { "content_block": "feature-checklist-grid", "optional": true, "default": true },
+        { "content_block": "pricing-strip-purple", "optional": true, "default": true }
+      ]
+    }
+  ]
+}

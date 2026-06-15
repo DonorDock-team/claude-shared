@@ -1,0 +1,114 @@
+{{!--
+  pricing-strip-purple — horizontal compact pricing block for one-pagers.
+  Left: big price + period + billing note. Right: 2-column include list
+  with checkmarks. Optional offer/guarantee chip on the far right.
+
+  Required slots: price, included
+  Optional slots: chips, footnote
+--}}
+<div class="psp">
+  <div class="psp-left">
+    <div class="psp-amount-row">
+      <span class="psp-amount">{{price.amount}}</span>
+      <span class="psp-period">{{price.period}}</span>
+    </div>
+    {{#if price.billing_note}}
+    <div class="psp-billing">{{price.billing_note}}</div>
+    {{/if}}
+    {{#if chips}}
+    <div class="psp-chips">
+      {{#each chips}}<span class="chip chip-purple-outline">{{this}}</span>{{/each}}
+    </div>
+    {{/if}}
+  </div>
+
+  <div class="psp-right">
+    <ul class="psp-list">
+      {{#each included}}
+      <li><span class="psp-check">✓</span><span>{{this}}</span></li>
+      {{/each}}
+    </ul>
+    {{#if footnote}}
+    <div class="psp-footnote">
+      <strong>{{footnote.title}}</strong> {{footnote.body}}
+    </div>
+    {{/if}}
+  </div>
+</div>
+
+<style>
+  .psp {
+    display: grid;
+    grid-template-columns: 1fr 1.6fr;
+    gap: var(--space-md);
+    padding: var(--space-md) var(--space-lg);
+    background: var(--brand-purple);
+    color: var(--text-inverse);
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: var(--shadow-md);
+  }
+  .psp-left {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+  .psp-amount-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.25rem;
+  }
+  .psp-amount {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--text-inverse);
+  }
+  .psp-period {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--text-on-dark);
+  }
+  .psp-billing {
+    color: var(--text-on-dark);
+    font-size: var(--type-small-size);
+  }
+  .psp-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    margin-top: 0.25rem;
+  }
+  .psp-right {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+  .psp-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.4rem var(--space-md);
+  }
+  .psp-list li {
+    display: flex;
+    gap: var(--space-xs);
+    color: var(--text-on-dark);
+    font-size: var(--type-small-size);
+    line-height: 1.4;
+  }
+  .psp-check {
+    color: var(--text-inverse);
+    font-weight: 700;
+    flex: 0 0 auto;
+  }
+  .psp-footnote {
+    margin-top: var(--space-xs);
+    padding: var(--space-xs) var(--space-sm);
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-sm);
+    color: var(--text-on-dark);
+    font-size: var(--type-small-size);
+    line-height: 1.4;
+  }
+  .psp-footnote strong { color: var(--text-inverse); }
+</style>

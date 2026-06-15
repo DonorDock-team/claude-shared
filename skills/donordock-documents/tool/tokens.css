@@ -1,0 +1,202 @@
+/*
+ * DonorDock Document Design Tokens
+ *
+ * These are the ONLY colors, fonts, spacing, and radius values allowed in any
+ * content block. Every block's template.hbs must reference variables from this
+ * file. The brand-auditor will reject any inline color, font, or spacing value
+ * that isn't declared here.
+ *
+ * Sourced from the Webflow Design Standardization Plan (March 2026) so that
+ * outbound documents look like they came from the same brand as donordock.com.
+ */
+
+:root {
+  /* =========================================================================
+   * BRAND COLORS
+   * Used for primary CTAs, headlines, and brand-defining accents.
+   * ======================================================================= */
+  --brand-purple: #8C2CBF;
+  --brand-purple-hover: #7A26A8;
+  --brand-purple-light: #F3E8FF;
+  --brand-purple-deep: #541A73;
+  --brand-violet: #6941C6;
+  --brand-coral: #FA5B68;
+  --brand-deep-blue: #021A7C;
+  --brand-blue: #0F8FED;
+  --brand-blue-hover: #0D81D3;
+
+  /* =========================================================================
+   * TEXT
+   * Hierarchy of text colors. All meet WCAG AA at 16px on a white background.
+   * --text-primary / --text-secondary meet AAA.
+   * ======================================================================= */
+  --text-primary: #303034;     /* Charcoal — body and headings */
+  --text-secondary: #56565D;   /* Supporting descriptions */
+  --text-tertiary: #475467;    /* Meta info, subtle labels */
+  --text-muted: #6B7280;       /* Placeholders, timestamps */
+  --text-inverse: #FFFCF5;     /* Text on dark/colored backgrounds */
+  --text-on-purple: #FFFCF5;   /* Specifically for text on purple bg */
+  --text-on-dark: rgba(255, 255, 255, 0.86);
+
+  /* =========================================================================
+   * BACKGROUNDS
+   * Page and section backgrounds.
+   * ======================================================================= */
+  --bg-white: #FFFFFF;
+  --bg-cream: #FFFCF5;
+  --bg-off-white: #F7F9F9;
+  --bg-lavender: #F5F6FF;
+  --bg-light-purple: #FAF5FF;
+  --bg-lightest-gray: #EEF0F0;
+  --bg-dark: #1C1E21;          /* For "Support doesn't stop at day 90" callouts */
+  --bg-screen-gray: #E5E7EB;   /* Screen-viewing chrome only — surrounds the rendered "page" in previews. Never appears in printed PDF. */
+
+  /* Sectional tint backgrounds — pair with accent text colors below */
+  --bg-blue-tint:   #EFF6FF;
+  --bg-green-tint:  #ECFDF5;   /* alias of --green-light */
+  --bg-yellow-tint: #FFFBEB;   /* alias of --yellow-light */
+  --bg-orange-tint: #FFF7ED;
+  --bg-coral-tint:  #FEF2F2;
+
+  /* Specific tints used by donor-intelligence-quad mini-cards */
+  --bg-mini-external: #FFEDD5;
+  --bg-mini-internal: #FED7AA;
+  --bg-mini-data:     #F3E8FF;
+  --highlight-blue-light: #DBEAFE;
+
+  /* =========================================================================
+   * SEMANTIC COLORS
+   * For pricing badges, callouts, alerts, and feature accents.
+   * ======================================================================= */
+  --green: #4BBE71;
+  --green-hover: #3BA55F;
+  --green-light: #ECFDF5;
+  --green-dark: #166534;       /* darker variant for legible text on green tint */
+  --yellow: #FBBE4B;
+  --yellow-hover: #FBAF23;
+  --yellow-light: #FFFBEB;
+  --yellow-dark: #B45309;      /* darker variant for legible text on yellow tint */
+  --red: #EF4444;
+  --red-light: #FEF2F2;
+  --orange: #DD4E07;            /* Otto-specific */
+  --orange-dark: #C2410C;      /* darker variant for legible text on orange tint */
+
+  /* =========================================================================
+   * SECTIONAL ACCENT COLORS
+   * Used as left-border colors / icon backgrounds to color-code sections.
+   * Pattern observed across the reference PDFs.
+   * ======================================================================= */
+  --accent-blue: var(--brand-blue);
+  --accent-green: var(--green);
+  --accent-yellow: var(--yellow);
+  --accent-orange: var(--orange);
+  --accent-purple: var(--brand-purple);
+  --accent-violet: var(--brand-violet);
+  --accent-coral: var(--brand-coral);
+
+  /* =========================================================================
+   * BORDERS
+   * ======================================================================= */
+  --border-default: #D8D8D8;
+  --border-light: #EEF0F0;
+  --border-purple-light: #E9D5FF;
+
+  /* =========================================================================
+   * SPACING — 8px grid
+   * Used for padding, margin, gap. Never use raw px values in templates.
+   * ======================================================================= */
+  --space-xs: 0.5rem;    /* 8px  — icon gaps, tight spacing */
+  --space-sm: 1rem;      /* 16px — element spacing, inline gaps */
+  --space-md: 1.5rem;    /* 24px — card padding, grid gaps */
+  --space-lg: 2rem;      /* 32px — component internal padding */
+  --space-xl: 3rem;      /* 48px — compact section padding */
+  --space-2xl: 4rem;     /* 64px — standard section padding */
+  --space-3xl: 5rem;     /* 80px — hero section padding */
+  --space-4xl: 6rem;     /* 96px — cover page padding */
+
+  /* =========================================================================
+   * CORNER RADIUS
+   * ======================================================================= */
+  --radius-sm: 0.375rem;  /* 6px  — input fields, tags */
+  --radius-md: 0.75rem;   /* 12px — cards, callouts */
+  --radius-lg: 1rem;      /* 16px — large cards, pricing card */
+  --radius-xl: 1.5rem;    /* 24px — section blocks */
+  --radius-pill: 9999px;  /* Chips, pills, buttons */
+
+  /* =========================================================================
+   * FONTS
+   *
+   * Primary font is Silka (Webflow site standard). For PDF rendering, Silka
+   * requires a separate embedding license — if not licensed, the fallback
+   * chain lands on Inter, which is the closest open-source match.
+   *
+   * Secondary is Quicksand, used for Otto sub-brand sections only.
+   * ======================================================================= */
+  --font-primary: "Silka", "Inter", "Hanken Grotesk", system-ui, -apple-system,
+                  BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-secondary: "Quicksand", "Inter", system-ui, sans-serif;
+  --font-script: "Dancing Script", "Brush Script MT", cursive; /* Otto wordmark only */
+
+  /* =========================================================================
+   * TYPE SCALE — 1.25x (Major Third)
+   * Matches the Webflow standard exactly. Heading weights/leading also match.
+   * ======================================================================= */
+  --type-h1-size: 3.815rem;        /* 61.04px */
+  --type-h1-weight: 400;
+  --type-h1-line: 1.35;            /* loose enough that highlight chips on one line don't touch the chip/text above */
+  --type-h1-tracking: -0.03em;
+
+  --type-h2-size: 3.052rem;        /* 48.83px */
+  --type-h2-weight: 400;
+  --type-h2-line: 1.3;
+  --type-h2-tracking: -0.025em;
+
+  --type-h3-size: 2.441rem;        /* 39.06px */
+  --type-h3-weight: 600;
+  --type-h3-line: 1.2;
+  --type-h3-tracking: -0.02em;
+
+  --type-h4-size: 1.953rem;        /* 31.25px */
+  --type-h4-weight: 600;
+  --type-h4-line: 1.2;
+  --type-h4-tracking: -0.015em;
+
+  --type-h5-size: 1.563rem;        /* 25.00px */
+  --type-h5-weight: 600;
+  --type-h5-line: 1.2;
+
+  --type-h6-size: 1.25rem;         /* 20.00px */
+  --type-h6-weight: 600;
+  --type-h6-line: 1.2;
+
+  --type-body-size: 1rem;          /* 16px */
+  --type-body-weight: 400;
+  --type-body-line: 1.5;
+
+  --type-small-size: 0.875rem;     /* 14px — meta, footer */
+  --type-small-line: 1.5;
+
+  --type-label-size: 0.8125rem;    /* 13px — uppercase eyebrow labels */
+  --type-label-weight: 700;
+  --type-label-tracking: 0.08em;
+
+  --type-overline-size: 0.6875rem; /* 11px — small all-caps */
+  --type-overline-weight: 600;
+  --type-overline-tracking: 0.1em;
+
+  /* =========================================================================
+   * SHADOWS
+   * Calibrated to match the brand-identity dd-components shadow scale:
+   *   --shadow-sm = brand "level 2" (nested cards, small callouts)
+   *   --shadow-md = brand "level 1" (primary cards, feature cells)
+   *   --shadow-lg = brand "screenshot" (hero, image showcase, gallery cards)
+   * ======================================================================= */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+
+  /* =========================================================================
+   * FOCUS
+   * ======================================================================= */
+  --focus-ring: 0 0 0 3px rgba(140, 44, 191, 0.4);
+}

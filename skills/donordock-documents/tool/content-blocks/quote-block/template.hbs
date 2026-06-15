@@ -1,0 +1,38 @@
+{{!--
+  quote-block — standalone pull quote with the standard purple-left-border
+  treatment. Use anywhere a customer/prospect quote should anchor a page.
+
+  Required slots: text, attribution
+  Optional slots: variant ("default" | "soft" | "dark")
+--}}
+<blockquote class="qb qb--{{#if variant}}{{variant}}{{else}}default{{/if}}">
+  <p class="qb-text">{{text}}</p>
+  <div class="qb-attribution">— {{attribution}}</div>
+</blockquote>
+
+<style>
+  .qb {
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: var(--shadow-sm);
+  }
+  .qb--dark { border-color: rgba(0, 0, 0, 0.18); }
+  .qb--default { background: var(--bg-light-purple); }
+  .qb--soft    { background: var(--bg-cream); }
+  .qb--dark    { background: var(--brand-purple); }
+  .qb-text {
+    color: var(--text-primary);
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .qb--dark .qb-text { color: var(--text-inverse); }
+  .qb-attribution {
+    margin-top: var(--space-xs);
+    font-size: var(--type-small-size);
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  .qb--dark .qb-attribution { color: var(--text-on-dark); }
+</style>

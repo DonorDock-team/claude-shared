@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>feature-checklist-grid — preview</title>
+  <link rel="stylesheet" href="../../tokens.css" />
+  <link rel="stylesheet" href="../../base.css" />
+  <style>
+    /* Screen viewing chrome — not present in PDF output */
+    body { background: #E5E7EB; padding: 2rem; }
+    .preview-frame {
+      max-width: 8.5in;
+      margin: 0 auto;
+      box-shadow: var(--shadow-lg);
+      background: var(--bg-white);
+    }
+    .preview-label {
+      max-width: 8.5in;
+      margin: 0 auto 1rem;
+      font-family: var(--font-primary);
+      font-size: 0.75rem;
+      color: #6B7280;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-label">Content block · feature-checklist-grid · rendered with sample-data.json</div>
+  <div class="preview-frame">
+    <div class="fcg">
+  <div class="fcg-title">Everything included in one plan</div>
+
+  <div class="fcg-grid fcg-grid--4">
+    <div class="fcg-cell">
+      <span class="fcg-dot fcg-dot--blue"></span>
+      <span class="fcg-label">Contact records</span>
+    </div>
+    <div class="fcg-cell">
+      <span class="fcg-dot fcg-dot--blue"></span>
+      <span class="fcg-label">Reporting</span>
+    </div>
+    <div class="fcg-cell">
+      <span class="fcg-dot fcg-dot--blue"></span>
+      <span class="fcg-label">Tax receipts</span>
+    </div>
+    <div class="fcg-cell">
+      <span class="fcg-dot fcg-dot--blue"></span>
+      <span class="fcg-label">QuickBooks &amp; OneCause</span>
+    </div>
+    <div class="fcg-cell">
+      <span class="fcg-dot fcg-dot--green"></span>
+      <span class="fcg-label">Bulk email &amp; texting</span>
+    </div>
+    <div class="fcg-cell">
+      <span class="fcg-dot fcg-dot--purple"></span>
+      <span class="fcg-label">Otto AI summary</span>
+    </div>
+    <div class="fcg-cell">
+      <span class="fcg-dot fcg-dot--purple"></span>
+      <span class="fcg-label">Automations</span>
+    </div>
+    <div class="fcg-cell">
+      <span class="fcg-dot fcg-dot--orange"></span>
+      <span class="fcg-label">Asks Board</span>
+    </div>
+    <div class="fcg-cell">
+      <span class="fcg-dot fcg-dot--orange"></span>
+      <span class="fcg-label">Tasks &amp; nudges</span>
+    </div>
+    <div class="fcg-cell">
+      <span class="fcg-dot fcg-dot--yellow"></span>
+      <span class="fcg-label">Online giving pages</span>
+    </div>
+    <div class="fcg-cell">
+      <span class="fcg-dot fcg-dot--yellow"></span>
+      <span class="fcg-label">Pledges &amp; recurring</span>
+    </div>
+    <div class="fcg-cell">
+      <span class="fcg-dot fcg-dot--yellow"></span>
+      <span class="fcg-label">Stripe, PayPal, DAFPay</span>
+    </div>
+  </div>
+</div>
+
+<style>
+  .fcg-title {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text-primary);
+    margin-bottom: var(--space-sm);
+  }
+  .fcg-grid {
+    display: grid;
+    gap: var(--space-sm);
+  }
+  .fcg-grid--3 { grid-template-columns: repeat(3, 1fr); }
+  .fcg-grid--4 { grid-template-columns: repeat(4, 1fr); }
+  .fcg-grid--5 { grid-template-columns: repeat(5, 1fr); }
+  .fcg-cell {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-md);
+    min-height: 64px;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    background: var(--bg-white);
+    box-shadow: var(--shadow-sm);
+  }
+  .fcg-dot {
+    width: 28px;
+    height: 28px;
+    border-radius: var(--radius-sm);
+    flex: 0 0 auto;
+    position: relative;
+  }
+  .fcg-dot::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: currentColor;
+    opacity: 0.18;
+  }
+  .fcg-dot::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: currentColor;
+    transform: translate(-50%, -50%);
+  }
+  .fcg-dot--purple { color: var(--brand-purple); }
+  .fcg-dot--blue   { color: var(--brand-blue);   }
+  .fcg-dot--green  { color: var(--green);        }
+  .fcg-dot--orange { color: var(--orange);       }
+  .fcg-dot--yellow { color: var(--yellow);       }
+  .fcg-dot--coral  { color: var(--brand-coral);  }
+  .fcg-label {
+    font-size: var(--type-small-size);
+    color: var(--text-primary);
+    font-weight: 600;
+    line-height: 1.3;
+  }
+</style>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>your-moment — preview</title>
+  <link rel="stylesheet" href="../../tokens.css" />
+  <link rel="stylesheet" href="../../base.css" />
+  <style>
+    /* Screen viewing chrome — not present in PDF output */
+    body { background: #E5E7EB; padding: 2rem; }
+    .preview-frame {
+      max-width: 8.5in;
+      margin: 0 auto;
+      box-shadow: var(--shadow-lg);
+      background: var(--bg-white);
+    }
+    .preview-label {
+      max-width: 8.5in;
+      margin: 0 auto 1rem;
+      font-family: var(--font-primary);
+      font-size: 0.75rem;
+      color: #6B7280;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-label">Content block · your-moment · rendered with sample-data.json</div>
+  <div class="preview-frame">
+    <div class="ym-block">
+
+  <div class="ym-eyebrow">Your Moment</div>
+
+  <h2 class="ym-title">
+    You&#x27;re building something<br />
+    <span class="highlight-purple">that matters.</span>
+  </h2>
+
+  <p class="ym-subtitle">The Well Summit is at a pivotal point — strategic plan complete, Lily Foundation grant in progress, and a 5-year growth roadmap ready to execute. Getting the right infrastructure in place now is what makes the next chapter possible.</p>
+
+  <div class="ym-grid">
+    <div class="ym-card">
+      <h4 class="ym-card-title">Where you are today</h4>
+      <div class="ym-card-body">
+        <div class="ym-narrative">
+          <div class="ym-narrative-heading">Strategic clarity, operational gap</div>
+          <p class="ym-narrative-body">The StratOP process is done. Goals are set. What&#x27;s missing is the system to run it — donor data is scattered, giving platforms are disconnected, stewardship happens by memory.</p>
+        </div>
+        <div class="ym-narrative">
+          <div class="ym-narrative-heading">Funding opportunity in front of you</div>
+          <p class="ym-narrative-body">The Lily Foundation grant requires naming a technology vendor. Choosing DonorDock now supports the grant narrative and positions The Well Summit for funded capacity-building.</p>
+        </div>
+        <div class="ym-narrative">
+          <div class="ym-narrative-heading">Growth that honors your mission</div>
+          <p class="ym-narrative-body">Scaling access without scaling complexity requires tools that work harder in the background, so your team stays focused on people and ministry.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="ym-card">
+      <h4 class="ym-card-title">What you need from a platform</h4>
+      <ul class="ym-checklist">
+        <li><span class="ym-check">✓</span><span>One place for every donor, supporter, and camper</span></li>
+        <li><span class="ym-check">✓</span><span>Giving pages that replace Givebutter and ThriveCart</span></li>
+        <li><span class="ym-check">✓</span><span>A pipeline to track grants, major gifts, and sponsors</span></li>
+        <li><span class="ym-check">✓</span><span>Email and text connected to your CRM data</span></li>
+        <li><span class="ym-check">✓</span><span>Automations that handle follow-up you&#x27;d otherwise miss</span></li>
+        <li><span class="ym-check">✓</span><span>A migration team that moves your current data for you</span></li>
+        <li><span class="ym-check">✓</span><span>A partner, not just a vendor</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <blockquote class="ym-quote">
+    <p>If we run the nonprofit more like a business and instill streamlined efficiencies, we&#x27;ll have the capacity to offer additional program events to expand access — but still keep it intimate.</p>
+    <div class="ym-quote-attribution">— Tiffany Brodie, COO, The Well Summit</div>
+  </blockquote>
+
+</div>
+
+<style>
+  .ym-block {
+    padding-top: var(--space-lg);
+  }
+  .ym-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.375rem 0.875rem;
+    background: var(--brand-purple-light);
+    color: var(--brand-purple);
+    border-radius: var(--radius-pill);
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+  }
+  .ym-title {
+    margin-top: var(--space-md);
+    color: var(--text-primary);
+  }
+  .ym-subtitle {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    max-width: 60ch;
+  }
+  .ym-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+  }
+  .ym-card {
+    background: var(--bg-cream);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: var(--radius-md);
+    padding: var(--space-md);
+    box-shadow: var(--shadow-sm);
+  }
+  .ym-card-title {
+    color: var(--text-primary);
+    font-size: var(--type-h6-size);
+    font-weight: 700;
+    margin-bottom: var(--space-sm);
+  }
+  .ym-narrative + .ym-narrative {
+    margin-top: var(--space-sm);
+  }
+  .ym-narrative-heading {
+    font-weight: 700;
+    color: var(--text-primary);
+    font-size: 1rem;
+  }
+  .ym-narrative-body {
+    margin-top: 0.25rem;
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .ym-checklist {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+  .ym-checklist li {
+    display: flex;
+    gap: var(--space-xs);
+    align-items: baseline;
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+    padding-bottom: var(--space-xs);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .ym-checklist li:last-child {
+    border-bottom: none;
+  }
+  .ym-check {
+    color: var(--brand-purple);
+    font-weight: 700;
+    flex: 0 0 auto;
+  }
+  .ym-quote {
+    margin-top: var(--space-lg);
+    padding: var(--space-md);
+    background: var(--bg-light-purple);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+  }
+  .ym-quote p {
+    color: var(--text-primary);
+    font-style: italic;
+  }
+  .ym-quote-attribution {
+    margin-top: var(--space-xs);
+    font-size: var(--type-small-size);
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+</style>
+
+  </div>
+</body>
+</html>

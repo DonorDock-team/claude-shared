@@ -1,0 +1,152 @@
+{{!--
+  your-moment — sets up the prospect's current situation and what they need
+  from a platform. Two cream-card columns: "where you are today" (problem
+  narrative) on the left, "what you need" (checklist) on the right. Optional
+  pull quote at the bottom.
+
+  Required slots: title, highlight, subtitle, where_you_are, what_you_need
+  Optional slots: eyebrow (default "Your Moment"), quote
+--}}
+<div class="ym-block">
+
+  <div class="ym-eyebrow">{{#if eyebrow}}{{eyebrow}}{{else}}Your Moment{{/if}}</div>
+
+  <h2 class="ym-title">
+    {{title}}<br />
+    <span class="highlight-purple">{{highlight}}</span>
+  </h2>
+
+  <p class="ym-subtitle">{{subtitle}}</p>
+
+  <div class="ym-grid">
+    <div class="ym-card">
+      <h4 class="ym-card-title">{{where_you_are.title}}</h4>
+      <div class="ym-card-body">
+        {{#each where_you_are.items}}
+        <div class="ym-narrative">
+          <div class="ym-narrative-heading">{{this.heading}}</div>
+          <p class="ym-narrative-body">{{this.body}}</p>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+
+    <div class="ym-card">
+      <h4 class="ym-card-title">{{what_you_need.title}}</h4>
+      <ul class="ym-checklist">
+        {{#each what_you_need.items}}
+        <li><span class="ym-check">✓</span><span>{{this}}</span></li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+
+  {{#if quote}}
+  <blockquote class="ym-quote">
+    <p>{{quote.text}}</p>
+    <div class="ym-quote-attribution">— {{quote.attribution}}</div>
+  </blockquote>
+  {{/if}}
+
+</div>
+
+<style>
+  .ym-block {
+    padding-top: var(--space-lg);
+  }
+  .ym-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.375rem 0.875rem;
+    background: var(--brand-purple-light);
+    color: var(--brand-purple);
+    border-radius: var(--radius-pill);
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+  }
+  .ym-title {
+    margin-top: var(--space-md);
+    color: var(--text-primary);
+  }
+  .ym-subtitle {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    max-width: 60ch;
+  }
+  .ym-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+  }
+  .ym-card {
+    background: var(--bg-cream);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: var(--radius-md);
+    padding: var(--space-md);
+    box-shadow: var(--shadow-sm);
+  }
+  .ym-card-title {
+    color: var(--text-primary);
+    font-size: var(--type-h6-size);
+    font-weight: 700;
+    margin-bottom: var(--space-sm);
+  }
+  .ym-narrative + .ym-narrative {
+    margin-top: var(--space-sm);
+  }
+  .ym-narrative-heading {
+    font-weight: 700;
+    color: var(--text-primary);
+    font-size: 1rem;
+  }
+  .ym-narrative-body {
+    margin-top: 0.25rem;
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .ym-checklist {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+  .ym-checklist li {
+    display: flex;
+    gap: var(--space-xs);
+    align-items: baseline;
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+    padding-bottom: var(--space-xs);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .ym-checklist li:last-child {
+    border-bottom: none;
+  }
+  .ym-check {
+    color: var(--brand-purple);
+    font-weight: 700;
+    flex: 0 0 auto;
+  }
+  .ym-quote {
+    margin-top: var(--space-lg);
+    padding: var(--space-md);
+    background: var(--bg-light-purple);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+  }
+  .ym-quote p {
+    color: var(--text-primary);
+    font-style: italic;
+  }
+  .ym-quote-attribution {
+    margin-top: var(--space-xs);
+    font-size: var(--type-small-size);
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+</style>

@@ -1,0 +1,108 @@
+{{!--
+  before-after-chips — compact "today vs after DonorDock" comparison using
+  strikethrough chips on the left and solid purple chips on the right with
+  an arrow between. Items the prospect KEEPS (e.g., GoFundMe Pro) get a
+  yellow accent instead of being struck through.
+
+  Required slots: today, after
+  Optional slots: today_footnote, after_footnote
+--}}
+<div class="bac">
+  <div class="bac-grid">
+
+    <div class="bac-col bac-col--today">
+      <div class="bac-label">{{today.label}}</div>
+      <div class="bac-chips">
+        {{#each today.items}}
+        {{#if this.kept}}
+        <span class="bac-chip bac-chip--kept">{{this.text}} · kept</span>
+        {{else}}
+        <span class="bac-chip bac-chip--strike">{{this.text}}</span>
+        {{/if}}
+        {{/each}}
+      </div>
+      {{#if today_footnote}}
+      <p class="bac-foot">{{today_footnote}}</p>
+      {{/if}}
+    </div>
+
+    <div class="bac-arrow">→</div>
+
+    <div class="bac-col bac-col--after">
+      <div class="bac-label bac-label--after">{{after.label}}</div>
+      <div class="bac-chips">
+        {{#each after.items}}
+        <span class="bac-chip bac-chip--after">{{this}}</span>
+        {{/each}}
+      </div>
+      {{#if after_footnote}}
+      <p class="bac-foot">{{after_footnote}}</p>
+      {{/if}}
+    </div>
+
+  </div>
+</div>
+
+<style>
+  .bac {
+    padding: var(--space-md);
+    background: var(--bg-cream);
+    border-radius: var(--radius-md);
+  }
+  .bac-grid {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: var(--space-md);
+    align-items: start;
+  }
+  .bac-label {
+    font-size: var(--type-overline-size);
+    font-weight: 700;
+    letter-spacing: var(--type-overline-tracking);
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+    margin-bottom: var(--space-xs);
+  }
+  .bac-label--after { color: var(--brand-purple); }
+  .bac-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+  }
+  .bac-chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.4rem 0.875rem;
+    border-radius: var(--radius-pill);
+    font-size: var(--type-small-size);
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+  }
+  .bac-chip--strike {
+    background: transparent;
+    color: var(--text-muted);
+    border: 1px solid var(--border-default);
+    text-decoration: line-through;
+  }
+  .bac-chip--kept {
+    background: var(--yellow);
+    color: var(--text-primary);
+  }
+  .bac-chip--after {
+    background: var(--brand-purple);
+    color: var(--text-inverse);
+  }
+  .bac-arrow {
+    color: var(--brand-purple);
+    font-size: 1.75rem;
+    align-self: center;
+    padding-top: 1.25rem;
+  }
+  .bac-foot {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+</style>

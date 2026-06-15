@@ -1,0 +1,1908 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>The Well Summit — sales-proposal</title>
+  <link rel="stylesheet" href="../../tokens.css" />
+  <link rel="stylesheet" href="../../base.css" />
+  <style>
+    /* Screen viewing chrome — not present in PDF output. Each .page renders
+       on a contained "sheet" with a soft shadow against the gray screen bg. */
+    body { background: #E5E7EB; padding: 0; }
+    .page,
+    .page-cover {
+      max-width: 8.5in;
+      min-height: 11in;
+      margin: 2rem auto;
+      box-shadow: var(--shadow-lg);
+      background: var(--bg-white);
+    }
+    .page-cover { padding: var(--space-4xl) var(--space-3xl); }
+    .page       { padding: 0.6in 0.55in; }
+  </style>
+</head>
+<body>
+<section class="page-cover" style="background: var(--brand-purple); color: var(--text-inverse);">
+
+  <div class="cover-header row-between" style="align-items: center;">
+    <img src="../../assets/logo/donordock-logo-white.svg" alt="DonorDock" style="height: 36px; width: auto;" />
+    <span class="chip chip-purple-outline">Prepared for The Well Summit</span>
+  </div>
+
+  <div class="cover-hero">
+    <h1 style="color: var(--text-inverse);">
+      Your fundraising,<br />
+      <span class="highlight-on-purple">all in one place.</span>
+    </h1>
+
+    <p style="color: var(--text-on-dark); max-width: 55ch; margin-top: var(--space-md);">
+      A custom platform overview for Tiffany Brodie and the team at The Well Summit — capabilities, onboarding, and investment details for your evaluation and Lily Foundation grant proposal.
+    </p>
+
+    <div class="row" style="gap: var(--space-xs); flex-wrap: wrap; margin-top: var(--space-lg);">
+      <span class="chip chip-purple-outline">Donor CRM</span>
+      <span class="chip chip-purple-outline">Online Giving</span>
+      <span class="chip chip-purple-outline">Email &amp; Text</span>
+      <span class="chip chip-purple-outline">Otto AI</span>
+      <span class="chip chip-purple-outline">Camper Support Pages</span>
+      <span class="chip chip-purple-outline">Grant Pipelines</span>
+      <span class="chip chip-purple-outline">90-Day Onboarding</span>
+    </div>
+  </div>
+
+  <div class="cover-meta" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: var(--space-md); align-items: end; padding-top: var(--space-md); border-top: 1px solid rgba(255,255,255,0.2);">
+    <div class="text-meta" style="color: var(--text-on-dark);">donordock.com</div>
+    <div class="text-meta" style="color: var(--text-on-dark); text-align: center;">May 2026</div>
+    <div class="text-meta" style="color: var(--text-on-dark); text-align: right;">Prepared by Noah Barnett · nbarnett@donordock.com</div>
+  </div>
+
+</section>
+
+<section class="page">
+<div class="header-band">
+  <img
+    src="../../assets/logo/donordock-logo-dark.svg"
+    alt="DonorDock"
+    class="header-band-logo"
+  />
+  <div class="header-band-label ">
+    The Well Summit
+  </div>
+</div>
+
+<style>
+  .header-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .header-band-logo {
+    height: 26px;
+    width: auto;
+  }
+  .header-band-label {
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+  .header-band-label--light {
+    color: var(--text-on-dark);
+  }
+</style>
+
+<div class="ym-block">
+
+  <div class="ym-eyebrow">Your Moment</div>
+
+  <h2 class="ym-title">
+    You&#x27;re building something<br />
+    <span class="highlight-purple">that matters.</span>
+  </h2>
+
+  <p class="ym-subtitle">The Well Summit is at a pivotal point — strategic plan complete, Lily Foundation grant in progress, and a 5-year growth roadmap ready to execute. Getting the right infrastructure in place now is what makes the next chapter possible.</p>
+
+  <div class="ym-grid">
+    <div class="ym-card">
+      <h4 class="ym-card-title">Where you are today</h4>
+      <div class="ym-card-body">
+        <div class="ym-narrative">
+          <div class="ym-narrative-heading">Strategic clarity, operational gap</div>
+          <p class="ym-narrative-body">The StratOP process is done. Goals are set. What&#x27;s missing is the system to run it — donor data is scattered, giving platforms are disconnected, stewardship happens by memory.</p>
+        </div>
+        <div class="ym-narrative">
+          <div class="ym-narrative-heading">Funding opportunity in front of you</div>
+          <p class="ym-narrative-body">The Lily Foundation grant requires naming a technology vendor. Choosing DonorDock now supports the grant narrative and positions The Well Summit for funded capacity-building.</p>
+        </div>
+        <div class="ym-narrative">
+          <div class="ym-narrative-heading">Growth that honors your mission</div>
+          <p class="ym-narrative-body">Scaling access without scaling complexity requires tools that work harder in the background, so your team stays focused on people and ministry.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="ym-card">
+      <h4 class="ym-card-title">What you need from a platform</h4>
+      <ul class="ym-checklist">
+        <li><span class="ym-check">✓</span><span>One place for every donor, supporter, and camper</span></li>
+        <li><span class="ym-check">✓</span><span>Giving pages that replace Givebutter and ThriveCart</span></li>
+        <li><span class="ym-check">✓</span><span>A pipeline to track grants, major gifts, and sponsors</span></li>
+        <li><span class="ym-check">✓</span><span>Email and text connected to your CRM data</span></li>
+        <li><span class="ym-check">✓</span><span>Automations that handle follow-up you&#x27;d otherwise miss</span></li>
+        <li><span class="ym-check">✓</span><span>A migration team that moves your current data for you</span></li>
+        <li><span class="ym-check">✓</span><span>A partner, not just a vendor</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <blockquote class="ym-quote">
+    <p>If we run the nonprofit more like a business and instill streamlined efficiencies, we&#x27;ll have the capacity to offer additional program events to expand access — but still keep it intimate.</p>
+    <div class="ym-quote-attribution">— Tiffany Brodie, COO, The Well Summit</div>
+  </blockquote>
+
+</div>
+
+<style>
+  .ym-block {
+    padding-top: var(--space-lg);
+  }
+  .ym-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.375rem 0.875rem;
+    background: var(--brand-purple-light);
+    color: var(--brand-purple);
+    border-radius: var(--radius-pill);
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+  }
+  .ym-title {
+    margin-top: var(--space-md);
+    color: var(--text-primary);
+  }
+  .ym-subtitle {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    max-width: 60ch;
+  }
+  .ym-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+  }
+  .ym-card {
+    background: var(--bg-cream);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: var(--radius-md);
+    padding: var(--space-md);
+    box-shadow: var(--shadow-sm);
+  }
+  .ym-card-title {
+    color: var(--text-primary);
+    font-size: var(--type-h6-size);
+    font-weight: 700;
+    margin-bottom: var(--space-sm);
+  }
+  .ym-narrative + .ym-narrative {
+    margin-top: var(--space-sm);
+  }
+  .ym-narrative-heading {
+    font-weight: 700;
+    color: var(--text-primary);
+    font-size: 1rem;
+  }
+  .ym-narrative-body {
+    margin-top: 0.25rem;
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .ym-checklist {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+  .ym-checklist li {
+    display: flex;
+    gap: var(--space-xs);
+    align-items: baseline;
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+    padding-bottom: var(--space-xs);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .ym-checklist li:last-child {
+    border-bottom: none;
+  }
+  .ym-check {
+    color: var(--brand-purple);
+    font-weight: 700;
+    flex: 0 0 auto;
+  }
+  .ym-quote {
+    margin-top: var(--space-lg);
+    padding: var(--space-md);
+    background: var(--bg-light-purple);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+  }
+  .ym-quote p {
+    color: var(--text-primary);
+    font-style: italic;
+  }
+  .ym-quote-attribution {
+    margin-top: var(--space-xs);
+    font-size: var(--type-small-size);
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+</style>
+
+<div class="footer-band">
+  <div class="footer-band-label">DonorDock · Custom Proposal for The Well Summit · May 2026</div>
+  <div class="footer-band-right">donordock.com</div>
+</div>
+
+<style>
+  .footer-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--border-light);
+    font-size: var(--type-small-size);
+    line-height: var(--type-small-line);
+    color: var(--text-muted);
+  }
+  .footer-band-label {
+    color: var(--text-muted);
+  }
+  .footer-band-right {
+    color: var(--text-muted);
+  }
+</style>
+
+</section>
+<section class="page">
+<div class="header-band">
+  <img
+    src="../../assets/logo/donordock-logo-dark.svg"
+    alt="DonorDock"
+    class="header-band-logo"
+  />
+  <div class="header-band-label ">
+    The Well Summit
+  </div>
+</div>
+
+<style>
+  .header-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .header-band-logo {
+    height: 26px;
+    width: auto;
+  }
+  .header-band-label {
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+  .header-band-label--light {
+    color: var(--text-on-dark);
+  }
+</style>
+
+<div class="tc-block">
+
+  <div class="tc-eyebrow">Tool Consolidation</div>
+
+  <h2 class="tc-title">
+    One platform<br />
+    <span class="highlight-blue">instead of four.</span>
+  </h2>
+
+  <p class="tc-subtitle">Your fundraising infrastructure is spread across disconnected tools. Data doesn&#x27;t flow. Every supporter requires manual work in multiple places. DonorDock consolidates all of it.</p>
+
+  <div class="tc-grid">
+    <div class="tc-col">
+      <h4 class="tc-col-title tc-col-title--today">Today: Four disconnected tools</h4>
+      <div class="tc-stack">
+        <div class="tc-card tc-card--today">
+          <div class="tc-card-name">Givebutter</div>
+          <p class="tc-card-body">Online donations — data stays in Givebutter, not connected to a CRM or donor record.</p>
+        </div>
+        <div class="tc-card tc-card--today">
+          <div class="tc-card-name">ThriveCart</div>
+          <p class="tc-card-body">Camper community investment plans — a workaround, not connected to donor stewardship.</p>
+        </div>
+        <div class="tc-card tc-card--today">
+          <div class="tc-card-name">Email Tool</div>
+          <p class="tc-card-body">Outreach goes out, but engagement data doesn&#x27;t connect to giving or attendance records.</p>
+        </div>
+        <div class="tc-card tc-card--today">
+          <div class="tc-card-name">No CRM</div>
+          <p class="tc-card-body">No single record of who your donors, camper supporters, and participants actually are.</p>
+        </div>
+      </div>
+      <div class="tc-callout tc-callout--cost">
+        <div class="tc-callout-title">The cost of fragmentation</div>
+        <p class="tc-callout-body">Manual re-entry. No holistic donor view. Cultivation by memory. Grant reporting requires piecing data from multiple sources.</p>
+      </div>
+    </div>
+
+    <div class="tc-col">
+      <h4 class="tc-col-title tc-col-title--with">With DonorDock: Everything connected</h4>
+      <div class="tc-stack">
+        <div class="tc-card tc-card--with">
+          <div class="tc-card-name">Giving Pages (replaces Givebutter)</div>
+          <p class="tc-card-body">Branded giving pages embedded on your website. All gifts flow directly into your donor records.</p>
+        </div>
+        <div class="tc-card tc-card--with">
+          <div class="tc-card-name">Camper Support Pages (replaces ThriveCart)</div>
+          <p class="tc-card-body">Unlimited individual pages with goals, tracking, and text-to-donate. Each gift tied to the specific camper.</p>
+        </div>
+        <div class="tc-card tc-card--with">
+          <div class="tc-card-name">Email + Text (replaces email tool)</div>
+          <p class="tc-card-body">Drag-and-drop email and two-way SMS built into the platform. Every open and click tracked on the contact record.</p>
+        </div>
+        <div class="tc-card tc-card--with">
+          <div class="tc-card-name">Donor CRM (new capability)</div>
+          <p class="tc-card-body">One complete profile per contact: giving history, attendance, engagement, notes, custom badges — all in one place.</p>
+        </div>
+      </div>
+      <div class="tc-callout tc-callout--value">
+        <div class="tc-callout-title">The value of integration</div>
+        <p class="tc-callout-body">Every gift, email, event, and camper sponsorship tracked to one record. Segment, report, and steward from one view.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<style>
+  .tc-block {
+    padding-top: var(--space-lg);
+  }
+  .tc-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.375rem 0.875rem;
+    background: #DBEAFE;
+    color: var(--brand-blue);
+    border-radius: var(--radius-pill);
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+  }
+  .tc-title {
+    margin-top: var(--space-md);
+    color: var(--text-primary);
+  }
+  .tc-subtitle {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    max-width: 60ch;
+  }
+  .tc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin-top: var(--space-lg);
+  }
+  .tc-col-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    padding-bottom: var(--space-sm);
+    border-bottom: 2px solid var(--border-light);
+    margin-bottom: var(--space-sm);
+  }
+  .tc-col-title--with {
+    color: var(--brand-purple);
+    border-bottom-color: var(--brand-purple);
+  }
+  .tc-stack {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  .tc-card {
+    padding: var(--space-sm);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background: var(--bg-white);
+    box-shadow: var(--shadow-sm);
+  }
+  .tc-card--with {
+    background: var(--bg-light-purple);
+  }
+  .tc-card-name {
+    font-weight: 700;
+    color: var(--text-primary);
+    font-size: 1rem;
+  }
+  .tc-card--with .tc-card-name {
+    color: var(--brand-purple);
+  }
+  .tc-card-body {
+    margin-top: 0.25rem;
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .tc-callout {
+    margin-top: var(--space-sm);
+    padding: var(--space-sm);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: var(--shadow-sm);
+  }
+  .tc-callout--cost {
+    background: #FEF2F2;
+  }
+  .tc-callout--value {
+    background: var(--bg-light-purple);
+  }
+  .tc-callout-title {
+    font-weight: 700;
+    font-size: var(--type-small-size);
+  }
+  .tc-callout--cost .tc-callout-title {
+    color: var(--brand-coral);
+  }
+  .tc-callout--value .tc-callout-title {
+    color: var(--brand-purple);
+  }
+  .tc-callout-body {
+    margin-top: 0.25rem;
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+</style>
+
+<div class="footer-band">
+  <div class="footer-band-label">DonorDock · Custom Proposal for The Well Summit · May 2026</div>
+  <div class="footer-band-right">donordock.com</div>
+</div>
+
+<style>
+  .footer-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--border-light);
+    font-size: var(--type-small-size);
+    line-height: var(--type-small-line);
+    color: var(--text-muted);
+  }
+  .footer-band-label {
+    color: var(--text-muted);
+  }
+  .footer-band-right {
+    color: var(--text-muted);
+  }
+</style>
+
+</section>
+<section class="page">
+<div class="header-band">
+  <img
+    src="../../assets/logo/donordock-logo-dark.svg"
+    alt="DonorDock"
+    class="header-band-logo"
+  />
+  <div class="header-band-label ">
+    The Well Summit
+  </div>
+</div>
+
+<style>
+  .header-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .header-band-logo {
+    height: 26px;
+    width: auto;
+  }
+  .header-band-label {
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+  .header-band-label--light {
+    color: var(--text-on-dark);
+  }
+</style>
+
+<div class="poq-block">
+
+  <div class="poq-eyebrow">Platform Overview</div>
+
+  <h2 class="poq-title">
+    Everything you need,<br />
+    <span class="highlight-purple">built to work together.</span>
+  </h2>
+
+  <p class="poq-subtitle">Built from the ground up as one connected platform — no patchwork of acquired tools, no hidden modules. Every feature below is included in one plan.</p>
+
+  <div class="poq-grid">
+    <div class="poq-quad poq-quad--blue">
+      <h4 class="poq-quad-title">CRM &amp; Donor Management</h4>
+      <ul class="poq-quad-list">
+        <li><span class="poq-arrow">→</span><span>Individual, household, and organization contact types</span></li>
+        <li><span class="poq-arrow">→</span><span>Custom badges — tag campers by year, donor type, affinity</span></li>
+        <li><span class="poq-arrow">→</span><span>Full giving history, pledges, and soft credits per contact</span></li>
+        <li><span class="poq-arrow">→</span><span>Activity tracking: emails, events, notes — all connected</span></li>
+        <li><span class="poq-arrow">→</span><span>Drag-and-drop reports with column-level filtering</span></li>
+        <li><span class="poq-arrow">→</span><span>Membership tiers and giving circle management</span></li>
+      </ul>
+    </div>
+    <div class="poq-quad poq-quad--green">
+      <h4 class="poq-quad-title">Donor Outreach &amp; Engagement</h4>
+      <ul class="poq-quad-list">
+        <li><span class="poq-arrow">→</span><span>Drag-and-drop email builder — replaces Mailchimp / Emma</span></li>
+        <li><span class="poq-arrow">→</span><span>One-to-many and one-to-one text messaging</span></li>
+        <li><span class="poq-arrow">→</span><span>Letters, mail merge, and annual giving statements</span></li>
+        <li><span class="poq-arrow">→</span><span>Automated donor journeys — new donor, lapsed, anniversary</span></li>
+        <li><span class="poq-arrow">→</span><span>Every email and text tracked on the contact profile</span></li>
+        <li><span class="poq-arrow">→</span><span>Canva design integration for branded templates</span></li>
+      </ul>
+    </div>
+    <div class="poq-quad poq-quad--yellow">
+      <h4 class="poq-quad-title">Online Giving</h4>
+      <ul class="poq-quad-list">
+        <li><span class="poq-arrow">→</span><span>Unlimited giving pages — embedded on your website</span></li>
+        <li><span class="poq-arrow">→</span><span>Camper support pages with goal thermometers and tracking</span></li>
+        <li><span class="poq-arrow">→</span><span>Text-to-donate with unique keyword per campaign or camper</span></li>
+        <li><span class="poq-arrow">→</span><span>Recurring gifts, Apple Pay, Google Pay, DAF giving</span></li>
+        <li><span class="poq-arrow">→</span><span>Automatic receipts and thank-you emails on gift</span></li>
+        <li><span class="poq-arrow">→</span><span>Campaign, appeal, and fund tracking for accounting</span></li>
+      </ul>
+    </div>
+    <div class="poq-quad poq-quad--orange">
+      <h4 class="poq-quad-title">Project Management &amp; Action</h4>
+      <ul class="poq-quad-list">
+        <li><span class="poq-arrow">→</span><span>Action Board — daily prioritized task list per team member</span></li>
+        <li><span class="poq-arrow">→</span><span>Otto AI Smart Nudges — surfaces donor opportunities automatically</span></li>
+        <li><span class="poq-arrow">→</span><span>Ask Board — major gifts, grants, and sponsor pipelines</span></li>
+        <li><span class="poq-arrow">→</span><span>Project Boards — event planning, gala, grant workflows</span></li>
+        <li><span class="poq-arrow">→</span><span>Automations: external comms, internal tasks, data updates</span></li>
+        <li><span class="poq-arrow">→</span><span>Campaign year-over-year comparison reporting</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="poq-footnote">
+    <span class="poq-footnote-mark">✦</span>
+    <div><strong>One plan. All features. Nothing locked behind upgrades.</strong> Every feature above is included at $500/month billed annually. Unlimited contacts. No tiers.</div>
+  </div>
+
+</div>
+
+<style>
+  .poq-block { padding-top: var(--space-lg); }
+  .poq-eyebrow {
+    display: inline-flex; align-items: center;
+    padding: 0.375rem 0.875rem;
+    background: var(--brand-purple-light);
+    color: var(--brand-purple);
+    border-radius: var(--radius-pill);
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+  }
+  .poq-title { margin-top: var(--space-md); color: var(--text-primary); }
+  .poq-subtitle {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    max-width: 60ch;
+  }
+  .poq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+  }
+  .poq-quad {
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background: var(--bg-white);
+    box-shadow: var(--shadow-md);
+  }
+  .poq-quad--blue   { background: #EFF6FF;                }
+  .poq-quad--green  { background: var(--green-light);     }
+  .poq-quad--yellow { background: var(--yellow-light);    }
+  .poq-quad--orange { background: #FFF7ED;                }
+  .poq-quad--purple { background: var(--bg-light-purple); }
+  .poq-quad-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: var(--space-sm);
+  }
+  .poq-quad--blue   .poq-quad-title { color: var(--brand-blue);   }
+  .poq-quad--green  .poq-quad-title { color: var(--green);        }
+  .poq-quad--yellow .poq-quad-title { color: #B45309;             }
+  .poq-quad--orange .poq-quad-title { color: var(--orange);       }
+  .poq-quad--purple .poq-quad-title { color: var(--brand-purple); }
+  .poq-quad-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .poq-quad-list li {
+    display: flex;
+    gap: var(--space-xs);
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .poq-arrow {
+    color: inherit;
+    flex: 0 0 auto;
+    opacity: 0.7;
+  }
+  .poq-footnote {
+    margin-top: var(--space-md);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--bg-light-purple);
+    border-radius: var(--radius-md);
+    display: flex;
+    gap: var(--space-sm);
+    align-items: center;
+  }
+  .poq-footnote-mark {
+    color: var(--brand-purple);
+    font-size: 1.25rem;
+  }
+  .poq-footnote div {
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .poq-footnote strong { color: var(--brand-purple); }
+</style>
+
+<div class="footer-band">
+  <div class="footer-band-label">DonorDock · Custom Proposal for The Well Summit · May 2026</div>
+  <div class="footer-band-right">donordock.com</div>
+</div>
+
+<style>
+  .footer-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--border-light);
+    font-size: var(--type-small-size);
+    line-height: var(--type-small-line);
+    color: var(--text-muted);
+  }
+  .footer-band-label {
+    color: var(--text-muted);
+  }
+  .footer-band-right {
+    color: var(--text-muted);
+  }
+</style>
+
+</section>
+<section class="page">
+<div class="header-band">
+  <img
+    src="../../assets/logo/donordock-logo-dark.svg"
+    alt="DonorDock"
+    class="header-band-logo"
+  />
+  <div class="header-band-label ">
+    The Well Summit
+  </div>
+</div>
+
+<style>
+  .header-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .header-band-logo {
+    height: 26px;
+    width: auto;
+  }
+  .header-band-label {
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+  .header-band-label--light {
+    color: var(--text-on-dark);
+  }
+</style>
+
+<div class="diq-block">
+
+  <div class="diq-eyebrow">Donor Intelligence</div>
+
+  <h2 class="diq-title">
+    Know your people.<br />
+    <span class="highlight-purple">Never miss the moment.</span>
+  </h2>
+
+  <p class="diq-subtitle">DonorDock gives you a complete picture of every supporter — then uses AI to surface the right next steps so you don&#x27;t have to hold it all in your head.</p>
+
+  <div class="diq-grid">
+    <div class="diq-card diq-card--blue">
+      <h4 class="diq-card-title">Contact Profiles &amp; Segmentation</h4>
+      <p class="diq-card-body">One complete record per contact: giving history, event attendance, email engagement, notes, and custom badges. Segment and report on any combination.</p>
+      <ul class="diq-card-list">
+        <li><span class="diq-arrow">→</span><span>Badge contacts: camper, supporter, gala attendee, major donor</span></li>
+        <li><span class="diq-arrow">→</span><span>Track giving: lifetime, year-to-date, first, largest, last gift</span></li>
+        <li><span class="diq-arrow">→</span><span>Email opens and text replies visible on the contact record</span></li>
+        <li><span class="diq-arrow">→</span><span>Take action on any segment directly from a report</span></li>
+      </ul>
+    </div>
+    <div class="diq-card diq-card--purple">
+      <h4 class="diq-card-title">Otto AI — Your Smart Steward</h4>
+      <p class="diq-card-body">Otto monitors your donor activity and surfaces the things you&#x27;d want to know but would likely miss on a busy day.</p>
+      <ul class="diq-card-list">
+        <li><span class="diq-arrow">→</span><span>Smart Nudges: &quot;This key donor hasn&#x27;t heard from you in 45 days&quot;</span></li>
+        <li><span class="diq-arrow">→</span><span>Gift spike alerts: unusual changes warrant a personal follow-up</span></li>
+        <li><span class="diq-arrow">→</span><span>Lapsing donor flags before they fully disengage</span></li>
+        <li><span class="diq-arrow">→</span><span>Birthdays, anniversaries, and milestone gifts surfaced automatically</span></li>
+        <li><span class="diq-arrow">→</span><span>Instant profile summaries — no reading through notes</span></li>
+      </ul>
+    </div>
+    <div class="diq-card diq-card--orange">
+      <h4 class="diq-card-title">Grant, Major Gift &amp; Sponsor Pipelines</h4>
+      <p class="diq-card-body">Kanban pipelines for every cultivation track — see status, next move, and projected totals at a glance.</p>
+      <ul class="diq-card-list">
+        <li><span class="diq-arrow">→</span><span>Lily Foundation and other grants: applied, pending, awarded</span></li>
+        <li><span class="diq-arrow">→</span><span>Major gifts: identified, qualifying, cultivating, soliciting</span></li>
+        <li><span class="diq-arrow">→</span><span>Corporate sponsors: prospecting through close</span></li>
+        <li><span class="diq-arrow">→</span><span>Roll-up totals: pipeline value, weighted, open asks</span></li>
+      </ul>
+    </div>
+    <div class="diq-card diq-card--green">
+      <h4 class="diq-card-title">Automations</h4>
+      <p class="diq-card-body">Build once, run always. Three types keep your team focused on relationships, not logistics.</p>
+      <div class="diq-mini-grid">
+        <div class="diq-mini diq-mini--external">
+          <div class="diq-mini-label">External</div>
+          <div class="diq-mini-body">Thank-yous, welcome sequences, renewal reminders</div>
+        </div>
+        <div class="diq-mini diq-mini--internal">
+          <div class="diq-mini-label">Internal</div>
+          <div class="diq-mini-body">Task assignments, staff alerts on key gifts</div>
+        </div>
+        <div class="diq-mini diq-mini--data">
+          <div class="diq-mini-label">Data</div>
+          <div class="diq-mini-body">Auto-tag donors, update records on activity</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<style>
+  .diq-block { padding-top: var(--space-lg); }
+  .diq-eyebrow {
+    display: inline-flex; align-items: center;
+    padding: 0.375rem 0.875rem;
+    background: var(--brand-purple-light);
+    color: var(--brand-purple);
+    border-radius: var(--radius-pill);
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+  }
+  .diq-title { margin-top: var(--space-md); color: var(--text-primary); }
+  .diq-subtitle {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    max-width: 60ch;
+  }
+  .diq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+  }
+  .diq-card {
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background: var(--bg-white);
+    box-shadow: var(--shadow-md);
+  }
+  .diq-card--blue   { background: #EFF6FF;                }
+  .diq-card--green  { background: var(--green-light);     }
+  .diq-card--yellow { background: var(--yellow-light);    }
+  .diq-card--orange { background: #FFF7ED;                }
+  .diq-card--purple { background: var(--bg-light-purple); }
+  .diq-card-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: var(--space-xs);
+  }
+  .diq-card--blue   .diq-card-title { color: var(--brand-blue);   }
+  .diq-card--green  .diq-card-title { color: var(--green);        }
+  .diq-card--yellow .diq-card-title { color: #B45309;             }
+  .diq-card--orange .diq-card-title { color: var(--orange);       }
+  .diq-card--purple .diq-card-title { color: var(--brand-purple); }
+  .diq-card-body {
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+    margin-bottom: var(--space-sm);
+  }
+  .diq-card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .diq-card-list li {
+    display: flex;
+    gap: var(--space-xs);
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .diq-arrow {
+    color: inherit;
+    flex: 0 0 auto;
+    opacity: 0.7;
+  }
+  .diq-mini-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-xs);
+    margin-top: var(--space-sm);
+  }
+  .diq-mini {
+    padding: var(--space-sm);
+    border-radius: var(--radius-sm);
+  }
+  .diq-mini--external { background: #FFEDD5; }
+  .diq-mini--internal { background: #FED7AA; }
+  .diq-mini--data     { background: var(--brand-purple-light); }
+  .diq-mini-label {
+    font-size: var(--type-overline-size);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.25rem;
+  }
+  .diq-mini--external .diq-mini-label { color: var(--orange); }
+  .diq-mini--internal .diq-mini-label { color: #C2410C; }
+  .diq-mini--data     .diq-mini-label { color: var(--brand-purple); }
+  .diq-mini-body {
+    font-size: 0.75rem;
+    line-height: 1.4;
+    color: var(--text-secondary);
+  }
+</style>
+
+<div class="footer-band">
+  <div class="footer-band-label">DonorDock · Custom Proposal for The Well Summit · May 2026</div>
+  <div class="footer-band-right">donordock.com</div>
+</div>
+
+<style>
+  .footer-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--border-light);
+    font-size: var(--type-small-size);
+    line-height: var(--type-small-line);
+    color: var(--text-muted);
+  }
+  .footer-band-label {
+    color: var(--text-muted);
+  }
+  .footer-band-right {
+    color: var(--text-muted);
+  }
+</style>
+
+</section>
+<section class="page">
+<div class="header-band">
+  <img
+    src="../../assets/logo/donordock-logo-dark.svg"
+    alt="DonorDock"
+    class="header-band-logo"
+  />
+  <div class="header-band-label ">
+    The Well Summit
+  </div>
+</div>
+
+<style>
+  .header-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .header-band-logo {
+    height: 26px;
+    width: auto;
+  }
+  .header-band-label {
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+  .header-band-label--light {
+    color: var(--text-on-dark);
+  }
+</style>
+
+<div class="ob3-block">
+
+  <div class="ob3-eyebrow">Onboarding &amp; Migration</div>
+
+  <h2 class="ob3-title">
+    Switching platforms<br />
+    <span class="highlight-purple">shouldn&#x27;t slow you down.</span>
+  </h2>
+
+  <p class="ob3-subtitle">DonorDock includes white glove data migration and a 90-day structured onboarding program with every subscription. You get a dedicated team — not a help doc and a wish.</p>
+
+  <div class="ob3-phase-grid">
+    <div class="ob3-phase">
+      <div class="ob3-phase-label">Phase 1 · Days 1–30</div>
+      <h4 class="ob3-phase-name">Setup</h4>
+      <p class="ob3-phase-body">Your dedicated data migration specialist maps and imports everything — contacts from Givebutter, gift history, activities, campaign records. Email domain authenticated. Platform configured.</p>
+      <p class="ob3-phase-closing">You don&#x27;t touch the technical work. We handle it.</p>
+      <div class="ob3-phase-result">
+        <strong>Your data is in DonorDock — clean, validated, ready.</strong>
+      </div>
+    </div>
+    <div class="ob3-phase">
+      <div class="ob3-phase-label">Phase 2 · Days 31–60</div>
+      <h4 class="ob3-phase-name">Activation</h4>
+      <p class="ob3-phase-body">Your Customer Success Manager works with your team on training and adoption. Your top two workflows — a new donor journey and camper giving pages — are built and activated together.</p>
+      <p class="ob3-phase-closing">Your team is using DonorDock with confidence.</p>
+      <div class="ob3-phase-result">
+        <strong>Team live and running key workflows.</strong>
+      </div>
+    </div>
+    <div class="ob3-phase">
+      <div class="ob3-phase-label">Phase 3 · Days 61–90</div>
+      <h4 class="ob3-phase-name">Growth</h4>
+      <p class="ob3-phase-body">Early results reviewed. Additional automations configured. Otto set up for your portfolio. Leadership dashboards activated. You receive a written 90-day growth plan for what to tackle next.</p>
+      <p class="ob3-phase-closing">Platform fully operational.</p>
+      <div class="ob3-phase-result">
+        <strong>Clear roadmap. System fully operational.</strong>
+      </div>
+    </div>
+  </div>
+
+  <div class="ob3-outcomes">
+    <h4 class="ob3-outcomes-title">What you&#x27;ll have at the end of 90 days</h4>
+    <ul class="ob3-outcomes-list">
+      <li><span class="ob3-check">✓</span><span>All donor and gift data migrated and validated</span></li>
+      <li><span class="ob3-check">✓</span><span>Email sending authenticated and working</span></li>
+      <li><span class="ob3-check">✓</span><span>Camper support giving pages live and embedded</span></li>
+      <li><span class="ob3-check">✓</span><span>Two automations configured and running</span></li>
+      <li><span class="ob3-check">✓</span><span>Leadership reporting dashboards active</span></li>
+      <li><span class="ob3-check">✓</span><span>Written 90-day growth plan in hand</span></li>
+    </ul>
+  </div>
+
+  <div class="ob3-support">
+    <strong>Support doesn&#x27;t stop at day 90.</strong> Every subscription includes ongoing access to our support team, 300+ help center articles, live weekly webinars, and your dedicated Customer Success Manager for the life of your account.
+  </div>
+
+</div>
+
+<style>
+  .ob3-block { padding-top: var(--space-lg); }
+  .ob3-eyebrow {
+    display: inline-flex; align-items: center;
+    padding: 0.375rem 0.875rem;
+    background: #FFEDD5;
+    color: var(--orange);
+    border-radius: var(--radius-pill);
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+  }
+  .ob3-title { margin-top: var(--space-md); color: var(--text-primary); }
+  .ob3-subtitle {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    max-width: 65ch;
+  }
+  .ob3-phase-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+  }
+  .ob3-phase {
+    display: flex;
+    flex-direction: column;
+  }
+  .ob3-phase-label {
+    font-size: var(--type-overline-size);
+    font-weight: 700;
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+    color: var(--brand-purple);
+  }
+  .ob3-phase-name {
+    margin-top: 0.25rem;
+    color: var(--text-primary);
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  .ob3-phase-body {
+    margin-top: var(--space-xs);
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .ob3-phase-closing {
+    margin-top: var(--space-xs);
+    color: var(--text-tertiary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .ob3-phase-result {
+    margin-top: var(--space-sm);
+    padding: var(--space-sm);
+    background: var(--bg-light-purple);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+    color: var(--brand-purple);
+    font-size: var(--type-small-size);
+    line-height: 1.4;
+  }
+  .ob3-outcomes {
+    margin-top: var(--space-lg);
+  }
+  .ob3-outcomes-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--space-sm);
+  }
+  .ob3-outcomes-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xs) var(--space-md);
+  }
+  .ob3-outcomes-list li {
+    display: flex;
+    gap: var(--space-xs);
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .ob3-check {
+    color: var(--brand-purple);
+    font-weight: 700;
+    flex: 0 0 auto;
+  }
+  .ob3-support {
+    margin-top: var(--space-lg);
+    padding: var(--space-md);
+    background: var(--brand-blue);
+    color: var(--text-inverse);
+    border-radius: var(--radius-md);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .ob3-support strong { color: var(--text-inverse); }
+</style>
+
+<div class="footer-band">
+  <div class="footer-band-label">DonorDock · Custom Proposal for The Well Summit · May 2026</div>
+  <div class="footer-band-right">donordock.com</div>
+</div>
+
+<style>
+  .footer-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--border-light);
+    font-size: var(--type-small-size);
+    line-height: var(--type-small-line);
+    color: var(--text-muted);
+  }
+  .footer-band-label {
+    color: var(--text-muted);
+  }
+  .footer-band-right {
+    color: var(--text-muted);
+  }
+</style>
+
+</section>
+<section class="page">
+<div class="header-band">
+  <img
+    src="../../assets/logo/donordock-logo-dark.svg"
+    alt="DonorDock"
+    class="header-band-logo"
+  />
+  <div class="header-band-label ">
+    The Well Summit
+  </div>
+</div>
+
+<style>
+  .header-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .header-band-logo {
+    height: 26px;
+    width: auto;
+  }
+  .header-band-label {
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+  .header-band-label--light {
+    color: var(--text-on-dark);
+  }
+</style>
+
+<div class="pcp-block">
+
+  <div class="pcp-eyebrow">Investment Summary</div>
+
+  <h2 class="pcp-title">
+    One plan. One price.<br />
+    <span class="highlight-purple">Everything included.</span>
+  </h2>
+
+  <p class="pcp-subtitle">One flat annual subscription — no per-contact fees, no feature tiers, no contracts.</p>
+
+  <div class="pcp-price-card">
+    <div class="pcp-price-amount-block">
+      <span class="pcp-price-amount">$500</span>
+      <span class="pcp-price-period">/month</span>
+    </div>
+    <div class="pcp-price-note">$6,000 billed annually</div>
+    <div class="pcp-price-chips">
+      <span class="chip chip-purple-outline">All features included</span>
+      <span class="chip chip-purple-outline">Unlimited contacts</span>
+      <span class="chip chip-purple-outline">No contracts</span>
+      <span class="chip chip-purple-outline">90-day guarantee</span>
+    </div>
+  </div>
+
+  <div class="pcp-detail-grid">
+    <div class="pcp-included">
+      <h4 class="pcp-included-title">Everything included</h4>
+      <ul class="pcp-included-list">
+        <li><span class="pcp-check">✓</span><span>Donor Management CRM (unlimited contacts)</span></li>
+        <li><span class="pcp-check">✓</span><span>Email marketing (10,000/month + rollover credits)</span></li>
+        <li><span class="pcp-check">✓</span><span>Text messaging (1,000/month + rollover credits)</span></li>
+        <li><span class="pcp-check">✓</span><span>Unlimited giving pages and camper support pages</span></li>
+        <li><span class="pcp-check">✓</span><span>Otto AI assistant and Smart Nudges</span></li>
+        <li><span class="pcp-check">✓</span><span>Automations, pipelines, and project management</span></li>
+        <li><span class="pcp-check">✓</span><span>White glove data migration (included at no extra cost)</span></li>
+        <li><span class="pcp-check">✓</span><span>90-day Premium Onboarding program</span></li>
+        <li><span class="pcp-check">✓</span><span>Dedicated Customer Success Manager (ongoing)</span></li>
+        <li><span class="pcp-check">✓</span><span>5 users included</span></li>
+      </ul>
+    </div>
+
+    <div class="pcp-sidebar">
+      <h4 class="pcp-sidebar-title">For your Lily Foundation proposal</h4>
+      <p class="pcp-sidebar-body">This is an organizational capacity-building investment that enables The Well Summit to:</p>
+      <ul class="pcp-sidebar-list">
+        <li><span class="pcp-arrow">→</span><span>Build a sustainable individual giving program for the first time</span></li>
+        <li><span class="pcp-arrow">→</span><span>Manage grant relationships and track applications systematically</span></li>
+        <li><span class="pcp-arrow">→</span><span>Steward major donors, corporate sponsors, and recurring givers from one platform</span></li>
+        <li><span class="pcp-arrow">→</span><span>Reduce admin drag so staff can focus on ministry and mission</span></li>
+        <li><span class="pcp-arrow">→</span><span>Produce reporting and data accountability required for future grant compliance</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="pcp-guarantee">
+    <div class="pcp-guarantee-title">90-day money-back guarantee</div>
+    <p class="pcp-guarantee-body">If DonorDock isn&#x27;t the right fit in the first 90 days, you get a full refund — no questions asked.</p>
+  </div>
+
+</div>
+
+<style>
+  .pcp-block { padding-top: var(--space-lg); }
+  .pcp-eyebrow {
+    display: inline-flex; align-items: center;
+    padding: 0.375rem 0.875rem;
+    background: var(--brand-purple-light);
+    color: var(--brand-purple);
+    border-radius: var(--radius-pill);
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+  }
+  .pcp-title { margin-top: var(--space-md); color: var(--text-primary); }
+  .pcp-subtitle {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    max-width: 65ch;
+  }
+  .pcp-price-card {
+    margin-top: var(--space-lg);
+    padding: var(--space-lg);
+    background: var(--brand-purple);
+    color: var(--text-inverse);
+    border-radius: var(--radius-lg);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    gap: var(--space-xs) var(--space-lg);
+    align-items: center;
+  }
+  .pcp-price-amount-block {
+    grid-row: span 2;
+    display: flex;
+    align-items: baseline;
+    gap: 0.25rem;
+  }
+  .pcp-price-amount {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--text-inverse);
+  }
+  .pcp-price-period {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-on-dark);
+  }
+  .pcp-price-note {
+    color: var(--text-on-dark);
+    font-size: var(--type-small-size);
+  }
+  .pcp-price-chips {
+    display: flex;
+    gap: var(--space-xs);
+    flex-wrap: wrap;
+  }
+  .pcp-detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    margin-top: var(--space-md);
+  }
+  .pcp-included,
+  .pcp-sidebar {
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background: var(--bg-white);
+    box-shadow: var(--shadow-sm);
+  }
+  .pcp-sidebar {
+    background: var(--bg-light-purple);
+  }
+  .pcp-included-title,
+  .pcp-sidebar-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: var(--space-sm);
+    color: var(--text-primary);
+  }
+  .pcp-sidebar-title { color: var(--brand-purple); }
+  .pcp-sidebar-body {
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+    margin-bottom: var(--space-sm);
+  }
+  .pcp-included-list,
+  .pcp-sidebar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .pcp-included-list li,
+  .pcp-sidebar-list li {
+    display: flex;
+    gap: var(--space-xs);
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .pcp-check, .pcp-arrow {
+    flex: 0 0 auto;
+    color: var(--brand-purple);
+    font-weight: 700;
+  }
+  .pcp-arrow { opacity: 0.7; }
+  .pcp-guarantee {
+    margin-top: var(--space-md);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--green-light);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+  }
+  .pcp-guarantee-title {
+    font-weight: 700;
+    color: #166534;
+    font-size: var(--type-small-size);
+  }
+  .pcp-guarantee-body {
+    margin-top: 0.25rem;
+    color: #166534;
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+</style>
+
+<div class="footer-band">
+  <div class="footer-band-label">DonorDock · Custom Proposal for The Well Summit · May 2026</div>
+  <div class="footer-band-right">donordock.com</div>
+</div>
+
+<style>
+  .footer-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--border-light);
+    font-size: var(--type-small-size);
+    line-height: var(--type-small-line);
+    color: var(--text-muted);
+  }
+  .footer-band-label {
+    color: var(--text-muted);
+  }
+  .footer-band-right {
+    color: var(--text-muted);
+  }
+</style>
+
+</section>
+<section class="page">
+<div class="header-band">
+  <img
+    src="../../assets/logo/donordock-logo-dark.svg"
+    alt="DonorDock"
+    class="header-band-logo"
+  />
+  <div class="header-band-label ">
+    The Well Summit
+  </div>
+</div>
+
+<style>
+  .header-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .header-band-logo {
+    height: 26px;
+    width: auto;
+  }
+  .header-band-label {
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+  .header-band-label--light {
+    color: var(--text-on-dark);
+  }
+</style>
+
+<div class="wdd-block">
+
+  <div class="wdd-eyebrow">Why DonorDock</div>
+
+  <h2 class="wdd-title">
+    More than a platform.<br />
+    <span class="highlight-purple">A partnership.</span>
+  </h2>
+
+  <p class="wdd-subtitle">You&#x27;re choosing who you&#x27;ll work with as the technology under your mission evolves. Here&#x27;s why 1,200+ nonprofits trust DonorDock.</p>
+
+  <div class="wdd-stats">
+    <div class="wdd-stat wdd-stat--yellow">
+      <div class="wdd-stat-value">4.8<span class="star">★</span></div>
+      <div class="wdd-stat-label">G2 and Capterra average rating</div>
+    </div>
+    <div class="wdd-stat wdd-stat--purple">
+      <div class="wdd-stat-value">1,200+</div>
+      <div class="wdd-stat-label">Nonprofits on the platform</div>
+    </div>
+    <div class="wdd-stat wdd-stat--purple">
+      <div class="wdd-stat-value">2x/wk</div>
+      <div class="wdd-stat-label">Platform updates shipped</div>
+    </div>
+    <div class="wdd-stat wdd-stat--purple">
+      <div class="wdd-stat-value">3.5x</div>
+      <div class="wdd-stat-label">Faster setup vs. industry average</div>
+    </div>
+  </div>
+
+  <div class="wdd-detail-grid">
+    <div class="wdd-narrative">
+      <h4 class="wdd-narrative-title">Built from day one for nonprofits</h4>
+      <p class="wdd-narrative-body">DonorDock was founded in 2017 by two Microsoft engineers who wanted to build something genuinely useful for nonprofits in their community — not an enterprise CRM with a nonprofit skin, but a platform purpose-built for how fundraising teams actually work.</p>
+      <p class="wdd-narrative-body">Everything in DonorDock was built by our team from the ground up. No acquired tools taped together. That&#x27;s why the platform feels coherent — because it is.</p>
+
+      <div class="wdd-context-card">
+        <h5 class="wdd-context-title">Also relevant for The Well Summit</h5>
+        <ul class="wdd-context-list">
+          <li><span class="wdd-arrow">→</span><span>Native QuickBooks integration for accounting reconciliation</span></li>
+          <li><span class="wdd-arrow">→</span><span>One Cause integration — a platform you know from Habitat for Humanity</span></li>
+          <li><span class="wdd-arrow">→</span><span>Zapier connects to 5,000+ apps and services</span></li>
+          <li><span class="wdd-arrow">→</span><span>Over 100 integrations included at no extra cost</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="wdd-right">
+      <div class="wdd-recognition">
+        <h4 class="wdd-recognition-title">G2 Recognition</h4>
+        <div class="wdd-badges">
+          <div class="wdd-badge">#1 Easiest to Use</div>
+          <div class="wdd-badge">#1 Best Support</div>
+          <div class="wdd-badge">#1 Easiest Setup</div>
+          <div class="wdd-badge">Momentum Leader</div>
+        </div>
+      </div>
+
+      <blockquote class="wdd-quote">
+        <p>You&#x27;re not just buying a tool. You&#x27;re really partnering with an organization. Especially with how fast technology is changing — what matters is what the partnership looks like over the long haul.</p>
+        <div class="wdd-quote-attribution">— DonorDock partnership philosophy</div>
+      </blockquote>
+    </div>
+  </div>
+
+</div>
+
+<style>
+  .wdd-block { padding-top: var(--space-lg); }
+  .wdd-eyebrow {
+    display: inline-flex; align-items: center;
+    padding: 0.375rem 0.875rem;
+    background: var(--brand-purple-light);
+    color: var(--brand-purple);
+    border-radius: var(--radius-pill);
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+  }
+  .wdd-title { margin-top: var(--space-md); color: var(--text-primary); }
+  .wdd-subtitle {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    max-width: 65ch;
+  }
+  .wdd-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+    padding-bottom: var(--space-md);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .wdd-stat-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--brand-purple);
+  }
+  .wdd-stat--blue   .wdd-stat-value { color: var(--brand-blue);   }
+  .wdd-stat--green  .wdd-stat-value { color: var(--green);        }
+  .wdd-stat--yellow .wdd-stat-value,
+  .wdd-stat--yellow .wdd-stat-value .star { color: var(--yellow); }
+  .wdd-stat--orange .wdd-stat-value { color: var(--orange);       }
+  .wdd-stat--purple .wdd-stat-value { color: var(--brand-purple); }
+  .wdd-stat-value .star {
+    margin-left: 0.05em;
+  }
+  .wdd-stat-label {
+    margin-top: 0.25rem;
+    font-size: var(--type-small-size);
+    color: var(--text-tertiary);
+    line-height: 1.3;
+  }
+  .wdd-detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin-top: var(--space-lg);
+  }
+  .wdd-narrative-title {
+    color: var(--text-primary);
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: var(--space-sm);
+  }
+  .wdd-narrative-body {
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.6;
+    margin-bottom: var(--space-sm);
+  }
+  .wdd-context-card {
+    margin-top: var(--space-md);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--bg-cream);
+    border-radius: var(--radius-md);
+  }
+  .wdd-context-title {
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--space-xs);
+    font-size: 0.95rem;
+  }
+  .wdd-context-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .wdd-context-list li {
+    display: flex;
+    gap: var(--space-xs);
+    font-size: var(--type-small-size);
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+  .wdd-arrow {
+    color: var(--brand-purple);
+    flex: 0 0 auto;
+    opacity: 0.7;
+  }
+  .wdd-right {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+  .wdd-recognition-title {
+    color: var(--text-primary);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: var(--space-sm);
+  }
+  .wdd-badges {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xs);
+  }
+  .wdd-badge {
+    padding: var(--space-sm);
+    background: var(--bg-white);
+    border: 1px solid var(--border-default);
+    border-radius: var(--radius-md);
+    font-size: var(--type-small-size);
+    font-weight: 700;
+    color: var(--text-primary);
+    text-align: center;
+  }
+  .wdd-quote {
+    padding: var(--space-md);
+    background: var(--bg-cream);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+  }
+  .wdd-quote p {
+    color: var(--text-primary);
+    font-style: italic;
+    font-size: var(--type-small-size);
+    line-height: 1.6;
+  }
+  .wdd-quote-attribution {
+    margin-top: var(--space-xs);
+    font-size: var(--type-small-size);
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+</style>
+
+<div class="footer-band">
+  <div class="footer-band-label">DonorDock · Custom Proposal for The Well Summit · May 2026</div>
+  <div class="footer-band-right">donordock.com</div>
+</div>
+
+<style>
+  .footer-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--border-light);
+    font-size: var(--type-small-size);
+    line-height: var(--type-small-line);
+    color: var(--text-muted);
+  }
+  .footer-band-label {
+    color: var(--text-muted);
+  }
+  .footer-band-right {
+    color: var(--text-muted);
+  }
+</style>
+
+</section>
+<section class="page">
+<div class="header-band">
+  <img
+    src="../../assets/logo/donordock-logo-dark.svg"
+    alt="DonorDock"
+    class="header-band-logo"
+  />
+  <div class="header-band-label ">
+    The Well Summit
+  </div>
+</div>
+
+<style>
+  .header-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .header-band-logo {
+    height: 26px;
+    width: auto;
+  }
+  .header-band-label {
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+  .header-band-label--light {
+    color: var(--text-on-dark);
+  }
+</style>
+
+<div class="nsn-block">
+
+  <div class="nsn-eyebrow">Next Steps</div>
+
+  <h2 class="nsn-title">
+    Ready when<br />
+    <span class="highlight-purple">you are.</span>
+  </h2>
+
+  <p class="nsn-subtitle">This document is designed to be shared with your team and used to support your Lily Foundation grant proposal. Here&#x27;s how to move forward.</p>
+
+  <ol class="nsn-steps">
+    <li class="nsn-step">
+      <div class="nsn-step-num"></div>
+      <div class="nsn-step-body">
+        <h4 class="nsn-step-heading">Share this with your team</h4>
+        <p class="nsn-step-text">Review the platform overview and investment summary with your leadership team and board. Your husband&#x27;s familiarity with HubSpot will help frame the comparison — DonorDock is the same architecture, built for nonprofit fundraising rather than B2B sales. Same mental model. Better fit for your work.</p>
+      </div>
+    </li>
+    <li class="nsn-step">
+      <div class="nsn-step-num"></div>
+      <div class="nsn-step-body">
+        <h4 class="nsn-step-heading">Name DonorDock in your Lily Foundation proposal</h4>
+        <p class="nsn-step-text">This document provides the platform overview, pricing, and organizational rationale you need for your grant narrative. If you need a letter of intent, additional technical specifications, or any supporting materials for the application, reach out — we&#x27;re glad to support it directly.</p>
+      </div>
+    </li>
+    <li class="nsn-step">
+      <div class="nsn-step-num"></div>
+      <div class="nsn-step-body">
+        <h4 class="nsn-step-heading">Come back when you&#x27;re ready to move</h4>
+        <p class="nsn-step-text">No pressure to engage before funding is in place. When the grant comes through, DonorDock will be ready. We&#x27;re rated #1 Easiest Setup on G2 — most teams are fully live in days, not months. Your 90-day onboarding program means you&#x27;ll have a dedicated team from day one.</p>
+      </div>
+    </li>
+  </ol>
+
+  <div class="nsn-contact">
+    <div class="nsn-contact-left">
+      <div class="nsn-contact-name">Noah Barnett</div>
+      <div class="nsn-contact-role">Account Executive, DonorDock</div>
+      <div class="nsn-contact-meta">
+        <div>nbarnett@donordock.com</div>
+        <div>donordock.com</div>
+      </div>
+    </div>
+    <div class="nsn-contact-right">
+      <div class="nsn-cta-msg">Questions? We&#x27;re easy to reach.</div>
+      <a class="nsn-cta-btn">Schedule a Call</a>
+    </div>
+  </div>
+
+</div>
+
+<style>
+  .nsn-block { padding-top: var(--space-lg); }
+  .nsn-eyebrow {
+    display: inline-flex; align-items: center;
+    padding: 0.375rem 0.875rem;
+    background: var(--brand-purple-light);
+    color: var(--brand-purple);
+    border-radius: var(--radius-pill);
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+  }
+  .nsn-title { margin-top: var(--space-md); color: var(--text-primary); }
+  .nsn-subtitle {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    max-width: 65ch;
+  }
+  .nsn-steps {
+    margin-top: var(--space-lg);
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    counter-reset: step;
+  }
+  .nsn-step {
+    display: flex;
+    gap: var(--space-md);
+    padding: var(--space-md) 0;
+    border-bottom: 1px solid var(--border-light);
+    counter-increment: step;
+  }
+  .nsn-step:last-child { border-bottom: none; }
+  .nsn-step-num {
+    flex: 0 0 auto;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--brand-purple);
+    color: var(--text-inverse);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+  }
+  .nsn-step-num::before {
+    content: counter(step);
+  }
+  .nsn-step-heading {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  .nsn-step-text {
+    margin-top: 0.25rem;
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.6;
+  }
+  .nsn-contact {
+    margin-top: var(--space-lg);
+    padding: var(--space-md) var(--space-lg);
+    background: var(--brand-purple);
+    color: var(--text-inverse);
+    border-radius: var(--radius-md);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-md);
+  }
+  .nsn-contact-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-inverse);
+  }
+  .nsn-contact-role {
+    margin-top: 0.125rem;
+    color: var(--text-on-dark);
+    font-size: var(--type-small-size);
+  }
+  .nsn-contact-meta {
+    margin-top: var(--space-xs);
+    color: var(--text-on-dark);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .nsn-contact-right {
+    text-align: right;
+  }
+  .nsn-cta-msg {
+    color: var(--text-on-dark);
+    font-size: var(--type-small-size);
+    margin-bottom: var(--space-xs);
+  }
+  .nsn-cta-btn {
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    background: var(--bg-cream);
+    color: var(--brand-purple);
+    border-radius: var(--radius-pill);
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+</style>
+
+<div class="footer-band">
+  <div class="footer-band-label">DonorDock · Custom Proposal for The Well Summit · May 2026</div>
+  <div class="footer-band-right">donordock.com</div>
+</div>
+
+<style>
+  .footer-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--border-light);
+    font-size: var(--type-small-size);
+    line-height: var(--type-small-line);
+    color: var(--text-muted);
+  }
+  .footer-band-label {
+    color: var(--text-muted);
+  }
+  .footer-band-right {
+    color: var(--text-muted);
+  }
+</style>
+
+</section>
+<!-- built by build.js · 2026-05-19T15:49:08.478Z -->
+</body>
+</html>

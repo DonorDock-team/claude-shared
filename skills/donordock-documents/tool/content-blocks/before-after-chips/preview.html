@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>before-after-chips — preview</title>
+  <link rel="stylesheet" href="../../tokens.css" />
+  <link rel="stylesheet" href="../../base.css" />
+  <style>
+    /* Screen viewing chrome — not present in PDF output */
+    body { background: #E5E7EB; padding: 2rem; }
+    .preview-frame {
+      max-width: 8.5in;
+      margin: 0 auto;
+      box-shadow: var(--shadow-lg);
+      background: var(--bg-white);
+    }
+    .preview-label {
+      max-width: 8.5in;
+      margin: 0 auto 1rem;
+      font-family: var(--font-primary);
+      font-size: 0.75rem;
+      color: #6B7280;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-label">Content block · before-after-chips · rendered with sample-data.json</div>
+  <div class="preview-frame">
+    <div class="bac">
+  <div class="bac-grid">
+
+    <div class="bac-col bac-col--today">
+      <div class="bac-label">MHF Today</div>
+      <div class="bac-chips">
+        <span class="bac-chip bac-chip--strike">Constant Contact</span>
+        <span class="bac-chip bac-chip--strike">Old CRM (2015 data)</span>
+        <span class="bac-chip bac-chip--strike">Sign Up Genius</span>
+        <span class="bac-chip bac-chip--strike">Donor spreadsheets</span>
+        <span class="bac-chip bac-chip--strike">Manual receipts</span>
+        <span class="bac-chip bac-chip--kept">GoFundMe Pro · kept</span>
+      </div>
+      <p class="bac-foot">Plus the staff hours these are costing you every week.</p>
+    </div>
+
+    <div class="bac-arrow">→</div>
+
+    <div class="bac-col bac-col--after">
+      <div class="bac-label bac-label--after">After DonorDock</div>
+      <div class="bac-chips">
+        <span class="bac-chip bac-chip--after">CRM</span>
+        <span class="bac-chip bac-chip--after">Email</span>
+        <span class="bac-chip bac-chip--after">Texting</span>
+        <span class="bac-chip bac-chip--after">Volunteer forms</span>
+        <span class="bac-chip bac-chip--after">Online giving</span>
+        <span class="bac-chip bac-chip--after">Automations</span>
+        <span class="bac-chip bac-chip--after">Reporting</span>
+        <span class="bac-chip bac-chip--after">QuickBooks sync</span>
+      </div>
+      <p class="bac-foot">GoFundMe Pro events + P2P sync into DonorDock automatically.</p>
+    </div>
+
+  </div>
+</div>
+
+<style>
+  .bac {
+    padding: var(--space-md);
+    background: var(--bg-cream);
+    border-radius: var(--radius-md);
+  }
+  .bac-grid {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: var(--space-md);
+    align-items: start;
+  }
+  .bac-label {
+    font-size: var(--type-overline-size);
+    font-weight: 700;
+    letter-spacing: var(--type-overline-tracking);
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+    margin-bottom: var(--space-xs);
+  }
+  .bac-label--after { color: var(--brand-purple); }
+  .bac-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+  }
+  .bac-chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.4rem 0.875rem;
+    border-radius: var(--radius-pill);
+    font-size: var(--type-small-size);
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+  }
+  .bac-chip--strike {
+    background: transparent;
+    color: var(--text-muted);
+    border: 1px solid var(--border-default);
+    text-decoration: line-through;
+  }
+  .bac-chip--kept {
+    background: var(--yellow);
+    color: var(--text-primary);
+  }
+  .bac-chip--after {
+    background: var(--brand-purple);
+    color: var(--text-inverse);
+  }
+  .bac-arrow {
+    color: var(--brand-purple);
+    font-size: 1.75rem;
+    align-self: center;
+    padding-top: 1.25rem;
+  }
+  .bac-foot {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+</style>
+
+  </div>
+</body>
+</html>

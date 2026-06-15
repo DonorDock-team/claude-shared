@@ -1,0 +1,198 @@
+{{!--
+  pricing-card-purple — investment summary page. Big purple price card up top,
+  two-column breakdown below (included list + contextual sidebar), optional
+  guarantee callout at the bottom.
+
+  Required slots: title, highlight, subtitle, price, included
+  Optional slots: eyebrow (default "Investment Summary"), sidebar, guarantee
+--}}
+<div class="pcp-block">
+
+  <div class="pcp-eyebrow">{{#if eyebrow}}{{eyebrow}}{{else}}Investment Summary{{/if}}</div>
+
+  <h2 class="pcp-title">
+    {{title}}<br />
+    <span class="highlight-purple">{{highlight}}</span>
+  </h2>
+
+  <p class="pcp-subtitle">{{subtitle}}</p>
+
+  <div class="pcp-price-card">
+    <div class="pcp-price-amount-block">
+      <span class="pcp-price-amount">{{price.amount}}</span>
+      <span class="pcp-price-period">{{price.period}}</span>
+    </div>
+    {{#if price.billing_note}}
+    <div class="pcp-price-note">{{price.billing_note}}</div>
+    {{/if}}
+    {{#if price.chips}}
+    <div class="pcp-price-chips">
+      {{#each price.chips}}
+      <span class="chip chip-purple-outline">{{this}}</span>
+      {{/each}}
+    </div>
+    {{/if}}
+  </div>
+
+  <div class="pcp-detail-grid">
+    <div class="pcp-included">
+      <h4 class="pcp-included-title">{{included.title}}</h4>
+      <ul class="pcp-included-list">
+        {{#each included.items}}
+        <li><span class="pcp-check">✓</span><span>{{this}}</span></li>
+        {{/each}}
+      </ul>
+    </div>
+
+    {{#if sidebar}}
+    <div class="pcp-sidebar">
+      <h4 class="pcp-sidebar-title">{{sidebar.title}}</h4>
+      {{#if sidebar.body}}<p class="pcp-sidebar-body">{{sidebar.body}}</p>{{/if}}
+      {{#if sidebar.items}}
+      <ul class="pcp-sidebar-list">
+        {{#each sidebar.items}}
+        <li><span class="pcp-arrow">→</span><span>{{this}}</span></li>
+        {{/each}}
+      </ul>
+      {{/if}}
+    </div>
+    {{/if}}
+  </div>
+
+  {{#if guarantee}}
+  <div class="pcp-guarantee">
+    <div class="pcp-guarantee-title">{{guarantee.title}}</div>
+    <p class="pcp-guarantee-body">{{guarantee.body}}</p>
+  </div>
+  {{/if}}
+
+</div>
+
+<style>
+  .pcp-block { padding-top: var(--space-lg); }
+  .pcp-eyebrow {
+    display: inline-flex; align-items: center;
+    padding: 0.375rem 0.875rem;
+    background: var(--brand-purple-light);
+    color: var(--brand-purple);
+    border-radius: var(--radius-pill);
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+  }
+  .pcp-title { margin-top: var(--space-md); color: var(--text-primary); }
+  .pcp-subtitle {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    max-width: 65ch;
+  }
+  .pcp-price-card {
+    margin-top: var(--space-lg);
+    padding: var(--space-lg);
+    background: var(--brand-purple);
+    color: var(--text-inverse);
+    border-radius: var(--radius-lg);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    gap: var(--space-xs) var(--space-lg);
+    align-items: center;
+  }
+  .pcp-price-amount-block {
+    grid-row: span 2;
+    display: flex;
+    align-items: baseline;
+    gap: 0.25rem;
+  }
+  .pcp-price-amount {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--text-inverse);
+  }
+  .pcp-price-period {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-on-dark);
+  }
+  .pcp-price-note {
+    color: var(--text-on-dark);
+    font-size: var(--type-small-size);
+  }
+  .pcp-price-chips {
+    display: flex;
+    gap: var(--space-xs);
+    flex-wrap: wrap;
+  }
+  .pcp-detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    margin-top: var(--space-md);
+  }
+  .pcp-included,
+  .pcp-sidebar {
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background: var(--bg-white);
+    box-shadow: var(--shadow-sm);
+  }
+  .pcp-sidebar {
+    background: var(--bg-light-purple);
+  }
+  .pcp-included-title,
+  .pcp-sidebar-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: var(--space-sm);
+    color: var(--text-primary);
+  }
+  .pcp-sidebar-title { color: var(--brand-purple); }
+  .pcp-sidebar-body {
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+    margin-bottom: var(--space-sm);
+  }
+  .pcp-included-list,
+  .pcp-sidebar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .pcp-included-list li,
+  .pcp-sidebar-list li {
+    display: flex;
+    gap: var(--space-xs);
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .pcp-check, .pcp-arrow {
+    flex: 0 0 auto;
+    color: var(--brand-purple);
+    font-weight: 700;
+  }
+  .pcp-arrow { opacity: 0.7; }
+  .pcp-guarantee {
+    margin-top: var(--space-md);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--green-light);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+  }
+  .pcp-guarantee-title {
+    font-weight: 700;
+    color: #166534;
+    font-size: var(--type-small-size);
+  }
+  .pcp-guarantee-body {
+    margin-top: 0.25rem;
+    color: #166534;
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+</style>

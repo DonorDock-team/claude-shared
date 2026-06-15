@@ -1,0 +1,447 @@
+/*
+ * DonorDock Document — Base Styles
+ *
+ * Print-targeted reset, page sizing, global typography, and page-break rules.
+ * Every content block inherits from these. The brand-auditor verifies content
+ * blocks never override fundamental rules (font-family, base spacing scale).
+ *
+ * Page size: US Letter (8.5" x 11"). Margins built into base, NOT into blocks.
+ */
+
+/* =============================================================================
+ * RESET
+ * Minimal — keeps semantics, kills inconsistent UA defaults.
+ * ========================================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* =============================================================================
+ * PAGE
+ * @page controls how each PDF page is laid out. Letter portrait, 0.6" margins.
+ * Cover-purple block overrides with .page-cover to remove margins (full bleed).
+ * ========================================================================== */
+@page {
+  size: Letter portrait;
+  margin: 0.6in 0.55in;
+}
+
+@page :first {
+  margin: 0;  /* cover page is full-bleed */
+}
+
+html,
+body {
+  font-family: var(--font-primary);
+  font-size: var(--type-body-size);
+  font-weight: var(--type-body-weight);
+  line-height: var(--type-body-line);
+  color: var(--text-primary);
+  background: var(--bg-white);
+
+  /* Render colors faithfully when printing to PDF */
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+
+  /* Smoother font rendering in PDF output */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* =============================================================================
+ * DOCUMENT WRAPPER
+ * Each rendered page is a .page element. The renderer concatenates pages.
+ * ========================================================================== */
+.page {
+  position: relative;
+  width: 100%;
+  /* Letter content area at @page margin 0.6"/0.55": 7.4" x 9.8" */
+  page-break-after: always;
+  break-after: page;
+}
+
+.page:last-child {
+  page-break-after: auto;
+  break-after: auto;
+}
+
+.page-cover {
+  /* Full-bleed cover (no @page margins on :first) */
+  width: 8.5in;
+  height: 11in;
+  padding: var(--space-4xl) var(--space-3xl);
+  display: flex;
+  flex-direction: column;
+  page-break-after: always;
+  break-after: page;
+}
+
+/* Cover layout regions — header (top), hero (flexible middle), meta (bottom) */
+.cover-header { flex: 0 0 auto; }
+.cover-hero   { flex: 1 1 auto; display: flex; flex-direction: column; justify-content: center; }
+.cover-meta   { flex: 0 0 auto; }
+
+/* =============================================================================
+ * TYPOGRAPHY
+ * Tag-level defaults so content blocks don't redefine for every element.
+ * Margin only set on bottom — vertical rhythm comes from container gap.
+ * ========================================================================== */
+h1 {
+  font-family: var(--font-primary);
+  font-size: var(--type-h1-size);
+  font-weight: var(--type-h1-weight);
+  line-height: var(--type-h1-line);
+  letter-spacing: var(--type-h1-tracking);
+  color: var(--text-primary);
+}
+
+h2 {
+  font-family: var(--font-primary);
+  font-size: var(--type-h2-size);
+  font-weight: var(--type-h2-weight);
+  line-height: var(--type-h2-line);
+  letter-spacing: var(--type-h2-tracking);
+  color: var(--text-primary);
+}
+
+h3 {
+  font-family: var(--font-primary);
+  font-size: var(--type-h3-size);
+  font-weight: var(--type-h3-weight);
+  line-height: var(--type-h3-line);
+  letter-spacing: var(--type-h3-tracking);
+  color: var(--text-primary);
+}
+
+h4 {
+  font-family: var(--font-primary);
+  font-size: var(--type-h4-size);
+  font-weight: var(--type-h4-weight);
+  line-height: var(--type-h4-line);
+  letter-spacing: var(--type-h4-tracking);
+  color: var(--text-primary);
+}
+
+h5 {
+  font-family: var(--font-primary);
+  font-size: var(--type-h5-size);
+  font-weight: var(--type-h5-weight);
+  line-height: var(--type-h5-line);
+  color: var(--text-primary);
+}
+
+h6 {
+  font-family: var(--font-primary);
+  font-size: var(--type-h6-size);
+  font-weight: var(--type-h6-weight);
+  line-height: var(--type-h6-line);
+  color: var(--text-primary);
+}
+
+p {
+  font-family: var(--font-primary);
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-line);
+  color: var(--text-secondary);
+}
+
+strong,
+b {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+small {
+  font-size: var(--type-small-size);
+  line-height: var(--type-small-line);
+}
+
+/* Inline colored text — NO backdrop. For subtle emphasis only. */
+.text-accent {
+  color: var(--brand-purple);
+}
+
+.text-accent-blue {
+  color: var(--brand-blue);
+}
+
+.text-inverse {
+  color: var(--text-inverse);
+}
+
+/* =============================================================================
+ * HIGHLIGHT BACKDROPS
+ *
+ * Brand pattern for emphasized phrases inside headings:
+ *   "Your fundraising, <span class="highlight-purple">all in one place</span>."
+ *
+ * The phrase gets a rounded-corner colored backdrop AND colored text. Works
+ * across multiple lines via `box-decoration-break: clone` — each wrapped line
+ * gets its own rounded chip.
+ *
+ * The same .highlight-purple works on both light and purple backgrounds because
+ * its colors are absolute (not surrounding-aware). On a purple cover, the
+ * light-purple chip with dark-purple text reads as a sticker — high contrast.
+ * On a cream interior page, it's a subtle pill.
+ *
+ * For navy/dark callouts, use .highlight-cream which inverts the polarity.
+ * ========================================================================== */
+.highlight-purple {
+  background: var(--brand-purple-light);
+  color: var(--brand-purple);
+  padding: 0.05em 0.3em;
+  border-radius: 0.35em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.highlight-blue {
+  background: #DBEAFE;             /* a light tint of --brand-blue */
+  color: var(--brand-blue);
+  padding: 0.05em 0.3em;
+  border-radius: 0.35em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.highlight-on-purple {
+  /* Highlight chip for purple/dark backgrounds — cream chip with brand-purple
+     text. Reads as a clean "sticker" against the purple field. */
+  background: var(--bg-cream);
+  color: var(--brand-purple);
+  padding: 0.05em 0.3em;
+  border-radius: 0.35em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* =============================================================================
+ * UTILITY TYPOGRAPHY CLASSES
+ * Specific patterns sales documents need — defined once, used everywhere.
+ * ========================================================================== */
+.text-label {
+  /* Uppercase eyebrow label above section headings — "YOUR MOMENT" */
+  font-family: var(--font-primary);
+  font-size: var(--type-label-size);
+  font-weight: var(--type-label-weight);
+  letter-spacing: var(--type-label-tracking);
+  text-transform: uppercase;
+  color: var(--brand-purple);
+}
+
+.text-overline {
+  font-size: var(--type-overline-size);
+  font-weight: var(--type-overline-weight);
+  letter-spacing: var(--type-overline-tracking);
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+
+.text-meta {
+  font-size: var(--type-small-size);
+  line-height: var(--type-small-line);
+  color: var(--text-muted);
+}
+
+/* =============================================================================
+ * PAGE BREAK CONTROL
+ * Content blocks signal where they want pages to break.
+ * ========================================================================== */
+.page-break {
+  page-break-after: always;
+  break-after: page;
+}
+
+.avoid-break {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* Don't orphan a heading at the bottom of a page */
+h1, h2, h3, h4, h5, h6 {
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
+/* Keep paragraphs and list items together */
+p, li {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  orphans: 3;
+  widows: 3;
+}
+
+/* =============================================================================
+ * COMMON LAYOUT HELPERS
+ * Used inside content blocks. Keeping these in base.css ensures every block
+ * uses the same spacing scale and flex/grid behavior.
+ * ========================================================================== */
+.stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.stack-xs > * + * { margin-top: var(--space-xs); }
+.stack-sm > * + * { margin-top: var(--space-sm); }
+.stack-md > * + * { margin-top: var(--space-md); }
+.stack-lg > * + * { margin-top: var(--space-lg); }
+.stack-xl > * + * { margin-top: var(--space-xl); }
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.row-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-md);
+}
+
+/* =============================================================================
+ * COMMON UI ATOMS
+ * Reused across content blocks. Defined here to guarantee consistency.
+ * ========================================================================== */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-pill);
+  font-size: var(--type-small-size);
+  font-weight: 600;
+  line-height: 1;
+}
+
+.chip-purple {
+  background: var(--brand-purple);
+  color: var(--text-inverse);
+}
+
+.chip-purple-outline {
+  background: transparent;
+  color: var(--text-inverse);
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.chip-light {
+  background: var(--brand-purple-light);
+  color: var(--brand-purple);
+}
+
+.chip-outline {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border-default);
+}
+
+.eyebrow-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.375rem 0.875rem;
+  background: var(--brand-purple-light);
+  color: var(--brand-purple);
+  border-radius: var(--radius-pill);
+  font-size: var(--type-label-size);
+  font-weight: var(--type-label-weight);
+  letter-spacing: var(--type-label-tracking);
+  text-transform: uppercase;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background: var(--border-light);
+}
+
+/* =============================================================================
+ * ACCENT CARD
+ *
+ * Canonical card pattern: subtle tinted background (or white) + soft elevation
+ * shadow + rounded corners. NO left-side color bar — that gets in the way of
+ * the clean, shadow-led elevation the brand uses.
+ *
+ * Variants tint the background to indicate sectional meaning. Mapping follows
+ * the brand-identity platform pillars:
+ *   blue   — CRM & Donor Management
+ *   green  — Outreach & Engagement
+ *   yellow — Online Giving
+ *   orange — Project Management & Activation
+ *   purple — Otto AI, automations, primary brand
+ *   coral  — alerts, attention
+ * ========================================================================== */
+.accent-card {
+  background: var(--bg-white);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  padding: var(--space-md);
+}
+
+/* Title/text accents (when only the heading should carry the sectional color) */
+.accent-card--blue   .accent-card-title { color: var(--brand-blue);   }
+.accent-card--green  .accent-card-title { color: var(--green);        }
+.accent-card--yellow .accent-card-title { color: #B45309;             }
+.accent-card--orange .accent-card-title { color: var(--orange);       }
+.accent-card--purple .accent-card-title { color: var(--brand-purple); }
+
+/* Tinted backgrounds — pair with .accent-card to indicate a sectional surface */
+.accent-card--bg-blue   { background: #EFF6FF;                  }
+.accent-card--bg-green  { background: var(--green-light);       }
+.accent-card--bg-yellow { background: var(--yellow-light);      }
+.accent-card--bg-orange { background: #FFF7ED;                  }
+.accent-card--bg-purple { background: var(--bg-light-purple);   }
+.accent-card--bg-cream  { background: var(--bg-cream);          }
+.accent-card--bg-coral  { background: #FEF2F2;                  }

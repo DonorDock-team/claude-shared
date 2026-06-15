@@ -1,0 +1,212 @@
+{{!--
+  why-donordock-stats — the "why us" page. Big stats row, then a two-column
+  block: brand-story narrative on the left (with an optional contextual
+  sub-card), G2 recognition badges + a pull quote on the right.
+
+  Required slots: title, highlight, subtitle, stats, narrative
+  Optional slots: eyebrow (default "Why DonorDock"), context_card,
+                  recognition, quote
+--}}
+<div class="wdd-block">
+
+  <div class="wdd-eyebrow">{{#if eyebrow}}{{eyebrow}}{{else}}Why DonorDock{{/if}}</div>
+
+  <h2 class="wdd-title">
+    {{title}}<br />
+    <span class="highlight-purple">{{highlight}}</span>
+  </h2>
+
+  <p class="wdd-subtitle">{{subtitle}}</p>
+
+  <div class="wdd-stats">
+    {{#each stats}}
+    <div class="wdd-stat wdd-stat--{{#if this.accent}}{{this.accent}}{{else}}purple{{/if}}">
+      <div class="wdd-stat-value">{{{this.value}}}</div>
+      <div class="wdd-stat-label">{{this.label}}</div>
+    </div>
+    {{/each}}
+  </div>
+
+  <div class="wdd-detail-grid">
+    <div class="wdd-narrative">
+      <h4 class="wdd-narrative-title">{{narrative.title}}</h4>
+      {{#each narrative.paragraphs}}
+      <p class="wdd-narrative-body">{{this}}</p>
+      {{/each}}
+
+      {{#if context_card}}
+      <div class="wdd-context-card">
+        <h5 class="wdd-context-title">{{context_card.title}}</h5>
+        <ul class="wdd-context-list">
+          {{#each context_card.items}}
+          <li><span class="wdd-arrow">→</span><span>{{this}}</span></li>
+          {{/each}}
+        </ul>
+      </div>
+      {{/if}}
+    </div>
+
+    <div class="wdd-right">
+      {{#if recognition}}
+      <div class="wdd-recognition">
+        <h4 class="wdd-recognition-title">{{recognition.title}}</h4>
+        <div class="wdd-badges">
+          {{#each recognition.badges}}
+          <div class="wdd-badge">{{this}}</div>
+          {{/each}}
+        </div>
+      </div>
+      {{/if}}
+
+      {{#if quote}}
+      <blockquote class="wdd-quote">
+        <p>{{quote.text}}</p>
+        <div class="wdd-quote-attribution">— {{quote.attribution}}</div>
+      </blockquote>
+      {{/if}}
+    </div>
+  </div>
+
+</div>
+
+<style>
+  .wdd-block { padding-top: var(--space-lg); }
+  .wdd-eyebrow {
+    display: inline-flex; align-items: center;
+    padding: 0.375rem 0.875rem;
+    background: var(--brand-purple-light);
+    color: var(--brand-purple);
+    border-radius: var(--radius-pill);
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+  }
+  .wdd-title { margin-top: var(--space-md); color: var(--text-primary); }
+  .wdd-subtitle {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    max-width: 65ch;
+  }
+  .wdd-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+    padding-bottom: var(--space-md);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .wdd-stat-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--brand-purple);
+  }
+  .wdd-stat--blue   .wdd-stat-value { color: var(--brand-blue);   }
+  .wdd-stat--green  .wdd-stat-value { color: var(--green);        }
+  .wdd-stat--yellow .wdd-stat-value,
+  .wdd-stat--yellow .wdd-stat-value .star { color: var(--yellow); }
+  .wdd-stat--orange .wdd-stat-value { color: var(--orange);       }
+  .wdd-stat--purple .wdd-stat-value { color: var(--brand-purple); }
+  .wdd-stat-value .star {
+    margin-left: 0.05em;
+  }
+  .wdd-stat-label {
+    margin-top: 0.25rem;
+    font-size: var(--type-small-size);
+    color: var(--text-tertiary);
+    line-height: 1.3;
+  }
+  .wdd-detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin-top: var(--space-lg);
+  }
+  .wdd-narrative-title {
+    color: var(--text-primary);
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: var(--space-sm);
+  }
+  .wdd-narrative-body {
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.6;
+    margin-bottom: var(--space-sm);
+  }
+  .wdd-context-card {
+    margin-top: var(--space-md);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--bg-cream);
+    border-radius: var(--radius-md);
+  }
+  .wdd-context-title {
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--space-xs);
+    font-size: 0.95rem;
+  }
+  .wdd-context-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .wdd-context-list li {
+    display: flex;
+    gap: var(--space-xs);
+    font-size: var(--type-small-size);
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+  .wdd-arrow {
+    color: var(--brand-purple);
+    flex: 0 0 auto;
+    opacity: 0.7;
+  }
+  .wdd-right {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+  .wdd-recognition-title {
+    color: var(--text-primary);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: var(--space-sm);
+  }
+  .wdd-badges {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xs);
+  }
+  .wdd-badge {
+    padding: var(--space-sm);
+    background: var(--bg-white);
+    border: 1px solid var(--border-default);
+    border-radius: var(--radius-md);
+    font-size: var(--type-small-size);
+    font-weight: 700;
+    color: var(--text-primary);
+    text-align: center;
+  }
+  .wdd-quote {
+    padding: var(--space-md);
+    background: var(--bg-cream);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+  }
+  .wdd-quote p {
+    color: var(--text-primary);
+    font-style: italic;
+    font-size: var(--type-small-size);
+    line-height: 1.6;
+  }
+  .wdd-quote-attribution {
+    margin-top: var(--space-xs);
+    font-size: var(--type-small-size);
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+</style>

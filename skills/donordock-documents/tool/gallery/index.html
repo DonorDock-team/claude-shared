@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>DonorDock Document Templates — Content Block Library</title>
+  <link rel="stylesheet" href="../tokens.css" />
+  <link rel="stylesheet" href="../base.css" />
+  <style>
+    body {
+      background: var(--bg-lightest-gray);
+      padding: var(--space-xl) var(--space-lg);
+      font-family: var(--font-primary);
+      color: var(--text-primary);
+    }
+    .gallery-head {
+      max-width: 1100px;
+      margin: 0 auto var(--space-2xl);
+    }
+    .gallery-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.375rem 0.875rem;
+      background: var(--brand-purple-light);
+      color: var(--brand-purple);
+      border-radius: var(--radius-pill);
+      font-size: var(--type-label-size);
+      font-weight: var(--type-label-weight);
+      letter-spacing: var(--type-label-tracking);
+      text-transform: uppercase;
+    }
+    .gallery-title {
+      font-size: var(--type-h2-size);
+      font-weight: var(--type-h2-weight);
+      line-height: var(--type-h2-line);
+      letter-spacing: var(--type-h2-tracking);
+      margin-top: var(--space-md);
+    }
+    .gallery-subtitle {
+      color: var(--text-secondary);
+      max-width: 65ch;
+      margin-top: var(--space-sm);
+    }
+    .gallery-stats {
+      display: flex;
+      gap: var(--space-lg);
+      margin-top: var(--space-lg);
+      padding-top: var(--space-md);
+      border-top: 1px solid var(--border-light);
+    }
+    .gallery-stat-label {
+      font-size: var(--type-overline-size);
+      font-weight: var(--type-overline-weight);
+      letter-spacing: var(--type-overline-tracking);
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+    .gallery-stat-value {
+      font-size: var(--type-h4-size);
+      font-weight: var(--type-h4-weight);
+      color: var(--text-primary);
+    }
+    .gallery-grid {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-xl);
+    }
+    .block-card {
+      background: var(--bg-white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-md);
+      overflow: hidden;
+    }
+    .block-card-head {
+      padding: var(--space-md) var(--space-lg);
+      border-bottom: 1px solid var(--border-light);
+      display: flex;
+      align-items: baseline;
+      gap: var(--space-md);
+    }
+    .block-card-name {
+      font-family: ui-monospace, SFMono-Regular, "Cascadia Mono", Menlo, monospace;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--brand-purple);
+      flex: 0 0 auto;
+    }
+    .block-card-purpose {
+      color: var(--text-tertiary);
+      font-size: var(--type-small-size);
+    }
+    .block-card-frame {
+      width: 100%;
+    }
+    .block-card-frame iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header class="gallery-head">
+    <span class="gallery-eyebrow">Content Block Library</span>
+    <h1 class="gallery-title">16 content blocks ready to compose.</h1>
+    <p class="gallery-subtitle">
+      Every block below is a pixel-locked Handlebars partial. Templates compose them into proposals,
+      one-pagers, and other PDFs. Sales reps fill in copy; the layout never drifts.
+    </p>
+    <div class="gallery-stats">
+      <div>
+        <div class="gallery-stat-label">Blocks</div>
+        <div class="gallery-stat-value">16</div>
+      </div>
+      <div>
+        <div class="gallery-stat-label">Phase</div>
+        <div class="gallery-stat-value">2 of 8</div>
+      </div>
+      <div>
+        <div class="gallery-stat-label">Status</div>
+        <div class="gallery-stat-value">In progress</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="gallery-grid">
+    
+    <article class="block-card">
+      <header class="block-card-head">
+        <div class="block-card-name">before-after-chips</div>
+        <div class="block-card-purpose">Compact "today vs after DonorDock" stack diagram for one-pagers. Strikethrough chips on the left for tools being replaced; solid purple chips on the right for new capabilities; an arrow between. Tools the prospect KEEPS (partner integrations) get a yellow `· kept` chip instead of being struck through.</div>
+      </header>
+      <div class="block-card-frame" style="height: 280px;">
+        <iframe src="../content-blocks/before-after-chips/preview.html" loading="lazy" title="before-after-chips preview"></iframe>
+      </div>
+    </article>
+  
+
+    <article class="block-card">
+      <header class="block-card-head">
+        <div class="block-card-name">competitor-comparison-table</div>
+        <div class="block-card-purpose">Side-by-side dimension table comparing DonorDock to 2-3 competitors on dimensions like pricing model, migration cost, support level. DonorDock column visually distinguished in brand-purple.</div>
+      </header>
+      <div class="block-card-frame" style="height: 280px;">
+        <iframe src="../content-blocks/competitor-comparison-table/preview.html" loading="lazy" title="competitor-comparison-table preview"></iframe>
+      </div>
+    </article>
+  
+
+    <article class="block-card">
+      <header class="block-card-head">
+        <div class="block-card-name">cover-purple</div>
+        <div class="block-card-purpose">Page 1 of a proposal or formal document. Establishes the brand voice, names the prospect, previews capabilities, and sets visual tone.</div>
+      </header>
+      <div class="block-card-frame" style="height: 1100px;">
+        <iframe src="../content-blocks/cover-purple/preview.html" loading="lazy" title="cover-purple preview"></iframe>
+      </div>
+    </article>
+  
+
+    <article class="block-card">
+      <header class="block-card-head">
+        <div class="block-card-name">donor-intelligence-quad</div>
+        <div class="block-card-purpose">The "AI + relationship intelligence" page. Shows how DonorDock helps the team know their donors and surface the right next steps automatically.</div>
+      </header>
+      <div class="block-card-frame" style="height: 900px;">
+        <iframe src="../content-blocks/donor-intelligence-quad/preview.html" loading="lazy" title="donor-intelligence-quad preview"></iframe>
+      </div>
+    </article>
+  
+
+    <article class="block-card">
+      <header class="block-card-head">
+        <div class="block-card-name">feature-checklist-grid</div>
+        <div class="block-card-purpose">Compact grid of feature/capability labels for one-pagers. Shows platform breadth without taking up the full half-page that `platform-overview-quad` requires.</div>
+      </header>
+      <div class="block-card-frame" style="height: 500px;">
+        <iframe src="../content-blocks/feature-checklist-grid/preview.html" loading="lazy" title="feature-checklist-grid preview"></iframe>
+      </div>
+    </article>
+  
+
+    <article class="block-card">
+      <header class="block-card-head">
+        <div class="block-card-name">footer-band</div>
+        <div class="block-card-purpose">Bottom-of-page meta line. Identifies the document context and provides the donordock.com URL or a page number.</div>
+      </header>
+      <div class="block-card-frame" style="height: 80px;">
+        <iframe src="../content-blocks/footer-band/preview.html" loading="lazy" title="footer-band preview"></iframe>
+      </div>
+    </article>
+  
+
+    <article class="block-card">
+      <header class="block-card-head">
+        <div class="block-card-name">header-band</div>
+        <div class="block-card-purpose">Identifies the document and customer at the top of every interior page. DonorDock logo on the left, customer name in uppercase eyebrow style on the right, thin underline.</div>
+      </header>
+      <div class="block-card-frame" style="height: 80px;">
+        <iframe src="../content-blocks/header-band/preview.html" loading="lazy" title="header-band preview"></iframe>
+      </div>
+    </article>
+  
+
+    <article class="block-card">
+      <header class="block-card-head">
+        <div class="block-card-name">limited-time-offer-sidebar</div>
+        <div class="block-card-purpose">Time-limited promotion callout. Used as a sidebar next to or under `pricing-card-purple` to flag a waived fee, partner discount, or signing deadline.</div>
+      </header>
+      <div class="block-card-frame" style="height: 240px;">
+        <iframe src="../content-blocks/limited-time-offer-sidebar/preview.html" loading="lazy" title="limited-time-offer-sidebar preview"></iframe>
+      </div>
+    </article>
+  
+
+    <article class="block-card">
+      <header class="block-card-head">
+        <div class="block-card-name">next-steps-numbered</div>
+        <div class="block-card-purpose">Closing page of a proposal. 3-step numbered next-action list with a dark contact card at the bottom containing the rep's identity and a CTA button.</div>
+      </header>
+      <div class="block-card-frame" style="height: 700px;">
+        <iframe src="../content-blocks/next-steps-numbered/preview.html" loading="lazy" title="next-steps-numbered preview"></iframe>
+      </div>
+    </article>
+  
+
+    <article class="block-card">
+      <header class="block-card-head">
+        <div class="block-card-name">onboarding-3phase</div>
+        <div class="block-card-purpose">Walks the prospect through the 90-day onboarding arc — Setup (1–30), Activation (31–60), Growth (61–90) — with concrete deliverables per phase. Reinforces that DonorDock includes white-glove migration.</div>
+      </header>
+      <div class="block-card-frame" style="height: 700px;">
+        <iframe src="../content-blocks/onboarding-3phase/preview.html" loading="lazy" title="onboarding-3phase preview"></iframe>
+      </div>
+    </article>
+  
+
+    <article class="block-card">
+      <header class="block-card-head">
+        <div class="block-card-name">platform-overview-quad</div>
+        <div class="block-card-purpose">The "everything you get" page. A 4-quadrant grid covering the four pillars of the DonorDock platform: CRM / Outreach / Online Giving / Project Management. Each quadrant is sectional-color-coded.</div>
+      </header>
+      <div class="block-card-frame" style="height: 900px;">
+        <iframe src="../content-blocks/platform-overview-quad/preview.html" loading="lazy" title="platform-overview-quad preview"></iframe>
+      </div>
+    </article>
+  
+
+    <article class="block-card">
+      <header class="block-card-head">
+        <div class="block-card-name">pricing-card-purple</div>
+        <div class="block-card-purpose">Investment summary page. Big purple price card up top, two-column breakdown (everything included + contextual sidebar) below, optional guarantee callout at the bottom.</div>
+      </header>
+      <div class="block-card-frame" style="height: 600px;">
+        <iframe src="../content-blocks/pricing-card-purple/preview.html" loading="lazy" title="pricing-card-purple preview"></iframe>
+      </div>
+    </article>
+  
+
+    <article class="block-card">
+      <header class="block-card-head">
+        <div class="block-card-name">quote-block</div>
+        <div class="block-card-purpose">Standalone pull quote for anchoring a page with a customer or prospect voice. Standard purple-left-border treatment.</div>
+      </header>
+      <div class="block-card-frame" style="height: 200px;">
+        <iframe src="../content-blocks/quote-block/preview.html" loading="lazy" title="quote-block preview"></iframe>
+      </div>
+    </article>
+  
+
+    <article class="block-card">
+      <header class="block-card-head">
+        <div class="block-card-name">tool-consolidation</div>
+        <div class="block-card-purpose">Before/after page that contrasts the prospect's current disconnected tools with DonorDock's consolidated capabilities. Two columns, equal weight, with a small red callout on the "before" side and a purple callout on the "after" side.</div>
+      </header>
+      <div class="block-card-frame" style="height: 900px;">
+        <iframe src="../content-blocks/tool-consolidation/preview.html" loading="lazy" title="tool-consolidation preview"></iframe>
+      </div>
+    </article>
+  
+
+    <article class="block-card">
+      <header class="block-card-head">
+        <div class="block-card-name">why-donordock-stats</div>
+        <div class="block-card-purpose">The "why us" page. Stats row at the top, brand-story narrative on the left, G2 recognition + pull quote on the right.</div>
+      </header>
+      <div class="block-card-frame" style="height: 900px;">
+        <iframe src="../content-blocks/why-donordock-stats/preview.html" loading="lazy" title="why-donordock-stats preview"></iframe>
+      </div>
+    </article>
+  
+
+    <article class="block-card">
+      <header class="block-card-head">
+        <div class="block-card-name">your-moment</div>
+        <div class="block-card-purpose">Frames the prospect's current situation against what they need from a platform. Sets up the rest of the proposal as "here's why this matters now."</div>
+      </header>
+      <div class="block-card-frame" style="height: 900px;">
+        <iframe src="../content-blocks/your-moment/preview.html" loading="lazy" title="your-moment preview"></iframe>
+      </div>
+    </article>
+  
+  </main>
+  <!-- generated by gallery.js · 16 blocks · design pass v4 (thin outlines on all colored cards) -->
+</body>
+</html>

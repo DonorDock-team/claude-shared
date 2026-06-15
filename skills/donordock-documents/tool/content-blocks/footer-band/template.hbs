@@ -1,0 +1,30 @@
+{{!--
+  footer-band — bottom-of-page meta line. Identifies the document on the left
+  and shows donordock.com (or a page number) on the right. Thin top border.
+
+  Required slots: doc_label
+  Optional slots: right_label (default "donordock.com")
+--}}
+<div class="footer-band">
+  <div class="footer-band-label">{{doc_label}}</div>
+  <div class="footer-band-right">{{#if right_label}}{{right_label}}{{else}}donordock.com{{/if}}</div>
+</div>
+
+<style>
+  .footer-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--border-light);
+    font-size: var(--type-small-size);
+    line-height: var(--type-small-line);
+    color: var(--text-muted);
+  }
+  .footer-band-label {
+    color: var(--text-muted);
+  }
+  .footer-band-right {
+    color: var(--text-muted);
+  }
+</style>

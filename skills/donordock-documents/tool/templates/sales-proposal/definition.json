@@ -1,0 +1,45 @@
+{
+  "name": "sales-proposal",
+  "version": "0.1.0",
+  "description": "DonorDock's canonical 7-9 page sales proposal. Cover + 6-8 interior pages + closing. Sections can be toggled on/off via options; the spine order is fixed.",
+  "spine": [
+    {
+      "content_block": "cover-purple",
+      "no_chrome": true
+    },
+    {
+      "content_block": "your-moment"
+    },
+    {
+      "content_block": "tool-consolidation",
+      "optional": true,
+      "default": true
+    },
+    {
+      "content_block": "platform-overview-quad"
+    },
+    {
+      "content_block": "donor-intelligence-quad",
+      "optional": true,
+      "default": true
+    },
+    {
+      "content_block": "onboarding-3phase",
+      "optional": true,
+      "default": true
+    },
+    {
+      "compose": [
+        { "content_block": "pricing-card-purple" },
+        { "content_block": "limited-time-offer-sidebar", "optional": true, "default": false },
+        { "content_block": "competitor-comparison-table", "optional": true, "default": false }
+      ]
+    },
+    {
+      "content_block": "why-donordock-stats"
+    },
+    {
+      "content_block": "next-steps-numbered"
+    }
+  ]
+}

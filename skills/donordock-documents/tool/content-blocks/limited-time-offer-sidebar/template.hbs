@@ -1,0 +1,49 @@
+{{!--
+  limited-time-offer-sidebar — small callout for time-limited promotions
+  (waived onboarding fees, referral discounts, etc). Sits beside or under
+  pricing-card-purple. Yellow variant signals urgency.
+
+  Required slots: title, body
+  Optional slots: footnote, variant ("default" | "yellow")
+--}}
+<aside class="lto lto--{{#if variant}}{{variant}}{{else}}default{{/if}}">
+  <div class="lto-title">{{title}}</div>
+  <p class="lto-body">{{{body}}}</p>
+  {{#if footnote}}
+  <p class="lto-footnote">{{footnote}}</p>
+  {{/if}}
+</aside>
+
+<style>
+  .lto {
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: var(--shadow-sm);
+  }
+  .lto--default {
+    background: var(--bg-light-purple);
+  }
+  .lto--yellow {
+    background: var(--yellow-light);
+  }
+  .lto-title {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .lto--default .lto-title { color: var(--brand-purple); }
+  .lto--yellow  .lto-title { color: #B45309; }
+  .lto-body {
+    margin-top: var(--space-xs);
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .lto-body strong { color: var(--text-primary); }
+  .lto-footnote {
+    margin-top: var(--space-xs);
+    color: var(--text-tertiary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+</style>

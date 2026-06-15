@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>pricing-strip-purple — preview</title>
+  <link rel="stylesheet" href="../../tokens.css" />
+  <link rel="stylesheet" href="../../base.css" />
+  <style>
+    /* Screen viewing chrome — not present in PDF output */
+    body { background: #E5E7EB; padding: 2rem; }
+    .preview-frame {
+      max-width: 8.5in;
+      margin: 0 auto;
+      box-shadow: var(--shadow-lg);
+      background: var(--bg-white);
+    }
+    .preview-label {
+      max-width: 8.5in;
+      margin: 0 auto 1rem;
+      font-family: var(--font-primary);
+      font-size: 0.75rem;
+      color: #6B7280;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-label">Content block · pricing-strip-purple · rendered with sample-data.json</div>
+  <div class="preview-frame">
+    <div class="psp">
+  <div class="psp-left">
+    <div class="psp-amount-row">
+      <span class="psp-amount">$6,000</span>
+      <span class="psp-period">/year</span>
+    </div>
+    <div class="psp-billing">$500/month, billed annually</div>
+    <div class="psp-chips">
+      <span class="chip chip-purple-outline">All features included</span><span class="chip chip-purple-outline">Unlimited contacts</span><span class="chip chip-purple-outline">No contracts</span>
+    </div>
+  </div>
+
+  <div class="psp-right">
+    <ul class="psp-list">
+      <li><span class="psp-check">✓</span><span>Donor CRM (unlimited contacts)</span></li>
+      <li><span class="psp-check">✓</span><span>Email + Text messaging</span></li>
+      <li><span class="psp-check">✓</span><span>Online giving pages</span></li>
+      <li><span class="psp-check">✓</span><span>Otto AI Smart Nudges</span></li>
+      <li><span class="psp-check">✓</span><span>Automations and pipelines</span></li>
+      <li><span class="psp-check">✓</span><span>White-glove data migration</span></li>
+      <li><span class="psp-check">✓</span><span>90-day onboarding program</span></li>
+      <li><span class="psp-check">✓</span><span>Dedicated Customer Success Manager</span></li>
+    </ul>
+    <div class="psp-footnote">
+      <strong>Q2 onboarding offer:</strong> Standard $3,800 setup fee waived through June 30.
+    </div>
+  </div>
+</div>
+
+<style>
+  .psp {
+    display: grid;
+    grid-template-columns: 1fr 1.6fr;
+    gap: var(--space-md);
+    padding: var(--space-md) var(--space-lg);
+    background: var(--brand-purple);
+    color: var(--text-inverse);
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: var(--shadow-md);
+  }
+  .psp-left {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+  .psp-amount-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.25rem;
+  }
+  .psp-amount {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--text-inverse);
+  }
+  .psp-period {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--text-on-dark);
+  }
+  .psp-billing {
+    color: var(--text-on-dark);
+    font-size: var(--type-small-size);
+  }
+  .psp-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    margin-top: 0.25rem;
+  }
+  .psp-right {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+  .psp-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.4rem var(--space-md);
+  }
+  .psp-list li {
+    display: flex;
+    gap: var(--space-xs);
+    color: var(--text-on-dark);
+    font-size: var(--type-small-size);
+    line-height: 1.4;
+  }
+  .psp-check {
+    color: var(--text-inverse);
+    font-weight: 700;
+    flex: 0 0 auto;
+  }
+  .psp-footnote {
+    margin-top: var(--space-xs);
+    padding: var(--space-xs) var(--space-sm);
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-sm);
+    color: var(--text-on-dark);
+    font-size: var(--type-small-size);
+    line-height: 1.4;
+  }
+  .psp-footnote strong { color: var(--text-inverse); }
+</style>
+
+  </div>
+</body>
+</html>

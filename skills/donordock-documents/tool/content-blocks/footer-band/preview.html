@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>footer-band — preview</title>
+  <link rel="stylesheet" href="../../tokens.css" />
+  <link rel="stylesheet" href="../../base.css" />
+  <style>
+    /* Screen viewing chrome — not present in PDF output */
+    body { background: #E5E7EB; padding: 2rem; }
+    .preview-frame {
+      max-width: 8.5in;
+      margin: 0 auto;
+      box-shadow: var(--shadow-lg);
+      background: var(--bg-white);
+    }
+    .preview-label {
+      max-width: 8.5in;
+      margin: 0 auto 1rem;
+      font-family: var(--font-primary);
+      font-size: 0.75rem;
+      color: #6B7280;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-label">Content block · footer-band · rendered with sample-data.json</div>
+  <div class="preview-frame">
+    <div class="footer-band">
+  <div class="footer-band-label">DonorDock · Custom Proposal for The Well Summit · May 2026</div>
+  <div class="footer-band-right">donordock.com</div>
+</div>
+
+<style>
+  .footer-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--border-light);
+    font-size: var(--type-small-size);
+    line-height: var(--type-small-line);
+    color: var(--text-muted);
+  }
+  .footer-band-label {
+    color: var(--text-muted);
+  }
+  .footer-band-right {
+    color: var(--text-muted);
+  }
+</style>
+
+  </div>
+</body>
+</html>

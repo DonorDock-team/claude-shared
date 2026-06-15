@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>DonorDock Documents — Phase 1 Smoke Test</title>
+  <link rel="stylesheet" href="./tokens.css" />
+  <link rel="stylesheet" href="./base.css" />
+  <style>
+    /* Page chrome for screen viewing only (not in PDF) */
+    body { background: #E5E7EB; }
+    .page { max-width: 8.5in; min-height: 11in; margin: 2rem auto; background: var(--bg-cream); box-shadow: var(--shadow-lg); padding: 0.6in 0.55in; }
+    .page-cover { margin: 2rem auto; box-shadow: var(--shadow-lg); }
+    .swatch-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: var(--space-sm); margin-top: var(--space-md); }
+    .swatch { padding: var(--space-md); border-radius: var(--radius-md); font-size: var(--type-small-size); font-weight: 600; }
+    .swatch-label { display: block; font-size: 0.6875rem; opacity: 0.7; margin-top: 0.25rem; font-weight: 400; }
+    .type-row { padding-block: var(--space-sm); border-bottom: 1px solid var(--border-light); }
+    .type-row:last-child { border-bottom: none; }
+    .check { color: var(--brand-purple); font-weight: 700; margin-right: 0.5rem; }
+  </style>
+</head>
+<body>
+
+  <!-- ===== PAGE 1: Cover-like page to verify cover typography and chips ===== -->
+  <section class="page-cover" style="background: var(--brand-purple); color: var(--text-inverse);">
+
+    <!-- TOP REGION: brand mark + "prepared for" badge -->
+    <div class="cover-header row-between" style="align-items: center;">
+      <img src="./assets/logo/donordock-logo-white.svg" alt="DonorDock" style="height: 36px; width: auto;" />
+      <span class="chip chip-purple-outline">Prepared for Smoke Test Foundation</span>
+    </div>
+
+    <!-- MIDDLE REGION: headline + subtitle + capability chips -->
+    <div class="cover-hero">
+      <h1 style="color: var(--text-inverse);">
+        Your fundraising,<br />
+        <span class="highlight-on-purple">all in one place.</span>
+      </h1>
+
+      <p style="color: var(--text-on-dark); max-width: 55ch; margin-top: var(--space-md);">
+        A custom platform overview for the smoke-test foundation — verifying that
+        tokens.css and base.css produce the brand's cover typography, color
+        hierarchy, and spacing rhythm.
+      </p>
+
+      <div class="row" style="gap: var(--space-xs); flex-wrap: wrap; margin-top: var(--space-lg);">
+        <span class="chip chip-purple-outline">Donor CRM</span>
+        <span class="chip chip-purple-outline">Online Giving</span>
+        <span class="chip chip-purple-outline">Email &amp; Text</span>
+        <span class="chip chip-purple-outline">Otto AI</span>
+        <span class="chip chip-purple-outline">90-Day Onboarding</span>
+      </div>
+    </div>
+
+    <!-- BOTTOM REGION: meta band (donordock.com · date · prepared-by) -->
+    <div class="cover-meta" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: var(--space-md); align-items: end; padding-top: var(--space-md); border-top: 1px solid rgba(255,255,255,0.2);">
+      <div class="text-meta" style="color: var(--text-on-dark);">donordock.com</div>
+      <div class="text-meta" style="color: var(--text-on-dark); text-align: center;">May 2026</div>
+      <div class="text-meta" style="color: var(--text-on-dark); text-align: right;">Phase 1 · Token Foundation</div>
+    </div>
+
+  </section>
+
+  <!-- ===== PAGE 2: Type hierarchy + color swatches + UI atoms ===== -->
+  <section class="page">
+
+    <div class="row-between" style="padding-bottom: var(--space-sm); border-bottom: 1px solid var(--border-light);">
+      <img src="./assets/logo/donordock-logo-dark.svg" alt="DonorDock" style="height: 26px; width: auto;" />
+      <div class="text-overline">SMOKE TEST</div>
+    </div>
+
+    <div class="stack stack-xl" style="margin-top: var(--space-xl);">
+
+      <!-- Typography hierarchy -->
+      <div>
+        <span class="eyebrow-pill">Typography</span>
+        <h2 style="margin-top: var(--space-md);">
+          Hierarchy you can <span class="highlight-purple">trust</span>.
+        </h2>
+        <p style="margin-top: var(--space-sm); max-width: 65ch;">
+          Every heading level, body text, and utility class pulls from
+          <code>tokens.css</code>. Content blocks never override these.
+        </p>
+
+        <div class="stack" style="margin-top: var(--space-md); padding: var(--space-md); background: var(--bg-cream); border-radius: var(--radius-md);">
+          <div class="type-row"><h1>Heading 1 — Cover statements</h1></div>
+          <div class="type-row"><h2>Heading 2 — Section headlines</h2></div>
+          <div class="type-row"><h3>Heading 3 — Sub-section heads</h3></div>
+          <div class="type-row"><h4>Heading 4 — Card titles</h4></div>
+          <div class="type-row"><h5>Heading 5 — Smaller card titles</h5></div>
+          <div class="type-row"><h6>Heading 6 — Inline emphasis heads</h6></div>
+          <div class="type-row"><p>Body — Most paragraph copy uses this scale. The Well Summit is at a pivotal point — strategic plan complete, Lily Foundation grant in progress, and a 5-year growth roadmap ready to execute.</p></div>
+          <div class="type-row"><div class="text-meta">Meta · DonorDock · Smoke Test Foundation · May 2026 · donordock.com</div></div>
+          <div class="type-row"><div class="text-label">SECTION LABEL · YOUR MOMENT</div></div>
+        </div>
+      </div>
+
+      <!-- Color swatches -->
+      <div>
+        <span class="eyebrow-pill">Color Tokens</span>
+        <h3 style="margin-top: var(--space-md);">Brand &amp; semantic palette</h3>
+        <p style="margin-top: var(--space-xs); color: var(--text-tertiary);">
+          The complete set of approved colors. Content blocks must reference these as CSS variables.
+        </p>
+
+        <div class="swatch-grid">
+          <div class="swatch" style="background: var(--brand-purple); color: var(--text-inverse);">
+            Brand Purple
+            <span class="swatch-label">#8C2CBF</span>
+          </div>
+          <div class="swatch" style="background: var(--brand-purple-light); color: var(--brand-purple);">
+            Purple Light
+            <span class="swatch-label">#F3E8FF</span>
+          </div>
+          <div class="swatch" style="background: var(--brand-blue); color: var(--text-inverse);">
+            Brand Blue
+            <span class="swatch-label">#0F8FED</span>
+          </div>
+          <div class="swatch" style="background: var(--brand-coral); color: var(--text-inverse);">
+            Coral
+            <span class="swatch-label">#FA5B68</span>
+          </div>
+          <div class="swatch" style="background: var(--green); color: var(--text-inverse);">
+            Green
+            <span class="swatch-label">#4BBE71</span>
+          </div>
+          <div class="swatch" style="background: var(--yellow); color: var(--text-primary);">
+            Yellow
+            <span class="swatch-label">#FBBE4B</span>
+          </div>
+
+          <div class="swatch" style="background: var(--text-primary); color: var(--text-inverse);">
+            Text Primary
+            <span class="swatch-label">#303034</span>
+          </div>
+          <div class="swatch" style="background: var(--text-secondary); color: var(--text-inverse);">
+            Text Secondary
+            <span class="swatch-label">#56565D</span>
+          </div>
+          <div class="swatch" style="background: var(--text-tertiary); color: var(--text-inverse);">
+            Text Tertiary
+            <span class="swatch-label">#475467</span>
+          </div>
+          <div class="swatch" style="background: var(--bg-cream); color: var(--text-primary); border: 1px solid var(--border-light);">
+            Cream BG
+            <span class="swatch-label">#FFFCF5</span>
+          </div>
+          <div class="swatch" style="background: var(--bg-lavender); color: var(--text-primary); border: 1px solid var(--border-light);">
+            Lavender
+            <span class="swatch-label">#F5F6FF</span>
+          </div>
+          <div class="swatch" style="background: var(--bg-dark); color: var(--text-inverse);">
+            Dark Callout
+            <span class="swatch-label">#1C1E21</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- UI atoms -->
+      <div>
+        <span class="eyebrow-pill">UI Atoms</span>
+        <h3 style="margin-top: var(--space-md);">Chips, pills, and dividers</h3>
+
+        <div class="stack stack-md" style="margin-top: var(--space-md);">
+          <div class="row" style="gap: var(--space-xs); flex-wrap: wrap;">
+            <span class="chip chip-purple">Filled Purple</span>
+            <span class="chip chip-light">Purple Light</span>
+            <span class="chip chip-outline">Outline</span>
+            <span class="eyebrow-pill">Eyebrow Pill</span>
+          </div>
+
+          <div style="padding: var(--space-md); background: var(--brand-purple); border-radius: var(--radius-md);">
+            <div class="row" style="gap: var(--space-xs); flex-wrap: wrap;">
+              <span class="chip chip-purple-outline">On-Purple Outline</span>
+              <span class="chip chip-purple-outline">Donor CRM</span>
+              <span class="chip chip-purple-outline">Otto AI</span>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
+          <div style="padding: var(--space-md); background: var(--bg-cream); border-left: 4px solid var(--brand-purple); border-radius: 0 var(--radius-md) var(--radius-md) 0;">
+            <p style="font-style: italic;">"If we run the nonprofit more like a business and instill streamlined efficiencies, we'll have the capacity to offer additional program events to expand access — but still keep it intimate."</p>
+            <p class="text-meta" style="margin-top: var(--space-xs); font-weight: 700; color: var(--text-primary);">— Tiffany Brodie, COO, The Well Summit</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Highlight backdrops showcase -->
+      <div>
+        <span class="eyebrow-pill">Highlight Backdrops</span>
+        <h3 style="margin-top: var(--space-md);">
+          Colored phrases get a <span class="highlight-purple">rounded backdrop</span>.
+        </h3>
+        <p style="margin-top: var(--space-xs); color: var(--text-tertiary);">
+          Drop a span around any phrase you want to emphasize. The chip clones across line breaks automatically.
+        </p>
+
+        <div class="stack stack-md" style="margin-top: var(--space-md);">
+          <!-- On light bg -->
+          <div style="padding: var(--space-lg); background: var(--bg-cream); border-radius: var(--radius-md);">
+            <div class="text-overline" style="margin-bottom: var(--space-xs);">On light backgrounds</div>
+            <h4>One platform <span class="highlight-purple">instead of four</span>.</h4>
+            <h4 style="margin-top: var(--space-sm);">Know your people. <span class="highlight-purple">Never miss the moment.</span></h4>
+            <h5 style="margin-top: var(--space-sm);">Built for your <span class="highlight-blue">capital campaign</span>, not against it.</h5>
+          </div>
+
+          <!-- On purple bg -->
+          <div style="padding: var(--space-lg); background: var(--brand-purple); border-radius: var(--radius-md);">
+            <div class="text-overline" style="margin-bottom: var(--space-xs); color: rgba(255,255,255,0.7);">On purple backgrounds</div>
+            <h2 style="color: var(--text-inverse);">Your fundraising,<br /><span class="highlight-on-purple">all in one place.</span></h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Phase 1 checklist -->
+      <div style="padding: var(--space-md); background: var(--bg-light-purple); border-radius: var(--radius-md);">
+        <div class="text-label" style="color: var(--brand-purple);">Phase 1 Checklist</div>
+        <div class="stack stack-xs" style="margin-top: var(--space-sm);">
+          <div><span class="check">✓</span> Tokens load and resolve (every swatch above renders)</div>
+          <div><span class="check">✓</span> Type scale matches the Webflow standard</div>
+          <div><span class="check">✓</span> Brand colors match reference PDFs (Well Summit / ASCRS)</div>
+          <div><span class="check">✓</span> Real DonorDock logo (dark + white variants) embedded from canonical SVGs</div>
+          <div><span class="check">✓</span> Highlight backdrops render on both light and purple backgrounds</div>
+          <div><span class="check">✓</span> Print stylesheet sized to Letter portrait</div>
+          <div><span class="check">✓</span> Common atoms (chip, eyebrow-pill, divider, quote-block) render correctly</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer band -->
+    <div class="row-between" style="margin-top: var(--space-2xl); padding-top: var(--space-sm); border-top: 1px solid var(--border-light);">
+      <img src="./assets/logo/donordock-icon.svg" alt="" style="height: 18px; width: auto; opacity: 0.6;" />
+      <div class="text-meta">DonorDock · Smoke Test · Phase 1 · May 2026 · donordock.com</div>
+    </div>
+
+  </section>
+
+</body>
+</html>

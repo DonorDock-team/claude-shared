@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>next-steps-numbered — preview</title>
+  <link rel="stylesheet" href="../../tokens.css" />
+  <link rel="stylesheet" href="../../base.css" />
+  <style>
+    /* Screen viewing chrome — not present in PDF output */
+    body { background: #E5E7EB; padding: 2rem; }
+    .preview-frame {
+      max-width: 8.5in;
+      margin: 0 auto;
+      box-shadow: var(--shadow-lg);
+      background: var(--bg-white);
+    }
+    .preview-label {
+      max-width: 8.5in;
+      margin: 0 auto 1rem;
+      font-family: var(--font-primary);
+      font-size: 0.75rem;
+      color: #6B7280;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-label">Content block · next-steps-numbered · rendered with sample-data.json</div>
+  <div class="preview-frame">
+    <div class="nsn-block">
+
+  <div class="nsn-eyebrow">Next Steps</div>
+
+  <h2 class="nsn-title">
+    Ready when<br />
+    <span class="highlight-purple">you are.</span>
+  </h2>
+
+  <p class="nsn-subtitle">This document is designed to be shared with your team and used to support your Lily Foundation grant proposal. Here&#x27;s how to move forward.</p>
+
+  <ol class="nsn-steps">
+    <li class="nsn-step">
+      <div class="nsn-step-num"></div>
+      <div class="nsn-step-body">
+        <h4 class="nsn-step-heading">Share this with your team</h4>
+        <p class="nsn-step-text">Review the platform overview and investment summary with your leadership team and board. Your husband&#x27;s familiarity with HubSpot will help frame the comparison — DonorDock is the same architecture, built for nonprofit fundraising rather than B2B sales. Same mental model. Better fit for your work.</p>
+      </div>
+    </li>
+    <li class="nsn-step">
+      <div class="nsn-step-num"></div>
+      <div class="nsn-step-body">
+        <h4 class="nsn-step-heading">Name DonorDock in your Lily Foundation proposal</h4>
+        <p class="nsn-step-text">This document provides the platform overview, pricing, and organizational rationale you need for your grant narrative. If you need a letter of intent, additional technical specifications, or any supporting materials for the application, reach out — we&#x27;re glad to support it directly.</p>
+      </div>
+    </li>
+    <li class="nsn-step">
+      <div class="nsn-step-num"></div>
+      <div class="nsn-step-body">
+        <h4 class="nsn-step-heading">Come back when you&#x27;re ready to move</h4>
+        <p class="nsn-step-text">No pressure to engage before funding is in place. When the grant comes through, DonorDock will be ready. We&#x27;re rated #1 Easiest Setup on G2 — most teams are fully live in days, not months. Your 90-day onboarding program means you&#x27;ll have a dedicated team from day one.</p>
+      </div>
+    </li>
+  </ol>
+
+  <div class="nsn-contact">
+    <div class="nsn-contact-left">
+      <div class="nsn-contact-name">Noah Barnett</div>
+      <div class="nsn-contact-role">Account Executive, DonorDock</div>
+      <div class="nsn-contact-meta">
+        <div>nbarnett@donordock.com</div>
+        <div>donordock.com</div>
+      </div>
+    </div>
+    <div class="nsn-contact-right">
+      <div class="nsn-cta-msg">Questions? We&#x27;re easy to reach.</div>
+      <a class="nsn-cta-btn">Schedule a Call</a>
+    </div>
+  </div>
+
+</div>
+
+<style>
+  .nsn-block { padding-top: var(--space-lg); }
+  .nsn-eyebrow {
+    display: inline-flex; align-items: center;
+    padding: 0.375rem 0.875rem;
+    background: var(--brand-purple-light);
+    color: var(--brand-purple);
+    border-radius: var(--radius-pill);
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+  }
+  .nsn-title { margin-top: var(--space-md); color: var(--text-primary); }
+  .nsn-subtitle {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    max-width: 65ch;
+  }
+  .nsn-steps {
+    margin-top: var(--space-lg);
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    counter-reset: step;
+  }
+  .nsn-step {
+    display: flex;
+    gap: var(--space-md);
+    padding: var(--space-md) 0;
+    border-bottom: 1px solid var(--border-light);
+    counter-increment: step;
+  }
+  .nsn-step:last-child { border-bottom: none; }
+  .nsn-step-num {
+    flex: 0 0 auto;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--brand-purple);
+    color: var(--text-inverse);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+  }
+  .nsn-step-num::before {
+    content: counter(step);
+  }
+  .nsn-step-heading {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  .nsn-step-text {
+    margin-top: 0.25rem;
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.6;
+  }
+  .nsn-contact {
+    margin-top: var(--space-lg);
+    padding: var(--space-md) var(--space-lg);
+    background: var(--brand-purple);
+    color: var(--text-inverse);
+    border-radius: var(--radius-md);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-md);
+  }
+  .nsn-contact-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-inverse);
+  }
+  .nsn-contact-role {
+    margin-top: 0.125rem;
+    color: var(--text-on-dark);
+    font-size: var(--type-small-size);
+  }
+  .nsn-contact-meta {
+    margin-top: var(--space-xs);
+    color: var(--text-on-dark);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .nsn-contact-right {
+    text-align: right;
+  }
+  .nsn-cta-msg {
+    color: var(--text-on-dark);
+    font-size: var(--type-small-size);
+    margin-bottom: var(--space-xs);
+  }
+  .nsn-cta-btn {
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    background: var(--bg-cream);
+    color: var(--brand-purple);
+    border-radius: var(--radius-pill);
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+</style>
+
+  </div>
+</body>
+</html>

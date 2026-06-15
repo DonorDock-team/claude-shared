@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "donordock-documents/content-blocks/footer-band/slots.schema.json",
+  "title": "footer-band slot schema",
+  "type": "object",
+  "required": ["doc_label"],
+  "additionalProperties": false,
+  "properties": {
+    "doc_label": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 100,
+      "description": "Document identifier shown on the left."
+    },
+    "right_label": {
+      "type": "string",
+      "maxLength": 40,
+      "description": "Right-side label. Default is donordock.com."
+    }
+  }
+}

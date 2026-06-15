@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>quote-block — preview</title>
+  <link rel="stylesheet" href="../../tokens.css" />
+  <link rel="stylesheet" href="../../base.css" />
+  <style>
+    /* Screen viewing chrome — not present in PDF output */
+    body { background: #E5E7EB; padding: 2rem; }
+    .preview-frame {
+      max-width: 8.5in;
+      margin: 0 auto;
+      box-shadow: var(--shadow-lg);
+      background: var(--bg-white);
+    }
+    .preview-label {
+      max-width: 8.5in;
+      margin: 0 auto 1rem;
+      font-family: var(--font-primary);
+      font-size: 0.75rem;
+      color: #6B7280;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-label">Content block · quote-block · rendered with sample-data.json</div>
+  <div class="preview-frame">
+    <blockquote class="qb qb--default">
+  <p class="qb-text">If we run the nonprofit more like a business and instill streamlined efficiencies, we&#x27;ll have the capacity to offer additional program events to expand access — but still keep it intimate.</p>
+  <div class="qb-attribution">— Tiffany Brodie, COO, The Well Summit</div>
+</blockquote>
+
+<style>
+  .qb {
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: var(--shadow-sm);
+  }
+  .qb--dark { border-color: rgba(0, 0, 0, 0.18); }
+  .qb--default { background: var(--bg-light-purple); }
+  .qb--soft    { background: var(--bg-cream); }
+  .qb--dark    { background: var(--brand-purple); }
+  .qb-text {
+    color: var(--text-primary);
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .qb--dark .qb-text { color: var(--text-inverse); }
+  .qb-attribution {
+    margin-top: var(--space-xs);
+    font-size: var(--type-small-size);
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  .qb--dark .qb-attribution { color: var(--text-on-dark); }
+</style>
+
+  </div>
+</body>
+</html>

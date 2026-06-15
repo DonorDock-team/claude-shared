@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>tool-consolidation — preview</title>
+  <link rel="stylesheet" href="../../tokens.css" />
+  <link rel="stylesheet" href="../../base.css" />
+  <style>
+    /* Screen viewing chrome — not present in PDF output */
+    body { background: #E5E7EB; padding: 2rem; }
+    .preview-frame {
+      max-width: 8.5in;
+      margin: 0 auto;
+      box-shadow: var(--shadow-lg);
+      background: var(--bg-white);
+    }
+    .preview-label {
+      max-width: 8.5in;
+      margin: 0 auto 1rem;
+      font-family: var(--font-primary);
+      font-size: 0.75rem;
+      color: #6B7280;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-label">Content block · tool-consolidation · rendered with sample-data.json</div>
+  <div class="preview-frame">
+    <div class="tc-block">
+
+  <div class="tc-eyebrow">Tool Consolidation</div>
+
+  <h2 class="tc-title">
+    One platform<br />
+    <span class="highlight-blue">instead of four.</span>
+  </h2>
+
+  <p class="tc-subtitle">Your fundraising infrastructure is spread across disconnected tools. Data doesn&#x27;t flow. Every supporter requires manual work in multiple places. DonorDock consolidates all of it.</p>
+
+  <div class="tc-grid">
+    <div class="tc-col">
+      <h4 class="tc-col-title tc-col-title--today">Today: Four disconnected tools</h4>
+      <div class="tc-stack">
+        <div class="tc-card tc-card--today">
+          <div class="tc-card-name">Givebutter</div>
+          <p class="tc-card-body">Online donations — data stays in Givebutter, not connected to a CRM or donor record.</p>
+        </div>
+        <div class="tc-card tc-card--today">
+          <div class="tc-card-name">ThriveCart</div>
+          <p class="tc-card-body">Camper community investment plans — a workaround, not connected to donor stewardship.</p>
+        </div>
+        <div class="tc-card tc-card--today">
+          <div class="tc-card-name">Email Tool</div>
+          <p class="tc-card-body">Outreach goes out, but engagement data doesn&#x27;t connect to giving or attendance records.</p>
+        </div>
+        <div class="tc-card tc-card--today">
+          <div class="tc-card-name">No CRM</div>
+          <p class="tc-card-body">No single record of who your donors, camper supporters, and participants actually are.</p>
+        </div>
+      </div>
+      <div class="tc-callout tc-callout--cost">
+        <div class="tc-callout-title">The cost of fragmentation</div>
+        <p class="tc-callout-body">Manual re-entry. No holistic donor view. Cultivation by memory. Grant reporting requires piecing data from multiple sources.</p>
+      </div>
+    </div>
+
+    <div class="tc-col">
+      <h4 class="tc-col-title tc-col-title--with">With DonorDock: Everything connected</h4>
+      <div class="tc-stack">
+        <div class="tc-card tc-card--with">
+          <div class="tc-card-name">Giving Pages (replaces Givebutter)</div>
+          <p class="tc-card-body">Branded giving pages embedded on your website. All gifts flow directly into your donor records.</p>
+        </div>
+        <div class="tc-card tc-card--with">
+          <div class="tc-card-name">Camper Support Pages (replaces ThriveCart)</div>
+          <p class="tc-card-body">Unlimited individual pages with goals, tracking, and text-to-donate. Each gift tied to the specific camper.</p>
+        </div>
+        <div class="tc-card tc-card--with">
+          <div class="tc-card-name">Email + Text (replaces email tool)</div>
+          <p class="tc-card-body">Drag-and-drop email and two-way SMS built into the platform. Every open and click tracked on the contact record.</p>
+        </div>
+        <div class="tc-card tc-card--with">
+          <div class="tc-card-name">Donor CRM (new capability)</div>
+          <p class="tc-card-body">One complete profile per contact: giving history, attendance, engagement, notes, custom badges — all in one place.</p>
+        </div>
+      </div>
+      <div class="tc-callout tc-callout--value">
+        <div class="tc-callout-title">The value of integration</div>
+        <p class="tc-callout-body">Every gift, email, event, and camper sponsorship tracked to one record. Segment, report, and steward from one view.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<style>
+  .tc-block {
+    padding-top: var(--space-lg);
+  }
+  .tc-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.375rem 0.875rem;
+    background: #DBEAFE;
+    color: var(--brand-blue);
+    border-radius: var(--radius-pill);
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+  }
+  .tc-title {
+    margin-top: var(--space-md);
+    color: var(--text-primary);
+  }
+  .tc-subtitle {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    max-width: 60ch;
+  }
+  .tc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin-top: var(--space-lg);
+  }
+  .tc-col-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    padding-bottom: var(--space-sm);
+    border-bottom: 2px solid var(--border-light);
+    margin-bottom: var(--space-sm);
+  }
+  .tc-col-title--with {
+    color: var(--brand-purple);
+    border-bottom-color: var(--brand-purple);
+  }
+  .tc-stack {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  .tc-card {
+    padding: var(--space-sm);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background: var(--bg-white);
+    box-shadow: var(--shadow-sm);
+  }
+  .tc-card--with {
+    background: var(--bg-light-purple);
+  }
+  .tc-card-name {
+    font-weight: 700;
+    color: var(--text-primary);
+    font-size: 1rem;
+  }
+  .tc-card--with .tc-card-name {
+    color: var(--brand-purple);
+  }
+  .tc-card-body {
+    margin-top: 0.25rem;
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .tc-callout {
+    margin-top: var(--space-sm);
+    padding: var(--space-sm);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: var(--shadow-sm);
+  }
+  .tc-callout--cost {
+    background: #FEF2F2;
+  }
+  .tc-callout--value {
+    background: var(--bg-light-purple);
+  }
+  .tc-callout-title {
+    font-weight: 700;
+    font-size: var(--type-small-size);
+  }
+  .tc-callout--cost .tc-callout-title {
+    color: var(--brand-coral);
+  }
+  .tc-callout--value .tc-callout-title {
+    color: var(--brand-purple);
+  }
+  .tc-callout-body {
+    margin-top: 0.25rem;
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+</style>
+
+  </div>
+</body>
+</html>

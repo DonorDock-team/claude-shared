@@ -1,0 +1,12 @@
+{
+  "name": "partner-overview",
+  "version": "0.1.0",
+  "description": "Compact 5-page overview for partner-referred prospects. Skips tool consolidation and donor intelligence detail — the partner already explained the platform — and goes straight to fit, pricing, and next steps.",
+  "spine": [
+    { "content_block": "cover-purple", "no_chrome": true },
+    { "content_block": "your-moment" },
+    { "content_block": "platform-overview-quad" },
+    { "content_block": "pricing-card-purple" },
+    { "content_block": "next-steps-numbered" }
+  ]
+}

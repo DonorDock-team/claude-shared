@@ -1,0 +1,28 @@
+{
+  "today": {
+    "label": "MHF Today",
+    "items": [
+      { "text": "Constant Contact" },
+      { "text": "Old CRM (2015 data)" },
+      { "text": "Sign Up Genius" },
+      { "text": "Donor spreadsheets" },
+      { "text": "Manual receipts" },
+      { "text": "GoFundMe Pro", "kept": true }
+    ]
+  },
+  "today_footnote": "Plus the staff hours these are costing you every week.",
+  "after": {
+    "label": "After DonorDock",
+    "items": [
+      "CRM",
+      "Email",
+      "Texting",
+      "Volunteer forms",
+      "Online giving",
+      "Automations",
+      "Reporting",
+      "QuickBooks sync"
+    ]
+  },
+  "after_footnote": "GoFundMe Pro events + P2P sync into DonorDock automatically."
+}

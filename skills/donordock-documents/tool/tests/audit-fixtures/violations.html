@@ -1,0 +1,16 @@
+<!doctype html>
+<!--
+  This file deliberately contains brand violations so we can confirm
+  the audit catches them. Expected output:
+   - 1 emoji error (the 🚀)
+   - 1 hex color warning (#FF00FF)
+   - 1 font warning ("Comic Sans MS")
+-->
+<html>
+<head><style>
+  .rocket { color: #FF00FF; font-family: "Comic Sans MS", sans-serif; }
+</style></head>
+<body>
+  <p class="rocket">🚀 ship it</p>
+</body>
+</html>

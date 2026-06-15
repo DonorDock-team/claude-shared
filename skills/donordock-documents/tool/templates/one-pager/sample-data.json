@@ -1,0 +1,90 @@
+{
+  "document_meta": {
+    "prepared_for": "Michael Hoefflin Foundation",
+    "header_label": "Michael Hoefflin Foundation",
+    "doc_label": "DonorDock · Custom Overview for MHF · May 2026",
+    "right_label": "donordock.com",
+    "prepared_by": "Toby Robinson",
+    "prepared_by_email": "trobinson@donordock.com",
+    "month_year": "May 2026"
+  },
+  "options": {
+    "before-after-chips": true,
+    "feature-checklist-grid": true,
+    "pricing-strip-purple": true
+  },
+  "blocks": {
+    "before-after-chips": {
+      "today": {
+        "label": "MHF Today",
+        "items": [
+          { "text": "Constant Contact" },
+          { "text": "Old CRM (2015 data)" },
+          { "text": "Sign Up Genius" },
+          { "text": "Donor spreadsheets" },
+          { "text": "Manual receipts" },
+          { "text": "GoFundMe Pro", "kept": true }
+        ]
+      },
+      "today_footnote": "Plus the staff hours these are costing you every week.",
+      "after": {
+        "label": "After DonorDock",
+        "items": [
+          "CRM",
+          "Email",
+          "Texting",
+          "Volunteer forms",
+          "Online giving",
+          "Automations",
+          "Reporting",
+          "QuickBooks sync"
+        ]
+      },
+      "after_footnote": "GoFundMe Pro events + P2P sync into DonorDock automatically."
+    },
+    "feature-checklist-grid": {
+      "title": "Everything included in one plan",
+      "columns": 4,
+      "items": [
+        { "label": "Contact records", "accent": "blue" },
+        { "label": "Reporting", "accent": "blue" },
+        { "label": "Tax receipts", "accent": "blue" },
+        { "label": "QuickBooks & GoFundMe Pro sync", "accent": "blue" },
+        { "label": "Bulk email & texting", "accent": "green" },
+        { "label": "Otto AI summary", "accent": "purple" },
+        { "label": "Automations + Donor Journeys", "accent": "purple" },
+        { "label": "Action Board + Smart Nudges", "accent": "orange" },
+        { "label": "Online giving pages", "accent": "yellow" },
+        { "label": "Recurring + DAF gifts", "accent": "yellow" },
+        { "label": "Stripe, PayPal, Apple Pay", "accent": "yellow" },
+        { "label": "Text-to-donate", "accent": "yellow" }
+      ]
+    },
+    "pricing-strip-purple": {
+      "price": {
+        "amount": "$6,000",
+        "period": "/year",
+        "billing_note": "$500/month, billed annually"
+      },
+      "chips": [
+        "All features included",
+        "Unlimited contacts",
+        "No contracts"
+      ],
+      "included": [
+        "Donor CRM (unlimited contacts)",
+        "Email + Text messaging",
+        "Online giving pages",
+        "Otto AI Smart Nudges",
+        "Automations and pipelines",
+        "White-glove data migration",
+        "90-day onboarding program",
+        "Dedicated Customer Success Manager"
+      ],
+      "footnote": {
+        "title": "Q2 onboarding offer:",
+        "body": "Standard $3,800 setup fee waived if subscription is paid by June 30."
+      }
+    }
+  }
+}

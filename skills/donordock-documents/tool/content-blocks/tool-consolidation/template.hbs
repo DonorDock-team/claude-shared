@@ -1,0 +1,162 @@
+{{!--
+  tool-consolidation — before/after column block. Left column lists the
+  prospect's current disconnected tools with a "cost of fragmentation"
+  callout. Right column lists DonorDock's consolidated capabilities with a
+  "value of integration" callout.
+
+  Required slots: title, highlight, subtitle, today, with_donordock
+  Optional slots: eyebrow (default "Tool Consolidation")
+--}}
+<div class="tc-block">
+
+  <div class="tc-eyebrow">{{#if eyebrow}}{{eyebrow}}{{else}}Tool Consolidation{{/if}}</div>
+
+  <h2 class="tc-title">
+    {{title}}<br />
+    <span class="highlight-blue">{{highlight}}</span>
+  </h2>
+
+  <p class="tc-subtitle">{{subtitle}}</p>
+
+  <div class="tc-grid">
+    <div class="tc-col">
+      <h4 class="tc-col-title tc-col-title--today">{{today.title}}</h4>
+      <div class="tc-stack">
+        {{#each today.items}}
+        <div class="tc-card tc-card--today">
+          <div class="tc-card-name">{{this.name}}</div>
+          <p class="tc-card-body">{{this.body}}</p>
+        </div>
+        {{/each}}
+      </div>
+      {{#if today.callout}}
+      <div class="tc-callout tc-callout--cost">
+        <div class="tc-callout-title">{{today.callout.title}}</div>
+        <p class="tc-callout-body">{{today.callout.body}}</p>
+      </div>
+      {{/if}}
+    </div>
+
+    <div class="tc-col">
+      <h4 class="tc-col-title tc-col-title--with">{{with_donordock.title}}</h4>
+      <div class="tc-stack">
+        {{#each with_donordock.items}}
+        <div class="tc-card tc-card--with">
+          <div class="tc-card-name">{{this.name}}</div>
+          <p class="tc-card-body">{{this.body}}</p>
+        </div>
+        {{/each}}
+      </div>
+      {{#if with_donordock.callout}}
+      <div class="tc-callout tc-callout--value">
+        <div class="tc-callout-title">{{with_donordock.callout.title}}</div>
+        <p class="tc-callout-body">{{with_donordock.callout.body}}</p>
+      </div>
+      {{/if}}
+    </div>
+  </div>
+
+</div>
+
+<style>
+  .tc-block {
+    padding-top: var(--space-lg);
+  }
+  .tc-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.375rem 0.875rem;
+    background: #DBEAFE;
+    color: var(--brand-blue);
+    border-radius: var(--radius-pill);
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+  }
+  .tc-title {
+    margin-top: var(--space-md);
+    color: var(--text-primary);
+  }
+  .tc-subtitle {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    max-width: 60ch;
+  }
+  .tc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    margin-top: var(--space-lg);
+  }
+  .tc-col-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    padding-bottom: var(--space-sm);
+    border-bottom: 2px solid var(--border-light);
+    margin-bottom: var(--space-sm);
+  }
+  .tc-col-title--with {
+    color: var(--brand-purple);
+    border-bottom-color: var(--brand-purple);
+  }
+  .tc-stack {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  .tc-card {
+    padding: var(--space-sm);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background: var(--bg-white);
+    box-shadow: var(--shadow-sm);
+  }
+  .tc-card--with {
+    background: var(--bg-light-purple);
+  }
+  .tc-card-name {
+    font-weight: 700;
+    color: var(--text-primary);
+    font-size: 1rem;
+  }
+  .tc-card--with .tc-card-name {
+    color: var(--brand-purple);
+  }
+  .tc-card-body {
+    margin-top: 0.25rem;
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .tc-callout {
+    margin-top: var(--space-sm);
+    padding: var(--space-sm);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: var(--shadow-sm);
+  }
+  .tc-callout--cost {
+    background: #FEF2F2;
+  }
+  .tc-callout--value {
+    background: var(--bg-light-purple);
+  }
+  .tc-callout-title {
+    font-weight: 700;
+    font-size: var(--type-small-size);
+  }
+  .tc-callout--cost .tc-callout-title {
+    color: var(--brand-coral);
+  }
+  .tc-callout--value .tc-callout-title {
+    color: var(--brand-purple);
+  }
+  .tc-callout-body {
+    margin-top: 0.25rem;
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+</style>

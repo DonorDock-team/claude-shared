@@ -1,0 +1,24 @@
+{
+  "name": "donordock-documents",
+  "version": "0.1.0",
+  "description": "DonorDock document template plugin. Produces on-brand sales proposals, one-pagers, partner overviews, and other PDFs from a locked content block library. Sales reps fill in copy; layouts never drift. Pairs with the donordock-brand-identity skill (voice + positioning).",
+  "author": "DonorDock Marketing — Rob Burke",
+  "homepage": "https://donordock.com",
+  "keywords": [
+    "donordock",
+    "documents",
+    "proposals",
+    "one-pagers",
+    "brand",
+    "sales-enablement"
+  ],
+  "commands": {
+    "path": "./commands"
+  },
+  "skills": {
+    "path": "./skills"
+  },
+  "agents": {
+    "path": "./agents"
+  }
+}

@@ -1,0 +1,126 @@
+{{!--
+  platform-overview-quad — 4-quadrant grid of capability areas. Each quadrant
+  has a colored title + arrow-bulleted feature list. The four pillars are
+  sectional-coded with the standard accent colors (blue, green, orange, purple).
+  Closes with a callout strip that summarizes the pricing in one line.
+
+  Required slots: title, highlight, subtitle, quadrants
+  Optional slots: eyebrow (default "Platform Overview"), footnote
+--}}
+<div class="poq-block">
+
+  <div class="poq-eyebrow">{{#if eyebrow}}{{eyebrow}}{{else}}Platform Overview{{/if}}</div>
+
+  <h2 class="poq-title">
+    {{title}}<br />
+    <span class="highlight-purple">{{highlight}}</span>
+  </h2>
+
+  <p class="poq-subtitle">{{subtitle}}</p>
+
+  <div class="poq-grid">
+    {{#each quadrants}}
+    <div class="poq-quad poq-quad--{{this.accent}}">
+      <h4 class="poq-quad-title">{{this.title}}</h4>
+      <ul class="poq-quad-list">
+        {{#each this.items}}
+        <li><span class="poq-arrow">→</span><span>{{this}}</span></li>
+        {{/each}}
+      </ul>
+    </div>
+    {{/each}}
+  </div>
+
+  {{#if footnote}}
+  <div class="poq-footnote">
+    <span class="poq-footnote-mark">✦</span>
+    <div><strong>{{footnote.title}}</strong> {{footnote.body}}</div>
+  </div>
+  {{/if}}
+
+</div>
+
+<style>
+  .poq-block { padding-top: var(--space-lg); }
+  .poq-eyebrow {
+    display: inline-flex; align-items: center;
+    padding: 0.375rem 0.875rem;
+    background: var(--brand-purple-light);
+    color: var(--brand-purple);
+    border-radius: var(--radius-pill);
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+  }
+  .poq-title { margin-top: var(--space-md); color: var(--text-primary); }
+  .poq-subtitle {
+    margin-top: var(--space-sm);
+    color: var(--text-secondary);
+    max-width: 60ch;
+  }
+  .poq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+  }
+  .poq-quad {
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background: var(--bg-white);
+    box-shadow: var(--shadow-md);
+  }
+  .poq-quad--blue   { background: #EFF6FF;                }
+  .poq-quad--green  { background: var(--green-light);     }
+  .poq-quad--yellow { background: var(--yellow-light);    }
+  .poq-quad--orange { background: #FFF7ED;                }
+  .poq-quad--purple { background: var(--bg-light-purple); }
+  .poq-quad-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: var(--space-sm);
+  }
+  .poq-quad--blue   .poq-quad-title { color: var(--brand-blue);   }
+  .poq-quad--green  .poq-quad-title { color: var(--green);        }
+  .poq-quad--yellow .poq-quad-title { color: #B45309;             }
+  .poq-quad--orange .poq-quad-title { color: var(--orange);       }
+  .poq-quad--purple .poq-quad-title { color: var(--brand-purple); }
+  .poq-quad-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .poq-quad-list li {
+    display: flex;
+    gap: var(--space-xs);
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .poq-arrow {
+    color: inherit;
+    flex: 0 0 auto;
+    opacity: 0.7;
+  }
+  .poq-footnote {
+    margin-top: var(--space-md);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--bg-light-purple);
+    border-radius: var(--radius-md);
+    display: flex;
+    gap: var(--space-sm);
+    align-items: center;
+  }
+  .poq-footnote-mark {
+    color: var(--brand-purple);
+    font-size: 1.25rem;
+  }
+  .poq-footnote div {
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .poq-footnote strong { color: var(--brand-purple); }
+</style>

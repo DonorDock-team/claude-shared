@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>limited-time-offer-sidebar — preview</title>
+  <link rel="stylesheet" href="../../tokens.css" />
+  <link rel="stylesheet" href="../../base.css" />
+  <style>
+    /* Screen viewing chrome — not present in PDF output */
+    body { background: #E5E7EB; padding: 2rem; }
+    .preview-frame {
+      max-width: 8.5in;
+      margin: 0 auto;
+      box-shadow: var(--shadow-lg);
+      background: var(--bg-white);
+    }
+    .preview-label {
+      max-width: 8.5in;
+      margin: 0 auto 1rem;
+      font-family: var(--font-primary);
+      font-size: 0.75rem;
+      color: #6B7280;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-label">Content block · limited-time-offer-sidebar · rendered with sample-data.json</div>
+  <div class="preview-frame">
+    <aside class="lto lto--default">
+  <div class="lto-title">Limited-time offer</div>
+  <p class="lto-body">The standard onboarding fee is <strong>$3,800</strong>. That fee is <strong>waived through June 30, 2026</strong>.</p>
+  <p class="lto-footnote">Your team&#x27;s decision timeline aligns well. Signing by June 30 captures this savings and gets your data migration started before the fall season.</p>
+</aside>
+
+<style>
+  .lto {
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: var(--shadow-sm);
+  }
+  .lto--default {
+    background: var(--bg-light-purple);
+  }
+  .lto--yellow {
+    background: var(--yellow-light);
+  }
+  .lto-title {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .lto--default .lto-title { color: var(--brand-purple); }
+  .lto--yellow  .lto-title { color: #B45309; }
+  .lto-body {
+    margin-top: var(--space-xs);
+    color: var(--text-secondary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+  .lto-body strong { color: var(--text-primary); }
+  .lto-footnote {
+    margin-top: var(--space-xs);
+    color: var(--text-tertiary);
+    font-size: var(--type-small-size);
+    line-height: 1.5;
+  }
+</style>
+
+  </div>
+</body>
+</html>

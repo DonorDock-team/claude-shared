@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "donordock-documents/content-blocks/quote-block/slots.schema.json",
+  "title": "quote-block slot schema",
+  "type": "object",
+  "required": ["text", "attribution"],
+  "additionalProperties": false,
+  "properties": {
+    "text": { "type": "string", "minLength": 30, "maxLength": 400 },
+    "attribution": { "type": "string", "minLength": 4, "maxLength": 80 },
+    "variant": { "type": "string", "enum": ["default", "soft", "dark"] }
+  }
+}

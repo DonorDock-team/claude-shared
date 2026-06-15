@@ -1,0 +1,42 @@
+{{!--
+  header-band — top-of-page band with DonorDock logo on the left and an
+  uppercase prospect label on the right. Used on every interior page of
+  multi-page documents (proposals, partnership overviews, onboarding playbooks).
+
+  Required slots: prepared_for
+  Optional slots: variant ("dark" | "light", default "dark")
+--}}
+<div class="header-band">
+  <img
+    src="../../assets/logo/{{#if variant}}donordock-logo-{{variant}}.svg{{else}}donordock-logo-dark.svg{{/if}}"
+    alt="DonorDock"
+    class="header-band-logo"
+  />
+  <div class="header-band-label {{#if variant}}header-band-label--{{variant}}{{/if}}">
+    {{prepared_for}}
+  </div>
+</div>
+
+<style>
+  .header-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .header-band-logo {
+    height: 26px;
+    width: auto;
+  }
+  .header-band-label {
+    font-size: var(--type-label-size);
+    font-weight: var(--type-label-weight);
+    letter-spacing: var(--type-label-tracking);
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+  .header-band-label--light {
+    color: var(--text-on-dark);
+  }
+</style>

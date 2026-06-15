@@ -1,0 +1,88 @@
+{{!--
+  competitor-comparison-table — side-by-side comparison row. DonorDock column
+  gets the brand-purple accent treatment. Competitor columns are plain.
+  Designed to slide in under pricing-card-purple as an OPTIONAL block.
+
+  Required slots: competitors, rows
+  Optional slots: caption (small uppercase line above the table)
+--}}
+<div class="cct">
+  {{#if caption}}
+  <div class="cct-caption">{{caption}}</div>
+  {{/if}}
+
+  <div class="cct-table">
+    <div class="cct-row cct-row--header">
+      <div class="cct-cell cct-cell--dim"></div>
+      <div class="cct-cell cct-cell--header cct-cell--donordock">DonorDock</div>
+      {{#each competitors}}
+      <div class="cct-cell cct-cell--header">{{this}}</div>
+      {{/each}}
+    </div>
+
+    {{#each rows}}
+    <div class="cct-row">
+      <div class="cct-cell cct-cell--dim">{{this.dimension}}</div>
+      <div class="cct-cell cct-cell--value cct-cell--donordock">{{this.donordock_value}}</div>
+      {{#each this.competitor_values}}
+      <div class="cct-cell cct-cell--value">{{this}}</div>
+      {{/each}}
+    </div>
+    {{/each}}
+  </div>
+</div>
+
+<style>
+  .cct {
+    padding: var(--space-md);
+    background: var(--bg-cream);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+  }
+  .cct-caption {
+    font-size: var(--type-overline-size);
+    font-weight: 700;
+    letter-spacing: var(--type-overline-tracking);
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: var(--space-sm);
+  }
+  .cct-table {
+    display: flex;
+    flex-direction: column;
+  }
+  .cct-row {
+    display: flex;
+    align-items: stretch;
+    border-bottom: 1px solid var(--border-light);
+  }
+  .cct-row:last-child { border-bottom: none; }
+  .cct-cell {
+    flex: 1;
+    padding: var(--space-sm);
+    font-size: var(--type-small-size);
+    line-height: 1.4;
+    color: var(--text-secondary);
+  }
+  .cct-cell--dim {
+    flex: 0 0 130px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: var(--type-overline-tracking);
+    font-size: var(--type-overline-size);
+    color: var(--text-tertiary);
+    display: flex;
+    align-items: center;
+  }
+  .cct-cell--header {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: var(--type-overline-tracking);
+    font-size: var(--type-overline-size);
+    color: var(--text-primary);
+  }
+  .cct-cell--donordock {
+    color: var(--brand-purple);
+    font-weight: 700;
+  }
+</style>

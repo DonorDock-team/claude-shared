@@ -1,0 +1,46 @@
+{{!--
+  cover-purple — full-bleed purple cover page for proposals and documents.
+
+  Renders as page 1 of a document. Three flex regions:
+    - cover-header: logo + "Prepared for X" badge
+    - cover-hero  : headline with highlight chip, subtitle, capability chips
+    - cover-meta  : bottom meta band (url · date · prepared-by)
+
+  Required slots: prepared_for, headline, highlight, subtitle, meta
+  Optional slots: chips, badge_label (override "Prepared for")
+--}}
+<section class="page-cover" style="background: var(--brand-purple); color: var(--text-inverse);">
+
+  <div class="cover-header row-between" style="align-items: center;">
+    <img src="../../assets/logo/donordock-logo-white.svg" alt="DonorDock" style="height: 36px; width: auto;" />
+    <span class="chip chip-purple-outline">{{#if badge_label}}{{badge_label}}{{else}}Prepared for {{prepared_for}}{{/if}}</span>
+  </div>
+
+  <div class="cover-hero">
+    <h1 style="color: var(--text-inverse);">
+      {{headline}}<br />
+      <span class="highlight-on-purple">{{highlight}}</span>
+    </h1>
+
+    {{#if subtitle}}
+    <p style="color: var(--text-on-dark); max-width: 55ch; margin-top: var(--space-md);">
+      {{subtitle}}
+    </p>
+    {{/if}}
+
+    {{#if chips}}
+    <div class="row" style="gap: var(--space-xs); flex-wrap: wrap; margin-top: var(--space-lg);">
+      {{#each chips}}
+      <span class="chip chip-purple-outline">{{this}}</span>
+      {{/each}}
+    </div>
+    {{/if}}
+  </div>
+
+  <div class="cover-meta" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: var(--space-md); align-items: end; padding-top: var(--space-md); border-top: 1px solid rgba(255,255,255,0.2);">
+    <div class="text-meta" style="color: var(--text-on-dark);">{{meta.left}}</div>
+    <div class="text-meta" style="color: var(--text-on-dark); text-align: center;">{{meta.center}}</div>
+    <div class="text-meta" style="color: var(--text-on-dark); text-align: right;">{{meta.right}}</div>
+  </div>
+
+</section>
