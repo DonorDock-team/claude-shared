@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P137",
+  "prompt_text": "Little Green Light limitations",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290805+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Little Green Light (LGL) is a popular and generally well-regarded donor management CRM for small to medium-sized nonprofits. Its strengths lie in its affordability, ease of use for core donor management, and good customer support.\n\nHowever, like any software, it has limitations, especially when compared to more expensive, enterprise-level solutions or specialized platforms. Here are some of the common limitations of Little Green Light:\n\n1.  **Limited Advanced Marketing Automation:**\n    *   While LGL can integrate with email marketing tools like Mailchimp or Constant Contact, its *native* email capabilities are more for acknowledgments, basic campaigns, and direct constituent communication rather than sophisticated marketing automation (e.g., multi-step donor journeys, A/B testing, dynamic content based on behavior, deep segmentation within the email platform itself).\n    *   You'll likely need a separate, dedicated email marketing platform for robust campaigns.\n\n2.  **Less Depth in Specialized Modules:**\n    *   **Event Management:** LGL offers basic event registration and attendee tracking. It's not a full-fledged event management platform like Eventbrite or Cvent, lacking features like complex ticketing tiers, seating charts, multi-track conferences, speaker management, or robust on-site check-in tools.\n    *   **Volunteer Management:** While you can track volunteers and their hours, LGL isn't designed as a dedicated volunteer management system with features like shift scheduling, complex role matching, skills databases, or robust volunteer portals.\n    *   **Program Management:** LGL is primarily a *donor* CRM. It's not designed for tracking program beneficiaries, services delivered, case management, or complex outcome measurement for mission-related programs.\n    *   **Membership Management:** It can handle basic membership levels and renewals, but it's not ideal for highly complex membership organizations requiring member portals, committee management, tiered benefits, or integrated community features.\n\n3.  **Reporting and Analytics:**\n    *   LGL provides solid standard reports and the ability to build custom queries. However, for very sophisticated data analysis, predictive modeling, or highly visual",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "LGL",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 4,
+  "output_tokens": 439,
+  "estimated_cost_usd": 0.001099,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

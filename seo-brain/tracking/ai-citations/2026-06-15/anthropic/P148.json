@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P148",
+  "prompt_text": "Donor management vs CRM what's the difference",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291595+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Donor Management vs CRM\n\n## **Donor Management Software**\n- **Purpose**: Specifically designed for nonprofits to handle donations and donor relationships\n- **Focus**: Fundraising-centric features\n- **Key features**:\n  - Donation tracking and processing\n  - Donor segmentation and history\n  - Campaign management\n  - Pledge tracking\n  - Tax receipts and acknowledgment letters\n  - Grant management\n  - Event registration for fundraisers\n\n## **CRM (Customer Relationship Management)**\n- **Purpose**: Broad relationship management tool for businesses and organizations\n- **Focus**: Managing all customer/constituent interactions\n- **Key features**:\n  - Contact management\n  - Sales pipeline tracking\n  - Email marketing\n  - Task and workflow automation\n  - Reporting and analytics\n  - Communication history\n\n## **The Key Difference**\n**Donor Management** is essentially a specialized type of CRM built specifically for nonprofit fundraising needs. Think of it as \"CRM for nonprofits.\"\n\n## **What You Might Need**\n- **Nonprofit focused on fundraising** \u2192 Donor management system (Bloomerang, DonorPerfect, Little Green Light)\n- **Organization with diverse needs** \u2192 General CRM adapted for nonprofits (Salesforce Nonprofit Cloud, HubSpot)\n- **Small nonprofit just starting** \u2192 Simple donor management tool\n- **Large organization** \u2192 Comprehensive nonprofit CRM\n\nMany modern platforms blur these lines, offering both donor-specific and broader CRM capabilities.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 342,
+  "estimated_cost_usd": 0.005181,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

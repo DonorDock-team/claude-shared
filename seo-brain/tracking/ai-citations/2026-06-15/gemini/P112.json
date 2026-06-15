@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291649+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking soft credits in a donor CRM is crucial for understanding the full scope of a donor's influence, properly acknowledging supporters, and managing relationships effectively, even when they aren't the direct source of the funds.\n\n## What is a Soft Credit?\n\nA soft credit acknowledges an individual or organization's influence or connection to a donation, even if they weren't the direct source of the funds. The \"hard credit\" (the actual financial transaction) goes to the entity that issued the payment.\n\n**Common Scenarios for Soft Credits:**\n\n*   **Donor-Advised Funds (DAF):** The individual who recommended the grant from their DAF gets a soft credit; the DAF organization gets the hard credit.\n*   **Family Foundations:** The family members who direct grants from their foundation receive soft credits; the foundation receives the hard credit.\n*   **Matching Gifts:** The employee whose company matched their gift gets a soft credit for the matching portion; the company gets the hard credit.\n*   **Board Members/Volunteers:** A board member who solicits a gift from an external entity (e.g., a corporate sponsorship, a large individual donation they facilitated) might receive a soft credit for the amount they influenced.\n*   **Spouses/Partners:** Often, if one spouse writes a check, the other spouse receives a soft credit to ensure joint recognition and cultivation.\n*   **Corporate Sponsorships (Individual Influencer):** An individual who works at a corporation and secures a sponsorship from their company.\n\n## Why Track Soft Credits?\n\n1.  **Accurate Recognition:** Ensures you thank and recognize *everyone* who contributed, directly or indirectly.\n2.  **Moves Management:** Helps development officers understand who to cultivate and steward. A soft credit means that person has influence and connection.\n3.  **Board Member Accountability:** Tracks fundraising efforts by board members.\n4.  **Campaign Progress:** Allows you to see the true impact of all connections, even if the funds flow through other entities.\n5.  **Relationship Building:** Identifies key influencers and connectors in your network.\n6.  **Reporting & Analytics:** Provides a more complete picture of donor engagement and value.\n\n## How to Track Soft Credits in a Donor CRM\n\nThe method for tracking soft credits varies depending on your CRM, but the underlying principles remain the same: link the soft credit recipient to the hard credit donation without duplicating the financial transaction.\n\nHere are the most common approaches:\n\n### 1. Dedicated Soft Credit Fields/Objects (Ideal & Most Common in Modern CRMs)\n\nMany CRMs designed for nonprofits (like Salesforce NPSP, Blackbaud Raiser's Edge NXT, Virtuous, DonorPerfect, Bloomerang) have built-",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce NPSP",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 568,
+  "estimated_cost_usd": 0.001422,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

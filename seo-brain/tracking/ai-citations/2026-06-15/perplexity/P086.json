@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P086",
+  "prompt_text": "Best donor CRM for homeless services",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.291017+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For **donor CRM** in **homeless services**, the best fit usually depends on whether you need *fundraising only* or a system that also supports *case management and program delivery*. If you want the strongest all-around nonprofit platform, **Salesforce Nonprofit Cloud** is the most broadly capable option; if your priority is simpler donor management and retention, **Bloomerang** or **DonorPerfect** are commonly recommended nonprofit CRMs.[6][2][8]\n\nFor homeless services specifically, a donor CRM is often not enough on its own, because homelessness programs also need client, housing, and case-management workflows. Sources focused on homelessness software point to platforms built for **homelessness and housing support** rather than general donor CRMs, such as case-management-oriented tools designed for homeless services management.[4]\n\nA practical shortlist:\n\n- **Salesforce Nonprofit Cloud** \u2014 best if you need a highly configurable system that can handle donors, volunteers, grants, programs, and reporting in one platform.[6]\n- **Virtuous** \u2014 strong if your focus is modern nonprofit fundraising, automation, and donor engagement.[9]\n- **Bloomerang** \u2014 often a good fit if donor retention and ease of use matter most.[7][2]\n- **DonorPerfect** \u2014 a solid nonprofit donor CRM with donation tracking and reporting, and frequently used by organizations seeking a simpler fundraising system.[8]\n- **Giveffect** \u2014 useful if you want fundraising plus broader nonprofit operations in one system.[3]\n\nIf your homeless-services organization needs **both** donor management **and** client services, the best approach is usually:\n- **Salesforce Nonprofit Cloud** for the donor/fundraising side, plus\n- a **homelessness-specific case management platform** for client intake, housing, and services.[6][4]\n\nIf you want, I can narrow this to the **best option for small budget**, **best for Salesforce-based teams**, or **best all-in-one system for a homeless shelter or outreach nonprofit**.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 413,
+  "estimated_cost_usd": 0.011216,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.facebook.com/groups/852691834840610/posts/25213698984979889/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://casemanagementhub.org/homelessness-transitional-housing-support-software/",
+      "https://www.goodera.com/blog/best-crms-for-nonprofits-the-complete-guide-for-nonprofit-organizations",
+      "https://www.salesforce.com/nonprofit/",
+      "https://www.liveimpact.org/blog/best-crm-for-small-nonprofit",
+      "https://forums.techsoup.org/t/searching-for-a-good-donor-crm-for-years-that-fit-our-ministries-needs/7478",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/",
+      "https://donorbox.org/explore/nonprofit-crm"
+    ]
+  }
+}

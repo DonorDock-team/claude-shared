@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P036",
+  "prompt_text": "Best donor management software for nonprofits",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291314+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "There's no single \"best\" donor management software for all nonprofits, as the ideal choice highly depends on your organization's specific needs, size, budget, and technological capabilities.\n\nHowever, I can provide a rundown of top contenders, categorized by what they generally excel at, along with key factors to consider when making your decision.\n\n### Key Factors to Consider When Choosing:\n\n1.  **Budget:** What can you realistically afford per month or year? Look at tiered pricing, number of contacts, and transaction fees.\n2.  **Organization Size & Growth:** Are you a small startup or a large, established organization? Does the software scale with you?\n3.  **Features Needed:**\n    *   **CRM (Contact Relationship Management):** Donor profiles, history, segmentation.\n    *   **Fundraising Tools:** Online donation forms, peer-to-peer, crowdfunding, event management, grant tracking.\n    *   **Communication:** Email marketing, direct mail integration, thank you letters.\n    *   **Reporting & Analytics:** Impact tracking, donor retention, campaign performance.\n    *   **Integrations:** With accounting software (QuickBooks), email marketing (Mailchimp), payment processors (Stripe, PayPal), website builders (WordPress).\n    *   **Volunteer Management:** If applicable.\n    *   **Membership Management:** If applicable.\n4.  **Ease of Use:** How intuitive is the interface? What's the learning curve like for your staff?\n5.  **Customer Support & Training:** What resources are available if you get stuck?\n6.  **Data Migration:** How easy is it to transfer your existing donor data?\n7.  **Security & Compliance:** PCI compliance for payments, data privacy.\n\n---\n\n### Top Donor Management Software Recommendations:\n\nHere are some of the most popular and highly-rated options, broken down:\n\n**1. Best All-Around / Mid-Range (Excellent Balance of Features & Ease of Use):**\n\n*   **Bloomerang**\n    *   **Best For:** Small to medium-sized nonprofits seeking user-friendly software with strong donor retention focus.\n    *   **Key Features:** Excellent donor engagement and retention tools, intuitive interface, robust reporting, online giving pages, email marketing, wealth screening integration.\n    *   **Pros:** Very easy to learn and use, strong focus on donor relationships, great customer support, visually appealing dashboards.\n    *   **Cons:** Some advanced features (like complex grant management) might require integrations, pricing scales with contact count.\n\n*   **DonorPerfect**\n    *   **Best For:** Mid-sized nonprofits looking for a comprehensive, long-standing solution with robust features.\n    *   **Key Features:** Strong CRM, online forms, event management, peer-to-peer, robust reporting, volunteer management, constant feature updates.\n    *   **Pros:** Very comprehensive, highly customizable, good for organizations with varied fundraising needs, extensive integrations.\n    *   **Cons:** Can be overwhelming for new users due to its many features, interface can feel a bit dated compared to newer platforms, pricing can get steep for larger databases.\n\n**2. Best for Scalability & Customization (Larger / Tech-Savvy Nonprofits):**\n\n*   **Salesforce Nonprofit Cloud**\n    *   **Best For:** Large nonprofits, those with complex needs, or organizations with existing Salesforce experience. Excellent for scalability and integration across departments.\n    *   **Key Features:** Highly customizable CRM, powerful automation, extensive app ecosystem (AppExchange), robust reporting, grant management, program management.\n    *   **Pros:** Incredibly powerful and flexible, can be tailored to almost any workflow, 10 free licenses for eligible nonprofits.\n    *   **Cons:** Significant learning curve, requires dedicated administration/training, implementation can be complex and costly.\n\n*   **Neon CRM (part of Neon One)**\n    *   **Best For:** Mid-to-large nonprofits with diverse",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Neon CRM",
+    "Neon One",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 835,
+  "estimated_cost_usd": 0.002089,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P024",
+  "prompt_text": "How much does nonprofit donor CRM cost",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290216+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "The cost of a nonprofit donor CRM varies **hugely** depending on the size of your organization, the number of contacts you have, the features you need, and the level of service you expect. It's not just a monthly subscription fee; there are often one-time setup costs, training, and potential integration fees.\n\nHere's a breakdown of what to expect:\n\n## General Price Ranges (Monthly Subscription, estimated)\n\n**1. Small/Startup Nonprofits (Under 1,000 contacts, 1-3 users)**\n*   **Cost:** Free to $75/month\n*   **Features:** Basic contact management, donation processing, simple reporting, email communication, volunteer management (sometimes). May have limits on contacts or emails.\n*   **Examples:** Some free tiers of larger CRMs, Little Green Light, Kindful (starting tiers), WildApricot (often priced per member/contact).\n\n**2. Mid-Sized Nonprofits (1,000 - 10,000+ contacts, 3-10+ users)**\n*   **Cost:** $75 - $300+/month\n*   **Features:** Comprehensive donor management, robust reporting and analytics, email marketing automation, event management, peer-to-peer fundraising, grant tracking, donor segmentation, integrations with popular tools (accounting, payment processors).\n*   **Examples:** Bloomerang, NeonOne, DonorPerfect, Salesforce NPSP (free for 10 users, but significant implementation costs).\n\n**3. Large/Enterprise Nonprofits (10,000+ contacts, 10+ users)**\n*   **Cost:** $300 - $1,000s+/month\n*   **Features:** Highly customizable, advanced analytics, major gift pipeline management, sophisticated marketing automation, extensive integration capabilities, dedicated account management, complex data migration services, multi-channel engagement tools.\n*   **Examples:** Salesforce NPSP (with professional implementation and add-ons), Blackbaud (Raiser's Edge NXT), Dynamics 365. These often require custom quotes.\n\n## Key Factors Influencing Cost\n\n1.  **Number of Contacts/Donors:** This is often the primary driver of subscription cost. As your database grows, so does the price.\n2.  **Number of Users:** Some CRMs charge per user, others offer unlimited users within a tier.\n3.  **Features & Functionality:**\n    *   **Basic:** Contact management, donation tracking, simple reporting.\n    *   **Intermediate",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 540,
+  "estimated_cost_usd": 0.001352,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

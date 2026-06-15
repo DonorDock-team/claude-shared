@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P140",
+  "prompt_text": "Donor CRM that integrates with QuickBooks Online",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291040+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Integrating your Donor CRM with QuickBooks Online (QBO) is crucial for accurate financial tracking, streamlined reconciliation, and efficient reporting for your nonprofit. It typically means that when a donation is made and recorded in your CRM, that transaction (or a summary of it) is automatically pushed into QBO, often as a sales receipt or deposit.\n\nHere are some of the top donor CRMs known for their integration capabilities with QuickBooks Online, along with what makes them stand out:\n\n## Top Donor CRMs with QuickBooks Online Integration\n\n1.  **Bloomerang:**\n    *   **Strengths:** Highly regarded for its user-friendly interface, strong focus on donor retention, and powerful reporting.\n    *   **QBO Integration:** Bloomerang offers a native, direct integration with QuickBooks Online. You can map your Bloomerang funds, campaigns, and payment types to your QBO accounts, classes, and items. Donations recorded in Bloomerang can be pushed to QBO as sales receipts, invoices, or journal entries, helping you categorize income accurately. It also syncs donor contact information.\n    *   **Best For:** Small to medium-sized nonprofits looking for ease of use and strong donor engagement tools.\n\n2.  **DonorPerfect:**\n    *   **Strengths:** A long-standing, comprehensive solution offering a wide range of features including donor management, fundraising, event management, grant tracking, and integrated payment processing.\n    *   **QBO Integration:** DonorPerfect provides a robust, native integration with QBO. You can sync individual transactions, batch transactions, and donor information. It allows for detailed mapping of funds, general ledger accounts, classes, and locations between DonorPerfect and QBO, ensuring your financial data is categorized correctly.\n    *   **Best For:** Growing nonprofits that need an all-in-one solution with deep functionality.\n\n3.  **Neon CRM (NeonOne):**\n    *   **Strengths:** Part of the NeonOne ecosystem, this CRM offers extensive features for donor management, events, memberships, volunteers, and grant management, providing a unified platform.\n    *   **QBO Integration:** Neon CRM offers a strong native integration that allows you to push revenue transactions (donations, memberships, event registrations) to QBO. It supports mapping to QBO accounts, classes, and items, ensuring financial accuracy. You can often choose to sync individual transactions or aggregate them into daily/weekly batches.\n    *   **Best For:** Nonprofits that need a comprehensive platform to manage multiple aspects of their operations beyond just donations, including memberships and events.\n\n4.  **Kindful (now part of Classy/GoFundMe):**\n    *   **Strengths:** Kindful was particularly known for its excellent and intuitive QuickBooks Online integration, making financial reconciliation simpler. It offers strong fundraising tools, reporting, and payment processing.\n    *   **QBO Integration:** Kindful's integration is one of its core strengths, allowing for automated syncing of donation transactions into QBO. It",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 620,
+  "estimated_cost_usd": 0.001552,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

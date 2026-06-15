@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P067",
+  "prompt_text": "How to track donor relationships across a team",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.290938+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "To **track donor relationships across a team**, use a shared **CRM** as the single source of truth, and require everyone to log interactions, notes, preferences, and next steps in the same system.[3][4][9] The most effective approach is a combination of **standardized recordkeeping**, **clear ownership**, and **regular team review** so relationships do not depend on one staff member\u2019s memory.[3][4]\n\n- **Centralize all donor data** in one CRM profile per donor, including calls, emails, meetings, event RSVPs, gifts, and thank-you activity.[3][9]\n- **Log interaction details consistently**: date, channel, who interacted, what was discussed, donor sentiment, preferences, and follow-up needed.[1][4][9]\n- **Use shared notes and preferences** so the whole team can see motivations, communication style, recognition preferences, and relationship history.[4][5]\n- **Segment donors** by giving level, engagement, or relationship stage so staff can tailor outreach and coordinate coverage.[2][3]\n- **Track engagement over time** with metrics like interaction frequency, event attendance, retention, and lapsed-donor lists such as LYBUNT and SYBUNT.[1][6]\n- **Assign relationship ownership** while still allowing broader team visibility, so one person leads but multiple staff can support the donor journey.[4]\n- **Automate logging where possible** for emails, calls, receipts, and event follow-ups to reduce missed updates.[3][4]\n- **Review the portfolio regularly** in team meetings to share context, flag risks, and coordinate next moves.[4][7]\n\nA practical team workflow is:\n\n1. Create one CRM record per donor with required fields for contact info, giving history, preferences, and relationship owner.[3][9]\n2. Define what must be logged after every touchpoint, and make it a team rule.[1][4]\n3. Set shared tags or categories for donor stage, interest area, and urgency.[2][3]\n4. Build dashboards for key relationship metrics and overdue follow-ups.[2][7]\n5. Hold recurring portfolio meetings to update everyone on donor status and next actions.[4][7]\n\nIf you want, I can turn this into a **simple team tracker template** or a **CRM field checklist** you can use right away.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 481,
+  "estimated_cost_usd": 0.012242,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.instil.io/resources/6-important-donor-relationship-metrics-to-track",
+      "https://www.bonterratech.com/blog/donor-relations-strategies",
+      "https://jetpackcrm.com/managing-donor-relationships-a-crm-guide-for-nonprofit-organizations/",
+      "https://gravyty.com/blog/relationship-first-approach-portfolio-moves-management/",
+      "https://www.donorperfect.com/nonprofit-technology-blog/fundraising-software/major-donor-retention-tools-how-to-build-relationships-that-last-a-lifetime/",
+      "https://afpglobal.org/6-important-metrics-tracking-major-donor-relationships-sponsored-content",
+      "https://www.donorrelations.com/post/4-key-metrics-for-donor-relations-success",
+      "https://kindsight.io/resources/blog/tips-to-build-stronger-major-donor-relationships/",
+      "https://www.donordock.com/articles/stop-trying-to-remember-everything-how-to-build-donor-relationships-that-scale",
+      "https://www.evertrue.com/donor-relations/"
+    ]
+  }
+}

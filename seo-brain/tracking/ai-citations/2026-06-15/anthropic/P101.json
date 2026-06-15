@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P101",
+  "prompt_text": "DonorPerfect total cost of ownership",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290743+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorPerfect Total Cost of Ownership (TCO)\n\n## Base Subscription Costs\n\n**Pricing Tiers** (as of 2024):\n- **Starting price**: ~$89/month ($1,068/year) for basic plans\n- **Typical small-to-medium nonprofits**: $150-$400/month ($1,800-$4,800/year)\n- **Larger organizations**: $500-$1,500+/month ($6,000-$18,000+/year)\n\nPricing varies based on:\n- Number of user licenses\n- Database size/number of records\n- Features and modules selected\n\n## Additional Costs to Consider\n\n### 1. **Setup & Implementation**\n- Initial data migration: $500-$3,000+\n- Training sessions: $200-$500 per session\n- Custom setup/configuration: Variable\n\n### 2. **Add-On Modules** (typically $20-$100+/month each)\n- Online fundraising tools\n- Event management\n- Email marketing (ConstantContact integration)\n- Auction software\n- Pledge management\n- Volunteer tracking\n- Grant tracking\n\n### 3. **Payment Processing Fees**\n- Credit card processing: 2.2%-3.5% + $0.30 per transaction\n- ACH fees if applicable\n\n### 4. **Ongoing Expenses**\n- Additional user licenses\n- Training for new staff\n- Technical support (beyond basic included support)\n- Custom reports or development\n- Annual price increases (typically 3-5%)\n\n### 5. **Potential Hidden Costs**\n- Data export fees if you switch platforms\n- Integration costs with other tools\n- Staff time for system administration\n- Consulting for advanced features\n\n## Sample Annual TCO\n\n**Small Nonprofit (1,000-5,000 donors)**\n- Base subscription: $2,400\n- Add-ons: $600\n- Setup/training (year 1): $1,500\n- **Year 1 Total**: ~$4,500\n- **Ongoing years**: ~$3,000-$3,500\n\n**Medium Nonprofit (10,000+ donors)**\n- Base subscription: $6,000-$10,000\n- Add-ons: $1,200-$2,400\n- Setup/training (year 1): $3,000-$5,000\n- **Year 1 Total**: ~$10,000-$17,000\n- **Ongoing years**: ~$7,500-$13,000\n\n## Tips to Manage TCO\n\n1. **Request detailed quotes** for your specific needs\n2. **Negotiate** multi-year contracts for discounts\n3. **Start with essential features** and add modules as needed\n4. **Factor in staff training time**\n5. **Ask about nonprofit discounts**\n6. **Compare with alternatives** (Bloomerang, Little Green Light, Salesforce NPSP)\n\nWould you like help comparing DonorPerfect to other donor management systems?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 694,
+  "estimated_cost_usd": 0.010461,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

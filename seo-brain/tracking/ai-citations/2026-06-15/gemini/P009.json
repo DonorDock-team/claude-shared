@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290474+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock and Givebutter are both popular platforms in the nonprofit tech space, but they cater to slightly different core needs and approaches. Here's a breakdown to help you decide which might be a better fit for your organization:\n\n---\n\n## DonorDock vs. Givebutter: A Comparative Overview\n\n| Feature/Category         | DonorDock                                                                    | Givebutter                                                                 |\n| :----------------------- | :--------------------------------------------------------------------------- | :------------------------------------------------------------------------- |\n| **Primary Focus**        | Robust Donor Relationship Management (CRM), data segmentation, automation, email marketing. | Modern, user-friendly online fundraising (crowdfunding, P2P, events, forms). |\n| **Pricing Model**        | Subscription-based (tiered by contacts/features)                             | \"Free\" core platform (pass on/absorb fees), optional paid \"Track\" CRM upgrade. |\n| **CRM & Donor Management** | **Very Strong.** Centralized donor profiles, gift tracking, robust segmentation, automation, communication history. | **Basic** in free tier, good for tracking transactions/contacts. \"Track\" upgrade enhances it, but less deep than DonorDock. |\n| **Fundraising Tools**    | Online donation forms, basic giving pages, campaign management, event registration (more focused on donor tracking than event execution). | **Very Strong & Comprehensive.** Crowdfunding, peer-to-peer, events (ticketing, auctions), text-to-give, forms, embeddable widgets. Highly visual & engaging. |\n| **Ease of Use & UI**     | Moderate. Powerful, but requires some setup/learning. Familiar for Microsoft users. | **Excellent.** Intuitive, modern interface, quick setup for campaigns.        |\n| **Integrations**         | Strong with Microsoft 365, Stripe, QuickBooks (via integration partners), Zapier. | Many popular payment processors, Zapier, Salesforce, Mailchimp.             |\n| **Automation**           | **Strong.** Automate tasks, emails, donor journeys based on triggers.        | Limited in free tier, some basic follow-ups.                               |\n| **Reporting & Analytics** | **Robust.** Customizable reports, dashboards for donor insights and campaign performance. | Good basic reports for fundraising metrics. Deeper analytics with \"Track\" CRM. |\n| **Support**              | Typically included in subscription,",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 494,
+  "estimated_cost_usd": 0.001236,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

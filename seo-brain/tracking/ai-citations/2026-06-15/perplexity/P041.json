@@ -1,0 +1,37 @@
+{
+  "prompt_id": "P041",
+  "prompt_text": "Best donor CRM for mid-sized nonprofits",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.291710+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For most **mid-sized nonprofits**, the leading donor CRMs to seriously consider are **Bloomerang, Raiser's Edge NXT (Blackbaud), Virtuous, Salesforce Nonprofit Cloud, and Givebutter**\u2014with Bloomerang and Givebutter especially strong for ease of use and value, and Raiser's Edge / Salesforce better for complex, enterprise-style needs.[3][4][6][9]\n\nBelow is a concise, practical comparison focused on mid-sized organizations (roughly $1\u2013$10M budget, 5\u201350 staff, growing fundraising program).\n\n---\n\n### 1. Top donor CRMs for mid-sized nonprofits\n\n| CRM | Best for mid-sized orgs that\u2026 | Key strengths for donors & fundraising | Notable drawbacks |\n| --- | --- | --- | --- |\n| **Bloomerang**[9] | Want a donor-focused CRM that\u2019s purpose-built for **small\u2013mid-sized nonprofits**, consolidating multiple tools | Strong donor profiles, retention-focused metrics, email tools, online giving, and simple reporting in one platform; designed specifically for nonprofits[9] | Less suited for very complex multi-site, multi-program operations vs enterprise CRMs |\n| **Raiser\u2019s Edge NXT (Blackbaud)**[3][6] | Have a **larger database**, multiple revenue streams, and need robust fundraising infrastructure | Built for medium\u2013large nonprofits; deep fundraising features, moves management, major gifts, events, and grants; strong ecosystem[3][6] | Higher cost, steeper learning curve; admin and implementation overhead can be significant[3] |\n| **Virtuous CRM**[5] | Want modern, **automation\u2011driven fundraising** (workflows, journeys) and integrated marketing | Built specifically for nonprofit fundraising; includes donor management, automation, marketing, and integrations in one \u201cconnected platform\u201d[5] | Implementation effort and change management required; likely overkill for very simple programs |\n| **Salesforce Nonprofit Cloud**[7][8] | Need maximum **customization** and have internal/consultant Salesforce expertise | Extremely configurable; Nonprofit Cloud tailored to donor outreach, project management, and broader nonprofit needs[7] | Can be complex and costly to implement and maintain; requires admin expertise to truly shine[7][8] |\n| **Givebutter**[1][4] | Want a **modern, low-cost / free** CRM tightly integrated with online fundraising and events | Core fundraising, marketing, and CRM tools are free; handles donor management + engagement tracking + personalized communication with full fundraising suite[1][4] | Newer as a \u201cprimary CRM\u201d; may lack some advanced, enterprise-grade fundraising features vs Blackbaud or Salesforce |\n\n---\n\n### 2. How to choose among them (for a mid-sized nonprofit)\n\nUse these questions to narrow down:\n\n1. **Budget & cost sensitivity**\n   - If cost is a major constraint, **Givebutter** stands out because its core CRM + fundraising + marketing tools are **completely free** regardless of whether you have 500 or 50,000 contacts.[1]\n   - **Bloomerang** is typically mid-priced and intentionally targeted at small\u2013mid-sized nonprofits looking to replace multiple tools.[9]\n\n2. **Complexity of fundraising**\n   - If you run **major gifts, capital campaigns, events, and grants** with a sizable database, **Raiser\u2019s Edge NXT** or **Salesforce Nonprofit Cloud** are often favored; Blackbaud specifically positions Raiser's Edge for large and **mid-sized** organizations, with Blackbaud CRM geared toward very large orgs.[3][6]\n   - If your program is growing but not extremely complex, **Bloomerang, Virtuous, or Givebutter** are usually easier to adopt and maintain.[4][5][9]\n\n3. **Marketing & automation needs**\n   - **Virtuous** focuses heavily on being a \u201cmodern, connected platform\u201d with **automation and marketing** built around donor journeys and fundraising.[5]\n   - **Givebutter** and **Bloomerang** both include integrated email/communication tools but with lighter automation than an enterprise marketing cloud.[1][4][9]\n\n4. **Team capacity & tech expertise**\n   - If you lack in\u2011house IT/CRM admins and want something **simple**, **Bloomerang** and **Givebutter** are designed for ease of use for non-technical staff.[1][4][9]\n   - If you **do** have technical capacity or partners and need heavy customization (complex data model, multiple business processes), **Salesforce Nonprofit Cloud** is a strong candidate.[7][8]\n\n---\n\n### 3. Where to research further (focused on mid-sized nonprofits)\n\n- **Bloomerang lists itself as \u201cideal for small to mid-sized nonprofits consolidating multiple tools\u201d** in its donor management CRM overview.[9]\n- **Blackbaud / Raiser's Edge NXT** is specifically identified as best for **medium to large organizations with large databases**, while Blackbaud CRM is aimed at the biggest institutions.[3][6]\n- **Virtuous** describes its CRM+ as a modern platform \u201cbuilt specifically for nonprofit fundraising,\u201d combining donor management, automation, and marketing.[5]\n- **Givebutter** and several independent guides highlight it as a modern nonprofit CRM that combines donor management, engagement tracking, communication tools, and a full suite of fundraising features\u2014with core tools free for nonprofits of all sizes.[1][4]\n- Comparative guides from Springly, Goodera, and others outline how to evaluate nonprofit CRMs and list many of these systems among the top options for 2026.[6][8]\n\n---\n\n### 4. A pragmatic recommendation pattern\n\nBased on typical mid-sized nonprofit scenarios:\n\n- If you want a **specialized nonprofit CRM that\u2019s easy to adopt** \u2192 Start with **Bloomerang** or **Givebutter**.[1][4][9]\n- If you\u2019re **scaling into multi-million campaigns and complex portfolios** \u2192 Evaluate **Raiser\u2019s Edge NXT** or **Virtuous**.[3][5][6]\n- If you need **organization-wide CRM beyond fundraising** (programs, services, case management) and have tech resources \u2192 Consider **Salesforce Nonprofit Cloud**.[7][8]\n\nIf you share your approximate annual revenue, donor count, and current tools, I can map you more precisely to 1\u20132 \u201cbest fit\u201d systems from this list.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Givebutter",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 1339,
+  "estimated_cost_usd": 0.025109,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://givebutter.com/donor-management-crm",
+      "https://www.capterra.com/nonprofit-crm-software/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://doublethedonation.com/top-nonprofit-crms/",
+      "https://virtuous.org/blog/best-crm-for-nonprofits/",
+      "https://www.springly.org/en-us/blog/nonprofit-crm-advantages/",
+      "https://mailchimp.com/resources/customer-relationship-management-for-nonprofits/",
+      "https://www.goodera.com/blog/best-crms-for-nonprofits-the-complete-guide-for-nonprofit-organizations",
+      "https://bloomerang.com/blog/donor-management-software"
+    ]
+  }
+}

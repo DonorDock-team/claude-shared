@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P004",
+  "prompt_text": "DonorDock pricing",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291639+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "DonorDock's pricing is primarily based on the **number of contacts** (donors, volunteers, prospects, etc.) in your database. They offer different tiers with varying features to accommodate organizations of different sizes and needs.\n\nHere's a general overview, but please note that **pricing can change**, so it's always best to check the official DonorDock website for the most current and accurate information:\n\n**Key Pricing Model Features:**\n\n1.  **Contact-Based:** The core pricing driver is how many contacts you have. As your database grows, your monthly cost will increase.\n2.  **Tiered Plans:** They typically offer plans like:\n    *   **Starter:** For smaller organizations with fewer contacts and essential features.\n    *   **Growth:** For growing organizations needing more advanced features like enhanced email marketing, more detailed reporting, and integrations.\n    *   **Enterprise/Pro:** For larger organizations requiring comprehensive features, advanced automation, dedicated support, and possibly API access.\n3.  **Features Vary by Tier:** Higher tiers unlock more advanced functionalities such as:\n    *   Online giving pages and forms\n    *   Email marketing and automation\n    *   Event management\n    *   Peer-to-peer fundraising\n    *   Volunteer management\n    *   Advanced reporting and analytics\n    *   Integrations (e.g., with QuickBooks, Mailchimp, etc.)\n    *   Dedicated support\n\n**Example Pricing (as of a recent check, subject to change):**\n\n*   **Starter Plan:** Might begin around **$59 - $79 per month** for up to 1,000 contacts. This tier would include core CRM features, basic online giving, and reporting.\n*   **Growth Plan:** Prices would increase as contact counts rise. For example, 1,000-2,500 contacts could be in the **$99 - $149 per month** range, offering more features like advanced email tools and additional integrations.\n*   **Higher Contact Tiers & Enterprise:** As you move into thousands of contacts (e.g., 5,000, 10,000, 20,000+) the monthly cost increases significantly, potentially reaching several hundred dollars per month or more, with Enterprise plans often requiring a custom quote.\n\n**Important Considerations:**\n\n*   **Annual vs. Monthly Billing:** You might get a discount for paying annually.\n*   **Setup/Onboarding Fees:** There might be one-time fees for initial setup, data migration, or training, especially for larger organizations.\n*   **Non-Profit Specific:** DonorDock is designed specifically for non-profits and churches, so their pricing is tailored to that market.\n\n**To get the most accurate pricing for your organization, you should:**\n\n1.  **Visit the Official DonorDock Website:** Look for a \"Pricing\" or \"Plans\" link.\n2.  **Use Their Pricing Calculator:** Many SaaS companies, including DonorDock, have an interactive calculator where you can input your number of contacts to see an estimated monthly cost.\n3.  **Request a Demo/Quote:** If your organization is larger or has very specific needs, contacting their sales team directly for a personalized quote is the best approach.",
+  "donordock_mentioned": true,
+  "donordock_position": 0,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 3,
+  "output_tokens": 690,
+  "estimated_cost_usd": 0.001726,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P077",
+  "prompt_text": "How to track major donor moves management",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291659+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Major Donor Moves Management Tracking\n\n## Essential Tracking Components\n\n### 1. **Contact Management System**\n- **CRM/Database**: Use donor management software (Salesforce, Raiser's Edge, Bloomerang, etc.)\n- **Key fields to track**:\n  - Contact information and preferences\n  - Giving history and capacity\n  - Interests and motivations\n  - Relationship strength/stage\n  - Assigned officer/staff member\n\n### 2. **Moves Management Stages**\n\nTrack donors through a cultivation cycle:\n- **Identification** - Prospect research complete\n- **Qualification** - Interest and capacity confirmed\n- **Cultivation** - Building relationship\n- **Solicitation** - Ask made\n- **Stewardship** - Thank and engage\n- **Re-cultivation** - Prepare for next gift\n\n### 3. **Activity Tracking**\n\nDocument every touchpoint:\n- Date and type of contact\n- Purpose and outcome\n- Next steps and deadlines\n- Who was present\n- Follow-up required\n\n### 4. **Essential Metrics**\n\n**Track regularly:**\n- Number of donors at each stage\n- Contacts per donor per quarter\n- Time spent in each stage\n- Conversion rates between stages\n- Portfolio size per officer\n- Ask amounts vs. actual gifts\n\n## Practical Tracking Tools\n\n### **Spreadsheet Approach** (for smaller operations)\nCreate columns for:\n- Donor name\n- Current stage\n- Last contact date\n- Next action/date\n- Assigned staff\n- Ask amount/timeline\n\n### **Dashboard Indicators**\n- Red/Yellow/Green status\n- Days since last contact\n- Overdue actions\n- Pipeline value by stage\n\n## Best Practices\n\n\u2705 **Set clear timelines** - Define maximum days between contacts per stage  \n\u2705 **Regular pipeline reviews** - Weekly/monthly team meetings  \n\u2705 **Action-oriented notes** - Always include next steps  \n\u2705 **Accountability measures** - Assign ownership and deadlines  \n\u2705 **Quality over quantity** - Meaningful engagement matters more than contact frequency\n\nWould you like specific recommendations for tracking tools or help designing a moves management system?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 496,
+  "estimated_cost_usd": 0.007482,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

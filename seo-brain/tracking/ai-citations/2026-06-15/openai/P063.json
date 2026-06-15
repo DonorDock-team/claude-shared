@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P063",
+  "prompt_text": "Donor CRM with text messaging",
+  "engine": "openai",
+  "timestamp": "2026-06-15T12:23:38.290447+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Implementing a Donor CRM (Customer Relationship Management) system with text messaging capabilities is an excellent way to enhance your fundraising and communication strategies. Here\u2019s an outline of steps and features to consider when setting up such a system:\n\n### Key Features:\n\n1. **Contact Management:**\n   - Store donor information, including contact details, donation history, communication preferences, and interactions.\n\n2. **Segmentation:**\n   - Group donors based on different criteria like donation amount, frequency, geographical location, or campaign engagement.\n\n3. **Communication Tools:**\n   - Integrate SMS/text messaging to send personalized messages, updates, thank you notes, and reminders.\n   - Maintain a history of all communications for each donor.\n\n4. **Automated Messaging:**\n   - Set up automated messages for donation confirmations, recurring donations, birthdays, and anniversaries.\n\n5. **Campaign Management:**\n   - Organize and track fundraising campaigns, including goals, timelines, and donor participation.\n\n6. **Analytics and Reporting:**\n   - Generate reports on donor behavior, campaign performance, and communication effectiveness.\n   - Use data analytics to identify trends and inform strategy.\n\n7. **Integration:**\n   - Sync with other platforms like email marketing tools, social media, and payment gateways.\n   - Use APIs and webhooks to streamline data flow and processes.\n\n8. **Compliance:**\n   - Ensure compliance with privacy laws such as GDPR or CAN-SPAM by including opt-in/opt-out features for text messaging.\n\n9. **Mobile Access:**\n   - Allow users to access the CRM via mobile devices for on-the-go updates and interactions.\n\n### Steps to Implement:\n\n1. **Assess Needs:**\n   - Determine the organization\u2019s specific needs and goals for using a CRM with text messaging.\n\n2. **Choose a CRM Platform:**\n   - Opt for platforms that offer built-in text messaging like Salesforce\u2019s Nonprofit Cloud, Bloomerang, or NeonCRM, or use modular systems that can integrate with third-party SMS services like Twilio.\n\n3. **Data Migration:**\n   - Plan and execute the migration of existing donor data into the new CRM system ensuring data integrity.\n\n4. **Integration Setup:**\n   - Set up integrations with SMS providers for text messaging capabilities.\n   - Ensure seamless operation with other existing tools used by your nonprofit.\n\n5. **Train Staff:**\n   - Conduct training sessions for your team to effectively use the CRM and understand all features, including text messaging.\n\n6. **Launch and Monitor:**\n   - Roll out the CRM in phases, if necessary, and monitor its performance.\n   - Gather feedback from users and donors to identify areas for improvement.\n\n7. **Continuous Improvements:**\n   - Regularly update the system based on user feedback and technological advancements.\n   - Refine communication strategies based on data insights.\n\nImplementing a donor CRM with text messaging enhances communication efficiency, improves donor retention, and optimizes fundraising efforts. Make sure to continually evaluate the system's effectiveness and stay updated with new features or compliance requirements.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 610,
+  "estimated_cost_usd": 0.006132,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

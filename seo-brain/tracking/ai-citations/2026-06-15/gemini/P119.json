@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P119",
+  "prompt_text": "AI to draft donor thank you letters",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290803+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Using AI to draft donor thank-you letters can be a powerful tool for efficiency and consistency, but it requires careful oversight and a human touch to ensure authenticity and personalization.\n\nHere's how to approach it effectively:\n\n## AI for Donor Thank You Letters: A Comprehensive Guide\n\n### Why Use AI for Thank You Letters?\n\n1.  **Efficiency:** Quickly generate first drafts, especially for a large volume of donations.\n2.  **Consistency:** Maintain a consistent tone and message across all thank-you communications.\n3.  **Overcome Writer's Block:** AI can provide a starting point when you're struggling for words.\n4.  **Personalization at Scale (with good inputs):** If you provide specific donor data, AI can weave it into the letter.\n5.  **Variety:** Generate multiple versions or phrasings to avoid repetition.\n\n### Challenges and Considerations\n\n1.  **Lack of Genuine Emotion:** AI doesn't feel gratitude; it merely processes language patterns. The final letter *must* convey genuine human appreciation.\n2.  **Generic Content:** Without specific inputs, AI will produce generic, uninspired text that fails to connect with donors.\n3.  **Factual Errors:** AI can hallucinate or misinterpret data. Always fact-check.\n4.  **Over-Reliance:** Don't let AI replace the critical thinking and emotional intelligence required for donor stewardship.\n5.  **Data Privacy:** Be cautious about feeding sensitive donor information into public AI models. Consider using enterprise-level AI solutions or carefully anonymizing data.\n\n### How to Use AI Effectively: The Prompt is Key!\n\nThe quality of the AI-generated letter directly depends on the quality and detail of your prompt. Think of AI as a very skilled but very literal assistant.\n\n**General Structure of a Good Prompt:**\n\n`\"You are an experienced fundraising professional drafting a sincere thank-you letter. I need a [Tone - e.g., warm, professional, enthusiastic] thank-you letter to a donor. `\n\n`Here are the details:`\n`[Recipient's Name]`\n`[Donation Amount and Date]`\n`[Specific Purpose of Donation - if applicable, e.g., \"towards our new community center,\" \"for general operating support\"]`\n`[Our Organization's Name and Mission - brief]`\n`[Specific Impact of the Donation - this is CRUCIAL, tell a mini-story or give a concrete example]`\n`[Call to Action/Next Steps - e.g., \"visit our website,\" \"follow us on social media\" - *but do NOT ask for more money*]`\n`[Your Organization's Contact Information]`\n`[Any required tax receipt language]`\n`[Sender's Name and Title]`\n\n`Please ensure the letter is [Length - e.g., concise, 2-3 paragraphs], sincere, inspiring, and does not include any further solicitations.\"`\n\n---\n\n### Key Information to Include in Your Prompts:\n\n1.  **Donor Information:**\n    *   **Name:** First and Last\n    *   **Donation Details:** Amount, Date, Type (e.g., cash, in-kind, stock, monthly recurring)\n    *   **Relationship (if applicable):** Long-time supporter, first-time donor, event attendee, volunteer, corporate sponsor.\n    *   **Specific Affiliation (if applicable):** \"Supporter of our scholarship fund,\" \"parent of a student,\" \"alumni.\"\n\n2.  **Organization Information:**\n    *   **Full Name:** [Your Organization Name]\n",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 760,
+  "estimated_cost_usd": 0.001902,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

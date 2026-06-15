@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P062",
+  "prompt_text": "Best nonprofit CRM with email and text messaging",
+  "engine": "openai",
+  "timestamp": "2026-06-15T12:23:38.290355+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best nonprofit Customer Relationship Management (CRM) system with integrated email and text messaging capabilities depends on the specific needs and budget of the organization. However, some of the most popular and highly recommended options as of my last update include:\n\n1. **Salesforce Nonprofit Cloud**:\n   - **Pros**: Highly customizable, extensive integrations, robust reporting and analytics, strong community support.\n   - **Cons**: Can be complex to set up and may require technical expertise. Costs can add up with customization and add-ons.\n\n2. **Bloomerang**:\n   - **Pros**: Designed specifically for small to mid-sized nonprofits, user-friendly interface, excellent donor management tools, integrated email marketing.\n   - **Cons**: Less customizable compared to Salesforce, limited text messaging capabilities.\n\n3. **Neon CRM**:\n   - **Pros**: Comprehensive feature set designed for nonprofits, including event management, fundraising, and volunteer management. Offers integration with email marketing and text messaging.\n   - **Cons**: Some users report a learning curve and require time to get familiar with the system.\n\n4. **Kindful** (part of Bloomerang):\n   - **Pros**: Intuitive, easy to use, strong focus on donor management, good email marketing tools, integrates well with other platforms like Mailchimp.\n   - **Cons**: Text messaging features might require integrations with other third-party apps.\n\n5. **CharityEngine**:\n   - **Pros**: All-in-one platform with integrated email and text marketing, powerful donor management, event management features.\n   - **Cons**: Might be geared more towards mid-sized to large organizations.\n\n6. **Little Green Light**:\n   - **Pros**: Affordable, good donor management features, integrates with email tools like Mailchimp.\n   - **Cons**: Primarily focused on email, limited native text messaging options.\n\n7. **EveryAction**:\n   - **Pros**: Comprehensive nonprofit CRM with strong fundraising and advocacy tools, integrated email and text messaging, good for large campaigns or political advocacy.\n   - **Cons**: Can be expensive, and may be more than smaller nonprofits need.\n\nWhen choosing a CRM, consider factors such as budget, ease of use, scalability, integration capabilities, and customer support. It's also beneficial to take advantage of free trials or demos to ensure the CRM meets your nonprofit's specific needs.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 484,
+  "estimated_cost_usd": 0.004877,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

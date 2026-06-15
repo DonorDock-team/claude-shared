@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P134",
+  "prompt_text": "Why nonprofits leave Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290410+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Bloomerang is a popular CRM (Customer Relationship Management) platform specifically designed for nonprofits, often praised for its ease of use and focus on donor retention. However, no software is a perfect fit for every organization, and nonprofits do leave Bloomerang for a variety of reasons. These often stem from an organization's evolving needs, growth, or specific requirements that Bloomerang may not fully meet.\n\nHere are the most common reasons why nonprofits might leave Bloomerang:\n\n1.  **Scalability & Feature Depth for Growing Organizations:**\n    *   **Outgrowing the System:** Bloomerang is excellent for small to medium-sized nonprofits. As organizations grow, their data becomes more complex, requiring more sophisticated segmentation, custom fields, relationship tracking, and workflow automation than Bloomerang might offer natively.\n    *   **Advanced CRM Needs:** Larger nonprofits might require more robust CRM functionalities similar to Salesforce NPSP or Microsoft Dynamics, which offer greater customization, complex reporting capabilities, and deeper integration with enterprise-level tools.\n\n2.  **Cost Escalation with Growth:**\n    *   Bloomerang's pricing is often based on the number of contacts in your database. As a nonprofit successfully grows its donor base, the monthly or annual cost can increase significantly.\n    *   For larger organizations, the cost per contact might become less competitive compared to other platforms that offer more advanced features for a similar price point at scale, or have different pricing models (e.g., per user, or tiered without steep contact-based increases).\n\n3.  **Advanced Reporting and Analytics Needs:**\n    *   While Bloomerang provides good basic reporting and dashboards, some organizations find its custom reporting capabilities to be limited.\n    *   Nonprofits requiring highly specific, complex, cross-departmental reports, predictive analytics beyond Bloomerang's core AI, or deep integration with business intelligence (BI) tools might find it restrictive.\n\n4.  **Specialized Functionality Gaps:**\n    *   **Event Management:** While Bloomerang supports basic online fundraising and event registration, nonprofits running complex events (multi-day conferences, galas with seating charts, peer-to-peer fundraising events with team structures) might need a more specialized event management platform or a CRM with more robust native event tools.\n    *   **Grant Management:** Bloomerang is not designed as a grant management system. Organizations with significant grant portfolios will typically need a separate system for tracking applications, reporting requirements, deadlines, and disbursements.\n    *   **Marketing Automation:** While Bloomerang includes email marketing, organizations needing advanced marketing automation features (e.g., complex drip campaigns, A/B testing on landing pages, sophisticated lead scoring, integration with marketing ad platforms) might seek more dedicated marketing platforms or CRMs with stronger native marketing suites.\n    *   **Volunteer Management:** While you can track volunteers, dedicated volunteer management systems offer more robust features for scheduling, communication, impact tracking, and recruitment.\n\n5.  **Integration Requirements:**\n    *   While Bloomerang integrates with many popular tools (e.g., QuickBooks Online, Zapier), some organizations might have very specific or complex integration needs that are not natively supported or are difficult to implement.\n    *   The desire for a truly \"all-in-one\" system, or a system with a more open and flexible API for custom integrations, can drive a switch.\n\n6.  **User Interface & Customization Preferences:**\n    *   While praised for ease of use, some users might find Bloomerang's",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 721,
+  "estimated_cost_usd": 0.001804,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

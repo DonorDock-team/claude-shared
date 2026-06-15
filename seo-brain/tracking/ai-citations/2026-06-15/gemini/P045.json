@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P045",
+  "prompt_text": "Best donor CRM for private schools and education",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290479+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a private school depends heavily on the school's specific needs, size, budget, and existing technology ecosystem. However, there are several top contenders that consistently meet the unique demands of educational fundraising.\n\nHere's a breakdown of the leading options, categorized by their strengths:\n\n---\n\n### Top Contenders for Private Schools & Education\n\n**1. Blackbaud (The Education & Nonprofit Giant)**\n\n*   **Flagship Products:**\n    *   **Raiser's Edge NXT (RENXT):** The industry standard for large nonprofits and higher education, now increasingly adopted by K-12 private schools. It's a comprehensive fundraising and donor management solution.\n    *   **Blackbaud K-12 Solutions (formerly ON Products):** This suite (Enrollment Management, Student Information System, Learning Management System, Website Management, Financial Management) often integrates with RENXT, creating an end-to-end platform for school operations and fundraising.\n*   **Strengths for Private Schools:**\n    *   **Deep Education Focus:** Blackbaud has a massive footprint in the education sector. Their products are often designed with school-specific needs in mind (alumni relations, parent engagement, capital campaigns for facilities, annual giving, planned giving).\n    *   **Comprehensive Suite:** When combined with their K-12 suite, you can manage everything from admissions and student records to tuition, learning, and fundraising all within one vendor's ecosystem.\n    *   **Robust Reporting & Analytics:** Powerful tools to segment donors, track campaign performance, and identify major gift prospects.\n    *   **Established & Supported:** Large user community, extensive documentation, and dedicated support.\n*   **Considerations:**\n    *   **Cost:** Can be one of the more expensive options, especially if you opt for the full suite of K-12 products.\n    *   **Complexity/Learning Curve:** Raiser's Edge NXT is incredibly powerful but can have a steep learning curve for new users, especially those not familiar with extensive CRM systems.\n    *   **Legacy Feel:** While RENXT is modernized, some underlying architecture or older modules can feel less intuitive than newer, cloud-native solutions.\n*   **Best for:** Larger private schools, those seeking an integrated solution across admissions, student information, and fundraising, and schools with dedicated development staff.\n\n---\n\n**2. Salesforce Nonprofit Cloud (NPSP) (The Customizable Powerhouse)**\n\n*   **Description:** Salesforce's Nonprofit Success Pack (NPSP) is a highly customizable, cloud-based platform built on the world's leading CRM. It provides a flexible framework for managing donors",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 554,
+  "estimated_cost_usd": 0.001387,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

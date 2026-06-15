@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P083",
+  "prompt_text": "Best donor CRM for museums",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.290780+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For most museums, the **best donor CRM** is usually **Tessitura** if you need a museum-specific all-in-one platform for donations, memberships, ticketing, and visitor data.[5][6] If your main priority is donor tracking and fundraising rather than a broader arts-and-culture suite, **ClearView CRM** and **DonorView** are also strong museum-focused options.[3][4]\n\nA practical way to think about the choices:\n\n| CRM | Best for | Why it stands out |\n|---|---|---|\n| **Tessitura** | Larger museums and cultural institutions | Built for arts and culture; handles ticketing, memberships, donations, and patron data in one system.[5][6] |\n| **ClearView CRM** | Museums that want strong constituent and transaction tracking | Includes donor management plus member management, transaction processing, and registration tracking.[3] |\n| **DonorView** | Mid-sized museums focused on donor history and searchability | Recommended by an AAM community member for tracking donors and search/history capabilities.[4] |\n| **PatronManager** | Museums needing fundraising plus marketing and staff collaboration | Offers marketing, ticketing, fundraising, and collaboration tools on Salesforce infrastructure.[1] |\n| **Fundly** | Smaller museums or small nonprofits | Aimed at small nonprofits and tracks volunteers in detail as well as donors.[1] |\n\nIf your question is specifically about *donor CRM* rather than full museum operations, **ClearView CRM** is a particularly strong museum-oriented pick because it combines donor management with supporter profile data such as transactions and registrations.[3] If you need the broadest museum operations platform, **Tessitura** is the strongest all-around choice among the results provided.[5][6]\n\nIf you want, I can also narrow this down by **museum size**, **budget**, or whether you need **memberships/ticketing** too.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 394,
+  "estimated_cost_usd": 0.010928,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://cuseum.com/blog/tips-for-choosing-a-crm-for-your-museum",
+      "https://www.humanitru.com/blog/the-best-crms-data-and-fundraising-tools-for-museums",
+      "https://www.doubleknot.com/blog/museum-software",
+      "https://community.aam-us.org/discussion/whats-the-perfect-crm-for-a-mid-sized-cultural-heritage-organization",
+      "https://www.urbaninsight.com/article/best-crm-for-museums",
+      "https://www.tessitura.com/features/crm-for-arts-and-culture",
+      "https://www.randgroup.com/nonprofit/museums-cultural-institutions/",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/",
+      "https://www.spektrix.com/en-us/clients/crm-for-museums-attractions"
+    ]
+  }
+}

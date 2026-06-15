@@ -1,0 +1,27 @@
+{
+  "prompt_id": "P118",
+  "prompt_text": "ChatGPT for nonprofits is it safe",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.290542+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "**ChatGPT can be safe for nonprofits, but only if you use it carefully and avoid putting sensitive data into it.** Nonprofit-focused guidance consistently says the main risks are privacy, bias, inaccurate outputs, and over-reliance on the tool; it is *not* a safe replacement for human judgment, especially in sensitive or high-stakes work.[1][4][6]\n\nKey points to know:\n\n- **Do not enter sensitive personal data** such as donor names, contact details, gift records, or health-related information unless it has been anonymized and your organization has approved the use case.[3][6]\n- **Use human review for anything important.** Nonprofit guidance warns that ChatGPT can produce inaccurate or made-up information, so staff should verify outputs before using them externally.[1][6]\n- **Be cautious with sensitive services.** For counseling, crisis support, or other emotionally complex situations, nonprofit experts say AI cannot replace empathy, nuance, and human oversight.[1]\n- **Watch for bias and inappropriate content.** Because the model may reflect biases in its training data, nonprofits serving marginalized communities should test carefully for harmful outputs.[4][6]\n- **Adopt it for low-risk tasks first.** Safer uses include drafting emails, brainstorming fundraising copy, summarizing notes, or creating first drafts that staff then edit.[2][4]\n\nA practical rule is: **safe for drafting and internal support, not safe for confidential or high-stakes decisions without strong controls**.[1][3][6]\n\nIf you want, I can give you a **nonprofit-safe ChatGPT checklist** or help you decide whether a specific use case is safe.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 345,
+  "estimated_cost_usd": 0.010202,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://candid.org/blogs/why-the-first-step-for-nonprofits-using-ai-technology-chatgpt-is-to-no-harm/",
+      "https://paymattic.com/chatgpt-for-nonprofits/",
+      "https://getkweet.com/blog/chatgpt-for-nonprofits-pricing-discounts-and-use-cases-2025/",
+      "https://lightful.com/blog/digital/chatgpt-for-nonprofits-potential-and-pitfalls",
+      "https://help.openai.com/en/articles/9359041-openai-for-nonprofits",
+      "https://blog.techsoup.org/en-us/posts/mitigating-risks-when-using-chatgpt"
+    ]
+  }
+}

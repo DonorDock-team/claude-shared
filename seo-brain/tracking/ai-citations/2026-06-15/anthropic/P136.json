@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P136",
+  "prompt_text": "Salesforce Nonprofit Cloud problems",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290509+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Common Salesforce Nonprofit Cloud Problems\n\n## 1. **Implementation & Adoption Challenges**\n\n- **Complexity for small nonprofits** - Can be overwhelming for organizations without technical staff\n- **Steep learning curve** - Staff resistance due to difficulty navigating the platform\n- **Poor user adoption** - Teams reverting to spreadsheets if not properly trained\n- **Insufficient change management** - Underestimating the cultural shift required\n\n## 2. **Cost Issues**\n\n- **Hidden costs** - Apps, consulting, training, and customization add up quickly\n- **License management** - Costs scale with user count\n- **Dependency on consultants** - Ongoing expenses for maintenance and updates\n- **AppExchange add-ons** - Necessary features often require paid third-party apps\n\n## 3. **Data Management**\n\n- **Data migration difficulties** - Moving legacy data into NPSP data model\n- **Duplicate records** - Household account model can create confusion\n- **Data quality issues** - Garbage in, garbage out problems\n- **Complex reporting** - Understanding relationships between objects (contacts, accounts, opportunities)\n\n## 4. **Technical Limitations**\n\n- **Customization constraints** - Over-customization can make upgrades difficult\n- **Integration challenges** - Connecting with other nonprofit tools (email, fundraising platforms)\n- **Performance issues** - Slowness with large data volumes\n- **Mobile experience** - Limited functionality compared to desktop\n\n## 5. **NPSP-Specific Problems**\n\n- **Household Account Model confusion** - Understanding 1-to-1, Individual, Household accounts\n- **Rollup complications** - Hard credit vs. soft credit tracking\n- **Upgrade disruptions** - NPSP updates sometimes break customizations\n- **Opportunity management** - Learning curve for tracking donations properly\n\n## 6. **Reporting & Analytics**\n\n- **Report building complexity** - Requires understanding of Salesforce architecture\n- **Limited out-of-box dashboards** - Need significant customization\n- **Cross-object reporting limitations** - Difficulty pulling data across related records\n\n## Solutions & Best Practices\n\n\u2705 **Invest in proper training** and change management\n\u2705 **Start simple** - Use out-of-box features before customizing\n\u2705 **Hire experienced nonprofit consultants** for implementation\n\u2705 **Establish data governance** policies early\n\u2705 **Use Power of Us program** for discounted licenses\n\u2705 **Join Trailblazer Community** for peer support\n\nWould you like me to elaborate on any specific problem area?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 584,
+  "estimated_cost_usd": 0.008802,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

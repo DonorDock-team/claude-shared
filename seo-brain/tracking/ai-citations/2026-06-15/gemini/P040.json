@@ -1,0 +1,30 @@
+{
+  "prompt_id": "P040",
+  "prompt_text": "Donor software with QuickBooks integration",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291643+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Many donor management software solutions offer integration with QuickBooks, which is crucial for nonprofits to streamline their financial record-keeping. The type and depth of integration can vary, often supporting QuickBooks Online (QBO) more readily than QuickBooks Desktop (QBD).\n\nHere are some of the top donor software platforms that commonly integrate with QuickBooks:\n\n1.  **Bloomerang:**\n    *   **Integration:** Direct, robust integration with QuickBooks Online. You can map funds, campaigns, appeals, and transactions directly to your QuickBooks chart of accounts, classes, and customers.\n    *   **Strengths:** Highly focused on donor retention, user-friendly interface, strong reporting, email marketing, and comprehensive CRM features.\n    *   **Good for:** Nonprofits of all sizes looking for a modern, intuitive system with excellent donor communication tools.\n\n2.  **Kindful (now part of EveryAction/Bonterra):**\n    *   **Integration:** Direct integration with QuickBooks Online. It allows you to sync donations, donors, and transaction details automatically.\n    *   **Strengths:** Modern interface, excellent reporting, integrated fundraising tools (online giving, peer-to-peer), and strong automation capabilities.\n    *   **Good for:** Organizations seeking a powerful, easy-to-use platform with strong fundraising and data analytics.\n\n3.  **DonorPerfect:**\n    *   **Integration:** Offers integration with both QuickBooks Online and QuickBooks Desktop (via an export/import tool or third-party connector). It allows you to transfer donation and donor data.\n    *   **Strengths:** Comprehensive feature set, long-standing reputation, robust reporting, strong event management, and volunteer tracking.\n    *   **Good for:** Mid-sized to larger nonprofits that need a powerful, all-in-one solution.\n\n4.  **Neon CRM (Neon One):**\n    *   **Integration:** Direct integration with QuickBooks Online. Syncs donations, pledges, payments, and refunds, allowing for mapping to accounts, classes, and items.\n    *   **Strengths:** An all-in-one nonprofit software suite that includes CRM, online fundraising, event registration, membership management, website content management, and volunteer management.\n    *   **Good for:** Organizations looking for a comprehensive platform to manage multiple aspects of their operations.\n\n5.  **Little Green Light (LGL):**\n    *   **Integration:** Primarily through an export feature that generates a file compatible with QuickBooks, or via third-party connectors for more direct syncs.\n    *   **Strengths:** Affordable, powerful for smaller to mid-sized organizations, excellent data management and segmentation, and robust reporting.\n    *   **Good for:** Budget-conscious organizations that need strong CRM capabilities without a hefty price tag.\n\n6.  **Virtuous:**\n    *   **Integration:** Direct integration with QuickBooks Online. Focuses on syncing transaction data and donor information efficiently.\n    *   **Strengths:** Modern, AI-driven automation, powerful marketing tools, robust fundraising features, and a focus on \"responsive fundraising.\"\n    *   **Good for:** Nonprofits looking for a forward-thinking platform with advanced automation and marketing capabilities.\n\n7.  **Salesforce Nonprofit Cloud (NPSP):**\n    *   **Integration:** While Salesforce itself is a CRM, not an accounting system, it integrates with QuickBooks (both Online and Desktop) through various AppExchange apps (third-party connectors). Examples include Accounting Seed (for full accounting within Salesforce) or specific integration apps like Breadwinner or Zapier for simpler data transfer.\n    *   **Strengths:** Highly customizable, incredibly powerful, vast ecosystem of apps, and scalable for any size organization.\n    *   **",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Bonterra",
+    "DonorPerfect",
+    "Kindful",
+    "LGL",
+    "Little Green Light",
+    "Neon CRM",
+    "Neon One",
+    "Salesforce Nonprofit Cloud",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 774,
+  "estimated_cost_usd": 0.001937,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

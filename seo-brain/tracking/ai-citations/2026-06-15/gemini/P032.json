@@ -1,0 +1,26 @@
+{
+  "prompt_id": "P032",
+  "prompt_text": "Alternative to Givebutter for donor management",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291030+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Givebutter is a popular all-in-one platform offering online fundraising, event ticketing, and basic donor management. If you're looking for an alternative, you likely want either a more robust donor management system (CRM), a different set of fundraising features, or a different pricing model.\n\nHere are some excellent alternatives, categorized by their primary strengths:\n\n## All-in-One Platforms (Similar to Givebutter's Breadth)\n\nThese platforms offer a combination of fundraising tools and donor management, often aiming for an integrated solution.\n\n1.  **Bloomerang:**\n    *   **Strengths:** Highly user-friendly, excellent for small to medium-sized nonprofits. Strong focus on donor retention. Offers fundraising, email marketing, and robust donor segmentation.\n    *   **Key Features:** Donor CRM, online fundraising pages, email marketing, constituent engagement meter, wealth screening integration.\n    *   **Best For:** Organizations prioritizing donor relationships, retention, and ease of use.\n\n2.  **DonorPerfect:**\n    *   **Strengths:** A long-standing, comprehensive solution suitable for small to large nonprofits. Offers deep customization and powerful reporting.\n    *   **Key Features:** Donor CRM, online forms, event management, peer-to-peer fundraising, grant tracking, robust reporting.\n    *   **Best For:** Organizations needing a powerful, flexible, and scalable solution with extensive reporting capabilities.\n\n3.  **NeonOne (NeonCRM):**\n    *   **Strengths:** A full-featured nonprofit CRM that can include modules for fundraising, events, membership, and more. Highly customizable.\n    *   **Key Features:** Donor CRM, online fundraising, event management, membership management, volunteer management, grant management, marketing automation.\n    *   **Best For:** Organizations looking for a truly integrated system across multiple departments (fundraising, events, membership, volunteers).\n\n4.  **Network for Good:**\n    *   **Strengths:** Simple, user-friendly, and very accessible for smaller nonprofits. Offers online fundraising, email, and texting.\n    *   **Key Features:** Online donation pages, peer-to-peer, event ticketing, email marketing, text-to-give, basic donor CRM.\n    *   **Best For:** Smaller organizations or those new to online fundraising who need a straightforward, easy-to-use platform.\n\n5.  **Little Green Light (LGL):**\n    *   **Strengths:** Excellent value for money, very comprehensive for its price point. Strong CRM with good fundraising features.\n    *   **Key Features:** Donor CRM, gift tracking, online forms, event management, robust reporting, email integrations.\n    *   **Best For:** Budget-conscious small to medium-sized nonprofits needing",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "LGL",
+    "Little Green Light",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 577,
+  "estimated_cost_usd": 0.001445,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

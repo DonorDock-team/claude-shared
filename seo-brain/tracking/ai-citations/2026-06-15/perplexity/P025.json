@@ -1,0 +1,34 @@
+{
+  "prompt_id": "P025",
+  "prompt_text": "Donor CRM with flat rate pricing no per user fees",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.290285+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "You are looking for a **donor CRM that uses flat/org-wide pricing (no per-user/seat fees)**. That usually means either:\n\n- A true **CRM with flat monthly pricing and unlimited users**, or  \n- A **fundraising platform with built\u2011in donor CRM**, where you pay **per transaction**, not per user.\n\nBelow are the main options that match what you asked for, plus what to watch for in their pricing models.\n\n---\n\n### 1. Little Green Light \u2013 classic donor CRM, flat by record count\n\n**Why it matches:**  \n- **No per\u2011user fees** \u2013 unlimited users on all plans.[1]  \n- **Flat subscription by constituent count**, not by user.[1]\n\n**Pricing (2026):**  \n- Starts at **$45/month** for up to 2,500 constituents.[1]  \n- Scales to **$135/month** for 50,000 constituents.[1]  \n- 10% discount if you prepay annually.[1]  \n\n**Good fit if:** you want a traditional donor CRM with predictable, low monthly cost, and you\u2019re okay with pricing based on **contact/constituent volume** rather than donations.\n\n---\n\n### 2. Bloomerang \u2013 donor CRM, flat by contact count\n\n**Why it matches:**  \n- **No per\u2011user fees** \u2013 pricing is based on constituent count, not seats.[1]  \n\n**Pricing (2026):**  \n- Starts around **$125/month**, scaling with number of records.[1]  \n- Typical small shops (under 1,000 records) pay around **$1,500/year**.[1]  \n\n**Good fit if:** you want strong donor\u2011retention tools and are comfortable with higher pricing than Little Green Light, still with **unlimited users** and no per\u2011user charges.[1]\n\n---\n\n### 3. DonorPerfect \u2013 donor CRM, flat by contact count\n\n**Why it matches:**  \n- **No per\u2011user fees** \u2013 cost is based on number of donor records.[1]  \n\n**Pricing (2026):**  \n- Starts at **$99/month**, scales with constituent count.[1]  \n- Typical mid\u2011size nonprofits pay **$1,188\u2013$3,000+/year**.[1]  \n\n**Good fit if:** you\u2019re mid\u2011sized and want more flexibility and features than budget tools, still avoiding per\u2011user licensing.\n\n---\n\n### 4. Neon CRM \u2013 flat rate tied to org revenue, unlimited users\n\n**Why it matches:**  \n- **Unlimited users** \u2013 no per\u2011user fees.[1]  \n- Pricing based on **your annual revenue**, not users or record count.[1]  \n\n**Pricing (2026):**  \n- Essentials: **$99/month**, Impact: $209/month, Empower: $409/month, with actual price adjusted to org revenue.[1]  \n- Small orgs often start around **$1,188/year**.[1]  \n\n**Good fit if:** your revenue is modest, you want an all\u2011in\u2011one CRM (donors, events, memberships), and you prefer a **revenue-based flat plan** instead of per\u2011user pricing.\n\n---\n\n### 5. Fundraising platforms with built\u2011in CRM and no user fees\n\nIf you are flexible on \u201cCRM\u201d meaning a **fundraising platform with donor management**, some options give you **$0/month and unlimited users**, charging only a **transaction fee**:\n\n#### Fundraise Up\n- **No subscription, no per\u2011user fees, unlimited users.**[2]  \n- Pricing: **4% platform fee per transaction + Stripe/PayPal fees** (often ~2.2% + $0.30).[2]  \n- Every feature and integration is included; no premium plan upsells.[2]  \n\nGood fit if: you raise enough online that a % of donations is acceptable in exchange for **no fixed monthly CRM cost**.\n\n#### Mightycause\n- **$0/month subscription** with an integrated **free CRM (\u201cContacts\u201d).**[3]  \n- Platform fee capped at **1.99% + $0.30** per transaction; average around **0.95% + $0.30**.[3]  \n\nGood fit if: you want a low\u2011commitment fundraising platform that still gives you a donor/contact database and predictable **transaction\u2011only** costs.\n\n---\n\n### 6. Flat\u2011rate vs. per\u2011user: what to ask vendors\n\nFrom CRM pricing analyses: **flat\u2011rate pricing** is one monthly or annual fee **regardless of how many users** access the system or how many records you store.[5] When you evaluate tools, explicitly ask:\n\n- Is pricing **per user, per record, or by org revenue**?  \n- Are **all users included** at no additional cost?  \n- How do fees change as **records, revenue, or transactions** grow?  \n- Are there additional **platform or processing fees** on donations?\n\n---\n\nIf you tell me your approximate annual donations, contact count, and must\u2011have features (email, events, memberships, volunteers, etc.), I can narrow this to 2\u20133 best\u2011fit platforms and estimate your likely annual cost under flat/no-per-user models.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 1091,
+  "estimated_cost_usd": 0.021401,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://scottshipsolutions.com/blog/best-crms-for-nonprofits/",
+      "https://fundraiseup.com/pricing/",
+      "https://blog.mightycause.com/best-fundraising-platforms-for-nonprofits-2026/",
+      "https://www.givelively.org/blog/how-much-do-nonprofit-fundraising-platforms-actually-cost",
+      "https://www.liveimpact.org/blog/nonprofit-crm-pricing",
+      "https://www.donordock.com/articles/best-nonprofit-crm",
+      "https://bloomerang.com/blog/free-nonprofit-software",
+      "https://givebutter.com/blog/best-free-crm-for-nonprofits"
+    ]
+  }
+}

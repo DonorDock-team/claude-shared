@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P133",
+  "prompt_text": "Givebutter limitations",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290318+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Givebutter is a highly popular and well-regarded fundraising platform, especially for small to medium-sized nonprofits due to its \"free\" basic offering and user-friendly interface. However, like any software, it has limitations that might make it less ideal for certain organizations or specific use cases.\n\nHere are some potential limitations of Givebutter:\n\n1.  **Reliance on Donor-Covered Fees (The \"Free\" Model Nuance):**\n    *   **Perception:** While Givebutter advertises itself as \"free,\" the core mechanism for this is asking donors to cover the transaction fees (Stripe fees + Givebutter platform fees).\n    *   **Donor Friction:** Not all donors will opt to cover the fees, and some might be put off by the explicit ask, potentially leading to smaller donations or abandonment.\n    *   **Organization Cost:** If donors don't cover the fees, the organization *still* pays the standard Stripe processing fees (typically 2.9% + $0.30 per transaction), and possibly a Givebutter platform fee if they haven't opted into an annual plan where Givebutter waives its part. For organizations with high donation volumes and many donors opting out of covering fees, these costs can accumulate.\n\n2.  **Limited Advanced CRM Functionality:**\n    *   **Basic vs. Comprehensive:** Givebutter offers basic donor management (donor profiles, donation history, communication tools). However, it is not a full-fledged Customer Relationship Management (CRM) system like Salesforce, Bloomerang, Raiser's Edge, or DonorPerfect.\n    *   **Missing Features:** It generally lacks advanced segmentation, wealth screening, moves management, sophisticated major gift tracking, intricate donor journey mapping, or detailed prospect research tools that larger organizations often require.\n    *   **Integration Necessity:** Organizations often need to integrate Givebutter with a more robust CRM to get a complete picture of their donor base, which adds another layer of complexity and potential cost (e.g., Zapier subscription).\n\n3.  **Less Granular Customization for Branding & Design:**\n    *   **Template-Based:** While",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 3,
+  "output_tokens": 440,
+  "estimated_cost_usd": 0.001101,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

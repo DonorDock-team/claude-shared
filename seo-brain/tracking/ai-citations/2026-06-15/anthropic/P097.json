@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P097",
+  "prompt_text": "Hidden costs of Network for Good",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290250+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Hidden Costs of Network for Good\n\nNetwork for Good is a popular fundraising platform for nonprofits, but several hidden or less-obvious costs can add up:\n\n## Fee Structure Issues\n\n1. **Platform Fee (3%)** - Often advertised prominently, but additional costs aren't always clear upfront\n\n2. **Payment Processing Fees (2.9% + $0.30)** - Standard credit card fees on top of platform fees\n   - Total: ~5.9% + $0.30 per transaction before other costs\n\n3. **Monthly Subscription Fees** - Some plans require monthly payments ($99-$179+) in addition to transaction fees\n\n## Less Obvious Costs\n\n4. **Donor Covering Fees Opt-Out**\n   - If donors don't cover fees, you absorb the full cost\n   - Conversion rates on fee coverage vary\n\n5. **ACH/Bank Transfer Delays** - Funds may take 5-7 business days (or longer) to reach you\n\n6. **Premium Feature Costs**\n   - Advanced reporting\n   - Custom branding\n   - Email support vs. phone support tiers\n\n7. **Setup and Training Time** - Staff hours needed to learn the system\n\n8. **Data Export Limitations** - May need to pay extra or face restrictions on accessing your own donor data\n\n9. **Integration Costs** - Connecting to your CRM or accounting software may require paid tools or developer time\n\n10. **Annual Contract Commitments** - Some plans lock you in with cancellation fees\n\n## Best Practices\n\n- **Read the complete fee schedule** before committing\n- **Calculate total effective rate** including all fees\n- **Compare alternatives** (GiveWP, Donorbox, Givebutter)\n- **Ask about contract terms** and cancellation policies\n\nWould you like comparisons with specific alternative platforms?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 417,
+  "estimated_cost_usd": 0.006294,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

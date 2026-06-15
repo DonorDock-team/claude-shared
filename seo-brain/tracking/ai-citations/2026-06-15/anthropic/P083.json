@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P083",
+  "prompt_text": "Best donor CRM for museums",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290737+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Museums\n\nHere are the top CRM options specifically suited for museums:\n\n## **Top Choices**\n\n### **1. Blackbaud Raiser's Edge NXT**\n- Industry standard for cultural institutions\n- Strong membership and ticketing integration\n- Robust reporting and wealth screening\n- **Best for:** Large museums with complex needs\n- **Drawback:** Higher cost, steeper learning curve\n\n### **2. Salesforce Nonprofit Cloud**\n- Highly customizable for museum-specific workflows\n- Integrates with ticketing systems (Tessitura, Acme, etc.)\n- Strong ecosystem of apps and add-ons\n- **Best for:** Mid-to-large museums wanting flexibility\n- **Drawback:** Requires setup/customization investment\n\n### **3. Bloomerang**\n- User-friendly interface\n- Strong retention-focused features\n- Good reporting at reasonable price point\n- **Best for:** Small-to-mid museums prioritizing ease of use\n- **Drawback:** Less robust for complex membership structures\n\n### **4. Little Green Light**\n- Built for small nonprofits including museums\n- Affordable, straightforward\n- Good grant tracking features\n- **Best for:** Small museums with limited budgets\n- **Drawback:** Fewer advanced features\n\n### **5. Altru (Blackbaud)**\n- Purpose-built for cultural organizations\n- Combines CRM, ticketing, and membership\n- All-in-one solution\n- **Best for:** Museums wanting integrated ticketing/CRM\n- **Drawback:** Expensive, significant implementation\n\n## **Key Considerations**\n- Integration with existing ticketing/POS systems\n- Membership tier management\n- Event management capabilities\n- Grant tracking needs\n- Budget and staff technical capacity\n\nWhat size museum are you working with?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 414,
+  "estimated_cost_usd": 0.006249,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

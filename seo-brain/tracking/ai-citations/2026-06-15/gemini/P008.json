@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P008",
+  "prompt_text": "DonorDock vs Neon CRM",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290391+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Both DonorDock and Neon CRM are popular choices for nonprofit organizations seeking donor management and fundraising software, but they cater to slightly different needs and preferences.\n\nHere's a breakdown to help you compare them:\n\n## DonorDock vs. Neon CRM\n\n| Feature/Aspect         | DonorDock                                            | Neon CRM                                                     |\n| :--------------------- | :--------------------------------------------------- | :----------------------------------------------------------- |\n| **Overall Philosophy** | Modern, intuitive, focused on donor engagement & actionable insights, streamlined. | Comprehensive, all-in-one suite, robust for complex needs, established. |\n| **Target Audience**    | Small to mid-sized nonprofits, growing organizations, those prioritizing ease of use and modern UI. | Mid-sized to large nonprofits, growing organizations, those needing a full ecosystem of tools. |\n| **Ease of Use/UI**     | Very high. Modern, clean, intuitive interface. Designed for quick adoption. | Moderate to High. Can have a steeper learning curve due to the depth of features. UI is functional, but some might find it less modern. |\n| **Donor Management**   | Excellent. Focus on donor profiles, communication history, engagement scoring, next steps. | Very strong. Detailed donor profiles, segmentation, relationship tracking. |\n| **Fundraising**        | Online giving forms, campaigns, peer-to-peer (growing), pledge management. | Robust online giving forms, campaigns, appeals, peer-to-peer, crowdfunding, event ticketing. |\n| **Communications**     | Integrated email marketing (simpler), mail merge for letters, personalized outreach. | Full-fledged email marketing, direct mail management, segmentation for targeted communications. |\n| **Event Management**   | Good for simpler events (registrations, attendees).   | Very strong and comprehensive for complex events (ticketing, seating charts, sponsorships, fundraising events). |\n| **Reporting/Analytics** | Strong, actionable dashboards, clear insights into donor engagement and fundraising performance. | Very robust and customizable. Powerful query builder, diverse reporting options, some advanced analytics. |\n| **Integrations**       | Growing ecosystem. Common integrations include Stripe, Mailchimp, Zapier. | Extensive. Integrates with QuickBooks, wealth screening tools, various payment processors, Zapier, etc. |\n| **Pricing**            | Often more transparent, typically tiered based on database size and features. Can be more affordable for smaller orgs. | Tiered pricing, can become significantly more expensive as your database grows or you need more advanced features. Often requires a quote. |\n| **Customer Support**   | Often praised for being responsive, personal, and helpful. | Generally good, but can vary by support tier. Extensive knowledge base and community forum. |\n| **Scalability**        | Good for growing nonprofits, but might have limits for very large, highly complex organizations. | Highly scalable, designed to grow with large organizations and handle complex data. |\n\n---\n\n## DonorDock In-Depth\n\n**Pros:**\n*   **User-Friendly Interface:** One of its strongest selling points. Very intuitive, reducing the learning curve for staff",
+  "donordock_mentioned": true,
+  "donordock_position": 5,
+  "competitors_mentioned": [
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 650,
+  "estimated_cost_usd": 0.001626,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P056",
+  "prompt_text": "Best donor CRM to consolidate multiple fundraising tools",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291477+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Consolidating multiple fundraising tools into a single, robust donor CRM is an excellent strategy for efficiency, better data insights, and improved donor relations. The \"best\" CRM will depend heavily on your organization's size, budget, specific fundraising activities, technical capabilities, and long-term goals.\n\nHowever, based on the need to **consolidate multiple tools**, here are the top donor CRMs known for their comprehensive features, integration capabilities, or all-in-one approach:\n\n---\n\n### Top Donor CRMs for Consolidation\n\nThese CRMs aim to be your central hub, reducing the need for separate tools for email marketing, event management, online donations, volunteer tracking, and more.\n\n**1. Salesforce Nonprofit Success Pack (NPSP)**\n*   **Best For:** Large organizations, those with complex needs, tech-savvy teams, and a desire for ultimate customization and scalability.\n*   **Why it Consolidates:**\n    *   **Platform:** Salesforce is a robust platform that can handle virtually any data and process.\n    *   **Native Features:** NPSP provides excellent donor and constituent management, gift processing, household management, and basic reporting.\n    *   **AppExchange:** Its greatest strength for consolidation is the *Salesforce AppExchange*. You can find integrations and native apps for almost every fundraising need: email marketing (Pardot, Marketing Cloud, Mailchimp), event management (Eventbrite, Blackthorn Events), online giving (Classy, Fundraise Up, Stripe integrations), grant management, volunteer management, case management, accounting, and more.\n    *   **Unified Data:** All data flows into Salesforce, providing a 360-degree view of your constituents.\n*   **Pros:** Unparalleled flexibility, scalability, vast ecosystem, powerful reporting.\n*   **Cons:** Steep learning curve, requires significant setup and administration, can be more expensive (though NPSP is heavily discounted for nonprofits).\n\n**2. Bloomerang**\n*   **Best For:** Small to mid-sized nonprofits looking for an intuitive, modern, and donor-retention-focused platform.\n*   **Why it Consolidates:**\n    *   **All-in-One Design:** Bloomerang is built from the ground up to be an all-in-one solution.\n    *   **Native Features:** It includes robust donor management, online giving forms, email marketing, basic event management (registration forms), volunteer tracking, constituent timelines, wealth screening integrations, and powerful reporting focused on donor retention metrics.\n    *   **Integrations:** Offers direct integrations with popular tools like Mailchimp (if you need more advanced email than native), QuickBooks Online, WePay (for payments), and more.\n*   **",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 8,
+  "output_tokens": 567,
+  "estimated_cost_usd": 0.00142,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

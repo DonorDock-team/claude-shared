@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P077",
+  "prompt_text": "How to track major donor moves management",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291735+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Tracking major donor moves management is crucial for effective fundraising, ensuring that your organization nurtures relationships, maximizes giving potential, and allocates resources efficiently. It's a systematic approach to cultivating donors from identification to stewardship.\n\nHere's a comprehensive guide on how to track major donor moves management:\n\n## 1. Understand the Stages of Moves Management\n\nBefore you track, you need to understand the lifecycle. While specific naming can vary, the core stages are:\n\n*   **Identification & Qualification:** Discovering potential major donors and determining their capacity, inclination, and connection to your mission.\n*   **Cultivation:** Building a relationship, deepening their understanding of your work, and engaging them with your organization through various touchpoints.\n*   **Solicitation (The Ask):** Making a specific request for financial support, often tied to a project or campaign.\n*   **Stewardship:** Thanking the donor appropriately, reporting on the impact of their gift, and continuing to engage them to maintain the relationship for future giving.\n\n## 2. Choose the Right System/Tool\n\nThe most effective tracking relies on a robust system.\n\n*   **CRM (Constituent Relationship Management) System:** This is the gold standard. Examples include Salesforce (with Nonprofit Cloud), Blackbaud Raiser's Edge NXT, DonorPerfect, Virtuous, Little Green Light, etc.\n    *   **Key Features:** Donor profiles, activity logging, task management, customizable fields, reporting, segmentation, automation.\n*   **Advanced Spreadsheets (e.g., Google Sheets, Excel):** For very small organizations with limited budgets, this can be a starting point, but it quickly becomes unwieldy and lacks many critical CRM features (security, multi-user access, reporting, historical data integrity).\n    *   **Caveats:** Manual data entry errors, difficult to share and collaborate, limited reporting, no automation.\n\n## 3. What Information to Track (Key Data Points)\n\nRegardless of your system, these are essential data points for each major donor prospect:\n\n**A. Donor Profile Information:**\n\n*   **Contact Details:** Full name, preferred salutation, mailing address, email, phone numbers.\n*   **Demographics:** Occupation, employer, education, marital status, family members.\n*   **Giving History:** All past donations to your organization (date, amount, purpose).\n*   **Wealth Screening Data:** Estimated capacity to give (obtained through third-party services).\n*   **Interests & Affiliations:** Their passions, hobbies, board memberships, other philanthropic interests.\n*   **Relationship to Organization:** How they initially connected, past volunteer roles, specific program interests.\n*   **Communication Preferences:** How they prefer to be contacted (email, phone, mail), frequency.\n\n**B. Moves Management Specifics:**\n\n*   **Relationship Manager (RM)/Portfolio Manager:** The staff member responsible for the donor.\n*   **Current Stage:** Which of the moves management stages they are currently in (e.g., Prospect, Qualified, Cultivating, Soliciting, Pledged, Stewarding).\n*   **Major Gift Cycle Status:** A more granular status within the stage (e.g., \"Introductory Meeting Scheduled,\" \"Proposal Under Review,\" \"Gift Acknowledged\").\n*   **Next Steps:** The very next action to be taken, by whom, and by what date. **This is critical!**\n*   **Activity Log/Touchpoints:**\n    *   **Date:** When the interaction occurred.\n    *   **Type of Interaction:** (e.g., phone call, email, face-to-face meeting, event invitation, mailer, proposal sent, gift received).\n    *   **Description/Notes:** A detailed summary of the interaction, key takeaways, and any commitments made.\n    *   **Outcome:** What was achieved (e.g., \"Donor expressed interest in X program,\" \"Meeting scheduled,\" \"Positive response to proposal\").\n*   **Solicitation Details (if applicable):**\n    *   **Target Ask Amount:** The planned amount of the ask.\n    *   **Ask Purpose:** The specific program, project, or general fund the ask is for.\n    *   **Date of Ask:** When the ask was formally made.\n    *   **Ask Outcome:** (e.g., accepted, declined, deferred",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "DonorPerfect",
+    "Little Green Light",
+    "Raiser's Edge",
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 910,
+  "estimated_cost_usd": 0.002277,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

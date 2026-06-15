@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P014",
+  "prompt_text": "DonorDock vs Keela",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290968+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Keela Comparison\n\nBoth DonorDock and Keela are cloud-based donor management systems designed for nonprofits, but they have different strengths and target audiences.\n\n## **DonorDock**\n\n### Strengths\n- **Simplicity & ease of use** - Very intuitive interface, minimal learning curve\n- **Affordability** - Generally lower cost, transparent pricing\n- **Customer service** - Known for responsive, personalized support\n- **Quick setup** - Can get started quickly without extensive training\n- **Task management** - Built-in workflow and task tracking features\n\n### Best For\n- Small to mid-sized nonprofits\n- Organizations wanting simple, straightforward donor management\n- Teams without dedicated IT staff\n- Nonprofits prioritizing ease of use over advanced features\n\n## **Keela**\n\n### Strengths\n- **AI-powered insights** - Smart algorithms for donor predictions and recommendations\n- **Robust reporting** - More advanced analytics and customizable reports\n- **Email marketing** - Built-in email campaigns with better segmentation\n- **Volunteer management** - Includes volunteer tracking features\n- **Feature-rich** - More comprehensive toolset overall\n\n### Best For\n- Growing nonprofits ready for more sophisticated tools\n- Organizations wanting data-driven fundraising insights\n- Teams that need integrated email marketing\n- Nonprofits managing volunteers alongside donors\n\n## **Key Differences**\n\n| Feature | DonorDock | Keela |\n|---------|-----------|-------|\n| **Complexity** | Simpler | More features, steeper learning curve |\n| **Pricing** | Generally lower | Higher, but more inclusive features |\n| **AI Features** | Limited | Strong AI-driven insights |\n| **Email Marketing** | Basic | Advanced |\n| **Support** | Highly praised | Good, but less personalized |\n\n## **Bottom Line**\n\nChoose **DonorDock** if you want simplicity, affordability, and excellent support without complexity.\n\nChoose **Keela** if you need more powerful features, AI insights, and are ready to invest time in learning a more robust platform.\n\nWould you like more details about pricing or specific features?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 493,
+  "estimated_cost_usd": 0.007443,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

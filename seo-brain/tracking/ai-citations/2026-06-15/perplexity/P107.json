@@ -1,0 +1,31 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.291234+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "You measure donor retention by calculating the **donor retention rate** and tracking it regularly by segment, year, and cohort.\n\n**1. Core metric: Donor Retention Rate (DRR)**  \n- **Definition:** The percentage of donors from a previous period who gave again in the current period.[1][4][8]  \n- **Standard annual formula:**  \n  \\[\n  \\text{Donor Retention Rate} = \\left(\\frac{\\text{Number of donors who gave in both periods}}{\\text{Number of donors who gave in the prior period}}\\right) \\times 100\n  \\][1][5][6][10]\n\n**Example:**  \n- 2024 donors: 300  \n- Of those, donors who also gave in 2025: 159  \n- DRR = \\(159 \u00f7 300 \u00d7 100 = 53\\%\\)[4]\n\n**How to calculate it in practice**  \n1. **Pick a time window**  \n   - Most nonprofits use **year-to-year** (e.g., FY 2024 vs FY 2025).[1][3]  \n   - You can also do **quarterly**, by **campaign**, or rolling 12-month periods for quicker feedback.[1][3]\n\n2. **Pull a deduplicated donor list for the prior period**  \n   - Export all **unique donors** who gave in the starting period from your CRM or database (each donor counted once, regardless of how many gifts).[1][3]  \n   - Exclude non-donors like event-only attendees or volunteers.[3]\n\n3. **Identify retained donors in the current period**  \n   - Count how many of those same donors also made at least one gift in the current period.[1][3]  \n\n4. **Apply the formula**  \n   - DRR = (Retained donors \u00f7 Prior-period donors) \u00d7 100.[1][5][6][10]\n\nYou can do this inside your **CRM** (many have built-in reports) or manually in Excel/Google Sheets using tools like `VLOOKUP`, `MATCH`, or `COUNTIF` to find matches between lists from two periods.[3]\n\n---\n\n**2. Go beyond a single overall rate**\n\nTo *measure* donor retention in a way that informs strategy, track several related metrics and segments.\n\n**Key retention cuts to track**[2][3][6]:  \n- **Overall retention rate** (all donors year to year)  \n- **First-year retention**: donors who gave for the *first time* last year and gave again this year[2][3]  \n- **Second- and third-year retention**: behavior stabilizes differently after year 1, so measure separately.[2]  \n- **Retention by donor size**: micro, small, midsize, major donors.[3][6]  \n- **Retention by giving type**:  \n  - Monthly/recurring donors  \n  - One-time donors  \n  - Major donors[3]  \n- **Retention by acquisition source or channel**: e.g., online, event, direct mail, peer-to-peer.[3]  \n\nYou calculate each of these the same way, but restrict the numerator and denominator to the segment in question.\n\n---\n\n**3. Additional helpful retention indicators**\n\nAlongside DRR, many organizations watch related metrics on a **retention dashboard**:[2]\n\n- **Number of new donors** (this period)  \n- **Number of monthly donors** and their retention rate[2][3]  \n- **Average gift size** of retained vs lapsed donors[2]  \n- **Number of donors upgrading to higher segments** (e.g., to middle or major giving)[2]  \n- **Number/percentage of donors personally thanked** in addition to standard receipts (calls, notes, etc.).[2]\n\nWhile these are not themselves \u201cretention\u201d formulas, changes in them often correlate strongly with retention performance.\n\n---\n\n**4. Frequency and process for measuring**\n\n- **How often to calculate:**  \n  - At minimum: **annually**, often aligned with your fiscal year.[1][3]  \n  - Better: **quarterly** or by campaign, and a **rolling 12\u2011month retention** to catch trend changes earlier.[1][3]  \n\n- **Use a simple rhythm:**[1][2][3]  \n  - Monthly or quarterly check-ins where you review your dashboard:  \n    - Are we on track/off track versus goals?[2]  \n    - Which segments are improving or declining?  \n  - Deeper quarterly or semiannual reviews to adjust strategy.[2]\n\n- **Data hygiene matters:**  \n  - Use **unique donor IDs** to avoid duplicates or name variants.[3]  \n  - Regularly merge duplicates and fix data errors so your counts are accurate.[3]\n\n---\n\n**5. Other retention-related rates you can measure**\n\nUsing the same structure you can also track:\n\n- **Lapsed donor rate**  \n  \\[\n  \\text{Lapsed Rate} = \\left(\\frac{\\text{Prior-period donors who did NOT give this period}}{\\text{Prior-period donors}}\\right) \\times 100\n  \\]  \n  This is just 100% \u2013 DRR.\n\n- **Recaptured donor retention rate** (how many lapsed donors came back):  \n  \\[\n  \\text{Recaptured Donor Retention Rate} = \\left(\\frac{\\text{Number of lapsed donors who gave again}}{\\text{Total number of lapsed donors}}\\right) \\times 100\n  \\][9]\n\n---\n\nIf you share what tools you use now (CRM/Excel) and your annual donor volume, I can outline a step-by-step calculation process tailored to your setup, including sample spreadsheet columns and formulas.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 1191,
+  "estimated_cost_usd": 0.022883,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.sopact.com/use-case/donor-retention",
+      "https://givingusa.org/how-to-find-and-keep-your-donors-part-one-retention/",
+      "https://rallyup.com/blog/donor-retention-rate/",
+      "https://bloomerang.com/blog/donor-retention",
+      "https://www.boardeffect.com/blog/donor-retention-rate/",
+      "https://kindsight.io/resources/blog/a-guide-to-donor-retention-for-nonprofits/",
+      "https://www.donorrelations.com/post/4-key-metrics-for-donor-relations-success",
+      "https://kb.blackbaud.com/articles/Article/58594",
+      "https://dataro.io/blog/how-to-improve-donor-retention-data-insights-trends-strategies-for-nonprofits",
+      "https://virtuous.org/blog/understanding-donor-retention/"
+    ]
+  }
+}

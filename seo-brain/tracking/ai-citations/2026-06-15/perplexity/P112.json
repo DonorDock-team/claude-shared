@@ -1,0 +1,35 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.291630+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "To **track soft credits** in a donor CRM, record them as a separate attribution linked to the original gift, with the **hard credit** on the actual payer and the **soft credit** on the person or organization that influenced the gift.[1][2][4]\n\nThe core setup is usually:\n\n- **Hard credit** = the person or organization whose money was given.[1]\n- **Soft credit** = the person or organization responsible for the gift coming in, such as a fundraiser, board member, spouse, or matching-gift partner.[1][2][4]\n- Store the soft credit on the **gift/transaction record** or as a related credit object, depending on the CRM\u2019s data model.[1][4][6]\n\nCommon ways CRMs handle this:\n\n- In **Beacon**, soft credit is entered in the **Fundraiser** field on a payment record; split payments can be used to assign partial or multiple soft credits.[1]\n- In **Salesforce NPSP**, soft credits are tracked through **Opportunity Contact Roles**, plus manual and partial soft-credit records for special cases.[4]\n- In **Givebutter**, soft credits are added manually on the transaction under **Funds & credit**, with support for partial or multiple credits.[6]\n- In **CiviCRM**, soft credits appear on the credited contact\u2019s contribution tab alongside hard credits.[3]\n\nTo make soft credits useful for reporting, your CRM should let you:\n\n- Filter gifts that **have soft credits** versus those that do not.[1][6]\n- Report on **totals by credited contact**.[1][4][6]\n- Distinguish **direct gifts** from **attributed fundraising influence**.[1][2][4]\n\nA practical workflow is:\n\n- Enter the original donation as the **hard credit**.\n- Add one or more soft-credit recipients for attribution.\n- Use reporting fields or rollups so soft credits appear on contact histories and dashboards.[1][4][6]\n\nIf you want, I can also show you how to set this up in a specific CRM such as **Salesforce NPSP, Bloomerang, DonorPerfect, CiviCRM, Beacon, or Givebutter**.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Givebutter",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 453,
+  "estimated_cost_usd": 0.011822,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://guide.beaconcrm.org/en/articles/6817580-recording-soft-credits",
+      "https://www.donordock.com/crm",
+      "https://civicrm.org/blog/eliet-henderson/improving-civicrm%E2%80%99s-soft-credit-functionality",
+      "https://help.salesforce.com/s/articleView?id=sfdo.npsp_soft_credits_overview.htm&language=en_US&type=5",
+      "https://www.keela.co/glossary/soft-credit-donation",
+      "https://help.givebutter.com/en/articles/10366478-how-to-use-soft-credits",
+      "https://bloomerang.com/blog/ask-an-expert-what-are-the-rules-for-using-soft-credits-in-a-donor-database",
+      "https://www.donorperfect.com/nonprofit-technology-blog/fundraising-software/reports-to-find-major-donors/"
+    ]
+  }
+}

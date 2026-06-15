@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P012",
+  "prompt_text": "DonorDock vs Virtuous",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290808+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Virtuous Comparison\n\nBoth are cloud-based donor management systems, but they target different organization sizes and have distinct approaches.\n\n## **DonorDock**\n\n### Best For\n- Small to mid-sized nonprofits\n- Organizations with limited budgets\n- Teams wanting simpler, straightforward tools\n\n### Key Strengths\n- **Affordability** - Generally lower pricing tiers\n- **Ease of use** - Simpler interface, shorter learning curve\n- **Quick implementation** - Faster to get up and running\n- **Core features** - Solid basics for donor management, online giving, reporting\n\n### Limitations\n- Fewer advanced features\n- Less robust automation\n- Smaller ecosystem of integrations\n- More limited customization options\n\n## **Virtuous**\n\n### Best For\n- Mid to large-sized nonprofits\n- Organizations focused on responsive fundraising\n- Teams ready to invest in sophisticated tools\n\n### Key Strengths\n- **Responsive Fundraising** - Built around modern donor engagement philosophy\n- **Advanced automation** - Sophisticated workflows and triggers\n- **Better reporting/analytics** - More powerful data insights\n- **Marketing tools** - Stronger integrated marketing capabilities\n- **Robust integrations** - More third-party connections\n\n### Limitations\n- Higher price point\n- Steeper learning curve\n- May be overkill for very small organizations\n- Requires more time investment to maximize value\n\n## **Quick Decision Guide**\n\n**Choose DonorDock if you:**\n- Have a smaller budget (<$10K/year for CRM)\n- Need something simple and fast to implement\n- Have a small team with limited technical expertise\n\n**Choose Virtuous if you:**\n- Want sophisticated donor engagement tools\n- Need advanced automation and segmentation\n- Have budget for a more robust solution\n- Plan to scale significantly\n\nWould you like specific details about pricing, features, or integration capabilities?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Virtuous"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 429,
+  "estimated_cost_usd": 0.006483,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

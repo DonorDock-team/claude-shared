@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P046",
+  "prompt_text": "Best donor CRM for arts and cultural nonprofits",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290498+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Arts & Cultural Nonprofits\n\n## Top Recommendations\n\n### **1. PatronManager (by Salesforce)**\n- **Best for:** Performing arts organizations, museums, theaters\n- **Key features:** \n  - Built specifically for arts/cultural sector\n  - Integrates ticketing + fundraising + membership\n  - Robust patron engagement tracking\n  - Salesforce-powered (scalable)\n- **Pricing:** Starting ~$3,000-5,000/year\n- **Ideal size:** Mid to large organizations\n\n### **2. Blackbaud Altru**\n- **Best for:** Museums, zoos, performing arts centers\n- **Key features:**\n  - All-in-one: ticketing, admissions, memberships, fundraising\n  - Strong event management\n  - Comprehensive reporting\n- **Pricing:** Higher end (~$10,000+/year)\n- **Ideal size:** Larger institutions\n\n### **3. Tessitura**\n- **Best for:** Larger performing arts organizations, museums\n- **Key features:**\n  - Industry standard for major arts organizations\n  - Extremely robust ticketing + CRM\n  - Multi-venue capabilities\n- **Pricing:** Enterprise-level (significant investment)\n- **Ideal size:** Large, established organizations\n\n### **4. Neon CRM** or **Bloomerang**\n- **Best for:** Smaller arts nonprofits\n- **Key features:**\n  - Affordable, user-friendly\n  - Event management + donor tracking\n  - Can integrate with third-party ticketing\n- **Pricing:** $50-150/month\n- **Ideal size:** Small to mid-size organizations\n\n## What's your organization's size and primary needs (ticketing vs. fundraising focus)?",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Neon CRM"
+  ],
+  "urls_cited": [],
+  "input_tokens": 18,
+  "output_tokens": 411,
+  "estimated_cost_usd": 0.006219,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

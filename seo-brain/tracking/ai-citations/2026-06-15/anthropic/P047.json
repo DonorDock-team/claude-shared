@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P047",
+  "prompt_text": "Best donor CRM for community foundations",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290570+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Community Foundations\n\nCommunity foundations have unique needs\u2014managing multiple funds, handling complex grants, and tracking diverse donor relationships. Here are the top options:\n\n## **Top Recommendations**\n\n### **1. Foundant GLM (Grant Lifecycle Manager)**\n- **Best for:** Community foundations of all sizes\n- **Strengths:** Purpose-built for foundations; integrates grants management with donor tracking\n- **Key features:** Fund accounting, scholarship management, online applications\n- **Pricing:** Mid to high range\n\n### **2. Blackbaud Raiser's Edge NXT**\n- **Best for:** Larger community foundations ($10M+ in assets)\n- **Strengths:** Comprehensive ecosystem, strong reporting, widely used\n- **Key features:** Donor management, fund tracking, financial integration\n- **Consideration:** Can be expensive; steep learning curve\n\n### **3. Bloomerang**\n- **Best for:** Small to mid-sized community foundations\n- **Strengths:** User-friendly, excellent retention metrics, affordable\n- **Key features:** Donor engagement tracking, email marketing, reporting\n- **Pricing:** More budget-friendly\n\n### **4. DonorPerfect**\n- **Best for:** Growing community foundations\n- **Strengths:** Flexible, good integration options, fund management add-ons\n- **Key features:** Customizable, online giving, grant tracking modules\n\n### **5. Salesforce Nonprofit Cloud**\n- **Best for:** Foundations wanting customization\n- **Strengths:** Highly customizable, scalable, extensive integrations\n- **Consideration:** Requires technical expertise or consultants\n\n## **Key Selection Criteria**\n- Fund accounting capabilities\n- Grant management integration\n- Donor advised fund (DAF) tracking\n- Reporting for board/stakeholders\n- Budget and staff technical capacity\n\n**Recommendation:** Most community foundations find the best fit with **Foundant** or **Blackbaud** due to their foundation-specific features.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 450,
+  "estimated_cost_usd": 0.006792,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

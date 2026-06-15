@@ -1,0 +1,37 @@
+{
+  "prompt_id": "P066",
+  "prompt_text": "Donor CRM with campaign and appeal tracking",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.290855+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "A **nonprofit / donor CRM that supports campaign and appeal tracking** is a fundraising database that stores donor and gift data and lets you tag each donation by **campaign**, **fund**, and **appeal** so you can see which efforts are working and where revenue is coming from.[2][5][7]\n\nBelow are the key concepts and some strong tool options.\n\n---\n\n### 1. What you should be looking for\n\nA suitable **donor CRM with campaign and appeal tracking** will typically let you:\n\n- **Store donor profiles and giving history** (names, contact info, gifts, interactions).[1][7]  \n- Track each **gift\u2019s campaign, fund, and appeal**:\n  - **Campaign** = overall fundraising initiative or \u201cumbrella\u201d goal (e.g., *Capital Campaign*).[2][5]  \n  - **Fund** = where or what the money is for (e.g., *Scholarship Fund*).[2][5]  \n  - **Appeal** = *how* you asked (e.g., direct mail, email, event).[2][5]  \n- **Report on campaign and appeal performance** (e.g., total raised, ROI, response rate).[3][5][6]  \n- **Segment donors** by campaign/appeal response for future targeting.[3][4][6]  \n- Optionally, **integrate communications** (email, letters) so appeals are tracked automatically.[3][4][6]\n\nNonprofit\u2011specific CRMs are designed for exactly these needs (gifts, pledges, campaigns, appeals, moves management, etc.).[6]\n\n---\n\n### 2. Examples of donor CRMs that track campaigns and appeals\n\nHere are some widely used options that explicitly support campaign and appeal tracking:\n\n- **DonorDock**  \n  - Nonprofit CRM that **stores donor/contact info and tracks gifts, grants, funds, appeals, and campaigns in one place**.[1]  \n  - Recurring donations from online giving pages are automatically tied to the donor and linked to designated **funds, appeals, and campaigns**.[1]  \n  - Designed for small to mid-sized nonprofits.\n\n- **DonorPerfect**  \n  - Includes a **campaign and appeal management system** with branded online donation forms and integrated payment processing.[3]  \n  - Lets you solicit donors via letters and email, capture donations, send acknowledgments, and then **track campaign success** with 70+ standard nonprofit reports, including revenue and expenses to determine ROI.[3]  \n\n- **Donorbox CRM**  \n  - Nonprofit CRM with tools to **schedule campaigns, send appeals, and track performance in real time**.[4]  \n  - Provides **Conversations** and a **Supporter Timeline** to track all donor communications and gifts in one place.[4]  \n\n- **Givebutter (with CRM / appeals)**  \n  - Treats **campaigns** as where donations are raised, **funds** as how donations are allocated, and **appeals** as the method used to solicit donations (e.g., direct mail, email, in\u2011person ask).[5]  \n  - Every transaction is tied to a campaign and can be tagged with an appeal; you can **filter, sort, and report on appeals** to analyze fundraising performance.[5]  \n\n- **General nonprofit CRMs (Bloomerang, Keela, Aplos, etc.)**  \n  - Nonprofit CRMs commonly include tools for **gifts and pledges, appeals and campaigns, segmentation, and dashboards** for campaign reporting.[6][8][10]  \n  - These are designed to manage donor relationships and fundraising in one system rather than using a generic business CRM.[6]\n\n---\n\n### 3. How campaigns/appeals typically work in a CRM\n\nIndustry-standard setup (often modeled on Raiser\u2019s Edge and similar systems):\n\n- **Campaigns**  \n  - Long\u2011term or \u201cevergreen\u201d objectives (e.g., *Annual Fund*, *Capital Campaign*).[2]  \n  - Act as the **umbrella** for funds and appeals.[2]\n\n- **Funds**  \n  - Define the **purpose** of the gift and the financial account it should hit.[2][5]  \n  - Often required on every gift entry in nonprofit CRMs.[2]\n\n- **Appeals**  \n  - Identify *how* a gift was solicited: direct mail piece, email blast, gala event, phone call, etc.[2][5]  \n  - Can be segmented by audience (e.g., 2024 Grandparents Appeal vs. 2024 Parents Appeal) under the same campaign/fund to track different donor groups.[2]  \n  - Used heavily in reporting and optimization (e.g., which appeal channel or message worked best).[5]\n\nWith this structure, you can run reports like:\n\n- Total raised by **campaign** (e.g., Annual Fund vs. Capital Campaign).  \n- Total raised by **appeal** (e.g., fall mailing vs. Giving Tuesday email).[3][5]  \n- Donor retention or upgrade rates within specific campaigns or appeals.[6][7]\n\n---\n\n### 4. If you share your context, I can narrow recommendations\n\nIf you\u2019d like, tell me:\n- Your **organization size** and budget range  \n- Whether you need **email/marketing built-in** or already have another tool  \n- If you need **online forms, events, peer\u2011to\u2011peer**, or just core CRM\n\nI can then suggest 2\u20133 specific CRMs (with pros/cons) that best fit your campaign and appeal tracking needs.",
+  "donordock_mentioned": true,
+  "donordock_position": 1466,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect",
+    "Givebutter",
+    "Keela"
+  ],
+  "urls_cited": [],
+  "input_tokens": 9,
+  "output_tokens": 1158,
+  "estimated_cost_usd": 0.022397,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/crm",
+      "https://prengersolutions.com/fundraising-insight/setting-up-campaigns-appeals-and-funds-in-raisers-edge/",
+      "https://www.donorperfect.com/factsheets/comprehensive-campaigns-and-appeals/",
+      "https://donorbox.org/explore/nonprofit-crm",
+      "https://help.givebutter.com/en/articles/12821780-how-to-track-fundraising-performance-with-appeals",
+      "https://altrata.com/articles/nonprofit-crm-best-practices",
+      "https://donorsnap.com/blog/nonprofit-crm-complete-guide/",
+      "https://www.youtube.com/watch?v=sn0tWvffFWc&vl=en-US",
+      "https://www.goodunited.io/blog/nonprofit-crm-fundraising-software",
+      "https://kindsight.io/resources/blog/best-crm-for-nonprofits/"
+    ]
+  }
+}

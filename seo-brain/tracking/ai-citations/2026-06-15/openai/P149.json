@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P149",
+  "prompt_text": "How to migrate from Excel to a nonprofit CRM",
+  "engine": "openai",
+  "timestamp": "2026-06-15T12:23:38.291702+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Migrating from Excel to a nonprofit Customer Relationship Management (CRM) system can significantly enhance your organization\u2019s efficiency and efficacy in managing donor relations and fundraising efforts. Here\u2019s a step-by-step guide to help you through the process:\n\n### 1. Assess Your Needs\n- **Identify Objectives:** Understand why you are making the move. Are you looking to manage donors better, track donations, or organize volunteer information?\n- **Select a CRM:** Choose a CRM that fits your organization\u2019s needs. Some popular nonprofit CRMs include Salesforce Nonprofit Success Pack, Blackbaud, Bloomerang, NeonCRM, and DonorPerfect.\n\n### 2. Clean Your Excel Data\n- **Deduplicate Records:** Remove duplicate entries to ensure accuracy.\n- **Standardize Formats:** Ensure consistency in data formats (e.g., dates, phone numbers, addresses).\n- **Validate Data:** Check for and correct any errors or inaccuracies in your data.\n\n### 3. Map Data Fields\n- **Identify Corresponding Fields:** Determine how your Excel data fields will map to fields in your new CRM. This includes donor information, donation records, contact details, etc.\n- **Create a Mapping Document:** This will help ensure that all necessary information from Excel is correctly transferred to the CRM.\n\n### 4. Import Data into the CRM\n- **Use CRM Import Tools:** Many CRMs offer import tools or wizards to streamline the data migration process.\n- **Test with a Sample:** Before a full transfer, test the import process with a small sample to ensure everything maps correctly.\n- **Conduct the Full Import:** Once the sample import is successful, proceed with importing all your data.\n\n### 5. Verify Data Integrity\n- **Check for Errors:** After the import, thoroughly verify that all data has been correctly migrated and that there are no missing entries.\n- **Correct Discrepancies:** Address any issues or discrepancies found during the verification process.\n\n### 6. Train Your Team\n- **Provide Training:** Offer training sessions to familiarize your staff with the new system. Many CRM providers offer training resources and support.\n- **Develop Standard Operating Procedures (SOPs):** Create documentation on how to use the CRM effectively, including data entry practices and reporting.\n\n### 7. Monitor and Optimize\n- **Monitor Usage:** Check how the staff is using the CRM and identify any challenges they might face.\n- **Gather Feedback:** Collect feedback from the team to understand potential areas for improvement.\n- **Ongoing Optimization:** Continuously refine processes and settings in the CRM to better meet your organization\u2019s needs.\n\n### 8. Consider Integration with Other Tools\n- **Link Other Software:** Ensure that your CRM can integrate with other tools your nonprofit uses, such as email marketing platforms, event management software, or accounting systems.\n\n### Tips for a Successful Migration\n- **Backup Your Data:** Before starting the migration, back up your Excel spreadsheets and any other important data.\n- **Choose the Right Time:** Plan your migration for a time when your organization is less busy to minimize disruption.\n- **Leverage CRM Support:** Use the support resources provided by your CRM vendor, including tutorial videos, forums, and customer service.\n\nBy carefully planning and executing these steps, you can ensure a smooth transition from Excel to a dedicated nonprofit CRM system, enabling your organization to better manage stakeholder relationships and fundraising activities.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 676,
+  "estimated_cost_usd": 0.0068,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

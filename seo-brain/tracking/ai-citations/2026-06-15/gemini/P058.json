@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P058",
+  "prompt_text": "Donor CRM with online giving forms",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291645+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Having a Donor CRM with integrated online giving forms is essential for efficient fundraising, donor data management, and creating a seamless donor experience. This integration means that when a donation is made through the online form, the donor's information (contact details, donation amount, date, campaign, payment method, etc.) is automatically populated into their record in the CRM.\n\nHere are some of the top Donor CRM solutions that excel in offering robust online giving forms:\n\n---\n\n### Top Donor CRMs with Integrated Online Giving Forms\n\n1.  **Bloomerang (Highly Recommended for Donor Retention)**\n    *   **CRM Strengths:** Focus on donor retention, engagement scoring, communication tools, robust reporting, intuitive user interface.\n    *   **Online Giving Forms:** Excellent, highly customizable, mobile-responsive forms that are easy to embed on your website. They support one-time, recurring, and tribute donations. Funds go directly into your Bloomerang account, automatically updating donor records and engagement scores. They also acquired Kindful, further strengthening their offering.\n    *   **Pros:** User-friendly, strong analytics for donor engagement, good support, integrates well with other tools.\n    *   **Cons:** May lack some of the deeper features for *very* complex organizations compared to enterprise solutions.\n\n2.  **DonorPerfect**\n    *   **CRM Strengths:** Comprehensive donor management, robust reporting, fundraising tools, event management, grant tracking, volunteer management.\n    *   **Online Giving Forms:** Their \"dpConnect\" forms are highly customizable, secure, and support various donation types including one-time, recurring, tribute, and peer-to-peer fundraising. They integrate seamlessly with the CRM",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 347,
+  "estimated_cost_usd": 0.000869,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

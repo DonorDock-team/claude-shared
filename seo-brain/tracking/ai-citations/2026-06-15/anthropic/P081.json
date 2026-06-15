@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P081",
+  "prompt_text": "Best donor CRM for community colleges",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290426+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Community Colleges\n\nCommunity colleges have unique fundraising needs\u2014typically smaller shops, limited budgets, and donors who are often alumni, local businesses, and community members. Here are the top options:\n\n## **Top Recommendations**\n\n### **1. Blackbaud Raiser's Edge NXT**\n- **Best for:** Established programs with moderate budgets\n- **Pros:** Industry standard, robust reporting, strong higher ed focus\n- **Cons:** Expensive, can be complex for small teams\n- **Typical cost:** $10K-30K+ annually\n\n### **2. Slate by Technolutions**\n- **Best for:** Colleges already using Slate for admissions\n- **Pros:** Integrated advancement module, familiar interface\n- **Cons:** Better for larger institutions\n- **Cost:** Variable, often bundled with admissions CRM\n\n### **3. Bloomerang**\n- **Best for:** Small to mid-sized shops (1-3 person teams)\n- **Pros:** User-friendly, affordable, strong donor retention focus\n- **Cons:** Less higher ed-specific features\n- **Cost:** $125-500/month\n\n### **4. DonorPerfect**\n- **Best for:** Budget-conscious programs\n- **Pros:** Affordable, good support, easy to use\n- **Cons:** Interface feels dated\n- **Cost:** $89-500/month\n\n### **5. NeonCRM**\n- **Best for:** Small teams wanting modern interface\n- **Pros:** Affordable, event management included, good reporting\n- **Cost:** $50-300/month\n\n## **Key Factors to Consider**\n\n- **Budget:** What's realistic for your foundation?\n- **Team size:** How many users need access?\n- **Integration needs:** Student information system, email marketing, payment processing\n- **Reporting requirements:** Board reports, campaign tracking\n- **Grant management:** Some community colleges need this feature\n\n**My recommendation:** Most community colleges do well with **Bloomerang** or **DonorPerfect** unless you have a larger program that justifies Raiser's Edge.\n\nWhat's your current situation? (team size, budget range, current system)",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 502,
+  "estimated_cost_usd": 0.007572,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

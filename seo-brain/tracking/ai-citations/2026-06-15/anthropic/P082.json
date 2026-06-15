@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290503+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Hospitals\n\nHere are the top CRM platforms specifically suited for hospital fundraising and donor management:\n\n## **Top Recommendations**\n\n### **1. Blackbaud Raiser's Edge NXT**\n- **Best for:** Large hospital systems and medical centers\n- **Strengths:** \n  - Healthcare-specific features and compliance tools\n  - Comprehensive donor tracking and major gift management\n  - Strong reporting and analytics\n  - HIPAA-compliant options\n- **Considerations:** Higher cost, steeper learning curve\n\n### **2. Salesforce Nonprofit Cloud**\n- **Best for:** Hospitals wanting customization and scalability\n- **Strengths:**\n  - Highly customizable for healthcare environments\n  - Robust integration capabilities with hospital systems\n  - Strong volunteer and event management\n  - AI-powered insights\n- **Considerations:** Requires implementation expertise\n\n### **3. Bloomerang**\n- **Best for:** Mid-sized hospital foundations\n- **Strengths:**\n  - Excellent donor retention tools\n  - User-friendly interface\n  - Strong email marketing integration\n  - Good value for cost\n- **Considerations:** Less customization than enterprise options\n\n### **4. NeonCRM**\n- **Best for:** Small to mid-sized hospital foundations\n- **Strengths:**\n  - All-in-one platform (CRM, events, email)\n  - Affordable pricing\n  - Good reporting features\n  - Easy to implement\n- **Considerations:** May lack advanced features for complex needs\n\n## **Key Features to Look For**\n\n- **HIPAA compliance** capabilities\n- **Grateful patient programs** tracking\n- **Pledge and recurring gift** management\n- **Integration** with hospital systems (EHR, patient databases)\n- **Major gift** and planned giving tools\n- **Campaign management** for capital projects\n- **Grant tracking** functionality\n\n**What's your hospital's size and specific needs?** I can provide more tailored recommendations.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 451,
+  "estimated_cost_usd": 0.006804,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

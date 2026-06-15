@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P055",
+  "prompt_text": "Best CRM for a 2 person fundraising team",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291335+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best CRM for a 2-Person Fundraising Team\n\nFor a small fundraising team, you'll want something affordable, easy to use, and specifically designed for nonprofits. Here are the top options:\n\n## **Top Recommendations**\n\n### **1. Bloomerang** \u2b50 Best Overall\n- **Price:** ~$125/month\n- **Why:** Purpose-built for small nonprofits, extremely user-friendly\n- **Key features:** Donor retention focus, email integration, engagement scoring\n- **Best for:** Teams wanting nonprofit-specific features without complexity\n\n### **2. Little Green Light**\n- **Price:** $59/month (unlimited users)\n- **Why:** Most affordable full-featured nonprofit CRM\n- **Key features:** Donor management, reports, online forms\n- **Best for:** Budget-conscious teams needing solid basics\n\n### **3. DonorPerfect**\n- **Price:** ~$89/month\n- **Why:** Excellent donor communication tools, scalable\n- **Key features:** Email campaigns, online donation forms, strong reporting\n- **Best for:** Teams planning to grow\n\n### **4. HubSpot (Free tier)**\n- **Price:** FREE\n- **Why:** Surprisingly robust for $0, not nonprofit-specific but powerful\n- **Key features:** Contact management, email tracking, basic automation\n- **Best for:** Extremely tight budgets; need sales/marketing features\n\n## **Quick Decision Guide**\n\n- **Tightest budget?** \u2192 HubSpot Free or Little Green Light\n- **Want nonprofit-specific?** \u2192 Bloomerang\n- **Need room to grow?** \u2192 DonorPerfect\n- **Want simplest setup?** \u2192 Bloomerang\n\n**My recommendation:** Start with **Bloomerang** if budget allows, or **Little Green Light** if you need to save money. Both offer free trials.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 19,
+  "output_tokens": 428,
+  "estimated_cost_usd": 0.006477,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

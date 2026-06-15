@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P105",
+  "prompt_text": "How to launch a monthly giving program",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291109+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Launching a monthly giving program (often called a \"sustainer program\" or \"membership program\") is one of the most effective strategies for nonprofits to build predictable, sustainable income and improve donor retention.\n\nHere's a step-by-step guide to help you launch a successful monthly giving program:\n\n---\n\n## 1. Plan & Strategize (The Foundation)\n\nBefore you do anything, lay the groundwork.\n\n*   **Define Your Goals:**\n    *   What's your target number of monthly donors for the first year?\n    *   What's your desired average monthly gift?\n    *   What percentage of your current donors do you hope to convert?\n    *   What will this predictable income allow you to do? (e.g., fund a specific program, cover operational costs).\n*   **Name Your Program:**\n    *   Choose a memorable, compelling name that reflects your mission and makes donors feel part of something special. Examples: \"Circle of Hope,\" \"Sustainers Club,\" \"Impact Partners,\" \"Changemakers.\"\n*   **Determine Your \"Why\":**\n    *   Why should someone give monthly instead of a one-time gift? Emphasize the unique impact and convenience.\n    *   What specific problem will their monthly gift help solve consistently? (e.g., \"A monthly gift of $20 provides meals for 5 children every month.\")\n*   **Set Recommended Giving Levels:**\n    *   Suggest a few tiers, but always include an \"other\" option.\n    *   Common tiers: $10, $25, $50, $100. Base these on your average one-time gift amount and what feels accessible.\n*   **Identify Your Target Audience:**\n    *   **Existing one-time donors:** Especially those who give regularly or have given larger one-time gifts.\n    *   **New donors:** Include a monthly option on all donation forms.\n    *   **Your board and staff:** Lead by example!\n*   **Allocate Resources:**\n    *   Who on your team will manage this? (Marketing, fundraising, operations)\n    *   What's your budget for initial promotion, welcome kits, etc.?\n\n---\n\n## 2. Build the Infrastructure (The Mechanics)\n\nSet up the systems and tools you'll need.\n\n*   **Payment Processing & CRM Integration:**\n    *   Ensure your donation platform supports recurring payments (Stripe, PayPal, Blackbaud, Salesforce, NeonOne, etc.).\n    *   Integrate your payment processor with your CRM to automatically track monthly donors, their payment frequency, and history. This is crucial for stewardship and reporting.\n*   **Dedicated Landing Page:**\n    *   Create a specific page on your website for your monthly giving program.\n    *   **Key elements:**\n        *   **Clear program name and branding.**\n        *   **Compelling headline:** \"Join the [Program Name] and make a lasting impact!\"\n        *   **Powerful \"Why\":** Explain the benefits of monthly giving for your organization and the donor.\n        *   **Impact statements:** Show what different monthly gift amounts can achieve.\n        *   **Simple, secure donation form:** Make it easy to select \"monthly\" and choose an amount.\n        *   **FAQs:** Address common questions (e.g., \"Can I change my amount?\", \"How do I update my card?\", \"Is it secure?\").\n        *   **Testimonials (if possible):** From current monthly donors.\n*   **Automated Communication (Crucial for Stewardship):**\n    *   **Welcome Series:** Develop an automated email series (3-5 emails over the first few weeks/months) for new monthly donors.\n        *   **Email 1 (Immediately):** Thank you, confirmation of gift, reiterate impact, welcome to the program.\n        *   **Email 2 (1 week):** Deeper dive",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 835,
+  "estimated_cost_usd": 0.00209,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

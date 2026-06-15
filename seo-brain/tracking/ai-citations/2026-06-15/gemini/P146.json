@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P146",
+  "prompt_text": "Best donor CRM with grant tracking",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291488+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "There isn't a single \"best\" donor CRM with grant tracking, as the ideal solution depends heavily on your organization's specific needs, budget, size, and complexity of grant processes. However, several top contenders offer robust functionality in both areas.\n\nHere are the best options, categorized by their typical strengths:\n\n---\n\n### Top Contenders for Donor CRM with Grant Tracking\n\n1.  **Salesforce NPSP (Nonprofit Success Pack) + Grants Management**\n    *   **Why it's great:** Salesforce is the most powerful and customizable CRM platform available. NPSP (a free package for nonprofits) provides the core donor management, and then you can either configure custom objects/fields for grants or, more effectively, use the **Grants Management for NPSP** product (often available at a discount or free for nonprofits) which is specifically built for the entire grant lifecycle.\n    *   **Pros:**\n        *   **Unmatched Customization:** Tailor every aspect of grant tracking, donor relations, and reporting to your exact specifications.\n        *   **Scalability:** Grows with your organization, from small to enterprise-level.\n        *   **Vast Ecosystem:** Thousands of integrations and apps on the AppExchange (e.g., for fundraising, marketing, impact tracking).\n        *   **Powerful Reporting:** Build any report or dashboard imaginable.\n        *   **Comprehensive Grant Tracking:** Covers prospecting, application submission, award management, payment schedules, reporting requirements, and relationships with funders.\n    *   **Cons:**\n        *   **Steep Learning Curve:** Requires technical expertise to set up and manage effectively. Can necessitate hiring an admin or consultant.\n        *   **Cost:** While NPSP itself is free for 10 users, additional licenses, apps, and implementation/maintenance services can be expensive.\n    *   **Best For:** Large organizations, those with complex or unique grant processes, organizations with dedicated IT or admin staff, and those needing extreme customization and integration capabilities.\n\n2.  **Bloomerang**\n    *   **Why it's great:** Bloomerang is highly regarded for its user-friendly interface and focus on donor retention and engagement. It offers a strong, dedicated grant tracking module that integrates seamlessly with its core CRM.\n    *   **Pros:**\n        *   **Intuitive User Interface:** Easy for staff to learn and use.\n        *   **Excellent Grant Tracking Module:** Features include tracking grant proposals, deadlines, reporting requirements, payment schedules, contact management for funders, and customizable workflows.\n        *   **Strong Donor Engagement Features:** Built-in email, communication tools, and insights into donor behavior.\n        *   **Good Reporting:** Easy to generate standard reports for both donors and grants.\n        *   **Responsive Support:** Praised for customer service.\n    *   **Cons:**\n        *   Less customizable than Salesforce for highly unique requirements.\n        *   Might lack some of the deeper integration options of a platform like Salesforce.\n    *   **Best For:** Mid-sized organizations that prioritize ease of use, strong donor engagement, and robust, out-of-the-box grant tracking without needing extreme customization.\n\n3.  **Neon CRM (part of Neon One)**\n    *   **Why it's great:** Neon CRM is a comprehensive all-in-one solution for nonprofits, including strong donor management, event management",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Neon CRM",
+    "Neon One",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 708,
+  "estimated_cost_usd": 0.001772,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

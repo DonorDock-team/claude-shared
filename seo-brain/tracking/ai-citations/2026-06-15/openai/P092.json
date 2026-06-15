@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P092",
+  "prompt_text": "Best donor CRM for international NGOs",
+  "engine": "openai",
+  "timestamp": "2026-06-15T12:23:38.291442+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM for international NGOs involves considering several factors, including ease of use, functionality, scalability, and cost. Here are some popular donor CRMs that are often recommended for international NGOs:\n\n1. **Salesforce.org Nonprofit Cloud**:\n   - **Pros**: Highly customizable, strong analytical tools, integration with various apps, and it offers a platform to manage all aspects of donor engagement.\n   - **Cons**: Can be complex and may require technical expertise to fully leverage.\n\n2. **Bloomerang**:\n   - **Pros**: User-friendly interface, excellent donor management and retention features, focused on donor engagement strategies.\n   - **Cons**: May be less customizable than Salesforce but sufficient for small to medium-sized NGOs.\n\n3. **Blackbaud Raiser\u2019s Edge NXT**:\n   - **Pros**: Comprehensive fundraising features, powerful reporting tools, and good support for international fundraising.\n   - **Cons**: Can be expensive, with a steep learning curve.\n\n4. **DonorPerfect**:\n   - **Pros**: Flexible and integrates well with other software, strong in donor communication and fundraising event management.\n   - **Cons**: Interface might feel outdated to some users.\n\n5. **Kindful**:\n   - **Pros**: Simplifies donor management with strong online fundraising tools, easy-to-use interface.\n   - **Cons**: May lack some advanced features needed by larger NGOs.\n\n6. **NeonCRM**:\n   - **Pros**: Offers a wide range of features including email marketing and volunteer management, comprehensive support for data analysis.\n   - **Cons**: Mid-range pricing may not fit very small NGOs; can be complex for some users.\n\n7. **Keela**:\n   - **Pros**: Affordable, intuitive design, focuses strongly on outcome-based fundraising.\n   - **Cons**: Newer platform, may not have as many integrations as more established systems.\n\n8. **HubSpot for Nonprofits**:\n   - **Pros**: Free CRM with a lot of features, marketing automation, and a user-friendly interface.\n   - **Cons**: Advanced features require a paid subscription.\n\nWhen choosing a donor CRM, it\u2019s important for NGOs to evaluate their specific needs, budget limitations, existing technical infrastructure, and the training support offered by the service provider. Doing a free trial or demo can also help determine which CRM is the best fit for your organization.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Kindful"
+  ],
+  "urls_cited": [],
+  "input_tokens": 13,
+  "output_tokens": 493,
+  "estimated_cost_usd": 0.004962,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_id": "P056",
+  "prompt_text": "Best donor CRM to consolidate multiple fundraising tools",
+  "engine": "openai",
+  "timestamp": "2026-06-15T12:23:38.291439+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Selecting the best donor CRM to consolidate multiple fundraising tools depends on your organization's specific needs, budget, and existing technology ecosystem. However, here are some popular donor CRM systems that are well-regarded for their ability to integrate various fundraising tools:\n\n1. **Salesforce Nonprofit Cloud (formerly the Salesforce Nonprofit Success Pack)**: Salesforce is a robust CRM that offers extensive customization and integration capabilities. With its AppExchange marketplace, you can find numerous apps to integrate with existing fundraising tools.\n\n2. **Blackbaud Raiser\u2019s Edge NXT**: Known for its strong donor management features, Raiser\u2019s Edge NXT offers integrated campaign management and analytics capabilities. Blackbaud also supports a variety of integrations with third-party applications.\n\n3. **Bloomerang**: This CRM is designed specifically for nonprofits and focuses on donor retention. Bloomerang offers integrations with popular tools like QuickBooks, Mailchimp, and Eventbrite.\n\n4. **Neon CRM**: Neon CRM provides a comprehensive feature set that includes donor management, event management, and email marketing. It also includes integrations with various platforms and fundraising tools.\n\n5. **DonorPerfect**: DonorPerfect offers essential CRM functionalities with a focus on fundraising and donor management. It integrates with platforms like Constant Contact, QuickBooks, and several other popular tools.\n\n6. **Kindful**: Known for its user-friendly interface, Kindful integrates well with a variety of third-party applications, including QuickBooks, Mailchimp, and Eventbrite, making it a suitable option for consolidating fundraising tools.\n\n7. **Little Green Light**: This CRM is an affordable yet powerful tool for small to mid-sized nonprofits. It integrates with platforms such as Mailchimp, QuickBooks, and PayPal.\n\n8. **Givebutter**: Although primarily a fundraising platform, Givebutter includes built-in CRM functionalities and integrates with other tools like Zapier for expanded capabilities.\n\nWhen choosing a CRM, consider these factors:\n\n- **Budget**: Assess the total cost, including setup fees, monthly/annual fees, and any additional costs for integrations or user licenses.\n- **Integration Capabilities**: Ensure the CRM can seamlessly integrate with your existing tools and platforms.\n- **User Experience**: Evaluate the ease of use for your team, including training and onboarding processes.\n- **Scalability**: Choose a CRM that can grow with your organization and adapt to changing needs.\n- **Support and Community**: Consider the level of customer support provided and the presence of a user community for additional assistance and shared best practices.\n\nAlways consider trialing a few options to understand which CRM best aligns with your organizational needs and workflow.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorPerfect",
+    "Givebutter",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 534,
+  "estimated_cost_usd": 0.005378,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

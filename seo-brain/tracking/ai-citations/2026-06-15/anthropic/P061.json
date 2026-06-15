@@ -1,0 +1,24 @@
+{
+  "prompt_id": "P061",
+  "prompt_text": "Best donor CRM for monthly giving programs",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290242+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Best Donor CRMs for Monthly Giving Programs\n\nHere are the top options specifically strong for recurring/monthly giving:\n\n## **Top Tier**\n\n### **1. Bloomerang**\n- **Best for:** Small-to-midsize nonprofits focused on retention\n- Built-in recurring gift management\n- Excellent donor engagement scoring\n- Automated sustainers communications\n- **Price:** ~$125-$500+/month\n\n### **2. Classy**\n- **Best for:** Modern monthly giving campaigns\n- Beautiful donor-facing recurring gift pages\n- Strong integration with Salesforce\n- Mobile-optimized sustainer enrollment\n- **Price:** ~$500+/month\n\n### **3. Keela**\n- **Best for:** Budget-conscious organizations\n- Smart automated monthly giving workflows\n- Donor retention tools built-in\n- Good payment processing options\n- **Price:** ~$100-$300/month\n\n## **Enterprise Options**\n\n### **4. Salesforce Nonprofit Cloud**\n- Most customizable for complex programs\n- Requires significant setup/expertise\n- **Price:** ~$3,000-$10,000+/year\n\n### **5. DonorPerfect**\n- Solid recurring gift tracking\n- Good for established programs\n- **Price:** ~$89-$500+/month\n\n## **Key Features to Look For:**\n- \u2705 Automated payment retry for failed transactions\n- \u2705 Sustainer-specific email sequences\n- \u2705 Easy upgrade/downgrade paths for donors\n- \u2705 Comprehensive reporting on retention rates\n- \u2705 Integration with payment processors (Stripe, PayPal, etc.)\n\n**What's your organization's size and current setup?** That would help narrow the recommendation.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect",
+    "Keela",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 15,
+  "output_tokens": 402,
+  "estimated_cost_usd": 0.006075,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P009",
+  "prompt_text": "DonorDock vs Givebutter",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290413+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# DonorDock vs Givebutter Comparison\n\nBoth are modern donor management platforms, but they serve different niches and have distinct strengths.\n\n## **Givebutter**\n\n### Strengths:\n- **Free tier**: Truly free with optional donor-covered fees (no monthly cost)\n- **Fundraising campaigns**: Excellent for crowdfunding, peer-to-peer, events\n- **Modern, user-friendly**: Beautiful forms and campaign pages\n- **All-in-one**: Ticketing, auctions, merchandise sales built-in\n- **Quick setup**: Get started in minutes\n\n### Best for:\n- Small to mid-sized nonprofits\n- Organizations heavy on events and campaigns\n- Budget-conscious organizations\n- Groups wanting modern, shareable fundraising pages\n\n### Limitations:\n- Less robust CRM features\n- More campaign-focused than relationship management\n- Limited customization for complex needs\n\n## **DonorDock**\n\n### Strengths:\n- **True CRM focus**: Built for donor relationship management\n- **Customizable**: Flexible pipelines, custom fields, workflows\n- **Affordable subscription**: Still budget-friendly ($39-149/month typically)\n- **Donor insights**: Better reporting and relationship tracking\n- **Personal touch**: Smaller company with responsive support\n\n### Best for:\n- Organizations prioritizing donor relationships\n- Groups needing custom workflows\n- Small nonprofits outgrowing basic tools\n- Teams wanting CRM-first, campaigns second\n\n### Limitations:\n- Not free (though affordable)\n- Fewer built-in campaign/event tools than Givebutter\n- Smaller ecosystem/integrations\n\n## **Quick Decision Guide**\n\nChoose **Givebutter** if you:\n- Need free or low-cost solution\n- Run frequent campaigns/events\n- Want beautiful, shareable fundraising pages\n- Prefer simplicity over customization\n\nChoose **DonorDock** if you:\n- Need serious donor relationship tracking\n- Want customizable CRM workflows\n- Can afford $39+/month\n- Value relationship management over campaign tools\n\n**Many organizations actually use both**: Givebutter for campaigns/events, DonorDock for donor management!\n\nWhat's your primary use case?",
+  "donordock_mentioned": true,
+  "donordock_position": 2,
+  "competitors_mentioned": [
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 17,
+  "output_tokens": 502,
+  "estimated_cost_usd": 0.007581,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

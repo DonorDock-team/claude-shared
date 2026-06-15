@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P013",
+  "prompt_text": "DonorDock vs Little Green Light",
+  "engine": "openai",
+  "timestamp": "2026-06-15T12:23:38.290909+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When comparing DonorDock and Little Green Light, it's important to consider various aspects such as features, pricing, target users, and usability. Both platforms are designed for nonprofit organizations to manage their donor relationships and fundraising activities, but they cater to slightly different needs and preferences.\n\n### DonorDock\n**Overview:**\nDonorDock is a cloud-based donor management and fundraising solution aimed at streamlining nonprofit operations. It offers tools for managing donor data, fundraising campaigns, and communications.\n\n**Key Features:**\n- **Dashboard and Reporting:** Intuitive dashboard for real-time analytics and customizable reporting.\n- **Fundraising Tools:** Includes donation pages, campaign management, and pledge tracking.\n- **Communication:** Email and letter templates for donor communication and engagement.\n- **Integration:** Connects with popular tools like QuickBooks, Mailchimp, and more.\n- **User Interface:** Focuses on user-friendliness with a clean interface for ease of use.\n\n**Target Users:**\n- Small to medium-sized nonprofits looking for a straightforward, easy-to-use platform.\n\n**Pricing:**\n- Tiered pricing based on the number of records, with options for monthly or annual billing.\n\n### Little Green Light\n**Overview:**\nLittle Green Light is a comprehensive donor management system designed to support various aspects of nonprofit operations, from fundraising to event planning.\n\n**Key Features:**\n- **Donor Management:** Robust tools for managing donor relationships, tracking contributions, and historical data.\n- **Fundraising and Events:** Supports fundraising campaigns and event management with integrated RSVP and ticketing.\n- **Communication Tools:** Email, mail merge, and online giving forms for donor engagement.\n- **Reporting and Analytics:** Offers detailed reports and data segmentation for targeted outreach.\n- **Customization and Integration:** Highly customizable fields and workflows with integration capabilities.\n\n**Target Users:**\n- A wide range of nonprofits, especially those needing detailed tracking and custom workflows.\n\n**Pricing:**\n- Pricing is based on the size of the organization, with scalable plans and no setup fees.\n\n### Comparison\n\n**Ease of Use:**\n- **DonorDock**: Known for its simplicity and ease of use, making it ideal for organizations wanting a quick setup with minimal training.\n- **Little Green Light**: Offers more complex features, which may require more training but are beneficial for organizations with specific needs.\n\n**Customization:**\n- **Little Green Light**: Offers greater customization options for fields and workflows, beneficial for organizations with specific data management needs.\n- **DonorDock**: Has less customization but provides predefined templates and tools suited for standard fundraising operations.\n\n**Integrations:**\n- Both platforms offer various integrations, but the specific third-party tools they integrate with may differ, so it's important to check compatibility with tools you already use.\n\nIn summary, the choice between DonorDock and Little Green Light will depend on your organization's specific needs, budget, and the complexity of features you require. DonorDock is more appropriate if you want a straightforward, user-friendly interface with essential fundraising tools. Little Green Light is suitable if you need a more robust and highly customizable solution.",
+  "donordock_mentioned": true,
+  "donordock_position": 15,
+  "competitors_mentioned": [
+    "Little Green Light"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 622,
+  "estimated_cost_usd": 0.006255,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

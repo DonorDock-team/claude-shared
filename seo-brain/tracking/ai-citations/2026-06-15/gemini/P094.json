@@ -1,0 +1,21 @@
+{
+  "prompt_id": "P094",
+  "prompt_text": "Hidden costs of Bloomerang",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291647+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "While Bloomerang is generally praised for its user-friendliness and clear pricing model (based on the number of constituent records), there can still be \"hidden\" or less obvious costs that organizations should consider when budgeting and planning. These aren't necessarily negatives, but rather factors that can increase the total cost of ownership beyond the stated subscription fee.\n\nHere are some hidden costs of Bloomerang:\n\n1.  **Scaling Costs (Database Size Increases):**\n    *   **The \"Hidden\" in Plain Sight:** Bloomerang's pricing scales with your number of constituent records. This is clearly stated, but the *impact* can be a \"hidden\" surprise. As your organization grows, adds more prospects, collects more email addresses, or participates in events that generate new contacts, your monthly subscription fee will automatically increase.\n    *   **Inactive Donors:** Records for inactive or lapsed donors still count towards your total, even if you rarely engage with them. You need to actively archive them (and be sure you understand the implications) to reduce your record count.\n    *   **Duplicate Records:** Poor data hygiene can lead to duplicate records for the same constituent, unnecessarily inflating your record count and therefore your monthly cost.\n\n2.  **Data Migration & Cleanup:**\n    *   **Initial Migration:** While Bloomerang offers resources for data migration, the actual *time and effort* involved in exporting data from your old system(s), cleaning it, standardizing it, and importing it can be immense. This often requires significant staff hours or even hiring a consultant.\n    *   **Ongoing Data Hygiene:** Maintaining a clean database (merging duplicates, updating contact info, archiving old records) is an ongoing task. Neglecting this leads to higher subscription costs, less effective outreach, and frustration, all of which are \"costs.\"\n\n3.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 377,
+  "estimated_cost_usd": 0.000944,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

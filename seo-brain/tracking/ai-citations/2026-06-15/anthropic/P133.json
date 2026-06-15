@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P133",
+  "prompt_text": "Givebutter limitations",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.290255+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Givebutter Limitations\n\nHere are the main limitations to consider when using Givebutter:\n\n## **Pricing & Fees**\n- **No truly free tier** - While the platform is \"free,\" they charge a 1% platform fee on donations (can be covered by donors)\n- **Payment processing fees** - Standard 2.9% + $0.30 per transaction (Stripe/PayPal fees)\n- **Total cost** can reach 3.9% + $0.30 if your organization covers all fees\n\n## **Fundraising Features**\n- **Limited customization** - Templates are somewhat restrictive compared to custom-built solutions\n- **Peer-to-peer limitations** - Less robust than specialized P2P platforms like Classy or Tiltify\n- **Event ticketing** - Good for basic events but lacks advanced features of dedicated ticketing platforms\n- **Auction features** - Somewhat basic compared to specialized auction software\n\n## **Technical Limitations**\n- **Integration options** - Fewer native integrations than larger platforms (Salesforce, Blackbaud, etc.)\n- **API access** - Limited for complex custom integrations\n- **Data export** - Can be less flexible than enterprise solutions\n- **Reporting** - Basic analytics; may not satisfy organizations needing deep data analysis\n\n## **Organizational Fit**\n- **Best for small-to-medium nonprofits** - May not scale well for large enterprises\n- **Limited CRM functionality** - Not a replacement for full donor management systems\n- **Support** - Email/chat support, but no dedicated account managers on free tier\n\n## **Bottom Line**\nGivebutter works well for smaller organizations with straightforward needs, but larger nonprofits or those requiring advanced features may outgrow it.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Givebutter"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 399,
+  "estimated_cost_usd": 0.006021,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

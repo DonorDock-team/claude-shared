@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P033",
+  "prompt_text": "Alternative to DonorBox",
+  "engine": "openai",
+  "timestamp": "2026-06-15T12:23:38.291066+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "If you're looking for alternatives to DonorBox for managing donations and fundraising, there are several other platforms you might consider, depending on your specific needs. Here are some popular alternatives:\n\n1. **GoFundMe**: Known for individual fundraising and personal causes, GoFundMe is widely used for a variety of campaigns.\n\n2. **Patreon**: Ideal for creators and influencers who want to offer exclusive content to supporters on a subscription basis.\n\n3. **Kickstarter**: A popular choice for creative projects and product launches, operating on an all-or-nothing funding model.\n\n4. **Indiegogo**: Offers more flexible fundraising options than Kickstarter and supports both product launches and personal causes.\n\n5. **Fundly**: A user-friendly platform suited for individual fundraising and nonprofits, with customizable campaign pages.\n\n6. **Classy**: Designed for nonprofits, Classy offers fundraising tools for events, peer-to-peer campaigns, and recurring donations.\n\n7. **Network for Good**: Provides comprehensive tools for nonprofit fundraising, including donor management and communication tools.\n\n8. **RallyUp**: Specializes in charity auctions, raffles, and other engagement-driven fundraising events.\n\n9. **Givebutter**: Combines fundraising, events, and donation tracking with a focus on live streaming and virtual events.\n\n10. **MightyCause**: Offers crowdfunding, nonprofit fundraising, and peer-to-peer solutions, with tools to manage donor relationships.\n\nWhen choosing a platform, consider the specific features you need, such as integration with your website, transaction fees, customization options, and the types of campaigns you plan to run. Each platform has its strengths, so assessing them against your priorities will help you find the best fit for your fundraising efforts.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "DonorBox",
+    "Givebutter",
+    "Network for Good"
+  ],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 350,
+  "estimated_cost_usd": 0.00353,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

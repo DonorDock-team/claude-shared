@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P082",
+  "prompt_text": "Best donor CRM for hospitals",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290557+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a hospital is a complex decision, as it depends heavily on the hospital's size, specific fundraising goals, existing technology stack, budget, and internal resources. However, two platforms consistently rise to the top for their robust capabilities and ability to handle the unique demands of healthcare philanthropy:\n\n1.  **Salesforce (Nonprofit Cloud with potential integration with Health Cloud)**\n2.  **Blackbaud Raiser's Edge NXT**\n\nLet's break down why these are the top contenders and what critical factors hospitals need to consider.\n\n---\n\n### Key Considerations for Hospitals When Choosing a Donor CRM:\n\nBefore diving into specific platforms, understand the unique needs of a hospital foundation:\n\n1.  **Grateful Patient Programs:** This is paramount. The CRM must facilitate the identification, cultivation, and stewardship of patients and their families who wish to give back.\n2.  **HIPAA Compliance & Data Security:** Absolutely non-negotiable. The CRM itself usually doesn't store Protected Health Information (PHI), but the *process* of identifying grateful patients and linking them to donor records must be meticulously compliant and secure. Integration with EMR/EHR systems (like Epic, Cerner) is a major challenge due to HIPAA.\n3.  **Integration Capabilities:**\n    *   **EMR/EHR:** Secure, one-way data feeds (often anonymized or de-identified for fundraising purposes) from EMR to CRM are critical for grateful patient identification. Direct, bidirectional integration is rarely possible or advisable for PHI reasons.\n    *   **Finance/Accounting:** Integration with the hospital's general ledger (e.g., SAP, Oracle, Workday) for gift processing and reconciliation.\n    *   **Marketing Automation:** For targeted communications.\n    *   **Payment Processors:** For online donations.\n4.  **Major Gift & Planned Giving Focus:** Hospitals often rely heavily on large gifts for capital campaigns (new wings, equipment), research, and endowments. The CRM needs strong features for prospect research, portfolio management, moves management, and planned giving tracking.\n5.  **Research & Prospecting Tools:** Advanced wealth screening, philanthropic history, and relationship mapping are essential.\n6.  **Event Management:** Hospitals host numerous fundraising events (galas",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 478,
+  "estimated_cost_usd": 0.001197,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

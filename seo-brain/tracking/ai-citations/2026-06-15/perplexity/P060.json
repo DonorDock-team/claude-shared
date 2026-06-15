@@ -1,0 +1,36 @@
+{
+  "prompt_id": "P060",
+  "prompt_text": "Donor CRM with recurring giving",
+  "engine": "perplexity",
+  "timestamp": "2026-06-15T12:23:38.290196+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "For a **donor CRM with strong recurring giving capabilities**, look for a system that combines donation processing, recurring schedules, and donor management in one place, or integrates these cleanly with your main CRM.\n\nHere are leading options and how they handle recurring giving:\n\n- **GivingFuel (all\u2011in\u2011one fundraising + CRM)**  \n  - Has a built\u2011in **donor CRM** where *all recurring donors are centralized*.[2]  \n  - Lets you manage **intervals, payment methods, and amounts** for each recurring plan in one admin view.[2]  \n  - Works with major card brands to **auto\u2011update expiration dates**, reducing failed payments.[2]  \n  - Allows you to **initiate new gifts using stored payment methods** without asking donors to re\u2011enter card info.[2]  \n  - Donors can **update or cancel recurring gifts** themselves in a Donor Account Center; admins can also manage them.[2]  \n\n- **Donorbox (recurring\u2011first donation platform with CRM features)**  \n  - Designed to \u201cbuild a strong **recurring giving program**\u201d with intervals including **daily, weekly, bi\u2011weekly, 1st and 15th, monthly, quarterly, and annually**.[3]  \n  - Automatically creates **recurring donor accounts** and sends login credentials so donors can manage and update their giving frequency.[3]  \n  - Provides **real\u2011time updates and analytics** on recurring revenue and donor activity.[3]  \n  - Can act as a light CRM itself, or connect to a separate CRM.\n\n- **DonorDock (CRM with recurring management)**  \n  - Lets you **track and manage recurring gifts** so no donation \u201cslips through the cracks.\u201d[1]  \n  - Supports **automation** for recurring giving:  \n    - Track recurring donation history over time.[1]  \n    - **Automate thank\u2011you emails and receipts** for each transaction.[1]  \n    - **Automate reminders** for expiring cards or needed payment updates.[1]  \n    - Use CRM data to **personalize updates and impact stories** for recurring donors.[1]  \n\n- **DonorPerfect (full\u2011featured nonprofit CRM + online forms)**  \n  - Provides **fundraising software for donor management** and online giving.[8]  \n  - Lets you **manage recurring gifts, monthly programs, and tributes** using the same online form tool.[8]  \n  - Online forms can push gift information directly into donor records for **immediate acknowledgment and accurate reporting**.[8]  \n\n- **Bloomerang (donor management CRM focused on retention)**  \n  - Marketed as a **donor management CRM built for nonprofits**, with strong emphasis on recurring donors and retention metrics.[7]  \n  - Offers tooling and best practices around **growing and upgrading monthly donors**.[7]  \n  - Pairs recurring donation tracking with communications/retention features.\n\n- **Omatic (integration layer for big CRMs)**  \n  - Not a CRM itself, but if you\u2019re on **Raiser\u2019s Edge NXT, Blackbaud CRM, or Salesforce**, Omatic can **integrate online and recurring giving data** from various systems into your main CRM.[4]  \n  - Ensures **all donations \u2013 online/offline, one\u2011time or recurring \u2013 appear in one supporter record** for a full view of each donor.[4]  \n\n---\n\n### What to prioritize in a donor CRM for recurring giving\n\nBased on the above tools and general best practices:\n\n- **Recurring engine + CRM in one (or clean integration)**  \n  - Ability to set **multiple intervals** (at least monthly, quarterly, annual; ideally more).[3]  \n  - Centralized list of **active recurring donors and schedules**.[2][3]  \n  - Bi\u2011directional sync or native connection to your main CRM if using separate tools.[4]\n\n- **Donor self\u2011service**  \n  - Donor accounts where supporters can **update card info, change amounts/frequency, or cancel**.[2][3]  \n\n- **Payment reliability**  \n  - **Automatic card updater** (updates expired cards when possible).[2]  \n  - Automated **failed payment alerts** and re\u2011attempt logic (often included with the better platforms, implied by their recurring features).[2][3]\n\n- **Automation & communication**  \n  - **Automatic receipts and thank\u2011you emails** for every installment.[1]  \n  - **Reminders** for expiring cards and renewals.[1][5]  \n  - Ability to segment **recurring vs one\u2011time donors** for tailored messaging.[1][7]\n\n- **Analytics & forecasting**  \n  - Reporting on **MRR (monthly recurring revenue)**, churn, upgrades/downgrades, and donor lifetime value.[3][7]  \n\n- **Donation experience**  \n  - Modern, mobile\u2011friendly donation pages with a **clear monthly/recurring toggle**.[1][6]  \n  - Ability to set **default or suggested recurring amounts** and highlight impact.[1][3][6]  \n\n---\n\nIf you share your size (e.g., small/startup nonprofit vs large, on Salesforce/Blackbaud) and budget range, I can narrow this down to 2\u20133 best\u2011fit platforms and outline a simple evaluation checklist for you.",
+  "donordock_mentioned": true,
+  "donordock_position": 1427,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "DonorBox",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 7,
+  "output_tokens": 1104,
+  "estimated_cost_usd": 0.021581,
+  "meta": {
+    "model": "sonar-pro",
+    "perplexity_citations": [
+      "https://www.donordock.com/articles/recurring-donations",
+      "https://www.givingfuel.com/features/donormanagement-overview",
+      "https://donorbox.org/explore/recurring-donations",
+      "https://help.omaticsoftware.com/integration-solutions-by-activity/nonprofit-online-giving",
+      "https://www.bonterratech.com/training/salsa-labs/managing-recurring-donations",
+      "https://fundeasy.com/blog/recurring-giving-for-nonprofits-what-it-is-and-how-to-start",
+      "https://bloomerang.com/blog/what-does-the-typical-recurring-donor-look-like",
+      "https://www.donorperfect.com",
+      "https://givingusa.org/building-a-resilient-nonprofit-the-impact-of-recurring-donors-explained/",
+      "https://4agoodcause.com/10-simple-ways-to-retain-monthly-donors-and-reduce-churn/"
+    ]
+  }
+}

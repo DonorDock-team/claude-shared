@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "openai",
+  "timestamp": "2026-06-15T12:23:38.291214+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Measuring donor retention is crucial for non-profit organizations to assess the effectiveness of their fundraising strategies and build lasting relationships with supporters. Here are some steps and metrics you can use to measure donor retention:\n\n1. **Calculate the Donor Retention Rate**:\n   - **Definition**: This is the percentage of donors who continue to donate to your organization over time.\n   - **Formula**:\n     \\[\n     \\text{Donor Retention Rate} = \\left(\\frac{\\text{Number of donors who gave again this year}}{\\text{Number of donors last year}}\\right) \\times 100\n     \\]\n   - **Example**: If you had 200 donors last year and 120 of them donated again this year, your retention rate would be \\( \\frac{120}{200} \\times 100 = 60\\% \\).\n\n2. **Donor Attrition Rate**:\n   - **Definition**: The inverse of the retention rate, representing the percentage of donors who did not return.\n   - **Formula**:\n     \\[\n     \\text{Donor Attrition Rate} = 100\\% - \\text{Retention Rate}\n     \\]\n\n3. **Lifetime Value of a Donor (LTV)**:\n   - **Purpose**: Understand the overall value of a donor to your organization over the long term.\n   - **Factors**: Average donation size, donation frequency, and retention duration.\n\n4. **Identify Retention by Segments**:\n   - Analyze retention rates across different donor segments such as new vs. returning donors, donation amounts, fundraising campaigns, or demographic categories. This can help identify strengths and weaknesses in your retention efforts.\n\n5. **Track Engagement Metrics**:\n   - Engagement is a precursor to retention. Monitor the engagement level of your donors through events attended, volunteer involvement, open and click-through rates in emails, and social media interactions.\n\n6. **Benchmark Against Industry Standards**:\n   - Understand how your retention rate compares with industry averages or similar organizations to gauge performance. Tools and reports from organizations such as the Association of Fundraising Professionals (AFP) can be helpful.\n\n7. **Conduct Surveys and Feedback**:\n   - Solicit feedback through surveys to understand why donors stay or leave. This can provide qualitative insights that numbers alone might not reveal.\n\n8. **Regularly Review and Analyze Data**:\n   - Continuously monitor donor retention metrics and hold strategic reviews to adjust and improve your donor retention strategies.\n\nBy employing these measures and regularly reviewing them, you can gain insights into your donor base, enhance your fundraising strategies, and improve your organization\u2019s donor retention over time.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 12,
+  "output_tokens": 537,
+  "estimated_cost_usd": 0.0054,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

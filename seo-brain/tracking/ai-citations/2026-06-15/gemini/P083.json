@@ -1,0 +1,23 @@
+{
+  "prompt_id": "P083",
+  "prompt_text": "Best donor CRM for museums",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290799+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Choosing the \"best\" donor CRM for a museum depends heavily on your institution's size, budget, specific needs (membership, ticketing, collections management), and technical capabilities. There isn't a one-size-fits-all answer, but here are some top contenders categorized by common museum profiles:\n\n---\n\n### Top Donor CRMs for Museums\n\n**1. Blackbaud Altru (or Raiser's Edge NXT)**\n*   **Best For:** Large to very large museums, cultural institutions, and performing arts centers that need an integrated solution for **both fundraising and operations (ticketing, memberships, programs, gift shop, events)**.\n*   **Pros:**\n    *   **Comprehensive:** One of the few systems truly designed end-to-end for cultural institutions, managing visitor data, admissions, memberships, fundraising, and events in one database.\n    *   **Industry Standard:** Widely used and recognized in the museum world.\n    *   **Robust Reporting:** Powerful analytics for both fundraising and visitor engagement.\n    *   **Scalability:** Can handle high volumes of data and transactions.\n    *   **Raiser's Edge NXT:** If you primarily need top-tier fundraising capabilities without the operational component, Raiser's Edge NXT is Blackbaud's flagship fundraising CRM.\n*   **Cons:**\n    *   **Expensive:** Often the highest investment, both upfront and ongoing.\n    *   **Complex:** Steep learning curve; requires dedicated staff or consultants for optimal setup and management.\n    *   **Interface:** Can feel a bit dated compared to newer, cloud-native solutions (though NXT has improved this).\n\n**2. Salesforce Nonprofit Cloud (NPSP)**\n*   **Best For:** Medium to large museums with complex, custom needs, or those that want a highly flexible and scalable platform they can grow into. Requires some technical expertise or a consulting partner.\n*   **Pros:**\n    *   **Unrivaled Customization:** Can be tailored to virtually any unique museum process (donor journeys, grant tracking, volunteer management, program sign-ups).\n    *   **Vast Ecosystem:** Access to thousands of apps on the AppExchange for extended functionality (e.g., event management, email marketing, volunteer portals).\n    *   **Robust Reporting:** Extremely powerful and flexible reporting capabilities.\n    *   **Scalability:** Grows with your museum's needs indefinitely.\n    *   **Nonprofit Success Pack (NPSP):** Free add-on that customizes Salesforce for non-profits.\n*   **Cons:**\n    *   **Complexity & Learning Curve:** Can be overwhelming without prior experience or dedicated admin staff.\n    *   **Cost:** While NPSP offers free licenses for the first 10 users, additional licenses, add-ons, and customization often require significant investment.\n    *   **Integration Focus:** You'll likely need to integrate specialized apps for membership, ticketing, or collections, rather than having",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 620,
+  "estimated_cost_usd": 0.001551,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

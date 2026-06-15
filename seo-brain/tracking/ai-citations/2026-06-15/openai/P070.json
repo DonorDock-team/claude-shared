@@ -1,0 +1,22 @@
+{
+  "prompt_id": "P070",
+  "prompt_text": "How to automate donor thank you letters",
+  "engine": "openai",
+  "timestamp": "2026-06-15T12:23:38.291139+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Automating donor thank you letters is a great way to save time and ensure timely gratitude while maintaining a personal touch. Here\u2019s a step-by-step guide to help you automate this process:\n\n### 1. **Choose the Right Software**\n- **CRM Systems**: Many customer relationship management (CRM) software solutions offer automation features. Popular options for nonprofits include Salesforce, DonorPerfect, Bloomerang, and NeonCRM.\n- **Email Marketing Tools**: Tools like Mailchimp, Constant Contact, or Sendinblue can be used if you prefer to send thank you letters via email.\n- **Word Processing Tools**: For physical letters, Microsoft Word combined with Excel or Google Docs with Google Sheets can work well with mail merge features.\n\n### 2. **Segment Your Donors**\n- Categorize donors based on the donation amount, type (one-time or recurring), and frequency.\n- Use your CRM to create segmented lists. This helps tailor the thank you letter content to the specific donor group.\n\n### 3. **Draft Template Letters**\n- Create templates for different donor segments. For example, first-time donors, recurring donors, and high-value donors might each receive slightly different letters.\n- Ensure each template has placeholders for personal details like the donor\u2019s name, donation amount, and any relevant projects they are supporting.\n\n### 4. **Set Up Automated Triggers**\n- Define triggers that will automatically generate and send thank you letters. Triggers can be immediate after a donation is processed or scheduled for a specific timeframe (e.g., weekly summaries).\n- In your CRM or email marketing tool, configure these triggers based on the data entry of a new donation.\n\n### 5. **Personalize the Content**\n- Use merge tags to insert personalized information such as donor name, donation amount, and project details into your templates automatically.\n- Consider adding a personal note or signature at the end to maintain a warm, human element.\n\n### 6. **Include Key Elements in the Letters**\n- Expression of gratitude.\n- Specific mention of the donation amount and any project it supports.\n- Impact statement describing how their donation will be used.\n- Contact information for further questions or engagement.\n\n### 7. **Test the Process**\n- Run a few test scenarios to ensure the letters populate correctly and send as expected.\n- Review the generated letters to ensure personalization works and no errors are included.\n\n### 8. **Integrate with Direct Mail Services (if applicable)**\n- If sending physical letters, integrate with print services that can handle mail merges and bulk mailings.\n- Consider using services like Click2Mail or integrating with printing services that your CRM may offer.\n\n### 9. **Monitor and Review**\n- Regularly review your process to ensure letters are sending correctly and adjust templates as necessary.\n- Gather feedback from donors, if possible, to understand if they feel the gratitude expressed is genuine and effective.\n\n### 10. **Maintain Data Security**\n- Ensure donor data is securely stored and handled following data protection regulations.\n- Limit access to personal data to only those necessary for managing the process.\n\nBy following these steps, you can create a streamlined and reliable system for sending donor thank you letters that saves time while still fostering meaningful donor relationships.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "DonorPerfect"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 649,
+  "estimated_cost_usd": 0.006525,
+  "meta": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

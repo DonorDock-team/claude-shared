@@ -1,0 +1,29 @@
+{
+  "prompt_id": "P017",
+  "prompt_text": "Alternative to Neon CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291185+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Alternatives to Neon CRM\n\nHere are some popular alternatives to Neon CRM, organized by organization size and needs:\n\n## **For Small to Medium Nonprofits**\n\n### **Bloomerang**\n- Strong donor retention focus\n- Intuitive interface\n- Good reporting and engagement tracking\n- Similar pricing tier to Neon\n\n### **Little Green Light**\n- Affordable and user-friendly\n- Good for smaller organizations\n- Strong customer support\n- Simple donor management\n\n### **DonorPerfect**\n- Comprehensive donor management\n- Good integration options\n- Scalable for growing organizations\n- Strong fundraising tools\n\n## **For Larger Organizations**\n\n### **Salesforce Nonprofit Cloud**\n- Highly customizable\n- Robust features and integrations\n- Steeper learning curve\n- More expensive but powerful\n\n### **Blackbaud Raiser's Edge NXT**\n- Industry standard for large nonprofits\n- Comprehensive features\n- Higher price point\n- Strong reporting capabilities\n\n## **Budget-Friendly Options**\n\n### **Kindful** (by Bloomerang)\n- Affordable entry-level solution\n- Good for donor management basics\n- Clean interface\n\n### **CiviCRM**\n- Open-source (free)\n- Highly customizable\n- Requires technical expertise\n- Community-supported\n\n## **What are your specific needs?**\nI can provide more targeted recommendations if you share:\n- Organization size\n- Budget range\n- Key features you need\n- Current pain points with Neon",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Blackbaud",
+    "Bloomerang",
+    "CiviCRM",
+    "DonorPerfect",
+    "Kindful",
+    "Little Green Light",
+    "Neon CRM",
+    "Raiser's Edge",
+    "Salesforce Nonprofit Cloud"
+  ],
+  "urls_cited": [],
+  "input_tokens": 14,
+  "output_tokens": 350,
+  "estimated_cost_usd": 0.005292,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

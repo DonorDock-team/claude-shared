@@ -1,0 +1,25 @@
+{
+  "prompt_id": "P029",
+  "prompt_text": "Best nonprofit CRM with fast implementation",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.290791+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "When it comes to nonprofit CRMs with *fast implementation*, you're generally looking for cloud-based, intuitive platforms that offer strong out-of-the-box functionality and good onboarding resources, rather than highly customizable enterprise solutions like Salesforce NPSP (which, while powerful, requires significant setup and customization time).\n\nHere are the top recommendations that excel in fast implementation, along with their strengths:\n\n---\n\n### Top Picks for Fast Implementation:\n\n1.  **Bloomerang**\n    *   **Why it's fast:** Designed with user-friendliness in mind from the ground up. Its interface is intuitive, and core donor management features are readily available. They have excellent onboarding processes, training videos, and a supportive community. Data migration support is also very helpful.\n    *   **Strengths:** Excellent donor retention features, clear reporting, robust email marketing tools, good for tracking donor engagement, strong customer support.\n    *   **Best for:** Small to medium-sized nonprofits focused heavily on donor engagement and retention, who want an easy-to-use system with a clean interface.\n\n2.  **Little Green Light (LGL)**\n    *   **Why it's fast:** Very straightforward and minimalist in its design. It focuses on core donor management essentials without a lot of bells and whistles, making it quick to set up and learn. Their documentation is thorough and easy to follow.\n    *   **Strengths:** Highly affordable, great for smaller organizations, simple data entry, good reporting for the price point, strong event management capabilities.\n    *   **Best for:** Small nonprofits or those on a tight budget who need a solid, no-frills donor database implemented quickly.\n\n3.  **Givebutter**\n    *   **Why it's fast:** Originally built as a modern fundraising platform",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [
+    "Bloomerang",
+    "Givebutter",
+    "LGL",
+    "Little Green Light",
+    "Salesforce NPSP"
+  ],
+  "urls_cited": [],
+  "input_tokens": 6,
+  "output_tokens": 377,
+  "estimated_cost_usd": 0.000944,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}

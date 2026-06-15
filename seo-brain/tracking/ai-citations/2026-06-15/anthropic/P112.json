@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P112",
+  "prompt_text": "How to track soft credits in donor CRM",
+  "engine": "anthropic",
+  "timestamp": "2026-06-15T12:23:38.291591+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "# Tracking Soft Credits in Donor CRM\n\nSoft credits allow you to acknowledge people who influenced a donation without being the actual donor. Here's how to track them effectively:\n\n## **What Are Soft Credits?**\n\nSoft credits recognize individuals who:\n- Facilitated or influenced a gift\n- Have a relationship to the donor (spouse, family member)\n- Are board members who solicited the gift\n- Work at companies that made corporate gifts\n\n## **Best Practices for Tracking**\n\n### 1. **Establish Clear Policies**\n- Define when soft credits are given\n- Document soft credit types (solicitor, spouse, household, corporate affiliate)\n- Set standards for splitting percentages (usually 100% soft credit)\n\n### 2. **In Your CRM System**\n\n**Basic Setup:**\n- Link soft credit to the hard credit (actual donation)\n- Assign soft credit type/role\n- Record 100% of gift amount (most common) or split percentages\n- Add date and campaign information\n\n**Common Fields to Track:**\n- Soft credit recipient name\n- Relationship to donor\n- Soft credit type/category\n- Amount credited\n- Appeal/campaign code\n\n### 3. **Common Soft Credit Scenarios**\n\n- **Spousal credits**: Credit both partners in a household\n- **Solicitor credits**: Recognize volunteer fundraisers\n- **Corporate matching**: Credit employee who triggered match\n- **Tribute gifts**: Credit the person being honored\n\n### 4. **Reporting Considerations**\n- Separate hard and soft credit totals in reports\n- Use soft credits for acknowledgment, not double-counting revenue\n- Track solicitor effectiveness through soft credit reports\n\n**Which CRM system are you using?** I can provide more specific instructions.",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 16,
+  "output_tokens": 394,
+  "estimated_cost_usd": 0.005958,
+  "meta": {
+    "model": "claude-sonnet-4-5-20250929"
+  }
+}

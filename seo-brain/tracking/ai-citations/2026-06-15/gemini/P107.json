@@ -1,0 +1,19 @@
+{
+  "prompt_id": "P107",
+  "prompt_text": "How to measure donor retention",
+  "engine": "gemini",
+  "timestamp": "2026-06-15T12:23:38.291253+00:00",
+  "success": true,
+  "error": null,
+  "response_text": "Measuring donor retention is a critical aspect of fundraising, as it indicates your organization's ability to maintain relationships with its supporters and encourages them to give repeatedly.\n\nHere's a comprehensive guide on how to measure donor retention:\n\n---\n\n### What is Donor Retention?\n\nDonor retention refers to the percentage of donors who gave a gift to your organization in one period (e.g., last year) and then gave another gift in a subsequent period (e.g., this year). It reflects the health of your donor relationships and the effectiveness of your stewardship efforts.\n\n---\n\n### The Basic Formula for Overall Donor Retention\n\nThe most common way to calculate donor retention is:\n\n**`Donor Retention Rate = (Number of Donors in Current Year Who Also Gave Last Year) / (Total Number of Donors Last Year)`**\n\n*   **Period 1 (Last Year):** The preceding fiscal or calendar year.\n*   **Period 2 (Current Year):** The current fiscal or calendar year.\n\n**Example:**\n*   Total unique donors last year (2022): 1,000\n*   Number of those 1,000 donors who also gave this year (2023): 400\n*   Donor Retention Rate = (400 / 1,000) = 0.40 or **40%**\n\n---\n\n### Key Considerations and Different Types of Retention Rates\n\nWhile the basic formula is a good start, a more nuanced approach involves breaking down retention into different categories for deeper insights.\n\n1.  **Define Your Time Periods Consistently:**\n    *   **Annual:** Most common (e.g., Fiscal Year 2022 to Fiscal Year 2023).\n    *   **Monthly/Quarterly:** Useful for shorter campaigns or more frequent analysis.\n    *   **Multi-year:** Tracking retention over 3-5 years can reveal long-term trends.\n    *   **Crucial:** Ensure your \"last year\" and \"this year\" are clearly defined and consistent (e.g., Jan 1 - Dec 31 for both).\n\n2.  **Define a \"Donor\":**\n    *   Typically, any individual or organization who makes a financial contribution.\n    *   **What about pledges?** Generally, retention counts actual *received gifts*. Pledges are commitments, but for most retention metrics, you'd count the payment when it's made.\n    *   **What about in-kind gifts?** Usually excluded unless your organization specifically values and tracks them as equivalent to cash gifts for this metric.\n    *   **What about soft credits?** Generally excluded from retention calculations to focus on the primary donor.\n\n3.  **Distinguish Between Donor Types:** This is where the analysis becomes powerful.\n\n    *   **a) Overall Donor Retention Rate (as above):**\n        *   `(Donors from Period 1 who gave again in Period 2) / (Total unique donors in Period 1)`\n        *   *Purpose:* Gives a general health check of your entire donor base.\n\n    *   **b) New Donor Retention Rate (First-Time Donor Retention):**\n        *   This is critical! New donors are notoriously harder to retain.\n        *   **Formula:** `(Number of Donors Who Gave for the First Time in Period 1 AND Gave Again in Period 2) / (Total Number of First-Time Donors in Period 1)`\n        *   **Example:**\n            *   First-time donors in 2022: 300\n            *   Number of those 300 who also gave in 2023: 75\n            *   New Donor Retention Rate = (75 / 300) = 0.25 or **25%**\n        *   *Purpose:* Measures your success in converting new supporters into repeat donors. This rate is usually significantly lower than overall retention.\n\n    *   **c) Repeat Donor Retention Rate (or Multi-Year Donor Retention):**\n        ",
+  "donordock_mentioned": false,
+  "donordock_position": null,
+  "competitors_mentioned": [],
+  "urls_cited": [],
+  "input_tokens": 5,
+  "output_tokens": 867,
+  "estimated_cost_usd": 0.002169,
+  "meta": {
+    "model": "gemini-2.5-flash"
+  }
+}
