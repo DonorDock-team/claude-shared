@@ -3,16 +3,16 @@
     "name": "DonorDock Website",
     "base_url": "https://www.donordock.com",
     "source": "https://www.donordock.com/sitemap.xml",
-    "scraped_at": "2026-06-12T15:20:04Z",
-    "total_pages": 538,
+    "scraped_at": "2026-06-19T15:20:22Z",
+    "total_pages": 541,
     "total_sections": 7
   },
   "section_index": {
-    "articles": 271,
+    "articles": 273,
     "compare": 9,
     "core": 75,
     "features": 64,
-    "integrations": 59,
+    "integrations": 60,
     "success-stories": 14,
     "tools": 46
   },
@@ -423,6 +423,12 @@
       "url": "https://www.donordock.com/articles/beyond-the-donation-episode-49",
       "title": "Ep. 49 | The Future of Fundraising: Innovation, Intention, and Human Connection",
       "description": "In this episode of Beyond the Donation, host Matt Bitzegaio welcomes Michelle Boggs from the GoFundMe Pro team. They discuss Michelle's extensive experience in fund development, explore the evolution of fundraising, the impact of technology, and the vital role of human relationships. The conversation also delves into the increasing costs of donor acquisition and retention, the power of social media and impact creators, and practical strategies for nonprofits to leverage GoFundMe Pro for better fundraising outcomes.",
+      "section": "articles"
+    },
+    {
+      "url": "https://www.donordock.com/articles/board-powered-major-gifts-relationship-mapping-workflow",
+      "title": "Board-Powered Major Gifts: A Relationship Mapping Workflow",
+      "description": "A 7-step workflow for using your board, LinkedIn, and your CRM to map donor relationships and run warm major gift introductions that actually convert.",
       "section": "articles"
     },
     {
@@ -1158,6 +1164,12 @@
       "section": "articles"
     },
     {
+      "url": "https://www.donordock.com/articles/nonprofit-rebrand-fundraising-stickiness",
+      "title": "Why Most Nonprofit Rebrands Don't Lift Fundraising (and the Stickiness Gap That Explains It)",
+      "description": "Why nonprofit rebrands often leave fundraising flat, and how brand stickiness turns brand investment into donor retention.",
+      "section": "articles"
+    },
+    {
       "url": "https://www.donordock.com/articles/nonprofit-seo-content",
       "title": "Boost your nonprofit SEO with compelling content",
       "description": "Boost your nonprofit's online visibility with SEO. Uncover strategies for finding keywords and prioritizing high-quality content!",
@@ -1789,8 +1801,8 @@
     },
     {
       "url": "https://www.donordock.com/crm",
-      "title": "DonorDock CRM | Donor Management for Growing Nonprofits",
-      "description": "Manage donor data, giving history, and engagement in one powerful CRM. DonorDock helps growing nonprofits build stronger donor relationships with less effort.",
+      "title": "DonorDock CRM | Donor Management for Growing Nonprofit Teams",
+      "description": "Manage donor data, giving history, and team activity in one powerful CRM. DonorDock helps growing nonprofit teams build stronger donor relationships and scale their fundraising.",
       "section": "core"
     },
     {
@@ -2625,6 +2637,12 @@
       "url": "https://www.donordock.com/integrations/eventbrite",
       "title": "Eventbrite + DonorDock Integration",
       "description": "Eventbrite is an event management tool that makes it simple to create, manage, promote, and sell out your event.",
+      "section": "integrations"
+    },
+    {
+      "url": "https://www.donordock.com/integrations/feathr",
+      "title": "Feathr + DonorDock Integration",
+      "description": "Feathr is a digital marketing and advertising platform built for nonprofits. Connect the Feathr Super Pixel to your DonorDock Giving Pages to track ad conversions, measure return on ad spend, and see which campaigns turn clicks into donations.",
       "section": "integrations"
     },
     {
