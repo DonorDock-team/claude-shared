@@ -1,0 +1,1202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>DonorDock SEO Brain — Dashboard</title>
+<link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin />
+<link rel="preconnect" href="https://api.github.com" crossorigin />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<style>
+  :root {
+    --cream: #FFFCF5;
+    --navy: #1F3252;
+    --purple: #8C2CBF;
+    --blue: #5B7BD9;
+    --coral: #F08C6A;
+    --sage: #7AB07A;
+    --slate: #4A5568;
+    --slate-light: #718096;
+    --border: #E5E0D5;
+    --bg-card: #FFFFFF;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Silka', -apple-system, system-ui, 'Segoe UI', sans-serif;
+    background: var(--cream);
+    color: var(--navy);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  @font-face {
+    font-family: 'Silka';
+    src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Regular.otf') format('opentype');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Silka';
+    src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-SemiBold.otf') format('opentype');
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: 'Silka';
+    src: url('https://raw.githubusercontent.com/DonorDock-team/claude-shared/main/assets/fonts/Silka-Bold.otf') format('opentype');
+    font-weight: 700;
+  }
+  header {
+    background: var(--navy);
+    color: var(--cream);
+    padding: 18px 28px;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  }
+  header h1 { font-size: 18px; margin: 0; font-weight: 700; letter-spacing: -0.01em; }
+  header .meta { font-size: 12px; color: rgba(255,252,245,0.7); }
+  header button { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: var(--cream); padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 12px; font-family: inherit; }
+  header button:hover { background: rgba(255,255,255,0.2); }
+  .range-wrap { display: flex; align-items: center; gap: 6px; }
+  .range-wrap label { font-size: 11px; color: rgba(255,252,245,0.65); text-transform: uppercase; letter-spacing: 0.05em; }
+  select.range-select {
+    background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.25); color: var(--cream);
+    padding: 6px 28px 6px 10px; border-radius: 6px; font-size: 12px; font-family: inherit; cursor: pointer;
+    appearance: none; -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23FFFCF5' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 10px center;
+  }
+  select.range-select option { color: var(--navy); }
+  nav {
+    display: flex; gap: 4px; padding: 0 28px; background: var(--bg-card); border-bottom: 1px solid var(--border); flex-wrap: wrap;
+  }
+  nav button {
+    background: transparent; border: none; padding: 14px 18px; cursor: pointer;
+    font-family: inherit; font-size: 14px; color: var(--slate); font-weight: 600;
+    border-bottom: 2px solid transparent;
+  }
+  nav button.active { color: var(--navy); border-bottom-color: var(--purple); }
+  nav button:hover:not(.active) { color: var(--navy); }
+  main { padding: 28px; max-width: 1400px; margin: 0 auto; }
+  .grid { display: grid; gap: 16px; }
+  .grid-3 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  .grid-7 { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  .card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; padding: 18px; }
+  .card h3 { margin: 0 0 4px 0; font-size: 13px; font-weight: 600; color: var(--slate); text-transform: uppercase; letter-spacing: 0.04em; }
+  .card .stat { font-size: 28px; font-weight: 700; color: var(--navy); line-height: 1.1; margin: 4px 0; }
+  .card .delta { font-size: 12px; color: var(--slate-light); }
+  .card .delta.up { color: var(--sage); }
+  .card .delta.down { color: var(--coral); }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; padding: 10px 12px; background: var(--cream); border-bottom: 2px solid var(--border); font-weight: 600; color: var(--slate); font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+  td { padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:hover td { background: rgba(255,252,245,0.5); }
+  .pill { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+  .pill.dd { background: var(--purple); color: white; }
+  .pill.miss { background: #FED7CC; color: #C04A28; }
+  .pill.win { background: #D4F0D4; color: #2D6A2D; }
+  .pill.warn { background: #FCE8B8; color: #8C5A0F; }
+  .pill.muted { background: var(--cream); color: var(--slate); border: 1px solid var(--border); }
+  .enginedot { display:inline-block; width:7px; height:7px; border-radius:50%; margin-right:3px; }
+  .pillar-card { padding: 14px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; }
+  .pillar-card h4 { margin: 0 0 6px 0; font-size: 13px; font-weight: 600; }
+  .pillar-card .rate { font-size: 24px; font-weight: 700; margin: 2px 0; }
+  .pillar-card .pillar-meta { font-size: 11px; color: var(--slate-light); }
+  .pillar-card .pillar-comp { font-size: 11px; color: var(--slate); margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border); }
+  .pillar-card .url { font-size: 11px; color: var(--slate-light); font-family: monospace; margin-top: 6px; }
+  .ratebar { height: 6px; background: var(--cream); border-radius: 3px; overflow: hidden; border: 1px solid var(--border); margin-top: 6px; }
+  .ratebar-fill { height: 100%; background: linear-gradient(90deg, var(--purple), var(--blue)); }
+  .empty-state { padding: 48px 24px; text-align: center; color: var(--slate-light); }
+  .empty-state h3 { color: var(--navy); margin-top: 0; }
+  .toolbar { display: flex; gap: 8px; align-items: center; margin-bottom: 16px; flex-wrap: wrap; }
+  input, select, textarea {
+    font-family: inherit; font-size: 13px; padding: 6px 10px; border: 1px solid var(--border);
+    border-radius: 6px; background: var(--bg-card); color: var(--navy);
+  }
+  input:focus, select:focus, textarea:focus { outline: 2px solid var(--purple); outline-offset: -1px; border-color: var(--purple); }
+  .btn {
+    padding: 6px 14px; border: none; border-radius: 6px; cursor: pointer; font-family: inherit;
+    font-size: 13px; font-weight: 600;
+  }
+  .btn-primary { background: var(--purple); color: white; }
+  .btn-primary:hover { background: #7325A0; }
+  .btn-primary:disabled { background: #C9A8D8; cursor: not-allowed; }
+  .btn-secondary { background: var(--bg-card); color: var(--navy); border: 1px solid var(--border); }
+  .btn-secondary:hover { background: var(--cream); }
+  .toggle { width: 36px; height: 20px; background: var(--border); border-radius: 10px; position: relative; cursor: pointer; transition: background 0.15s; border: none; padding: 0; }
+  .toggle.on { background: var(--sage); }
+  .toggle::after { content: ''; position: absolute; top: 2px; left: 2px; width: 16px; height: 16px; background: white; border-radius: 50%; transition: left 0.15s; }
+  .toggle.on::after { left: 18px; }
+  .modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.4); display: none; align-items: center; justify-content: center; z-index: 100; }
+  .modal-backdrop.show { display: flex; }
+  .modal { background: var(--bg-card); border-radius: 12px; padding: 28px; max-width: 520px; width: 90%; max-height: 85vh; overflow: auto; }
+  .modal h2 { margin: 0 0 12px 0; }
+  .modal pre { background: var(--cream); padding: 12px; border-radius: 6px; font-size: 12px; overflow-x: auto; }
+  .row { display: flex; gap: 12px; align-items: center; }
+  .stat-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 13px; }
+  .stat-row:last-child { border-bottom: none; }
+  .stat-row .label { color: var(--slate); }
+  .stat-row .value { font-weight: 600; color: var(--navy); }
+  .meter { display: inline-flex; align-items: center; gap: 8px; }
+  .meter-bar { width: 80px; height: 6px; background: var(--cream); border-radius: 3px; overflow: hidden; border: 1px solid var(--border); }
+  .meter-fill { height: 100%; background: var(--purple); }
+  .run-meta-line { font-size: 12px; color: var(--slate-light); margin-bottom: 16px; }
+  .run-meta-line strong { color: var(--navy); }
+  details { background: var(--cream); padding: 8px 12px; border-radius: 6px; margin: 8px 0; cursor: pointer; }
+  summary { font-size: 12px; color: var(--slate); user-select: none; }
+  details[open] summary { margin-bottom: 8px; color: var(--navy); font-weight: 600; }
+  pre { font-family: 'SF Mono', Monaco, monospace; font-size: 11px; }
+  .small { font-size: 11px; color: var(--slate-light); }
+  .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 300px; }
+  .tag { display: inline-block; padding: 1px 6px; background: var(--cream); border: 1px solid var(--border); border-radius: 4px; font-size: 11px; color: var(--slate); margin-right: 4px; }
+  .footer { padding: 24px 28px; text-align: center; color: var(--slate-light); font-size: 11px; border-top: 1px solid var(--border); margin-top: 32px; }
+
+  /* Insights panel */
+  #insights-card { display: flex; flex-direction: column; }
+  .insights-top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .insights-headline { font-size: 15px; font-weight: 600; color: var(--navy); margin: 8px 0 14px; line-height: 1.45; }
+  .insight { display: flex; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--border); }
+  .insight:last-child { border-bottom: none; }
+  .insight .ico { flex: 0 0 auto; width: 22px; height: 22px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; line-height: 1; }
+  .insight.positive .ico { background: #D4F0D4; color: #2D6A2D; }
+  .insight.negative .ico { background: #FED7CC; color: #C04A28; }
+  .insight.recommendation .ico { background: #EAD9F5; color: #7325A0; }
+  .insight.neutral .ico { background: var(--cream); color: var(--slate); border: 1px solid var(--border); }
+  .insight .it-title { font-weight: 600; font-size: 13px; }
+  .insight .it-detail { color: var(--slate); font-size: 12.5px; line-height: 1.45; display: none; margin-top: 2px; }
+  #insights-items.insights-expanded .it-detail { display: block; }
+  #insights-toggle { margin-top: 12px; align-self: flex-start; }
+
+  /* Trend arrows (mention counter) */
+  .trend { font-weight: 700; font-size: 12px; white-space: nowrap; }
+  .trend.good { color: var(--sage); }
+  .trend.bad { color: var(--coral); }
+  .trend.flat { color: var(--slate-light); }
+
+  /* Markdown body (opportunities) */
+  .md-body { font-size: 14px; line-height: 1.65; color: var(--navy); }
+  .md-body h1 { font-size: 22px; margin: 4px 0 12px; }
+  .md-body h2 { font-size: 18px; margin: 22px 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+  .md-body h3 { font-size: 15px; margin: 16px 0 6px; text-transform: none; letter-spacing: 0; color: var(--navy); }
+  .md-body table { margin: 12px 0; }
+  .md-body code { background: var(--cream); padding: 1px 5px; border-radius: 4px; font-size: 12px; }
+  .md-body pre { background: var(--cream); padding: 12px; border-radius: 6px; overflow-x: auto; }
+  .md-body a { color: var(--purple); }
+  .md-body ul, .md-body ol { padding-left: 22px; }
+  .md-body blockquote { border-left: 3px solid var(--purple); margin: 12px 0; padding: 4px 14px; color: var(--slate); background: rgba(140,44,191,0.04); }
+
+  @media (max-width: 760px) {
+    .top-grid { grid-template-columns: 1fr !important; }
+    .two-col { grid-template-columns: 1fr !important; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>DonorDock SEO Brain</h1>
+    <div class="meta" id="last-updated">Loading…</div>
+  </div>
+  <div class="row">
+    <div class="range-wrap">
+      <label for="range-select">Range</label>
+      <select class="range-select" id="range-select" onchange="setRange(this.value)">
+        <option value="mtd">This month (MTD)</option>
+        <option value="quarter">This quarter</option>
+        <option value="6mo">Last 6 months</option>
+        <option value="12mo">Last 12 months</option>
+        <option value="all">All-time</option>
+      </select>
+    </div>
+    <button onclick="refreshAll()">↻ Refresh</button>
+    <button onclick="openSettings()" title="Settings" aria-label="Settings">⚙</button>
+  </div>
+</header>
+
+<nav>
+  <button class="active" data-tab="citations">Citations</button>
+  <button data-tab="pillars">Pillar Health</button>
+  <button data-tab="opportunities">Opportunities</button>
+  <button data-tab="prompts">Prompt Editor</button>
+</nav>
+
+<main>
+  <!-- =========================================================== -->
+  <!-- TAB: CITATIONS                                                -->
+  <!-- =========================================================== -->
+  <section id="tab-citations">
+    <div id="run-meta-line" class="run-meta-line">—</div>
+
+    <div class="grid top-grid" style="grid-template-columns: 1fr 2fr; gap: 16px; margin-bottom: 24px;">
+      <div class="card" style="text-align:center;">
+        <h3>Citation Rate · <span id="gauge-range-label">this month</span></h3>
+        <svg viewBox="0 0 200 118" style="width:100%;max-width:220px;display:block;margin:8px auto 0;">
+          <path d="M 20 100 A 80 80 0 1 1 180 100" fill="none" stroke="var(--border)" stroke-width="16" stroke-linecap="round"/>
+          <path id="gauge-fill" d="" fill="none" stroke="var(--purple)" stroke-width="16" stroke-linecap="round"/>
+          <text id="gauge-val" x="100" y="88" text-anchor="middle" font-size="30" font-weight="700" fill="var(--navy)">—</text>
+          <text x="100" y="106" text-anchor="middle" font-size="11" fill="var(--slate-light)">citation rate</text>
+          <text x="14" y="117" text-anchor="start" font-size="10" fill="var(--slate-light)">0%</text>
+          <text x="186" y="117" text-anchor="end" font-size="10" fill="var(--slate-light)">100%</text>
+        </svg>
+        <div class="delta" id="cite-rate-delta" style="margin-top:6px;">—</div>
+      </div>
+      <div class="card" id="insights-card">
+        <div class="insights-top">
+          <h3>Insights <span class="small" style="text-transform:none;letter-spacing:0;">· auto-generated</span></h3>
+          <span class="small" id="insights-meta">—</span>
+        </div>
+        <div class="insights-headline" id="insights-headline">—</div>
+        <div id="insights-items"></div>
+        <button class="btn btn-secondary" id="insights-toggle" onclick="toggleInsights()">Show details ▾</button>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom: 16px;">
+      <h3 style="margin-bottom: 4px;">Citation Rate Over Time</h3>
+      <div class="small" id="history-overall-meta" style="margin-bottom: 12px;">—</div>
+      <div style="height: 240px; position: relative;"><canvas id="chart-overall"></canvas></div>
+    </div>
+
+    <div class="grid two-col" style="grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
+      <div class="card">
+        <h3 style="margin-bottom: 4px;">Per-Engine Citation Rate Over Time</h3>
+        <div class="small" style="margin-bottom: 12px;">Each engine plotted per run so you can see which AI surface is gaining or losing share.</div>
+        <div style="height: 260px; position: relative;"><canvas id="chart-engines"></canvas></div>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 4px;">Top Competitor Mentions Over Time</h3>
+        <div class="small" style="margin-bottom: 12px;">Top 5 competitors by mentions across runs in the selected range.</div>
+        <div style="height: 260px; position: relative;"><canvas id="chart-competitors"></canvas></div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom: 16px;">
+      <h3 style="margin-bottom: 12px;">By Engine</h3>
+      <table>
+        <thead><tr><th>Engine</th><th>Runs</th><th>OK</th><th>DD Hits</th><th>Citation %</th><th>Cost</th></tr></thead>
+        <tbody id="cite-engines-tbody"><tr><td colspan="6" class="empty-state">Loading…</td></tr></tbody>
+      </table>
+    </div>
+
+    <div class="grid two-col" style="grid-template-columns: 1fr 1fr; gap: 16px;">
+      <div class="card">
+        <h3 style="margin-bottom: 4px;">Top Wins <span class="small" style="text-transform:none;letter-spacing:0;">· DonorDock cited</span></h3>
+        <div class="small" style="margin-bottom: 12px;">Prompts where DonorDock shows up — strongest first (most engines, earliest in the answer).</div>
+        <table id="cite-wins"><thead><tr><th>Prompt</th><th>Pillar</th><th>Engines</th></tr></thead><tbody><tr><td colspan="3" class="empty-state">—</td></tr></tbody></table>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 4px;">Top Losses <span class="small" style="text-transform:none;letter-spacing:0;">· competitors cited, DonorDock not</span></h3>
+        <div class="small" style="margin-bottom: 12px;">High-value gaps: competitors get cited, DonorDock doesn't. Most-contested first.</div>
+        <table id="cite-misses"><thead><tr><th>Prompt</th><th>Pillar</th><th>Competitors cited</th></tr></thead><tbody><tr><td colspan="3" class="empty-state">—</td></tr></tbody></table>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top: 16px;">
+      <div class="insights-top" style="margin-bottom: 12px;">
+        <h3 style="margin:0;">Mention Counter</h3>
+        <span class="small" id="mention-trend-note">Arrow = change vs prior equal-length period</span>
+      </div>
+      <table>
+        <thead><tr><th>Name</th><th>Mentions in range</th><th>Trend</th></tr></thead>
+        <tbody id="cite-competitors"><tr><td colspan="3" class="empty-state">—</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- =========================================================== -->
+  <!-- TAB: PILLAR HEALTH                                            -->
+  <!-- =========================================================== -->
+  <section id="tab-pillars" style="display: none;">
+    <div class="card" style="margin-bottom: 16px;">
+      <h3 style="margin-bottom:4px;">Pillar Health <span class="small" id="pillar-range-label" style="text-transform:none;letter-spacing:0;"></span></h3>
+      <div class="small">DonorDock citation rate per pillar across the selected range, and the competitor most cited inside each pillar's prompts. Lower rate + a strong competitor = where to aim content next.</div>
+    </div>
+    <div class="grid grid-7" id="pillar-cards"></div>
+  </section>
+
+  <!-- =========================================================== -->
+  <!-- TAB: PROMPT EDITOR                                            -->
+  <!-- =========================================================== -->
+  <section id="tab-prompts" style="display: none;">
+    <div class="toolbar">
+      <input type="text" id="prompt-search" placeholder="Search prompts…" style="flex: 1; min-width: 200px;" oninput="renderPrompts()" />
+      <select id="prompt-filter-priority" onchange="renderPrompts()">
+        <option value="">All priorities</option>
+        <option value="top-50">top-50 only</option>
+        <option value="full-only">full-only</option>
+      </select>
+      <select id="prompt-filter-pillar" onchange="renderPrompts()"><option value="">All pillars</option></select>
+      <select id="prompt-filter-active" onchange="renderPrompts()">
+        <option value="">All</option>
+        <option value="active">Active only</option>
+        <option value="disabled">Disabled only</option>
+      </select>
+      <button class="btn btn-secondary" onclick="addPromptRow()">+ Add</button>
+      <button class="btn btn-primary" id="prompt-save-btn" onclick="commitPromptChanges()">Save Changes (0)</button>
+    </div>
+    <div class="card" style="padding: 0; overflow-x: auto;">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th><th style="min-width: 320px;">Text</th><th>Phase</th><th>Pillar</th><th>ICP</th>
+            <th>Priority</th><th>Active</th><th>AIO</th>
+          </tr>
+        </thead>
+        <tbody id="prompts-tbody"><tr><td colspan="8" class="empty-state">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- =========================================================== -->
+  <!-- TAB: OPPORTUNITIES                                            -->
+  <!-- =========================================================== -->
+  <section id="tab-opportunities" style="display: none;">
+    <div class="card">
+      <h3>Latest Monthly Opportunity Report</h3>
+      <div id="opportunities-content" class="empty-state">Loading…</div>
+    </div>
+  </section>
+</main>
+
+<div class="footer">
+  Reads live from <a href="https://github.com/DonorDock-team/claude-private" style="color: var(--purple);">DonorDock-team/claude-private</a> (private — GitHub token required, set in ⚙ Settings).
+  Prompt-bank edits commit via the GitHub API.
+</div>
+
+<!-- Settings modal -->
+<div class="modal-backdrop" id="settings-modal">
+  <div class="modal">
+    <h2>Dashboard Settings</h2>
+    <p class="small">This dashboard reads live from the <b>private</b> <code>claude-private</code> repo, so a GitHub token is <b>required to load any data</b> — not just the prompt editor. Your token is stored only in this browser's localStorage and is sent only to <code>api.github.com</code>.</p>
+    <label style="display:block; margin: 12px 0 4px 0; font-weight: 600;">GitHub Personal Access Token</label>
+    <input type="password" id="pat-input" placeholder="ghp_… or github_pat_…" style="width: 100%;" />
+    <div class="small" style="margin-top: 4px;">
+      Fine-grained token (recommended): repo <code>DonorDock-team/claude-private</code>, permission <code>Contents: read</code>. Add <code>Contents: write</code> + <code>Pull requests: write</code> if you also want to save prompt-bank edits. Classic token: <code>repo</code> scope.
+    </div>
+    <div class="row" style="margin-top: 20px; justify-content: flex-end;">
+      <button class="btn btn-secondary" onclick="clearPat()">Clear</button>
+      <button class="btn btn-secondary" onclick="closeSettings()">Cancel</button>
+      <button class="btn btn-primary" onclick="savePat()">Save</button>
+    </div>
+  </div>
+</div>
+
+<!-- Diff modal (shown after Save Changes) -->
+<div class="modal-backdrop" id="diff-modal">
+  <div class="modal" style="max-width: 720px;">
+    <h2>Confirm Prompt Changes</h2>
+    <div id="diff-content"></div>
+    <div class="row" style="margin-top: 20px; justify-content: flex-end;">
+      <button class="btn btn-secondary" onclick="closeDiff()">Cancel</button>
+      <button class="btn btn-secondary" onclick="downloadJson()">Download JSON</button>
+      <button class="btn btn-primary" id="commit-btn" onclick="commitToGitHub()">Open PR via GitHub API</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ============================================================================
+// Configuration
+// ============================================================================
+const REPO_OWNER = 'DonorDock-team';
+const REPO_NAME = 'claude-private';
+// All reads/writes go through api.github.com (the repo is private — raw.githubusercontent.com only serves public repos).
+const API_BASE = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}`;
+const LOCKED_PILLARS = [
+  { name: 'Donor Stewardship', id: '69eb6cb822a81ad28a27e801', url: '/smart-steward-method' },
+  { name: 'CRM', id: '69eb6cd27fa93ec8ab484322', url: '/crm' },
+  { name: 'Online Giving', id: '69eb6ce266456b7917d21f43', url: '/online-giving' },
+  { name: 'Fundraising Strategy', id: '69eb6cec3a55627ab83d8743', url: '/fundraising-strategy' },
+  { name: 'Donor Engagement', id: '69eb6cf56aa6f92a3a162f6b', url: '/donor-outreach' },
+  { name: 'AI for Nonprofits', id: '69eb6cfd66ac68d8d7702716', url: '/otto' },
+  { name: 'Donor Retention', id: '69eb6d05f4bf8b3eeaface0a', url: '/donor-retention' },
+];
+const RANGE_LABELS = {
+  mtd: 'this month', quarter: 'this quarter', '6mo': 'last 6 months',
+  '12mo': 'last 12 months', all: 'all-time',
+};
+
+// ============================================================================
+// State
+// ============================================================================
+let state = {
+  prompts: null,            // full prompts.json
+  promptsSha: null,         // GitHub blob SHA for prompts.json
+  promptsDirty: new Set(),  // ids of edited prompts
+  promptsOriginal: null,    // deep-cloned original to compute diff
+  citationHistory: [],      // array of weekly _summary.json (each tagged with .date), sorted asc
+  insights: null,           // seo-brain/tracking/insights.json
+  range: 'mtd',             // selected date range
+  pat: localStorage.getItem('dd-dashboard-pat') || null,
+};
+
+// ============================================================================
+// Tab switching
+// ============================================================================
+document.querySelectorAll('nav button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('main > section').forEach(s => s.style.display = 'none');
+    document.getElementById('tab-' + btn.dataset.tab).style.display = '';
+  });
+});
+
+// ============================================================================
+// Date-range helpers (work in UTC YYYY-MM-DD strings — lexical compare is safe)
+// ============================================================================
+function ymd(d) { return d.toISOString().slice(0, 10); }
+function addMonthsUTC(d, n) { const x = new Date(d); x.setUTCMonth(x.getUTCMonth() + n); return x; }
+
+function rangeWindow(key) {
+  const now = new Date();
+  const end = ymd(now);
+  let start;
+  if (key === 'mtd') {
+    start = ymd(new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1)));
+  } else if (key === 'quarter') {
+    const q = Math.floor(now.getUTCMonth() / 3) * 3;
+    start = ymd(new Date(Date.UTC(now.getUTCFullYear(), q, 1)));
+  } else if (key === '6mo') {
+    start = ymd(addMonthsUTC(now, -6));
+  } else if (key === '12mo') {
+    start = ymd(addMonthsUTC(now, -12));
+  } else { // all
+    start = '0000-01-01';
+  }
+  return { start, end };
+}
+
+// Equal-length window immediately preceding the current one (for deltas / trends).
+function priorWindow(win) {
+  if (win.start === '0000-01-01') return null;
+  const s = new Date(win.start + 'T00:00:00Z');
+  const e = new Date(win.end + 'T00:00:00Z');
+  const days = Math.max(1, Math.round((e - s) / 86400000));
+  const priorEnd = new Date(s); priorEnd.setUTCDate(priorEnd.getUTCDate() - 1);
+  const priorStart = new Date(priorEnd); priorStart.setUTCDate(priorStart.getUTCDate() - days);
+  return { start: ymd(priorStart), end: ymd(priorEnd) };
+}
+
+function summariesIn(win) {
+  if (!win) return [];
+  return state.citationHistory.filter(s => s.date >= win.start && s.date <= win.end);
+}
+
+// ============================================================================
+// Aggregation — fold N weekly summaries into one combined view
+// ============================================================================
+function aggregate(summaries) {
+  const a = {
+    runs: summaries.length, successes: 0, dd_hits: 0, cost: 0,
+    by_engine: {}, competitor_mentions: {}, by_pillar: {},
+    win_score: {}, win_meta: {}, miss_count: {}, miss_meta: {},
+    latest: summaries.length ? summaries[summaries.length - 1] : null,
+    first: summaries.length ? summaries[0] : null,
+  };
+  for (const s of summaries) {
+    a.successes += s.successes || 0;
+    a.dd_hits += s.donordock_hits || 0;
+    a.cost += s.total_estimated_cost_usd || 0;
+    for (const [e, v] of Object.entries(s.by_engine || {})) {
+      const be = a.by_engine[e] || (a.by_engine[e] = { total: 0, ok: 0, errors: 0, donordock_hits: 0, cost_usd: 0 });
+      be.total += v.total || 0; be.ok += v.ok || 0; be.errors += v.errors || 0;
+      be.donordock_hits += v.donordock_hits || 0; be.cost_usd += v.cost_usd || 0;
+    }
+    for (const [c, n] of Object.entries(s.competitor_mentions || {})) {
+      a.competitor_mentions[c] = (a.competitor_mentions[c] || 0) + n;
+    }
+    for (const [p, v] of Object.entries(s.by_pillar || {})) {
+      const pa = a.by_pillar[p] || (a.by_pillar[p] = { prompts: 0, ok: 0, donordock_hits: 0, comps: {} });
+      pa.ok += v.ok || 0; pa.donordock_hits += v.donordock_hits || 0;
+      pa.prompts = Math.max(pa.prompts, v.prompts || 0);
+      if (v.top_competitor) pa.comps[v.top_competitor.name] = (pa.comps[v.top_competitor.name] || 0) + v.top_competitor.mentions;
+    }
+    for (const w of s.top_wins || []) {
+      a.win_score[w.prompt_id] = (a.win_score[w.prompt_id] || 0) + (w.n_engines || 1);
+      a.win_meta[w.prompt_id] = w; // latest meta wins
+    }
+    for (const m of s.top_misses || []) {
+      a.miss_count[m.prompt_id] = (a.miss_count[m.prompt_id] || 0) + 1;
+      const mm = a.miss_meta[m.prompt_id] || (a.miss_meta[m.prompt_id] = { prompt_id: m.prompt_id, prompt_text: m.prompt_text, pillar: m.pillar, comps: new Set() });
+      (m.competitors || []).forEach(c => mm.comps.add(c));
+    }
+  }
+  a.citation_rate_pct = a.successes ? +(100 * a.dd_hits / a.successes).toFixed(1) : 0;
+  return a;
+}
+
+// ============================================================================
+// Data loading
+// ============================================================================
+// Private-repo reads go through the Contents API with the raw media type + the
+// PAT. raw.githubusercontent.com only serves PUBLIC repos and can't be authed
+// from a browser, so every read hits api.github.com instead.
+function authHeaders(extra = {}) {
+  return state.pat ? { Authorization: `token ${state.pat}`, ...extra } : { ...extra };
+}
+
+async function loadJson(path) {
+  const url = `${API_BASE}/contents/${path}?t=${Date.now()}`;
+  const r = await fetch(url, { headers: authHeaders({ Accept: 'application/vnd.github.raw' }) });
+  if (!r.ok) throw new Error(`${r.status} ${path}`);
+  return r.json();
+}
+
+async function loadPrompts() {
+  const data = await loadJson('seo-brain/tracking/prompts.json');
+  state.prompts = data;
+  state.promptsOriginal = JSON.parse(JSON.stringify(data.prompts));
+  state.promptsDirty.clear();
+  const sel = document.getElementById('prompt-filter-pillar');
+  if (sel.children.length === 1) {
+    LOCKED_PILLARS.forEach(p => {
+      const o = document.createElement('option');
+      o.value = p.name; o.textContent = p.name;
+      sel.appendChild(o);
+    });
+  }
+  try {
+    const meta = await fetch(`${API_BASE}/contents/seo-brain/tracking/prompts.json`, { headers: authHeaders() }).then(r => r.ok ? r.json() : null);
+    state.promptsSha = meta?.sha || null;
+  } catch {}
+  renderPrompts();
+}
+
+// One fetch lists all run dirs; we then pull each _summary.json. This is the
+// single source of truth for every range-aware citation view.
+async function loadCitationHistory() {
+  let dirs = [];
+  try {
+    const r = await fetch(`${API_BASE}/contents/seo-brain/tracking/ai-citations`, { headers: authHeaders() });
+    if (r.ok) {
+      const items = await r.json();
+      dirs = items.filter(x => x.type === 'dir' && /^\d{4}-\d{2}-\d{2}$/.test(x.name)).map(x => x.name).sort();
+    }
+  } catch {}
+
+  const summaries = [];
+  for (const dateStr of dirs) {
+    try {
+      const data = await loadJson(`seo-brain/tracking/ai-citations/${dateStr}/_summary.json`);
+      summaries.push({ date: dateStr, ...data });
+    } catch {} // AIO-only dirs have no root _summary.json — skip silently
+  }
+  state.citationHistory = summaries;
+  renderAll();
+}
+
+async function loadInsights() {
+  try { state.insights = await loadJson('seo-brain/tracking/insights.json'); }
+  catch { state.insights = null; }
+  renderInsights();
+}
+
+async function loadOpportunities() {
+  const el = document.getElementById('opportunities-content');
+  let name = null;
+  // Preferred: list the dir and pick the most recent .md (any naming scheme).
+  try {
+    const r = await fetch(`${API_BASE}/contents/seo-brain/opportunities`, { headers: authHeaders() });
+    if (r.ok) {
+      const items = await r.json();
+      const mds = items
+        .filter(x => x.type === 'file' && /\.md$/i.test(x.name) && x.name.toLowerCase() !== 'readme.md')
+        .map(x => x.name).sort();
+      if (mds.length) name = mds[mds.length - 1];
+    }
+  } catch {}
+  // Fallback: probe YYYY-MM.md back 6 months if the listing failed.
+  if (!name) {
+    const now = new Date();
+    for (let i = 0; i < 6 && !name; i++) {
+      const ym = ymd(addMonthsUTC(now, -i)).slice(0, 7);
+      try { const rr = await fetch(`${API_BASE}/contents/seo-brain/opportunities/${ym}.md?t=${Date.now()}`, { headers: authHeaders({ Accept: 'application/vnd.github.raw' }) }); if (rr.ok) name = `${ym}.md`; } catch {}
+    }
+  }
+  if (!name) {
+    el.innerHTML = `<h3>No opportunity report yet</h3><p>The monthly report fires on the 1st (<code>monthly-opportunity-report</code>). Once it lands in <code>seo-brain/opportunities/</code> it renders here automatically.</p>`;
+    return;
+  }
+  try {
+    const md = await (await fetch(`${API_BASE}/contents/seo-brain/opportunities/${name}?t=${Date.now()}`, { headers: authHeaders({ Accept: 'application/vnd.github.raw' }) })).text();
+    const body = window.marked
+      ? marked.parse(md)
+      : `<pre style="white-space:pre-wrap;font-family:'Silka',sans-serif;font-size:14px;line-height:1.6;">${escapeHtml(md)}</pre>`;
+    el.classList.remove('empty-state');
+    el.innerHTML = `<div class="small" style="margin-bottom:12px;">Source: <code>seo-brain/opportunities/${escapeHtml(name)}</code></div><div class="md-body">${body}</div>`;
+  } catch (e) {
+    el.innerHTML = `<p>Failed to load ${escapeHtml(name)}: ${escapeHtml(e.message)}</p>`;
+  }
+}
+
+function refreshAll() {
+  if (!state.pat) {
+    document.getElementById('last-updated').textContent = 'GitHub token required — opening Settings…';
+    openSettings();
+    return;
+  }
+  document.getElementById('last-updated').textContent = `Loading at ${new Date().toLocaleString()}…`;
+  Promise.all([loadPrompts(), loadCitationHistory(), loadInsights(), loadOpportunities()])
+    .then(() => {
+      document.getElementById('last-updated').textContent = `Updated ${new Date().toLocaleString()}`;
+    })
+    .catch(err => {
+      const authIssue = /^(401|403|404)\b/.test(err.message);
+      document.getElementById('last-updated').textContent = authIssue
+        ? `Load error (${err.message}) — check your token has Contents:read on claude-private`
+        : `Load error: ${err.message}`;
+    });
+}
+
+function setRange(key) {
+  state.range = key;
+  document.getElementById('gauge-range-label').textContent = RANGE_LABELS[key] || key;
+  renderAll();
+}
+
+// Re-render every range-dependent view from citationHistory + state.range.
+function renderAll() {
+  const win = rangeWindow(state.range);
+  const prior = priorWindow(win);
+  const cur = aggregate(summariesIn(win));
+  const prev = prior ? aggregate(summariesIn(prior)) : null;
+  document.getElementById('gauge-range-label').textContent = RANGE_LABELS[state.range];
+  renderRunMeta(cur, win);
+  renderGauge(cur, prev);
+  renderEngines(cur);
+  renderCitationHistory(summariesIn(win));
+  renderWinsLosses(cur);
+  renderMentions(cur, prev);
+  renderPillars(cur);
+}
+
+// ============================================================================
+// Rendering — run meta line (range, runs, span, latest, spend)
+// ============================================================================
+function renderRunMeta(cur, win) {
+  const el = document.getElementById('run-meta-line');
+  if (!cur.runs) {
+    el.innerHTML = `<strong>${RANGE_LABELS[state.range]}</strong> — no runs in range yet. The next full run lands Mondays ~6:20am ET.`;
+    return;
+  }
+  const spend = '$' + cur.cost.toFixed(2);
+  el.innerHTML =
+    `<strong>${RANGE_LABELS[state.range]}</strong> · ${cur.runs} run${cur.runs === 1 ? '' : 's'} · ` +
+    `${cur.first.date} → ${cur.latest.date} · latest: <strong>${cur.latest.date}</strong> (${cur.latest.priority_filter}) · ` +
+    `est. spend ${spend} · ${cur.successes} successful responses`;
+}
+
+// ============================================================================
+// Rendering — gauge
+// ============================================================================
+function renderGauge(cur, prev) {
+  const pct = cur.citation_rate_pct || 0;
+  document.getElementById('gauge-val').textContent = pct + '%';
+  document.getElementById('gauge-fill').setAttribute('d', gaugeArcPath(pct));
+  const el = document.getElementById('cite-rate-delta');
+  if (!cur.runs) { el.textContent = '—'; el.className = 'delta'; return; }
+  if (prev && prev.runs) {
+    const d = +(cur.citation_rate_pct - prev.citation_rate_pct).toFixed(1);
+    el.textContent = `${d >= 0 ? '+' : ''}${d}pp vs prior ${RANGE_LABELS[state.range].replace('this ', '').replace('last ', 'prior ')}`;
+    el.className = 'delta ' + (d > 0 ? 'up' : d < 0 ? 'down' : '');
+  } else {
+    el.textContent = `${cur.dd_hits} of ${cur.successes} responses cited DonorDock`;
+    el.className = 'delta';
+  }
+}
+
+// ============================================================================
+// Rendering — by-engine table
+// ============================================================================
+function renderEngines(cur) {
+  const tbody = document.getElementById('cite-engines-tbody');
+  const entries = Object.entries(cur.by_engine);
+  if (!entries.length) {
+    tbody.innerHTML = `<tr><td colspan="6" class="empty-state">No runs in range.</td></tr>`;
+    return;
+  }
+  tbody.innerHTML = entries.map(([engine, v]) => {
+    const rate = v.ok ? +(100 * v.donordock_hits / v.ok).toFixed(1) : 0;
+    return `
+    <tr>
+      <td><strong>${escapeHtml(engine)}</strong></td>
+      <td>${v.total}</td><td>${v.ok}</td><td>${v.donordock_hits}</td>
+      <td><div class="meter"><div class="meter-bar"><div class="meter-fill" style="width:${rate}%"></div></div><span>${rate}%</span></div></td>
+      <td>$${v.cost_usd.toFixed(2)}</td>
+    </tr>`;
+  }).join('');
+}
+
+// ============================================================================
+// Rendering — wins / losses
+// ============================================================================
+const ENGINE_DOT = { anthropic: '#1F3252', openai: '#7AB07A', perplexity: '#F08C6A', gemini: '#5B7BD9' };
+function engineDots(engines) {
+  return (engines || []).map(e =>
+    `<span class="enginedot" style="background:${ENGINE_DOT[e] || '#4A5568'}" title="${escapeHtml(e)}"></span>`).join('') +
+    `<span class="small"> ${engines.length}/4</span>`;
+}
+
+function renderWinsLosses(cur) {
+  // Wins: rank prompts by cumulative engine-citations across in-range runs.
+  const wins = Object.entries(cur.win_score)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 15)
+    .map(([pid]) => cur.win_meta[pid]);
+  const winsBody = document.querySelector('#cite-wins tbody');
+  winsBody.innerHTML = wins.length
+    ? wins.map(w => `<tr>
+        <td>${escapeHtml(w.prompt_text)} <span class="small">(${w.prompt_id})</span></td>
+        <td><span class="tag">${escapeHtml(w.pillar || '')}</span></td>
+        <td>${engineDots(w.engines)}</td>
+      </tr>`).join('')
+    : `<tr><td colspan="3" class="empty-state">No DonorDock citations in range.</td></tr>`;
+
+  // Losses: rank prompts by how often they were a miss (competitors cited, DD absent).
+  const losses = Object.entries(cur.miss_count)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 15)
+    .map(([pid]) => cur.miss_meta[pid]);
+  const lossBody = document.querySelector('#cite-misses tbody');
+  lossBody.innerHTML = losses.length
+    ? losses.map(m => `<tr>
+        <td>${escapeHtml(m.prompt_text)} <span class="small">(${m.prompt_id})</span></td>
+        <td><span class="tag">${escapeHtml(m.pillar || '')}</span></td>
+        <td>${[...m.comps].slice(0, 4).map(c => `<span class="pill miss" style="margin:1px;">${escapeHtml(c)}</span>`).join(' ')}</td>
+      </tr>`).join('')
+    : `<tr><td colspan="3" class="empty-state">No competitor-only gaps in range.</td></tr>`;
+}
+
+// ============================================================================
+// Rendering — mention counter with trend vs prior period
+// ============================================================================
+function renderMentions(cur, prev) {
+  const tbody = document.getElementById('cite-competitors');
+  const cm = { ...cur.competitor_mentions };
+  cm['DonorDock'] = cur.dd_hits || 0;
+  const pm = prev ? { ...prev.competitor_mentions, DonorDock: prev.dd_hits || 0 } : null;
+
+  const sorted = Object.entries(cm).sort((a, b) => b[1] - a[1]);
+  if (!sorted.length || !cur.runs) {
+    tbody.innerHTML = `<tr><td colspan="3" class="empty-state">No mentions in range.</td></tr>`;
+    return;
+  }
+  const max = sorted[0][1] || 1;
+  document.getElementById('mention-trend-note').textContent =
+    prev && prev.runs ? 'Trend = % change in mentions-per-run vs prior period' : 'No prior period to compare (showing totals only)';
+
+  tbody.innerHTML = sorted.slice(0, 18).map(([name, n]) => {
+    const isDd = name === 'DonorDock';
+    let trend = '<span class="trend flat">—</span>';
+    if (pm && prev.runs && cur.runs) {
+      // Normalize to mentions-per-run so windows with different run counts compare fairly.
+      const curPerRun = n / cur.runs;
+      const priorPerRun = (pm[name] || 0) / prev.runs;
+      // For DonorDock, more = good. For competitors, more = bad (they're gaining share).
+      let label, dir;
+      if (priorPerRun === 0) { label = 'new'; dir = curPerRun > 0 ? 1 : 0; }
+      else {
+        const pctChg = Math.round(100 * (curPerRun - priorPerRun) / priorPerRun);
+        dir = pctChg === 0 ? 0 : (pctChg > 0 ? 1 : -1);
+        label = `${pctChg > 0 ? '+' : ''}${pctChg}%`;
+      }
+      const good = isDd ? dir > 0 : dir < 0;
+      const cls = dir === 0 ? 'flat' : (good ? 'good' : 'bad');
+      const arrow = dir === 0 ? '—' : (dir > 0 ? '▲' : '▼');
+      trend = `<span class="trend ${cls}" title="vs prior ${RANGE_LABELS[state.range]}, per run">${arrow} ${label}</span>`;
+    }
+    return `
+      <tr${isDd ? ' style="background:rgba(140,44,191,0.05);"' : ''}>
+        <td>${isDd ? `<strong style="color:var(--purple);">DonorDock</strong>` : escapeHtml(name)}</td>
+        <td><div class="meter"><div class="meter-bar"><div class="meter-fill" style="width:${(100 * n / max).toFixed(0)}%;${isDd ? 'background:var(--purple);' : ''}"></div></div><span>${n}</span></div></td>
+        <td>${trend}</td>
+      </tr>`;
+  }).join('');
+}
+
+// ============================================================================
+// Rendering — Insights (auto-generated, range-independent)
+// ============================================================================
+function renderInsights() {
+  const meta = document.getElementById('insights-meta');
+  const head = document.getElementById('insights-headline');
+  const list = document.getElementById('insights-items');
+  const ins = state.insights;
+  if (!ins) {
+    meta.textContent = '';
+    head.textContent = 'Insights appear after the weekly Sunday digest run synthesizes the latest data.';
+    list.innerHTML = '';
+    return;
+  }
+  meta.textContent = ins.generated ? `Updated ${ins.generated}` : '';
+  head.textContent = ins.headline || '';
+  const ICONS = { positive: '▲', negative: '▼', recommendation: '★', neutral: '•' };
+  const items = ins.items || [];
+  list.innerHTML = items.length
+    ? items.map(it => {
+        const s = ['positive', 'negative', 'recommendation', 'neutral'].includes(it.sentiment) ? it.sentiment : 'neutral';
+        return `<div class="insight ${s}">
+          <div class="ico">${ICONS[s]}</div>
+          <div><div class="it-title">${escapeHtml(it.title || '')}</div><div class="it-detail">${escapeHtml(it.detail || '')}</div></div>
+        </div>`;
+      }).join('')
+    : '<div class="small">No insight items in the latest digest.</div>';
+  // Start collapsed each render: headline + icons/titles only; button reveals details.
+  list.classList.remove('insights-expanded');
+  const btn = document.getElementById('insights-toggle');
+  btn.style.display = items.length ? '' : 'none';
+  btn.textContent = 'Show details ▾';
+}
+
+function toggleInsights() {
+  const list = document.getElementById('insights-items');
+  const btn = document.getElementById('insights-toggle');
+  const expanded = list.classList.toggle('insights-expanded');
+  btn.textContent = expanded ? 'Hide details ▴' : 'Show details ▾';
+}
+
+// ============================================================================
+// Rendering — citation history line charts (range-filtered)
+// ============================================================================
+const chartInstances = {};
+const PALETTE = { navy: '#1F3252', purple: '#8C2CBF', blue: '#5B7BD9', coral: '#F08C6A', sage: '#7AB07A', slate: '#4A5568' };
+
+function destroyChart(key) {
+  if (chartInstances[key]) { chartInstances[key].destroy(); delete chartInstances[key]; }
+}
+
+function lineChartConfig(labels, datasets, yLabel) {
+  return {
+    type: 'line',
+    data: { labels, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } },
+        tooltip: { backgroundColor: '#1F3252', padding: 10, titleFont: { size: 12 }, bodyFont: { size: 12 } },
+      },
+      scales: {
+        x: { ticks: { font: { size: 11 } }, grid: { display: false } },
+        y: { beginAtZero: true, title: { display: !!yLabel, text: yLabel, font: { size: 11 } }, ticks: { font: { size: 11 } } },
+      },
+    },
+  };
+}
+
+function renderCitationHistory(hist) {
+  const meta = document.getElementById('history-overall-meta');
+  if (!hist.length) {
+    meta.textContent = `No runs in ${RANGE_LABELS[state.range]}. Try a wider range.`;
+    ['overall', 'engines', 'competitors'].forEach(destroyChart);
+    return;
+  }
+  const single = hist.length === 1;
+  meta.textContent = single
+    ? `1 run in range (${hist[0].date}). Pick a wider range to see the trend line.`
+    : `${hist.length} runs · ${hist[0].date} → ${hist[hist.length - 1].date}`;
+
+  const labels = single ? [hist[0].date, ''] : hist.map(h => h.date);
+  const pad = (arr) => single ? [arr[0], null] : arr;
+  const ptR = single ? 9 : 4;
+  const ptHover = single ? 12 : 6;
+
+  // Chart 1: overall — DonorDock solid, top competitors dotted (share within range)
+  const compTotals = {};
+  for (const h of hist) for (const [n, c] of Object.entries(h.competitor_mentions || {})) compTotals[n] = (compTotals[n] || 0) + c;
+  const TOP_COMP_COLORS = ['#F08C6A', '#5B7BD9', '#7AB07A', '#4A5568', '#C084FC'];
+  const topComps = Object.entries(compTotals).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([n]) => n);
+  const compDotted = topComps.map((name, i) => ({
+    label: name,
+    data: pad(hist.map(h => {
+      const cnt = h.competitor_mentions?.[name];
+      return cnt != null && h.total_runs ? +((cnt / h.total_runs) * 100).toFixed(1) : null;
+    })),
+    borderColor: TOP_COMP_COLORS[i], backgroundColor: 'transparent',
+    tension: 0.25, pointRadius: ptR, pointHoverRadius: ptHover,
+    pointBackgroundColor: TOP_COMP_COLORS[i], pointBorderColor: '#fff', pointBorderWidth: 2,
+    borderWidth: 1.5, borderDash: [5, 4], spanGaps: true,
+  }));
+  destroyChart('overall');
+  chartInstances.overall = new Chart(document.getElementById('chart-overall'), lineChartConfig(
+    labels,
+    [{
+      label: 'DonorDock',
+      data: pad(hist.map(h => h.donordock_citation_rate_pct ?? 0)),
+      borderColor: PALETTE.purple, backgroundColor: PALETTE.purple + '22',
+      tension: 0.25, pointRadius: ptR, pointHoverRadius: ptHover,
+      pointBackgroundColor: PALETTE.purple, pointBorderColor: '#fff', pointBorderWidth: 2,
+      fill: true, borderWidth: 2.5, spanGaps: true,
+    }, ...compDotted],
+    'Citation / mention rate (%)'
+  ));
+
+  // Chart 2: per-engine citation rate
+  const engineColors = { anthropic: PALETTE.navy, openai: PALETTE.sage, perplexity: PALETTE.coral, gemini: PALETTE.blue };
+  const engineKeys = Array.from(new Set(hist.flatMap(h => Object.keys(h.by_engine || {}))));
+  destroyChart('engines');
+  chartInstances.engines = new Chart(document.getElementById('chart-engines'), lineChartConfig(
+    labels,
+    engineKeys.map(eng => ({
+      label: eng,
+      data: pad(hist.map(h => h.by_engine?.[eng]?.citation_rate_pct ?? null)),
+      borderColor: engineColors[eng] || PALETTE.slate, backgroundColor: 'transparent',
+      tension: 0.25, pointRadius: ptR, pointHoverRadius: ptHover,
+      pointBackgroundColor: engineColors[eng] || PALETTE.slate, pointBorderColor: '#fff', pointBorderWidth: 2,
+      borderWidth: 2, spanGaps: true,
+    })),
+    'Citation rate (%)'
+  ));
+
+  // Chart 3: top-5 competitor mentions
+  const compColors = [PALETTE.purple, PALETTE.coral, PALETTE.blue, PALETTE.sage, PALETTE.navy];
+  destroyChart('competitors');
+  chartInstances.competitors = new Chart(document.getElementById('chart-competitors'), lineChartConfig(
+    labels,
+    topComps.map((name, i) => ({
+      label: name,
+      data: pad(hist.map(h => h.competitor_mentions?.[name] ?? null)),
+      borderColor: compColors[i], backgroundColor: 'transparent',
+      tension: 0.25, pointRadius: ptR, pointHoverRadius: ptHover,
+      pointBackgroundColor: compColors[i], pointBorderColor: '#fff', pointBorderWidth: 2,
+      borderWidth: 2, spanGaps: true,
+    })),
+    'Mentions per run'
+  ));
+}
+
+// ============================================================================
+// Rendering — Pillar Health (citation rate per pillar + competitor gap)
+// ============================================================================
+function renderPillars(cur) {
+  document.getElementById('pillar-range-label').textContent = `· ${RANGE_LABELS[state.range]}`;
+  const container = document.getElementById('pillar-cards');
+  if (!cur.runs) {
+    container.innerHTML = `<div class="empty-state" style="grid-column:1/-1;">No runs in range.</div>`;
+    return;
+  }
+  container.innerHTML = LOCKED_PILLARS.map(p => {
+    const pa = cur.by_pillar[p.name];
+    const rate = pa && pa.ok ? +(100 * pa.donordock_hits / pa.ok).toFixed(1) : 0;
+    const tracked = pa ? pa.prompts : 0;
+    let topComp = null;
+    if (pa && Object.keys(pa.comps).length) {
+      const e = Object.entries(pa.comps).sort((a, b) => b[1] - a[1])[0];
+      topComp = e[0];
+    }
+    const rateColor = rate >= 20 ? 'var(--sage)' : rate >= 10 ? 'var(--blue)' : 'var(--coral)';
+    return `
+      <div class="pillar-card">
+        <h4>${p.name}</h4>
+        <p class="rate" style="color:${rateColor};">${rate}%</p>
+        <div class="pillar-meta">${pa ? pa.donordock_hits : 0}/${pa ? pa.ok : 0} responses · ${tracked} prompts</div>
+        <div class="ratebar"><div class="ratebar-fill" style="width:${rate}%"></div></div>
+        <div class="pillar-comp">${topComp ? `Top rival here: <strong>${escapeHtml(topComp)}</strong>` : 'No competitor cited'}</div>
+        <div class="url"><a href="https://www.donordock.com${p.url}" target="_blank" style="color: var(--slate-light);">${p.url}</a></div>
+      </div>`;
+  }).join('');
+}
+
+// ============================================================================
+// Rendering — Prompts
+// ============================================================================
+function renderPrompts() {
+  if (!state.prompts) return;
+  const search = document.getElementById('prompt-search').value.toLowerCase();
+  const fp = document.getElementById('prompt-filter-priority').value;
+  const fpil = document.getElementById('prompt-filter-pillar').value;
+  const fa = document.getElementById('prompt-filter-active').value;
+
+  const filtered = state.prompts.prompts.filter(p => {
+    if (search && !(p.text.toLowerCase().includes(search) || p.id.toLowerCase().includes(search))) return false;
+    if (fp && p.priority !== fp) return false;
+    if (fpil && p.pillar !== fpil) return false;
+    if (fa === 'active' && !p.active) return false;
+    if (fa === 'disabled' && p.active) return false;
+    return true;
+  });
+
+  const tbody = document.getElementById('prompts-tbody');
+  tbody.innerHTML = filtered.map(p => `
+    <tr data-pid="${p.id}">
+      <td><strong>${p.id}</strong></td>
+      <td><textarea rows="2" style="width:100%; min-width: 280px;" oninput="updatePrompt('${p.id}', 'text', this.value)">${escapeHtml(p.text)}</textarea></td>
+      <td>${escapeHtml(p.phase || '')}</td>
+      <td>
+        <select onchange="updatePrompt('${p.id}', 'pillar', this.value)">
+          ${LOCKED_PILLARS.map(pil => `<option value="${pil.name}" ${pil.name === p.pillar ? 'selected' : ''}>${pil.name}</option>`).join('')}
+          <option value="OUT-OF-ICP" ${p.pillar === 'OUT-OF-ICP' ? 'selected' : ''}>OUT-OF-ICP</option>
+        </select>
+      </td>
+      <td><span class="tag">${escapeHtml(p.icp || '')}</span></td>
+      <td>
+        <select onchange="updatePrompt('${p.id}', 'priority', this.value)">
+          <option value="top-50" ${p.priority === 'top-50' ? 'selected' : ''}>top-50</option>
+          <option value="full-only" ${p.priority === 'full-only' ? 'selected' : ''}>full-only</option>
+        </select>
+      </td>
+      <td><button class="toggle ${p.active ? 'on' : ''}" onclick="updatePrompt('${p.id}', 'active', !${p.active})"></button></td>
+      <td><button class="toggle ${p.aio ? 'on' : ''}" onclick="updatePrompt('${p.id}', 'aio', !${p.aio})"></button></td>
+    </tr>
+  `).join('');
+  updateSaveBtn();
+}
+
+function updatePrompt(pid, field, value) {
+  const p = state.prompts.prompts.find(x => x.id === pid);
+  if (!p) return;
+  p[field] = value;
+  state.promptsDirty.add(pid);
+  if (field === 'active' || field === 'aio') renderPrompts();
+  updateSaveBtn();
+}
+
+function addPromptRow() {
+  if (!state.prompts) return;
+  const ids = state.prompts.prompts.map(p => parseInt(p.id.replace(/\D/g, ''))).filter(n => !isNaN(n));
+  const next = (Math.max(...ids, 0) + 1).toString().padStart(3, '0');
+  const newId = 'P' + next;
+  state.prompts.prompts.push({
+    id: newId, text: '(new prompt — edit me)',
+    phase: 'AWARENESS', pillar: 'CRM', icp: 'Medium Nonprofits',
+    priority: 'full-only', category: 'operational', active: true, aio: false,
+  });
+  state.promptsDirty.add(newId);
+  renderPrompts();
+}
+
+function updateSaveBtn() {
+  const n = state.promptsDirty.size;
+  const btn = document.getElementById('prompt-save-btn');
+  btn.textContent = `Save Changes (${n})`;
+  btn.disabled = n === 0;
+}
+
+function commitPromptChanges() {
+  const orig = state.promptsOriginal;
+  const cur = state.prompts.prompts;
+  const diffs = [];
+  cur.forEach(p => {
+    const o = orig.find(x => x.id === p.id);
+    if (!o) { diffs.push({ kind: 'add', id: p.id, text: p.text }); return; }
+    const changed = [];
+    ['text', 'phase', 'pillar', 'icp', 'priority', 'active', 'aio'].forEach(f => {
+      if (o[f] !== p[f]) changed.push(`${f}: "${o[f]}" → "${p[f]}"`);
+    });
+    if (changed.length) diffs.push({ kind: 'update', id: p.id, changes: changed });
+  });
+  const html = diffs.length === 0
+    ? '<p>No changes detected.</p>'
+    : `<div class="small" style="margin-bottom:12px;">${diffs.length} change${diffs.length === 1 ? '' : 's'}</div>`
+      + diffs.map(d => d.kind === 'add'
+          ? `<div style="margin-bottom:8px;"><span class="pill win">NEW</span> ${escapeHtml(d.id)} — ${escapeHtml(d.text)}</div>`
+          : `<div style="margin-bottom:8px;"><span class="pill warn">EDIT</span> ${escapeHtml(d.id)}<ul style="margin:4px 0 4px 20px;">${d.changes.map(c => `<li>${escapeHtml(c)}</li>`).join('')}</ul></div>`
+        ).join('');
+  document.getElementById('diff-content').innerHTML = html;
+  document.getElementById('commit-btn').disabled = !state.pat;
+  document.getElementById('commit-btn').textContent = state.pat ? 'Open PR via GitHub API' : 'No PAT — use Download instead';
+  document.getElementById('diff-modal').classList.add('show');
+}
+
+async function commitToGitHub() {
+  if (!state.pat) { alert('Set a PAT in Settings first.'); return; }
+  const btn = document.getElementById('commit-btn');
+  btn.disabled = true;
+  btn.textContent = 'Committing…';
+  try {
+    const branch = `dashboard/prompts-${new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19)}`;
+    const mainRef = await fetch(`${API_BASE}/git/ref/heads/main`, { headers: { Authorization: `token ${state.pat}` } }).then(r => r.json());
+    const mainSha = mainRef.object.sha;
+    await fetch(`${API_BASE}/git/refs`, {
+      method: 'POST',
+      headers: { Authorization: `token ${state.pat}`, 'content-type': 'application/json' },
+      body: JSON.stringify({ ref: `refs/heads/${branch}`, sha: mainSha })
+    });
+    const newContent = JSON.stringify({ ...state.prompts, last_updated: new Date().toISOString().slice(0, 10) }, null, 2) + '\n';
+    await fetch(`${API_BASE}/contents/seo-brain/tracking/prompts.json`, {
+      method: 'PUT',
+      headers: { Authorization: `token ${state.pat}`, 'content-type': 'application/json' },
+      body: JSON.stringify({
+        message: `dashboard: prompt-bank edits (${state.promptsDirty.size} changes)`,
+        content: btoa(unescape(encodeURIComponent(newContent))),
+        branch: branch,
+        sha: state.promptsSha,
+      })
+    });
+    const pr = await fetch(`${API_BASE}/pulls`, {
+      method: 'POST',
+      headers: { Authorization: `token ${state.pat}`, 'content-type': 'application/json' },
+      body: JSON.stringify({
+        title: `dashboard: prompt-bank edits (${state.promptsDirty.size})`,
+        body: `Edited via SEO Brain dashboard at ${new Date().toLocaleString()}.`,
+        head: branch, base: 'main',
+      })
+    }).then(r => r.json());
+    btn.textContent = `✓ PR #${pr.number} opened`;
+    setTimeout(() => { window.open(pr.html_url, '_blank'); closeDiff(); refreshAll(); }, 800);
+  } catch (e) {
+    btn.disabled = false;
+    btn.textContent = 'Open PR via GitHub API';
+    alert('Failed: ' + e.message);
+  }
+}
+
+function downloadJson() {
+  const newContent = JSON.stringify({ ...state.prompts, last_updated: new Date().toISOString().slice(0, 10) }, null, 2) + '\n';
+  const blob = new Blob([newContent], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'prompts.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function closeDiff() { document.getElementById('diff-modal').classList.remove('show'); }
+
+// ============================================================================
+// Settings modal
+// ============================================================================
+function openSettings() {
+  document.getElementById('pat-input').value = state.pat || '';
+  document.getElementById('settings-modal').classList.add('show');
+}
+function closeSettings() { document.getElementById('settings-modal').classList.remove('show'); }
+function savePat() {
+  const v = document.getElementById('pat-input').value.trim();
+  if (v) { state.pat = v; localStorage.setItem('dd-dashboard-pat', v); }
+  closeSettings();
+  if (state.pat) refreshAll();
+}
+function clearPat() {
+  state.pat = null; localStorage.removeItem('dd-dashboard-pat');
+  document.getElementById('pat-input').value = '';
+  closeSettings();
+}
+
+// ============================================================================
+// Utilities
+// ============================================================================
+function gaugeArcPath(pct) {
+  const cx = 100, cy = 100, r = 80;
+  if (pct <= 0) return `M 20 100 A ${r} ${r} 0 0 1 20.001 100`;
+  if (pct >= 100) return `M 20 100 A ${r} ${r} 0 1 1 180 100`;
+  const theta = Math.PI * (1 - pct / 100);
+  const x = (cx + r * Math.cos(theta)).toFixed(2);
+  const y = (cy - r * Math.sin(theta)).toFixed(2);
+  const largeArc = pct >= 50 ? 1 : 0;
+  return `M 20 100 A ${r} ${r} 0 ${largeArc} 1 ${x} ${y}`;
+}
+
+function escapeHtml(s) {
+  if (s == null) return '';
+  return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+// ============================================================================
+// Boot
+// ============================================================================
+document.getElementById('range-select').value = state.range;
+document.getElementById('gauge-range-label').textContent = RANGE_LABELS[state.range];
+refreshAll();
+</script>
+</body>
+</html>
