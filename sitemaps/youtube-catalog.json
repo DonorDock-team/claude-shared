@@ -1,19 +1,19 @@
 {
   "youtube": {
-    "scraped_at": "2026-07-10T16:06:31.144750Z",
-    "total_videos": 158,
+    "scraped_at": "2026-07-17T16:06:04.483450Z",
+    "total_videos": 166,
     "channels": {
       "donordock": {
         "name": "DonorDock",
         "handle": "@donordock",
         "url": "https://www.youtube.com/@donordock",
-        "video_count": 79
+        "video_count": 86
       },
       "fundraisinglab": {
         "name": "Fundraising Lab",
         "handle": "@FundraisingLab",
         "url": "https://www.youtube.com/@FundraisingLab",
-        "video_count": 79
+        "video_count": 80
       },
       "external": {
         "name": "External appearances",
@@ -35,6 +35,112 @@
     ]
   },
   "videos": [
+    {
+      "id": "hxL8IYejV68",
+      "title": "Using AI in Fundraising Without Breaking Donor Trust | Sami Zoss",
+      "description": "Fundraising drives relationships and the big gifts. Nobody puts the systems, the data, and the back-end operations on the flyer, and that's exactly the work that keeps an organization alive. In this e",
+      "channel": "fundraisinglab",
+      "published_at": "2026-07-14T13:00:20Z",
+      "type": "video",
+      "duration_seconds": 1706,
+      "category": "the-focused-fundraiser",
+      "people": [
+        "Rob Burke"
+      ],
+      "url": "https://www.youtube.com/watch?v=hxL8IYejV68",
+      "thumbnail": "https://i.ytimg.com/vi/hxL8IYejV68/hqdefault.jpg"
+    },
+    {
+      "id": "wdp1tjLyQH4",
+      "title": "DonorDock 101: Getting Started",
+      "description": "Let's start at the very beginning: getting logged in and setting up your DonorDock account so it works the way you do.\n\nIn this Getting Started module, we walk through logging in with your organizatio",
+      "channel": "donordock",
+      "published_at": "2026-07-13T14:47:16Z",
+      "type": "video",
+      "duration_seconds": 248,
+      "category": "training",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=wdp1tjLyQH4",
+      "thumbnail": "https://i.ytimg.com/vi/wdp1tjLyQH4/hqdefault.jpg"
+    },
+    {
+      "id": "pPEIOZUFjeE",
+      "title": "Your First Hour on DonorDock: Complete Walkthrough",
+      "description": "Welcome to DonorDock 101, your guided tour of the platform, from day-one setup to the features that help your team raise more and stress less.\n\nThis is the starting point for the full DonorDock 101 se",
+      "channel": "donordock",
+      "published_at": "2026-07-13T14:47:15Z",
+      "type": "video",
+      "duration_seconds": 62,
+      "category": "feature-highlight",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=pPEIOZUFjeE",
+      "thumbnail": "https://i.ytimg.com/vi/pPEIOZUFjeE/hqdefault.jpg"
+    },
+    {
+      "id": "KRY3BxA29qc",
+      "title": "DonorDock 101: Reporting",
+      "description": "If you can get the information into DonorDock, you can get it back out. This module shows you how to turn your data into reports and dashboards that help you make decisions.\n\nWe'll run contact, gift, ",
+      "channel": "donordock",
+      "published_at": "2026-07-13T14:47:15Z",
+      "type": "video",
+      "duration_seconds": 481,
+      "category": "training",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=KRY3BxA29qc",
+      "thumbnail": "https://i.ytimg.com/vi/KRY3BxA29qc/hqdefault.jpg"
+    },
+    {
+      "id": "L74s0XC_RRE",
+      "title": "DonorDock 101: Automations",
+      "description": "Set it up once and let DonorDock work for you. This module shows you how automations and donor journeys take the manual, repetitive work off your plate.\n\nWe'll break down how automations work, trigger",
+      "channel": "donordock",
+      "published_at": "2026-07-13T14:47:15Z",
+      "type": "video",
+      "duration_seconds": 756,
+      "category": "training",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=L74s0XC_RRE",
+      "thumbnail": "https://i.ytimg.com/vi/L74s0XC_RRE/hqdefault.jpg"
+    },
+    {
+      "id": "WXeqlpQc31Y",
+      "title": "DonorDock 101: Contacts",
+      "description": "Your donors are the heart of your work, and in DonorDock they all live in one place. This module shows you how to manage contacts from start to finish.\n\nWe'll add a new contact, keep your database cle",
+      "channel": "donordock",
+      "published_at": "2026-07-13T14:47:15Z",
+      "type": "video",
+      "duration_seconds": 1257,
+      "category": "training",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=WXeqlpQc31Y",
+      "thumbnail": "https://i.ytimg.com/vi/WXeqlpQc31Y/hqdefault.jpg"
+    },
+    {
+      "id": "KJBJfHQT3oA",
+      "title": "DonorDock 101: Gifts",
+      "description": "Every gift tells a story, and DonorDock helps you track all of it in one place. This module is your complete tour of gifts, from a single donation to pledges, batches, and online giving.\n\nWe'll walk t",
+      "channel": "donordock",
+      "published_at": "2026-07-13T14:47:15Z",
+      "type": "video",
+      "duration_seconds": 1557,
+      "category": "training",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=KJBJfHQT3oA",
+      "thumbnail": "https://i.ytimg.com/vi/KJBJfHQT3oA/hqdefault.jpg"
+    },
+    {
+      "id": "WZ79wvbPM-U",
+      "title": "DonorDock 101: Communication",
+      "description": "Getting the right message to the right donor at the right time is what great stewardship is all about. This module shows you how DonorDock helps you do it, in bulk or one-to-one.\n\nWe'll build a market",
+      "channel": "donordock",
+      "published_at": "2026-07-13T14:47:15Z",
+      "type": "video",
+      "duration_seconds": 474,
+      "category": "training",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=WZ79wvbPM-U",
+      "thumbnail": "https://i.ytimg.com/vi/WZ79wvbPM-U/hqdefault.jpg"
+    },
     {
       "id": "bFNJf6CWvPc",
       "title": "Stop Building the Plane While You Fly It: Nonprofit Structure & Burnout | Leah Wiley",
