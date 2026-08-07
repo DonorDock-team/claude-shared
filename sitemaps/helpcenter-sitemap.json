@@ -2,8 +2,8 @@
   "help_center": {
     "name": "DonorDock Help Center",
     "base_url": "https://helpcenter.donordock.com",
-    "scraped_at": "2026-07-31T14:14:00Z",
-    "total_articles": 348,
+    "scraped_at": "2026-08-07T14:14:14Z",
+    "total_articles": 350,
     "total_categories": 28,
     "format": "compact"
   },
@@ -34,6 +34,7 @@
       "Deep Dive into Segmentation and Reporting"
     ],
     "Product Updates": [
+      "Product Updates 8.2.2026",
       "Product Updates 7.21.2026",
       "Product Updates 7.6.2026",
       "Product Updates 6.29.2026",
@@ -103,6 +104,7 @@
       "Viewing or Editing a Gift from Contact Record",
       "Creating a Gift from Transactions",
       "To Create a Gift from Contact Record",
+      "Gift Batches in DonorDock",
       "To Create a Gift from Quick Add Menu",
       "Set Up Email Notifications for Gifts",
       "Major Gifts and Spike Up Gifts",
@@ -378,9 +380,9 @@
       "Using Custom Blocks in DonorDock Templates",
       "Resizing Images in DonorDock Templates",
       "Using the Audit Tool in Templates",
-      "Adjust Email and Print Content Width",
+      "Adjusting Email and Print Content Width",
       "Adding Social Media Icons to Templates",
-      "Breaking Up Bulk Text in DonorDock"
+      "Breaking Up Bulk Text in Templates"
     ],
     "Topics > Imports > Importing From Specific Tools": [
       "Migrating from DonorPerfect",
@@ -527,6 +529,12 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/deep-dive-into-segmentation-and-reporting-8QkAUXuYiY/Steps/4544322",
       "category": "Video Guides",
       "summary": "This Deep Dive video explores how to segment your contacts and make the most of DonorDock’s reporting tools. It walks through how to use badges, marketing lists, custom fields, and gift tags to..."
+    },
+    {
+      "title": "Product Updates 8.2.2026",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-8-2-2026-RevsFiQqRj/Steps/5861421",
+      "category": "Product Updates",
+      "summary": "Product Updates 8.2.2026\nNew features & improvements\nPledge recurrence fields (Monthly, Bi-annual, One-time, etc) are now available in Gift Reports, the Pledge Balance Report, and the pledge list..."
     },
     {
       "title": "Product Updates 7.21.2026",
@@ -893,6 +901,12 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/to-create-a-gift-from-contact-record-VZb11eK41z/Steps/1134073",
       "category": "Topics > Gifts",
       "summary": "To Create a Gift from Contact Record\nNavigate to the\nContacts\nmenu\nSearch for the Contact in Question and click to enter the record\nClick the blue\n+Add\nbutton in the top right\nSelect\n+Add Gift\nEnter..."
+    },
+    {
+      "title": "Gift Batches in DonorDock",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/gift-batches-in-donordock-rut0oYzS0A/Steps/5864726",
+      "category": "Topics > Gifts",
+      "summary": "Gift Batches in DonorDock\nGift batches allow you to organize gifts into groups for easier entry, deposit tracking, reconciliation, reporting, and accounting."
     },
     {
       "title": "To Create a Gift from Quick Add Menu",
@@ -2329,10 +2343,10 @@
       "summary": "Using the Audit Tool in Templates\nThis video provides a quick overview of how to use the Audit tool in the DonorDock Template Editor to find and correct missing information."
     },
     {
-      "title": "Adjust Email and Print Content Width",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/adjust-email-and-print-content-width-QoYjkKZFjh/Steps/5846633",
+      "title": "Adjusting Email and Print Content Width",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/adjusting-email-and-print-content-width-QoYjkKZFjh/Steps/5846633",
       "category": "Video Guides > Template Tips",
-      "summary": "Adjust Email and Print Content Width\nThis video explains how to adjust the content width of an email or print template in the DonorDock Template Editor."
+      "summary": "Adjusting Email and Print Content Width\nThis video explains how to adjust the content width of an email or print template in the DonorDock Template Editor."
     },
     {
       "title": "Adding Social Media Icons to Templates",
@@ -2341,10 +2355,10 @@
       "summary": "Adding Social Media Icons to Templates\nThis video explains how to add and customize social media icons in a DonorDock template."
     },
     {
-      "title": "Breaking Up Bulk Text in DonorDock",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/breaking-up-bulk-text-in-donordock-fPzAWHYe3U/Steps/5846635",
+      "title": "Breaking Up Bulk Text in Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/breaking-up-bulk-text-in-templates-fPzAWHYe3U/Steps/5846635",
       "category": "Video Guides > Template Tips",
-      "summary": "Breaking Up Bulk Text in DonorDock\nThis video explains how to divide a large block of text into multiple sections within the DonorDock Template Editor."
+      "summary": "Breaking Up Bulk Text in Templates\nThis video explains how to divide a large block of text into multiple sections within the DonorDock Template Editor."
     },
     {
       "title": "Migrating from DonorPerfect",
