@@ -1,7 +1,7 @@
 {
   "youtube": {
-    "scraped_at": "2026-08-21T16:05:19.286973Z",
-    "total_videos": 174,
+    "scraped_at": "2026-08-28T16:07:10.535001Z",
+    "total_videos": 176,
     "channels": {
       "donordock": {
         "name": "DonorDock",
@@ -13,7 +13,7 @@
         "name": "Fundraising Lab",
         "handle": "@FundraisingLab",
         "url": "https://www.youtube.com/@FundraisingLab",
-        "video_count": 88
+        "video_count": 90
       },
       "external": {
         "name": "External appearances",
@@ -35,6 +35,34 @@
     ]
   },
   "videos": [
+    {
+      "id": "rFvRGJaoOxI",
+      "title": "Your Fundraising Plan Should Be a Calendar, Not a Report",
+      "description": "Your fundraising plan does not need to be a 40 page report that sits in a drive and never gets opened.\n\nMorgan Gross makes the case for focus: pick the two or three fundraising activities you are genu",
+      "channel": "fundraisinglab",
+      "published_at": "2026-08-26T15:03:52Z",
+      "type": "video",
+      "duration_seconds": 61,
+      "category": "the-focused-fundraiser",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=rFvRGJaoOxI",
+      "thumbnail": "https://i.ytimg.com/vi/rFvRGJaoOxI/hqdefault.jpg"
+    },
+    {
+      "id": "iHoE-RQnqto",
+      "title": "The Donor Data Hiding in Your Database (And How to Use It) | Colleen Mitchell",
+      "description": "Colleen Mitchell talks about generosity in three different rooms. She runs annual giving at MidAmerica Nazarene University, pastors youth and families at her church, and teaches freshmen the rest of t",
+      "channel": "fundraisinglab",
+      "published_at": "2026-08-25T13:15:12Z",
+      "type": "video",
+      "duration_seconds": 1349,
+      "category": "the-focused-fundraiser",
+      "people": [
+        "Rob Burke"
+      ],
+      "url": "https://www.youtube.com/watch?v=iHoE-RQnqto",
+      "thumbnail": "https://i.ytimg.com/vi/iHoE-RQnqto/hqdefault.jpg"
+    },
     {
       "id": "BxX1Hn2_hAo",
       "title": "You Don't Have a Tech Problem, You Have a People Problem | Tim Lockie, The Human Stack",
@@ -191,17 +219,30 @@
       "thumbnail": "https://i.ytimg.com/vi/wdp1tjLyQH4/hqdefault.jpg"
     },
     {
-      "id": "pPEIOZUFjeE",
-      "title": "Your First Hour on DonorDock: Complete Walkthrough",
-      "description": "Welcome to DonorDock 101, your guided tour of the platform, from day-one setup to the features that help your team raise more and stress less.\n\nThis is the starting point for the full DonorDock 101 se",
+      "id": "KRY3BxA29qc",
+      "title": "DonorDock 101: Reporting",
+      "description": "If you can get the information into DonorDock, you can get it back out. This module shows you how to turn your data into reports and dashboards that help you make decisions.\n\nWe'll run contact, gift, ",
       "channel": "donordock",
       "published_at": "2026-07-13T14:47:15Z",
       "type": "video",
-      "duration_seconds": 62,
-      "category": "feature-highlight",
+      "duration_seconds": 481,
+      "category": "training",
       "people": [],
-      "url": "https://www.youtube.com/watch?v=pPEIOZUFjeE",
-      "thumbnail": "https://i.ytimg.com/vi/pPEIOZUFjeE/hqdefault.jpg"
+      "url": "https://www.youtube.com/watch?v=KRY3BxA29qc",
+      "thumbnail": "https://i.ytimg.com/vi/KRY3BxA29qc/hqdefault.jpg"
+    },
+    {
+      "id": "L74s0XC_RRE",
+      "title": "DonorDock 101: Automations",
+      "description": "Set it up once and let DonorDock work for you. This module shows you how automations and donor journeys take the manual, repetitive work off your plate.\n\nWe'll break down how automations work, trigger",
+      "channel": "donordock",
+      "published_at": "2026-07-13T14:47:15Z",
+      "type": "video",
+      "duration_seconds": 756,
+      "category": "training",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=L74s0XC_RRE",
+      "thumbnail": "https://i.ytimg.com/vi/L74s0XC_RRE/hqdefault.jpg"
     },
     {
       "id": "WXeqlpQc31Y",
@@ -217,19 +258,6 @@
       "thumbnail": "https://i.ytimg.com/vi/WXeqlpQc31Y/hqdefault.jpg"
     },
     {
-      "id": "KRY3BxA29qc",
-      "title": "DonorDock 101: Reporting",
-      "description": "If you can get the information into DonorDock, you can get it back out. This module shows you how to turn your data into reports and dashboards that help you make decisions.\n\nWe'll run contact, gift, ",
-      "channel": "donordock",
-      "published_at": "2026-07-13T14:47:15Z",
-      "type": "video",
-      "duration_seconds": 481,
-      "category": "training",
-      "people": [],
-      "url": "https://www.youtube.com/watch?v=KRY3BxA29qc",
-      "thumbnail": "https://i.ytimg.com/vi/KRY3BxA29qc/hqdefault.jpg"
-    },
-    {
       "id": "KJBJfHQT3oA",
       "title": "DonorDock 101: Gifts",
       "description": "Every gift tells a story, and DonorDock helps you track all of it in one place. This module is your complete tour of gifts, from a single donation to pledges, batches, and online giving.\n\nWe'll walk t",
@@ -243,17 +271,17 @@
       "thumbnail": "https://i.ytimg.com/vi/KJBJfHQT3oA/hqdefault.jpg"
     },
     {
-      "id": "L74s0XC_RRE",
-      "title": "DonorDock 101: Automations",
-      "description": "Set it up once and let DonorDock work for you. This module shows you how automations and donor journeys take the manual, repetitive work off your plate.\n\nWe'll break down how automations work, trigger",
+      "id": "pPEIOZUFjeE",
+      "title": "Your First Hour on DonorDock: Complete Walkthrough",
+      "description": "Welcome to DonorDock 101, your guided tour of the platform, from day-one setup to the features that help your team raise more and stress less.\n\nThis is the starting point for the full DonorDock 101 se",
       "channel": "donordock",
       "published_at": "2026-07-13T14:47:15Z",
       "type": "video",
-      "duration_seconds": 756,
-      "category": "training",
+      "duration_seconds": 62,
+      "category": "feature-highlight",
       "people": [],
-      "url": "https://www.youtube.com/watch?v=L74s0XC_RRE",
-      "thumbnail": "https://i.ytimg.com/vi/L74s0XC_RRE/hqdefault.jpg"
+      "url": "https://www.youtube.com/watch?v=pPEIOZUFjeE",
+      "thumbnail": "https://i.ytimg.com/vi/pPEIOZUFjeE/hqdefault.jpg"
     },
     {
       "id": "bFNJf6CWvPc",
