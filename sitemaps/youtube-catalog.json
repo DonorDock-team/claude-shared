@@ -1,19 +1,19 @@
 {
   "youtube": {
-    "scraped_at": "2026-08-28T16:07:10.535001Z",
-    "total_videos": 176,
+    "scraped_at": "2026-09-04T16:06:46.336354Z",
+    "total_videos": 178,
     "channels": {
       "donordock": {
         "name": "DonorDock",
         "handle": "@donordock",
         "url": "https://www.youtube.com/@donordock",
-        "video_count": 86
+        "video_count": 87
       },
       "fundraisinglab": {
         "name": "Fundraising Lab",
         "handle": "@FundraisingLab",
         "url": "https://www.youtube.com/@FundraisingLab",
-        "video_count": 90
+        "video_count": 91
       },
       "external": {
         "name": "External appearances",
@@ -35,6 +35,34 @@
     ]
   },
   "videos": [
+    {
+      "id": "jbcFg4rE6Jg",
+      "title": "Your Strategy Problem Is Probably a Trust Problem | Austin Satrom",
+      "description": "Best systems, wrong person? You fail. Best person, terrible systems? You still fail. Austin Satrom has spent his career sitting with leadership teams and boards that have hit a ceiling, and he's found",
+      "channel": "fundraisinglab",
+      "published_at": "2026-09-01T13:15:35Z",
+      "type": "video",
+      "duration_seconds": 1465,
+      "category": "the-focused-fundraiser",
+      "people": [
+        "Rob Burke"
+      ],
+      "url": "https://www.youtube.com/watch?v=jbcFg4rE6Jg",
+      "thumbnail": "https://i.ytimg.com/vi/jbcFg4rE6Jg/hqdefault.jpg"
+    },
+    {
+      "id": "_uiIZ4oheP4",
+      "title": "Why Your Emails Aren't Raising More (And What High-Performing Nonprofits Do Differently)",
+      "description": "Your list is big enough. Your emails just aren't doing enough with it.\n\nChristina Edwards has spent nearly two decades helping nonprofits in more than 20 countries unlock over $10 million in funding, ",
+      "channel": "donordock",
+      "published_at": "2026-08-31T15:47:23Z",
+      "type": "video",
+      "duration_seconds": 3738,
+      "category": "the-focused-fundraiser",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=_uiIZ4oheP4",
+      "thumbnail": "https://i.ytimg.com/vi/_uiIZ4oheP4/hqdefault.jpg"
+    },
     {
       "id": "rFvRGJaoOxI",
       "title": "Your Fundraising Plan Should Be a Calendar, Not a Report",
@@ -219,45 +247,6 @@
       "thumbnail": "https://i.ytimg.com/vi/wdp1tjLyQH4/hqdefault.jpg"
     },
     {
-      "id": "KRY3BxA29qc",
-      "title": "DonorDock 101: Reporting",
-      "description": "If you can get the information into DonorDock, you can get it back out. This module shows you how to turn your data into reports and dashboards that help you make decisions.\n\nWe'll run contact, gift, ",
-      "channel": "donordock",
-      "published_at": "2026-07-13T14:47:15Z",
-      "type": "video",
-      "duration_seconds": 481,
-      "category": "training",
-      "people": [],
-      "url": "https://www.youtube.com/watch?v=KRY3BxA29qc",
-      "thumbnail": "https://i.ytimg.com/vi/KRY3BxA29qc/hqdefault.jpg"
-    },
-    {
-      "id": "L74s0XC_RRE",
-      "title": "DonorDock 101: Automations",
-      "description": "Set it up once and let DonorDock work for you. This module shows you how automations and donor journeys take the manual, repetitive work off your plate.\n\nWe'll break down how automations work, trigger",
-      "channel": "donordock",
-      "published_at": "2026-07-13T14:47:15Z",
-      "type": "video",
-      "duration_seconds": 756,
-      "category": "training",
-      "people": [],
-      "url": "https://www.youtube.com/watch?v=L74s0XC_RRE",
-      "thumbnail": "https://i.ytimg.com/vi/L74s0XC_RRE/hqdefault.jpg"
-    },
-    {
-      "id": "WXeqlpQc31Y",
-      "title": "DonorDock 101: Contacts",
-      "description": "Your donors are the heart of your work, and in DonorDock they all live in one place. This module shows you how to manage contacts from start to finish.\n\nWe'll add a new contact, keep your database cle",
-      "channel": "donordock",
-      "published_at": "2026-07-13T14:47:15Z",
-      "type": "video",
-      "duration_seconds": 1257,
-      "category": "training",
-      "people": [],
-      "url": "https://www.youtube.com/watch?v=WXeqlpQc31Y",
-      "thumbnail": "https://i.ytimg.com/vi/WXeqlpQc31Y/hqdefault.jpg"
-    },
-    {
       "id": "KJBJfHQT3oA",
       "title": "DonorDock 101: Gifts",
       "description": "Every gift tells a story, and DonorDock helps you track all of it in one place. This module is your complete tour of gifts, from a single donation to pledges, batches, and online giving.\n\nWe'll walk t",
@@ -282,6 +271,45 @@
       "people": [],
       "url": "https://www.youtube.com/watch?v=pPEIOZUFjeE",
       "thumbnail": "https://i.ytimg.com/vi/pPEIOZUFjeE/hqdefault.jpg"
+    },
+    {
+      "id": "WXeqlpQc31Y",
+      "title": "DonorDock 101: Contacts",
+      "description": "Your donors are the heart of your work, and in DonorDock they all live in one place. This module shows you how to manage contacts from start to finish.\n\nWe'll add a new contact, keep your database cle",
+      "channel": "donordock",
+      "published_at": "2026-07-13T14:47:15Z",
+      "type": "video",
+      "duration_seconds": 1257,
+      "category": "training",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=WXeqlpQc31Y",
+      "thumbnail": "https://i.ytimg.com/vi/WXeqlpQc31Y/hqdefault.jpg"
+    },
+    {
+      "id": "L74s0XC_RRE",
+      "title": "DonorDock 101: Automations",
+      "description": "Set it up once and let DonorDock work for you. This module shows you how automations and donor journeys take the manual, repetitive work off your plate.\n\nWe'll break down how automations work, trigger",
+      "channel": "donordock",
+      "published_at": "2026-07-13T14:47:15Z",
+      "type": "video",
+      "duration_seconds": 756,
+      "category": "training",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=L74s0XC_RRE",
+      "thumbnail": "https://i.ytimg.com/vi/L74s0XC_RRE/hqdefault.jpg"
+    },
+    {
+      "id": "KRY3BxA29qc",
+      "title": "DonorDock 101: Reporting",
+      "description": "If you can get the information into DonorDock, you can get it back out. This module shows you how to turn your data into reports and dashboards that help you make decisions.\n\nWe'll run contact, gift, ",
+      "channel": "donordock",
+      "published_at": "2026-07-13T14:47:15Z",
+      "type": "video",
+      "duration_seconds": 481,
+      "category": "training",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=KRY3BxA29qc",
+      "thumbnail": "https://i.ytimg.com/vi/KRY3BxA29qc/hqdefault.jpg"
     },
     {
       "id": "bFNJf6CWvPc",
