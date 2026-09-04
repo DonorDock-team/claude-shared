@@ -2,8 +2,8 @@
   "help_center": {
     "name": "DonorDock Help Center",
     "base_url": "https://helpcenter.donordock.com",
-    "scraped_at": "2026-08-28T14:13:45Z",
-    "total_articles": 333,
+    "scraped_at": "2026-09-04T14:13:04Z",
+    "total_articles": 336,
     "total_categories": 24,
     "format": "compact"
   },
@@ -31,6 +31,7 @@
       "Changing Records through Import"
     ],
     "Product Updates": [
+      "Product Updates 8.30.2026",
       "Product Updates 8.15.2026",
       "Product Updates 8.15.2026",
       "Product Updates 8.10.2026",
@@ -62,8 +63,6 @@
       "Using NCOA to Verify and Update Contact Addresses",
       "Uploading and Managing Documents in DonorDock",
       "Managing Memberships in DonorDock",
-      "Creating New Household Records",
-      "Households: When to Use Them in DonorDock",
       "Contact Notes in DonorDock",
       "Communication Preferences and Unsubscribes",
       "Add a Profile Image to a Contact record",
@@ -71,7 +70,10 @@
       "Archiving, Reactivating, and Deleting Contacts",
       "Contact Owners in DonorDock",
       "Understanding System Contact Fields",
-      "Understanding Contact Stages and Giving Statistics in DonorDock"
+      "Understanding Contact Stages and Giving Statistics in DonorDock",
+      "Understanding Household and Organization Relationships",
+      "Households: When to Use Them in DonorDock",
+      "Creating New Household Records"
     ],
     "Topics > Custom Fields": [
       "Custom Fields Overview 💜",
@@ -141,7 +143,8 @@
       "Running a Top Donor Report in DonorDock",
       "Email Statistic Reports",
       "Campaign Report Dashboard",
-      "Donor Retention Rates in DonorDock"
+      "Donor Retention Rates in DonorDock",
+      "Reporting on Household Giving"
     ],
     "Topics > Boards": [
       "Action Board Overview 💜",
@@ -500,6 +503,12 @@
       "summary": "Changing Records through Import\n8/21/2026\nImports\nMigrations\nTraining Video\nvideo\n+\n4\nLearn how to use the import tool to update existing contacts, gifts, and activities in DonorDock."
     },
     {
+      "title": "Product Updates 8.30.2026",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-8-30-2026-Ikxu1HYqWY/Steps/5920782",
+      "category": "Product Updates",
+      "summary": "Product Updates 8.30.2026\n8/31/2026\nRelease Notes\n+\n1\nNew features & improvements\nA new organization setting lets individual household members give, with their gifts rolling up into the Household..."
+    },
+    {
       "title": "Product Updates 8.15.2026",
       "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-8-15-2026-6bdHR64hn9/Steps/5904139",
       "category": "Product Updates",
@@ -635,7 +644,7 @@
       "title": "Contacts Overview 💜",
       "url": "https://helpcenter.donordock.com/kb/guide/en/contacts-overview-gpziC4RPfN/Steps/1532367",
       "category": "Topics > Contacts",
-      "summary": "Contacts Overview\n8/25/2026\nContacts are the foundation of DonorDock. They store information for Individuals, Households, and Organizations and connect everything you do in DonorDock, including..."
+      "summary": "Contacts Overview\n8/28/2026\nContacts are the foundation of DonorDock. They store information for Individuals, Households, and Organizations and connect everything you do in DonorDock, including..."
     },
     {
       "title": "Badges Overview 💜",
@@ -672,18 +681,6 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/managing-memberships-in-donordock-BgXX9eTni5/Steps/1116268",
       "category": "Topics > Contacts",
       "summary": "Managing Memberships in DonorDock\n8/13/2026\nContacts\nGifts\nMembership\n+\n3\nMemberships are a gift type in DonorDock that allows you to track membership programs, including different membership..."
-    },
-    {
-      "title": "Creating New Household Records",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-new-household-records-RiGFqtcxxT/Steps/2941742",
-      "category": "Topics > Contacts",
-      "summary": "Creating New Household Records\n8/18/2026\nContacts\nHouseholds\n+\n2\nNew household records may be created in DonorDock in three different ways."
-    },
-    {
-      "title": "Households: When to Use Them in DonorDock",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/households-when-to-use-them-in-donordock-mbSdVkgmdY/Steps/2941712",
-      "category": "Topics > Contacts",
-      "summary": "Households: When to Use Them in DonorDock\n8/18/2026\nContacts\nHouseholds\n+\n2\nHouseholds are one way to manage relationships in DonorDock."
     },
     {
       "title": "Contact Notes in DonorDock",
@@ -732,6 +729,24 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/understanding-contact-stages-and-giving-statistics-in-donordock-AwmOOFnzUY/Steps/5907694",
       "category": "Topics > Contacts",
       "summary": "Understanding Contact Stages and Giving Statistics in DonorDock\n8/25/2026\nContacts\nSystem Fields\n+\n2\nDonorDock automatically uses a contact's giving history to determine their Contact Stage and..."
+    },
+    {
+      "title": "Understanding Household and Organization Relationships",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/understanding-household-and-organization-relationships-K6tIEJMDRc/Steps/5916144",
+      "category": "Topics > Contacts",
+      "summary": "Understanding Household and Organization Relationships\n8/28/2026\nContacts\nEmployer\nHouseholds\nSystem Fields\n+\n4\nDonorDock allows you to connect Individual contacts to Household and Organization..."
+    },
+    {
+      "title": "Households: When to Use Them in DonorDock",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/households-when-to-use-them-in-donordock-mbSdVkgmdY/Steps/2941712",
+      "category": "Topics > Contacts",
+      "summary": "Households: When to Use Them in DonorDock\n8/28/2026\nContacts\nHouseholds\n+\n2\nHouseholds help manage relationships between contacts in DonorDock."
+    },
+    {
+      "title": "Creating New Household Records",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-new-household-records-RiGFqtcxxT/Steps/2941742",
+      "category": "Topics > Contacts",
+      "summary": "Creating New Household Records\n8/28/2026\nContacts\nHouseholds\n+\n2\nHousehold records can be created and connected to Individual contacts in several ways in DonorDock."
     },
     {
       "title": "Custom Fields Overview 💜",
@@ -1104,6 +1119,12 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/donor-retention-rates-in-donordock-TpMpDUKMTx/Steps/5879535",
       "category": "Topics > Reporting",
       "summary": "Donor Retention Rates in DonorDock\n8/12/2026\nDonor retention measures how many of your previous donors continue giving from one year to the next."
+    },
+    {
+      "title": "Reporting on Household Giving",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/reporting-on-household-giving-Q71FsVlMpK/Steps/5916183",
+      "category": "Topics > Reporting",
+      "summary": "Reporting on Household Giving\n8/28/2026\nHouseholds\nReporting\nReports\n+\n3\nOrganizations that maintain separate Individual records for family members can enable Roll Up Household Member Giving."
     },
     {
       "title": "Action Board Overview 💜",
@@ -1829,7 +1850,7 @@
       "title": "Printing Individual Receipts",
       "url": "https://helpcenter.donordock.com/kb/guide/en/printing-individual-receipts-ftNa29x5Xi/Steps/1367086",
       "category": "Topics > Donor Communications > Letters",
-      "summary": ""
+      "summary": "Printing Individual Receipts\nActivities\n+\n1\nWhile you will likely send receipts in batches, you may also create individual receipts and print them from the gift record."
     },
     {
       "title": "Printing Receipts in Bulk",
