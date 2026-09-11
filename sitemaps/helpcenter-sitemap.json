@@ -2,8 +2,8 @@
   "help_center": {
     "name": "DonorDock Help Center",
     "base_url": "https://helpcenter.donordock.com",
-    "scraped_at": "2026-09-04T14:13:04Z",
-    "total_articles": 336,
+    "scraped_at": "2026-09-11T14:14:22Z",
+    "total_articles": 327,
     "total_categories": 24,
     "format": "compact"
   },
@@ -31,6 +31,7 @@
       "Changing Records through Import"
     ],
     "Product Updates": [
+      "Product Updates 9.7.2026",
       "Product Updates 8.30.2026",
       "Product Updates 8.15.2026",
       "Product Updates 8.15.2026",
@@ -258,61 +259,52 @@
       "Receipts Overview 💜",
       "Setting Email Options for Receipts",
       "Best Practices for Donation Receipting When Using DonorDock with an Online Fundraising Platform",
-      "Creating Receipts in Bulk from Reports",
-      "Creating Individual Receipt Activities"
+      "Sending Receipts in Bulk from Reports",
+      "Sending Individual Receipt Activities"
     ],
     "Topics > Donor Communications > Emails": [
-      "Email Marketing Overview 💜",
-      "Outreach Email Details Page: Summary, Statistics, and Activities",
-      "Email Statistics Information",
-      "Analyze Bulk Email Statistics over time",
+      "Email Outreach Overview 💜",
+      "Sending Emails in DonorDock",
+      "Email Setup and Management",
+      "Tracking & Reporting on Emails",
+      "Email Deliverability & List Health",
+      "Email Design & Troubleshooting",
+      "Sending Bulk Outreach Emails",
+      "Sending Individual Emails",
+      "Using Automations for Drip Email Campaigns",
+      "Setting the Send From Email",
+      "Resending a Bulk Email",
+      "Authenticate Your Domain",
       "Viewing Available Outreach Emails",
       "Purchasing Additional Outreach Emails",
-      "Sending Individual Emails",
-      "Sent Email's Public URL's",
-      "Sending Outreach Emails",
-      "Sending Individual Email Receipts",
-      "Sending Bulk Receipt Emails",
-      "Logging an Email sent outside of DonorDock",
-      "Track Email Activities from your Inbox",
-      "Authenticate Your Domain",
-      "Building Emails with Images",
-      "Resending a Bulk Email",
+      "Understanding the Sent Email Summary Page",
+      "Understanding Email Statistics",
+      "Analyzing Overall Email Statistics",
+      "Gift Conversion tracking from Sent Emails",
+      "Sharing Sent Outreach Emails with a Public URL",
+      "Tracking Emails Sent Outside of DonorDock",
+      "How Email Privacy Affects Open Tracking",
       "Bounces and Drops and Cleaning up your Mailing Lists",
-      "Gift Conversion tracking from Sent Emails"
+      "Managing Email Unsubscribes and Communication Preferences",
+      "Building Emails with Images",
+      "Email Attachments in DonorDock"
     ],
     "Topics > Donor Communications > Letters": [
       "Letters Overview 💜",
-      "Sending Individual Letters",
-      "Printing Bulk Marketing Letters using a Template",
-      "Printing Individual Receipts",
-      "Printing Receipts in Bulk",
-      "Bulk Logging Letters sent outside of DonorDock",
+      "Creating and Managing Letter Activities",
+      "Printing Bulk Marketing Letters Using a Template",
+      "Bulk Logging Letters Sent Outside of DonorDock",
       "Creating Labels with DonorDock and Microsoft Office"
     ],
     "Topics > Donor Communications > Text Messages": [
-      "Text-to-Donate Overview 💜",
-      "Text Conversations Overview 💜",
-      "Bulk Texting Overview 💜",
-      "Obtaining a Text Number in DonorDock",
+      "Texting Overview 💜",
+      "Setting Up Your DonorDock Text Number and A2P 10DLC Registration",
+      "Text-to-Donate",
+      "Bulk Texting",
+      "Text Conversations",
       "Understanding Text Credits in DonorDock",
-      "Purchasing Additional Text Credits",
-      "A2P 10 DLC Registration Information",
-      "Viewing Available Text Message Credits",
-      "Set a Text-to-Donate Keyword and Response on a Giving Page",
-      "Fees for A2P 10 DLC Registration",
-      "Creating a New Text Message Conversation",
-      "Bad Mobile Number Information",
-      "Contact Reports on Bad Mobile Numbers",
-      "Managing Phone Number Contact Data",
-      "Receiving a new Text Message",
-      "Creating a New Bulk Text",
-      "Text Message Merge Tags",
-      "Duplicating a Bulk Text Message",
-      "Bulk Text Details: Summary, Details, and Activities",
-      "Text Activity Reports",
-      "Logging Text Messages",
-      "Do Not Solicit, Unsubscribed, and SMS Unsubscribed"
+      "Logging Text Messages Sent Outside DonorDock",
+      "Managing Mobile Numbers and Text Deliverability"
     ],
     "Topics > Donor Communications > Templates": [
       "Templates Overview 💜",
@@ -332,7 +324,6 @@
       "Turning off Stacked Images",
       "Adjusting DonorDock Templates for Printing in Word",
       "Email Attachments in DonorDock",
-      "Reviewing the Standard Receipt Email Template",
       "Adding an Image of a Signature directly into a Template",
       "Using your Organization's Receipt Signature Merge Tag",
       "Using the Email Signature Merge Tag",
@@ -501,6 +492,12 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/changing-records-through-import-tpMEbG8Yxj/Steps/5902115",
       "category": "Video Guides",
       "summary": "Changing Records through Import\n8/21/2026\nImports\nMigrations\nTraining Video\nvideo\n+\n4\nLearn how to use the import tool to update existing contacts, gifts, and activities in DonorDock."
+    },
+    {
+      "title": "Product Updates 9.7.2026",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-9-7-2026-uVyU2cvpTI/Steps/5940017",
+      "category": "Product Updates",
+      "summary": "Product Updates 9.7.2026\n9/8/2026\nRelease Notes\n+\n1\nNew features & improvements\nImports & Zapier: better Account Number and Integration ID support."
     },
     {
       "title": "Product Updates 8.30.2026",
@@ -1709,298 +1706,244 @@
       "summary": "Best Practices for Donation Receipting When Using DonorDock with another Online Fundraising Platform\n8/27/2026\nIntegrations\nReceipts\nReporting\n+\n3\nSome organizations use DonorDock alongside other..."
     },
     {
-      "title": "Creating Receipts in Bulk from Reports",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-receipts-in-bulk-from-reports-vpqoJRKqEg/Steps/1366018",
+      "title": "Sending Receipts in Bulk from Reports",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/sending-receipts-in-bulk-from-reports-vpqoJRKqEg/Steps/1366018",
       "category": "Topics > Donor Communications > Receipts",
       "summary": "Creating Receipts in Bulk from Reports\n8/27/2026\nGifts\nReceipts\nReporting\nTransactions\n+\n4\nReceipts can be generated in bulk from a Gift Report and either emailed or printed."
     },
     {
-      "title": "Creating Individual Receipt Activities",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-individual-receipt-activities-i2ktclQlhv/Steps/1138027",
+      "title": "Sending Individual Receipt Activities",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/sending-individual-receipt-activities-i2ktclQlhv/Steps/1138027",
       "category": "Topics > Donor Communications > Receipts",
       "summary": "Creating Individual Receipt Activities\n8/27/2026\nActivities\nGifts\nReceipts\nTransactions\n+\n4\nReceipts in DonorDock are created from Transactional Templates and can be generated either from a list of..."
     },
     {
-      "title": "Email Marketing Overview 💜",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/email-marketing-overview-B2NiLiJpeE/Steps/1361449",
+      "title": "Email Outreach Overview 💜",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/email-outreach-overview-B2NiLiJpeE/Steps/1361449",
       "category": "Topics > Donor Communications > Emails",
-      "summary": "Email Marketing Overview\n8/18/2026\nDonorDock allows you to send personalized emails to groups of contacts.\nThis guide will walk you through how to get started with email marketing and cover the core..."
+      "summary": "Email Outreach Overview\n9/4/2026\nEmail Deliverability\nEmail Marketing\nOutreach\n+\n3\nDonorDock provides tools to create, send, and track personalized email communications with your contacts."
     },
     {
-      "title": "Outreach Email Details Page: Summary, Statistics, and Activities",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/outreach-email-details-page-summary-statistics-and-activities-xDfPUcfaTU/Steps/1116354",
+      "title": "Sending Emails in DonorDock",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/sending-emails-in-donordock-aA6AGwGrHm/Steps/1365835",
       "category": "Topics > Donor Communications > Emails",
-      "summary": "Email Summary Information\nEmail Marketing\n+\n1\nAfter you send a bulk outreach email in DonorDock, the summary page is your map to see how the message performed."
+      "summary": "Sending Emails in DonorDock\n9/4/2026\nEmail Deliverability\nEmail Marketing\n+\n2\nDonorDock provides several ways to send email depending on the type of communication, the number of recipients, and..."
     },
     {
-      "title": "Email Statistics Information",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/email-statistics-information-EQepxslGp1/Steps/1151428",
+      "title": "Email Setup and Management",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/email-setup-and-management-YnWXTtX6EE/Steps/5931234",
       "category": "Topics > Donor Communications > Emails",
-      "summary": "Email Statistics Information\n4/3/2026\nEmail Marketing\n+\n1\nWhen you send a bulk email through DonorDock, you can track its performance with detailed statistics."
+      "summary": "Email Setup and Management\n9/4/2026\nEmail Deliverability\nEmail Marketing\nSettings\n+\n3\nBefore sending marketing emails through DonorDock, a few settings and account details determine who your emails..."
     },
     {
-      "title": "Analyze Bulk Email Statistics over time",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/analyze-bulk-email-statistics-over-time-kyTOIbkYJJ/Steps/4113486",
+      "title": "Tracking & Reporting on Emails",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/tracking-reporting-on-emails-l6qrIHrgqh/Steps/5931394",
       "category": "Topics > Donor Communications > Emails",
-      "summary": "Analyze Bulk Email Statistics over time\nYour organization's bulk email statistics can be quickly analyzed in DonorDock over a desired set time frame."
+      "summary": "Tracking & Reporting on Emails\n9/4/2026\nEmail Deliverability\nEmail Marketing\nReporting\nReports\n+\n4\nDonorDock tracks email activity so your organization can review what was sent, how recipients..."
     },
     {
-      "title": "Viewing Available Outreach Emails",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/viewing-available-outreach-emails-udQjDYInBB/Steps/2910687",
+      "title": "Email Deliverability & List Health",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/email-deliverability-list-health-0VX3ZkDiu8/Steps/5931573",
       "category": "Topics > Donor Communications > Emails",
-      "summary": "Viewing Available Outreach Emails\nDonorDock classifies emails as either Marketing or Transactional.\nMarketing emails\nare used when sending bulk communications through the Outreach tool or individual..."
+      "summary": "Email Deliverability & List Health\n9/4/2026\nEmail Deliverability\nEmail Marketing\n+\n2\nMaintaining a healthy email list improves deliverability, reduces failed sends, and ensures your organization..."
     },
     {
-      "title": "Purchasing Additional Outreach Emails",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/purchasing-additional-outreach-emails-RRYnSDcIK2/Steps/2530894",
+      "title": "Email Design & Troubleshooting",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/email-design-troubleshooting-XrW0OiKQsT/Steps/5931604",
       "category": "Topics > Donor Communications > Emails",
-      "summary": "Purchasing Additional Outreach Emails\nA base number of Outreach (Marketing) Emails are allotted to your organization monthly, depending on your organization's subscription level."
+      "summary": "Email Design & Troubleshooting\n9/4/2026\nEmail Deliverability\nEmail Marketing\nTemplates\n+\n3\nEmail providers don't all display messages the same way."
+    },
+    {
+      "title": "Sending Bulk Outreach Emails",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/sending-bulk-outreach-emails-FNrJzi4Gw3/Steps/5931126",
+      "category": "Topics > Donor Communications > Emails",
+      "summary": "Sending Bulk Outreach Emails\n9/4/2026\nActivities\nBulk Email\nEmail Deliverability\nEmail Marketing\n+\n4\nBulk Outreach Emails allow you to send personalized marketing communications to groups of..."
     },
     {
       "title": "Sending Individual Emails",
       "url": "https://helpcenter.donordock.com/kb/guide/en/sending-individual-emails-eHvsJZYNkb/Steps/1365738",
       "category": "Topics > Donor Communications > Emails",
-      "summary": "Sending Individual Emails through DonorDock\nActivities\n+\n1\nWhile you will likely send emails in batches, you can also create individual emails and send individual contacts by creating a \"Send Email\"..."
+      "summary": "Sending Individual Emails through DonorDock\n9/4/2026\nActivities\nEmail Deliverability\nEmail Marketing\n+\n3\nIn addition to bulk Outreach Emails, you can send an email directly to an individual contact..."
     },
     {
-      "title": "Sent Email's Public URL's",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/sent-emails-public-urls-MoFNJI4JdI/Steps/1680959",
+      "title": "Using Automations for Drip Email Campaigns",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/using-automations-for-drip-email-campaigns-wtBb53wE0W/Steps/5931191",
       "category": "Topics > Donor Communications > Emails",
-      "summary": "Sent Email's Public URL's\nAfter you have sent a marketing email in DonorDock, a public URL is available so you may share the email contents on your website or through social media."
+      "summary": "Using Automations for Drip Email Campaigns\n9/4/2026\nActivities\nAutomations\nDrip Email\nEmail Deliverability\nEmail Marketing\nWorkflows\n+\n6\nAutomations can create a sequence of donor communications..."
     },
     {
-      "title": "Sending Outreach Emails",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/sending-outreach-emails-aA6AGwGrHm/Steps/1365835",
+      "title": "Setting the Send From Email",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/setting-the-send-from-email-cIkxf0RnbI/Steps/5931246",
       "category": "Topics > Donor Communications > Emails",
-      "summary": "Sending Outreach Emails\nEmail Marketing\n+\n1\nIn today's world, email marketing plays a vital role in fundraising efforts for non-profit organizations."
-    },
-    {
-      "title": "Sending Individual Email Receipts",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/sending-individual-email-receipts-2EmmrMSSeE/Steps/1365997",
-      "category": "Topics > Donor Communications > Emails",
-      "summary": "Sending Individual Email Receipts\nActivities\nGifts\n+\n2\nWhile you will likely send receipts in batches, you may also create individual receipts and send from the gift record."
-    },
-    {
-      "title": "Sending Bulk Receipt Emails",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/sending-bulk-receipt-emails-5RuROiwL08/Steps/1365996",
-      "category": "Topics > Donor Communications > Emails",
-      "summary": "Sending Bulk Receipt Emails\nActivities\n+\n1\nBulk receipts and other Transactional templates are sent through reports. Transactional emails do not count towards your monthly email allotment for your..."
-    },
-    {
-      "title": "Logging an Email sent outside of DonorDock",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/logging-an-email-sent-outside-of-donordock-87xb8oJAtW/Steps/1365740",
-      "category": "Topics > Donor Communications > Emails",
-      "summary": "Logging an Email sent outside of DonorDock\nActivities\n+\n1\nCreating an email through DonorDock, sends the email at the time of email creation."
-    },
-    {
-      "title": "Track Email Activities from your Inbox",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/track-email-activities-from-your-inbox-CEX4QpJago/Steps/1116145",
-      "category": "Topics > Donor Communications > Emails",
-      "summary": "Track Email Activities from your Inbox\nActivities\nEmail Marketing\n+\n2\nDonorDock makes it easy to log your email communication by letting you track emails sent from any email client using your..."
-    },
-    {
-      "title": "Authenticate Your Domain",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/authenticate-your-domain-SrS1R1k5LF/Steps/1332907",
-      "category": "Topics > Donor Communications > Emails",
-      "summary": "Authenticate your Domain\nDomain authentication helps your organization send emails through DonorDock using your own domain, rather than a generic sender."
-    },
-    {
-      "title": "Building Emails with Images",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/building-emails-with-images-PFFzXqHmDz/Steps/2895785",
-      "category": "Topics > Donor Communications > Emails",
-      "summary": "Building Emails with Images\nTo create effective marketing emails, it's recommended to use a balanced combination of text and images, ensuring that your message is clear, accessible, and appealing to..."
+      "summary": "Setting the Send From Email\n9/4/2026\nActivities\nEmail Deliverability\nEmail Marketing\nSettings\nUsers\n+\n5\nThe Send From field is available when sending bulk Outreach Emails, individual Send Email..."
     },
     {
       "title": "Resending a Bulk Email",
       "url": "https://helpcenter.donordock.com/kb/guide/en/resending-a-bulk-email-Q74OjAACuA/Steps/3971595",
       "category": "Topics > Donor Communications > Emails",
-      "summary": "Resending a Bulk Email\nThere may be times when you need to resend a previously sent email to specific contacts. This process can be broken down into two steps: Creating a new Marketing List and..."
+      "summary": "Resending a Bulk Email\n9/4/2026\nBulk Email\nEmail Marketing\nResend Email\n+\n3\nSometimes you may want to resend a previous bulk email, either to a new audience or to contacts who didn't engage with the..."
     },
     {
-      "title": "Bounces and Drops and Cleaning up your Mailing Lists",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/bounces-and-drops-and-cleaning-up-your-mailing-lists-9sE70qxx3t/Steps/4608934",
+      "title": "Authenticate Your Domain",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/authenticate-your-domain-SrS1R1k5LF/Steps/1332907",
       "category": "Topics > Donor Communications > Emails",
-      "summary": "Bounces and Drops and Cleaning up your Mailing Lists\nWhen sending emails through DonorDock, you may encounter\nbounces\nthat prevent a message from reaching a recipient."
+      "summary": "Authenticate your Domain\n9/4/2026\nAuthentication\nCNAME\nDMARC\nDNS\nEmail Deliverability\nSettings\n+\n6\nDomain authentication allows DonorDock to send email using your organization's domain instead of a..."
+    },
+    {
+      "title": "Viewing Available Outreach Emails",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/viewing-available-outreach-emails-udQjDYInBB/Steps/2910687",
+      "category": "Topics > Donor Communications > Emails",
+      "summary": "Viewing Available Outreach Emails\n9/4/2026\nEmail Marketing\nSettings\n+\n2\nYour DonorDock subscription includes a monthly allotment of Outreach Emails used for marketing communication."
+    },
+    {
+      "title": "Purchasing Additional Outreach Emails",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/purchasing-additional-outreach-emails-RRYnSDcIK2/Steps/2530894",
+      "category": "Topics > Donor Communications > Emails",
+      "summary": "Purchasing Additional Outreach Emails\n9/4/2026\nBilling\nEmail Marketing\nSettings\n+\n3\nYour DonorDock subscription includes a base number of Outreach Emails each month."
+    },
+    {
+      "title": "Understanding the Sent Email Summary Page",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/understanding-the-sent-email-summary-page-xDfPUcfaTU/Steps/1116354",
+      "category": "Topics > Donor Communications > Emails",
+      "summary": "Understanding the Sent Email Summary Page\n9/4/2026\nEmail Marketing\nEmail Statistics\n+\n2\nAfter you send a bulk outreach email, DonorDock creates a Sent Email Summary Page where you can review the..."
+    },
+    {
+      "title": "Understanding Email Statistics",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/understanding-email-statistics-EQepxslGp1/Steps/1151428",
+      "category": "Topics > Donor Communications > Emails",
+      "summary": "Understanding Email Statistics\n9/4/2026\nEmail Marketing\nEmail Statistics\n+\n2\nDonorDock tracks delivery and engagement information for bulk Outreach Emails so you can better understand how recipients..."
+    },
+    {
+      "title": "Analyzing Overall Email Statistics",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/analyzing-overall-email-statistics-kyTOIbkYJJ/Steps/4113486",
+      "category": "Topics > Donor Communications > Emails",
+      "summary": "Analyzing Overall Email Statistics\n9/4/2026\nEmail Deliverability\nEmail Marketing\nEmail Statistics\n+\n3\nIn addition to reviewing individual emails, DonorDock lets you analyze bulk email performance..."
     },
     {
       "title": "Gift Conversion tracking from Sent Emails",
       "url": "https://helpcenter.donordock.com/kb/guide/en/gift-conversion-tracking-from-sent-emails-nmuLQhvHOV/Steps/5136996",
       "category": "Topics > Donor Communications > Emails",
-      "summary": "Gift Conversion tracking from Sent Emails\n4/3/2026\nDonorDock automatically tracks donations from your bulk emails, giving you clear visibility into which emails drive gifts and how much revenue each..."
+      "summary": "Gift Conversion tracking from Sent Emails\n9/4/2026\nEmail Marketing\nEmail Statistics\n+\n2\nDonorDock automatically tracks gifts generated from supported links in bulk Outreach Emails."
+    },
+    {
+      "title": "Sharing Sent Outreach Emails with a Public URL",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/sharing-sent-outreach-emails-with-a-public-url-MoFNJI4JdI/Steps/1680959",
+      "category": "Topics > Donor Communications > Emails",
+      "summary": "Sharing Sent Outreach Emails with a Public URL\n9/4/2026\nEmail Marketing\nResend Email\n+\n2\nWhen you send a bulk Outreach Email, DonorDock automatically creates a browser-based version of the message."
+    },
+    {
+      "title": "Tracking Emails Sent Outside of DonorDock",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/tracking-emails-sent-outside-of-donordock-CEX4QpJago/Steps/1116145",
+      "category": "Topics > Donor Communications > Emails",
+      "summary": "Tracking Emails Sent Outside of DonorDock\n9/4/2026\nActivities\nEmail Marketing\nTracking Emails\n+\n3\nNot every email your organization sends needs to originate from DonorDock."
+    },
+    {
+      "title": "How Email Privacy Affects Open Tracking",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/how-email-privacy-affects-open-tracking-aEQsfOVRu2/Steps/5931548",
+      "category": "Topics > Donor Communications > Emails",
+      "summary": "How Email Privacy Affects Open Tracking\n9/4/2026\nActivities\nEmail Marketing\nEmail Statistics\nTracking Emails\n+\n4\nEmail open tracking can help indicate whether recipients are interacting with your..."
+    },
+    {
+      "title": "Bounces and Drops and Cleaning up your Mailing Lists",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/bounces-and-drops-and-cleaning-up-your-mailing-lists-9sE70qxx3t/Steps/4608934",
+      "category": "Topics > Donor Communications > Emails",
+      "summary": "Bounces and Drops and Cleaning up your Mailing Lists\n9/4/2026\nEmail Marketing\n+\n1\nWhen sending email through DonorDock, some messages may not be successfully delivered."
+    },
+    {
+      "title": "Managing Email Unsubscribes and Communication Preferences",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/managing-email-unsubscribes-and-communication-preferences-rQ6Mgm0sF4/Steps/5931596",
+      "category": "Topics > Donor Communications > Emails",
+      "summary": "Managing Email Unsubscribes and Communication Preferences\n9/4/2026\nCommunication Preferences\nEmail Marketing\n+\n2\nDonorDock includes several settings to track how contacts want to be contacted."
+    },
+    {
+      "title": "Building Emails with Images",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/building-emails-with-images-PFFzXqHmDz/Steps/2895785",
+      "category": "Topics > Donor Communications > Emails",
+      "summary": "Building Emails with Images\n9/4/2026\nCanva\nEmail Deliverability\nEmail Marketing\nImages\nTemplates\n+\n5\nImages can make marketing emails visually engaging, but an email should not rely entirely on..."
+    },
+    {
+      "title": "Email Attachments in DonorDock",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/email-attachments-in-donordock-WJ2LPIqD3a/Steps/5931684",
+      "category": "Topics > Donor Communications > Emails",
+      "summary": "Email Attachments in DonorDock\n9/4/2026\nEmail Deliverability\nEmail Marketing\nTemplates\n+\n3\nAttachments cannot be included with emails sent through DonorDock."
     },
     {
       "title": "Letters Overview 💜",
       "url": "https://helpcenter.donordock.com/kb/guide/en/letters-overview-n0CDjiQjwj/Steps/1565770",
       "category": "Topics > Donor Communications > Letters",
-      "summary": "Letters Overview\n8/18/2026\nDonorDock allows you to send personalized letters to groups of contacts or individual contacts as needed through the activities feature."
+      "summary": "Letters Overview\n9/9/2026\nActivities\nLetters\nPrint\n+\n3\nDonorDock helps you create, print, and track personalized letters sent to your contacts."
     },
     {
-      "title": "Sending Individual Letters",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/sending-individual-letters-BsnBwzQiZe/Steps/1365743",
+      "title": "Creating and Managing Letter Activities",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-and-managing-letter-activities-BsnBwzQiZe/Steps/1365743",
       "category": "Topics > Donor Communications > Letters",
-      "summary": "Printing Individual Letters\nActivities\n+\n1\nWhile you will likely send letters in batches, you may also create individual letters for contacts by creating a \"Letter\" activity for the contact."
+      "summary": "Creating and Managing Letter Activities\n9/9/2026\nActivities\nLetters\n+\n2\nLetter activities track mailed communications with contacts in DonorDock."
     },
     {
-      "title": "Printing Bulk Marketing Letters using a Template",
+      "title": "Printing Bulk Marketing Letters Using a Template",
       "url": "https://helpcenter.donordock.com/kb/guide/en/printing-bulk-marketing-letters-using-a-template-xOiMGWS0Pp/Steps/1366880",
       "category": "Topics > Donor Communications > Letters",
-      "summary": "Printing Bulk Marketing Letters using a Template\nWhen you wish to print bulk letters as well as mark bulk contacts with a Letter activity, this will completed through Reports."
+      "summary": "Printing Bulk Marketing Letters Using a Template\n9/9/2026\nActivities\nLetters\nPrint\n+\n3\nYou can generate personalized letters for multiple contacts at once from a Contact Report using a DonorDock..."
     },
     {
-      "title": "Printing Individual Receipts",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/printing-individual-receipts-ftNa29x5Xi/Steps/1367086",
-      "category": "Topics > Donor Communications > Letters",
-      "summary": "Printing Individual Receipts\nActivities\n+\n1\nWhile you will likely send receipts in batches, you may also create individual receipts and print them from the gift record."
-    },
-    {
-      "title": "Printing Receipts in Bulk",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/printing-receipts-in-bulk-LYmc36Lz4m/Steps/1367083",
-      "category": "Topics > Donor Communications > Letters",
-      "summary": "Printing Receipts in Bulk\nActivities\n+\n1\nBulk receipts and other Transactional templates are sent through reports. To generate bulk receipts, please see the steps below."
-    },
-    {
-      "title": "Bulk Logging Letters sent outside of DonorDock",
+      "title": "Bulk Logging Letters Sent Outside of DonorDock",
       "url": "https://helpcenter.donordock.com/kb/guide/en/bulk-logging-letters-sent-outside-of-donordock-Fnan0bskXZ/Steps/1367098",
       "category": "Topics > Donor Communications > Letters",
-      "summary": "Bulk Logging Letters sent outside of DonorDock\nActivities\n+\n1\nIn instances when you do not need to print a template for a report, but only need to add activity that a letter was sent (for example if..."
+      "summary": "Bulk Logging Letters Sent Outside of DonorDock\n9/9/2026\nActivities\nLetters\n+\n2\nIf your organization sends letters, postcards, thank-you cards, invitations, or other direct mail outside of DonorDock,..."
     },
     {
       "title": "Creating Labels with DonorDock and Microsoft Office",
       "url": "https://helpcenter.donordock.com/kb/guide/en/creating-labels-with-donordock-and-microsoft-office-qACEvywFYG/Steps/2255600",
       "category": "Topics > Donor Communications > Letters",
-      "summary": "Creating Labels with DonorDock and Microsoft Office\nEmail Marketing\nReporting\n+\n2\nWhen creating direct mail campaigns in DonorDock, labels may be created through a Mail Merge process with DonorDock..."
+      "summary": "Creating Labels with DonorDock and Microsoft Office\n9/9/2026\nEmail Marketing\nLabels\nMail Merge\nReporting\n+\n4\nWhen creating direct mail campaigns in DonorDock, you can create labels through a Mail..."
     },
     {
-      "title": "Text-to-Donate Overview 💜",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/text-to-donate-overview-0ukF1QUyvi/Steps/2497240",
+      "title": "Texting Overview 💜",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/texting-overview-RxIDoLK3fZ/Steps/5944805",
       "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Text-to-Donate\n8/18/2026\nText-to-Donate\nis a tool available to make donating to your organization easy. With Text-to-Donate, your donors text your organization's phone number a keyword and receive a..."
+      "summary": "Texting Overview\n9/10/2026\nMobile\nSMS\nText Messages\nTexting\n+\n4\nDonorDock texting tools help your organization communicate with contacts by text, send bulk outreach, manage one-to-one conversations,..."
     },
     {
-      "title": "Text Conversations Overview 💜",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/text-conversations-overview-3lzuB451Hg/Steps/2497387",
+      "title": "Setting Up Your DonorDock Text Number and A2P 10DLC Registration",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/setting-up-your-donordock-text-number-and-a2p-10dlc-registration-jaQDko8UMg/Steps/2846281",
       "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Text Conversations 💬\n8/18/2026\nIt is estimated that over\n7 billion people worldwide\nwill have smartphones by 2024, with over 60% of people reading their text messages within 1 to 5 minutes of receipt."
+      "summary": "Setting Up Your DonorDock Text Number and A2P 10DLC Registration\n9/10/2026\nA2P\nSMS\nTexting\n+\n3\nYour organization needs a DonorDock Text Number before using texting tools in DonorDock."
     },
     {
-      "title": "Bulk Texting Overview 💜",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/bulk-texting-overview-jJyQ8hyPzN/Steps/2915267",
+      "title": "Text-to-Donate",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/text-to-donate-0ukF1QUyvi/Steps/2497240",
       "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Bulk Texting\n8/18/2026\nDid you know that\n41% of consumers\nprefer to receive updates via text instead of email? This makes Texting a popular and convenient form of outreach for nonprofits."
+      "summary": "Text-to-Donate\n9/10/2026\ntext-to-donate\nTexting\n+\n2\nText-to-Donate makes it easy for donors to reach one of your DonorDock Giving Pages by sending a keyword to your organization's DonorDock Text..."
     },
     {
-      "title": "Obtaining a Text Number in DonorDock",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/obtaining-a-text-number-in-donordock-vJVqN5xnvN/Steps/2497248",
+      "title": "Bulk Texting",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/bulk-texting-jJyQ8hyPzN/Steps/2915267",
       "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Obtaining a Text Number in DonorDock\nThere are three ways to request a Text Message Number in DonorDock. This phone number will be used when sending or receiving text messages in DonorDock."
+      "summary": "Bulk Texting\n9/10/2026\nSMS\nText Messages\nTexting\n+\n3\nBulk Texting allows your organization to send a single text message to multiple contacts through DonorDock Outreach."
+    },
+    {
+      "title": "Text Conversations",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/text-conversations-3lzuB451Hg/Steps/2497387",
+      "category": "Topics > Donor Communications > Text Messages",
+      "summary": "Text Conversations\n9/10/2026\nSMS\nText Messages\nTexting\n+\n3\nText Conversations provide a centralized inbox for individual text communication between your organization and contacts."
     },
     {
       "title": "Understanding Text Credits in DonorDock",
       "url": "https://helpcenter.donordock.com/kb/guide/en/understanding-text-credits-in-donordock-0YcVxO9B1J/Steps/2497378",
       "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Understanding Text Credits in DonorDock\nText Credits\nare used to send and receive messages in DonorDock.\nA base number of Text Credits are allotted to your organization monthly for outreach..."
+      "summary": "Understanding Text Credits in DonorDock\n9/10/2026\nSMS\nText Messages\nTexting\n+\n3\nText Credits are used to send and receive text messages through DonorDock."
     },
     {
-      "title": "Purchasing Additional Text Credits",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/purchasing-additional-text-credits-dWYBjtTOOm/Steps/2497386",
+      "title": "Logging Text Messages Sent Outside DonorDock",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/logging-text-messages-sent-outside-donordock-QgENcaoIQP/Steps/2924687",
       "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Purchasing Additional Text Credits\nText Credits are used to send and receive messages in DonorDock. If your organization is subscribed to a DonorDock Paid subscription, a base number of Text Credits..."
+      "summary": "Logging Text Messages Sent Outside DonorDock\n9/10/2026\nActivities\nText Messages\n+\n2\nNot every text conversation needs to be sent through DonorDock."
     },
     {
-      "title": "A2P 10 DLC Registration Information",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/a2p-10-dlc-registration-information-jaQDko8UMg/Steps/2846281",
+      "title": "Managing Mobile Numbers and Text Deliverability",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/managing-mobile-numbers-and-text-deliverability-ceq5Z9qt4K/Steps/2939927",
       "category": "Topics > Donor Communications > Text Messages",
-      "summary": "A2P 10DLC Registration\nA2P 10DLC\nis an acronym for \"Application-to-Person 10 Digit Long Code.\" This refers to using an application (such as DonorDock) to send and receive text and muli-media..."
-    },
-    {
-      "title": "Viewing Available Text Message Credits",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/viewing-available-text-message-credits-7dPXn2xV9I/Steps/2910581",
-      "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Viewing Available Text Message Credits\nText Credits are used to send and receive messages in DonorDock. If your organization is subscribed to a DonorDock Paid subscription, a base number of Text..."
-    },
-    {
-      "title": "Set a Text-to-Donate Keyword and Response on a Giving Page",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/set-a-text-to-donate-keyword-and-response-on-a-giving-page-O1AIf6467Q/Steps/2915172",
-      "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Set a Text-to-Donate Keyword and Response on a Giving Page\nWith Text-to-Donate, you may create a keyword associated with your giving pages."
-    },
-    {
-      "title": "Fees for A2P 10 DLC Registration",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/fees-for-a2p-10-dlc-registration-CA3IWAoRRE/Steps/2915268",
-      "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Fees for A2P 10 DLC Registration\nA2P 10DLC\nis an acronym for \"Application-to-Person 10 Digit Long Code.\" This refers to using an application (such as DonorDock) to send and receive text and..."
-    },
-    {
-      "title": "Creating a New Text Message Conversation",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-a-new-text-message-conversation-xllZum1j2N/Steps/2925114",
-      "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Creating a New Text Message Conversation\nAn individual Text activity may be created from any place where you may add an activity or directly on the Text Conversations page."
-    },
-    {
-      "title": "Bad Mobile Number Information",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/bad-mobile-number-information-4pg5y39D9i/Steps/2938828",
-      "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Bad Mobile Number Information\nText messages sent with DonorDock are sent to the mobile phone number currently listed on a contact record."
-    },
-    {
-      "title": "Contact Reports on Bad Mobile Numbers",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/contact-reports-on-bad-mobile-numbers-YkSeqTPy4s/Steps/2939758",
-      "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Contact Reports on Bad Mobile Numbers\nWhen a failure message is received from a carrier network for a phone number, DonorDock automatically tags a contact as having a Bad Mobile Number."
-    },
-    {
-      "title": "Managing Phone Number Contact Data",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/managing-phone-number-contact-data-ceq5Z9qt4K/Steps/2939927",
-      "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Managing Phone Number Contact Data\nWhen entering contact information into DonorDock, fields are available for Mobile Phone, Main Phone, Business Phone, and Fax on all record types."
-    },
-    {
-      "title": "Receiving a new Text Message",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/receiving-a-new-text-message-mE2d2cTMXJ/Steps/2942024",
-      "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Receiving a new Text Message\nWhen a new text is received from a Contact, a blue alert dot will appear on the Text Message icon in the top right of DonorDock."
-    },
-    {
-      "title": "Creating a New Bulk Text",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-a-new-bulk-text-o6rBZdAHAJ/Steps/2945265",
-      "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Create a New Bulk Text Draft\nA new bulk text message may be created in one of two ways.\nCreating a Bulk Text through Outreach\nNavigate to\nOutreach\nat the top of your DonorDock\nSelect\nTexting\nFrom..."
-    },
-    {
-      "title": "Text Message Merge Tags",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/text-message-merge-tags-s5pvLwaqaz/Steps/2945266",
-      "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Text Message Merge Tags\nIn DonorDock, Merge Tags help you easily customize bulk text messages with specific contact information. When you include a merge tag such as {{donor."
-    },
-    {
-      "title": "Duplicating a Bulk Text Message",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/duplicating-a-bulk-text-message-XLOGlOGcVB/Steps/2947843",
-      "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Duplicating a Bulk Text Message\nThere may be times you want to duplicate a previously sent text message.\nNavigate to\nOutreach\nSelect\nTexts\n>\nBulk Texts\nClick to view the Sent Texts tab\nScroll to the..."
-    },
-    {
-      "title": "Bulk Text Details: Summary, Details, and Activities",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/bulk-text-details-summary-details-and-activities-ooaflBCQMz/Steps/3041914",
-      "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Text Summary Information\nAfter you have sent a bulk text through DonorDock, you may view a summary of the sent text message, view an activity report on the text, and all associated activities."
-    },
-    {
-      "title": "Text Activity Reports",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/text-activity-reports-PM0vWBeurx/Steps/3051928",
-      "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Text Activity Reports\nWhen running activity reports, the report may be filtered to the Text activity. This report will show text messages sent through the Bulk outreach tool, individual text..."
-    },
-    {
-      "title": "Logging Text Messages",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/logging-text-messages-QgENcaoIQP/Steps/2924687",
-      "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Logging Text Messages\nActivities\n+\n1\nThere may be times when you would like to log a text message that has occurred outside of DonorDock."
-    },
-    {
-      "title": "Do Not Solicit, Unsubscribed, and SMS Unsubscribed",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/do-not-solicit-unsubscribed-and-sms-unsubscribed-Aq8TATX9aL/Steps/2895355",
-      "category": "Topics > Donor Communications > Text Messages",
-      "summary": "Do Not Solicit, Unsubscribed, and SMS Unsubscribed\nContacts\n+\n1\nKnowing your donors' desired communication preferences is essential for every nonprofit."
+      "summary": "Managing Mobile Numbers and Text Deliverability\n9/10/2026\nContacts\nText Messages\nTexting\n+\n3\nDonorDock sends text messages using the Mobile Phone field stored on a contact record."
     },
     {
       "title": "Templates Overview 💜",
@@ -2103,12 +2046,6 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/email-attachments-in-donordock-90M9Jyxjak/Steps/1680843",
       "category": "Topics > Donor Communications > Templates",
       "summary": "Email Attachments in DonorDock\nAttachments may not be sent on emails sent through DonorDock, as including attachments significantly raises the risk of the email being marked as spam."
-    },
-    {
-      "title": "Reviewing the Standard Receipt Email Template",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/reviewing-the-standard-receipt-email-template-SN5cNpQtmx/Steps/1139754",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Reviewing the Standard Receipt Email Template\nOnline Giving\nTemplates\n+\n2\nDonorDock provides standard templates to help you begin designing and personalizing your templates."
     },
     {
       "title": "Adding an Image of a Signature directly into a Template",
