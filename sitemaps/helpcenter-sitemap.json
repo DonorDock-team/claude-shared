@@ -2,8 +2,8 @@
   "help_center": {
     "name": "DonorDock Help Center",
     "base_url": "https://helpcenter.donordock.com",
-    "scraped_at": "2026-09-11T14:14:22Z",
-    "total_articles": 327,
+    "scraped_at": "2026-09-18T14:13:09Z",
+    "total_articles": 336,
     "total_categories": 24,
     "format": "compact"
   },
@@ -31,6 +31,7 @@
       "Changing Records through Import"
     ],
     "Product Updates": [
+      "Product Updates 9.13.2026",
       "Product Updates 9.7.2026",
       "Product Updates 8.30.2026",
       "Product Updates 8.15.2026",
@@ -177,6 +178,7 @@
       "Create a New Automation"
     ],
     "Topics > Integrations": [
+      "MCP Setup",
       "Meta Pixel with DonorDock",
       "Feathr Super Pixel with DonorDock",
       "Integrations in DonorDock",
@@ -309,28 +311,35 @@
     "Topics > Donor Communications > Templates": [
       "Templates Overview 💜",
       "Merge Tags Overview 💜",
-      "Template Tools",
-      "Uploading Images in your Organization's Template Library",
-      "Creating a New Template in DonorDock",
-      "Uploading a Word Document into a Template",
-      "Editing an Existing Template",
-      "Testing an Email Template",
-      "Testing a Letter Template",
+      "Using the DonorDock Template Editor",
+      "Creating and Managing Templates",
       "Adding Merge Tags into your Template",
       "Merge Tag Reference Table",
-      "AI Features in the Template Editor",
+      "Working with Blocks and Layouts in the Template Editor",
+      "Using Content Elements in the Template Editor",
+      "Configuring Columns on Templates",
+      "Configuring Buttons on Templates",
+      "Configuring Headers on Templates",
+      "Configuring Images on Templates",
+      "Configuring Social Icons on Templates",
+      "Configuring HTML on Templates",
+      "Configuring Timer on Templates",
+      "Configuring Logo on Templates",
+      "Configuring Dividers in Templates",
+      "Configuring Paragraphs in Templates",
+      "Configuring Videos in Templates",
+      "Configuring Menus and Page Sections in Templates",
+      "Configuring Tables in Templates",
+      "Uploading a Word Document into a Template",
       "Creating an Envelope Template with Word",
+      "Troubleshooting Spacing and Formatting in Email Templates",
+      "Template Folders",
       "Signatures in DonorDock",
-      "Turning off Stacked Images",
-      "Adjusting DonorDock Templates for Printing in Word",
-      "Email Attachments in DonorDock",
       "Adding an Image of a Signature directly into a Template",
       "Using your Organization's Receipt Signature Merge Tag",
       "Using the Email Signature Merge Tag",
-      "Jane Doe Merge Tag Test Information",
-      "Template Folders",
-      "Page Anchors (Sections) in DonorDock Templates",
-      "Troubleshooting Spacing and Formatting in Email Templates"
+      "Adjusting DonorDock Templates for Printing in Word",
+      "Jane Doe Merge Tag Test Information"
     ],
     "Topics > Donor Communications > Activities": [
       "Activities Overview 💜",
@@ -492,6 +501,12 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/changing-records-through-import-tpMEbG8Yxj/Steps/5902115",
       "category": "Video Guides",
       "summary": "Changing Records through Import\n8/21/2026\nImports\nMigrations\nTraining Video\nvideo\n+\n4\nLearn how to use the import tool to update existing contacts, gifts, and activities in DonorDock."
+    },
+    {
+      "title": "Product Updates 9.13.2026",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-9-13-2026-m8GzWeaJpQ/Steps/5954083",
+      "category": "Product Updates",
+      "summary": "Product Updates 9.13.2026\n9/14/2026\nRelease Notes\n+\n1\nNew features & improvements\nUser Settings: refreshed profile and settings layout\nUser Settings now use the same sidebar navigation as..."
     },
     {
       "title": "Product Updates 9.7.2026",
@@ -1274,6 +1289,12 @@
       "summary": "Create a New Automation\nTo create a new automation, you may either copy an existing Automaton or build a new Automation from scratch."
     },
     {
+      "title": "MCP Setup",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/mcp-setup-57AW2gFDo5/Steps/5966276",
+      "category": "Topics > Integrations",
+      "summary": "MCP Setup Guide\n9/16/2026\nIntegrations\n+\n1\nAPI Keys (application programming interface keys) can be created for each user to connect DonorDock to any AI platforms that support MCP servers."
+    },
+    {
       "title": "Meta Pixel with DonorDock",
       "url": "https://helpcenter.donordock.com/kb/guide/en/meta-pixel-with-donordock-vkOk4j6ttZ/Steps/5691987",
       "category": "Topics > Integrations",
@@ -1859,13 +1880,13 @@
       "title": "Building Emails with Images",
       "url": "https://helpcenter.donordock.com/kb/guide/en/building-emails-with-images-PFFzXqHmDz/Steps/2895785",
       "category": "Topics > Donor Communications > Emails",
-      "summary": "Building Emails with Images\n9/4/2026\nCanva\nEmail Deliverability\nEmail Marketing\nImages\nTemplates\n+\n5\nImages can make marketing emails visually engaging, but an email should not rely entirely on..."
+      "summary": "Building Emails with Images\n9/17/2026\nCanva\nEmail Deliverability\nEmail Marketing\nImages\nTemplates\n+\n5\nImages can make marketing emails visually engaging, but an email should not rely entirely on..."
     },
     {
       "title": "Email Attachments in DonorDock",
       "url": "https://helpcenter.donordock.com/kb/guide/en/email-attachments-in-donordock-WJ2LPIqD3a/Steps/5931684",
       "category": "Topics > Donor Communications > Emails",
-      "summary": "Email Attachments in DonorDock\n9/4/2026\nEmail Deliverability\nEmail Marketing\nTemplates\n+\n3\nAttachments cannot be included with emails sent through DonorDock."
+      "summary": "Email Attachments in DonorDock\n9/17/2026\nEmail Deliverability\nEmail Marketing\nTemplates\n+\n3\nAttachments cannot be included with emails sent through DonorDock."
     },
     {
       "title": "Letters Overview 💜",
@@ -1949,7 +1970,7 @@
       "title": "Templates Overview 💜",
       "url": "https://helpcenter.donordock.com/kb/guide/en/templates-overview-9B4u4zzG8p/Steps/1116345",
       "category": "Topics > Donor Communications > Templates",
-      "summary": "Templates Overview\n8/18/2026\nTemplates\n+\n1\nTemplates in DonorDock may be used to send bulk email communications, individual emails, print letters, and receipts."
+      "summary": "Templates Overview\n9/17/2026\nTemplates\n+\n1\nTemplates in DonorDock help your organization save time, communicate efficiently, and maintain consistent donor communications by letting you create..."
     },
     {
       "title": "Merge Tags Overview 💜",
@@ -1958,52 +1979,22 @@
       "summary": "Merge Tags Overview\n8/18/2026\nTemplates\n+\n1\nMerge tags allow you to insert personalized information into your communications dynamically."
     },
     {
-      "title": "Template Tools",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/template-tools-WHAiDxUHBs/Steps/1150155",
+      "title": "Using the DonorDock Template Editor",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/using-the-donordock-template-editor-WHAiDxUHBs/Steps/1150155",
       "category": "Topics > Donor Communications > Templates",
-      "summary": "Template Tools\nTemplates\n+\n1\nWhen creating or editing a template in the DonorDock Template Editor, there are a variety of tools, content, and elements available to assist with creating the perfect..."
+      "summary": "Using the DonorDock Template Editor\n9/17/2026\nTemplates\n+\n1\nThe DonorDock Template Editor is the primary design tool for creating reusable communications in DonorDock."
     },
     {
-      "title": "Uploading Images in your Organization's Template Library",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/uploading-images-in-your-organizations-template-library-GNUM9kC8fm/Steps/1144236",
+      "title": "Creating and Managing Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-and-managing-templates-cTe9wgUCK6/Steps/1149857",
       "category": "Topics > Donor Communications > Templates",
-      "summary": "Uploading Images in your Organization's Template Library\n2022\nEmail Marketing\nRelease Notes\nTemplates\n+\n4\nAll users on your Organization are able to store images in the\nUpload\nFolder in Templates."
-    },
-    {
-      "title": "Creating a New Template in DonorDock",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-a-new-template-in-donordock-cTe9wgUCK6/Steps/1149857",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Creating a New Template in DonorDock\nTemplates\n+\n1\nTemplates in DonorDock may be used to send bulk email communications, individual emails, print letters, and receipts."
-    },
-    {
-      "title": "Uploading a Word Document into a Template",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/uploading-a-word-document-into-a-template-2AH7sCcgM3/Steps/1379010",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Uploading a Word Document into a Template\nTemplates\n+\n1\nTemplates in DonorDock may be created either through the template editor in DonorDock, or by uploading a Word Document for use as a Template."
-    },
-    {
-      "title": "Editing an Existing Template",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/editing-an-existing-template-P2NZJVuWoo/Steps/1149858",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Editing an Existing Template\nTemplates\n+\n1\nTemplates are available through Outreach, Transactions, and the Settings Menu. Templates may be Marketing or Transactional and Print or Email."
-    },
-    {
-      "title": "Testing an Email Template",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/testing-an-email-template-4xBFCiNAWa/Steps/1150449",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Testing an Email Template\nTemplates\n+\n1\nWhen creating and editing your templates, testing the template is a good step to complete to ensure that the final email product matches your expectation."
-    },
-    {
-      "title": "Testing a Letter Template",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/testing-a-letter-template-opiSca8sRP/Steps/1150491",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Testing a Letter Template\nTemplates\n+\n1\nWhen creating and editing your templates, testing the template is a good step to complete to ensure that the printed letter/receipt prints as expected."
+      "summary": "Creating and Managing Templates\n9/17/2026\nTemplates\n+\n1\nTemplates in DonorDock provide a reusable starting point for emails, letters, receipts, acknowledgments, and other donor communications."
     },
     {
       "title": "Adding Merge Tags into your Template",
       "url": "https://helpcenter.donordock.com/kb/guide/en/adding-merge-tags-into-your-template-r13jrYe8JT/Steps/1305334",
       "category": "Topics > Donor Communications > Templates",
-      "summary": "Adding Merge Tags into your Template\nMerge tags in DonorDock allow you to easily customize your templates with specific contact or organization data when sending emails or printing labels."
+      "summary": "Adding Merge Tags into your Template\n9/17/2026\nMerge tags in DonorDock allow you to easily customize your templates with specific contact or organization data when sending emails or printing labels."
     },
     {
       "title": "Merge Tag Reference Table",
@@ -2012,82 +2003,154 @@
       "summary": "Merge Tag Reference Table\nMerge Tags in DonorDock allow you to easily customize your templates with specific contact or organization data when sending emails or printing labels."
     },
     {
-      "title": "AI Features in the Template Editor",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/ai-features-in-the-template-editor-Cqj7xslNHY/Steps/2355360",
+      "title": "Working with Blocks and Layouts in the Template Editor",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/working-with-blocks-and-layouts-in-the-template-editor-V6n6hr1pWG/Steps/5963139",
       "category": "Topics > Donor Communications > Templates",
-      "summary": "AI Features in the Template Editor\nAI is a new tool that is growing in reach and potential every day. Within the DonorDock Template Editor, different content elements are available with AI..."
+      "summary": "Working with Blocks and Layouts in the Template Editor\n9/16/2026\nBlocks\nLayout\nTemplates\n+\n3\nTemplates in the DonorDock Template Editor are built using two main building..."
+    },
+    {
+      "title": "Using Content Elements in the Template Editor",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/using-content-elements-in-the-template-editor-FAmA9HgzOn/Steps/5963224",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Using Content Elements in the Template Editor\n9/17/2026\nLayout\nTemplates\n+\n2\nContent elements are the individual pieces of information and design placed inside Blocks within the DonorDock Template..."
+    },
+    {
+      "title": "Configuring Columns on Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/configuring-columns-on-templates-kcHzGvCNv9/Steps/5966824",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Configuring Columns on Templates\n9/16/2026\nBlocks\nColumns\nLayout\nTemplates\n+\n4\nThe Columns Content element provides an additional way to introduce a new Block with a multi-column layout within your..."
+    },
+    {
+      "title": "Configuring Buttons on Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/configuring-buttons-on-templates-XdP7G2FCHC/Steps/5966823",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Configuring Buttons on Templates\n9/16/2026\nButtons\nCall to Action\nLayout\nTemplates\n+\n4\nThe Button Content element creates a prominent, clickable call to action within your template."
+    },
+    {
+      "title": "Configuring Headers on Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/configuring-headers-on-templates-fnZ7u7JMZ8/Steps/5966822",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Configuring Headers on Templates\n9/16/2026\nHeadings\nLayout\nTemplates\n+\n3\nThe Heading Content element creates titles and section headings that break up your communication and guide recipients through..."
+    },
+    {
+      "title": "Configuring Images on Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/configuring-images-on-templates-NZZFbtL9DT/Steps/5966821",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Configuring Images on Templates\n9/16/2026\nImages\nLayout\nTemplates\n+\n3\nThe Image Content element allows you to add photos, graphics, signatures, campaign artwork, and other visual elements to your..."
+    },
+    {
+      "title": "Configuring Social Icons on Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/configuring-social-icons-on-templates-Yfn5h3VAis/Steps/5967723",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Configuring Social Icons on Templates\n9/16/2026\nLayout\nSocial Media\nTemplates\n+\n3\nThe Social Content element allows you to add a group of linked social media icons to your template."
+    },
+    {
+      "title": "Configuring HTML on Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/configuring-html-on-templates-h73seJNFC7/Steps/5968165",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Configuring HTML on Templates\n9/16/2026\nHTML\nLayout\nTemplates\n+\n3\nThe HTML Content element allows you to add custom HTML markup directly within a DonorDock template."
+    },
+    {
+      "title": "Configuring Timer on Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/configuring-timer-on-templates-fPfpbkzGE6/Steps/5968197",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Configuring Timer on Templates\n9/16/2026\nCountdown\nLayout\nTemplates\nTimer\n+\n4\nThe Timer Content element adds a visual countdown to a specific date and time."
+    },
+    {
+      "title": "Configuring Logo on Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/configuring-logo-on-templates-8mWsulN6FL/Steps/5968626",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Configuring Logo on Templates\n9/16/2026\nLayout\nLogo\nTemplates\n+\n3\nThe Logo Content element provides a convenient way to add your organization’s primary logo to a template using the logo already..."
+    },
+    {
+      "title": "Configuring Dividers in Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/configuring-dividers-in-templates-hO2irXotXC/Steps/5968632",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Configuring Dividers in Templates\n9/16/2026\nDividers\nLayout\nLine Break\nTemplates\n+\n4\nThe Divider Content element adds a horizontal line that visually separates sections of a template."
+    },
+    {
+      "title": "Configuring Paragraphs in Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/configuring-paragraphs-in-templates-myPVFEruqQ/Steps/5968636",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Configuring Paragraphs in Templates\n9/16/2026\nLayout\nParagraph\nTemplates\n+\n3\nThe Paragraph Content element is the primary tool for adding regular body copy to a template."
+    },
+    {
+      "title": "Configuring Videos in Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/configuring-videos-in-templates-Z9uNaDRjTv/Steps/5982862",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Configuring Videos in Templates\n9/17/2026\nLayout\nTemplates\nvideo\n+\n3\nThe Video Content element allows you to add a visual preview that directs recipients to video content hosted online."
+    },
+    {
+      "title": "Configuring Menus and Page Sections in Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/configuring-menus-and-page-sections-in-templates-4qeyKGaEpi/Steps/5983008",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Configuring Menus and Page Sections in Templates\n9/17/2026\nLayout\nMenu\nPage Anchors\nSection\nTemplates\n+\n5\nThe Menu Content element creates a group of navigation links within an Email template."
+    },
+    {
+      "title": "Configuring Tables in Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/configuring-tables-in-templates-vUnJhj8T7D/Steps/5986295",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Configuring Tables in Templates\n9/17/2026\nLayout\nTables\nTemplates\n+\n3\nThe Table Content element organizes structured information into rows and columns within a template."
+    },
+    {
+      "title": "Uploading a Word Document into a Template",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/uploading-a-word-document-into-a-template-2AH7sCcgM3/Steps/1379010",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Uploading a Word Document into a Template\n9/17/2026\nTemplates\n+\n1\nTemplates in DonorDock may be created either through the template editor in DonorDock, or by uploading a Word Document for use as a..."
     },
     {
       "title": "Creating an Envelope Template with Word",
       "url": "https://helpcenter.donordock.com/kb/guide/en/creating-an-envelope-template-with-word-Ogd4qOZ5Wb/Steps/2591695",
       "category": "Topics > Donor Communications > Templates",
-      "summary": "Creating an Envelope Template with Word\nWhen creating templates designed in Microsoft Word, you may upload envelope templates from Word as well to allow for easy printing of envelopes in DonorDock."
-    },
-    {
-      "title": "Signatures in DonorDock",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/signatures-in-donordock-dfklapk0fe/Steps/1116349",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Signatures in DonorDock\nTemplates\n+\n1\nSignatures are important to personalizing your receipts, letters, and communications with your donors."
-    },
-    {
-      "title": "Turning off Stacked Images",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/turning-off-stacked-images-S8MLaJFOu5/Steps/1116350",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Turning off Stacked Images\nTemplates\n+\n1\nThere may be times when multiple columns in your template contain side-by-side images where the images appear stacked or stretched when the template is..."
-    },
-    {
-      "title": "Adjusting DonorDock Templates for Printing in Word",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/adjusting-donordock-templates-for-printing-in-word-9EAo4y08ge/Steps/1379009",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Adjusting DonorDock Templates for Printing in Word\nTemplates\n+\n1\nGenerally, templates designed in the editor will print better in PDF, and templates designed in Word will print better in Word."
-    },
-    {
-      "title": "Email Attachments in DonorDock",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/email-attachments-in-donordock-90M9Jyxjak/Steps/1680843",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Email Attachments in DonorDock\nAttachments may not be sent on emails sent through DonorDock, as including attachments significantly raises the risk of the email being marked as spam."
-    },
-    {
-      "title": "Adding an Image of a Signature directly into a Template",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/adding-an-image-of-a-signature-directly-into-a-template-RWa7FbA32l/Steps/1150908",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Adding an Image of a Signature directly into a Template\nTemplates\n+\n1\nWhile merge tags can be useful for standard signatures across templates, there may be times when you wish to insert a signature..."
-    },
-    {
-      "title": "Using your Organization's Receipt Signature Merge Tag",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/using-your-organizations-receipt-signature-merge-tag-sDc1SwqJWm/Steps/2536195",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Using your Organization's Receipt Signature Merge Tag\nMerge tags in DonorDock allow you to easily customize your templates with specific contact or organization data when sending emails or printing..."
-    },
-    {
-      "title": "Using the Email Signature Merge Tag",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/using-the-email-signature-merge-tag-3wz3lHJmqC/Steps/2536317",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Using the Email Signature Merge Tag\nMerge tags in DonorDock allow you to easily customize your templates with specific contact or organization data when sending emails or printing labels."
-    },
-    {
-      "title": "Jane Doe Merge Tag Test Information",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/jane-doe-merge-tag-test-information-AzJPZScNMZ/Steps/2575094",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Jane Doe Merge Tag Test Information\nWhen using the test option on templates in DonorDock, merge tags will use test data for a record for Jane Doe to give you an example of how the merge tags will..."
-    },
-    {
-      "title": "Template Folders",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/template-folders-2hhEQACVXI/Steps/4608750",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Template Folders\nKeeping your templates organized is like keeping a ship’s deck in order before heading out to sea. With folders in DonorDock, you can group templates into the right place so they..."
-    },
-    {
-      "title": "Page Anchors (Sections) in DonorDock Templates",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/page-anchors-sections-in-donordock-templates-O0aO8EcbsU/Steps/4608770",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Page Anchors (Sections) in DonorDock Templates\nLong emails can feel like a long voyage for your readers. Page anchors give them a quick way to jump straight to the section they care about most."
+      "summary": "Creating an Envelope Template with Word\n9/17/2026\nWhen creating templates designed in Microsoft Word, you may upload envelope templates from Word as well to allow for easy printing of envelopes in..."
     },
     {
       "title": "Troubleshooting Spacing and Formatting in Email Templates",
       "url": "https://helpcenter.donordock.com/kb/guide/en/troubleshooting-spacing-and-formatting-in-email-templates-3HC3ThLE9N/Steps/5876715",
       "category": "Topics > Donor Communications > Templates",
       "summary": "Troubleshooting Spacing and Formatting in Email Templates\n8/11/2026\nIf spacing, line breaks, or paragraph formatting in an email looks different after it is sent than it does in the template editor,..."
+    },
+    {
+      "title": "Template Folders",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/template-folders-2hhEQACVXI/Steps/4608750",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Template Folders\n9/17/2026\nKeeping your templates organized is like keeping a ship’s deck in order before heading out to sea."
+    },
+    {
+      "title": "Signatures in DonorDock",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/signatures-in-donordock-dfklapk0fe/Steps/1116349",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Signatures in DonorDock\n9/17/2026\nTemplates\n+\n1\nSignatures are important to personalizing your receipts, letters, and communications with your donors."
+    },
+    {
+      "title": "Adding an Image of a Signature directly into a Template",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/adding-an-image-of-a-signature-directly-into-a-template-RWa7FbA32l/Steps/1150908",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Adding an Image of a Signature directly into a Template\n9/17/2026\nTemplates\n+\n1\nWhile merge tags can be useful for standard signatures across templates, there may be times when you wish to insert a..."
+    },
+    {
+      "title": "Using your Organization's Receipt Signature Merge Tag",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/using-your-organizations-receipt-signature-merge-tag-sDc1SwqJWm/Steps/2536195",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Using your Organization's Receipt Signature Merge Tag\n9/17/2026\nMerge tags in DonorDock allow you to easily customize your templates with specific contact or organization data when sending emails or..."
+    },
+    {
+      "title": "Using the Email Signature Merge Tag",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/using-the-email-signature-merge-tag-3wz3lHJmqC/Steps/2536317",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Using the Email Signature Merge Tag\n9/17/2026\nMerge tags in DonorDock allow you to easily customize your templates with specific contact or organization data when sending emails or printing labels."
+    },
+    {
+      "title": "Adjusting DonorDock Templates for Printing in Word",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/adjusting-donordock-templates-for-printing-in-word-9EAo4y08ge/Steps/1379009",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Adjusting DonorDock Templates for Printing in Word\n9/17/2026\nTemplates\n+\n1\nGenerally, templates designed in the editor will print better in PDF, and templates designed in Word will print better in..."
+    },
+    {
+      "title": "Jane Doe Merge Tag Test Information",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/jane-doe-merge-tag-test-information-AzJPZScNMZ/Steps/2575094",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Jane Doe Merge Tag Test Information\nMerge Tags\n+\n1\nWhen using the test option on templates in DonorDock, merge tags will use test data for a record for Jane Doe to give you an example of how the..."
     },
     {
       "title": "Activities Overview 💜",
