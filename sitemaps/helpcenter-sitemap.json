@@ -2,18 +2,18 @@
   "help_center": {
     "name": "DonorDock Help Center",
     "base_url": "https://helpcenter.donordock.com",
-    "scraped_at": "2026-09-18T14:13:09Z",
-    "total_articles": 336,
+    "scraped_at": "2026-09-25T14:09:20Z",
+    "total_articles": 335,
     "total_categories": 24,
     "format": "compact"
   },
   "category_index": {
     "Home": [
-      "Request a Feature",
-      "Contact Support",
-      "Webinars & Events",
-      "International Support",
-      "Need a W-9, Terms, or Security Information?",
+      "Request a FeatureShare an idea or suggest an improvement you’d like to see",
+      "Contact SupportGet help from the DonorDock Support team when you need it",
+      "Webinars & EventsFind upcoming trainings, live webinars, and DonorDock events",
+      "International SupportLearn about DonorDock’s U.S.-based requirements and availability outside the United States",
+      "Trust & ComplianceFind our W-9, terms, security information, and other company documentation",
       "Contribution Statements",
       "DonorDock and Zapier Overview 💜",
       "Households and When to Use Them in DonorDock",
@@ -31,6 +31,7 @@
       "Changing Records through Import"
     ],
     "Product Updates": [
+      "Product Updates 9.18.2026",
       "Product Updates 9.13.2026",
       "Product Updates 9.7.2026",
       "Product Updates 8.30.2026",
@@ -311,10 +312,8 @@
     "Topics > Donor Communications > Templates": [
       "Templates Overview 💜",
       "Merge Tags Overview 💜",
-      "Using the DonorDock Template Editor",
-      "Creating and Managing Templates",
-      "Adding Merge Tags into your Template",
       "Merge Tag Reference Table",
+      "Using the DonorDock Template Editor",
       "Working with Blocks and Layouts in the Template Editor",
       "Using Content Elements in the Template Editor",
       "Configuring Columns on Templates",
@@ -330,6 +329,7 @@
       "Configuring Videos in Templates",
       "Configuring Menus and Page Sections in Templates",
       "Configuring Tables in Templates",
+      "Creating and Managing Templates",
       "Uploading a Word Document into a Template",
       "Creating an Envelope Template with Word",
       "Troubleshooting Spacing and Formatting in Email Templates",
@@ -339,23 +339,22 @@
       "Using your Organization's Receipt Signature Merge Tag",
       "Using the Email Signature Merge Tag",
       "Adjusting DonorDock Templates for Printing in Word",
-      "Jane Doe Merge Tag Test Information"
+      "Merge Tag Test Values",
+      "Understanding Merge Tag Structure and Formatting",
+      "Conditional Formatting in Merge Tags: Add Text Only When a Value Exists",
+      "Testing and Previewing Templates"
     ],
     "Topics > Donor Communications > Activities": [
       "Activities Overview 💜",
+      "Creating New Activities",
+      "Viewing and Managing Activities",
+      "Creating Activities in Bulk and Importing Activities",
       "Phone Calls",
       "Meetings",
       "Tasks",
       "Event Attendance",
       "Volunteers",
-      "Asks",
-      "Creating an Activity from the Quick Add Menu",
-      "Creating an Activity from a Campaign or Appeal",
-      "Viewing an Activity from the Contact Record",
-      "Creating an Activity from a Contact Record",
-      "Creating Activities in Reports",
-      "Viewing an Activity from an Activity Report",
-      "Importing Activity Data"
+      "Asks"
     ],
     "Topics > Forms > Online Giving": [
       "Online Giving Overview 💜",
@@ -395,34 +394,34 @@
   },
   "articles": [
     {
-      "title": "Request a Feature",
+      "title": "Request a FeatureShare an idea or suggest an improvement you’d like to see",
       "url": "https://helpcenter.donordock.com/kb/guide/en/request-a-feature-Zl2F9yrHVT/Steps/1321530",
       "category": "Home",
       "summary": "🛳️ Be a part of DonorDock’s voyage\n8/18/2026\nWe regularly review ideas and suggestions from DonorDock users, and many of those conversations help shape the features and improvements we build."
     },
     {
-      "title": "Contact Support",
+      "title": "Contact SupportGet help from the DonorDock Support team when you need it",
       "url": "https://helpcenter.donordock.com/kb/guide/en/contact-support-cXmDvpbFpD/Steps/1088835",
       "category": "Home",
       "summary": "8/18/2026\nOur support team is here to help you get the most out of DonorDock. Whether you have a question about how something works, run into an issue, or just need help figuring out the best way to..."
     },
     {
-      "title": "Webinars & Events",
+      "title": "Webinars & EventsFind upcoming trainings, live webinars, and DonorDock events",
       "url": "https://helpcenter.donordock.com/kb/guide/en/webinars-events-QPVISUMAWm/Steps/1175125",
       "category": "Home",
       "summary": "Webinars & Events\n8/18/2026\nTraining\nWebinar\n+\n2\nOur free live learning opportunities are designed to help you get more from DonorDock, whether you are brand new to the platform or have been using..."
     },
     {
-      "title": "International Support",
+      "title": "International SupportLearn about DonorDock’s U.S.-based requirements and availability outside the United States",
       "url": "https://helpcenter.donordock.com/kb/guide/en/international-support-c2cveWRXKj/Steps/1896742",
       "category": "Home",
       "summary": "DonorDock Country of Support\n8/18/2026\nDonorDock is a U.S.-based company and currently supports nonprofit organizations based in the United States, as well as organizations with an established U.S."
     },
     {
-      "title": "Need a W-9, Terms, or Security Information?",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/need-a-w-9-terms-or-security-information-iXLIUyurCn/Steps/1896955",
+      "title": "Trust & ComplianceFind our W-9, terms, security information, and other company documentation",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/trust-compliance-iXLIUyurCn/Steps/1896955",
       "category": "Home",
-      "summary": "Need a W-9, Terms, or Security Information?\n8/18/2026\nWe know your organization may need documentation about DonorDock for accounting, vendor review, legal, or security purposes."
+      "summary": "Trust & Compliance\n9/23/2026\nSOCII\nTerms\nW-9\n+\n3\nWe know your organization may need documentation about DonorDock for accounting, vendor review, legal, or security purposes."
     },
     {
       "title": "Contribution Statements",
@@ -501,6 +500,12 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/changing-records-through-import-tpMEbG8Yxj/Steps/5902115",
       "category": "Video Guides",
       "summary": "Changing Records through Import\n8/21/2026\nImports\nMigrations\nTraining Video\nvideo\n+\n4\nLearn how to use the import tool to update existing contacts, gifts, and activities in DonorDock."
+    },
+    {
+      "title": "Product Updates 9.18.2026",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-9-18-2026-FTi0sWXyIV/Steps/5999621",
+      "category": "Product Updates",
+      "summary": "Product Updates 9.18.2026\n9/22/2026\nRelease Notes\n+\n1\nNew features & improvements\nTemplates: version history\nEmail and letter templates now include version history, making it easier to recover an..."
     },
     {
       "title": "Product Updates 9.13.2026",
@@ -1412,7 +1417,7 @@
       "title": "GoFundMe Pro and DonorDock Integration",
       "url": "https://helpcenter.donordock.com/kb/guide/en/gofundme-pro-and-donordock-integration-o6mFGCVSsb/Steps/1116417",
       "category": "Topics > Integrations",
-      "summary": "GoFundMe Pro and DonorDock Integration\n4/3/2026\nIntegrations\n+\n1\nGoFundMe Pro (formerly known as Classy) is a software company and online fundraising platform designed for nonprofit organizations."
+      "summary": "GoFundMe Pro and DonorDock Integration\n9/22/2026\nClassy\nGFM Pro\nGoFundMe\nGoFundMe Pro\nIntegrations\n+\n5\nGoFundMe Pro, formerly known as Classy, is an online fundraising platform designed for..."
     },
     {
       "title": "Integration with Harness using Zapier",
@@ -1430,7 +1435,7 @@
       "title": "OneCause and DonorDock Integration Guide",
       "url": "https://helpcenter.donordock.com/kb/guide/en/onecause-and-donordock-integration-guide-Pyz8TPAShv/Steps/2145329",
       "category": "Topics > Integrations",
-      "summary": "OneCause and DonorDock Integration\nIntegrations\n+\n1\nOneCause is a software company and online fundraising platform designed for nonprofit organizations, that among other things, includes features to..."
+      "summary": "OneCause and DonorDock Integration\n9/22/2026\nIntegrations\nOneCause\n+\n2\nOneCause is an online fundraising and event platform built for nonprofit organizations."
     },
     {
       "title": "POINT Integration with DonorDock",
@@ -1454,7 +1459,7 @@
       "title": "Eventbrite to DonorDock Integration",
       "url": "https://helpcenter.donordock.com/kb/guide/en/eventbrite-to-donordock-integration-lg44tDjYsU/Steps/5889824",
       "category": "Topics > Integrations",
-      "summary": "Eventbrite to DonorDock Integration\n8/16/2026\nFRU\nFundraise Up\nIntegrations\n+\n3\nEventbrite is an event management platform that connects directly to DonorDock, bringing event registrations, ticket..."
+      "summary": "Eventbrite to DonorDock Integration\n9/22/2026\nEventbrite\nIntegrations\n+\n2\nEventbrite is an event management platform that connects directly to DonorDock, bringing event registrations, ticket..."
     },
     {
       "title": "Organization Settings Overview 💜",
@@ -1970,37 +1975,25 @@
       "title": "Templates Overview 💜",
       "url": "https://helpcenter.donordock.com/kb/guide/en/templates-overview-9B4u4zzG8p/Steps/1116345",
       "category": "Topics > Donor Communications > Templates",
-      "summary": "Templates Overview\n9/17/2026\nTemplates\n+\n1\nTemplates in DonorDock help your organization save time, communicate efficiently, and maintain consistent donor communications by letting you create..."
+      "summary": "Templates Overview\n9/18/2026\nTemplates\n+\n1\nTemplates in DonorDock help your organization save time, communicate efficiently, and maintain consistent donor communications by letting you create..."
     },
     {
       "title": "Merge Tags Overview 💜",
       "url": "https://helpcenter.donordock.com/kb/guide/en/merge-tags-overview-rgqjcdyPNP/Steps/1116351",
       "category": "Topics > Donor Communications > Templates",
-      "summary": "Merge Tags Overview\n8/18/2026\nTemplates\n+\n1\nMerge tags allow you to insert personalized information into your communications dynamically."
-    },
-    {
-      "title": "Using the DonorDock Template Editor",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/using-the-donordock-template-editor-WHAiDxUHBs/Steps/1150155",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Using the DonorDock Template Editor\n9/17/2026\nTemplates\n+\n1\nThe DonorDock Template Editor is the primary design tool for creating reusable communications in DonorDock."
-    },
-    {
-      "title": "Creating and Managing Templates",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-and-managing-templates-cTe9wgUCK6/Steps/1149857",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Creating and Managing Templates\n9/17/2026\nTemplates\n+\n1\nTemplates in DonorDock provide a reusable starting point for emails, letters, receipts, acknowledgments, and other donor communications."
-    },
-    {
-      "title": "Adding Merge Tags into your Template",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/adding-merge-tags-into-your-template-r13jrYe8JT/Steps/1305334",
-      "category": "Topics > Donor Communications > Templates",
-      "summary": "Adding Merge Tags into your Template\n9/17/2026\nMerge tags in DonorDock allow you to easily customize your templates with specific contact or organization data when sending emails or printing labels."
+      "summary": "Merge Tags Overview\n9/18/2026\nMerge Tags\nTemplates\n+\n2\nMerge tags let you create reusable communications while still personalizing the final message for each recipient."
     },
     {
       "title": "Merge Tag Reference Table",
       "url": "https://helpcenter.donordock.com/kb/guide/en/merge-tag-reference-table-rZ52WLvYtm/Steps/2544907",
       "category": "Topics > Donor Communications > Templates",
-      "summary": "Merge Tag Reference Table\nMerge Tags in DonorDock allow you to easily customize your templates with specific contact or organization data when sending emails or printing labels."
+      "summary": "Merge Tag Reference Table\n9/18/2026\nMerge Tags\nSystem Fields\n+\n2\nMerge tags act as placeholders for information stored in DonorDock."
+    },
+    {
+      "title": "Using the DonorDock Template Editor",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/using-the-donordock-template-editor-WHAiDxUHBs/Steps/1150155",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Using the DonorDock Template Editor\n9/22/2026\nTemplates\n+\n1\nThe DonorDock Template Editor is the primary design tool for creating reusable communications in DonorDock."
     },
     {
       "title": "Working with Blocks and Layouts in the Template Editor",
@@ -2093,6 +2086,12 @@
       "summary": "Configuring Tables in Templates\n9/17/2026\nLayout\nTables\nTemplates\n+\n3\nThe Table Content element organizes structured information into rows and columns within a template."
     },
     {
+      "title": "Creating and Managing Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-and-managing-templates-cTe9wgUCK6/Steps/1149857",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Creating and Managing Templates\n9/18/2026\nTemplates\n+\n1\nTemplates in DonorDock provide a reusable starting point for emails, letters, receipts, acknowledgments, and other donor communications."
+    },
+    {
       "title": "Uploading a Word Document into a Template",
       "url": "https://helpcenter.donordock.com/kb/guide/en/uploading-a-word-document-into-a-template-2AH7sCcgM3/Steps/1379010",
       "category": "Topics > Donor Communications > Templates",
@@ -2147,94 +2146,88 @@
       "summary": "Adjusting DonorDock Templates for Printing in Word\n9/17/2026\nTemplates\n+\n1\nGenerally, templates designed in the editor will print better in PDF, and templates designed in Word will print better in..."
     },
     {
-      "title": "Jane Doe Merge Tag Test Information",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/jane-doe-merge-tag-test-information-AzJPZScNMZ/Steps/2575094",
+      "title": "Merge Tag Test Values",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/merge-tag-test-values-AzJPZScNMZ/Steps/2575094",
       "category": "Topics > Donor Communications > Templates",
-      "summary": "Jane Doe Merge Tag Test Information\nMerge Tags\n+\n1\nWhen using the test option on templates in DonorDock, merge tags will use test data for a record for Jane Doe to give you an example of how the..."
+      "summary": "Merge Tag Test Values\n9/18/2026\nMerge Tags\nTemplates\n+\n2\nWhen you use the Test option on a template in DonorDock, merge tags are populated with sample information so you can preview how personalized..."
+    },
+    {
+      "title": "Understanding Merge Tag Structure and Formatting",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/understanding-merge-tag-structure-and-formatting-UFaWcEYK3q/Steps/5994043",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Understanding Merge Tag Structure and Formatting\n9/22/2026\nMerge Tags\nTemplates\n+\n2\nMerge tags in DonorDock follow a specific structure so the system can identify what information to retrieve and,..."
+    },
+    {
+      "title": "Conditional Formatting in Merge Tags: Add Text Only When a Value Exists",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/conditional-formatting-in-merge-tags-add-text-only-when-a-value-exists-8PACBXVPVu/Steps/6003277",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Conditional Formatting in Merge Tags: Add Text Only When a Value Exists\n9/22/2026\nMerge Tags\nTemplates\n+\n2\nIn addition to formatting how a merge tag value appears, DonorDock supports conditional..."
+    },
+    {
+      "title": "Testing and Previewing Templates",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/testing-and-previewing-templates-tx6n1rNHIH/Steps/6003523",
+      "category": "Topics > Donor Communications > Templates",
+      "summary": "Testing and Previewing Templates\n9/22/2026\nTemplates\n+\n1\nBefore using a template with your donors, take a few minutes to review the finished communication and make sure everything looks and works..."
     },
     {
       "title": "Activities Overview 💜",
       "url": "https://helpcenter.donordock.com/kb/guide/en/activities-overview-kQtjLjshox/Steps/1125192",
       "category": "Topics > Donor Communications > Activities",
-      "summary": "Activities in DonorDock\n8/18/2026\nActivities may be created and tracked in DonorDock to help you to better engage with your donors and improve communication."
+      "summary": "Activities Overview\n9/22/2026\nActivities\n+\n1\nActivities help your organization keep track of donor interactions, follow-up work, fundraising efforts, and other engagement with your contacts."
+    },
+    {
+      "title": "Creating New Activities",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-new-activities-dDhieRAsm3/Steps/6003866",
+      "category": "Topics > Donor Communications > Activities",
+      "summary": "Creating New Activities\n9/22/2026\nActivities\n+\n1\nActivities can be created from several areas in DonorDock, depending on what you are working on and how you want the Activity to be connected."
+    },
+    {
+      "title": "Viewing and Managing Activities",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/viewing-and-managing-activities-xGDBhzr9nJ/Steps/6003899",
+      "category": "Topics > Donor Communications > Activities",
+      "summary": "Viewing and Managing Activities\n9/22/2026\nActivities\n+\n1\nOnce an Activity has been created in DonorDock, you can return to it to review its details, update its status, edit information, attach..."
+    },
+    {
+      "title": "Creating Activities in Bulk and Importing Activities",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-activities-in-bulk-and-importing-activities-v9FqeIW19Z/Steps/1116277",
+      "category": "Topics > Donor Communications > Activities",
+      "summary": "Creating Activities in Bulk and Importing Activities\n9/22/2026\nActivities\nImports\n+\n2\nCreating Activities in Bulk and Importing Activities\nWhen the same Activity needs to be created for multiple..."
     },
     {
       "title": "Phone Calls",
       "url": "https://helpcenter.donordock.com/kb/guide/en/phone-calls-kOMxbZ1Hfn/Steps/1365742",
       "category": "Topics > Donor Communications > Activities",
-      "summary": "Phone Calls\nActivities\n+\n1\nPhone calls can be an effective communication and marketing channel between your organization and donors, to create personal impact among your donors who believe in your..."
+      "summary": "Phone Calls\n9/22/2026\nActivities\nPhone Calls\n+\n2\nPhone Call Activities in DonorDock allow your organization to plan, assign, and document phone conversations with contacts."
     },
     {
       "title": "Meetings",
       "url": "https://helpcenter.donordock.com/kb/guide/en/meetings-9jmlCEPGs2/Steps/1365744",
       "category": "Topics > Donor Communications > Activities",
-      "summary": "Meetings\nActivities\n+\n1\nMeetings with donors help to build lasting relationships. Using the \"Meeting\" activity type, you can easily track each meeting you hold with your donors."
+      "summary": "Meetings\n9/22/2026\nActivities\nMeeting\nMeetings\n+\n3\nMeeting Activities in DonorDock allow your organization to plan, assign, and document meetings with contacts."
     },
     {
       "title": "Tasks",
       "url": "https://helpcenter.donordock.com/kb/guide/en/tasks-Btws9k5p9X/Steps/1365745",
       "category": "Topics > Donor Communications > Activities",
-      "summary": "Tasks\nActivities\n+\n1\nTask activities in DonorDock are a specific activity type designed to track work that needs to be planned or completed."
+      "summary": "Tasks\n9/22/2026\nActivities\nTasks\n+\n2\nTask activities in DonorDock are a specific activity type designed to track work that needs to be planned or completed."
     },
     {
       "title": "Event Attendance",
       "url": "https://helpcenter.donordock.com/kb/guide/en/event-attendance-Bl0qZgSzYg/Steps/1368364",
       "category": "Topics > Donor Communications > Activities",
-      "summary": "🕺 Event Attendance 💃\nActivities\n+\n1\nThe Event Attendance activity allows you to keep track of donors and prospects who have attended your events."
+      "summary": "Event Attendance\n9/22/2026\nActivities\nEvent Attendance\nEvents\n+\n3\nEvent Attendance Activities in DonorDock allow your organization to record and track when contacts attend events."
     },
     {
       "title": "Volunteers",
       "url": "https://helpcenter.donordock.com/kb/guide/en/volunteers-zk4zXDkaEV/Steps/1368375",
       "category": "Topics > Donor Communications > Activities",
-      "summary": "Volunteers\nActivities\n+\n1\nThere are different types of contributions a donor may provide to your organization and volunteering plays an essential role in any non-profit."
+      "summary": "Volunteers\n9/22/2026\nActivities\nVolunteer\nVolunteers\n+\n3\nVolunteer Activities in DonorDock allow your organization to track volunteer service completed by contacts."
     },
     {
       "title": "Asks",
       "url": "https://helpcenter.donordock.com/kb/guide/en/asks-8GmLahn9kq/Steps/1368397",
       "category": "Topics > Donor Communications > Activities",
-      "summary": "Asks\nActivities\n+\n1\nAsk activities in DonorDock are used to plan, track, and manage fundraising requests as part of a structured moves management process."
-    },
-    {
-      "title": "Creating an Activity from the Quick Add Menu",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-an-activity-from-the-quick-add-menu-tHrKlhJUQV/Steps/1134130",
-      "category": "Topics > Donor Communications > Activities",
-      "summary": "Creating an Activity from the Quick Add Menu\nActivities\nQuick Add\n+\n2\nThe Quick Add Menu is a convenient tool located in the top right corner of DonorDock."
-    },
-    {
-      "title": "Creating an Activity from a Campaign or Appeal",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-an-activity-from-a-campaign-or-appeal-yBsMFs7O8x/Steps/2729014",
-      "category": "Topics > Donor Communications > Activities",
-      "summary": "Creating an Activity from a Campaign or Appeal\nYou may create activities within DonorDock directly from the details page of a Campaign or Appeal."
-    },
-    {
-      "title": "Viewing an Activity from the Contact Record",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/viewing-an-activity-from-the-contact-record-LIuMqd0jFk/Steps/1134124",
-      "category": "Topics > Donor Communications > Activities",
-      "summary": "Viewing an Activity from the Contact Record\nActivities\nContacts\n+\n2\nTo Search for a Contact record in DonorDock\nSelect\nContacts\nfrom the Navigation bar at the top of DonorDock and..."
-    },
-    {
-      "title": "Creating an Activity from a Contact Record",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-an-activity-from-a-contact-record-G0E0PVzMe7/Steps/1134125",
-      "category": "Topics > Donor Communications > Activities",
-      "summary": "Creating an Activity from a Contact Record\nActivities\nContacts\n+\n2\nActivities may be created directly when viewing an individual's contact record in DonorDock."
-    },
-    {
-      "title": "Creating Activities in Reports",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-activities-in-reports-4VPz2iUSos/Steps/1138787",
-      "category": "Topics > Donor Communications > Activities",
-      "summary": "Creating Activities in Reports\nActivities\nReporting\n+\n2\nActivities may created bulk through Contact and Gift Reports. Activities may not be created from an Activity report."
-    },
-    {
-      "title": "Viewing an Activity from an Activity Report",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/viewing-an-activity-from-an-activity-report-CWTdnLwWxj/Steps/1139423",
-      "category": "Topics > Donor Communications > Activities",
-      "summary": "Viewing an Activity from an Activity Report\nActivities\nReporting\n+\n2\nRun an Activity Report\nNavigate to Reports and select a\nStandard Activity Report\nor\n+Create\na custom report\nTo view an activity..."
-    },
-    {
-      "title": "Importing Activity Data",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/importing-activity-data-v9FqeIW19Z/Steps/1116277",
-      "category": "Topics > Donor Communications > Activities",
-      "summary": "Importing Activity Data\nActivities\nImports\n+\n2\nActivity imports may be used to import incomplete or complete activities to track in DonorDock for Emails, Letters, Texts, Phone Calls, Meetings,..."
+      "summary": "Asks\n9/22/2026\nActivities\nAsks\nMoves Management\n+\n3\nAsk activities in DonorDock are used to plan, track, and manage fundraising requests as part of a structured moves management process."
     },
     {
       "title": "Online Giving Overview 💜",
