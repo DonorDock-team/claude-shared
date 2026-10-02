@@ -2,9 +2,9 @@
   "help_center": {
     "name": "DonorDock Help Center",
     "base_url": "https://helpcenter.donordock.com",
-    "scraped_at": "2026-09-25T14:09:20Z",
-    "total_articles": 335,
-    "total_categories": 24,
+    "scraped_at": "2026-10-02T14:09:15Z",
+    "total_articles": 338,
+    "total_categories": 25,
     "format": "compact"
   },
   "category_index": {
@@ -28,9 +28,11 @@
       "Deep Dive into Segmentation and Reporting",
       "Preparing Data for Import",
       "Step by Step Import Process",
-      "Changing Records through Import"
+      "Changing Records through Import",
+      "Updating a Stripe Subscription to DonorDock Product"
     ],
     "Product Updates": [
+      "Product Updates 9.24.2026",
       "Product Updates 9.18.2026",
       "Product Updates 9.13.2026",
       "Product Updates 9.7.2026",
@@ -123,6 +125,9 @@
       "Email Notifications for Gifts",
       "Event Tracking in DonorDock"
     ],
+    "Topics > Forms": [
+      "Online Giving Forms vs. Outreach Forms"
+    ],
     "Topics > Reporting": [
       "Reporting Overview 💜",
       "Reporting on DAFpay Gifts in DonorDock",
@@ -131,14 +136,11 @@
       "End of Year Gift Reporting",
       "Birthdays in Reports",
       "Campaign Reports",
-      "In Kind Gift Reporting",
-      "Soft Credit Gift Reports",
       "Exporting Data from Reports",
       "Creating Labels with DonorDock and Microsoft Office",
       "Pledge Reporting",
       "Recurring Online Donor Reports",
       "Volunteer Reports",
-      "Batch Printing of Letters and Printing or Emailing Receipts",
       "Creating a Report based on Contact's Location for Marketing Lists",
       "Creating Activities in Bulk Using Reports",
       "Navigating to an Activity record from an Activity Report",
@@ -193,8 +195,6 @@
       "Installing Eventbrite in Integration Builder",
       "Disconnect QuickBooks Online from DonorDock",
       "QuickBooks Online Disconnected",
-      "Stripe Integration",
-      "How to Connect DonorDock to Stripe Payments Without Giving Pages",
       "Golden and DonorDock",
       "QuickBooks Desktop Integration Setup",
       "DonorDock & QuickBooks Online via Zapier",
@@ -358,27 +358,32 @@
     ],
     "Topics > Forms > Online Giving": [
       "Online Giving Overview 💜",
+      "Set Up Online Giving Payment Processing",
+      "Create and Customize an Online Giving Form",
+      "Manage Online Giving Forms",
+      "Share and Embed Online Giving Forms",
+      "Donor Payment Methods and Digital Wallets",
       "DAFpay with DonorDock",
-      "Online Giving Page Examples",
-      "Online Giving Payment Processor Setup",
-      "Understanding Online Giving Fields",
-      "Sharing Giving Pages with links, embeds, and text messages",
-      "Creating An Online Giving Page",
       "Membership Online Giving Pages",
-      "Updating, Pausing, or Canceling a Subscription Payment in Stripe",
-      "Transitioning Recurring Donors to DonorDock",
-      "Setting Up Automatic Thank You Emails for Online Giving",
-      "Specifying Funds for Online Giving Designation",
-      "Stripe Payment Migration Services",
-      "Payment Options accepted with Stripe",
-      "Embedded Videos and Font colors",
-      "Stripe Radar Fraud Protection"
+      "Automatic Thank-You and Receipt Emails",
+      "Managing Stripe Recurring Subscriptions",
+      "Transition Existing Recurring Donors to DonorDock",
+      "Donor Transition Email Template",
+      "Stripe Payment Data Migration Services",
+      "Track Online Giving Traffic and Conversions",
+      "Online Giving Fees and Donor Fee Coverage",
+      "Stripe Radar and Fraud Prevention for Online Giving",
+      "Online Giving Page Examples",
+      "Designate Online Gifts to Funds"
     ],
-    "Topics > Forms > Forms": [
-      "Signup Forms Overview 💜",
-      "Signup Form Examples",
-      "Sharing a Signup Form on your Website",
-      "Using Signup Forms for Simple RSVP Lists"
+    "Topics > Forms > Outreach Forms": [
+      "Outreach Forms Overview 💜",
+      "Create and Configure an Outreach Form",
+      "Share and Embed Outreach Forms",
+      "View and Report on Form Responses",
+      "Manage Outreach Forms",
+      "Use Outreach Forms for RSVPs and Event Registration",
+      "Outreach Form Examples"
     ],
     "Topics > Integrations > Integration Builder Apps": [
       "QuickBooks Online",
@@ -500,6 +505,18 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/changing-records-through-import-tpMEbG8Yxj/Steps/5902115",
       "category": "Video Guides",
       "summary": "Changing Records through Import\n8/21/2026\nImports\nMigrations\nTraining Video\nvideo\n+\n4\nLearn how to use the import tool to update existing contacts, gifts, and activities in DonorDock."
+    },
+    {
+      "title": "Updating a Stripe Subscription to DonorDock Product",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/updating-a-stripe-subscription-to-donordock-product-7UytIgsctY/Steps/6020332",
+      "category": "Video Guides",
+      "summary": "Updating a Stripe Subscription to DonorDock Product\n9/30/2026\nImports\nMigrations\nTraining Video\nvideo\n+\n4\nThis video walks through updating an existing recurring subscription in Stripe so it uses..."
+    },
+    {
+      "title": "Product Updates 9.24.2026",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-9-24-2026-7dwyNvHvNw/Steps/6011637",
+      "category": "Product Updates",
+      "summary": "Product Updates 9.24.2026\n9/25/2026\nRelease Notes\n+\n1\nNew features & improvements\nGift notifications: more gift details\nNew gift notification emails now include additional details such as..."
     },
     {
       "title": "Product Updates 9.18.2026",
@@ -895,7 +912,7 @@
       "title": "Recurring Gifts Overview 💜",
       "url": "https://helpcenter.donordock.com/kb/guide/en/recurring-gifts-overview-TRXvFXTeE4/Steps/1597465",
       "category": "Topics > Transactions",
-      "summary": "Recurring Gifts Overview\n8/27/2026\nGift Tags\nRecurring Donations\nTransactions\n+\n3\nRecurring gifts are donations scheduled to process automatically on an ongoing basis."
+      "summary": "Recurring Gifts Overview\n9/30/2026\nGift Tags\nRecurring Donations\nTransactions\n+\n3\nRecurring gifts are donations scheduled to process automatically on an ongoing basis."
     },
     {
       "title": "Manually Creating Gifts",
@@ -1000,6 +1017,12 @@
       "summary": "Event Tracking in DonorDock\n8/27/2026\nEvents\nGifts\nTransactions\n+\n3\nEvents are a great way to connect with donors and prospects, share your mission, and support your organization's fundraising goals."
     },
     {
+      "title": "Online Giving Forms vs. Outreach Forms",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/online-giving-forms-vs-outreach-forms-NLSMFte2Du/Steps/6014272",
+      "category": "Topics > Forms",
+      "summary": "Online Giving Forms vs. Outreach Forms\n9/28/2026\nForms\n+\n1\nDonorDock offers two types of forms that let your organization collect information directly from supporters: Online Giving Forms and..."
+    },
+    {
       "title": "Reporting Overview 💜",
       "url": "https://helpcenter.donordock.com/kb/guide/en/reporting-overview-t8j3QSxZZz/Steps/1537018",
       "category": "Topics > Reporting",
@@ -1009,7 +1032,7 @@
       "title": "Reporting on DAFpay Gifts in DonorDock",
       "url": "https://helpcenter.donordock.com/kb/guide/en/reporting-on-dafpay-gifts-in-donordock-ellEMRSTeF/Steps/4746589",
       "category": "Topics > Reporting",
-      "summary": "Reporting on Donor Advised Funds (DAFs) and DAFpay Gifts in DonorDock\n8/26/2026\nDAF\nDonor Advised Funds\nGifts\nReporting\nReports\nTransactions\n+\n6\nReporting is a crucial aspect of understanding donor..."
+      "summary": "Reporting on Donor Advised Funds (DAFs) and DAFpay Gifts in DonorDock\n9/29/2026\nDAF\nDonor Advised Funds\nGifts\nReporting\nReports\nTransactions\n+\n6\nReporting is a crucial aspect of understanding donor..."
     },
     {
       "title": "Reports Dashboard",
@@ -1042,18 +1065,6 @@
       "summary": "Campaign Reports\nCampaigns\nGifts\nReporting\n+\n3\nCampaigns are the objectives that house appeals, funds and grants, spreading the message as to what your organization is raising money for."
     },
     {
-      "title": "In Kind Gift Reporting",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/in-kind-gift-reporting-DZh5D1F1oV/Steps/1220022",
-      "category": "Topics > Reporting",
-      "summary": "In Kind Gift Reports\nGifts\nReporting\n+\n2\nAn In Kind gift is a gift of goods or services to an organization, such as office equipment, computers, and software or administrative and financial support."
-    },
-    {
-      "title": "Soft Credit Gift Reports",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/soft-credit-gift-reports-4qCbZay2Xq/Steps/1227067",
-      "category": "Topics > Reporting",
-      "summary": "Soft Credit Gift Reporting\nReporting\n+\n1\nSoft credits represent recognition of credit for donations. Soft credits help to better understand a donor's history and their level of contribution."
-    },
-    {
       "title": "Exporting Data from Reports",
       "url": "https://helpcenter.donordock.com/kb/guide/en/exporting-data-from-reports-UB61HbMT7z/Steps/1219973",
       "category": "Topics > Reporting",
@@ -1082,12 +1093,6 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/volunteer-reports-YuikcJlRn0/Steps/1227166",
       "category": "Topics > Reporting",
       "summary": "Volunteer Reports in DonorDock\nReporting\nVolunteer\n+\n2\nVolunteers are a vital part of any nonprofit, and tracking donated time helps you measure engagement and recognize their contributions."
-    },
-    {
-      "title": "Batch Printing of Letters and Printing or Emailing Receipts",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/batch-printing-of-letters-and-printing-or-emailing-receipts-6lO7Cyvksx/Steps/1116390",
-      "category": "Topics > Reporting",
-      "summary": "Batch Printing of Letters and Printing or Emailing Receipts\nReporting\n+\n1\nWhen running reports, you may easily complete bulk actions such as sending receipts or thank you letters through the report..."
     },
     {
       "title": "Creating a Report based on Contact's Location for Marketing Lists",
@@ -1376,18 +1381,6 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/quickbooks-online-disconnected-QGX5iJhUUe/Steps/3802439",
       "category": "Topics > Integrations",
       "summary": "QuickBooks Online Disconnected\nIf you have disconnected QuickBooks Online from DonorDock in error, use the following steps to re-connect:\nLog in to DonorDock\nNavigate to the Settings Menu (grid icon..."
-    },
-    {
-      "title": "Stripe Integration",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/stripe-integration-1ivPSLNQmn/Steps/1116412",
-      "category": "Topics > Integrations",
-      "summary": "Stripe Integration\nIntegrations\nStripe\n+\n2\nDonorDock provides a native integration to the Stripe payment processing platform."
-    },
-    {
-      "title": "How to Connect DonorDock to Stripe Payments Without Giving Pages",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/how-to-connect-donordock-to-stripe-payments-without-giving-pages-tSO3UhddvO/Steps/1116420",
-      "category": "Topics > Integrations",
-      "summary": "How to Connect DonorDock to Stripe Payments Without Giving Pages\nIntegrations\nStripe\n+\n2\nDonorDock Integrates automatically with Stripe through Giving Pages."
     },
     {
       "title": "Golden and DonorDock",
@@ -2233,43 +2226,43 @@
       "title": "Online Giving Overview 💜",
       "url": "https://helpcenter.donordock.com/kb/guide/en/online-giving-overview-oigm9umSjA/Steps/1116318",
       "category": "Topics > Forms > Online Giving",
-      "summary": "Online Giving Overview\n8/18/2026\nOnline Giving\n+\n1\nDonorDock Online Giving Pages allow your organization to collect donations online."
+      "summary": "Online Giving Overview\n9/30/2026\nGiving Pages\nOnline Giving\nPayment Page\n+\n3\nDonorDock Online Giving Forms let your organization collect donations and other payments online while automatically..."
+    },
+    {
+      "title": "Set Up Online Giving Payment Processing",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/set-up-online-giving-payment-processing-msK1i6KxKC/Steps/1357478",
+      "category": "Topics > Forms > Online Giving",
+      "summary": "Set Up Online Giving Payment Processing\n9/30/2026\nPayPal\nStripe\n+\n2\nBefore your organization can accept electronic payments through DonorDock Online Giving Forms, you must connect at least one..."
+    },
+    {
+      "title": "Create and Customize an Online Giving Form",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/create-and-customize-an-online-giving-form-IbwiiyR2at/Steps/1352614",
+      "category": "Topics > Forms > Online Giving",
+      "summary": "Create and Customize an Online Giving Form\n9/29/2026\nForms\nGiving Pages\nOnline Giving\nPayment Page\n+\n4\nOnline Giving Forms can be tailored to various fundraising purposes, letting your organization..."
+    },
+    {
+      "title": "Manage Online Giving Forms",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/manage-online-giving-forms-3UhHtm7CRu/Steps/1710134",
+      "category": "Topics > Forms > Online Giving",
+      "summary": "Manage Online Giving Forms\n9/29/2026\nForms\nGiving Pages\nOnline Giving\nPayment Page\n+\n4\nAfter an Online Giving Form has been created, it can be managed from the Online Giving area in DonorDock."
+    },
+    {
+      "title": "Share and Embed Online Giving Forms",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/share-and-embed-online-giving-forms-U6ZUeHZT6I/Steps/1317598",
+      "category": "Topics > Forms > Online Giving",
+      "summary": "Share and Embed Online Giving Forms\n9/29/2026\nForms\nGiving Pages\nOnline Giving\nPayment Page\ntext-to-donate\n+\n5\nOnce an Online Giving Form has been published, DonorDock provides several ways to share..."
+    },
+    {
+      "title": "Donor Payment Methods and Digital Wallets",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/donor-payment-methods-and-digital-wallets-DCMK2RrTFY/Steps/2796416",
+      "category": "Topics > Forms > Online Giving",
+      "summary": "Donor Payment Methods and Digital Wallets\n9/29/2026\nForms\nGiving Pages\nOnline Giving\nPayment Page\nStripe\n+\n5\nDonorDock Online Giving Forms offer multiple options for donors to make a Gift, depending..."
     },
     {
       "title": "DAFpay with DonorDock",
       "url": "https://helpcenter.donordock.com/kb/guide/en/dafpay-with-donordock-1lYQnbVhwp/Steps/4711347",
       "category": "Topics > Forms > Online Giving",
-      "summary": "DAFpay with DonorDock\n8/26/2026\nChariot\nDAF\nDonor Advised Funds\nGifts\nOnline Giving\nTransactions\n+\n6\nDonorDock giving pages include\nDAFpay\npowered by\nChariot\n, the leading payments platform for..."
-    },
-    {
-      "title": "Online Giving Page Examples",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/online-giving-page-examples-lDyACy67Ju/Steps/2442835",
-      "category": "Topics > Forms > Online Giving",
-      "summary": "Online Giving Page Examples\nDonorDock Online Giving Pages allow your organization to collect donations online.\nAll Gifts placed through DonorDock giving pages will automatically be created in..."
-    },
-    {
-      "title": "Online Giving Payment Processor Setup",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/online-giving-payment-processor-setup-msK1i6KxKC/Steps/1357478",
-      "category": "Topics > Forms > Online Giving",
-      "summary": "Set up your Organization's Online Giving Payment Method\nTo set up your Online Giving pages, you will need to connect a payment processor to DonorDock."
-    },
-    {
-      "title": "Understanding Online Giving Fields",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/understanding-online-giving-fields-3UhHtm7CRu/Steps/1710134",
-      "category": "Topics > Forms > Online Giving",
-      "summary": "Understanding Online Giving Fields\nSettings for the giving page are divided into different segments for ease of access and editing.\nThe Sharing section is only visible on published giving pages."
-    },
-    {
-      "title": "Sharing Giving Pages with links, embeds, and text messages",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/sharing-giving-pages-with-links-embeds-and-text-messages-U6ZUeHZT6I/Steps/1317598",
-      "category": "Topics > Forms > Online Giving",
-      "summary": "Sharing Giving Pages\nOnline Giving\ntext-to-donate\n+\n2\nDonorDock Giving Pages can be distributed in several different ways."
-    },
-    {
-      "title": "Creating An Online Giving Page",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-an-online-giving-page-IbwiiyR2at/Steps/1352614",
-      "category": "Topics > Forms > Online Giving",
-      "summary": "Creating an Online Giving Page\nNew Giving Pages may be created by navigating to\nOnline Giving\nand clicking\n+Add Giving Page\nat the top right of the page."
+      "summary": "DAFpay with DonorDock\n9/29/2026\nChariot\nDAF\nDonor Advised Funds\nGifts\nOnline Giving\nTransactions\n+\n6\nDonorDock giving pages include DAFpay powered by\nChariot\n, the leading payments platform for..."
     },
     {
       "title": "Membership Online Giving Pages",
@@ -2278,76 +2271,106 @@
       "summary": "Membership Online Giving Pages\nYou can now create giving pages linked to specific Membership Types in DonorDock.\nThis feature allows you to assign a preset giving amount to a Membership Type."
     },
     {
-      "title": "Updating, Pausing, or Canceling a Subscription Payment in Stripe",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/updating-pausing-or-canceling-a-subscription-payment-in-stripe-2Rjnwe7jw5/Steps/1116316",
+      "title": "Automatic Thank-You and Receipt Emails",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/automatic-thank-you-and-receipt-emails-l69UUC5LC2/Steps/1116332",
       "category": "Topics > Forms > Online Giving",
-      "summary": "Updating, Pausing, or Canceling a Subscription Payment in Stripe\nGifts\nSettings\nStripe\n+\n3\nWhile we are not Stripe Support or Stripe experts you may find these directions helpful when managing your..."
+      "summary": "Automatic Thank-You and Receipt Emails\n9/30/2026\nForms\nGiving Pages\nOnline Giving\nPayment Page\nReceipts\n+\n5\nDonorDock can automatically send a Thank You or Receipt email when a donor completes a..."
     },
     {
-      "title": "Transitioning Recurring Donors to DonorDock",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/transitioning-recurring-donors-to-donordock-DFukTTrXtx/Steps/1116330",
+      "title": "Managing Stripe Recurring Subscriptions",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/managing-stripe-recurring-subscriptions-tB7hTHovZS/Steps/6020149",
       "category": "Topics > Forms > Online Giving",
-      "summary": "Transitioning Recurring Donors to DonorDock\n6/30/2026\nOnline Giving\n+\n1\nOnce you've transitioned to\nDonorDock Online Giving\n, your organization may have past recurring donors and donations that you..."
+      "summary": "Managing Stripe Recurring Subscriptions\n9/30/2026\nForms\nGiving Pages\nMetadata\nOnline Giving\nPayment Page\nRecurring Donors\nRecurring Subscriptions\n+\n7\nRecurring Subscriptions allow donors to..."
     },
     {
-      "title": "Setting Up Automatic Thank You Emails for Online Giving",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/setting-up-automatic-thank-you-emails-for-online-giving-l69UUC5LC2/Steps/1116332",
+      "title": "Transition Existing Recurring Donors to DonorDock",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/transition-existing-recurring-donors-to-donordock-DFukTTrXtx/Steps/1116330",
       "category": "Topics > Forms > Online Giving",
-      "summary": "Setting Up Automatic Thank You Emails for Online Giving\n8/27/2026\nOnline Giving\nReceipts\n+\n2\nDonorDock can automatically send a Thank You or Receipt email when a donor completes a gift through a..."
+      "summary": "Transition Existing Recurring Donors to DonorDock\n9/30/2026\nForms\nOnline Giving\nRecurring Subscriptions\nStripe\n+\n4\nWhen your organization begins using DonorDock Online Giving, you may already have..."
     },
     {
-      "title": "Specifying Funds for Online Giving Designation",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/specifying-funds-for-online-giving-designation-ZOHbS828FS/Steps/1116333",
+      "title": "Donor Transition Email Template",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/donor-transition-email-template-3dIJxxegKN/Steps/1139644",
       "category": "Topics > Forms > Online Giving",
-      "summary": "Set Fund Designation on a Giving Page\nFunds\nOnline Giving\n+\n2\nDonorDock Giving Pages work together with Funds to help you with designating gifts."
+      "summary": "Using a Donor Transition Email Template\n9/30/2026\nOnline Giving\nRecurring Donations\nRecurring Donors\nRecurring Subscriptions\n+\n4\nTo help your current donors transfer their donations to DonorDock's..."
     },
     {
-      "title": "Stripe Payment Migration Services",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/stripe-payment-migration-services-E4668GPvq1/Steps/2194281",
+      "title": "Stripe Payment Data Migration Services",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/stripe-payment-data-migration-services-E4668GPvq1/Steps/2194281",
       "category": "Topics > Forms > Online Giving",
-      "summary": "Stripe Payment Migration Services\nStripe can migrate data from any payment processor into your stripe account.\nThe migration request needs to come directly from the Stripe account holder via this..."
+      "summary": "Stripe Payment Data Migration Services\n9/30/2026\nPayment Page\nRecurring Donations\nRecurring Donors\nRecurring Subscriptions\nStripe\n+\n5\nIf your organization is moving to Stripe from another payment..."
     },
     {
-      "title": "Payment Options accepted with Stripe",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/payment-options-accepted-with-stripe-DCMK2RrTFY/Steps/2796416",
+      "title": "Track Online Giving Traffic and Conversions",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/track-online-giving-traffic-and-conversions-4IQGMqY2Sf/Steps/6020368",
       "category": "Topics > Forms > Online Giving",
-      "summary": "Payment Options accepted with Stripe\n6/11/2026\nDonors placing donations through giving pages connected with Stripe, will have payment options to pay via Credit Card, ACH, Cash App, Google Pay, or..."
+      "summary": "Track Online Giving Traffic and Conversions\n9/30/2026\nPayment Page\nRecurring Donations\nRecurring Donors\nRecurring Subscriptions\nStripe\n+\n5\nDonorDock can connect your Online Giving Forms with..."
     },
     {
-      "title": "Embedded Videos and Font colors",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/embedded-videos-and-font-colors-upz8mFjsar/Steps/2873332",
+      "title": "Online Giving Fees and Donor Fee Coverage",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/online-giving-fees-and-donor-fee-coverage-FF6iCEKSlh/Steps/1935110",
       "category": "Topics > Forms > Online Giving",
-      "summary": "Embedded Videos and Font colors\nIn our ongoing effort to improve security and prepare for future product enhancements, on 10/18/2023, some functionality previously available in DonorDock Giving..."
+      "summary": "Online Giving Fees and Donor Fee Coverage\n9/30/2026\nFees\nGiving Pages\nOnline Giving\nPayment Page\n+\n4\nGifts processed through DonorDock Online Giving may include fees from both DonorDock and the..."
     },
     {
-      "title": "Stripe Radar Fraud Protection",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/stripe-radar-fraud-protection-Ittlru35EG/Steps/4363990",
+      "title": "Stripe Radar and Fraud Prevention for Online Giving",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/stripe-radar-and-fraud-prevention-for-online-giving-Ittlru35EG/Steps/4363990",
       "category": "Topics > Forms > Online Giving",
-      "summary": "Stripe Radar Fraud Protection\nStripe has a program called Radar that can be added to your Stripe account to help enhance fraud detection."
+      "summary": "Stripe Radar and Fraud Prevention for Online Giving\n9/30/2026\nCard Testing\nFraud\nOnline Giving\nRadar\nStripe\n+\n5\nDonorDock Giving Pages include built-in security measures to protect donor information..."
     },
     {
-      "title": "Signup Forms Overview 💜",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/signup-forms-overview-4iZpcNZU0R/Steps/1116357",
-      "category": "Topics > Forms > Forms",
-      "summary": "Signup Forms Overview\n8/18/2026\nSign Up Forms\n+\n1\nDonorDock includes a built-in Signup Form tool that allows your organization to collect contact information and areas of interest directly from your..."
+      "title": "Online Giving Page Examples",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/online-giving-page-examples-lDyACy67Ju/Steps/2442835",
+      "category": "Topics > Forms > Online Giving",
+      "summary": "Online Giving Page Examples\n9/30/2026\nExamples\nGiving Pages\nOnline Giving\n+\n3\nDonorDock Online Giving Pages simplify how your organization gathers online donations while keeping donor and Gift..."
     },
     {
-      "title": "Signup Form Examples",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/signup-form-examples-d0iT8QJwwa/Steps/2441183",
-      "category": "Topics > Forms > Forms",
-      "summary": "Signup Form Examples\nDonorDock Signup forms are designed for simple information gathering to help with your organization's marketing needs."
+      "title": "Designate Online Gifts to Funds",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/designate-online-gifts-to-funds-ZOHbS828FS/Steps/1116333",
+      "category": "Topics > Forms > Online Giving",
+      "summary": "Designate Online Gifts to Funds\n9/30/2026\nFunds\nGiving Pages\nOnline Giving\n+\n3\nDonorDock Giving Pages can work with Funds to automatically designate Online Giving Gifts to the appropriate area of..."
     },
     {
-      "title": "Sharing a Signup Form on your Website",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/sharing-a-signup-form-on-your-website-MEgeJ38RjO/Steps/2485625",
-      "category": "Topics > Forms > Forms",
-      "summary": "Sharing a Signup Form on your Website\nDonorDock Signup Forms may be shared using an embed code on your website, or by sharing the direct link for the form."
+      "title": "Outreach Forms Overview 💜",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/outreach-forms-overview-4iZpcNZU0R/Steps/1116357",
+      "category": "Topics > Forms > Outreach Forms",
+      "summary": "Outreach Forms Overview\n10/1/2026\nForms\nOutreach\nSign Up Forms\n+\n3\nOutreach Forms allow your organization to collect information from supporters without requiring payment."
     },
     {
-      "title": "Using Signup Forms for Simple RSVP Lists",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/using-signup-forms-for-simple-rsvp-lists-YRO29ZCf6R/Steps/1365445",
-      "category": "Topics > Forms > Forms",
-      "summary": "Using Signup Forms for Simple RSVP Lists\nSign Up Forms\n+\n1\nDonorDock's signup forms may be used with Templates and Email Outreach to create marketing lists for RSVP lists."
+      "title": "Create and Configure an Outreach Form",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/create-and-configure-an-outreach-form-aC3EQU8gjS/Steps/6020551",
+      "category": "Topics > Forms > Outreach Forms",
+      "summary": "Create and Configure an Outreach Form\n10/1/2026\nForms\nOutreach\nSign Up Forms\n+\n3\nOutreach Forms enable you to gather supporter information and send it directly to DonorDock."
+    },
+    {
+      "title": "Share and Embed Outreach Forms",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/share-and-embed-outreach-forms-MEgeJ38RjO/Steps/2485625",
+      "category": "Topics > Forms > Outreach Forms",
+      "summary": "Share and Embed Outreach Forms\n10/1/2026\nForms\nSign Up Forms\n+\n2\nOnce an Outreach Form has been published, DonorDock provides several ways to share it with supporters."
+    },
+    {
+      "title": "View and Report on Form Responses",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/view-and-report-on-form-responses-sbtWKsD3Wk/Steps/6021707",
+      "category": "Topics > Forms > Outreach Forms",
+      "summary": "View and Report on Form Responses\n10/1/2026\nForms\nSign Up Forms\n+\n2\nEach time someone submits an Outreach Form, DonorDock creates a Form Response connected to that submission."
+    },
+    {
+      "title": "Manage Outreach Forms",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/manage-outreach-forms-IquBEBCI5d/Steps/6021716",
+      "category": "Topics > Forms > Outreach Forms",
+      "summary": "Manage Outreach Forms\n10/1/2026\nForms\nSign Up Forms\n+\n2\nOnce an Outreach Form has been created, you can return to it at any time to update its content, review responses, change its status, or access..."
+    },
+    {
+      "title": "Use Outreach Forms for RSVPs and Event Registration",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/use-outreach-forms-for-rsvps-and-event-registration-YRO29ZCf6R/Steps/1365445",
+      "category": "Topics > Forms > Outreach Forms",
+      "summary": "Use Outreach Forms for RSVPs and Event Registration\n10/1/2026\nForms\nSign Up Forms\n+\n2\nOutreach Forms can be used to collect RSVPs and event registrations when you need to gather attendee information..."
+    },
+    {
+      "title": "Outreach Form Examples",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/outreach-form-examples-d0iT8QJwwa/Steps/2441183",
+      "category": "Topics > Forms > Outreach Forms",
+      "summary": "Outreach Form Examples\n10/1/2026\nForms\nSign Up Forms\n+\n2\nDonorDock Outreach Forms are designed to help your organization collect information from supporters and bring those responses directly into..."
     },
     {
       "title": "QuickBooks Online",
