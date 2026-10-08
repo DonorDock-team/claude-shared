@@ -3,7 +3,7 @@
 DonorDock Help Center Release Notes Fetcher
 ===========================================
 Scrapes https://helpcenter.donordock.com/kb/en/product-updates-150346 for
-release-note entries published after a given date, then fetches each article
+release-note entries published on or after a given date, then fetches each article
 and parses its sections into a structured digest.
 
 Output: JSON with an `entries` array. Each entry:
@@ -11,7 +11,14 @@ Output: JSON with an `entries` array. Each entry:
     other: [...], raw_markdown }
 
 Usage:
-    python3 fetch-release-notes.py --since YYYY-MM-DD --output digest.json
+    python3 fetch-release-notes.py --since YYYY-MM-DD --output digest.json \
+        [--exclude-urls-from state.json]
+
+The --since date is INCLUSIVE: a note dated on the cutoff day is in scope. That
+closes a gap where a note dated on the cutoff day but posted after that week's
+run fell between two windows (Product Updates 9-18-2026 was missed that way).
+Pass --exclude-urls-from with the audit's state.json so notes already audited
+(its `last_release_note_urls`) are not audited twice.
 """
 
 import argparse
@@ -84,6 +91,11 @@ def discover_entries():
     return entries
 
 
+def guide_key(url):
+    """Stable identity for a Help Center guide: the URL up to /Steps/."""
+    return url.split("/Steps/")[0].rstrip("/")
+
+
 def classify_heading(text):
     t = (text or "").strip().lower()
     for bucket, keywords in SECTION_KEYWORDS.items():
@@ -125,7 +137,8 @@ def parse_article(url):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--since", required=True, help="ISO date YYYY-MM-DD. Only entries after this date are fetched.")
+    ap.add_argument("--since", required=True, help="ISO date YYYY-MM-DD. Entries dated on or after this date are fetched (inclusive).")
+    ap.add_argument("--exclude-urls-from", help="JSON file holding a list of URLs, or an object with `last_release_note_urls`. Those entries are skipped as already audited.")
     ap.add_argument("--output", default="release-digest.json")
     ap.add_argument("--delay", type=float, default=0.3)
     args = ap.parse_args()
@@ -140,14 +153,25 @@ def main():
     entries = discover_entries()
     print(f"Found {len(entries)} candidate entries on index page.")
 
+    audited = set()
+    if args.exclude_urls_from:
+        with open(args.exclude_urls_from) as f:
+            data = json.load(f)
+        urls = data.get("last_release_note_urls", []) if isinstance(data, dict) else data
+        audited = {guide_key(u) for u in urls}
+
     scoped = []
     for e in entries:
         if not e["date"]:
             continue
-        if datetime.fromisoformat(e["date"]).date() > since:
-            scoped.append(e)
+        if datetime.fromisoformat(e["date"]).date() < since:
+            continue
+        if guide_key(e["url"]) in audited:
+            print(f"  skipping already-audited {e['date']}  {e['title']}")
+            continue
+        scoped.append(e)
 
-    print(f"{len(scoped)} entries newer than {since.isoformat()}.")
+    print(f"{len(scoped)} entries on or after {since.isoformat()} not yet audited.")
 
     digest = {"since": since.isoformat(), "fetched_at": datetime.utcnow().isoformat() + "Z", "entries": []}
 
