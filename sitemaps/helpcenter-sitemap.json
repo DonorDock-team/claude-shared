@@ -2,8 +2,8 @@
   "help_center": {
     "name": "DonorDock Help Center",
     "base_url": "https://helpcenter.donordock.com",
-    "scraped_at": "2026-10-02T14:09:15Z",
-    "total_articles": 338,
+    "scraped_at": "2026-10-09T14:39:35Z",
+    "total_articles": 342,
     "total_categories": 25,
     "format": "compact"
   },
@@ -130,21 +130,25 @@
     ],
     "Topics > Reporting": [
       "Reporting Overview 💜",
-      "Reporting on DAFpay Gifts in DonorDock",
+      "Creating a Report",
+      "Contact Reports",
+      "Gift Reports",
+      "Activity Reports",
+      "Customizing, Filtering, Sorting, and Grouping Reports",
+      "Saving and Managing Custom Reports",
+      "Exporting Report Data",
+      "Creating Activities in Bulk Using Reports",
       "Reports Dashboard",
-      "Using Reports to create Mailing Lists",
+      "Reporting on DAFpay Gifts in DonorDock",
       "End of Year Gift Reporting",
       "Birthdays in Reports",
       "Campaign Reports",
-      "Exporting Data from Reports",
       "Creating Labels with DonorDock and Microsoft Office",
       "Pledge Reporting",
       "Recurring Online Donor Reports",
       "Volunteer Reports",
       "Creating a Report based on Contact's Location for Marketing Lists",
-      "Creating Activities in Bulk Using Reports",
       "Navigating to an Activity record from an Activity Report",
-      "How to Add Badges in Bulk through Reports",
       "Running a Top Donor Report in DonorDock",
       "Email Statistic Reports",
       "Campaign Report Dashboard",
@@ -1026,13 +1030,55 @@
       "title": "Reporting Overview 💜",
       "url": "https://helpcenter.donordock.com/kb/guide/en/reporting-overview-t8j3QSxZZz/Steps/1537018",
       "category": "Topics > Reporting",
-      "summary": "Reporting Overview\n8/18/2026\nReporting\nReports\n+\n2\nReports help you make sense of the data you are tracking in DonorDock. They enable you to analyze contacts, gifts, and activities, allowing you to..."
+      "summary": "Reporting Overview\n10/9/2026\nReporting\nReports\n+\n2\nDonorDock's reporting tools help you understand the information your organization is tracking and turn that data into useful insights."
     },
     {
-      "title": "Reporting on DAFpay Gifts in DonorDock",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/reporting-on-dafpay-gifts-in-donordock-ellEMRSTeF/Steps/4746589",
+      "title": "Creating a Report",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-a-report-N3POapHZqT/Steps/6030600",
       "category": "Topics > Reporting",
-      "summary": "Reporting on Donor Advised Funds (DAFs) and DAFpay Gifts in DonorDock\n9/29/2026\nDAF\nDonor Advised Funds\nGifts\nReporting\nReports\nTransactions\n+\n6\nReporting is a crucial aspect of understanding donor..."
+      "summary": "Creating a Report\n10/8/2026\nReporting\nReports\n+\n2\nDonorDock Reports allow you to build a list of Contacts, Gifts, or Activities."
+    },
+    {
+      "title": "Contact Reports",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/contact-reports-TvauOkElrV/Steps/6032771",
+      "category": "Topics > Reporting",
+      "summary": "Contact Reports\n10/8/2026\nContact Reports\nReporting\nReports\n+\n3\nContact Reports help you learn more about the people, households, and organizations in your DonorDock database."
+    },
+    {
+      "title": "Gift Reports",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/gift-reports-LbeVGk5udT/Steps/6032954",
+      "category": "Topics > Reporting",
+      "summary": "Gift Reports\n10/8/2026\nGift Reports\nReporting\nReports\n+\n3\nGift Reports help you review and analyze the Gifts recorded in DonorDock."
+    },
+    {
+      "title": "Activity Reports",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/activity-reports-njCUwofyLE/Steps/6033003",
+      "category": "Topics > Reporting",
+      "summary": "Activity Reports\n10/8/2026\nActivity Reports\nReporting\nReports\n+\n3\nActivity Reports help you review the actions, communications, and engagement your organization tracks in DonorDock."
+    },
+    {
+      "title": "Customizing, Filtering, Sorting, and Grouping Reports",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/customizing-filtering-sorting-and-grouping-reports-kYQ8RVHI6f/Steps/6033064",
+      "category": "Topics > Reporting",
+      "summary": "Customizing, Filtering, Sorting, and Grouping Reports\n10/8/2026\nFilters\nReporting\nReports\n+\n3\nAfter generating a report in DonorDock, you can refine the results without starting from scratch."
+    },
+    {
+      "title": "Saving and Managing Custom Reports",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/saving-and-managing-custom-reports-Bzd3JlKeZg/Steps/6033085",
+      "category": "Topics > Reporting",
+      "summary": "Saving and Managing Custom Reports\n10/8/2026\nReporting\nReports\n+\n2\nIf you build or customize a report that your organization will use again, you can save it as a Custom Report instead of recreating..."
+    },
+    {
+      "title": "Exporting Report Data",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/exporting-report-data-UB61HbMT7z/Steps/1219973",
+      "category": "Topics > Reporting",
+      "summary": "Exporting Report Data\n10/8/2026\nExporting\nReporting\nReports\n+\n3\nReports can be exported from DonorDock whenever you want to save results, share information externally, or analyze data in other..."
+    },
+    {
+      "title": "Creating Activities in Bulk Using Reports",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-activities-in-bulk-using-reports-uBUcO6s4ZD/Steps/1220131",
+      "category": "Topics > Reporting",
+      "summary": "Creating Activities in Bulk Using Reports\nActivities\nReporting\nReports\n+\n3\nYou may have situations where you want to add an activity to multiple contacts."
     },
     {
       "title": "Reports Dashboard",
@@ -1041,10 +1087,10 @@
       "summary": "Dashboard\nReporting\n+\n1\nThe Dashboard may be access by clicking the DonorDock Logo in the top left of DonorDock, or navigating to\nReporting\n>\nDashboard\n."
     },
     {
-      "title": "Using Reports to create Mailing Lists",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/using-reports-to-create-mailing-lists-pwXSj1bXAt/Steps/1116387",
+      "title": "Reporting on DAFpay Gifts in DonorDock",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/reporting-on-dafpay-gifts-in-donordock-ellEMRSTeF/Steps/4746589",
       "category": "Topics > Reporting",
-      "summary": "Using Reports to create Mailing Lists\nContact List\nEmail Marketing\nReporting\n+\n3\nWhen creating appeals and deciding who you will be sending marketing communications to, often you will need to sort..."
+      "summary": "Reporting on Donor Advised Funds (DAFs) and DAFpay Gifts in DonorDock\n9/29/2026\nDAF\nDonor Advised Funds\nGifts\nReporting\nReports\nTransactions\n+\n6\nReporting is a crucial aspect of understanding donor..."
     },
     {
       "title": "End of Year Gift Reporting",
@@ -1063,12 +1109,6 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/campaign-reports-QM42txdkYr/Steps/1116363",
       "category": "Topics > Reporting",
       "summary": "Campaign Reports\nCampaigns\nGifts\nReporting\n+\n3\nCampaigns are the objectives that house appeals, funds and grants, spreading the message as to what your organization is raising money for."
-    },
-    {
-      "title": "Exporting Data from Reports",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/exporting-data-from-reports-UB61HbMT7z/Steps/1219973",
-      "category": "Topics > Reporting",
-      "summary": "Exporting Data from Reports\nReporting\n+\n1\nOnce a report has been run, you may create an activity directly from the report, add badges, marketing lists, send receipts, etc."
     },
     {
       "title": "Creating Labels with DonorDock and Microsoft Office",
@@ -1101,22 +1141,10 @@
       "summary": "Creating a Report based on Contact's Location for Marketing Lists\nContact List\nReporting\n+\n2\nMarketing Lists can be made directly from reports, to add multiple contacts at once to a list."
     },
     {
-      "title": "Creating Activities in Bulk Using Reports",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/creating-activities-in-bulk-using-reports-uBUcO6s4ZD/Steps/1220131",
-      "category": "Topics > Reporting",
-      "summary": "Creating Activities in Bulk Using Reports\nActivities\nReporting\n+\n2\nYou may have situations where you want to add an activity to multiple contacts."
-    },
-    {
       "title": "Navigating to an Activity record from an Activity Report",
       "url": "https://helpcenter.donordock.com/kb/guide/en/navigating-to-an-activity-record-from-an-activity-report-UxSjhj2T8Y/Steps/1220140",
       "category": "Topics > Reporting",
       "summary": "Navigating to an Activity record from an Activity Report\nActivities\n+\n1\nThrough reports, you can edit, delete, or mark an activity as completed by opening the record."
-    },
-    {
-      "title": "How to Add Badges in Bulk through Reports",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/how-to-add-badges-in-bulk-through-reports-fxgc0A462U/Steps/1227207",
-      "category": "Topics > Reporting",
-      "summary": "How to Add Badges in Bulk through Reports\nBadges\nReporting\n+\n2\nWhen pulling a report, you may easily label the contacts on the report with specific badge with the steps below."
     },
     {
       "title": "Running a Top Donor Report in DonorDock",
