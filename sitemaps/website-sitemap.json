@@ -3,16 +3,16 @@
     "name": "DonorDock Website",
     "base_url": "https://www.donordock.com",
     "source": "https://www.donordock.com/sitemap.xml",
-    "scraped_at": "2026-10-09T16:16:03Z",
-    "total_pages": 614,
+    "scraped_at": "2026-10-17T01:16:55Z",
+    "total_pages": 617,
     "total_sections": 7
   },
   "section_index": {
-    "articles": 312,
+    "articles": 313,
     "compare": 9,
-    "core": 86,
+    "core": 85,
     "features": 85,
-    "integrations": 60,
+    "integrations": 63,
     "success-stories": 15,
     "tools": 47
   },
@@ -121,8 +121,8 @@
     },
     {
       "url": "https://www.donordock.com/articles/basic-nonprofit-fund-accounting",
-      "title": "Nonprofit fund accounting 101",
-      "description": "Learn about the basics of fund accounting and how it can help your organization easily track your donations while showing accountability and good stewardship.",
+      "title": "Nonprofit Fund Accounting: How to Track Restricted Gifts",
+      "description": "Nonprofit fund accounting tracks every gift by purpose. Learn the ASU 2016-14 net asset classes, how to record restricted gifts, and how to report by fund.",
       "section": "articles"
     },
     {
@@ -655,8 +655,8 @@
     },
     {
       "url": "https://www.donordock.com/articles/end-of-year-email-appeal-create-an-email-to-engage-your-donors",
-      "title": "Best practices for crafting engaging end-of-year email appeals",
-      "description": "End-of-year is a critical time for fundraising, so let's dive into writing email appeals that engage your donors in a meaningful way.",
+      "title": "Year-End Appeal Templates: 5 Emails + Letters for 2026",
+      "description": "Five year-end appeal emails with printed letter versions, 2 to 3 subject lines each, donor segment notes and a GivingTuesday to December 31 send calendar.",
       "section": "articles"
     },
     {
@@ -1584,6 +1584,12 @@
       "section": "articles"
     },
     {
+      "url": "https://www.donordock.com/articles/switching-nonprofit-crm-data-ownership",
+      "title": "What Happens to Your Donor Data If You Leave Your CRM?",
+      "description": "Before you sign with any donor platform, check four things you cannot undo: who owns your data, how export works, where payments live, renewal terms.",
+      "section": "articles"
+    },
+    {
       "url": "https://www.donordock.com/articles/text-to-give",
       "title": "Text-to-Give for Nonprofits: How It Works and Best Practices",
       "description": "How text-to-give works for nonprofits, how it differs from text-to-donate, what it costs, and a three-text GivingTuesday sequence you can copy.",
@@ -1657,8 +1663,8 @@
     },
     {
       "url": "https://www.donordock.com/articles/the-ultimate-guide-to-givingtuesday",
-      "title": "The Ultimate Guide to GivingTuesday",
-      "description": "This Ultimate Guide to GivingTuesday is designed to empower your nonprofit this GivingTuesday We've packed this guide with insights and actionable strategies to help you succeed!",
+      "title": "The Ultimate Guide to GivingTuesday - Free Tools from DonorDock",
+      "description": "Designed to empower your nonprofit to succeed this GivingTuesday!",
       "section": "articles"
     },
     {
@@ -1957,8 +1963,8 @@
     },
     {
       "url": "https://www.donordock.com/academy",
-      "title": "DonorDock Academy",
-      "description": "Training to help you succeed with DonorDock: An all-in-one fundraising tool built for small to mid-sized nonprofits!",
+      "title": "Academy",
+      "description": null,
       "section": "core"
     },
     {
@@ -1969,8 +1975,8 @@
     },
     {
       "url": "https://www.donordock.com/articles",
-      "title": "DonorDock Articles and Blog",
-      "description": "Take your nonprofit to the next level with best practice advice on raising funds, engaging with donors, and donor management.",
+      "title": "Articles",
+      "description": null,
       "section": "core"
     },
     {
@@ -2013,18 +2019,6 @@
       "url": "https://www.donordock.com/compare",
       "title": "DonorDock vs Other Nonprofit CRMs | Platform Comparisons",
       "description": "See how DonorDock compares to popular nonprofit CRM platforms. One plan at $500/month includes CRM, email, online giving, text, project management, and AI.",
-      "section": "core"
-    },
-    {
-      "url": "https://www.donordock.com/comparison/salesforce-npc",
-      "title": "Salesforce Nonprofit Cloud Alternative | DonorDock",
-      "description": "Compare DonorDock and Salesforce Nonprofit Cloud. See setup time, total cost, and everyday ease side by side to find the right CRM for your nonprofit team.",
-      "section": "core"
-    },
-    {
-      "url": "https://www.donordock.com/comparison/salesforce-npsp",
-      "title": "Salesforce NPSP Alternative for Nonprofits | DonorDock",
-      "description": "Compare DonorDock and Salesforce Nonprofit Success Pack. See setup time, total cost, and everyday ease side by side to find the right CRM for your team.",
       "section": "core"
     },
     {
@@ -2103,6 +2097,12 @@
       "url": "https://www.donordock.com/fundraising-bootcamp",
       "title": "Free 7-Day Fundraising Bootcamp Email Series | DonorDock",
       "description": "Sign up for DonorDock’s free 7-day Fundraising Bootcamp email series and get 8 hours of actionable videos, tools, and strategies to focus your fundraising. Save time, and build stronger donor relationships, delivered straight to your inbox.",
+      "section": "core"
+    },
+    {
+      "url": "https://www.donordock.com/home-new",
+      "title": "Home New",
+      "description": "Steward donor relationships with an easy-to-use nonprofit CRM with email, text, project management, and giving pages all in one place.",
       "section": "core"
     },
     {
@@ -2312,7 +2312,7 @@
     {
       "url": "https://www.donordock.com/solution/fundraising-automation",
       "title": "Fundraising Automation Software for Nonprofits | DonorDock",
-      "description": "Automate donor follow-up, thank-yous, receipts, tasks, and stewardship journeys. DonorDock's fundraising automation gives lean nonprofit teams ten triggers, thirteen actions, and up to twenty steps per workflow.",
+      "description": "Automate donor follow-up, thank-yous, receipts, tasks, and stewardship journeys. DonorDock's fundraising automation gives lean nonprofit teams eleven triggers, thirteen actions, and up to twenty steps per workflow.",
       "section": "core"
     },
     {
@@ -3018,6 +3018,18 @@
       "section": "integrations"
     },
     {
+      "url": "https://www.donordock.com/integrations/chatgpt",
+      "title": "ChatGPT + DonorDock Integration",
+      "description": "Bring your live DonorDock data into ChatGPT with the DonorDock MCP. Ask questions, draft outreach, and log the follow-up in plain language. Requires a ChatGPT Business workspace.",
+      "section": "integrations"
+    },
+    {
+      "url": "https://www.donordock.com/integrations/claude",
+      "title": "Claude + DonorDock Integration",
+      "description": "Connect your live DonorDock data to Claude with the DonorDock MCP. Ask who lapsed, draft the thank-you, and log the activity in plain language, without exporting a thing.",
+      "section": "integrations"
+    },
+    {
       "url": "https://www.donordock.com/integrations/clickbid",
       "title": "Clickbid + DonorDock Integration",
       "description": "ClickBid is an event-fundraising platform built for nonprofits. It helps manage auction and bidding events, track bids, monitor sales, and consolidate data around auction items, winners, and payments.",
@@ -3123,6 +3135,12 @@
       "url": "https://www.donordock.com/integrations/google-forms",
       "title": "Google Forms + DonorDock Integration",
       "description": "Google Forms is an easy way to collect data from the web with a simple UI and powerful editor. Works hand-in-hand with Google Sheets!",
+      "section": "integrations"
+    },
+    {
+      "url": "https://www.donordock.com/integrations/google-gemini",
+      "title": "Google Gemini + DonorDock Integration",
+      "description": "Put your live DonorDock data to work in Google Gemini with the DonorDock MCP. Ask about donors, draft the outreach, and log the follow-up, all in plain language.",
       "section": "integrations"
     },
     {
