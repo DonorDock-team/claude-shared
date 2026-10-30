@@ -2,8 +2,8 @@
   "help_center": {
     "name": "DonorDock Help Center",
     "base_url": "https://helpcenter.donordock.com",
-    "scraped_at": "2026-10-23T14:08:51Z",
-    "total_articles": 343,
+    "scraped_at": "2026-10-30T14:08:24Z",
+    "total_articles": 346,
     "total_categories": 25,
     "format": "compact"
   },
@@ -32,7 +32,8 @@
       "Updating a Stripe Subscription to DonorDock Product"
     ],
     "Product Updates": [
-      "Copy of - Product Updates 9.24.2026",
+      "Product Updates 10.24.2026",
+      "Product Updates 10.10.2026",
       "Product Updates 9.24.2026",
       "Product Updates 9.18.2026",
       "Product Updates 9.13.2026",
@@ -379,7 +380,9 @@
       "Online Giving Fees and Donor Fee Coverage",
       "Stripe Radar and Fraud Prevention for Online Giving",
       "Online Giving Page Examples",
-      "Designate Online Gifts to Funds"
+      "Designate Online Gifts to Funds",
+      "Stripe Processing Fees and Nonprofit Pricing",
+      "Reconciling Stripe Payments, Processing Fees, and Radar Charges in DonorDock"
     ],
     "Topics > Forms > Outreach Forms": [
       "Outreach Forms Overview 💜",
@@ -518,10 +521,16 @@
       "summary": "Updating a Stripe Subscription to DonorDock Product\n9/30/2026\nImports\nMigrations\nTraining Video\nvideo\n+\n4\nThis video walks through updating an existing recurring subscription in Stripe so it uses..."
     },
     {
-      "title": "Copy of - Product Updates 9.24.2026",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/copy-of-product-updates-9-24-2026-oUQQhXR4PA/Steps/6036386",
+      "title": "Product Updates 10.24.2026",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-10-24-2026-zepC58EoLb/Steps/6059454",
       "category": "Product Updates",
-      "summary": "Product Updates 9.24.2026\n10/12/2026\nRelease Notes\n+\n1\nNew features & improvements\nForms: new submission, tracking, and duplication options\nForms now include several new tools to make them easier to..."
+      "summary": "Product Updates 10.24.2026\n10/26/2026\nRelease Notes\n+\n1\nNew features & improvements\nFunds: custom fields\nFunds now support custom fields, giving you more flexibility to track organization-specific..."
+    },
+    {
+      "title": "Product Updates 10.10.2026",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-10-10-2026-oUQQhXR4PA/Steps/6036386",
+      "category": "Product Updates",
+      "summary": "Product Updates 10.10.2026\n10/26/2026\nRelease Notes\n+\n1\nNew features & improvements\nForms: new submission, tracking, and duplication options\nForms now include several new tools to make them easier..."
     },
     {
       "title": "Product Updates 9.24.2026",
@@ -2364,6 +2373,18 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/designate-online-gifts-to-funds-ZOHbS828FS/Steps/1116333",
       "category": "Topics > Forms > Online Giving",
       "summary": "Designate Online Gifts to Funds\n9/30/2026\nFunds\nGiving Pages\nOnline Giving\n+\n3\nDonorDock Giving Pages can work with Funds to automatically designate Online Giving Gifts to the appropriate area of..."
+    },
+    {
+      "title": "Stripe Processing Fees and Nonprofit Pricing",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/stripe-processing-fees-and-nonprofit-pricing-kfFYjnRLR1/Steps/6068185",
+      "category": "Topics > Forms > Online Giving",
+      "summary": "Stripe Processing Fees and Nonprofit Pricing\n10/28/2026\nOnline Giving\nRadar\nStripe\n+\n3\nStripe offers eligible nonprofit organizations discounted payment processing rates, helping reduce the cost of..."
+    },
+    {
+      "title": "Reconciling Stripe Payments, Processing Fees, and Radar Charges in DonorDock",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/reconciling-stripe-payments-processing-fees-and-radar-charges-in-donordock-G0EXRj5JYJ/Steps/6068199",
+      "category": "Topics > Forms > Online Giving",
+      "summary": "Reconciling Stripe Payments, Processing Fees, and Radar Charges in DonorDock\n10/28/2026\nOnline Giving\nRadar\nStripe\n+\n3\nWhen your organization accepts donations through DonorDock using Stripe, there..."
     },
     {
       "title": "Outreach Forms Overview 💜",
