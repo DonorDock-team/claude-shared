@@ -2,8 +2,8 @@
   "help_center": {
     "name": "DonorDock Help Center",
     "base_url": "https://helpcenter.donordock.com",
-    "scraped_at": "2026-10-30T14:08:24Z",
-    "total_articles": 346,
+    "scraped_at": "2026-11-06T15:09:16Z",
+    "total_articles": 353,
     "total_categories": 25,
     "format": "compact"
   },
@@ -32,6 +32,7 @@
       "Updating a Stripe Subscription to DonorDock Product"
     ],
     "Product Updates": [
+      "Product Updates 10.30.2026",
       "Product Updates 10.24.2026",
       "Product Updates 10.10.2026",
       "Product Updates 9.24.2026",
@@ -132,6 +133,7 @@
     ],
     "Topics > Reporting": [
       "Reporting Overview 💜",
+      "DonorDock Dashboards Overview 💜",
       "Creating a Report",
       "Contact Reports",
       "Gift Reports",
@@ -140,7 +142,11 @@
       "Saving and Managing Custom Reports",
       "Exporting Report Data",
       "Taking Bulk Actions from Reports",
-      "Reports Dashboard",
+      "Fundraising Dashboard",
+      "Campaign Dashboard",
+      "Ask Pipeline Dashboard",
+      "Forecast Dashboard",
+      "Recurring Giving Dashboard",
       "Reporting on DAFpay Gifts in DonorDock",
       "End of Year Gift Reporting",
       "Birthdays in Reports",
@@ -153,7 +159,6 @@
       "Navigating to an Activity record from an Activity Report",
       "Running a Top Donor Report in DonorDock",
       "Email Statistic Reports",
-      "Campaign Report Dashboard",
       "Donor Retention Rates in DonorDock",
       "Reporting on Household Giving"
     ],
@@ -269,7 +274,8 @@
       "Setting Email Options for Receipts",
       "Best Practices for Donation Receipting When Using DonorDock with an Online Fundraising Platform",
       "Sending Receipts in Bulk from Reports",
-      "Sending Individual Receipt Activities"
+      "Sending Individual Receipt Activities",
+      "Contribution Statement History and Tracking"
     ],
     "Topics > Donor Communications > Emails": [
       "Email Outreach Overview 💜",
@@ -382,7 +388,8 @@
       "Online Giving Page Examples",
       "Designate Online Gifts to Funds",
       "Stripe Processing Fees and Nonprofit Pricing",
-      "Reconciling Stripe Payments, Processing Fees, and Radar Charges in DonorDock"
+      "Reconciling Stripe Payments, Processing Fees, and Radar Charges in DonorDock",
+      "Understanding the Donor Portal"
     ],
     "Topics > Forms > Outreach Forms": [
       "Outreach Forms Overview 💜",
@@ -440,7 +447,7 @@
       "title": "Contribution Statements",
       "url": "https://helpcenter.donordock.com/kb/guide/en/contribution-statements-jA3o2p6sbp/Steps/3073150",
       "category": "Home",
-      "summary": "Contribution Statements in DonorDock\n8/27/2026\nAnnual Statements\nContribution Statements\nEOY\nReporting\nStatements\n+\n5\nSending annual Contribution Statements is an important part of donor engagement."
+      "summary": "Contribution Statements in DonorDock\n10/31/2026\nAnnual Statements\nContribution Statements\nEOY\nReporting\nStatements\n+\n5\nSending annual Contribution Statements is an important part of donor engagement."
     },
     {
       "title": "DonorDock and Zapier Overview 💜",
@@ -519,6 +526,12 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/updating-a-stripe-subscription-to-donordock-product-7UytIgsctY/Steps/6020332",
       "category": "Video Guides",
       "summary": "Updating a Stripe Subscription to DonorDock Product\n9/30/2026\nImports\nMigrations\nTraining Video\nvideo\n+\n4\nThis video walks through updating an existing recurring subscription in Stripe so it uses..."
+    },
+    {
+      "title": "Product Updates 10.30.2026",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-10-30-2026-IPSQ9aF6c4/Steps/6071688",
+      "category": "Product Updates",
+      "summary": "Product Updates 10.30.2026\n10/31/2026\nRelease Notes\n+\n1\nNew features & improvements\nDonor Portal: an all-new home for your donors\nThe new Donor Portal is here! DonorDock now gives donors their own..."
     },
     {
       "title": "Product Updates 10.24.2026",
@@ -1049,6 +1062,12 @@
       "summary": "Reporting Overview\n10/9/2026\nReporting\nReports\n+\n2\nDonorDock's reporting tools help you understand the information your organization is tracking and turn that data into useful insights."
     },
     {
+      "title": "DonorDock Dashboards Overview 💜",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/donordock-dashboards-overview-FpTOVdGtQS/Steps/1116385",
+      "category": "Topics > Reporting",
+      "summary": "DonorDock Dashboards Overview\n11/5/2026\nDashboard\nReporting\nReports\n+\n3\nDonorDock Dashboards provide visual summaries of fundraising, donor, pipeline, forecast, and recurring giving information."
+    },
+    {
       "title": "Creating a Report",
       "url": "https://helpcenter.donordock.com/kb/guide/en/creating-a-report-N3POapHZqT/Steps/6030600",
       "category": "Topics > Reporting",
@@ -1097,10 +1116,34 @@
       "summary": "Taking Bulk Actions from Reports\n10/9/2026\nActivities\nReporting\nReports\n+\n3\nReports in DonorDock are not limited to viewing and analyzing information."
     },
     {
-      "title": "Reports Dashboard",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/reports-dashboard-FpTOVdGtQS/Steps/1116385",
+      "title": "Fundraising Dashboard",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/fundraising-dashboard-iQHv3E2Atr/Steps/4572523",
       "category": "Topics > Reporting",
-      "summary": "Dashboard\nDashboard\nReporting\nReports\n+\n3\nThe Dashboard may be access by clicking the DonorDock Logo in the top left of DonorDock, or navigating to\nReporting\n>\nDashboard\n."
+      "summary": "Fundraising Dashboard\n11/5/2026\nDashboard\nReporting\nReports\n+\n3\nThe\n\"Fundraising Dashboard\"\nprovides a broad view of your organization's fundraising and donor performance."
+    },
+    {
+      "title": "Campaign Dashboard",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/campaign-dashboard-fYAxfxpnxd/Steps/6082259",
+      "category": "Topics > Reporting",
+      "summary": "Campaign Dashboard\n11/5/2026\nCampaigns\nDashboard\nReporting\nReports\n+\n4\nThe\n\"Campaign Dashboard\"\nprovides a view of fundraising performance at the Campaign level."
+    },
+    {
+      "title": "Ask Pipeline Dashboard",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/ask-pipeline-dashboard-KzvAPLCt0W/Steps/6082260",
+      "category": "Topics > Reporting",
+      "summary": "Ask Pipeline Dashboard\n11/5/2026\nAskBoard\nAsks\nDashboard\nReporting\nReports\n+\n5\nThe\n\"Ask Pipeline Dashboard\"\nprovides a high-level view of the fundraising opportunities being tracked on your Ask..."
+    },
+    {
+      "title": "Forecast Dashboard",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/forecast-dashboard-rIj5xP8V4j/Steps/6082261",
+      "category": "Topics > Reporting",
+      "summary": "Forecast Dashboard\n11/5/2026\nDashboard\nReporting\nReports\n+\n3\nThe\n\"Forecast Dashboard\"\nbrings together several types of current and future fundraising activity to help you understand what your..."
+    },
+    {
+      "title": "Recurring Giving Dashboard",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/recurring-giving-dashboard-4ylD34Q9tC/Steps/6082262",
+      "category": "Topics > Reporting",
+      "summary": "Recurring Giving Dashboard\n11/5/2026\nDashboard\nRecurring Donations\nRecurring Donors\nRecurring Subscriptions\nReporting\nReports\n+\n6\nThe\n\"Recurring Giving Dashboard\"\nprovides a focused view of your..."
     },
     {
       "title": "Reporting on DAFpay Gifts in DonorDock",
@@ -1173,12 +1216,6 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/email-statistic-reports-3EPQDXuLGE/Steps/1227189",
       "category": "Topics > Reporting",
       "summary": "Email Statistic Reports\nActivities\n+\n1\nDonorDock allows you to view statistics on email opens and clicks, and view reports on specific emails, groups of emails or more."
-    },
-    {
-      "title": "Campaign Report Dashboard",
-      "url": "https://helpcenter.donordock.com/kb/guide/en/campaign-report-dashboard-iQHv3E2Atr/Steps/4572523",
-      "category": "Topics > Reporting",
-      "summary": "Campaign Report Dashboard\nThe Campaign Dashboard in DonorDock’s Reporting section gives you a clear and insightful way to compare and track the performance of your fundraising campaigns."
     },
     {
       "title": "Donor Retention Rates in DonorDock",
@@ -1779,6 +1816,12 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/sending-individual-receipt-activities-i2ktclQlhv/Steps/1138027",
       "category": "Topics > Donor Communications > Receipts",
       "summary": "Creating Individual Receipt Activities\n8/27/2026\nActivities\nGifts\nReceipts\nTransactions\n+\n4\nReceipts in DonorDock are created from Transactional Templates and can be generated either from a list of..."
+    },
+    {
+      "title": "Contribution Statement History and Tracking",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/contribution-statement-history-and-tracking-soLnG3eY0w/Steps/6071931",
+      "category": "Topics > Donor Communications > Receipts",
+      "summary": "Contribution Statement History and Tracking\n11/2/2026\nAnnual Statements\nContribution Statements\nEOY\nReporting\nStatements\n+\n5\nStatement History lets you review previous Contribution and In-Kind..."
     },
     {
       "title": "Email Outreach Overview 💜",
@@ -2387,10 +2430,16 @@
       "summary": "Reconciling Stripe Payments, Processing Fees, and Radar Charges in DonorDock\n10/28/2026\nOnline Giving\nRadar\nStripe\n+\n3\nWhen your organization accepts donations through DonorDock using Stripe, there..."
     },
     {
+      "title": "Understanding the Donor Portal",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/understanding-the-donor-portal-VLdG3ljpeS/Steps/6070882",
+      "category": "Topics > Forms > Online Giving",
+      "summary": "Understanding the Donor Portal\n10/30/2026\nContacts\nOnline Giving\n+\n2\nThe Donor Portal gives your donors a convenient, secure place to view their giving history, download receipts and contribution..."
+    },
+    {
       "title": "Outreach Forms Overview 💜",
       "url": "https://helpcenter.donordock.com/kb/guide/en/outreach-forms-overview-4iZpcNZU0R/Steps/1116357",
       "category": "Topics > Forms > Outreach Forms",
-      "summary": "Outreach Forms Overview\n10/1/2026\nForms\nOutreach\nSign Up Forms\n+\n3\nOutreach Forms allow your organization to collect information from supporters without requiring payment."
+      "summary": "Outreach Forms Overview\n11/5/2026\nForms\nOutreach\nSign Up Forms\n+\n3\nOutreach Forms allow your organization to collect information from supporters without requiring payment."
     },
     {
       "title": "Create and Configure an Outreach Form",
