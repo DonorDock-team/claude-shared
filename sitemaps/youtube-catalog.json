@@ -1,19 +1,19 @@
 {
   "youtube": {
-    "scraped_at": "2026-11-06T17:07:39.722391Z",
-    "total_videos": 197,
+    "scraped_at": "2026-11-13T17:07:34.999009Z",
+    "total_videos": 200,
     "channels": {
       "donordock": {
         "name": "DonorDock",
         "handle": "@donordock",
         "url": "https://www.youtube.com/@donordock",
-        "video_count": 93
+        "video_count": 95
       },
       "fundraisinglab": {
         "name": "Fundraising Lab",
         "handle": "@FundraisingLab",
         "url": "https://www.youtube.com/@FundraisingLab",
-        "video_count": 104
+        "video_count": 105
       },
       "external": {
         "name": "External appearances",
@@ -35,6 +35,51 @@
     ]
   },
   "videos": [
+    {
+      "id": "kg-baS4PTUU",
+      "title": "Plan Your Fundraising Week with AI Before You Open Email | DonorDock MCP",
+      "description": "Today's hat: development director.\n\nMost Mondays start in the inbox, and by the time you dig out, the week has decided what you're working on. In this episode, Rob Burke asks Claude for a Monday brief",
+      "channel": "donordock",
+      "published_at": "2026-11-13T16:14:50Z",
+      "type": "video",
+      "duration_seconds": 113,
+      "category": "feature-highlight",
+      "people": [
+        "Rob Burke"
+      ],
+      "url": "https://www.youtube.com/watch?v=kg-baS4PTUU",
+      "thumbnail": "https://i.ytimg.com/vi/kg-baS4PTUU/hqdefault.jpg"
+    },
+    {
+      "id": "tn1UtktNilY",
+      "title": "Meet the DonorDock MCP: Your Donor Data, Inside the AI You Use",
+      "description": "Nonprofit teams wear a lot of hats. This series takes one hat at a time and shows how the DonorDock MCP makes that job lighter.\n\nIn this first episode, Rob Burke gives the quick tour. The DonorDock MC",
+      "channel": "donordock",
+      "published_at": "2026-11-13T16:14:46Z",
+      "type": "video",
+      "duration_seconds": 195,
+      "category": "feature-highlight",
+      "people": [
+        "Rob Burke"
+      ],
+      "url": "https://www.youtube.com/watch?v=tn1UtktNilY",
+      "thumbnail": "https://i.ytimg.com/vi/tn1UtktNilY/hqdefault.jpg"
+    },
+    {
+      "id": "5RikE-93CWw",
+      "title": "A $365K Weekend Run by One Part-Time Staffer | Paula Florczykowski",
+      "description": "Paula Florczykowski never planned to run a nonprofit. When her son Finn was diagnosed with Duchenne muscular dystrophy, a rare and fatal muscle disease, before his first birthday, she and her husband ",
+      "channel": "fundraisinglab",
+      "published_at": "2026-11-10T14:00:04Z",
+      "type": "video",
+      "duration_seconds": 1412,
+      "category": "the-focused-fundraiser",
+      "people": [
+        "Rob Burke"
+      ],
+      "url": "https://www.youtube.com/watch?v=5RikE-93CWw",
+      "thumbnail": "https://i.ytimg.com/vi/5RikE-93CWw/hqdefault.jpg"
+    },
     {
       "id": "4GvByBl2hJM",
       "title": "Nonprofit Donation Pages: Best Practices, Tracking, and Conversion Rates | DonorDock Deep Dive",
@@ -514,17 +559,17 @@
       "thumbnail": "https://i.ytimg.com/vi/wdp1tjLyQH4/hqdefault.jpg"
     },
     {
-      "id": "L74s0XC_RRE",
-      "title": "DonorDock 101: Automations",
-      "description": "Set it up once and let DonorDock work for you. This module shows you how automations and donor journeys take the manual, repetitive work off your plate.\n\nWe'll break down how automations work, trigger",
+      "id": "WXeqlpQc31Y",
+      "title": "DonorDock 101: Contacts",
+      "description": "Your donors are the heart of your work, and in DonorDock they all live in one place. This module shows you how to manage contacts from start to finish.\n\nWe'll add a new contact, keep your database cle",
       "channel": "donordock",
       "published_at": "2026-07-13T14:47:15Z",
       "type": "video",
-      "duration_seconds": 756,
+      "duration_seconds": 1257,
       "category": "training",
       "people": [],
-      "url": "https://www.youtube.com/watch?v=L74s0XC_RRE",
-      "thumbnail": "https://i.ytimg.com/vi/L74s0XC_RRE/hqdefault.jpg"
+      "url": "https://www.youtube.com/watch?v=WXeqlpQc31Y",
+      "thumbnail": "https://i.ytimg.com/vi/WXeqlpQc31Y/hqdefault.jpg"
     },
     {
       "id": "pPEIOZUFjeE",
@@ -540,6 +585,19 @@
       "thumbnail": "https://i.ytimg.com/vi/pPEIOZUFjeE/hqdefault.jpg"
     },
     {
+      "id": "L74s0XC_RRE",
+      "title": "DonorDock 101: Automations",
+      "description": "Set it up once and let DonorDock work for you. This module shows you how automations and donor journeys take the manual, repetitive work off your plate.\n\nWe'll break down how automations work, trigger",
+      "channel": "donordock",
+      "published_at": "2026-07-13T14:47:15Z",
+      "type": "video",
+      "duration_seconds": 756,
+      "category": "training",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=L74s0XC_RRE",
+      "thumbnail": "https://i.ytimg.com/vi/L74s0XC_RRE/hqdefault.jpg"
+    },
+    {
       "id": "KRY3BxA29qc",
       "title": "DonorDock 101: Reporting",
       "description": "If you can get the information into DonorDock, you can get it back out. This module shows you how to turn your data into reports and dashboards that help you make decisions.\n\nWe'll run contact, gift, ",
@@ -551,19 +609,6 @@
       "people": [],
       "url": "https://www.youtube.com/watch?v=KRY3BxA29qc",
       "thumbnail": "https://i.ytimg.com/vi/KRY3BxA29qc/hqdefault.jpg"
-    },
-    {
-      "id": "WXeqlpQc31Y",
-      "title": "DonorDock 101: Contacts",
-      "description": "Your donors are the heart of your work, and in DonorDock they all live in one place. This module shows you how to manage contacts from start to finish.\n\nWe'll add a new contact, keep your database cle",
-      "channel": "donordock",
-      "published_at": "2026-07-13T14:47:15Z",
-      "type": "video",
-      "duration_seconds": 1257,
-      "category": "training",
-      "people": [],
-      "url": "https://www.youtube.com/watch?v=WXeqlpQc31Y",
-      "thumbnail": "https://i.ytimg.com/vi/WXeqlpQc31Y/hqdefault.jpg"
     },
     {
       "id": "KJBJfHQT3oA",
