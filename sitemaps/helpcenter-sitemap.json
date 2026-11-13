@@ -2,8 +2,8 @@
   "help_center": {
     "name": "DonorDock Help Center",
     "base_url": "https://helpcenter.donordock.com",
-    "scraped_at": "2026-11-06T15:09:16Z",
-    "total_articles": 353,
+    "scraped_at": "2026-11-13T15:11:59Z",
+    "total_articles": 355,
     "total_categories": 25,
     "format": "compact"
   },
@@ -32,6 +32,7 @@
       "Updating a Stripe Subscription to DonorDock Product"
     ],
     "Product Updates": [
+      "Product Updates 11.07.2026",
       "Product Updates 10.30.2026",
       "Product Updates 10.24.2026",
       "Product Updates 10.10.2026",
@@ -275,7 +276,8 @@
       "Best Practices for Donation Receipting When Using DonorDock with an Online Fundraising Platform",
       "Sending Receipts in Bulk from Reports",
       "Sending Individual Receipt Activities",
-      "Contribution Statement History and Tracking"
+      "Contribution Statement History and Tracking",
+      "Customize Contribution Statements and End-of-Year Messages"
     ],
     "Topics > Donor Communications > Emails": [
       "Email Outreach Overview 💜",
@@ -447,7 +449,7 @@
       "title": "Contribution Statements",
       "url": "https://helpcenter.donordock.com/kb/guide/en/contribution-statements-jA3o2p6sbp/Steps/3073150",
       "category": "Home",
-      "summary": "Contribution Statements in DonorDock\n10/31/2026\nAnnual Statements\nContribution Statements\nEOY\nReporting\nStatements\n+\n5\nSending annual Contribution Statements is an important part of donor engagement."
+      "summary": "Contribution Statements in DonorDock\n11/12/2026\nAnnual Statements\nContribution Statements\nEOY\nReporting\nStatements\n+\n5\nSending annual Contribution Statements is an important part of donor engagement."
     },
     {
       "title": "DonorDock and Zapier Overview 💜",
@@ -526,6 +528,12 @@
       "url": "https://helpcenter.donordock.com/kb/guide/en/updating-a-stripe-subscription-to-donordock-product-7UytIgsctY/Steps/6020332",
       "category": "Video Guides",
       "summary": "Updating a Stripe Subscription to DonorDock Product\n9/30/2026\nImports\nMigrations\nTraining Video\nvideo\n+\n4\nThis video walks through updating an existing recurring subscription in Stripe so it uses..."
+    },
+    {
+      "title": "Product Updates 11.07.2026",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/product-updates-11-07-2026-jnMLuwt2c2/Steps/6089517",
+      "category": "Product Updates",
+      "summary": "Product Updates 11.07.2026\n11/10/2026\nRelease Notes\n+\n1\nNew features & improvements\nContribution Statements: full-page templates with a Gift Table merge tag\nContribution Statements can now use a..."
     },
     {
       "title": "Product Updates 10.30.2026",
@@ -819,7 +827,7 @@
       "title": "Custom Fields Overview 💜",
       "url": "https://helpcenter.donordock.com/kb/guide/en/custom-fields-overview-BGRaklPDZU/Steps/4238566",
       "category": "Topics > Custom Fields",
-      "summary": "Custom Fields Overview\n8/18/2026\nActivities\nContacts\nCustom Fields\nGifts\nSign Up Forms\n+\n5\nCustom fields let your organization collect and store additional information specific to your workflows."
+      "summary": "Custom Fields Overview\n11/9/2026\nActivities\nContacts\nCustom Fields\nGifts\nSign Up Forms\n+\n5\nCustom fields let your organization collect and store additional information specific to your workflows."
     },
     {
       "title": "Add Custom Fields to Signup Forms",
@@ -1824,6 +1832,12 @@
       "summary": "Contribution Statement History and Tracking\n11/2/2026\nAnnual Statements\nContribution Statements\nEOY\nReporting\nStatements\n+\n5\nStatement History lets you review previous Contribution and In-Kind..."
     },
     {
+      "title": "Customize Contribution Statements and End-of-Year Messages",
+      "url": "https://helpcenter.donordock.com/kb/guide/en/customize-contribution-statements-and-end-of-year-messages-UEzqwmKzeu/Steps/6095487",
+      "category": "Topics > Donor Communications > Receipts",
+      "summary": "Customize Contribution Statements and End-of-Year Messages\n11/12/2026\nAnnual Statements\nContribution Statements\nEOY\nReporting\nStatements\n+\n5\nDonorDock provides several ways to customize year-end..."
+    },
+    {
       "title": "Email Outreach Overview 💜",
       "url": "https://helpcenter.donordock.com/kb/guide/en/email-outreach-overview-B2NiLiJpeE/Steps/1361449",
       "category": "Topics > Donor Communications > Emails",
@@ -2067,7 +2081,7 @@
       "title": "Merge Tag Reference Table",
       "url": "https://helpcenter.donordock.com/kb/guide/en/merge-tag-reference-table-rZ52WLvYtm/Steps/2544907",
       "category": "Topics > Donor Communications > Templates",
-      "summary": "Merge Tag Reference Table\n9/18/2026\nMerge Tags\nSystem Fields\n+\n2\nMerge tags act as placeholders for information stored in DonorDock."
+      "summary": "Merge Tag Reference Table\n11/10/2026\nMerge Tags\nSystem Fields\n+\n2\nMerge tags act as placeholders for information stored in DonorDock."
     },
     {
       "title": "Using the DonorDock Template Editor",
