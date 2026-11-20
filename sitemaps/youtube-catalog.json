@@ -1,7 +1,7 @@
 {
   "youtube": {
-    "scraped_at": "2026-11-13T17:07:34.999009Z",
-    "total_videos": 200,
+    "scraped_at": "2026-11-20T17:07:35.533113Z",
+    "total_videos": 202,
     "channels": {
       "donordock": {
         "name": "DonorDock",
@@ -13,7 +13,7 @@
         "name": "Fundraising Lab",
         "handle": "@FundraisingLab",
         "url": "https://www.youtube.com/@FundraisingLab",
-        "video_count": 105
+        "video_count": 107
       },
       "external": {
         "name": "External appearances",
@@ -35,6 +35,34 @@
     ]
   },
   "videos": [
+    {
+      "id": "C3cfliAie3g",
+      "title": "Tell Your Story at Dinner, Not Just at the Gala",
+      "description": "Paula and her husband Dan tell their son Finn's story everywhere they can: business dinners, networking events, even waiting at the airport.\n\nPaula's advice: never stop telling your story. And when so",
+      "channel": "fundraisinglab",
+      "published_at": "2026-11-18T16:06:39Z",
+      "type": "video",
+      "duration_seconds": 63,
+      "category": "the-focused-fundraiser",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=C3cfliAie3g",
+      "thumbnail": "https://i.ytimg.com/vi/C3cfliAie3g/hqdefault.jpg"
+    },
+    {
+      "id": "MkIePVImVQM",
+      "title": "Mind, Body, Spirit: 3 Dojo Habits for Fundraisers Under Pressure | Lennox Brown",
+      "description": "Lennox Brown's martial arts nonprofit started in a friend's garage. It rented for about $40 a month and opened right onto the sidewalk, so people kept wandering in. Today Lennox leads the Community Do",
+      "channel": "fundraisinglab",
+      "published_at": "2026-11-17T14:00:17Z",
+      "type": "video",
+      "duration_seconds": 796,
+      "category": "the-focused-fundraiser",
+      "people": [
+        "Rob Burke"
+      ],
+      "url": "https://www.youtube.com/watch?v=MkIePVImVQM",
+      "thumbnail": "https://i.ytimg.com/vi/MkIePVImVQM/hqdefault.jpg"
+    },
     {
       "id": "kg-baS4PTUU",
       "title": "Plan Your Fundraising Week with AI Before You Open Email | DonorDock MCP",
@@ -559,6 +587,19 @@
       "thumbnail": "https://i.ytimg.com/vi/wdp1tjLyQH4/hqdefault.jpg"
     },
     {
+      "id": "KRY3BxA29qc",
+      "title": "DonorDock 101: Reporting",
+      "description": "If you can get the information into DonorDock, you can get it back out. This module shows you how to turn your data into reports and dashboards that help you make decisions.\n\nWe'll run contact, gift, ",
+      "channel": "donordock",
+      "published_at": "2026-07-13T14:47:15Z",
+      "type": "video",
+      "duration_seconds": 481,
+      "category": "training",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=KRY3BxA29qc",
+      "thumbnail": "https://i.ytimg.com/vi/KRY3BxA29qc/hqdefault.jpg"
+    },
+    {
       "id": "WXeqlpQc31Y",
       "title": "DonorDock 101: Contacts",
       "description": "Your donors are the heart of your work, and in DonorDock they all live in one place. This module shows you how to manage contacts from start to finish.\n\nWe'll add a new contact, keep your database cle",
@@ -570,6 +611,19 @@
       "people": [],
       "url": "https://www.youtube.com/watch?v=WXeqlpQc31Y",
       "thumbnail": "https://i.ytimg.com/vi/WXeqlpQc31Y/hqdefault.jpg"
+    },
+    {
+      "id": "KJBJfHQT3oA",
+      "title": "DonorDock 101: Gifts",
+      "description": "Every gift tells a story, and DonorDock helps you track all of it in one place. This module is your complete tour of gifts, from a single donation to pledges, batches, and online giving.\n\nWe'll walk t",
+      "channel": "donordock",
+      "published_at": "2026-07-13T14:47:15Z",
+      "type": "video",
+      "duration_seconds": 1557,
+      "category": "training",
+      "people": [],
+      "url": "https://www.youtube.com/watch?v=KJBJfHQT3oA",
+      "thumbnail": "https://i.ytimg.com/vi/KJBJfHQT3oA/hqdefault.jpg"
     },
     {
       "id": "pPEIOZUFjeE",
@@ -596,32 +650,6 @@
       "people": [],
       "url": "https://www.youtube.com/watch?v=L74s0XC_RRE",
       "thumbnail": "https://i.ytimg.com/vi/L74s0XC_RRE/hqdefault.jpg"
-    },
-    {
-      "id": "KRY3BxA29qc",
-      "title": "DonorDock 101: Reporting",
-      "description": "If you can get the information into DonorDock, you can get it back out. This module shows you how to turn your data into reports and dashboards that help you make decisions.\n\nWe'll run contact, gift, ",
-      "channel": "donordock",
-      "published_at": "2026-07-13T14:47:15Z",
-      "type": "video",
-      "duration_seconds": 481,
-      "category": "training",
-      "people": [],
-      "url": "https://www.youtube.com/watch?v=KRY3BxA29qc",
-      "thumbnail": "https://i.ytimg.com/vi/KRY3BxA29qc/hqdefault.jpg"
-    },
-    {
-      "id": "KJBJfHQT3oA",
-      "title": "DonorDock 101: Gifts",
-      "description": "Every gift tells a story, and DonorDock helps you track all of it in one place. This module is your complete tour of gifts, from a single donation to pledges, batches, and online giving.\n\nWe'll walk t",
-      "channel": "donordock",
-      "published_at": "2026-07-13T14:47:15Z",
-      "type": "video",
-      "duration_seconds": 1557,
-      "category": "training",
-      "people": [],
-      "url": "https://www.youtube.com/watch?v=KJBJfHQT3oA",
-      "thumbnail": "https://i.ytimg.com/vi/KJBJfHQT3oA/hqdefault.jpg"
     },
     {
       "id": "bFNJf6CWvPc",
